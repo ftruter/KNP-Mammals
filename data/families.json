@@ -1,0 +1,731 @@
+[
+  {
+    "slug": "chrysochloridae",
+    "latin": "Chrysochloridae",
+    "en": "Golden moles",
+    "af": "gouemolle",
+    "order": "Afrosoricida",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Chrysochloridae, with Yellow golden mole and Juliana's golden mole. iNaturalist place 69020 has at least one observation in this family. English name from iNaturalist taxa; Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/taxa",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "SANParks listed this family after Erinaceidae with no separate order header (then under Insectivora). Order Afrosoricida is from iNaturalist and af.wikipedia. iNaturalist observation count in the place is very low (1 descendant observation in the taxonomy pull)."
+    ]
+  },
+  {
+    "slug": "macroscelididae",
+    "latin": "Macroscelididae",
+    "en": "Elephant shrews",
+    "af": "klaasneuse",
+    "order": "Macroscelidea",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Macroscelidea: Macroscelididae, with Petrodromus tetradactylus and two Elephantulus species. iNaturalist place 69020 has research-grade observations of all three. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Sengis'); Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "af.wikipedia also uses the older order spelling Macroscelidae; the family name stored is Macroscelididae, as on the SANParks checklist and in iNaturalist."
+    ]
+  },
+  {
+    "slug": "orycteropodidae",
+    "latin": "Orycteropodidae",
+    "en": "Aardvarks",
+    "af": null,
+    "order": "Tubulidentata",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Tubulidentata: Orycteropodidae, with Orycteropus afer. iNaturalist place 69020 has research-grade observations of that species. English heading from Waterberg Bioquest and iNaturalist.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia names the species (erdvark) but not a family vernacular."
+    ]
+  },
+  {
+    "slug": "procaviidae",
+    "latin": "Procaviidae",
+    "en": "Dassies or hyraxes",
+    "af": "dassies",
+    "order": "Hyracoidea",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Hyracoidea: Procaviidae, with rock dassie and yellow-spotted rock dassie. iNaturalist place 69020 has research-grade observations of Procavia capensis and Heterohyrax brucei. English heading from Waterberg Bioquest. Afrikaans 'dassies' is the order vernacular on af.wikipedia (Hyracoidea), which contains only this family in the region.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "Afrikaans name is the af.wikipedia order vernacular, not a separately labelled family heading; stored because this is the only family of that order in the source."
+    ]
+  },
+  {
+    "slug": "elephantidae",
+    "latin": "Elephantidae",
+    "en": "Elephants",
+    "af": null,
+    "order": "Proboscidea",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Proboscidea: Elephantidae, with Loxodonta africana. iNaturalist place 69020 has thousands of research-grade observations of that species. English heading from Waterberg Bioquest and iNaturalist.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one."
+    ]
+  },
+  {
+    "slug": "erinaceidae",
+    "latin": "Erinaceidae",
+    "en": "Hedgehogs",
+    "af": null,
+    "order": "Eulipotyphla",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Erinaceidae, with South African hedgehog (Atelerix frontalis). English heading 'Hedgehogs' from Waterberg Bioquest (iNaturalist preferred name is 'Hedgehogs and Gymnures').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://api.inaturalist.org/v1/taxa"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "SANParks listed this family under the outdated order Insectivora. Order used here is from iNaturalist taxonomy (place 69020) and af.wikipedia.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No iNaturalist observations of this family in place 69020 in the taxonomy pull; inclusion is the official checklist only."
+    ]
+  },
+  {
+    "slug": "soricidae",
+    "latin": "Soricidae",
+    "en": "Shrews",
+    "af": "skeerbekmuise",
+    "order": "Eulipotyphla",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) under Insectivora: Soricidae, with six species. iNaturalist place 69020 has observations in this family. English heading from Waterberg Bioquest and iNaturalist; Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "SANParks listed this family under the outdated order Insectivora. Order used here is from iNaturalist taxonomy (place 69020) and af.wikipedia."
+    ]
+  },
+  {
+    "slug": "emballonuridae",
+    "latin": "Emballonuridae",
+    "en": "Sheath-tailed bats",
+    "af": null,
+    "order": "Chiroptera",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Microchiroptera: Emballonuridae, with Taphozous mauritianus. iNaturalist place 69020 has research-grade observations of that species. English heading from Waterberg Bioquest and iNaturalist.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one."
+    ]
+  },
+  {
+    "slug": "hipposideridae",
+    "latin": "Hipposideridae",
+    "en": "Old World leaf-nosed bats",
+    "af": "bladneusvlermuise",
+    "order": "Chiroptera",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Hipposideridae, with Hipposideros caffer and H. commersoni. iNaturalist place 69020 has research-grade observations of H. caffer. English name from iNaturalist; Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://api.inaturalist.org/v1/taxa",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "Waterberg Bioquest lumps this family with Rhinolophidae under one English heading."
+    ]
+  },
+  {
+    "slug": "miniopteridae",
+    "latin": "Miniopteridae",
+    "en": "Bent-winged bats",
+    "af": null,
+    "order": "Chiroptera",
+    "inclusionEvidence": "Not printed as a family heading on the SANParks KNP checklist. Miniopterus schreibersii is listed there under Vespertilionidae. iNaturalist taxonomy treats Miniopteridae as a separate family and records observations in place 69020 (2 descendant observations in the taxonomy pull, none at species rank in the research-grade species-counts pull).",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/taxa"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "Taxonomic remap: SANParks Vespertilionidae (Miniopterus schreibersii) to Miniopteridae, following iNaturalist. Research-grade species-level observations were not present in the species-counts pull."
+    ]
+  },
+  {
+    "slug": "molossidae",
+    "latin": "Molossidae",
+    "en": "Free-tailed bats",
+    "af": "losstertvlermuis",
+    "order": "Chiroptera",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Molossidae, with six species. iNaturalist place 69020 has observations in this family, including a research-grade record of Mops pumilus. English heading from Waterberg Bioquest and iNaturalist; Afrikaans name from af.wikipedia, given there in the singular ('losstertvlermuis').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "af.wikipedia gives the family vernacular in the singular; it was stored as written rather than pluralised."
+    ]
+  },
+  {
+    "slug": "nycteridae",
+    "latin": "Nycteridae",
+    "en": "Slit-faced bats",
+    "af": "spleetgesigvlermuise",
+    "order": "Chiroptera",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Nycteridae, with Nycteris thebaica and N. woodi. iNaturalist place 69020 has research-grade observations of N. thebaica. English heading from Waterberg Bioquest and iNaturalist; Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment."
+    ]
+  },
+  {
+    "slug": "pteropodidae",
+    "latin": "Pteropodidae",
+    "en": "Fruit bats",
+    "af": "vrugtevlermuise",
+    "order": "Chiroptera",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Chiroptera, Megachiroptera: Pteropodidae (Epomophorus and Rousettus). iNaturalist place 69020 has observations in this family. English heading from Waterberg Bioquest; Afrikaans name is applied on af.wikipedia to the suborder Megachiroptera, of which the listed southern African species are all in this family.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "Afrikaans 'vrugtevlermuise' is the suborder vernacular on af.wikipedia, not a separately labelled family heading. iNaturalist also has a research-grade record of Eidolon helvum in the place; that species is not on the 2011 SANParks list (family already included)."
+    ]
+  },
+  {
+    "slug": "rhinolophidae",
+    "latin": "Rhinolophidae",
+    "en": "Horseshoe bats",
+    "af": "perdeskoenvlermuise",
+    "order": "Chiroptera",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Rhinolophidae, with eight Rhinolophus species. iNaturalist place 69020 has observations in this family. English name from iNaturalist (Waterberg lumps this family with Hipposideridae as 'Horseshoe & leaf-nosed bats'). Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/taxa",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "Waterberg Bioquest does not give a one-family English heading; it lumps Rhinolophidae and Hipposideridae."
+    ]
+  },
+  {
+    "slug": "vespertilionidae",
+    "latin": "Vespertilionidae",
+    "en": "Vesper bats",
+    "af": "aandvlermuise",
+    "order": "Chiroptera",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Vespertilionidae, with many species. iNaturalist place 69020 has research-grade observations in this family. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Evening bats'); Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "SANParks listed Miniopterus schreibersii under this family; that genus is treated as Miniopteridae in iNaturalist (recorded as a separate family in this list)."
+    ]
+  },
+  {
+    "slug": "cercopithecidae",
+    "latin": "Cercopithecidae",
+    "en": "Monkeys and baboons",
+    "af": null,
+    "order": "Primates",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Cercopithecidae, with Chacma baboon, vervet monkey and Samango monkey. iNaturalist place 69020 has many research-grade observations of Papio ursinus and Chlorocebus pygerythrus. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Old World monkeys').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "Samango / Cercopithecus mitis is on the official checklist; it did not appear in the research-grade species-counts pull for place 69020."
+    ]
+  },
+  {
+    "slug": "galagidae",
+    "latin": "Galagidae",
+    "en": "Bushbabies",
+    "af": "nagape",
+    "order": "Primates",
+    "inclusionEvidence": "The SANParks KNP checklist (Wayback 2011) lists Otolemur crassicaudatus and Galago moholi under Primates: Lorisidae. iNaturalist place 69020 places both species in Galagidae, with research-grade observations. Waterberg Bioquest uses the heading 'Bushbabies' and the spelling Galagonidae. Afrikaans 'nagape' is given on af.wikipedia for this group, still under the heading Lorisidae.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "Taxonomic remap: SANParks Lorisidae (the two galago species only; true lorises are not listed) to Galagidae, following iNaturalist. Waterberg spelling is Galagonidae. af.wikipedia still uses Lorisidae for nagape. Lorisidae is not listed as a separate KNP family."
+    ]
+  },
+  {
+    "slug": "canidae",
+    "latin": "Canidae",
+    "en": "Dogs",
+    "af": null,
+    "order": "Carnivora",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Carnivora: Canidae, with bat-eared fox, wild dog, and side-striped and black-backed jackals. iNaturalist place 69020 has research-grade observations of those wild species. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Canids').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "iNaturalist also has research-grade observations of Canis familiaris (domestic dog) in the place; that species is not on the official SANParks checklist. Flagged as domestic/introduced and not used as inclusion evidence."
+    ]
+  },
+  {
+    "slug": "felidae",
+    "latin": "Felidae",
+    "en": "Cats",
+    "af": "katfamilie",
+    "order": "Carnivora",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Felidae, with cheetah, leopard, lion, caracal, African wild cat and serval. iNaturalist place 69020 has many research-grade observations of those wild species. English heading from Waterberg Bioquest; Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "iNaturalist also has research-grade observations of Felis catus (domestic cat) in the place; that species is not on the official SANParks checklist. Flagged as domestic/introduced and not used as inclusion evidence."
+    ]
+  },
+  {
+    "slug": "herpestidae",
+    "latin": "Herpestidae",
+    "en": "Mongooses",
+    "af": null,
+    "order": "Carnivora",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Herpestidae, with eight mongoose species. iNaturalist place 69020 has research-grade observations in this family. English heading from Waterberg Bioquest and iNaturalist.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia does not treat Herpestidae as a separate family (mongooses are still under Viverridae there)."
+    ]
+  },
+  {
+    "slug": "hyaenidae",
+    "latin": "Hyaenidae",
+    "en": "Hyaenas",
+    "af": null,
+    "order": "Carnivora",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Hyaenidae, with aardwolf, brown hyaena and spotted hyaena. iNaturalist place 69020 has many observations in this family (research-grade species counts in this pull were dominated by spotted hyena). English heading from Waterberg Bioquest and iNaturalist (iNat spelling 'Hyaenas').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia still splits aardwolf as Protelidae; SANParks and iNaturalist place Proteles in Hyaenidae, so Protelidae is not listed separately. Brown hyaena and aardwolf are on the official checklist but were thin or absent in the research-grade species-counts pull."
+    ]
+  },
+  {
+    "slug": "mustelidae",
+    "latin": "Mustelidae",
+    "en": "Badgers, otters and polecats",
+    "af": "weselfamilie",
+    "order": "Carnivora",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Mustelidae, with Cape clawless otter, honey badger and striped polecat. iNaturalist place 69020 has research-grade observations in this family. English heading from Waterberg Bioquest; Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "Spotted-necked otter is on the Waterberg list but not on the SANParks KNP checklist; it was not added."
+    ]
+  },
+  {
+    "slug": "viverridae",
+    "latin": "Viverridae",
+    "en": "Civets and genets",
+    "af": null,
+    "order": "Carnivora",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Viverridae, with African civet and two genets. iNaturalist place 69020 has research-grade observations in this family. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Civets, genets, and oyans').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia still lumps mongooses into Viverridae (outdated) and does not give a usable family vernacular for the modern scope of Viverridae."
+    ]
+  },
+  {
+    "slug": "manidae",
+    "latin": "Manidae",
+    "en": "Pangolins",
+    "af": null,
+    "order": "Pholidota",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Pholidota: Manidae, with Manis temminckii. iNaturalist place 69020 has research-grade observations (Smutsia temminckii in current iNat taxonomy). English heading from Waterberg Bioquest and iNaturalist.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia names the species (ietermagô) but not a family vernacular."
+    ]
+  },
+  {
+    "slug": "equidae",
+    "latin": "Equidae",
+    "en": "Zebras",
+    "af": null,
+    "order": "Perissodactyla",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Equidae, with Burchell's zebra. iNaturalist place 69020 has many research-grade observations of Equus quagga. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Equines').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one."
+    ]
+  },
+  {
+    "slug": "rhinocerotidae",
+    "latin": "Rhinocerotidae",
+    "en": "Rhinoceroses",
+    "af": null,
+    "order": "Perissodactyla",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Perissodactyla: Rhinocerotidae, with white and black rhinoceros. iNaturalist place 69020 has research-grade observations of both. English heading from Waterberg Bioquest and iNaturalist.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one."
+    ]
+  },
+  {
+    "slug": "bovidae",
+    "latin": "Bovidae",
+    "en": "Antelopes and buffaloes",
+    "af": null,
+    "order": "Artiodactyla",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Bovidae, with a long list of antelope plus African buffalo. iNaturalist place 69020 has many research-grade observations in this family. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Bovids').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia describes the family as wildsbok species plus buffalo, which is not a single family vernacular, so af was left null. Grey rhebok, oribi, suni, red duiker and Lichtenstein's hartebeest are on the official checklist; several were absent or thinly represented in the research-grade species-counts pull."
+    ]
+  },
+  {
+    "slug": "giraffidae",
+    "latin": "Giraffidae",
+    "en": "Giraffes",
+    "af": null,
+    "order": "Artiodactyla",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Giraffidae, with giraffe. iNaturalist place 69020 has many research-grade observations (Giraffa giraffa in current iNat taxonomy). English heading from Waterberg Bioquest (iNaturalist preferred name is 'Giraffes and okapi').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia names the species (kameelperd) but not a family vernacular."
+    ]
+  },
+  {
+    "slug": "hippopotamidae",
+    "latin": "Hippopotamidae",
+    "en": "Hippopotamuses",
+    "af": null,
+    "order": "Artiodactyla",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Hippopotamidae, with Hippopotamus amphibius. iNaturalist place 69020 has many research-grade observations of that species. English heading from Waterberg Bioquest and iNaturalist.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia names the species (seekoei) but not a family vernacular."
+    ]
+  },
+  {
+    "slug": "suidae",
+    "latin": "Suidae",
+    "en": "Pigs",
+    "af": "varke",
+    "order": "Artiodactyla",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Artiodactyla: Suidae, with warthog and bushpig. iNaturalist place 69020 has research-grade observations of Phacochoerus africanus and Potamochoerus larvatus. English heading from Waterberg Bioquest; Afrikaans family name from af.wikipedia ('twee spesies varke').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment."
+    ]
+  },
+  {
+    "slug": "bathyergidae",
+    "latin": "Bathyergidae",
+    "en": "Mole-rats",
+    "af": null,
+    "order": "Rodentia",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Bathyergidae, with Cryptomys hottentotus. iNaturalist place 69020 has research-grade observations in this family (labelled Cryptomys natalensis in the species-counts pull). English heading from Waterberg Bioquest (iNaturalist preferred name is 'African molerats').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia wording for this family ('mol(rot)te') was too unclear to store as a vernacular. Species-level name in iNaturalist differs from the SANParks heading; remap deferred to the species phase."
+    ]
+  },
+  {
+    "slug": "gliridae",
+    "latin": "Gliridae",
+    "en": "Dormice",
+    "af": "waaiermuise",
+    "order": "Rodentia",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Gliridae, with Graphiurus murinus. iNaturalist place 69020 has research-grade observations of that species. English heading from Waterberg Bioquest and iNaturalist; Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment."
+    ]
+  },
+  {
+    "slug": "hystricidae",
+    "latin": "Hystricidae",
+    "en": "Porcupines",
+    "af": null,
+    "order": "Rodentia",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Hystricidae, with Hystrix africaeaustralis. iNaturalist place 69020 has research-grade observations of that species. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Old World porcupines').",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia names the species (ystervark) but not a family vernacular."
+    ]
+  },
+  {
+    "slug": "muridae",
+    "latin": "Muridae",
+    "en": "Rats and mice",
+    "af": null,
+    "order": "Rodentia",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Muridae, with a long list of rats and mice, including two introduced species marked with an asterisk (Mus musculus and Rattus rattus). After the Nesomyidae split (see that family), the remaining SANParks Muridae genera include Otomys, Tatera, Acomys, Lemniscomys, Dasymys, Grammomys, Mus, Mastomys, Thallomys, Aethomys and Rattus. iNaturalist place 69020 has research-grade observations in this family. English heading from Waterberg Bioquest.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "Introduced/domestic species flagged on the official list with an asterisk: house mouse (Mus musculus) and house/black rat (Rattus rattus). af.wikipedia lumps Cricetidae and Muridae as 'rotte, muise en nagmuise', which is not a clean family vernacular. Some SANParks genera have since been renamed (e.g. Tatera to Gerbilliscus, Aethomys namaquensis to Micaelamys); remaps deferred to the species phase."
+    ]
+  },
+  {
+    "slug": "nesomyidae",
+    "latin": "Nesomyidae",
+    "en": "Nesomyids",
+    "af": null,
+    "order": "Rodentia",
+    "inclusionEvidence": "Not printed as a family heading on the SANParks KNP checklist. The following genera on that list under Muridae are placed in Nesomyidae by iNaturalist: Cricetomys (giant rat), Saccostomus (pouched mouse), Dendromus (climbing mice) and Steatomys (fat mouse). iNaturalist place 69020 has research-grade observations of Cricetomys ansorgei and Saccostomus campestris.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://api.inaturalist.org/v1/taxa"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "Taxonomic remap: part of SANParks Muridae to Nesomyidae, following iNaturalist. English name is the iNaturalist preferred common name ('Nesomyids'), which is technical; no better cited English family heading was found. SANParks used Cricetomys gambianus; iNaturalist uses C. ansorgei for the KNP records."
+    ]
+  },
+  {
+    "slug": "pedetidae",
+    "latin": "Pedetidae",
+    "en": "Springhares",
+    "af": null,
+    "order": "Rodentia",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Pedetidae, with Pedetes capensis. iNaturalist place 69020 has research-grade observations of that species. English heading from Waterberg Bioquest and iNaturalist.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "af.wikipedia names the species (springhaas) but not a family vernacular."
+    ]
+  },
+  {
+    "slug": "sciuridae",
+    "latin": "Sciuridae",
+    "en": "Squirrels",
+    "af": "eekhorings",
+    "order": "Rodentia",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Rodentia: Sciuridae, with Paraxerus cepapi. iNaturalist place 69020 has many research-grade observations of that species. English heading from Waterberg Bioquest and iNaturalist; Afrikaans family name from af.wikipedia.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment."
+    ]
+  },
+  {
+    "slug": "thryonomyidae",
+    "latin": "Thryonomyidae",
+    "en": "Cane rats",
+    "af": "rietrotte",
+    "order": "Rodentia",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Thryonomyidae, with Thryonomys swinderianus. iNaturalist place 69020 has research-grade observations of that species. English heading from Waterberg Bioquest and iNaturalist; Afrikaans family name from af.wikipedia (which spells the Latin name Thryonomidae).",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Suider-Afrikaanse_soogdiere_en_hul_ordes"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "Latin spelling follows SANParks and iNaturalist (Thryonomyidae). af.wikipedia uses Thryonomidae."
+    ]
+  },
+  {
+    "slug": "leporidae",
+    "latin": "Leporidae",
+    "en": "Hares and rabbits",
+    "af": null,
+    "order": "Lagomorpha",
+    "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Lagomorpha: Leporidae, with Cape hare, scrub hare and Natal red rock rabbit. iNaturalist place 69020 has research-grade observations of hares. English heading from Waterberg Bioquest and iNaturalist.",
+    "sources": [
+      "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
+      "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
+      "https://waterberg-bioquest.co.za/soogdiere.html"
+    ],
+    "gaps": [
+      "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
+      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "Natal red rock rabbit is on the official checklist; it did not appear in the research-grade species-counts pull. iNaturalist also returned Lepus microtis (African savanna hare), which is not a heading on the 2011 SANParks list; species-level reconciliation is deferred."
+    ]
+  }
+]
