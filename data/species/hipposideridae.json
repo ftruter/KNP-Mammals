@@ -1,0 +1,89 @@
+{
+  "family": "Hipposideridae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Hipposideridae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (2 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only hipposideridae are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Hipposideridae"
+    },
+    {
+      "id": "inat-taxon-hipposideridae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Hipposideridae&rank=family",
+      "role": "Hipposideridae taxon id 71378"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=71378&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Hipposideridae in Kruger (place 69020); 1 species in this pull (Hipposideros caffer, 13). Hipposideros commersoni was absent from this pull."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=71378",
+      "role": "All-grade Hipposideridae taxonomy tree for place 69020; used to confirm Hipposideros caffer (13 observations of any grade at species rank, plus 1 identified only to the Hipposideros caffer complex) and the absence of H. commersoni, Macronycteris commersonii, and Macronycteris vittata"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for Macronycteris commersonii (taxon 851027) and Macronycteris vittata (taxon 851017), and for Cloeotis percivali (taxon 40777) and Rhinonycteridae (taxon 446817) as a family-level check"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded names: Hipposideros caffer, Hipposideros commersoni, Macronycteris commersoni, Macronycteris vittatus, and Cloeotis percivali; used with taxa?id=40761,851027,851017,40777,1565169,40776&all_names=true"
+    }
+  ],
+  "species": [
+    {
+      "slug": "hipposideros-caffer",
+      "latin": "Hipposideros caffer",
+      "en": "Sundevall's leaf-nosed bat",
+      "af": "Sundevall se Bladneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 13
+      },
+      "remaps": [
+        {
+          "from": "Sundevall's leaf-nosed bat",
+          "to": "Sundevall's roundleaf bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40761&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40761. The stored en value is the 2011 SANParks checklist name, with typographic spacing normalised as noted."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the English name as 'Sundevall's leaf -nosed bat' (space around the hyphen). The stored en value is Sundevall's leaf-nosed bat.",
+        "The 2011 checklist prints the Afrikaans name as 'Sundevall se Bladneusvlermuis' (capital B). The stored af value follows that spelling.",
+        "The place taxonomy tree has 13 observations of any grade at species rank (taxon 40761) and 1 further observation of any grade identified only to the Hipposideros caffer complex (taxon 1565169)."
+      ]
+    },
+    {
+      "slug": "hipposideros-commersoni",
+      "latin": "Hipposideros commersoni",
+      "en": "Commerson's leaf-nosed bat",
+      "af": "Commerson se bladneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The 2011 name, Macronycteris commersonii, and Macronycteris vittata are all absent from the place taxonomy tree.",
+        "An iNaturalist taxa search for the 2011 name matches Macronycteris commersonii (taxon 851027, preferred_common_name Commerson's Leaf-nosed Bat), which lists Hipposideros commersoni, Hipposideros commersonii, and Macronycteris commersoni as invalid scientific names. Macronycteris vittata (taxon 851017, preferred_common_name Striped leaf-nosed bat) is a separate active species; its name list does not include Hipposideros commersoni (invalid names are Macronycteris vittatus, Hipposideros vittatus, and Hipposideros marungensis). Observation total_results is 0 for both M. commersonii and M. vittata. Because it is unclear which of those taxa, if either, occurs in Kruger, and there are no Kruger records to decide it, the stored latin value is the 2011 name rather than a guessed remap."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Owner question: the 2011 name Hipposideros commersoni is listed by iNaturalist as an invalid scientific name of Macronycteris commersonii (taxon 851027), while Macronycteris vittata (taxon 851017) is a separate active species whose name list does not include the 2011 combination. Neither taxon has research-grade or any-grade observations in place 69020. The 2011 name was kept, rather than remapping to the Madagascar-associated M. commersonii or guessing M. vittata.",
+    "Rhinonycteridae / Cloeotis percivali (taxon 40777, preferred_common_name Percival's Trident Bat) still has 1 research-grade observation in place 69020 (the Rhinonycteridae family taxon 446817 has the same total). The species is not on the 2011 SANParks checklist and is not in Hipposideridae (iNaturalist parent family is Rhinonycteridae). It was not added to this file, and no rhinonycteridae.json was written.",
+    "No rare, reintroduced, or introduced flags are recorded for official Hipposideridae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

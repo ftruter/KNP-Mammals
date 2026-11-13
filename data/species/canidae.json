@@ -1,0 +1,145 @@
+{
+  "family": "Canidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Canidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (4 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only canids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Canidae"
+    },
+    {
+      "id": "inat-taxon-canidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Canidae&rank=family",
+      "role": "Canidae taxon id 42043"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=42043&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Canidae in Kruger (place 69020); 4 species in this pull (Lycaon pictus, 879; Lupulella mesomelas, 513; Lupulella adusta, 57; Canis familiaris, 2). Otocyon megalotis was absent from this pull."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=42043",
+      "role": "All-grade Canidae taxonomy tree for place 69020; used to confirm the Kruger jackal and wild-dog taxa and subspecies, the candidate Canis familiaris, and the absence of Otocyon megalotis"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for official species missing from species_counts (Otocyon megalotis, taxon 42095, 0)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps: Canis adustus, Canis mesomelas; confirmed Otocyon megalotis and Lycaon pictus as current names. Used with taxa?id=42095,42093,1210965,1210966,47144&all_names=true for current name lists."
+    }
+  ],
+  "species": [
+    {
+      "slug": "otocyon-megalotis",
+      "latin": "Otocyon megalotis",
+      "en": "Bat-eared fox",
+      "af": "Bakoorvos",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 42095 is 0). The place Canidae taxonomy tree has no observations of any grade under this name."
+      ]
+    },
+    {
+      "slug": "lycaon-pictus",
+      "latin": "Lycaon pictus",
+      "en": "Wild dog",
+      "af": "Wildehond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 879
+      },
+      "remaps": [
+        {
+          "from": "Wild dog",
+          "to": "African Wild Dog",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42093&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42093. African Hunting Dog, Painted Dog and other English names are also listed; Wild Dog is not a listed English name on this taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "lupulella-adusta",
+      "latin": "Lupulella adusta",
+      "en": "Side-striped jackal",
+      "af": "Witkwasjakkals",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 57
+      },
+      "remaps": [
+        {
+          "from": "Canis adustus",
+          "to": "Lupulella adusta",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Canis%20adustus&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Lupulella adusta (taxon 1210965, preferred_common_name Side-striped Jackal), which lists Canis adustus as an invalid scientific name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "latin": "Lupulella mesomelas",
+      "en": "Black-backed jackal",
+      "af": "Rooijakkals",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 513
+      },
+      "remaps": [
+        {
+          "from": "Canis mesomelas",
+          "to": "Lupulella mesomelas",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Canis%20mesomelas&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Lupulella mesomelas (taxon 1210966, preferred_common_name Black-backed Jackal), which lists Canis mesomelas as an invalid scientific name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "canis-familiaris",
+      "latin": "Canis familiaris",
+      "en": "Domestic Dog",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 2
+      },
+      "remaps": [],
+      "flags": [
+        "domestic"
+      ],
+      "notes": [
+        "iNaturalist-only in place 69020: 2 research-grade and 3 observations of any grade (taxon 47144; preferred_common_name Domestic Dog), including 1 observation of any grade identified as subspecies Canis familiaris familiaris (taxon 202086). Not on the 2011 SANParks Canidae list. Left in candidates, not included, and flagged as domestic."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Otocyon megalotis is on the official list but has 0 research-grade iNaturalist observations in place 69020, and is absent from the place Canidae taxonomy tree (no observations of any grade). Absence of an iNat record was not treated as absence from KNP.",
+    "Subspecies identifications of included species (Lycaon pictus pictus, Lupulella adusta adusta, Lupulella mesomelas mesomelas) were not treated as separate candidates, because the 2011 list is at species rank.",
+    "No rare, reintroduced, or introduced flags are recorded for official Canidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

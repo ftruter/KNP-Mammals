@@ -1,0 +1,125 @@
+{
+  "family": "Cercopithecidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every taxon printed under the Cercopithecidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (2 species and 1 subspecies). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only cercopithecids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Cercopithecidae"
+    },
+    {
+      "id": "inat-taxon-cercopithecidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Cercopithecidae&rank=family",
+      "role": "Cercopithecidae taxon id 43443"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=43443&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Cercopithecidae in Kruger (place 69020); 2 species in this pull (Papio ursinus, 1557; Chlorocebus pygerythrus, 1360). Cercopithecus mitis was absent from this pull (species-rank only)."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=43443",
+      "role": "All-grade Cercopithecidae taxonomy tree for place 69020; used to confirm the Kruger vervet taxon is Chlorocebus pygerythrus, to find Cercopithecus mitis with 0 research-grade records, and to find the sister subspecies C. m. albogularis"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for subspecies Cercopithecus mitis erythrarchus (taxon 147602) and C. m. albogularis (taxon 147597), for species C. mitis (taxon 43486), and for Chlorocebus aethiops (taxon 43523)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps: Chlorocebus aethiops, Cercopithecus aethiops, Cercopithecus mitis erythrarchus; searches for Chlorocebus aethiops pygerythrus and Cercopithecus aethiops pygerythrus returned 0 results; used with taxa?id=57556,68137,43486,147597,147602,43523&all_names=true for current name lists"
+    }
+  ],
+  "species": [
+    {
+      "slug": "papio-ursinus",
+      "latin": "Papio ursinus",
+      "en": "Chacma Baboon",
+      "af": "Kaapse bobbejaan",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1557
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "chlorocebus-pygerythrus",
+      "latin": "Chlorocebus pygerythrus",
+      "en": "Vervet monkey",
+      "af": "Blouaap",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1360
+      },
+      "remaps": [
+        {
+          "from": "Chlorocebus aethiops",
+          "to": "Chlorocebus pygerythrus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Chlorocebus%20aethiops&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches Chlorocebus aethiops (taxon 43523, preferred_common_name Grivet Monkey), which remains an active species and lists Cercopithecus aethiops (the synonym printed on the 2011 checklist) as an invalid scientific name. Place 69020 research-grade vervet observations are identified as Chlorocebus pygerythrus (taxon 68137, preferred_common_name Vervet Monkey, 1360); C. aethiops does not appear in the place Cercopithecidae taxonomy tree (0 research-grade observations). iNaturalist does not list Chlorocebus aethiops, or a trinomial such as Chlorocebus aethiops pygerythrus, as a scientific name of C. pygerythrus (searches for Chlorocebus aethiops pygerythrus and Cercopithecus aethiops pygerythrus returned 0 results; the C. pygerythrus name list has only Cercopithecus pygerythrus as an invalid scientific name). The Kruger taxon is stored as C. pygerythrus because that is the iNaturalist species whose preferred common name is Vervet Monkey and which has the Kruger records."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "cercopithecus-mitis-erythrarchus",
+      "latin": "Cercopithecus mitis erythrarchus",
+      "en": "Samango monkey",
+      "af": "Samango-aap",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Samango monkey",
+          "to": "White-throated Samango",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Cercopithecus%20mitis%20erythrarchus&all_names=true",
+          "note": "iNaturalist preferred_common_name for the stored subspecies (taxon 147602). Samango Monkey remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name. The parent species Cercopithecus mitis (taxon 43486) has preferred_common_name Blue Monkey."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist already lists this animal as the subspecies Cercopithecus mitis erythrarchus. The research-grade count is the subspecies total (0), not only a missing species_counts row: observation total_results for taxon 147602 is 0, and the species-level total for C. mitis (taxon 43486) is also 0.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 2 observations of any grade under Cercopithecus mitis (1 at species rank, 1 as sister subspecies C. m. albogularis). The official subspecies C. m. erythrarchus is absent from the tree."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "cercopithecus-mitis-albogularis",
+      "latin": "Cercopithecus mitis albogularis",
+      "en": "Sykes' Monkey",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only as this subspecies in place 69020: 0 research-grade and 1 observation of any grade (taxon 147597; preferred_common_name Sykes' Monkey). Not named separately on the 2011 SANParks Cercopithecidae list, which has Samango monkey as Cercopithecus mitis erythrarchus only. Left in candidates, not included, as a sister subspecies of the stored Kruger taxon."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Cercopithecus mitis erythrarchus is on the official list as a subspecies, but has 0 research-grade iNaturalist observations in place 69020 and is absent from the place taxonomy tree. The parent species C. mitis has 0 research-grade and 2 observations of any grade (1 at species rank, 1 as sister subspecies C. m. albogularis, also 0 research-grade). Absence of an iNat record was not treated as absence from KNP.",
+    "Owner question: the stored official subspecies C. m. erythrarchus is absent from iNaturalist place 69020, while the only subspecies identification in the tree is the sister C. m. albogularis (1 observation of any grade, 0 research-grade). The sister does not dominate in the Equus quagga burchellii / chapmani sense (those counts were 1 vs 1802 research-grade), but it is the only subspecies present. The included taxon was kept as the 2011 subspecies.",
+    "The split of the 2011 name Chlorocebus aethiops to the Kruger taxon Chlorocebus pygerythrus is recorded from occurrence and the official English name, not from an iNaturalist synonym list. iNaturalist keeps C. aethiops as a different active species (Grivet Monkey) and does not list C. aethiops as an invalid scientific name of C. pygerythrus. The 2011 printed synonym Cercopithecus aethiops is listed as an invalid scientific name of the grivet, not of the vervet. No further source was used after those iNaturalist lookups.",
+    "No English remap is stored for Vervet monkey or Chacma Baboon: the iNaturalist preferred_common_name differs only by capitalisation (Vervet Monkey) or matches (Chacma Baboon).",
+    "No rare, reintroduced, or introduced flags are recorded for official Cercopithecidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

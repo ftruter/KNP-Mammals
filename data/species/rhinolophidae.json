@@ -1,0 +1,174 @@
+{
+  "family": "Rhinolophidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Rhinolophidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (8 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only rhinolophidae are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Rhinolophidae"
+    },
+    {
+      "id": "inat-taxon-rhinolophidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Rhinolophidae&rank=family",
+      "role": "Rhinolophidae taxon id 40641"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=40641&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Rhinolophidae in Kruger (place 69020); 1 species in this pull (Rhinolophus darlingi, 1)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=40641",
+      "role": "All-grade Rhinolophidae taxonomy tree for place 69020; used to find Rhinolophus darlingi (2 observations of any grade) and Rhinolophus hildebrandtii (1), and the absence of the other official species"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for official species missing from species_counts: Rhinolophus blasii (taxon 40673), R. clivosus (320633), R. fumigatus (40684), R. hildebrandtii (183175), R. landeri (40680), R. simulator (40693), and R. swinnyi (40670)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Current name lists for the eight official Rhinolophus species; used with taxa?id=40673,320633,338548,40684,183175,40680,40693,40670&all_names=true"
+    }
+  ],
+  "species": [
+    {
+      "slug": "rhinolophus-blasii",
+      "latin": "Rhinolophus blasii",
+      "en": "Peak-saddle horseshoe bat",
+      "af": "Spitssaalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Peak-saddle horseshoe bat",
+          "to": "Blasius's horseshoe bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40673&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40673. Peak-saddle horseshoe bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40673 is 0."
+      ]
+    },
+    {
+      "slug": "rhinolophus-clivosus",
+      "latin": "Rhinolophus clivosus",
+      "en": "Geoffroy's horseshoe bat",
+      "af": "Geoffroy se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 320633 is 0."
+      ]
+    },
+    {
+      "slug": "rhinolophus-darlingi",
+      "latin": "Rhinolophus darlingi",
+      "en": "Darling's horseshoe bat",
+      "af": "Darling se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "rhinolophus-fumigatus",
+      "latin": "Rhinolophus fumigatus",
+      "en": "Rüppell's horseshoe bat",
+      "af": "Rüppell se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40684 is 0."
+      ]
+    },
+    {
+      "slug": "rhinolophus-hildebrandtii",
+      "latin": "Rhinolophus hildebrandtii",
+      "en": "Hildebrandt's horseshoe bat",
+      "af": "Hildebrandt se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade, and observation total_results for taxon 183175 is 0.",
+        "iNaturalist lists Rhinolophus cohenae, Rhinolophus mabuensis, Rhinolophus smithersi, and Rhinolophus hildebrandti as invalid scientific names of taxon 183175. They were not treated as separate Kruger taxa."
+      ]
+    },
+    {
+      "slug": "rhinolophus-landeri",
+      "latin": "Rhinolophus landeri",
+      "en": "Lander's horseshoe bat",
+      "af": "Lander se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40680 is 0."
+      ]
+    },
+    {
+      "slug": "rhinolophus-simulator",
+      "latin": "Rhinolophus simulator",
+      "en": "Bushveld horseshoe bat",
+      "af": "Bosveldsaalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40693 is 0."
+      ]
+    },
+    {
+      "slug": "rhinolophus-swinnyi",
+      "latin": "Rhinolophus swinnyi",
+      "en": "Swinny's horseshoe bat",
+      "af": "Swinny se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40670 is 0."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Six of the eight official Rhinolophus species (R. blasii, R. clivosus, R. fumigatus, R. landeri, R. simulator, and R. swinnyi) have 0 research-grade iNaturalist observations in place 69020 and are absent from the place taxonomy tree. R. hildebrandtii also has 0 research-grade (1 observation of any grade). Absence of an iNat record was not treated as absence from KNP.",
+    "No rare, reintroduced, or introduced flags are recorded for official Rhinolophidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

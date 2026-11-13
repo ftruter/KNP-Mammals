@@ -1,0 +1,84 @@
+{
+  "family": "Galagidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Lorisidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (2 species). That family heading was remapped to Galagidae in Phase 1 (families.json); true lorises are not listed. English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only galagids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Galagidae (printed as Lorisidae)"
+    },
+    {
+      "id": "inat-taxon-galagidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Galagidae&rank=family",
+      "role": "Galagidae taxon id 71390"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=71390&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Galagidae in Kruger (place 69020); 2 species in this pull (Otolemur crassicaudatus, 139; Galago moholi, 47)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=71390",
+      "role": "All-grade Galagidae taxonomy tree for place 69020; used to confirm both official species and that no iNat-only galagids are present"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?id=43567,43561&all_names=true",
+      "role": "Current name lists and English preferred names for Otolemur crassicaudatus and Galago moholi"
+    }
+  ],
+  "species": [
+    {
+      "slug": "otolemur-crassicaudatus",
+      "latin": "Otolemur crassicaudatus",
+      "en": "Thick-tailed bushbaby",
+      "af": "Bosnagaap",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 139
+      },
+      "remaps": [
+        {
+          "from": "Thick-tailed bushbaby",
+          "to": "Brown Greater Galago",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43567&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43567. Thick-tailed Bushbaby and Greater Bushbaby remain listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "galago-moholi",
+      "latin": "Galago moholi",
+      "en": "South African lesser bushbaby",
+      "af": "Nagapie",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 47
+      },
+      "remaps": [
+        {
+          "from": "South African lesser bushbaby",
+          "to": "Southern Lesser Galago",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43561&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43561. South African Lesser Galago and Lesser Bushbaby remain listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "The 2011 checklist prints these two species under Primates: Lorisidae. Inclusion follows that heading; the family name stored here is Galagidae, the Phase 1 remap recorded in families.json. Lorisidae is not kept as a KNP family.",
+    "No rare, reintroduced, or introduced flags are recorded for official Galagidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

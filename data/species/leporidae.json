@@ -1,0 +1,118 @@
+{
+  "family": "Leporidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Leporidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (3 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only leporids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Leporidae"
+    },
+    {
+      "id": "inat-taxon-leporidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Leporidae&rank=family",
+      "role": "Leporidae taxon id 43095"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=43095&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Leporidae in Kruger (place 69020); 3 species in this pull (Lepus saxatilis, 118; Lepus microtis, 9; Lepus capensis, 1). Pronolagus crassicaudatus was absent from this pull."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=43095",
+      "role": "All-grade Leporidae taxonomy tree for place 69020; used to confirm the two official hares, the absence of Pronolagus, and the iNat-only candidate Lepus microtis"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for Pronolagus crassicaudatus (taxon 43158), which is missing from species_counts and from the place taxonomy tree"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Confirmed Lepus capensis, Lepus saxatilis and Pronolagus crassicaudatus as current names, and checked Lepus microtis; used with taxa?id=57560,43125,43158,1558607&all_names=true for English preferred names"
+    }
+  ],
+  "species": [
+    {
+      "slug": "lepus-capensis",
+      "latin": "Lepus capensis",
+      "en": "Cape hare",
+      "af": "Vlakhaas",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 3 observations of any grade."
+      ]
+    },
+    {
+      "slug": "lepus-saxatilis",
+      "latin": "Lepus saxatilis",
+      "en": "Scrub hare",
+      "af": "Kolhaas",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 118
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "pronolagus-crassicaudatus",
+      "latin": "Pronolagus crassicaudatus",
+      "en": "Natal red rock rabbit",
+      "af": "Natalse rooiklipkonyn",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Natal red rock rabbit",
+          "to": "Natal Red Rockhare",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Pronolagus%20crassicaudatus&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43158. Natal Red Rock Hare and Natal Red Hare remain listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Leporidae taxonomy tree (no observations of any grade). Observation total_results for taxon 43158 in the place is 0."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "lepus-microtis",
+      "latin": "Lepus microtis",
+      "en": "African Savanna Hare",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 9
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 9 research-grade and 20 observations of any grade (taxon 1558607; preferred_common_name African Savanna Hare). The taxon record lists Lepus victoriae and Lepus crawshayi as invalid scientific names, not the official checklist names Lepus capensis or Lepus saxatilis. Not on the 2011 SANParks Leporidae list. Left in candidates, not included."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Pronolagus crassicaudatus is on the official list but has 0 research-grade iNaturalist observations in place 69020 and is absent from the place taxonomy tree (no observations of any grade). Absence of an iNat record was not treated as absence from KNP.",
+    "Lepus capensis is on the official list but has only 1 research-grade iNaturalist observation in the place (3 of any grade).",
+    "Lepus microtis is an iNaturalist-only species in the place (9 research-grade). It is a separate active iNaturalist species, not a synonym or recorded split of L. capensis or L. saxatilis, so it was not used to remap either official hare.",
+    "No English remap is stored for Cape hare or Scrub hare: the iNaturalist preferred_common_name differs only by capitalisation (Cape Hare, Scrub Hare).",
+    "No rare, reintroduced, or introduced flags are recorded for official Leporidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

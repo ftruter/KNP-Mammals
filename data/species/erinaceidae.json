@@ -1,0 +1,71 @@
+{
+  "family": "Erinaceidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Erinaceidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (1 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only erinaceids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Erinaceidae"
+    },
+    {
+      "id": "inat-taxon-erinaceidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Erinaceidae&rank=family",
+      "role": "Erinaceidae taxon id 43011"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=43011&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Erinaceidae in Kruger (place 69020); 0 species in this pull"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=43011",
+      "role": "All-grade Erinaceidae taxonomy tree for place 69020; empty (no observations of any grade in this family)"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for official Atelerix frontalis (taxon 43056, 0 research-grade, 0 of any grade)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Atelerix%20frontalis&all_names=true",
+      "role": "Current name list for Atelerix frontalis (taxon 43056); the 2011 scientific name is unchanged. Subspecies A. f. frontalis and A. f. angolae were returned by the search but were not stored, because the 2011 list is at species rank."
+    }
+  ],
+  "species": [
+    {
+      "slug": "atelerix-frontalis",
+      "latin": "Atelerix frontalis",
+      "en": "South African hedgehog",
+      "af": "Suid-Afrikaanse krimpvarkie",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "South African hedgehog",
+          "to": "Southern African Hedgehog",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43056&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43056. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Erinaceidae taxonomy tree (no observations of any grade). Observation total_results for taxon 43056 in the place is 0."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Atelerix frontalis is on the official list but has 0 research-grade iNaturalist observations in place 69020 and is absent from the place Erinaceidae taxonomy tree (no observations of any grade). Absence of an iNat record was not treated as absence from KNP.",
+    "The 2011 list is already at species rank, so the taxon was stored as Atelerix frontalis, not as a subspecies, even though Southern Hedgehog is the preferred name of A. f. frontalis.",
+    "No rare, reintroduced, or introduced flags are recorded for official Erinaceidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

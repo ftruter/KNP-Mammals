@@ -1,0 +1,69 @@
+{
+  "family": "Thryonomyidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Thryonomyidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (1 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only thryonomyids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Thryonomyidae"
+    },
+    {
+      "id": "inat-taxon-thryonomyidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Thryonomyidae&rank=family",
+      "role": "Thryonomyidae taxon id 46276"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=46276&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Thryonomyidae in Kruger (place 69020); 1 species in this pull (Thryonomys swinderianus, 14)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=46276",
+      "role": "All-grade Thryonomyidae taxonomy tree for place 69020; used to confirm Thryonomys swinderianus is the only species in the place"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "Not required for the official species: Thryonomys swinderianus was present in species_counts (14)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?id=46279&all_names=true",
+      "role": "Current name list for Thryonomys swinderianus; the 2011 scientific name is unchanged"
+    }
+  ],
+  "species": [
+    {
+      "slug": "thryonomys-swinderianus",
+      "latin": "Thryonomys swinderianus",
+      "en": "Greater canerat",
+      "af": "Groot rietrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 14
+      },
+      "remaps": [
+        {
+          "from": "Greater canerat",
+          "to": "Greater Cane Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46279&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46279. Grasscutter remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The stored en value is Greater canerat, as printed on the 2011 SANParks checklist (one word)."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "No rare, reintroduced, or introduced flags are recorded for official Thryonomyidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

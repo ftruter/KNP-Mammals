@@ -1,0 +1,122 @@
+{
+  "family": "Hyaenidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Hyaenidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (3 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only hyaenids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; aardwolf already listed as the subspecies Proteles cristatus cristatus; absence of asterisk status flags on Hyaenidae"
+    },
+    {
+      "id": "inat-taxon-hyaenidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Hyaenidae&rank=family",
+      "role": "Hyaenidae taxon id 41884"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=41884&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Hyaenidae in Kruger (place 69020); 1 species in this pull (Crocuta crocuta, 2392). Proteles cristatus and Parahyaena brunnea were absent from this pull."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=41884",
+      "role": "All-grade Hyaenidae taxonomy tree for place 69020; used to confirm Crocuta crocuta, the absence of Proteles, and a single genus-rank identification under Hyaena"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for official taxa missing from species_counts (Proteles cristatus, taxon 1306005, 0; Parahyaena brunnea, taxon 500648, 0) and the sister species Proteles septentrionalis (taxon 1431008, 0)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps: Proteles cristatus cristatus, Hyaena brunnea; used with taxa?q=Proteles%20cristatus&all_names=true and taxa?id=1306005,1431008,500648,41886&all_names=true for current name lists."
+    }
+  ],
+  "species": [
+    {
+      "slug": "proteles-cristatus",
+      "latin": "Proteles cristatus",
+      "en": "Aardwolf",
+      "af": "Aardwolf",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Proteles cristatus cristatus",
+          "to": "Proteles cristatus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Proteles%20cristatus%20cristatus&all_names=true",
+          "note": "The 2011 checklist already lists this animal as the subspecies Proteles cristatus cristatus. An iNaturalist taxa search for that trinomial matches the species Proteles cristatus (taxon 1306005, preferred_common_name Southern Aardwolf), which lists Proteles cristatus cristatus as an invalid scientific name. The former sister subspecies is now the species Proteles septentrionalis (taxon 1431008, preferred_common_name Eastern Aardwolf), which lists Proteles cristatus septentrionalis as an invalid scientific name and has 0 research-grade observations in place 69020. The 2011 subspecies is no longer an active iNaturalist taxon, so the Kruger taxon is stored as the species that now carries that trinomial as an invalid name."
+        },
+        {
+          "from": "Aardwolf",
+          "to": "Southern Aardwolf",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1306005&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1306005. Aardwolf remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 1306005 is 0). The place Hyaenidae taxonomy tree has no observations of any grade under this name or the 2011 trinomial."
+      ]
+    },
+    {
+      "slug": "parahyaena-brunnea",
+      "latin": "Parahyaena brunnea",
+      "en": "Brown hyaena",
+      "af": "Strandjut",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Hyaena brunnea",
+          "to": "Parahyaena brunnea",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Hyaena%20brunnea&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Parahyaena brunnea (taxon 500648, preferred_common_name Brown Hyaena), which lists Hyaena brunnea as an invalid scientific name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 500648 is 0). The place taxonomy tree has no observations identified as this species. It does have 1 observation of any grade identified only to the genus Hyaena (taxon 41887), which was not counted as this species."
+      ]
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "latin": "Crocuta crocuta",
+      "en": "Spotted hyaena",
+      "af": "Gevlekte hiëna",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2392
+      },
+      "remaps": [
+        {
+          "from": "Spotted hyaena",
+          "to": "Spotted Hyena",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41886&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41886. Spotted Hyaena remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Two official-list species have 0 research-grade iNaturalist observations in place 69020: Proteles cristatus (none of any grade in the place taxonomy tree) and Parahyaena brunnea (none identified to species; 1 observation of any grade is identified only to the genus Hyaena). Absence of an iNat record was not treated as absence from KNP.",
+    "The 2011 subspecies Proteles cristatus cristatus is no longer an active iNaturalist taxon; it is listed as an invalid scientific name of the species Proteles cristatus. The stored taxon is therefore the species, not the 2011 trinomial. The sister species Proteles septentrionalis was queried in place 69020 (0 research-grade) and does not appear in the place taxonomy tree, so it was not added as a candidate.",
+    "No rare, reintroduced, or introduced flags are recorded for official Hyaenidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

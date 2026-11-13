@@ -1,0 +1,149 @@
+{
+  "family": "Viverridae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Viverridae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (3 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only viverrids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Viverridae"
+    },
+    {
+      "id": "inat-taxon-viverridae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Viverridae&rank=family",
+      "role": "Viverridae taxon id 41574"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=41574&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Viverridae in Kruger (place 69020); 3 species in this pull (Genetta fieldiana, 188; Civettictis civetta, 83; Genetta felina, 41). Genetta genetta and Genetta tigrina were absent from this pull."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=41574",
+      "role": "All-grade Viverridae taxonomy tree for place 69020; used to confirm the Kruger taxa and to find residual observations identified as Genetta genetta and Genetta tigrina"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for official 2011 names missing from species_counts (Genetta genetta, taxon 925661, 0; Genetta tigrina, taxon 41595, 0)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded splits of Genetta genetta and Genetta tigrina; used with taxa?q=Genetta%20maculata&all_names=true and taxa?id=41627,925659,1643992,925661,41595&all_names=true for current name lists. A search for Genetta tigrina does not match Genetta fieldiana."
+    }
+  ],
+  "species": [
+    {
+      "slug": "civettictis-civetta",
+      "latin": "Civettictis civetta",
+      "en": "African civet",
+      "af": "Afrikaanse siwet",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 83
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "genetta-felina",
+      "latin": "Genetta felina",
+      "en": "Small-spotted genet",
+      "af": "Kleinkolmuskejaatkat",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 41
+      },
+      "remaps": [
+        {
+          "from": "Genetta genetta",
+          "to": "Genetta felina",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Genetta%20genetta&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Genetta genetta (taxon 925661) as an active species, preferred_common_name Northern Small-spotted Genet, with Small-spotted Genet as a listed English name. The combination Genetta genetta felina is listed as an invalid scientific name of Genetta felina (taxon 925659, preferred_common_name Southern Small-spotted Genet). Place 69020 research-grade small-spotted genet observations are identified as G. felina (41). G. genetta appears in the place Viverridae taxonomy tree with 1 observation of any grade and 0 research-grade, and is listed under candidates."
+        },
+        {
+          "from": "Small-spotted genet",
+          "to": "Southern Small-spotted Genet",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=925659&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "genetta-fieldiana",
+      "latin": "Genetta fieldiana",
+      "en": "Large-spotted genet",
+      "af": "Rooikolmuskejaatkat",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 188
+      },
+      "remaps": [
+        {
+          "from": "Genetta tigrina",
+          "to": "Genetta fieldiana",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Genetta%20tigrina&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches only Genetta tigrina (taxon 41595, preferred_common_name Cape Genet), which remains an active species and lists South African Large-spotted Genet and Cape Large-spotted Genet among its English names. Place 69020 research-grade large-spotted genet observations are identified as Genetta fieldiana (taxon 1643992, preferred_common_name Rusty-spotted Genet, 188), which lists Large-spotted Genet as an English name and Genetta maculata as an invalid scientific name. G. tigrina appears in the place Viverridae taxonomy tree with 1 observation of any grade and 0 research-grade, and is listed under candidates. iNaturalist does not list Genetta tigrina, or a trinomial such as Genetta tigrina fieldiana, as a scientific name of G. fieldiana (a search for Genetta tigrina does not return G. fieldiana). The Kruger taxon is stored as G. fieldiana because that is the iNaturalist species that has the Kruger records and that lists Large-spotted Genet as an English name."
+        },
+        {
+          "from": "Large-spotted genet",
+          "to": "Rusty-spotted Genet",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1643992&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. Large-spotted Genet remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "genetta-genetta",
+      "latin": "Genetta genetta",
+      "en": "Northern Small-spotted Genet",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only as this species in the modern sense in place 69020: 0 research-grade and 1 observation of any grade (taxon 925661; preferred_common_name Northern Small-spotted Genet). The 2011 SANParks Viverridae list has Small-spotted genet as Genetta genetta, which is stored as the split Kruger taxon Genetta felina. Left in candidates, not included."
+      ]
+    },
+    {
+      "slug": "genetta-tigrina",
+      "latin": "Genetta tigrina",
+      "en": "Cape Genet",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only as this species in the modern sense in place 69020: 0 research-grade and 1 observation of any grade (taxon 41595; preferred_common_name Cape Genet). The 2011 SANParks Viverridae list has Large-spotted genet as Genetta tigrina, which is stored as the split Kruger taxon Genetta fieldiana. Left in candidates, not included."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "The split of the 2011 name Genetta tigrina to the Kruger taxon Genetta fieldiana is recorded from occurrence and from the official English name Large-spotted genet, which is a listed English name of G. fieldiana. iNaturalist keeps G. tigrina as a different active species (Cape Genet) and does not list G. tigrina as an invalid scientific name of G. fieldiana. No further source was used after those iNaturalist lookups.",
+    "Residual place-69020 observations identified as the 2011 names in their modern iNaturalist sense (Genetta genetta, 0 research-grade and 1 of any grade; Genetta tigrina, 0 research-grade and 1 of any grade) were left in candidates rather than treated as the official Kruger taxa.",
+    "No rare, reintroduced, or introduced flags are recorded for official Viverridae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "family": "Bovidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Bovidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (22 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only bovids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Bovidae"
+    },
+    {
+      "id": "inat-taxon-bovidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Bovidae&rank=family",
+      "role": "Bovidae taxon id 42241"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=42241&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Bovidae in Kruger (place 69020); 18 species in this pull"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=42241",
+      "role": "All-grade Bovidae taxonomy tree for place 69020; used to find thin official species and iNat-only taxa"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for subspecies and taxa missing from species_counts (Lichtenstein's and red hartebeest, red duiker, oribi, grey rhebok, and the candidate species)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps: Sigmoceros lichtensteinii, Taurotragus oryx, Tragelaphus scriptus, Cephalophus natalensis, Neotragus moschatus, and current taxon name lists"
+    }
+  ],
+  "species": [
+    {
+      "slug": "connochaetes-taurinus",
+      "latin": "Connochaetes taurinus",
+      "en": "Blue wildebeest",
+      "af": "Blouwildebees",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1568
+      },
+      "remaps": [
+        {
+          "from": "Blue wildebeest",
+          "to": "Common Wildebeest",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42280&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42280. Blue Wildebeest remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "alcelaphus-buselaphus-lichtensteinii",
+      "latin": "Alcelaphus buselaphus lichtensteinii",
+      "en": "Lichtenstein's hartebeest",
+      "af": "Lichtenstein se hartbees",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 16
+      },
+      "remaps": [
+        {
+          "from": "Sigmoceros lichtensteinii",
+          "to": "Alcelaphus buselaphus lichtensteinii",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Sigmoceros%20lichtensteinii&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches species Alcelaphus buselaphus (taxon 42418), which lists Sigmoceros lichtensteinii as an invalid scientific name. The Kruger taxon is stored as the iNaturalist subspecies Alcelaphus buselaphus lichtensteinii (taxon 132659; preferred_common_name Lichtenstein's Hartebeest). That subspecies record also lists Alcelaphus lichtensteinii as an invalid scientific name. The research-grade count is the subspecies total (16), not the species-level total of 19, which includes 3 research-grade observations of A. b. caama."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "Afrikaans spelling hartbees is as printed on the 2011 SANParks checklist.",
+        "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note."
+      ]
+    },
+    {
+      "slug": "damaliscus-lunatus",
+      "latin": "Damaliscus lunatus",
+      "en": "Tsessebe",
+      "af": "Tsessebe",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 205
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "cephalophorus-natalensis",
+      "latin": "Cephalophorus natalensis",
+      "en": "Red duiker",
+      "af": "Rooiduiker",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Cephalophus natalensis",
+          "to": "Cephalophorus natalensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431002&all_names=true",
+          "note": "iNaturalist taxon 1431002 lists Cephalophus natalensis as an invalid scientific name of Cephalophorus natalensis."
+        },
+        {
+          "from": "Red duiker",
+          "to": "Red Forest Duiker",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431002&all_names=true",
+          "note": "iNaturalist preferred_common_name. Natal Duiker and Natal Red Duiker are also listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 2 observations of any grade."
+      ]
+    },
+    {
+      "slug": "sylvicapra-grimmia",
+      "latin": "Sylvicapra grimmia",
+      "en": "Common duiker",
+      "af": "Gewone duiker",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 335
+      },
+      "remaps": [
+        {
+          "from": "Common duiker",
+          "to": "Bush Duiker",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42424&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42424. Common Duiker remains a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "oreotragus-oreotragus",
+      "latin": "Oreotragus oreotragus",
+      "en": "Klipspringer",
+      "af": "Klipspringer",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 507
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "ourebia-ourebi",
+      "latin": "Ourebia ourebi",
+      "en": "Oribi",
+      "af": "Oorbietjie",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade."
+      ]
+    },
+    {
+      "slug": "raphicerus-campestris",
+      "latin": "Raphicerus campestris",
+      "en": "Steenbok",
+      "af": "Steenbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1221
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "raphicerus-sharpei",
+      "latin": "Raphicerus sharpei",
+      "en": "Sharpe's grysbok",
+      "af": "Sharpe se grysbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 186
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "nesotragus-moschatus",
+      "latin": "Nesotragus moschatus",
+      "en": "Suni",
+      "af": "Soenie",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Neotragus moschatus",
+          "to": "Nesotragus moschatus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Neotragus%20moschatus&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Nesotragus moschatus (taxon 74770, preferred_common_name Suni), which lists Neotragus moschatus as an invalid scientific name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Bovidae taxonomy tree (no observations of any grade under this name or the 2011 name)."
+      ]
+    },
+    {
+      "slug": "aepyceros-melampus",
+      "latin": "Aepyceros melampus",
+      "en": "Impala",
+      "af": "Rooibok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2910
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "pelea-capreolus",
+      "latin": "Pelea capreolus",
+      "en": "Grey rhebok",
+      "af": "Vaalribbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade."
+      ]
+    },
+    {
+      "slug": "hippotragus-equinus",
+      "latin": "Hippotragus equinus",
+      "en": "Roan",
+      "af": "Bastergemsbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 47
+      },
+      "remaps": [
+        {
+          "from": "Roan",
+          "to": "Roan Antelope",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42332&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42332. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "hippotragus-niger",
+      "latin": "Hippotragus niger",
+      "en": "Sable",
+      "af": "Swartwitpens",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 145
+      },
+      "remaps": [
+        {
+          "from": "Sable",
+          "to": "Sable Antelope",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42334&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42334. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "syncerus-caffer",
+      "latin": "Syncerus caffer",
+      "en": "Buffalo",
+      "af": "Buffel",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2293
+      },
+      "remaps": [
+        {
+          "from": "Buffalo",
+          "to": "African Buffalo",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42405&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42405. Buffalo remains a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "tragelaphus-angasii",
+      "latin": "Tragelaphus angasii",
+      "en": "Nyala",
+      "af": "Njala",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 935
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "latin": "Tragelaphus sylvaticus",
+      "en": "Bushbuck",
+      "af": "Bosbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 978
+      },
+      "remaps": [
+        {
+          "from": "Tragelaphus scriptus",
+          "to": "Tragelaphus sylvaticus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Tragelaphus%20scriptus&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Tragelaphus scriptus (taxon 42341) as an active species, preferred_common_name Northern Bushbuck. The 2011 combination Tragelaphus scriptus sylvaticus is listed as an invalid scientific name of Tragelaphus sylvaticus (taxon 1431867, preferred_common_name Southern Bushbuck). Place 69020 research-grade bushbuck observations are identified as T. sylvaticus (978); T. scriptus does not appear in the place Bovidae taxonomy tree."
+        },
+        {
+          "from": "Bushbuck",
+          "to": "Southern Bushbuck",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431867&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "tragelaphus-strepsiceros",
+      "latin": "Tragelaphus strepsiceros",
+      "en": "Kudu",
+      "af": "Koedoe",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1999
+      },
+      "remaps": [
+        {
+          "from": "Kudu",
+          "to": "Greater Kudu",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42339&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42339. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "tragelaphus-oryx",
+      "latin": "Tragelaphus oryx",
+      "en": "Eland",
+      "af": "Eland",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 66
+      },
+      "remaps": [
+        {
+          "from": "Taurotragus oryx",
+          "to": "Tragelaphus oryx",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Taurotragus%20oryx&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Tragelaphus oryx (taxon 75192), which lists Taurotragus oryx as an invalid scientific name. The place taxonomy tree also has Taurotragus as a subgenus (id 1431370) under Tragelaphus."
+        },
+        {
+          "from": "Eland",
+          "to": "Common Eland",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=75192&all_names=true",
+          "note": "iNaturalist preferred_common_name. Eland remains a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "redunca-arundinum",
+      "latin": "Redunca arundinum",
+      "en": "Reedbuck",
+      "af": "Rietbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 56
+      },
+      "remaps": [
+        {
+          "from": "Reedbuck",
+          "to": "Southern Reedbuck",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42305&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42305. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "redunca-fulvorufula",
+      "latin": "Redunca fulvorufula",
+      "en": "Mountain reedbuck",
+      "af": "Rooiribbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020."
+      ]
+    },
+    {
+      "slug": "kobus-ellipsiprymnus",
+      "latin": "Kobus ellipsiprymnus",
+      "en": "Waterbuck",
+      "af": "Waterbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1822
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "alcelaphus-buselaphus-caama",
+      "latin": "Alcelaphus buselaphus caama",
+      "en": "Red Hartebeest",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 3
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 3 research-grade and 4 observations of any grade (taxon 132658; preferred_common_name Red Hartebeest). Not on the 2011 SANParks Bovidae list, which has Lichtenstein's hartebeest only. Left in candidates, not included."
+      ]
+    },
+    {
+      "slug": "damaliscus-pygargus",
+      "latin": "Damaliscus pygargus",
+      "en": "Bontebok/Blesbok",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 2 observations of any grade (taxon 42275; preferred_common_name Bontebok/Blesbok). The place taxonomy tree places both observations at subspecies Damaliscus pygargus phillipsi (taxon 129724; preferred_common_name Blesbok). Not on the 2011 SANParks Bovidae list. Left in candidates, not included."
+      ]
+    },
+    {
+      "slug": "antidorcas-marsupialis",
+      "latin": "Antidorcas marsupialis",
+      "en": "Springbok",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 2 observations of any grade (taxon 42283; preferred_common_name Springbok). Not on the 2011 SANParks Bovidae list. Left in candidates, not included."
+      ]
+    },
+    {
+      "slug": "bos-taurus",
+      "latin": "Bos taurus",
+      "en": "Domestic Cattle",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 2 observations of any grade (taxon 74113; preferred_common_name Domestic Cattle). Not on the 2011 SANParks Bovidae list. Left in candidates, not included. No introduced flag is stored because the official checklist does not list this animal; the iNaturalist preferred name is Domestic Cattle."
+      ]
+    },
+    {
+      "slug": "bubalus-bubalis",
+      "latin": "Bubalus bubalis",
+      "en": "Domestic Water Buffalo",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 1 observation of any grade (taxon 81925; preferred_common_name Domestic Water Buffalo). Not on the 2011 SANParks Bovidae list. Left in candidates, not included."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Four official-list species have 0 research-grade iNaturalist observations in place 69020: Cephalophorus natalensis (2 observations of any grade), Ourebia ourebi (1), Pelea capreolus (1), and Nesotragus moschatus (none of any grade in the place taxonomy tree). Absence of an iNat record was not treated as absence from KNP.",
+    "Redunca fulvorufula is on the official list but has only 1 research-grade iNaturalist observation in the place.",
+    "The iNaturalist species-level research-grade count for Alcelaphus buselaphus is 19, which mixes Lichtenstein's hartebeest (16) and red hartebeest A. b. caama (3). The included taxon uses the subspecies count.",
+    "The iNaturalist search for Sigmoceros lichtensteinii resolves to Alcelaphus buselaphus (the species), not directly to subspecies lichtensteinii. The subspecies was used because that is the iNaturalist taxon whose preferred common name is Lichtenstein's Hartebeest.",
+    "No rare, reintroduced, or introduced flags are recorded for official Bovidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

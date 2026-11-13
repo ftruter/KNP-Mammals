@@ -1,0 +1,122 @@
+{
+  "family": "Mustelidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Mustelidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (3 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only mustelids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Mustelidae"
+    },
+    {
+      "id": "inat-taxon-mustelidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Mustelidae&rank=family",
+      "role": "Mustelidae taxon id 41770"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=41770&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Mustelidae in Kruger (place 69020); 2 species in this pull (Mellivora capensis, 186; Lutra capensis, 26). Ictonyx striatus was absent from this pull."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=41770",
+      "role": "All-grade Mustelidae taxonomy tree for place 69020; used to confirm Lutra capensis and Mellivora capensis, and to find Ictonyx striatus (present at 1 observation of any grade)"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for official species missing from species_counts (Ictonyx striatus, taxon 41822, 0) and, as a check, subspecies Lutra capensis capensis (taxon 1638850, 18)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remap of Aonyx capensis; used with taxa?id=1638841,41834,41822&all_names=true for current name lists."
+    }
+  ],
+  "species": [
+    {
+      "slug": "lutra-capensis",
+      "latin": "Lutra capensis",
+      "en": "Cape clawless otter",
+      "af": "Groototter",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 26
+      },
+      "remaps": [
+        {
+          "from": "Aonyx capensis",
+          "to": "Lutra capensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Aonyx%20capensis&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Lutra capensis (taxon 1638841, preferred_common_name African Clawless Otter), which lists Aonyx capensis as an invalid scientific name. The search also matches the Congo Clawless Otter Lutra congica via the trinomial Aonyx capensis congicus; L. congica does not appear in the place Mustelidae taxonomy tree. The Kruger taxon is stored as the species Lutra capensis because the 2011 list used the species name Aonyx capensis. The research-grade count is the species total (26), which includes 18 research-grade observations of subspecies Lutra capensis capensis."
+        },
+        {
+          "from": "Cape clawless otter",
+          "to": "African Clawless Otter",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1638841&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1638841. Cape Clawless Otter is not a listed English name on the species; it is the preferred_common_name of the subspecies Lutra capensis capensis (taxon 1638850). The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist lists this animal at species rank (Aonyx capensis). The official English name Cape clawless otter is the iNaturalist preferred common name of the subspecies Lutra capensis capensis, not a listed English name of the species. The taxon is stored at species rank; subspecies identifications were not treated as a separate candidate."
+      ]
+    },
+    {
+      "slug": "mellivora-capensis",
+      "latin": "Mellivora capensis",
+      "en": "Honey badger",
+      "af": "Ratel",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 186
+      },
+      "remaps": [
+        {
+          "from": "Honey badger",
+          "to": "Ratel",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41834&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41834. Honey Badger remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "ictonyx-striatus",
+      "latin": "Ictonyx striatus",
+      "en": "Striped polecat",
+      "af": "Stinkmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Striped polecat",
+          "to": "Zorilla",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41822&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41822. Striped Polecat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 41822 is 0). The place taxonomy tree has 1 observation of any grade."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Ictonyx striatus is on the official list but has 0 research-grade iNaturalist observations in place 69020 (1 observation of any grade). Absence of an iNat record was not treated as absence from KNP.",
+    "The official English name Cape clawless otter is the iNaturalist preferred common name of subspecies Lutra capensis capensis (18 research-grade observations in the place), not a listed English name of the species Lutra capensis (26 research-grade). The taxon is stored at species rank because the 2011 list used the species name Aonyx capensis, following the pattern used for species-rank official names rather than the Burchell's zebra lump (where the 2011 binomial itself was no longer a species). Spotted-necked otter does not appear in the place Mustelidae taxonomy tree and was not added (Phase 1 already noted it is on the Waterberg list, not the SANParks KNP checklist).",
+    "No rare, reintroduced, or introduced flags are recorded for official Mustelidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

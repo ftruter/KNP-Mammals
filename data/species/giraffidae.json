@@ -1,0 +1,94 @@
+{
+  "family": "Giraffidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Giraffidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (1 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only giraffids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Giraffidae"
+    },
+    {
+      "id": "inat-taxon-giraffidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Giraffidae&rank=family",
+      "role": "Giraffidae taxon id 42153"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=42153&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Giraffidae in Kruger (place 69020); 1 species in this pull (Giraffa giraffa, 3245)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=42153",
+      "role": "All-grade Giraffidae taxonomy tree for place 69020; used to confirm the Kruger taxon is Giraffa giraffa and to find the infrahybrid candidate"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for the infrahybrid candidate Giraffa giraffa angolensis × giraffa giraffa (taxon 1511527)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps: Giraffa camelopardalis, Giraffa giraffa, and current taxon name lists (including taxa?id=1510571,1511527,1510582&all_names=true)"
+    }
+  ],
+  "species": [
+    {
+      "slug": "giraffa-giraffa",
+      "latin": "Giraffa giraffa",
+      "en": "Giraffe",
+      "af": "Kameelperd",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 3245
+      },
+      "remaps": [
+        {
+          "from": "Giraffa camelopardalis",
+          "to": "Giraffa giraffa",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Giraffa%20camelopardalis&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Giraffa camelopardalis (taxon 42157) as an active species, preferred_common_name Northern Giraffe. The 2011 combination Giraffa camelopardalis giraffa is listed as an invalid scientific name of Giraffa giraffa giraffa (taxon 1510582, preferred_common_name South African Giraffe). Place 69020 research-grade giraffe observations are identified as Giraffa giraffa (taxon 1510571, preferred_common_name Southern Giraffe, 3245); G. camelopardalis does not appear in the place Giraffidae taxonomy tree. The included taxon is stored at species rank, matching the 2011 checklist rank."
+        },
+        {
+          "from": "Giraffe",
+          "to": "Southern Giraffe",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1510571&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The place taxonomy tree has 3285 observations of any grade under Giraffa giraffa, of which 2871 are identified as subspecies G. g. giraffa and 410 are at species rank. A further 4 are the infrahybrid listed in candidates. G. camelopardalis is absent from the tree (no observations of any grade)."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "giraffa-giraffa-angolensis-x-giraffa-giraffa",
+      "latin": "Giraffa giraffa angolensis × giraffa giraffa",
+      "en": "Southern Giraffe Hybrid",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 4
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 4 research-grade and 4 observations of any grade (taxon 1511527; preferred_common_name Southern Giraffe Hybrid). The place taxonomy tree places this infrahybrid under Giraffa giraffa. Not a separate species on the 2011 SANParks Giraffidae list, which has giraffe only. Left in candidates, not included."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "The research-grade species-level count for Giraffa giraffa is 3245. The 4 research-grade infrahybrid observations sit under that species in the place taxonomy tree and may be included in that total.",
+    "No rare, reintroduced, or introduced flags are recorded for official Giraffidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

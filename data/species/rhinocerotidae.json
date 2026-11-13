@@ -1,0 +1,101 @@
+{
+  "family": "Rhinocerotidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Rhinocerotidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (2 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only rhinocerotids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Rhinocerotidae"
+    },
+    {
+      "id": "inat-taxon-rhinocerotidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Rhinocerotidae&rank=family",
+      "role": "Rhinocerotidae taxon id 43341"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=43341&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Rhinocerotidae in Kruger (place 69020); 2 species in this pull (Ceratotherium simum, 877; Diceros bicornis, 41). The Diceros total is the species-level mix and was not used as the included subspecies count."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=43341",
+      "role": "All-grade Rhinocerotidae taxonomy tree for place 69020; used to confirm Ceratotherium simum and Diceros bicornis minor, and to find the sister subspecies D. b. bicornis"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for subspecies Diceros bicornis minor (taxon 147643) and the candidate Diceros bicornis bicornis (taxon 147644)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Confirmed Ceratotherium simum and Diceros bicornis minor as current names; used with taxa?id=43348,147643,147644,43350&all_names=true for English preferred names and sister-subspecies names"
+    }
+  ],
+  "species": [
+    {
+      "slug": "ceratotherium-simum",
+      "latin": "Ceratotherium simum",
+      "en": "White rhinoceros",
+      "af": "Witrenoster",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 877
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "diceros-bicornis-minor",
+      "latin": "Diceros bicornis minor",
+      "en": "Black rhinoceros",
+      "af": "Swartrenoster",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 20
+      },
+      "remaps": [
+        {
+          "from": "Black rhinoceros",
+          "to": "South-central Black Rhinoceros",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=147643&all_names=true",
+          "note": "iNaturalist preferred_common_name for the stored subspecies (taxon 147643). The stored en value is the 2011 SANParks checklist name. The parent species Diceros bicornis (taxon 43350) has preferred_common_name Black Rhinoceros."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist already lists this animal as the subspecies Diceros bicornis minor. The research-grade count is the subspecies total (20), not the species-level total of 41, which includes 3 research-grade observations of D. b. bicornis and observations identified only to species.",
+        "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "diceros-bicornis-bicornis",
+      "latin": "Diceros bicornis bicornis",
+      "en": "Southern Black Rhinoceros",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 3
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only as this subspecies in place 69020: 3 research-grade and 3 observations of any grade (taxon 147644; preferred_common_name Southern Black Rhinoceros). Not named separately on the 2011 SANParks Rhinocerotidae list, which has black rhinoceros as Diceros bicornis minor only. Left in candidates, not included, as a sister subspecies of the stored Kruger taxon."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "The iNaturalist species-level research-grade count for Diceros bicornis is 41, which mixes D. b. minor (20), D. b. bicornis (3), and observations not identified to subspecies. The included taxon uses the subspecies count.",
+    "No rare, reintroduced, or introduced flags are recorded for official Rhinocerotidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

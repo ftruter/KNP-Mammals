@@ -1,0 +1,409 @@
+{
+  "family": "Muridae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Muridae heading on the 2011 Wayback SANParks KNP mammal checklist PDF except the five species whose genera were remapped to Nesomyidae in Phase 1 (Cricetomys, Saccostomus, Dendromus and Steatomys; 14 species remain here). Those five official species are in nesomyidae.json, not here. English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only murids are in candidates, not species. The two official species marked with an asterisk on the PDF (Mus musculus and Rattus rattus) are flagged as introduced. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; asterisk introduced flags on house mouse and house/black rat; genera later remapped to Nesomyidae are excluded from this file"
+    },
+    {
+      "id": "inat-taxon-muridae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Muridae&rank=family",
+      "role": "Muridae taxon id 44185"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=44185&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Muridae in Kruger (place 69020); 11 species in this pull (Lemniscomys rosalia, 10; Thallomys paedulcus, 9; Mus minutoides, 6; Grammomys dolichurus, 6; Gerbilliscus leucogaster, 3; Acomys selousi, 3; Rattus rattus, 1; Aethomys chrysophilus, 1; Aethomys ineptus, 1; Micaelamys namaquensis, 1; Rhabdomys chakae, 1). Official Otomys angoniensis, Acomys spinosissimus, Dasymys incomtus, Mus musculus, Mastomys natalensis and Mastomys coucha were absent from this pull."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=44185",
+      "role": "All-grade Muridae taxonomy tree for place 69020; used to find thin official species, iNat-only taxa (Acomys selousi, Aethomys ineptus, Rhabdomys chakae, Mus neavei), and subspecies identifications under included species"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for official species missing from species_counts (Otomys angoniensis, taxon 45439, 0 research-grade, 1 of any grade; Acomys spinosissimus, 901997, 0; Dasymys incomtus, 45632, 0; Mus musculus, 44705, 0 research-grade, 1 of any grade; Mastomys natalensis, 45326, 0 research-grade, 2 of any grade; Mastomys coucha, 45328, 0) and for candidate Mus neavei (44682, 0 research-grade, 1 of any grade)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps of Tatera leucogaster and Aethomys namaquensis; used with searches for Acomys spinosissimus, Acomys spinosissimus selousi, Aethomys chrysophilus ineptus, Dasymys incomtus and Mastomys coucha, and with taxa?id= batches, for current name lists. Searches for Acomys spinosissimus selousi and Aethomys chrysophilus ineptus returned 0 results."
+    }
+  ],
+  "species": [
+    {
+      "slug": "otomys-angoniensis",
+      "latin": "Otomys angoniensis",
+      "en": "Angoni vlei rat",
+      "af": "Angoni-vleirot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 45439 is 0). The place taxonomy tree has 1 observation of any grade."
+      ]
+    },
+    {
+      "slug": "gerbilliscus-leucogaster",
+      "latin": "Gerbilliscus leucogaster",
+      "en": "Bushveld gerbil",
+      "af": "Bosveldse nagmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 3
+      },
+      "remaps": [
+        {
+          "from": "Tatera leucogaster",
+          "to": "Gerbilliscus leucogaster",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Tatera%20leucogaster&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Gerbilliscus leucogaster (taxon 74367), which lists Tatera leucogaster as an invalid scientific name. This is a genus transfer, not a split: Tatera leucogaster is not kept as a different active species."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "acomys-spinosissimus",
+      "latin": "Acomys spinosissimus",
+      "en": "Spiny mouse",
+      "af": "Stekelmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Spiny mouse",
+          "to": "Least Spiny Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=901997&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 901997. Spiny Mouse remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Muridae taxonomy tree (no observations of any grade). Observation total_results for taxon 901997 in the place is 0.",
+        "Acomys selousi (taxon 901998, preferred_common_name Selous' Spiny Mouse) is the only Acomys species in the place (3 research-grade) and is listed under candidates. A search for Acomys spinosissimus selousi returned 0 results, and the A. selousi name list has no invalid scientific names linking it to A. spinosissimus. The official taxon was not remapped."
+      ]
+    },
+    {
+      "slug": "lemniscomys-rosalia",
+      "latin": "Lemniscomys rosalia",
+      "en": "Single-striped mouse",
+      "af": "Eenstreepmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 10
+      },
+      "remaps": [
+        {
+          "from": "Single-striped mouse",
+          "to": "Single-striped Grass Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45500&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45500. Single-striped Lemniscomys remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "dasymys-incomtus",
+      "latin": "Dasymys incomtus",
+      "en": "Water rat",
+      "af": "Waterrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Water rat",
+          "to": "Common Shaggy Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45632&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45632. The 2011 name is not a listed English name on this taxon. African Marsh Rat and Common Dasymys are listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Muridae taxonomy tree (no observations of any grade). Observation total_results for taxon 45632 in the place is 0."
+      ]
+    },
+    {
+      "slug": "grammomys-dolichurus",
+      "latin": "Grammomys dolichurus",
+      "en": "Woodland mouse",
+      "af": "Woudmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 6
+      },
+      "remaps": [
+        {
+          "from": "Woodland mouse",
+          "to": "Woodland Thicket Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45253&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45253. The 2011 name is not a listed English name on this taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "mus-musculus",
+      "latin": "Mus musculus",
+      "en": "House mouse",
+      "af": "Huismuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [
+        "introduced"
+      ],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 44705 is 0). The place taxonomy tree has 1 observation of any grade.",
+        "Flagged as introduced: the 2011 SANParks checklist marks this species with an asterisk."
+      ]
+    },
+    {
+      "slug": "mus-minutoides",
+      "latin": "Mus minutoides",
+      "en": "Pygmy mouse",
+      "af": "Dwergmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 6
+      },
+      "remaps": [
+        {
+          "from": "Pygmy mouse",
+          "to": "Tiny Pygmy Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=44716&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 44716. Pygmy Mouse, Orange Pygmy Mouse and Free State Pygmy Mouse remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "mastomys-natalensis",
+      "latin": "Mastomys natalensis",
+      "en": "Natal multimammate mouse",
+      "af": "Natalse vaalveldmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 45326 is 0). The place taxonomy tree has 2 observations of any grade."
+      ]
+    },
+    {
+      "slug": "mastomys-coucha",
+      "latin": "Mastomys coucha",
+      "en": "Multimammate mouse",
+      "af": "Vaalveldmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Multimammate mouse",
+          "to": "Southern Multimammate Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45328&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45328. The 2011 name is not a listed English name on this taxon. Southern African Mastomys is a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Muridae taxonomy tree (no observations of any grade). Observation total_results for taxon 45328 in the place is 0."
+      ]
+    },
+    {
+      "slug": "thallomys-paedulcus",
+      "latin": "Thallomys paedulcus",
+      "en": "Tree rat",
+      "af": "Boomrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 9
+      },
+      "remaps": [
+        {
+          "from": "Tree rat",
+          "to": "Sundevall's Acacia Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45414&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45414. The 2011 name is not a listed English name on this taxon. Acacia Rat and Tree Mouse are listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "aethomys-chrysophilus",
+      "latin": "Aethomys chrysophilus",
+      "en": "Red veld rat",
+      "af": "Afrikaanse bosrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 2 observations of any grade."
+      ]
+    },
+    {
+      "slug": "micaelamys-namaquensis",
+      "latin": "Micaelamys namaquensis",
+      "en": "Namaqua rock mouse",
+      "af": "Namakwalandse klipmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Aethomys namaquensis",
+          "to": "Micaelamys namaquensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Aethomys%20namaquensis&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Micaelamys namaquensis (taxon 851046), which lists Aethomys namaquensis as an invalid scientific name. This is a genus transfer, not a split: Aethomys namaquensis is not kept as a different active species."
+        },
+        {
+          "from": "Namaqua rock mouse",
+          "to": "Namaqua Rock Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=851046&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 851046. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 3 observations of any grade."
+      ]
+    },
+    {
+      "slug": "rattus-rattus",
+      "latin": "Rattus rattus",
+      "en": "House rat",
+      "af": "Huisrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "House rat",
+          "to": "Black Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=44575&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 44575. House Rat, Roof Rat, Ship Rat, Alexandrine Rat and Indian Rat remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [
+        "introduced"
+      ],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 4 observations of any grade.",
+        "Flagged as introduced: the 2011 SANParks checklist marks this species with an asterisk."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "acomys-selousi",
+      "latin": "Acomys selousi",
+      "en": "Selous' Spiny Mouse",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 3
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 3 research-grade and 3 observations of any grade (taxon 901998; preferred_common_name Selous' Spiny Mouse). The taxon record lists Southern African Spiny Mouse and South African Spiny Mouse as English names, but not Spiny Mouse, and has no invalid scientific names. A search for Acomys spinosissimus selousi returned 0 results. Not on the 2011 SANParks Muridae list, which has Spiny mouse as Acomys spinosissimus only. Left in candidates, not included. The official taxon was not remapped, because iNaturalist keeps A. spinosissimus as a different active species whose preferred common name is Least Spiny Mouse (Spiny Mouse is a listed English name of that taxon) and no synonym or trinomial link to A. selousi was found."
+      ]
+    },
+    {
+      "slug": "aethomys-ineptus",
+      "latin": "Aethomys ineptus",
+      "en": "Tete Veld Rat",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 1 research-grade and 3 observations of any grade (taxon 74037; preferred_common_name Tete Veld Rat). The taxon record does not list Aethomys chrysophilus as a scientific name, and a search for Aethomys chrysophilus ineptus returned 0 results. Not on the 2011 SANParks Muridae list, which has Red veld rat as Aethomys chrysophilus only. Left in candidates, not included. A. chrysophilus remains an active iNaturalist species (preferred_common_name Red Veld Rat) and has 1 research-grade observation in the place, so the official taxon was not remapped."
+      ]
+    },
+    {
+      "slug": "rhabdomys-chakae",
+      "latin": "Rhabdomys chakae",
+      "en": "KwaZulu Natal Four-striped Grass Rat",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 1 research-grade and 1 observation of any grade (taxon 1431180; preferred_common_name KwaZulu Natal Four-striped Grass Rat). Not on the 2011 SANParks Muridae list. Left in candidates, not included."
+      ]
+    },
+    {
+      "slug": "mus-neavei",
+      "latin": "Mus neavei",
+      "en": "Neave's Pygmy Mouse",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 1 observation of any grade (taxon 44682; preferred_common_name Neave's Pygmy Mouse). Not on the 2011 SANParks Muridae list, which has Pygmy mouse as Mus minutoides. Left in candidates, not included."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "The 2011 checklist also prints Cricetomys, Saccostomus, Dendromus and Steatomys under Muridae. Those five official species are stored in nesomyidae.json, following the Phase 1 family remap, and are not repeated here.",
+    "Official species with 0 research-grade iNaturalist observations in place 69020, kept on the list, are Otomys angoniensis (1 of any grade), Acomys spinosissimus (absent from the tree), Dasymys incomtus (absent), Mus musculus (1 of any grade), Mastomys natalensis (2 of any grade) and Mastomys coucha (absent). Absence of an iNat record was not treated as absence from KNP.",
+    "Owner question: the stored official species Acomys spinosissimus is absent from iNaturalist place 69020 (0 of any grade), while the only Acomys identifications in the tree are Acomys selousi (3 research-grade). iNaturalist keeps both as active species and no synonym or trinomial link was found (a search for Acomys spinosissimus selousi returned 0 results). The official taxon was not remapped; A. selousi is in candidates.",
+    "Aethomys ineptus is an iNaturalist-only species in the place (1 research-grade). It is a separate active iNaturalist species, not a synonym or recorded split of A. chrysophilus (a search for Aethomys chrysophilus ineptus returned 0 results), and the official species still has 1 research-grade observation, so it was not used to remap the official red veld rat.",
+    "Rhabdomys chakae (1 research-grade) and Mus neavei (0 research-grade, 1 of any grade) are iNaturalist-only species in the place and are not on the 2011 list.",
+    "No English remap is stored for Angoni vlei rat (the iNaturalist preferred_common_name matches exactly), Bushveld gerbil, Natal multimammate mouse, Red veld rat, or House mouse: any difference is only capitalisation, or there is none.",
+    "Subspecies identifications of included species (Grammomys dolichurus dolichurus, Mus minutoides marica) were not treated as separate candidates, because the 2011 list is at species rank.",
+    "Mus musculus and Rattus rattus are flagged as introduced because the 2011 PDF marks them with an asterisk. No other rare, reintroduced, or introduced flags were added for official Muridae species.",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

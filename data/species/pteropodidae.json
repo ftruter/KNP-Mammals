@@ -1,0 +1,135 @@
+{
+  "family": "Pteropodidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Pteropodidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (3 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only pteropodidae are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Pteropodidae"
+    },
+    {
+      "id": "inat-taxon-pteropodidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Pteropodidae&rank=family",
+      "role": "Pteropodidae taxon id 40782"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=40782&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Pteropodidae in Kruger (place 69020); 2 rows in this pull, of which 1 is genus-rank Epomophorus (70) and 1 is Eidolon helvum (1). No official species appeared at species rank."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=40782",
+      "role": "All-grade Pteropodidae taxonomy tree for place 69020; used to find Epomophorus crypturus and E. wahlbergi (1 observation of any grade each), the absence of E. gambianus and Rousettus aegyptiacus, the genus-level Epomophorus total (496 of any grade, 494 at genus rank), and the candidate Eidolon helvum"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for Epomophorus gambianus (taxon 40812), E. crypturus (64485), E. wahlbergi (40811), and Rousettus aegyptiacus (75042)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps and split: Epomophorus gambianus, Epomophorus crypturus, Epomophorus crypturus crypturus, Epomophorus wahlbergi, Rousettus aegyptiacus, and Eidolon helvum; used with taxa?id=40812,64485,40811,75042,40827&all_names=true"
+    }
+  ],
+  "species": [
+    {
+      "slug": "epomophorus-crypturus",
+      "latin": "Epomophorus crypturus",
+      "en": "Peters' epauletted fruit bat",
+      "af": "Peters se witkol-vrugtevlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Epomophorus gambianus",
+          "to": "Epomophorus crypturus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Epomophorus%20gambianus&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches Epomophorus gambianus (taxon 40812, preferred_common_name Gambian Epauletted Fruit Bat), which remains an active species. The same search also matches Epomophorus crypturus (taxon 64485, preferred_common_name Peters's Epauletted Fruit Bat) via the term Epomophorus gambianus crypturus. The 2011 checklist already prints the synonym (=E. crypturus crypturus) and the English name Peters' epauletted fruit bat. Place 69020 has 1 observation of any grade identified as E. crypturus (0 research-grade); E. gambianus does not appear in the place Pteropodidae taxonomy tree (0 research-grade). E. crypturus lists Epomophorus gambianus crypturus as an invalid scientific name, but not the binomial Epomophorus gambianus itself. The Kruger taxon is stored as E. crypturus because that is the iNaturalist species whose preferred common name is Peters's Epauletted Fruit Bat and which has the Kruger record."
+        },
+        {
+          "from": "Peters' epauletted fruit bat",
+          "to": "Peters's Epauletted Fruit Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=64485&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. Peters' Epauletted Fruit Bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the Afrikaans name as 'Peters se witkol- vrugtevlermuis' (space after the hyphen). The stored af value is Peters se witkol-vrugtevlermuis.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade identified as Epomophorus crypturus, and observation total_results for taxon 64485 is 0."
+      ]
+    },
+    {
+      "slug": "epomophorus-wahlbergi",
+      "latin": "Epomophorus wahlbergi",
+      "en": "Wahlberg's epauletted fruit bat",
+      "af": "Wahlberg se witkolvrugtevlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade, and observation total_results for taxon 40811 is 0."
+      ]
+    },
+    {
+      "slug": "rousettus-aegyptiacus",
+      "latin": "Rousettus aegyptiacus",
+      "en": "Egyptian fruit bat",
+      "af": "Egiptiese vrugtevlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Egyptian fruit bat",
+          "to": "Egyptian Rousette",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=75042&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 75042. Egyptian Fruit Bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 75042 is 0."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "eidolon-helvum",
+      "latin": "Eidolon helvum",
+      "en": "Straw-coloured Fruit Bat",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 1 research-grade and 1 observation of any grade (taxon 40827; preferred_common_name Straw-coloured Fruit Bat). Not on the 2011 SANParks Pteropodidae list, which has Epomophorus gambianus, E. wahlbergi, and Rousettus aegyptiacus only. Left in candidates, not included."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "The binomial Epomophorus gambianus is not listed as an invalid scientific name of E. crypturus (only the trinomial Epomophorus gambianus crypturus is). That missing species-level synonym link is logged; the Kruger taxon is still stored as E. crypturus because of the 2011 English name, the printed synonym, and the Kruger record.",
+    "Almost all Kruger fruit-bat observations are not identified to species: the place taxonomy tree has 496 observations of any grade under Epomophorus, of which 494 are at genus rank. species_counts returned a genus-rank row for Epomophorus (70 research-grade). Those counts were not treated as a species identification of either official Epomophorus.",
+    "Epomophorus wahlbergi and Rousettus aegyptiacus are on the official list, but have 0 research-grade iNaturalist observations in place 69020 (E. wahlbergi has 1 observation of any grade; R. aegyptiacus is absent from the tree). Absence of an iNat record was not treated as absence from KNP.",
+    "No rare, reintroduced, or introduced flags are recorded for official Pteropodidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

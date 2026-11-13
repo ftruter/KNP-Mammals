@@ -1,0 +1,197 @@
+{
+  "family": "Soricidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Insectivora: Soricidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (6 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only soricids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Soricidae"
+    },
+    {
+      "id": "inat-taxon-soricidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Soricidae&rank=family",
+      "role": "Soricidae taxon id 46341"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=46341&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Soricidae in Kruger (place 69020); 0 species in this pull"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=46341",
+      "role": "All-grade Soricidae taxonomy tree for place 69020; used to find official Suncus lixa (as Suncus lixa) and iNat-only Suncus varilla. The five official Crocidura species are absent from the tree; two observations are identified only to genus Crocidura."
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for official Crocidura cyanea (taxon 46777, 0), C. fuscomurina (46592, 0), C. hirta (46621, 0), C. mariquensis (46612, 0), C. silacea (46772, 0) and Suncus lixa (1370725, 0 research-grade, 1 of any grade), and for candidate Suncus varilla (46521, 0 research-grade, 1 of any grade)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remap of Suncus lixus; used with taxa?q=Suncus%20lixa&all_names=true, taxa?q=Suncus%20varilla&all_names=true and searches for the five official Crocidura names for current name lists"
+    }
+  ],
+  "species": [
+    {
+      "slug": "crocidura-cyanea",
+      "latin": "Crocidura cyanea",
+      "en": "Reddish-grey musk shrew",
+      "af": "Rooigrysskeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Reddish-grey musk shrew",
+          "to": "Reddish-gray Musk Shrew",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46777&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46777. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Soricidae taxonomy tree (no observations of any grade). Observation total_results for taxon 46777 in the place is 0."
+      ]
+    },
+    {
+      "slug": "crocidura-fuscomurina",
+      "latin": "Crocidura fuscomurina",
+      "en": "Tiny musk shrew",
+      "af": "Dwergskeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Tiny musk shrew",
+          "to": "Bicolored Musk Shrew",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46592&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46592. tiny musk shrew and Bicolored Musk Shrew -- Tiny Musk Shrew remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Soricidae taxonomy tree (no observations of any grade). Observation total_results for taxon 46592 in the place is 0."
+      ]
+    },
+    {
+      "slug": "crocidura-hirta",
+      "latin": "Crocidura hirta",
+      "en": "Lesser red musk shrew",
+      "af": "Kleiner rooiskeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Lesser red musk shrew",
+          "to": "Lesser Red White-toothed Shrew",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46621&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46621. Lesser Red Musk Shrew remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Soricidae taxonomy tree (no observations of any grade). Observation total_results for taxon 46621 in the place is 0."
+      ]
+    },
+    {
+      "slug": "crocidura-mariquensis",
+      "latin": "Crocidura mariquensis",
+      "en": "Swamp musk shrew",
+      "af": "Vleiskeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Soricidae taxonomy tree (no observations of any grade). Observation total_results for taxon 46612 in the place is 0."
+      ]
+    },
+    {
+      "slug": "crocidura-silacea",
+      "latin": "Crocidura silacea",
+      "en": "Peters' musk shrew",
+      "af": "Peters se skeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Peters' musk shrew",
+          "to": "Lesser Gray-brown Musk Shrew",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46772&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46772. The 2011 name is not a listed English name on this taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Soricidae taxonomy tree (no observations of any grade). Observation total_results for taxon 46772 in the place is 0."
+      ]
+    },
+    {
+      "slug": "suncus-lixa",
+      "latin": "Suncus lixa",
+      "en": "Greater dwarf shrew",
+      "af": "Groter dwergskeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Suncus lixus",
+          "to": "Suncus lixa",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Suncus%20lixus&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Suncus lixa (taxon 1370725, preferred_common_name Greater Dwarf Shrew), which lists Suncus lixus as an invalid scientific name. This is a spelling remap of the epithet, not a split: Suncus lixus is not kept as a different active species."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 1370725 is 0). The place taxonomy tree has 1 observation of any grade."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "suncus-varilla",
+      "latin": "Suncus varilla",
+      "en": "Lesser Dwarf Shrew",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 1 observation of any grade (taxon 46521; preferred_common_name Lesser Dwarf Shrew). The taxon record does not list Suncus lixus or Suncus lixa as a scientific name. Not on the 2011 SANParks Soricidae list, which has Greater dwarf shrew as Suncus lixus (stored as Suncus lixa) only. Left in candidates, not included."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "All six official soricids have 0 research-grade iNaturalist observations in place 69020. The five official Crocidura species are absent from the place taxonomy tree (no observations of any grade under those names; 2 observations are identified only to genus Crocidura). Suncus lixa has 1 observation of any grade. Absence of an iNat record was not treated as absence from KNP.",
+    "Suncus varilla is an iNaturalist-only species in the place (0 research-grade, 1 of any grade). It is a separate active iNaturalist species, not a synonym of Suncus lixa, so it was not used to remap the official greater dwarf shrew.",
+    "No English remap is stored for Swamp musk shrew or Greater dwarf shrew: the iNaturalist preferred_common_name differs only by capitalisation (Swamp Musk Shrew, Greater Dwarf Shrew).",
+    "Genus-rank Crocidura identifications in the place taxonomy tree were not treated as candidates and were not assigned to any official species.",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "No rare, reintroduced, or introduced flags are recorded for official Soricidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}
