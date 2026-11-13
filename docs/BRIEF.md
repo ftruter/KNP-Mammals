@@ -3,7 +3,7 @@
 Owner: ftruter ("Chief"). Repo: https://github.com/ftruter/KNP-Mammals. Public domain for the eventual Cloudflare Worker: `mammals.truter.world`. Sister project: https://github.com/ftruter/KNP-birds (live at https://birds.truter.world). Read `/workspace/knp-mammals/BIRDS_LESSONS.md` before starting; it holds the architecture, data model, design system and source lessons to reuse.
 
 ## Status
-Phase 1 is done and is in [KNP-Mammals PR #1](https://github.com/ftruter/KNP-Mammals/pull/1). Phase 2 waits for the owner's go.
+Phase 1 is done (PR #1). Phase 2 is done (PRs #3 and #4: 39 family files). Phase 3 is the combined `data/species-list.json` (PR #5). Phase 4 waits for the owner's go.
 
 ## Your job
 Research the mammals of Kruger National Park (KNP) for an open field guide in the same style as the birds site. You research and write files. You do not build the site or train models until the owner says go.

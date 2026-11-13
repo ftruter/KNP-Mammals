@@ -1,0 +1,3955 @@
+{
+  "title": "Mammals of Kruger National Park: combined species list",
+  "generated": "2026-11-13",
+  "phase": 3,
+  "inclusion": "Species on the 2011 SANParks Kruger mammal checklist (Wayback copy), after the owner decisions of 13 Nov 2026 (see docs/BRIEF.md and docs/SOURCES.md). Each family file under data/species/ holds the full evidence.",
+  "counts": {
+    "species": 143,
+    "families": 39,
+    "orders": 14,
+    "byOrder": {
+      "Afrosoricida": 2,
+      "Artiodactyla": 26,
+      "Carnivora": 27,
+      "Chiroptera": 41,
+      "Eulipotyphla": 7,
+      "Hyracoidea": 2,
+      "Lagomorpha": 3,
+      "Macroscelidea": 3,
+      "Perissodactyla": 3,
+      "Pholidota": 1,
+      "Primates": 4,
+      "Proboscidea": 1,
+      "Rodentia": 22,
+      "Tubulidentata": 1
+    },
+    "candidates": 21,
+    "excluded": 4,
+    "remaps": 122,
+    "flags": {},
+    "zeroResearchGrade": 61,
+    "nullAf": 0,
+    "candidateFlags": {
+      "domestic": 4
+    }
+  },
+  "species": [
+    {
+      "family": "Chrysochloridae",
+      "familySlug": "chrysochloridae",
+      "order": "Afrosoricida",
+      "slug": "calcochloris-obtusirostris",
+      "latin": "Calcochloris obtusirostris",
+      "en": "Yellow golden mole",
+      "af": "Geel gouemol",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Calcochloris obtrusirostris",
+          "to": "Calcochloris obtusirostris",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Calcochloris%20obtrusirostris&all_names=true",
+          "note": "The 2011 checklist prints the name as Calcochloris obtrusirostris. An iNaturalist taxa search for that spelling returned 0 results. A search for Calcochloris obtusirostris matches species Calcochloris obtusirostris (taxon 42519, preferred_common_name Yellow Golden Mole), which lists Chrysochloris obtusirostris as an invalid scientific name. The stored latin value is the iNaturalist spelling. This is treated as a typographic typo on the PDF (obtrusirostris vs obtusirostris), not as a taxonomic split."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Chrysochloridae taxonomy tree (no observations of any grade). Observation total_results for taxon 42519 in the place is 0.",
+        "The 2011 checklist prints the scientific name as 'Calcochloris obtrusirostris'. The stored latin value is Calcochloris obtusirostris."
+      ]
+    },
+    {
+      "family": "Chrysochloridae",
+      "familySlug": "chrysochloridae",
+      "order": "Afrosoricida",
+      "slug": "neamblysomus-julianae",
+      "latin": "Neamblysomus julianae",
+      "en": "Juliana's golden mole",
+      "af": "Juliana se gouemol",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 42531 is 0). The place taxonomy tree has 1 observation of any grade.",
+        "The 2011 checklist already prints this species as Neamblysomus julianae, with the synonym (=Amblysomus julianae). An iNaturalist taxa search for Amblysomus julianae matches N. julianae (taxon 42531), which lists Amblysomus julianae as an invalid scientific name. No latin remap is stored, because the 2011 heading is already the current name."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "aepyceros-melampus",
+      "latin": "Aepyceros melampus",
+      "en": "Impala",
+      "af": "Rooibok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2910
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "alcelaphus-buselaphus-lichtensteinii",
+      "latin": "Alcelaphus buselaphus lichtensteinii",
+      "en": "Lichtenstein's hartebeest",
+      "af": "Lichtenstein se hartbees",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 16
+      },
+      "remaps": [
+        {
+          "from": "Sigmoceros lichtensteinii",
+          "to": "Alcelaphus buselaphus lichtensteinii",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Sigmoceros%20lichtensteinii&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches species Alcelaphus buselaphus (taxon 42418), which lists Sigmoceros lichtensteinii as an invalid scientific name. The Kruger taxon is stored as the iNaturalist subspecies Alcelaphus buselaphus lichtensteinii (taxon 132659; preferred_common_name Lichtenstein's Hartebeest). That subspecies record also lists Alcelaphus lichtensteinii as an invalid scientific name. The research-grade count is the subspecies total (16), not the species-level total of 19, which includes 3 research-grade observations of A. b. caama."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "Afrikaans spelling hartbees is as printed on the 2011 SANParks checklist.",
+        "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "cephalophorus-natalensis",
+      "latin": "Cephalophorus natalensis",
+      "en": "Red duiker",
+      "af": "Rooiduiker",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Cephalophus natalensis",
+          "to": "Cephalophorus natalensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431002&all_names=true",
+          "note": "iNaturalist taxon 1431002 lists Cephalophus natalensis as an invalid scientific name of Cephalophorus natalensis."
+        },
+        {
+          "from": "Red duiker",
+          "to": "Red Forest Duiker",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431002&all_names=true",
+          "note": "iNaturalist preferred_common_name. Natal Duiker and Natal Red Duiker are also listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 2 observations of any grade."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "connochaetes-taurinus",
+      "latin": "Connochaetes taurinus",
+      "en": "Blue wildebeest",
+      "af": "Blouwildebees",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1568
+      },
+      "remaps": [
+        {
+          "from": "Blue wildebeest",
+          "to": "Common Wildebeest",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42280&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42280. Blue Wildebeest remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "damaliscus-lunatus",
+      "latin": "Damaliscus lunatus",
+      "en": "Tsessebe",
+      "af": "Tsessebe",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 205
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "hippotragus-equinus",
+      "latin": "Hippotragus equinus",
+      "en": "Roan",
+      "af": "Bastergemsbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 47
+      },
+      "remaps": [
+        {
+          "from": "Roan",
+          "to": "Roan Antelope",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42332&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42332. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "hippotragus-niger",
+      "latin": "Hippotragus niger",
+      "en": "Sable",
+      "af": "Swartwitpens",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 145
+      },
+      "remaps": [
+        {
+          "from": "Sable",
+          "to": "Sable Antelope",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42334&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42334. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "kobus-ellipsiprymnus",
+      "latin": "Kobus ellipsiprymnus",
+      "en": "Waterbuck",
+      "af": "Waterbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1822
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "nesotragus-moschatus",
+      "latin": "Nesotragus moschatus",
+      "en": "Suni",
+      "af": "Soenie",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Neotragus moschatus",
+          "to": "Nesotragus moschatus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Neotragus%20moschatus&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Nesotragus moschatus (taxon 74770, preferred_common_name Suni), which lists Neotragus moschatus as an invalid scientific name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Bovidae taxonomy tree (no observations of any grade under this name or the 2011 name)."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "oreotragus-oreotragus",
+      "latin": "Oreotragus oreotragus",
+      "en": "Klipspringer",
+      "af": "Klipspringer",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 507
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "ourebia-ourebi",
+      "latin": "Ourebia ourebi",
+      "en": "Oribi",
+      "af": "Oorbietjie",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "pelea-capreolus",
+      "latin": "Pelea capreolus",
+      "en": "Grey rhebok",
+      "af": "Vaalribbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "raphicerus-campestris",
+      "latin": "Raphicerus campestris",
+      "en": "Steenbok",
+      "af": "Steenbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1221
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "raphicerus-sharpei",
+      "latin": "Raphicerus sharpei",
+      "en": "Sharpe's grysbok",
+      "af": "Sharpe se grysbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 186
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "redunca-arundinum",
+      "latin": "Redunca arundinum",
+      "en": "Reedbuck",
+      "af": "Rietbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 56
+      },
+      "remaps": [
+        {
+          "from": "Reedbuck",
+          "to": "Southern Reedbuck",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42305&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42305. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "redunca-fulvorufula",
+      "latin": "Redunca fulvorufula",
+      "en": "Mountain reedbuck",
+      "af": "Rooiribbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "sylvicapra-grimmia",
+      "latin": "Sylvicapra grimmia",
+      "en": "Common duiker",
+      "af": "Gewone duiker",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 335
+      },
+      "remaps": [
+        {
+          "from": "Common duiker",
+          "to": "Bush Duiker",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42424&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42424. Common Duiker remains a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "syncerus-caffer",
+      "latin": "Syncerus caffer",
+      "en": "Buffalo",
+      "af": "Buffel",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2293
+      },
+      "remaps": [
+        {
+          "from": "Buffalo",
+          "to": "African Buffalo",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42405&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42405. Buffalo remains a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "tragelaphus-angasii",
+      "latin": "Tragelaphus angasii",
+      "en": "Nyala",
+      "af": "Njala",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 935
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "tragelaphus-oryx",
+      "latin": "Tragelaphus oryx",
+      "en": "Eland",
+      "af": "Eland",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 66
+      },
+      "remaps": [
+        {
+          "from": "Taurotragus oryx",
+          "to": "Tragelaphus oryx",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Taurotragus%20oryx&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Tragelaphus oryx (taxon 75192), which lists Taurotragus oryx as an invalid scientific name. The place taxonomy tree also has Taurotragus as a subgenus (id 1431370) under Tragelaphus."
+        },
+        {
+          "from": "Eland",
+          "to": "Common Eland",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=75192&all_names=true",
+          "note": "iNaturalist preferred_common_name. Eland remains a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "tragelaphus-strepsiceros",
+      "latin": "Tragelaphus strepsiceros",
+      "en": "Kudu",
+      "af": "Koedoe",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1999
+      },
+      "remaps": [
+        {
+          "from": "Kudu",
+          "to": "Greater Kudu",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42339&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42339. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "tragelaphus-sylvaticus",
+      "latin": "Tragelaphus sylvaticus",
+      "en": "Bushbuck",
+      "af": "Bosbok",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 978
+      },
+      "remaps": [
+        {
+          "from": "Tragelaphus scriptus",
+          "to": "Tragelaphus sylvaticus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Tragelaphus%20scriptus&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Tragelaphus scriptus (taxon 42341) as an active species, preferred_common_name Northern Bushbuck. The 2011 combination Tragelaphus scriptus sylvaticus is listed as an invalid scientific name of Tragelaphus sylvaticus (taxon 1431867, preferred_common_name Southern Bushbuck). Place 69020 research-grade bushbuck observations are identified as T. sylvaticus (978); T. scriptus does not appear in the place Bovidae taxonomy tree."
+        },
+        {
+          "from": "Bushbuck",
+          "to": "Southern Bushbuck",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431867&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Giraffidae",
+      "familySlug": "giraffidae",
+      "order": "Artiodactyla",
+      "slug": "giraffa-giraffa",
+      "latin": "Giraffa giraffa",
+      "en": "Giraffe",
+      "af": "Kameelperd",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 3245
+      },
+      "remaps": [
+        {
+          "from": "Giraffa camelopardalis",
+          "to": "Giraffa giraffa",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Giraffa%20camelopardalis&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Giraffa camelopardalis (taxon 42157) as an active species, preferred_common_name Northern Giraffe. The 2011 combination Giraffa camelopardalis giraffa is listed as an invalid scientific name of Giraffa giraffa giraffa (taxon 1510582, preferred_common_name South African Giraffe). Place 69020 research-grade giraffe observations are identified as Giraffa giraffa (taxon 1510571, preferred_common_name Southern Giraffe, 3245); G. camelopardalis does not appear in the place Giraffidae taxonomy tree. The included taxon is stored at species rank, matching the 2011 checklist rank."
+        },
+        {
+          "from": "Giraffe",
+          "to": "Southern Giraffe",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1510571&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The place taxonomy tree has 3285 observations of any grade under Giraffa giraffa, of which 2871 are identified as subspecies G. g. giraffa and 410 are at species rank. A further 4 are the infrahybrid listed in candidates. G. camelopardalis is absent from the tree (no observations of any grade)."
+      ]
+    },
+    {
+      "family": "Hippopotamidae",
+      "familySlug": "hippopotamidae",
+      "order": "Artiodactyla",
+      "slug": "hippopotamus-amphibius",
+      "latin": "Hippopotamus amphibius",
+      "en": "Hippopotamus",
+      "af": "Seekoei",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2350
+      },
+      "remaps": [
+        {
+          "from": "Hippopotamus",
+          "to": "Common Hippopotamus",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42149&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42149. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Suidae",
+      "familySlug": "suidae",
+      "order": "Artiodactyla",
+      "slug": "phacochoerus-africanus",
+      "latin": "Phacochoerus africanus",
+      "en": "Warthog",
+      "af": "Vlakvark",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1556
+      },
+      "remaps": [
+        {
+          "from": "Phacochoerus aethiopicus",
+          "to": "Phacochoerus africanus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Phacochoerus%20aethiopicus&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Phacochoerus aethiopicus (taxon 42123) as an active species, preferred_common_name Desert Warthog. The 2011 combination Phacochoerus aethiopicus africanus is listed as an invalid scientific name of Phacochoerus africanus (taxon 42122, preferred_common_name Common Warthog). Place 69020 research-grade warthog observations are identified as P. africanus (1556); P. aethiopicus does not appear in the place Suidae taxonomy tree."
+        },
+        {
+          "from": "Warthog",
+          "to": "Common Warthog",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42122&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42122. Warthog remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Suidae",
+      "familySlug": "suidae",
+      "order": "Artiodactyla",
+      "slug": "potamochoerus-larvatus",
+      "latin": "Potamochoerus larvatus",
+      "en": "Bushpig",
+      "af": "Bosvark",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 3
+      },
+      "remaps": [
+        {
+          "from": "Potamochoerus porcus",
+          "to": "Potamochoerus larvatus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Potamochoerus%20porcus&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches only Potamochoerus porcus (taxon 42139, preferred_common_name Red River Hog), which remains an active species. Place 69020 research-grade bushpig observations are identified as Potamochoerus larvatus (taxon 42138, preferred_common_name Bushpig, 3); P. porcus does not appear in the place Suidae taxonomy tree. iNaturalist does not list Potamochoerus porcus, or a trinomial such as Potamochoerus porcus larvatus, as a scientific name of P. larvatus (a search for Potamochoerus porcus larvatus returned 0 results; the P. larvatus name list has no invalid scientific names). The Kruger taxon is stored as P. larvatus because that is the iNaturalist species whose preferred common name is Bushpig and which has the Kruger records."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 3 research-grade iNaturalist observations in place 69020. The place taxonomy tree has 4 observations of any grade, including 1 identified as subspecies Potamochoerus larvatus koiropotamus."
+      ]
+    },
+    {
+      "family": "Canidae",
+      "familySlug": "canidae",
+      "order": "Carnivora",
+      "slug": "lupulella-adusta",
+      "latin": "Lupulella adusta",
+      "en": "Side-striped jackal",
+      "af": "Witkwasjakkals",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 57
+      },
+      "remaps": [
+        {
+          "from": "Canis adustus",
+          "to": "Lupulella adusta",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Canis%20adustus&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Lupulella adusta (taxon 1210965, preferred_common_name Side-striped Jackal), which lists Canis adustus as an invalid scientific name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Canidae",
+      "familySlug": "canidae",
+      "order": "Carnivora",
+      "slug": "lupulella-mesomelas",
+      "latin": "Lupulella mesomelas",
+      "en": "Black-backed jackal",
+      "af": "Rooijakkals",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 513
+      },
+      "remaps": [
+        {
+          "from": "Canis mesomelas",
+          "to": "Lupulella mesomelas",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Canis%20mesomelas&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Lupulella mesomelas (taxon 1210966, preferred_common_name Black-backed Jackal), which lists Canis mesomelas as an invalid scientific name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Canidae",
+      "familySlug": "canidae",
+      "order": "Carnivora",
+      "slug": "lycaon-pictus",
+      "latin": "Lycaon pictus",
+      "en": "Wild dog",
+      "af": "Wildehond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 879
+      },
+      "remaps": [
+        {
+          "from": "Wild dog",
+          "to": "African Wild Dog",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42093&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42093. African Hunting Dog, Painted Dog and other English names are also listed; Wild Dog is not a listed English name on this taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Canidae",
+      "familySlug": "canidae",
+      "order": "Carnivora",
+      "slug": "otocyon-megalotis",
+      "latin": "Otocyon megalotis",
+      "en": "Bat-eared fox",
+      "af": "Bakoorvos",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 42095 is 0). The place Canidae taxonomy tree has no observations of any grade under this name."
+      ]
+    },
+    {
+      "family": "Felidae",
+      "familySlug": "felidae",
+      "order": "Carnivora",
+      "slug": "acinonyx-jubatus",
+      "latin": "Acinonyx jubatus",
+      "en": "Cheetah",
+      "af": "Jagluiperd",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 537
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Felidae",
+      "familySlug": "felidae",
+      "order": "Carnivora",
+      "slug": "caracal-caracal",
+      "latin": "Caracal caracal",
+      "en": "Caracal",
+      "af": "Rooikat",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 14
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist already uses Caracal caracal and prints (=Felis caracal) as a synonym. Felis caracal is listed as an invalid scientific name of Caracal caracal (taxon 42042). The stored latin value is unchanged."
+      ]
+    },
+    {
+      "family": "Felidae",
+      "familySlug": "felidae",
+      "order": "Carnivora",
+      "slug": "felis-lybica",
+      "latin": "Felis lybica",
+      "en": "African wild cat",
+      "af": "Vaalboskat",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 123
+      },
+      "remaps": [
+        {
+          "from": "Felis silvestris",
+          "to": "Felis lybica",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Felis%20silvestris&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Felis silvestris (taxon 922459) as an active species, preferred_common_name European Wildcat. The 2011 checklist already prints (=F. lybica) under Felis silvestris. Place 69020 research-grade African wild-cat observations are identified as Felis lybica (taxon 371414, preferred_common_name African Wildcat, 123); F. silvestris does not appear in the place Felidae taxonomy tree. The F. lybica species name list does not include Felis silvestris, or the trinomial Felis silvestris lybica, as a scientific name (its invalid scientific names are Felis lybicus, Felis ocreata, Felis cafra and Felis haussa). The trinomial Felis silvestris cafra is listed as an invalid scientific name of the subspecies Felis lybica cafra (taxon 922462, preferred_common_name Southern African Wildcat), which has 67 observations of any grade in the place tree. The Kruger taxon is stored as the species Felis lybica because that is the iNaturalist species whose preferred common name is African Wildcat, which has the Kruger records, and which the 2011 list already synonymises as F. lybica."
+        },
+        {
+          "from": "African wild cat",
+          "to": "African Wildcat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=371414&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 371414. African Wild Cat is also a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Felidae",
+      "familySlug": "felidae",
+      "order": "Carnivora",
+      "slug": "leptailurus-serval",
+      "latin": "Leptailurus serval",
+      "en": "Serval",
+      "af": "Tierboskat",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 31
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist already uses Leptailurus serval and prints (=Felis serval) as a synonym. Felis serval is listed as an invalid scientific name of Leptailurus serval (taxon 42025). The stored latin value is unchanged."
+      ]
+    },
+    {
+      "family": "Felidae",
+      "familySlug": "felidae",
+      "order": "Carnivora",
+      "slug": "panthera-leo",
+      "latin": "Panthera leo",
+      "en": "Lion",
+      "af": "Leeu",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2403
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Felidae",
+      "familySlug": "felidae",
+      "order": "Carnivora",
+      "slug": "panthera-pardus",
+      "latin": "Panthera pardus",
+      "en": "Leopard",
+      "af": "Luiperd",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1338
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Herpestidae",
+      "familySlug": "herpestidae",
+      "order": "Carnivora",
+      "slug": "atilax-paludinosus",
+      "latin": "Atilax paludinosus",
+      "en": "Water mongoose",
+      "af": "Kommetjiegatmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 3
+      },
+      "remaps": [
+        {
+          "from": "Water mongoose",
+          "to": "Marsh Mongoose",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41919&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41919. Water Mongoose remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 3 research-grade iNaturalist observations in place 69020. The place taxonomy tree has 5 observations of any grade."
+      ]
+    },
+    {
+      "family": "Herpestidae",
+      "familySlug": "herpestidae",
+      "order": "Carnivora",
+      "slug": "helogale-parvula",
+      "latin": "Helogale parvula",
+      "en": "Dwarf mongoose",
+      "af": "Dwergmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 812
+      },
+      "remaps": [
+        {
+          "from": "Dwarf mongoose",
+          "to": "Common Dwarf Mongoose",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41906&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41906. Dwarf Mongoose remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Herpestidae",
+      "familySlug": "herpestidae",
+      "order": "Carnivora",
+      "slug": "herpestes-ichneumon",
+      "latin": "Herpestes ichneumon",
+      "en": "Large grey mongoose",
+      "af": "Grootgrysmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Large grey mongoose",
+          "to": "Egyptian Mongoose",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41900&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41900. Large Grey Mongoose remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 41900 is 0). The place taxonomy tree has 2 observations of any grade."
+      ]
+    },
+    {
+      "family": "Herpestidae",
+      "familySlug": "herpestidae",
+      "order": "Carnivora",
+      "slug": "herpestes-sanguineus",
+      "latin": "Herpestes sanguineus",
+      "en": "Slender mongoose",
+      "af": "Swartkwasmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 305
+      },
+      "remaps": [
+        {
+          "from": "Galerella sanguinea",
+          "to": "Herpestes sanguineus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Galerella%20sanguinea&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Herpestes sanguineus (taxon 74414, preferred_common_name Common Slender Mongoose), which lists Galerella sanguinea as an invalid scientific name."
+        },
+        {
+          "from": "Slender mongoose",
+          "to": "Common Slender Mongoose",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=74414&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 74414. Slender Mongoose remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Herpestidae",
+      "familySlug": "herpestidae",
+      "order": "Carnivora",
+      "slug": "ichneumia-albicauda",
+      "latin": "Ichneumia albicauda",
+      "en": "White-tailed mongoose",
+      "af": "Witstertmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 21
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Herpestidae",
+      "familySlug": "herpestidae",
+      "order": "Carnivora",
+      "slug": "mungos-mungo",
+      "latin": "Mungos mungo",
+      "en": "Banded mongoose",
+      "af": "Gebande muishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 151
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Herpestidae",
+      "familySlug": "herpestidae",
+      "order": "Carnivora",
+      "slug": "paracynictis-selousi",
+      "latin": "Paracynictis selousi",
+      "en": "Selous' mongoose",
+      "af": "Kleinwitstertmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 41937 is 0). The place Herpestidae taxonomy tree has no observations of any grade under this name."
+      ]
+    },
+    {
+      "family": "Herpestidae",
+      "familySlug": "herpestidae",
+      "order": "Carnivora",
+      "slug": "rhynchogale-melleri",
+      "latin": "Rhynchogale melleri",
+      "en": "Meller's mongoose",
+      "af": "Meller se muishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 41941 is 0). The place Herpestidae taxonomy tree has no observations of any grade under this name."
+      ]
+    },
+    {
+      "family": "Hyaenidae",
+      "familySlug": "hyaenidae",
+      "order": "Carnivora",
+      "slug": "crocuta-crocuta",
+      "latin": "Crocuta crocuta",
+      "en": "Spotted hyaena",
+      "af": "Gevlekte hiëna",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2392
+      },
+      "remaps": [
+        {
+          "from": "Spotted hyaena",
+          "to": "Spotted Hyena",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41886&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41886. Spotted Hyaena remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Hyaenidae",
+      "familySlug": "hyaenidae",
+      "order": "Carnivora",
+      "slug": "parahyaena-brunnea",
+      "latin": "Parahyaena brunnea",
+      "en": "Brown hyaena",
+      "af": "Strandjut",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Hyaena brunnea",
+          "to": "Parahyaena brunnea",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Hyaena%20brunnea&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Parahyaena brunnea (taxon 500648, preferred_common_name Brown Hyaena), which lists Hyaena brunnea as an invalid scientific name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 500648 is 0). The place taxonomy tree has no observations identified as this species. It does have 1 observation of any grade identified only to the genus Hyaena (taxon 41887), which was not counted as this species."
+      ]
+    },
+    {
+      "family": "Hyaenidae",
+      "familySlug": "hyaenidae",
+      "order": "Carnivora",
+      "slug": "proteles-cristatus",
+      "latin": "Proteles cristatus",
+      "en": "Aardwolf",
+      "af": "Aardwolf",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Proteles cristatus cristatus",
+          "to": "Proteles cristatus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Proteles%20cristatus%20cristatus&all_names=true",
+          "note": "The 2011 checklist already lists this animal as the subspecies Proteles cristatus cristatus. An iNaturalist taxa search for that trinomial matches the species Proteles cristatus (taxon 1306005, preferred_common_name Southern Aardwolf), which lists Proteles cristatus cristatus as an invalid scientific name. The former sister subspecies is now the species Proteles septentrionalis (taxon 1431008, preferred_common_name Eastern Aardwolf), which lists Proteles cristatus septentrionalis as an invalid scientific name and has 0 research-grade observations in place 69020. The 2011 subspecies is no longer an active iNaturalist taxon, so the Kruger taxon is stored as the species that now carries that trinomial as an invalid name."
+        },
+        {
+          "from": "Aardwolf",
+          "to": "Southern Aardwolf",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1306005&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1306005. Aardwolf remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 1306005 is 0). The place Hyaenidae taxonomy tree has no observations of any grade under this name or the 2011 trinomial."
+      ]
+    },
+    {
+      "family": "Mustelidae",
+      "familySlug": "mustelidae",
+      "order": "Carnivora",
+      "slug": "ictonyx-striatus",
+      "latin": "Ictonyx striatus",
+      "en": "Striped polecat",
+      "af": "Stinkmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Striped polecat",
+          "to": "Zorilla",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41822&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41822. Striped Polecat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 41822 is 0). The place taxonomy tree has 1 observation of any grade."
+      ]
+    },
+    {
+      "family": "Mustelidae",
+      "familySlug": "mustelidae",
+      "order": "Carnivora",
+      "slug": "lutra-capensis",
+      "latin": "Lutra capensis",
+      "en": "Cape clawless otter",
+      "af": "Groototter",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 26
+      },
+      "remaps": [
+        {
+          "from": "Aonyx capensis",
+          "to": "Lutra capensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Aonyx%20capensis&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Lutra capensis (taxon 1638841, preferred_common_name African Clawless Otter), which lists Aonyx capensis as an invalid scientific name. The search also matches the Congo Clawless Otter Lutra congica via the trinomial Aonyx capensis congicus; L. congica does not appear in the place Mustelidae taxonomy tree. The Kruger taxon is stored as the species Lutra capensis because the 2011 list used the species name Aonyx capensis. The research-grade count is the species total (26), which includes 18 research-grade observations of subspecies Lutra capensis capensis."
+        },
+        {
+          "from": "Cape clawless otter",
+          "to": "African Clawless Otter",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1638841&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1638841. Cape Clawless Otter is not a listed English name on the species; it is the preferred_common_name of the subspecies Lutra capensis capensis (taxon 1638850). The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist lists this animal at species rank (Aonyx capensis). The official English name Cape clawless otter is the iNaturalist preferred common name of the subspecies Lutra capensis capensis, not a listed English name of the species. The taxon is stored at species rank; subspecies identifications were not treated as a separate candidate."
+      ]
+    },
+    {
+      "family": "Mustelidae",
+      "familySlug": "mustelidae",
+      "order": "Carnivora",
+      "slug": "mellivora-capensis",
+      "latin": "Mellivora capensis",
+      "en": "Honey badger",
+      "af": "Ratel",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 186
+      },
+      "remaps": [
+        {
+          "from": "Honey badger",
+          "to": "Ratel",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41834&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41834. Honey Badger remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Viverridae",
+      "familySlug": "viverridae",
+      "order": "Carnivora",
+      "slug": "civettictis-civetta",
+      "latin": "Civettictis civetta",
+      "en": "African civet",
+      "af": "Afrikaanse siwet",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 83
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Viverridae",
+      "familySlug": "viverridae",
+      "order": "Carnivora",
+      "slug": "genetta-felina",
+      "latin": "Genetta felina",
+      "en": "Small-spotted genet",
+      "af": "Kleinkolmuskejaatkat",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 41
+      },
+      "remaps": [
+        {
+          "from": "Genetta genetta",
+          "to": "Genetta felina",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Genetta%20genetta&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Genetta genetta (taxon 925661) as an active species, preferred_common_name Northern Small-spotted Genet, with Small-spotted Genet as a listed English name. The combination Genetta genetta felina is listed as an invalid scientific name of Genetta felina (taxon 925659, preferred_common_name Southern Small-spotted Genet). Place 69020 research-grade small-spotted genet observations are identified as G. felina (41). G. genetta appears in the place Viverridae taxonomy tree with 1 observation of any grade and 0 research-grade, and is listed under candidates."
+        },
+        {
+          "from": "Small-spotted genet",
+          "to": "Southern Small-spotted Genet",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=925659&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Viverridae",
+      "familySlug": "viverridae",
+      "order": "Carnivora",
+      "slug": "genetta-fieldiana",
+      "latin": "Genetta fieldiana",
+      "en": "Large-spotted genet",
+      "af": "Rooikolmuskejaatkat",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 188
+      },
+      "remaps": [
+        {
+          "from": "Genetta tigrina",
+          "to": "Genetta fieldiana",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Genetta%20tigrina&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches only Genetta tigrina (taxon 41595, preferred_common_name Cape Genet), which remains an active species and lists South African Large-spotted Genet and Cape Large-spotted Genet among its English names. Place 69020 research-grade large-spotted genet observations are identified as Genetta fieldiana (taxon 1643992, preferred_common_name Rusty-spotted Genet, 188), which lists Large-spotted Genet as an English name and Genetta maculata as an invalid scientific name. G. tigrina appears in the place Viverridae taxonomy tree with 1 observation of any grade and 0 research-grade, and is listed under candidates. iNaturalist does not list Genetta tigrina, or a trinomial such as Genetta tigrina fieldiana, as a scientific name of G. fieldiana (a search for Genetta tigrina does not return G. fieldiana). The Kruger taxon is stored as G. fieldiana because that is the iNaturalist species that has the Kruger records and that lists Large-spotted Genet as an English name."
+        },
+        {
+          "from": "Large-spotted genet",
+          "to": "Rusty-spotted Genet",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1643992&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. Large-spotted Genet remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Emballonuridae",
+      "familySlug": "emballonuridae",
+      "order": "Chiroptera",
+      "slug": "taphozous-mauritianus",
+      "latin": "Taphozous mauritianus",
+      "en": "Tomb bat",
+      "af": "Witlyfvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 64
+      },
+      "remaps": [
+        {
+          "from": "Tomb bat",
+          "to": "Mauritian Tomb Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41380&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41380. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Hipposideridae",
+      "familySlug": "hipposideridae",
+      "order": "Chiroptera",
+      "slug": "hipposideros-caffer",
+      "latin": "Hipposideros caffer",
+      "en": "Sundevall's leaf-nosed bat",
+      "af": "Sundevall se Bladneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 13
+      },
+      "remaps": [
+        {
+          "from": "Sundevall's leaf-nosed bat",
+          "to": "Sundevall's roundleaf bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40761&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40761. The stored en value is the 2011 SANParks checklist name, with typographic spacing normalised as noted."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the English name as 'Sundevall's leaf -nosed bat' (space around the hyphen). The stored en value is Sundevall's leaf-nosed bat.",
+        "The 2011 checklist prints the Afrikaans name as 'Sundevall se Bladneusvlermuis' (capital B). The stored af value follows that spelling.",
+        "The place taxonomy tree has 13 observations of any grade at species rank (taxon 40761) and 1 further observation of any grade identified only to the Hipposideros caffer complex (taxon 1565169)."
+      ]
+    },
+    {
+      "family": "Hipposideridae",
+      "familySlug": "hipposideridae",
+      "order": "Chiroptera",
+      "slug": "hipposideros-commersoni",
+      "latin": "Hipposideros commersoni",
+      "en": "Commerson's leaf-nosed bat",
+      "af": "Commerson se bladneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The 2011 name, Macronycteris commersonii, and Macronycteris vittata are all absent from the place taxonomy tree.",
+        "An iNaturalist taxa search for the 2011 name matches Macronycteris commersonii (taxon 851027, preferred_common_name Commerson's Leaf-nosed Bat), which lists Hipposideros commersoni, Hipposideros commersonii, and Macronycteris commersoni as invalid scientific names. Macronycteris vittata (taxon 851017, preferred_common_name Striped leaf-nosed bat) is a separate active species; its name list does not include Hipposideros commersoni (invalid names are Macronycteris vittatus, Hipposideros vittatus, and Hipposideros marungensis). Observation total_results is 0 for both M. commersonii and M. vittata. Because it is unclear which of those taxa, if either, occurs in Kruger, and there are no Kruger records to decide it, the stored latin value is the 2011 name rather than a guessed remap."
+      ]
+    },
+    {
+      "family": "Miniopteridae",
+      "familySlug": "miniopteridae",
+      "order": "Chiroptera",
+      "slug": "miniopterus-natalensis",
+      "latin": "Miniopterus natalensis",
+      "en": "Schreibers' long-fingered bat",
+      "af": "Schreibers se grotvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Miniopterus schreibersii",
+          "to": "Miniopterus natalensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Miniopterus%20schreibersii&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches Miniopterus schreibersii (taxon 57534, preferred_common_name Schreibers' Long-fingered Bat), which remains an active species. The same search also matches Miniopterus natalensis (taxon 57530, preferred_common_name Natal Long-fingered Bat) via the term Miniopterus schreibersii natalensis. Place 69020 observations in this family are identified as M. natalensis (2 of any grade, 0 research-grade); M. schreibersii does not appear in the place Miniopteridae taxonomy tree (0 research-grade). M. natalensis lists Miniopterus schreibersii natalensis as an invalid scientific name, but not the binomial Miniopterus schreibersii itself. The Kruger taxon is stored as M. natalensis because that is the iNaturalist species which has the Kruger records."
+        },
+        {
+          "from": "Schreibers' long-fingered bat",
+          "to": "Natal Long-fingered Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=57530&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "Printed under Vespertilionidae on the 2011 SANParks checklist; stored in Miniopteridae following the Phase 1 family remap.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 2 observations of any grade identified as Miniopterus natalensis, and observation total_results for taxon 57530 is 0."
+      ]
+    },
+    {
+      "family": "Molossidae",
+      "familySlug": "molossidae",
+      "order": "Chiroptera",
+      "slug": "mops-ansorgei",
+      "latin": "Mops ansorgei",
+      "en": "Ansorge's free-tailed bat",
+      "af": "Ansorge se losstertvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Chaerephon ansorgei",
+          "to": "Mops ansorgei",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Chaerephon%20ansorgei&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Mops ansorgei (taxon 1430965), which lists Chaerephon ansorgei and the printed synonym Tadarida ansorgei as invalid scientific names."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 2 observations of any grade, and observation total_results for taxon 1430965 is 0."
+      ]
+    },
+    {
+      "family": "Molossidae",
+      "familySlug": "molossidae",
+      "order": "Chiroptera",
+      "slug": "mops-condylurus",
+      "latin": "Mops condylurus",
+      "en": "Angola free-tailed bat",
+      "af": "Angola-losstertvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Mops condylus",
+          "to": "Mops condylurus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Tadarida%20condylura&all_names=true",
+          "note": "An iNaturalist taxa search for the exact 2011 spelling Mops condylus returned 0 results. A search for the printed synonym Tadarida condylura matches Mops condylurus (taxon 765544), which lists Tadarida condylura as an invalid scientific name, but not the 2011 spelling Mops condylus. This is treated as a spelling correction of the 2011 combination, supported by the printed synonym, not as a species-level guess."
+        },
+        {
+          "from": "Angola free-tailed bat",
+          "to": "Angolan Free-tailed Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=765544&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 765544. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 13 observations of any grade, and observation total_results for taxon 765544 is 0."
+      ]
+    },
+    {
+      "family": "Molossidae",
+      "familySlug": "molossidae",
+      "order": "Chiroptera",
+      "slug": "mops-midas",
+      "latin": "Mops midas",
+      "en": "Midas free-tailed bat",
+      "af": "Midas se losstertvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the English name as 'Midas free -tailed bat' (space around the hyphen). The stored en value is Midas free-tailed bat.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade, and observation total_results for taxon 765553 is 0."
+      ]
+    },
+    {
+      "family": "Molossidae",
+      "familySlug": "molossidae",
+      "order": "Chiroptera",
+      "slug": "mops-pumilus",
+      "latin": "Mops pumilus",
+      "en": "Little free-tailed bat",
+      "af": "Klein losstertvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Chaerephon pumila",
+          "to": "Mops pumilus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Tadarida%20pumila&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the exact 2011 spelling Chaerephon pumila returned 0 results. A search for the printed synonym Tadarida pumila matches Mops pumilus (taxon 1370990), which lists Tadarida pumila and Chaerephon pumilus as invalid scientific names, but not the 2011 spelling Chaerephon pumila."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Molossidae",
+      "familySlug": "molossidae",
+      "order": "Chiroptera",
+      "slug": "tadarida-aegyptiaca",
+      "latin": "Tadarida aegyptiaca",
+      "en": "Egyptian free-tailed bat",
+      "af": "Egiptiese losstertvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Tadarida aegyptiaca aegyptiaca",
+          "to": "Tadarida aegyptiaca",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Tadarida%20aegyptiaca%20aegyptiaca&all_names=true",
+          "note": "The 2011 checklist already lists this animal as the subspecies Tadarida aegyptiaca aegyptiaca. An iNaturalist taxa search for that trinomial returns only the species Tadarida aegyptiaca (taxon 41300, preferred_common_name Egyptian Free-tailed Bat). No subspecies taxon for T. a. aegyptiaca was present in that search or on the species record. The stored taxon is therefore the species, and the research-grade count is the species total."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The research-grade count is the species total (0), not a missing subspecies row: observation total_results for taxon 41300 is 0. The place taxonomy tree has 11 observations of any grade at species rank, and no subspecies identifications."
+      ]
+    },
+    {
+      "family": "Molossidae",
+      "familySlug": "molossidae",
+      "order": "Chiroptera",
+      "slug": "tadarida-fulminans",
+      "latin": "Tadarida fulminans",
+      "en": "Madagascar large free-tailed bat",
+      "af": "Madagaskarse grootlosstersvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Madagascar large free-tailed bat",
+          "to": "Madagascan Large Free-tailed Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41296&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41296. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist wraps the Afrikaans name across two lines as 'Madagaskarse' and 'grootlosstersvlermuis'. The stored af value is Madagaskarse grootlosstersvlermuis, as printed.",
+        "An iNaturalist taxa search for the printed synonym Nyctinomus mastersoni returned 0 results. Tadarida mastersoni is listed as an invalid scientific name of Tadarida fulminans (taxon 41296).",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 41296 is 0."
+      ]
+    },
+    {
+      "family": "Nycteridae",
+      "familySlug": "nycteridae",
+      "order": "Chiroptera",
+      "slug": "nycteris-thebaica",
+      "latin": "Nycteris thebaica",
+      "en": "Common slit-faced bat",
+      "af": "Gewone spleetneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 12
+      },
+      "remaps": [
+        {
+          "from": "Common slit-faced bat",
+          "to": "Egyptian Slit-faced Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41192&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41192. Common Slit-faced Bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Nycteridae",
+      "familySlug": "nycteridae",
+      "order": "Chiroptera",
+      "slug": "nycteris-woodi",
+      "latin": "Nycteris woodi",
+      "en": "Wood's slit-faced bat",
+      "af": "Wood se spleetneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 41190 is 0."
+      ]
+    },
+    {
+      "family": "Pteropodidae",
+      "familySlug": "pteropodidae",
+      "order": "Chiroptera",
+      "slug": "epomophorus-crypturus",
+      "latin": "Epomophorus crypturus",
+      "en": "Peters' epauletted fruit bat",
+      "af": "Peters se witkol-vrugtevlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Epomophorus gambianus",
+          "to": "Epomophorus crypturus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Epomophorus%20gambianus&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches Epomophorus gambianus (taxon 40812, preferred_common_name Gambian Epauletted Fruit Bat), which remains an active species. The same search also matches Epomophorus crypturus (taxon 64485, preferred_common_name Peters's Epauletted Fruit Bat) via the term Epomophorus gambianus crypturus. The 2011 checklist already prints the synonym (=E. crypturus crypturus) and the English name Peters' epauletted fruit bat. Place 69020 has 1 observation of any grade identified as E. crypturus (0 research-grade); E. gambianus does not appear in the place Pteropodidae taxonomy tree (0 research-grade). E. crypturus lists Epomophorus gambianus crypturus as an invalid scientific name, but not the binomial Epomophorus gambianus itself. The Kruger taxon is stored as E. crypturus because that is the iNaturalist species whose preferred common name is Peters's Epauletted Fruit Bat and which has the Kruger record."
+        },
+        {
+          "from": "Peters' epauletted fruit bat",
+          "to": "Peters's Epauletted Fruit Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=64485&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. Peters' Epauletted Fruit Bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the Afrikaans name as 'Peters se witkol- vrugtevlermuis' (space after the hyphen). The stored af value is Peters se witkol-vrugtevlermuis.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade identified as Epomophorus crypturus, and observation total_results for taxon 64485 is 0."
+      ]
+    },
+    {
+      "family": "Pteropodidae",
+      "familySlug": "pteropodidae",
+      "order": "Chiroptera",
+      "slug": "epomophorus-wahlbergi",
+      "latin": "Epomophorus wahlbergi",
+      "en": "Wahlberg's epauletted fruit bat",
+      "af": "Wahlberg se witkolvrugtevlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade, and observation total_results for taxon 40811 is 0."
+      ]
+    },
+    {
+      "family": "Pteropodidae",
+      "familySlug": "pteropodidae",
+      "order": "Chiroptera",
+      "slug": "rousettus-aegyptiacus",
+      "latin": "Rousettus aegyptiacus",
+      "en": "Egyptian fruit bat",
+      "af": "Egiptiese vrugtevlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Egyptian fruit bat",
+          "to": "Egyptian Rousette",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=75042&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 75042. Egyptian Fruit Bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 75042 is 0."
+      ]
+    },
+    {
+      "family": "Rhinolophidae",
+      "familySlug": "rhinolophidae",
+      "order": "Chiroptera",
+      "slug": "rhinolophus-blasii",
+      "latin": "Rhinolophus blasii",
+      "en": "Peak-saddle horseshoe bat",
+      "af": "Spitssaalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Peak-saddle horseshoe bat",
+          "to": "Blasius's horseshoe bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40673&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40673. Peak-saddle horseshoe bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40673 is 0."
+      ]
+    },
+    {
+      "family": "Rhinolophidae",
+      "familySlug": "rhinolophidae",
+      "order": "Chiroptera",
+      "slug": "rhinolophus-clivosus",
+      "latin": "Rhinolophus clivosus",
+      "en": "Geoffroy's horseshoe bat",
+      "af": "Geoffroy se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 320633 is 0."
+      ]
+    },
+    {
+      "family": "Rhinolophidae",
+      "familySlug": "rhinolophidae",
+      "order": "Chiroptera",
+      "slug": "rhinolophus-darlingi",
+      "latin": "Rhinolophus darlingi",
+      "en": "Darling's horseshoe bat",
+      "af": "Darling se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Rhinolophidae",
+      "familySlug": "rhinolophidae",
+      "order": "Chiroptera",
+      "slug": "rhinolophus-fumigatus",
+      "latin": "Rhinolophus fumigatus",
+      "en": "Rüppell's horseshoe bat",
+      "af": "Rüppell se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40684 is 0."
+      ]
+    },
+    {
+      "family": "Rhinolophidae",
+      "familySlug": "rhinolophidae",
+      "order": "Chiroptera",
+      "slug": "rhinolophus-hildebrandtii",
+      "latin": "Rhinolophus hildebrandtii",
+      "en": "Hildebrandt's horseshoe bat",
+      "af": "Hildebrandt se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade, and observation total_results for taxon 183175 is 0.",
+        "iNaturalist lists Rhinolophus cohenae, Rhinolophus mabuensis, Rhinolophus smithersi, and Rhinolophus hildebrandti as invalid scientific names of taxon 183175. They were not treated as separate Kruger taxa."
+      ]
+    },
+    {
+      "family": "Rhinolophidae",
+      "familySlug": "rhinolophidae",
+      "order": "Chiroptera",
+      "slug": "rhinolophus-landeri",
+      "latin": "Rhinolophus landeri",
+      "en": "Lander's horseshoe bat",
+      "af": "Lander se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40680 is 0."
+      ]
+    },
+    {
+      "family": "Rhinolophidae",
+      "familySlug": "rhinolophidae",
+      "order": "Chiroptera",
+      "slug": "rhinolophus-simulator",
+      "latin": "Rhinolophus simulator",
+      "en": "Bushveld horseshoe bat",
+      "af": "Bosveldsaalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40693 is 0."
+      ]
+    },
+    {
+      "family": "Rhinolophidae",
+      "familySlug": "rhinolophidae",
+      "order": "Chiroptera",
+      "slug": "rhinolophus-swinnyi",
+      "latin": "Rhinolophus swinnyi",
+      "en": "Swinny's horseshoe bat",
+      "af": "Swinny se saalneusvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40670 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "afronycteris-nanus",
+      "latin": "Afronycteris nanus",
+      "en": "Banana bat",
+      "af": "Piesangvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Neoromicia nanus",
+          "to": "Afronycteris nanus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Neoromicia%20nanus&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Afronycteris nanus (taxon 1431034), which lists Neoromicia nanus, the printed synonym Pipistrellus nanus, Vespertilio nanus, and Neoromicia nana as invalid scientific names."
+        },
+        {
+          "from": "Banana bat",
+          "to": "Banana Serotine",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431034&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1431034. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "cnephaeus-hottentotus",
+      "latin": "Cnephaeus hottentotus",
+      "en": "Long-tailed serotine bat",
+      "af": "Langstertdakvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Eptesicus hottentotus",
+          "to": "Cnephaeus hottentotus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Eptesicus%20hottentotus&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Cnephaeus hottentotus (taxon 1596136), which lists Eptesicus hottentotus as an invalid scientific name."
+        },
+        {
+          "from": "Long-tailed serotine bat",
+          "to": "Long-tailed Serotine",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1596136&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1596136. Long-tailed Serotine Bat and Long-tailed House Bat remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "glauconycteris-variegata",
+      "latin": "Glauconycteris variegata",
+      "en": "Butterfly bat",
+      "af": "Vlindervlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Glauconycteris variegatus",
+          "to": "Glauconycteris variegata",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Chalinolobus%20variegatus&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 spelling Glauconycteris variegatus returned 0 results. A search for the printed synonym Chalinolobus variegatus matches Glauconycteris variegata (taxon 57549), which lists Chalinolobus variegatus as an invalid scientific name, but not the 2011 spelling Glauconycteris variegatus. This is a gender agreement correction supported by the printed synonym, not a split."
+        },
+        {
+          "from": "Butterfly bat",
+          "to": "Variegated Butterfly Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=57549&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 57549. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 57549 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "kerivoula-argentata",
+      "latin": "Kerivoula argentata",
+      "en": "Damara woolly bat",
+      "af": "Damara-wolhaarvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40456 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "kerivoula-lanosa",
+      "latin": "Kerivoula lanosa",
+      "en": "Lesser woolly bat",
+      "af": "Klein wolhaarvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40468 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "laephotis-angolensis",
+      "latin": "Laephotis angolensis",
+      "en": "Botswana long-eared bat",
+      "af": "Botswana-langoorvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Laephotis botswanae",
+          "to": "Laephotis angolensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Laephotis%20botswanae&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Laephotis angolensis (taxon 40531), which lists Laephotis botswanae as an invalid scientific name. This is a lump into L. angolensis, not a split. No subspecies taxon carrying the epithet botswanae was present."
+        },
+        {
+          "from": "Botswana long-eared bat",
+          "to": "Angolan long-eared bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40531&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40531. Botswanan long-eared bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40531 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "laephotis-capensis",
+      "latin": "Laephotis capensis",
+      "en": "Cape serotine bat",
+      "af": "Kaapse dakvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Neoromicia capensis",
+          "to": "Laephotis capensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Neoromicia%20capensis&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Laephotis capensis (taxon 1431030), which lists Neoromicia capensis and the printed synonym Eptesicus capensis as invalid scientific names."
+        },
+        {
+          "from": "Eptesicus melckorum",
+          "to": "Laephotis capensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Eptesicus%20melckorum&all_names=true",
+          "note": "The 2011 checklist also lists Eptesicus melckorum (Melck's serotine bat / Melck se dakvlermuis) as a separate species. An iNaturalist taxa search for that name matches Laephotis capensis (taxon 1431030), which lists Eptesicus melckorum, Pipistrellus melckorum, and Neoromicia melckorum as invalid scientific names, and lists Melck's house bat as an English name. It is recorded here as a remap of the already-included Cape serotine and is not given a second species row."
+        },
+        {
+          "from": "Cape serotine bat",
+          "to": "Cape serotine",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431030&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1431030. Cape Serotine Bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade, and observation total_results for taxon 1431030 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "myotis-bocagii",
+      "latin": "Myotis bocagii",
+      "en": "Rufous hairy bat",
+      "af": "Rooi langhaarvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Myotis bocagei",
+          "to": "Myotis bocagii",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Myotis%20bocagei&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Myotis bocagii (taxon 74698), which lists Myotis bocagei as an invalid scientific name. This is a spelling correction, not a split."
+        },
+        {
+          "from": "Rufous hairy bat",
+          "to": "Rufous mouse-eared bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=74698&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 74698. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 74698 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "myotis-tricolor",
+      "latin": "Myotis tricolor",
+      "en": "Temminck's hairy bat",
+      "af": "Temminck se langhaarvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Temminck's hairy bat",
+          "to": "Cape hairy bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40279&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40279. Temminck's mouse-eared bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40279 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "myotis-welwitschii",
+      "latin": "Myotis welwitschii",
+      "en": "Welwitsch's hairy bat",
+      "af": "Welwitsch se langhaarvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Welwitsch's hairy bat",
+          "to": "Welwitsch's Mouse-eared Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40336&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40336. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "neoromicia-anchieta",
+      "latin": "Neoromicia anchieta",
+      "en": "Anchieta's bat",
+      "af": "Anchieta se vlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Pipistrellus anchietai",
+          "to": "Neoromicia anchieta",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Pipistrellus%20anchietai&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Neoromicia anchieta (taxon 1431023), which lists Pipistrellus anchietai, Pipistrellus anchietae, and Hypsugo anchietae as invalid scientific names."
+        },
+        {
+          "from": "Anchieta's bat",
+          "to": "Anchieta's Serotine Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431023&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1431023. Anchieta's Serotine and Anchieta's Pipistrelle are also listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 1431023 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "neoromicia-zuluensis",
+      "latin": "Neoromicia zuluensis",
+      "en": "Somali serotine bat",
+      "af": "Somali-dakvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Eptesicus somalicus zuluensis",
+          "to": "Neoromicia zuluensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Eptesicus%20zuluensis&all_names=true",
+          "note": "The 2011 checklist already lists this animal as the subspecies Eptesicus somalicus zuluensis, with the synonym (=Eptesicus zuluensis). An iNaturalist taxa search for the trinomial Eptesicus somalicus zuluensis returned 0 results. A search for the printed synonym Eptesicus zuluensis matches species Neoromicia zuluensis (taxon 765532, preferred_common_name Zulu serotine), which lists Eptesicus zuluensis and Pipistrellus zuluensis as invalid scientific names, but not the 2011 trinomial. Following the batch 2 elevation pattern, the stored taxon is the species that now carries the printed synonym, not a defunct subspecies and not Neoromicia somalica."
+        },
+        {
+          "from": "Somali serotine bat",
+          "to": "Zulu serotine",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=765532&all_names=true",
+          "note": "iNaturalist preferred_common_name for the stored species. The stored en value is the 2011 SANParks checklist name, which used the parent epithet somalicus."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "Eptesicus somalicus is an invalid scientific name of a different active species, Neoromicia somalica (taxon 765529, preferred_common_name Somali serotine). N. somalica has 0 research-grade observations in place 69020 and is absent from the place taxonomy tree; it was not added as a candidate.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 765532 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "nycticeinops-schlieffenii",
+      "latin": "Nycticeinops schlieffenii",
+      "en": "Schlieffen's bat",
+      "af": "Schlieffen se vlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Nycticeinops schlieffeni",
+          "to": "Nycticeinops schlieffenii",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Nycticeinops%20schlieffeni&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Nycticeinops schlieffenii (taxon 57550), which lists Nycticeinops schlieffeni and Nycticeius schlieffeni as invalid scientific names. A search for the printed synonym spelling Nycticeius schlieffenii (two i's) returned 0 results. This is a spelling correction, not a split."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 57550 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "pipistrellus-hesperidus",
+      "latin": "Pipistrellus hesperidus",
+      "en": "African pipistrellus",
+      "af": "Kuhl se vlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "African pipistrellus",
+          "to": "Dusky pipistrelle",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=57536&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 57536. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the English and Afrikaans names on one line as 'African pipistrellus/ Kuhl se vlermuis' (no space before the slash). The stored en value is African pipistrellus, and the stored af value is Kuhl se vlermuis, which is also printed on the synonym line together with the English name Kuhl's bat.",
+        "The 2011 list already treats Pipistrellus kuhlii as a synonym of P. hesperidus. iNaturalist still treats P. kuhlii (taxon 40383, preferred_common_name Kuhl's pipistrelle) as a separate active species, and does not list P. kuhlii as a scientific name of P. hesperidus. P. kuhlii has 0 research-grade observations in place 69020 and is absent from the place taxonomy tree; it was not added as a candidate.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 57536 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "pipistrellus-rusticus",
+      "latin": "Pipistrellus rusticus",
+      "en": "Rusty bat",
+      "af": "Roeskleurvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Rusty bat",
+          "to": "Rusty pipistrelle",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40361&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40361. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40361 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "scotophilus-borbonicus",
+      "latin": "Scotophilus borbonicus",
+      "en": "Lesser yellow house bat",
+      "af": "Klein geel dakvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Lesser yellow house bat",
+          "to": "Lesser Yellow Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40441&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40441. Réunion House Bat is also a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "An iNaturalist taxa search for the 2011 name matches Scotophilus borbonicus (taxon 40441), which remains an active species and lists no invalid scientific names. Scotophilus viridis (taxon 40433, preferred_common_name Greenish House Bat) is a separate active species; its name list does not include S. borbonicus. Observation total_results is 0 for both, and neither appears in the place taxonomy tree (the tree has 18 observations of any grade under genus Scotophilus, of which 5 are S. dinganii and 13 are at genus rank). Because it is unclear whether the 2011 Kruger taxon should be limited to S. borbonicus or referred to S. viridis, and there are no species-rank Kruger records to decide it, the stored latin value is the 2011 name.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40441 is 0."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "scotophilus-dinganii",
+      "latin": "Scotophilus dinganii",
+      "en": "Yellow house bat",
+      "af": "Geel dakvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 4
+      },
+      "remaps": [
+        {
+          "from": "Yellow house bat",
+          "to": "Yellow-bellied House Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40436&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40436. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "vansonia-rueppellii",
+      "latin": "Vansonia rueppellii",
+      "en": "Rüppell's bat",
+      "af": "Rüppell se vlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Pipistrellus rueppellii",
+          "to": "Vansonia rueppellii",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Pipistrellus%20rueppellii&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Vansonia rueppellii (taxon 1431041), which lists Pipistrellus rueppellii and Pipistrellus rueppelli as invalid scientific names."
+        },
+        {
+          "from": "Rüppell's bat",
+          "to": "Rüppell's pipistrelle",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431041&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1431041. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 1431041 is 0."
+      ]
+    },
+    {
+      "family": "Erinaceidae",
+      "familySlug": "erinaceidae",
+      "order": "Eulipotyphla",
+      "slug": "atelerix-frontalis",
+      "latin": "Atelerix frontalis",
+      "en": "South African hedgehog",
+      "af": "Suid-Afrikaanse krimpvarkie",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "South African hedgehog",
+          "to": "Southern African Hedgehog",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43056&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43056. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Erinaceidae taxonomy tree (no observations of any grade). Observation total_results for taxon 43056 in the place is 0."
+      ]
+    },
+    {
+      "family": "Soricidae",
+      "familySlug": "soricidae",
+      "order": "Eulipotyphla",
+      "slug": "crocidura-cyanea",
+      "latin": "Crocidura cyanea",
+      "en": "Reddish-grey musk shrew",
+      "af": "Rooigrysskeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Reddish-grey musk shrew",
+          "to": "Reddish-gray Musk Shrew",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46777&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46777. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Soricidae taxonomy tree (no observations of any grade). Observation total_results for taxon 46777 in the place is 0."
+      ]
+    },
+    {
+      "family": "Soricidae",
+      "familySlug": "soricidae",
+      "order": "Eulipotyphla",
+      "slug": "crocidura-fuscomurina",
+      "latin": "Crocidura fuscomurina",
+      "en": "Tiny musk shrew",
+      "af": "Dwergskeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Tiny musk shrew",
+          "to": "Bicolored Musk Shrew",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46592&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46592. tiny musk shrew and Bicolored Musk Shrew -- Tiny Musk Shrew remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Soricidae taxonomy tree (no observations of any grade). Observation total_results for taxon 46592 in the place is 0."
+      ]
+    },
+    {
+      "family": "Soricidae",
+      "familySlug": "soricidae",
+      "order": "Eulipotyphla",
+      "slug": "crocidura-hirta",
+      "latin": "Crocidura hirta",
+      "en": "Lesser red musk shrew",
+      "af": "Kleiner rooiskeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Lesser red musk shrew",
+          "to": "Lesser Red White-toothed Shrew",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46621&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46621. Lesser Red Musk Shrew remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Soricidae taxonomy tree (no observations of any grade). Observation total_results for taxon 46621 in the place is 0."
+      ]
+    },
+    {
+      "family": "Soricidae",
+      "familySlug": "soricidae",
+      "order": "Eulipotyphla",
+      "slug": "crocidura-mariquensis",
+      "latin": "Crocidura mariquensis",
+      "en": "Swamp musk shrew",
+      "af": "Vleiskeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Soricidae taxonomy tree (no observations of any grade). Observation total_results for taxon 46612 in the place is 0."
+      ]
+    },
+    {
+      "family": "Soricidae",
+      "familySlug": "soricidae",
+      "order": "Eulipotyphla",
+      "slug": "crocidura-silacea",
+      "latin": "Crocidura silacea",
+      "en": "Peters' musk shrew",
+      "af": "Peters se skeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Peters' musk shrew",
+          "to": "Lesser Gray-brown Musk Shrew",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46772&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46772. The 2011 name is not a listed English name on this taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Soricidae taxonomy tree (no observations of any grade). Observation total_results for taxon 46772 in the place is 0."
+      ]
+    },
+    {
+      "family": "Soricidae",
+      "familySlug": "soricidae",
+      "order": "Eulipotyphla",
+      "slug": "suncus-lixa",
+      "latin": "Suncus lixa",
+      "en": "Greater dwarf shrew",
+      "af": "Groter dwergskeerbek",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Suncus lixus",
+          "to": "Suncus lixa",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Suncus%20lixus&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Suncus lixa (taxon 1370725, preferred_common_name Greater Dwarf Shrew), which lists Suncus lixus as an invalid scientific name. This is a spelling remap of the epithet, not a split: Suncus lixus is not kept as a different active species."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 1370725 is 0). The place taxonomy tree has 1 observation of any grade."
+      ]
+    },
+    {
+      "family": "Procaviidae",
+      "familySlug": "procaviidae",
+      "order": "Hyracoidea",
+      "slug": "heterohyrax-brucei",
+      "latin": "Heterohyrax brucei",
+      "en": "Yellow-spotted rock dassie",
+      "af": "Geelkoldas",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 29
+      },
+      "remaps": [
+        {
+          "from": "Yellow-spotted rock dassie",
+          "to": "Bush Hyrax",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43088&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43088. Yellow-spotted Rock Hyrax and Yellow Spotted Dassie remain listed English names. The stored en value is the 2011 SANParks checklist name, with the typographic space in the PDF's 'Yellow -spotted' closed up."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the English name as 'Yellow -spotted rock dassie' (space around the hyphen). The stored en value is Yellow-spotted rock dassie."
+      ]
+    },
+    {
+      "family": "Procaviidae",
+      "familySlug": "procaviidae",
+      "order": "Hyracoidea",
+      "slug": "procavia-capensis",
+      "latin": "Procavia capensis",
+      "en": "Rock dassie",
+      "af": "Klipdas",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 42
+      },
+      "remaps": [
+        {
+          "from": "Rock dassie",
+          "to": "Rock Hyrax",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43086&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43086. Rock Dassie and Dassie remain listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Leporidae",
+      "familySlug": "leporidae",
+      "order": "Lagomorpha",
+      "slug": "lepus-capensis",
+      "latin": "Lepus capensis",
+      "en": "Cape hare",
+      "af": "Vlakhaas",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 3 observations of any grade."
+      ]
+    },
+    {
+      "family": "Leporidae",
+      "familySlug": "leporidae",
+      "order": "Lagomorpha",
+      "slug": "lepus-saxatilis",
+      "latin": "Lepus saxatilis",
+      "en": "Scrub hare",
+      "af": "Kolhaas",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 118
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Leporidae",
+      "familySlug": "leporidae",
+      "order": "Lagomorpha",
+      "slug": "pronolagus-crassicaudatus",
+      "latin": "Pronolagus crassicaudatus",
+      "en": "Natal red rock rabbit",
+      "af": "Natalse rooiklipkonyn",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Natal red rock rabbit",
+          "to": "Natal Red Rockhare",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Pronolagus%20crassicaudatus&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43158. Natal Red Rock Hare and Natal Red Hare remain listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Leporidae taxonomy tree (no observations of any grade). Observation total_results for taxon 43158 in the place is 0."
+      ]
+    },
+    {
+      "family": "Macroscelididae",
+      "familySlug": "macroscelididae",
+      "order": "Macroscelidea",
+      "slug": "elephantulus-brachyrhynchus",
+      "latin": "Elephantulus brachyrhynchus",
+      "en": "Short-shouted elephant-shrew",
+      "af": "Kortneus klaasneus",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2
+      },
+      "remaps": [
+        {
+          "from": "Short-shouted elephant-shrew",
+          "to": "Short-snouted Sengi",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43211&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43211. Short-snouted Elephant Shrew and Short-snouted Elephant-shrew remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name, including the printed spelling 'Short-shouted'."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the English name as 'Short-shouted elephant-shrew'. The stored en value follows that spelling and was not silently corrected."
+      ]
+    },
+    {
+      "family": "Macroscelididae",
+      "familySlug": "macroscelididae",
+      "order": "Macroscelidea",
+      "slug": "elephantulus-myurus",
+      "latin": "Elephantulus myurus",
+      "en": "Rock elephant-shrew",
+      "af": "Klipklaasneus",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 15
+      },
+      "remaps": [
+        {
+          "from": "Rock elephant-shrew",
+          "to": "Eastern Rock Sengi",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43213&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43213. Eastern Rock Elephant Shrew remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Macroscelididae",
+      "familySlug": "macroscelididae",
+      "order": "Macroscelidea",
+      "slug": "petrodromus-tetradactylus",
+      "latin": "Petrodromus tetradactylus",
+      "en": "Four-toed elephant-shrew",
+      "af": "Bosklaasneus",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 15
+      },
+      "remaps": [
+        {
+          "from": "Four-toed elephant-shrew",
+          "to": "Four-toed Sengi",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43226&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43226. Four-toed Elephant Shrew, Four-toed Elephant-shrew and Forest Elephant Shrew remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Equidae",
+      "familySlug": "equidae",
+      "order": "Perissodactyla",
+      "slug": "equus-quagga",
+      "latin": "Equus quagga",
+      "en": "Burchell's zebra",
+      "af": "Bontsebra",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2431
+      },
+      "remaps": [
+        {
+          "from": "Equus burchelli",
+          "to": "Equus quagga",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Equus%20burchelli&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches species Equus quagga (taxon 43335, preferred_common_name Plains Zebra), which lists Equus burchelli and Equus burchellii as invalid scientific names. The Kruger taxon is stored as the iNaturalist subspecies Equus quagga burchellii (taxon 447362; preferred_common_name Burchell's Zebra), because that is the taxon whose preferred common name is Burchell's Zebra. That subspecies record lists Equus burchellii (two i's) as an invalid scientific name, but not the 2011 spelling Equus burchelli (one i). The research-grade count is the subspecies total (1), not the species-level total of 2430, which includes 1802 research-grade observations of E. q. chapmani and many observations identified only to species."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but only 1 research-grade iNaturalist observation in place 69020 is identified as this subspecies (1 observation of any grade in the place taxonomy tree). The species Equus quagga has 2430 research-grade observations and 2470 of any grade (666 at species rank).",
+        "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note.",
+        "Owner decision 13 Nov 2026: stored at species level (iNat taxon 43335), subspecies ignored. Research-grade count is the species total in place 69020: https://api.inaturalist.org/v1/observations?taxon_id=43335&place_id=69020&quality_grade=research&per_page=0"
+      ]
+    },
+    {
+      "family": "Rhinocerotidae",
+      "familySlug": "rhinocerotidae",
+      "order": "Perissodactyla",
+      "slug": "ceratotherium-simum",
+      "latin": "Ceratotherium simum",
+      "en": "White rhinoceros",
+      "af": "Witrenoster",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 877
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Rhinocerotidae",
+      "familySlug": "rhinocerotidae",
+      "order": "Perissodactyla",
+      "slug": "diceros-bicornis-minor",
+      "latin": "Diceros bicornis minor",
+      "en": "Black rhinoceros",
+      "af": "Swartrenoster",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 20
+      },
+      "remaps": [
+        {
+          "from": "Black rhinoceros",
+          "to": "South-central Black Rhinoceros",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=147643&all_names=true",
+          "note": "iNaturalist preferred_common_name for the stored subspecies (taxon 147643). The stored en value is the 2011 SANParks checklist name. The parent species Diceros bicornis (taxon 43350) has preferred_common_name Black Rhinoceros."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist already lists this animal as the subspecies Diceros bicornis minor. The research-grade count is the subspecies total (20), not the species-level total of 41, which includes 3 research-grade observations of D. b. bicornis and observations identified only to species.",
+        "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note."
+      ]
+    },
+    {
+      "family": "Manidae",
+      "familySlug": "manidae",
+      "order": "Pholidota",
+      "slug": "smutsia-temminckii",
+      "latin": "Smutsia temminckii",
+      "en": "Pangolin",
+      "af": "Ietermagog",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 15
+      },
+      "remaps": [
+        {
+          "from": "Manis temminckii",
+          "to": "Smutsia temminckii",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Manis%20temminckii&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Smutsia temminckii (taxon 75083, preferred_common_name Temminck's Ground Pangolin), which lists Manis temminckii and Manis temmincki as invalid scientific names. This is a genus transfer, not a split: Manis temminckii is not kept as a different active species."
+        },
+        {
+          "from": "Pangolin",
+          "to": "Temminck's Ground Pangolin",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=75083&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 75083. Pangolin remains a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Cercopithecidae",
+      "familySlug": "cercopithecidae",
+      "order": "Primates",
+      "slug": "chlorocebus-pygerythrus",
+      "latin": "Chlorocebus pygerythrus",
+      "en": "Vervet monkey",
+      "af": "Blouaap",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1360
+      },
+      "remaps": [
+        {
+          "from": "Chlorocebus aethiops",
+          "to": "Chlorocebus pygerythrus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Chlorocebus%20aethiops&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches Chlorocebus aethiops (taxon 43523, preferred_common_name Grivet Monkey), which remains an active species and lists Cercopithecus aethiops (the synonym printed on the 2011 checklist) as an invalid scientific name. Place 69020 research-grade vervet observations are identified as Chlorocebus pygerythrus (taxon 68137, preferred_common_name Vervet Monkey, 1360); C. aethiops does not appear in the place Cercopithecidae taxonomy tree (0 research-grade observations). iNaturalist does not list Chlorocebus aethiops, or a trinomial such as Chlorocebus aethiops pygerythrus, as a scientific name of C. pygerythrus (searches for Chlorocebus aethiops pygerythrus and Cercopithecus aethiops pygerythrus returned 0 results; the C. pygerythrus name list has only Cercopithecus pygerythrus as an invalid scientific name). The Kruger taxon is stored as C. pygerythrus because that is the iNaturalist species whose preferred common name is Vervet Monkey and which has the Kruger records."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Cercopithecidae",
+      "familySlug": "cercopithecidae",
+      "order": "Primates",
+      "slug": "papio-ursinus",
+      "latin": "Papio ursinus",
+      "en": "Chacma Baboon",
+      "af": "Kaapse bobbejaan",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1557
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Galagidae",
+      "familySlug": "galagidae",
+      "order": "Primates",
+      "slug": "galago-moholi",
+      "latin": "Galago moholi",
+      "en": "South African lesser bushbaby",
+      "af": "Nagapie",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 47
+      },
+      "remaps": [
+        {
+          "from": "South African lesser bushbaby",
+          "to": "Southern Lesser Galago",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43561&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43561. South African Lesser Galago and Lesser Bushbaby remain listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Galagidae",
+      "familySlug": "galagidae",
+      "order": "Primates",
+      "slug": "otolemur-crassicaudatus",
+      "latin": "Otolemur crassicaudatus",
+      "en": "Thick-tailed bushbaby",
+      "af": "Bosnagaap",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 139
+      },
+      "remaps": [
+        {
+          "from": "Thick-tailed bushbaby",
+          "to": "Brown Greater Galago",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43567&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43567. Thick-tailed Bushbaby and Greater Bushbaby remain listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Elephantidae",
+      "familySlug": "elephantidae",
+      "order": "Proboscidea",
+      "slug": "loxodonta-africana",
+      "latin": "Loxodonta africana",
+      "en": "Elephant",
+      "af": "Olifant",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 4894
+      },
+      "remaps": [
+        {
+          "from": "Elephant",
+          "to": "African Savanna Elephant",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=43694&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 43694. African Elephant remains a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Bathyergidae",
+      "familySlug": "bathyergidae",
+      "order": "Rodentia",
+      "slug": "cryptomys-hottentotus",
+      "latin": "Cryptomys hottentotus",
+      "en": "Common molerat",
+      "af": "Vaalmol",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 43749 is 0). The place taxonomy tree has 2 observations of any grade.",
+        "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note."
+      ]
+    },
+    {
+      "family": "Gliridae",
+      "familySlug": "gliridae",
+      "order": "Rodentia",
+      "slug": "graphiurus-murinus",
+      "latin": "Graphiurus murinus",
+      "en": "Woodland dormouse",
+      "af": "Boswaaierstertmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 4
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Hystricidae",
+      "familySlug": "hystricidae",
+      "order": "Rodentia",
+      "slug": "hystrix-africaeaustralis",
+      "latin": "Hystrix africaeaustralis",
+      "en": "Cape porcupine",
+      "af": "Kaapse ystervark",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 61
+      },
+      "remaps": [
+        {
+          "from": "Hystris africaeaustralis",
+          "to": "Hystrix africaeaustralis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Hystris%20africaeaustralis&all_names=true",
+          "note": "The 2011 checklist prints the name as Hystris africaeaustralis. An iNaturalist taxa search for that spelling returned 0 results. A search for Hystrix africaeaustralis matches species Hystrix africaeaustralis (taxon 44173, preferred_common_name Cape Porcupine). The stored latin value is the iNaturalist spelling. This is treated as a typographic typo on the PDF (Hystris vs Hystrix), not as a taxonomic split."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the scientific name as 'Hystris africaeaustralis'. The stored latin value is Hystrix africaeaustralis."
+      ]
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "aethomys-chrysophilus",
+      "latin": "Aethomys chrysophilus",
+      "en": "Red veld rat",
+      "af": "Afrikaanse bosrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 2 observations of any grade."
+      ]
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "dasymys-incomtus",
+      "latin": "Dasymys incomtus",
+      "en": "Water rat",
+      "af": "Waterrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Water rat",
+          "to": "Common Shaggy Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45632&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45632. The 2011 name is not a listed English name on this taxon. African Marsh Rat and Common Dasymys are listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Muridae taxonomy tree (no observations of any grade). Observation total_results for taxon 45632 in the place is 0."
+      ]
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "gerbilliscus-leucogaster",
+      "latin": "Gerbilliscus leucogaster",
+      "en": "Bushveld gerbil",
+      "af": "Bosveldse nagmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 3
+      },
+      "remaps": [
+        {
+          "from": "Tatera leucogaster",
+          "to": "Gerbilliscus leucogaster",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Tatera%20leucogaster&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Gerbilliscus leucogaster (taxon 74367), which lists Tatera leucogaster as an invalid scientific name. This is a genus transfer, not a split: Tatera leucogaster is not kept as a different active species."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "grammomys-dolichurus",
+      "latin": "Grammomys dolichurus",
+      "en": "Woodland mouse",
+      "af": "Woudmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 6
+      },
+      "remaps": [
+        {
+          "from": "Woodland mouse",
+          "to": "Woodland Thicket Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45253&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45253. The 2011 name is not a listed English name on this taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "lemniscomys-rosalia",
+      "latin": "Lemniscomys rosalia",
+      "en": "Single-striped mouse",
+      "af": "Eenstreepmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 10
+      },
+      "remaps": [
+        {
+          "from": "Single-striped mouse",
+          "to": "Single-striped Grass Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45500&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45500. Single-striped Lemniscomys remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "mastomys-coucha",
+      "latin": "Mastomys coucha",
+      "en": "Multimammate mouse",
+      "af": "Vaalveldmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Multimammate mouse",
+          "to": "Southern Multimammate Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45328&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45328. The 2011 name is not a listed English name on this taxon. Southern African Mastomys is a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Muridae taxonomy tree (no observations of any grade). Observation total_results for taxon 45328 in the place is 0."
+      ]
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "mastomys-natalensis",
+      "latin": "Mastomys natalensis",
+      "en": "Natal multimammate mouse",
+      "af": "Natalse vaalveldmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 45326 is 0). The place taxonomy tree has 2 observations of any grade."
+      ]
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "micaelamys-namaquensis",
+      "latin": "Micaelamys namaquensis",
+      "en": "Namaqua rock mouse",
+      "af": "Namakwalandse klipmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Aethomys namaquensis",
+          "to": "Micaelamys namaquensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Aethomys%20namaquensis&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Micaelamys namaquensis (taxon 851046), which lists Aethomys namaquensis as an invalid scientific name. This is a genus transfer, not a split: Aethomys namaquensis is not kept as a different active species."
+        },
+        {
+          "from": "Namaqua rock mouse",
+          "to": "Namaqua Rock Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=851046&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 851046. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 3 observations of any grade."
+      ]
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "mus-minutoides",
+      "latin": "Mus minutoides",
+      "en": "Pygmy mouse",
+      "af": "Dwergmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 6
+      },
+      "remaps": [
+        {
+          "from": "Pygmy mouse",
+          "to": "Tiny Pygmy Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=44716&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 44716. Pygmy Mouse, Orange Pygmy Mouse and Free State Pygmy Mouse remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "otomys-angoniensis",
+      "latin": "Otomys angoniensis",
+      "en": "Angoni vlei rat",
+      "af": "Angoni-vleirot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 45439 is 0). The place taxonomy tree has 1 observation of any grade."
+      ]
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "thallomys-paedulcus",
+      "latin": "Thallomys paedulcus",
+      "en": "Tree rat",
+      "af": "Boomrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 9
+      },
+      "remaps": [
+        {
+          "from": "Tree rat",
+          "to": "Sundevall's Acacia Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45414&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45414. The 2011 name is not a listed English name on this taxon. Acacia Rat and Tree Mouse are listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Nesomyidae",
+      "familySlug": "nesomyidae",
+      "order": "Rodentia",
+      "slug": "cricetomys-ansorgei",
+      "latin": "Cricetomys ansorgei",
+      "en": "Giant rat",
+      "af": "Reuse rot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 6
+      },
+      "remaps": [
+        {
+          "from": "Cricetomys gambianus",
+          "to": "Cricetomys ansorgei",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Cricetomys%20gambianus&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Cricetomys gambianus (taxon 44512) as an active species, preferred_common_name Northern Giant Pouched Rat. The combination Cricetomys gambianus ansorgei is listed as an invalid scientific name of Cricetomys ansorgei (taxon 1453959, preferred_common_name Southern Giant Pouched Rat). Place 69020 research-grade giant rat observations are identified as C. ansorgei (6); C. gambianus does not appear in the place Nesomyidae taxonomy tree (observation total_results is 0 research-grade and 0 of any grade). The C. gambianus name list also includes Cricetomys ansorgei as an invalid scientific name; that conflicting synonym was not treated as making the two taxa the same, because both remain active species and Kruger records are identified as C. ansorgei."
+        },
+        {
+          "from": "Giant rat",
+          "to": "Southern Giant Pouched Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1453959&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1453959. The 2011 name is not a listed English name on this taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Nesomyidae",
+      "familySlug": "nesomyidae",
+      "order": "Rodentia",
+      "slug": "dendromus-melanotis",
+      "latin": "Dendromus melanotis",
+      "en": "Grey climbing mouse",
+      "af": "Grysklimmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Nesomyidae taxonomy tree (no observations of any grade). Observation total_results for taxon 44971 in the place is 0.",
+        "The place taxonomy tree has 1 observation of any grade identified only to genus Dendromus. That observation was not assigned to this species."
+      ]
+    },
+    {
+      "family": "Nesomyidae",
+      "familySlug": "nesomyidae",
+      "order": "Rodentia",
+      "slug": "dendromus-mystacalis",
+      "latin": "Dendromus mystacalis",
+      "en": "Chestnut climbing mouse",
+      "af": "Roeskleurklimmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Nesomyidae taxonomy tree (no observations of any grade). Observation total_results for taxon 44976 in the place is 0.",
+        "The place taxonomy tree has 1 observation of any grade identified only to genus Dendromus. That observation was not assigned to this species."
+      ]
+    },
+    {
+      "family": "Nesomyidae",
+      "familySlug": "nesomyidae",
+      "order": "Rodentia",
+      "slug": "saccostomus-campestris",
+      "latin": "Saccostomus campestris",
+      "en": "Pouched mouse",
+      "af": "Wangsakmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 4
+      },
+      "remaps": [
+        {
+          "from": "Pouched mouse",
+          "to": "Southern African Pouched Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=44509&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 44509. Pouched Mouse, South African Pouched Mouse and African Pouched Rat remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Nesomyidae",
+      "familySlug": "nesomyidae",
+      "order": "Rodentia",
+      "slug": "steatomys-pratensis",
+      "latin": "Steatomys pratensis",
+      "en": "Fat mouse",
+      "af": "Vetmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Fat mouse",
+          "to": "Common Fat Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=44923&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 44923. fat mouse remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Nesomyidae taxonomy tree (no observations of any grade). Observation total_results for taxon 44923 in the place is 0."
+      ]
+    },
+    {
+      "family": "Pedetidae",
+      "familySlug": "pedetidae",
+      "order": "Rodentia",
+      "slug": "pedetes-capensis",
+      "latin": "Pedetes capensis",
+      "en": "Springhaas",
+      "af": "Springhaas",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 54
+      },
+      "remaps": [
+        {
+          "from": "Springhaas",
+          "to": "Southern Springhare",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=45929&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 45929. Springhare, Spring Hare, Southern African Springhare and South African Springhare remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the scientific name as 'Pedetes capensi s' (space in capensis). The stored latin value is Pedetes capensis. The stored en value is Springhaas, as printed on that checklist (the same word is also the Afrikaans name)."
+      ]
+    },
+    {
+      "family": "Sciuridae",
+      "familySlug": "sciuridae",
+      "order": "Rodentia",
+      "slug": "paraxerus-cepapi",
+      "latin": "Paraxerus cepapi",
+      "en": "Tree squirrel",
+      "af": "Boomeekhoring",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1008
+      },
+      "remaps": [
+        {
+          "from": "Tree squirrel",
+          "to": "Smith's Bush Squirrel",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46110&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46110. The 2011 name is not a listed English name on this taxon. Yellow-footed Squirrel is a listed English name. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "family": "Thryonomyidae",
+      "familySlug": "thryonomyidae",
+      "order": "Rodentia",
+      "slug": "thryonomys-swinderianus",
+      "latin": "Thryonomys swinderianus",
+      "en": "Greater canerat",
+      "af": "Groot rietrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 14
+      },
+      "remaps": [
+        {
+          "from": "Greater canerat",
+          "to": "Greater Cane Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=46279&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 46279. Grasscutter remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The stored en value is Greater canerat, as printed on the 2011 SANParks checklist (one word)."
+      ]
+    },
+    {
+      "family": "Orycteropodidae",
+      "familySlug": "orycteropodidae",
+      "order": "Tubulidentata",
+      "slug": "orycteropus-afer",
+      "latin": "Orycteropus afer",
+      "en": "Aardvark",
+      "af": "Erdvark",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 7
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    }
+  ],
+  "candidates": [
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "acomys-selousi",
+      "latin": "Acomys selousi",
+      "en": "Selous' Spiny Mouse",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 3
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 3 research-grade and 3 observations of any grade (taxon 901998; preferred_common_name Selous' Spiny Mouse). The taxon record lists Southern African Spiny Mouse and South African Spiny Mouse as English names, but not Spiny Mouse, and has no invalid scientific names. A search for Acomys spinosissimus selousi returned 0 results. Not on the 2011 SANParks Muridae list, which has Spiny mouse as Acomys spinosissimus only. Left in candidates, not included. The official taxon was not remapped, because iNaturalist keeps A. spinosissimus as a different active species whose preferred common name is Least Spiny Mouse (Spiny Mouse is a listed English name of that taxon) and no synonym or trinomial link to A. selousi was found."
+      ]
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "aethomys-ineptus",
+      "latin": "Aethomys ineptus",
+      "en": "Tete Veld Rat",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 1 research-grade and 3 observations of any grade (taxon 74037; preferred_common_name Tete Veld Rat). The taxon record does not list Aethomys chrysophilus as a scientific name, and a search for Aethomys chrysophilus ineptus returned 0 results. Not on the 2011 SANParks Muridae list, which has Red veld rat as Aethomys chrysophilus only. Left in candidates, not included. A. chrysophilus remains an active iNaturalist species (preferred_common_name Red Veld Rat) and has 1 research-grade observation in the place, so the official taxon was not remapped."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "alcelaphus-buselaphus-caama",
+      "latin": "Alcelaphus buselaphus caama",
+      "en": "Red Hartebeest",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 3
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 3 research-grade and 4 observations of any grade (taxon 132658; preferred_common_name Red Hartebeest). Not on the 2011 SANParks Bovidae list, which has Lichtenstein's hartebeest only. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "antidorcas-marsupialis",
+      "latin": "Antidorcas marsupialis",
+      "en": "Springbok",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 2 observations of any grade (taxon 42283; preferred_common_name Springbok). Not on the 2011 SANParks Bovidae list. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "bos-taurus",
+      "latin": "Bos taurus",
+      "en": "Domestic Cattle",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [
+        "domestic"
+      ],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 2 observations of any grade (taxon 74113; preferred_common_name Domestic Cattle). Not on the 2011 SANParks Bovidae list. Left in candidates, not included. No introduced flag is stored because the official checklist does not list this animal; the iNaturalist preferred name is Domestic Cattle."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "bubalus-bubalis",
+      "latin": "Bubalus bubalis",
+      "en": "Domestic Water Buffalo",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [
+        "domestic"
+      ],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 1 observation of any grade (taxon 81925; preferred_common_name Domestic Water Buffalo). Not on the 2011 SANParks Bovidae list. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Canidae",
+      "familySlug": "canidae",
+      "order": "Carnivora",
+      "slug": "canis-familiaris",
+      "latin": "Canis familiaris",
+      "en": "Domestic Dog",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 2
+      },
+      "remaps": [],
+      "flags": [
+        "domestic"
+      ],
+      "notes": [
+        "iNaturalist-only in place 69020: 2 research-grade and 3 observations of any grade (taxon 47144; preferred_common_name Domestic Dog), including 1 observation of any grade identified as subspecies Canis familiaris familiaris (taxon 202086). Not on the 2011 SANParks Canidae list. Left in candidates, not included, and flagged as domestic."
+      ]
+    },
+    {
+      "family": "Cercopithecidae",
+      "familySlug": "cercopithecidae",
+      "order": "Primates",
+      "slug": "cercopithecus-mitis-albogularis",
+      "latin": "Cercopithecus mitis albogularis",
+      "en": "Sykes' Monkey",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only as this subspecies in place 69020: 0 research-grade and 1 observation of any grade (taxon 147597; preferred_common_name Sykes' Monkey). Not named separately on the 2011 SANParks Cercopithecidae list, which has Samango monkey as Cercopithecus mitis erythrarchus only. Left in candidates, not included, as a sister subspecies of the stored Kruger taxon."
+      ]
+    },
+    {
+      "family": "Bathyergidae",
+      "familySlug": "bathyergidae",
+      "order": "Rodentia",
+      "slug": "cryptomys-natalensis",
+      "latin": "Cryptomys natalensis",
+      "en": "Natal Mole-rat",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 2
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 2 research-grade and 2 observations of any grade (taxon 1360140; preferred_common_name Natal Mole-rat). The taxon record lists Cryptomis natalensis as an invalid scientific name, not Cryptomys hottentotus or a trinomial such as Cryptomys hottentotus natalensis (a search for Cryptomys hottentotus natalensis returned 0 results). Not on the 2011 SANParks Bathyergidae list, which has Common molerat as Cryptomys hottentotus only. Left in candidates, not included. C. hottentotus remains an active iNaturalist species (preferred_common_name Common Molerat) and has 2 observations of any grade in the place, so the official taxon was not remapped."
+      ]
+    },
+    {
+      "family": "Bovidae",
+      "familySlug": "bovidae",
+      "order": "Artiodactyla",
+      "slug": "damaliscus-pygargus",
+      "latin": "Damaliscus pygargus",
+      "en": "Bontebok/Blesbok",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 2 observations of any grade (taxon 42275; preferred_common_name Bontebok/Blesbok). The place taxonomy tree places both observations at subspecies Damaliscus pygargus phillipsi (taxon 129724; preferred_common_name Blesbok). Not on the 2011 SANParks Bovidae list. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Rhinocerotidae",
+      "familySlug": "rhinocerotidae",
+      "order": "Perissodactyla",
+      "slug": "diceros-bicornis-bicornis",
+      "latin": "Diceros bicornis bicornis",
+      "en": "Southern Black Rhinoceros",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 3
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only as this subspecies in place 69020: 3 research-grade and 3 observations of any grade (taxon 147644; preferred_common_name Southern Black Rhinoceros). Not named separately on the 2011 SANParks Rhinocerotidae list, which has black rhinoceros as Diceros bicornis minor only. Left in candidates, not included, as a sister subspecies of the stored Kruger taxon."
+      ]
+    },
+    {
+      "family": "Pteropodidae",
+      "familySlug": "pteropodidae",
+      "order": "Chiroptera",
+      "slug": "eidolon-helvum",
+      "latin": "Eidolon helvum",
+      "en": "Straw-coloured Fruit Bat",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 1 research-grade and 1 observation of any grade (taxon 40827; preferred_common_name Straw-coloured Fruit Bat). Not on the 2011 SANParks Pteropodidae list, which has Epomophorus gambianus, E. wahlbergi, and Rousettus aegyptiacus only. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Felidae",
+      "familySlug": "felidae",
+      "order": "Carnivora",
+      "slug": "felis-catus",
+      "latin": "Felis catus",
+      "en": "Domestic Cat",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 3
+      },
+      "remaps": [],
+      "flags": [
+        "domestic"
+      ],
+      "notes": [
+        "iNaturalist-only in place 69020: 3 research-grade and 3 observations of any grade (taxon 118552; preferred_common_name Domestic Cat). Not on the 2011 SANParks Felidae list. Left in candidates, not included, and flagged as domestic."
+      ]
+    },
+    {
+      "family": "Viverridae",
+      "familySlug": "viverridae",
+      "order": "Carnivora",
+      "slug": "genetta-genetta",
+      "latin": "Genetta genetta",
+      "en": "Northern Small-spotted Genet",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only as this species in the modern sense in place 69020: 0 research-grade and 1 observation of any grade (taxon 925661; preferred_common_name Northern Small-spotted Genet). The 2011 SANParks Viverridae list has Small-spotted genet as Genetta genetta, which is stored as the split Kruger taxon Genetta felina. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Viverridae",
+      "familySlug": "viverridae",
+      "order": "Carnivora",
+      "slug": "genetta-tigrina",
+      "latin": "Genetta tigrina",
+      "en": "Cape Genet",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only as this species in the modern sense in place 69020: 0 research-grade and 1 observation of any grade (taxon 41595; preferred_common_name Cape Genet). The 2011 SANParks Viverridae list has Large-spotted genet as Genetta tigrina, which is stored as the split Kruger taxon Genetta fieldiana. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Leporidae",
+      "familySlug": "leporidae",
+      "order": "Lagomorpha",
+      "slug": "lepus-microtis",
+      "latin": "Lepus microtis",
+      "en": "African Savanna Hare",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 9
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 9 research-grade and 20 observations of any grade (taxon 1558607; preferred_common_name African Savanna Hare). The taxon record lists Lepus victoriae and Lepus crawshayi as invalid scientific names, not the official checklist names Lepus capensis or Lepus saxatilis. Not on the 2011 SANParks Leporidae list. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "mus-neavei",
+      "latin": "Mus neavei",
+      "en": "Neave's Pygmy Mouse",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 1 observation of any grade (taxon 44682; preferred_common_name Neave's Pygmy Mouse). Not on the 2011 SANParks Muridae list, which has Pygmy mouse as Mus minutoides. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Sciuridae",
+      "familySlug": "sciuridae",
+      "order": "Rodentia",
+      "slug": "paraxerus-palliatus",
+      "latin": "Paraxerus palliatus",
+      "en": "Red Bush Squirrel",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 3 observations of any grade (taxon 46113; preferred_common_name Red Bush Squirrel). Not on the 2011 SANParks Sciuridae list, which has Tree squirrel as Paraxerus cepapi only. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Vespertilionidae",
+      "familySlug": "vespertilionidae",
+      "order": "Chiroptera",
+      "slug": "pseudoromicia-rendalli",
+      "latin": "Pseudoromicia rendalli",
+      "en": "Rendall's serotine",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 1 research-grade and 1 observation of any grade (taxon 1431012; preferred_common_name Rendall's serotine). Not on the 2011 SANParks Vespertilionidae list. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "rhabdomys-chakae",
+      "latin": "Rhabdomys chakae",
+      "en": "KwaZulu Natal Four-striped Grass Rat",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 1 research-grade and 1 observation of any grade (taxon 1431180; preferred_common_name KwaZulu Natal Four-striped Grass Rat). Not on the 2011 SANParks Muridae list. Left in candidates, not included."
+      ]
+    },
+    {
+      "family": "Soricidae",
+      "familySlug": "soricidae",
+      "order": "Eulipotyphla",
+      "slug": "suncus-varilla",
+      "latin": "Suncus varilla",
+      "en": "Lesser Dwarf Shrew",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 0 research-grade and 1 observation of any grade (taxon 46521; preferred_common_name Lesser Dwarf Shrew). The taxon record does not list Suncus lixus or Suncus lixa as a scientific name. Not on the 2011 SANParks Soricidae list, which has Greater dwarf shrew as Suncus lixus (stored as Suncus lixa) only. Left in candidates, not included."
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "acomys-spinosissimus",
+      "latin": "Acomys spinosissimus",
+      "en": "Spiny mouse",
+      "af": "Stekelmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Spiny mouse",
+          "to": "Least Spiny Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=901997&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 901997. Spiny Mouse remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Muridae taxonomy tree (no observations of any grade). Observation total_results for taxon 901997 in the place is 0.",
+        "Acomys selousi (taxon 901998, preferred_common_name Selous' Spiny Mouse) is the only Acomys species in the place (3 research-grade) and is listed under candidates. A search for Acomys spinosissimus selousi returned 0 results, and the A. selousi name list has no invalid scientific names linking it to A. spinosissimus. The official taxon was not remapped."
+      ],
+      "excludedReason": "Owner decision 13 Nov 2026: left out; no Kruger records of any grade."
+    },
+    {
+      "family": "Cercopithecidae",
+      "familySlug": "cercopithecidae",
+      "order": "Primates",
+      "slug": "cercopithecus-mitis-erythrarchus",
+      "latin": "Cercopithecus mitis erythrarchus",
+      "en": "Samango monkey",
+      "af": "Samango-aap",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Samango monkey",
+          "to": "White-throated Samango",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Cercopithecus%20mitis%20erythrarchus&all_names=true",
+          "note": "iNaturalist preferred_common_name for the stored subspecies (taxon 147602). Samango Monkey remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name. The parent species Cercopithecus mitis (taxon 43486) has preferred_common_name Blue Monkey."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist already lists this animal as the subspecies Cercopithecus mitis erythrarchus. The research-grade count is the subspecies total (0), not only a missing species_counts row: observation total_results for taxon 147602 is 0, and the species-level total for C. mitis (taxon 43486) is also 0.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 2 observations of any grade under Cercopithecus mitis (1 at species rank, 1 as sister subspecies C. m. albogularis). The official subspecies C. m. erythrarchus is absent from the tree."
+      ],
+      "excludedReason": "Owner decision 13 Nov 2026: left out; 0 research-grade Kruger records for the official subspecies."
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "mus-musculus",
+      "latin": "Mus musculus",
+      "en": "House mouse",
+      "af": "Huismuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [
+        "introduced"
+      ],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 44705 is 0). The place taxonomy tree has 1 observation of any grade.",
+        "Flagged as introduced: the 2011 SANParks checklist marks this species with an asterisk."
+      ],
+      "excludedReason": "Owner decision 13 Nov 2026: left out; introduced commensal (asterisked in 2011) living only around rest camps, not a naturally occurring Kruger species."
+    },
+    {
+      "family": "Muridae",
+      "familySlug": "muridae",
+      "order": "Rodentia",
+      "slug": "rattus-rattus",
+      "latin": "Rattus rattus",
+      "en": "House rat",
+      "af": "Huisrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "House rat",
+          "to": "Black Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=44575&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 44575. House Rat, Roof Rat, Ship Rat, Alexandrine Rat and Indian Rat remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [
+        "introduced"
+      ],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 4 observations of any grade.",
+        "Flagged as introduced: the 2011 SANParks checklist marks this species with an asterisk."
+      ],
+      "excludedReason": "Owner decision 13 Nov 2026: left out; introduced commensal (asterisked in 2011) living only around rest camps, not a naturally occurring Kruger species."
+    }
+  ]
+}
