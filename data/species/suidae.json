@@ -1,0 +1,94 @@
+{
+  "family": "Suidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Suidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (2 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only suids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Suidae"
+    },
+    {
+      "id": "inat-taxon-suidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Suidae&rank=family",
+      "role": "Suidae taxon id 42118"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=42118&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Suidae in Kruger (place 69020); 2 species in this pull (Phacochoerus africanus, 1556; Potamochoerus larvatus, 3)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=42118",
+      "role": "All-grade Suidae taxonomy tree for place 69020; used to confirm the Kruger taxa and that Phacochoerus aethiopicus and Potamochoerus porcus are absent"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps: Phacochoerus aethiopicus, Potamochoerus porcus, Phacochoerus africanus, Potamochoerus larvatus, and current taxon name lists (including taxa?id=42122,42138&all_names=true). A search for Potamochoerus porcus larvatus returned 0 results."
+    }
+  ],
+  "species": [
+    {
+      "slug": "phacochoerus-africanus",
+      "latin": "Phacochoerus africanus",
+      "en": "Warthog",
+      "af": "Vlakvark",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1556
+      },
+      "remaps": [
+        {
+          "from": "Phacochoerus aethiopicus",
+          "to": "Phacochoerus africanus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Phacochoerus%20aethiopicus&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Phacochoerus aethiopicus (taxon 42123) as an active species, preferred_common_name Desert Warthog. The 2011 combination Phacochoerus aethiopicus africanus is listed as an invalid scientific name of Phacochoerus africanus (taxon 42122, preferred_common_name Common Warthog). Place 69020 research-grade warthog observations are identified as P. africanus (1556); P. aethiopicus does not appear in the place Suidae taxonomy tree."
+        },
+        {
+          "from": "Warthog",
+          "to": "Common Warthog",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42122&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42122. Warthog remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "potamochoerus-larvatus",
+      "latin": "Potamochoerus larvatus",
+      "en": "Bushpig",
+      "af": "Bosvark",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 3
+      },
+      "remaps": [
+        {
+          "from": "Potamochoerus porcus",
+          "to": "Potamochoerus larvatus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Potamochoerus%20porcus&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches only Potamochoerus porcus (taxon 42139, preferred_common_name Red River Hog), which remains an active species. Place 69020 research-grade bushpig observations are identified as Potamochoerus larvatus (taxon 42138, preferred_common_name Bushpig, 3); P. porcus does not appear in the place Suidae taxonomy tree. iNaturalist does not list Potamochoerus porcus, or a trinomial such as Potamochoerus porcus larvatus, as a scientific name of P. larvatus (a search for Potamochoerus porcus larvatus returned 0 results; the P. larvatus name list has no invalid scientific names). The Kruger taxon is stored as P. larvatus because that is the iNaturalist species whose preferred common name is Bushpig and which has the Kruger records."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 3 research-grade iNaturalist observations in place 69020. The place taxonomy tree has 4 observations of any grade, including 1 identified as subspecies Potamochoerus larvatus koiropotamus."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Potamochoerus larvatus is on the official list (as bushpig) but has only 3 research-grade iNaturalist observations in the place.",
+    "The split of the 2011 name Potamochoerus porcus to the Kruger taxon Potamochoerus larvatus is recorded from occurrence and the official English name, not from an iNaturalist synonym list. iNaturalist keeps P. porcus as a different active species (Red River Hog) and does not list P. porcus as an invalid scientific name of P. larvatus. No further source was used after those three iNaturalist lookups.",
+    "No rare, reintroduced, or introduced flags are recorded for official Suidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

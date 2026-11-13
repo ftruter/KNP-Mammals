@@ -1,0 +1,79 @@
+{
+  "family": "Miniopteridae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is the Miniopterus species printed under the Vespertilionidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (1 species). That family heading is stored as Miniopteridae, following the Phase 1 remap in families.json. English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only miniopterids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list (printed under Vespertilionidae); English and Afrikaans species names; species order; absence of asterisk status flags on this taxon"
+    },
+    {
+      "id": "inat-taxon-miniopteridae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Miniopteridae&rank=family",
+      "role": "Miniopteridae taxon id 155314"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=155314&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Miniopteridae in Kruger (place 69020); 0 species in this pull"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=155314",
+      "role": "All-grade Miniopteridae taxonomy tree for place 69020; used to confirm the Kruger taxon is Miniopterus natalensis (2 observations of any grade) and the absence of Miniopterus schreibersii"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for Miniopterus natalensis (taxon 57530) and Miniopterus schreibersii (taxon 57534)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps: Miniopterus schreibersii and Miniopterus natalensis; used with taxa?id=57534,57530&all_names=true"
+    }
+  ],
+  "species": [
+    {
+      "slug": "miniopterus-natalensis",
+      "latin": "Miniopterus natalensis",
+      "en": "Schreibers' long-fingered bat",
+      "af": "Schreibers se grotvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Miniopterus schreibersii",
+          "to": "Miniopterus natalensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Miniopterus%20schreibersii&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches Miniopterus schreibersii (taxon 57534, preferred_common_name Schreibers' Long-fingered Bat), which remains an active species. The same search also matches Miniopterus natalensis (taxon 57530, preferred_common_name Natal Long-fingered Bat) via the term Miniopterus schreibersii natalensis. Place 69020 observations in this family are identified as M. natalensis (2 of any grade, 0 research-grade); M. schreibersii does not appear in the place Miniopteridae taxonomy tree (0 research-grade). M. natalensis lists Miniopterus schreibersii natalensis as an invalid scientific name, but not the binomial Miniopterus schreibersii itself. The Kruger taxon is stored as M. natalensis because that is the iNaturalist species which has the Kruger records."
+        },
+        {
+          "from": "Schreibers' long-fingered bat",
+          "to": "Natal Long-fingered Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=57530&all_names=true",
+          "note": "iNaturalist preferred_common_name for the current Kruger taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "Printed under Vespertilionidae on the 2011 SANParks checklist; stored in Miniopteridae following the Phase 1 family remap.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 2 observations of any grade identified as Miniopterus natalensis, and observation total_results for taxon 57530 is 0."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "The binomial Miniopterus schreibersii is not listed as an invalid scientific name of M. natalensis (only the trinomial Miniopterus schreibersii natalensis is). That missing species-level synonym link is logged; the Kruger taxon is still stored as M. natalensis because of the Kruger records.",
+    "Miniopterus natalensis is on the official list (under the 2011 name M. schreibersii), but has 0 research-grade iNaturalist observations in place 69020 (2 observations of any grade). Absence of a research-grade iNat record was not treated as absence from KNP.",
+    "No rare, reintroduced, or introduced flags are recorded for official Miniopteridae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

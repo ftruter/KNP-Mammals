@@ -1,0 +1,89 @@
+{
+  "family": "Equidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Equidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (1 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only equids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Equidae"
+    },
+    {
+      "id": "inat-taxon-equidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Equidae&rank=family",
+      "role": "Equidae taxon id 43328"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=43328&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Equidae in Kruger (place 69020); 1 species in this pull (Equus quagga, 2430). That total is the species-level mix and was not used as the included subspecies count."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=43328",
+      "role": "All-grade Equidae taxonomy tree for place 69020; used to find subspecies Equus quagga burchellii and the sister subspecies E. q. chapmani"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for subspecies Equus quagga burchellii (taxon 447362) and the candidate Equus quagga chapmani (taxon 418151)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Equus%20burchelli&all_names=true",
+      "role": "Recorded remap of Equus burchelli; used with taxa?id=43335,447362,418151&all_names=true for current name lists"
+    }
+  ],
+  "species": [
+    {
+      "slug": "equus-quagga-burchellii",
+      "latin": "Equus quagga burchellii",
+      "en": "Burchell's zebra",
+      "af": "Bontsebra",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Equus burchelli",
+          "to": "Equus quagga burchellii",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Equus%20burchelli&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches species Equus quagga (taxon 43335, preferred_common_name Plains Zebra), which lists Equus burchelli and Equus burchellii as invalid scientific names. The Kruger taxon is stored as the iNaturalist subspecies Equus quagga burchellii (taxon 447362; preferred_common_name Burchell's Zebra), because that is the taxon whose preferred common name is Burchell's Zebra. That subspecies record lists Equus burchellii (two i's) as an invalid scientific name, but not the 2011 spelling Equus burchelli (one i). The research-grade count is the subspecies total (1), not the species-level total of 2430, which includes 1802 research-grade observations of E. q. chapmani and many observations identified only to species."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but only 1 research-grade iNaturalist observation in place 69020 is identified as this subspecies (1 observation of any grade in the place taxonomy tree). The species Equus quagga has 2430 research-grade observations and 2470 of any grade (666 at species rank).",
+        "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "equus-quagga-chapmani",
+      "latin": "Equus quagga chapmani",
+      "en": "Chapman's Zebra",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 1802
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only as this subspecies in place 69020: 1802 research-grade and 1803 observations of any grade (taxon 418151; preferred_common_name Chapman's Zebra). The subspecies record lists Equus burchelli chapmani as an invalid scientific name. Not named separately on the 2011 SANParks Equidae list, which has Burchell's zebra (Equus burchelli) only. Left in candidates, not included, as a sister subspecies of the stored Kruger taxon."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "The 2011 binomial Equus burchelli is listed by iNaturalist as an invalid scientific name of the species Equus quagga, not of the subspecies E. q. burchellii. The included taxon follows the Bovidae lump rule (store the subspecies whose preferred common name is the 2011 English name). Almost all subspecies-rank Kruger records are of the sister subspecies E. q. chapmani (1802 research-grade) rather than E. q. burchellii (1).",
+    "The iNaturalist species-level research-grade count for Equus quagga is 2430, which mixes Chapman's zebra (1802), Burchell's zebra (1), and observations not identified to subspecies. The included taxon uses the subspecies count.",
+    "No rare, reintroduced, or introduced flags are recorded for official Equidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

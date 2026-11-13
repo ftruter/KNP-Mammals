@@ -1,0 +1,71 @@
+{
+  "family": "Hystricidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Hystricidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (1 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only hystricids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Hystricidae; typographic spelling Hystris"
+    },
+    {
+      "id": "inat-taxon-hystricidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Hystricidae&rank=family",
+      "role": "Hystricidae taxon id 44167"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=44167&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Hystricidae in Kruger (place 69020); 1 species in this pull (Hystrix africaeaustralis, 61)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=44167",
+      "role": "All-grade Hystricidae taxonomy tree for place 69020; used to confirm Hystrix africaeaustralis and to find subspecies identifications H. a. africaeaustralis and H. a. zuluensis"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "Not required for the official species: Hystrix africaeaustralis was present in species_counts (61)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Hystris%20africaeaustralis&all_names=true",
+      "role": "A search for the printed 2011 spelling Hystris africaeaustralis returned 0 results; used with taxa?q=Hystrix%20africaeaustralis&all_names=true and taxa?id=44173&all_names=true for the current name list"
+    }
+  ],
+  "species": [
+    {
+      "slug": "hystrix-africaeaustralis",
+      "latin": "Hystrix africaeaustralis",
+      "en": "Cape porcupine",
+      "af": "Kaapse ystervark",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 61
+      },
+      "remaps": [
+        {
+          "from": "Hystris africaeaustralis",
+          "to": "Hystrix africaeaustralis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Hystris%20africaeaustralis&all_names=true",
+          "note": "The 2011 checklist prints the name as Hystris africaeaustralis. An iNaturalist taxa search for that spelling returned 0 results. A search for Hystrix africaeaustralis matches species Hystrix africaeaustralis (taxon 44173, preferred_common_name Cape Porcupine). The stored latin value is the iNaturalist spelling. This is treated as a typographic typo on the PDF (Hystris vs Hystrix), not as a taxonomic split."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the scientific name as 'Hystris africaeaustralis'. The stored latin value is Hystrix africaeaustralis."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "No English remap is stored for Cape porcupine: the iNaturalist preferred_common_name differs only by capitalisation (Cape Porcupine).",
+    "Subspecies identifications of the included species (Hystrix africaeaustralis africaeaustralis, Hystrix africaeaustralis zuluensis) were not treated as separate candidates, because the 2011 list is at species rank.",
+    "No rare, reintroduced, or introduced flags are recorded for official Hystricidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

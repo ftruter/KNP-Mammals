@@ -1,0 +1,187 @@
+{
+  "family": "Molossidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Molossidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (6 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only molossids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Molossidae"
+    },
+    {
+      "id": "inat-taxon-molossidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Molossidae&rank=family",
+      "role": "Molossidae taxon id 41226"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=41226&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Molossidae in Kruger (place 69020); 1 species in this pull (Mops pumilus, 1)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=41226",
+      "role": "All-grade Molossidae taxonomy tree for place 69020; used to find Mops ansorgei (2 observations of any grade), Mops pumilus (9), Mops condylurus (13), Mops midas (1), and Tadarida aegyptiaca (11), and the absence of Tadarida fulminans"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for official taxa missing from species_counts: Mops ansorgei (taxon 1430965), Mops condylurus (765544), Mops midas (765553), Tadarida aegyptiaca (41300), and Tadarida fulminans (41296)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps: Chaerephon ansorgei, Tadarida ansorgei, Chaerephon pumila (0 results), Tadarida pumila, Mops pumilus, Mops condylus (0 results), Tadarida condylura, Mops condylurus, Mops midas, Tadarida midas, Tadarida aegyptiaca aegyptiaca, Tadarida fulminans, and Nyctinomus mastersoni (0 results); used with taxa?id=1430965,1370990,765544,765553,41300,41296&all_names=true"
+    }
+  ],
+  "species": [
+    {
+      "slug": "mops-ansorgei",
+      "latin": "Mops ansorgei",
+      "en": "Ansorge's free-tailed bat",
+      "af": "Ansorge se losstertvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Chaerephon ansorgei",
+          "to": "Mops ansorgei",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Chaerephon%20ansorgei&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Mops ansorgei (taxon 1430965), which lists Chaerephon ansorgei and the printed synonym Tadarida ansorgei as invalid scientific names."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 2 observations of any grade, and observation total_results for taxon 1430965 is 0."
+      ]
+    },
+    {
+      "slug": "mops-pumilus",
+      "latin": "Mops pumilus",
+      "en": "Little free-tailed bat",
+      "af": "Klein losstertvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Chaerephon pumila",
+          "to": "Mops pumilus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Tadarida%20pumila&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the exact 2011 spelling Chaerephon pumila returned 0 results. A search for the printed synonym Tadarida pumila matches Mops pumilus (taxon 1370990), which lists Tadarida pumila and Chaerephon pumilus as invalid scientific names, but not the 2011 spelling Chaerephon pumila."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "mops-condylurus",
+      "latin": "Mops condylurus",
+      "en": "Angola free-tailed bat",
+      "af": "Angola-losstertvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Mops condylus",
+          "to": "Mops condylurus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Tadarida%20condylura&all_names=true",
+          "note": "An iNaturalist taxa search for the exact 2011 spelling Mops condylus returned 0 results. A search for the printed synonym Tadarida condylura matches Mops condylurus (taxon 765544), which lists Tadarida condylura as an invalid scientific name, but not the 2011 spelling Mops condylus. This is treated as a spelling correction of the 2011 combination, supported by the printed synonym, not as a species-level guess."
+        },
+        {
+          "from": "Angola free-tailed bat",
+          "to": "Angolan Free-tailed Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=765544&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 765544. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 13 observations of any grade, and observation total_results for taxon 765544 is 0."
+      ]
+    },
+    {
+      "slug": "mops-midas",
+      "latin": "Mops midas",
+      "en": "Midas free-tailed bat",
+      "af": "Midas se losstertvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the English name as 'Midas free -tailed bat' (space around the hyphen). The stored en value is Midas free-tailed bat.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade, and observation total_results for taxon 765553 is 0."
+      ]
+    },
+    {
+      "slug": "tadarida-aegyptiaca",
+      "latin": "Tadarida aegyptiaca",
+      "en": "Egyptian free-tailed bat",
+      "af": "Egiptiese losstertvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Tadarida aegyptiaca aegyptiaca",
+          "to": "Tadarida aegyptiaca",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Tadarida%20aegyptiaca%20aegyptiaca&all_names=true",
+          "note": "The 2011 checklist already lists this animal as the subspecies Tadarida aegyptiaca aegyptiaca. An iNaturalist taxa search for that trinomial returns only the species Tadarida aegyptiaca (taxon 41300, preferred_common_name Egyptian Free-tailed Bat). No subspecies taxon for T. a. aegyptiaca was present in that search or on the species record. The stored taxon is therefore the species, and the research-grade count is the species total."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The research-grade count is the species total (0), not a missing subspecies row: observation total_results for taxon 41300 is 0. The place taxonomy tree has 11 observations of any grade at species rank, and no subspecies identifications."
+      ]
+    },
+    {
+      "slug": "tadarida-fulminans",
+      "latin": "Tadarida fulminans",
+      "en": "Madagascar large free-tailed bat",
+      "af": "Madagaskarse grootlosstersvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Madagascar large free-tailed bat",
+          "to": "Madagascan Large Free-tailed Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41296&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41296. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist wraps the Afrikaans name across two lines as 'Madagaskarse' and 'grootlosstersvlermuis'. The stored af value is Madagaskarse grootlosstersvlermuis, as printed.",
+        "An iNaturalist taxa search for the printed synonym Nyctinomus mastersoni returned 0 results. Tadarida mastersoni is listed as an invalid scientific name of Tadarida fulminans (taxon 41296).",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 41296 is 0."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Searches for the exact 2011 spellings Chaerephon pumila and Mops condylus, and for the printed synonym Nyctinomus mastersoni, returned 0 results. Remaps for those taxa rest on the printed synonyms that iNaturalist does list (Tadarida pumila, Tadarida condylura, and Tadarida mastersoni). Those missing exact-spelling links are logged.",
+    "The 2011 list already uses the nominotypical subspecies Tadarida aegyptiaca aegyptiaca, but iNaturalist has no such subspecies taxon. The stored taxon is the species T. aegyptiaca, which has 0 research-grade and 11 observations of any grade at species rank.",
+    "Five of the six official molossids have 0 research-grade iNaturalist observations in place 69020 (only Mops pumilus has 1). Tadarida fulminans is also absent from the place taxonomy tree. Absence of an iNat record was not treated as absence from KNP.",
+    "No rare, reintroduced, or introduced flags are recorded for official Molossidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

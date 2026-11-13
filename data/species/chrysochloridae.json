@@ -1,0 +1,88 @@
+{
+  "family": "Chrysochloridae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Chrysochloridae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (2 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only chrysochlorids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Chrysochloridae; typographic spelling Calcochloris obtrusirostris; printed synonym Amblysomus julianae"
+    },
+    {
+      "id": "inat-taxon-chrysochloridae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Chrysochloridae&rank=family",
+      "role": "Chrysochloridae taxon id 42478"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=42478&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Chrysochloridae in Kruger (place 69020); 0 species in this pull"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=42478",
+      "role": "All-grade Chrysochloridae taxonomy tree for place 69020; used to find Neamblysomus julianae (1 observation of any grade). Calcochloris obtusirostris is absent from the tree."
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for official Calcochloris obtusirostris (taxon 42519, 0 research-grade, 0 of any grade) and Neamblysomus julianae (taxon 42531, 0 research-grade, 1 of any grade)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "A search for the printed spelling Calcochloris obtrusirostris returned 0 results; used with taxa?q=Calcochloris%20obtusirostris&all_names=true, taxa?q=Neamblysomus%20julianae&all_names=true and taxa?q=Amblysomus%20julianae&all_names=true for current name lists"
+    }
+  ],
+  "species": [
+    {
+      "slug": "calcochloris-obtusirostris",
+      "latin": "Calcochloris obtusirostris",
+      "en": "Yellow golden mole",
+      "af": "Geel gouemol",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Calcochloris obtrusirostris",
+          "to": "Calcochloris obtusirostris",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Calcochloris%20obtrusirostris&all_names=true",
+          "note": "The 2011 checklist prints the name as Calcochloris obtrusirostris. An iNaturalist taxa search for that spelling returned 0 results. A search for Calcochloris obtusirostris matches species Calcochloris obtusirostris (taxon 42519, preferred_common_name Yellow Golden Mole), which lists Chrysochloris obtusirostris as an invalid scientific name. The stored latin value is the iNaturalist spelling. This is treated as a typographic typo on the PDF (obtrusirostris vs obtusirostris), not as a taxonomic split."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Chrysochloridae taxonomy tree (no observations of any grade). Observation total_results for taxon 42519 in the place is 0.",
+        "The 2011 checklist prints the scientific name as 'Calcochloris obtrusirostris'. The stored latin value is Calcochloris obtusirostris."
+      ]
+    },
+    {
+      "slug": "neamblysomus-julianae",
+      "latin": "Neamblysomus julianae",
+      "en": "Juliana's golden mole",
+      "af": "Juliana se gouemol",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 42531 is 0). The place taxonomy tree has 1 observation of any grade.",
+        "The 2011 checklist already prints this species as Neamblysomus julianae, with the synonym (=Amblysomus julianae). An iNaturalist taxa search for Amblysomus julianae matches N. julianae (taxon 42531), which lists Amblysomus julianae as an invalid scientific name. No latin remap is stored, because the 2011 heading is already the current name."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Both official chrysochlorids have 0 research-grade iNaturalist observations in place 69020. Calcochloris obtusirostris is absent from the place taxonomy tree (no observations of any grade). Neamblysomus julianae has 1 observation of any grade. Absence of an iNat record was not treated as absence from KNP.",
+    "No English remap is stored for Yellow golden mole or Juliana's golden mole: the iNaturalist preferred_common_name differs only by capitalisation (Yellow Golden Mole, Juliana's Golden Mole).",
+    "No rare, reintroduced, or introduced flags are recorded for official Chrysochloridae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

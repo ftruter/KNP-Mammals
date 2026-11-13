@@ -1,0 +1,533 @@
+{
+  "family": "Vespertilionidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every taxon printed under the Vespertilionidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF except Miniopterus schreibersii, which is stored under Miniopteridae following the Phase 1 family remap (20 taxa printed under that heading, 19 remaining after the move). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Eptesicus melckorum is printed as a separate species on the 2011 list but is an invalid scientific name of Laephotis capensis on iNaturalist, so it is recorded as a remap of the included Cape serotine and is not given a second species row (18 stored species). Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only vespertilionids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Vespertilionidae; Miniopterus schreibersii printed under this heading"
+    },
+    {
+      "id": "inat-taxon-vespertilionidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Vespertilionidae&rank=family",
+      "role": "Vespertilionidae taxon id 40269"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=40269&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Vespertilionidae in Kruger (place 69020); 5 species in this pull (Scotophilus dinganii, 4; Myotis welwitschii, 1; Pseudoromicia rendalli, 1; Afronycteris nanus, 1; Cnephaeus hottentotus, 1)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=40269",
+      "role": "All-grade Vespertilionidae taxonomy tree for place 69020; used to find official remaps present in the park (Afronycteris nanus, 4 observations of any grade; Cnephaeus hottentotus, 2; Scotophilus dinganii, 5; Myotis welwitschii, 1; Laephotis capensis, 1), the candidate Pseudoromicia rendalli, and the many official species that are absent"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=1",
+      "role": "total_results for official taxa missing from species_counts and for comparators: Myotis bocagii (taxon 74698), Myotis tricolor (40279), Neoromicia anchieta (1431023), Pipistrellus hesperidus (57536), Pipistrellus kuhlii (40383), Vansonia rueppellii (1431041), Pipistrellus rusticus (40361), Glauconycteris variegata (57549), Laephotis angolensis (40531), Laephotis capensis (1431030), Neoromicia zuluensis (765532), Neoromicia somalica (765529), Scotophilus borbonicus (40441), Scotophilus viridis (40433), Nycticeinops schlieffenii (57550), Kerivoula argentata (40456), and Kerivoula lanosa (40468)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remaps and zero-result searches for the 2011 names and printed synonyms, including Glauconycteris variegatus (0 results), Eptesicus somalicus zuluensis (0 results), and Nycticeius schlieffenii (0 results); used with taxa?id=74698,40279,40336,1431023,57536,40383,1431034,1431041,40361,57549,40531,1431030,1596136,765532,765529,40441,40436,57550,40456,40468,1431012&all_names=true"
+    }
+  ],
+  "species": [
+    {
+      "slug": "myotis-bocagii",
+      "latin": "Myotis bocagii",
+      "en": "Rufous hairy bat",
+      "af": "Rooi langhaarvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Myotis bocagei",
+          "to": "Myotis bocagii",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Myotis%20bocagei&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Myotis bocagii (taxon 74698), which lists Myotis bocagei as an invalid scientific name. This is a spelling correction, not a split."
+        },
+        {
+          "from": "Rufous hairy bat",
+          "to": "Rufous mouse-eared bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=74698&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 74698. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 74698 is 0."
+      ]
+    },
+    {
+      "slug": "myotis-tricolor",
+      "latin": "Myotis tricolor",
+      "en": "Temminck's hairy bat",
+      "af": "Temminck se langhaarvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Temminck's hairy bat",
+          "to": "Cape hairy bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40279&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40279. Temminck's mouse-eared bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40279 is 0."
+      ]
+    },
+    {
+      "slug": "myotis-welwitschii",
+      "latin": "Myotis welwitschii",
+      "en": "Welwitsch's hairy bat",
+      "af": "Welwitsch se langhaarvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Welwitsch's hairy bat",
+          "to": "Welwitsch's Mouse-eared Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40336&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40336. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "neoromicia-anchieta",
+      "latin": "Neoromicia anchieta",
+      "en": "Anchieta's bat",
+      "af": "Anchieta se vlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Pipistrellus anchietai",
+          "to": "Neoromicia anchieta",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Pipistrellus%20anchietai&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Neoromicia anchieta (taxon 1431023), which lists Pipistrellus anchietai, Pipistrellus anchietae, and Hypsugo anchietae as invalid scientific names."
+        },
+        {
+          "from": "Anchieta's bat",
+          "to": "Anchieta's Serotine Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431023&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1431023. Anchieta's Serotine and Anchieta's Pipistrelle are also listed English names. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 1431023 is 0."
+      ]
+    },
+    {
+      "slug": "pipistrellus-hesperidus",
+      "latin": "Pipistrellus hesperidus",
+      "en": "African pipistrellus",
+      "af": "Kuhl se vlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "African pipistrellus",
+          "to": "Dusky pipistrelle",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=57536&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 57536. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist prints the English and Afrikaans names on one line as 'African pipistrellus/ Kuhl se vlermuis' (no space before the slash). The stored en value is African pipistrellus, and the stored af value is Kuhl se vlermuis, which is also printed on the synonym line together with the English name Kuhl's bat.",
+        "The 2011 list already treats Pipistrellus kuhlii as a synonym of P. hesperidus. iNaturalist still treats P. kuhlii (taxon 40383, preferred_common_name Kuhl's pipistrelle) as a separate active species, and does not list P. kuhlii as a scientific name of P. hesperidus. P. kuhlii has 0 research-grade observations in place 69020 and is absent from the place taxonomy tree; it was not added as a candidate.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 57536 is 0."
+      ]
+    },
+    {
+      "slug": "afronycteris-nanus",
+      "latin": "Afronycteris nanus",
+      "en": "Banana bat",
+      "af": "Piesangvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Neoromicia nanus",
+          "to": "Afronycteris nanus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Neoromicia%20nanus&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Afronycteris nanus (taxon 1431034), which lists Neoromicia nanus, the printed synonym Pipistrellus nanus, Vespertilio nanus, and Neoromicia nana as invalid scientific names."
+        },
+        {
+          "from": "Banana bat",
+          "to": "Banana Serotine",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431034&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1431034. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "vansonia-rueppellii",
+      "latin": "Vansonia rueppellii",
+      "en": "Rüppell's bat",
+      "af": "Rüppell se vlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Pipistrellus rueppellii",
+          "to": "Vansonia rueppellii",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Pipistrellus%20rueppellii&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Vansonia rueppellii (taxon 1431041), which lists Pipistrellus rueppellii and Pipistrellus rueppelli as invalid scientific names."
+        },
+        {
+          "from": "Rüppell's bat",
+          "to": "Rüppell's pipistrelle",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431041&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1431041. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 1431041 is 0."
+      ]
+    },
+    {
+      "slug": "pipistrellus-rusticus",
+      "latin": "Pipistrellus rusticus",
+      "en": "Rusty bat",
+      "af": "Roeskleurvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Rusty bat",
+          "to": "Rusty pipistrelle",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40361&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40361. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40361 is 0."
+      ]
+    },
+    {
+      "slug": "glauconycteris-variegata",
+      "latin": "Glauconycteris variegata",
+      "en": "Butterfly bat",
+      "af": "Vlindervlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Glauconycteris variegatus",
+          "to": "Glauconycteris variegata",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Chalinolobus%20variegatus&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 spelling Glauconycteris variegatus returned 0 results. A search for the printed synonym Chalinolobus variegatus matches Glauconycteris variegata (taxon 57549), which lists Chalinolobus variegatus as an invalid scientific name, but not the 2011 spelling Glauconycteris variegatus. This is a gender agreement correction supported by the printed synonym, not a split."
+        },
+        {
+          "from": "Butterfly bat",
+          "to": "Variegated Butterfly Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=57549&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 57549. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 57549 is 0."
+      ]
+    },
+    {
+      "slug": "laephotis-angolensis",
+      "latin": "Laephotis angolensis",
+      "en": "Botswana long-eared bat",
+      "af": "Botswana-langoorvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Laephotis botswanae",
+          "to": "Laephotis angolensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Laephotis%20botswanae&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Laephotis angolensis (taxon 40531), which lists Laephotis botswanae as an invalid scientific name. This is a lump into L. angolensis, not a split. No subspecies taxon carrying the epithet botswanae was present."
+        },
+        {
+          "from": "Botswana long-eared bat",
+          "to": "Angolan long-eared bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40531&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40531. Botswanan long-eared bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40531 is 0."
+      ]
+    },
+    {
+      "slug": "laephotis-capensis",
+      "latin": "Laephotis capensis",
+      "en": "Cape serotine bat",
+      "af": "Kaapse dakvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Neoromicia capensis",
+          "to": "Laephotis capensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Neoromicia%20capensis&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Laephotis capensis (taxon 1431030), which lists Neoromicia capensis and the printed synonym Eptesicus capensis as invalid scientific names."
+        },
+        {
+          "from": "Eptesicus melckorum",
+          "to": "Laephotis capensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Eptesicus%20melckorum&all_names=true",
+          "note": "The 2011 checklist also lists Eptesicus melckorum (Melck's serotine bat / Melck se dakvlermuis) as a separate species. An iNaturalist taxa search for that name matches Laephotis capensis (taxon 1431030), which lists Eptesicus melckorum, Pipistrellus melckorum, and Neoromicia melckorum as invalid scientific names, and lists Melck's house bat as an English name. It is recorded here as a remap of the already-included Cape serotine and is not given a second species row."
+        },
+        {
+          "from": "Cape serotine bat",
+          "to": "Cape serotine",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1431030&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1431030. Cape Serotine Bat remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 1 observation of any grade, and observation total_results for taxon 1431030 is 0."
+      ]
+    },
+    {
+      "slug": "cnephaeus-hottentotus",
+      "latin": "Cnephaeus hottentotus",
+      "en": "Long-tailed serotine bat",
+      "af": "Langstertdakvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "Eptesicus hottentotus",
+          "to": "Cnephaeus hottentotus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Eptesicus%20hottentotus&all_names=true",
+          "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Cnephaeus hottentotus (taxon 1596136), which lists Eptesicus hottentotus as an invalid scientific name."
+        },
+        {
+          "from": "Long-tailed serotine bat",
+          "to": "Long-tailed Serotine",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1596136&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1596136. Long-tailed Serotine Bat and Long-tailed House Bat remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "neoromicia-zuluensis",
+      "latin": "Neoromicia zuluensis",
+      "en": "Somali serotine bat",
+      "af": "Somali-dakvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Eptesicus somalicus zuluensis",
+          "to": "Neoromicia zuluensis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Eptesicus%20zuluensis&all_names=true",
+          "note": "The 2011 checklist already lists this animal as the subspecies Eptesicus somalicus zuluensis, with the synonym (=Eptesicus zuluensis). An iNaturalist taxa search for the trinomial Eptesicus somalicus zuluensis returned 0 results. A search for the printed synonym Eptesicus zuluensis matches species Neoromicia zuluensis (taxon 765532, preferred_common_name Zulu serotine), which lists Eptesicus zuluensis and Pipistrellus zuluensis as invalid scientific names, but not the 2011 trinomial. Following the batch 2 elevation pattern, the stored taxon is the species that now carries the printed synonym, not a defunct subspecies and not Neoromicia somalica."
+        },
+        {
+          "from": "Somali serotine bat",
+          "to": "Zulu serotine",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=765532&all_names=true",
+          "note": "iNaturalist preferred_common_name for the stored species. The stored en value is the 2011 SANParks checklist name, which used the parent epithet somalicus."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "Eptesicus somalicus is an invalid scientific name of a different active species, Neoromicia somalica (taxon 765529, preferred_common_name Somali serotine). N. somalica has 0 research-grade observations in place 69020 and is absent from the place taxonomy tree; it was not added as a candidate.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 765532 is 0."
+      ]
+    },
+    {
+      "slug": "scotophilus-borbonicus",
+      "latin": "Scotophilus borbonicus",
+      "en": "Lesser yellow house bat",
+      "af": "Klein geel dakvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Lesser yellow house bat",
+          "to": "Lesser Yellow Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40441&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40441. Réunion House Bat is also a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "An iNaturalist taxa search for the 2011 name matches Scotophilus borbonicus (taxon 40441), which remains an active species and lists no invalid scientific names. Scotophilus viridis (taxon 40433, preferred_common_name Greenish House Bat) is a separate active species; its name list does not include S. borbonicus. Observation total_results is 0 for both, and neither appears in the place taxonomy tree (the tree has 18 observations of any grade under genus Scotophilus, of which 5 are S. dinganii and 13 are at genus rank). Because it is unclear whether the 2011 Kruger taxon should be limited to S. borbonicus or referred to S. viridis, and there are no species-rank Kruger records to decide it, the stored latin value is the 2011 name.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40441 is 0."
+      ]
+    },
+    {
+      "slug": "scotophilus-dinganii",
+      "latin": "Scotophilus dinganii",
+      "en": "Yellow house bat",
+      "af": "Geel dakvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 4
+      },
+      "remaps": [
+        {
+          "from": "Yellow house bat",
+          "to": "Yellow-bellied House Bat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=40436&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 40436. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "nycticeinops-schlieffenii",
+      "latin": "Nycticeinops schlieffenii",
+      "en": "Schlieffen's bat",
+      "af": "Schlieffen se vlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Nycticeinops schlieffeni",
+          "to": "Nycticeinops schlieffenii",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Nycticeinops%20schlieffeni&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Nycticeinops schlieffenii (taxon 57550), which lists Nycticeinops schlieffeni and Nycticeius schlieffeni as invalid scientific names. A search for the printed synonym spelling Nycticeius schlieffenii (two i's) returned 0 results. This is a spelling correction, not a split."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 57550 is 0."
+      ]
+    },
+    {
+      "slug": "kerivoula-argentata",
+      "latin": "Kerivoula argentata",
+      "en": "Damara woolly bat",
+      "af": "Damara-wolhaarvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40456 is 0."
+      ]
+    },
+    {
+      "slug": "kerivoula-lanosa",
+      "latin": "Kerivoula lanosa",
+      "en": "Lesser woolly bat",
+      "af": "Klein wolhaarvlermuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The species is also absent from the place taxonomy tree, and observation total_results for taxon 40468 is 0."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "pseudoromicia-rendalli",
+      "latin": "Pseudoromicia rendalli",
+      "en": "Rendall's serotine",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 1
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 1 research-grade and 1 observation of any grade (taxon 1431012; preferred_common_name Rendall's serotine). Not on the 2011 SANParks Vespertilionidae list. Left in candidates, not included."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Miniopterus schreibersii is printed under Vespertilionidae on the 2011 PDF and is stored in miniopteridae.json, not in this file.",
+    "Eptesicus melckorum is printed as a separate official species, but iNaturalist treats that name as an invalid scientific name of the included Laephotis capensis. It was not given a second species row. The 2011 English and Afrikaans names for Melck's serotine bat are recorded only in that remap note.",
+    "An iNaturalist taxa search for the 2011 trinomial Eptesicus somalicus zuluensis returned 0 results. The elevation to Neoromicia zuluensis rests on the printed synonym Eptesicus zuluensis. That missing trinomial link is logged. Neoromicia somalica, which carries the parent epithet, has 0 research-grade observations in place 69020 and was not added as a candidate.",
+    "Owner question: Scotophilus borbonicus remains an active iNaturalist species and is the stored 2011 name, but S. viridis is a separate active species with no synonym link to S. borbonicus. Neither has species-rank Kruger records (0 research-grade, absent from the tree). Many place observations are identified only to genus Scotophilus (13 of any grade at genus rank).",
+    "Searches for the exact 2011 spelling Glauconycteris variegatus, and for the printed synonym Nycticeius schlieffenii, returned 0 results. Remaps rest on name lists reached via the printed synonym or the close spelling that iNaturalist does list.",
+    "Most official vespertilionids have 0 research-grade iNaturalist observations in place 69020. The only official taxa with a research-grade count above 0 are Scotophilus dinganii (4), Myotis welwitschii (1), Afronycteris nanus (1), and Cnephaeus hottentotus (1). Absence of an iNat record was not treated as absence from KNP.",
+    "No rare, reintroduced, or introduced flags are recorded for official Vespertilionidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

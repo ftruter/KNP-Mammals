@@ -1,0 +1,199 @@
+{
+  "family": "Herpestidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Herpestidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (8 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only herpestids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Herpestidae"
+    },
+    {
+      "id": "inat-taxon-herpestidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Herpestidae&rank=family",
+      "role": "Herpestidae taxon id 41893"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=41893&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Herpestidae in Kruger (place 69020); 5 species in this pull (Helogale parvula, 812; Herpestes sanguineus, 305; Mungos mungo, 151; Ichneumia albicauda, 21; Atilax paludinosus, 3). Paracynictis selousi, Herpestes ichneumon and Rhynchogale melleri were absent from this pull."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=41893",
+      "role": "All-grade Herpestidae taxonomy tree for place 69020; used to find official species with few or no research-grade records (Herpestes ichneumon) and the absence of Paracynictis selousi and Rhynchogale melleri"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for official species missing from species_counts (Paracynictis selousi, taxon 41937, 0; Herpestes ichneumon, taxon 41900, 0; Rhynchogale melleri, taxon 41941, 0)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded remap of Galerella sanguinea; confirmed Paracynictis selousi, Herpestes ichneumon and Rhynchogale melleri as current names. Used with taxa?id=41937,41900,74414,41941,41939,41919,41921,41906&all_names=true for current name lists."
+    }
+  ],
+  "species": [
+    {
+      "slug": "paracynictis-selousi",
+      "latin": "Paracynictis selousi",
+      "en": "Selous' mongoose",
+      "af": "Kleinwitstertmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 41937 is 0). The place Herpestidae taxonomy tree has no observations of any grade under this name."
+      ]
+    },
+    {
+      "slug": "herpestes-ichneumon",
+      "latin": "Herpestes ichneumon",
+      "en": "Large grey mongoose",
+      "af": "Grootgrysmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Large grey mongoose",
+          "to": "Egyptian Mongoose",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41900&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41900. Large Grey Mongoose remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 41900 is 0). The place taxonomy tree has 2 observations of any grade."
+      ]
+    },
+    {
+      "slug": "herpestes-sanguineus",
+      "latin": "Herpestes sanguineus",
+      "en": "Slender mongoose",
+      "af": "Swartkwasmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 305
+      },
+      "remaps": [
+        {
+          "from": "Galerella sanguinea",
+          "to": "Herpestes sanguineus",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Galerella%20sanguinea&all_names=true",
+          "note": "An iNaturalist taxa search for the 2011 name matches Herpestes sanguineus (taxon 74414, preferred_common_name Common Slender Mongoose), which lists Galerella sanguinea as an invalid scientific name."
+        },
+        {
+          "from": "Slender mongoose",
+          "to": "Common Slender Mongoose",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=74414&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 74414. Slender Mongoose remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "rhynchogale-melleri",
+      "latin": "Rhynchogale melleri",
+      "en": "Meller's mongoose",
+      "af": "Meller se muishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 41941 is 0). The place Herpestidae taxonomy tree has no observations of any grade under this name."
+      ]
+    },
+    {
+      "slug": "ichneumia-albicauda",
+      "latin": "Ichneumia albicauda",
+      "en": "White-tailed mongoose",
+      "af": "Witstertmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 21
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "atilax-paludinosus",
+      "latin": "Atilax paludinosus",
+      "en": "Water mongoose",
+      "af": "Kommetjiegatmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 3
+      },
+      "remaps": [
+        {
+          "from": "Water mongoose",
+          "to": "Marsh Mongoose",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41919&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41919. Water Mongoose remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, with only 3 research-grade iNaturalist observations in place 69020. The place taxonomy tree has 5 observations of any grade."
+      ]
+    },
+    {
+      "slug": "mungos-mungo",
+      "latin": "Mungos mungo",
+      "en": "Banded mongoose",
+      "af": "Gebande muishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 151
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "helogale-parvula",
+      "latin": "Helogale parvula",
+      "en": "Dwarf mongoose",
+      "af": "Dwergmuishond",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 812
+      },
+      "remaps": [
+        {
+          "from": "Dwarf mongoose",
+          "to": "Common Dwarf Mongoose",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=41906&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 41906. Dwarf Mongoose remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Three official-list species have 0 research-grade iNaturalist observations in place 69020: Paracynictis selousi (none of any grade in the place taxonomy tree), Herpestes ichneumon (2 observations of any grade), and Rhynchogale melleri (none of any grade in the place taxonomy tree). Absence of an iNat record was not treated as absence from KNP.",
+    "Atilax paludinosus is on the official list but has only 3 research-grade iNaturalist observations in the place.",
+    "No rare, reintroduced, or introduced flags are recorded for official Herpestidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

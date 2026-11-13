@@ -1,0 +1,159 @@
+{
+  "family": "Felidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Felidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (6 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only felids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; printed synonym lines (=Felis caracal, =F. lybica, =Felis serval); absence of asterisk status flags on Felidae"
+    },
+    {
+      "id": "inat-taxon-felidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Felidae&rank=family",
+      "role": "Felidae taxon id 41944"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=41944&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Felidae in Kruger (place 69020); 7 species in this pull (Panthera leo, 2403; Panthera pardus, 1338; Acinonyx jubatus, 537; Felis lybica, 123; Leptailurus serval, 31; Caracal caracal, 14; Felis catus, 3)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=41944",
+      "role": "All-grade Felidae taxonomy tree for place 69020; used to confirm the Kruger taxa, including Felis lybica rather than Felis silvestris, and the candidate Felis catus"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded split of Felis silvestris; used with taxa?q=Felis%20lybica&all_names=true and taxa?id=41955,41963,41964,42042,371414,42025,118552,922459&all_names=true for current name lists."
+    }
+  ],
+  "species": [
+    {
+      "slug": "acinonyx-jubatus",
+      "latin": "Acinonyx jubatus",
+      "en": "Cheetah",
+      "af": "Jagluiperd",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 537
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "panthera-pardus",
+      "latin": "Panthera pardus",
+      "en": "Leopard",
+      "af": "Luiperd",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1338
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "panthera-leo",
+      "latin": "Panthera leo",
+      "en": "Lion",
+      "af": "Leeu",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2403
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "caracal-caracal",
+      "latin": "Caracal caracal",
+      "en": "Caracal",
+      "af": "Rooikat",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 14
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist already uses Caracal caracal and prints (=Felis caracal) as a synonym. Felis caracal is listed as an invalid scientific name of Caracal caracal (taxon 42042). The stored latin value is unchanged."
+      ]
+    },
+    {
+      "slug": "felis-lybica",
+      "latin": "Felis lybica",
+      "en": "African wild cat",
+      "af": "Vaalboskat",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 123
+      },
+      "remaps": [
+        {
+          "from": "Felis silvestris",
+          "to": "Felis lybica",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Felis%20silvestris&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Felis silvestris (taxon 922459) as an active species, preferred_common_name European Wildcat. The 2011 checklist already prints (=F. lybica) under Felis silvestris. Place 69020 research-grade African wild-cat observations are identified as Felis lybica (taxon 371414, preferred_common_name African Wildcat, 123); F. silvestris does not appear in the place Felidae taxonomy tree. The F. lybica species name list does not include Felis silvestris, or the trinomial Felis silvestris lybica, as a scientific name (its invalid scientific names are Felis lybicus, Felis ocreata, Felis cafra and Felis haussa). The trinomial Felis silvestris cafra is listed as an invalid scientific name of the subspecies Felis lybica cafra (taxon 922462, preferred_common_name Southern African Wildcat), which has 67 observations of any grade in the place tree. The Kruger taxon is stored as the species Felis lybica because that is the iNaturalist species whose preferred common name is African Wildcat, which has the Kruger records, and which the 2011 list already synonymises as F. lybica."
+        },
+        {
+          "from": "African wild cat",
+          "to": "African Wildcat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=371414&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 371414. African Wild Cat is also a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "leptailurus-serval",
+      "latin": "Leptailurus serval",
+      "en": "Serval",
+      "af": "Tierboskat",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 31
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist already uses Leptailurus serval and prints (=Felis serval) as a synonym. Felis serval is listed as an invalid scientific name of Leptailurus serval (taxon 42025). The stored latin value is unchanged."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "felis-catus",
+      "latin": "Felis catus",
+      "en": "Domestic Cat",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 3
+      },
+      "remaps": [],
+      "flags": [
+        "domestic"
+      ],
+      "notes": [
+        "iNaturalist-only in place 69020: 3 research-grade and 3 observations of any grade (taxon 118552; preferred_common_name Domestic Cat). Not on the 2011 SANParks Felidae list. Left in candidates, not included, and flagged as domestic."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "The split of the 2011 name Felis silvestris to the Kruger taxon Felis lybica is recorded from the printed 2011 synonym (=F. lybica), from occurrence, and from the official English name. iNaturalist keeps F. silvestris as a different active species (European Wildcat). The F. lybica species record does not list Felis silvestris or Felis silvestris lybica as a scientific name; the only iNaturalist synonym link found is at subspecies rank (Felis silvestris cafra as an invalid name of F. l. cafra).",
+    "Subspecies identifications of included species (including Felis lybica cafra, Acinonyx jubatus jubatus, Panthera leo melanochaita and Panthera pardus pardus) were not treated as separate candidates, because the 2011 list is at species rank.",
+    "No rare, reintroduced, or introduced flags are recorded for official Felidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "family": "Hippopotamidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Hippopotamidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (1 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only hippopotamids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Hippopotamidae"
+    },
+    {
+      "id": "inat-taxon-hippopotamidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Hippopotamidae&rank=family",
+      "role": "Hippopotamidae taxon id 42146"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=42146&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Hippopotamidae in Kruger (place 69020); 1 species in this pull (Hippopotamus amphibius, 2350)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=42146",
+      "role": "All-grade Hippopotamidae taxonomy tree for place 69020; no iNat-only hippopotamid species were present"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Hippopotamus%20amphibius&all_names=true",
+      "role": "Confirmed the 2011 name is still the current iNaturalist species (taxon 42149); used with taxa?id=42149&all_names=true for the English preferred name"
+    }
+  ],
+  "species": [
+    {
+      "slug": "hippopotamus-amphibius",
+      "latin": "Hippopotamus amphibius",
+      "en": "Hippopotamus",
+      "af": "Seekoei",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 2350
+      },
+      "remaps": [
+        {
+          "from": "Hippopotamus",
+          "to": "Common Hippopotamus",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=42149&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 42149. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "No rare, reintroduced, or introduced flags are recorded for official Hippopotamidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

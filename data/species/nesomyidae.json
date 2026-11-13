@@ -1,0 +1,155 @@
+{
+  "family": "Nesomyidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Muridae heading on the 2011 Wayback SANParks KNP mammal checklist PDF whose genera were remapped to Nesomyidae in Phase 1 (families.json): Cricetomys, Saccostomus, Dendromus and Steatomys (5 species). Those genera are not printed under a Nesomyidae heading on the PDF; true remaining Muridae are in muridae.json, not here. English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only nesomyids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list (printed under Muridae); English and Afrikaans species names; species order; absence of asterisk status flags on these five species"
+    },
+    {
+      "id": "inat-taxon-nesomyidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Nesomyidae&rank=family",
+      "role": "Nesomyidae taxon id 71382"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=71382&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Nesomyidae in Kruger (place 69020); 2 species in this pull (Cricetomys ansorgei, 6; Saccostomus campestris, 4). Cricetomys gambianus, both official Dendromus species and Steatomys pratensis were absent from this pull."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=71382",
+      "role": "All-grade Nesomyidae taxonomy tree for place 69020; used to confirm Cricetomys ansorgei and Saccostomus campestris. C. gambianus is absent. One observation is identified only to genus Cricetomys, and one only to genus Dendromus."
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for Cricetomys gambianus (taxon 44512, 0 research-grade, 0 of any grade), Dendromus melanotis (44971, 0), Dendromus mystacalis (44976, 0) and Steatomys pratensis (44923, 0)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Recorded split of Cricetomys gambianus; used with taxa?id=1453959,44512,44509,44971,44976,44923&all_names=true for current name lists"
+    }
+  ],
+  "species": [
+    {
+      "slug": "cricetomys-ansorgei",
+      "latin": "Cricetomys ansorgei",
+      "en": "Giant rat",
+      "af": "Reuse rot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 6
+      },
+      "remaps": [
+        {
+          "from": "Cricetomys gambianus",
+          "to": "Cricetomys ansorgei",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Cricetomys%20gambianus&all_names=true",
+          "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Cricetomys gambianus (taxon 44512) as an active species, preferred_common_name Northern Giant Pouched Rat. The combination Cricetomys gambianus ansorgei is listed as an invalid scientific name of Cricetomys ansorgei (taxon 1453959, preferred_common_name Southern Giant Pouched Rat). Place 69020 research-grade giant rat observations are identified as C. ansorgei (6); C. gambianus does not appear in the place Nesomyidae taxonomy tree (observation total_results is 0 research-grade and 0 of any grade). The C. gambianus name list also includes Cricetomys ansorgei as an invalid scientific name; that conflicting synonym was not treated as making the two taxa the same, because both remain active species and Kruger records are identified as C. ansorgei."
+        },
+        {
+          "from": "Giant rat",
+          "to": "Southern Giant Pouched Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=1453959&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 1453959. The 2011 name is not a listed English name on this taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "saccostomus-campestris",
+      "latin": "Saccostomus campestris",
+      "en": "Pouched mouse",
+      "af": "Wangsakmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 4
+      },
+      "remaps": [
+        {
+          "from": "Pouched mouse",
+          "to": "Southern African Pouched Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=44509&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 44509. Pouched Mouse, South African Pouched Mouse and African Pouched Rat remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": []
+    },
+    {
+      "slug": "dendromus-melanotis",
+      "latin": "Dendromus melanotis",
+      "en": "Grey climbing mouse",
+      "af": "Grysklimmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Nesomyidae taxonomy tree (no observations of any grade). Observation total_results for taxon 44971 in the place is 0.",
+        "The place taxonomy tree has 1 observation of any grade identified only to genus Dendromus. That observation was not assigned to this species."
+      ]
+    },
+    {
+      "slug": "dendromus-mystacalis",
+      "latin": "Dendromus mystacalis",
+      "en": "Chestnut climbing mouse",
+      "af": "Roeskleurklimmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Nesomyidae taxonomy tree (no observations of any grade). Observation total_results for taxon 44976 in the place is 0.",
+        "The place taxonomy tree has 1 observation of any grade identified only to genus Dendromus. That observation was not assigned to this species."
+      ]
+    },
+    {
+      "slug": "steatomys-pratensis",
+      "latin": "Steatomys pratensis",
+      "en": "Fat mouse",
+      "af": "Vetmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Fat mouse",
+          "to": "Common Fat Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=44923&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 44923. fat mouse remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Nesomyidae taxonomy tree (no observations of any grade). Observation total_results for taxon 44923 in the place is 0."
+      ]
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "The 2011 checklist prints these five species under Rodentia: Muridae. Inclusion follows that heading for the genera remapped in Phase 1; the family name stored here is Nesomyidae, the Phase 1 remap recorded in families.json. Those species are not also kept under Muridae.",
+    "Dendromus melanotis, Dendromus mystacalis and Steatomys pratensis are on the official list but have 0 research-grade iNaturalist observations in place 69020 and are absent from the place taxonomy tree as those species (no observations of any grade under those names). One observation is identified only to genus Dendromus and was not assigned to either official climbing mouse. Absence of an iNat record was not treated as absence from KNP.",
+    "Cricetomys gambianus remains an active iNaturalist species (Northern Giant Pouched Rat) and has 0 observations of any grade in the place. Residual observations identified as C. gambianus were therefore not added as a candidate. One observation is identified only to genus Cricetomys.",
+    "The C. gambianus taxon record lists Cricetomys ansorgei as an invalid scientific name, while C. ansorgei is also an active species that lists Cricetomys gambianus ansorgei as an invalid name. That conflicting synonym direction is logged; it was not treated as a reason to store the Kruger taxon as C. gambianus.",
+    "No English remap is stored for Grey climbing mouse or Chestnut climbing mouse: the iNaturalist preferred_common_name differs only by capitalisation (Grey Climbing Mouse, chestnut climbing mouse).",
+    "No rare, reintroduced, or introduced flags are recorded for official Nesomyidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

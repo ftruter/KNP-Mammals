@@ -1,0 +1,61 @@
+{
+  "family": "Gliridae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Gliridae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (1 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only glirids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Gliridae"
+    },
+    {
+      "id": "inat-taxon-gliridae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Gliridae&rank=family",
+      "role": "Gliridae taxon id 71385"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=71385&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Gliridae in Kruger (place 69020); 1 species in this pull (Graphiurus murinus, 4)"
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=71385",
+      "role": "All-grade Gliridae taxonomy tree for place 69020; used to confirm that Graphiurus murinus is the only species in the place (genus- and subgenus-rank identifications were not treated as candidates)"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "Not required for the official species: Graphiurus murinus was present in species_counts (4)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?id=45848&all_names=true",
+      "role": "Current name list for Graphiurus murinus; the 2011 scientific name is unchanged"
+    }
+  ],
+  "species": [
+    {
+      "slug": "graphiurus-murinus",
+      "latin": "Graphiurus murinus",
+      "en": "Woodland dormouse",
+      "af": "Boswaaierstertmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 4
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": []
+    }
+  ],
+  "candidates": [],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "No English remap is stored for Woodland dormouse: the iNaturalist preferred_common_name differs only by capitalisation (Woodland Dormouse).",
+    "Genus- and subgenus-rank Graphiurus identifications in the place taxonomy tree were not treated as separate candidates, because the 2011 list is at species rank and no other Graphiurus species is present.",
+    "No rare, reintroduced, or introduced flags are recorded for official Gliridae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}

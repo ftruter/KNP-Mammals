@@ -1,0 +1,82 @@
+{
+  "family": "Bathyergidae",
+  "researched": "13 November 2026, Africa/Johannesburg",
+  "method": "Inclusion is every species printed under the Bathyergidae heading on the 2011 Wayback SANParks KNP mammal checklist PDF (1 species). English and Afrikaans names, and species order, are taken from that PDF. Scientific names are the 2011 names unless an iNaturalist taxon record cited in remaps gives a current name. Research-grade counts are for iNaturalist place_id 69020. iNaturalist-only bathyergids are in candidates, not species. The PDF was fetched to a temporary path for text extraction and was not copied into this project.",
+  "sources": [
+    {
+      "id": "sanparks2011",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "role": "Official inclusion list; English and Afrikaans species names; species order; absence of asterisk status flags on Bathyergidae"
+    },
+    {
+      "id": "inat-taxon-bathyergidae",
+      "url": "https://api.inaturalist.org/v1/taxa?q=Bathyergidae&rank=family",
+      "role": "Bathyergidae taxon id 43744"
+    },
+    {
+      "id": "inat-species-counts",
+      "url": "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&taxon_id=43744&quality_grade=research&per_page=200",
+      "role": "Research-grade species counts for Bathyergidae in Kruger (place 69020); 1 species in this pull (Cryptomys natalensis, 2). Cryptomys hottentotus was absent from this pull."
+    },
+    {
+      "id": "inat-taxonomy",
+      "url": "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&taxon_id=43744",
+      "role": "All-grade Bathyergidae taxonomy tree for place 69020; used to confirm residual Cryptomys hottentotus observations and the iNat-only Cryptomys natalensis"
+    },
+    {
+      "id": "inat-obs-totals",
+      "url": "https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id={id}&quality_grade=research&per_page=0",
+      "role": "total_results for official Cryptomys hottentotus (taxon 43749, 0 research-grade, 2 of any grade)"
+    },
+    {
+      "id": "inat-taxa-synonyms",
+      "url": "https://api.inaturalist.org/v1/taxa?q={2011-scientific-name}&all_names=true",
+      "role": "Checked Cryptomys hottentotus and Cryptomys hottentotus natalensis; used with taxa?id=43749,1360140&all_names=true for current name lists. A search for Cryptomys hottentotus natalensis returned 0 results."
+    }
+  ],
+  "species": [
+    {
+      "slug": "cryptomys-hottentotus",
+      "latin": "Cryptomys hottentotus",
+      "en": "Common molerat",
+      "af": "Vaalmol",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 43749 is 0). The place taxonomy tree has 2 observations of any grade.",
+        "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "slug": "cryptomys-natalensis",
+      "latin": "Cryptomys natalensis",
+      "en": "Natal Mole-rat",
+      "af": null,
+      "inclusionEvidence": {
+        "sanparks2011": false,
+        "inatResearchGrade": 2
+      },
+      "remaps": [],
+      "flags": [],
+      "notes": [
+        "iNaturalist-only in place 69020: 2 research-grade and 2 observations of any grade (taxon 1360140; preferred_common_name Natal Mole-rat). The taxon record lists Cryptomis natalensis as an invalid scientific name, not Cryptomys hottentotus or a trinomial such as Cryptomys hottentotus natalensis (a search for Cryptomys hottentotus natalensis returned 0 results). Not on the 2011 SANParks Bathyergidae list, which has Common molerat as Cryptomys hottentotus only. Left in candidates, not included. C. hottentotus remains an active iNaturalist species (preferred_common_name Common Molerat) and has 2 observations of any grade in the place, so the official taxon was not remapped."
+      ]
+    }
+  ],
+  "gaps": [
+    "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
+    "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
+    "Cryptomys hottentotus is on the official list but has 0 research-grade iNaturalist observations in place 69020 (2 of any grade in the place taxonomy tree). Absence of an iNat record was not treated as absence from KNP.",
+    "Cryptomys natalensis is an iNaturalist-only species in the place (2 research-grade). It is a separate active iNaturalist species, not a synonym or recorded split of C. hottentotus, so it was not used to remap the official molerat.",
+    "No English remap is stored for Common molerat: the iNaturalist preferred_common_name differs only by capitalisation (Common Molerat).",
+    "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
+    "No rare, reintroduced, or introduced flags are recorded for official Bathyergidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
+    "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ]
+}
