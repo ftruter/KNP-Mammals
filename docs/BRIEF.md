@@ -38,3 +38,5 @@ The birds lessons were taken from KNP-birds `main` at commit `a650569d` (12 Nov 
 - Bats keep the 2011 nomenclature.
 - Leave out vagrant or commensal species that live only around rest camps because they arrived with people; that includes introduced rodents, dogs and cats.
 - Keep left-out rows in `excluded`, each with a reason.
+
+**Data wording rule (owner, 13 Nov 2026).** Species data must not mention access problems (HTTP errors, Cloudflare, blocked pages, "secondary readings", or when an author read a source). For figures not taken from the official source, use vague attribution ("One source claims…", "Some sources claim…") and add "A more accurate figure may be available at this URL: <URL>". Keep blocked-source notes in `SOURCES.md` research hints only. SANParks has been asked for data access.

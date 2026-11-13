@@ -1,0 +1,523 @@
+{
+  "kind": "species",
+  "slug": "connochaetes-taurinus",
+  "scientificName": "Connochaetes taurinus",
+  "commonNames": {
+    "en": "Blue wildebeest",
+    "af": "Blouwildebees"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42280,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2016 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Connochaetes taurinus taurinus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/6.-Blue-Wildebeest-Connochaetes-taurinus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Tambling C, Viljoen P, Kotze A. 2016, in Child et al. (eds.). Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Blue Wildebeest",
+        "url": "https://ewt.org/project/blue-wildebeest/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "Blue wildebeest",
+        "url": "https://en.wikipedia.org/wiki/Blue_wildebeest",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites IUCN SSC Antelope Specialist Group (2016), Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 115,
+      "max": 145
+    },
+    "headBodyLengthCm": {
+      "min": 170,
+      "max": 240
+    },
+    "tailCm": {
+      "min": 60,
+      "max": 100
+    },
+    "massKg": {
+      "male": {
+        "min": 165,
+        "max": 290
+      },
+      "female": {
+        "min": 140,
+        "max": 260
+      }
+    },
+    "note": "Shoulder height, head-and-body length and tail length follow the ranges compiled on Wikipedia (citing Huffman, Ultimate Ungulate). Sexed mass follows Wikipedia (citing Kingdon 2015). Animal Diversity Web gives an unsexed mass of 118–270 kg and an average length of 123 cm, which sits inside the shoulder-height range. Male horns may reach 83 cm and female horns 30–40 cm (same Wikipedia compilation). No sexed shoulder-height split was found."
+  },
+  "summary": "A large, front-heavy antelope of open grassland. Adults are slate to bluish-grey with a black face, a black beard, a stiff black mane, and dark vertical brindle stripes on the neck and shoulders. Both sexes carry cow-like horns that spread out, then curve up and in. Calves are born tawny brown and stay close to the cow. Kruger holds a resident population; some local movement occurs inside the park, but this is not the long-distance East African migration.",
+  "description": "The blue wildebeest is broad-shouldered, with a deep muzzle and high forequarters that slope down to the hips. Adult colour runs from deep slate or bluish-grey to lighter grey or greyish-brown, and the back and flanks are a little lighter than the underparts. Dark brown vertical stripes mark the neck and the side of the ribcage. The mane, face, beard and long tail are jet black in the southern subspecies, which is the form in Kruger. Males are larger and darker than females, and their horns are longer and heavier. The black wildebeest (Connochaetes gnou) does not occur in Kruger.",
+  "habits": "Mostly active in the morning and late afternoon, and often rests in the heat of the day. Animals move in loose herds, from small groups to gatherings of many dozens, and commonly graze alongside Burchell's zebra. Territorial bulls mark ground with dung and scent, and they grunt, paw and horn the soil when challenging rivals. They can run at high speed when alarmed. In Kruger the species is a year-round resident, with evidence of local movement inside the park rather than a long seasonal migration.",
+  "diet": {
+    "summary": "A grazer of short grasses on open plains. When grass is scarce it will also take leaves of shrubs and trees. It drinks often when water is at hand, typically twice a day, and usually stays within reach of a water source.",
+    "items": [
+      "short grasses",
+      "shrub and tree foliage when grass is scarce"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is born after a gestation of about 8 to 8.5 months, usually in a short, concentrated season after the rains. Newborns weigh about 19 kg, are tawny brown, and can stand within minutes. They stay close to the cow, and may suckle until the next calf is due. Adult colour starts to appear from about two months. Exact calving months for Kruger were not found in the sources used here.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator of wildebeest."
+    }
+  ],
+  "prey": [],
+  "habitat": "Short-grass plains and open or lightly wooded savanna, usually close to drinking water. It avoids country that is too wet or too arid, and is often seen with zebra on open grassland.",
+  "similar": [
+    {
+      "slug": "damaliscus-lunatus",
+      "note": "Tsessebe lacks the blue wildebeest's black beard, black face and dark brindle stripes on the neck and shoulders. It is a slimmer alcelaphine, and its horns are more lyrate than cow-like."
+    },
+    {
+      "slug": "alcelaphus-buselaphus-lichtensteinii",
+      "note": "Lichtenstein's hartebeest has a longer, narrower face and no black beard or brindle shoulder stripes. Its horns rise in a tighter S-curve rather than spreading out in a cow-like parenthesis."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 16700,
+      "high": 21948
+    },
+    "unit": "individuals",
+    "trend": "increasing",
+    "confidence": "medium",
+    "asOf": 2023,
+    "notes": "One source claims a 2023 Kruger population of 16,700–21,948 blue wildebeest. SANParks reports that the population has increased since the 1990s. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. An earlier estimate for Kruger is 9,342–17,936 animals in 2017 (12,555 mature individuals), kept here as a previous estimate. Regional Red List status is Least Concern.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 9342,
+          "high": 17936
+        },
+        "unit": "individuals",
+        "asOf": 2017,
+        "notes": "Kruger only, cited on the EWT Blue Wildebeest page as SANParks data. The same page also gives 12,555 mature individuals in Kruger in 2017."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Understanding Wildlife in Kruger National Park: Animal Population Trends (Part 2)",
+        "url": "https://www.sanparks.org/conservation/scientific-services/stories/understanding-wildlife-in-kruger-national-park-animal-population-trends-part2",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range."
+      },
+      {
+        "title": "Blue Wildebeest",
+        "url": "https://ewt.org/project/blue-wildebeest/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2017 Kruger figures and regional Least Concern / increasing trend."
+      },
+      {
+        "title": "A conservation assessment of Connochaetes taurinus taurinus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/6.-Blue-Wildebeest-Connochaetes-taurinus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "cow-like parentheses: out to the side, then up and in; longer and heavier in males (to about 83 cm) than in females (30–40 cm)"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "black",
+          "muzzle": "broad and heavy",
+          "beard": "black"
+        },
+        "mane": {
+          "colour": "black",
+          "shape": "stiff and upright in the southern form"
+        },
+        "upperparts": {
+          "colour": [
+            "slate-grey",
+            "bluish-grey",
+            "grey-brown"
+          ],
+          "pattern": "dark brown vertical brindle stripes on the neck and the side of the ribcage; back and flanks a little lighter than the underparts"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "black",
+          "shape": "long, 60–100 cm"
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": [
+            "tawny",
+            "brown"
+          ],
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "tawny",
+            "brown"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": [
+            "tawny",
+            "brown"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A heavy black face, a broad muzzle, and horns that spread out then curve up and in. The black beard hangs below the jaw."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "High shoulders sloping to the hips, a stiff black mane, brindle stripes on the neck and shoulder, and a long black tail."
+    },
+    {
+      "view": "standing-side",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "note": "A plain tawny-brown coat, without the adult's black face, beard or brindle stripes. Newborns in the Kruger photographs have not yet grown horns."
+    },
+    {
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Often runs in a loose line or cluster, with the black tail streamed out."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "male",
+      "type": "call",
+      "description": "A loud nasal grunt or bellow, sometimes written 'ga-noo'. Territorial bulls also snort, and they are the noisiest animals in the rut. A general call of the species is not described as sex-specific in the sources used here, beyond this male territorial calling.",
+      "recordings": [
+        {
+          "key": "xeno-canto/XC1148048",
+          "source": "https://xeno-canto.org/1148048",
+          "fileUrl": "https://xeno-canto.org/sounds/uploaded/YSGTQVRQZI/XC1148048-20260512_KNP_AKaramitsos_XA60_A025C131_2605121L_SLE_250HP_-3dB_WB.mp3",
+          "author": "A. Karamitsos, African Bioacoustics Community",
+          "license": "CC BY-NC-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "aiGenerated": false,
+          "hosted": false,
+          "quality": "A",
+          "type": "call",
+          "place": "Kruger Park, Ehlanzeni District Municipality, Mpumalanga",
+          "date": "2026-05-12",
+          "note": "Adult male, 11.3 s field recording. The xeno-canto recordist field is African Bioacoustics Community; the remarks name A. Karamitsos as the recordist."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "key": "connochaetes-taurinus/kruger-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Wildebeest_(Connochaetes_taurinus)_(52007289387).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Blue_Wildebeest_%28Connochaetes_taurinus%29_%2852007289387%29.jpg/1280px-Blue_Wildebeest_%28Connochaetes_taurinus%29_%2852007289387%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult blue wildebeest standing front-on in Kruger National Park, showing the black face, beard and spreading horns",
+      "caption": "Adult, H4-2 road north of Crocodile Bridge, Kruger National Park."
+    },
+    {
+      "key": "connochaetes-taurinus/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Wildebeest_(Connochaetes_taurinus)_(52488384080).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Blue_Wildebeest_%28Connochaetes_taurinus%29_%2852488384080%29.jpg/1280px-Blue_Wildebeest_%28Connochaetes_taurinus%29_%2852488384080%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult blue wildebeest in side view in Kruger National Park, showing the mane, brindle stripes and long black tail",
+      "caption": "Adult walking, S126 road south of Satara, Kruger National Park."
+    },
+    {
+      "key": "connochaetes-taurinus/kruger-females-and-calves.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Wildebeests_(Connochaetes_taurinus)_females_and_youngs_..._(50120233353).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Blue_Wildebeests_%28Connochaetes_taurinus%29_females_and_youngs_..._%2850120233353%29.jpg/1280px-Blue_Wildebeests_%28Connochaetes_taurinus%29_females_and_youngs_..._%2850120233353%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult blue wildebeest with two tawny calves in Kruger National Park",
+      "caption": "Females and young, S1 road west of Skukuza, Kruger National Park, January 2019."
+    },
+    {
+      "key": "connochaetes-taurinus/kruger-nursing.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/68397106",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/110739298/large.jpeg",
+      "author": "Wynand Uys",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A tawny blue wildebeest calf suckling from an adult in Kruger National Park",
+      "caption": "Research-grade iNaturalist observation, Old Main Road, Kruger National Park, 17 January 2021. The adult is annotated as a female."
+    },
+    {
+      "key": "connochaetes-taurinus/kruger-grazing.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Wildebeests_(Connochaetes_taurinus)_grazing_..._(52332847142).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Blue_Wildebeests_%28Connochaetes_taurinus%29_grazing_..._%2852332847142%29.jpg/1280px-Blue_Wildebeests_%28Connochaetes_taurinus%29_grazing_..._%2852332847142%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two adult blue wildebeest grazing heads-down in Kruger National Park",
+      "caption": "Adults grazing, H3 road south of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "connochaetes-taurinus/kruger-drinking.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Wildebeest_(Connochaetes_taurinus)_drinking_..._(51903925357).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Blue_Wildebeest_%28Connochaetes_taurinus%29_drinking_..._%2851903925357%29.jpg/1280px-Blue_Wildebeest_%28Connochaetes_taurinus%29_drinking_..._%2851903925357%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close view of an adult blue wildebeest drinking, showing the black beard and mane",
+      "caption": "Adult drinking at Leeupan, H1-2 road south of Tshokwane, Kruger National Park."
+    },
+    {
+      "key": "connochaetes-taurinus/kruger-herd-running.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Wildebeests_(Connochaetes_taurinus)_running_..._(52483404595).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Blue_Wildebeests_%28Connochaetes_taurinus%29_running_..._%2852483404595%29.jpg/1280px-Blue_Wildebeests_%28Connochaetes_taurinus%29_running_..._%2852483404595%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A herd of blue wildebeest running across open grassland in Kruger National Park",
+      "caption": "Herd running, Tamboti Access Road, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Blue wildebeest",
+      "url": "https://en.wikipedia.org/wiki/Blue_wildebeest",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Connochaetes taurinus: Blue wildebeest",
+      "url": "https://animaldiversity.org/accounts/Connochaetes_taurinus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Blue Wildebeest",
+      "url": "https://ewt.org/project/blue-wildebeest/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Connochaetes taurinus taurinus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/6.-Blue-Wildebeest-Connochaetes-taurinus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Understanding Wildlife in Kruger National Park: Animal Population Trends (Part 2)",
+      "url": "https://www.sanparks.org/conservation/scientific-services/stories/understanding-wildlife-in-kruger-national-park-animal-population-trends-part2",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025
+    },
+    {
+      "title": "iNaturalist taxon Connochaetes taurinus",
+      "url": "https://api.inaturalist.org/v1/taxa/42280",
+      "publisher": "iNaturalist",
+      "year": 2026
+    },
+    {
+      "title": "Blue Wildebeest, XC1148048",
+      "url": "https://xeno-canto.org/1148048",
+      "publisher": "xeno-canto",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Text and measurements are sourced, but several size and habit figures come from compiled accounts (Wikipedia, Animal Diversity Web) rather than a southern-African field guide. The 2023 population range comes from one source; a more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Local movement inside Kruger is cited from the EWT species page; a detailed Kruger seasonal map was not found.",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2023 population range is from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable recording was found in the Macaulay Library.",
+    "iNaturalist has 0 sound observations for Connochaetes taurinus in place 69020.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia (citing Kingdon, Huffman, Estes and others) and Animal Diversity Web.",
+    "No Kruger-specific calving-month range was found. General accounts give a short calving period after the rains, after a gestation of about 8 to 8.5 months.",
+    "Iris colour, ear colour, a sexed shoulder-height split, and underpart colour as a named value were not given in the sources used, so those marks are null."
+  ]
+}
