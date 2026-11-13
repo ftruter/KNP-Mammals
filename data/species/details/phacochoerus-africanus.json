@@ -1,0 +1,496 @@
+{
+  "kind": "species",
+  "slug": "phacochoerus-africanus",
+  "scientificName": "Phacochoerus africanus",
+  "commonNames": {
+    "en": "Warthog",
+    "af": "Vlakvark"
+  },
+  "family": "suidae",
+  "inatTaxonId": 42122,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Common Warthog",
+        "url": "https://ewt.org/project/common-warthog/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend increasing."
+      },
+      {
+        "title": "A conservation assessment of Phacochoerus africanus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/20.-Common-Warthog-Phacochoerus-africanus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Common warthog",
+        "url": "https://en.wikipedia.org/wiki/Common_warthog",
+        "publisher": "Wikipedia",
+        "year": 2026
+      },
+      {
+        "title": "Phacochoerus africanus: common warthog",
+        "url": "https://animaldiversity.org/accounts/Phacochoerus_africanus/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "year": null,
+        "note": "Lists IUCN Red List as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 63.5,
+      "max": 85
+    },
+    "headBodyLengthCm": {
+      "min": 90,
+      "max": 150
+    },
+    "massKg": {
+      "male": {
+        "min": 60,
+        "max": 150
+      },
+      "female": {
+        "min": 45,
+        "max": 75
+      }
+    },
+    "note": "Head-and-body length, shoulder height and sexed mass follow Wikipedia. Upper tusks may reach 25.5 cm. Tail length was not found as a published range."
+  },
+  "summary": "A medium-sized wild pig of open savanna, with a large head, curved tusks, a mane along the back, and sparse brown or black hair. It often feeds on its wrists, and it runs with the tail held up. Kruger holds a year-round population.",
+  "description": "The warthog has a large head with two pairs of upward-curving tusks; the shorter lower pair is kept sharp against the upper pair. Facial warts are well developed, especially in males, and a mane of long hair runs down the spine to the middle of the back. The body hair is otherwise sparse, and the colour is usually black or brown. The tail is long and ends in a tuft; it is held upright when the animal runs. Piglets are much smaller, with less developed tusks and warts.",
+  "habits": "Warthogs occupy a home range rather than a defended territory. Sows live in sounders with their young and other females; adult boars are usually solitary except when sows are in oestrus, and subadult males may form bachelor groups. They often use abandoned aardvark burrows, backing in so that the tusks face the entrance. They wallow in mud in the heat. When threatened they sprint, tail up, and can reach about 48 km/h. They are active by day in open country.",
+  "diet": {
+    "summary": "An omnivore, but much of the diet is plant material. In the wet season they graze short perennial grasses; in the dry season they take bulbs, rhizomes and roots, digging with the snout and feeding on their wrists. They also eat berries and other fruit, bark, fungi, dung, insects, eggs and carrion.",
+    "items": [
+      "short grasses in the wet season",
+      "bulbs, rhizomes and roots in the dry season",
+      "fruit, bark, fungi, dung, insects, eggs and carrion"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "The typical gestation is five to six months. Rutting begins in the late rainy or early dry season, and births begin near the start of the following rainy season. The sow leaves the family to farrow in a separate burrow. Litters are two to eight piglets, typically two to four. The sow stays in the burrow for several weeks to nurse. Piglets begin grazing at about two to three weeks and are weaned by six months. Sows may nurse foster piglets. Exact farrowing months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator."
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal",
+      "note": "Jackals may take piglets. The sources used say 'jackals' without naming the species; both black-backed and side-striped jackal occur in Kruger."
+    },
+    {
+      "slug": null,
+      "en": "Martial eagle",
+      "note": "Not a mammal in this guide; listed because it may take piglets."
+    }
+  ],
+  "prey": [],
+  "habitat": "Grassland, savanna and woodland. In Kruger it is widespread in open country and along roads, and it uses burrows for shelter.",
+  "similar": [
+    {
+      "slug": "potamochoerus-larvatus",
+      "note": "The bushpig has a fuller coat, tasselled ears and a contrasting face mask, and its tusks are short and inconspicuous. It runs with the tail held down, and it is mainly nocturnal in dense cover, whereas the warthog is a diurnal animal of more open ground and runs with the tail held up."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 2285,
+      "high": 4166
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "medium",
+    "asOf": 2023,
+    "notes": "One source claims a 2023 Kruger population of 2,285–4,166 warthog, and does not state a trend. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. An earlier Kruger estimate of 2,000–5,000 animals in 2012 is kept here as a previous estimate. Regional Red List status is Least Concern, with a regional trend described as increasing.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 2000,
+          "high": 5000
+        },
+        "unit": "individuals",
+        "asOf": 2012,
+        "notes": "Kruger only, cited on the EWT Common Warthog page as Ferreira et al. 2013, or about 0.25 warthogs per km²."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range or count, where given."
+      },
+      {
+        "title": "Common Warthog",
+        "url": "https://ewt.org/project/common-warthog/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2012 Kruger figures and regional Least Concern / increasing trend."
+      },
+      {
+        "title": "A conservation assessment of Phacochoerus africanus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/20.-Common-Warthog-Phacochoerus-africanus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "large, with well-developed facial warts",
+          "muzzle": "broad, with two pairs of upward-curving tusks; the upper pair the longer",
+          "beard": null
+        },
+        "mane": {
+          "colour": [
+            "brown",
+            "black"
+          ],
+          "shape": "a mane of long hair down the spine to mid-back"
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "black"
+          ],
+          "pattern": "sparse hair over grey-brown skin"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": [
+            "brown",
+            "grey"
+          ]
+        },
+        "tail": {
+          "colour": null,
+          "shape": "long, ending in a tuft; held upright when running"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "large, with facial warts less heavy than in males",
+          "muzzle": "with curved tusks, usually smaller than in males",
+          "beard": null
+        },
+        "mane": {
+          "colour": [
+            "brown",
+            "black"
+          ],
+          "shape": "a mane of long hair down the spine to mid-back"
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "black"
+          ],
+          "pattern": "sparse hair over grey-brown skin"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": [
+            "brown",
+            "grey"
+          ]
+        },
+        "tail": {
+          "colour": null,
+          "shape": "long, ending in a tuft; held upright when running"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "much smaller than the adult, with warts and tusks not yet well developed",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "grey-brown"
+          ],
+          "pattern": "sparser mane than in adults"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "already held upright when the young animal runs"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A large head with heavy tusks and warts, and a mane along the back. Often feeds with the knees or wrists on the ground."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "A slightly lighter-built animal than the boar, with a mane and curved tusks but less massive warts."
+    },
+    {
+      "view": "running",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "note": "Young animals already run with the tail held up, a useful distinction from bushpig."
+    },
+    {
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "note": "Sows and piglets often move together as a sounder, sometimes along a road verge."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A detailed description of the call was not found in the sources used here.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "phacochoerus-africanus/kruger-male-grazing.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Warthog_(Phacochoerus_africanus),_big_male_grazing_new_grass_along_the_road.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Common_Warthog_%28Phacochoerus_africanus%29%2C_big_male_grazing_new_grass_along_the_road.jpg/1280px-Common_Warthog_%28Phacochoerus_africanus%29%2C_big_male_grazing_new_grass_along_the_road.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male warthog grazing, showing large curved tusks, facial warts and a mane, Kruger National Park",
+      "caption": "Adult male grazing, H7 road west of Satara, Kruger National Park."
+    },
+    {
+      "key": "phacochoerus-africanus/kruger-female.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Warthog_(Phacochoerus_africanus)_female_..._(51680179952).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Common_Warthog_%28Phacochoerus_africanus%29_female_..._%2851680179952%29.jpg/1280px-Common_Warthog_%28Phacochoerus_africanus%29_female_..._%2851680179952%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female warthog standing in grass, Kruger National Park",
+      "caption": "Adult female, H10 road north of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "phacochoerus-africanus/kruger-sounder.jpg",
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Warthogs_(Phacochoerus_africanus),_adults_with_piglets.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Common_Warthogs_%28Phacochoerus_africanus%29%2C_adults_with_piglets.jpg/1280px-Common_Warthogs_%28Phacochoerus_africanus%29%2C_adults_with_piglets.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A sounder of adult warthogs with piglets along a road in Kruger National Park",
+      "caption": "Adults with piglets, H4-1 road east of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "phacochoerus-africanus/kruger-young-running.jpg",
+      "view": "running",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Warthog_(Phacochoerus_africanus)_young_running_..._(50847708118).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Common_Warthog_%28Phacochoerus_africanus%29_young_running_..._%2850847708118%29.jpg/1280px-Common_Warthog_%28Phacochoerus_africanus%29_young_running_..._%2850847708118%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A young warthog running with its tail held up, Kruger National Park",
+      "caption": "Young animal running, S63 road near Pafuri, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Common warthog",
+      "url": "https://en.wikipedia.org/wiki/Common_warthog",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Phacochoerus africanus: common warthog",
+      "url": "https://animaldiversity.org/accounts/Phacochoerus_africanus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Common Warthog",
+      "url": "https://ewt.org/project/common-warthog/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Phacochoerus africanus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/20.-Common-Warthog-Phacochoerus-africanus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the 2023 range or count, where given."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2023 population range comes from one source, which does not state a Kruger trend, so trend is left unknown. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. A sourced description of the call was not found.",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2023 population range is from one source, which does not state a Kruger trend. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "A sourced description of the warthog's call was not found, so the call entry is a placeholder without a recording.",
+    "Tail length, iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "No Kruger-specific farrowing-month range was found. General accounts give birth near the start of the rainy season, after a gestation of five to six months.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No reusable Kruger recording found."
+  ]
+}
