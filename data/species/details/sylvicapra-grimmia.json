@@ -1,0 +1,392 @@
+{
+  "kind": "species",
+  "slug": "sylvicapra-grimmia",
+  "scientificName": "Sylvicapra grimmia",
+  "commonNames": {
+    "en": "Common duiker",
+    "af": "Gewone duiker"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42424,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Common Duiker",
+        "url": "https://ewt.org/project/common-duiker/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable."
+      },
+      {
+        "title": "A conservation assessment of Sylvicapra grimmia",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/28.-Common-Duiker-Sylvicapra-grimmia_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Common duiker",
+        "url": "https://en.wikipedia.org/wiki/Common_duiker",
+        "publisher": "Wikipedia",
+        "year": 2026
+      },
+      {
+        "title": "Sylvicapra grimmia: common duiker",
+        "url": "https://animaldiversity.org/accounts/Sylvicapra_grimmia/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "year": null,
+        "note": "Lists IUCN Red List as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "massKg": {
+      "min": 12,
+      "max": 25
+    },
+    "note": "Mass 12–25 kg follows both Wikipedia and Animal Diversity Web; females are generally larger and heavier than males. Shoulder height was published only as typical values (about 50 cm on Wikipedia, an average of 60 cm on Animal Diversity Web), and head-and-body length only as an average of 100 cm, so those range fields are omitted. Male horns are given as up to 11 cm on Wikipedia and 7–18 cm, heavily grooved at the base, on Animal Diversity Web; both figures are kept in this note. Ears are 9.5–14.5 cm."
+  },
+  "summary": "A small, grey-brown antelope of cover, with a slightly hunched back and a black-tipped tail. Only males usually have short, straight, spike-like horns. It is widespread in Kruger, but no park population figure was found.",
+  "description": "Colour varies widely across the species' range, from grey to light brown; Kruger animals in the photographs are grey-brown with a rufous tinge on the face and a dark blaze on the muzzle. Females are generally larger than males. Only males usually have horns, which are short, straight spikes, heavily grooved at the base; females occasionally have stunted horns. The ears are fairly large. The tail has a dark upper surface and shows a white underside when raised. Underparts are paler.",
+  "habits": "Common duikers are often solitary or in loose pairs. They are active in the early morning, evening and night, and they lie up in cover in the heat of the day. Males are territorial and mark with preorbital-gland secretions; they often rest on slightly raised ground. Females prefer deeper cover. Near people they become more nocturnal.",
+  "diet": {
+    "summary": "A wide diet. They browse leaves, shoots, flowers, fruit and tubers, and will also take insects, frogs, small birds and mammals, and even carrion. Moisture is taken from food, so they are not tied to drinking water.",
+    "items": [
+      "leaves, shoots, flowers and fruit",
+      "roots, tubers and bulbs",
+      "insects",
+      "occasionally frogs, small birds, mammals and carrion"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "Breeding is year-round. A single fawn is usual, after a gestation given as 6–7.5 months on Wikipedia, or 4–7 months (4.1–5.67 months in one table) on Animal Diversity Web; both figures are kept here. The cow gives birth in thick cover. Young reach adult size in about six months. Exact birth months for Kruger were not found.",
+  "predators": [],
+  "prey": [],
+  "habitat": "Any habitat with enough cover to hide in, including savanna, woodland and the edges of settlements. In Kruger it is widespread along roads and in bush, and it is not confined to dense forest.",
+  "similar": [
+    {
+      "slug": "raphicerus-campestris",
+      "note": "The common duiker is greyer, with a slightly hunched outline and a longer, dark-tipped tail that shows white underneath when raised. Only males usually have short spike-like horns. The steenbok is a more rufous, longer-legged animal with a very short tail and large ears."
+    },
+    {
+      "slug": "raphicerus-sharpei",
+      "note": "The common duiker is larger and greyer, with a dark-tipped tail. Contrast is limited to those sourced marks of the duiker; the two can be confused in thick cover."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT assessment notes that the species occurs in Kruger and on private land, and gives regional status as Least Concern with a stable regional trend, but it does not give a park count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range or count, where given."
+      },
+      {
+        "title": "Common Duiker",
+        "url": "https://ewt.org/project/common-duiker/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Sylvicapra grimmia",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/28.-Common-Duiker-Sylvicapra-grimmia_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "short, straight spikes, heavily grooved at the base (about 7–18 cm; one compilation gives up to 11 cm)"
+        },
+        "ears": {
+          "colour": null,
+          "shape": "9.5–14.5 cm long"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "grey-brown with a rufous tinge and a dark blaze on the muzzle",
+          "muzzle": "dark",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey-brown",
+            "grey"
+          ],
+          "pattern": "plain; colour varies widely across the species' range"
+        },
+        "underparts": {
+          "colour": "paler",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "grey-brown"
+        },
+        "tail": {
+          "colour": [
+            "dark above",
+            "white below"
+          ],
+          "shape": "shows the white underside when raised"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "9.5–14.5 cm long"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "grey-brown with a rufous tinge on the face",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey-brown",
+            "grey"
+          ],
+          "pattern": "plain; females are generally larger than males"
+        },
+        "underparts": {
+          "colour": "paler",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "grey-brown, often with paler inner legs"
+        },
+        "tail": {
+          "colour": [
+            "dark above",
+            "white below"
+          ],
+          "shape": "shows the white underside when raised"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A compact, slightly hunched grey-brown antelope with short straight horns and a dark-tipped tail."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "The white underside of the tail is obvious from behind, and the short horns stand above the ears."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "Hornless, with a pale belly and a dark-tipped tail; often seen at the edge of a road or in thick bush."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A detailed description of the call was not found in the sources used here.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "sylvicapra-grimmia/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Duiker_(Sylvicapra_grimmia)_(6011670419).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Common_Duiker_%28Sylvicapra_grimmia%29_%286011670419%29.jpg/1280px-Common_Duiker_%28Sylvicapra_grimmia%29_%286011670419%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male common duiker standing in grass, showing short straight horns, Kruger National Park",
+      "caption": "Adult male, H1-1 Napi road east of Pretoriuskop, Kruger National Park."
+    },
+    {
+      "key": "sylvicapra-grimmia/kruger-male-road.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Duiker_(Sylvicapra_grimmia)_male_crossing_the_road_..._(53135907371).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Common_Duiker_%28Sylvicapra_grimmia%29_male_crossing_the_road_..._%2853135907371%29.jpg/1280px-Common_Duiker_%28Sylvicapra_grimmia%29_male_crossing_the_road_..._%2853135907371%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male common duiker walking across a road, Kruger National Park",
+      "caption": "Adult male crossing the road, H3 road south of Afsaal, Kruger National Park."
+    },
+    {
+      "key": "sylvicapra-grimmia/kruger-male-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Day_1_Grey_Duiker_(Sylvicapra_grimmia)_male_..._(53203344778).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Day_1_Grey_Duiker_%28Sylvicapra_grimmia%29_male_..._%2853203344778%29.jpg/1280px-Day_1_Grey_Duiker_%28Sylvicapra_grimmia%29_male_..._%2853203344778%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male common duiker from behind, showing the white underside of the tail and short horns, Kruger National Park",
+      "caption": "Adult male, H3 road north of Afsaal, Kruger National Park."
+    },
+    {
+      "key": "sylvicapra-grimmia/kruger-female-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Bush_Duiker_(Sylvicapra_grimmia)_female_(17326060406).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Bush_Duiker_%28Sylvicapra_grimmia%29_female_%2817326060406%29.jpg/1280px-Bush_Duiker_%28Sylvicapra_grimmia%29_female_%2817326060406%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female common duiker, hornless, standing at the edge of a road, Kruger National Park",
+      "caption": "Adult female, S40 road west of Satara, Kruger National Park."
+    },
+    {
+      "key": "sylvicapra-grimmia/kruger-female-browsing.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Duiker_(Sylvicapra_grimmia)_femele_browsing_..._(52957478048).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Common_Duiker_%28Sylvicapra_grimmia%29_femele_browsing_..._%2852957478048%29.jpg/1280px-Common_Duiker_%28Sylvicapra_grimmia%29_femele_browsing_..._%2852957478048%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female common duiker browsing in thick cover, Kruger National Park",
+      "caption": "Adult female browsing, H4-1 road east of Skukuza, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Common duiker",
+      "url": "https://en.wikipedia.org/wiki/Common_duiker",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Sylvicapra grimmia: common duiker",
+      "url": "https://animaldiversity.org/accounts/Sylvicapra_grimmia/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Common Duiker",
+      "url": "https://ewt.org/project/common-duiker/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Sylvicapra grimmia",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/28.-Common-Duiker-Sylvicapra-grimmia_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Shoulder height and head-and-body length were published only as typical or average values. Gestation figures disagree between Wikipedia and Animal Diversity Web and are both recorded. A named list of predators and a description of the call were not found.",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Shoulder height and head-and-body length were published only as typical or average values, so those range fields are omitted.",
+    "Gestation length disagrees between sources (6–7.5 months versus 4–7 months).",
+    "A sourced description of the call was not found, so the call entry is a placeholder without a recording.",
+    "A named list of predators was not found in the sources used, so predators is an empty list.",
+    "Iris colour was not given in the sources used, so that mark is null.",
+    "No Kruger-specific birth-month range was found.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits and young were taken from Wikipedia and Animal Diversity Web.",
+    "No reusable Kruger recording found."
+  ]
+}

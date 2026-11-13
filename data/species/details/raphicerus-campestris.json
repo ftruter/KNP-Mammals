@@ -1,0 +1,449 @@
+{
+  "kind": "species",
+  "slug": "raphicerus-campestris",
+  "scientificName": "Raphicerus campestris",
+  "commonNames": {
+    "en": "Steenbok",
+    "af": "Steenbok"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42375,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Steenbok",
+        "url": "https://ewt.org/project/steenbok/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable."
+      },
+      {
+        "title": "A conservation assessment of Raphicerus campestris",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/25.-Steenbok-Raphicerus_campestris_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Steenbok",
+        "url": "https://en.wikipedia.org/wiki/Steenbok",
+        "publisher": "Wikipedia",
+        "year": 2026
+      },
+      {
+        "title": "Raphicerus campestris: steenbok",
+        "url": "https://animaldiversity.org/accounts/Raphicerus_campestris/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "year": null,
+        "note": "Lists IUCN Red List as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 45,
+      "max": 60
+    },
+    "headBodyLengthCm": {
+      "min": 70,
+      "max": 95
+    },
+    "tailCm": {
+      "min": 4,
+      "max": 6
+    },
+    "massKg": {
+      "min": 7,
+      "max": 16
+    },
+    "note": "Shoulder height 45–60 cm, mass 7–16 kg and tail 4–6 cm follow Wikipedia and Animal Diversity Web. Head-and-body length 70–95 cm follows Animal Diversity Web. Male horns are 7–19 cm on Wikipedia and 9–19 cm on Animal Diversity Web; both are kept in this note. Newborns weigh around 1 kg."
+  },
+  "summary": "A small, rufous or fawn antelope of open savanna, with large ears, a white belly and throat, and a very short tail. Only males have short, straight, parallel horns. In Kruger it is widespread and is often seen in Acacia woodland, including in the dry season.",
+  "description": "The coat is any shade from fawn to rufous, typically rather orange. The underside, including the chin and throat, is white, and there is a white ring around the eye. The ears are large, with finger-like marks on the inside. There is a black crescent between the ears, a long black bridge to a glossy black nose, and a black circular scent-gland in front of the eye. Only males have horns: straight, smooth and parallel, 7–19 cm long. The tail is only 4–6 cm and is not usually obvious.",
+  "habits": "Steenbok are typically solitary, except when a pair comes together to mate; pairs may share a territory while living apart, keeping contact with scent marks and dung middens. They feed in the early morning and late afternoon and rest in shade in the heat. When a predator approaches they first freeze in the vegetation, then zigzag away, and they may take refuge in aardvark burrows. In central Kruger they show a year-round preference for Acacia tortilis savanna and do not move to moister areas in the dry season, unlike many larger antelope.",
+  "diet": {
+    "summary": "Mainly a browser of low vegetation, which they cannot reach above about 0.9 m, and they also dig for roots and tubers. In central Kruger they prefer forbs, then woody plants such as Flueggea virosa when forbs are scarce. They take fruit, and they only very rarely graze grass. They are almost independent of drinking water. In Kruger they depend heavily on the pods of Acacia tortilis in dry conditions.",
+    "items": [
+      "forbs",
+      "leaves of low woody plants, including Flueggea virosa",
+      "roots and tubers",
+      "fruit",
+      "Acacia tortilis pods in the dry season in Kruger"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "Breeding occurs throughout the year, with more fawns in November and December in the southern spring and summer; some females may breed twice a year. Gestation is about 170 days (168–177 days in one compilation). A single precocial fawn is usual, hidden in vegetation for about two weeks and suckled for three months. Exact birth months specifically for Kruger, beyond this southern-African pattern, were not found.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "caracal-caracal",
+      "en": "Caracal"
+    },
+    {
+      "slug": "felis-lybica",
+      "en": "African wild cat"
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal",
+      "note": "Sources say 'jackals' without naming the species; both black-backed and side-striped jackal occur in Kruger."
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": null,
+      "en": "Martial eagle",
+      "note": "Not a mammal in this guide; listed because it is a documented predator."
+    },
+    {
+      "slug": null,
+      "en": "Southern African rock python",
+      "note": "Not a mammal in this guide; listed because it is a documented predator."
+    }
+  ],
+  "prey": [],
+  "habitat": "Open woodland, thickets, grassland and Acacia–grass mosaics, including semi-arid country. It avoids dense forest. In Kruger it is often seen in Acacia tortilis savanna throughout the year.",
+  "similar": [
+    {
+      "slug": "sylvicapra-grimmia",
+      "note": "The steenbok is more rufous or orange, with a very short tail, large ears, a white eye-ring and a black bridge to the nose. The common duiker is greyer, slightly hunched, and has a longer, dark-tipped tail."
+    },
+    {
+      "slug": "raphicerus-sharpei",
+      "note": "The steenbok has a plain rufous to fawn coat, a white underside and large ears, and only males have straight horns. Sharpe's grysbok can be confused with it in thicker cover; contrast is limited to those sourced marks of the steenbok."
+    },
+    {
+      "slug": "ourebia-ourebi",
+      "note": "Wikipedia describes the steenbok as resembling a small oribi. The steenbok is a compact animal 45–60 cm at the shoulder, with a very short tail and, in males, short straight horns."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT assessment gives regional status as Least Concern with a stable regional trend, and it notes the species' use of Acacia tortilis pods in Kruger in dry conditions, but it does not give a park count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range or count, where given."
+      },
+      {
+        "title": "Steenbok",
+        "url": "https://ewt.org/project/steenbok/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Raphicerus campestris",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/25.-Steenbok-Raphicerus_campestris_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "straight, smooth and parallel, 7–19 cm (9–19 cm in one compilation)"
+        },
+        "ears": {
+          "colour": null,
+          "shape": "large, with finger-like marks on the inside"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "white"
+        },
+        "head": {
+          "face": "rufous to fawn, with a black crescent between the ears, a long black bridge to a glossy black nose, and a black circular scent-gland in front of the eye",
+          "muzzle": "white chin and throat",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "rufous",
+            "fawn",
+            "orange"
+          ],
+          "pattern": "plain"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "rufous, with white inner limbs"
+        },
+        "tail": {
+          "colour": null,
+          "shape": "very short, 4–6 cm, not usually obvious"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "large, with finger-like marks on the inside"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "white"
+        },
+        "head": {
+          "face": "rufous to fawn, with a black crescent between the ears, a long black bridge to a glossy black nose, and a black circular scent-gland in front of the eye",
+          "muzzle": "white chin and throat",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "rufous",
+            "fawn",
+            "orange"
+          ],
+          "pattern": "plain"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "rufous, with white inner limbs"
+        },
+        "tail": {
+          "colour": null,
+          "shape": "very short, 4–6 cm, not usually obvious"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A small, rufous antelope with short straight horns, a white belly and large ears, often browsing low shrubs."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "Hornless, with the same rufous coat, white underside and large ears."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "The straight, parallel horns, white eye-ring, black nose-bridge and preorbital gland are clear in a head-on or three-quarter view."
+    },
+    {
+      "view": "running",
+      "age": "adult",
+      "sex": "mixed",
+      "season": "any",
+      "note": "From behind the white rump and inner legs, and the very short tail, are the main marks as the animal makes off."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A detailed description of the call was not found in the sources used here.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "raphicerus-campestris/kruger-male-browsing.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Steenbok_(Raphicerus_campestris),_male_browsing.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Steenbok_%28Raphicerus_campestris%29%2C_male_browsing.jpg/1280px-Steenbok_%28Raphicerus_campestris%29%2C_male_browsing.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male steenbok browsing, showing short straight horns and a white belly, Kruger National Park",
+      "caption": "Adult male browsing, S21 road south of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "raphicerus-campestris/kruger-male-head.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Steenbok_(Raphicerus_campestris)_male_(17238347366).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Steenbok_%28Raphicerus_campestris%29_male_%2817238347366%29.jpg/1280px-Steenbok_%28Raphicerus_campestris%29_male_%2817238347366%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Head of an adult male steenbok, showing straight horns, a white eye-ring and a black nose, Kruger National Park",
+      "caption": "Adult male, H1-3 road south of Satara, Kruger National Park."
+    },
+    {
+      "key": "raphicerus-campestris/kruger-female-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Steenbok_(Raphicerus_campestris)_female.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Steenbok_%28Raphicerus_campestris%29_female.jpg/1280px-Steenbok_%28Raphicerus_campestris%29_female.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female steenbok, hornless, in dry grass, Kruger National Park",
+      "caption": "Adult female, H1-4 road north of Satara, Kruger National Park."
+    },
+    {
+      "key": "raphicerus-campestris/kruger-female-head.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Steenbok_(Raphicerus_campestris),_female_browsing.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Steenbok_%28Raphicerus_campestris%29%2C_female_browsing.jpg/1280px-Steenbok_%28Raphicerus_campestris%29%2C_female_browsing.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Head of an adult female steenbok browsing, showing large ears with finger-marks and a black nose, Kruger National Park",
+      "caption": "Adult female browsing, H1-4 road north of Satara, Kruger National Park."
+    },
+    {
+      "key": "raphicerus-campestris/kruger-running.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Steenboks_(Raphicerus_campestris)_running_away_..._(51789625674).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Steenboks_%28Raphicerus_campestris%29_running_away_..._%2851789625674%29.jpg/1280px-Steenboks_%28Raphicerus_campestris%29_running_away_..._%2851789625674%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Steenbok running away, showing the white rump and inner legs from behind, Kruger National Park",
+      "caption": "Animals running, H2-2 road west of Afsaal picnic site, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Steenbok",
+      "url": "https://en.wikipedia.org/wiki/Steenbok",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Raphicerus campestris: steenbok",
+      "url": "https://animaldiversity.org/accounts/Raphicerus_campestris/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Steenbok",
+      "url": "https://ewt.org/project/steenbok/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Raphicerus campestris",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/25.-Steenbok-Raphicerus_campestris_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Habitat and dry-season diet in central Kruger are sourced from Wikipedia (and the EWT page for Acacia pods). A sourced description of the call was not found.",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "A sourced description of the call was not found, so the call entry is a placeholder without a recording.",
+    "Iris colour was not given in the sources used, so that mark is null.",
+    "Kruger-specific birth months, beyond the general southern-African peak in November and December, were not found.",
+    "Skinner & Chimimba and Stuart's field guide were not available, though Animal Diversity Web cites them for some measurements. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No reusable Kruger recording found."
+  ]
+}

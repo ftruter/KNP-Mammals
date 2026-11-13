@@ -1,0 +1,431 @@
+{
+  "kind": "species",
+  "slug": "redunca-arundinum",
+  "scientificName": "Redunca arundinum",
+  "commonNames": {
+    "en": "Reedbuck",
+    "af": "Rietbok"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42305,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Southern Reedbuck",
+        "url": "https://ewt.org/project/southern-reedbuck/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend increasing."
+      },
+      {
+        "title": "A conservation assessment of Redunca arundinum",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/26.-Southern-Reedbuck-Redunca-arundinum_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Southern reedbuck",
+        "url": "https://en.wikipedia.org/wiki/Southern_reedbuck",
+        "publisher": "Wikipedia",
+        "year": 2026
+      },
+      {
+        "title": "Redunca arundinum: southern reedbuck",
+        "url": "https://animaldiversity.org/accounts/Redunca_arundinum/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "year": null,
+        "note": "Lists IUCN Red List as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 80,
+      "max": 90
+    },
+    "headBodyLengthCm": {
+      "min": 134,
+      "max": 167
+    },
+    "note": "Shoulder height 80–90 cm and head-and-body length 134–167 cm follow Wikipedia, which also gives an average shoulder height of 85 cm. Mass was published only as typical values (an average of 58 kg, or 68 kg in males and 48 kg in females), so massKg is omitted. Male horns are about 35–45 cm, forward-curving, with a pale rubbery band at the base. Tail length was not found as a published range."
+  },
+  "summary": "A medium-sized antelope of tall grass and reed beds near water. The coat is light to greyish-brown, paler on the neck and chest, with white underparts, whitish rings around the eyes, and distinctive dark lines down the front of the forelegs and lower hindlegs. Only males have forward-curving horns. It is present in Kruger, but no current park count was found.",
+  "description": "The southern reedbuck is the largest Redunca. The coat is silky, almost woolly, and ranges from light to greyish-brown, often paler on the neck and chest. Underparts, lips and chin are white, and the tail is short, bushy and white underneath. There are distinctive dark lines down the front of each foreleg and of the lower hindlegs, and whitish rings around the eyes. A small, black, bare glandular patch sits at the base of each ear. Females are hornless. Males have forward-curving horns about 35–45 cm long, with a distinct band of pale, rubbery tissue at the base.",
+  "habits": "Reedbucks live alone or in pairs, sometimes in small groups of up to about 20. They often lie up in grass or reed beds in the heat of the day and feed at sunrise and sunset, or at night. Older animals may be territorial and live with a single female. When displaying they may run and jump with the tail curled up, releasing scented air from a groin pocket with a popping sound. They use regular paths to grazing and water.",
+  "diet": {
+    "summary": "A grazer of grasses, typically in tall grass or reed beds near water, which it visits along regular paths.",
+    "items": [
+      "grasses",
+      "reeds"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single young is usual, after a gestation of seven to eight months. The lamb is hidden in dense, tall grass and is visited by the cow to nurse. Young leave the parents at about two years, males sometimes later. Exact calving months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator."
+    }
+  ],
+  "prey": [],
+  "habitat": "Tall grass and reed beds near permanent water. Kruger is named among the protected areas that hold the species, but it is not a conspicuous plains antelope and is easily missed in tall cover.",
+  "similar": [
+    {
+      "slug": "redunca-fulvorufula",
+      "note": "The reedbuck (southern reedbuck) is the larger of the two Redunca species on this list. It has dark lines down the front of the legs, whitish eye-rings, and, in males, forward-curving horns with a pale rubbery band at the base."
+    },
+    {
+      "slug": "kobus-ellipsiprymnus",
+      "note": "The reedbuck is smaller, with a shorter, bushy tail that is white underneath, and distinctive dark lines down the front of the legs."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No current Kruger population figure was found. The EWT assessment says Ferreira et al. (2013) suspected there may have been 300 animals in Kruger in 2009, but that recent counts recorded none. Research-grade observations in the park show that the species is still present. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Regional Red List status is Least Concern, with a regional trend described as increasing.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 300,
+          "high": 300
+        },
+        "unit": "individuals",
+        "asOf": 2009,
+        "notes": "Kruger only, given on the EWT Southern Reedbuck page as a figure Ferreira et al. (2013) suspected for 2009. The same page says recent counts recorded none."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range or count, where given."
+      },
+      {
+        "title": "Southern Reedbuck",
+        "url": "https://ewt.org/project/southern-reedbuck/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2009 suspected Kruger figure, and the note that recent counts recorded none."
+      },
+      {
+        "title": "A conservation assessment of Redunca arundinum",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/26.-Southern-Reedbuck-Redunca-arundinum_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "forward-curving, about 35–45 cm, with a pale rubbery band at the base"
+        },
+        "ears": {
+          "colour": null,
+          "shape": "a small black bare glandular patch at the base of each ear"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "whitish"
+        },
+        "head": {
+          "face": "light to greyish-brown, with whitish rings around the eyes",
+          "muzzle": "white near the lips and chin",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "light brown",
+            "greyish-brown"
+          ],
+          "pattern": "silky, almost woolly coat; neck and chest may be paler"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "light brown, with distinctive dark lines down the front of the forelegs and lower hindlegs"
+        },
+        "tail": {
+          "colour": "white underside",
+          "shape": "short and bushy"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "a small black bare glandular patch at the base of each ear"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "whitish"
+        },
+        "head": {
+          "face": "light to greyish-brown, with whitish rings around the eyes",
+          "muzzle": "white near the lips and chin",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "light brown",
+            "greyish-brown"
+          ],
+          "pattern": "silky, almost woolly coat; neck and chest may be paler"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "light brown, with distinctive dark lines down the front of the forelegs and lower hindlegs"
+        },
+        "tail": {
+          "colour": "white underside",
+          "shape": "short and bushy"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "Forward-curving, ringed horns and a compact, pale-brown body. The dark lines on the legs are easiest to see in the open."
+    },
+    {
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "male",
+      "season": "any",
+      "note": "Young males first show short, barely curved horns."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "Hornless, with a short bushy tail that is white underneath, often standing in tall grass."
+    },
+    {
+      "view": "herd",
+      "age": "adult",
+      "sex": "mixed",
+      "season": "any",
+      "note": "Pairs or a male with a female are often seen together on a slope or in tall cover."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A shrill whistle through the nostrils, and a clicking noise, used to alert others to danger.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "redunca-arundinum/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Reedbuck_(Redunca_arundinum)_male_..._(51680177777).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Southern_Reedbuck_%28Redunca_arundinum%29_male_..._%2851680177777%29.jpg/1280px-Southern_Reedbuck_%28Redunca_arundinum%29_male_..._%2851680177777%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male reedbuck in profile, showing forward-curving horns, Kruger National Park",
+      "caption": "Adult male, H10 road north of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "redunca-arundinum/kruger-male-front.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Reedbuck_(Redunca_arundinum),_Kruger_National_Park.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Common_Reedbuck_%28Redunca_arundinum%29%2C_Kruger_National_Park.jpg/1280px-Common_Reedbuck_%28Redunca_arundinum%29%2C_Kruger_National_Park.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male reedbuck facing the camera, showing forward-curving horns and a pale face, Kruger National Park",
+      "caption": "Adult male, H10 road north of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "redunca-arundinum/kruger-young-male.jpg",
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Day_79_Southern_Reedbuck_(Redunca_arundinum)_male_..._(53386530771).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Day_79_Southern_Reedbuck_%28Redunca_arundinum%29_male_..._%2853386530771%29.jpg/1280px-Day_79_Southern_Reedbuck_%28Redunca_arundinum%29_male_..._%2853386530771%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Young male reedbuck with short horns just growing, Kruger National Park",
+      "caption": "Young male, H1-6 road south of Mopani, Kruger National Park."
+    },
+    {
+      "key": "redunca-arundinum/kruger-female.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Reedbuck_(Redunca_arundinum)_female_(11544963726).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Common_Reedbuck_%28Redunca_arundinum%29_female_%2811544963726%29.jpg/1280px-Common_Reedbuck_%28Redunca_arundinum%29_female_%2811544963726%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female reedbuck, hornless, standing in tall grass, Kruger National Park",
+      "caption": "Adult female, S128 road north of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "redunca-arundinum/kruger-pair.jpg",
+      "view": "herd",
+      "age": "adult",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Reedbuck_(Redunca_arundinum)_(6002253876).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Common_Reedbuck_%28Redunca_arundinum%29_%286002253876%29.jpg/1280px-Common_Reedbuck_%28Redunca_arundinum%29_%286002253876%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A male and a female reedbuck walking on a grassy slope, Kruger National Park",
+      "caption": "Male and female, S128 road north of Lower Sabie, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Southern reedbuck",
+      "url": "https://en.wikipedia.org/wiki/Southern_reedbuck",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Redunca arundinum: southern reedbuck",
+      "url": "https://animaldiversity.org/accounts/Redunca_arundinum/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Southern Reedbuck",
+      "url": "https://ewt.org/project/southern-reedbuck/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Redunca arundinum",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/26.-Southern-Reedbuck-Redunca-arundinum_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No current Kruger population figure was found. The 2009 suspected figure of 300 is kept as a previous estimate, with the EWT note that recent counts recorded none, even though research-grade observations show the species is still present. Mass was omitted because only typical values were published.",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No current Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Mass was published only as typical or average values, so massKg is omitted.",
+    "Tail length and iris colour were not given in the sources used, so those marks are null.",
+    "No Kruger-specific calving-month range was found. General accounts give a gestation of seven to eight months.",
+    "No licensable sound recording was included; the alarm whistle is described from text sources only.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No reusable Kruger recording found."
+  ]
+}
