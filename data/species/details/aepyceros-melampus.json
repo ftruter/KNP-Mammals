@@ -1,0 +1,512 @@
+{
+  "kind": "species",
+  "slug": "aepyceros-melampus",
+  "scientificName": "Aepyceros melampus",
+  "commonNames": {
+    "en": "Impala",
+    "af": "Rooibok"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42278,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Impala",
+        "url": "https://ewt.org/project/impala/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Least Concern; regional trend increasing."
+      },
+      {
+        "title": "Impala",
+        "url": "https://en.wikipedia.org/wiki/Impala",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 70,
+      "max": 92
+    },
+    "headBodyLengthCm": {
+      "min": 130,
+      "max": 130
+    },
+    "tailCm": {
+      "min": 30,
+      "max": 30
+    },
+    "massKg": {
+      "male": {
+        "min": 53,
+        "max": 76
+      },
+      "female": {
+        "min": 40,
+        "max": 53
+      }
+    },
+    "note": "Sexed shoulder height follows Wikipedia: males 75–92 cm, females 70–85 cm (overall 70–92 cm). Head-and-body length is given as a typical figure of around 130 cm, not a range, so both bounds are set to 130. The tail is given as 30 cm and the ears as 17 cm (typical values). Sexed mass follows Wikipedia (males 53–76 kg, females 40–53 kg); the same page's lead also gives an unsexed 40–65 kg. Male lyre-shaped horns are 45–92 cm."
+  },
+  "summary": "A medium-sized, reddish-brown antelope of open woodland and savanna, and the most numerous large mammal in Kruger. Males carry slender, lyre-shaped horns; females are hornless and smaller. A black tuft marks the back of each hind fetlock, and a black streak runs down each haunch. Kruger holds a large resident population.",
+  "description": "The coat is glossy reddish brown, with paler underparts and a white chin and snout. Black streaks run from the buttocks down the upper hind legs, and each hind fetlock has a distinctive black tuft. The ears are tipped with black. Males grow ridged, lyre-shaped horns 45–92 cm long; females have none. The two subspecies are the widespread common impala, the form in Kruger, and the larger, darker black-faced impala of more arid country further west, which does not occur in the park.",
+  "habits": "Active mainly by day, though animals also feed and rest at night and usually pause in the heat of midday. They live in three kinds of group: territorial males, bachelor herds, and female herds with young. Rutting males fight over territories and court females in a short annual rut, typically toward the end of the wet season. When alarmed, impala leap high and may scatter in different directions, or hide in cover. They often associate with oxpeckers, which take ticks from parts of the body the animal cannot reach.",
+  "diet": {
+    "summary": "Both a grazer and a browser. It takes grasses, forbs, fruits and acacia pods when these are available, and in Kruger has been photographed feeding on fallen marula fruit.",
+    "items": [
+      "grasses",
+      "forbs",
+      "fruits",
+      "acacia pods",
+      "fallen marula fruit"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is born after a gestation of six to seven months, usually around midday, after the female has left the herd. The newborn is hidden in cover for the first few weeks, then joins a nursery group in its mother's herd. Calves are suckled for four to six months. The mother–calf bond is described as weak and breaks after weaning; young males are later forced out of the female herd. Exact calving months for Kruger were not found in the sources used here.",
+  "predators": [
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator of this species."
+    }
+  ],
+  "prey": [],
+  "habitat": "Open woodland and savanna, including the mixed bush and grassland used by breeding herds in Kruger. It is often seen near water but does not depend on it as strictly as some other antelope.",
+  "similar": [
+    {
+      "slug": "redunca-arundinum",
+      "note": "The impala is told by the black tufts on the hind fetlocks, the black haunch streaks, and the male's slender lyre-shaped horns. Reedbuck lacks those fetlock tufts and has shorter, more forward-curving horns in the male."
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "note": "Bushbuck is a thicker-set woodland antelope with vertical white body stripes. It lacks the impala's black fetlock tufts and lyre-shaped horns."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 123998,
+      "high": 168451
+    },
+    "unit": "individuals",
+    "trend": "stable",
+    "confidence": "medium",
+    "asOf": 2023,
+    "notes": "One source claims a 2023 Kruger population of 123,998–168,451 impala, and describes the trend as stable over 10 years. The EWT assessment cites the same 2023 range and says the Kruger subpopulation is increasing, based on SANParks data. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf Regional Red List status is Least Concern.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the quoted recent Kruger range."
+      },
+      {
+        "title": "Impala",
+        "url": "https://ewt.org/project/impala/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Same 2023 Kruger range; describes the Kruger subpopulation as increasing."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "slender, strongly ridged and lyre-shaped, 45–92 cm"
+        },
+        "ears": {
+          "colour": [
+            "tan",
+            "black-tipped"
+          ],
+          "shape": "about 17 cm long"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "reddish brown with a white chin and snout",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "reddish-brown",
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "reddish brown, with black streaks from the buttocks down the upper hind legs and a black tuft on each hind fetlock"
+        },
+        "tail": {
+          "colour": "white",
+          "shape": "bushy, about 30 cm"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": [
+            "tan",
+            "black-tipped"
+          ],
+          "shape": "about 17 cm long"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "reddish brown with a white chin and snout",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "reddish-brown",
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "reddish brown, with black streaks from the buttocks down the upper hind legs and a black tuft on each hind fetlock"
+        },
+        "tail": {
+          "colour": "white",
+          "shape": "bushy, about 30 cm"
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "reddish-brown",
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "reddish brown, with a black tuft already visible on the hind fetlock in the Kruger photographs"
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Males show the full lyre of ridged horns. Both sexes have a white chin and snout, and black-tipped ears."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A glossy reddish-brown coat, black streaks on the haunches, and black tufts on the hind fetlocks. Females are hornless; males carry lyre-shaped horns."
+    },
+    {
+      "view": "standing-side",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "note": "A small reddish-brown lamb, hornless, already showing the dark fetlock tuft and large ears."
+    },
+    {
+      "view": "running",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A high, bounding run; males stream the lyre-shaped horns back as they leap."
+    },
+    {
+      "view": "herd",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "note": "Female herds with young, bachelor groups of males, or mixed breeding herds, often under trees or in open grass."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "The most prominent call is a loud roar: one to three closed-mouth snorts, then two to ten deep grunts with the mouth open and the chin raised. This is used especially by rutting males.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "aepyceros-melampus/kruger-males.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Impalas_(Aepyceros_melampus)_males_..._(52520821373).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Impalas_%28Aepyceros_melampus%29_males_..._%2852520821373%29.jpg/1280px-Impalas_%28Aepyceros_melampus%29_males_..._%2852520821373%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Three adult male impala standing in open grassland in Kruger National Park, showing lyre-shaped horns and black haunch streaks",
+      "caption": "Adult males, S32 road east of Tshokwane, Kruger National Park."
+    },
+    {
+      "key": "aepyceros-melampus/kruger-male-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Impala_(Aepyceros_melampus)_male_ruminating_..._(52776933314).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Impala_%28Aepyceros_melampus%29_male_ruminating_..._%2852776933314%29.jpg/1280px-Impala_%28Aepyceros_melampus%29_male_ruminating_..._%2852776933314%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male impala lying down and facing the camera, showing lyre-shaped horns, white chin and black-tipped ears",
+      "caption": "Adult male ruminating, S63 road, Pafuri area, Kruger National Park."
+    },
+    {
+      "key": "aepyceros-melampus/kruger-male-running.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Impala_(Aepyceros_melampus)_male_running_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Impala_%28Aepyceros_melampus%29_male_running_Kruger.jpg/1280px-Impala_%28Aepyceros_melampus%29_male_running_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male impala running through long grass in Kruger National Park",
+      "caption": "Male running, Kruger National Park."
+    },
+    {
+      "key": "aepyceros-melampus/kruger-females-and-lamb.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Impalas_(Aepyceros_melampus),_females_and_lamb.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Impalas_%28Aepyceros_melampus%29%2C_females_and_lamb.jpg/1280px-Impalas_%28Aepyceros_melampus%29%2C_females_and_lamb.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Hornless adult female impala with a lamb, showing black haunch streaks, in Kruger National Park",
+      "caption": "Females and lamb, Sunset Dam, H4-1 road west of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "aepyceros-melampus/kruger-lamb.jpg",
+      "view": "standing-side",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Impala_(Aepyceros_melampus)_lamb_male_(11493143944).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Impala_%28Aepyceros_melampus%29_lamb_male_%2811493143944%29.jpg/1280px-Impala_%28Aepyceros_melampus%29_lamb_male_%2811493143944%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A young impala lamb standing in green grass in Kruger National Park",
+      "caption": "Lamb, S28 road north of Crocodile Bridge, Kruger National Park. The file title names it as a male lamb."
+    },
+    {
+      "key": "aepyceros-melampus/kruger-nursery.jpg",
+      "view": "herd",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Impalas_(Aepyceros_melampus),_female_guarding_youngs_nursery.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Impalas_%28Aepyceros_melampus%29%2C_female_guarding_youngs_nursery.jpg/1280px-Impalas_%28Aepyceros_melampus%29%2C_female_guarding_youngs_nursery.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A group of female impala and young lying and standing in a nursery group in Kruger National Park",
+      "caption": "Female guarding a nursery group, S130 road south of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "aepyceros-melampus/kruger-herd-marula.jpg",
+      "view": "herd",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Impalas_(Aepyceros_melampus)_small_herd_eating_fruits_under_a_Marula_tree_..._(50855847451).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Impalas_%28Aepyceros_melampus%29_small_herd_eating_fruits_under_a_Marula_tree_..._%2850855847451%29.jpg/1280px-Impalas_%28Aepyceros_melampus%29_small_herd_eating_fruits_under_a_Marula_tree_..._%2850855847451%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A small impala breeding herd feeding under a marula tree in Kruger National Park",
+      "caption": "Breeding herd feeding on fallen marula fruit, Mahonie Loop, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Impala",
+      "url": "https://en.wikipedia.org/wiki/Impala",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Aepyceros melampus: Impala",
+      "url": "https://animaldiversity.org/accounts/Aepyceros_melampus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Impala",
+      "url": "https://ewt.org/project/impala/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the quoted recent Kruger range."
+    },
+    {
+      "title": "iNaturalist taxon Aepyceros melampus",
+      "url": "https://api.inaturalist.org/v1/taxa/42278",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Text and measurements are sourced, but several size and habit figures come from compiled accounts (Wikipedia, Animal Diversity Web) rather than a southern-African field guide. The 2023 population range is given by two sources; they disagree on whether the Kruger trend is stable or increasing. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2023 population range is from secondary sources. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The two sources that quote the 2023 range disagree on the Kruger trend (stable over 10 years, or increasing).",
+    "Head-and-body length and tail length were published only as typical values (about 130 cm and 30 cm), not as ranges.",
+    "No Kruger-specific calving-month range was found. General accounts give birth after a six-to-seven-month gestation, following a rut toward the end of the wet season.",
+    "Iris colour and a named mane were not given in the sources used, so those marks are null.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No licensable sound recording was included from xeno-canto or iNaturalist."
+  ]
+}

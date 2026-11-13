@@ -1,0 +1,436 @@
+{
+  "kind": "species",
+  "slug": "damaliscus-lunatus",
+  "scientificName": "Damaliscus lunatus",
+  "commonNames": {
+    "en": "Tsessebe",
+    "af": "Tsessebe"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42276,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Vulnerable",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho. Wikipedia cites a global IUCN assessment of Least Concern for the common tsessebe.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Tsessebe",
+        "url": "https://ewt.org/project/tsessebe/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Vulnerable; regional trend declining."
+      },
+      {
+        "title": "Common tsessebe",
+        "url": "https://en.wikipedia.org/wiki/Common_tsessebe",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 104,
+      "max": 126
+    },
+    "headBodyLengthCm": {
+      "min": 150,
+      "max": 230
+    },
+    "note": "Shoulder height follows Animal Diversity Web: males 104–126 cm and females 105–118 cm (overall 104–126 cm). Wikipedia gives a length of 1.5–2.3 m without saying whether the tail is included, so that figure is entered as head-and-body length with this caveat. Wikipedia gives only average masses (males 137 kg, females 120 kg), not ranges, so massKg is left null. Horns are given as about 37 cm in females and 40 cm in males."
+  },
+  "summary": "A long-legged, chestnut-brown alcelaphine antelope of open grassland, with a sloping back, a dark face, and lyrate horns in both sexes. The shoulders and upper legs are often bluish-grey or blackish, and the belly is paler. It is one of Kruger's scarce, slowly recovering antelope, usually seen on the northern plains.",
+  "description": "The body is chestnut brown. The front of the face and the tail tuft are black; the forelimbs and thighs are greyish or bluish-black, the hindlimbs browner or yellowish, and the belly white. Both sexes carry ringed, lyrate horns, a little longer in males (about 40 cm) than in females (about 37 cm). The official Kruger name is Tsessebe, *Damaliscus lunatus*; Wikipedia treats the animals in southern Africa as the common tsessebe, *D. l. lunatus*, the southern nominate form of a wider topi–tsessebe group. East African topi should not be read as a description of the Kruger animals.",
+  "habits": "A grazer of grassland and lightly wooded savanna, and among the fastest antelopes in Africa, with published speeds of up to 90 km/h. Territorial males mark ground by horning soil, using preorbital-gland secretions, and grunting. They may be seen with zebra on open grass in northern Kruger. Do not take published Serengeti feeding hours as a Kruger timetable; no Kruger-specific daily schedule was found.",
+  "diet": {
+    "summary": "A grazing herbivore of grasslands, open plains and lightly wooded savanna.",
+    "items": [
+      "grasses"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is born each year after a gestation of seven months. Calves reach sexual maturity in two to three and a half years. In the Kruger photographs, young are paler tawny than the adults and lack the dark face and limb colour. The rut in the general account starts in mid-February; exact calving months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    }
+  ],
+  "prey": [],
+  "habitat": "Grassland, open plains and lightly wooded savanna. In Kruger it is most often recorded on the northern plains, including the Mopani and Letaba areas shown in the photographs, sometimes together with Burchell's zebra.",
+  "similar": [
+    {
+      "slug": "connochaetes-taurinus",
+      "note": "Tsessebe lacks the blue wildebeest's black beard, black face (it has a dark face without a hanging beard) and dark brindle stripes on the neck and shoulders. It is slimmer, and its horns are lyrate rather than cow-like."
+    },
+    {
+      "slug": "alcelaphus-buselaphus-lichtensteinii",
+      "note": "Lichtenstein's hartebeest has a longer, narrower face and horns that rise in a tighter S-curve, rather than the tsessebe's more lyrate horns and chestnut body with bluish-grey shoulders."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 208,
+      "high": 287
+    },
+    "unit": "individuals",
+    "trend": "increasing",
+    "confidence": "medium",
+    "asOf": 2023,
+    "notes": "One source claims a 2023 Kruger population of 208–287 tsessebe, and describes the species as rare and slowly increasing, one of four antelope that crashed in the 1990s. The EWT assessment records a historical reduction of about 77% in Kruger between 1986 and 1999, after which the park population is described as having stabilised; the regional listing is Vulnerable, with a declining national trend. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the quoted recent Kruger range."
+      },
+      {
+        "title": "Tsessebe",
+        "url": "https://ewt.org/project/tsessebe/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Historical Kruger decline 1986–1999, later stabilisation; regional Vulnerable."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "ringed and lyrate; about 40 cm in males and 37 cm in females"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "black on the front of the face",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "chestnut-brown",
+          "pattern": "shoulders and upper legs often greyish or bluish-black"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": [
+            "greyish-black",
+            "bluish-black",
+            "brownish-yellow"
+          ]
+        },
+        "tail": {
+          "colour": "black",
+          "shape": "tufted"
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "tawny",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "tawny",
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "tawny"
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A sloping back, chestnut body, dark shoulders and upper legs, and lyrate horns. The belly is paler."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A dark face without a hanging beard, and horns that rise and curve out in a shallow crescent."
+    },
+    {
+      "view": "standing-side",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "note": "A plain tawny coat, without the adult's dark face or bluish-grey limbs."
+    },
+    {
+      "view": "herd",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "note": "Small groups on open grass, sometimes with zebra; calves may form a nursery cluster."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "male",
+      "type": "call",
+      "description": "Territorial males grunt, as well as marking the ground by horning and with preorbital-gland secretions.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "damaliscus-lunatus/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Tsessebe_(Damaliscus_lunatus)_(51872054543).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tsessebe_%28Damaliscus_lunatus%29_%2851872054543%29.jpg/1280px-Tsessebe_%28Damaliscus_lunatus%29_%2851872054543%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult tsessebe in side view on grassland in Kruger National Park, showing the chestnut coat, dark legs and lyrate horns",
+      "caption": "Adult, Tihongonyeni, S143 road east of Mopani, Kruger National Park."
+    },
+    {
+      "key": "damaliscus-lunatus/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Tsessebe_(Damaliscus_lunatus)_male_..._(52164833803).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Tsessebe_%28Damaliscus_lunatus%29_male_..._%2852164833803%29.jpg/1280px-Tsessebe_%28Damaliscus_lunatus%29_male_..._%2852164833803%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male tsessebe walking on grass with zebra in the background, Kruger National Park",
+      "caption": "Male, S143 road east of Mopani, Kruger National Park."
+    },
+    {
+      "key": "damaliscus-lunatus/kruger-head.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Tsessebe_(Damaliscus_lunatus_lunatus)_close-up_(11684009833).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tsessebe_%28Damaliscus_lunatus_lunatus%29_close-up_%2811684009833%29.jpg/1280px-Tsessebe_%28Damaliscus_lunatus_lunatus%29_close-up_%2811684009833%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close view of an adult tsessebe head, showing the dark face and lyrate horns, Kruger National Park",
+      "caption": "Adult close-up, S49 road south of Mopani, Kruger National Park."
+    },
+    {
+      "key": "damaliscus-lunatus/kruger-pair.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Tsessebe_in_Kruger_National_Park.JPG",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Common_Tsessebe_in_Kruger_National_Park.JPG/1280px-Common_Tsessebe_in_Kruger_National_Park.JPG",
+      "author": "Kore",
+      "license": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two adult tsessebe standing together on open ground in Kruger National Park",
+      "caption": "Adults, Kruger National Park."
+    },
+    {
+      "key": "damaliscus-lunatus/kruger-adults-and-calf.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Tsessebes_(Damaliscus_lunatus_lunatus)_(11682908953).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Tsessebes_%28Damaliscus_lunatus_lunatus%29_%2811682908953%29.jpg/1280px-Tsessebes_%28Damaliscus_lunatus_lunatus%29_%2811682908953%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two adult tsessebe grazing with a tawny calf, Kruger National Park",
+      "caption": "Adults and calf, Malopenyana waterhole north of Letaba, Kruger National Park."
+    },
+    {
+      "key": "damaliscus-lunatus/kruger-calf.jpg",
+      "view": "standing-front",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Young_Tsessebe_(Damaliscus_lunatus_lunatus)_(11683857613).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Young_Tsessebe_%28Damaliscus_lunatus_lunatus%29_%2811683857613%29.jpg/1280px-Young_Tsessebe_%28Damaliscus_lunatus_lunatus%29_%2811683857613%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A tawny tsessebe calf lying in dry grass in Kruger National Park",
+      "caption": "Calf, S49 road south of Mopani, Kruger National Park."
+    },
+    {
+      "key": "damaliscus-lunatus/kruger-nursery.jpg",
+      "view": "herd",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Young_Tsessebes_(Damaliscus_lunatus_lunatus)_nursery_(11684080854).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Young_Tsessebes_%28Damaliscus_lunatus_lunatus%29_nursery_%2811684080854%29.jpg/1280px-Young_Tsessebes_%28Damaliscus_lunatus_lunatus%29_nursery_%2811684080854%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A small nursery group of young tsessebe in Kruger National Park",
+      "caption": "Young in a nursery group, S49 road south of Mopani, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Common tsessebe",
+      "url": "https://en.wikipedia.org/wiki/Common_tsessebe",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Damaliscus lunatus",
+      "url": "https://en.wikipedia.org/wiki/Damaliscus_lunatus",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Damaliscus lunatus: topi",
+      "url": "https://animaldiversity.org/accounts/Damaliscus_lunatus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Tsessebe",
+      "url": "https://ewt.org/project/tsessebe/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the quoted recent Kruger range."
+    },
+    {
+      "title": "iNaturalist taxon Damaliscus lunatus",
+      "url": "https://api.inaturalist.org/v1/taxa/42276",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The official list stores the species as Damaliscus lunatus (Tsessebe). Field text follows accounts of the southern common tsessebe and does not treat East African topi as Kruger animals. Mass was published only as averages, so massKg is null. The 2023 population range comes from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2023 population range is from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No published mass range was found, only averages of 137 kg (males) and 120 kg (females).",
+    "The 1.5–2.3 m length figure is not stated as head-and-body versus total length.",
+    "No Kruger-specific calving-month range or daily activity timetable was found.",
+    "Iris colour, ear colour and a named mane were not given in the sources used, so those marks are null.",
+    "Predators listed are those named for tsessebe in the sources used (lion, leopard and hyaena); a fuller predator list may exist.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No licensable sound recording was included from xeno-canto or iNaturalist."
+  ]
+}

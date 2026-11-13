@@ -1,0 +1,432 @@
+{
+  "kind": "species",
+  "slug": "hippotragus-niger",
+  "scientificName": "Hippotragus niger",
+  "commonNames": {
+    "en": "Sable",
+    "af": "Swartwitpens"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42334,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Vulnerable",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho. A global IUCN assessment was not copied from a checked page in this session.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Sable Antelope",
+        "url": "https://ewt.org/project/sable-antelope/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Vulnerable; regional trend stable. Kruger subpopulation described as increasing."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 116,
+      "max": 142
+    },
+    "headBodyLengthCm": {
+      "min": 190,
+      "max": 255
+    },
+    "tailCm": {
+      "min": 40,
+      "max": 75
+    },
+    "note": "Head-and-body length 190–255 cm and tail 40–75 cm follow Wikipedia. Shoulder height: Wikipedia gives males at about 117–140 cm, females slightly shorter; Animal Diversity Web gives 116–142 cm for males. The overall bounds used here are 116–142 cm. Mass was published only as typical values (Wikipedia: males 235 kg, females 220 kg; ADW: males around 238 kg, females 220 kg), not as ranges, so massKg is left null. Horns are 81–165 cm in males and 61–102 cm in females."
+  },
+  "summary": "A large, dark antelope of wooded savanna, with a white belly, a strongly marked black-and-white face, and long, backswept scimitar horns in both sexes. Adult males are almost black; females and young are rich brown. It is one of Kruger's scarce, slowly recovering antelope. The official English name on the 2011 checklist is Sable.",
+  "description": "Adult males are glossy black or very dark brown, with a white belly, white face markings that contrast with a dark mask, and a mane on the neck. Females are chestnut to dark brown, also with a white belly and a pale face pattern, and are slightly smaller. Both sexes have ringed, scimitar-shaped horns that arch backward, longer and more curved in males (81–165 cm) than in females (61–102 cm). Newborn calves are sandy or light tan, which helps to camouflage them, and the coat darkens with age. The official checklist name is Sable; iNaturalist prefers Sable Antelope. The critically endangered giant sable of Angola is a different subspecies and is not the Kruger animal.",
+  "habits": "Lives in herds of about 10 to 30 females and calves, led by a single bull. Males fight on their knees with their horns. When threatened, sable may stand and fight rather than flee, and can injure a predator with the backswept horns. They are mainly diurnal, but less active in the heat of the day. In Kruger the species is scarce and is described as slowly increasing after a sharp decline.",
+  "diet": {
+    "summary": "A grazer of mid-length grasses that also takes leaves and herbs. Animal Diversity Web describes feeding on grasses 40–140 mm high. It visits salt licks and has been recorded chewing bones for minerals.",
+    "items": [
+      "mid-length grasses",
+      "leaves",
+      "herbs"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is born after a gestation of about nine months, with births coinciding with the rainy season in the general account. The newborn is sandy or light tan and lies hidden for at least ten days while the mother nurses it. The coat darkens as the animal grows. Exact calving months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator of this species."
+    }
+  ],
+  "prey": [],
+  "habitat": "Wooded savanna and grassland, including the mixed bush of Kruger. Photographs in this file come from the Lower Sabie, Tshokwane and Pretoriuskop areas as well as other parts of the park.",
+  "similar": [
+    {
+      "slug": "hippotragus-equinus",
+      "note": "Sable is darker, with a white belly, a strongly contrasted black-and-white face, and longer, more arched scimitar horns. Roan is paler (roan or grey-brown) and heavier, with shorter, less backswept horns and a different face pattern."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 384,
+      "high": 470
+    },
+    "unit": "individuals",
+    "trend": "increasing",
+    "confidence": "medium",
+    "asOf": 2023,
+    "notes": "One source claims a 2023 Kruger population of 384–470 sable, and describes the species as rare and slowly increasing, one of four antelope that crashed in the 1990s. The EWT 2025 assessment gives a current Kruger estimate of 256–299 mature individuals and describes the Kruger subpopulation as increasing. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf Regional Red List status is Vulnerable, with a stable national trend.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the quoted recent Kruger range."
+      },
+      {
+        "title": "Sable Antelope",
+        "url": "https://ewt.org/project/sable-antelope/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "256–299 mature individuals in Kruger; Kruger subpopulation increasing; regional Vulnerable."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "long, ringed scimitars arching backward, 81–165 cm"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "black and white, with a dark mask and pale markings",
+          "muzzle": "white on the muzzle and chin",
+          "beard": null
+        },
+        "mane": {
+          "colour": "dark",
+          "shape": "a mane on the neck"
+        },
+        "upperparts": {
+          "colour": [
+            "black",
+            "blackish-brown"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "40–75 cm, tufted at the end"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "ringed scimitars arching backward, 61–102 cm, slighter than in the male"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark and white, with a contrasting face pattern",
+          "muzzle": "pale on the muzzle and chin",
+          "beard": null
+        },
+        "mane": {
+          "colour": [
+            "brown",
+            "rufous"
+          ],
+          "shape": "a mane on the neck"
+        },
+        "upperparts": {
+          "colour": [
+            "chestnut",
+            "dark brown"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "sandy",
+            "light tan"
+          ],
+          "pattern": "faint markings may be present; underparts, cheek and chin white"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "An almost black coat, a white belly, a contrasting face, and long backswept horns."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "A chestnut to dark-brown coat, a white belly, a pale face pattern and scimitar horns."
+    },
+    {
+      "view": "standing-side",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "note": "A sandy or light-tan coat, without the adult's dark colour."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A detailed description of the call was not found in the sources used here.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "hippotragus-niger/kruger-male.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Sable_Antelope_(Hippotragus_niger)_male_..._(51992694691).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sable_Antelope_%28Hippotragus_niger%29_male_..._%2851992694691%29.jpg/1280px-Sable_Antelope_%28Hippotragus_niger%29_male_..._%2851992694691%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male sable antelope in tall grass, with a black coat, white face markings and long scimitar horns, Kruger National Park",
+      "caption": "Adult male, Muntshe Hill, H10 road north of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "hippotragus-niger/kruger-female-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Sable_(Hippotragus_niger)_female_crossing_the_road_..._(16635641913).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Sable_%28Hippotragus_niger%29_female_crossing_the_road_..._%2816635641913%29.jpg/1280px-Sable_%28Hippotragus_niger%29_female_crossing_the_road_..._%2816635641913%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female sable antelope walking across a road, showing a brown coat, white belly and scimitar horns, Kruger National Park",
+      "caption": "Adult female crossing the road, H1-2 road west of Tshokwane, Kruger National Park."
+    },
+    {
+      "key": "hippotragus-niger/kruger-female-woodland.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Sable_Antilope_(Hippotragus_niger)_female_(31339821075).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Sable_Antilope_%28Hippotragus_niger%29_female_%2831339821075%29.jpg/1280px-Sable_Antilope_%28Hippotragus_niger%29_female_%2831339821075%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female sable antelope standing in woodland, Kruger National Park",
+      "caption": "Adult female, S14 road south of Pretoriuskop, Kruger National Park."
+    },
+    {
+      "key": "hippotragus-niger/kruger-female-and-young.jpg",
+      "view": "standing-front",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Sable_(Hippotragus_niger)_female_and_young_(17256033105).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Sable_%28Hippotragus_niger%29_female_and_young_%2817256033105%29.jpg/1280px-Sable_%28Hippotragus_niger%29_female_and_young_%2817256033105%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A female sable antelope with a younger animal in tall grass, Kruger National Park",
+      "caption": "Female and young, H1-2 road west of Tshokwane, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sable antelope",
+      "url": "https://en.wikipedia.org/wiki/Sable_antelope",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Hippotragus niger: mbarapi",
+      "url": "https://animaldiversity.org/accounts/Hippotragus_niger/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Sable Antelope",
+      "url": "https://ewt.org/project/sable-antelope/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the quoted recent Kruger range."
+    },
+    {
+      "title": "iNaturalist taxon Hippotragus niger",
+      "url": "https://api.inaturalist.org/v1/taxa/42334",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2023 range of 384–470 individuals comes from one source; the EWT page gives 256–299 mature individuals in Kruger. Mass was published only as typical values, so massKg is null. No close photograph of a sandy newborn calf was found in the Kruger set used. A global IUCN status was not copied from a checked page. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2023 population range is from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Mass was published only as typical values (about 235–238 kg in males and 220 kg in females), not as ranges, so massKg is null.",
+    "No close photograph of a sandy newborn calf was found in the Kruger set used; the 'young' photograph shows an older juvenile already darkening.",
+    "A sourced description of the call was not found, so the call entry is a placeholder without a recording.",
+    "A global IUCN status was not taken from a checked page in this session.",
+    "Iris colour, ear colour and a named leg colour for the adult male were not given in the sources used, so those marks are null.",
+    "No Kruger-specific calving-month range was found. General accounts give birth after about nine months, coinciding with the rains.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No licensable sound recording was included from xeno-canto or iNaturalist."
+  ]
+}

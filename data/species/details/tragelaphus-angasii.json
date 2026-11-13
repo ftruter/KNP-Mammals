@@ -1,0 +1,481 @@
+{
+  "kind": "species",
+  "slug": "tragelaphus-angasii",
+  "scientificName": "Tragelaphus angasii",
+  "commonNames": {
+    "en": "Nyala",
+    "af": "Njala"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42342,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Nyala",
+        "url": "https://ewt.org/project/nyala/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Least Concern; regional trend stable."
+      },
+      {
+        "title": "Nyala",
+        "url": "https://en.wikipedia.org/wiki/Nyala",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 90,
+      "max": 110
+    },
+    "headBodyLengthCm": {
+      "min": 135,
+      "max": 195
+    },
+    "massKg": {
+      "male": {
+        "min": 98,
+        "max": 125
+      },
+      "female": {
+        "min": 55,
+        "max": 68
+      }
+    },
+    "note": "Wikipedia gives head-and-body length as 135–195 cm. Males stand over one metre at the shoulder (Animal Diversity Web) and up to about 110 cm if that 'over one metre' is taken with the commonly cited male height; females are up to 90 cm (Wikipedia) or slightly less than a metre (ADW). The overall shoulder-height bounds used here are 90–110 cm, with this caveat. Mass follows Wikipedia and ADW: males 98–125 kg, females 55–68 kg. Male horns are 60–83 cm (Wikipedia) or up to 80 cm (ADW), with one or two twists and yellow tips. A calf weighs about 5 kg."
+  },
+  "summary": "A mid-sized, spiral-horned antelope of riverine thicket, with the strongest sexual dimorphism of its group. Males are dark and shaggy, with a dorsal crest, yellow lower legs and horns; females and young are bright rufous with many close white stripes. In Kruger it is a resident of southern and far-northern riverine bush.",
+  "description": "Sexual dimorphism is marked. Adult males are dark brown to slate-grey, often with a bluish tinge; the coat is shaggy, with a white dorsal crest, a throat fringe, and yellow-tawny lower legs. Body stripes are faint or absent in older males. Only males have horns, 60–83 cm, with one or two twists and yellow tips. Females and juveniles are rusty or rufous brown, with ten or more clear white vertical stripes and other white marks on the face, throat, flanks and thighs; they are hornless. Both sexes have a white chevron between the eyes. It should not be confused with the mountain nyala of Ethiopia.",
+  "habits": "A shy, mainly browsing antelope of dense thicket. It may feed by day in warm, dry weather and more by night in the rainy season, and prefers waterholes to open ground. It is not territorial; ranges can overlap. Animals live in small single-sex or mixed groups of up to about ten, though old males are often alone. In Kruger it is associated with riverine thicket in the south and the far north (Pafuri and Punda Maria), rather than with open grassland.",
+  "diet": {
+    "summary": "A herbivore that browses foliage and also takes fruits and grasses, and needs fresh water.",
+    "items": [
+      "foliage",
+      "fruits",
+      "grasses"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf, weighing about 5 kg, is born after a gestation of seven months, usually in cover such as a thicket. The calf is hidden for up to 18 days and is nursed at intervals. It stays with the mother until the next calf is born, when males in rut may drive it away. Exact calving months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator of this species."
+    }
+  ],
+  "prey": [],
+  "habitat": "Thickets in dense or dry savanna woodland, especially riverine cover. In Kruger, one source places it in the riverine thickets of the south and the far north, including the Luvuvhu and Limpopo in the Pafuri area.",
+  "similar": [
+    {
+      "slug": "tragelaphus-strepsiceros",
+      "note": "Kudu is taller and narrower. A kudu bull has much longer horns with two and a half open spirals and no yellow lower legs; a kudu cow is greyer or browner, not bright rufous, and has fewer, more widely spaced stripes than a female nyala."
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "note": "Bushbuck is smaller. The female bushbuck is less brightly rufous, and the male lacks the nyala bull's long shaggy crest and yellow lower legs."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "One source describes nyala in the southern and far-northern riverine thickets of Kruger but does not give a recent park count. An earlier figure of about 3,000 animals in the greater Kruger area (Anderson 2013) is cited on the EWT Nyala page, and is kept here as a previous estimate. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf Regional Red List status is Least Concern, with a stable national trend.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 3000,
+          "high": 3000
+        },
+        "unit": "individuals",
+        "asOf": 2013,
+        "notes": "Greater Kruger, about 3,000 animals, cited on the EWT Nyala page (Anderson 2013). A single published number is stored as both bounds. This is not a Kruger-only census and is not used as the current estimate."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the quoted recent Kruger range."
+      },
+      {
+        "title": "Nyala",
+        "url": "https://ewt.org/project/nyala/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Greater Kruger figure of about 3,000 (Anderson 2013); regional Least Concern / stable."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": "yellow-tipped",
+          "shape": "spiral with one or two twists, 60–83 cm"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark, with a white chevron between the eyes",
+          "muzzle": null,
+          "beard": "a throat fringe"
+        },
+        "mane": {
+          "colour": "white",
+          "shape": "a raised dorsal crest"
+        },
+        "upperparts": {
+          "colour": [
+            "dark brown",
+            "slate-grey",
+            "bluish-grey"
+          ],
+          "pattern": "shaggy coat; stripes faint or absent in older males"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "yellow-tawny on the lower legs"
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "rufous, with a white chevron between the eyes and other white facial marks",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "rufous",
+            "rusty-brown"
+          ],
+          "pattern": "ten or more clear white vertical stripes, plus white marks on the throat, flanks and thighs"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "rufous, with a white chevron between the eyes",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "rufous",
+            "rusty-brown"
+          ],
+          "pattern": "clear white vertical stripes, as in the adult female"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A dark, shaggy coat, a white dorsal crest, yellow lower legs and yellow-tipped spiral horns."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "Bright rufous, hornless, with many close white stripes."
+    },
+    {
+      "view": "standing-side",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "note": "Rufous and clearly striped, much smaller than the cow, and hornless."
+    },
+    {
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "note": "Large ears and a white chevron between the eyes, on a rufous, striped young animal."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A detailed description of the call was not found in the sources used here.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "tragelaphus-angasii/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Nyala_(tragelaphus_angasii),_male_grazing.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Nyala_%28tragelaphus_angasii%29%2C_male_grazing.jpg/1280px-Nyala_%28tragelaphus_angasii%29%2C_male_grazing.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male nyala grazing, showing a dark shaggy coat, dorsal crest, yellow lower legs and horns, Kruger National Park",
+      "caption": "Adult male grazing, H1-2 road east of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-angasii/kruger-female-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Nyala_(Tragelaphus_angasii)_female_(11732987934).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Nyala_%28Tragelaphus_angasii%29_female_%2811732987934%29.jpg/1280px-Nyala_%28Tragelaphus_angasii%29_female_%2811732987934%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Hornless adult female nyala in rufous coat with many white stripes, in thicket in Kruger National Park",
+      "caption": "Adult female, S58 road east of Punda Maria, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-angasii/kruger-female-and-young.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Nyalas_(Tragelaphus_angasii)_female_and_young_..._(52177436590).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Nyalas_%28Tragelaphus_angasii%29_female_and_young_..._%2852177436590%29.jpg/1280px-Nyalas_%28Tragelaphus_angasii%29_female_and_young_..._%2852177436590%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "An adult female nyala standing with a small striped calf, Kruger National Park",
+      "caption": "Female and young, S63 road, Pafuri area, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-angasii/kruger-young.jpg",
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Young_Nyala_(Tragelaphus_angasii)_(11733383806).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Young_Nyala_%28Tragelaphus_angasii%29_%2811733383806%29.jpg/1280px-Young_Nyala_%28Tragelaphus_angasii%29_%2811733383806%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close view of a young rufous nyala, showing large ears, a white chevron and body stripes, Kruger National Park",
+      "caption": "Young animal, S58 road east of Punda Maria, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-angasii/kruger-young-male.jpg",
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Nyala_(Tragelaphus_angasii),_young_male_crossing_the_road.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Nyala_%28Tragelaphus_angasii%29%2C_young_male_crossing_the_road.jpg/1280px-Nyala_%28Tragelaphus_angasii%29%2C_young_male_crossing_the_road.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A young male nyala walking across a road, with short horns and a coat still showing stripes, Kruger National Park",
+      "caption": "Young male crossing the road, H1-2 road east of Skukuza, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nyala",
+      "url": "https://en.wikipedia.org/wiki/Nyala",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Tragelaphus angasii: nyala",
+      "url": "https://animaldiversity.org/accounts/Tragelaphus_angasii/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Nyala",
+      "url": "https://ewt.org/project/nyala/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the quoted recent Kruger range."
+    },
+    {
+      "title": "iNaturalist taxon Tragelaphus angasii",
+      "url": "https://api.inaturalist.org/v1/taxa/42342",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No recent Kruger population figure was found. Shoulder height is combined from two sources that do not give a clean overall range. A sourced description of the call was not found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No recent Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "A sourced description of the nyala's call was not found, so the call entry is a placeholder without a recording.",
+    "Shoulder-height figures are pieced together from 'over one metre' (males), 'up to 90 cm' or 'slightly less than a metre' (females).",
+    "Tail length, iris colour, ear colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "No Kruger-specific calving-month range was found.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No licensable sound recording was included from xeno-canto or iNaturalist."
+  ]
+}

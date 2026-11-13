@@ -1,0 +1,484 @@
+{
+  "kind": "species",
+  "slug": "tragelaphus-strepsiceros",
+  "scientificName": "Tragelaphus strepsiceros",
+  "commonNames": {
+    "en": "Kudu",
+    "af": "Koedoe"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42339,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Greater Kudu",
+        "url": "https://ewt.org/project/greater-kudu/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Least Concern; regional trend increasing."
+      },
+      {
+        "title": "Greater kudu",
+        "url": "https://en.wikipedia.org/wiki/Greater_kudu",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 100,
+      "max": 160
+    },
+    "headBodyLengthCm": {
+      "min": 185,
+      "max": 245
+    },
+    "tailCm": {
+      "min": 30,
+      "max": 55
+    },
+    "massKg": {
+      "male": {
+        "min": 190,
+        "max": 270
+      },
+      "female": {
+        "min": 120,
+        "max": 210
+      }
+    },
+    "note": "Wikipedia: bulls weigh 190–270 kg (maximum 315 kg) and stand up to 1.6 m at the shoulder; cows weigh 120–210 kg and may stand as little as 1 m. Animal Diversity Web gives a shoulder-height range of 100–150 cm. The overall shoulder-height bounds used here are 100–160 cm, combining those figures. Head-and-body length is 185–245 cm, plus a tail of 30–55 cm. Male horns average about 120 cm along the spiral if straightened, with a published record of 187.64 cm. A published female maximum mass above 210 kg, and a male typical shoulder-height minimum, were not found."
+  },
+  "summary": "A tall, narrow-bodied woodland antelope with long legs and six to ten white vertical stripes. Males are much larger than females and carry a throat beard and long horns with two and a half spiral turns. Females are hornless. The official English name on the 2011 checklist is Kudu.",
+  "description": "The coat ranges from brown or bluish grey to reddish brown, with between 4 and 12 vertical white stripes on the torso (commonly six to ten in the photographs). The head is often darker, with a small white chevron between the eyes, and the ears are large and round. Bulls have a beard along the throat and horns that twist through two and a half turns; the horns do not begin to grow until the bull is 6–12 months old, complete the first spiral at about two years, and reach the full 2.5 turns later. Cows are hornless, smaller, and lack the beard and nose markings of the bull. The official checklist name is Kudu; iNaturalist prefers Greater Kudu. The lesser kudu does not occur in Kruger.",
+  "habits": "A shy browser of woodland and thicket, usually in small groups. It feeds and drinks in the early morning and late afternoon, and often stands in shade in the heat of the day. When a herd is threatened, an adult — usually a female — may give a bark. Kudus are not fast enough over open ground to outrun their main predators, and instead rely on leaping into cover and on camouflage; if alarmed they often stand still. The EWT assessment gives home ranges of 3–25 km² in Kruger. Bulls vocalise more than cows, with low grunts, clucks, humming and gasping.",
+  "diet": {
+    "summary": "A selective browser. The diet is leaves, grass, shoots and, at times, tubers, roots and fruit.",
+    "items": [
+      "leaves",
+      "grass",
+      "shoots",
+      "tubers and roots",
+      "fruit"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is the rule, occasionally two, after a gestation of about 240 days (eight months). Calving is described as generally starting between February and March (late austral summer), when the grass is high; that is a general southern-African account, not a Kruger census of birth months. The female leaves the group to give birth, and the newborn is hidden in vegetation for about four to five weeks.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator of this species."
+    }
+  ],
+  "prey": [],
+  "habitat": "Woodland and thicket, including the mixed bush of Kruger from the south to Punda Maria and Pafuri. It uses shade on hot days and comes to water in the early morning and late afternoon.",
+  "similar": [
+    {
+      "slug": "tragelaphus-angasii",
+      "note": "Nyala is smaller, with stronger sexual dimorphism: males are dark and shaggy with a crest and yellow lower legs, and females are bright rufous with many close white stripes. Kudu is taller, with a narrower body, and the bull's horns make two and a half open spirals rather than the nyala's one or two tighter turns."
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "note": "Bushbuck is much smaller, with a shorter, thicker body. The male's horns are a single short spiral, not the long 2.5-turn horns of a kudu bull."
+    },
+    {
+      "slug": "tragelaphus-oryx",
+      "note": "Eland is far heavier, with a dewlap in the bull and horns in both sexes. Adult eland in the south usually lack the kudu's clear vertical body stripes."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 6561,
+      "high": 10020
+    },
+    "unit": "individuals",
+    "trend": "stable",
+    "confidence": "medium",
+    "asOf": 2023,
+    "notes": "One source claims a 2023 Kruger population of 6,561–10,020 kudu, and describes the trend as stable. An earlier Kruger estimate is 8,239–13,490 animals in 2012, cited on the EWT Greater Kudu page. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf Regional Red List status is Least Concern, with an increasing national trend.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 8239,
+          "high": 13490
+        },
+        "unit": "individuals",
+        "asOf": 2012,
+        "notes": "Kruger only, cited on the EWT Greater Kudu page as a 2012 count."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the quoted recent Kruger range."
+      },
+      {
+        "title": "Greater Kudu",
+        "url": "https://ewt.org/project/greater-kudu/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2012 Kruger figures and regional Least Concern / increasing national trend."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "open spiral of about two and a half turns; about 120 cm along the curve if straightened"
+        },
+        "ears": {
+          "colour": null,
+          "shape": "large and round"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "often darker than the body, with a small white chevron between the eyes",
+          "muzzle": null,
+          "beard": "a beard along the throat"
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "bluish-grey",
+            "reddish-brown"
+          ],
+          "pattern": "4–12 vertical white stripes on the torso"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "30–55 cm"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "large and round"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "with a small white chevron between the eyes; no beard or the bull's nose markings",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "reddish-brown",
+            "grey-brown"
+          ],
+          "pattern": "vertical white stripes on the torso"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "short, not yet a full two-and-a-half-turn spiral; horns begin at 6–12 months and complete the first turn at about two years"
+        },
+        "ears": {
+          "colour": null,
+          "shape": "large and round"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "with a white chevron between the eyes",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "grey-brown"
+          ],
+          "pattern": "vertical white stripes on the torso"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A narrow body, long legs and vertical white stripes. Bulls add a throat beard and long spiral horns."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "Hornless, with large round ears and the same vertical white stripes as the bull."
+    },
+    {
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "male",
+      "season": "any",
+      "note": "Large rounded ears and a white chevron between the eyes. A young male's horns are still short."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "When a herd is threatened, an adult, usually a female, may give a bark. Bulls also use low grunts, clucks, humming and gasping, and vocalise more than cows.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "tragelaphus-strepsiceros/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Greater_Kudu_(Tragelaphus_strepsiceros),_male_browsing.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Greater_Kudu_%28Tragelaphus_strepsiceros%29%2C_male_browsing.jpg/1280px-Greater_Kudu_%28Tragelaphus_strepsiceros%29%2C_male_browsing.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male kudu in side view browsing, showing spiral horns, a throat beard and vertical white stripes, Kruger National Park",
+      "caption": "Adult male browsing, H4-1 road west of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-strepsiceros/kruger-male-browsing.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Greater_Kudu_(Tragelaphus_strepsiceros)_male.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Greater_Kudu_%28Tragelaphus_strepsiceros%29_male.jpg/1280px-Greater_Kudu_%28Tragelaphus_strepsiceros%29_male.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male kudu standing among bushes, with long spiral horns and body stripes, Kruger National Park",
+      "caption": "Adult male, S28 road south of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-strepsiceros/kruger-female-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Greater_Kudu_(Tragelaphus_strepsiceros)_female_browsing_..._(51128205155).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Greater_Kudu_%28Tragelaphus_strepsiceros%29_female_browsing_..._%2851128205155%29.jpg/1280px-Greater_Kudu_%28Tragelaphus_strepsiceros%29_female_browsing_..._%2851128205155%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Hornless adult female kudu in side view, showing vertical white stripes and large ears, Kruger National Park",
+      "caption": "Adult female browsing, H4-1 road south of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-strepsiceros/kruger-females.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Greater_Kudus_(Tragelaphus_strepsiceros),_females.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Greater_Kudus_%28Tragelaphus_strepsiceros%29%2C_females.jpg/1280px-Greater_Kudus_%28Tragelaphus_strepsiceros%29%2C_females.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two adult female kudu seen from behind, showing large ears and body stripes, Kruger National Park",
+      "caption": "Adult females, H3 road north of Afsaal, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-strepsiceros/kruger-young-male.jpg",
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Greater_Kudu_(Tragelaphus_strepsiceros)_young_male_..._(50843580818).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Greater_Kudu_%28Tragelaphus_strepsiceros%29_young_male_..._%2850843580818%29.jpg/1280px-Greater_Kudu_%28Tragelaphus_strepsiceros%29_young_male_..._%2850843580818%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A young male kudu facing the camera, with horns not yet fully spiralled, Kruger National Park",
+      "caption": "Young male, Mahonie Loop west of Punda Maria, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Greater kudu",
+      "url": "https://en.wikipedia.org/wiki/Greater_kudu",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Tragelaphus strepsiceros: greater kudu",
+      "url": "https://animaldiversity.org/accounts/Tragelaphus_strepsiceros/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Greater Kudu",
+      "url": "https://ewt.org/project/greater-kudu/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the quoted recent Kruger range."
+    },
+    {
+      "title": "iNaturalist taxon Tragelaphus strepsiceros",
+      "url": "https://api.inaturalist.org/v1/taxa/42339",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2023 population range comes from one source. Size combines Wikipedia and Animal Diversity Web, which do not fully agree on shoulder height. No licensable calf photograph was selected. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2023 population range is from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable photograph of a small kudu calf was selected; only a young male with growing horns is included.",
+    "Iris colour, ear colour, a named mane, underpart colour and leg colour were not given as named values in the sources used, so those marks are null.",
+    "Calving is described as generally starting in February–March in a southern-African account; a Kruger-specific month range was not found.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No licensable sound recording was included from xeno-canto or iNaturalist."
+  ]
+}
