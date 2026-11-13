@@ -68,30 +68,6 @@
       ],
       "flags": [],
       "notes": []
-    },
-    {
-      "slug": "cercopithecus-mitis-erythrarchus",
-      "latin": "Cercopithecus mitis erythrarchus",
-      "en": "Samango monkey",
-      "af": "Samango-aap",
-      "inclusionEvidence": {
-        "sanparks2011": true,
-        "inatResearchGrade": 0
-      },
-      "remaps": [
-        {
-          "from": "Samango monkey",
-          "to": "White-throated Samango",
-          "field": "en",
-          "source": "https://api.inaturalist.org/v1/taxa?q=Cercopithecus%20mitis%20erythrarchus&all_names=true",
-          "note": "iNaturalist preferred_common_name for the stored subspecies (taxon 147602). Samango Monkey remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name. The parent species Cercopithecus mitis (taxon 43486) has preferred_common_name Blue Monkey."
-        }
-      ],
-      "flags": [],
-      "notes": [
-        "The 2011 checklist already lists this animal as the subspecies Cercopithecus mitis erythrarchus. The research-grade count is the subspecies total (0), not only a missing species_counts row: observation total_results for taxon 147602 is 0, and the species-level total for C. mitis (taxon 43486) is also 0.",
-        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 2 observations of any grade under Cercopithecus mitis (1 at species rank, 1 as sister subspecies C. m. albogularis). The official subspecies C. m. erythrarchus is absent from the tree."
-      ]
     }
   ],
   "candidates": [
@@ -121,5 +97,32 @@
     "No rare, reintroduced, or introduced flags are recorded for official Cercopithecidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
     "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
     "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ],
+  "excluded": [
+    {
+      "slug": "cercopithecus-mitis-erythrarchus",
+      "latin": "Cercopithecus mitis erythrarchus",
+      "en": "Samango monkey",
+      "af": "Samango-aap",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Samango monkey",
+          "to": "White-throated Samango",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?q=Cercopithecus%20mitis%20erythrarchus&all_names=true",
+          "note": "iNaturalist preferred_common_name for the stored subspecies (taxon 147602). Samango Monkey remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name. The parent species Cercopithecus mitis (taxon 43486) has preferred_common_name Blue Monkey."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "The 2011 checklist already lists this animal as the subspecies Cercopithecus mitis erythrarchus. The research-grade count is the subspecies total (0), not only a missing species_counts row: observation total_results for taxon 147602 is 0, and the species-level total for C. mitis (taxon 43486) is also 0.",
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020. The place taxonomy tree has 2 observations of any grade under Cercopithecus mitis (1 at species rank, 1 as sister subspecies C. m. albogularis). The official subspecies C. m. erythrarchus is absent from the tree."
+      ],
+      "excludedReason": "Owner decision 13 Nov 2026: left out; 0 research-grade Kruger records for the official subspecies."
+    }
   ]
 }

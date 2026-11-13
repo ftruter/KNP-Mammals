@@ -72,30 +72,6 @@
       "notes": []
     },
     {
-      "slug": "acomys-spinosissimus",
-      "latin": "Acomys spinosissimus",
-      "en": "Spiny mouse",
-      "af": "Stekelmuis",
-      "inclusionEvidence": {
-        "sanparks2011": true,
-        "inatResearchGrade": 0
-      },
-      "remaps": [
-        {
-          "from": "Spiny mouse",
-          "to": "Least Spiny Mouse",
-          "field": "en",
-          "source": "https://api.inaturalist.org/v1/taxa?id=901997&all_names=true",
-          "note": "iNaturalist preferred_common_name for taxon 901997. Spiny Mouse remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
-        }
-      ],
-      "flags": [],
-      "notes": [
-        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Muridae taxonomy tree (no observations of any grade). Observation total_results for taxon 901997 in the place is 0.",
-        "Acomys selousi (taxon 901998, preferred_common_name Selous' Spiny Mouse) is the only Acomys species in the place (3 research-grade) and is listed under candidates. A search for Acomys spinosissimus selousi returned 0 results, and the A. selousi name list has no invalid scientific names linking it to A. spinosissimus. The official taxon was not remapped."
-      ]
-    },
-    {
       "slug": "lemniscomys-rosalia",
       "latin": "Lemniscomys rosalia",
       "en": "Single-striped mouse",
@@ -159,24 +135,6 @@
       ],
       "flags": [],
       "notes": []
-    },
-    {
-      "slug": "mus-musculus",
-      "latin": "Mus musculus",
-      "en": "House mouse",
-      "af": "Huismuis",
-      "inclusionEvidence": {
-        "sanparks2011": true,
-        "inatResearchGrade": 0
-      },
-      "remaps": [],
-      "flags": [
-        "introduced"
-      ],
-      "notes": [
-        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 44705 is 0). The place taxonomy tree has 1 observation of any grade.",
-        "Flagged as introduced: the 2011 SANParks checklist marks this species with an asterisk."
-      ]
     },
     {
       "slug": "mus-minutoides",
@@ -302,32 +260,6 @@
       "notes": [
         "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 3 observations of any grade."
       ]
-    },
-    {
-      "slug": "rattus-rattus",
-      "latin": "Rattus rattus",
-      "en": "House rat",
-      "af": "Huisrot",
-      "inclusionEvidence": {
-        "sanparks2011": true,
-        "inatResearchGrade": 1
-      },
-      "remaps": [
-        {
-          "from": "House rat",
-          "to": "Black Rat",
-          "field": "en",
-          "source": "https://api.inaturalist.org/v1/taxa?id=44575&all_names=true",
-          "note": "iNaturalist preferred_common_name for taxon 44575. House Rat, Roof Rat, Ship Rat, Alexandrine Rat and Indian Rat remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
-        }
-      ],
-      "flags": [
-        "introduced"
-      ],
-      "notes": [
-        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 4 observations of any grade.",
-        "Flagged as introduced: the 2011 SANParks checklist marks this species with an asterisk."
-      ]
     }
   ],
   "candidates": [
@@ -405,5 +337,78 @@
     "Mus musculus and Rattus rattus are flagged as introduced because the 2011 PDF marks them with an asterisk. No other rare, reintroduced, or introduced flags were added for official Muridae species.",
     "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
     "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."
+  ],
+  "excluded": [
+    {
+      "slug": "acomys-spinosissimus",
+      "latin": "Acomys spinosissimus",
+      "en": "Spiny mouse",
+      "af": "Stekelmuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [
+        {
+          "from": "Spiny mouse",
+          "to": "Least Spiny Mouse",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=901997&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 901997. Spiny Mouse remains a listed English name on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [],
+      "notes": [
+        "On the official 2011 checklist, but absent from the iNaturalist place 69020 Muridae taxonomy tree (no observations of any grade). Observation total_results for taxon 901997 in the place is 0.",
+        "Acomys selousi (taxon 901998, preferred_common_name Selous' Spiny Mouse) is the only Acomys species in the place (3 research-grade) and is listed under candidates. A search for Acomys spinosissimus selousi returned 0 results, and the A. selousi name list has no invalid scientific names linking it to A. spinosissimus. The official taxon was not remapped."
+      ],
+      "excludedReason": "Owner decision 13 Nov 2026: left out; no Kruger records of any grade."
+    },
+    {
+      "slug": "mus-musculus",
+      "latin": "Mus musculus",
+      "en": "House mouse",
+      "af": "Huismuis",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 0
+      },
+      "remaps": [],
+      "flags": [
+        "introduced"
+      ],
+      "notes": [
+        "On the official 2011 checklist, but no research-grade iNaturalist observations in place 69020 (observation total_results for taxon 44705 is 0). The place taxonomy tree has 1 observation of any grade.",
+        "Flagged as introduced: the 2011 SANParks checklist marks this species with an asterisk."
+      ],
+      "excludedReason": "Owner decision 13 Nov 2026: left out; introduced commensal (asterisked in 2011) living only around rest camps, not a naturally occurring Kruger species."
+    },
+    {
+      "slug": "rattus-rattus",
+      "latin": "Rattus rattus",
+      "en": "House rat",
+      "af": "Huisrot",
+      "inclusionEvidence": {
+        "sanparks2011": true,
+        "inatResearchGrade": 1
+      },
+      "remaps": [
+        {
+          "from": "House rat",
+          "to": "Black Rat",
+          "field": "en",
+          "source": "https://api.inaturalist.org/v1/taxa?id=44575&all_names=true",
+          "note": "iNaturalist preferred_common_name for taxon 44575. House Rat, Roof Rat, Ship Rat, Alexandrine Rat and Indian Rat remain listed English names on the same taxon. The stored en value is the 2011 SANParks checklist name."
+        }
+      ],
+      "flags": [
+        "introduced"
+      ],
+      "notes": [
+        "On the official 2011 checklist, with only 1 research-grade iNaturalist observation in place 69020. The place taxonomy tree has 4 observations of any grade.",
+        "Flagged as introduced: the 2011 SANParks checklist marks this species with an asterisk."
+      ],
+      "excludedReason": "Owner decision 13 Nov 2026: left out; introduced commensal (asterisked in 2011) living only around rest camps, not a naturally occurring Kruger species."
+    }
   ]
 }

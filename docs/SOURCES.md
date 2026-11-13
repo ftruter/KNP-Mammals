@@ -380,3 +380,12 @@ Researched in a fresh session for the last Phase 2 batch, the eight Rodentia fam
 - iNaturalist HTML/JSON checklist 8810 was not used (Phase 1: HTTP 403/401).
 - Skinner & Chimimba and Stuart’s guide were not available. No rare or reintroduced flags were added. The only introduced flags in this batch are the two 2011 asterisks under Muridae.
 
+
+## Owner decisions (13 Nov 2026)
+
+- Burchell's zebra is stored at species level as *Equus quagga*, and its subspecies are ignored. The species has 2,431 research-grade records in place 69020.
+- The Samango monkey (*Cercopithecus mitis erythrarchus*) is left out because it has 0 Kruger records. It moves to `excluded`.
+- Bat names keep the 2011 nomenclature, including *Hipposideros commersoni* and *Scotophilus borbonicus*.
+- *Acomys spinosissimus* is left out because it has no Kruger records. *A. selousi* stays a candidate.
+- Vagrant and commensal rule: leave out any species that only lives in or around rest camps because it arrived with people, and wouldn't persist without them. *Mus musculus* and *Rattus rattus* move to `excluded`, and domestic dog and cat stay out.
+- Left-out rows are kept in each family file's `excluded` array with an `excludedReason`, not deleted.

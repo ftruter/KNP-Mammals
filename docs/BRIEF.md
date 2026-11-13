@@ -30,3 +30,11 @@ Research the mammals of Kruger National Park (KNP) for an open field guide in th
 
 ## KNP-birds baseline
 The birds lessons were taken from KNP-birds `main` at commit `a650569d` (12 Nov 2026, after PR #187). When the owner asks what changed in KNP-birds, compare from this commit: https://github.com/ftruter/KNP-birds/compare/a650569d...main. Then propose similar changes for KNP-Mammals, and wait for the owner's yes before making any. After adopting changes, update this baseline to the new commit.
+
+
+## Inclusion rules from owner decisions (13 Nov 2026)
+- List species, not subspecies (for example, *Equus quagga*).
+- Leave out official species that have no Kruger records.
+- Bats keep the 2011 nomenclature.
+- Leave out vagrant or commensal species that live only around rest camps because they arrived with people; that includes introduced rodents, dogs and cats.
+- Keep left-out rows in `excluded`, each with a reason.
