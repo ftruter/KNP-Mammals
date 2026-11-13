@@ -49,51 +49,36 @@
       "notes": []
     },
     {
-      "slug": "diceros-bicornis-minor",
-      "latin": "Diceros bicornis minor",
+      "slug": "diceros-bicornis",
+      "latin": "Diceros bicornis",
       "en": "Black rhinoceros",
       "af": "Swartrenoster",
       "inclusionEvidence": {
         "sanparks2011": true,
-        "inatResearchGrade": 20
+        "inatResearchGrade": 41
       },
       "remaps": [
         {
-          "from": "Black rhinoceros",
-          "to": "South-central Black Rhinoceros",
-          "field": "en",
-          "source": "https://api.inaturalist.org/v1/taxa?id=147643&all_names=true",
-          "note": "iNaturalist preferred_common_name for the stored subspecies (taxon 147643). The stored en value is the 2011 SANParks checklist name. The parent species Diceros bicornis (taxon 43350) has preferred_common_name Black Rhinoceros."
+          "from": "Diceros bicornis minor",
+          "to": "Diceros bicornis",
+          "field": "latin",
+          "source": "https://api.inaturalist.org/v1/observations?taxon_id=43350&place_id=69020&quality_grade=research&per_page=0",
+          "note": "Owner decision 13 Nov 2026: species level. Stored as Diceros bicornis (iNaturalist taxon 43350, preferred_common_name Black Rhinoceros), matching the official English name aside from capitalisation. The research-grade count is the species total in place 69020 (41), fetched 13 Nov 2026."
         }
       ],
       "flags": [],
       "notes": [
-        "The 2011 checklist already lists this animal as the subspecies Diceros bicornis minor. The research-grade count is the subspecies total (20), not the species-level total of 41, which includes 3 research-grade observations of D. b. bicornis and observations identified only to species.",
+        "Owner decision 13 Nov 2026: species level. The 2011 checklist listed this animal as the subspecies Diceros bicornis minor. It is now stored as the species Diceros bicornis (slug diceros-bicornis).",
+        "The research-grade count is the species total (41) in place 69020, not the former subspecies total of 20 for D. b. minor. Observations identified as D. b. minor or D. b. bicornis, and those identified only to species, are included in this total.",
         "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note."
       ]
     }
   ],
-  "candidates": [
-    {
-      "slug": "diceros-bicornis-bicornis",
-      "latin": "Diceros bicornis bicornis",
-      "en": "Southern Black Rhinoceros",
-      "af": null,
-      "inclusionEvidence": {
-        "sanparks2011": false,
-        "inatResearchGrade": 3
-      },
-      "remaps": [],
-      "flags": [],
-      "notes": [
-        "iNaturalist-only as this subspecies in place 69020: 3 research-grade and 3 observations of any grade (taxon 147644; preferred_common_name Southern Black Rhinoceros). Not named separately on the 2011 SANParks Rhinocerotidae list, which has black rhinoceros as Diceros bicornis minor only. Left in candidates, not included, as a sister subspecies of the stored Kruger taxon."
-      ]
-    }
-  ],
+  "candidates": [],
   "gaps": [
     "Live SANParks checklist HTML and PDF were not fetched in this session (Phase 1 recorded HTTP 403). Inclusion is the 2011 Wayback PDF only, and has not been compared with the live 147–148 figure.",
     "iNaturalist checklist 8810 was not fetched (Phase 1 recorded HTTP 403/401).",
-    "The iNaturalist species-level research-grade count for Diceros bicornis is 41, which mixes D. b. minor (20), D. b. bicornis (3), and observations not identified to subspecies. The included taxon uses the subspecies count.",
+    "The species-level research-grade count for Diceros bicornis in place 69020 was refetched on 13 Nov 2026 and is 41 (https://api.inaturalist.org/v1/observations?taxon_id=43350&place_id=69020&quality_grade=research&per_page=0). Owner decision 13 Nov 2026 stores the black rhinoceros at species level, so this is the included count. The earlier subspecies totals (D. b. minor 20, D. b. bicornis 3) are no longer used for inclusion.",
     "No rare, reintroduced, or introduced flags are recorded for official Rhinocerotidae species: the 2011 PDF does not mark any of them with an asterisk or other status note (asterisks on that list are only for house mouse and house/black rat under Muridae).",
     "Candidate Afrikaans names were left null. The Phase 2 rule was to take af from the 2011 SANParks checklist; these taxa are not on that list.",
     "The current live official list, Skinner & Chimimba, and Stuart's guide were not available to corroborate remaps or flags."

@@ -389,3 +389,30 @@ Researched in a fresh session for the last Phase 2 batch, the eight Rodentia fam
 - *Acomys spinosissimus* is left out because it has no Kruger records. *A. selousi* stays a candidate.
 - Vagrant and commensal rule: leave out any species that only lives in or around rest camps because it arrived with people, and wouldn't persist without them. *Mus musculus* and *Rattus rattus* move to `excluded`, and domestic dog and cat stay out.
 - Left-out rows are kept in each family file's `excluded` array with an `excludedReason`, not deleted.
+
+
+## Phase 4 hints (pro forma, Blue wildebeest, 13 Nov 2026)
+
+Worked example: `data/species/details/connochaetes-taurinus.json`, schema in `docs/schema.md`. Later batches should reuse these patterns. Budget about 25 tool calls per species; this pro forma used about 25 research lookups (iNaturalist APIs, Wikimedia Commons API, xeno-canto pages, Wikipedia, Animal Diversity Web, the EWT species page, SANParks pages, and web searches). The official SANParks census PDF and the Macaulay Library search were attempted and failed, and are counted in that total.
+
+### What worked
+
+- **Kruger photographs, two sources.** Wikimedia Commons `generator=search` for `Connochaetes taurinus Kruger` in namespace 6, with `prop=imageinfo` and `iiprop=url|extmetadata|size`, returned many CC BY / CC BY-SA photographs taken in the park (Bernard DUPONT, CC BY-SA 2.0, was the richest Kruger set). iNaturalist research-grade photographs in place 69020, filtered with `photo_license=cc0,cc-by,cc-by-sa,cc-by-nc,cc-by-nc-sa`, are plentiful (1,260 of this species). Prefer `photo_license=cc0,cc-by,cc-by-sa` first; a CC BY nursing-calf photograph (Wynand Uys, observation 68397106) filled a view the Commons set already had at herd scale but not as a close suckling shot. Use the observation URL as `source`, the open-data `large` URL as `fileUrl`, and the iNaturalist `license_code` mapped to a named Creative Commons licence (`cc-by` → CC BY 4.0). Look at each thumb before tagging `view`, `age` and `sex`. Commons thumbnails 403 without a browser-like User-Agent; `curl -A Mozilla/5.0 …` worked.
+- **Do not use East African white-bearded photographs as the main adult portrait** for this species in Kruger. Kruger holds the southern form, *C. t. taurinus*, which has a black beard. Many Commons results for the species are *C. t. mearnsi* at the Mara crossing.
+- **Sounds.** xeno-canto API v3 needs a key and returned HTTP 401 without one. The HTML search `https://xeno-canto.org/explore?query=Connochaetes%20taurinus` worked from this environment and found three recordings, all CC BY-NC-SA 4.0. One is an adult male call from Kruger itself (XC1148048, grade A, African Bioacoustics Community / A. Karamitsos). Use the recording page for the licence, recordist, grade (the selected `rating-<id>-1` is A) and the mp3 `fileUrl`. iNaturalist had 0 sounds for this species in place 69020.
+- **Population.** Prefer a SANParks census figure for Kruger, then the 2016 SANBI/EWT assessment. The March 2025 census sheet is `https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf`. It returned HTTP 403 (Cloudflare) from this environment; do not store the PDF. The SANParks Part 2 blog (HTML) fetched cleanly and confirms that wildebeest increased in the 2023 survey, but does not print the numeric range. The EWT HTML page `https://ewt.org/project/blue-wildebeest/` fetched cleanly and gives earlier Kruger figures (9,342–17,936 animals, or 12,555 mature individuals, in 2017) plus Least Concern and an increasing trend. The 2016 assessment URL pattern still holds: `https://ewt.org/wp-content/uploads/2022/11/6.-Blue-Wildebeest-Connochaetes-taurinus_LC.pdf`. Cite it; do not host it. If the official census PDF is blocked, record the gap, keep confidence at medium or low, and say which secondary reading was used.
+- **Field text.** Wikipedia (`https://en.wikipedia.org/wiki/Blue_wildebeest`) and Animal Diversity Web (`https://animaldiversity.org/accounts/Connochaetes_taurinus/`) both fetched as HTML and were enough for size, diet, habits, young and predators when Skinner & Chimimba and Stuart were not available. Write the prose in your own words. Where the two sources disagree (for example mass 165–290 / 140–260 kg versus an unsexed 118–270 kg), put both in the `size.note` and do not pick a silent compromise. Cite Kruger-specific movement from the EWT page; do not describe the Serengeti migration as if it happened in Kruger.
+- **Similar species.** Only use slugs that exist in `data/species-list.json`. Contrast the other species with sourced marks of the subject (black beard, brindle stripes, cow-like horns) rather than inventing the other species' colours from memory.
+
+### What failed or was thin
+
+- SANParks census PDF and, as before, live SANParks HTML: HTTP 403 (Cloudflare challenge).
+- Macaulay Library catalog search: bot-check page, no usable result. Log it as a gap if it happens again.
+- iNaturalist text search `q=calf` in place 69020 returned 0, even though calf photographs exist. Use Commons titles such as "females and youngs", or iNaturalist annotations (`term` for sex / life stage) and a look at the thumbs, not only a text query.
+- xeno-canto API v3 is unusable without a key; use the HTML search in the meantime.
+- Skinner & Chimimba and Stuart's guide remain unavailable. No iris colour, no sexed shoulder height, and no Kruger calving-month range were found. Leave those null.
+- Genus- or family-level guesses, and East African migratory narrative, are not Kruger facts.
+
+### Per-species call count (this example)
+
+About 25 research lookups for *Connochaetes taurinus*, including the failed census-PDF and Macaulay attempts. Later species in a batch should aim at the same budget: a few iNaturalist calls, one Commons search, one xeno-canto HTML search, one Macaulay attempt, one census or Red List lookup, and two field-text sources, then stop and record gaps.
