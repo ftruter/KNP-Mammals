@@ -36,18 +36,18 @@
   ],
   "species": [
     {
-      "slug": "equus-quagga-burchellii",
-      "latin": "Equus quagga burchellii",
+      "slug": "equus-quagga",
+      "latin": "Equus quagga",
       "en": "Burchell's zebra",
       "af": "Bontsebra",
       "inclusionEvidence": {
         "sanparks2011": true,
-        "inatResearchGrade": 1
+        "inatResearchGrade": 2431
       },
       "remaps": [
         {
           "from": "Equus burchelli",
-          "to": "Equus quagga burchellii",
+          "to": "Equus quagga",
           "field": "latin",
           "source": "https://api.inaturalist.org/v1/taxa?q=Equus%20burchelli&all_names=true",
           "note": "An iNaturalist taxa search for the 2011 name matches species Equus quagga (taxon 43335, preferred_common_name Plains Zebra), which lists Equus burchelli and Equus burchellii as invalid scientific names. The Kruger taxon is stored as the iNaturalist subspecies Equus quagga burchellii (taxon 447362; preferred_common_name Burchell's Zebra), because that is the taxon whose preferred common name is Burchell's Zebra. That subspecies record lists Equus burchellii (two i's) as an invalid scientific name, but not the 2011 spelling Equus burchelli (one i). The research-grade count is the subspecies total (1), not the species-level total of 2430, which includes 1802 research-grade observations of E. q. chapmani and many observations identified only to species."
@@ -56,7 +56,8 @@
       "flags": [],
       "notes": [
         "On the official 2011 checklist, but only 1 research-grade iNaturalist observation in place 69020 is identified as this subspecies (1 observation of any grade in the place taxonomy tree). The species Equus quagga has 2430 research-grade observations and 2470 of any grade (666 at species rank).",
-        "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note."
+        "No rarity or reintroduction flag is recorded; the 2011 checklist does not mark this species with an asterisk or other status note.",
+        "Owner decision 13 Nov 2026: stored at species level (iNat taxon 43335), subspecies ignored. Research-grade count is the species total in place 69020: https://api.inaturalist.org/v1/observations?taxon_id=43335&place_id=69020&quality_grade=research&per_page=0"
       ]
     }
   ],
