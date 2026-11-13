@@ -145,7 +145,7 @@ Try xeno-canto and the Macaulay Library. If no licensable recording is found, le
 | `estimate.low`, `estimate.high` | Integers, or `null`. Both null means no sourced figure has been entered. |
 | `unit` | `individuals`, `matureIndividuals`, or `null` when there is no estimate. Other birds units (`groups`, `breedingPairs`, `territories`, `pairs`) remain valid if a source uses them. |
 | `trend` | `increasing`, `stable`, `decreasing`, or `unknown`. |
-| `confidence` | `low`, `medium`, `high`, or `null`. Use `medium` or `low` when the official figure could only be read through a secondary source. |
+| `confidence` | `low`, `medium`, `high`, or `null`. Use `medium` or `low` when the figure is not from the official source. |
 | `asOf` | Year of the estimate, or `null`. |
 | `notes` | Plain text. Say when a PDF could not be fetched, and keep older figures in the note or in `previousEstimates`. |
 | `sources` | Citations: `title`, `url`, `publisher`, `year`, optional `note`. |

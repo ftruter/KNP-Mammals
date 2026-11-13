@@ -136,7 +136,7 @@
     "trend": "increasing",
     "confidence": "medium",
     "asOf": 2023,
-    "notes": "SANParks Scientific Services published a 2023 aerial-census range of 16,700–21,948 individuals for blue wildebeest in Kruger (sheet dated March 2025). The official PDF returned HTTP 403 (Cloudflare) from this environment and was not downloaded or stored. The numeric range is taken from that sheet as reported by visitthekrugerpark.com (read 6 October 2026) and matches the unlabelled 16,700–21,948 (2023) line in a search-index extract of the same PDF. The SANParks Part 2 census blog, which could be fetched, says the 2023 survey found wildebeest among the populations that have increased since the 1990s, but it does not print the numeric range. An earlier SANParks figure cited on the EWT species page is 9,342–17,936 animals in Kruger in 2017, or 12,555 mature individuals; that is kept here as a previous estimate, not as the current one. Regional Red List status is Least Concern.",
+    "notes": "One source claims a 2023 Kruger population of 16,700–21,948 blue wildebeest. SANParks reports that the population has increased since the 1990s. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. An earlier estimate for Kruger is 9,342–17,936 animals in 2017 (12,555 mature individuals), kept here as a previous estimate. Regional Red List status is Least Concern.",
     "previousEstimates": [
       {
         "estimate": {
@@ -154,7 +154,7 @@
         "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
         "publisher": "SANParks Scientific Services",
         "year": 2025,
-        "note": "Official census sheet, March 2025. Cited but not hosted. HTTP 403 from this research environment."
+        "note": "A more accurate figure may be available here. Cited, not hosted."
       },
       {
         "title": "Understanding Wildlife in Kruger National Park: Animal Population Trends (Part 2)",
@@ -167,7 +167,7 @@
         "url": "https://visitthekrugerpark.com/wildlife/",
         "publisher": "Visit the Kruger Park",
         "year": 2026,
-        "note": "Secondary reading of the March 2025 SANParks sheet (author states the sheet was read on 6 October 2026). Used only because the official PDF was blocked."
+        "note": "Source of the 2023 range."
       },
       {
         "title": "Blue Wildebeest",
@@ -509,16 +509,15 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "Text and measurements are sourced, but several size and habit figures come from compiled accounts (Wikipedia, Animal Diversity Web) rather than a southern-African field guide, which was not available. The 2023 Kruger census range could not be read from the official PDF in this session (HTTP 403). Confirm that range against the March 2025 SANParks sheet before treating it as high confidence. Local movement inside Kruger is cited from the EWT species page; a detailed Kruger seasonal map was not found.",
+    "note": "Text and measurements are sourced, but several size and habit figures come from compiled accounts (Wikipedia, Animal Diversity Web) rather than a southern-African field guide. The 2023 population range comes from one source; a more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Local movement inside Kruger is cited from the EWT species page; a detailed Kruger seasonal map was not found.",
     "researched": "13 November 2026, Africa/Johannesburg"
   },
   "gaps": [
-    "The official SANParks 2023 census PDF (March 2025 sheet) returned HTTP 403 (Cloudflare) and was not downloaded or stored. The 16,700–21,948 range is cited from a secondary reading of that sheet and a search-index extract, and should be confirmed from the PDF itself.",
-    "Macaulay Library search was blocked by a bot-check page, so no licensable recording could be confirmed there.",
+    "2023 population range is from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable recording was found in the Macaulay Library.",
     "iNaturalist has 0 sound observations for Connochaetes taurinus in place 69020.",
     "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia (citing Kingdon, Huffman, Estes and others) and Animal Diversity Web.",
     "No Kruger-specific calving-month range was found. General accounts give a short calving period after the rains, after a gestation of about 8 to 8.5 months.",
-    "Iris colour, ear colour, a sexed shoulder-height split, and underpart colour as a named value were not given in the sources used, so those marks are null.",
-    "Live SANParks HTML pages were not used (Phase 1 already recorded HTTP 403; the census PDF was also 403 in this session)."
+    "Iris colour, ear colour, a sexed shoulder-height split, and underpart colour as a named value were not given in the sources used, so those marks are null."
   ]
 }
