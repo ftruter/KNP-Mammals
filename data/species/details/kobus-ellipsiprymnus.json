@@ -1,0 +1,496 @@
+{
+  "kind": "species",
+  "slug": "kobus-ellipsiprymnus",
+  "scientificName": "Kobus ellipsiprymnus",
+  "commonNames": {
+    "en": "Waterbuck",
+    "af": "Waterbok"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42328,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho (common waterbuck, Kobus ellipsiprymnus ellipsiprymnus)",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Common Waterbuck",
+        "url": "https://ewt.org/project/common-waterbuck/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Least Concern; regional trend stable."
+      },
+      {
+        "title": "A conservation assessment of Kobus ellipsiprymnus ellipsiprymnus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/14.-Common-Waterbuck-Kobus-ellipsiprymnus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Waterbuck",
+        "url": "https://en.wikipedia.org/wiki/Waterbuck",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 120,
+      "max": 136
+    },
+    "headBodyLengthCm": {
+      "min": 177,
+      "max": 235
+    },
+    "tailCm": {
+      "min": 22,
+      "max": 45
+    },
+    "massKg": {
+      "male": {
+        "min": 198,
+        "max": 262
+      },
+      "female": {
+        "min": 161,
+        "max": 214
+      }
+    },
+    "note": "Head-and-body length, shoulder height (120–136 cm) and tail follow Wikipedia, citing Animal Diversity Web and Estes. Wikipedia also gives typical shoulder heights of about 127 cm in males and 119 cm in females. Sexed mass and male horn length (55–99 cm) follow the same Wikipedia compilation. A newborn typically weighs 13.6 kg."
+  },
+  "summary": "A large, shaggy-coated antelope of grassland near water. The coat is grey-brown, and a clear white ring circles the rump — the mark of the common waterbuck, the form in Kruger. Only males carry the long, forward-curving horns. It is a year-round resident, usually close to rivers and dams.",
+  "description": "The coat is long and shaggy, brown to grey, with a white muzzle, paler insides to the ears, and a cream patch or 'bib' on the throat. The diagnostic mark of the common waterbuck is a white ellipse around the rump, clearly visible from behind and from the side. Legs are short, strong and dark. Only males have horns: long, ridged, and curved backward then forward, 55–99 cm. Females are hornless. The defassa waterbuck, which has a white rump patch rather than a ring, is not the form treated here.",
+  "habits": "Rather sedentary and gregarious, in nursery herds of females and young or in bachelor groups, typically of about six to thirty animals. Males become territorial from about five years, and are most dominant from six. They will enter water to escape predators, and males may confront an attacker. It is described as a largely silent animal, aside from alarm snorts and threat displays that may include snorting.",
+  "diet": {
+    "summary": "Predominantly a grazer, usually staying close to drinking water.",
+    "items": [
+      "grasses"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is born after a gestation of seven to eight months; twins are rare. In equatorial regions breeding can occur year-round, with births peaking in the rainy season. The female isolates herself to give birth. Calves are weaned at about eight months, then join groups of similar age. A newborn typically weighs about 13.6 kg. Exact calving months for Kruger were not found in the sources used here.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator of this species."
+    }
+  ],
+  "prey": [],
+  "habitat": "Grassland and the edges of woodland, almost always near rivers, dams or other drinking water. In Kruger it is regularly photographed along the Sabie, Letaba and other river systems and at dams.",
+  "similar": [
+    {
+      "slug": "redunca-arundinum",
+      "note": "Waterbuck is much larger, with a shaggy grey-brown coat and a clear white ring around the rump. Reedbuck is slighter, and the male's horns are shorter and more sharply hooked forward."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 3291,
+      "high": 7150
+    },
+    "unit": "individuals",
+    "trend": "stable",
+    "confidence": "medium",
+    "asOf": 2023,
+    "notes": "One source claims a 2023 Kruger population of 3,291–7,150 waterbuck, and describes the trend as stable. An earlier Kruger estimate is 3,763–8,907 animals in 2012, cited on the EWT Common Waterbuck page. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf Regional Red List status is Least Concern.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 3763,
+          "high": 8907
+        },
+        "unit": "individuals",
+        "asOf": 2012,
+        "notes": "Kruger only, cited on the EWT Common Waterbuck page as a 2012 count (Ferreira et al. 2013). The same page also gives about 2,500–6,000 mature individuals in Kruger."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the quoted recent Kruger range."
+      },
+      {
+        "title": "Common Waterbuck",
+        "url": "https://ewt.org/project/common-waterbuck/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2012 Kruger figures and regional Least Concern / stable trend."
+      },
+      {
+        "title": "A conservation assessment of Kobus ellipsiprymnus ellipsiprymnus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/14.-Common-Waterbuck-Kobus-ellipsiprymnus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "long, ridged, curving backward then forward, 55–99 cm"
+        },
+        "ears": {
+          "colour": [
+            "brown",
+            "cream inside"
+          ],
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "brown to grey with a white muzzle and pale markings around the eyes",
+          "muzzle": "white",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "grey-brown"
+          ],
+          "pattern": "shaggy coat; a cream bib on the throat; a white ellipse around the rump"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "dark"
+        },
+        "tail": {
+          "colour": null,
+          "shape": "22–45 cm"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": [
+            "brown",
+            "cream inside"
+          ],
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "brown to grey with a white muzzle",
+          "muzzle": "white",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "grey-brown"
+          ],
+          "pattern": "shaggy coat; a white ellipse around the rump"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "dark"
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "grey-brown"
+          ],
+          "pattern": "white rump ellipse already visible in the Kruger photographs"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A shaggy grey-brown coat and a white ring around the rump. Males carry long, forward-curving horns; females are hornless."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "The white rump ellipse is the clearest field mark, especially in the common waterbuck of Kruger."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A white muzzle and, in males, long ridged horns that rise and curve out. Young males show shorter horns."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Described as a largely silent animal. Alarm snorts are used for vocal warning, and threat displays may also include snorting.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "kobus-ellipsiprymnus/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Waterbuck_(Kobus_ellipsiprymnus)_male_at_Kruger_NP,_Mpumalanga,_South_Africa.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Waterbuck_%28Kobus_ellipsiprymnus%29_male_at_Kruger_NP%2C_Mpumalanga%2C_South_Africa.jpg/1280px-Waterbuck_%28Kobus_ellipsiprymnus%29_male_at_Kruger_NP%2C_Mpumalanga%2C_South_Africa.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male waterbuck in side view in Kruger National Park, showing long horns and a white rump ring",
+      "caption": "Adult male, S1 road east of Phabeni Gate, Kruger National Park."
+    },
+    {
+      "key": "kobus-ellipsiprymnus/kruger-male-rump.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Waterbuck_(Kobus_ellipsiprymnus)_(17311902812).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Waterbuck_%28Kobus_ellipsiprymnus%29_%2817311902812%29.jpg/1280px-Waterbuck_%28Kobus_ellipsiprymnus%29_%2817311902812%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male waterbuck seen from behind, showing the white elliptical ring on the rump, Kruger National Park",
+      "caption": "Adult male, S100 road east of Satara, Kruger National Park."
+    },
+    {
+      "key": "kobus-ellipsiprymnus/kruger-female-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Waterbuck_(Kobus_ellipsiprymnus)_female_..._(51140470950).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Waterbuck_%28Kobus_ellipsiprymnus%29_female_..._%2851140470950%29.jpg/1280px-Waterbuck_%28Kobus_ellipsiprymnus%29_female_..._%2851140470950%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Hornless adult female waterbuck in side view, with a white rump ring, Kruger National Park",
+      "caption": "Adult female, S36 road south of Satara, Kruger National Park."
+    },
+    {
+      "key": "kobus-ellipsiprymnus/kruger-female-and-young.jpg",
+      "view": "standing-front",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Waterbucks_(Kobus_ellipsiprymnus)_female_and_young_..._(52338546005).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Waterbucks_%28Kobus_ellipsiprymnus%29_female_and_young_..._%2852338546005%29.jpg/1280px-Waterbucks_%28Kobus_ellipsiprymnus%29_female_and_young_..._%2852338546005%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A hornless adult waterbuck standing with a young animal in grassland, Kruger National Park",
+      "caption": "Female and young, H10 road north of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "kobus-ellipsiprymnus/kruger-young-male.jpg",
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Waterbuck_(Kobus_ellipsiprymnus)_young_male_..._(50844229711).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Waterbuck_%28Kobus_ellipsiprymnus%29_young_male_..._%2850844229711%29.jpg/1280px-Waterbuck_%28Kobus_ellipsiprymnus%29_young_male_..._%2850844229711%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A young male waterbuck facing the camera, with short horns, Kruger National Park",
+      "caption": "Young male, S50 road south of Shingwedzi, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Waterbuck",
+      "url": "https://en.wikipedia.org/wiki/Waterbuck",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Kobus ellipsiprymnus: waterbuck",
+      "url": "https://animaldiversity.org/accounts/Kobus_ellipsiprymnus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Common Waterbuck",
+      "url": "https://ewt.org/project/common-waterbuck/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Kobus ellipsiprymnus ellipsiprymnus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/14.-Common-Waterbuck-Kobus-ellipsiprymnus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the quoted recent Kruger range."
+    },
+    {
+      "title": "iNaturalist taxon Kobus ellipsiprymnus",
+      "url": "https://api.inaturalist.org/v1/taxa/42328",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Text and measurements are sourced from Wikipedia and Animal Diversity Web as well as the EWT assessment. The 2023 population range comes from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2023 population range is from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No Kruger-specific calving-month range was found.",
+    "Iris colour, a named mane, and a named underpart colour were not given in the sources used, so those marks are null.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No licensable sound recording was included from xeno-canto or iNaturalist."
+  ]
+}

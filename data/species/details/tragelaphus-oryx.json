@@ -1,0 +1,443 @@
+{
+  "kind": "species",
+  "slug": "tragelaphus-oryx",
+  "scientificName": "Tragelaphus oryx",
+  "commonNames": {
+    "en": "Eland",
+    "af": "Eland"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 75192,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Eland",
+        "url": "https://ewt.org/project/eland/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Least Concern; regional trend increasing. Notes earlier local declines in Kruger."
+      },
+      {
+        "title": "Common eland",
+        "url": "https://en.wikipedia.org/wiki/Common_eland",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 125,
+      "max": 183
+    },
+    "headBodyLengthCm": {
+      "min": 200,
+      "max": 345
+    },
+    "tailCm": {
+      "min": 50,
+      "max": 90
+    },
+    "massKg": {
+      "male": {
+        "min": 400,
+        "max": 942
+      },
+      "female": {
+        "min": 300,
+        "max": 600
+      }
+    },
+    "note": "Wikipedia gives females at 125–153 cm shoulder, 200–280 cm from snout to the base of the tail, and 300–600 kg (the lead also gives 340–445 kg for females). Males are 150–183 cm at the shoulder, 240–345 cm snout to tail base, and 400–942 kg (the lead also gives a typical male range of 500–600 kg, and says males can weigh up to 1,000 kg). Tail 50–90 cm. Horns are thicker and shorter in males (43–66 cm) than in females (51–69 cm). The southern Cape eland (T. o. oryx), the form in this region, is tawny, and adults lose their stripes."
+  },
+  "summary": "The largest antelope in Kruger: a heavy, ox-like spiral-horned animal of open woodland and grass. Both sexes have horns. Southern adults are tawny to grey-brown and usually lose the body stripes seen in more northerly forms. Bulls are much larger, darker, and have a heavy dewlap. It is one of the park's scarce, slowly recovering antelope. The official English name on the 2011 checklist is Eland.",
+  "description": "A massive, spiral-horned antelope. Females are tan; adult males become darker, often with a bluish-grey tinge, a dense forehead tuft and a large dewlap. Both sexes have horns with a spiral ridge; the male's are thicker and shorter, the female's longer and thinner. The southern Cape eland is the form relevant to Kruger: the coat is tawny, and adults lose the torso stripes that persist in some more northerly forms. Newborn horns appear as small buds. The official checklist name is Eland; iNaturalist prefers Common Eland. The scientific name was stored in 2011 as *Taurotragus oryx* and is remapped to *Tragelaphus oryx*.",
+  "habits": "Forms herds, sometimes large, but is not territorial. It browses in the drier months and also grazes when grass is plentiful. It uses loud barks, posture and movement to warn of danger; if a bull notices a predator it may bark and trot back and forth until the herd is alert. Eland can jump well despite their size. A clicking of the hooves, often heard when an animal walks, is widely reported; the usual explanation is the hoof halves snapping together, but that remains a suggestion. In Kruger the species is scarce.",
+  "diet": {
+    "summary": "A herbivore that browses in the drier months and grazes when grass is plentiful, taking a mix of forbs, trees, shrubs, grasses, seeds and tubers.",
+    "items": [
+      "leaves and shrubs",
+      "grasses",
+      "forbs",
+      "seeds",
+      "tubers"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is born after a gestation of nine months. After about 24 hours the cow and calf join a group with other calves; the young stay in a nursery group while the mother returns to the female herd, and leave the nursery at about two years. Exact calving months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    }
+  ],
+  "prey": [],
+  "habitat": "Savanna, woodland, and open grassland; it avoids dense forest. In Kruger it is scarce, and the iNaturalist photographs used here come from the Mopani and Pafuri areas of the park.",
+  "similar": [
+    {
+      "slug": "tragelaphus-strepsiceros",
+      "note": "Eland is much heavier, with a dewlap in the bull and horns in both sexes. Adult eland in the south are plain tawny or grey-brown and usually lack the kudu's clear vertical stripes. A kudu bull has much longer, more open 2.5-turn horns and a narrower body."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 226,
+      "high": 294
+    },
+    "unit": "individuals",
+    "trend": "increasing",
+    "confidence": "medium",
+    "asOf": 2023,
+    "notes": "One source claims a 2023 Kruger population of 226–294 eland, and describes the species as rare and slowly increasing, one of four antelope that crashed in the 1990s. The EWT assessment notes earlier local declines in Kruger (Harrington et al. 1999; Ferreira et al. 2013) but does not give a current park figure. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf Regional Red List status is Least Concern, with an increasing national trend.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the quoted recent Kruger range."
+      },
+      {
+        "title": "Eland",
+        "url": "https://ewt.org/project/eland/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Notes earlier local declines in Kruger; regional Least Concern / increasing."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "spiral-ridged, thicker and shorter than in the female, 43–66 cm"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "darker than the female, often with a dense forehead tuft",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "a rough mane may be present; the coat is otherwise fairly smooth"
+        },
+        "upperparts": {
+          "colour": [
+            "tawny",
+            "grey-brown",
+            "bluish-grey"
+          ],
+          "pattern": "southern adults usually without torso stripes; a large dewlap on the throat"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "50–90 cm"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "spiral-ridged, longer and thinner than in the male, 51–69 cm"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "tan",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "tan",
+          "pattern": "southern adults usually without torso stripes; no large dewlap"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "small buds in newborns, growing rapidly in the first seven months"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "tawny",
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A heavy body, a large dewlap, a darker coat than the female, and relatively short, thick horns."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "A tan coat and longer, thinner horns than the bull; southern adults are usually unstriped."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "A plain tawny rump and long, slightly spiralled horns, without the kudu's striped flanks."
+    },
+    {
+      "view": "standing-front",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "note": "A tan cow with a much smaller calf standing beside her."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Loud barks are used, with posture and movement, to warn the herd of danger. Bulls may bark and trot back and forth until the others are alert. A clicking of the hooves is often heard when an animal walks.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "tragelaphus-oryx/kruger-females-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/99502178",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165882967/large.jpeg",
+      "author": "Mark Bolnik",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two adult eland facing the camera in dry woodland, with spiral horns and oxpeckers on their backs, Kruger National Park",
+      "caption": "Research-grade iNaturalist observation, Mopani, Kruger National Park, 30 August 2017. The two tan animals are treated as adult females."
+    },
+    {
+      "key": "tragelaphus-oryx/kruger-females-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/99502178",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165882996/large.jpeg",
+      "author": "Mark Bolnik",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two adult eland seen from behind, showing tawny unstriped rumps and spiral horns, Kruger National Park",
+      "caption": "Research-grade iNaturalist observation, Mopani, Kruger National Park, 30 August 2017."
+    },
+    {
+      "key": "tragelaphus-oryx/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/251647282",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/450313710/large.jpeg",
+      "author": "Noeleen du Toit",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "An adult male eland in side view, showing a dewlap and a darker neck and face, Kruger National Park",
+      "caption": "Research-grade iNaturalist observation, Kruger National Park, 11 November 2024. The dewlap and darker forequarters identify an adult male."
+    },
+    {
+      "key": "tragelaphus-oryx/kruger-female-and-calf.jpg",
+      "view": "standing-front",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/195236531",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/343406253/large.jpeg",
+      "author": "Christiaan Viljoen",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "An adult eland standing with a small calf in grassland, Kruger National Park",
+      "caption": "Research-grade iNaturalist observation, Mopani, Kruger National Park, 23 November 2023."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Common eland",
+      "url": "https://en.wikipedia.org/wiki/Common_eland",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Taurotragus oryx: eland",
+      "url": "https://animaldiversity.org/accounts/Taurotragus_oryx/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Eland",
+      "url": "https://ewt.org/project/eland/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the quoted recent Kruger range."
+    },
+    {
+      "title": "iNaturalist taxon Tragelaphus oryx",
+      "url": "https://api.inaturalist.org/v1/taxa/75192",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2023 population range comes from one source. Wikimedia Commons photographs of this species by Bernard DUPONT were from other South African parks, not Kruger, so Kruger photographs were taken from research-grade iNaturalist observations in place 69020. Wikipedia mass figures do not fully agree between the lead and the body. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2023 population range is from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable close photograph of a Kruger eland bull of high technical quality was found; the male photograph used is a research-grade iNaturalist image that shows the dewlap clearly but is of modest resolution.",
+    "Commons photographs of eland in this session were from Mokala, Ithala, Camdeboo, Karoo and Mountain Zebra, not Kruger, and were not used.",
+    "Iris colour, ear colour, a named underpart colour and a named leg colour were not given in the sources used, so those marks are null.",
+    "No Kruger-specific calving-month range was found.",
+    "Wikipedia gives more than one mass range for each sex; both are recorded in the size note.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No licensable sound recording was included from xeno-canto or iNaturalist."
+  ]
+}

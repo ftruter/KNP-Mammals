@@ -1,0 +1,514 @@
+{
+  "kind": "species",
+  "slug": "syncerus-caffer",
+  "scientificName": "Syncerus caffer",
+  "commonNames": {
+    "en": "Buffalo",
+    "af": "Buffel"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42405,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho (southern savannah or Cape buffalo, Syncerus caffer caffer)",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Southern Savannah Buffalo",
+        "url": "https://ewt.org/project/southern-savannah-buffalo/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Least Concern; regional trend increasing."
+      },
+      {
+        "title": "A conservation assessment of Syncerus caffer caffer",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/29.-Southern-Savannah-Buffalo-Syncerus-caffer_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "African buffalo",
+        "url": "https://en.wikipedia.org/wiki/African_buffalo",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 140,
+      "max": 160
+    },
+    "headBodyLengthCm": {
+      "min": 210,
+      "max": 300
+    },
+    "massKg": {
+      "male": {
+        "min": 650,
+        "max": 900
+      },
+      "female": {
+        "min": null,
+        "max": 500
+      }
+    },
+    "note": "Figures are for the Cape or southern savannah buffalo, the subspecies in Kruger, from Wikipedia. Head-and-body length 210–300 cm; shoulder height 140–160 cm; males 650–900 kg; females reach a maximum of 500 kg (no published female minimum was found, so that bound is null). Animal Diversity Web also gives males over 835 kg and females up to 500 kg, and a captive calf mass of 24–60 kg (mean 40 kg). Wikipedia gives a wild calf mass of 30–40 kg. Forest buffalo measurements are smaller and are not used here."
+  },
+  "summary": "A heavy, dark bovine of herds that can number from a few animals to many hundreds. Adults are blackish, with a broad head and, in males, a thick bony boss across the forehead where the horns meet. Calves are born reddish-brown. Kruger holds a large resident population of the Cape or southern savannah form.",
+  "description": "The African buffalo is heavily built, with a broad head, a strong neck, and a dark, almost black coat in the Cape subspecies; the tail ends in a tuft. Males have a solid boss of bone across the forehead and heavy, downward-then-upward horns. Females have horns but a much lighter boss, or none of the same bulk. Calves are reddish-brown at first and darken with age. The official English name on the 2011 checklist is Buffalo; iNaturalist prefers African Buffalo. The form in Kruger is the Cape or southern savannah buffalo, *S. c. caffer*.",
+  "habits": "A social grazer. Herds range from a few animals to more than a thousand; in Kruger, herds have been recorded as averaging 300–500 (cited on the EWT page from Whyte 2004). Adult males may also live as bachelors or join herds for mating. The species is most often seen feeding in the morning and late afternoon and resting in cover in the heat of the day, but a Kruger-specific timetable was not found. Adults have few natural predators, mainly lion; when threatened they may stand and fight, and herds can drive lions off. Coughs and snorts are used when the animals are alarmed.",
+  "diet": {
+    "summary": "A ruminant grazer, feeding mainly on grass.",
+    "items": [
+      "grasses"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is born after a gestation of more than 10 months (more than 300 days). Wikipedia gives a wild calf mass of 30–40 kg; Animal Diversity Web records 24–60 kg (mean 40 kg) in captivity. Calves are reddish-brown and stay close to the cow. Weaning is between 10 and 18 months. The EWT assessment, citing Pienaar (1969), records that calves in Kruger are typically born between January and April. Lifespan in the wild is given as about 12 years.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator of this species."
+    }
+  ],
+  "prey": [],
+  "habitat": "A wide range of woodland, savanna, grassland and wetland, usually within reach of water. In Kruger, large herds and bachelor bulls are a feature of the mopane country in the north as well as of the south and centre of the park.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": 50741,
+      "high": 61754
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "medium",
+    "asOf": 2024,
+    "notes": "One source claims a 2024 Kruger population of 50,741–61,754 buffalo. The EWT assessment cites earlier Kruger figures of over 27,000 (Michel et al. 2006), 37,322 (Ferreira et al. 2013), and a 2011 census size of 40,900. It also notes that the Kruger subpopulation fluctuates with rainfall and drought, and that bovine tuberculosis is present in the park. No recent Kruger trend word was found in the sources used, so the trend is left unknown. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf Regional Red List status is Least Concern, with an increasing national trend.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 37322,
+          "high": 37322
+        },
+        "unit": "individuals",
+        "asOf": 2013,
+        "notes": "Kruger figure of 37,322 cited on the EWT Southern Savannah Buffalo page (Ferreira et al. 2013). A single published number is stored as both bounds."
+      },
+      {
+        "estimate": {
+          "low": 40900,
+          "high": 40900
+        },
+        "unit": "individuals",
+        "asOf": 2011,
+        "notes": "Kruger census size of 40,900 cited on the same EWT page."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the quoted recent Kruger range."
+      },
+      {
+        "title": "Southern Savannah Buffalo",
+        "url": "https://ewt.org/project/southern-savannah-buffalo/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Earlier Kruger figures, disease notes, and regional Least Concern / increasing national trend."
+      },
+      {
+        "title": "A conservation assessment of Syncerus caffer caffer",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/29.-Southern-Savannah-Buffalo-Syncerus-caffer_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "heavy, curving down then up, with a thick bony boss across the forehead"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark, broad and heavy",
+          "muzzle": "broad",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "black",
+            "blackish-brown"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": [
+            "black",
+            "blackish-brown"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": "dark"
+        },
+        "tail": {
+          "colour": "dark",
+          "shape": "ending in a tuft"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "present but slighter, without the heavy boss of an adult bull"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark",
+          "muzzle": "broad",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "black",
+            "blackish-brown"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": [
+            "black",
+            "blackish-brown"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": "dark"
+        },
+        "tail": {
+          "colour": "dark",
+          "shape": "ending in a tuft"
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "absent or only small buds in very young calves"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "reddish-brown",
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "reddish-brown",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "reddish-brown"
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A broad, dark head. Adult bulls show a solid boss where the horns meet; cows have slighter horns and little or no boss."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A heavy, short-legged body and a dark coat, with a tufted tail. Bulls are larger than cows."
+    },
+    {
+      "view": "standing-side",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "note": "A reddish-brown coat, without the adult's dark colour or heavy horns."
+    },
+    {
+      "view": "running",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "note": "Often moves in a tight group, with calves kept between the adults."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Coughs and snorts are usually made when the animals are threatened. Herds may also stay silent, especially at night, while watching for danger.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "syncerus-caffer/kruger-bull-head.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_Buffalo_(Syncerus_caffer)_bull_..._(50119409156).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/African_Buffalo_%28Syncerus_caffer%29_bull_..._%2850119409156%29.jpg/1280px-African_Buffalo_%28Syncerus_caffer%29_bull_..._%2850119409156%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close view of an adult male buffalo in Kruger National Park, showing the heavy horn boss",
+      "caption": "Adult bull, S1 road west of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "syncerus-caffer/kruger-bull-grazing.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Buffalo_(Syncerus_caffer)_bull_grazing_..._(51142829505).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Cape_Buffalo_%28Syncerus_caffer%29_bull_grazing_..._%2851142829505%29.jpg/1280px-Cape_Buffalo_%28Syncerus_caffer%29_bull_grazing_..._%2851142829505%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male buffalo facing the camera and feeding, with a full horn boss, Kruger National Park",
+      "caption": "Adult bull grazing, S90 road south of Olifants, Kruger National Park."
+    },
+    {
+      "key": "syncerus-caffer/kruger-cow.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_Buffalo_(Syncerus_caffer)_cow_..._(50118835268).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/African_Buffalo_%28Syncerus_caffer%29_cow_..._%2850118835268%29.jpg/1280px-African_Buffalo_%28Syncerus_caffer%29_cow_..._%2850118835268%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female buffalo in side view in Kruger National Park, with slighter horns and no heavy boss",
+      "caption": "Adult cow, S1 road west of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "syncerus-caffer/kruger-calf.jpg",
+      "view": "standing-front",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Day_11_Cape_Buffalo_(Syncerus_caffer)_calf_..._(53226106161).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Day_11_Cape_Buffalo_%28Syncerus_caffer%29_calf_..._%2853226106161%29.jpg/1280px-Day_11_Cape_Buffalo_%28Syncerus_caffer%29_calf_..._%2853226106161%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A reddish-brown buffalo calf standing beside an adult in Kruger National Park",
+      "caption": "Calf, H5 road south of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "syncerus-caffer/kruger-cow-and-calf.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Buffalo_(Syncerus_caffer)_cow_drinking_in_Levuhu_River_..._(53021006347).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Cape_Buffalo_%28Syncerus_caffer%29_cow_drinking_in_Levuhu_River_..._%2853021006347%29.jpg/1280px-Cape_Buffalo_%28Syncerus_caffer%29_cow_drinking_in_Levuhu_River_..._%2853021006347%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "An adult buffalo drinking at a river with a reddish-brown calf beside her, Kruger National Park",
+      "caption": "Cow and calf at the Luvuvhu River, Pafuri area, Kruger National Park."
+    },
+    {
+      "key": "syncerus-caffer/kruger-crossing.jpg",
+      "view": "running",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Day_27_Cape_buffaloes_(Syncerus_caffer)_bull,_calf_and_cow_crossing_..._(53264927885).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Day_27_Cape_buffaloes_%28Syncerus_caffer%29_bull%2C_calf_and_cow_crossing_..._%2853264927885%29.jpg/1280px-Day_27_Cape_buffaloes_%28Syncerus_caffer%29_bull%2C_calf_and_cow_crossing_..._%2853264927885%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A buffalo bull, cow and calf moving together through grass in Kruger National Park",
+      "caption": "Bull, cow and calf crossing, S28 road south of Lower Sabie, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "African buffalo",
+      "url": "https://en.wikipedia.org/wiki/African_buffalo",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Syncerus caffer: African buffalo",
+      "url": "https://animaldiversity.org/accounts/Syncerus_caffer/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Southern Savannah Buffalo",
+      "url": "https://ewt.org/project/southern-savannah-buffalo/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Syncerus caffer caffer",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/29.-Southern-Savannah-Buffalo-Syncerus-caffer_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the quoted recent Kruger range."
+    },
+    {
+      "title": "iNaturalist taxon Syncerus caffer",
+      "url": "https://api.inaturalist.org/v1/taxa/42405",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2024 population range comes from one source; earlier Kruger figures are from the EWT assessment. Trend is left unknown because a recent Kruger trend word was not found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2024 population range is from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No recent Kruger trend word was found, so trend is unknown.",
+    "A published minimum mass for females was not found; only a maximum of 500 kg.",
+    "Tail length, iris colour, ear colour and a named mane were not given in the sources used, so those marks are null.",
+    "The only iNaturalist sound observation in Kruger (place 69020) is not under a reusable licence, so no recording is included.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No licensable sound recording was included from xeno-canto or iNaturalist."
+  ]
+}

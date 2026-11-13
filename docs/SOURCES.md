@@ -416,3 +416,29 @@ Worked example: `data/species/details/connochaetes-taurinus.json`, schema in `do
 ### Per-species call count (this example)
 
 About 25 research lookups for *Connochaetes taurinus*, including the failed census-PDF and Macaulay attempts. Later species in a batch should aim at the same budget: a few iNaturalist calls, one Commons search, one xeno-canto HTML search, one Macaulay attempt, one census or Red List lookup, and two field-text sources, then stop and record gaps.
+
+## Batch 1 hints (8 Bovidae: Impala, Tsessebe, Waterbuck, Buffalo, Kudu, Nyala, Sable, Eland, 13 Nov 2026, Africa/Johannesburg)
+
+Details files: `data/species/details/<slug>.json` for `aepyceros-melampus`, `damaliscus-lunatus`, `kobus-ellipsiprymnus`, `syncerus-caffer`, `tragelaphus-strepsiceros`, `tragelaphus-angasii`, `hippotragus-niger`, `tragelaphus-oryx`. Branched from `data/phase4-proforma-wildebeest` because PR #6 was not yet on `main`.
+
+### What worked
+
+- **Population, same two secondary sources as the wildebeest pro forma.** `https://visitthekrugerpark.com/wildlife/` fetched as HTML 200 and quotes 2023 (buffalo: 2024) SANParks ranges and trend words for all of these species except nyala, which has habitat text but no count. Use "One source claims…", confidence medium, and "A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf". EWT 2025 HTML assessments often give an earlier Kruger figure (useful as `previousEstimates`) and the regional status and national trend. Impala is the exception: the EWT Impala page already cites the same 2023 range of 123,998–168,451, but the two sources disagree on the Kruger trend (stable vs increasing); record both.
+- **EWT project slugs are not always the checklist English name.** These fetched as 200: `/project/impala/`, `/project/tsessebe/`, `/project/greater-kudu/`, `/project/nyala/`, `/project/sable-antelope/` (also `/project/sable/`), `/project/eland/`, `/project/common-waterbuck/`, `/project/southern-savannah-buffalo/`. These 404'd: `/project/waterbuck/`, `/project/buffalo/`, `/project/african-buffalo/`, `/project/cape-buffalo/`, `/project/kudu/`, `/project/common-eland/`. A web search for `site:ewt.org` plus the scientific name found the two odd slugs. 2016 PDF URLs still work where tried (`14.-Common-Waterbuck-Kobus-ellipsiprymnus_LC.pdf`, `29.-Southern-Savannah-Buffalo-Syncerus-caffer_LC.pdf`); cite, do not host. The 2025 pages do not always link a new PDF.
+- **Commons search `"{scientific name} Kruger"` in namespace 6 remains the richest Kruger set**, again largely Bernard DUPONT, CC BY-SA 2.0. For eland, search `Tragelaphus oryx Kruger` is almost useless (one hit, a book PDF). Search `Taurotragus oryx` or `Common Eland Kruger` instead; even then, DUPONT's eland set is from Mokala, Ithala, Camdeboo, Karoo and Mountain Zebra, not Kruger. For Kruger eland, use iNaturalist place 69020 (only 9 research-grade observations with a reusable licence in this pull). Check the Commons description for the place before writing a Kruger caption.
+- **Title words such as "male", "female", "young", "calf", "lamb" and "nursery"** on Commons are a better calf-and-sex filter than iNaturalist `q=calf`. Still look at every thumb before tagging. A file titled "young male" may show no horns; do not tag sex from the title alone.
+- **Field text.** Wikipedia extracts must be fetched one title at a time (`exintro` unset). A multi-title extracts query truncates badly (sable and kudu shrank to a few hundred characters). Animal Diversity Web accounts exist for all eight; eland is under `Taurotragus_oryx` (the `Tragelaphus_oryx` URL is a short stub). Wikipedia's common tsessebe page (`Common_tsessebe`) is the right field-text source for Kruger; do not use East African topi migration or Serengeti feeding hours as Kruger habits. *Damaliscus lunatus* on the official list is stored at species rank.
+- **English names** stay as in `data/species-list.json` (the 2011 checklist): Impala, Tsessebe, Waterbuck, Buffalo, Kudu, Nyala, Sable, Eland — not "African buffalo", "Greater kudu", "Sable antelope" or "Common eland", though those may appear in remaps and in image alt text.
+
+### What failed or was thin
+
+- SANParks census PDF and the SANParks Part 2 blog both returned HTTP 403 (Cloudflare challenge) in this session. Do not mention that in the data files.
+- **xeno-canto HTML search is now behind an Anubis proof-of-work wall** (`Verifying visitor request…`) and returned no recording pages from this environment, including via WebFetch. API v3 still needs a key. Do not mention the wall in the data; log "No licensable sound recording was included from xeno-canto or iNaturalist." iNaturalist sounds in place 69020 were 0 for seven species; buffalo had one observation, all-rights-reserved, so it was not used.
+- Macaulay Library was not retried for this batch (the pro forma already found a bot-check page).
+- Nyala has no recent Kruger count on the visitkruger sheet or the EWT page (only "greater Kruger … 3,000" from Anderson 2013). Leave `estimate` bounds null.
+- Tsessebe and sable masses were published only as averages or typical values, not ranges; omit `massKg` rather than inventing min/max.
+- Skinner & Chimimba and Stuart remain unavailable.
+
+### EWT 2025 regional status from this batch
+
+Least Concern: Impala, Waterbuck, Buffalo, Kudu, Nyala, Eland. Vulnerable: Tsessebe (regional trend declining), Sable (regional trend stable; Kruger subpopulation increasing).
