@@ -1,0 +1,478 @@
+{
+  "kind": "species",
+  "slug": "papio-ursinus",
+  "scientificName": "Papio ursinus",
+  "commonNames": {
+    "en": "Chacma Baboon",
+    "af": "Kaapse bobbejaan"
+  },
+  "family": "cercopithecidae",
+  "inatTaxonId": 57556,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global (2019), and the 2025 regional Red List for South Africa, Eswatini and Lesotho (no change from 2016)",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Papio ursinus",
+        "url": "https://ewt.org/project/chacma-baboon/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Stone O, Slater K, Chowdhury S and da Silva JM. 2025, in Patel et al. (eds.). Regional status Least Concern; no change from 2016. The page header gives the regional population trend as stable. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "A conservation assessment of Papio ursinus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/7.-Chacma-Baboon-Papio-ursinus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "2016 regional assessment, Least Concern. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Chacma baboon",
+        "url": "https://en.wikipedia.org/wiki/Chacma_baboon",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Sithaldeen, R. 2019, IUCN Red List of Threatened Species, as Least Concern globally."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 50,
+      "max": 115
+    },
+    "tailCm": {
+      "min": 45,
+      "max": 84
+    },
+    "massKg": {
+      "male": {
+        "min": 21,
+        "max": 45
+      },
+      "female": {
+        "min": 12,
+        "max": 25
+      }
+    },
+    "note": "Head-and-body length (50–115 cm) and tail length (45–84 cm) follow the ranges compiled on Wikipedia, citing Nowak 1991 and Estes 1992. Sexed mass follows the same Wikipedia compilation (citing Burnie and Wilson 2005, Kingdon 1993 and later sources): adult males 21–45 kg (average 31.8 kg) and adult females 12–25 kg (average 15.4 kg). Animal Diversity Web gives a head-and-body length of 508–1,143 mm, which matches the Wikipedia range, a shorter tail of 456–711 mm, a narrower male mass of 26–31 kg, and a female mass of about 15 kg. Those disagreements are recorded here; the figures are not averaged. No shoulder height was found. Kalahari animals are reported on Animal Diversity Web to be somewhat smaller than average."
+  },
+  "summary": "A large, dog-faced monkey and the only baboon in Kruger. Adults are dark brown to grey, with a long downward-sloping muzzle, dark facial skin, and a bent tail. Males are much larger than females and have longish hair at the nape, but not the cape-like mane of some northern baboons. Troops are usually multi-male and multi-female. It is an opportunistic omnivore of savanna and woodland, and a common year-round resident of the park.",
+  "description": "The chacma baboon is one of the largest living monkeys. The face is long and slopes downward, and the facial skin is dark, described as purple-black. Adult pelage is generally dark brown to grey, with lighter underparts and a paler muzzle. The tail is long and characteristically bent. Males are substantially larger than females, with long canine teeth, and they have longish tufts of hair at the nape, but they lack the mane of Guinea, hamadryas and olive baboons. Three subspecies are commonly recognised. The grey-footed form (Papio ursinus griseipes) is slightly smaller and paler, with grey hands and feet that match the limbs; it occurs in northern South Africa, including parts of Limpopo Province, and is the form expected in Kruger. The typical Cape form, of more southern and western South Africa, is darker, with black hands and feet.",
+  "habits": "Diurnal and mainly terrestrial, though it climbs well and sleeps at night on cliffs, high rocks or in large trees. It lives in troops, typically of many adult males and females with their young; one-male groups also occur, and are reported to be especially common in the mountains of eastern South Africa. Animal Diversity Web gives a usual troop of 20–80 animals; the 2025 regional assessment gives a wider range, from as few as seven to as many as 115. Female rank is inherited through the mother and is relatively stable. Males leave their natal troop before they reach full adult size and compete for rank in a new troop. The strongest social bonds are often between unrelated adult males and females. Troops communicate with postures, facial expressions, vocalisations and touch, and they often groom. Daily movements are limited by drinking water and by the need to reach a sleeping site by nightfall.",
+  "diet": {
+    "summary": "A highly opportunistic omnivore. Typical foods include fruits, seeds, grass, leaves, flowers, bulbs, corms, roots, bark and invertebrates, with smaller amounts of eggs, birds, rodents and other small vertebrates. Animal Diversity Web names sausage-tree fruit (Kigelia) and figs among the fruits taken. One study, at Suikerbosrand Nature Reserve rather than in Kruger, estimated that animal-sourced food makes up only about 2% of the diet, mostly invertebrates. It is generally a scavenger of game meat and rarely hunts larger animals. In farmland and towns it will also take crops and human-derived food.",
+    "items": [
+      "fruits, including figs and sausage-tree fruit",
+      "seeds, grass, leaves and flowers",
+      "bulbs, corms, roots, tubers and bark",
+      "insects and other invertebrates",
+      "eggs, birds, rodents and other small vertebrates"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "There is no short breeding season; births occur through the year. A female usually has a single infant, on average every 1.5 to 2 years. The natal coat is black and is replaced by adult-like fur at around 6 months. An infant is wholly dependent on its mother for the first few months and typically reaches independence at about one year. Animal Diversity Web says gestation is probably similar to that of other Papio species (about 175–180 days); a chacma-specific gestation and a newborn mass were not given in the sources used here. Females and males reach sexual maturity around 5 years, but males usually do not breed successfully until they are large enough to challenge other males, at around 7 to 10 years. Orphaned infants may be adopted by other members of the troop.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard",
+      "note": "Named as the main wild predator of adult chacma baboons. A Waterberg study, outside Kruger, found that chacma baboons made up 20.2% of leopard kills."
+    },
+    {
+      "slug": "panthera-leo",
+      "en": "Lion",
+      "note": "Named as a predator in compiled accounts and in an Animal Diversity Web summary of predation in Botswana."
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog",
+      "note": "Named from a study in Mana Pools National Park, Zimbabwe, where chacma baboons were the main prey; that study was not done in Kruger."
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena",
+      "note": "Listed in compiled accounts as a less routine predator."
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed in compiled accounts as a less routine predator."
+    },
+    {
+      "slug": null,
+      "en": "Southern African rock python",
+      "note": "Not a mammal in this guide; listed in compiled accounts as a less routine predator."
+    },
+    {
+      "slug": null,
+      "en": "Martial eagle",
+      "note": "Not a mammal in this guide; documented taking young chacma baboons."
+    },
+    {
+      "slug": null,
+      "en": "Verreaux's eagle",
+      "note": "Not a mammal in this guide; documented taking young chacma baboons."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects and other invertebrates"
+    },
+    {
+      "slug": null,
+      "en": "Birds and eggs"
+    },
+    {
+      "slug": null,
+      "en": "Rodents"
+    },
+    {
+      "slug": null,
+      "en": "Small antelope",
+      "note": "Named in a compiled diet account; no species was given, and hunting of larger animals is described as rare."
+    }
+  ],
+  "habitat": "A wide range of woodland, savanna, grassland and other open or lightly wooded country, usually within reach of drinking water and of cliffs, rocks or large trees used as sleeping sites. The 2025 regional assessment says the species occurs across almost all biomes in the assessment region. A detailed Kruger-specific habitat account was not found; the species is a common year-round resident of the park.",
+  "similar": [
+    {
+      "slug": "chlorocebus-pygerythrus",
+      "note": "The vervet is much smaller, with a black face framed by a white fringe of hair and no long downward-sloping muzzle. Adult male vervets have a turquoise-blue scrotum. The chacma is a heavy, dog-faced baboon with a bent tail."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No sourced Kruger population figure was found. The 2025 regional assessment says there has been no census of overall population size in the assessment region, and that an accurate regional total is not yet possible. The same assessment gives the current population trend as unknown but suspected to be stable; the page header lists the regional trend as stable. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Papio ursinus",
+        "url": "https://ewt.org/project/chacma-baboon/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "No Kruger total is given. No regional census. Trend unknown but suspected to be stable."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark purple-black skin; a long, downward-sloping profile",
+          "muzzle": "long and heavy; the sides of the muzzle paler than the face",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "males have longish tufts of hair at the nape, but no cape-like mane"
+        },
+        "upperparts": {
+          "colour": [
+            "dark brown",
+            "grey"
+          ],
+          "pattern": "the grey-footed form is paler, fawn or grey-buff, with grey hands and feet; the typical Cape form is darker, with black hands and feet"
+        },
+        "underparts": {
+          "colour": "lighter than the upperparts",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "black hands and feet in the typical Cape form; grey, matching the limbs, in the grey-footed form"
+        },
+        "tail": {
+          "colour": null,
+          "shape": "long and characteristically bent; 45–84 cm"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "black natal coat",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "black",
+          "pattern": "natal pelage; replaced by adult-like fur at around 6 months"
+        },
+        "underparts": {
+          "colour": "black",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A long downward-sloping muzzle, dark facial skin, and no cape-like mane. Males are much larger than females."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A heavy, dog-like profile, a long bent tail, and a quadrupedal gait. Hands and feet may be black or grey, depending on the form."
+    },
+    {
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "note": "A very young infant has a black coat and clings to the mother. Older infants, once the natal coat has been replaced, ride on an adult's back."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "male",
+      "type": "call",
+      "description": "A two-phase bark, or 'wahoo', directed at feline predators or at other males. It may be preceded by a soft grunt. Animal Diversity Web treats this as an adult-male call that signals the male's presence and arousal.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A shrill bark, given by all except adult males, to signal alarm, especially at a sudden disturbance.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Other calls described for the species include screeching in aggressive encounters, a yakking retreat call in subadults and adults, and rhythmic grunting used as reassurance by all except infants. Juveniles chatter in play and give a low-distress 'ick-ooer'. The iNaturalist recording below is a research-grade field recording from Kruger; the recordist did not label the vocalisation.",
+      "recordings": [
+        {
+          "key": "inaturalist/406360551",
+          "source": "https://www.inaturalist.org/observations/406360551",
+          "fileUrl": "https://static.inaturalist.org/sounds/2187191.m4a",
+          "author": "Thelma Gátuzzô",
+          "license": "CC BY-NC",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "aiGenerated": false,
+          "hosted": false,
+          "place": "Kruger National Park",
+          "date": "2026-10-06",
+          "note": "Research-grade iNaturalist sound observation. The recordist did not describe the call type."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "key": "papio-ursinus/kruger-male-sitting.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Chacma_Baboon_(Papio_ursinus)_(16822794354).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Chacma_Baboon_%28Papio_ursinus%29_%2816822794354%29.jpg/1280px-Chacma_Baboon_%28Papio_ursinus%29_%2816822794354%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male chacma baboon sitting in Kruger National Park, showing the long downward-sloping muzzle and dark face",
+      "caption": "Adult male sitting, S140 road east of Orpen, Kruger National Park, 31 January 2015."
+    },
+    {
+      "key": "papio-ursinus/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Chacma_Baboon_(Papio_ursinus)_male_..._(53052319453).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Chacma_Baboon_%28Papio_ursinus%29_male_..._%2853052319453%29.jpg/1280px-Chacma_Baboon_%28Papio_ursinus%29_male_..._%2853052319453%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male chacma baboon walking in side view in Kruger National Park, showing the bent tail and long muzzle",
+      "caption": "Adult male walking, H1-2 road east of Skukuza, Kruger National Park, 3 April 2023."
+    },
+    {
+      "key": "papio-ursinus/kruger-eating-sausage-fruit.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Chacma_Baboons_(Papio_ursinus)_eating_Sausage_Tree_(Kigelia_africana)_fruit_..._(52526362720).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Chacma_Baboons_%28Papio_ursinus%29_eating_Sausage_Tree_%28Kigelia_africana%29_fruit_..._%2852526362720%29.jpg/1280px-Chacma_Baboons_%28Papio_ursinus%29_eating_Sausage_Tree_%28Kigelia_africana%29_fruit_..._%2852526362720%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Chacma baboons in Kruger National Park eating sausage-tree fruit, with a small infant clinging to an adult",
+      "caption": "Adults eating sausage-tree fruit, with a young infant, H4-1 road north of Lower Sabie, Kruger National Park, 11 June 2022."
+    },
+    {
+      "key": "papio-ursinus/kruger-infant-riding.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Baby_baboon_riding_mom,_Kruger_National_Park_(7826483274).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Baby_baboon_riding_mom%2C_Kruger_National_Park_%287826483274%29.jpg/1280px-Baby_baboon_riding_mom%2C_Kruger_National_Park_%287826483274%29.jpg",
+      "author": "flowcomm",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A young chacma baboon riding on an adult's back in Kruger National Park",
+      "caption": "Young baboon riding on an adult's back, Kruger National Park, 13 August 2012."
+    },
+    {
+      "key": "papio-ursinus/kruger-grooming.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Chacma_Baboons_(Papio_ursinus)_(17342998405).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Chacma_Baboons_%28Papio_ursinus%29_%2817342998405%29.jpg/1280px-Chacma_Baboons_%28Papio_ursinus%29_%2817342998405%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two adult chacma baboons grooming beside a road in Kruger National Park",
+      "caption": "Adults grooming, H1-3 road south of Satara, Kruger National Park, 28 January 2015."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Chacma baboon",
+      "url": "https://en.wikipedia.org/wiki/Chacma_baboon",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Papio ursinus: chacma baboon",
+      "url": "https://animaldiversity.org/accounts/Papio_ursinus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Chacma Baboon",
+      "url": "https://ewt.org/project/chacma-baboon/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Afrikaans name on this page is Bobbejaan. The Afrikaans name used here, Kaapse bobbejaan, is the 2011 checklist form in the species list."
+    },
+    {
+      "title": "A conservation assessment of Papio ursinus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/7.-Chacma-Baboon-Papio-ursinus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Papio ursinus",
+      "url": "https://api.inaturalist.org/v1/taxa/57556",
+      "publisher": "iNaturalist",
+      "year": 2026
+    },
+    {
+      "title": "Chacma Baboon, iNaturalist observation 406360551",
+      "url": "https://www.inaturalist.org/observations/406360551",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Text, measurements and call types are sourced, but several size and habit figures come from compiled accounts (Wikipedia, Animal Diversity Web) rather than a southern-African field guide. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Gestation is given only as a comparison with other Papio species.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No sourced Kruger population figure was found. The 2025 regional assessment says there has been no overall census in the assessment region. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young, predators and call types were taken from Wikipedia, Animal Diversity Web and the 2025 EWT assessment.",
+    "No shoulder height was found. Tail-length maxima disagree (Wikipedia 84 cm; Animal Diversity Web 71.1 cm).",
+    "A chacma-specific gestation and a newborn mass were not given; Animal Diversity Web only infers gestation from other Papio species.",
+    "Iris colour, ear colour and a named tail colour were not given in the text sources used, so those marks are null.",
+    "A detailed Kruger-specific habitat account was not found.",
+    "iNaturalist has 2 sound observations for Papio ursinus in place 69020. One research-grade, openly licensed Kruger recording is used; the recordist did not label the call type. The other observation is not research-grade and was made at a rest camp, so it was not used."
+  ]
+}

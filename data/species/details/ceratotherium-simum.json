@@ -1,0 +1,405 @@
+{
+  "kind": "species",
+  "slug": "ceratotherium-simum",
+  "scientificName": "Ceratotherium simum",
+  "commonNames": {
+    "en": "White rhinoceros",
+    "af": "Witrenoster"
+  },
+  "family": "rhinocerotidae",
+  "inatTaxonId": 43348,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened globally; Near Threatened in the regional assessment",
+    "scope": "IUCN global assessment of Ceratotherium simum (2020), and the 2016 regional Red List for the southern subspecies in South Africa, Eswatini and Lesotho",
+    "asOf": 2020,
+    "sources": [
+      {
+        "title": "Ceratotherium simum",
+        "url": "https://www.iucnredlist.org/species/4185/45813880",
+        "publisher": "IUCN",
+        "year": 2020,
+        "note": "Emslie, R. (2020). Near Threatened. Cited from the Wikipedia speciesbox (article-number e.T4185A45813880); the assessment itself is not hosted in this repo."
+      },
+      {
+        "title": "A conservation assessment of Ceratotherium simum simum",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/1.-Southern-White-Rhinoceros-Ceratotherium-simum-simum_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Emslie R, Adcock K. 2016, in Child et al. (eds.). Regional Red List status Near Threatened. Afrikaans name given as Witrenoster. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "White rhinoceros",
+        "url": "https://en.wikipedia.org/wiki/White_rhinoceros",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Speciesbox cites Emslie (2020), Near Threatened."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 160,
+      "max": 186
+    },
+    "headBodyLengthCm": {
+      "min": 335,
+      "max": 400
+    },
+    "tailCm": {
+      "min": 57,
+      "max": 77
+    },
+    "massKg": {
+      "male": {
+        "min": 2000,
+        "max": 2300
+      },
+      "female": {
+        "min": 1600,
+        "max": 1700
+      }
+    },
+    "note": "Shoulder height and head-and-body length follow Wikipedia (citing Macdonald 2001 and Groves 1972): bulls 170–186 cm at the shoulder and 370–400 cm in head-and-body length; cows 160–177 cm and 335–365 cm. The same Wikipedia compilation, citing Owen-Smith 1992 and Macdonald 2001, gives average mass as about 2,000–2,300 kg in bulls and 1,600–1,700 kg in cows, and treats specimens up to 3,600 kg as reliable. Animal Diversity Web gives unsexed adult mass of 1,000–3,600 kg, head-and-body length of 335–377 cm, tail length of 57–77 cm, and shoulder height of 171–285 cm. The 285 cm shoulder-height maximum disagrees sharply with Wikipedia and is not used in the fields above. Wikipedia gives the tail as 70 cm, which sits inside the Animal Diversity Web range used here. The front horn averages 60 cm and may reach 166 cm in cows; Animal Diversity Web gives the rear horn as up to 55 cm."
+  },
+  "summary": "A huge, square-lipped grazer of open grassland and savanna, second only to the elephant among land mammals. The body is yellowish-brown to slate grey and almost hairless, with a long, low-slung head, a hump on the nape, and two keratin horns, the front one larger. Kruger holds a resident population of the southern subspecies; numbers have fallen under poaching.",
+  "description": "The largest living rhinoceros, and on average heavier than a hippopotamus. The body is barrel-shaped and yellowish-brown to slate grey, with thick, folded, almost hairless skin; the only obvious hair is on the ear fringes and the tail bristles. The head is long and heavy, carried low, with relatively small eyes, a noticeable hump on the back of the neck, and a broad, straight, square lip used for cropping short grass. Two keratin horns sit one behind the other on the snout; the front horn is the larger. Both sexes carry horns, and the longest front horns are recorded in cows. Each foot has three toes. Calves are born without visible horns. The Kruger animals belong to the southern subspecies, Ceratotherium simum simum.",
+  "habits": "A relatively unaggressive grazer that may live in groups, especially cows with calves. Territorial bulls mark with dung piles and urine and will scrape the ground with the horn in threat; cow ranges overlap and are not defended in the same way. It spends about half the day feeding and about a third resting, and wallows in mud to cool the skin. Animal Diversity Web describes it as diurnal in winter and crepuscular in summer, and as not migrating seasonally. It drinks twice a day when water is at hand, but can go four or five days without. Eyesight is poor; hearing and smell are acute. Cows with young calves are more aggressive than other animals.",
+  "diet": {
+    "summary": "The world's largest purely graminivorous mammal, cropping short grasses close to the ground with its square lip. It prefers the shortest swards. Animal Diversity Web also lists fruit and the leaves, stems, seeds and flowers of trees; Wikipedia and the 2016 regional assessment, citing Skinner and Chimimba, treat the species as a pure grazer. That disagreement is recorded rather than averaged. It drinks often when water is available.",
+    "items": [
+      "short grasses, including Panicum, Urochloa and Digitaria"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is born, usually after a long gestation: Wikipedia gives about 16 months, Animal Diversity Web 530–550 days (about 17 to 18 months). Newborns weigh about 40–65 kg (Wikipedia) or 40–60 kg, averaging 48.5 kg (Animal Diversity Web), and are unsteady for the first two or three days. Horns become visible after about six weeks. When threatened, the calf runs in front of the cow, which will defend it vigorously. Weaning and suckling figures disagree: Wikipedia says weaning starts at two months but that the calf may suckle for more than 12 months; Animal Diversity Web says calves begin a solid diet at four to five months, that weaning usually starts at a year, and that milk may continue to 18 months. The birth interval is two to three years; the cow chases off her previous calf before the next birth. Age at sexual maturity also disagrees: Wikipedia gives 6–7 years in cows and 10–12 years in bulls; Animal Diversity Web gives 3–5 years in females, which usually first breed from five, and 5–7 years in males. Animal Diversity Web says breeding may occur all year in southern Africa, with a peak from October to December. No Kruger-specific calving months were found. White rhinoceroses may live 40–50 years.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion",
+      "note": "Documented mainly on calves, and in one case a sick adult bull outside Kruger; healthy adults are rarely taken."
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena",
+      "note": "Animal Diversity Web records rare fights that may damage an ear or the tail; it is not described as a regular predator of adults."
+    }
+  ],
+  "prey": [],
+  "habitat": "Grassland and savanna, including wooded grassland with short-grass openings, usually within reach of water. The 2016 regional assessment records a sizeable population in the greater Kruger area, as well as in other state and private reserves in South Africa.",
+  "similar": [
+    {
+      "slug": "diceros-bicornis",
+      "note": "The black rhinoceros lacks the white rhinoceros's broad, straight, square lip and its nuchal hump, and is a smaller animal. The white rhinoceros is a grazer of short grass; it carries its long head low."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 3529,
+      "high": 3529
+    },
+    "unit": "individuals",
+    "trend": "decreasing",
+    "confidence": "low",
+    "asOf": 2021,
+    "notes": "One source claims the Kruger population fell by 60% between 2013 and 2021, to an estimated 3,529 white rhinoceroses. That figure is not from a SANParks census publication. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. The 2016 regional Red List records a sizeable population in the greater Kruger area but does not publish a Kruger subpopulation total. Regional status is Near Threatened, with poaching the main threat.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "White rhinoceros",
+        "url": "https://en.wikipedia.org/wiki/White_rhinoceros",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Source of the claim of a 60% decline to 3,529 animals by 2021, citing the Siyabonga Africa update below."
+      },
+      {
+        "title": "Rhino Poaching Update",
+        "url": "https://www.krugerpark.co.za/krugerpark-times-e-6-rhino-poaching-update-25237.html",
+        "publisher": "Siyabonga Africa",
+        "year": 2022,
+        "note": "Underlying page cited by Wikipedia for the 2021 Kruger figure."
+      },
+      {
+        "title": "A conservation assessment of Ceratotherium simum simum",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/1.-Southern-White-Rhinoceros-Ceratotherium-simum-simum_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Records a sizeable greater-Kruger population but no Kruger total. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "two horns in line on the snout, the front one larger, averaging 60 cm and reaching as much as 166 cm in cows; the rear horn shorter, up to 55 cm"
+        },
+        "ears": {
+          "colour": null,
+          "shape": "fringed with hair; can move independently"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "long and heavy, carried low, with a broad, straight, square lip",
+          "muzzle": "wide and squared, used for cropping grass",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "a noticeable hump on the back of the neck, not a true mane"
+        },
+        "upperparts": {
+          "colour": [
+            "yellowish-brown",
+            "slate grey"
+          ],
+          "pattern": "thick, folded, almost hairless skin"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "about 57–77 cm, with a brush of bristles"
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "not visible at birth; become visible after about six weeks"
+        },
+        "ears": {
+          "colour": null,
+          "shape": "fringed with hair"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "already square-lipped, but smaller than the adult",
+          "muzzle": "wide and squared",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A long, low-slung head, a nuchal hump, a barrel body, and two horns in line, with the front horn larger."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The broad, straight, square lip used for grazing is the clearest distinction from the hook-lipped black rhinoceros."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "contact",
+      "description": "A panting contact call. Individual panting calls can differ and may help animals recognise one another.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Grunts and snorts during courtship and in fights; squeals of distress; deep bellows or growls when threatened; and a defensive snarl. Calves also pant, whine and squeak if they lose sight of the cow. Animal Diversity Web says bulls are generally louder than cows, and that a bull approaching a cow may give a hic-throbbing sound.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "ceratotherium-simum/kruger-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:White_Rhino_(Ceratotherium_simum)_close-up_..._(50671734292).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/White_Rhino_%28Ceratotherium_simum%29_close-up_..._%2850671734292%29.jpg/1280px-White_Rhino_%28Ceratotherium_simum%29_close-up_..._%2850671734292%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close-up of an adult white rhinoceros head, showing the wide square lip and two horns, in Kruger National Park",
+      "caption": "Adult, showing the wide square lip, Kruger National Park, 14 February 2014."
+    },
+    {
+      "key": "ceratotherium-simum/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:White_Rhino_(Ceratotherium_simum)_male_..._(46078947015).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/White_Rhino_%28Ceratotherium_simum%29_male_..._%2846078947015%29.jpg/1280px-White_Rhino_%28Ceratotherium_simum%29_male_..._%2846078947015%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male white rhinoceros standing in profile in Kruger National Park, showing the nuchal hump and two horns",
+      "caption": "Adult male, Kruger National Park, 3 February 2019."
+    },
+    {
+      "key": "ceratotherium-simum/kruger-grazing.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:White_Rhino_(Ceratotherium_simum)_grazing_..._(52441309439).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/White_Rhino_%28Ceratotherium_simum%29_grazing_..._%2852441309439%29.jpg/1280px-White_Rhino_%28Ceratotherium_simum%29_grazing_..._%2852441309439%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult white rhinoceros grazing with its head lowered in Kruger National Park",
+      "caption": "Adult grazing, Kruger National Park, 17 May 2022."
+    },
+    {
+      "key": "ceratotherium-simum/kruger-female-calf.jpg",
+      "view": "standing-back",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:White_rhinoceros_(Ceratotherium_simum)_with_calf_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/White_rhinoceros_%28Ceratotherium_simum%29_with_calf_Kruger.jpg/1280px-White_rhinoceros_%28Ceratotherium_simum%29_with_calf_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult white rhinoceros walking away through grass with a small calf at its side, Kruger National Park",
+      "caption": "Adult with calf, Kruger National Park, 26 April 2024."
+    },
+    {
+      "key": "ceratotherium-simum/kruger-juvenile.jpg",
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:White_rhinoceros_(Ceratotherium_simum)_juvenile_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/White_rhinoceros_%28Ceratotherium_simum%29_juvenile_Kruger.jpg/1280px-White_rhinoceros_%28Ceratotherium_simum%29_juvenile_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Juvenile white rhinoceros lying in long grass in Kruger National Park, with short horns visible",
+      "caption": "Juvenile lying in grass, Kruger National Park, 26 April 2024."
+    }
+  ],
+  "sources": [
+    {
+      "title": "White rhinoceros",
+      "url": "https://en.wikipedia.org/wiki/White_rhinoceros",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Ceratotherium simum: White rhinoceros",
+      "url": "https://animaldiversity.org/accounts/Ceratotherium_simum/",
+      "publisher": "Animal Diversity Web",
+      "year": null
+    },
+    {
+      "title": "A conservation assessment of Ceratotherium simum simum",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/1.-Southern-White-Rhinoceros-Ceratotherium-simum-simum_NT.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Emslie R, Adcock K. 2016. Cited only; the PDF is not hosted in this repo. Afrikaans name Witrenoster."
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate population figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "iNaturalist taxon Ceratotherium simum",
+      "url": "https://api.inaturalist.org/v1/taxa/43348",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Text and measurements are sourced, but several size, habit and life-history figures come from compiled accounts (Wikipedia, Animal Diversity Web) rather than a southern-African field guide, and those two sources disagree on shoulder height, gestation, weaning and age at sexual maturity. The 2021 Kruger population figure comes from one source; a more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. A 2025 EWT species page was not found.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "The 2021 Kruger population figure is from Wikipedia, citing a Siyabonga Africa page, not from the SANParks trends PDF itself. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "A 2025 EWT species page was not found, so the regional assessment used here is the 2016 Red List.",
+    "iNaturalist has 0 sound observations for Ceratotherium simum in place 69020. No licensable recording is included.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web, and the 2016 regional assessment.",
+    "Iris colour, a named underpart colour, a named horn colour, and a named leg colour were not given in the sources used, so those marks are null.",
+    "Animal Diversity Web's shoulder-height maximum of 285 cm disagrees sharply with Wikipedia's 160–186 cm range; the Wikipedia figures are used in the size fields.",
+    "Gestation, weaning and age at sexual maturity disagree between Wikipedia and Animal Diversity Web; both are recorded rather than averaged.",
+    "No Kruger-specific calving-month range was found. Animal Diversity Web gives a southern African breeding peak from October to December."
+  ]
+}

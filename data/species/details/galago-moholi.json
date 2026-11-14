@@ -1,0 +1,358 @@
+{
+  "kind": "species",
+  "slug": "galago-moholi",
+  "scientificName": "Galago moholi",
+  "commonNames": {
+    "en": "South African lesser bushbaby",
+    "af": "Nagapie"
+  },
+  "family": "galagidae",
+  "inatTaxonId": 43561,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho (unchanged from 2016)",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Southern Lesser Galago",
+        "url": "https://ewt.org/project/southern-lesser-galago-galago-moholi/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Patel T & da Silva JM. 2025. A conservation assessment of Galago moholi. Regional status Least Concern, trend stable, no change from 2016."
+      },
+      {
+        "title": "Mohol bushbaby",
+        "url": "https://en.wikipedia.org/wiki/Mohol_bushbaby",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Bearder, Svensson, Butynski and de Jong (2021), IUCN Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 14,
+      "max": 17
+    },
+    "tailCm": {
+      "min": 11,
+      "max": 28
+    },
+    "massKg": {
+      "male": {
+        "min": 0.16,
+        "max": 0.255
+      },
+      "female": {
+        "min": 0.142,
+        "max": 0.229
+      }
+    },
+    "note": "Head-and-body length (14–17 cm; also given as 140–177 mm) and tail length (11–28 cm) follow Animal Diversity Web, as do the sexed masses (males 160–255 g, mean 211 g; females 142–229 g, mean 188 g). Wikipedia, citing Mammals of Africa (Kingdon et al. 2013), gives single figures of 15 cm for head-and-body length and 23 cm for the tail; those sit inside the ADW ranges and are not treated as a separate range here. No shoulder-height figure was found. Adult males are slightly larger than adult females (EWT 2025; ADW)."
+  },
+  "summary": "A small, nocturnal bushbaby of acacia, mopane and riverine woodland. Adults are pale grey to greyish-brown above, with a whitish face and nose stripe, large grey ears, orange eyes in diamond-shaped black rings, yellowish limbs, white underparts, and a darker tail that is not very bushy. It sleeps by day in tree holes or leafy nests, often in small groups, and forages at night for insects and tree gum. It occurs as a resident in Kruger National Park.",
+  "description": "A small galago with a broad head, a short muzzle and very large, independently movable grey ears. The eyes are orange and sit in diamond-shaped black rings, and a pale nose stripe with diffuse margins runs down a face that is otherwise suffused with white. The upperparts, head and outer limbs are predominantly pale grey; the back and rump may be washed with russet brown, and some accounts describe the dorsal pelage as greyish-brown. The underparts are white, sometimes with a yellowish tinge, and the flanks, inner limbs, hands and feet are washed with yellow. The tail is darker than the body, generally a mix of brown and grey hairs, and is not very bushy. Fingers and toes have spatulate tips. Adult males are slightly larger than females. The species is distinguished from the Mozambique dwarf galago by this paler grey colour; that species is not in this guide.",
+  "habits": "Nocturnal. By day it sleeps in acacia or mopane tree holes, hollow trunks, leafy nests built in the wet season, or simply hidden among branches, often in groups of two to seven that huddle together. At dusk the group splits and animals forage alone or occasionally in pairs. It is a vertical clinger and leaper, with hind limbs much longer than the forelimbs, and it can travel on the ground between gum trees in the dry season. Resident males hold territories that overlap those of one to three adult females; young males disperse at about nine months and range more widely. Both sexes scent-mark with sternal glands and by urine-washing the hands and feet. Sources disagree on torpor: some accounts treat seasonal torpor as absent, while the 2025 regional assessment describes selective torpor as an energy- and water-saving adaptation, and other work treats it as an emergency response in extreme cold. The species occurs in Kruger National Park, and there is no indication of a seasonal absence.",
+  "diet": {
+    "summary": "Primarily insectivorous and gummivorous. Arthropods, especially moths, beetles and butterflies, make up most of the diet in the wet season. Gum from acacia trees (notably sweet thorn and umbrella thorn) is taken year-round and is relied on more heavily in winter, when insects are scarce. The species can meet its water needs from food and is independent of standing water. In some regions it also takes fruit and small vertebrates such as lizards and geckos, a habit that is not seen everywhere.",
+    "items": [
+      "moths, beetles, butterflies and other arthropods",
+      "acacia gum, especially from sweet thorn (Vachellia / Acacia karroo) and umbrella thorn (Vachellia / Acacia tortilis)",
+      "fruit, and small vertebrates such as lizards and geckos, in some regions only"
+    ],
+    "guild": "insectivorous and gummivorous"
+  },
+  "young": "Females may breed twice in a southern African summer, with births in October to early November and again in late January to early February, after a gestation of about 121 to 124 days. The first litter is usually a single young; later litters are often twins, and litters of one to three are reported. Newborns weigh about 10 g, are furred and have their eyes open. The mother parks infants in tree forks or vegetation while she forages, and carries them by the scruff of the neck for the first 50 days or so. Weaning is at about 93 days, though young may start to catch insects from about four weeks. Exact birth months for Kruger were not found beyond this southern African pattern.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Eagles",
+      "note": "Not a mammal in this guide; listed because eagles are documented predators of this species."
+    },
+    {
+      "slug": null,
+      "en": "Owls",
+      "note": "Not a mammal in this guide; listed because owls are documented predators of this species."
+    },
+    {
+      "slug": null,
+      "en": "Snakes",
+      "note": "Not a mammal in this guide; listed because snakes are documented predators of this species."
+    },
+    {
+      "slug": null,
+      "en": "Mongooses",
+      "note": "Animal Diversity Web lists mongooses as predators at family level, without naming a species in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Genets and civets",
+      "note": "Animal Diversity Web lists genets and civets as predators at subfamily level, without naming a species in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Lizards and geckos",
+      "note": "Taken in some regions only, together with arthropods; not a mammal in this guide."
+    }
+  ],
+  "habitat": "Savanna, miombo and mopane woodland and riverine gallery forest, from sea level to 1,500 m, and especially associated with acacia trees that supply gum and tree holes. It also uses the edges of wooded areas and can live near human settlements. The 2025 regional assessment records the species in Kruger National Park and in the bushveld and woodland of Limpopo, Mpumalanga, Gauteng and North West.",
+  "similar": [
+    {
+      "slug": "otolemur-crassicaudatus",
+      "note": "The South African lesser bushbaby is a small galago (head-and-body length 14–17 cm, mass about 142–255 g) with large grey ears and a tail that is darker than the body but not very bushy. The 2025 regional assessment treats the thick-tailed bushbaby as its larger relative, and describes the lesser bushbaby's woodland habitat as more continuous and less fragmented than that of the thick-tailed species."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population estimate was found in the sources used here. One source gives density estimates of 31 animals per km² in a 1 km² radio-tag study and 13.5 animals per km² in northeastern South Africa, and suggests there are likely more than 10,000 mature individuals across the assessment region, but these are not park totals. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. The regional Red List trend is stable.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Southern Lesser Galago",
+        "url": "https://ewt.org/project/southern-lesser-galago-galago-moholi/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional densities and the assessment-region total, not a Kruger count. Trend for the assessment region is stable."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "grey",
+          "shape": "very large, with four transverse ridges; the tips can be folded down almost to the base, and the ears can be moved independently"
+        },
+        "eye": {
+          "iris": "orange",
+          "ring": "diamond-shaped black eye-rings, described in one account as a dark mask"
+        },
+        "head": {
+          "face": "suffused with white; pale nose stripe with diffuse margins",
+          "muzzle": "short, on a broad head",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "pale grey",
+            "greyish-brown"
+          ],
+          "pattern": "back and rump may be washed with russet brown"
+        },
+        "underparts": {
+          "colour": [
+            "white",
+            "yellowish-white"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": "washed with yellow on the flanks, inner limbs, hands and feet; outer surfaces of the limbs pale grey"
+        },
+        "tail": {
+          "colour": [
+            "brown",
+            "grey"
+          ],
+          "shape": "darker than the body, not very bushy, 11–28 cm"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A broad head, a short muzzle, a whitish face and nose stripe, orange eyes in diamond-shaped black rings, and very large grey ears."
+    },
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Pale grey to greyish-brown upperparts, yellowish inner limbs, and a darker tail that is not very bushy."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "The advertisement call of a resident is peculiar to this species and is used to diagnose it. The vocal repertoire is large, with up to 25 calls described, including territorial advertisement, gathering calls before animals enter a sleeping site, and courtship calls by males.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Alarm calls may be taken up by others in the area, which may then mob a predator.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "contact",
+      "description": "Mothers use soothing contact calls to distressed infants. Young call to the mother with a clicking sound, and an infant left too long or in danger gives a distress call that summons her.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "galago-moholi/kruger-makuleke.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/86267008",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/142087351/large.jpg",
+      "author": "Niall Perrins",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "South African lesser bushbaby clinging to a branch at night in the Makuleke area of Kruger National Park, showing large grey ears, orange eyes and a darker tail",
+      "caption": "Research-grade iNaturalist observation, Makuleke, Kruger National Park, 16 March 2018."
+    },
+    {
+      "key": "galago-moholi/kruger-tree-hole.jpg",
+      "view": "perched-front",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/135167447",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/230501749/large.jpeg",
+      "author": "wang cai",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two South African lesser bushbabies looking out from a tree hollow at dusk in northern Kruger National Park",
+      "caption": "Two animals at a tree hollow. Research-grade iNaturalist observation, northern Kruger National Park, 9 September 2022."
+    },
+    {
+      "key": "galago-moholi/kruger-acacia.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/103747188",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/173712564/large.jpg",
+      "author": "Niall Perrins",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "South African lesser bushbaby in side view on a thorny acacia branch at night in southern Kruger National Park",
+      "caption": "Research-grade iNaturalist observation, southern Kruger National Park, 10 October 2019."
+    },
+    {
+      "key": "galago-moholi/kruger-central.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/123812972",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/209791864/large.jpg",
+      "author": "Charley Hesse",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "South African lesser bushbaby perched in a tree at night in central Kruger National Park, showing the grey coat and large ears",
+      "caption": "Research-grade iNaturalist observation, central Kruger National Park, 21 June 2022."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Southern Lesser Galago",
+      "url": "https://ewt.org/project/southern-lesser-galago-galago-moholi/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Patel T & da Silva JM. 2025. A conservation assessment of Galago moholi. Afrikaans name Nagapie; Kruger listed among protected areas of occurrence."
+    },
+    {
+      "title": "Mohol bushbaby",
+      "url": "https://en.wikipedia.org/wiki/Mohol_bushbaby",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Description and single-figure size citing Kingdon et al., Mammals of Africa (2013)."
+    },
+    {
+      "title": "Galago moholi: South African galago",
+      "url": "https://animaldiversity.org/accounts/Galago_moholi/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Galago moholi",
+      "url": "https://api.inaturalist.org/v1/taxa/43561",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Appearance, habits, diet, young and calls are sourced from the 2025 EWT regional assessment, Animal Diversity Web and Wikipedia (citing Kingdon et al. 2013). Size ranges follow ADW; Wikipedia gives single figures that sit inside those ranges. Sources disagree on whether the species uses torpor. No Kruger population figure was found. Skinner & Chimimba and Stuart's field guide were not used. The 2016 regional Red List PDF was not retrieved; the 2025 EWT page states that the Least Concern listing is unchanged from 2016.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population estimate was found. Density figures and a regional total of more than 10,000 mature individuals are not park counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "iNaturalist has 0 sound observations for Galago moholi in place 69020. No openly licensed Kruger recording was added.",
+    "The 2016 SANBI/EWT Red List PDF was not retrieved. Regional Least Concern status and the statement that it is unchanged from 2016 are taken from the 2025 EWT species page.",
+    "Skinner & Chimimba and Stuart's field guide were not available.",
+    "No shoulder-height measurement was found, so that size field is omitted.",
+    "No young or sexed adult variant beyond a single adult of either sex: newborn coat colour, other than being furred, was not described in enough detail for a marks block.",
+    "Iris colour is sourced as orange; a named ear colour other than grey, and a beard, were not given as separate values beyond the marks entered.",
+    "Predators are sourced only at group level (eagles, owls, snakes, mongooses, genets and civets), not as named species in this guide.",
+    "Wikimedia Commons photographs tagged Kruger were rest-camp shots at Lower Sabie and were not used. Two further iNaturalist Kruger candidates were dropped after preview (eye-shine only, or too blurry)."
+  ]
+}

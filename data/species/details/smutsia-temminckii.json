@@ -1,0 +1,366 @@
+{
+  "kind": "species",
+  "slug": "smutsia-temminckii",
+  "scientificName": "Smutsia temminckii",
+  "commonNames": {
+    "en": "Pangolin",
+    "af": "Ietermagog"
+  },
+  "family": "manidae",
+  "inatTaxonId": 75083,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Vulnerable",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Pangolin",
+        "url": "https://ewt.org/project/pangolin/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Pietersen DW, Jansen R, Panaino W, Swart J, da Silva JM and Power RJ. 2025. A conservation assessment of Smutsia temminckii. Regional status Vulnerable A4cd; regional trend declining."
+      },
+      {
+        "title": "A conservation assessment of Smutsia temminckii",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/Temmincks-Ground-Pangolin-Smutsia-temminckii_VU.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Pietersen D, Jansen R, Swart J, Kotze A. 2016, in Child et al. (eds.). Regional status Vulnerable. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Ground pangolin",
+        "url": "https://en.wikipedia.org/wiki/Ground_pangolin",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Pietersen, Jansen and Connelly (2019), IUCN global status Vulnerable."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 40,
+      "max": 70
+    },
+    "tailCm": {
+      "min": 40,
+      "max": 70
+    },
+    "massKg": {
+      "min": 7,
+      "max": 18
+    },
+    "note": "Head-and-body length of 40–70 cm, a tail of about the same length, and an unsexed mass of 7–18 kg follow Animal Diversity Web. Males are larger than females; Wikipedia, citing a general pangolin account, says males are 10–50% heavier, but no sexed mass or length ranges were found. No shoulder-height figure was found. Wikipedia also gives length and mass ranges of 30–90 cm (excluding the tail) and 5–27 kg, but those figures are for pangolins as a group, not for this species, and are not entered here."
+  },
+  "summary": "A solitary, mostly nocturnal mammal whose body is covered in overlapping olive-brown keratin scales, except on the snout, face, throat and belly. It walks upright on its hind legs, with the forelimbs and long tail held off the ground, and curls into a tight, scale-outward ball when threatened. It feeds only on selected ants and termites. Kruger holds a resident population, but the species is seldom seen.",
+  "description": "The only pangolin in southern and eastern Africa. Adults are covered in overlapping keratin scales that give a dark olive-brown, pine-cone appearance and make up about a fifth of body weight; the snout, chin, throat, sides of the face and belly are unscaled and have only sparse fur. The head is small and conical, the jaws lack teeth, and the long sticky tongue is used to lap up prey. The eyes are small and protected by thick eyelids; the ear pinnae are reduced. Each forelimb has three long, curved central claws and two smaller claws, used to break into ant and termite nests and to dig; the hind feet have five toes, and the animal often walks bipedally, using the tail as a counterweight. The tail is long, broad and sharp-edged. Mature colour is light brown, olive or dark brown; young are paler brown or pink, and their scales are soft at birth. Males are larger than females, but the sexes are not otherwise readily told apart in the field.",
+  "habits": "Predominantly nocturnal and solitary, coming together only to mate. It spends the day in earthen burrows dug by other species, in caves, or in piles of plant debris; it can dig its own burrow but often uses holes abandoned by aardvarks or warthogs, or lies up in dense vegetation. Young animals are more diurnal than adults, and all ages may become more diurnal in winter or when food is scarce. It walks slowly and bipedally on the hind legs, with the front limbs and tail held off the ground, but uses all four limbs, and sometimes the tail, on steep or rocky ground, and may climb onto stumps or the lower parts of trees to reach prey. When threatened it rolls into a ball, hisses and puffs, and may lash with the sharp-edged tail or release a noxious secretion from glands near the anus. Home ranges in eastern South Africa have been given as 1.3–7.9 km². It is largely independent of drinking water, but will drink when free-standing water is available.",
+  "diet": {
+    "summary": "Entirely myrmecophagous: it eats only a small number of ant and termite species, chosen by smell rather than by which prey is most abundant, and will pass over whole nests of species it does not eat. It has no teeth; prey is swallowed whole and crushed in a muscular, gizzard-like stomach, sometimes with swallowed stones. It will drink from free-standing water when it is available.",
+    "items": [
+      "ants",
+      "termites"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Usually a single pup is born after a gestation given as 105–140 days on the 2025 regional Red List, or about 139 days on Animal Diversity Web. Newborns weigh about 200–500 g and are around 15 cm long, with soft, pale scales that begin to harden by the second day. The pup starts riding on the mother's tail at about one month, begins to take prey around then, and becomes independent at 3–4 months; Animal Diversity Web says young may still be carried until they weigh about 3 kg. Pups start dispersing at about one year. The 2025 regional assessment says females mature in their second year but are unlikely to breed before they are 3–4 years old, and that males probably first breed at 6–7 years; Wikipedia instead gives sexual maturity at two years. Females may raise only one young every second year. Breeding can occur throughout the year; Wikipedia adds that mating tends to be in summer and autumn, with no sharply defined season.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    }
+  ],
+  "prey": [],
+  "habitat": "Arid and mesic savanna, woodland and floodplains at lower elevations, largely where ants and termites are available. It is largely absent from karroid country, tropical forest, Highveld grassland and the coast, and it does not use land under crop farming.",
+  "similar": [
+    {
+      "slug": "orycteropus-afer",
+      "note": "The aardvark is the other large nocturnal ant- and termite-eater in Kruger, but it has a long pig-like snout, large ears and a sparsely haired body, with no overlapping keratin scales. This is the only pangolin in southern and eastern Africa."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "One source claims a density of 24 individuals / 100 km², and 12 reproductively active individuals / 100 km², in the greater Kruger National Park (Swart 2013; Pietersen et al. 2014b, cited on the 2025 EWT species page). No Kruger head count was found in the sources used, and that density is not converted into a total here. The 2025 regional assessment lists the South African subpopulation as declining, but a Kruger-specific trend was not given. Regional Red List status is Vulnerable. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Pangolin",
+        "url": "https://ewt.org/project/pangolin/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Source of the greater Kruger density, citing Swart 2013 and Pietersen et al. 2014b."
+      },
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "small and reduced"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "small conical head with unscaled sides, thick eyelids and no teeth",
+          "muzzle": "unscaled snout",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "olive",
+            "brown"
+          ],
+          "pattern": "overlapping keratin scales"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": "unscaled, with sparse fur"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": [
+            "olive",
+            "brown"
+          ],
+          "shape": "long, broad and sharp-edged, used as a counterweight"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "small and reduced"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "small conical head",
+          "muzzle": "unscaled snout",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "pale brown",
+            "pink"
+          ],
+          "pattern": "scales soft at birth, hardening after the first day"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": "unscaled, with sparse fur"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "used as a riding place by the pup"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Walks bipedally on the hind legs, with the forelimbs tucked and the long scaled tail held off the ground as a counterweight. Overlapping olive-brown scales cover the back, flanks and tail."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The back is a tight roof of overlapping keratin scales. The head may be tucked, and the animal can roll into a scale-outward ball."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "When threatened it may hiss and puff as it rolls into a ball. No other call of the species was described in the sources used here.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "smutsia-temminckii/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/122795564",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/207950060/large.jpeg",
+      "author": "bnchapple",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult pangolin in side view walking through dry grass in Kruger National Park, showing overlapping scales, a small head and a long tail",
+      "caption": "Adult walking, Kruger National Park, 13 February 2016."
+    },
+    {
+      "key": "smutsia-temminckii/kruger-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/41712649",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/66176158/large.jpg",
+      "author": "Raymond VanBuskirk",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult pangolin seen from behind in Kruger National Park, showing a tight roof of overlapping keratin scales",
+      "caption": "Adult, Kruger National Park, 7 October 2019."
+    },
+    {
+      "key": "smutsia-temminckii/kruger-side-close.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/19497578",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30002308/large.jpeg",
+      "author": "Bill Crins",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close side view of an adult pangolin in dry grass in Kruger National Park, showing the scale edges and front claws",
+      "caption": "Adult, Kruger National Park, 22 October 2018."
+    },
+    {
+      "key": "smutsia-temminckii/kruger-walking.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/376185879",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/687788208/large.jpg",
+      "author": "Daniel Correia",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult pangolin walking through tall dry grass in Kruger National Park",
+      "caption": "Adult walking, Kruger National Park, 3 June 2026."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pangolin",
+      "url": "https://ewt.org/project/pangolin/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Smutsia temminckii",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/Temmincks-Ground-Pangolin-Smutsia-temminckii_VU.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Ground pangolin",
+      "url": "https://en.wikipedia.org/wiki/Ground_pangolin",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Manis temminckii: ground pangolin",
+      "url": "https://animaldiversity.org/accounts/Manis_temminckii/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": 2000
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "Cited, not hosted."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Text is sourced from the 2025 EWT regional assessment, Wikipedia and Animal Diversity Web (a 2000 account under Manis temminckii). Size follows ADW; no sexed measurements or shoulder height were found. One source claims a greater Kruger density, but no Kruger head count was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Gestation, age at first breeding and how long the pup is carried disagree slightly between the EWT assessment, ADW and Wikipedia; those disagreements are kept in the young field rather than averaged. The 2011 checklist English name Pangolin is kept; EWT and iNaturalist prefer Temminck's pangolin or Temminck's Ground Pangolin. Afrikaans Ietermagog follows the 2011 checklist and the EWT page (which also lists Ystermagog).",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger head count was found. One source claims a density of 24 individuals / 100 km² (12 reproductively active individuals / 100 km²) in the greater Kruger National Park. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "iNaturalist has 0 sound observations for Smutsia temminckii in place 69020. No licensable recording was entered.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, some habits and young figures were taken from Animal Diversity Web and Wikipedia as well as the EWT assessment.",
+    "No shoulder-height figure, no sexed mass or length split, and no iris, ear or underpart colour as a named value were found, so those marks are null.",
+    "No front-on or defensive rolled-ball photograph was in the shortlisted Kruger set. One otherwise useful South African photograph was dropped because of a watermark.",
+    "Animal Diversity Web still lists a global IUCN status of Least Concern, which is out of date relative to the 2019 IUCN and 2025 regional assessments (Vulnerable)."
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "kind": "species",
+  "slug": "otolemur-crassicaudatus",
+  "scientificName": "Otolemur crassicaudatus",
+  "commonNames": {
+    "en": "Thick-tailed bushbaby",
+    "af": "Bosnagaap"
+  },
+  "family": "galagidae",
+  "inatTaxonId": 43567,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho (uplisted from Least Concern in 2016). IUCN global status is Least Concern (2019).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Thick-tailed Bushbaby",
+        "url": "https://ewt.org/project/thick-tailed-bushbaby-otolemur-crassicaudatus/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Cuozzo FP, Sauther ML, Linden B & da Silva JM. 2025. A conservation assessment of Otolemur crassicaudatus. Regional status Near Threatened B2ab(iii), trend assumed stable, uplisted from Least Concern in 2016. Afrikaans name Bosnagaap. Kruger National Park is listed among protected areas of occurrence."
+      },
+      {
+        "title": "Fact sheet: the 2025 regional Mammal Red List of South Africa, Eswatini and Lesotho",
+        "url": "https://ewt.org/wp-content/uploads/2026/02/Fact-Sheet_Mammal-Red-List_2.pdf",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2026,
+        "note": "Confirms the uplisting from Least Concern to Near Threatened, citing ongoing habitat loss and degradation, linear infrastructure, and killings by domestic dogs. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Brown greater galago",
+        "url": "https://en.wikipedia.org/wiki/Brown_greater_galago",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Masters and Bearder (2019), IUCN global status Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 29.7,
+      "max": 37.3
+    },
+    "tailCm": {
+      "min": 41.5,
+      "max": 47.3
+    },
+    "massKg": {
+      "min": 1,
+      "max": 2
+    },
+    "note": "Structured head-and-body (297–373 mm) and tail (415–473 mm) lengths, and the unsexed mass range of 1–2 kg, follow Animal Diversity Web. Wikipedia gives a wider head-and-body range of 26–47 cm (average 32 cm), a tail of 29–55 cm, and a mass of 0.5–2 kg, with average masses of 1.2 kg in females and 1.5 kg in males; males are described as about 16% heavier because they grow for longer. The 2025 EWT assessment, in a genus-level comparison, gives an adult body weight of 800–1,500 g for Otolemur. These ranges are not averaged. No shoulder-height figure was found. Adult males are larger than adult females (ADW; Wikipedia)."
+  },
+  "summary": "The largest galago, a nocturnal, mostly tree-living bushbaby of riverine forest, woodland and thicket. Adults are variable in colour, from buff or grey to dark grey or chocolate brown, with cream or paler underparts, a long bushy tail that often has a darker tip, a rounded head, a short wide muzzle, and very large ears that can be moved independently. It walks and climbs on all fours and usually bridges gaps between trees rather than leaping. It occurs as a resident in Kruger National Park.",
+  "description": "This is the largest galago. The head is rounded, with a short, wide muzzle, large forward-facing eyes and very large ears that can be moved independently and may be furled or unfurled. The fingers are long, with flattened, thickened pads at the tips of the fingers and toes for gripping branches. The dense, woolly fur is highly variable. For the subspecies in the assessment region, including Mpumalanga (O. c. crassicaudatus), one account describes the upperparts as buff to grey, extending to the face, flanks and limbs, with cream underparts, a darker tail tip, and hands and feet that are darkened except on the digits. The 2025 regional assessment describes the same subspecies as ranging from dark grey to chocolate brown, or a mix of the two, and generally darker than the paler northern subspecies. A third account, at species level, describes the coat as silvery brown to grey, with a lighter underside, and the fur as long, wavy and without lustre. Adult males are larger than females. There is no useful difference in coat pattern between the sexes.",
+  "habits": "Nocturnal and arboreal. By day it sleeps 5 to 12 m above the ground in a dense tangle of creepers or in a tree hollow, alone or in groups of two to six, and at dusk the animals disperse to forage alone or in small groups. One account emphasises solitary ranging, with male territories overlapping those of several females and little overlap between males; others describe small sleeping groups that split at night. It is primarily a quadrupedal climber. Unlike the South African lesser bushbaby, it usually crosses gaps by bridging, keeping its hind feet on one tree until the hands have a grip on the next, though it can make short leaps of up to about 2 m. It communicates by voice and by scent, including urine-washing of the hands and feet and a bare sternal gland. Home-range borders are patrolled and marked. Mating is in June and July, when loud calls become more frequent. One account gives nightly activity of about nine and a half hours in summer and twelve hours in winter, and movements of up to a kilometre in a night. The species occurs in Kruger National Park, and there is no indication of a seasonal absence.",
+  "diet": {
+    "summary": "An intensive exudativore with a mixed diet. Gum, especially from sweet thorn (Vachellia karoo), is taken year-round and is a staple. Fruit is eaten in season. The diet also includes insects and molluscs, and small vertebrates are taken occasionally. In a South African (Transvaal) study, gums and saps made up about 62% of the diet and insects only about 5%; in Kenya, insects may make up 50 to 70%. Those regional figures are not Kruger measurements and are not combined.",
+    "items": [
+      "gum, especially from sweet thorn (Vachellia karoo), year-round",
+      "fruit, in season",
+      "insects and molluscs",
+      "small vertebrates, taken occasionally"
+    ],
+    "guild": "exudativore"
+  },
+  "young": "Mating is in June and July. After a gestation of 133 days, females give birth in early November to one to three young a year; twinning is common. A third account notes that the birth season varies by locality and that breeding in the Transvaal is restricted to November. Females may build a leafy nest or platform to shelter the young. The mother parks infants and leaves them while she forages, and produces rich, energy-dense milk; unlike many monkeys, she does not carry the young with her as she feeds. Females typically reach sexual maturity at about two years (one long-term study at Lajuma gives 1.5 years). Juveniles usually remain with the mother until close to sexual maturity. Newborn coat colour was not described in enough detail for a marks block. Exact birth months for Kruger were not found beyond this southern African pattern.",
+  "predators": [
+    {
+      "slug": "caracal-caracal",
+      "en": "Caracal",
+      "note": "The first published record of a caracal preying on this species is from farmland in Limpopo Province, not from Kruger (Cuozzo et al. 2021, cited in the 2025 EWT assessment)."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects and molluscs",
+      "note": "Taken as part of a mixed diet; not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Small vertebrates, including reptiles and small birds in some accounts",
+      "note": "Taken occasionally; not mammals in this guide."
+    }
+  ],
+  "habitat": "Forests, moist savannah woodland, riparian bushland and thickets in higher-rainfall areas, penetrating drier country along riverine corridors. The preferred habitat is a mosaic of coastal or riverine forest and savannah. The 2025 regional assessment records the species in Kruger National Park and, within South Africa, from Mokopane and Makhado through Limpopo and Mpumalanga into KwaZulu-Natal, with an upper elevation of 1,800 m.",
+  "similar": [
+    {
+      "slug": "galago-moholi",
+      "note": "The thick-tailed bushbaby is much larger (head-and-body length about 30–37 cm and mass around 1–2 kg in the figures used here, against 14–17 cm and about 142–255 g in the lesser bushbaby). It has a long, bushy tail, often with a darker tip, and is primarily a quadrupedal climber that bridges gaps between trees. The South African lesser bushbaby is a small, pale grey galago with a tail that is darker than the body but not very bushy, and it leaps across open spaces."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population estimate was found in the sources used here. The 2025 regional assessment states that no population estimates have been made to date, that the number of mature individuals is unknown, and that the regional trend is assumed stable. One source gives densities of 72 to 125 animals per km² in ideal situations; those figures are not park totals. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Thick-tailed Bushbaby",
+        "url": "https://ewt.org/project/thick-tailed-bushbaby-otolemur-crassicaudatus/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "No population estimates; regional trend assumed stable. Not a Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "very large and independently movable; may be furled or unfurled"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "rounded head; dorsal colour extends to the face in one subspecies account",
+          "muzzle": "short and wide",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "buff",
+            "dark grey",
+            "chocolate brown",
+            "silvery brown"
+          ],
+          "pattern": "highly variable; dense, woolly, wavy fur, usually described as without lustre"
+        },
+        "underparts": {
+          "colour": [
+            "cream",
+            "paler than the upperparts"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": "in one subspecies account, the hands and feet are darkened except on the digits; dorsal colour may extend to the flanks and limbs"
+        },
+        "tail": {
+          "colour": [
+            "brown",
+            "grey"
+          ],
+          "shape": "long and bushy; often with a darker tip in O. c. crassicaudatus"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A rounded head, a short wide muzzle, large forward-facing eyes, and very large, independently movable ears."
+    },
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A long, bushy tail, often with a darker tip, and variable grey to brown upperparts with cream or paler underparts."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A long-distance call often described as a crying baby, from which bushbabies take their colloquial name, and also as a raucous cry. Loud calls become more frequent in the June and July mating season, as potential partners locate one another and males advertise their positions. Adults also give louder clicking calls to other adults, and barks are reported.",
+      "recordings": [
+        {
+          "key": "otolemur-crassicaudatus/kruger-skukuza.mp3",
+          "source": "https://www.inaturalist.org/observations/125809630",
+          "fileUrl": "https://static.inaturalist.org/sounds/496927.mp3",
+          "author": "eliegaget",
+          "license": "CC BY-NC 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "hosted": false,
+          "aiGenerated": false
+        }
+      ]
+    },
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A high-pitched alarm call is described, and a broader repertoire of alarm and distress calls has been listed for the species.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "contact",
+      "description": "Young make a soft clicking sound to the mother. Females also use an advertising call when they are receptive.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "otolemur-crassicaudatus/kruger-pafuri.jpg",
+      "view": "perched-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/287813872",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/517536246/large.jpg",
+      "author": "Wayne and Pam Osborn",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Thick-tailed bushbaby lying on a branch at night in the Pafuri area of Kruger National Park, showing very large ears and a short wide muzzle",
+      "caption": "Research-grade iNaturalist observation, Pafuri, Kruger National Park, 19 May 2025."
+    },
+    {
+      "key": "otolemur-crassicaudatus/kruger-sweni-tree.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/348747618",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/636088068/large.jpg",
+      "author": "brianrode",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Thick-tailed bushbaby in a tree at night along the Lebombo and Sweni Lodge Road in Kruger National Park, showing the long bushy tail",
+      "caption": "Research-grade iNaturalist observation, Lebombo and Sweni Lodge Road, Kruger National Park, 10 April 2026."
+    },
+    {
+      "key": "otolemur-crassicaudatus/kruger-sweni-hanging.jpg",
+      "view": "perched-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/384601220",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/704038158/large.jpg",
+      "author": "xihuhuri",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Thick-tailed bushbaby hanging from a thin branch among seed pods at night along the Lebombo and Sweni Lodge Road in Kruger National Park",
+      "caption": "Research-grade iNaturalist observation, Lebombo and Sweni Lodge Road, Kruger National Park, 24 July 2026."
+    },
+    {
+      "key": "otolemur-crassicaudatus/kruger-mopani.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/408118031",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/750110825/large.jpg",
+      "author": "Patrick Jackson",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Thick-tailed bushbaby walking along a branch at night in Kruger National Park, showing grey upperparts, paler underparts and a bushy tail with a darker tip",
+      "caption": "Research-grade iNaturalist observation, Kruger National Park (Mopani), 30 November 2025."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Thick-tailed Bushbaby",
+      "url": "https://ewt.org/project/thick-tailed-bushbaby-otolemur-crassicaudatus/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Cuozzo FP, Sauther ML, Linden B & da Silva JM. 2025. A conservation assessment of Otolemur crassicaudatus. Afrikaans name Bosnagaap; Kruger listed among protected areas of occurrence."
+    },
+    {
+      "title": "Fact sheet: the 2025 regional Mammal Red List of South Africa, Eswatini and Lesotho",
+      "url": "https://ewt.org/wp-content/uploads/2026/02/Fact-Sheet_Mammal-Red-List_2.pdf",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2026,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Brown greater galago",
+      "url": "https://en.wikipedia.org/wiki/Brown_greater_galago",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Description, wider size ranges and global IUCN status, citing Nash, Bearder and Olson (1989), O'Mara et al. (2012), Kingdon and others."
+    },
+    {
+      "title": "Otolemur crassicaudatus: greater galago",
+      "url": "https://animaldiversity.org/accounts/Otolemur_crassicaudatus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": 2000,
+      "note": "Lundrigan B and Harris J. 2000. Size ranges, diet splits, calls and habits."
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Otolemur crassicaudatus",
+      "url": "https://api.inaturalist.org/v1/taxa/43567",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Appearance, habits, diet, young and calls are sourced from the 2025 EWT regional assessment, Animal Diversity Web and Wikipedia. Size ranges follow ADW; Wikipedia and EWT give different mass and length bounds, which are recorded in the size note and not averaged. Sources also disagree on coat colour in O. c. crassicaudatus (buff to grey versus dark grey to chocolate brown) and on how solitary the species is. Wikipedia's statement that this subspecies is confined to KwaZulu-Natal was not used; the EWT range, which includes Mpumalanga and Kruger, was preferred. No Kruger population figure was found. Skinner & Chimimba and Stuart's field guide were not used. The 2016 regional Red List PDF was not retrieved; the 2025 EWT page and fact sheet state that the species was uplisted from Least Concern to Near Threatened.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population estimate was found. Regional status is assumed stable and one source gives densities of 72 to 125 animals per km² in ideal situations, but these are not park counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2016 SANBI/EWT Red List PDF was not retrieved. Regional Near Threatened status, the uplisting from Least Concern, and the assumed-stable trend are taken from the 2025 EWT species page and the 2025 Red List fact sheet.",
+    "Skinner & Chimimba and Stuart's field guide were not available.",
+    "No shoulder-height measurement was found, so that size field is omitted.",
+    "Iris colour, a named ear colour, and a beard were not given in the sources used, so those marks are null.",
+    "No young or sexed adult variant beyond a single adult of either sex: newborn coat colour was not described in enough detail for a marks block.",
+    "Documented predators are scarce. The only named wild predator found is a caracal, from a Limpopo farmland record, not from Kruger. Animal Diversity Web states that predation accounts are lacking in the literature it covered.",
+    "Wikimedia Commons photographs tagged Kruger were rest-camp shots at Letaba and Punda Maria and were not used. Two further iNaturalist Kruger candidates were dropped after preview (an animal on a thatched chalet beam, and a distant frame dominated by eye-shine)."
+  ]
+}

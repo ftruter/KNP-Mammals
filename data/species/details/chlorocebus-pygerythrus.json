@@ -1,0 +1,358 @@
+{
+  "kind": "species",
+  "slug": "chlorocebus-pygerythrus",
+  "scientificName": "Chlorocebus pygerythrus",
+  "commonNames": {
+    "en": "Vervet monkey",
+    "af": "Blouaap"
+  },
+  "family": "cercopithecidae",
+  "inatTaxonId": 68137,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global (2022), and the 2025 regional Red List for South Africa, Eswatini and Lesotho (no change from 2016)",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Chlorocebus pygerythrus",
+        "url": "https://ewt.org/project/vervet-monkey-chlorocebus-pygerythrus/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Mercier S, Thatcher HR, Pillay KR and da Silva JM. 2025, in Patel et al. (eds.). Regional status Least Concern; regional population trend unknown. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "Vervet monkey",
+        "url": "https://en.wikipedia.org/wiki/Vervet_monkey",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Butynski and De Jong 2022, IUCN Red List of Threatened Species, as Least Concern globally."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 30,
+      "max": 60
+    },
+    "massKg": {
+      "male": {
+        "min": 3.9,
+        "max": 8.0
+      },
+      "female": {
+        "min": 3.4,
+        "max": 5.3
+      }
+    },
+    "note": "Head-and-body length and sexed mass follow the ranges compiled on Wikipedia, citing Skinner and Smithers 1990 and Napier 1981: adult males 42–60 cm (average 49 cm) and 3.9–8.0 kg (average 5.5 kg); adult females 30–49.5 cm (average 42.6 cm) and 3.4–5.3 kg (average 4.1 kg). The lead of the same article rounds body length to about 40 cm in females and about 50 cm in males. No shoulder height was found. Animal Diversity Web, which files the animal under the older lumped name Chlorocebus aethiops, gives an unsexed mass of 3–5 kg, a head-and-body length of 400–600 mm, and a tail of 300–500 mm; those coarser figures are not used here, because they belong to the lumped taxon."
+  },
+  "summary": "A small, grizzled-grey monkey with a black face framed by a white fringe of hair. Males are larger than females and have a turquoise-blue scrotum. Troops are multi-male and multi-female, often of a few dozen animals. It lives in savanna and riverine woodland and must drink daily. The diet is mostly fruit, leaves, flowers and seeds, with some insects and small vertebrates. Distinct alarm calls warn of different predators. A common year-round resident of Kruger.",
+  "description": "The vervet is a medium-small Old World monkey of the family Cercopithecidae. Adult hair is mostly grizzled-grey. The face is black, with a white fringe of hair. The species is sexually dimorphic: males are heavier and longer in the body than females, and may be recognised by a turquoise-blue scrotum. Head-and-body length is about 42–60 cm in males and 30–49.5 cm in females. The form in South Africa, including Kruger, is treated as Chlorocebus pygerythrus; it was formerly lumped with the grivet under Cercopithecus or Chlorocebus aethiops. Sources describe some regional variation in coat and foot colour in southern Africa, but those former subspecies are no longer recognised.",
+  "habits": "Animal Diversity Web, which files the species under the older name Chlorocebus aethiops, lists it as diurnal, social, and both arboreal and terrestrial. Troops are multi-male and multi-female. Wikipedia gives a group size of 10 to 70 animals; the 2025 regional assessment gives a typical troop of 14–42, averaging about 27. Females remain in their natal group for life and form a stable linear dominance hierarchy. Males leave at sexual maturity, often with a brother or peer, and compete for rank in the new troop. The species must drink daily and depends on trees for food and cover. Grooming is common. Interactions between troops range from aggressive to friendly.",
+  "diet": {
+    "summary": "Largely a plant-eater, but not exclusively so. The staple is wild fruits, flowers, leaves, seeds and seed pods. Animal foods include grasshoppers, termites, birds' eggs and chicks, and, according to the 2025 regional assessment, lizards, rodents and other small vertebrates. In farmland and towns it will also take crops and human-derived food. Several fruiting trees of southern Africa, including figs, marula and mopane, are listed among natural foods.",
+    "items": [
+      "wild fruits, including figs and marula",
+      "flowers, leaves, seeds and seed pods",
+      "grasshoppers and termites",
+      "birds' eggs and chicks",
+      "lizards, rodents and other small vertebrates"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "A female typically gives birth once a year, between September and February, after a gestation of about 165 days. Usually only one infant is born; twins are rare. A newborn weighs about 300–400 g. These figures follow Wikipedia, citing Skinner and Smithers 1990. Infant coat colour was not described in the text sources used here. Females stay in the natal troop, so an infant grows up among related females.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": null,
+      "en": "Martial eagle",
+      "note": "Not a mammal in this guide; listed because it is a documented predator of the vervet, and elicits a distinct alarm call."
+    },
+    {
+      "slug": null,
+      "en": "Central African rock python",
+      "note": "Not a mammal in this guide. Named as a confirmed predator in the classic alarm-call studies; those studies were not done in Kruger."
+    },
+    {
+      "slug": null,
+      "en": "Yellow baboon",
+      "note": "Named as a confirmed predator in the same alarm-call studies. That species is not in this guide, and no source used here named the chacma baboon as a predator."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Grasshoppers and termites"
+    },
+    {
+      "slug": null,
+      "en": "Birds' eggs and chicks"
+    },
+    {
+      "slug": null,
+      "en": "Lizards and rodents"
+    }
+  ],
+  "habitat": "Most abundant in savanna riparian or riverine woodland, where fruiting trees and cover follow the watercourses. It also uses open woodland, savanna and coastal scrub, and is generally absent from desert and deep forest. It must drink daily and needs trees for food and cover. A Kruger-specific habitat account was not found; the species is a common resident of the park.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No sourced Kruger population figure was found. The 2025 regional assessment describes the species as widespread and often abundant, but says the regional population trend is unknown and that actual population-size estimates are still needed. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Chlorocebus pygerythrus",
+        "url": "https://ewt.org/project/vervet-monkey-chlorocebus-pygerythrus/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "No Kruger total is given. Regional trend unknown."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "black, with a white fringe of hair",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "grizzled-grey",
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Black face with a white fringe of hair, a grizzled-grey coat, and a long tail; often sits in a tree."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The black face and white hair fringe are the clearest marks at close range. Adult males may also show a turquoise-blue scrotum."
+    },
+    {
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "note": "An infant may ride on the mother's back, clinging to her fur, while the troop moves on the ground."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "The sighting of each of four confirmed predators — leopard, martial eagle, Central African rock python, and yellow baboon — elicits an acoustically distinct alarm call. Infants learn the calls by observation, without explicit teaching. One source states that vervets may have up to 30 different alarm calls, and that they have been seen giving a different call when a human approaches.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A research-grade recording from Kruger is included. The observation does not identify the call type.",
+      "recordings": [
+        {
+          "key": "inaturalist/125798020",
+          "source": "https://www.inaturalist.org/observations/125798020",
+          "fileUrl": "https://static.inaturalist.org/sounds/496858.mp3",
+          "author": "eliegaget",
+          "license": "CC BY-NC 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "aiGenerated": false,
+          "hosted": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "key": "chlorocebus-pygerythrus/kruger-perched-side.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Vervet_monkey_(Chlorocebus_pygerythrus)_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Vervet_monkey_%28Chlorocebus_pygerythrus%29_Kruger.jpg/1280px-Vervet_monkey_%28Chlorocebus_pygerythrus%29_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult vervet monkey sitting in a tree in Kruger National Park, showing the black face, white hair fringe, grizzled-grey coat and long tail",
+      "caption": "Adult, Kruger National Park, 26 April 2024."
+    },
+    {
+      "key": "chlorocebus-pygerythrus/kruger-face.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Cercopiteco_verde_(Chlorocebus_pygerythrus),_parque_nacional_Kruger,_Sud%C3%A1frica,_2018-07-25,_DD_57.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Cercopiteco_verde_%28Chlorocebus_pygerythrus%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-25%2C_DD_57.jpg/1280px-Cercopiteco_verde_%28Chlorocebus_pygerythrus%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-25%2C_DD_57.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close view of an adult vervet monkey's head in Kruger National Park, showing the black face and white fringe of hair",
+      "caption": "Adult, Kruger National Park, 25 July 2018."
+    },
+    {
+      "key": "chlorocebus-pygerythrus/kruger-juvenile.jpg",
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Vervet_Monkey_(Chlorocebus_pygerythrus)_young_..._(51674928959).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Vervet_Monkey_%28Chlorocebus_pygerythrus%29_young_..._%2851674928959%29.jpg/1280px-Vervet_Monkey_%28Chlorocebus_pygerythrus%29_young_..._%2851674928959%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Young vervet monkey facing the camera on the H4-1 road north of Lower Sabie, Kruger National Park",
+      "caption": "Young animal, H4-1 road north of Lower Sabie, Kruger National Park, 12 November 2021."
+    },
+    {
+      "key": "chlorocebus-pygerythrus/kruger-female-infant-back.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Vervet_Monkeys_(Chlorocebus_pygerythrus)_(16438007097).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Vervet_Monkeys_%28Chlorocebus_pygerythrus%29_%2816438007097%29.jpg/1280px-Vervet_Monkeys_%28Chlorocebus_pygerythrus%29_%2816438007097%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult vervet monkey walking on rocks with an infant clinging to its back, west of Biyamiti, Kruger National Park",
+      "caption": "Adult with an infant on its back, S23 road west of Biyamiti, Kruger National Park, 18 January 2015."
+    },
+    {
+      "key": "chlorocebus-pygerythrus/kruger-female-infant.jpg",
+      "view": "standing-front",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Vervet_monkey,_Chlorocebus_pygerythrus_with_baby_at_Kruger_Park_(19613584223).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Vervet_monkey%2C_Chlorocebus_pygerythrus_with_baby_at_Kruger_Park_%2819613584223%29.jpg/1280px-Vervet_monkey%2C_Chlorocebus_pygerythrus_with_baby_at_Kruger_Park_%2819613584223%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult vervet monkey holding a young infant, with another animal behind, in Kruger National Park",
+      "caption": "Adult with a clinging infant, Kruger National Park, 1 January 2014."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vervet monkey",
+      "url": "https://en.wikipedia.org/wiki/Vervet_monkey",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "A conservation assessment of Chlorocebus pygerythrus",
+      "url": "https://ewt.org/project/vervet-monkey-chlorocebus-pygerythrus/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Mercier S, Thatcher HR, Pillay KR and da Silva JM. 2025, in Patel et al. (eds.). The 2025 regional Red List page. Cited, not hosted."
+    },
+    {
+      "title": "Chlorocebus aethiops: vervet monkey",
+      "url": "https://animaldiversity.org/accounts/Chlorocebus_aethiops/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": 1999,
+      "note": "Filed under the older lumped name. Used only for the diurnal, arboreal and terrestrial behaviour tags. Measurements from this account were not used."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Text and measurements are sourced, but size, young and the alarm-call account come from compiled Wikipedia text (citing Skinner and Smithers 1990, Seyfarth, Cheney and Estes) rather than a southern-African field guide in hand. Animal Diversity Web is filed under the older lumped name Chlorocebus aethiops and was used only for the diurnal habit tag. No Kruger population count was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No sourced Kruger population estimate. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No shoulder height, and no tail length from a source that treats Chlorocebus pygerythrus as a distinct species. Animal Diversity Web gives a tail of 300–500 mm under the older lumped name Chlorocebus aethiops; that figure was not used.",
+    "Iris colour, ear colour, underparts colour and tail colour were not described in the text sources used here.",
+    "Infant coat colour was not described in the text sources used here.",
+    "No source used here contrasted the vervet with the chacma baboon, so similar is empty.",
+    "The 2016 regional Red List PDF was not located from the EWT search; the 2025 assessment (Least Concern, no change from 2016) is cited instead.",
+    "Skinner and Chimimba, and Stuart's field guide, were not available as standalone texts.",
+    "The iNaturalist place 69020 recording (observation 125798020, CC BY-NC) does not identify the call type. A second Kruger sound observation is all-rights-reserved and was not used.",
+    "Animal Diversity Web has no account at /accounts/Chlorocebus_pygerythrus/ (classification only) and none at Cercopithecus_aethiops."
+  ]
+}
