@@ -1,0 +1,319 @@
+{
+  "kind": "species",
+  "slug": "heterohyrax-brucei",
+  "scientificName": "Heterohyrax brucei",
+  "commonNames": {
+    "en": "Yellow-spotted rock dassie",
+    "af": "Geelkoldas"
+  },
+  "family": "procaviidae",
+  "inatTaxonId": 43088,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho. The IUCN global assessment is Least Concern (2015).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Yellow-spotted Rock Hyrax",
+        "url": "https://ewt.org/project/yellow-spotted-rock-hyrax/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Least Concern, trend unknown, no change from 2016. Occurs in Kruger National Park and Mapungubwe National Park. Afrikaans names given as Geelkoldassie and Geelkosdas; the stored af value is the 2011 SANParks checklist name Geelkoldas."
+      },
+      {
+        "title": "Heterohyrax brucei – Yellow-spotted Rock Hyrax",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Yellow-spotted-Rock-Hyrax-Heterohyrax-brucei_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Bloomer P, Kruger J, Maguranyanga M. 2016. Regional Least Concern; global Least Concern (2015). Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Yellow-spotted rock hyrax",
+        "url": "https://en.wikipedia.org/wiki/Yellow-spotted_rock_hyrax",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Butynski, Hoeck and de Jong (2015), IUCN global Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 30.5,
+      "max": 38
+    },
+    "massKg": {
+      "min": 1.3,
+      "max": 3.6
+    },
+    "note": "Head-and-body length of 305–380 mm is from Animal Diversity Web, which also states that there is no external tail and gives an average mass of 2.46 kg. Wikipedia, citing studies in Zimbabwe and the Serengeti, reports adult mass of 2.3–3.6 kg and 1.3–2.4 kg respectively, and describes the tail as rudimentary rather than absent; no published tail measurement was found. The mass bounds stored here are the extremes of those two regional studies, not a single sampled range, and should not be averaged. Wikipedia states that the sexes do not differ in size on average, though females are sometimes slightly larger. Shoulder height was not found."
+  },
+  "summary": "A small, grey to grey-brown dassie of rocky outcrops. It is slighter than the rock dassie, with a narrower muzzle and pale markings above the eyes and along the sides of the face. A patch of yellowish hair around a gland on the lower back gives the English name, though that mark varies across the range. It is a year-round resident of Kruger, with records concentrated in the far north of the park.",
+  "description": "A compact hyrax, 30.5–38 cm from nose to rump, with short legs, a rounded head, a narrow muzzle, and round ears. Published mass ranges from 1.3 kg in a Serengeti sample to 3.6 kg in a Zimbabwe sample. The upperparts are typically grey in drier country and a darker reddish-brown in wetter country, with a thick, coarse coat. Pale or whitish markings sit above the eyes and along the sides of the face. On the lower back a dorsal gland about 1.5 cm long is surrounded by erectile hairs and usually shows as a yellow spot, though the colour may run from reddish-ochre to dirty white and the mark is variable across the range. The tail is either absent or only rudimentary. The sexes are alike in appearance and, on average, in size. Specialised moist pads on the feet give a firm grip on smooth rock, and an umbraculum in the pupil lets the animal look towards the sun while watching for birds of prey.",
+  "habits": "Predominantly diurnal and highly gregarious, living in colonies on rocky kopjes, cliffs and boulder piles. Animals spend much of the day resting, basking in the morning and evening and avoiding the midday heat; this behavioural thermoregulation is well described. Family groups are typically polygynous, with one dominant male, several females and their young. The species often shares crevices and basking rocks with the rock dassie, and the two may care for young in shared nurseries, but they do not interbreed. Yellow-spotted rock dassies commonly climb trees and bushes to browse, and in mixed groups they may act as sentinels for both species. A dominant male keeps watch from a high rock and gives a shrill alarm when there is danger. Isolated or outlying rocky outcrops are less likely to be occupied than they are by the rock dassie. The species is not a migrant. It can meet its water needs from browse alone.",
+  "diet": {
+    "summary": "A browser. Most foraging is on leaves, stems, twigs, buds, flowers, fruit and bark, typically close to the colony's rocky shelter and sometimes in trees. Grass is taken only infrequently, though one Kenyan account found animals relying on grass in the wet season. It is a hind-gut fermenter.",
+    "items": [
+      "leaves, stems, twigs, buds, flowers, fruit and bark",
+      "grass, only infrequently"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "Sources disagree on the details. The 2025 regional assessment, citing Freeman, gives a gestation of 6–8 months, an average litter of three, and sexual maturity at 16 months in females and 28 months in males. Wikipedia gives gestation as 7–8 months, litters of one to three (averages of 1.6–2.1 by region), and sexual maturity at 16–17 months in both sexes. Animal Diversity Web gives a gestation of about 7.5 months (229 days), litters of one to four (average 1.9), and maturity at 494 days in both sexes, and places breeding at the end of the wet season (April–June). Young are born open-eyed and furred, weighing about 220–230 g, and can follow adults out of the nest within a few hours. They may be suckled for one to six months. Births are often associated with peaks in rainfall. Peak birth months have been reported for Kenya (February–March), Zimbabwe (March) and the Serengeti (December–January); a Kruger-specific birth season was not found.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": null,
+      "en": "Verreaux's eagle",
+      "note": "Not a mammal in this guide; named as a predator in the 2025 regional assessment."
+    },
+    {
+      "slug": null,
+      "en": "Martial eagle",
+      "note": "Not a mammal in this guide; named as a predator in the 2025 regional assessment."
+    },
+    {
+      "slug": null,
+      "en": "Other birds of prey",
+      "note": "Named, without further species, by the 2025 regional assessment, Wikipedia and Animal Diversity Web."
+    },
+    {
+      "slug": null,
+      "en": "African rock python",
+      "note": "Not a mammal in this guide; named by the 2025 regional assessment and Wikipedia."
+    },
+    {
+      "slug": null,
+      "en": "Black mamba",
+      "note": "Not a mammal in this guide; named by the 2025 regional assessment."
+    },
+    {
+      "slug": null,
+      "en": "Mongooses and other small carnivores",
+      "note": "Named as a group by Wikipedia and Animal Diversity Web, without species."
+    }
+  ],
+  "prey": [],
+  "habitat": "Rocky habitats: outcrops, cliffs, kopjes and piles of boulders, in dry savanna, from sea level to 3,800 m. Isolated or outlying rocky outcrops are less often occupied than they are by the rock dassie. The 2025 regional assessment records the species in Kruger National Park. Research-grade iNaturalist records in the park are concentrated in the far north, from the Pafuri area south towards Punda Maria.",
+  "similar": [
+    {
+      "slug": "procavia-capensis",
+      "note": "The two species often share the same crevices and bask together, but they do not interbreed. Wikipedia, following the Mammalian Species account, describes the yellow-spotted rock dassie as smaller, less heavily built, and with a narrower muzzle. The 2016 regional assessment, citing Skinner & Chimimba, distinguishes it by lighter-coloured markings above the eyes and along the sides of the face. The 2025 assessment also notes white eyebrows, a generally greyer colour, and yellow hairs around the dorsal spot, though that dorsal mark varies across the range."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. Densities of 0.5–1.1 individuals per hectare reported from Matobo National Park, Zimbabwe, are not a Kruger count. The 2025 regional assessment gives the number of mature individuals as unknown and the regional trend as unknown. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Yellow-spotted Rock Hyrax",
+        "url": "https://ewt.org/project/yellow-spotted-rock-hyrax/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional mature-individual count unknown; regional trend unknown. No Kruger count. Matobo densities are cited but are not a Kruger figure."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "round"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "pale or whitish markings above the eyes and lighter markings along the sides of the face; rounded head",
+          "muzzle": "narrow, compared with the rock dassie",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "dark reddish-brown"
+          ],
+          "pattern": "thick, coarse fur, greyer in drier country and darker reddish-brown in wetter country; a dorsal gland about 1.5 cm long on the lower back is surrounded by erectile hairs and usually shows as a yellow spot, sometimes reddish-ochre to dirty white, and the mark is variable across the range"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "short; a separate leg colour was not given"
+        },
+        "tail": {
+          "colour": null,
+          "shape": "absent according to Animal Diversity Web, or rudimentary according to Wikipedia; no length was published"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Look for pale markings above the eyes and along the sides of the face, a narrower muzzle, and a slighter build than the rock dassie. A yellow dorsal spot may be visible on the lower back."
+    },
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Often climbs trees and bushes to browse, usually close to the colony's rocky shelter."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A shrill alarm is given by the dominant male from a look-out rock when there is danger. Animal Diversity Web describes a scream-like alarm vocalization.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "heterohyrax-brucei/northern-kruger-tree.jpeg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/196131979",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/345219840/large.jpeg",
+      "author": "Christiaan Viljoen",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Yellow-spotted rock dassie sitting in a tree, showing the pale eyebrow, narrow muzzle and grey-brown coat",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 25 November 2023."
+    },
+    {
+      "key": "heterohyrax-brucei/northern-kruger-browse.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/411990203",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/757997233/large.jpg",
+      "author": "Mike “Champ” Krzychylkiewicz",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Yellow-spotted rock dassie in a thorny bush, showing the pale eyebrow and grey coat",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 25 July 2025."
+    },
+    {
+      "key": "heterohyrax-brucei/northern-kruger-pair.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/239561625",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/426686819/large.jpg",
+      "author": "Duncan McKenzie",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two yellow-spotted rock dassies on a rock, showing pale eyebrows and grey coats",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 31 August 2024."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Yellow-spotted rock hyrax",
+      "url": "https://en.wikipedia.org/wiki/Yellow-spotted_rock_hyrax",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Heterohyrax brucei: hoggar hyrax",
+      "url": "https://animaldiversity.org/accounts/Heterohyrax_brucei/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "Shefferly, N. Account used for length, average mass, breeding figures, alarm call and general habits."
+    },
+    {
+      "title": "Yellow-spotted Rock Hyrax",
+      "url": "https://ewt.org/project/yellow-spotted-rock-hyrax/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Heterohyrax brucei – Yellow-spotted Rock Hyrax",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Yellow-spotted-Rock-Hyrax-Heterohyrax-brucei_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo. Includes the Skinner & Chimimba field-mark contrast with the rock dassie, and confirms occurrence in Kruger National Park."
+    },
+    {
+      "title": "iNaturalist taxon Heterohyrax brucei",
+      "url": "https://api.inaturalist.org/v1/taxa/43088",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": false,
+    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Yellow-spotted rock dassie, Geelkoldas). The 2025 EWT page uses Yellow-spotted Rock Hyrax, Bush Hyrax and the Afrikaans names Geelkoldassie and Geelkosdas. Status is resident: the 2016 and 2025 regional assessments both name Kruger National Park, and research-grade iNaturalist records are concentrated in the far north of the park. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Regional and global status is Least Concern. Sources disagree on mass, tail form, gestation, litter size and age at maturity; those disagreements are recorded in size and young rather than averaged.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Shoulder height was not found. Tail length was not published; sources disagree on whether the tail is absent or only rudimentary.",
+    "A Kruger-specific birth-month range was not found. Published peak birth months are for Kenya, Zimbabwe and the Serengeti.",
+    "Underpart colour and iris colour were not given in the sources used, so those marks are null. Skinner & Chimimba and Stuart's field guide were not available as standalone accounts, except for the eye and face contrast quoted in the 2016 regional assessment.",
+    "iNaturalist has 0 sound observations for Heterohyrax brucei in place 69020. The alarm description is taken from Wikipedia and Animal Diversity Web; recordings is empty.",
+    "Only three of the six shortlisted Kruger photographs were used. From that shortlist, a distant silhouette on a kopje (observation 44642401), a distant animal on a boulder (observation 385281143), and a skull (observation 302568528) were not used. Camp shots near Punda Maria, records within about 2 km of the Pafuri picnic site, records with accuracy worse than about 1 km, and Dead-annotated records were excluded before shortlisting."
+  ]
+}
