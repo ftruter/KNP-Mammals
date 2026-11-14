@@ -1,0 +1,301 @@
+{
+  "kind": "species",
+  "slug": "felis-lybica",
+  "scientificName": "Felis lybica",
+  "commonNames": {
+    "en": "African wild cat",
+    "af": "Vaalboskat"
+  },
+  "family": "felidae",
+  "inatTaxonId": 371414,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho, assessed as the Southern African Wildcat (Felis lybica cafra)",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Southern African Wildcat",
+        "url": "https://ewt.org/project/southern-african-wildcat/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern. The stored English name remains the 2011 checklist name, African wild cat."
+      },
+      {
+        "title": "A conservation assessment of Felis silvestris",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/14.-African-Wild-Cat-Felis-silvestris_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "size": {
+    "massKg": {
+      "min": 3,
+      "max": 5
+    },
+    "note": "Wikipedia gives mass of 3.2–4.5 kg for both sexes of African wildcat, rounded here to 3–5 kg. Head-and-body and tail lengths on that page are from northern African and Yemeni skins, not from southern Africa, and are not entered as Kruger-relevant ranges (males in North Africa 47–59.7 cm with tails of 26.7–36.8 cm; females 40.6–55.8 cm with tails of 24.1–33.7 cm). Animal Diversity Web has no account at Felis lybica; its Felis silvestris account gives averages for the old African subspecies F. s. libyca (about 4 kg in females and 5 kg in males) and a broad body length of 500–750 mm that includes European wildcats. Southern African measurements were not found in this session."
+  },
+  "summary": "A small, sandy-grey cat, close in size to a domestic cat, with faint vertical stripes, a ringed tail with a black tip, and a reddish back to the ears. It hybridises with domestic cats, and hybridisation has been found at higher levels in Kruger than in the Kgalagadi.",
+  "description": "The fur is light sandy grey, sometimes with a pale yellow or reddish wash, and almost whitish on the belly and throat. The ears have small tufts and are reddish to grey, with long pale hairs in the ear. Dark ochre to black lines run across the face and throat. The forelegs have two dark rings, the hind legs are striped, and a dark stripe runs along the back, with paler flanks on which faint vertical stripes often break into spots. The tail has two or three rings toward a black tip. The undersides of the feet are dark brown to black. It is easily confused with a striped domestic cat, especially where the two have hybridised.",
+  "habits": "Mostly solitary and mainly nocturnal, though it may be crepuscular when food and temperature allow. It uses cover such as bushes, tall grass, reed-beds or holes, and marks its range with scent. The EWT 2025 assessment, citing Le Roux et al. (2015), found relatively low hybridisation with domestic cats in South Africa overall, but higher levels in Kruger than in the Kgalagadi Transfrontier Park, where the population is genetically purer. Hybridisation is associated with proximity to human settlements, including park edges and rest camps.",
+  "diet": {
+    "summary": "A carnivore that feeds mainly on small rodents, and also takes birds, hares, springhares, reptiles, insects and occasionally larger prey such as rock hyrax. It may take lambs or poultry, which leads to conflict outside parks.",
+    "items": [
+      "small rodents",
+      "birds",
+      "hares",
+      "springhares",
+      "reptiles",
+      "insects"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "Gestation is 56–60 days. In Botswana, births are mostly in the warm wet season, with one to three kittens (occasionally up to five) in a den in dense grass, a burrow or a hollow tree. The kittens open their eyes at about 10–14 days, are mobile at about one month, start to learn hunting at about three months, and become independent at about six months. No Kruger-specific birth-month range was found.",
+  "predators": [],
+  "prey": [],
+  "habitat": "A broad range of habitats with some cover, from dry savanna and shrubland to grassland and the edges of woodland. In Kruger it is often recorded near rest camps as well as in the veld, which is also where contact with domestic or feral cats is most likely.",
+  "similar": [
+    {
+      "slug": "caracal-caracal",
+      "note": "The caracal is much larger, plain reddish, and has long black ear tufts and a short tail, not a ringed tail with a black tip."
+    },
+    {
+      "slug": "leptailurus-serval",
+      "note": "The serval is larger and long-legged, with very large ears and a boldly spotted and striped coat, not a faintly marked sandy-grey one."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The species is regarded as fairly common in large protected areas, but no count is given. The main conservation concern in Kruger is hybridisation with domestic cats, which a genetic study found to be higher here than in the Kgalagadi Transfrontier Park (Le Roux et al. 2015, cited on the EWT 2025 page).",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Southern African Wildcat",
+        "url": "https://ewt.org/project/southern-african-wildcat/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Felis silvestris",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/14.-African-Wild-Cat-Felis-silvestris_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": [
+            "reddish",
+            "grey"
+          ],
+          "shape": "small tufts; long pale hairs in the ear"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark ochre to black lines from the eyes across the cheeks and a smaller line to the nose; four to six lines across the throat",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "sandy-grey",
+            "pale yellow",
+            "reddish"
+          ],
+          "pattern": "a dark stripe along the back; faint vertical stripes on the flanks, often breaking into spots"
+        },
+        "underparts": {
+          "colour": "almost whitish on the belly and throat",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "two dark rings on the forelegs; striped hind legs; dark brown to black undersides of the feet"
+        },
+        "tail": {
+          "colour": "two or three rings toward a black tip",
+          "shape": "ringed, black-tipped"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A sandy-grey, faintly striped coat, a ringed tail with a black tip, and reddish backs to the ears."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Dark lines on the face and throat, and a compact, domestic-cat-like build."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A general field call of the species was not described in the sources consulted in this session.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "felis-lybica/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/156382803",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/270414532/large.jpeg",
+      "author": "Justin Ponder",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "African wild cat standing in profile at night, showing the ringed tail and reddish ears",
+      "caption": "Adult, Ehlanzeni District, in Kruger National Park."
+    },
+    {
+      "key": "felis-lybica/kruger-satara.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/11221869",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15920631/large.jpg",
+      "author": "Andrew Deacon",
+      "license": "CC0 1.0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "African wild cat sitting on a sandy track at night near Satara, Kruger National Park",
+      "caption": "Adult, Satara, Kruger National Park."
+    },
+    {
+      "key": "felis-lybica/kruger-satara-camp.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/48457117",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/76888927/large.jpeg",
+      "author": "Michael Rodgers",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "African wild cat sitting at night near Satara Camp, Kruger National Park",
+      "caption": "Adult, Satara Camp road, Kruger National Park."
+    },
+    {
+      "key": "felis-lybica/kgalagadi-day.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_Wildcat_(Felis_lybica)_(51659798835).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/African_Wildcat_%28Felis_lybica%29_%2851659798835%29.jpg/1280px-African_Wildcat_%28Felis_lybica%29_%2851659798835%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "African wild cat in dry grass in daylight in Kgalagadi Transfrontier Park",
+      "caption": "Adult, Auob riverbed, Kgalagadi Transfrontier Park. Used for a clear daylight view; no comparably clear daylight Kruger photograph was selected."
+    }
+  ],
+  "sources": [
+    {
+      "title": "African wildcat",
+      "url": "https://en.wikipedia.org/wiki/African_wildcat",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Felis silvestris account",
+      "url": "https://animaldiversity.org/accounts/Felis_silvestris/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026,
+      "note": "There is no Animal Diversity Web account at Felis lybica. This account treats African wild cats under the older name Felis silvestris."
+    },
+    {
+      "title": "Southern African Wildcat",
+      "url": "https://ewt.org/project/southern-african-wildcat/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Felis silvestris",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/14.-African-Wild-Cat-Felis-silvestris_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger count was found. Body-length figures on Wikipedia are from North Africa and Yemen and were not entered as ranges. Animal Diversity Web has no Felis lybica account. Hybridisation with domestic cats is a Kruger-specific concern cited on the EWT page.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "No southern African head-and-body or tail length range was found; published lengths were from North Africa and Yemen.",
+    "No Kruger-specific birth-month range was found. A Botswana account gives births mainly in the warm wet season.",
+    "Iris colour was not found in the sources consulted.",
+    "A general description of the calls was not found in this session.",
+    "No reusable Kruger recording found."
+  ]
+}

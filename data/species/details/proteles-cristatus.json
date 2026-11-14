@@ -1,0 +1,268 @@
+{
+  "kind": "species",
+  "slug": "proteles-cristatus",
+  "scientificName": "Proteles cristatus",
+  "commonNames": {
+    "en": "Aardwolf",
+    "af": "Aardwolf"
+  },
+  "family": "hyaenidae",
+  "inatTaxonId": 1306005,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho, and the IUCN global assessment",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Aardwolf",
+        "url": "https://ewt.org/project/aardwolf/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern; regional trend unknown. The stored Afrikaans name remains the 2011 checklist name, Aardwolf; the EWT page also lists Maanhaarjakkals."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 40,
+      "max": 50
+    },
+    "headBodyLengthCm": {
+      "min": 55,
+      "max": 80
+    },
+    "tailCm": {
+      "min": 20,
+      "max": 30
+    },
+    "massKg": {
+      "min": 7,
+      "max": 15
+    },
+    "note": "Shoulder height of 40–50 cm, head-and-body length of 55–80 cm and tail length of 20–30 cm follow Wikipedia. Mass is given as about 7–10 kg, sometimes reaching 15 kg; the 7–15 kg bounds are entered. Southern aardwolves tend to be slightly smaller (about 10 kg) than the eastern population (around 14 kg). Animal Diversity Web has no account at Proteles cristatus; its account is at Proteles cristata."
+  },
+  "summary": "A small, shy, insect-eating hyaena with a yellowish, vertically striped coat, a long erectile mane and a slender muzzle. It is rare in Kruger, and no Kruger photographs were found.",
+  "description": "The smallest living hyaena, much slimmer than a spotted or brown hyaena, with a slender muzzle and large ears. The coat is yellowish, marked with black vertical stripes, one or two diagonal stripes on the fore- and hindquarters, and stripes on the legs. A long mane runs down the midline of the neck and back and can be raised in confrontations. It lacks the throat spot of other hyaenas. The lower legs are black from the knee down, and the tail is bushy with a black tip. The front feet have five toes. The cheek teeth are reduced and specialised for eating insects, though the canines are retained for fighting. These marks distinguish it from a jackal, which has no such erectile mane or regular vertical body stripes.",
+  "habits": "Shy and mainly nocturnal, lying up in burrows by day, though it may feed in the afternoon in midwinter when its main termites are less active at night. It is primarily solitary, except in the breeding season, when a monogamous pair and their young share a territory of about 1–4 km², with several dens used in turn. Both sexes mark the territory with a black anal-gland paste. When challenged, it may raise its mane, and fights may be accompanied by soft clucking, hoarse barking and a type of roar. Unlike other hyaenas, it does not scavenge or kill large animals.",
+  "diet": {
+    "summary": "An insectivore. Almost all of the diet is termites, in southern Africa mainly Trinervitermes trinervoides, lapped from the ground with a long, sticky tongue; one animal may take some 250,000 termites in a night. It does not destroy the mound, so the colony can recover. When those termites are scarce, in the rains or midwinter, it takes harvester termites (Hodotermes mossambicus) and sometimes other insects and larvae. Reports of small mammals or birds are occasional and make up only a very small part of the diet, if they occur at all.",
+    "items": [
+      "termites",
+      "other insects and larvae"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "In South Africa, breeding is described as taking place in early July. Gestation lasts 89–92 days, and two to five cubs (most often two or three) are born in the rainy season, from October to December, when termites are more active. Cubs are born with their eyes open but are initially helpless, and weigh about 200–350 g. They stay in the den for about six to eight weeks; the male may guard them for long periods while the female forages. They begin supervised foraging at about three months and are usually independent by about four months, though they may share a den until the next breeding season. No Kruger-specific birth-month range was found; the October–December figures are for South Africa generally.",
+  "predators": [],
+  "prey": [],
+  "habitat": "Open dry plains, grassland and bushland with enough termites, avoiding mountains and closing forest. The EWT 2025 assessment says it has always been rare in Kruger and the Lowveld, but that it does occur in the park. The photographs below are from Mountain Zebra National Park and the Lion and Rhino Reserve in Gauteng, not from Kruger. Eastern African (Buffalo Springs / Kenya) photographs were not used, because that population is now often treated as a separate species, Proteles septentrionalis.",
+  "similar": [
+    {
+      "slug": "parahyaena-brunnea",
+      "note": "The brown hyaena is much larger, with a long shaggy dark-brown coat and a pale neck ruff, not a yellowish coat with clear vertical black stripes."
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "note": "The black-backed jackal is a canid, not a hyaena: it lacks the aardwolf's long erectile mane, regular vertical body stripes and black lower legs."
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "note": "The spotted hyaena is much larger, with a short spotted coat, rounded ears and a massive bone-crushing head, not a slim, vertically striped insectivore."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment says the aardwolf has always been rare in Kruger and the Lowveld as a whole, but that it does occur in the park. The regional trend is listed as unknown. No iNaturalist records of any grade were found in Kruger (place 69020) in this session.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys, or are left empty when no Kruger figure was found. Cited, not hosted."
+      },
+      {
+        "title": "Aardwolf",
+        "url": "https://ewt.org/project/aardwolf/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "large, similar in form to those of a striped hyaena"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "slender muzzle; no throat spot",
+          "muzzle": "slender",
+          "beard": null
+        },
+        "mane": {
+          "colour": "darker than the body",
+          "shape": "a long mane down the midline of the neck and back, raised in confrontations"
+        },
+        "upperparts": {
+          "colour": "yellowish",
+          "pattern": "black vertical stripes, with one or two diagonal stripes on the fore- and hindquarters"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "striped; black from the knee down"
+        },
+        "tail": {
+          "colour": "bushy with a black tip",
+          "shape": "bushy, 20–30 cm"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A slim yellowish body with clear vertical black stripes, a long mane, black lower legs and a bushy black-tipped tail."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "At a den, the striped coat, slender muzzle and large ears are clear at close range."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Usually quiet. In fights or chases it may give soft clucking, hoarse barking and a type of roar.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "proteles-cristatus/mountain-zebra-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Aardwolf,_Mount_Zebra_National_Park,_South_Africa_1.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Aardwolf%2C_Mount_Zebra_National_Park%2C_South_Africa_1.jpg/1280px-Aardwolf%2C_Mount_Zebra_National_Park%2C_South_Africa_1.jpg",
+      "author": "flamelily",
+      "license": "CC0 1.0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Aardwolf standing in tall grass, showing vertical stripes and a bushy tail, in Mountain Zebra National Park",
+      "caption": "Adult, Mountain Zebra National Park, Eastern Cape. No reusable Kruger photograph was found."
+    },
+    {
+      "key": "proteles-cristatus/lion-and-rhino-den.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Aardwolf,_Proteles_cristata,_at_Lion_and_Rhino_Reserve,_Gauteng,_South_Africa_(47987215567).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Aardwolf%2C_Proteles_cristata%2C_at_Lion_and_Rhino_Reserve%2C_Gauteng%2C_South_Africa_%2847987215567%29.jpg/1280px-Aardwolf%2C_Proteles_cristata%2C_at_Lion_and_Rhino_Reserve%2C_Gauteng%2C_South_Africa_%2847987215567%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Aardwolf lying at a den, showing the vertical stripes, mane and slender muzzle, at Lion and Rhino Reserve, Gauteng",
+      "caption": "Adult at a den, Lion and Rhino Reserve, Gauteng. No reusable Kruger photograph was found."
+    },
+    {
+      "key": "proteles-cristatus/lion-and-rhino-pair.jpg",
+      "view": "herd",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Aardwolf,_Proteles_cristata,_at_Lion_and_Rhino_Reserve,_Gauteng,_South_Africa_(47987200178).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Aardwolf%2C_Proteles_cristata%2C_at_Lion_and_Rhino_Reserve%2C_Gauteng%2C_South_Africa_%2847987200178%29.jpg/1280px-Aardwolf%2C_Proteles_cristata%2C_at_Lion_and_Rhino_Reserve%2C_Gauteng%2C_South_Africa_%2847987200178%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two aardwolves lying together at a den at Lion and Rhino Reserve, Gauteng",
+      "caption": "Adults at a den, Lion and Rhino Reserve, Gauteng. No reusable Kruger photograph was found."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aardwolf",
+      "url": "https://en.wikipedia.org/wiki/Aardwolf",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Proteles cristata account",
+      "url": "https://animaldiversity.org/accounts/Proteles_cristata/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026,
+      "note": "There is no Animal Diversity Web account at Proteles cristatus. This account uses the older spelling Proteles cristata."
+    },
+    {
+      "title": "Aardwolf",
+      "url": "https://ewt.org/project/aardwolf/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    }
+  ],
+  "research": {
+    "confidence": "low",
+    "needsReview": true,
+    "note": "No Kruger count, and no Kruger photographs or recordings, were found. All photographs are from Mountain Zebra National Park or the Lion and Rhino Reserve and are captioned as such. Eastern African photographs were not used. The 2011 Afrikaans name Aardwolf is retained.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "No reusable Kruger photograph was found; the images are from Mountain Zebra National Park and the Lion and Rhino Reserve, Gauteng.",
+    "No Kruger-specific birth-month range was found. A South African account gives births in the rainy season, from October to December.",
+    "Iris colour was not found in the sources consulted.",
+    "No reusable Kruger recording found."
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "kind": "species",
+  "slug": "caracal-caracal",
+  "scientificName": "Caracal caracal",
+  "commonNames": {
+    "en": "Caracal",
+    "af": "Rooikat"
+  },
+  "family": "felidae",
+  "inatTaxonId": 42042,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Caracal",
+        "url": "https://ewt.org/project/caracal/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern."
+      },
+      {
+        "title": "A conservation assessment of Caracal caracal",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/9.-Caracal-Caracal-caracal_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "male": {
+        "min": 78,
+        "max": 108
+      },
+      "female": {
+        "min": 71,
+        "max": 103
+      }
+    },
+    "tailCm": {
+      "male": {
+        "min": 21,
+        "max": 34
+      },
+      "female": {
+        "min": 18,
+        "max": 32
+      }
+    },
+    "massKg": {
+      "male": {
+        "min": 7,
+        "max": 19
+      },
+      "female": {
+        "min": 7,
+        "max": 16
+      }
+    },
+    "note": "Sexed head-and-body length and tail length follow Wikipedia: males 78–108 cm with tails of 21–34 cm; females 71–103 cm with tails of 18–31.5 cm (female tail max rounded to 32 cm). Wikipedia gives male mass of 7.2–19 kg (n=77) and female mass of 7–15.9 kg (n=63). Animal Diversity Web gives a shorter unsexed head-and-body length of 62–91 cm, tails of 18–34 cm, and mass of 8–19 kg, with females typically at or below 13 kg and males up to 20 kg. The Wikipedia sexed ranges are entered; the ADW disagreement is noted. No published shoulder-height range was found."
+  },
+  "summary": "A medium-sized, plain reddish cat with long, black-tufted ears and a short tail. It is seldom seen in Kruger, where leopards and other large carnivores are common.",
+  "description": "The coat is brown to red, usually paler in females, with a white, lightly spotted underside. The face has black marks on the whisker pads and around and above the eyes, and a faint dark line down the centre of the head and nose. The ears are tall, with long black tufts, and are the species' most distinctive mark. The hind legs are long and well muscled, and the tail is short. Eye colour ranges from golden or copper to green or grey. Young animals have shorter ear tufts and blue-tinted eyes. Melanistic individuals have been reported but are very rare.",
+  "habits": "Mostly solitary, and mainly nocturnal, though it may be seen by day. It is a powerful jumper and takes much of its prey, including birds, with a leap. In protected areas with large carnivores it is thought to suffer interference competition, especially from leopards, which have been recorded killing caracals. In Kruger and the adjoining private reserves it is seen less often than on farmland, and appears to be more common in mixed Combretum woodland on granite landscapes.",
+  "diet": {
+    "summary": "A carnivore that takes a wide range of prey, from rodents, hares, birds and reptiles up to small antelope such as steenbok, and it can kill animals larger than itself, including black-backed jackal. It is an opportunistic hunter rather than a specialist.",
+    "items": [
+      "rodents",
+      "hares",
+      "birds",
+      "reptiles",
+      "small antelope",
+      "black-backed jackal"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "Juveniles have shorter ear tufts and blue-tinted eyes. No Kruger-specific birth-month range, litter size or gestation figure was entered from the sources consulted in this session.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    }
+  ],
+  "prey": [
+    {
+      "slug": "raphicerus-campestris",
+      "en": "Steenbok"
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal"
+    }
+  ],
+  "habitat": "A wide range of habitats with cover, from semi-arid scrub and woodland to more open savanna; it avoids true desert and closed tropical forest. In Kruger it is scarce and appears to favour mixed Combretum woodland on the granite landscapes.",
+  "similar": [
+    {
+      "slug": "felis-lybica",
+      "note": "The African wild cat is much smaller, lacks long black ear tufts, and has a sandy-grey, faintly striped coat and a ringed tail with a black tip."
+    },
+    {
+      "slug": "leptailurus-serval",
+      "note": "The serval has a spotted and striped coat, a small head, very long legs and large ears without long black tufts."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment says caracals are less frequently observed in Kruger and the adjoining private reserves, where they appear more common in mixed Combretum woodland on granite, and may be limited by competition with leopards.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Caracal",
+        "url": "https://ewt.org/project/caracal/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Caracal caracal",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/9.-Caracal-Caracal-caracal_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "black tufts",
+          "shape": "tall, with long black tufts"
+        },
+        "eye": {
+          "iris": [
+            "golden",
+            "copper",
+            "green",
+            "grey"
+          ],
+          "ring": null
+        },
+        "head": {
+          "face": "black marks on the whisker pads and around and above the eyes, and a faint dark line down the centre of the head and nose",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "red"
+          ],
+          "pattern": "plain; females typically paler than males"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": "many small spots"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "short, 18–34 cm"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "black tufts",
+          "shape": "ear tufts shorter than in the adult"
+        },
+        "eye": {
+          "iris": "blue-tinted",
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A plain reddish coat, long hind legs, a short tail, and tall ears with long black tufts."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The face shows black marks around the eyes and long black ear tufts."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A distinctive cough-like call has been reported in a mating context. A general field call of the species was not described in the sources consulted.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "caracal-caracal/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Caracal_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Caracal_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg",
+      "author": "Ragnhild and Neil Crawford",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Caracal walking in profile, showing the black ear tufts, in Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "key": "caracal-caracal/mountain-zebra-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Caracal_Caracal-001.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Caracal_Caracal-001.jpg/1280px-Caracal_Caracal-001.jpg",
+      "author": "Leo za1",
+      "license": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close view of a caracal's face and black-tufted ears at Mountain Zebra National Park",
+      "caption": "Adult, Mountain Zebra National Park, Eastern Cape. No comparably clear front view from Kruger was found."
+    },
+    {
+      "key": "caracal-caracal/kruger-mopani.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/247281389",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/441618043/large.jpg",
+      "author": "Peter Small",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Caracal moving through dry bush near Mopani Rest Camp, Kruger National Park",
+      "caption": "Adult, Mopani Rest Camp, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Caracal",
+      "url": "https://en.wikipedia.org/wiki/Caracal",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Caracal caracal account",
+      "url": "https://animaldiversity.org/accounts/Caracal_caracal/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Caracal",
+      "url": "https://ewt.org/project/caracal/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Caracal caracal",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/9.-Caracal-Caracal-caracal_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger count was found. Reusable Kruger photographs are scarce; one clear front view is from Mountain Zebra National Park and is captioned as such. Gestation, litter size and Kruger birth months were not found in this session.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "No published shoulder-height range was found.",
+    "No Kruger-specific birth-month range, and no sourced gestation or litter-size figures, were found in this session.",
+    "Sources disagree on head-and-body length (62–91 cm unsexed versus longer sexed ranges).",
+    "No reusable Kruger recording found."
+  ]
+}

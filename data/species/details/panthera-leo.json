@@ -1,0 +1,543 @@
+{
+  "kind": "species",
+  "slug": "panthera-leo",
+  "scientificName": "Panthera leo",
+  "commonNames": {
+    "en": "Lion",
+    "af": "Leeu"
+  },
+  "family": "felidae",
+  "inatTaxonId": 41964,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Vulnerable globally",
+    "scope": "IUCN global (2025), and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Lion",
+        "url": "https://ewt.org/project/lion/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable."
+      },
+      {
+        "title": "A conservation assessment of Panthera leo",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/31.-African-Lion-Panthera-leo_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Lion",
+        "url": "https://en.wikipedia.org/wiki/Lion",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "male": {
+        "min": 184,
+        "max": 208
+      },
+      "female": {
+        "min": 160,
+        "max": 184
+      }
+    },
+    "tailCm": {
+      "male": {
+        "min": 82,
+        "max": 94
+      },
+      "female": {
+        "min": 72,
+        "max": 90
+      }
+    },
+    "massKg": {
+      "male": {
+        "min": 187,
+        "max": 225
+      },
+      "female": {
+        "min": 118,
+        "max": 144
+      }
+    },
+    "note": "Head-and-body length and tail length follow the Wikipedia size table, citing West and Packer in Mammals of Africa (2013): males 184–208 cm and 82.5–93.5 cm, females 160–184 cm and 72–89.5 cm (tail bounds rounded to the nearest centimetre). Sexed mass is the southern African range on the same table, citing Smuts, Robinson and Whyte (1980): males 186.55–225 kg and females 118.37–143.52 kg (rounded here to 187–225 and 118–144 kg). The same source gives East African averages of 174.9 kg (males) and 119.5 kg (females). Animal Diversity Web gives only unsexed length of 2.4–3.3 m and average masses of 189 kg (males) and 126 kg (females), and average shoulder heights of 1.2 m (males) and 1.1 m (females); those averages are not entered as ranges. No published shoulder-height range was found."
+  },
+  "summary": "A large, powerfully built cat of open savanna and woodland. Adult males are markedly larger than females and have a mane around the head, neck and chest. Both sexes have a sandy to tawny coat and a long tail ending in a dark tuft.",
+  "description": "The lion has a muscular, broad chest, a short rounded head and rounded ears. Coat colour runs from light buff through yellowish red to darker brown, with paler underparts. Newborn cubs are spotted; the spots fade with age but faint marks may remain on the legs and underparts. Every adult has a dark, hairy tuft at the end of the tail, which develops from about five and a half months of age. The male's mane grows down over the head, neck, shoulders and chest and is typically brownish, often mixed with yellow, rust or black hair; it is usually full by about four years of age. A rare pale morph, the white lion, has been recorded in and around Kruger and the adjoining Timbavati Private Game Reserve.",
+  "habits": "Lions are the most social of the wild cats, living in prides of related females and their cubs, usually with one or a few adult males. They rest for much of the day and are often most active after dusk and around dawn, when hunts commonly take place. Lionesses usually hunt together, taking favoured positions in a group stalk, while males more often hunt alone or in coalitions and may tackle larger prey such as buffalo. Roaring advertises presence and can carry for about 8 km, most often at night. In Kruger, density is higher on the southern basalt plains than on the northern granites. Southern prides have remained robust, while lions in the north are in poorer country and face more snaring and poisoning along the Zimbabwean border.",
+  "diet": {
+    "summary": "A generalist carnivore and an apex predator. Prey is mainly medium-sized and large hoofed mammals. In African savanna this typically includes wildebeest, zebra, buffalo, giraffe and warthog, and in Kruger also impala. It usually avoids adult elephant, rhinoceros and hippopotamus, and only rarely takes very small prey. An adult lioness needs about 5 kg of meat a day, a male about 7 kg, and an animal may eat up to 30 kg at one session.",
+    "items": [
+      "wildebeest",
+      "zebra",
+      "buffalo",
+      "giraffe",
+      "warthog",
+      "impala"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "Gestation is about 110 days. The female gives birth to a litter of one to four cubs in a secluded den, often a thicket, reed-bed or cave, away from the pride, and moves the cubs several times a month. Cubs are born blind, weigh 1.2–2.1 kg, open their eyes at about seven days, and walk at around three weeks. The mother usually brings them into the pride at six to eight weeks. Pride lionesses often breed in step and may suckle one another's cubs. Weaning is at six or seven months. Incoming males may kill cubs that are not their own.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": "connochaetes-taurinus",
+      "en": "Blue wildebeest"
+    },
+    {
+      "slug": "equus-quagga",
+      "en": "Burchell's zebra"
+    },
+    {
+      "slug": "syncerus-caffer",
+      "en": "Buffalo"
+    },
+    {
+      "slug": "giraffa-giraffa",
+      "en": "Giraffe"
+    },
+    {
+      "slug": "phacochoerus-africanus",
+      "en": "Warthog"
+    },
+    {
+      "slug": "aepyceros-melampus",
+      "en": "Impala"
+    }
+  ],
+  "habitat": "Grassy plains, savanna and open woodland with bushes; it rarely enters closed forest. In Kruger it is densest on the southern basalt plains, and is often seen on open grassland and along rivers where prey concentrates.",
+  "similar": [
+    {
+      "slug": "panthera-pardus",
+      "note": "The leopard is smaller, lacks a mane and a tufted tail, and is marked with rosettes rather than a plain tawny coat."
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "note": "The cheetah is slimmer, has solid black spots rather than a plain coat, and has conspicuous black tear-marks from the inner eye to the muzzle; it does not have a tufted tail or a mane."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 1715,
+      "high": 1891
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "medium",
+    "asOf": 2015,
+    "notes": "Some sources claim a 2015 Kruger call-up survey, at 240 random stations, estimated 1,803 lions (95% confidence interval 1,715–1,891), up from 1,684 (1,617–1,751) in 2005 (Ferreira and Funston 2020, cited on the EWT 2025 assessment). One source still quotes the older 2005/06 call-up as about 1,600 lions (±225 at 95% confidence), or about 1,500 to 1,700. There has been no park-wide census since 2015. Southern Kruger is described as still doing well; the north is not, in more arid country and with more poisoning and snaring. The EWT 2025 assessment says the Kruger population as a whole is not under threat, and lists the regional trend as stable.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 1617,
+          "high": 1751
+        },
+        "unit": "individuals",
+        "asOf": 2005,
+        "notes": "Call-up survey, 1,684 (95% CI 1,617–1,751), cited on the EWT 2025 Lion page as Ferreira and Funston 2020. One source also quotes about 1,600 (±225) from a 2005/06 call-up at 229 stations, and a 2011 re-reading of 1,620–1,750."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Secondary source quoting SANParks surveys or estimates."
+      },
+      {
+        "title": "Lion",
+        "url": "https://ewt.org/project/lion/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Cites the 2005 and 2015 Kruger call-up results (Ferreira and Funston 2020) and later observations in the south and north of the park."
+      },
+      {
+        "title": "A conservation assessment of Panthera leo",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/31.-African-Lion-Panthera-leo_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "round"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "short, rounded head, broader than in the female",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": [
+            "brown",
+            "yellow",
+            "rust",
+            "black"
+          ],
+          "shape": "full mane covering the head, neck, shoulders and chest, usually complete by about four years of age"
+        },
+        "upperparts": {
+          "colour": [
+            "buff",
+            "tawny",
+            "yellowish-red",
+            "dark brown"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "paler than the upperparts",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "dark tuft at the tip",
+          "shape": "long, with a dark hairy tuft"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "round"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "short, rounded head",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "no mane, except in rare reported cases"
+        },
+        "upperparts": {
+          "colour": [
+            "buff",
+            "tawny",
+            "yellowish-red",
+            "dark brown"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "paler than the upperparts",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "dark tuft at the tip",
+          "shape": "long, with a dark hairy tuft"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": "dark spots, which fade towards adulthood; faint spots may remain on the legs and underparts"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "the dark tuft is absent at birth and is readily seen from about seven months"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A broad head framed by a mane, with rounded ears and a powerful chest."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "The mane covers the neck and chest, and the long tail ends in a dark tuft."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "A maneless, rounded head and a plain tawny coat, with paler underparts."
+    },
+    {
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "note": "A pride often includes several lionesses and cubs together, sometimes with one or more males."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "The main long-distance call is a roar, used to advertise presence, most often at night, and audible from as far as about 8 km. Other sounds include growls, snarls, puffs, hums and breathy sounds like purring; cubs meow and bleat.",
+      "recordings": [
+        {
+          "key": "inaturalist/291259",
+          "source": "https://www.inaturalist.org/observations/91042075",
+          "fileUrl": "https://static.inaturalist.org/sounds/291259.mp3?1628888093",
+          "author": "Sean Daniels",
+          "license": "CC BY-NC 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "aiGenerated": false,
+          "hosted": false,
+          "place": "Sable Hide, Mopani, Kruger National Park",
+          "date": "2015-05-18",
+          "note": "Field recording made during a sleepover at Sable Hide. The observation does not name the call type."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "key": "panthera-leo/kruger-male-lying.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Male_lion_profile_Kruger_South_Africa.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Male_lion_profile_Kruger_South_Africa.jpg/1280px-Male_lion_profile_Kruger_South_Africa.jpg",
+      "author": "amanderson2",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male lion with a full mane lying in bush in Kruger National Park",
+      "caption": "Adult male, Kruger National Park."
+    },
+    {
+      "key": "panthera-leo/kruger-young-male-side.jpg",
+      "view": "standing-side",
+      "age": "subadult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Lion_(Panthera_leo),_young_male.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Lion_%28Panthera_leo%29%2C_young_male.jpg/1280px-Lion_%28Panthera_leo%29%2C_young_male.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Young male lion standing in profile in tall grass in Kruger National Park",
+      "caption": "Young male, H10 road south of Tshokwane, Kruger National Park."
+    },
+    {
+      "key": "panthera-leo/kruger-female-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Lion_(Panthera_leo)_female_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lion_%28Panthera_leo%29_female_Kruger.jpg/1280px-Lion_%28Panthera_leo%29_female_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult lioness walking forwards through grass in Kruger National Park",
+      "caption": "Adult female, Kruger National Park."
+    },
+    {
+      "key": "panthera-leo/kruger-female-head.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Lion_(Panthera_leo)_female_head_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Lion_%28Panthera_leo%29_female_head_Kruger.jpg/1280px-Lion_%28Panthera_leo%29_female_head_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close view of an adult lioness's head in Kruger National Park",
+      "caption": "Adult female, Kruger National Park."
+    },
+    {
+      "key": "panthera-leo/kruger-female-cub.jpg",
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Lioness_(Panthera_leo)_with_cub.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lioness_%28Panthera_leo%29_with_cub.jpg/1280px-Lioness_%28Panthera_leo%29_with_cub.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Lioness lying on grass with a cub standing beside her in Kruger National Park",
+      "caption": "Female and cub, James Waterhole, S114 road north of Malelane Gate, Kruger National Park."
+    },
+    {
+      "key": "panthera-leo/kruger-pride-cubs.jpg",
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Lioness_(Panthera_leo)_with_cubs_in_Kruger_Park_(52728925792).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Lioness_%28Panthera_leo%29_with_cubs_in_Kruger_Park_%2852728925792%29.jpg/1280px-Lioness_%28Panthera_leo%29_with_cubs_in_Kruger_Park_%2852728925792%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Lionesses and cubs resting together on a road in Kruger National Park",
+      "caption": "Lionesses and cubs, H3 road north of Malelane Gate, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lion",
+      "url": "https://en.wikipedia.org/wiki/Lion",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Panthera leo account",
+      "url": "https://animaldiversity.org/accounts/Panthera_leo/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Lion",
+      "url": "https://ewt.org/project/lion/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Panthera leo",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/31.-African-Lion-Panthera-leo_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Secondary source quoting SANParks surveys or estimates."
+    },
+    {
+      "title": "Comparative growth of wild male and female lions (Panthera leo)",
+      "url": null,
+      "publisher": "Journal of Zoology",
+      "year": 1980,
+      "note": "Smuts GL, Robinson GA, Whyte IJ. Cited via the Wikipedia size table for southern African mass."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2015 call-up range is the most recent park-wide figure found, cited on the EWT 2025 assessment rather than taken from the official aerial census sheet. Text and measurements are sourced from compiled accounts (Wikipedia, Animal Diversity Web, EWT) rather than a southern-African field guide. Shoulder height was published only as averages and was omitted.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No park-wide census has been published since the 2015 call-up survey. A more recent figure may exist.",
+    "No published shoulder-height range was found; only average heights were given.",
+    "No Kruger-specific birth-month range was found. General accounts say lions breed year-round, with a gestation of about 110 days.",
+    "Iris colour was not found in the sources consulted.",
+    "No reusable Kruger recording of a named roar was found on Wikimedia Commons; the included iNaturalist recording does not name the call type."
+  ]
+}

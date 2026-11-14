@@ -1,0 +1,323 @@
+{
+  "kind": "species",
+  "slug": "parahyaena-brunnea",
+  "scientificName": "Parahyaena brunnea",
+  "commonNames": {
+    "en": "Brown hyaena",
+    "af": "Strandjut"
+  },
+  "family": "hyaenidae",
+  "inatTaxonId": 500648,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (NT C2a(i) + D1). The IUCN global assessment also lists the species as Near Threatened.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Brown Hyaena",
+        "url": "https://ewt.org/project/brown-hyaena/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Near Threatened C2a(i) + D1; regional trend stable."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 70,
+      "max": 80
+    },
+    "headBodyLengthCm": {
+      "min": 130,
+      "max": 160
+    },
+    "tailCm": {
+      "min": 25,
+      "max": 35
+    },
+    "massKg": {
+      "min": 34,
+      "max": 73
+    },
+    "note": "Shoulder height of 70–80 cm, body length of 130–160 cm and tail length of 25–35 cm follow Wikipedia (Animal Diversity Web gives the same body-length range and an average shoulder height of 78.7 cm, which is omitted as a range). Wikipedia's sexed masses of 40.2–43.7 kg (males) and 37.7–40.2 kg (females) are described as averages and are not entered as ranges. Animal Diversity Web gives an unsexed range of 34.2–72.6 kg (average 40.7 kg); that range is entered, rounded to 34–73 kg, and the Wikipedia averages are noted. There is little size difference between the sexes, though males may be slightly larger."
+  },
+  "summary": "A shaggy, dark-brown hyaena with a pale neck ruff, pointed ears, striped legs and a short tail. It is primarily a scavenger. It is on the Kruger checklist, but its status as a breeding resident in the park is uncertain, and no Kruger photographs were found.",
+  "description": "Distinguished from the spotted hyaena by a long, shaggy dark-brown coat, pointed ears and a short tail. The legs are striped brown and white, and adults have a distinct cream-coloured fur ruff around the neck. Long erectile hairs, up to about 30 cm, cover the neck and back and can be raised in displays. The skull and teeth are robust. There is little difference in size between the sexes. Young animals resemble the adults but have shorter fur.",
+  "habits": "Mainly nocturnal (in the Kalahari, about 80% of activity is at night). It lives in small clans of about four to six related animals, usually a mated pair and their offspring. Clan members share a territory, mark it by pasting a black and white secretion from the anal gland onto vegetation and rocks, and cooperate in raising cubs. Adults typically forage alone. It may cache surplus food and return to it within a day. Where it overlaps with lions and spotted hyaenas it may be killed by them, and it often dens well away from those species.",
+  "diet": {
+    "summary": "Primarily a scavenger. Most of the diet is carcasses killed by larger predators, supplemented with rodents, small birds, insects, eggs, faeces and fruit, including tsama melon. Live prey makes up only a small share of the diet. It has a keen sense of smell and can find carcasses kilometres away, and it may appropriate the kills of jackals, cheetahs and leopards.",
+    "items": [
+      "carrion",
+      "rodents",
+      "small birds",
+      "insects",
+      "eggs",
+      "fruit"
+    ],
+    "guild": "scavenger"
+  },
+  "young": "Females usually produce their first litter at about two years, and in one account they mate mainly from May to August. Gestation is around three months (an average of 97 days on Animal Diversity Web). Litters usually have one to five cubs, born in a den, with their eyes closed; the eyes open after about eight days. Cubs weigh about 1 kg at birth and have shorter fur than the adults. Clan members bring food to the den and may nurse each other's young. Young are weaned at about 12 months and leave the den at about 14–18 months. No Kruger-specific birth-month range was found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    }
+  ],
+  "prey": [],
+  "habitat": "Desert, semi-desert, open woodland and coastal areas in southern Africa, often where there is shade or cover. In Kruger its present status is uncertain (see population). The photographs below are from Kgalagadi Transfrontier Park and Madikwe Game Reserve, not from Kruger.",
+  "similar": [
+    {
+      "slug": "crocuta-crocuta",
+      "note": "The spotted hyaena has a short, spotted coat, rounded ears and a sloping back, not a long shaggy dark-brown coat, a pale neck ruff or pointed ears."
+    },
+    {
+      "slug": "proteles-cristatus",
+      "note": "The aardwolf is much smaller and slimmer, with a yellowish coat marked with clear vertical black stripes and a slender muzzle, not a uniformly dark shaggy coat."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment says that management practices have favoured the spotted hyaena in Kruger, leading to the brown hyaena being excluded as a breeding species (Mills 1990; Skinner and Chimimba 2005), which points to local extinction, or uncertain presence at best. The species remains on the 2011 Kruger checklist, so it is kept here; that uncertain breeding status is recorded, and extinction is not stated as a fact. No iNaturalist records of any grade were found in Kruger (place 69020) in this session.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys, or are left empty when no Kruger figure was found. Cited, not hosted."
+      },
+      {
+        "title": "Brown Hyaena",
+        "url": "https://ewt.org/project/brown-hyaena/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "pointed"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": [
+            "dark brown",
+            "cream ruff"
+          ],
+          "shape": "long erectile hairs on the neck and back, up to about 30 cm, with a distinct cream-coloured ruff around the neck"
+        },
+        "upperparts": {
+          "colour": "dark brown",
+          "pattern": "long, shaggy coat"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "striped brown and white"
+        },
+        "tail": {
+          "colour": "similar to the body",
+          "shape": "short and bushy, 25–35 cm"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "dark brown",
+          "pattern": "similar to the adult, but with shorter fur"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A long shaggy dark-brown coat, a pale neck ruff, pointed ears, striped legs and a short bushy tail."
+    },
+    {
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "note": "Young animals have the same pointed ears and dark coat as the adult, but shorter fur."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Vocal signals include whines and squeals, used as a warning of approaching predators and as a sign of submission, a relatively quiet call used to order cubs into the den, and deep growls that may accompany meetings. It does not have the loud who-oop of the spotted hyaena.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "parahyaena-brunnea/kgalagadi-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Brown_Hyena_(Hyaena_brunnea)_leaving_waterhole_..._(50915531592).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Brown_Hyena_%28Hyaena_brunnea%29_leaving_waterhole_..._%2850915531592%29.jpg/1280px-Brown_Hyena_%28Hyaena_brunnea%29_leaving_waterhole_..._%2850915531592%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Brown hyaena in profile, showing the shaggy coat, pale neck ruff and pointed ears, leaving a waterhole in Kgalagadi Transfrontier Park",
+      "caption": "Adult leaving Union's End waterhole, Kgalagadi Transfrontier Park. No reusable Kruger photograph was found."
+    },
+    {
+      "key": "parahyaena-brunnea/kgalagadi-night.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Brown_Hyena_(Hyaena_brunnea)_at_waterhole_..._(31255399287).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Brown_Hyena_%28Hyaena_brunnea%29_at_waterhole_..._%2831255399287%29.jpg/1280px-Brown_Hyena_%28Hyaena_brunnea%29_at_waterhole_..._%2831255399287%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Brown hyaena standing at a waterhole at night in Kgalagadi Transfrontier Park, showing the striped legs",
+      "caption": "Adult at night, Rooikop, Nossob riverbed, Kgalagadi Transfrontier Park. No reusable Kruger photograph was found."
+    },
+    {
+      "key": "parahyaena-brunnea/madikwe-cubs.jpg",
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Baby_brown_hyenas,_Madikwe_(52212385852),_crop.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Baby_brown_hyenas%2C_Madikwe_%2852212385852%29%2C_crop.jpg/1280px-Baby_brown_hyenas%2C_Madikwe_%2852212385852%29%2C_crop.jpg",
+      "author": "flowcomm",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Brown hyaena cubs at a den in Madikwe Game Reserve, showing the pointed ears and shorter fur",
+      "caption": "Cubs at a den, Madikwe Game Reserve, North West. No reusable Kruger photograph was found."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Brown hyena",
+      "url": "https://en.wikipedia.org/wiki/Brown_hyena",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Hyaena brunnea account",
+      "url": "https://animaldiversity.org/accounts/Hyaena_brunnea/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026,
+      "note": "There is no Animal Diversity Web account at Parahyaena brunnea. This account uses the older name Hyaena brunnea."
+    },
+    {
+      "title": "Brown Hyaena",
+      "url": "https://ewt.org/project/brown-hyaena/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    }
+  ],
+  "research": {
+    "confidence": "low",
+    "needsReview": true,
+    "note": "No Kruger count, and no Kruger photographs or recordings, were found. The EWT page raises an uncertain breeding status in Kruger; the species is kept because it is on the 2011 checklist. All photographs are from Kgalagadi or Madikwe and are captioned as such.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "No reusable Kruger photograph was found; the images are from Kgalagadi Transfrontier Park and Madikwe Game Reserve.",
+    "No Kruger-specific birth-month range was found. One account gives mating mainly from May to August.",
+    "Iris colour was not found in the sources consulted.",
+    "No reusable Kruger recording found."
+  ]
+}
