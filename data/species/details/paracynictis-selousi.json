@@ -1,0 +1,264 @@
+{
+  "kind": "species",
+  "slug": "paracynictis-selousi",
+  "scientificName": "Paracynictis selousi",
+  "commonNames": {
+    "en": "Selous' mongoose",
+    "af": "Kleinwitstertmuishond"
+  },
+  "family": "herpestidae",
+  "inatTaxonId": 41937,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2016 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Paracynictis selousi",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/33.-Selous-Mongoose-Paracynictis-selousi-_LC.pdf",
+        "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Least Concern, with a Watch-list Data flag, changed from Data Deficient in 2004 (a non-genuine change). Global IUCN status Least Concern (2016). Lists Selous’ Mongoose as an English name and Klein Witstertmuishond as the Afrikaans name. The stored English and Afrikaans names are the 2011 SANParks checklist names, Selous' mongoose and Kleinwitstertmuishond. Cited, not hosted."
+      },
+      {
+        "title": "Selous's mongoose",
+        "url": "https://en.wikipedia.org/wiki/Selous%27s_mongoose",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Lists the IUCN Red List status as Least Concern, and notes that both Selous's mongoose and Selous' mongoose are accepted spellings."
+      }
+    ]
+  },
+  "size": {
+    "lengthCm": {
+      "min": 63,
+      "max": 90
+    },
+    "tailCm": {
+      "min": 28,
+      "max": 43
+    },
+    "massKg": {
+      "min": 1.4,
+      "max": 2.0
+    },
+    "note": "Wikipedia, citing Stuart and Stuart (2007), gives a total length of 63–90 cm, a tail of 28–43 cm, and a mass of about 1.4–2.0 kg. The 63–90 cm figure is entered as overall length, because a separate head-and-body measurement was not published in the sources used. Shoulder height was not published in the sources used."
+  },
+  "summary": "A small, nocturnal, mainly solitary mongoose of open savannah woodland and grassland. The coat is pale speckled grey to tawny grey, with a pale underside and brown or black legs, and only the tip of the tail is white. It digs its own burrows in sandy ground and hunts invertebrates, including underground beetle larvae, as well as small rodents, reptiles, amphibians, birds and eggs.",
+  "description": "Selous' mongoose is smaller and more slender than the white-tailed mongoose. Wikipedia describes the body as pale speckled grey to tawny grey, with a pale underside, brown or black legs, and a white-tipped tail that distinguishes it from the white-tailed mongoose, whose tail is white for about three-quarters of its length. It has four digits on each limb and long, slightly curved claws used for digging. No sourced difference in coat pattern between the sexes was found; Wikipedia notes that the female has three pairs of nipples.",
+  "habits": "It is essentially nocturnal and lies up in a burrow by day, though Wikipedia notes that it has also been seen above ground during the day. It is usually solitary, but pairs have been recorded and females may be seen with young. It excavates its own burrows in sandy ground, often with the entrance under a low bush but sometimes in the open, and may also use the burrows of other animals. Wikipedia describes the burrows as labyrinthine. It can defend itself by expelling a strong-smelling secretion from the anal gland, and the white tail-tip may signal this ability. The 2016 EWT assessment says it has not been found to be water-dependent. Home-range sizes were not published in the sources used.",
+  "diet": {
+    "summary": "A carnivore whose diet, like that of other mongooses, is based on murids, small birds and reptiles, eggs and insects, according to the 2016 EWT assessment, which also records toads, spiders and the centipede Scolopendra morsitans. Wikipedia treats invertebrates as the primary food, with small rodents, amphibians, reptiles and birds taken as well, and notes that the front claws are used to search for subterranean beetle larvae in grass tufts and leaf litter.",
+    "items": [
+      "insects, including subterranean beetle larvae",
+      "murids",
+      "small birds",
+      "reptiles",
+      "eggs",
+      "amphibians, including toads",
+      "spiders",
+      "centipedes, including Scolopendra morsitans"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "Little is known of the reproductive biology of this species. The 2016 EWT assessment says that females give birth to two to four young during the warm, wet summer. Wikipedia, citing Stuart and Stuart (2007), likewise gives litters of usually two to four young, born from August to March. Gestation, the appearance of the young, and the pattern of care were not published in the sources used. A Kruger-specific birth-month range was not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Domestic or feral dog",
+      "note": "The 2016 EWT assessment says domestic and feral dogs are thought to outcompete or kill this mongoose at a local level, and that animals may also be killed accidentally by hunting dogs."
+    },
+    {
+      "slug": null,
+      "en": "Domestic or feral cat",
+      "note": "The 2016 EWT assessment says domestic and feral cats are thought to outcompete or kill this mongoose at a local level."
+    }
+  ],
+  "prey": [],
+  "habitat": "Restricted to savannah grassland and woodland, and absent from forest and arid areas. It often occurs in Acacia scrub and woodland on a sandy substrate, where burrows are easier to excavate, and cultivation and bush clearing do not appear to exclude it. It has not been found to be water-dependent. Within the assessment region it has been recorded in the Limpopo and Mpumalanga eastern lowveld, the Limpopo River Valley and northern KwaZulu-Natal, and the 2016 EWT assessment lists Kruger National Park among the protected areas where it is known to be present.",
+  "similar": [
+    {
+      "slug": "ichneumia-albicauda",
+      "note": "Selous' mongoose is smaller and more slender, and only the tip of the tail is white, whereas the tail of the white-tailed mongoose is white for about three-quarters of its length."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2016 EWT assessment does not give a park count. It states that the species is generally uncommon, that there are probably fewer than 1,000 mature individuals in the assessment region, that more surveys are needed, and that the current regional trend is unknown but probably stable, inferred from the lack of major threats. Sightings in the assessment region are described as rare, and the species can be confused with the white-tailed mongoose and with Meller's mongoose. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Paracynictis selousi",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/33.-Selous-Mongoose-Paracynictis-selousi-_LC.pdf",
+        "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Gives a regional, not a Kruger, figure of probably fewer than 1,000 mature individuals, and a regional trend that is unknown but probably stable. Lists Kruger National Park among the protected areas where the species is present. Cited, not hosted."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "pale grey",
+            "tawny grey"
+          ],
+          "pattern": "pale speckled"
+        },
+        "underparts": {
+          "colour": "pale",
+          "pattern": null
+        },
+        "legs": {
+          "colour": [
+            "brown",
+            "black"
+          ]
+        },
+        "tail": {
+          "colour": "white-tipped",
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A small, slender mongoose with a pale speckled grey to tawny grey coat, a pale underside, brown or black legs, and a tail that is white only at the tip."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Only the tip of the tail is white, unlike the extensively white tail of the white-tailed mongoose."
+    }
+  ],
+  "calls": [],
+  "images": [
+    {
+      "key": "paracynictis-selousi/kalabo-zambia-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Paracynictis_selousi_11781660.jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Paracynictis_selousi_11781660.jpg/1280px-Paracynictis_selousi_11781660.jpg",
+      "hosted": false,
+      "author": "Peter Archdale",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "alt": "Selous' mongoose standing in grass at night, showing a tawny grey coat, Kalabo District, Zambia",
+      "caption": "Adult at night, Kalabo District, Zambia."
+    },
+    {
+      "key": "paracynictis-selousi/medike-limpopo-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/11094615",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15670182/large.jpg",
+      "hosted": false,
+      "author": "Ryan van Huyssteen",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "alt": "Selous' mongoose at night on a sand river, showing a pale coat and a pale, white-tipped tail, at Medike, Limpopo",
+      "caption": "Adult at night on a sand river, Medike, Limpopo, South Africa."
+    }
+  ],
+  "gaps": [
+    "No Kruger population figure was found.",
+    "A 2025 EWT species page was not found among the sources used, so the 2016 assessment is cited.",
+    "Animal Diversity Web has a classification page for this species but no full account, so size, diet and habits were taken from Wikipedia and the 2016 EWT assessment.",
+    "Shoulder height and a separate head-and-body length were not published in the sources used, so those range fields are omitted.",
+    "Ear shape, iris colour, face and muzzle marks, and tail shape were not given in the sources used, so those marks are null.",
+    "Gestation, the appearance of the young, and the pattern of care were not published in the sources used, so no young variant was added.",
+    "Call types were not described in the sources used.",
+    "No Kruger photograph on an allowed licence was found. Two live southern African night photographs were used instead (Medike, Limpopo, and Kalabo District, Zambia). The other allowed-licence South African iNaturalist records examined were roadkill and were not used. Close front and coat views were not confirmed among the photographs examined.",
+    "No reusable Kruger recording found. iNaturalist place 69020 has 0 observations of any grade and 0 sounds for taxon 41937."
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. A 2025 EWT species page was not found among the sources used, so the 2016 assessment is cited. Animal Diversity Web has no full account. Shoulder height, head-and-body length, ear, face and iris marks, call types, and the appearance of the young were not found. No Kruger photograph on an allowed licence was found, so two live southern African night photographs were used. No reusable Kruger recording was found, and iNaturalist place 69020 has 0 observations of this taxon.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "sources": [
+    {
+      "title": "Selous's mongoose",
+      "url": "https://en.wikipedia.org/wiki/Selous%27s_mongoose",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Used for size, appearance, habits, diet, young, the similar-species contrast with the white-tailed mongoose, and the Afrikaans name Kleinwitstertmuishond. The stored English name is the 2011 checklist form, Selous' mongoose."
+    },
+    {
+      "title": "A conservation assessment of Paracynictis selousi",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/33.-Selous-Mongoose-Paracynictis-selousi-_LC.pdf",
+      "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Used for regional status, distribution, habitat, habits, diet, young, predators and presence in Kruger National Park. Cited, not hosted."
+    }
+  ]
+}

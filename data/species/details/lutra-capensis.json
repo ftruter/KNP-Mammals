@@ -1,0 +1,340 @@
+{
+    "kind": "species",
+    "slug": "lutra-capensis",
+    "scientificName": "Lutra capensis",
+    "commonNames": {
+        "en": "Cape clawless otter",
+        "af": "Groototter"
+    },
+    "family": "mustelidae",
+    "inatTaxonId": 1638841,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Near Threatened regionally; Near Threatened globally",
+        "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "African Clawless Otter",
+                "url": "https://ewt.org/project/african-clawless-otter/",
+                "publisher": "Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional status Near Threatened C2a(i), regional trend declining. No change from 2016. English names African Clawless Otter and Cape Clawless Otter; Afrikaans name Groot-otter. Many sources, including this assessment, still use the scientific name Aonyx capensis."
+            },
+            {
+                "title": "A conservation assessment of Aonyx capensis",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Cape-Clawless-Otter-Aonyx-capensis_NT.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "African clawless otter",
+                "url": "https://en.wikipedia.org/wiki/African_clawless_otter",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites the 2021 IUCN assessment (Jacques, Reed-Smith and Somers), Near Threatened, and lists the animal under Lutra capensis."
+            }
+        ]
+    },
+    "size": {
+        "headBodyLengthCm": {
+            "min": 76,
+            "max": 88
+        },
+        "tailCm": {
+            "min": 46,
+            "max": 52
+        },
+        "lengthCm": {
+            "min": 113,
+            "max": 163
+        },
+        "massKg": {
+            "min": 10,
+            "max": 36
+        },
+        "note": "Head-and-body length (762\u2013880 mm) and tail (465\u2013515 mm, entered as 46\u201352 cm) follow Animal Diversity Web, which also gives an unsexed mass of 10\u201322 kg (its range box is 10.6\u201321 kg). Wikipedia gives a total length, including the tail, of 113\u2013163 cm, with the tail about a third of that length, and a mass of 10\u201336 kg, with most animals averaging 12\u201321 kg. Males are slightly larger than females, but no sexed ranges were published in the sources used. Shoulder height was not found. These disagreements are recorded rather than averaged."
+    },
+    "summary": "A large, chestnut-brown otter with a pale chin, throat and chest, a broad flat head, long white whiskers, and a long, stout, tapering tail. The forefeet are clawless and only partly webbed; small grooming claws remain on the three middle toes of the hind feet. Kruger holds a resident population along permanent rivers such as the Sabie and Crocodile.",
+    "description": "The coat is thick, smooth and dark or chestnut brown, with distinctive pale to white markings on the upper lips, sides of the face, neck, throat, belly and the lower ears. Long white whiskers on the cheeks, chin and brows help it find prey in murky water. The skull is broad and flat, with a short snout and large crushing molars. The hind feet are only partly webbed. Sources disagree on whether the forefeet have opposable thumbs, so that mark is not used here. Males are slightly larger than females, but the sexes are otherwise similar in the field.",
+    "habits": "It is mainly aquatic and seldom found far from permanent fresh water, which it also needs for rinsing its fur. It is typically crepuscular, and may be more nocturnal where people are present; the day is often spent in a holt or burrow in a bank, among rocks or in dense cover. It hunts in shallow water, usually around 0.5\u20131.5 m deep, feeling for prey with its forefeet and whiskers, then often brings larger items ashore to eat. It is largely solitary, though family groups of a few adults and young are sometimes seen, and males may have overlapping home ranges. Territories are marked with anal-gland scent and with spraints.",
+    "diet": {
+        "summary": "A carnivore that, in fresh water, feeds mainly on crabs, with fish, frogs and insects also taken; fish become more important in winter. It is an opportunistic hunter and will also take molluscs, reptiles and, at times, birds. Claims that it regularly eats mammals are disputed, and those remains in spraints may be incidental or belong to another species.",
+        "items": [
+            "freshwater crabs",
+            "fish",
+            "frogs",
+            "insects",
+            "molluscs",
+            "reptiles",
+            "birds"
+        ],
+        "guild": "carnivore"
+    },
+    "young": "Sources disagree on the season. Animal Diversity Web states that breeding takes place mainly in the dry season, with births at the start of the rains, while Wikipedia places mating in the rainy season around December and births in early spring. Gestation is about 63 days. A litter is usually of one to three pups, though as many as five have been reported, at least in captivity; Wikipedia gives two to five. Pups are born altricial, weigh about 200 g, open their eyes and leave the den at about 16\u201330 days, and are weaned at 45\u201360 days. The young are raised by the female and become independent at about one year. A Kruger-specific birth-month range was not found.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Nile crocodile",
+            "note": "Not a mammal in this guide. Recorded as a predator of this otter."
+        },
+        {
+            "slug": null,
+            "en": "African fish eagle",
+            "note": "Not a mammal in this guide. Recorded as a predator of this otter."
+        }
+    ],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Freshwater crabs",
+            "note": "The usual staple in freshwater habitats, often of the genus Potamonautes."
+        },
+        {
+            "slug": null,
+            "en": "Fish",
+            "note": "Often the second prey in fresh water, and more important in winter."
+        },
+        {
+            "slug": null,
+            "en": "Frogs",
+            "note": "Taken in freshwater habitats."
+        }
+    ],
+    "habitat": "Permanent rivers, pools, reed beds and well-vegetated banks. In the Lowveld it is recorded especially along the Sabie and Crocodile rivers. It stays close to fresh water and prefers shallow water with cover nearby.",
+    "similar": [
+        {
+            "slug": "atilax-paludinosus",
+            "note": "The water mongoose also keeps to rivers and reed beds, but the Cape clawless otter is a larger, chestnut-brown mustelid with a pale chin, throat and chest and a long, stout, tapering tail."
+        },
+        {
+            "slug": "mellivora-capensis",
+            "note": "The honey badger is a stocky terrestrial mustelid with a pale mantle over black underparts and legs, not a plain brown aquatic animal with a long tapering tail and a pale throat."
+        },
+        {
+            "slug": "ictonyx-striatus",
+            "note": "The striped polecat is much smaller, with a black coat broken by pale stripes, not a large plain brown otter."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": "individuals",
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger population figure was found. The EWT 2025 assessment lists Kruger National Park among important protected areas for the species, and notes records along the Sabie and Crocodile rivers in the Lowveld, but it gives no park count. One source claims a regional estimate of 11,825\u201319,377 mature individuals for South Africa, Eswatini and Lesotho, based on the 2016 figures, with a declining regional trend. Those numbers are not a Kruger census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "previousEstimates": [],
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+            },
+            {
+                "title": "African Clawless Otter",
+                "url": "https://ewt.org/project/african-clawless-otter/",
+                "publisher": "Endangered Wildlife Trust",
+                "year": 2025
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": "white on the lower ears",
+                    "shape": null
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "broad and flat, with pale to white sides, upper lips, neck and throat",
+                    "muzzle": "short, with long white whiskers on the cheeks, chin and brows",
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": [
+                        "chestnut",
+                        "dark brown"
+                    ],
+                    "pattern": "plain, thick and smooth"
+                },
+                "underparts": {
+                    "colour": "white",
+                    "pattern": "pale to white on the throat, chest and belly"
+                },
+                "legs": {
+                    "colour": "dark brown"
+                },
+                "tail": {
+                    "colour": "dark brown",
+                    "shape": "long, stout and tapering, about a third of total length"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A long, low, chestnut-brown body, a pale throat and chest, and a stout, tapering tail about a third of the animal's length."
+        },
+        {
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A broad, flattened head, a pale muzzle and throat, and long white whiskers are the clearest marks from the front."
+        }
+    ],
+    "calls": [
+        {
+            "sex": "any",
+            "type": "call",
+            "description": "A mix of low and high-pitched whistles, grunts and a 'hah' sound thought to express anxiety, as well as squeals, moans and mews. A high-pitched scream may be given when the animal is threatened.",
+            "recordings": []
+        }
+    ],
+    "images": [
+        {
+            "season": "any",
+            "aiGenerated": false,
+            "hosted": false,
+            "key": "lutra-capensis/mjejane-bank-side.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "source": "https://www.inaturalist.org/observations/11044672",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15585636/large.jpg",
+            "author": "Andrew Deacon",
+            "license": "CC0 1.0",
+            "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "alt": "Cape clawless otter lying on a grassy river bank, showing a dark brown body, pale throat and tapering tail, in Kruger National Park",
+            "caption": "Adult on a bank at Mjejane, Kruger National Park."
+        },
+        {
+            "season": "any",
+            "aiGenerated": false,
+            "hosted": false,
+            "key": "lutra-capensis/sabie-causeway-front.jpg",
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "any",
+            "source": "https://www.inaturalist.org/observations/342890207",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/624495740/large.jpg",
+            "author": "Bernard DUPONT",
+            "license": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "alt": "Close front view of a Cape clawless otter looking over a bank, showing the pale muzzle, whiskers and dark nose, in Kruger National Park",
+            "caption": "Adult at the Sabie River causeway on the H10 east of Lower Sabie, Kruger National Park."
+        },
+        {
+            "season": "any",
+            "aiGenerated": false,
+            "hosted": false,
+            "key": "lutra-capensis/kruger-swimming-front.jpg",
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "any",
+            "source": "https://www.inaturalist.org/observations/91388826",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/151157774/large.jpg",
+            "author": "Jacob Dirsuwei",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "alt": "Cape clawless otter swimming towards the camera in a rocky pool, showing a pale throat and dark brown body, in Kruger National Park",
+            "caption": "Adult swimming in Kruger National Park."
+        },
+        {
+            "season": "any",
+            "aiGenerated": false,
+            "hosted": false,
+            "key": "lutra-capensis/olifants-river-pair.jpg",
+            "view": "herd",
+            "age": "adult",
+            "sex": "any",
+            "source": "https://www.inaturalist.org/observations/10999421",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15498313/large.jpg",
+            "author": "Robert Taylor",
+            "license": "CC BY 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "alt": "Two Cape clawless otters on a rocky, grassy bank of a flowing river, one in the shallows, in Kruger National Park",
+            "caption": "Two adults on the Olifants River east of the camp, Kruger National Park."
+        }
+    ],
+    "sources": [
+        {
+            "title": "African clawless otter",
+            "url": "https://en.wikipedia.org/wiki/African_clawless_otter",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Aonyx capensis account",
+            "url": "https://animaldiversity.org/accounts/Aonyx_capensis/",
+            "publisher": "Animal Diversity Web",
+            "year": 2026
+        },
+        {
+            "title": "African Clawless Otter",
+            "url": "https://ewt.org/project/african-clawless-otter/",
+            "publisher": "Endangered Wildlife Trust",
+            "year": 2025
+        },
+        {
+            "title": "A conservation assessment of Aonyx capensis",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Cape-Clawless-Otter-Aonyx-capensis_NT.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited only; the PDF is not hosted in this repo."
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "No Kruger population figure was found. Sources disagree on total length and mass, and on litter size and the timing of breeding. No reusable Kruger recording was found. Iris colour and shoulder height were not found. Photographs are all from Kruger; one close front view shows mainly the head.",
+        "researched": "14 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger population figure was found.",
+        "Sources disagree on total length and mass; shoulder height was not published in the sources used.",
+        "Sources disagree on litter size and on whether breeding falls in the dry or the rainy season. A Kruger-specific birth-month range was not found.",
+        "Iris colour was not given as a named value in the sources used, so that mark is null.",
+        "No reusable Kruger recording found."
+    ]
+}

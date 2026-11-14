@@ -1,0 +1,308 @@
+{
+  "kind": "species",
+  "slug": "atilax-paludinosus",
+  "scientificName": "Atilax paludinosus",
+  "commonNames": {
+    "en": "Water mongoose",
+    "af": "Kommetjiegatmuishond"
+  },
+  "family": "herpestidae",
+  "inatTaxonId": 41919,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Water Mongoose",
+        "url": "https://ewt.org/project/water-mongoose/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend unknown, but probably stable. No change from 2016. Lists Water Mongoose and Marsh Mongoose as English names and Kommetjiegatmuishond as the Afrikaans name, matching the 2011 SANParks checklist English and Afrikaans names stored here."
+      },
+      {
+        "title": "Marsh mongoose",
+        "url": "https://en.wikipedia.org/wiki/Marsh_mongoose",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2015 IUCN assessment (Do Linh San et al.) and states that the species has been listed as Least Concern on the IUCN Red List since 2008. Also called water mongoose."
+      }
+    ]
+  },
+  "size": {
+    "massKg": {
+      "min": 2.5,
+      "max": 4.1
+    },
+    "note": "Animal Diversity Web gives an adult mass range of 2.5–4.1 kg and does not publish head-and-body or tail lengths. Wikipedia does not give that mass range: it states that adults range from 2.56 to 2.95 kg, that females measure 48.72 cm and males 51.38 cm in head-to-body length, and that the tail is 32.18–34.11 cm. Those Wikipedia figures are unusually precise and sit beside sexed head-and-body values that read as single measurements rather than a published min–max range, so they are not entered as structured bounds. Shoulder height was not published in the sources used. The two sources' mass figures are not reconciled here beyond entering Animal Diversity Web's range."
+  },
+  "summary": "A medium-sized, mainly nocturnal mongoose of rivers, marshes and other freshwater wetlands, usually seen alone. The coat is dark reddish brown to black and shaggy, with paler guard hairs; the muzzle is short, the ears are short and round, and each foot has five flexible, clawed, unwebbed toes. It forages along shorelines, mostly for crabs and frogs, and also takes small vertebrates, insects, carrion and some fruit.",
+  "description": "The water mongoose, also widely called the marsh mongoose, is a medium-sized, dark, shaggy herpestid and the only living member of the genus Atilax. Wikipedia describes the fur as dark reddish brown to black with white and fawn-coloured guard hairs; the hair is shorter behind the neck and on the front of the back, and longer on the hind legs and the tail. The muzzle is short, with a fawn-coloured mouth, short whiskers and a naked rhinarium; the ears are short and round. Each foot has five flexible digits with curved claws and no webbing, and the soles are naked. Animal Diversity Web similarly calls it a dark-brown, specialised mongoose, with thick, shaggy fur on the neck, body and tail, and short, sleek fur on the hands and feet, and notes sensitive hands used to feel for prey. Females have two nipples. No sourced difference in coat pattern between the sexes was found. The 2011 SANParks checklist name Water mongoose is stored here; the EWT assessment lists both Water Mongoose and Marsh Mongoose as English names, and Kommetjiegatmuishond as the Afrikaans name.",
+  "habits": "It is primarily solitary and mainly nocturnal, with peaks of activity in the early and later hours of the night; it is occasionally already active in the late afternoon or remains active into the early morning. Wikipedia, citing radio-collared animals in KwaZulu-Natal, likewise describes activity from shortly after sunset until after midnight. By day it sleeps in a burrow, in high grass or dense reeds, often on relatively high, dry ground surrounded by mud or water; in parts of the Karoo it also dens in rock crevices, overhangs and piles. Adult males and females meet to mate, and groups of two or three, typically a mother and her young, are sometimes seen in the breeding season. Home-range sizes vary widely between studies and are not given here as a Kruger figure: sources report 2.04 km² for a male and 1.31 km² for a female in KwaZulu-Natal, later averages of about 14.4 km² for males and 10.1 km² for females in the KwaZulu-Natal Midlands, and much smaller suburban ranges. Ranges are often linear along streams, and animals may travel up and down a watercourse for up to 5 km. It is an excellent swimmer and can dive for up to 15 seconds, paddling with its feet; on land it usually trots slowly but can also move fast. It communicates with vocalisations and with cheek and anal-gland marking, and deposits scats at latrines on low shrubs, rocks, sand or banks away from the water's edge. When threatened it may eject a foul fluid from the anal sacs, and it has a reputation for facing domestic dogs when cornered.",
+  "diet": {
+    "summary": "A shoreline forager whose diet is mostly aquatic prey. The EWT assessment says crabs and frogs usually dominate, which is unusual among mongooses, though in some areas small mammals, terrestrial arthropods, fish and birds are also important and may even dominate; it also scavenges carcasses and, in urban KwaZulu-Natal, may take anthropogenic waste. Wikipedia and Animal Diversity Web likewise record crustaceans, amphibians, insects, fish, rodents, reptiles, birds, eggs, snails, mussels and fruit or seeds. Prey in the water is felt out with the hands while the head is kept above the surface, then killed with a bite once it is pulled ashore; hard items such as crabs, mussels and eggs are smashed by being thrown down or thrown backwards between the legs.",
+    "items": [
+      "crabs and other crustaceans",
+      "frogs and other amphibians",
+      "fish",
+      "insects and other terrestrial arthropods, including insect larvae and millipedes",
+      "small mammals, including rodents",
+      "reptiles, including snakes",
+      "birds",
+      "eggs",
+      "mussels, snails, slugs and other molluscs",
+      "carrion",
+      "fruit, berries and seeds",
+      "anthropogenic waste, in urban areas"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "In the assessment region, the EWT assessment says mating takes place between August and February, and that females give birth to two or three young after a gestation of 73–74 days (it also lists gestation as 74 days and a mean litter size of 2.5). Wikipedia gives a wider gestation of 69–80 days and the same litter size of two to three, and describes the young as fully furred at birth; the eyes open between the 9th and 14th day, the pupils are bluish at first and change to brown at three weeks, the ear canal opens between the 17th and 28th day, and weaning begins from about day 30 and is complete by two months. Animal Diversity Web disagrees on season and some timings: it says the species breeds twice a year, once in the middle of the dry season and once in the rains, gives a litter of up to three (average two), an average gestation of 76 days, weaning in a few months, and an average male age at sexual maturity of 255 days. The female prepares a nest of dry grass in a hole, or, if no hole is available in swampy ground, a nest of reeds, grass and sticks; a second adult sometimes accompanies the family. A Kruger-specific birth-month range was not found. Sources also disagree on longevity in captivity (17 years on the EWT life-history table and on Animal Diversity Web, versus up to 19 years cited by the EWT assessment from Nowak 1999).",
+  "predators": [
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal",
+      "note": "Named by the EWT assessment as one of the main predators in the assessment region."
+    },
+    {
+      "slug": "caracal-caracal",
+      "en": "Caracal",
+      "note": "Named by the EWT assessment as one of the main predators in the assessment region."
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard",
+      "note": "Named by the EWT assessment as one of the main predators in the assessment region."
+    }
+  ],
+  "prey": [],
+  "habitat": "Mainly riparian habitats — rivers, streams, swamps, marshes and dams — wherever there is cover and water close by, and also estuaries and coastal areas. It can live some distance from water, but prefers shorelines that are easy to work, including sandy or rocky edges. Wikipedia likewise places it in freshwater wetlands, marshes and swamps along slow-moving rivers and streams, in forest, jungle and savanna, and in some brackish coastal habitats. Within the assessment region it occurs in all provinces of South Africa along most rivers, including seasonal rivers, and along most of the coastline except the north of the Northern Cape, and it also occurs widely in Eswatini and Lesotho; it is on the 2011 SANParks Kruger checklist. Across Africa it is absent from most of Namibia, Botswana and large parts of central South Africa wherever adequate water and cover are lacking.",
+  "similar": [
+    {
+      "slug": "lutra-capensis",
+      "note": "The water mongoose is a shoreline forager with five flexible, clawed, unwebbed toes on each foot. The EWT assessment says it is not suspected to compete significantly with the Cape clawless otter, because it does not forage in the water bodies as such."
+    },
+    {
+      "slug": "herpestes-ichneumon",
+      "note": "The water mongoose is a darker, shaggy, semi-aquatic species of wetlands, with a short muzzle and a uniformly dark coat and tail."
+    },
+    {
+      "slug": "ichneumia-albicauda",
+      "note": "The water mongoose has a uniformly dark, shaggy coat and a dark tail, and is closely tied to wetlands and shorelines."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment does not give a park count. One source claims the species is generally common in suitable habitat, that the number of mature individuals in the assessment region is unknown, and that the regional trend is unknown, but probably stable. A density of 1.8 individuals/km² cited there is from Vernon Crookes Nature Reserve in KwaZulu-Natal and is not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Water Mongoose",
+        "url": "https://ewt.org/project/water-mongoose/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "short and round"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "short muzzle",
+          "muzzle": "short, with a fawn-coloured mouth, short whiskers and a naked rhinarium",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "dark reddish brown",
+            "black"
+          ],
+          "pattern": "shaggy dark fur with white and fawn guard hairs; hair shorter behind the neck and on the front of the back, longer on the hind legs and tail"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": [
+            "dark reddish brown",
+            "black"
+          ],
+          "shape": "long and shaggy, with longer hair than on the front of the back"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A medium-sized, dark, shaggy mongoose with a short muzzle, short round ears, and a long, uniformly dark tail; often seen at the water's edge, sometimes carrying a crab or other prey."
+    },
+    {
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "On land it usually trots slowly but can also move fast; in water it wades or swims, paddling with unwebbed feet, and may splash along a shoreline with prey in the mouth."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A low growl when approached, which may be reinforced by sudden explosive barking growls in a deeper tone.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "A high-pitched cry and an open-mouthed bleat when excited.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "atilax-paludinosus/rietvlei-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Marsh_mongoose_or_water_mongoose,_Atilax_paludinosus,_at_Rietvlei_Nature_Reserve,_Gauteng,_South_Africa_(22343760634).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822343760634%29.jpg/1280px-Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822343760634%29.jpg",
+      "hosted": false,
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "alt": "Water mongoose in side view wading through shallow water beside a brick wall, showing a dark shaggy coat, a short muzzle and a long dark tail",
+      "caption": "Adult, Rietvlei Nature Reserve, Gauteng, South Africa, 2 November 2015."
+    },
+    {
+      "key": "atilax-paludinosus/rietvlei-side-crab.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Marsh_mongoose_or_water_mongoose,_Atilax_paludinosus,_at_Rietvlei_Nature_Reserve,_Gauteng,_South_Africa_(22953068812).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822953068812%29.jpg/1280px-Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822953068812%29.jpg",
+      "hosted": false,
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "alt": "Close side view of a water mongoose's head and forequarters, with a dark shaggy coat and a crab in its mouth",
+      "caption": "Adult carrying a crab, Rietvlei Nature Reserve, Gauteng, South Africa, 2 November 2015."
+    },
+    {
+      "key": "atilax-paludinosus/rietvlei-running.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Marsh_mongoose_or_water_mongoose,_Atilax_paludinosus,_at_Rietvlei_Nature_Reserve,_Gauteng,_South_Africa_(22966495105).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822966495105%29.jpg/1280px-Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822966495105%29.jpg",
+      "hosted": false,
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "alt": "Water mongoose running through splashing water beside a brick wall, carrying prey in its mouth",
+      "caption": "Adult running through shallow water with prey, Rietvlei Nature Reserve, Gauteng, South Africa, 2 November 2015."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Marsh mongoose",
+      "url": "https://en.wikipedia.org/wiki/Marsh_mongoose",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "The title Water mongoose redirects here. Used for appearance, size figures, swimming, young development and global conservation status."
+    },
+    {
+      "title": "Atilax paludinosus account",
+      "url": "https://animaldiversity.org/accounts/Atilax_paludinosus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026,
+      "note": "Used for mass range, appearance, diet, young, habits and call types."
+    },
+    {
+      "title": "Water Mongoose",
+      "url": "https://ewt.org/project/water-mongoose/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "2025 regional Red List assessment. Lists Kommetjiegatmuishond as the Afrikaans name. No 2016 PDF link was present on the page."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Sources disagree on mass (a 2.5–4.1 kg range versus 2.56–2.95 kg) and on gestation, breeding season and captive longevity. Shoulder height, structured head-and-body and tail ranges, iris colour and underpart colour were not found. Commons had no Kruger photographs. The only research-grade iNaturalist records in place 69020 on allowed licences were footprint photographs and a watermarked predation shot, so three CC BY 2.0 photographs from Rietvlei Nature Reserve, Gauteng, were used instead. No reusable Kruger recording was found.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Shoulder height was not published in the sources used, so that range field is omitted.",
+    "Wikipedia's sexed head-to-body figures (48.72 cm in females and 51.38 cm in males) and tail span (32.18–34.11 cm) were not entered as structured ranges, because they read as single measurements rather than a published min–max; Animal Diversity Web does not give length ranges.",
+    "Sources disagree on mass (Animal Diversity Web 2.5–4.1 kg versus Wikipedia 2.56–2.95 kg), gestation (73–74 days or 74 days versus 69–80 days versus an average of 76 days), breeding season (mating from August to February in the assessment region versus twice a year, in the mid dry season and in the rains), and captive longevity (17 versus up to 19 years).",
+    "A Kruger-specific birth-month range was not found.",
+    "Iris colour, underpart colour and leg colour were not given in the sources used, so those marks are null.",
+    "A description of the young's coat colour, beyond being fully furred at birth, was not found, so no young variant was added.",
+    "No reusable Kruger recording found.",
+    "No usable Kruger photograph was found: the Commons Kruger search returned no hits, and the allowed-licence iNaturalist records in place 69020 were footprints or a watermarked predation photograph."
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "kind": "species",
+  "slug": "ichneumia-albicauda",
+  "scientificName": "Ichneumia albicauda",
+  "commonNames": {
+    "en": "White-tailed mongoose",
+    "af": "Witstertmuishond"
+  },
+  "family": "herpestidae",
+  "inatTaxonId": 41939,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "White-tailed Mongoose",
+        "url": "https://ewt.org/project/white-tailed-mongoose/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend unknown. No change from 2016. Lists White-tailed Mongoose as the English name and Witstertmuishond as the Afrikaans name, matching the 2011 SANParks checklist names stored here. Also lists Herpestes albicauda as a synonym."
+      },
+      {
+        "title": "A conservation assessment of Ichneumia albicauda",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/23.-White-tailed-Mongoose-Ichneumia-albicauda_LC.pdf",
+        "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited, not hosted. The 2025 EWT page records no change from this assessment."
+      },
+      {
+        "title": "Ichneumia albicauda account",
+        "url": "https://animaldiversity.org/accounts/Ichneumia_albicauda/",
+        "publisher": "Animal Diversity Web",
+        "year": 2026,
+        "note": "Lists the IUCN Red List status as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 53,
+      "max": 71
+    },
+    "tailCm": {
+      "min": 40,
+      "max": 47
+    },
+    "massKg": {
+      "min": 1.8,
+      "max": 5.2
+    },
+    "note": "Wikipedia gives a head-and-body length of 53–71 cm, a tail of 40–47 cm, and a mass of 1.8–5.2 kg, with an average of about 3.38 kg, and treats it as on average the longest and heaviest living mongoose. Animal Diversity Web does not give those ranges: it reports an average total length (head to the tip of the tail) of 103 cm, which falls within the sum of Wikipedia's head-and-body and tail ranges, and average masses of 3.6 kg in males and 3.4 kg in females. The two sources' figures are not reconciled here beyond entering Wikipedia's ranges."
+  },
+  "summary": "A large, mainly nocturnal mongoose of well-watered grassland, savanna and woodland, usually seen alone. The coat is yellow to tan with long black guard hairs, giving a grizzled grey appearance; the lower legs are black, and a large, bushy tail is brownish yellow at the base and white on its distal half. It forages at night, mostly for insects, and also takes small vertebrates, eggs and occasional fruit.",
+  "description": "The white-tailed mongoose is a long-legged species with a long, narrow head and large, rounded ears set low on the sides of the head. Wikipedia describes the body as yellow to tan, with long black guard hairs that give an overall grizzled grey appearance; the legs are black distal from the knee, and the large, bushy tail is brownish yellow at the base and white on its distal half, and may make up as much as 40% of the body length. The upper lip and the forepaws are hairless. Animal Diversity Web similarly describes grey or grey-brown underfur, thickest along the tail and hindquarters, with long black-and-white banded guard hairs, and notes that the tail tip is normally pure white, except in some west African individuals whose tail tips are sometimes black. The EWT assessment likewise records black-tailed individuals in several parts of the African range, and notes that this is individual variation rather than a separate form. Females have four teats. Males average slightly heavier than females on the Animal Diversity Web figures, but no sourced difference in coat pattern between the sexes was found.",
+  "habits": "It is primarily nocturnal, with activity extending well into the night, though occasional diurnal behaviour is recorded. By day it rests in a termite mound, a disused aardvark or springhare hole, a cavity under tree roots, among rocks, or occasionally in an empty building. It is mainly solitary, but small family groups or pairs are sometimes seen at night; reports of groups are of a breeding pair or a mother and her young. Males keep ranges that do not overlap one another, but may overlap the ranges of females, which may share a range and still forage separately. Home-range sizes vary widely between sites and are not given here as a Kruger figure: sources report averages of 0.97 km² for males and 0.64 km² for females, a Kenya range of 8 km², Ethiopian highland ranges of 3.2 km² for adult males and 2.6 km² for a female, and much smaller female ranges of about 0.7 km² in the KwaZulu-Natal Midlands. It is terrestrial, has a trotting, dog-like gait with the head held low and the tail often trailing on the ground, and unlike many other mongooses it does not stand on its hind feet for any length of time. When threatened it may secrete a noxious substance from the anal glands.",
+  "diet": {
+    "summary": "Primarily insectivorous, though it takes a wide range of other foods. The EWT assessment says termites, grasshoppers, crickets, beetles and beetle larvae make up a high percentage of the diet, with amphibians, reptiles and murid rodents as supplements. Wikipedia and Animal Diversity Web likewise treat insects as the main food, naming locusts, beetles and mole crickets, and add rats, mice, shrews, lizards, snakes, small birds, eggs, carrion and occasional fruit or berries; Animal Diversity Web notes a seasonal shift, with dung beetles and their larvae taken more in the rains and termites more in the dry season. Eggs are broken by being thrown between the hind legs against a hard object. In settled areas it may feed opportunistically on garbage and has been recorded taking poultry.",
+    "items": [
+      "termites",
+      "grasshoppers, locusts, crickets and mole crickets",
+      "beetles and beetle larvae, including dung beetles",
+      "murid rodents, including rats and mice",
+      "shrews",
+      "lizards",
+      "snakes",
+      "amphibians",
+      "small birds",
+      "eggs",
+      "carrion",
+      "fruit and berries",
+      "garbage, in settled areas"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Little is known of reproduction, and the sources disagree on season and litter size. The EWT assessment says pregnant and lactating females have been recorded from October to February in Zimbabwe, and both a lactating and a pregnant female in November in KwaZulu-Natal; it gives litter size as one to four, with an average of 1.4 in Skinner and Chimimba, and estimates gestation at two months. Wikipedia, following Animal Diversity Web, says litters are seen most often from February to May, that no young appear in the dry season from August to November, and that the species is thought to breed once a year; it gives weaning at nine months, speculated sexual maturity before two years, and a speculated gestation of around 60 days. Animal Diversity Web gives litter size as one to three, suggests breeding from December to March shortly after the dry season, and says there is insufficient information on gestation, birth mass and age at sexual maturity; it also notes some documentation of litters in the dry season. Young are cared for by the female, begin to forage alone for part of the night just before weaning, and are independent at about nine months, though they may continue to forage on the mother's range for a few months more. A Kruger-specific birth-month range was not found, and the appearance of the young was not described in the sources used.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Large predators",
+      "note": "The EWT assessment, citing Caro and Stoner (2003), states that large predators kill this species, without naming them."
+    },
+    {
+      "slug": null,
+      "en": "Birds of prey",
+      "note": "Named as possible predators of the young by Animal Diversity Web and Wikipedia."
+    },
+    {
+      "slug": null,
+      "en": "Large snakes",
+      "note": "Named as possible predators of the young by Animal Diversity Web and Wikipedia."
+    }
+  ],
+  "prey": [],
+  "habitat": "Well-watered grassland, savanna and woodland, including thornveld and sometimes areas near streams or other permanent water. It is absent from moist forest, from high altitudes above the treeline, and from deserts and semi-deserts, and in the assessment region it is largely kept out of the drier Succulent and Nama Karoo. It prefers cover, such as the edges of forest and bushy streams, and bush over closed forest. It also uses some human-modified habitats, including areas around towns and villages, rural gardens, plantations and cropland. Within the assessment region it still occurs in the eastern lowveld of Limpopo and Mpumalanga, including Kruger National Park, and southwards through KwaZulu-Natal, the Free State and the Eastern Cape.",
+  "similar": [
+    {
+      "slug": "rhynchogale-melleri",
+      "note": "The white-tailed mongoose is usually larger, and its body appears black rather than brown. Both species may have a white tail."
+    },
+    {
+      "slug": "herpestes-sanguineus",
+      "note": "The white-tailed mongoose is larger, is mainly nocturnal, and is distinguished by a bushy tail that is white on its distal half and by black lower legs."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment does not give a park count. One source claims there are well over 10,000 mature individuals in the assessment region as a whole, and that the regional trend is unknown, but probably stable. A density of 4.3 individuals/km² cited there is from the Serengeti and is not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "White-tailed Mongoose",
+        "url": "https://ewt.org/project/white-tailed-mongoose/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "large and rounded, set low on the sides of the head"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "long and narrow",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "yellow",
+            "tan"
+          ],
+          "pattern": "yellow to tan underfur with long black guard hairs, giving a grizzled grey appearance"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "black"
+        },
+        "tail": {
+          "colour": "white-tipped",
+          "shape": "large and bushy, brownish yellow at the base and white on the distal half"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A long-legged mongoose with a grizzled grey coat, black lower legs, and a large, bushy tail that is brownish yellow at the base and white on its distal half."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A long, narrow head and large, rounded ears set low on the sides of the head; the eyes may shine in torchlight."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A wide array of sounds is used to communicate with other individuals and to deter predators, including whimpering, growling, shrieking and barking.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "An unusual barking sound is associated with sexual behaviour.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "ichneumia-albicauda/pafuri-makuleke-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/380051724",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/695239837/large.jpg",
+      "hosted": false,
+      "author": "Heinrich Human",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "White-tailed mongoose standing in profile at night at Pafuri, showing a grizzled grey coat, black lower legs and a bushy tail that is white on the distal half",
+      "caption": "Adult, Makuleke Contract Park, Pafuri, Kruger National Park."
+    },
+    {
+      "key": "ichneumia-albicauda/ehlanzeni-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/228816186",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/406090107/large.jpg",
+      "hosted": false,
+      "author": "David Kidwell",
+      "license": "CC BY-NC-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "aiGenerated": false,
+      "alt": "White-tailed mongoose facing the camera at night in Kruger National Park, with eyeshine, a narrow head, black lower legs and a bushy white-tipped tail",
+      "caption": "Adult, Kruger National Park (Ehlanzeni District)."
+    },
+    {
+      "key": "ichneumia-albicauda/bushbuckridge-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/241235209",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/429907988/large.jpeg",
+      "hosted": false,
+      "author": "brianrode",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "White-tailed mongoose standing on rocky ground at night in Kruger National Park, showing a grizzled coat, black legs and a trailing white-tipped tail",
+      "caption": "Adult, Kruger National Park, Bushbuckridge."
+    },
+    {
+      "key": "ichneumia-albicauda/lower-sabie-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/186829049",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/326584476/large.jpg",
+      "hosted": false,
+      "author": "Ralf Bürglin",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "White-tailed mongoose walking through grass at night near Lower Sabie, with the pale distal half of the bushy tail visible",
+      "caption": "Adult, Lower Sabie Rest Camp and vicinity, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "White-tailed mongoose",
+      "url": "https://en.wikipedia.org/wiki/White-tailed_mongoose",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Ichneumia albicauda account",
+      "url": "https://animaldiversity.org/accounts/Ichneumia_albicauda/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026,
+      "note": "Used for size averages, appearance, diet, young, habits, predators and call types."
+    },
+    {
+      "title": "White-tailed Mongoose",
+      "url": "https://ewt.org/project/white-tailed-mongoose/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Ichneumia albicauda",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/23.-White-tailed-Mongoose-Ichneumia-albicauda_LC.pdf",
+      "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited, not hosted."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Sources disagree on mass presentation (a 1.8–5.2 kg range versus sexed averages), litter size, breeding season, and whether gestation is known. Shoulder height, iris colour, underpart colour, muzzle colour and a description of the young's coat were not found. No reusable Kruger recording was found. Commons had no Kruger photographs, so four research-grade iNaturalist photographs from place 69020 were used.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Shoulder height was not published in the sources used, so that range field is omitted.",
+    "Sources disagree on mass presentation (Wikipedia's unsexed 1.8–5.2 kg range versus Animal Diversity Web's average masses of 3.6 kg in males and 3.4 kg in females), litter size (one to four versus one to three), and breeding season (southern African records from October to February versus litters described as most frequent from February to May).",
+    "Animal Diversity Web states that there is insufficient information on gestation, while the EWT assessment estimates gestation at two months and Wikipedia gives a speculated figure of around 60 days.",
+    "A Kruger-specific birth-month range was not found.",
+    "The appearance of the young was not described in the sources used, so no young variant was added.",
+    "Iris colour, underpart colour and muzzle colour were not given in the sources used, so those marks are null.",
+    "Named predators of adults were not given beyond a general reference to large predators, so lion, leopard and other Kruger carnivores were not entered.",
+    "No reusable Kruger recording found."
+  ]
+}

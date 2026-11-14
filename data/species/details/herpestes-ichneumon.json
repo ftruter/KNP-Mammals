@@ -1,0 +1,310 @@
+{
+  "kind": "species",
+  "slug": "herpestes-ichneumon",
+  "scientificName": "Herpestes ichneumon",
+  "commonNames": {
+    "en": "Large grey mongoose",
+    "af": "Grootgrysmuishond"
+  },
+  "family": "herpestidae",
+  "inatTaxonId": 41900,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2016 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Herpestes ichneumon",
+        "url": "https://ewt.org/wp-content/uploads/2024/10/19.-Large-Grey-Mongoose-Herpestes-ichneumon_LC.pdf",
+        "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Least Concern, unchanged from 2004. Global IUCN status Least Concern (2016). Lists Large Grey Mongoose, Egyptian Mongoose, Ichneumon and Ichneumon Mongoose as English names, and Grootgrysmuishond as the Afrikaans name. The stored English and Afrikaans names are the 2011 SANParks checklist names, Large grey mongoose and Grootgrysmuishond. Cited, not hosted."
+      },
+      {
+        "title": "Egyptian mongoose",
+        "url": "https://en.wikipedia.org/wiki/Egyptian_mongoose",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Lists the IUCN Red List status as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 48,
+      "max": 60
+    },
+    "tailCm": {
+      "min": 33,
+      "max": 54
+    },
+    "massKg": {
+      "min": 1.7,
+      "max": 4
+    },
+    "note": "Wikipedia and Animal Diversity Web both give a body length of 48–60 cm, a tail of 33–54 cm, and a mass of 1.7–4 kg; the 48–60 cm figure is entered as head-and-body. Wikipedia notes sexually dimorphic animals in Portugal, where some females are smaller than males; Animal Diversity Web describes the sexes as alike. Neither source gives a sexed mass range. Shoulder height was not published in the sources used."
+  },
+  "summary": "A fairly large, mainly diurnal mongoose of riparian and other well-vegetated country, usually seen alone or in a small family group. The long, coarse coat is grey to reddish brown and ticked with brown and yellow flecks, the snout is pointed, the ears are small and rounded, and a long, bushy tail ends in a black tip. It forages on the ground, often near water, for small vertebrates, invertebrates, eggs, carrion and some fruit, and is a capable swimmer.",
+  "description": "The large grey mongoose has a long, low, slender body, a pointed snout, and small rounded ears that do not project above the head. Wikipedia describes the long, coarse fur as grey to reddish brown and ticked with brown and yellow flecks, with a black-tipped tail, and says the hind feet and a small area around the eyes are furless. Animal Diversity Web describes a long-haired grey coat dotted with brownish speckles, sometimes reddish brown with yellow speckles, a narrow naked strip of skin around the eyes, and a long, bushy tail ending in a black tassel; the hind feet are naked to the heel, the legs are short, and the foreclaws are sharp and curved for digging. When alarmed it can bristle its hair and arch its back. No sourced difference in coat pattern between the sexes was found.",
+  "habits": "It is generally diurnal, with peaks of activity in the morning and late afternoon, and spends the night in an underground den or a dense thicket, alone or in a family group. The 2016 EWT assessment notes that it is crepuscular in Israel and that nocturnal activity may occur where animals are disturbed by people. It is predominantly solitary, though groups of one to four adults with their young are not rare, and an exceptional pack of 14 was recorded in Namibia. Males often spend most of their time alone and are territorial over the home range; females are territorial mainly in their core areas. It is entirely terrestrial but swims well, and may forage along pond or dam banks and in shallow water. Foraging is a slow, close search with the nose near the ground. Home-range sizes from other sites are not given here as a Kruger figure: one study at Vernon Crookes Nature Reserve in KwaZulu-Natal reported 2.77 km² for a female and 2.59 km² for a male.",
+  "diet": {
+    "summary": "An opportunistic omnivore. The 2016 EWT assessment says the diet varies seasonally, regionally and even between neighbouring family groups, and includes small mammals, birds, reptiles, amphibians, fish, crabs, insects and arachnids, gastropods, carrion, fungi, fruit and other plant material; small mammals such as Otomys, Rhabdomys and Mastomys have locally been shown to dominate. Wikipedia likewise lists rodents, fish, birds, reptiles, amphibians, insects, fruit and eggs, and describes the habit of throwing eggs between the legs against a hard surface to crack them. The species attacks venomous snakes and is largely resistant to the venom of at least some species. Animal Diversity Web treats meals as invertebrates, fishes, amphibians, reptiles, birds, mammals, eggs and sometimes fruit, and also notes the egg-smashing habit.",
+    "items": [
+      "small mammals, including Otomys, Rhabdomys and Mastomys",
+      "birds",
+      "reptiles, including snakes",
+      "amphibians",
+      "fish",
+      "crabs",
+      "insects and arachnids",
+      "gastropods",
+      "eggs",
+      "carrion",
+      "fungi, fruit and other plant material"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "Little information is available on reproduction in the assessment region. The 2016 EWT assessment says that in Africa births have been recorded almost throughout the year, that an average of 2.7 to 3.3 young (range one to four) are born after a gestation of 9–10 weeks, and that females normally have a single litter a year. Wikipedia, drawing on Doñana National Park, gives courtship and mating in spring between February and June, two to three pups born between mid-April and mid-August after a gestation of 11 weeks, and care by the female for up to a year; the pups are hairless at first, open their eyes after about a week, and start foraging on their own at four months. Animal Diversity Web also gives a gestation of about 11 weeks (and, separately, an average of 74 days), litters of two to four, and births in July or August in Spain, but it states that the young are born with fur and only open their eyes at around six to eight weeks. Sexual maturity is given as about two years. These disagreements on gestation length and on the appearance of the newborn are not reconciled here. A Kruger-specific birth-month range was not found.",
+  "predators": [
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal",
+      "note": "Named by the 2016 EWT assessment as a mesopredator whose impact on this mongoose is likely to be stronger in more open habitats."
+    },
+    {
+      "slug": "caracal-caracal",
+      "en": "Caracal",
+      "note": "Named by the 2016 EWT assessment as a mesopredator whose impact on this mongoose is likely to be stronger in more open habitats."
+    }
+  ],
+  "prey": [],
+  "habitat": "Essentially associated with understorey vegetation in riparian, lacustrine and coastal habitats, though it can also be common in heavily grassed and cultivated country. It generally avoids humid forests and extreme deserts, swims well, and may forage along pond or dam banks and in shallow water. Dens are in underground burrows or dense thickets. In the assessment region it occurs mainly along the South African coast from the Western Cape to KwaZulu-Natal, and it is present in the extreme east of Mpumalanga, essentially in Kruger National Park.",
+  "similar": [
+    {
+      "slug": "herpestes-sanguineus",
+      "note": "The large grey mongoose is bigger, with a long, bushy tail ending in a black tassel rather than a slender tail with a prominent black or red tip."
+    },
+    {
+      "slug": "atilax-paludinosus",
+      "note": "Both may be found near water, but the large grey mongoose is distinguished by a grizzled grey to reddish-brown coat and a characteristic black tail-tip."
+    },
+    {
+      "slug": "ichneumia-albicauda",
+      "note": "The large grey mongoose is distinguished by a long, bushy tail that ends in a black tip."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2016 EWT assessment does not give a park count. It states that the number of mature individuals is unknown, and that the current regional trend is unknown but probably stable, inferred from the species' extent of occurrence and the lack of major threats. Densities cited there are from other sites (0.1 individuals/km² in East Africa, 1.2 individuals/km² in South Africa from Maddock 1988 at Vernon Crookes Nature Reserve, and 2 individuals/km² in optimal habitat in Spain) and are not Kruger counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Herpestes ichneumon",
+        "url": "https://ewt.org/wp-content/uploads/2024/10/19.-Large-Grey-Mongoose-Herpestes-ichneumon_LC.pdf",
+        "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+        "year": 2016
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "small and rounded, not projecting above the head"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "narrow naked strip of skin around the eyes"
+        },
+        "head": {
+          "face": "long face",
+          "muzzle": "pointed snout",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "reddish-brown"
+          ],
+          "pattern": "long coarse coat ticked or speckled with brown and yellow"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "black-tipped",
+          "shape": "long and bushy"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A fairly large, low-slung mongoose with a long, bushy tail ending in a black tip; the coarse coat is grey to reddish brown and ticked with brown and yellow flecks."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A pointed snout, small rounded ears that do not project above the head, and a narrow naked strip of skin around the eyes."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The long, bushy tail hangs behind the body and shows the black tip."
+    },
+    {
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The long body and black-tipped tail are held out as the animal crosses open ground."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "contact",
+      "description": "A short call, the one most often repeated, given again and again by every member of a group to keep in contact while foraging.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A deep, sharp growl.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Calls related to aggression, intimidation and pain have also been recorded in free-ranging animals, without a further description in the sources used.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "herpestes-ichneumon/george-running-side.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/406035053",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/745916538/large.jpg",
+      "hosted": false,
+      "author": "gavinski101",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "Large grey mongoose running across short grass, showing a grizzled grey coat and a long tail with a black tip, at George in the Western Cape",
+      "caption": "Adult running, George, Western Cape, South Africa."
+    },
+    {
+      "key": "herpestes-ichneumon/south-cape-pair-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/91505597",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/151372107/large.jpg",
+      "hosted": false,
+      "author": "Christiaan Viljoen",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "alt": "Two large grey mongooses walking away through woodland, the nearer one showing a long bushy tail with a black tip, in South Cape District, Western Cape",
+      "caption": "Two adults in woodland, one with a shortened tail, South Cape District, Western Cape, South Africa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Egyptian mongoose",
+      "url": "https://en.wikipedia.org/wiki/Egyptian_mongoose",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Herpestes ichneumon account",
+      "url": "https://animaldiversity.org/accounts/Herpestes_ichneumon/",
+      "publisher": "Animal Diversity Web",
+      "year": 2002,
+      "note": "Used for size, appearance, diet and young. The account is filed under Herpestes ichneumon."
+    },
+    {
+      "title": "A conservation assessment of Herpestes ichneumon",
+      "url": "https://ewt.org/wp-content/uploads/2024/10/19.-Large-Grey-Mongoose-Herpestes-ichneumon_LC.pdf",
+      "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Used for regional status, habitat, habits, diet, young, predators, call types (citing Palomares 1991) and the Afrikaans name Grootgrysmuishond. Cited, not hosted."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. A 2025 EWT species page was not found among the sources used, so the 2016 assessment is cited. Sources disagree on gestation length and on whether newborns are hairless or furred, and when the eyes open. Shoulder height, iris colour, underpart colour and leg colour were not found. No Kruger photograph on an allowed licence was found, so two live southern African photographs were used. No reusable Kruger recording was found.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "A 2025 EWT species page was not found among the sources used, so the 2016 assessment is cited.",
+    "Shoulder height was not published in the sources used, so that range field is omitted.",
+    "Sources disagree on gestation (9–10 weeks in the 2016 EWT assessment versus about 11 weeks in Wikipedia and Animal Diversity Web) and on the newborn (Wikipedia: hairless, eyes open after about a week; Animal Diversity Web: born with fur, eyes open at six to eight weeks).",
+    "A Kruger-specific birth-month range was not found; in Africa births have been recorded almost throughout the year.",
+    "The sources used do not agree on the pup's coat, so no young variant was added.",
+    "Iris colour, underpart colour, ear colour and leg colour were not given in the sources used, so those marks are null.",
+    "No Kruger photograph on an allowed licence was found. Two live southern African photographs were used instead; close front and coat views were not confirmed among the photographs examined.",
+    "No reusable Kruger recording found."
+  ]
+}

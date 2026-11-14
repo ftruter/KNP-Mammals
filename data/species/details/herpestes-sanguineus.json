@@ -1,0 +1,367 @@
+{
+  "kind": "species",
+  "slug": "herpestes-sanguineus",
+  "scientificName": "Herpestes sanguineus",
+  "commonNames": {
+    "en": "Slender mongoose",
+    "af": "Swartkwasmuishond"
+  },
+  "family": "herpestidae",
+  "inatTaxonId": 74414,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Slender Mongoose",
+        "url": "https://ewt.org/project/slender-mongoose/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable. No change from 2016. Lists Common Slender Mongoose, Black-tipped Mongoose and Slender Mongoose as English names, and Rooimuishond and Swartkwasmuishond as Afrikaans names. The stored English and Afrikaans names are the 2011 SANParks checklist names, Slender mongoose and Swartkwasmuishond. Also lists Galerella sanguinea as a synonym."
+      },
+      {
+        "title": "Galerella sanguinea account",
+        "url": "https://animaldiversity.org/accounts/Galerella_sanguinea/",
+        "publisher": "Animal Diversity Web",
+        "year": 2026,
+        "note": "Lists the IUCN Red List status as Least Concern. The account is filed under the synonym Galerella sanguinea."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 27.5,
+      "max": 40
+    },
+    "tailCm": {
+      "min": 23,
+      "max": 33
+    },
+    "massKg": {
+      "male": {
+        "min": 0.64,
+        "max": 0.715
+      },
+      "female": {
+        "min": 0.46,
+        "max": 0.575
+      }
+    },
+    "note": "Wikipedia gives a body length of 27.5–40 cm and a tail of 23–33 cm, with males at 640–715 g and the smaller females at 460–575 g; the 27.5–40 cm figure is entered as head-and-body. Animal Diversity Web, citing the same head-and-body and tail ranges (275–400 mm and 230–330 mm), gives a much wider unsexed mass of 490–1,250 g, and also states that males are about 9% larger than females, with averages of 560 g and 300 mm versus 490 g and 260 mm. Its range length of 505–770 mm is a total length (head-and-body plus tail) and is not entered as a separate field. The two sources' mass figures are not reconciled here."
+  },
+  "summary": "A lithe, mainly diurnal mongoose of savanna and other open country, usually seen alone. The silky coat ranges from yellowish brown or golden yellow to reddish brown or grey, the underparts are buff, and a prominent black or red tip to the long, slender tail distinguishes it from other mongooses. It is a more able climber than most of its relatives and forages by day for insects, small vertebrates, eggs and occasional fruit.",
+  "description": "The slender mongoose has a lithe body, small ears set to the side of the head, and a long, slender tail with a prominent black or red tip. Animal Diversity Web describes the coat as ranging from grizzled yellowish brown to bright reddish brown, with buff underparts, a dark brown or black-tipped tail, and a bright orange iris. Wikipedia describes the fur as silkier than that of other African mongooses and says the colour varies widely between subspecies, from dark reddish brown to orange red, grey or golden yellow, the tail tip being black or red. Males are larger than females; no sourced difference in coat pattern between the sexes was found.",
+  "habits": "It is almost exclusively diurnal, though it is sometimes active on warm, moonlit nights. It is often described as solitary, but studies in the Kalahari found spatial groups of one to three males and up to four females, which may den together, especially on cold nights. It is not clearly territorial, but keeps stable home ranges that may overlap those of related species, and it may share dens with nocturnal mongooses. Dens are in rock crevices, hollow logs or trees, burrows and unused aardvark holes. It is more arboreal than most other mongoose species and often hunts birds in trees. Home-range sizes vary widely between sites and are not given here as a Kruger figure: sources report about 70–80 ha for males and 30–50 ha for females in the Serengeti, 54 ha and 42 ha at Telperion Nature Reserve in Mpumalanga, and much larger ranges in the Kalahari.",
+  "diet": {
+    "summary": "An opportunistic omnivore, primarily carnivorous. Sources disagree on what dominates the diet: Wikipedia says insects make up the bulk, with lizards, rodents, snakes, birds, amphibians, carrion, eggs and occasional fruit also taken; the EWT assessment says the diet mainly comprises small vertebrates (rodents, insectivores, reptiles, amphibians and birds), invertebrates (insects, spiders and millipedes), plant material and fruit. Animal Diversity Web likewise treats it as an opportunistic omnivore and notes a seasonal shift, with insects more often eaten in wet months and larger prey such as lizards and mice more often in dry months. It can kill venomous snakes, but those do not form a large part of the diet. It is a more able climber than most mongooses and often hunts birds in trees.",
+    "items": [
+      "insects, including grasshoppers, beetles and termites",
+      "spiders and millipedes",
+      "lizards",
+      "rodents",
+      "snakes",
+      "birds",
+      "amphibians",
+      "eggs",
+      "carrion",
+      "fruit and other plant material"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "Young are born in the wet summer months (October–March in the EWT assessment; Animal Diversity Web frames breeding around short rains in October–November and long rains in February–April). Gestation is given as 60–70 days by Wikipedia and the EWT assessment, and as 57–65 days by Animal Diversity Web. Litter size is one to three according to Wikipedia, and one to four (typically two) according to the EWT assessment and Animal Diversity Web, with one or two litters in a season. The male does not help care for the young. Pups are born in hollow trees, rock crevices, burrows or old termite mounds. Animal Diversity Web gives an average birth weight of 20.2 g and says the eyes stay closed until about three weeks; it also states, without reconciling the figures, that pups weigh about 300 g and are about 150 mm long. They first emerge at about four to six weeks and begin to forage with the mother at about six to nine weeks (Animal Diversity Web gives 31–45 days for leaving the nest to forage). Weaning is at about seven to twelve weeks (Animal Diversity Web: typically 55 days, sometimes as late as 71). Juveniles become independent at about three to five months. A Kruger-specific birth-month range was not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion",
+      "note": "Named by Animal Diversity Web."
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard",
+      "note": "Named by Animal Diversity Web."
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "African wild dog",
+      "note": "Named by Animal Diversity Web."
+    },
+    {
+      "slug": null,
+      "en": "Birds of prey",
+      "note": "Animal Diversity Web names African hawk-eagles, tawny eagles and martial eagles."
+    }
+  ],
+  "prey": [],
+  "habitat": "Savanna and other open habitats with some cover, including woodland, shrubland, grassland, forest edges and areas around villages, but not true deserts or montane grassland. Dens may be in rock crevices, hollow logs or trees, burrows or unused aardvark holes. In the assessment region it occurs across savanna habitats north of the Orange River, including Limpopo and Mpumalanga, and it is present in Kruger National Park.",
+  "similar": [
+    {
+      "slug": "helogale-parvula",
+      "note": "The slender mongoose is larger, is usually seen alone rather than in a pack, and is distinguished by a prominent black or red tip to the tail."
+    },
+    {
+      "slug": "mungos-mungo",
+      "note": "The slender mongoose is usually seen alone rather than in a pack, and is distinguished by a prominent black or red tip to the tail."
+    },
+    {
+      "slug": "herpestes-ichneumon",
+      "note": "The slender mongoose is smaller and is distinguished by a prominent black or red tip to the tail."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment does not give a park count. It estimates that there are well over 10,000 individuals in the assessment region as a whole, and that the regional trend is stable. Densities cited there are from other sites (3–6 individuals/km² in the Serengeti, 1.6–2.0 adults/km² in the Kalahari, and 7.3 individuals/km² at Vernon Crookes Nature Reserve) and are not Kruger counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Slender Mongoose",
+        "url": "https://ewt.org/project/slender-mongoose/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "small, set to the side of the head"
+        },
+        "eye": {
+          "iris": "bright orange",
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "yellowish-brown",
+            "reddish-brown",
+            "grey",
+            "golden yellow"
+          ],
+          "pattern": "silky, often grizzled coat"
+        },
+        "underparts": {
+          "colour": "buff",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "black-tipped or red-tipped",
+          "shape": "long and slender"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A lithe mongoose with a long, slender tail ending in a prominent black or red tip; the coat is silky and may be yellowish brown, reddish brown, grey or golden yellow."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Small ears set to the side of the head, and a bright orange iris."
+    },
+    {
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The long tail may be held up as the animal crosses open ground, showing the dark tip."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A spit and a growl are used when threatening a potential predator, and a snarl when two animals approach each other to attack.",
+      "recordings": []
+    },
+    {
+      "sex": "female",
+      "type": "other",
+      "description": "A buzz is used by a female when she has found her mate.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "A distress call has been described as a 'huh-new'.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "herpestes-sanguineus/skukuza-h12-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Slender_Mongoose_(Herpestes_sanguineus)_(51782949829).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Slender_Mongoose_%28Herpestes_sanguineus%29_%2851782949829%29.jpg/1280px-Slender_Mongoose_%28Herpestes_sanguineus%29_%2851782949829%29.jpg",
+      "hosted": false,
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "alt": "Slender mongoose sitting on pale sand in profile, showing the long slender tail with a black tip, east of Skukuza in Kruger National Park",
+      "caption": "Adult, H12 road east of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "herpestes-sanguineus/lower-sabie-s82-portrait.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Black-tailed_Mongoose_(Herpestes_sanguineus)_portrait_..._(51892635743).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Black-tailed_Mongoose_%28Herpestes_sanguineus%29_portrait_..._%2851892635743%29.jpg/1280px-Black-tailed_Mongoose_%28Herpestes_sanguineus%29_portrait_..._%2851892635743%29.jpg",
+      "hosted": false,
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "alt": "Close front view of a slender mongoose in low greenery, showing small ears, a pinkish muzzle and bright orange eyes, south of Lower Sabie in Kruger National Park",
+      "caption": "Adult, S82 road south of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "herpestes-sanguineus/orpen-h7-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Black-tailed_Mongoose_(Herpestes_sanguineus)_(51886003417).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Black-tailed_Mongoose_%28Herpestes_sanguineus%29_%2851886003417%29.jpg/1280px-Black-tailed_Mongoose_%28Herpestes_sanguineus%29_%2851886003417%29.jpg",
+      "hosted": false,
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "alt": "Slender mongoose standing on bare ground in three-quarter view, with a grizzled brown coat and a long tail ending in a black tip, east of Orpen in Kruger National Park",
+      "caption": "Adult, H7 road east of Orpen, Kruger National Park."
+    },
+    {
+      "key": "herpestes-sanguineus/nsemani-h7-pair.jpg",
+      "view": "herd",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Black-tailed_Mongooses_(Herpestes_sanguineus)_(53046976731).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Black-tailed_Mongooses_%28Herpestes_sanguineus%29_%2853046976731%29.jpg/1280px-Black-tailed_Mongooses_%28Herpestes_sanguineus%29_%2853046976731%29.jpg",
+      "hosted": false,
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "alt": "Two slender mongooses at a roadside, one crossing with its long black-tipped tail held high and the other sitting in the verge, west of Satara in Kruger National Park",
+      "caption": "Two adults at Nsemani, H7 road west of Satara, Kruger National Park."
+    },
+    {
+      "key": "herpestes-sanguineus/crocodile-bridge-s27-rock.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Day_44_Black-tailed_Mongoose_(Galerella_sanguinea)_(53305029315).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Day_44_Black-tailed_Mongoose_%28Galerella_sanguinea%29_%2853305029315%29.jpg/1280px-Day_44_Black-tailed_Mongoose_%28Galerella_sanguinea%29_%2853305029315%29.jpg",
+      "hosted": false,
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "alt": "Slender mongoose standing on a rock or log in side view, showing a grizzled yellowish-brown coat, small ears and an orange eye, west of Crocodile Bridge in Kruger National Park",
+      "caption": "Adult, S27 road west of Crocodile Bridge, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Common slender mongoose",
+      "url": "https://en.wikipedia.org/wiki/Common_slender_mongoose",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Galerella sanguinea account",
+      "url": "https://animaldiversity.org/accounts/Galerella_sanguinea/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026,
+      "note": "Filed under the synonym Galerella sanguinea. Used for size, appearance, diet, young, predators and call types, including Baker (1982) as cited there."
+    },
+    {
+      "title": "Slender Mongoose",
+      "url": "https://ewt.org/project/slender-mongoose/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. The 2025 EWT page did not link a 2016 assessment PDF, so that PDF was not cited. Sources disagree on mass, gestation length, litter size, and what dominates the diet. Animal Diversity Web gives conflicting figures for pup mass. Shoulder height, ear colour, muzzle colour, leg colour and a description of the pup's coat were not found. No reusable Kruger recording was found.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "The 2025 EWT page did not link a 2016 assessment PDF, so that PDF was not cited.",
+    "Shoulder height was not published in the sources used, so that range field is omitted.",
+    "Sources disagree on mass (Wikipedia's sexed ranges of 640–715 g and 460–575 g versus Animal Diversity Web's unsexed 490–1,250 g), gestation (60–70 days versus 57–65 days), litter size (one to three versus one to four), and whether insects or small vertebrates dominate the diet.",
+    "Animal Diversity Web gives an average birth weight of 20.2 g and also states that pups weigh about 300 g, figures that are not reconciled there.",
+    "A Kruger-specific birth-month range was not found beyond a general wet-season account (October–March).",
+    "The appearance of the pup's coat was not described in the sources used, so no young variant was added.",
+    "Ear colour, muzzle colour and leg colour were not given in the sources used, so those marks are null.",
+    "No reusable Kruger recording found."
+  ]
+}

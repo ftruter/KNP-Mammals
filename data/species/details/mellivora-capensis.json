@@ -1,0 +1,373 @@
+{
+  "kind": "species",
+  "slug": "mellivora-capensis",
+  "scientificName": "Mellivora capensis",
+  "commonNames": {
+    "en": "Honey badger",
+    "af": "Ratel"
+  },
+  "family": "mustelidae",
+  "inatTaxonId": 41834,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Honey Badger",
+        "url": "https://ewt.org/project/honey-badger/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable. No change from 2016. Afrikaans name Ratel."
+      },
+      {
+        "title": "A conservation assessment of Mellivora capensis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/27.-Honey-Badger-Mellivora-capensis_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Honey badger",
+        "url": "https://en.wikipedia.org/wiki/Honey_badger",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2016 IUCN assessment, Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 23,
+      "max": 28
+    },
+    "headBodyLengthCm": {
+      "min": 55,
+      "max": 77
+    },
+    "tailCm": {
+      "min": 12,
+      "max": 30
+    },
+    "massKg": {
+      "male": {
+        "min": 9,
+        "max": 16
+      },
+      "female": {
+        "min": 5,
+        "max": 10
+      }
+    },
+    "note": "Shoulder height (23–28 cm), head-and-body length (55–77 cm), tail (12–30 cm) and African sexed mass (males 9–16 kg, females 5–10 kg) follow Wikipedia. Animal Diversity Web gives a narrower unsexed mass of 8–12 kg, a head-and-body length of 60–70 cm, and shoulder height only as an average of about 25 cm; those disagreements are recorded rather than averaged. ADW does not give a tail range. In the Kalahari, males are about one-third larger than females (Begg, cited by EWT and ADW)."
+  },
+  "summary": "A stocky mustelid with a pale grey or white mantle from the crown to the base of the tail, and black underparts, legs and sides of the face. It has a small, flat head, ears reduced to low ridges, loose thick skin and long front claws. Kruger holds a resident population, and animals are often seen after dark around rest camps.",
+  "description": "The honey badger is the largest terrestrial mustelid in Africa. The body is thick-set and broad across the back, with a small, flat head, a short muzzle, very small ears and a short, hairy tail. The sides of the head and the lower body, legs and tail are black, while a pale grey or white mantle runs from the top of the head to the base of the tail. The skin is thick and remarkably loose, especially on the neck, so the animal can twist inside it if seized. The front claws are long and strong; the hind claws are shorter. Males are larger than females. The all-black form found farther north in Africa is not the animal seen in Kruger.",
+  "habits": "It is primarily solitary and mainly nocturnal, but it may be active by day where disturbance is low and the days are cooler. It is a skilled digger and often uses the burrows of aardvark or warthog, or termite mounds, rather than digging a new den each time. Adults hold large, overlapping home ranges and scent-mark with anal-gland secretions, dung and urine. When threatened it may raise the tail, rattle, release a pungent anal secretion and charge. In Kruger it is often seen in rest camps, where some animals become habituated and will take food from kitchens and bins.",
+  "diet": {
+    "summary": "An opportunistic, generalist carnivore. It digs out much of its food and takes insects, larvae, rodents, reptiles (including snakes), frogs, birds and eggs, and will also eat fruit, roots, bulbs, honey and bee larvae, and carrion. In the Kalahari, small mammals and reptiles make up most of the diet, and it has been recorded killing smaller carnivores and scavenging from larger ones. There is no good evidence that honeyguides lead it to hives.",
+    "items": [
+      "rodents",
+      "reptiles and snakes",
+      "insects and bee larvae",
+      "honey",
+      "birds and eggs",
+      "frogs",
+      "fruit, roots and bulbs",
+      "carrion"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "There is no fixed breeding season. Gestation is thought to last 50–70 days, and a litter is usually of one or two cubs, born blind and hairless in a den. The black-and-white coat begins to appear at about three to five weeks, and cubs follow the mother on foraging trips from about eight to twelve weeks. The young stay with her for about 12–16 months. In the Kalahari, mating occurs year-round and is slightly more frequent in the hot dry season (September to December). A Kruger-specific birth-month range was not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal",
+      "note": "Documented as a predator of cubs in the Kalahari."
+    },
+    {
+      "slug": null,
+      "en": "Southern African rock python",
+      "note": "Not a mammal in this guide. Wikipedia records it as a potential predator in the Cape, not specifically in Kruger."
+    }
+  ],
+  "prey": [
+    {
+      "slug": "felis-lybica",
+      "en": "African wild cat",
+      "note": "Documented in Kalahari diet studies, not as a Kruger-specific record."
+    },
+    {
+      "slug": "ictonyx-striatus",
+      "en": "Striped polecat",
+      "note": "Documented in Kalahari diet studies, not as a Kruger-specific record."
+    }
+  ],
+  "habitat": "A wide range of woodland, savanna and riverine habitats that offer cover and dens, including burrows, rock crevices and termite mounds. In Kruger it is widespread and is often recorded around rest camps after dark.",
+  "similar": [
+    {
+      "slug": "ictonyx-striatus",
+      "note": "The striped polecat is much smaller, with a black coat broken by narrow white stripes along the back, not a broad grey or white mantle over black underparts, legs and face-sides."
+    },
+    {
+      "slug": "lutra-capensis",
+      "note": "The Cape clawless otter is a larger, plain brown aquatic mustelid with a long tapering tail and no black-and-white mantle."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment states that there is no density data from mesic savannahs such as Kruger, and it gives a regional estimate of 741–13,200 mature individuals for South Africa, Eswatini and Lesotho, not a park count. Regional trend is stable. Honey badgers are often seen in Kruger rest camps, where they may become habituated.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "This page has no honey badger count."
+      },
+      {
+        "title": "Honey Badger",
+        "url": "https://ewt.org/project/honey-badger/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "reduced to low ridges"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "small and flat, with black sides and a pale crown",
+          "muzzle": "short",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "white"
+          ],
+          "pattern": "pale mantle from the crown to the base of the tail"
+        },
+        "underparts": {
+          "colour": "black",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "black"
+        },
+        "tail": {
+          "colour": "black",
+          "shape": "short, covered in long hair"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A stocky, low-slung body with a pale mantle from the crown to the tail base, black underparts and legs, a short tail and very small ears."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The pale crown, short muzzle, black sides of the face and legs, and long front claws are the clearest marks from the front."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A hoarse 'khrya-ya-ya-ya' call. Males grunt when mating, and cubs give plaintive whines. A rattling sound is used in threat displays.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "mellivora-capensis/h10-tshokwane-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Ratel_(Mellivora_capensis)_(52545666782).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Ratel_%28Mellivora_capensis%29_%2852545666782%29.jpg/1280px-Ratel_%28Mellivora_capensis%29_%2852545666782%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Honey badger in profile on a tar road, showing the pale mantle and black underparts, in Kruger National Park",
+      "caption": "Adult, H10 east of Tshokwane, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "mellivora-capensis/satara-veld-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/11206640",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15889694/large.jpg",
+      "author": "Andrew Deacon",
+      "license": "CC0 1.0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "Honey badger walking in open red soil and dry grass, in profile, near Satara in Kruger National Park",
+      "caption": "Adult, H1-4 near Satara, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "mellivora-capensis/tamboti-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Honey_Badger_(Mellivora_capensis)_(16804971054).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Honey_Badger_%28Mellivora_capensis%29_%2816804971054%29.jpg/1280px-Honey_Badger_%28Mellivora_capensis%29_%2816804971054%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Honey badger seen from the front and above, showing the pale mantle from the crown down the back, at Tamboti Camp in Kruger National Park",
+      "caption": "Adult, Tamboti Camp, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "mellivora-capensis/tamboti-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Honey_Badger_(Mellivora_capensis)_on_braai_inspection_tour_..._(51858174377).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Honey_Badger_%28Mellivora_capensis%29_on_braai_inspection_tour_..._%2851858174377%29.jpg/1280px-Honey_Badger_%28Mellivora_capensis%29_on_braai_inspection_tour_..._%2851858174377%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Close side view of a honey badger, showing the pale mantle, black underparts and short tail, at Tamboti Camp in Kruger National Park",
+      "caption": "Adult, Tamboti Camp, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "mellivora-capensis/timbavati-pair.jpg",
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "source": "https://commons.wikimedia.org/wiki/File:Ratels_(Mellivora_capensis)_pair_in_Timbavati_dry_riverbed_..._(52488410060).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Ratels_%28Mellivora_capensis%29_pair_in_Timbavati_dry_riverbed_..._%2852488410060%29.jpg/1280px-Ratels_%28Mellivora_capensis%29_pair_in_Timbavati_dry_riverbed_..._%2852488410060%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Two honey badgers walking in a dry sandy riverbed in Kruger National Park",
+      "caption": "Two animals in the Timbavati dry riverbed near Tamboti Camp, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Honey badger",
+      "url": "https://en.wikipedia.org/wiki/Honey_badger",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Mellivora capensis account",
+      "url": "https://animaldiversity.org/accounts/Mellivora_capensis/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Honey Badger",
+      "url": "https://ewt.org/project/honey-badger/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Mellivora capensis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/27.-Honey-Badger-Mellivora-capensis_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Sources disagree on length and mass. No reusable Kruger recording was found. Camp photographs were used where they clearly show the animal; tracks, watermarks, indoor frames and very dark shots were not. Iris colour was not found.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Sources disagree on head-and-body length and mass; Animal Diversity Web gives shoulder height only as an average of about 25 cm.",
+    "A Kruger-specific birth-month range was not found beyond a general southern African (Kalahari) account of year-round breeding, slightly more frequent in September to December.",
+    "Iris colour and ear colour were not given as named values in the sources used, so those marks are null.",
+    "No reusable Kruger recording found."
+  ]
+}

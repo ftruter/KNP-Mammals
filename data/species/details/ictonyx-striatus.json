@@ -1,0 +1,290 @@
+{
+  "kind": "species",
+  "slug": "ictonyx-striatus",
+  "scientificName": "Ictonyx striatus",
+  "commonNames": {
+    "en": "Striped polecat",
+    "af": "Stinkmuishond"
+  },
+  "family": "mustelidae",
+  "inatTaxonId": 41822,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Zorilla",
+        "url": "https://ewt.org/project/zorilla/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable. No change from 2016. Afrikaans name Stinkmuishond."
+      },
+      {
+        "title": "A conservation assessment of Ictonyx striatus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/24.-Striped-Polecat-Ictonyx-striatus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Striped polecat",
+        "url": "https://en.wikipedia.org/wiki/Striped_polecat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2015 IUCN assessment, Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 30,
+      "max": 38
+    },
+    "tailCm": {
+      "min": 22,
+      "max": 30
+    },
+    "massKg": {
+      "min": 0.7,
+      "max": 1.4
+    },
+    "note": "Head-and-body length (30–38 cm), tail (22–30 cm) and unsexed mass (0.7–1.4 kg) follow Wikipedia, which also states that males are about 50% heavier than females. Animal Diversity Web gives shorter typical or average figures rather than ranges: a head-and-body length of 28–30 cm, a tail of 20–30 cm, and masses of about 1.4 kg (males) and 1.02 kg (females). Those disagreements are recorded rather than averaged. No shoulder-height figure was found."
+  },
+  "summary": "A small, low-slung mustelid with a black coat broken by four white stripes down the back, a white spot on the forehead and a white patch on each cheek. The bushy tail is a mix of black and white. It is nocturnal and can spray a pungent fluid from glands near the anus when threatened. It is on the official Kruger checklist, but records in the park are scarce.",
+  "description": "The striped polecat is a small African mustelid, larger than the African striped weasel, with longer hair and three white markings on the face: a forehead spot and a patch on each cheek. The ears are black with white fringes. A white band at the back of the head usually splits into four white stripes that run down the back towards the tail. The underside and legs are entirely black. The tail is bushy, with long hair, and the amount of white on it varies between individuals. The front claws are long and curved, used for digging. Males are larger than females. The exact stripe and face pattern is variable.",
+  "habits": "It is mainly solitary and nocturnal, sometimes seen in pairs or as a female with young. Adults rest by day in burrows, rock crevices, hollow logs or under buildings, and may dig their own burrows or use those of other animals. When threatened it may raise the tail, arch the back, squeal and spray a nauseating, irritating fluid from glands near the anus, or feign death. It can swim and climb but usually stays on the ground. A Kruger-specific account of its daily movements was not found.",
+  "diet": {
+    "summary": "A generalist carnivore. Insects and murid rodents make up most of the diet, with reptiles also important, especially in drier country. It also takes amphibians, birds, eggs, spiders, scorpions, centipedes and millipedes, and has been recorded scavenging. Plant material is rarely eaten. An exceptional record of an attack on a newborn nyala calf is not treated as typical prey.",
+    "items": [
+      "insects",
+      "murid rodents",
+      "reptiles and snakes",
+      "amphibians",
+      "birds and eggs",
+      "spiders, scorpions and other invertebrates",
+      "carrion"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "In the southern African assessment region, mating and births have been recorded from August to December. Gestation lasts about 36 days, and a litter is generally of one to three young (Animal Diversity Web gives a range of one to four). Newborns are blind, almost hairless and about 110–115 mm long, weighing around 15 g, with dark stripes already visible on pink skin. Wikipedia, citing Rowe-Rowe, says the young are weaned by eight weeks; Animal Diversity Web says they are not completely weaned until 18 weeks. A Kruger-specific birth-month range was not found.",
+  "predators": [
+    {
+      "slug": "parahyaena-brunnea",
+      "en": "Brown hyaena",
+      "note": "Documented attacks in the Kalahari; successful kills are rare, and striped polecat remains are scarce in brown hyaena dung."
+    },
+    {
+      "slug": null,
+      "en": "Domestic dog",
+      "note": "A frequently cited cause of local deaths, including in South Africa. Not a wild mammal in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Murid rodents",
+      "note": "Together with insects, the main prey in southern African diet studies."
+    },
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The most important dietary component across the range in stomach-content studies."
+    },
+    {
+      "slug": "tragelaphus-angasii",
+      "en": "Nyala",
+      "note": "One exceptional record of an attack on a newborn calf, not a typical prey item and not a Kruger-specific record."
+    }
+  ],
+  "habitat": "Open grassland, savanna woodland, thornbush, rocky ground and even desert where some scrub cover is present. It prefers more open country, often where grazers keep the grass short, and also uses farmland. One source states that it is likely very rare in Kruger National Park, and that it appears scarcer in the Lowveld of Mpumalanga than in the drier west and south of South Africa.",
+  "similar": [
+    {
+      "slug": "mellivora-capensis",
+      "note": "The honey badger is much larger, with a broad pale grey or white mantle over black underparts, legs and face-sides, not four narrow white stripes on a black coat or a white forehead spot and cheek patches."
+    },
+    {
+      "slug": "lutra-capensis",
+      "note": "The Cape clawless otter is a larger, plain brown aquatic mustelid with a long tapering tail and no black-and-white stripes or facial patches."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. One source states that the species is likely very rare in Kruger National Park. The same assessment gives a regional estimate of well over 10,000 mature individuals for South Africa, Eswatini and Lesotho, not a park count, and a stable regional trend.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Zorilla",
+        "url": "https://ewt.org/project/zorilla/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "black",
+          "shape": "white fringes"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "mostly black, with a white forehead spot and a white patch on each cheek",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "black",
+            "white"
+          ],
+          "pattern": "four white stripes from a white band at the back of the head down the back towards the tail"
+        },
+        "underparts": {
+          "colour": "black",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "black"
+        },
+        "tail": {
+          "colour": [
+            "black",
+            "white"
+          ],
+          "shape": "bushy, with long hair; the amount of white is variable"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The white forehead spot, white cheek patches, black face and the start of the four white back stripes are the clearest marks from the front. The bushy tail may be raised when the animal is alarmed."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A low-slung black body with four white stripes along the back and a bushy, mixed black-and-white tail."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Growls are used as a warning. Louder screams occur in aggression, sometimes before the animal sprays, and a high-to-low undulating scream can signal submission. A quieter undulating call has been interpreted as a greeting. Females yap and shriek during mating, and the young give distress calls.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "ictonyx-striatus/addo-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Addo_zorilla.jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Addo_zorilla.jpg",
+      "author": "Henry de Lange",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Striped polecat facing the camera at night, showing the white forehead spot, white cheek patches and raised bushy tail, in Addo Elephant National Park",
+      "caption": "Adult with the tail raised, at night, Addo Elephant National Park, Eastern Cape, South Africa."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "ictonyx-striatus/tutume-pair.jpg",
+      "view": "herd",
+      "age": "adult",
+      "sex": "mixed",
+      "source": "https://commons.wikimedia.org/wiki/File:Zorilla_pair.jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Zorilla_pair.jpg",
+      "author": "Mahomed Desai",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Two striped polecats on a sandy track at night in Tutume, Botswana",
+      "caption": "Two adults at night, Tutume, Botswana."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Striped polecat",
+      "url": "https://en.wikipedia.org/wiki/Striped_polecat",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Ictonyx striatus account",
+      "url": "https://animaldiversity.org/accounts/Ictonyx_striatus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Zorilla",
+      "url": "https://ewt.org/project/zorilla/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Ictonyx striatus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/24.-Striped-Polecat-Ictonyx-striatus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. One source states that the species is likely very rare in the park. No reusable Kruger photograph or recording was found. The two photographs used are from Addo Elephant National Park and Tutume, Botswana, and the captions name those places. Sources disagree on length, mass, litter size and weaning age. Iris colour and shoulder height were not found. Status and months present were omitted because a Kruger year-round presence was not sourced.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "No reusable Kruger photograph was found. The only iNaturalist observation in place 69020 is not under a licence that can be displayed. Of six southern African thumbnails inspected, four were of carcasses, so only two live photographs were included, both from outside Kruger.",
+    "No reusable Kruger recording found.",
+    "Shoulder height was not published in the sources used, so that range field is omitted.",
+    "Sources disagree on head-and-body length, tail length, typical mass, litter size and weaning age.",
+    "A Kruger-specific birth-month range was not found beyond a southern African account of mating and births from August to December.",
+    "Iris colour was not found, so that mark is null."
+  ]
+}
