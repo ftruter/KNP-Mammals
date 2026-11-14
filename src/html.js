@@ -15,6 +15,9 @@ import {
 import {
   FAMILY_COLUMNS,
   FAMILY_SPECIES_COLUMNS,
+  ORDER_COLUMNS,
+  ORDER_FAMILY_COLUMNS,
+  ORDER_SPECIES_COLUMNS,
   SPECIES_COLUMNS,
   tableHtml,
 } from './lists.js'
@@ -123,6 +126,7 @@ export const homeHtml = (doc, { origin }) => {
 <h1>${SITE_NAME}</h1>
 <nav aria-label="Browse the guide">
 <ul class="browse-links">
+<li><a href="/orders">Orders</a> <span>${counts.orders}</span></li>
 <li><a href="/families">Families</a> <span>${counts.families}</span></li>
 <li><a href="/species">Species</a> <span>${counts.species}</span></li>
 </ul>
@@ -207,6 +211,73 @@ ${links.map((href) => `<li><a href="${escapeHtml(href)}">${escapeHtml(href)}</a>
 </ul>`
 }
 
+/** The order's name, linked to its page when the document carries its slug. */
+const orderLink = (doc) =>
+  doc.orderSlug
+    ? `<a href="/order/${escapeHtml(doc.orderSlug)}">${escapeHtml(doc.order)}</a>`
+    : escapeHtml(doc.order || '')
+
+export const ordersHtml = (doc, { origin, url }) =>
+  layout({
+    title: `Orders · ${SHORT_NAME}`,
+    description: 'Mammal orders in this field guide.',
+    origin,
+    path: '/orders',
+    nav: '',
+    crumbs: crumbs([{ label: 'Orders', current: true }]),
+    main: `
+<h1>Orders</h1>
+<p>The guide lists ${doc.orders.length} orders. An order is the group above the family: the cats and the dogs are families in the order Carnivora. The list is alphabetical.</p>
+${tableHtml({
+  caption: 'Orders',
+  columns: ORDER_COLUMNS,
+  rows: doc.orders,
+  path: '/orders',
+  query: url,
+  empty: 'No orders are listed.',
+})}
+`,
+  })
+
+const countLabel = (count, one, many) => `${count} ${count === 1 ? one : many}`
+
+export const orderHtml = (doc, { origin, url }) =>
+  layout({
+    title: `${doc.latin} · ${SHORT_NAME}`,
+    description: `The order ${doc.latin} in Kruger National Park: ${countLabel(doc.families.length, 'family', 'families')} and ${doc.species.length} species.`,
+    origin,
+    path: `/order/${doc.slug}`,
+    nav: '',
+    crumbs: crumbs([
+      { href: '/orders', label: 'Orders' },
+      { label: doc.latin, current: true },
+    ]),
+    main: `
+<p class="kicker">Order</p>
+<h1>${escapeHtml(doc.latin)}</h1>
+<p>${countLabel(doc.families.length, 'family', 'families')} and ${doc.species.length} species in Kruger.</p>
+<h2>Families</h2>
+${tableHtml({
+  caption: 'Families',
+  columns: ORDER_FAMILY_COLUMNS,
+  rows: listed(doc.families),
+  path: `/order/${doc.slug}`,
+  query: url,
+  empty: 'No families are listed for this order.',
+})}
+<h2>Species</h2>
+${tableHtml({
+  caption:
+    'Species. The population is the approximate number in Kruger, where an estimate is recorded.',
+  columns: ORDER_SPECIES_COLUMNS,
+  rows: listed(doc.species),
+  path: `/order/${doc.slug}`,
+  query: url,
+  empty: 'No species are listed for this order.',
+})}
+`,
+  })
+
 export const familyHtml = (doc, { origin, url }) =>
   layout({
     title: `${doc.en} · ${SHORT_NAME}`,
@@ -219,7 +290,7 @@ export const familyHtml = (doc, { origin, url }) =>
       { label: doc.en, current: true },
     ]),
     main: `
-<p class="kicker">Family · ${escapeHtml(doc.order)}</p>
+<p class="kicker">Family · ${orderLink(doc)}</p>
 <h1>${escapeHtml(doc.en)}</h1>
 <p class="latin">${escapeHtml(doc.latin)}</p>
 ${doc.af ? `<p class="afrikaans">${escapeHtml(doc.af)}</p>` : ''}
@@ -405,7 +476,7 @@ ${[
   factRow('Habitat', details.habitat),
   populationRowHtml(details.population),
   `<dt>Family</dt><dd><a href="/family/${escapeHtml(doc.familySlug)}">${escapeHtml(doc.familyEn || doc.family)}</a></dd>`,
-  factRow('Order', doc.order),
+  doc.order ? `<dt>Order</dt><dd>${orderLink(doc)}</dd>` : '',
 ]
   .filter(Boolean)
   .join('\n')}
@@ -462,7 +533,7 @@ const evidenceHtml = (doc) => {
       'Family',
       `<a href="/family/${escapeHtml(doc.familySlug)}">${escapeHtml(doc.familyEn || doc.family)}</a>`,
     ],
-    ['Order', escapeHtml(doc.order || '')],
+    ['Order', doc.order ? orderLink(doc) : ''],
     [
       'SANParks 2011 checklist',
       evidence.sanparks2011 === true
@@ -532,6 +603,7 @@ export const notFoundHtml = ({ origin, path }) =>
 <p>No page is published at <code>${escapeHtml(path)}</code>.</p>
 <ul>
 <li><a href="/">Home</a></li>
+<li><a href="/orders">Orders</a></li>
 <li><a href="/families">Families</a></li>
 <li><a href="/species">Species</a></li>
 </ul>`,

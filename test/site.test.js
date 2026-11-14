@@ -26,6 +26,8 @@ test('routes map to KV keys and formats', () => {
   assert.equal(route('/app.js').kind, 'script')
   assert.equal(route('/species.json').key, 'index/species')
   assert.equal(route('/family/bovidae').key, 'family/bovidae')
+  assert.equal(route('/orders').key, 'index/families')
+  assert.equal(route('/order/carnivora.json').key, 'order/carnivora')
   assert.equal(
     route('/species/connochaetes-taurinus.md').key,
     'species/connochaetes-taurinus',
@@ -98,6 +100,42 @@ test('the families table lists every family and sorts by the query', async () =>
   assert.deepEqual(column(junk, 0), english)
 })
 
+test('orders have a list, a page each, and links from the other pages', async () => {
+  const index = JSON.parse(store.get('index/families'))
+  const home = await (await get('/')).text()
+  assert.match(home, /<a href="\/orders">Orders<\/a> <span>14<\/span>/)
+
+  const list = await (await get('/orders')).text()
+  for (const order of index.orders)
+    assert.ok(list.includes(`href="/order/${order.slug}"`), order.slug)
+  const bySpecies = await (await get('/orders?sort=species&dir=desc')).text()
+  assert.equal(column(bySpecies, 0)[0], 'Chiroptera')
+
+  const page = await (await get('/order/carnivora')).text()
+  assert.match(page, /<h1>Carnivora<\/h1>/)
+  assert.match(page, /6 families and 27 species in Kruger\./)
+  assert.ok(page.includes('href="/family/felidae"'))
+  assert.ok(page.includes('href="/species/panthera-leo"'))
+  assert.equal((await get('/order/nonsense')).status, 404)
+
+  for (const path of [
+    '/families',
+    '/species',
+    '/family/felidae',
+    '/species/panthera-leo',
+  ])
+    assert.ok(
+      (await (await get(path)).text()).includes(
+        '<a href="/order/carnivora">Carnivora</a>',
+      ),
+      path,
+    )
+  assert.match(
+    await (await get('/family/felidae.md')).text(),
+    /Order: \[Carnivora\]\(\/order\/carnivora\.md\)/,
+  )
+})
+
 test('species without an estimate sort last in either direction', async () => {
   for (const dir of ['asc', 'desc']) {
     const body = await (await get(`/species?sort=population&dir=${dir}`)).text()
@@ -115,10 +153,11 @@ test('every family and species page renders', async () => {
   const index = JSON.parse(store.get('index/species'))
   const paths = [
     '/families',
+    '/orders',
     '/species',
     ...index.species.map((s) => `/species/${s.slug}`),
     ...[...store.keys()]
-      .filter((key) => key.startsWith('family/'))
+      .filter((key) => /^(family|order)\//.test(key))
       .map((key) => `/${key}`),
   ]
   for (const path of paths) {

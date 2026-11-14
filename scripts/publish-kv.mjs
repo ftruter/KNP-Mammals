@@ -9,8 +9,8 @@
  *
  * --dry-run prints the keys it would upload and does not call Cloudflare.
  * A real run lists remote keys, bulk-puts every local key, then deletes
- * keys that are gone from data/. Deletion is limited to species/, family/
- * and index/. Re-running writes the same values again.
+ * keys that are gone from data/. Deletion is limited to species/, family/,
+ * order/ and index/. Re-running writes the same values again.
  */
 import { spawn } from 'node:child_process'
 import { createHash } from 'node:crypto'
@@ -24,7 +24,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
 export const BINDING = 'MAMMALS_KV'
 
-export const MANAGED_PREFIXES = ['species/', 'family/', 'index/']
+export const MANAGED_PREFIXES = ['species/', 'family/', 'order/', 'index/']
 
 export const wranglerCliPath = fileURLToPath(
   new URL('../node_modules/wrangler/wrangler-dist/cli.js', import.meta.url),
@@ -175,7 +175,7 @@ export const dryRunReport = (version, plan) => ({
     bytes: Buffer.byteLength(entry.value),
   })),
   delete: plan.delete,
-  note: 'delete is null because a dry run does not list the remote namespace. A real publish deletes keys under species/, family/ and index/ that are no longer in data/.',
+  note: 'delete is null because a dry run does not list the remote namespace. A real publish deletes keys under species/, family/, order/ and index/ that are no longer in data/.',
 })
 
 export const publishKv = async ({

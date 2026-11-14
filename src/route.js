@@ -56,6 +56,8 @@ export const parseUrl = (url) => {
     return { kind: 'home', format, pathname, key: 'index/families' }
   if (pathname === '/families')
     return { kind: 'families', format, pathname, key: 'index/families' }
+  if (pathname === '/orders')
+    return { kind: 'orders', format, pathname, key: 'index/families' }
   if (pathname === '/species')
     return { kind: 'species-list', format, pathname, key: 'index/species' }
 
@@ -64,6 +66,8 @@ export const parseUrl = (url) => {
     return notFound(format, pathname)
   if (section === 'family')
     return { kind: 'family', format, pathname, key: `family/${slug}` }
+  if (section === 'order')
+    return { kind: 'order', format, pathname, key: `order/${slug}` }
   if (section === 'species')
     return { kind: 'species', format, pathname, key: `species/${slug}` }
   return notFound(format, pathname)

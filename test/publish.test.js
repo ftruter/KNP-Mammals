@@ -27,6 +27,19 @@ test('the payload matches the counts recorded in species-list.json', async () =>
   assert.equal(index.counts.families, list.counts.families)
   assert.equal(index.counts.orders, list.counts.orders)
   assert.equal(index.orders.length, list.counts.orders)
+  assert.equal(count('order/'), list.counts.orders)
+  for (const order of index.orders) {
+    const doc = JSON.parse(
+      entries.find((entry) => entry.key === `order/${order.slug}`).value,
+    )
+    assert.equal(
+      doc.species.length,
+      list.counts.byOrder[order.latin],
+      order.latin,
+    )
+    assert.equal(doc.species.length, order.speciesCount)
+    assert.equal(doc.families.length, order.familyCount)
+  }
   const listed = index.families.reduce(
     (sum, family) => sum + family.speciesCount,
     0,
@@ -118,8 +131,13 @@ test('details gain names for the animals they point at', () => {
 
 test('a publish plan deletes only managed keys that are gone', () => {
   const entries = [{ key: 'species/a', value: '{}' }]
-  const plan = planKvUpdate(entries, ['species/a', 'species/b', 'other/c'])
-  assert.deepEqual(plan.delete, ['species/b'])
+  const plan = planKvUpdate(entries, [
+    'species/a',
+    'species/b',
+    'order/gone',
+    'other/c',
+  ])
+  assert.deepEqual(plan.delete, ['order/gone', 'species/b'])
   assert.equal(planKvUpdate(entries, null).delete, null)
 })
 
