@@ -1,0 +1,326 @@
+{
+  "kind": "species",
+  "slug": "genetta-felina",
+  "scientificName": "Genetta felina",
+  "commonNames": {
+    "en": "Small-spotted genet",
+    "af": "Kleinkolmuskejaatkat"
+  },
+  "family": "viverridae",
+  "inatTaxonId": 925659,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Small-spotted Genet",
+        "url": "https://ewt.org/project/small-spotted-genet/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "The 2025 page assesses Genetta genetta as Least Concern, regional trend stable, and notes that the status of Genetta felina is debated."
+      },
+      {
+        "title": "A conservation assessment of Genetta genetta",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/15.-Small-spotted-Genet-Genetta-genetta_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "South African small-spotted genet",
+        "url": "https://en.wikipedia.org/wiki/South_African_small-spotted_genet",
+        "publisher": "Wikipedia",
+        "year": 2026
+      },
+      {
+        "title": "Common genet",
+        "url": "https://en.wikipedia.org/wiki/Common_genet",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Used for size and general habits, with a caveat that those figures are for Genetta genetta broadly."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 43,
+      "max": 55
+    },
+    "tailCm": {
+      "min": 33,
+      "max": 52
+    },
+    "massKg": {
+      "min": 1,
+      "max": 3
+    },
+    "note": "No size figures published specifically for Genetta felina were found. Head-and-body length (43–55 cm) and tail (33–52 cm) follow the Wikipedia account of the common genet (Genetta genetta). Mass of 1–3 kg follows Animal Diversity Web for G. genetta; a male average of 2 kg on Wikipedia is omitted as an average. These figures are for G. genetta broadly, not confirmed for G. felina itself."
+  },
+  "summary": "A slender, nocturnal genet with small spots, dark feet, a dark chin and a white-tipped, strongly ringed tail. In this guide it is stored as Genetta felina, a southern African split from the common genet Genetta genetta.",
+  "description": "The small-spotted genet is a lightly built, short-legged viverrid with a long, strongly ringed tail. In Genetta felina the tail has a white tip, the feet are dark, and the chin is dark. The coat is spotted with small, fairly neat marks. Sexes are similar in colour. EWT still assesses the group as Genetta genetta and notes that the status of G. felina is debated. Photographs in this file are identified as G. felina, not as G. genetta or G. tigrina.",
+  "habits": "It is nocturnal, usually solitary, and often partly arboreal, hunting and resting in trees as well as on the ground. Like other small genets it is an opportunistic feeder.",
+  "diet": {
+    "summary": "An opportunistic feeder, taking small vertebrates, insects and fruit. The diet account follows general common-genet sources, not a Kruger-specific study.",
+    "items": [
+      "small vertebrates",
+      "insects",
+      "fruit"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "In the common genet, young are born in the wet season after a gestation of about 10–11 weeks, in litters of 1–3, and are born blind. A source giving birth months specifically for Genetta felina in Kruger was not found.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    }
+  ],
+  "prey": [],
+  "habitat": "Woodland, riverine trees and the edges of rest camps. It is widespread but secretive, and is most often seen at night.",
+  "similar": [
+    {
+      "slug": "genetta-fieldiana",
+      "note": "The large-spotted genet has larger, often rusty or blotched spots and a dark tail tip, not a white one, and it lacks dark feet and a dark chin."
+    },
+    {
+      "slug": "civettictis-civetta",
+      "note": "The African civet is much larger and heavier, with a deep chest, a bold black-and-white face and black legs."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Secondary source quoting SANParks surveys or estimates."
+      },
+      {
+        "title": "Small-spotted Genet",
+        "url": "https://ewt.org/project/small-spotted-genet/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark chin",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": "small, fairly neat spots"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "dark feet"
+        },
+        "tail": {
+          "colour": "strongly ringed, white at the tip",
+          "shape": "long"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "In a tree, the long, strongly ringed tail with a white tip is the clearest mark that separates this species from the large-spotted genet."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Small spots, dark feet and a white tail tip distinguish it from the large-spotted genet."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "In the common genet, kits moan or mew, and adults may growl or give a click as a threat. A field description specifically for Genetta felina was not found.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "genetta-felina/kruger-tree.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/332567417",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/603577339/large.jpg",
+      "author": "Rebecca Ryen Stols",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Small-spotted genet in a tree, showing a strongly ringed tail with a white tip, in Kruger National Park",
+      "caption": "Adult in a tree, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "genetta-felina/beaufort-west-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Genetta_felina_11034107.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Genetta_felina_11034107.jpg/1280px-Genetta_felina_11034107.jpg",
+      "author": "Shaun Swanepoel",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Small-spotted genet standing in profile, white tail tip visible, near Beaufort West, Western Cape",
+      "caption": "Adult, Beaufort West area, Western Cape. No further reusable Kruger photograph was found to fill this view."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "genetta-felina/kai-garib-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Genetta_felina_60147573.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Genetta_felina_60147573.jpg/1280px-Genetta_felina_60147573.jpg",
+      "author": "Tom Heijnen",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Small-spotted genet sitting in profile, white tail tip visible, in Kai !Garib, Northern Cape",
+      "caption": "Adult, Kai !Garib, Northern Cape. No further reusable Kruger photograph was found to fill this view."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "genetta-felina/bushbuckridge-log.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Genetta_felina_721177347.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Genetta_felina_721177347.jpg/1280px-Genetta_felina_721177347.jpg",
+      "author": "Darren Obbard",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Small-spotted genet standing on a log, white tail tip visible, in Bushbuckridge, Mpumalanga",
+      "caption": "Adult, Bushbuckridge, Mpumalanga. The locality is west of the Kruger fence and is not captioned as Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "South African small-spotted genet",
+      "url": "https://en.wikipedia.org/wiki/South_African_small-spotted_genet",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Thin on measurements; used for the white tail tip, dark feet and dark chin."
+    },
+    {
+      "title": "Common genet",
+      "url": "https://en.wikipedia.org/wiki/Common_genet",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Used for size, habits, diet and young, with a caveat that those figures are for Genetta genetta broadly."
+    },
+    {
+      "title": "Genetta genetta account",
+      "url": "https://animaldiversity.org/accounts/Genetta_genetta/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026,
+      "note": "No ADW account was found at Genetta_felina. Figures are for G. genetta broadly."
+    },
+    {
+      "title": "Small-spotted Genet",
+      "url": "https://ewt.org/project/small-spotted-genet/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Genetta genetta",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/15.-Small-spotted-Genet-Genetta-genetta_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "low",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Size, diet, habits and young largely follow accounts of Genetta genetta, because sources specific to G. felina are thin. Only one reusable Kruger photograph was found; the others are southern African G. felina images and are captioned with the real place. Photographs of G. genetta or G. tigrina were not used. No reusable Kruger recording was found.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "No size figures published specifically for Genetta felina were found; the ranges entered are for Genetta genetta broadly.",
+    "No Kruger-specific birth-month range, and no sourced gestation or litter size specifically for G. felina, were found.",
+    "Iris colour, ear colour and underpart colour were not given as named values in the sources used, so those marks are null.",
+    "Only one reusable Kruger photograph was found.",
+    "No reusable Kruger recording found."
+  ]
+}

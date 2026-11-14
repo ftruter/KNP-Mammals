@@ -1,0 +1,333 @@
+{
+  "kind": "species",
+  "slug": "genetta-fieldiana",
+  "scientificName": "Genetta fieldiana",
+  "commonNames": {
+    "en": "Large-spotted genet",
+    "af": "Rooikolmuskejaatkat"
+  },
+  "family": "viverridae",
+  "inatTaxonId": 1643992,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Rusty-spotted Genet",
+        "url": "https://ewt.org/project/rusty-spotted-genet/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "The 2025 page (also at /project/large-spotted-genet/) assesses the rusty-spotted / large-spotted complex as Least Concern, regional trend unknown, under the name Genetta maculata."
+      },
+      {
+        "title": "A conservation assessment of Genetta maculata",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/16.-Rusty-spotted-Genet-Genetta-maculata_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Rusty-spotted genet",
+        "url": "https://en.wikipedia.org/wiki/Rusty-spotted_genet",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Used for size and appearance. The Wikipedia title Large-spotted genet redirects to the Cape genet (Genetta tigrina) and was not used."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 42,
+      "max": 52
+    },
+    "tailCm": {
+      "min": 40,
+      "max": 53
+    },
+    "massKg": {
+      "min": 1.3,
+      "max": 3
+    },
+    "note": "Head-and-body length (42–52 cm), tail (40–53 cm) and mass (1.3–3 kg) follow the Wikipedia account of the rusty-spotted genet, a name used there and by EWT for the large-spotted complex (often as Genetta maculata). These figures are entered with that taxonomy caveat, not as measurements published under the name Genetta fieldiana alone."
+  },
+  "summary": "A slender, nocturnal genet with fairly large, often rusty or blotched spots and a dark tail tip. In this guide it is stored as Genetta fieldiana, the Kruger large-spotted genet, distinct from the Cape genet Genetta tigrina and from the small-spotted genet Genetta felina.",
+  "description": "The large-spotted genet is a lightly built viverrid with a long, ringed tail that ends in a dark tip, not a white one. The spots are larger and often rustier or more blotched than in the small-spotted genet, and the feet are the same colour as the fur rather than dark. EWT assesses the complex as the rusty-spotted genet under the name Genetta maculata, and notes that there is no mid-dorsal crest. Sexes are similar in colour. Photographs in this file are Kruger animals identified as G. fieldiana, or Kruger animals clearly showing the dark tail tip and rusty blotches.",
+  "habits": "It is nocturnal, usually solitary, and often partly arboreal. It is frequently seen after dark on paths and around rest camps in Kruger, including in trees and on camp paving.",
+  "diet": {
+    "summary": "An opportunistic feeder, taking small vertebrates, insects and fruit. A Kruger-specific diet study was not found in the sources consulted.",
+    "items": [
+      "small vertebrates",
+      "insects",
+      "fruit"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "The EWT 2025 assessment, citing Skinner and Chimimba (2005), gives a breeding peak in October to December, with a possible second peak in March to May, and litters of 2–5 kittens. A Kruger-specific account beyond that regional description was not found.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    }
+  ],
+  "prey": [],
+  "habitat": "Woodland, riverine trees and the edges of rest camps. It is widespread in Kruger and is the large-spotted genet most often recorded in the park.",
+  "similar": [
+    {
+      "slug": "genetta-felina",
+      "note": "The small-spotted genet has smaller, neater spots, dark feet, a dark chin, and a white tail tip rather than a dark one."
+    },
+    {
+      "slug": "civettictis-civetta",
+      "note": "The African civet is much larger and heavier, with a deep chest, a bold black-and-white face and black legs."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Secondary source quoting SANParks surveys or estimates."
+      },
+      {
+        "title": "Rusty-spotted Genet",
+        "url": "https://ewt.org/project/rusty-spotted-genet/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "no mid-dorsal crest, in the rusty-spotted / large-spotted complex as assessed by EWT"
+        },
+        "upperparts": {
+          "colour": [
+            "rusty",
+            "brown",
+            "grey"
+          ],
+          "pattern": "fairly large, often rusty or blotched spots"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "same colour as the fur, not dark socks"
+        },
+        "tail": {
+          "colour": "ringed, dark at the tip",
+          "shape": "long"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "In a tree, the long ringed tail with a dark tip is the clearest mark that separates this species from the small-spotted genet."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Larger rusty or blotched spots and a dark tail tip distinguish it from the small-spotted genet."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A general field description of the calls was not found in the sources consulted for this file.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "genetta-fieldiana/kruger-tree.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/71424631",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/116287025/large.jpg",
+      "author": "Dave Brown",
+      "license": "CC0 1.0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "Large-spotted genet in a tree, showing a dark tail tip, in Kruger National Park",
+      "caption": "Adult in a tree, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "genetta-fieldiana/kruger-tamboti-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Rusty-spotted_Genet_(Genetta_maculata)_(32484079077).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Rusty-spotted_Genet_%28Genetta_maculata%29_%2832484079077%29.jpg/1280px-Rusty-spotted_Genet_%28Genetta_maculata%29_%2832484079077%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Large-spotted genet standing in profile, rusty blotches and a dark tail tip visible, at Tamboti Tented Camp, Kruger National Park",
+      "caption": "Adult, Tamboti Tented Camp, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "genetta-fieldiana/kruger-maroela.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/95648263",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/158812520/large.jpeg",
+      "author": "Noeleen du Toit",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Large-spotted genet sitting and facing the camera at Maroela Camp, Kruger National Park",
+      "caption": "Adult, Maroela Camp, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "genetta-fieldiana/kruger-skukuza.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/104536495",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/175181839/large.jpeg",
+      "author": "Justin Ponder",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Large-spotted genet walking on paving at Skukuza, Kruger National Park",
+      "caption": "Adult, Skukuza, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "genetta-fieldiana/kruger-mopani.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/37899217",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/60150179/large.jpeg",
+      "author": "Tom Heijnen",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Large-spotted genet standing on a rock near Mopani, Kruger National Park",
+      "caption": "Adult, Mopani, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Rusty-spotted genet",
+      "url": "https://en.wikipedia.org/wiki/Rusty-spotted_genet",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "The Wikipedia title Large-spotted genet redirects to the Cape genet (Genetta tigrina) and was not used for this file."
+    },
+    {
+      "title": "Genetta maculata account",
+      "url": "https://animaldiversity.org/accounts/Genetta_maculata/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026,
+      "note": "A short stub. No ADW account was found at Genetta_fieldiana."
+    },
+    {
+      "title": "Rusty-spotted Genet",
+      "url": "https://ewt.org/project/rusty-spotted-genet/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "The same page is also at /project/large-spotted-genet/."
+    },
+    {
+      "title": "A conservation assessment of Genetta maculata",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/16.-Rusty-spotted-Genet-Genetta-maculata_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Size follows rusty-spotted genet sources, which use the name Genetta maculata; that caveat is in the size note. iNaturalist taxon 1643992 (Genetta fieldiana) was preferred for photographs. One Bernard DUPONT Kruger photograph, labelled Genetta maculata, was included because it is a Kruger animal at Tamboti and clearly shows the dark tail tip. The Wikipedia article Large-spotted genet, which redirects to the Cape genet, was not used. No reusable Kruger recording was found. The stored Afrikaans name Rooikolmuskejaatkat is the 2011 checklist name.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "No size figures published under the name Genetta fieldiana alone were found; the ranges entered are from rusty-spotted genet accounts.",
+    "A general field description of the calls was not found in the sources consulted.",
+    "Iris colour, ear colour and underpart colour were not given as named values in the sources used, so those marks are null.",
+    "No reusable Kruger recording found."
+  ]
+}

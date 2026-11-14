@@ -1,0 +1,395 @@
+{
+  "kind": "species",
+  "slug": "lycaon-pictus",
+  "scientificName": "Lycaon pictus",
+  "commonNames": {
+    "en": "Wild dog",
+    "af": "Wildehond"
+  },
+  "family": "canidae",
+  "inatTaxonId": 42093,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Endangered regionally; Endangered globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "African Wild Dog",
+        "url": "https://ewt.org/project/african-wild-dog/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Endangered, regional trend stable. Cites a February 2024 Greater Kruger estimate."
+      },
+      {
+        "title": "A conservation assessment of Lycaon pictus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/26.-African-Wild-Dog-Lycaon-pictus_EN.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "African wild dog",
+        "url": "https://en.wikipedia.org/wiki/African_wild_dog",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 60,
+      "max": 75
+    },
+    "headBodyLengthCm": {
+      "min": 71,
+      "max": 112
+    },
+    "tailCm": {
+      "min": 29,
+      "max": 41
+    },
+    "massKg": {
+      "min": 18,
+      "max": 36
+    },
+    "note": "Shoulder height (60–75 cm), head-and-body length (71–112 cm), tail (29–41 cm) and mass (18–36 kg) follow the Wikipedia size table. Animal Diversity Web gives a slightly narrower head-and-body range of 75–110 cm and tails of 30–40 cm, with the same mass range. Wikipedia notes that East African animals are typically 20–25 kg, and that females are usually 3–7% smaller than males; those are not entered as separate ranges."
+  },
+  "summary": "A lean, long-legged pack-hunting dog of open woodland and savanna, with a uniquely blotched coat of black, brown, yellow and white, large rounded ears and a usually white-tipped tail. Kruger and the adjoining private reserves hold one of southern Africa's most important remaining populations.",
+  "description": "The wild dog has a lightly built, athletic body, long legs and a short, broad muzzle. Its coat is a patchwork of black, brown, yellow and white, and the pattern is unique to each animal. The large, rounded ears are a distinctive field mark, and the bushy tail usually has a white tip. There is no mane. Sexes are similar in colour, though females are usually a little smaller than males.",
+  "habits": "Wild dogs live in packs and hunt mainly by day, running down medium-sized antelope over long distances. Packs are typically led by a dominant pair, and usually only the dominant female breeds. In Kruger, packs are often of about four or five adults. They generally avoid lions, which kill dogs at dens and on kills, and they lose food to spotted hyaenas. The pack shares care of the pups at a den.",
+  "diet": {
+    "summary": "A cooperative hunter of medium-sized hoofed mammals. One Kruger study, cited on the EWT 2025 assessment (Crossey et al. 2021), found that the diet was made up mainly of smaller browsing and mixed-feeding species (about 73%), with large grazers about 24% and large browsers about 3%. That study is given at guild level, not as a species list. Typical southern African prey includes impala and other medium-sized antelope.",
+    "items": [
+      "smaller browsing and mixed-feeding antelope",
+      "large grazers",
+      "large browsers"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "In southern Africa, breeding is usually between April and July. Gestation is 69–73 days. Litters are large, commonly of about 6–16 pups, with an average of about 10. Pups are born in a den, and the pack helps to feed and guard them. Only the dominant female typically breeds.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    }
+  ],
+  "prey": [
+    {
+      "slug": "aepyceros-melampus",
+      "en": "Impala"
+    },
+    {
+      "slug": "tragelaphus-strepsiceros",
+      "en": "Kudu"
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "en": "Bushbuck"
+    },
+    {
+      "slug": "redunca-arundinum",
+      "en": "Reedbuck"
+    },
+    {
+      "slug": "connochaetes-taurinus",
+      "en": "Blue wildebeest"
+    }
+  ],
+  "habitat": "Open woodland and savanna, often using roads and tracks when travelling. Packs range widely and need areas with enough prey and relatively few lions.",
+  "similar": [
+    {
+      "slug": "lupulella-mesomelas",
+      "note": "The black-backed jackal is much smaller, with a neatly defined silver-and-black saddle and a black tail tip, not a blotched painted coat or large rounded ears."
+    },
+    {
+      "slug": "lupulella-adusta",
+      "note": "The side-striped jackal is smaller and greyer, with a pale side stripe and a white tail tip, not a mottled coat."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 399,
+      "high": 399
+    },
+    "unit": "individuals",
+    "trend": "increasing",
+    "confidence": "medium",
+    "asOf": 2024,
+    "notes": "Some sources claim a February 2024 estimate of 399 adults and yearlings in 54 breeding packs in Kruger as defined on the EWT 2025 African Wild Dog page (Greater Kruger: Kruger National Park plus the adjoining private nature reserves; Contemplate Wild unpublished data, cited there). The same page gives a calculated mature subset of about 90 animals by the Woodroffe and Sillero-Zubiri method, and lists the regional trend as stable while describing a recent increase in this subpopulation, with natural fluctuations. One source quotes about 250 animals in 2022, which disagrees with the 2024 Greater Kruger figure; the two figures are not averaged. The 399 count is of adults and yearlings, not of mature animals only, and covers Greater Kruger rather than the national park alone.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 250,
+          "high": 250
+        },
+        "unit": "individuals",
+        "asOf": 2022,
+        "notes": "One source quotes about 250 wild dogs in 2022. This disagrees with the 2024 Greater Kruger figure of 399 adults and yearlings."
+      },
+      {
+        "estimate": {
+          "low": 132,
+          "high": 132
+        },
+        "unit": "individuals",
+        "asOf": 2009,
+        "notes": "The 2009 photographic census, cited on the EWT 2025 page, estimated 132 mature individuals. One source quotes 151 animals in about 20 packs in 2008/09."
+      },
+      {
+        "estimate": {
+          "low": 357,
+          "high": 357
+        },
+        "unit": "individuals",
+        "asOf": 1989,
+        "notes": "The EWT 2025 page cites Maddock and Mills (1994) for 357 wild dogs identified in Kruger in 1989. One source quotes a minimum of 357 in 26 packs in 1994/95, and describes 350 to 400 as a 1990s level."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Secondary source quoting SANParks surveys or estimates."
+      },
+      {
+        "title": "African Wild Dog",
+        "url": "https://ewt.org/project/african-wild-dog/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Cites Contemplate Wild unpublished data for the February 2024 Greater Kruger estimate of 399 adults and yearlings in 54 packs, the mature subset of about 90, the 2009 photographic census of 132 mature individuals, and Maddock and Mills (1994) for 357 identified in 1989."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "large and rounded"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "short, broad muzzle",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "black",
+            "brown",
+            "yellow",
+            "white"
+          ],
+          "pattern": "irregular blotches unique to each animal"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "usually white at the tip",
+          "shape": "bushy"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A lean, long-legged dog with a blotched black, brown, yellow and white coat, large rounded ears and a usually white-tipped tail."
+    },
+    {
+      "view": "herd",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Packs often travel together on roads; each animal's coat pattern is different."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "The species has a wide range of sounds, including twittering, whining, yelping and hoo calls used to keep the pack in contact. A general field description of the Kruger repertoire was not found in more detail in the sources consulted.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lycaon-pictus/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_Wild_Dog_(Lycaon_pictus)_(50670527553).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/African_Wild_Dog_%28Lycaon_pictus%29_%2850670527553%29.jpg/1280px-African_Wild_Dog_%28Lycaon_pictus%29_%2850670527553%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Wild dog in profile on a dirt road, showing a blotched coat and large rounded ears, in Kruger National Park",
+      "caption": "Adult, H4-1 before Sabie Bridge, north of Skukuza, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lycaon-pictus/kruger-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/71493795",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/116410166/large.jpg",
+      "author": "Dave Brown",
+      "license": "CC0 1.0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "Wild dog standing and facing slightly towards the camera in Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lycaon-pictus/kruger-pack.jpg",
+      "view": "herd",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_Wild_Dogs_(Lycaon_pictus)_(51904887356).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/African_Wild_Dogs_%28Lycaon_pictus%29_%2851904887356%29.jpg/1280px-African_Wild_Dogs_%28Lycaon_pictus%29_%2851904887356%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "A pack of wild dogs walking along a road in Kruger National Park",
+      "caption": "Pack walking, H11 west of Skukuza, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lycaon-pictus/kruger-sitting.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_Wild_Dog_(Lycaon_pictus)_(52712847288).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/African_Wild_Dog_%28Lycaon_pictus%29_%2852712847288%29.jpg/1280px-African_Wild_Dog_%28Lycaon_pictus%29_%2852712847288%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Wild dog sitting in short grass, seen from a three-quarter angle, in Kruger National Park",
+      "caption": "Adult sitting, H4-2 north of Crocodile Bridge, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lycaon-pictus/kruger-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_Wild_Dog_(Lycaon_pictus)_on_the_road_(14016253495).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/African_Wild_Dog_%28Lycaon_pictus%29_on_the_road_%2814016253495%29.jpg/1280px-African_Wild_Dog_%28Lycaon_pictus%29_on_the_road_%2814016253495%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Wild dog on a road, seen from behind and slightly to the side, in Kruger National Park",
+      "caption": "Adult, H4-1 before Sabie Bridge, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "African wild dog",
+      "url": "https://en.wikipedia.org/wiki/African_wild_dog",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Lycaon pictus account",
+      "url": "https://animaldiversity.org/accounts/Lycaon_pictus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "African Wild Dog",
+      "url": "https://ewt.org/project/african-wild-dog/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Lycaon pictus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/26.-African-Wild-Dog-Lycaon-pictus_EN.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Secondary source quoting SANParks surveys or estimates."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2024 figure is a Greater Kruger count of adults and yearlings, not a Kruger National Park-only count of mature animals. One source quotes about 250 in 2022; the figures were not averaged. No reusable Kruger recording was found.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "The 2024 estimate is of adults and yearlings in Greater Kruger, not of mature animals in Kruger National Park alone. A calculated mature subset of about 90 is recorded in the notes.",
+    "Sources disagree on the recent total (about 250 in 2022 versus 399 adults and yearlings in 2024).",
+    "No Kruger-specific birth-month range was found beyond the general southern African breeding season of April to July.",
+    "Iris colour, ear colour and underpart colour were not given as named values in the sources used, so those marks are null.",
+    "No reusable Kruger recording found."
+  ]
+}
