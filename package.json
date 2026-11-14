@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Mammals of Kruger National Park, served by a Cloudflare Worker.",
   "scripts": {
-    "test": "node --test",
+    "test": "NODE_OPTIONS='--import ./test/register-raw-client.mjs' node --test",
     "lint": "eslint . && prettier --check \"**/*.{js,mjs}\"",
     "format": "prettier --write \"**/*.{js,mjs}\"",
     "seed": "node scripts/seed.mjs",

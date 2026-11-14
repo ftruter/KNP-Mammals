@@ -23,14 +23,14 @@ test('the payload matches the counts recorded in species-list.json', async () =>
   const index = JSON.parse(
     entries.find((entry) => entry.key === 'index/families').value,
   )
-  assert.deepEqual(index.counts, {
-    species: list.counts.species,
-    families: list.counts.families,
-    orders: list.counts.orders,
-  })
-  const listed = index.orders
-    .flatMap((order) => order.families)
-    .reduce((sum, family) => sum + family.speciesCount, 0)
+  assert.equal(index.counts.species, list.counts.species)
+  assert.equal(index.counts.families, list.counts.families)
+  assert.equal(index.counts.orders, list.counts.orders)
+  assert.equal(index.orders.length, list.counts.orders)
+  const listed = index.families.reduce(
+    (sum, family) => sum + family.speciesCount,
+    0,
+  )
   assert.equal(listed, list.counts.species)
 })
 
@@ -69,6 +69,51 @@ test('bad data stops the run', () => {
   )
   assert.equal(documents.get('species/panthera-leo').details.summary, 'A cat.')
   assert.equal(documents.get('family/felidae').species[0].af, null)
+  assert.equal(documents.get('family/felidae').species[0].researched, true)
+})
+
+test('details gain names for the animals they point at', () => {
+  const families = [
+    { slug: 'felidae', latin: 'Felidae', en: 'Cats', order: 'Carnivora' },
+  ]
+  const cat = (slug, latin, en) => ({ slug, latin, en, familySlug: 'felidae' })
+  const details = new Map([
+    [
+      'panthera-leo',
+      {
+        similar: [{ slug: 'panthera-pardus', note: 'Spotted.' }],
+        predators: [{ slug: null, en: 'Nile crocodile' }, { slug: 'no-such' }],
+        population: { unit: 'individuals', estimate: { low: 1, high: 3 } },
+      },
+    ],
+  ])
+  const documents = deriveDocuments({
+    families,
+    list: {
+      species: [
+        cat('panthera-leo', 'Panthera leo', 'Lion'),
+        cat('panthera-pardus', 'Panthera pardus', 'Leopard'),
+      ],
+    },
+    details,
+  })
+  const lion = documents.get('species/panthera-leo')
+  assert.deepEqual(lion.details.similar, [
+    {
+      slug: 'panthera-pardus',
+      note: 'Spotted.',
+      en: 'Leopard',
+      latin: 'Panthera pardus',
+      listed: true,
+    },
+  ])
+  assert.deepEqual(
+    lion.details.predators.map((item) => item.listed),
+    [false, false],
+  )
+  const rows = documents.get('index/species').species
+  assert.deepEqual(rows[0].population, { low: 1, high: 3 })
+  assert.equal(rows[1].population, null)
 })
 
 test('a publish plan deletes only managed keys that are gone', () => {

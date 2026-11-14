@@ -10,7 +10,10 @@
  *   data/families.json                 → family/<slug>, index/families
  *   data/species-list.json (species)   → species/<slug>, index/species
  *   data/species/details/<slug>.json   → merged into species/<slug> as
- *                                        `details`, when the file exists
+ *                                        `details`, when the file exists.
+ *                                        Its similar, predators and prey
+ *                                        gain names and `listed`. Its Kruger
+ *                                        estimate is copied to the list rows.
  *
  * Only the `species` list is published. `candidates` and `excluded` stay in
  * the repository. A species whose family is not in families.json, a
@@ -56,6 +59,36 @@ const names = ({ slug, latin, en, af }) => ({
   af: af ?? null,
 })
 
+const range = (estimate) =>
+  Number.isFinite(estimate?.low) && Number.isFinite(estimate?.high)
+    ? { low: estimate.low, high: estimate.high }
+    : null
+
+/** The Kruger estimate for a list row, or null when none is recorded. */
+const listPopulation = (detail) =>
+  detail?.population?.unit === 'individuals'
+    ? range(detail.population.estimate)
+    : null
+
+/**
+ * Names for the slugs a details file points at (similar, predators, prey).
+ * `listed` says whether this guide has a page for the animal.
+ */
+const resolveRefs = (items, bySlug) =>
+  (Array.isArray(items) ? items : []).map((item) => {
+    const hit = item?.slug ? bySlug.get(item.slug) : null
+    return hit
+      ? { ...item, en: item.en ?? hit.en, latin: hit.latin, listed: true }
+      : { ...item, listed: false }
+  })
+
+const resolveDetails = (detail, bySlug) => ({
+  ...detail,
+  similar: resolveRefs(detail.similar, bySlug),
+  predators: resolveRefs(detail.predators, bySlug),
+  prey: resolveRefs(detail.prey, bySlug),
+})
+
 /** Builds every KV document from the parsed data files. */
 export const deriveDocuments = ({ families, list, details = new Map() }) => {
   if (!Array.isArray(families)) throw new Error('families.json is not a list')
@@ -70,49 +103,57 @@ export const deriveDocuments = ({ families, list, details = new Map() }) => {
     familyBySlug.set(family.slug, { ...family, species: [] })
   }
 
-  const documents = new Map()
-  const speciesIndex = []
-  const seen = new Set()
+  const speciesBySlug = new Map()
   for (const species of list.species) {
     checkSlug(species.slug, 'species')
-    if (seen.has(species.slug))
+    if (speciesBySlug.has(species.slug))
       throw new Error(`duplicate species ${species.slug}`)
-    seen.add(species.slug)
-    const family = familyBySlug.get(species.familySlug)
-    if (!family)
-      throw new Error(
-        `${species.slug} names family ${species.familySlug}, which is not in families.json`,
-      )
-    family.species.push(names(species))
-    speciesIndex.push({
-      ...names(species),
-      family: family.latin,
-      familySlug: family.slug,
-      order: family.order,
-    })
-    const detail = details.get(species.slug)
-    documents.set(`species/${species.slug}`, {
-      ...species,
-      ...(detail ? { details: detail } : {}),
-    })
+    speciesBySlug.set(species.slug, species)
   }
   for (const slug of details.keys()) {
-    if (!seen.has(slug))
+    if (!speciesBySlug.has(slug))
       throw new Error(
         `data/species/details/${slug}.json has no species in species-list.json`,
       )
   }
 
+  const documents = new Map()
+  const speciesIndex = []
+  for (const species of list.species) {
+    const family = familyBySlug.get(species.familySlug)
+    if (!family)
+      throw new Error(
+        `${species.slug} names family ${species.familySlug}, which is not in families.json`,
+      )
+    const detail = details.get(species.slug)
+    const row = {
+      ...names(species),
+      population: listPopulation(detail),
+      researched: Boolean(detail),
+    }
+    family.species.push(row)
+    speciesIndex.push({
+      ...row,
+      family: family.latin,
+      familyEn: family.en,
+      familySlug: family.slug,
+      order: family.order,
+    })
+    documents.set(`species/${species.slug}`, {
+      ...species,
+      familyEn: family.en,
+      ...(detail ? { details: resolveDetails(detail, speciesBySlug) } : {}),
+    })
+  }
+
+  const familyIndex = []
   const orders = []
   for (const family of familyBySlug.values()) {
     documents.set(`family/${family.slug}`, family)
-    let order = orders.find((entry) => entry.order === family.order)
-    if (!order) {
-      order = { order: family.order, families: [] }
-      orders.push(order)
-    }
-    order.families.push({
+    if (!orders.includes(family.order)) orders.push(family.order)
+    familyIndex.push({
       ...names(family),
+      order: family.order,
       speciesCount: family.species.length,
     })
   }
@@ -122,8 +163,10 @@ export const deriveDocuments = ({ families, list, details = new Map() }) => {
       species: speciesIndex.length,
       families: familyBySlug.size,
       orders: orders.length,
+      researched: speciesIndex.filter((row) => row.researched).length,
     },
     orders,
+    families: familyIndex,
   })
   documents.set('index/species', { species: speciesIndex })
   return documents

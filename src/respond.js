@@ -9,15 +9,19 @@ const SECURITY = {
   'content-language': 'en',
 }
 
-/** No scripts yet. Add script-src 'self' when the first one is served. */
+/**
+ * Photographs and recordings load from their sources over HTTPS until they
+ * are copied to this site. The only script is this site's own /app.js.
+ */
 const PAGE_CSP =
-  "default-src 'none'; style-src 'self'; img-src 'self' https:; base-uri 'none'; form-action 'self'; frame-ancestors 'none'"
+  "default-src 'none'; style-src 'self'; img-src 'self' https:; media-src 'self' https:; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; script-src 'self'"
 
 export const CONTENT_TYPES = {
   html: 'text/html; charset=utf-8',
   md: 'text/markdown; charset=utf-8',
   json: 'application/json; charset=utf-8',
   css: 'text/css; charset=utf-8',
+  js: 'text/javascript; charset=utf-8',
 }
 
 export const jsonBody = (value) => `${JSON.stringify(value, null, 2)}\n`

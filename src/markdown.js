@@ -1,105 +1,200 @@
 import { inlineText, safeHttpUrl } from './escape.js'
-import { SITE_NAME, STATUS_NOTE } from './html.js'
+import {
+  ABOUT,
+  APPROXIMATE_LABEL,
+  SITE_NAME,
+  UNPUBLISHED_SPECIES,
+  progressSentence,
+} from './html.js'
+import {
+  callTypeLabel,
+  conservationLabel,
+  monthsLabel,
+  populationModel,
+  sizeFacts,
+  statusLabel,
+  viewLabel,
+} from './labels.js'
+import {
+  FAMILY_COLUMNS,
+  FAMILY_SPECIES_COLUMNS,
+  SORT_NOTE,
+  SPECIES_COLUMNS,
+  tableMarkdown,
+} from './lists.js'
 
-/** Table cells: one line, with the characters that would break a row escaped. */
-const cell = (value) =>
-  value
-    ? inlineText(value).replaceAll('\\', '\\\\').replaceAll('|', '\\|')
-    : '-'
+const listed = (value) => (Array.isArray(value) ? value : [])
 
-const table = (head, rows) =>
-  [
-    `| ${head.join(' | ')} |`,
-    `| ${head.map(() => '---').join(' | ')} |`,
-    ...rows.map((row) => `| ${row.join(' | ')} |`),
-  ].join('\n')
+const one = (value) => inlineText(value)
 
-const link = (text, href) => `[${cell(text)}](${href})`
+const bullets = (items) => items.map((item) => `- ${item}`).join('\n')
 
-export const homeMarkdown = (doc) => {
-  const { counts, orders } = doc
-  const sections = orders.map(
-    (order) =>
-      `## ${inlineText(order.order)}\n\n${table(
-        ['English', 'Afrikaans', 'Latin', 'Species'],
-        order.families.map((family) => [
-          link(family.en, `/family/${family.slug}.md`),
-          cell(family.af),
-          cell(family.latin),
-          String(family.speciesCount),
-        ]),
-      )}`,
-  )
-  return `# ${SITE_NAME}
+const section = (heading, body) => (body ? `## ${heading}\n\n${body}\n` : '')
 
-${counts.species} species in ${counts.families} families and ${counts.orders} orders. ${STATUS_NOTE}
+export const homeMarkdown = (doc) => `# ${SITE_NAME}
 
-All species: [/species.md](/species.md). Every page also has a \`.json\` view.
+An open field guide to the mammals of Kruger National Park. ${progressSentence(doc.counts)}
 
-${sections.join('\n\n')}
+${ABOUT}
+
+- [Families](/families.md): ${doc.counts.families}
+- [Species](/species.md): ${doc.counts.species}
+
+Every page has a \`.md\` and a \`.json\` view at the same address.
 `
-}
+
+export const familiesMarkdown = (doc) => `# Families
+
+${tableMarkdown({ columns: FAMILY_COLUMNS, rows: doc.families, empty: 'No families are listed.' })}
+
+${SORT_NOTE}
+`
 
 export const speciesListMarkdown = (doc) => `# Species
 
-${doc.species.length} species, in checklist order.
+${tableMarkdown({ columns: SPECIES_COLUMNS, rows: doc.species, empty: 'No species are listed.' })}
 
-${table(
-  ['English', 'Afrikaans', 'Latin', 'Family', 'Order'],
-  doc.species.map((species) => [
-    link(species.en, `/species/${species.slug}.md`),
-    cell(species.af),
-    cell(species.latin),
-    link(species.family, `/family/${species.familySlug}.md`),
-    cell(species.order),
-  ]),
-)}
+The population is the approximate number in Kruger, where an estimate is recorded. ${SORT_NOTE}
 `
 
 export const familyMarkdown = (doc) => {
-  const sources = (Array.isArray(doc.sources) ? doc.sources : [])
-    .map(safeHttpUrl)
+  const sources = listed(doc.sources).map(safeHttpUrl).filter(Boolean)
+  return `# ${one(doc.en)}
+
+- Latin: *${one(doc.latin)}*
+- Afrikaans: ${doc.af ? one(doc.af) : '—'}
+- Order: ${one(doc.order)}
+
+## Species in Kruger
+
+${tableMarkdown({ columns: FAMILY_SPECIES_COLUMNS, rows: listed(doc.species), empty: 'No species are listed for this family.' })}
+
+${section('Sources', bullets(sources.map((href) => `<${href}>`)))}`
+}
+
+const sourceLine = (source) => {
+  const url = safeHttpUrl(source?.url)
+  const title = one(source?.title || 'Untitled source')
+  return [
+    url ? `[${title}](${url})` : title,
+    source?.publisher ? one(source.publisher) : '',
+    source?.year ? String(source.year) : '',
+  ]
     .filter(Boolean)
-  return `# ${inlineText(doc.en)}
-
-- Latin: ${inlineText(doc.latin)}
-- Afrikaans: ${cell(doc.af)}
-- Order: ${inlineText(doc.order)}
-
-## Species
-
-${table(
-  ['English', 'Afrikaans', 'Latin'],
-  doc.species.map((species) => [
-    link(species.en, `/species/${species.slug}.md`),
-    cell(species.af),
-    cell(species.latin),
-  ]),
-)}
-${sources.length > 0 ? `\n## Sources\n\n${sources.map((href) => `- <${href}>`).join('\n')}\n` : ''}`
+    .join('. ')
 }
 
-export const speciesMarkdown = (doc) => {
+const animal = (item) => {
+  const label = one(item?.en || item?.latin || item?.slug || 'Unnamed')
+  const link =
+    item?.listed && item.slug ? `[${label}](/species/${item.slug}.md)` : label
+  return item?.note ? `${link}. ${one(item.note)}` : link
+}
+
+const imageLine = (image) => {
+  const what = [viewLabel(image?.view), image?.caption]
+    .filter(Boolean)
+    .map(one)
+    .join('. ')
+  const source = safeHttpUrl(image?.source)
+  const credit = [
+    image?.author ? one(image.author) : 'author not recorded',
+    image?.license ? one(image.license) : 'licence not recorded',
+  ].join(', ')
+  return `${what} Credit: ${credit}${source ? `. [Source](${source})` : ''}`
+}
+
+const callLine = (call) => {
+  const files = listed(call?.recordings)
+    .map((recording) => safeHttpUrl(recording?.source))
+    .filter(Boolean)
+    .map((href) => `[recording](${href})`)
+  return `**${callTypeLabel(call?.type)}.** ${one(call?.description || '')}${files.length ? ` ${files.join(', ')}` : ''}`
+}
+
+const publishedSpecies = (doc, details) => {
+  const population = populationModel(details.population)
+  const facts = [
+    ['Status', statusLabel(details.status)],
+    ['Months in Kruger', monthsLabel(details.monthsPresent)],
+    ['Conservation status', conservationLabel(details.conservationStatus)],
+    ...sizeFacts(details.size),
+    ['Habitat', details.habitat ? one(details.habitat) : ''],
+  ].filter(([, value]) => value)
+  const predators = listed(details.predators).map(animal)
+  const prey = listed(details.prey).map(animal)
+  return [
+    `${one(details.summary || '')}\n`,
+    `${bullets(facts.map(([label, value]) => `${label}: ${value}`))}\n`,
+    section(
+      'Population',
+      [
+        `${APPROXIMATE_LABEL}: ${population.range || 'no numeric estimate yet'}. Trend: ${population.trend}.`,
+        population.notes ? one(population.notes) : '',
+        population.asOf ? `As of ${population.asOf}.` : '',
+        bullets(population.sources.map(sourceLine)),
+      ]
+        .filter(Boolean)
+        .join('\n\n'),
+    ),
+    section('Description', one(details.description || '')),
+    section(
+      'What to look for',
+      bullets(
+        listed(details.viewNotes).map(
+          (note) => `**${viewLabel(note?.view)}.** ${one(note?.note || '')}`,
+        ),
+      ),
+    ),
+    section('Habits', one(details.habits || '')),
+    section('Diet', one(details.diet?.summary || '')),
+    section('Young', one(details.young || '')),
+    section('Predators', bullets(predators)),
+    section('Prey', bullets(prey)),
+    section('Calls', bullets(listed(details.calls).map(callLine))),
+    section('Similar species', bullets(listed(details.similar).map(animal))),
+    section('Photographs', bullets(listed(details.images).map(imageLine))),
+    section('Not yet recorded', bullets(listed(details.gaps).map(one))),
+    section('Sources', bullets(listed(details.sources).map(sourceLine))),
+  ]
+    .filter(Boolean)
+    .join('\n')
+}
+
+const unpublishedSpecies = (doc) => {
   const evidence = doc.inclusionEvidence || {}
-  const notes = Array.isArray(doc.notes) ? doc.notes : []
-  const summary =
-    typeof doc.details?.summary === 'string'
-      ? inlineText(doc.details.summary)
-      : STATUS_NOTE
-  return `# ${inlineText(doc.en)}
-
-${summary}
-
-- Latin: ${inlineText(doc.latin)}
-- Afrikaans: ${cell(doc.af)}
-- Family: ${link(doc.family, `/family/${doc.familySlug}.md`)}
-- Order: ${inlineText(doc.order)}
-- SANParks 2011 checklist: ${evidence.sanparks2011 === true ? 'listed' : evidence.sanparks2011 === false ? 'not listed' : 'not recorded'}
-- iNaturalist research-grade records in the park: ${Number.isInteger(evidence.inatResearchGrade) ? evidence.inatResearchGrade : 'not recorded'}
-${notes.length > 0 ? `\n## Research notes\n\n${notes.map((note) => `- ${inlineText(note)}`).join('\n')}\n` : ''}`
+  const facts = [
+    evidence.sanparks2011 === true ? 'SANParks 2011 checklist: listed' : '',
+    evidence.sanparks2011 === false
+      ? 'SANParks 2011 checklist: not listed'
+      : '',
+    Number.isInteger(evidence.inatResearchGrade)
+      ? `iNaturalist research-grade records in the park: ${evidence.inatResearchGrade}`
+      : '',
+  ].filter(Boolean)
+  return [
+    `${UNPUBLISHED_SPECIES}\n`,
+    facts.length ? `${bullets(facts)}\n` : '',
+    section('Research notes', bullets(listed(doc.notes).map(one))),
+  ]
+    .filter(Boolean)
+    .join('\n')
 }
+
+export const speciesMarkdown = (doc) => `# ${one(doc.en)}
+
+- Latin: *${one(doc.latin)}*
+- Afrikaans: ${doc.af ? one(doc.af) : '—'}
+- Family: [${one(doc.familyEn || doc.family)}](/family/${doc.familySlug}.md)
+- Order: ${one(doc.order)}
+
+${doc.details ? publishedSpecies(doc, doc.details) : unpublishedSpecies(doc)}`
 
 export const notFoundMarkdown = () => `# Not found
 
-There is no page at this address. Families: [/.md](/.md). Species: [/species.md](/species.md).
+No page is published at this address.
+
+- [Home](/.md)
+- [Families](/families.md)
+- [Species](/species.md)
 `
