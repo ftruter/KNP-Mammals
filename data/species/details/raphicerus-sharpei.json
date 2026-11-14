@@ -1,0 +1,412 @@
+{
+  "kind": "species",
+  "slug": "raphicerus-sharpei",
+  "scientificName": "Raphicerus sharpei",
+  "commonNames": {
+    "en": "Sharpe's grysbok",
+    "af": "Sharpe se grysbok"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42374,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho (unchanged from 2016)",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Sharpe's Grysbok",
+        "url": "https://ewt.org/project/sharpes-grysbok/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Raphicerus sharpei",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/24.-Sharpes-Grysbok-Raphicerus-sharpei_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Sharpe's grysbok",
+        "url": "https://en.wikipedia.org/wiki/Sharpe's_grysbok",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites IUCN SSC Antelope Specialist Group (2016), Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 45,
+      "max": 60
+    },
+    "headBodyLengthCm": {
+      "min": 65,
+      "max": 75
+    },
+    "tailCm": {
+      "min": 4,
+      "max": 8
+    },
+    "massKg": {
+      "min": 7,
+      "max": 16
+    },
+    "note": "Shoulder height is given as 45–60 cm in one compilation and 45–55 cm in another; mass as 7–11.5 kg and 7–16 kg. Both accounts are recorded and are not averaged, and the wider published ranges are stored. Head-and-body length 65–75 cm and tail 4–8 cm follow Animal Diversity Web. That account also says females are slightly larger than males, but no sexed ranges were given, so mass and height are stored unsexed. Male horns are about 5 cm, with the longest on record 10.48 cm (same account)."
+  },
+  "summary": "A small, shy, solitary antelope of thickets and mopane woodland. The coat is rufous to reddish-brown, streaked or speckled with white, and shaggy over the hindquarters. Only males have short, widely spaced horns. In Kruger it is resident and most plentiful between the Olifants and Limpopo Rivers, but it is easily overlooked.",
+  "description": "Sharpe's grysbok is stockier than a steenbok or a common duiker, with a short neck and a high-rumped posture when browsing. The upperparts are rufous to reddish-brown, broken with white speckles that give a grizzled look, and the fur is shaggy over the hindquarters. The sides of the face, forehead and upper muzzle, and the outer limbs, are yellowish-brown. A whitish ring around the eye continues as a line down the side of the muzzle to the nose. The muzzle, throat, belly, and the insides of the legs and ears are off-white or buffy-white. Only males carry horns: short, stubby and widely spaced, about 5 cm long. Accounts disagree on false hooves (the small dewclaws above the fetlock): one says they are absent, as in the steenbok; another says they are sometimes present but more often not.",
+  "habitat": "In Kruger the species is most plentiful between the Olifants and Limpopo Rivers in mopane woodland, and it also occurs south along the Lebombo range. It uses scrub, thickets, riverine cover and the broken, stony lower slopes of ridges and koppies, and it avoids stands of tall grass. In the Kingfisherspruit section it is seen mostly north of the Timbavati River in mopane–Combretum veld.",
+  "habits": "Sharpe's grysbok is predominantly nocturnal and usually solitary, though pairs, or a female with a youngster, may be seen. Animals rest by day in tall grass or thickets. They are territorial and mark with dung middens and with pre-orbital gland secretions on sticks near a communal latrine. When alarmed they may first lie flat with the head and neck stretched out; if they flush they stay low and bound away with short stamping hops, and they move well away before stopping, rather than pausing to look back as a steenbok often does. They are also reported to take refuge in aardvark burrows.",
+  "diet": {
+    "summary": "Predominantly a browser, with browse making up about 70% of the stomach contents in one study from southeastern Zimbabwe, and grazed grass about 30% of the diet in another compiled account. It feeds on leaves, buds, herbs and fruit, and it unearths roots and tubers with its hooves. It does not need free water, but will drink when water is available.",
+    "items": [
+      "leaves, buds and herbs",
+      "fruit",
+      "grass",
+      "roots and tubers"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "Breeding can occur throughout the year, with most records showing a peak in November and December, timed to the start of the rains in southern Africa. Gestation is about 180 days (168–210 days). One compilation gives a litter of one or two young; another describes the usual association as a female with a single offspring. Young are weaned at about three months and reach sexual maturity at 6–19 months. A sourced description of the calf's coat was not found, and Kruger-specific birth months, beyond this southern-African pattern, were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "caracal-caracal",
+      "en": "Caracal"
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal"
+    },
+    {
+      "slug": "lupulella-adusta",
+      "en": "Side-striped jackal"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "parahyaena-brunnea",
+      "en": "Brown hyaena"
+    },
+    {
+      "slug": null,
+      "en": "Birds of prey",
+      "note": "Hawks, eagles and owls (Falconiformes and Strigiformes), as listed in one compilation. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Humans",
+      "note": "Listed as a predator in one compilation."
+    }
+  ],
+  "prey": [],
+  "similar": [
+    {
+      "slug": "raphicerus-campestris",
+      "note": "Sharpe's grysbok has a rufous to reddish-brown coat streaked or speckled with white, shaggy fur over the hindquarters, and a high-rumped posture when browsing. Only males have short, widely spaced horns. When flushed it moves well away with short stamping hops and does not stop to look back, unlike the steenbok. Accounts disagree on whether false hooves are always absent or only usually so."
+    },
+    {
+      "slug": "sylvicapra-grimmia",
+      "note": "Sharpe's grysbok is similar in size to the common duiker but stockier, with shaggy, white-flecked fur over the hindquarters and a short tail."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. One source claims a low-density but stable subpopulation trend in Kruger and adjacent conservancies over three generations (1999 to 2013), and that Kruger is the regional stronghold, with animals most plentiful between the Olifants and Limpopo Rivers. Regional totals (5,814–13,565 mature individuals in protected areas of the assessment region) and a global estimate of about 95,000 are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Sharpe's Grysbok",
+        "url": "https://ewt.org/project/sharpes-grysbok/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Raphicerus sharpei",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/24.-Sharpes-Grysbok-Raphicerus-sharpei_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "stubby and widely spaced, about 5 cm (longest on record 10.48 cm)"
+        },
+        "ears": {
+          "colour": "buffy-white on the inside",
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": "whitish, continuing as a line down the side of the muzzle"
+        },
+        "head": {
+          "face": "sides of the face, forehead and upper muzzle yellowish-brown; a whitish line from the eye-ring to the nose",
+          "muzzle": "off-white, with an off-white throat",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "rufous",
+            "reddish-brown"
+          ],
+          "pattern": "streaked or speckled with white, giving a grizzled appearance; shaggy over the hindquarters"
+        },
+        "underparts": {
+          "colour": "buffy-white to off-white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "yellowish-brown on the outer parts, buffy-white on the inside"
+        },
+        "tail": {
+          "colour": null,
+          "shape": "short, 4–8 cm"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "buffy-white on the inside",
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": "whitish, continuing as a line down the side of the muzzle"
+        },
+        "head": {
+          "face": "sides of the face, forehead and upper muzzle yellowish-brown; a whitish line from the eye-ring to the nose",
+          "muzzle": "off-white, with an off-white throat",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "rufous",
+            "reddish-brown"
+          ],
+          "pattern": "streaked or speckled with white, giving a grizzled appearance; shaggy over the hindquarters"
+        },
+        "underparts": {
+          "colour": "buffy-white to off-white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "yellowish-brown on the outer parts, buffy-white on the inside"
+        },
+        "tail": {
+          "colour": null,
+          "shape": "short, 4–8 cm"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A stocky build with shaggy, white-flecked fur on the hindquarters, and a high-rumped posture when browsing. Only the male shows short, widely spaced horns."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The hindquarters are shaggy and grizzled with white, and the tail is short."
+    }
+  ],
+  "calls": [],
+  "images": [
+    {
+      "key": "raphicerus-sharpei/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Sharpe's_Grysbok_(Raphicerus_sharpei)_male_(11838584075).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_male_%2811838584075%29.jpg/1280px-Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_male_%2811838584075%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male Sharpe's grysbok standing in tall green grass, showing short horns and a white-flecked reddish-brown coat, Kruger National Park",
+      "caption": "Adult male, Mahonie Loop near Punda Maria, Kruger National Park."
+    },
+    {
+      "key": "raphicerus-sharpei/kruger-female-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Sharpe's_Grysbok_(Raphicerus_sharpei)_female_(11802609134).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_%2811802609134%29.jpg/1280px-Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_%2811802609134%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female Sharpe's grysbok seen from behind, showing shaggy white-flecked hindquarters and a short tail, Kruger National Park",
+      "caption": "Adult female, Mahonie Loop near Punda Maria, Kruger National Park."
+    },
+    {
+      "key": "raphicerus-sharpei/kruger-female-hidden.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Sharpe's_Grysbok_(Raphicerus_sharpei)_female_hidden_in_the_grass_..._(50858111448).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_hidden_in_the_grass_..._%2850858111448%29.jpg/1280px-Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_hidden_in_the_grass_..._%2850858111448%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female Sharpe's grysbok hidden in tall grass, Kruger National Park",
+      "caption": "Adult female hidden in grass, Mahonie Loop north of Punda Maria, Kruger National Park."
+    },
+    {
+      "key": "raphicerus-sharpei/kruger-female-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Sharpe's_Grysbok_(Raphicerus_sharpei)_female_(11712561733).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_%2811712561733%29.jpg/1280px-Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_%2811712561733%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female Sharpe's grysbok in woodland, showing a reddish coat speckled with white, Kruger National Park",
+      "caption": "Adult female, S58 road east of Punda Maria, Kruger National Park."
+    },
+    {
+      "key": "raphicerus-sharpei/kruger-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Sharpe_Grysbok.png",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Sharpe_Grysbok.png/1280px-Sharpe_Grysbok.png",
+      "author": "Michaelphillipr",
+      "license": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult Sharpe's grysbok facing the camera in dry grass, showing a pale muzzle, ear linings and a grizzled coat, Kruger National Park",
+      "caption": "Adult female (no horns visible), Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sharpe's grysbok",
+      "url": "https://en.wikipedia.org/wiki/Sharpe's_grysbok",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Raphicerus sharpei: Sharpe's grysbok",
+      "url": "https://animaldiversity.org/accounts/Raphicerus_sharpei/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Sharpe's Grysbok",
+      "url": "https://ewt.org/project/sharpes-grysbok/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Raphicerus sharpei",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/24.-Sharpes-Grysbok-Raphicerus-sharpei_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Raphicerus sharpei",
+      "url": "https://www.inaturalist.org/taxa/42374-Raphicerus-sharpei",
+      "publisher": "iNaturalist",
+      "year": null
+    }
+  ],
+  "gaps": [
+    "No Kruger population figure was found. Regional totals (5,814–13,565 mature individuals in protected areas) and a global estimate of about 95,000 are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Sources disagree on shoulder height (45–60 cm versus 45–55 cm), mass (7–11.5 kg versus 7–16 kg), whether false hooves are absent or only usually so, and litter size (one or two young versus a female with a single offspring); both accounts are recorded and are not averaged.",
+    "No sexed shoulder-height or mass split was found, so those fields are stored only as unsexed ranges. Horn colour, iris colour, ear shape, tail colour, and a sourced mane were not given, so those marks are null. Calf coat marks were not found, so no calf variant was added.",
+    "iNaturalist has 0 sound observations for Raphicerus sharpei in place 69020. No reusable Kruger recording was found, and a sourced description of the call was not found, so the calls list is empty.",
+    "Kruger-specific birth months, beyond the general southern-African peak in November and December, were not found.",
+    "Skinner & Chimimba and Stuart's field guide were not available as direct reads. Kruger habitat and occurrence notes from those works are taken as cited on the 2025 EWT page. Size, diet, habits, young and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Size, false-hoof and litter-size figures disagree between compiled accounts and are not averaged. A sourced description of the call was not found. Habitat in Kruger follows the 2025 EWT assessment.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  }
+}

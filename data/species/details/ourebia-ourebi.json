@@ -1,0 +1,414 @@
+{
+    "kind": "species",
+    "slug": "ourebia-ourebi",
+    "scientificName": "Ourebia ourebi",
+    "commonNames": {
+        "en": "Oribi",
+        "af": "Oorbietjie"
+    },
+    "family": "bovidae",
+    "inatTaxonId": 42380,
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Endangered",
+        "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Endangered, declining). IUCN global status is Least Concern (2016).",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "Oribi",
+                "url": "https://ewt.org/project/oribi/",
+                "publisher": "Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "2025 regional assessment: Endangered C2a(i); regional trend declining; no change from 2016. Afrikaans name Oorbietjie."
+            },
+            {
+                "title": "A conservation assessment of Ourebia ourebi ourebi",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/18.-Oribi-Ourebia-ourebi_EN.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Cited only; the PDF is not hosted in this repo. Regional status Endangered; global IUCN status Least Concern (2016)."
+            },
+            {
+                "title": "Oribi",
+                "url": "https://en.wikipedia.org/wiki/Oribi",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites the 2016 IUCN SSC Antelope Specialist Group assessment of Least Concern, with a 2008 global estimate of about 750,000 animals."
+            }
+        ]
+    },
+    "size": {
+        "shoulderHeightCm": {
+            "min": 50,
+            "max": 67
+        },
+        "headBodyLengthCm": {
+            "min": 92,
+            "max": 110
+        },
+        "massKg": {
+            "min": 12,
+            "max": 22
+        },
+        "note": "Shoulder height is given as 50\u201367 cm in one compilation and 50\u201366 cm in another; both are recorded and are not averaged, and the wider published range is stored. Head-and-body length 92\u2013110 cm and mass 12\u201322 kg are given in both accounts. Male horn length is given as 8\u201318 cm in one compilation (with a recorded maximum of 19.1 cm from Malawi) and 8\u201319 cm in another. No tail length was found. Males are described as slightly smaller than females, except in O. o. ourebi, in which females are smaller."
+    },
+    "summary": "A small, slender antelope with a glossy yellowish to rufous-brown coat, white underparts and rump, a short dark tail and a white stripe over each eye. Only males have thin, straight horns. It lives in open grassland with a mix of short and tall grass, and is listed as Endangered in the region.",
+    "description": "A small, long-legged antelope with a slightly raised back and a long neck. The glossy coat is yellowish to rufous brown; the southern subspecies O. o. ourebi is described as a rich rufous. The chin, throat, underparts and rump are white, and a white line of fur runs over each eye. A bare dark patch lies beneath each ear, and there is a tuft of long hair on each knee. The bushy tail is brown to black on the outside with a white underside in most subspecies (one compilation simply calls it a short black tail). Only males have horns: thin and straight, ringed at the base and smooth at the tips, with published lengths of 8\u201318 cm or 8\u201319 cm. Prominent preorbital glands appear as vertical folds on the side of the face. Females have four teats and no horns.",
+    "habits": "Active mainly by day, with some activity also observed at night, and it rests in cover during rain. It lives alone, in pairs, or in small groups; one account gives herds of up to four, another up to six. Males defend a territory of 25\u2013100 ha and mark vegetation and soil with preorbital-gland secretions, urine and dung; all animals may gather at temporary dung middens. Unlike other small antelopes, oribi may be polyandrous, polygynous or polygynandrous, depending on the habitat. Recently burnt grassland often attracts groups. Sources disagree on some social details, and both accounts are kept.",
+    "diet": {
+        "summary": "Primarily a grazer that prefers fresh grasses, which can make up as much as 90% of the diet, and browses more when fresh grass is scarce. Preferred grasses include Andropogon, Eulalia, Hyparrhenia, Loudetia, Pennisetum and Themeda. It also visits mineral licks, and has been seen feeding on flowers and Boletus mushrooms.",
+        "items": [
+            "fresh grasses (Andropogon, Eulalia, Hyparrhenia, Loudetia, Pennisetum, Themeda)",
+            "browse",
+            "flowers",
+            "Boletus mushrooms",
+            "mineral licks"
+        ],
+        "guild": "herbivore"
+    },
+    "young": "A single calf is born after a gestation of six to seven months. In southern Africa, births are described as peaking from November to December in one compilation; another gives a breeding peak in October and November and says mating can occur year-round. Mating may also peak in the rainy season (August to September). The newborn is kept in concealment for nearly a month, and the mother returns to suckle it. Weaning is at four to five months. One account says both sexes mature at 10\u201314 months; another gives about 10 months for females and 14 months for males. Those disagreements are recorded and are not averaged. A Kruger-specific birth-month range was not found.",
+    "predators": [
+        {
+            "slug": "panthera-pardus",
+            "en": "Leopard"
+        },
+        {
+            "slug": "caracal-caracal",
+            "en": "Caracal"
+        },
+        {
+            "slug": "lupulella-mesomelas",
+            "en": "Black-backed jackal"
+        },
+        {
+            "slug": "lupulella-adusta",
+            "en": "Side-striped jackal"
+        },
+        {
+            "slug": "mellivora-capensis",
+            "en": "Honey badger"
+        },
+        {
+            "slug": "papio-ursinus",
+            "en": "Chacma Baboon"
+        },
+        {
+            "slug": "felis-lybica",
+            "en": "African wild cat",
+            "note": "One source names the Libyan wildcat among predators of young oribi."
+        },
+        {
+            "slug": null,
+            "en": "Python",
+            "note": "Named as a predator; not a mammal in this guide."
+        },
+        {
+            "slug": null,
+            "en": "Eagles",
+            "note": "Named as predators of young oribi; not mammals in this guide."
+        },
+        {
+            "slug": null,
+            "en": "Monitors",
+            "note": "Named as predators of young oribi; not mammals in this guide."
+        }
+    ],
+    "prey": [],
+    "habitat": "Open grassland, floodplains and savanna woodland with a mosaic of short grass for feeding and taller grass for cover, including recently burnt ground; steep slopes are avoided. In South Africa it occurs mainly in grasslands of Mpumalanga, the Eastern Cape and KwaZulu-Natal, and also in the southern and northeastern Free State and southern Limpopo. A Kruger-specific habitat account was not found.",
+    "similar": [
+        {
+            "slug": "raphicerus-campestris",
+            "note": "The oribi is larger, with a longer neck, a short dark tail that is white underneath in most accounts, a bare dark patch below each ear, a white stripe over the eye, and a tuft of hair on each knee. Only male oribi have thin, straight horns."
+        },
+        {
+            "slug": "raphicerus-sharpei",
+            "note": "Sharpe's grysbok is a smaller antelope. The oribi has a glossy yellowish to rufous coat with clear white underparts and rump, a short dark tail, and a white stripe over the eye."
+        },
+        {
+            "slug": "pelea-capreolus",
+            "note": "Grey rhebok is a greyer antelope. The oribi is yellowish to rufous brown with white underparts and rump and a short dark tail."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger population figure was found. The species is on the official 2011 checklist. One source claims a number of oribi were moved from the Badplaas area to an enclosure at Pretoriuskop, with limited success. The 2025 regional assessment does not mention Kruger; it gives a regional minimum of 3,098 individuals in 2013\u20132015 (1,859\u20132,169 mature individuals) and a declining regional trend. Those regional totals, and a global estimate of about 750,000 animals from 2008, are not a park census. Regional Red List status is Endangered. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "A more accurate figure may be available here. Cited, not hosted."
+            },
+            {
+                "title": "Oribi",
+                "url": "https://ewt.org/project/oribi/",
+                "publisher": "Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional totals and trend; the assessment does not mention Kruger."
+            },
+            {
+                "title": "Reintroducing Species into the Kruger National Park",
+                "url": "https://southafrica.co.za/reintroducing-species-kruger-national-park.html",
+                "publisher": "southafrica.co.za",
+                "year": null,
+                "note": "One source claims oribi were moved from the Badplaas area to an enclosure at Pretoriuskop, with limited success."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "male",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": "thin, straight, ringed at the base and smooth at the tips; published lengths 8\u201318 cm in one compilation (maximum 19.1 cm from Malawi) and 8\u201319 cm in another"
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": "a bare dark patch beneath each ear"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "chin and throat white; a white line of fur over each eye; prominent preorbital glands appearing as vertical folds on the side of the face",
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": [
+                        "yellowish-brown",
+                        "rufous-brown"
+                    ],
+                    "pattern": "glossy coat; the southern subspecies O. o. ourebi is described as a rich rufous"
+                },
+                "underparts": {
+                    "colour": "white",
+                    "pattern": "rump also white"
+                },
+                "legs": {
+                    "colour": "a tuft of long hair on each knee; the legs themselves are long, but a named ground colour was not given"
+                },
+                "tail": {
+                    "colour": [
+                        "brown",
+                        "black"
+                    ],
+                    "shape": "bushy and short; brown to black on the outside with white insides in one compilation, and simply a short black tail in another"
+                }
+            }
+        },
+        {
+            "age": "adult",
+            "sex": "female",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": "a bare dark patch beneath each ear"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "chin and throat white; a white line of fur over each eye; prominent preorbital glands appearing as vertical folds on the side of the face",
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": [
+                        "yellowish-brown",
+                        "rufous-brown"
+                    ],
+                    "pattern": "glossy coat; the southern subspecies O. o. ourebi is described as a rich rufous"
+                },
+                "underparts": {
+                    "colour": "white",
+                    "pattern": "rump also white"
+                },
+                "legs": {
+                    "colour": "a tuft of long hair on each knee; the legs themselves are long, but a named ground colour was not given"
+                },
+                "tail": {
+                    "colour": [
+                        "brown",
+                        "black"
+                    ],
+                    "shape": "bushy and short; brown to black on the outside with white insides in one compilation, and simply a short black tail in another"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A slender build with a long neck and long legs, a slightly raised back, a yellowish to rufous coat, white underparts and rump, and a short dark tail. A white stripe sits over each eye, and a bare dark patch lies below each ear."
+        },
+        {
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "male",
+            "season": "any",
+            "note": "Thin, straight horns, a white stripe over each eye, and prominent preorbital glands on the side of the face."
+        }
+    ],
+    "calls": [
+        {
+            "sex": "any",
+            "type": "alarm",
+            "description": "Animals at least three months old may give one to three alarm whistles on sensing danger. The whistles are more common in adults than in juveniles, and males appear to whistle more.",
+            "recordings": []
+        }
+    ],
+    "images": [
+        {
+            "key": "ourebia-ourebi/umngeni-standing-front-male.jpg",
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "male",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/367529896",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/671191961/large.jpg",
+            "author": "Dylan Leonard",
+            "license": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Adult male oribi facing the camera in dry grass, showing thin straight horns, a rufous-brown coat, a white stripe over the eye and a dark patch below the ear",
+            "caption": "Adult male, uMngeni Local Municipality, KwaZulu-Natal, South Africa."
+        },
+        {
+            "key": "ourebia-ourebi/nkangala-standing-side-female.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "female",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/284777585",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/511828769/large.jpg",
+            "author": "Phillip Nieuwoudt",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Adult female oribi standing in green grass, showing a rufous-brown coat, white underparts, a white stripe over the eye and no horns",
+            "caption": "Adult female, Nkangala District Municipality, Mpumalanga, South Africa."
+        },
+        {
+            "key": "ourebia-ourebi/mpofana-standing-side-male.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "male",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/308944432",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/557440382/large.jpg",
+            "author": "jeffreyleroux",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Adult male oribi standing in profile in open grassland, showing a rufous coat, white rump and a short dark tail",
+            "caption": "Adult male, Mpofana Local Municipality, KwaZulu-Natal, South Africa."
+        },
+        {
+            "key": "ourebia-ourebi/cacadu-herd-adults.jpg",
+            "view": "herd",
+            "age": "adult",
+            "sex": "mixed",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/404117048",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/742080633/large.jpg",
+            "author": "Henry de Lange",
+            "license": "CC BY 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Two adult oribi standing in short green grass, showing rufous-brown coats and white underparts",
+            "caption": "Adults, Cacadu, Eastern Cape, South Africa."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Oribi",
+            "url": "https://ewt.org/project/oribi/",
+            "publisher": "Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Afrikaans name Oorbietjie; regional status, range in South Africa, and regional population totals. Does not mention Kruger."
+        },
+        {
+            "title": "A conservation assessment of Ourebia ourebi ourebi",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/18.-Oribi-Ourebia-ourebi_EN.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited only; the PDF is not hosted in this repo."
+        },
+        {
+            "title": "Oribi",
+            "url": "https://en.wikipedia.org/wiki/Oribi",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Ourebia ourebi: oribi",
+            "url": "https://animaldiversity.org/accounts/Ourebia_ourebi/",
+            "publisher": "Animal Diversity Web",
+            "year": null
+        },
+        {
+            "title": "Reintroducing Species into the Kruger National Park",
+            "url": "https://southafrica.co.za/reintroducing-species-kruger-national-park.html",
+            "publisher": "southafrica.co.za",
+            "year": null,
+            "note": "One source claims oribi were moved from the Badplaas area to an enclosure at Pretoriuskop, with limited success."
+        },
+        {
+            "title": "iNaturalist taxon Ourebia ourebi",
+            "url": "https://www.inaturalist.org/taxa/42380",
+            "publisher": "iNaturalist",
+            "year": 2026
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "The official 2011 checklist includes this species, but the 2025 regional assessment does not mention Kruger, and no Kruger census figure was found. One source claims a translocation from Badplaas to an enclosure at Pretoriuskop, with limited success. Status and monthsPresent are omitted rather than guessed. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Sources disagree on shoulder height, horn length, tail colour, group size and the timing of breeding; both accounts are kept and are not averaged. No licensable Kruger photograph or recording was found; the four photographs used are from Mpumalanga, KwaZulu-Natal and the Eastern Cape and are captioned with those places.",
+        "researched": "15 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger population figure was found. Regional totals (a 2013\u20132015 minimum of 3,098 individuals, or 1,859\u20132,169 mature individuals) and a 2008 global estimate of about 750,000 are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "Recent status in Kruger is unclear. The species is on the official 2011 checklist. One source claims oribi were moved from the Badplaas area to an enclosure at Pretoriuskop, with limited success. The 2025 regional assessment does not mention Kruger. iNaturalist has 1 casual observation in place 69020 (2002, no photograph) and 0 research-grade records. Status and monthsPresent are omitted rather than guessed.",
+        "Sources disagree on shoulder height (50\u201367 cm versus 50\u201366 cm), male horn length (8\u201318 cm versus 8\u201319 cm), tail colour (brown to black with a white underside versus a short black tail), group size (up to four versus up to six), and breeding peak (births November\u2013December in southern Africa versus a peak in October\u2013November, with maturity at 10\u201314 months versus 10 months in females and 14 months for males); both accounts are recorded and are not averaged.",
+        "No tail length or sexed shoulder-height or mass split was found, so those fields are omitted or stored only as unsexed ranges.",
+        "No licensable Kruger photograph was found. A Commons search for Ourebia ourebi in Kruger returned 0 hits. iNaturalist has 0 observations with photos in place 69020. The four photographs used are from Mpumalanga, KwaZulu-Natal and the Eastern Cape.",
+        "iNaturalist has 0 sound observations for Ourebia ourebi in place 69020. No reusable Kruger recording was found. Call types are limited to the alarm whistle described in compiled accounts.",
+        "Iris colour, ear colour, horn colour, a named leg ground colour, and a sourced mane were not given in the sources used, so those marks are null. Calf coat marks were not found, so no calf variant was added.",
+        "No Kruger-specific habitat account or birth-month range was found.",
+        "Skinner & Chimimba and Stuart's field guide were not available as direct reads. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
+    ]
+}

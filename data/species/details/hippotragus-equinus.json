@@ -1,0 +1,512 @@
+{
+  "kind": "species",
+  "slug": "hippotragus-equinus",
+  "scientificName": "Hippotragus equinus",
+  "commonNames": {
+    "en": "Roan",
+    "af": "Bastergemsbok"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42332,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Vulnerable",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho. Wikipedia reports a global IUCN assessment (2017) of Least Concern.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Roan Antelope",
+        "url": "https://ewt.org/project/roan-antelope/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Vulnerable (downlisted from Endangered); regional trend declining. Kruger subpopulation described as having stabilised after a 1986–1993 crash."
+      },
+      {
+        "title": "Roan antelope",
+        "url": "https://en.wikipedia.org/wiki/Roan_antelope",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Speciesbox cites a 2017 IUCN SSC Antelope Specialist Group assessment of Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 135,
+      "max": 160
+    },
+    "headBodyLengthCm": {
+      "min": 235,
+      "max": 285
+    },
+    "tailCm": {
+      "min": 37,
+      "max": 48
+    },
+    "massKg": {
+      "male": {
+        "min": 242,
+        "max": 300
+      },
+      "female": {
+        "min": 223,
+        "max": 280
+      }
+    },
+    "note": "Structured shoulder height (135–160 cm) and head-and-body length (typically 235–285 cm) follow the Kingdon et al. (2013) figures quoted in Wikipedia's description; that account also gives an unsplit mass of 230–320 kg and a tail of up to 54 cm. Wikipedia's lead, citing other sources, disagrees: shoulder height around 130–140 cm, head-and-body length 190–240 cm, tail 37–48 cm, males 242–300 kg and females 223–280 kg. The sex-split mass and the tail range used here follow that lead. Animal Diversity Web gives males 150–160 cm and females 140–160 cm at the shoulder, and males 260–300 kg and females 225–275 kg. These disagreements are recorded, not averaged. Horns reach up to 100 cm in males and are slightly shorter in females."
+  },
+  "summary": "A large, horse-like antelope of wooded savanna, with a roan or grey-brown coat, a dark face mask, long tufted ears, and ringed, backswept horns in both sexes. It is one of Kruger's scarcest antelope, reduced to a small subpopulation after a sharp decline in the late twentieth century. The official English name on the 2011 checklist is Roan.",
+  "description": "The coat is roan to grey-brown or amber, often with a reddish tinge, and the underparts are paler, yellow to white. The face is dark, with a black mask around the eyes and on the bridge of the snout and white patches around the eyes and the mouth; the mask is described as somewhat lighter in females. The ears are long, narrow and donkey-like, with dark-brown tufts 3–5 cm long at the tips. A short, erect mane runs from the back of the neck to the withers, and a light shaggy neckbeard is more pronounced in males. The legs are darker than the body, and the tail is dark with a black tuft. Both sexes have ringed, scimitar-shaped horns that arch backward, up to 100 cm in males and slightly shorter in females. Young animals are much lighter and reddish-brown. The official checklist name is Roan; iNaturalist prefers Roan Antelope.",
+  "habits": "Lives in small harem herds, typically of about 5 to 15 animals (sometimes up to 35), with one dominant male and a hierarchy among the females. Males fight on their knees with their horns. Animals are mainly active in the cooler morning and evening hours and rest in thicker cover in the heat of the day. Young males are forced out of the herd at about three years and may form small bachelor groups. In Kruger the species is scarce: one source describes a 90% crash in the park's largest subpopulation between 1986 and 1993, after which the subpopulation is said to have stabilised at a low total.",
+  "diet": {
+    "summary": "A grazer of mid-length grasses that prefers leaves over stems and will browse if grazing is poor. Animal Diversity Web gives a preferred feeding height of 15–150 cm, and notes that animals feed in the morning and evening and retreat to more densely wooded areas in the middle of the day.",
+    "items": [
+      "mid-length grasses",
+      "leaves",
+      "browse when grazing is poor"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is born after a gestation of 260 to 281 days. Sources describe breeding as possible throughout the year, with no distinct season. The female leaves the herd about one or two weeks before giving birth and hides the newborn for about four or five weeks, returning to it at dusk, until the calf is strong enough to join the herd. Young animals are much lighter and reddish-brown. Exact calving months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    }
+  ],
+  "prey": [],
+  "habitat": "Lightly wooded savanna, woodland and grassland with medium to tall grass, and access to water. Photographs in this file come from the north of Kruger National Park, the Mopani area, and eastern Kruger north of Olifants.",
+  "similar": [
+    {
+      "slug": "hippotragus-niger",
+      "note": "Roan is paler (roan or grey-brown) and heavier, with shorter, less backswept horns, long tufted ears, and a dark face with white patches. Sable is darker, with a white belly, a strongly contrasted black-and-white face, and longer, more arched scimitar horns. Adult male sable are almost black."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 58,
+      "high": 58
+    },
+    "unit": "individuals",
+    "trend": "stable",
+    "confidence": "medium",
+    "asOf": 2024,
+    "notes": "One source claims a current Kruger total of 58 roan (35–41 mature individuals), after a 90% crash in the park's largest subpopulation between 1986 and 1993 and a reported total of 50 in 2012, and describes the Kruger subpopulation as having since stabilised. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf Regional Red List status is Vulnerable, with a declining national trend.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 50,
+          "high": 50
+        },
+        "unit": "individuals",
+        "asOf": 2012,
+        "notes": "Total reported for Kruger in the 2025 EWT assessment."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Roan Antelope",
+        "url": "https://ewt.org/project/roan-antelope/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Current Kruger total estimated at 58 (35–41 mature individuals); 50 reported in 2012; Kruger subpopulation described as stabilised after a 1986–1993 crash."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "ringed scimitars arching backward, up to 100 cm"
+        },
+        "ears": {
+          "colour": "dark brown at the tips",
+          "shape": "long and narrow, donkey-like, with 3–5 cm tufts"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark face with a black mask around the eyes and on the bridge of the snout, and white patches around the eyes and mouth",
+          "muzzle": "white around the mouth and nose",
+          "beard": "a light shaggy neckbeard, more pronounced than in the female"
+        },
+        "mane": {
+          "colour": [
+            "grayish brown",
+            "black-tipped"
+          ],
+          "shape": "short, erect mane from the back of the neck to the withers, more pronounced than in the female"
+        },
+        "upperparts": {
+          "colour": [
+            "roan",
+            "grey-brown",
+            "amber"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": [
+            "yellow",
+            "white"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": "darker than the body"
+        },
+        "tail": {
+          "colour": "dark, with a black tuft",
+          "shape": "37–48 cm, up to 54 cm in one account"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "ringed scimitars arching backward, slightly shorter than in the male"
+        },
+        "ears": {
+          "colour": "dark brown at the tips",
+          "shape": "long and narrow, donkey-like, with 3–5 cm tufts"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark face with a black mask, described as somewhat lighter than in the male, and white patches around the eyes and mouth",
+          "muzzle": "white around the mouth and nose",
+          "beard": "a light shaggy neckbeard, less pronounced than in the male"
+        },
+        "mane": {
+          "colour": [
+            "grayish brown",
+            "black-tipped"
+          ],
+          "shape": "short, erect mane from the back of the neck to the withers"
+        },
+        "upperparts": {
+          "colour": [
+            "roan",
+            "grey-brown",
+            "amber"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": [
+            "yellow",
+            "white"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": "darker than the body"
+        },
+        "tail": {
+          "colour": "dark, with a black tuft",
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "light",
+            "reddish-brown"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "developing, shorter than in the adult"
+        },
+        "ears": {
+          "colour": "dark brown at the tips",
+          "shape": "long and narrow, tufted at the tips"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark face with white patches around the eyes and mouth",
+          "muzzle": "white around the mouth and nose",
+          "beard": null
+        },
+        "mane": {
+          "colour": "rufous",
+          "shape": "a short erect mane"
+        },
+        "upperparts": {
+          "colour": [
+            "roan",
+            "pale brown"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "darker than the body"
+        },
+        "tail": {
+          "colour": "dark, with a black tuft",
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A roan or grey-brown coat, a dark face with white patches, long tufted ears, a short erect mane, darker legs and backswept horns."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The black face mask, white patches around the eyes and mouth, and long, spread, tufted ears are clearest from the front."
+    },
+    {
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "note": "A paler body than a large adult, a rufous mane, and shorter, still-developing horns."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A detailed description of the call was not found in the sources used here.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "hippotragus-equinus/kruger-grassland.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Roan_en_el_kruger_park.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Roan_en_el_kruger_park.jpg/1280px-Roan_en_el_kruger_park.jpg",
+      "author": "DENCINAR1996",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult roan antelope standing in open grassland, showing a roan coat, dark face, tufted ears and backswept horns, Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "key": "hippotragus-equinus/kruger-olifants-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/252591093",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/452199626/large.jpeg",
+      "author": "Andrew Kruger",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult roan antelope walking in dry open ground, showing the side profile, mane, dark legs and tufted tail, Kruger National Park",
+      "caption": "Adult, eastern Kruger National Park, north of Olifants."
+    },
+    {
+      "key": "hippotragus-equinus/kruger-mopani-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/151488614",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/261390340/large.jpeg",
+      "author": "Pieter Kotze",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult roan antelope facing the camera in tall grass, showing the face mask and long tufted ears, Kruger National Park",
+      "caption": "Adult, Mopani area, Kruger National Park."
+    },
+    {
+      "key": "hippotragus-equinus/kruger-dipeni-running.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/17178593",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/26032248/large.jpeg",
+      "author": "copper",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult roan antelope striding through a puddle, showing the dark face, mane, darker legs and scimitar horns, Kruger National Park",
+      "caption": "Adult, Dipeni road, Kruger National Park."
+    },
+    {
+      "key": "hippotragus-equinus/kruger-juvenile.jpg",
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/197988297",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/348853050/large.jpeg",
+      "author": "Christiaan Viljoen",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Juvenile roan antelope standing in open woodland, with a rufous mane and shorter developing horns, Kruger National Park",
+      "caption": "Juvenile, northern Kruger National Park. The observer described it as a youngster."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Roan antelope",
+      "url": "https://en.wikipedia.org/wiki/Roan_antelope",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Hippotragus equinus: roan antelope",
+      "url": "https://animaldiversity.org/accounts/Hippotragus_equinus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": 2002
+    },
+    {
+      "title": "Roan Antelope",
+      "url": "https://ewt.org/project/roan-antelope/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "iNaturalist taxon Hippotragus equinus",
+      "url": "https://api.inaturalist.org/v1/taxa/42332",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The Kruger total of 58 comes from the 2025 EWT assessment, not from a figure copied out of the SANParks wildlife-trends PDF. Shoulder height, head-and-body length and mass disagree between Wikipedia's lead, its Kingdon-based description, and Animal Diversity Web; the disagreements are recorded in size.note. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "The Kruger total of 58 (35–41 mature individuals) is from the 2025 EWT assessment, not from a figure copied out of the SANParks census PDF. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Shoulder height, head-and-body length and mass disagree between Wikipedia's lead, its Kingdon-based description, and Animal Diversity Web. Structured bounds follow one cited range each; the other figures are in size.note.",
+    "A sourced description of the call was not found, so the call entry is a placeholder without a recording.",
+    "No licensable sound recording was found in iNaturalist observations from Kruger (place 69020).",
+    "No photograph of a hidden newborn calf was included; the juvenile photograph shows an older youngster with developing horns.",
+    "Iris colour was not given in the sources used, so that mark is null.",
+    "No Kruger-specific calving-month range was found. General accounts say breeding can occur throughout the year.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web."
+  ]
+}

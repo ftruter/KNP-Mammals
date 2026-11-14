@@ -1,0 +1,372 @@
+{
+  "kind": "species",
+  "slug": "redunca-fulvorufula",
+  "scientificName": "Redunca fulvorufula",
+  "commonNames": {
+    "en": "Mountain reedbuck",
+    "af": "Rooiribbok"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42306,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Endangered",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Endangered, declining). IUCN global status is Endangered (2017).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Mountain Reedbuck",
+        "url": "https://ewt.org/project/mountain-reedbuck/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Endangered A2b; regional trend declining; no change from 2016. Afrikaans name given as Rooiribbok."
+      },
+      {
+        "title": "A conservation assessment of Redunca fulvorufula",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/27.-Mountain-Reedbuck-Redunca-fulvorufula_EN.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo. Regional status Endangered."
+      },
+      {
+        "title": "Mountain reedbuck",
+        "url": "https://en.wikipedia.org/wiki/Mountain_reedbuck",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2017 IUCN assessment (IUCN SSC Antelope Specialist Group) of Endangered."
+      }
+    ]
+  },
+  "size": {
+    "note": "No published min–max ranges for shoulder height, head-and-body length, tail or mass were found, so those structured bounds are omitted. Sources disagree on shoulder height and are not averaged: one compilation gives about 70 cm for an adult male, another gives an average of 75 cm. Mass is given only as a typical value of around 30 kg in both accounts. Male horn length is given as around 15.2 cm in one compilation. Females are described as smaller than males."
+  },
+  "summary": "A medium-sized antelope with a grey coat, a reddish-brown head and shoulders, white underparts and a dark scent patch beneath each ear. Only males have short, forward-curving horns. It lives on rocky, grass-covered hillsides, and is listed as Endangered in the region.",
+  "description": "A medium-sized antelope with a grey or greyish-brown body, a reddish-brown (rufous) head, neck and shoulders, and white underparts. Both sexes have a dark scent patch beneath the ears. The tail is bushy, with a white underside. Only males have horns: short, ridged and curving forwards, given as around 15.2 cm in one compilation. Females are smaller than males. Sources disagree on shoulder height and are not averaged: one compilation gives about 70 cm for an adult male, another gives an average of 75 cm. Mass is given only as a typical value of around 30 kg.",
+  "habits": "Territorial. Active by day and night, and tends to feed in the early morning and evening, and sometimes through the night; one account says the species spends more time resting than grey rhebok. Sources disagree on group size and are not averaged: one assessment says they live mostly in small groups of up to three, and even up to eight; compiled accounts give groups of six or fewer. A typical group is one adult male with several adult females and juveniles. Younger males are pushed out and form bachelor groups, though a dominant male may tolerate younger males. Males mark and defend a territory through the year with visual displays, scent and sound. Male territory size is given as 15–48 ha in one compilation, and as mean areas of 0.28 km² and 0.15 km² in two reserves; female ranges were larger in those studies. A Kruger-specific movement account was not found.",
+  "diet": {
+    "summary": "A grazer, selecting the greenest, softest parts of grasses such as red grass (Themeda triandra) and thatch grass (Hyparrhenia). One rumen study found that monocots made up 99.5% of the material. Drinking water is an important habitat requirement.",
+    "items": [
+      "grasses",
+      "red grass (Themeda triandra)",
+      "thatch grass (Hyparrhenia spp.)"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A seasonal breeder in some accounts, with birth peaks in October–December in the eastern Free State, though the species is also reported to breed throughout the year. Peak breeding activity has been placed in summer and autumn, with lambing during the summer rains. Gestation is normally about eight months (also given as 7.87–8.37 months). A single lamb is typical, and the young are hidden for a time after birth. Females may first come into oestrus at 9–12 months, but most do so at 12–24 months, and most breed for the first time in their second year. Males produce viable sperm at about one year. Lambing intervals are given as 9–14 months. A Kruger-specific birth-month range was not found, and no calf coat description was found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal"
+    },
+    {
+      "slug": "caracal-caracal",
+      "en": "Caracal"
+    },
+    {
+      "slug": "papio-ursinus",
+      "en": "Chacma baboon"
+    }
+  ],
+  "prey": [],
+  "habitat": "Lives on grass-covered ridges and hillsides in broken rocky country and high-altitude grasslands, often with some tree or bush cover, and also on steep slopes and at the bases of hills in drier country such as the Nama Karoo. It tends to avoid very open areas with no cover. One compilation places the species at elevations of 1,500–5,000 m; in the Drakensberg it occurs up to 2,200 m. Drinking water is crucial, and the animals often use the lower slopes. A Kruger-specific habitat account was not found.",
+  "similar": [
+    {
+      "slug": "redunca-arundinum",
+      "note": "Mountain reedbuck is the smaller of the two Redunca species on this list (shoulder height is given only as about 70 cm for an adult male, or as an average of 75 cm). It has a grey or greyish-brown body with a reddish-brown head and shoulders, and both sexes show a dark scent patch beneath the ear. Male horns are short, ridged and forward-curving (around 15.2 cm in one compilation)."
+    },
+    {
+      "slug": "pelea-capreolus",
+      "note": "Mountain reedbuck has a grey or greyish-brown body with a contrasting reddish-brown head and shoulders, and a dark scent patch beneath each ear. Only males have short, forward-curving ridged horns."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No current Kruger population figure was found. The species is on the official 2011 checklist. One source claims a suspected 150 individuals in Kruger in 2009, and says no long-term Kruger data are available to show a trend. The 2025 regional assessment gives an estimated decline in 28 formally protected areas across the range, from 2,585 individuals in 2008 to 577 in 2023 (or, in the 16 protected areas with a complete time series, from 1,918 to 574). Those regional totals are not a park census. Regional Red List status is Endangered, with a declining regional trend. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 150,
+          "high": 150
+        },
+        "unit": "individuals",
+        "asOf": 2009,
+        "notes": "Kruger only, given on the EWT Mountain Reedbuck page as a figure Ferreira et al. (2013) suspected for 2009. The same page says no long-term Kruger data are available to show a trend."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Mountain Reedbuck",
+        "url": "https://ewt.org/project/mountain-reedbuck/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Suspected 150 individuals in Kruger in 2009 (Ferreira et al. 2013); regional protected-area totals and trend."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "short, ridged and curving forwards; given as around 15.2 cm in one compilation"
+        },
+        "ears": {
+          "colour": null,
+          "shape": "a dark scent patch beneath each ear"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "reddish-brown or rufous",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "greyish-brown"
+          ],
+          "pattern": "reddish-brown or rufous on the neck and shoulders"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "white underside",
+          "shape": "bushy"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "a dark scent patch beneath each ear"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "reddish-brown or rufous",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "greyish-brown"
+          ],
+          "pattern": "reddish-brown or rufous on the neck and shoulders"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "white underside",
+          "shape": "bushy"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A grey or greyish-brown body, a reddish-brown head and shoulders, white underparts, and a bushy tail that is white underneath. Both sexes show a dark scent patch beneath the ear. Only the male has short, forward-curving ridged horns."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A reddish-brown face and a dark scent patch beneath each ear. Males show short, forward-curving ridged horns."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A shrill whistle given when danger is nearby.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "A whistle is also used, with scent and visual displays, to advertise a home range.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "redunca-fulvorufula/kruger-pretoriuskop-standing-side-female.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/253342211",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/453599030/large.jpg",
+      "author": "janconl",
+      "license": "CC BY-NC-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female mountain reedbuck lying in dry woodland, showing a reddish-brown face, grey-brown body and no horns",
+      "caption": "Adult female lying in woodland, Pretoriuskop, Kruger National Park, South Africa."
+    },
+    {
+      "key": "redunca-fulvorufula/cacadu-standing-side-female.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/404386137",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/742620401/large.jpg",
+      "author": "Henry de Lange",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female mountain reedbuck standing in tall grass, showing a reddish-brown face and neck, a grey-brown body, white underparts and no horns",
+      "caption": "Adult female, Cacadu, Eastern Cape, South Africa."
+    },
+    {
+      "key": "redunca-fulvorufula/sabie-standing-side-male.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/357865605",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/652764251/large.jpg",
+      "author": "alanbedfordshaw",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male mountain reedbuck standing on a grassy rocky hillside, showing short forward-curving horns, a reddish neck and white underparts",
+      "caption": "Adult male, Sabie, Mpumalanga, South Africa."
+    },
+    {
+      "key": "redunca-fulvorufula/umkhanyakude-standing-front-male.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/410281330",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/754534199/large.jpg",
+      "author": "Peter Small",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male mountain reedbuck lying among rocks and facing the camera, showing short forward-curving ridged horns, a dark scent patch beneath the ear and a reddish-brown face",
+      "caption": "Adult male, uMkhanyakude District, KwaZulu-Natal, South Africa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mountain Reedbuck",
+      "url": "https://ewt.org/project/mountain-reedbuck/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Afrikaans name given as Rooiribbok, matching the 2011 checklist. Regional status, range, habitat, diet, social system, breeding and predators. Mentions a suspected 150 individuals in Kruger in 2009."
+    },
+    {
+      "title": "A conservation assessment of Redunca fulvorufula",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/27.-Mountain-Reedbuck-Redunca-fulvorufula_EN.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Mountain reedbuck",
+      "url": "https://en.wikipedia.org/wiki/Mountain_reedbuck",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Redunca fulvorufula: mountain reedbuck",
+      "url": "https://animaldiversity.org/accounts/Redunca_fulvorufula/",
+      "publisher": "Animal Diversity Web",
+      "year": null
+    },
+    {
+      "title": "iNaturalist taxon Redunca fulvorufula",
+      "url": "https://www.inaturalist.org/taxa/42306",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The official 2011 checklist includes this species. One source claims a suspected 150 individuals in Kruger in 2009, with no long-term Kruger trend. iNaturalist has 1 research-grade observation in place 69020 (2024-10-05, near Pretoriuskop). Status and monthsPresent are omitted rather than guessed from a single recent record and a 2009 suspected count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Sources disagree on shoulder height and group size; both accounts are kept and are not averaged. No published min–max ranges for size were found. One licensable Kruger photograph was found; the other three photographs are from the Eastern Cape, Mpumalanga and KwaZulu-Natal and are captioned with those places.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No current Kruger population figure was found. One source claims a suspected 150 individuals in Kruger in 2009, with no long-term Kruger trend. Regional protected-area totals (2,585 in 2008 to 577 in 2023, or 1,918 to 574 in a smaller sample) are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Recent year-round status in Kruger is unclear. The species is on the official 2011 checklist. iNaturalist has 1 research-grade observation in place 69020 (2024-10-05, near Pretoriuskop) and 0 other records. Status and monthsPresent are omitted rather than guessed.",
+    "No published min–max ranges were found for shoulder height, head-and-body length, tail or mass. Sources disagree on shoulder height (about 70 cm for an adult male versus an average of 75 cm) and on group size (mostly up to 3, even up to 8, versus six or fewer); both accounts are recorded and are not averaged. Mass is given only as a typical value of around 30 kg.",
+    "A Commons search for Redunca fulvorufula in Kruger returned 0 hits. iNaturalist has 1 research-grade photograph in place 69020, used here. The other three photographs are from Cacadu in the Eastern Cape, Sabie in Mpumalanga, and uMkhanyakude District in KwaZulu-Natal.",
+    "iNaturalist has 0 sound observations for Redunca fulvorufula in place 69020. No reusable Kruger recording was found. Call types are limited to the shrill whistle described in a compiled account.",
+    "Iris colour, ear colour, horn colour, muzzle, leg colour and a sourced mane were not given in the sources used, so those marks are null. Female horns are null (females are hornless). Calf coat marks were not found, so no calf variant was added.",
+    "No Kruger-specific habitat account or birth-month range was found.",
+    "Skinner & Chimimba and Stuart's field guide were not available as direct reads. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
+  ]
+}

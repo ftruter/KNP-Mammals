@@ -1,0 +1,429 @@
+{
+  "kind": "species",
+  "slug": "nesotragus-moschatus",
+  "scientificName": "Nesotragus moschatus",
+  "commonNames": {
+    "en": "Suni",
+    "af": "Soenie"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 74770,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Endangered",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Endangered, declining). IUCN global status is Least Concern (2016).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Suni",
+        "url": "https://ewt.org/project/suni/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Endangered A2b; B2ab(ii,iii,v); C2a(i), regional trend declining, no change from 2016. Afrikaans name Soenie."
+      },
+      {
+        "title": "A conservation assessment of Nesotragus moschatus",
+        "url": "https://ewt.org/wp-content/uploads/2024/10/15.-Suni-Nesotragus-moschatus_EN.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo. Regional status Endangered."
+      },
+      {
+        "title": "Suni",
+        "url": "https://en.wikipedia.org/wiki/Suni",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites IUCN SSC Antelope Specialist Group (2016), Least Concern globally."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 30,
+      "max": 43
+    },
+    "headBodyLengthCm": {
+      "min": 57,
+      "max": 62
+    },
+    "massKg": {
+      "min": 4.5,
+      "max": 7
+    },
+    "note": "Shoulder height 30–43 cm follows the Wikipedia lead. A more detailed account compiled on the same page (citing Castelló 2016) gives 33–38 cm; both ranges are kept and are not averaged. Head-and-body length 57–62 cm follows that Castelló compilation and Animal Diversity Web (filed under the older name Neotragus moschatus). Mass 4.5–7 kg follows Castelló, for both sexes; the Wikipedia lead gives 4.5–5.4 kg, and Animal Diversity Web gives 4–6 kg. Male horns are 8–13 cm in the Wikipedia lead, and 6.5–13.3 cm on Animal Diversity Web. No tail length or sexed shoulder-height split was found."
+  },
+  "summary": "A very small, shy antelope of dense woodland and thicket. Adults are reddish-brown to chestnut above, paler on the sides, with a white chin, throat, belly and inner legs. Only males have horns, which are ridged and slant back close to the head. It is on the official 2011 Kruger checklist, but one source says reports from the north-east of the park are anecdotal and have not been confirmed by recent records, and a mid-1990s reintroduction there did not persist. No park population figure, Kruger photograph or recording was found.",
+  "description": "A tiny antelope, among the smallest ungulates, with a slender build and relatively high hindquarters. Coat colour is usually reddish-brown, darker on the back than on the sides and legs; one account describes a speckled coat that varies from grey to rich chestnut with a reddish tinge. The belly, chin, throat and the insides of the legs are white. The nostrils are described as prominently red. Sources disagree on the eye ring: one compilation gives black rings around the eyes, another a pale ring. Each leg has a black band above the hoof. Only males have horns, which are black, ridged for most of their length, set wide, and slant back in line with the face; published lengths are 8–13 cm in one compilation and 6.5–13.3 cm in another. Females are hornless. Suni lack tufts of long hair on the head and knees, which helps separate them from some other small antelope. Sexual size dimorphism is slight.",
+  "habits": "Shy and secretive. One compilation says they are most active at night and sleep by day in a shady, sheltered spot; another says they are active at night and in the evenings. If disturbed they typically freeze, then bound into thick cover when a threat is almost upon them. In one Natal study, 77% of sightings were of solitary adults, 12% were pairs, and the rest were a male, a female and offspring. Males are territorial and scent-mark boundaries with secretions from the preorbital glands; individual or communal dung piles may lie on the periphery. Sources disagree on territory size: one compilation gives about three hectares, while a Natal study cited in the 2025 regional assessment recorded male territories of 0.005–0.011 km² (0.5–1.1 ha), with little overlap, and female ranges of 0.009–0.046 km² that almost entirely overlapped male territories. A male usually associates with one mate, though other females may share his territory. One compilation describes the mating system as polygynous, with a male generally associating with one to four females.",
+  "diet": {
+    "summary": "A concentrate feeder that cannot digest cellulose properly. It feeds mainly on leaves, with a preference for freshly fallen leaf litter, and also takes wild fruits, flowers, the tips of shoots, and fungi. It takes almost no free water, getting moisture from its food.",
+    "items": [
+      "fallen leaves",
+      "wild fruits",
+      "flowers",
+      "tips of shoots",
+      "fungi"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is usual. Gestation is given as 183 days in one compilation and as about six months in another, which agrees closely. Newborns weigh about two pounds (about 0.9 kg). Young are darker than adults and are kept hidden until their colour gives better camouflage. Average weaning age is given as two months. The 2025 regional assessment, citing a Natal study, says males reach maturity at eight months and females at 12 months, with an inter-calving interval of about seven months; Animal Diversity Web instead gives a maturity range of 6–18 months for both sexes and a breeding season of November to March. Exact birth months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog",
+      "note": "Named as added predation pressure in some KwaZulu-Natal reserves that hold suni; one source says whether wild dogs are a threat is debatable."
+    },
+    {
+      "slug": null,
+      "en": "Felids",
+      "note": "Not listed species by species in the compilations used; felids as a group are named as predators."
+    },
+    {
+      "slug": null,
+      "en": "Crowned eagle",
+      "note": "Not a mammal in this guide; listed because the 2025 regional assessment names suni as an important prey of crowned eagles."
+    },
+    {
+      "slug": null,
+      "en": "Martial eagle",
+      "note": "Not a mammal in this guide; listed because the 2025 regional assessment names suni as an important prey of martial eagles."
+    },
+    {
+      "slug": null,
+      "en": "Southern African python",
+      "note": "Not a mammal in this guide; listed because the 2025 regional assessment names it as a predator (Python sebae)."
+    }
+  ],
+  "prey": [],
+  "habitat": "Dense woodland, thicket and forest with a high undergrowth stem density, especially sand forest, and also sandveld woodland thicket and riparian woodland. In the assessment region it is a species of northern KwaZulu-Natal, at the southern edge of a range that runs along the eastern African seaboard from Kenya to around Lake St Lucia. The official 2011 Kruger checklist includes the species. One source, citing Skinner and Chimimba, reports occurrence in the north-east of Kruger, but says no recent records confirm this, and that the species may occur there only marginally. A captive breeding project was started at Punda Maria in 1989. In 1995, 39 captive-bred animals were released in the north-east of the park, but none could be found by 1998; a later translocation from Tembe Elephant Park also had high capture mortality.",
+  "similar": [
+    {
+      "slug": "cephalophorus-natalensis",
+      "note": "The suni is smaller, and only males have horns. It lacks tufts of long hair on the head. The chin, throat, belly and inner legs are white, and each leg has a black band above the hoof."
+    },
+    {
+      "slug": "raphicerus-sharpei",
+      "note": "The suni has a white chin, throat and belly, a black band above each hoof, and no tufts of long hair on the head or knees. Only males have horns, which are ridged and slant back in line with the face."
+    },
+    {
+      "slug": "raphicerus-campestris",
+      "note": "The suni is a woodland-and-thicket animal with a white chin, throat and belly and a black band above each hoof. Only males have backward-slanting, ridged horns. It lacks tufts of long hair on the head and knees."
+    },
+    {
+      "slug": "sylvicapra-grimmia",
+      "note": "The suni is much smaller, usually reddish-brown to chestnut rather than grey, with white underparts, chin and throat. Only males have horns."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. One source says reports of suni in the north-east of Kruger are anecdotal and have not been confirmed by recent records. A 1995 release of 39 captive-bred animals in the north-east of the park did not persist: none could be found by 1998. Regional totals in the 2025 assessment (440–4,890 individuals, or 220–2,445 mature individuals, and a declining regional trend) and a global estimate of about 365,000 animals are not a park census. Regional Red List status is Endangered. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Suni",
+        "url": "https://ewt.org/project/suni/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Anecdotal, unconfirmed north-eastern Kruger reports; 1995 reintroduction that did not persist; regional totals that are not a Kruger census."
+      },
+      {
+        "title": "A conservation assessment of Nesotragus moschatus",
+        "url": "https://ewt.org/wp-content/uploads/2024/10/15.-Suni-Nesotragus-moschatus_EN.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Suni",
+        "url": "https://en.wikipedia.org/wiki/Suni",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites a global estimate of about 365,000 (IUCN SSC Antelope Specialist Group 2016); that figure is not a Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": "black",
+          "shape": "ridged for most of their length, wide-set, slanting back in line with the face; published lengths 8–13 cm in one compilation and 6.5–13.3 cm in another"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": "sources disagree: black rings in one compilation, a pale ring in another"
+        },
+        "head": {
+          "face": "chin and throat white; nostrils described as prominently red",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "no tuft of long hair on the head or knees"
+        },
+        "upperparts": {
+          "colour": [
+            "reddish-brown",
+            "chestnut",
+            "grey"
+          ],
+          "pattern": "darker on the back than on the sides; one account describes a speckled coat"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": [
+            "paler than the back",
+            "white on the insides",
+            "black band above each hoof"
+          ]
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": "sources disagree: black rings in one compilation, a pale ring in another"
+        },
+        "head": {
+          "face": "chin and throat white; nostrils described as prominently red",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "no tuft of long hair on the head or knees"
+        },
+        "upperparts": {
+          "colour": [
+            "reddish-brown",
+            "chestnut",
+            "grey"
+          ],
+          "pattern": "darker on the back than on the sides; one account describes a speckled coat"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": [
+            "paler than the back",
+            "white on the insides",
+            "black band above each hoof"
+          ]
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": "darker than the adult coat"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A very small, slender antelope, darker on the back than on the sides, with a white belly and inner legs and a black band above each hoof. Males show short, ridged horns that slant back close to the face. There is no tuft of long hair on the head."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A white chin and throat, and nostrils described as prominently red. Sources disagree on whether the eye ring is black or pale. Only males have backward-slanting horns."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Weak barking and whistling sounds.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "nesotragus-moschatus/umkhanyakude-standing-side-male.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/92931810",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/153944495/large.jpeg",
+      "author": "Peter Archdale",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male suni standing in leaf litter in woodland, showing a reddish-brown coat, white underparts and short backward-slanting horns",
+      "caption": "Adult male, uMkhanyakude District, KwaZulu-Natal, South Africa."
+    },
+    {
+      "key": "nesotragus-moschatus/umkhanyakude-standing-side-female.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/151519081",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/261443657/large.jpg",
+      "author": "Maarten Sluijter",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female suni standing in grass, showing a reddish-brown coat, white belly and throat, large ears and no horns",
+      "caption": "Adult female, uMkhanyakude District, KwaZulu-Natal, South Africa."
+    },
+    {
+      "key": "nesotragus-moschatus/northern-kzn-standing-side-female.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/11029313",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15556086/large.jpg",
+      "author": "Gigi Laidler",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female suni among undergrowth, looking back over the shoulder, showing a reddish-brown coat, pale rump and no horns",
+      "caption": "Adult female, northern KwaZulu-Natal, South Africa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Suni",
+      "url": "https://ewt.org/project/suni/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Regional status, Afrikaans name, habitat, habits, diet, young, predators, and Kruger occurrence and reintroduction notes."
+    },
+    {
+      "title": "A conservation assessment of Nesotragus moschatus",
+      "url": "https://ewt.org/wp-content/uploads/2024/10/15.-Suni-Nesotragus-moschatus_EN.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Suni",
+      "url": "https://en.wikipedia.org/wiki/Suni",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Neotragus moschatus (suni)",
+      "url": "https://animaldiversity.org/accounts/Neotragus_moschatus/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Filed under the older genus name. Appearance, size, habits, diet, young, territory and predators."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The official 2011 checklist includes this species, but the 2025 regional assessment says reports from north-eastern Kruger are anecdotal and have not been confirmed by recent records, and that a 1995 reintroduction there did not persist. Status and monthsPresent are omitted rather than guessed. No Kruger census figure was found; regional and global totals are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Sources disagree on shoulder height, mass, horn length, eye-ring colour, male territory size and age at maturity; both accounts are kept and are not averaged. Animal Diversity Web has no page at Nesotragus_moschatus; the account is under Neotragus_moschatus. No licensable Kruger photograph or recording was found; the three photographs used are from KwaZulu-Natal and are captioned with those places.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. Regional totals (440–4,890 individuals) and a global estimate of about 365,000 are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Recent presence in Kruger is unconfirmed. One source says north-eastern Kruger reports are anecdotal, and a 1995 reintroduction of 39 captive-bred animals did not persist. Status and monthsPresent are omitted rather than guessed.",
+    "Sources disagree on shoulder height (30–43 cm versus 33–38 cm), mass (4.5–5.4 kg, 4.5–7 kg, or 4–6 kg), male horn length (8–13 cm versus 6.5–13.3 cm), eye-ring colour (black versus pale), male territory size (about 3 ha versus 0.5–1.1 ha), and age at maturity (8 and 12 months versus 6–18 months); both accounts are recorded and are not averaged.",
+    "No tail length or sexed shoulder-height split was found, so those fields are omitted or null.",
+    "No licensable Kruger photograph was found. A Commons search for Nesotragus or Neotragus moschatus in Kruger returned only a historical PDF. iNaturalist has 0 observations with photos in place 69020. The three photographs used are from KwaZulu-Natal.",
+    "iNaturalist has 0 sound observations for Nesotragus moschatus in place 69020. No reusable Kruger recording was found. Call types are limited to a short compilation (weak barking and whistling).",
+    "Iris colour, ear colour, and a sourced tail colour or shape were not given in the sources used, so those marks are null.",
+    "No Kruger-specific birth-month range was found.",
+    "Skinner & Chimimba and Stuart's field guide were not available as direct reads. Kruger occurrence notes from Skinner & Chimimba are taken as cited on the 2025 EWT page. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
+  ]
+}
