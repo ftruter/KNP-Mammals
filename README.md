@@ -84,3 +84,50 @@ Three remaps are recorded, citing iNaturalist, instead of keeping the 2011 SANPa
 - **Rhinonycteridae / *Cloeotis percivali* was not added.** One research-grade iNaturalist observation of *Cloeotis percivali* is in place 69020. The species is not on the 2011 SANParks checklist, so the family was not added.
 - **Introduced house mouse and house/black rat are flagged.** The official list marks house mouse (*Mus musculus*) and house/black rat (*Rattus rattus*) with an asterisk under Muridae. They did not add extra families.
 - **Sound sources are unverified.** xeno-canto access is unresolved, and Macaulay Library reuse terms were not confirmed. Population estimates, photos, sounds, and per-species text are out of scope for Phase 1.
+
+## Site
+
+A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and renders each page as HTML, Markdown (`.md`) or the stored JSON (`.json`). The layout follows KNP-birds; the palette and fonts are copied from its `src/style.js`. So far the site lists families and species by name. There are no species accounts, photographs, search or scripts yet.
+
+| Page | KV key | Built from |
+| --- | --- | --- |
+| `/` | `index/families` | `data/families.json`, with species counts |
+| `/species` | `index/species` | `species` in `data/species-list.json` |
+| `/family/<slug>` | `family/<slug>` | `data/families.json` and its species |
+| `/species/<slug>` | `species/<slug>` | The species-list row, plus `data/species/details/<slug>.json` as `details` when that file exists |
+
+`candidates` and `excluded` are not published. `scripts/seed.mjs` derives the payload on every run and writes nothing back to `data/`. It stops if a species names a family that is not in `data/families.json`, if a slug repeats, or if a details file has no listed species.
+
+```sh
+pnpm install
+pnpm test
+pnpm run lint
+pnpm run kv:dry-run   # the keys and sizes, without a Cloudflare token
+pnpm run check        # builds the Worker without deploying
+```
+
+To preview locally, load the payload into local KV and start the Worker:
+
+```sh
+node scripts/seed.mjs > /tmp/mammals-kv.json
+pnpm exec wrangler kv bulk put /tmp/mammals-kv.json --local --binding MAMMALS_KV
+pnpm run dev
+```
+
+## Deploy
+
+The `MAMMALS_KV` binding is the `knp-mammals` KV namespace, whose id is in `wrangler.toml`.
+
+Workers Builds on `main` should use:
+
+- Build command: none. Workers Builds sees `pnpm-lock.yaml` and runs `pnpm install --frozen-lockfile` itself. `pnpm-workspace.yaml` lists the root as its one package because pnpm 9 rejects a workspace file without a `packages` list.
+- Deploy command: `npm run deploy`, not the default `npx wrangler deploy`. Locally, run `pnpm run deploy`.
+
+`pnpm run deploy` fails the build if either step fails:
+
+1. Uploads the payload to the `MAMMALS_KV` namespace. Keys that are gone from `data/` are deleted only when they start with `species/`, `family/` or `index/`.
+2. Deploys the Worker with `DATA_VERSION` (a SHA-256 of the payload) and `DATA_PUBLISHED_AT` (the time the upload finished).
+
+KV is written first so the new version renders the data it advertises. Workers Caching (`[cache]` in `wrangler.toml`) includes the Worker version in its key, and `DATA_VERSION` is a Worker var, so a data-only deploy starts with an empty cache. For 70 seconds after `DATA_PUBLISHED_AT`, responses are `no-store`, because a KV read can return the previous value for up to 60 seconds.
+
+The Worker is served from its `workers.dev` address until the `[[routes]]` block for `mammals.truter.world` in `wrangler.toml` is uncommented.
