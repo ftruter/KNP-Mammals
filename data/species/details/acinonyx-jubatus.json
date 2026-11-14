@@ -1,0 +1,409 @@
+{
+  "kind": "species",
+  "slug": "acinonyx-jubatus",
+  "scientificName": "Acinonyx jubatus",
+  "commonNames": {
+    "en": "Cheetah",
+    "af": "Jagluiperd"
+  },
+  "family": "felidae",
+  "inatTaxonId": 41955,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Vulnerable regionally and globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho; listed as conservation-dependent in the regional assessment",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Cheetah",
+        "url": "https://ewt.org/project/cheetah/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Vulnerable C2a(ii); D1, conservation-dependent."
+      },
+      {
+        "title": "A conservation assessment of Acinonyx jubatus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/1.-Cheetah-Acinonyx-jubatus_VU.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Cheetah",
+        "url": "https://en.wikipedia.org/wiki/Cheetah",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 67,
+      "max": 94
+    },
+    "headBodyLengthCm": {
+      "min": 110,
+      "max": 150
+    },
+    "tailCm": {
+      "min": 60,
+      "max": 80
+    },
+    "massKg": {
+      "min": 21,
+      "max": 65
+    },
+    "note": "Shoulder height of 67–94 cm and head-and-body length of 1.1–1.5 m follow Wikipedia. Animal Diversity Web gives the same shoulder height, a head-and-body length of 112–150 cm, and a tail of 60–80 cm. Adult mass is typically 21–65 kg on Wikipedia; Animal Diversity Web gives 21–72 kg. Both ranges are noted; the narrower Wikipedia range is entered. Females are smaller than males on average. Cubs born in the wild weigh 150–300 g."
+  },
+  "summary": "A slim, long-legged spotted cat of open plains, built for brief high-speed chases. It has a small rounded head, black tear-marks from the inner eye to the muzzle, and a long spotted tail with a white tip.",
+  "description": "The cheetah is slim and deep-chested, with long limbs, a small rounded head and a short snout. The coat is typically tawny to pale buff, covered with about 2,000 evenly spaced solid black spots; the chin, throat, belly and the insides of the legs are white and unmarked. A black line, the tear-mark, runs from the inner corner of each eye down the side of the muzzle. The tail is long and spotted, with dark rings toward a white tip. There is a short rough mane on the nape. Claws are only weakly retractile and lack protective skin folds, so they are often blunt from contact with the ground. Newly born cubs are dark, with a thick bluish-grey mantle of long hair on the nape, shoulders and back.",
+  "habits": "Usually solitary, except for mothers with cubs and small groups of related males, known as coalitions. It is active by day as well as at night, and hunts mainly by a short, very fast chase on open ground after a careful stalk. It is a vocal cat, with chirps, churrs, purrs and a longer yelp that can be heard from up to about 2 km. In Kruger it is most often seen on the open plains around Satara. A new visitor-photograph census of the Greater Kruger landscape runs from 1 September 2026 to 31 August 2027.",
+  "diet": {
+    "summary": "A carnivore that hunts medium-sized hoofed mammals, typically in the 10–40 kg range, by a high-speed chase. Impala is an important prey in woodland savanna such as Kruger. Kills are often lost to larger predators.",
+    "items": [
+      "impala",
+      "other medium-sized ungulates"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "Gestation is nearly three months. A litter of up to six to eight cubs is born, though three or four is more common, in thick cover. The eyes open at 4–11 days, and cubs walk by two weeks. The dark mantle of long hair on the back of small cubs is distinctive. Females may conceive again 17–20 months after a successful litter, or sooner if a whole litter is lost. Cubs and kills are often taken by lions, leopards and spotted hyaenas.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    }
+  ],
+  "prey": [
+    {
+      "slug": "aepyceros-melampus",
+      "en": "Impala"
+    }
+  ],
+  "habitat": "Open grassland and lightly wooded savanna, where it can see and chase prey. In Kruger the open plains around Satara, and roads such as the S41, give the best chance of a sighting.",
+  "similar": [
+    {
+      "slug": "panthera-pardus",
+      "note": "The leopard has rosettes rather than solid spots, no black tear-marks, a more heavily built body, and often rests or caches kills in trees."
+    },
+    {
+      "slug": "leptailurus-serval",
+      "note": "The serval is much smaller, with a small head, very large ears and a short tail, and a pattern of both spots and stripes."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 116,
+      "high": 116
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "medium",
+    "asOf": 2022,
+    "notes": "Some sources claim a 2021/22 visitor-photograph census estimated about 116 cheetah in Kruger; 86 individuals were identified. The EWT 2025 assessment cites approximately 116 mature cheetah in Kruger (Fouché, in prep.), 296 fewer than the Marnewick et al. (2014) estimate from the 2008/09 census. Researchers caution that fewer photograph submissions during COVID-19 and a change in identification method may explain part of the drop. A new census runs from 1 September 2026 to 31 August 2027. The 2008/09 census found 412 cheetahs (95% range 329–495), 57% of them in the south of the park.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 329,
+          "high": 495
+        },
+        "unit": "individuals",
+        "asOf": 2009,
+        "notes": "2008/09 visitor-photograph census, 412 (95% range 329–495), cited by Marnewick et al. (2014) and by secondary sources. The EWT 2016 assessment used this figure with high confidence."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Secondary source quoting SANParks surveys or estimates."
+      },
+      {
+        "title": "Cheetah",
+        "url": "https://ewt.org/project/cheetah/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Cites approximately 116 mature cheetah in Kruger (Fouché, in prep.)."
+      },
+      {
+        "title": "A conservation assessment of Acinonyx jubatus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/1.-Cheetah-Acinonyx-jubatus_VU.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Every Spot Counts: The Greater Kruger Cheetah Census 2026/27",
+        "url": "https://ewt.org/greater-kruger-cheetah-census-2026-2027/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2026
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "black patch on the back of the ear, paler inside",
+          "shape": "small and rounded"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "black tear-mark from the inner corner of the eye to the muzzle",
+          "muzzle": "short snout",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "short, rough mane on the nape"
+        },
+        "upperparts": {
+          "colour": [
+            "tawny",
+            "pale buff"
+          ],
+          "pattern": "evenly spaced solid black spots"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": "unmarked on the chin, throat, belly and the insides of the legs"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "spotted, with dark rings toward a white tip",
+          "shape": "long, 60–80 cm"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": "bluish-grey",
+          "shape": "thick mantle of long hair on the nape, shoulders and back"
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": "unclear spots; dark appearance, paler above and nearly black below"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A small rounded head, black tear-marks down the muzzle, and a slim, deep-chested body."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Long legs, a spotted coat of solid black spots, and a long tail with rings and a white tip."
+    },
+    {
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "note": "Small cubs have a dark, fluffy mantle of long hair on the back."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A broad repertoire includes a short bird-like chirp, a shrill churr, a loud purr, and a longer yelp that can be heard from up to about 2 km, used by mothers and cubs to find one another. Agonistic sounds include growls, hisses and moans.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "acinonyx-jubatus/kruger-female-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Cheetah_(Acinonyx_jubatus)_female_..._(51995712064).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Cheetah_%28Acinonyx_jubatus%29_female_..._%2851995712064%29.jpg/1280px-Cheetah_%28Acinonyx_jubatus%29_female_..._%2851995712064%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female cheetah standing in dry grass in Kruger National Park",
+      "caption": "Adult female, Kruger National Park."
+    },
+    {
+      "key": "acinonyx-jubatus/kruger-male-head.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Cheetah_(Acinonyx_jubatus)_male_..._(52121486480).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Cheetah_%28Acinonyx_jubatus%29_male_..._%2852121486480%29.jpg/1280px-Cheetah_%28Acinonyx_jubatus%29_male_..._%2852121486480%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close profile of an adult male cheetah showing the black tear-mark, Kruger National Park",
+      "caption": "Adult male, Kruger National Park."
+    },
+    {
+      "key": "acinonyx-jubatus/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Cheetah_(Acinonyx_jubatus),_1_of_3_brothers.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Cheetah_%28Acinonyx_jubatus%29%2C_1_of_3_brothers.jpg/1280px-Cheetah_%28Acinonyx_jubatus%29%2C_1_of_3_brothers.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "One of three brother cheetahs walking in profile in Kruger National Park",
+      "caption": "Adult male, one of three brothers, Kruger National Park."
+    },
+    {
+      "key": "acinonyx-jubatus/kruger-cub.jpg",
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Cheetah_(Acinonyx_jubatus)_cub_..._(52484807947).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Cheetah_%28Acinonyx_jubatus%29_cub_..._%2852484807947%29.jpg/1280px-Cheetah_%28Acinonyx_jubatus%29_cub_..._%2852484807947%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Cheetah cub walking on a road in Kruger National Park",
+      "caption": "Cub, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cheetah",
+      "url": "https://en.wikipedia.org/wiki/Cheetah",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Acinonyx jubatus account",
+      "url": "https://animaldiversity.org/accounts/Acinonyx_jubatus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Cheetah",
+      "url": "https://ewt.org/project/cheetah/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Acinonyx jubatus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/1.-Cheetah-Acinonyx-jubatus_VU.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Secondary source quoting SANParks surveys or estimates."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2021/22 figure of about 116 is from a visitor-photograph census cited by more than one source; the EWT page calls the animals mature. Researchers caution that method and COVID-19 submission rates may explain part of the drop from 2008/09. A new census is under way and is not yet reported.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "Sources disagree on whether the 2021/22 figure of about 116 is all individuals or mature animals, and on how much of the drop from 2008/09 is real.",
+    "No Kruger-specific birth-month range was found.",
+    "Iris colour was not found in the sources consulted.",
+    "Mass ranges disagree (21–65 kg versus 21–72 kg).",
+    "No reusable Kruger recording found."
+  ]
+}

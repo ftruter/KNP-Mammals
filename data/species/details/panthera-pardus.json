@@ -1,0 +1,435 @@
+{
+  "kind": "species",
+  "slug": "panthera-pardus",
+  "scientificName": "Panthera pardus",
+  "commonNames": {
+    "en": "Leopard",
+    "af": "Luiperd"
+  },
+  "family": "felidae",
+  "inatTaxonId": 41963,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Vulnerable regionally and globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Leopard",
+        "url": "https://ewt.org/project/leopard/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Vulnerable, regional trend declining."
+      },
+      {
+        "title": "A conservation assessment of Panthera pardus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/32.-Leopard-Panthera-pardus_VU.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Leopard",
+        "url": "https://en.wikipedia.org/wiki/Leopard",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "male": {
+        "min": 60,
+        "max": 70
+      },
+      "female": {
+        "min": 57,
+        "max": 64
+      }
+    },
+    "headBodyLengthCm": {
+      "min": 92,
+      "max": 183
+    },
+    "tailCm": {
+      "min": 66,
+      "max": 102
+    },
+    "massKg": {
+      "male": {
+        "min": 31,
+        "max": 72
+      },
+      "female": {
+        "min": 20,
+        "max": 43
+      }
+    },
+    "note": "Shoulder height, head-and-body length, tail and mass follow Wikipedia. Males typically stand 60–70 cm at the shoulder and weigh 30.9–72 kg; females stand 57–64 cm and weigh 20.5–43 kg (mass rounded here to 31–72 and 20–43 kg). Head-and-body length is given as 92–183 cm and the tail as 66–102 cm; a second Wikipedia figure for the tail is 60–100 cm. Animal Diversity Web gives a wider mass of 17–65 kg and a total length of 1.6–2.3 m. Large males may reach about 91 kg, and the heaviest wild leopard recorded in southern Africa was about 96 kg. Cape leopards are generally smaller (males 20–45 kg); Kruger animals fall in the broader African range, not the Cape one. Rosettes tend to be squarish in southern Africa, rather than the circular rosettes of East African leopards."
+  },
+  "summary": "A large, solitary spotted cat, smaller than a lion, with a long body, relatively short legs, and a coat of black rosettes on a pale yellow to golden ground. It often rests in trees and caches large kills in branches.",
+  "description": "The coat is soft and thick, pale yellowish to dark golden, marked with black rosettes on the body and solid spots on the chest, face and legs. Underparts are white. The tail is long, white underneath, and ringed towards the tip, which is white. Pupils are round. Southern African leopards tend to have squarish rosettes, unlike the more circular rosettes of East African animals. Juveniles have woolly fur that looks dark because the spots are densely packed. Melanistic 'black panthers' occur in the species but are not a feature of Kruger accounts used here.",
+  "habits": "Mostly solitary and usually hunts at night, stalking close and killing small prey with a bite to the neck, or larger animals by a throat hold. It may hunt on the ground or drop on prey from a tree, and it often caches a large kill in a tree, sometimes hauling a carcass several times its own weight. It is silent much of the time, but may give a hoarse, rasping cough to advertise its presence. In Kruger the best chances of a sighting are along the Sabie and Crocodile rivers in the south, where riverine trees, thickets and impala come together.",
+  "diet": {
+    "summary": "A carnivore that prefers medium-sized hoofed mammals of about 10–40 kg, taken in dense cover and often in small herds. Preferred prey includes impala, bushbuck and common duiker, but more than 100 prey species have been recorded, from insects to, exceptionally, a large eland. It also kills smaller carnivores, and will scavenge. It eats small prey at once and drags larger kills to a cache, often in a tree.",
+    "items": [
+      "impala",
+      "bushbuck",
+      "common duiker",
+      "other medium-sized ungulates",
+      "smaller carnivores"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "Cubs become independent at 10–18 months. The interval between successfully raised litters is usually 16–24 months, and can be as short as 11 months if a litter is lost. Juveniles have woolly, dark-looking fur. Infanticide accounts for more than half of juvenile deaths in some protected-area studies. No Kruger-specific birth-month range was found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    }
+  ],
+  "prey": [
+    {
+      "slug": "aepyceros-melampus",
+      "en": "Impala"
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "en": "Bushbuck"
+    },
+    {
+      "slug": "sylvicapra-grimmia",
+      "en": "Common duiker"
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal"
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    }
+  ],
+  "habitat": "A wide range of habitats, from woodland and riverine thicket to more open savanna, provided there is cover. In Kruger it is most often seen along the riverine trees and thickets of the Sabie and Crocodile rivers in the south.",
+  "similar": [
+    {
+      "slug": "acinonyx-jubatus",
+      "note": "The cheetah has solid black spots, not rosettes, and a black tear-mark from the inner eye to the muzzle. It is slimmer, longer-legged, and does not habitually cache kills in trees."
+    },
+    {
+      "slug": "leptailurus-serval",
+      "note": "The serval is much smaller, with a small head, very long legs and large ears, and a pattern of bold spots and stripes rather than leopard rosettes."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 1000,
+      "high": 1000
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": 2009,
+    "notes": "One source claims about 1,000 leopards in Kruger, a ranger estimate from 2009 later repeated in a SANParks elephant plan. There has never been a park-wide census. The EWT 2025 assessment calls Kruger and its adjacent private reserves the most important leopard population numerically in the assessment region, but does not give a Kruger total. The regional trend is declining, though a citizen-science programme in the adjoining Sabi Sands has shown a stable population at relatively high density, and one site in the Timbavati has shown a decline.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Secondary source quoting SANParks surveys or estimates."
+      },
+      {
+        "title": "Leopard",
+        "url": "https://ewt.org/project/leopard/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Panthera pardus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/32.-Leopard-Panthera-pardus_VU.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "small and round"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "solid black spots on the face",
+          "muzzle": "long whiskers from dark spots on the upper lip",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "pale yellow",
+            "golden"
+          ],
+          "pattern": "black rosettes, typically squarish in southern Africa; solid black spots towards the legs"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": "spots fade toward the white underbelly"
+        },
+        "legs": {
+          "colour": "spotted, with solid black spots on the lower legs and feet"
+        },
+        "tail": {
+          "colour": "white underneath, with spots forming incomplete rings toward a white tip",
+          "shape": "long, about 66–102 cm, shorter than the body"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": "woolly fur that looks dark because the spots are densely packed"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A broad head with small round ears, and a coat of rosettes on a golden ground."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A long, low body, relatively short legs, and a long ringed tail with a white tip."
+    },
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "Leopards often rest on a horizontal branch, and may cache a kill in a tree."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Usually silent, but may give a hoarse, rasping cough at repeated intervals to advertise its presence. Males also grunt at one another, and some animals may purr while feeding.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "panthera-pardus/kruger-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Leopard_(Panthera_pardus_pardus)_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Leopard_%28Panthera_pardus_pardus%29_Kruger.jpg/1280px-Leopard_%28Panthera_pardus_pardus%29_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Leopard walking forwards through grass in Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "key": "panthera-pardus/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Leopard_(Panthera_pardus_pardus)_Kruger_2.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Leopard_%28Panthera_pardus_pardus%29_Kruger_2.jpg/1280px-Leopard_%28Panthera_pardus_pardus%29_Kruger_2.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Leopard walking in profile through grass in Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "key": "panthera-pardus/kruger-male-resting.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Leopard_(Panthera_pardus),_male_resting_in_N%27wanetsi_riverbed.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Leopard_%28Panthera_pardus%29%2C_male_resting_in_N%27wanetsi_riverbed.jpg/1280px-Leopard_%28Panthera_pardus%29%2C_male_resting_in_N%27wanetsi_riverbed.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Male leopard lying in long grass in the N'wanetsi riverbed, Kruger National Park",
+      "caption": "Adult male resting in the N'wanetsi riverbed, Kruger National Park."
+    },
+    {
+      "key": "panthera-pardus/kruger-female-tree.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Leopard_(Panthera_pardus)_female_in_a_tree_(15835004964).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Leopard_%28Panthera_pardus%29_female_in_a_tree_%2815835004964%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Female leopard lying on a tree branch in Kruger National Park",
+      "caption": "Adult female in a tree, S114 road north of Malelane, Kruger National Park."
+    },
+    {
+      "key": "panthera-pardus/kruger-drinking.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_leopard_(Panthera_pardus).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/African_leopard_%28Panthera_pardus%29.jpg/1280px-African_leopard_%28Panthera_pardus%29.jpg",
+      "author": "Godot13",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Leopard drinking at a small pool in Kruger National Park",
+      "caption": "Adult drinking, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Leopard",
+      "url": "https://en.wikipedia.org/wiki/Leopard",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "African leopard",
+      "url": "https://en.wikipedia.org/wiki/African_leopard",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Panthera pardus account",
+      "url": "https://animaldiversity.org/accounts/Panthera_pardus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Leopard",
+      "url": "https://ewt.org/project/leopard/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Panthera pardus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/32.-Leopard-Panthera-pardus_VU.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Secondary source quoting SANParks surveys or estimates."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "There has never been a park-wide leopard census; the figure of about 1,000 is a 2009 ranger estimate quoted by a secondary source. Text and measurements are from compiled accounts rather than a southern-African field guide.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No park-wide Kruger census has been published. One source claims about 1,000 from a 2009 ranger estimate.",
+    "No Kruger-specific birth-month range was found.",
+    "Iris colour was not found in the sources consulted.",
+    "No reusable Kruger recording found."
+  ]
+}

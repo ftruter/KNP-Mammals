@@ -1,0 +1,334 @@
+{
+  "kind": "species",
+  "slug": "leptailurus-serval",
+  "scientificName": "Leptailurus serval",
+  "commonNames": {
+    "en": "Serval",
+    "af": "Tierboskat"
+  },
+  "family": "felidae",
+  "inatTaxonId": 42025,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (NT A2c + C2a(i))",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Serval",
+        "url": "https://ewt.org/project/serval/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Near Threatened A2c + C2a(i)."
+      },
+      {
+        "title": "A conservation assessment of Leptailurus serval",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/25.-Serval-Leptailurus-serval_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 54,
+      "max": 62
+    },
+    "headBodyLengthCm": {
+      "min": 67,
+      "max": 100
+    },
+    "massKg": {
+      "min": 8,
+      "max": 18
+    },
+    "note": "Shoulder height of 54–62 cm and head-and-body length of 67–100 cm follow Wikipedia. The tail is given as around 30 cm, which is a typical value rather than a range and is omitted as a range field. Wikipedia's introduction gives mass as approximately 9–18 kg, while the body of the article gives 8–18 kg, with females usually lighter; Animal Diversity Web gives 9–18 kg in males and 9–13 kg in females, and an average mass of 14 kg. The 8–18 kg range is entered, and the disagreement is noted."
+  },
+  "summary": "A slender, long-legged spotted cat with a small head, very large ears and a short, black-tipped tail. It often hunts in tall grass or near water, locating prey by ear and pouncing with a high leap.",
+  "description": "The serval has the longest legs of any cat relative to its body size, a small head and large, rounded ears. The coat is golden-yellow to buff, boldly marked with black spots and stripes: lines on the head and neck break into spots on the body, which elongate and form rings on the tail. The tail is short and black-tipped. The back of the ears is black with a white bar. The underside and parts of the face are white. Melanistic animals have been recorded. It is much smaller than a cheetah or a leopard, but clearly larger than an African wild cat.",
+  "habits": "Solitary, and active both by day and at night. It hunts mainly by hearing, often in tall grass or along wetlands, and leaps more than 2 m into the air to land on prey with the forefeet, killing with a bite to the neck or head. Both sexes hold overlapping home ranges of about 10–32 km² and mark them with faeces and saliva. Although it is often described as a wetland specialist, the EWT assessment notes that some of the largest populations are in areas with few wetlands, including Kruger.",
+  "diet": {
+    "summary": "A carnivore that feeds mainly on rodents, especially vlei rats where they occur, and also takes small birds, frogs, insects and reptiles. It locates prey by hearing and captures it with a high pounce.",
+    "items": [
+      "rodents",
+      "small birds",
+      "frogs",
+      "insects",
+      "reptiles"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "Gestation is two to three months. A litter of one to four kittens is born, they are weaned at about one month, and they begin to hunt on their own at about six months. Mating may occur once or twice a year, at different times in different parts of the range. No Kruger-specific birth-month range was found.",
+  "predators": [],
+  "prey": [],
+  "habitat": "Grassland, wetland edges, moorland and other cover near water, but it can live away from wetlands where there is enough grass or tree cover. In Kruger it occurs in a park with relatively few wetlands, and is sometimes seen on roads at dawn or dusk or on night drives.",
+  "similar": [
+    {
+      "slug": "acinonyx-jubatus",
+      "note": "The cheetah is much larger and slimmer in a running build, with solid spots, a long ringed tail and black tear-marks; it lacks the serval's very large ears and short tail."
+    },
+    {
+      "slug": "panthera-pardus",
+      "note": "The leopard is much larger, with rosettes rather than a mix of bold spots and neck stripes, and it has small rounded ears and a long tail."
+    },
+    {
+      "slug": "felis-lybica",
+      "note": "The African wild cat is smaller, short-legged by comparison, and has a faintly striped sandy-grey coat, not a boldly spotted one, and no oversized ears."
+    },
+    {
+      "slug": "caracal-caracal",
+      "note": "The caracal has a plain reddish coat and long black ear tufts, not a spotted coat and large rounded ears."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment notes that some of the largest populations are in areas with few wetlands, including Kruger (citing Pienaar et al. 1996), but it does not give a count. The regional status is Near Threatened, with a suspected continuing decline linked to wetland loss and incidental killing.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Serval",
+        "url": "https://ewt.org/project/serval/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Leptailurus serval",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/25.-Serval-Leptailurus-serval_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "black on the back, with a white bar",
+          "shape": "very large and rounded"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "small head, with white on parts of the face",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "golden-yellow",
+            "buff"
+          ],
+          "pattern": "black stripes on the head and neck breaking into bold spots on the body"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "long, spotted and barred"
+        },
+        "tail": {
+          "colour": "spotted, becoming rings, with a black tip",
+          "shape": "short, typically around 30 cm"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A small head and very large ears, with a white bar on the back of each ear."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Very long legs, a spotted and striped golden coat, and a short black-tipped tail."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The large ears and the short, ringed, black-tipped tail are clear from behind."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A general field call of the species was not described in the sources consulted in this session.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "leptailurus-serval/kruger-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Serval_(Leptailurus_serval)_(50680628697).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Serval_%28Leptailurus_serval%29_%2850680628697%29.jpg/1280px-Serval_%28Leptailurus_serval%29_%2850680628697%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Serval standing on a road, showing the large ears, in Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "key": "leptailurus-serval/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Serval2.jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Serval2.jpg",
+      "author": "Niels Steffens",
+      "license": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Serval walking in profile through short grass in Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "key": "leptailurus-serval/kruger-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Serval_(Leptailurus_serval)_watching_a_bird_behind_..._(50679790473).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Serval_%28Leptailurus_serval%29_watching_a_bird_behind_..._%2850679790473%29.jpg/1280px-Serval_%28Leptailurus_serval%29_watching_a_bird_behind_..._%2850679790473%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Serval seen from behind on a road in Kruger National Park, showing the large ears and short tail",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "key": "leptailurus-serval/kruger-grass.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Serval_(Leptailurus_serval)_in_the_grass_(16579529791).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Serval_%28Leptailurus_serval%29_in_the_grass_%2816579529791%29.jpg/1280px-Serval_%28Leptailurus_serval%29_in_the_grass_%2816579529791%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Serval moving through tall green grass in Kruger National Park",
+      "caption": "Adult in tall grass, Kruger National Park."
+    },
+    {
+      "key": "leptailurus-serval/kruger-skukuza.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Serval_on_a_Skukuza_Sunset_Drive_(4107392742).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Serval_on_a_Skukuza_Sunset_Drive_%284107392742%29.jpg/1280px-Serval_on_a_Skukuza_Sunset_Drive_%284107392742%29.jpg",
+      "author": "Chris Eason",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Serval looking through tall stems on a sunset drive near Skukuza, Kruger National Park",
+      "caption": "Adult, sunset drive near Skukuza, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Serval",
+      "url": "https://en.wikipedia.org/wiki/Serval",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Leptailurus serval account",
+      "url": "https://animaldiversity.org/accounts/Leptailurus_serval/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Serval",
+      "url": "https://ewt.org/project/serval/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Leptailurus serval",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/25.-Serval-Leptailurus-serval_NT.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger count was found. A typical tail length of around 30 cm was omitted as a range. Mass figures disagree slightly between sources. A general vocal description was not found in this session.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Tail length was published only as a typical value of around 30 cm, so no range was entered.",
+    "No Kruger-specific birth-month range was found.",
+    "Iris colour was not found in the sources consulted.",
+    "A general description of the serval's calls was not found in this session.",
+    "No reusable Kruger recording found."
+  ]
+}

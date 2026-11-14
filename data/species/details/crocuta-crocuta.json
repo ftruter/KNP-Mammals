@@ -1,0 +1,460 @@
+{
+  "kind": "species",
+  "slug": "crocuta-crocuta",
+  "scientificName": "Crocuta crocuta",
+  "commonNames": {
+    "en": "Spotted hyaena",
+    "af": "Gevlekte hiëna"
+  },
+  "family": "hyaenidae",
+  "inatTaxonId": 41886,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (NT C2a(ii)). The IUCN global assessment lists the species as Least Concern.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Spotted Hyaena",
+        "url": "https://ewt.org/project/spotted-hyaena/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Near Threatened C2a(ii); regional trend stable."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 70,
+      "max": 92
+    },
+    "headBodyLengthCm": {
+      "min": 95,
+      "max": 166
+    },
+    "tailCm": {
+      "min": 30,
+      "max": 36
+    },
+    "massKg": {
+      "male": {
+        "min": 40,
+        "max": 55
+      },
+      "female": {
+        "min": 44,
+        "max": 64
+      }
+    },
+    "note": "Shoulder height of 70–91.5 cm and body length of 95–165.8 cm follow the Wikipedia dimensions section (bounds rounded to the nearest centimetre). Animal Diversity Web gives a narrower shoulder height of about 75–85 cm and a shorter body length of about 95–150 cm; the Wikipedia ranges are entered and the disagreement is noted. Tail length of 30–36 cm is from Animal Diversity Web only; Wikipedia did not publish a tail range. Sexed mass follows the Wikipedia Serengeti ranges: males 40.5–55.0 kg and females 44.5–63.9 kg (rounded to 40–55 and 44–64 kg). Animal Diversity Web gives males of about 45–60 kg and females of 55 to over 70 kg. Wikipedia also gives heavier Zambia averages of 67.6 kg (males) and 69.2 kg (females), which are averages and are not entered as ranges; southern animals may therefore be heavier than the Serengeti ranges. No Kruger-specific mass was found. Females are larger than males."
+  },
+  "summary": "Kruger's most often seen large scavenger-hunter: a powerfully built, spotted hyaena with a sloping back, rounded ears and a large head. It lives in matriarchal clans, hunts as well as scavenges, and is famous for its whoops and laugh-like giggles.",
+  "description": "The largest living hyaena. The coat is a pale greyish-brown or yellowish-grey, marked with an irregular pattern of roundish reddish, brown or almost black spots on the back and hindquarters; the spots are less distinct on the legs and belly, and are absent from the throat and chest. The fur is shorter than in the brown hyaena, and there is only a modest crest on the neck rather than a long shaggy mane. The ears are rounded, the muzzle is blackish, and there is a pale band above the eyes. The front legs are longer than the hind legs, so the back slopes down to a short tail with a bushy black tip. Females are larger than males. Unusually among mammals, the female has a pseudo-penis and gives birth through it. Cubs are born with a soft, dark brown coat, and the spots develop as they grow.",
+  "habits": "Highly social, living in matriarchal clans that may number from a few animals to several dozen. Females are dominant over males, and rank is inherited. Clans hunt cooperatively as well as scavenge, and they defend a territory. They are active by day and night, but are often seen at dawn, dusk and at kills or waterholes. A clan's social life is noisy and competitive, especially at a carcass.",
+  "diet": {
+    "summary": "The most carnivorous of the hyaenas, and primarily a hunter, though it also scavenges and can digest skin and bone. In Kruger its most important prey are blue wildebeest, buffalo, Burchell's zebra, kudu and impala; giraffe are also taken in the adjoining Timbavati area. Unlike some other large carnivores, it does not specialise on one prey species.",
+    "items": [
+      "blue wildebeest",
+      "buffalo",
+      "Burchell's zebra",
+      "kudu",
+      "impala",
+      "giraffe",
+      "carrion"
+    ],
+    "guild": "carnivore"
+  },
+  "young": "Gestation averages about 110 days (about four months). The average litter is two cubs, with three reported occasionally; Animal Diversity Web also gives a range of one to four, usually twins. Cubs are born with their eyes open and with a soft, dark brown coat, and they may attack one another shortly after birth. Females give birth through a narrow clitoris (the pseudo-penis), which ruptures during birth and may take weeks to heal. Males take no part in raising the young. Cubs are weaned at about 14–18 months. Mating is described as aseasonal. No Kruger-specific birth-month range was found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    }
+  ],
+  "prey": [
+    {
+      "slug": "connochaetes-taurinus",
+      "en": "Blue wildebeest"
+    },
+    {
+      "slug": "syncerus-caffer",
+      "en": "Buffalo"
+    },
+    {
+      "slug": "equus-quagga",
+      "en": "Burchell's zebra"
+    },
+    {
+      "slug": "tragelaphus-strepsiceros",
+      "en": "Kudu"
+    },
+    {
+      "slug": "aepyceros-melampus",
+      "en": "Impala"
+    },
+    {
+      "slug": "giraffa-giraffa",
+      "en": "Giraffe"
+    }
+  ],
+  "habitat": "Open and mixed savanna, woodland and grassland, including areas near waterholes, kills and rest camps. It is widespread in Kruger and is one of the large carnivores most often seen from a vehicle.",
+  "similar": [
+    {
+      "slug": "parahyaena-brunnea",
+      "note": "The brown hyaena has a long, shaggy dark-brown coat, a pale neck ruff, pointed ears and striped legs, not a short spotted coat and rounded ears."
+    },
+    {
+      "slug": "proteles-cristatus",
+      "note": "The aardwolf is much smaller and slimmer, with a yellowish, vertically striped coat, a long erectile mane and a slender muzzle, not a spotted coat or a massive bone-crushing head."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 6998,
+      "high": 7680
+    },
+    "unit": "individuals",
+    "trend": "increasing",
+    "confidence": "medium",
+    "asOf": 2015,
+    "notes": "Some sources claim a 2015 Kruger call-up survey estimated 7,339 spotted hyaenas (6,998–7,680) (S. Ferreira unpublished data, cited on the EWT 2025 assessment). The same page also states a 55% mature subset of 3,849–4,224, in one place labelled as adults and subadults; the detailed text treats 7,339 (6,998–7,680) as the 2015 estimate of individuals. Call-up counts are underestimates. The increase from 2005 to 2015 is described as genuine, using the same method and matching a rise in prey biomass. There has been no later park-wide figure in the sources consulted. The official aerial census sheet covers large herbivores, not this survey. The EWT 2025 assessment lists the regional trend as stable and says the Kruger subpopulation does not appear to be threatened, though disease or climate change could yet reduce it.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 2668,
+          "high": 2668
+        },
+        "unit": "individuals",
+        "asOf": 1989,
+        "notes": "Call-up surveys between 1984 and 1989 estimated 2,668 individuals (Mills et al. 2001, cited on the EWT 2025 page)."
+      },
+      {
+        "estimate": {
+          "low": 3131,
+          "high": 3566
+        },
+        "unit": "individuals",
+        "asOf": 2006,
+        "notes": "Call-up survey, 3,348 (3,131–3,566) in 2005/06 (Ferreira and Funston 2016, cited on the EWT 2025 page)."
+      },
+      {
+        "estimate": {
+          "low": 3443,
+          "high": 3891
+        },
+        "unit": "individuals",
+        "asOf": 2008,
+        "notes": "Call-up survey, most likely size 3,667 (3,443–3,891) (Ferreira and Funston 2016, cited on the EWT 2025 page)."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys, or are left empty when no Kruger figure was found. Cited, not hosted."
+      },
+      {
+        "title": "Spotted Hyaena",
+        "url": "https://ewt.org/project/spotted-hyaena/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Cites the 2015 Ferreira unpublished estimate of 7,339 (6,998–7,680) and earlier Kruger call-up results."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "rounded"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "crown and upper face brownish, with a pale band above the eyes; the muzzle, lips and back of the chin blackish",
+          "muzzle": "blackish, large and powerful",
+          "beard": null
+        },
+        "mane": {
+          "colour": "reddish-brown crest",
+          "shape": "a modest forward-facing crest on the neck, much shorter than the mane of a brown hyaena or an aardwolf"
+        },
+        "upperparts": {
+          "colour": [
+            "pale greyish-brown",
+            "yellowish-grey"
+          ],
+          "pattern": "irregular roundish reddish, brown or almost black spots on the back and hindquarters; five faint pale bands on the neck"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": "spots less distinct on the belly; throat and chest unspotted"
+        },
+        "legs": {
+          "colour": "spotted; front legs longer than the hind legs, so the back slopes down"
+        },
+        "tail": {
+          "colour": "bushy black tip",
+          "shape": "short, 30–36 cm"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "soft dark brown",
+          "pattern": "spots absent or only beginning to appear as the cub grows"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A large head, rounded ears, a pale band above the eyes and a blackish muzzle."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A sloping back, a spotted coat, a short black-tipped tail and a modest neck crest."
+    },
+    {
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "note": "A dark brown, almost unspotted coat distinguishes a young cub from the spotted adult."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "An extensive range of sounds, including whoops, fast whoops, grunts, groans, lows, giggles, yells, growls, grunt-laughs, whines and soft squeals. The loud who-oop and the laugh-like giggle are the most widely recognised. High-pitched calls tend to signal fear or submission, and louder, lower calls aggression. The pitch of the laugh can indicate age, and the pattern of notes can indicate social rank. Whoops also carry signatures that can identify individuals. The Kruger recordings below do not name the call type.",
+      "recordings": [
+        {
+          "key": "inaturalist/2106250",
+          "source": "https://www.inaturalist.org/observations/388507831",
+          "fileUrl": "https://static.inaturalist.org/sounds/2106250.m4a?1785948187",
+          "author": "Jayden Landman",
+          "license": "CC BY-NC 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "aiGenerated": false,
+          "hosted": false,
+          "place": "Kruger National Park",
+          "date": "2026-07-22",
+          "note": "Field recording from Kruger National Park. The observation does not name the call type."
+        },
+        {
+          "key": "inaturalist/1601236",
+          "source": "https://www.inaturalist.org/observations/305596999",
+          "fileUrl": "https://static.inaturalist.org/sounds/1601236.m4a?1754939566",
+          "author": "Adriaan Groenewald",
+          "license": "CC BY-NC 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "aiGenerated": false,
+          "hosted": false,
+          "place": "Kruger National Park",
+          "date": "2025-08-11",
+          "note": "Field recording from Kruger National Park. The observation does not name the call type."
+        },
+        {
+          "key": "inaturalist/1118727",
+          "source": "https://www.inaturalist.org/observations/226797723",
+          "fileUrl": "https://static.inaturalist.org/sounds/1118727.m4a?1719967018",
+          "author": "Liam Pentangelo",
+          "license": "CC BY-NC 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "aiGenerated": false,
+          "hosted": false,
+          "place": "Skukuza, Kruger National Park",
+          "date": "2024-06-09",
+          "note": "Field recording from Skukuza. The observation does not name the call type."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "key": "crocuta-crocuta/kruger-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Spotted_Hyaena_(Crocuta_crocuta)_female_..._(52562551601).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Spotted_Hyaena_%28Crocuta_crocuta%29_female_..._%2852562551601%29.jpg/1280px-Spotted_Hyaena_%28Crocuta_crocuta%29_female_..._%2852562551601%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Spotted hyaena walking towards the camera on a tar road in Kruger National Park",
+      "caption": "Adult, H3 road south of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "crocuta-crocuta/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Spotted_Hyena_(Crocuta_crocuta)_walking_to_the_waterhole.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Spotted_Hyena_%28Crocuta_crocuta%29_walking_to_the_waterhole.jpg/1280px-Spotted_Hyena_%28Crocuta_crocuta%29_walking_to_the_waterhole.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Spotted hyaena in profile walking along a road towards a waterhole in Kruger National Park",
+      "caption": "Adult, Ngotso North, H1-4 road north of Satara, Kruger National Park."
+    },
+    {
+      "key": "crocuta-crocuta/kruger-grass.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Hiena_manchada_(Crocuta_crocuta),_parque_nacional_Kruger,_Sud%C3%A1frica,_2018-07-26,_DD_21.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Hiena_manchada_%28Crocuta_crocuta%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-26%2C_DD_21.jpg/1280px-Hiena_manchada_%28Crocuta_crocuta%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-26%2C_DD_21.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Spotted hyaena standing in dry grass in Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "key": "crocuta-crocuta/kruger-cub.jpg",
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Spotted_Hyaena_(Crocuta_crocuta)_cub_..._(52142898331).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Spotted_Hyaena_%28Crocuta_crocuta%29_cub_..._%2852142898331%29.jpg/1280px-Spotted_Hyaena_%28Crocuta_crocuta%29_cub_..._%2852142898331%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Dark-coated spotted hyaena cub sitting in grass in Kruger National Park",
+      "caption": "Cub, H10 road east of Tshokwane, Kruger National Park."
+    },
+    {
+      "key": "crocuta-crocuta/kruger-female-cubs.jpg",
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Spotted_Hyaenas_(Crocuta_crocuta)_female_with_cubs_..._(50332522933).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Spotted_Hyaenas_%28Crocuta_crocuta%29_female_with_cubs_..._%2850332522933%29.jpg/1280px-Spotted_Hyaenas_%28Crocuta_crocuta%29_female_with_cubs_..._%2850332522933%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female spotted hyaena lying with cubs of mixed ages in Kruger National Park",
+      "caption": "Adult female with cubs, H1-1 road east of Pretoriuskop, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Spotted hyena",
+      "url": "https://en.wikipedia.org/wiki/Spotted_hyena",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Crocuta crocuta account",
+      "url": "https://animaldiversity.org/accounts/Crocuta_crocuta/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Spotted Hyaena",
+      "url": "https://ewt.org/project/spotted-hyaena/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2015 call-up figure is cited from the EWT 2025 page, not from the official aerial census sheet. That page also gives a smaller mature subset of the same range; both figures are recorded. Size ranges disagree between Wikipedia and Animal Diversity Web. No later park-wide count, and no Kruger-specific mass or birth-month range, was found.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No park-wide Kruger count later than 2015 was found.",
+    "No Kruger-specific mass range was found; entered mass is from Serengeti, with heavier Zambia averages noted.",
+    "Wikipedia did not publish a tail-length range; the 30–36 cm range is from Animal Diversity Web only.",
+    "No Kruger-specific birth-month range was found. Mating is described as aseasonal.",
+    "Iris colour was not found in the sources consulted.",
+    "The Kruger sound recordings do not name the call type."
+  ]
+}
