@@ -4,6 +4,17 @@ main = "src/worker.js"
 account_id = "fd74641e5d61594bd1580237979194aa"
 compatibility_date = "2026-10-30"
 
+# The browser script is imported as text so esbuild does not rewrite it.
+[[rules]]
+type = "Text"
+globs = ["**/client/*.js"]
+fallthrough = false
+
+[[rules]]
+type = "ESModule"
+globs = ["**/*.js"]
+fallthrough = true
+
 # Workers Caching sits in front of the Worker and honours Cache-Control. Its
 # key includes the Worker version, and DATA_VERSION is a Worker var, so a
 # data-only deploy starts with an empty cache.
@@ -22,8 +33,6 @@ invocation_logs = true
 binding = "MAMMALS_KV"
 id = "93d49abe1a594aadb7c5bbbdaf23cf75"
 
-# Uncomment to bind the public domain. Until then the Worker is served from
-# its workers.dev address only.
-# [[routes]]
-# pattern = "mammals.truter.world"
-# custom_domain = true
+[[routes]]
+pattern = "mammals.truter.world"
+custom_domain = true

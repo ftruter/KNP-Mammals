@@ -87,16 +87,23 @@ Three remaps are recorded, citing iNaturalist, instead of keeping the 2011 SANPa
 
 ## Site
 
-A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and renders each page as HTML, Markdown (`.md`) or the stored JSON (`.json`). The layout follows KNP-birds; the palette and fonts are copied from its `src/style.js`. So far the site lists families and species by name. There are no species accounts, photographs, search or scripts yet.
+A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and renders each page as HTML, Markdown (`.md`) or the stored JSON (`.json`). The design is that of KNP-birds: `src/style.js`, `src/client/app.js`, `src/sort.js` and `src/credit.js` are copies of its files, and the page markup uses the same class names. When the birds design changes, copy those files again.
 
 | Page | KV key | Built from |
 | --- | --- | --- |
-| `/` | `index/families` | `data/families.json`, with species counts |
-| `/species` | `index/species` | `species` in `data/species-list.json` |
+| `/` | `index/families` | Counts of species, families, orders and full accounts |
+| `/families` | `index/families` | `data/families.json`, with species counts |
+| `/species` | `index/species` | `species` in `data/species-list.json`, with the Kruger estimate where a details file records one |
 | `/family/<slug>` | `family/<slug>` | `data/families.json` and its species |
 | `/species/<slug>` | `species/<slug>` | The species-list row, plus `data/species/details/<slug>.json` as `details` when that file exists |
 
-`candidates` and `excluded` are not published. `scripts/seed.mjs` derives the payload on every run and writes nothing back to `data/`. It stops if a species names a family that is not in `data/families.json`, if a slug repeats, or if a details file has no listed species.
+A species with a details file gets a full account: a lead photograph, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls with recordings, more photographs and sources. A species without one says its details have not been published. Photographs and recordings load from their sources (`fileUrl`) and each carries its credit and licence; nothing is copied to this site yet. The field marks in `variants` are not shown yet.
+
+The tables on `/families`, `/species` and `/family/<slug>` sort with `?sort=` and `dir=asc` or `dir=desc`. The server sorts, so the header links work with scripts off; `/app.js` sorts in place when scripts are on. The default is English, A to Z. Latin breaks ties and empty values sort last.
+
+There is no search, sitemap, site icon, credits page or MCP endpoint yet.
+
+`candidates` and `excluded` are not published. `scripts/seed.mjs` derives the payload on every run and writes nothing back to `data/`. It adds names to the animals a details file points at (similar, predators, prey) and marks whether this guide lists them. It stops if a species names a family that is not in `data/families.json`, if a slug repeats, or if a details file has no listed species.
 
 ```sh
 pnpm install
@@ -130,4 +137,4 @@ Workers Builds on `main` should use:
 
 KV is written first so the new version renders the data it advertises. Workers Caching (`[cache]` in `wrangler.toml`) includes the Worker version in its key, and `DATA_VERSION` is a Worker var, so a data-only deploy starts with an empty cache. For 70 seconds after `DATA_PUBLISHED_AT`, responses are `no-store`, because a KV read can return the previous value for up to 60 seconds.
 
-The Worker is served from its `workers.dev` address until the `[[routes]]` block for `mammals.truter.world` in `wrangler.toml` is uncommented.
+The Worker is bound to `mammals.truter.world` by the `[[routes]]` block in `wrangler.toml`.

@@ -22,6 +22,8 @@ test('routes map to KV keys and formats', () => {
   })
   assert.equal(route('/.md').format, 'md')
   assert.equal(route('/.json').key, 'index/families')
+  assert.equal(route('/families.md').kind, 'families')
+  assert.equal(route('/app.js').kind, 'script')
   assert.equal(route('/species.json').key, 'index/species')
   assert.equal(route('/family/bovidae').key, 'family/bovidae')
   assert.equal(
@@ -33,7 +35,7 @@ test('routes map to KV keys and formats', () => {
   assert.equal(route('/family/bovidae/').location, '/family/bovidae')
 })
 
-test('home lists every family in three formats', async () => {
+test('home links to the lists and has three formats', async () => {
   const html = await get('/')
   assert.equal(html.status, 200)
   assert.equal(html.headers.get('cache-control'), PAGE_CACHE)
@@ -41,21 +43,78 @@ test('home lists every family in three formats', async () => {
   assert.match(html.headers.get('link'), /rel="canonical"/)
   const body = await html.text()
   const index = JSON.parse(store.get('index/families'))
-  for (const order of index.orders)
-    for (const family of order.families)
-      assert.ok(body.includes(`href="/family/${family.slug}"`), family.slug)
+  assert.match(body, /<a href="\/families">Families<\/a> <span>39<\/span>/)
+  assert.match(
+    body,
+    /<script type="module" defer src="\/app\.js\?v=[0-9a-f]+">/,
+  )
 
   const md = await get('/.md')
   assert.match(md.headers.get('content-type'), /^text\/markdown/)
-  assert.match(await md.text(), /\(\/family\/bovidae\.md\)/)
+  assert.match(await md.text(), /\(\/families\.md\)/)
 
   const json = await get('/.json')
   assert.deepEqual(await json.json(), index)
 })
 
+const column = (body, index) =>
+  [...body.matchAll(/<tr data-latin="[^"]*">(.*?)<\/tr>/g)].map((row) =>
+    [...row[1].matchAll(/<t[hd][^>]*>(.*?)<\/t[hd]>/g)][index][1].replace(
+      /<[^>]+>/g,
+      '',
+    ),
+  )
+
+test('the families table lists every family and sorts by the query', async () => {
+  const index = JSON.parse(store.get('index/families'))
+  const body = await (await get('/families')).text()
+  for (const family of index.families)
+    assert.ok(body.includes(`href="/family/${family.slug}"`), family.slug)
+  const english = column(body, 0)
+  assert.deepEqual(
+    english,
+    english
+      .slice()
+      .sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' })),
+  )
+  assert.match(
+    body,
+    /<th scope="col" aria-sort="ascending"><a href="\/families\?sort=en&amp;dir=desc">English <span class="sort-mark"/,
+  )
+
+  const byCount = await (await get('/families?sort=species&dir=desc')).text()
+  const counts = column(byCount, 4).map(Number)
+  assert.equal(counts[0], Math.max(...counts))
+  assert.deepEqual(
+    counts,
+    counts.slice().sort((a, b) => b - a),
+  )
+  assert.match(
+    byCount,
+    /aria-sort="descending"><a href="\/families\?sort=species&amp;dir=asc"/,
+  )
+
+  const junk = await (await get('/families?sort=nope&dir=sideways')).text()
+  assert.deepEqual(column(junk, 0), english)
+})
+
+test('species without an estimate sort last in either direction', async () => {
+  for (const dir of ['asc', 'desc']) {
+    const body = await (await get(`/species?sort=population&dir=${dir}`)).text()
+    const cells = column(body, 5)
+    const firstBlank = cells.indexOf('—')
+    assert.ok(firstBlank > 0, dir)
+    assert.ok(
+      cells.slice(firstBlank).every((cell) => cell === '—'),
+      dir,
+    )
+  }
+})
+
 test('every family and species page renders', async () => {
   const index = JSON.parse(store.get('index/species'))
   const paths = [
+    '/families',
     '/species',
     ...index.species.map((s) => `/species/${s.slug}`),
     ...[...store.keys()]
@@ -71,11 +130,49 @@ test('every family and species page renders', async () => {
   }
 })
 
-test('a species page shows its names and links to its family', async () => {
+test('a researched species page has photographs, facts and credits', async () => {
   const body = await (await get('/species/connochaetes-taurinus')).text()
   assert.match(body, /<h1>Blue wildebeest<\/h1>/)
-  assert.match(body, /Blouwildebees/)
+  assert.match(body, /<p class="afrikaans">Blouwildebees<\/p>/)
   assert.match(body, /href="\/family\/bovidae"/)
+  assert.match(
+    body,
+    /<figure class="plate">\s*<button type="button" class="zoom"/,
+  )
+  assert.match(
+    body,
+    /<img draggable="false" src="https:\/\/[^"]+" alt="[^"]+" loading="lazy">/,
+  )
+  assert.equal(
+    body.match(/<img /g).length - body.match(/loading="lazy"/g).length,
+    1,
+  )
+  assert.match(body, /<details class="credit"/)
+  assert.match(
+    body,
+    /<dt>Mass<\/dt><dd>males 165–290 kg, females 140–260 kg<\/dd>/,
+  )
+  assert.match(
+    body,
+    /<dd class="population"><details class="more"><summary>16,700–21,948 individuals<\/summary>/,
+  )
+  assert.match(body, /<a href="\/species\/panthera-leo">Lion<\/a>/)
+  assert.ok(!body.includes('have not been published yet'))
+  const md = await (await get('/species/connochaetes-taurinus.md')).text()
+  assert.match(md, /## Photographs/)
+  assert.match(md, /Mass: males 165–290 kg, females 140–260 kg/)
+})
+
+test('a species with no account says so', async () => {
+  const index = JSON.parse(store.get('index/species'))
+  const plain = index.species.find((species) => !species.researched)
+  const body = await (await get(`/species/${plain.slug}`)).text()
+  assert.match(
+    body,
+    /The details for this species have not been published yet\./,
+  )
+  assert.ok(!body.includes('class="plate"'))
+  assert.ok(!body.includes('class="population"'))
 })
 
 test('text from KV is escaped', async () => {
@@ -83,6 +180,7 @@ test('text from KV is escaped', async () => {
     MAMMALS_KV: {
       get: async () =>
         JSON.stringify({
+          slug: 'x',
           en: '<script>alert(1)</script>',
           latin: 'A & b',
           order: 'O',
@@ -96,7 +194,7 @@ test('text from KV is escaped', async () => {
     hostile,
   )
   const body = await response.text()
-  assert.ok(!body.includes('<script>'))
+  assert.ok(!body.includes('<script>alert'))
   assert.ok(!body.includes('javascript:'))
   assert.match(body, /A &amp; b/)
   assert.match(body, /https:\/\/example\.org\/a/)
@@ -118,6 +216,14 @@ test('missing pages, other methods, redirects and the stylesheet', async () => {
   const style = await get('/style.css')
   assert.match(style.headers.get('content-type'), /^text\/css/)
   assert.match(await style.text(), /--header-bg/)
+
+  const script = await get('/app.js?v=1')
+  assert.match(script.headers.get('content-type'), /^text\/javascript/)
+  assert.match(await script.text(), /bindTables\(\)/)
+  assert.match(
+    script.headers.get('content-security-policy'),
+    /script-src 'self'/,
+  )
 })
 
 test('a missing binding is a 500, not a crash', async () => {

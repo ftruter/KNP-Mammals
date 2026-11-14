@@ -5,7 +5,9 @@ import {
   REDIRECT_CACHE,
   kvCache,
 } from './cache.js'
+import { clientJs } from './client.js'
 import {
+  familiesHtml,
   familyHtml,
   homeHtml,
   notFoundHtml,
@@ -13,6 +15,7 @@ import {
   speciesListHtml,
 } from './html.js'
 import {
+  familiesMarkdown,
   familyMarkdown,
   homeMarkdown,
   notFoundMarkdown,
@@ -25,6 +28,7 @@ import { css } from './style.js'
 
 const RENDERERS = {
   home: { html: homeHtml, md: homeMarkdown },
+  families: { html: familiesHtml, md: familiesMarkdown },
   'species-list': { html: speciesListHtml, md: speciesListMarkdown },
   family: { html: familyHtml, md: familyMarkdown },
   species: { html: speciesHtml, md: speciesMarkdown },
@@ -48,11 +52,14 @@ const notFound = (route, origin, env) => {
 
 /** Renders one parsed route. The JSON view is the stored document. */
 export const renderRoute = async (request, env, route) => {
-  const { origin } = new URL(request.url)
+  const url = new URL(request.url)
+  const { origin } = url
   if (route.kind === 'redirect')
     return redirectResponse(route.location, REDIRECT_CACHE)
   if (route.kind === 'style')
     return pageResponse({ body: css, format: 'css', cache: ASSET_CACHE })
+  if (route.kind === 'script')
+    return pageResponse({ body: clientJs, format: 'js', cache: ASSET_CACHE })
 
   const renderer = RENDERERS[route.kind]
   const found = renderer ? await readDocument(env.MAMMALS_KV, route.key) : null
@@ -64,7 +71,7 @@ export const renderRoute = async (request, env, route) => {
       ? jsonBody(found.data)
       : format === 'md'
         ? renderer.md(found.data)
-        : renderer.html(found.data, { path: pathname, origin })
+        : renderer.html(found.data, { origin, url })
   return pageResponse({
     body,
     format,

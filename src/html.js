@@ -1,166 +1,483 @@
-import { escapeHtml, safeHttpUrl } from './escape.js'
-import { STYLE_PATH, alternates } from './route.js'
+import { clientSrc, styleSrc } from './client.js'
+import { creditHtml, creditModel } from './credit.js'
+import { escapeHtml, inlineText, safeHttpUrl } from './escape.js'
+import {
+  callTypeLabel,
+  conservationLabel,
+  licenceForbidsDerivatives,
+  monthsLabel,
+  populationModel,
+  sizeFacts,
+  statusLabel,
+  viewLabel,
+} from './labels.js'
+import {
+  FAMILY_COLUMNS,
+  FAMILY_SPECIES_COLUMNS,
+  SPECIES_COLUMNS,
+  tableHtml,
+} from './lists.js'
+import { alternates } from './route.js'
 
 export const SITE_NAME = 'Mammals of Kruger National Park'
-export const SHORT_NAME = 'Mammals of KNP'
-export const STATUS_NOTE =
-  'This guide is being researched. So far it lists the families and species of the park by name; species accounts will follow.'
+export const SHORT_NAME = 'KNP Mammals'
+export const BIRDS_URL = 'https://birds.truter.world'
+export const ABOUT =
+  'The guide is written for people and for AI agents. Pages are rendered on the server. JavaScript is optional: sorting and photo zoom still work from the links and the page when it is off.'
+export const UNPUBLISHED_SPECIES =
+  'The details for this species have not been published yet.'
+export const APPROXIMATE_LABEL = 'Approximate number in Kruger'
+
+export const progressSentence = (counts) =>
+  `The list has ${counts.species} species in ${counts.families} families and ${counts.orders} orders. ${counts.researched} of the species have a full account so far; the rest are listed by name.`
 
 const NAV = [
-  { href: '/', label: 'Families' },
-  { href: '/species', label: 'Species' },
+  ['families', '/families', 'Families'],
+  ['species', '/species', 'Species'],
 ]
 
-const dash = (value) => (value ? escapeHtml(value) : '–')
-const latin = (value) => `<span class="latin">${escapeHtml(value)}</span>`
+const listed = (value) => (Array.isArray(value) ? value : [])
 
-const layout = ({ title, path, origin, main }) => {
+const paragraphs = (text) =>
+  String(text ?? '')
+    .split(/\n{2,}/)
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => `<p>${escapeHtml(part)}</p>`)
+    .join('\n')
+
+export const crumbs = (items) =>
+  !items?.length
+    ? ''
+    : `<nav aria-label="Breadcrumb"><ol class="crumbs"><li><a href="/">Home</a></li>${items
+        .map((item) =>
+          item.current
+            ? `<li aria-current="page">${escapeHtml(item.label)}</li>`
+            : `<li><a href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a></li>`,
+        )
+        .join('')}</ol></nav>`
+
+export const layout = ({
+  title,
+  description,
+  origin,
+  path,
+  nav,
+  crumbs: crumbHtml,
+  main,
+}) => {
   const alts = alternates(path)
-  const nav = NAV.map(
-    ({ href, label }) =>
-      `<a href="${href}"${href === path ? ' aria-current="page"' : ''}>${label}</a>`,
-  ).join('')
-  const pageTitle =
-    path === '/' ? SITE_NAME : `${escapeHtml(title)} · ${SHORT_NAME}`
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${pageTitle}</title>
-<link rel="stylesheet" href="${STYLE_PATH}">
-<link rel="canonical" href="${origin}${alts.html}">
-<link rel="alternate" type="text/markdown" href="${alts.md}">
-<link rel="alternate" type="application/json" href="${alts.json}">
+<meta name="color-scheme" content="light dark">
+<title>${escapeHtml(title)}</title>
+<meta name="description" content="${escapeHtml(description)}">
+<link rel="canonical" href="${escapeHtml(origin + alts.html)}">
+<link rel="alternate" type="text/markdown" href="${escapeHtml(alts.md)}" title="Markdown">
+<link rel="alternate" type="application/json" href="${escapeHtml(alts.json)}" title="JSON">
+<link rel="stylesheet" href="${styleSrc}">
+<script type="module" defer src="${clientSrc}"></script>
 </head>
 <body>
-<header class="site-header"><div class="wrap">
-<a class="site-title" href="/">${SHORT_NAME}</a>
-<nav class="site-nav" aria-label="Site">${nav}</nav>
-</div></header>
-<main class="wrap">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap mast">
+<div class="brand">
+<p class="site-name"><a href="/">${SHORT_NAME}</a></p>
+<p class="site-tag">Kruger National Park</p>
+</div>
+<nav aria-label="Site">
+<ul class="nav-list">
+${NAV.map(([key, href, label]) => `<li><a href="${href}"${nav === key ? ' aria-current="page"' : ''}>${label}</a></li>`).join('\n')}
+</ul>
+</nav>
+</div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+${crumbHtml || ''}
 ${main}
+</div>
 </main>
-<footer class="site-footer"><div class="wrap">
-<p>${SITE_NAME}. A sister guide to <a href="https://birds.truter.world">Birds of Kruger National Park</a>.</p>
-<p>This page as <a href="${alts.md}">Markdown</a> or <a href="${alts.json}">JSON</a>.</p>
-</div></footer>
+<footer class="site-footer">
+<div class="wrap">
+<div class="footer-grid">
+<p>${SITE_NAME}</p>
+<p><a href="${BIRDS_URL}">Birds of Kruger National Park</a> · <a href="${escapeHtml(alts.md)}">Markdown</a> · <a href="${escapeHtml(alts.json)}">JSON</a></p>
+</div>
+</div>
+</footer>
 </body>
 </html>
 `
 }
 
-const table = (head, rows) => `<div class="table-scroll"><table>
-<thead><tr>${head.map((cell) => (cell.count ? `<th scope="col" class="count">${cell.label}</th>` : `<th scope="col">${cell}</th>`)).join('')}</tr></thead>
-<tbody>
-${rows.join('\n')}
-</tbody>
-</table></div>`
-
-const plural = (count, one, many) => `${count} ${count === 1 ? one : many}`
-
-const speciesRow = (species, withFamily) =>
-  `<tr><td><a href="/species/${escapeHtml(species.slug)}">${escapeHtml(species.en)}</a></td><td>${dash(species.af)}</td><td>${latin(species.latin)}</td>${
-    withFamily
-      ? `<td><a href="/family/${escapeHtml(species.familySlug)}">${escapeHtml(species.family)}</a></td><td>${escapeHtml(species.order)}</td>`
-      : ''
-  }</tr>`
-
-export const homeHtml = (doc, ctx) => {
-  const { counts, orders } = doc
-  const sections = orders.map(
-    (order) => `<h2>${escapeHtml(order.order)}</h2>
-${table(
-  ['English', 'Afrikaans', 'Latin', { label: 'Species', count: true }],
-  order.families.map(
-    (family) =>
-      `<tr><td><a href="/family/${escapeHtml(family.slug)}">${escapeHtml(family.en)}</a></td><td>${dash(family.af)}</td><td>${latin(family.latin)}</td><td class="count">${family.speciesCount}</td></tr>`,
-  ),
-)}`,
-  )
+export const homeHtml = (doc, { origin }) => {
+  const { counts } = doc
+  const main = `
+<h1>${SITE_NAME}</h1>
+<nav aria-label="Browse the guide">
+<ul class="browse-links">
+<li><a href="/families">Families</a> <span>${counts.families}</span></li>
+<li><a href="/species">Species</a> <span>${counts.species}</span></li>
+</ul>
+</nav>
+<h2>What a full account covers</h2>
+<ol class="compare-list">
+<li>Photographs from the front, the side and the back</li>
+<li>Size and mass, for males and females where they differ</li>
+<li>Habits, diet and young</li>
+<li>Predators and prey</li>
+<li>Calls, with recordings where one could be found</li>
+<li>Similar species and how to tell them apart</li>
+</ol>
+<h2>About this guide</h2>
+<p>An open field guide to the mammals of Kruger National Park. ${escapeHtml(progressSentence(counts))}</p>
+<p>The list follows the 2011 SANParks checklist for the park. Species with no Kruger records, and animals that live only around rest camps because they arrived with people, are left out.</p>
+<p>${escapeHtml(ABOUT)}</p>`
   return layout({
-    ...ctx,
     title: SITE_NAME,
-    main: `<h1>${SITE_NAME}</h1>
-<p class="lede">${plural(counts.species, 'species', 'species')} in ${plural(counts.families, 'family', 'families')} and ${plural(counts.orders, 'order', 'orders')}.</p>
-<div class="note"><p>${STATUS_NOTE}</p></div>
-${sections.join('\n')}`,
+    description:
+      'An open field guide to the mammals of Kruger National Park. For people and for AI agents.',
+    origin,
+    path: '/',
+    nav: 'home',
+    crumbs: '',
+    main,
   })
 }
 
-export const speciesListHtml = (doc, ctx) =>
+export const familiesHtml = (doc, { origin, url }) =>
   layout({
-    ...ctx,
-    title: 'Species',
-    main: `<h1>Species</h1>
-<p class="lede">${plural(doc.species.length, 'species', 'species')}, in checklist order.</p>
-${table(
-  ['English', 'Afrikaans', 'Latin', 'Family', 'Order'],
-  doc.species.map((species) => speciesRow(species, true)),
-)}`,
+    title: `Families · ${SHORT_NAME}`,
+    description: 'Mammal families in this field guide.',
+    origin,
+    path: '/families',
+    nav: 'families',
+    crumbs: crumbs([{ label: 'Families', current: true }]),
+    main: `
+<h1>Families</h1>
+<p>The guide lists ${doc.families.length} families. The list is alphabetical by English name.</p>
+${tableHtml({
+  caption: 'Families',
+  columns: FAMILY_COLUMNS,
+  rows: doc.families,
+  path: '/families',
+  query: url,
+  empty: 'No families are listed.',
+})}
+`,
   })
 
-const sourceList = (sources) => {
-  const links = (Array.isArray(sources) ? sources : [])
-    .map(safeHttpUrl)
-    .filter(Boolean)
-  if (links.length === 0) return ''
-  return `<h2>Sources</h2>
+export const speciesListHtml = (doc, { origin, url }) =>
+  layout({
+    title: `Species · ${SHORT_NAME}`,
+    description: 'Mammal species in this field guide.',
+    origin,
+    path: '/species',
+    nav: 'species',
+    crumbs: crumbs([{ label: 'Species', current: true }]),
+    main: `
+<h1>Species</h1>
+<p>The guide lists ${doc.species.length} species. The list is alphabetical by English name.</p>
+${tableHtml({
+  caption:
+    'Species. The population is the approximate number in Kruger, where an estimate is recorded.',
+  columns: SPECIES_COLUMNS,
+  rows: doc.species,
+  path: '/species',
+  query: url,
+  empty: 'No species are listed.',
+})}
+`,
+  })
+
+const linkList = (heading, urls) => {
+  const links = listed(urls).map(safeHttpUrl).filter(Boolean)
+  return links.length === 0
+    ? ''
+    : `<h2>${heading}</h2>
 <ul>
 ${links.map((href) => `<li><a href="${escapeHtml(href)}">${escapeHtml(href)}</a></li>`).join('\n')}
 </ul>`
 }
 
-export const familyHtml = (doc, ctx) =>
+export const familyHtml = (doc, { origin, url }) =>
   layout({
-    ...ctx,
-    title: doc.en,
-    main: `<h1>${escapeHtml(doc.en)}</h1>
-<p class="lede">${latin(doc.latin)} · ${escapeHtml(doc.order)}${doc.af ? ` · ${escapeHtml(doc.af)}` : ''}</p>
-<h2>${plural(doc.species.length, 'species', 'species')}</h2>
-${table(
-  ['English', 'Afrikaans', 'Latin'],
-  doc.species.map((species) => speciesRow(species, false)),
-)}
-${sourceList(doc.sources)}`,
+    title: `${doc.en} · ${SHORT_NAME}`,
+    description: `${doc.en} (${doc.latin}) of Kruger National Park.`,
+    origin,
+    path: `/family/${doc.slug}`,
+    nav: 'families',
+    crumbs: crumbs([
+      { href: '/families', label: 'Families' },
+      { label: doc.en, current: true },
+    ]),
+    main: `
+<p class="kicker">Family · ${escapeHtml(doc.order)}</p>
+<h1>${escapeHtml(doc.en)}</h1>
+<p class="latin">${escapeHtml(doc.latin)}</p>
+${doc.af ? `<p class="afrikaans">${escapeHtml(doc.af)}</p>` : ''}
+<h2>Species in Kruger</h2>
+${tableHtml({
+  caption: 'Species in Kruger',
+  columns: FAMILY_SPECIES_COLUMNS,
+  rows: listed(doc.species),
+  path: `/family/${doc.slug}`,
+  query: url,
+  empty: 'No species are listed for this family.',
+})}
+${linkList('Sources', doc.sources)}
+`,
   })
 
-export const speciesHtml = (doc, ctx) => {
+const sourcesHtml = (sources) => {
+  const list = listed(sources)
+  if (!list.length) return '<p>No sources cited yet.</p>'
+  return `<ol>
+${list
+  .map((source) => {
+    const url = safeHttpUrl(source?.url)
+    const title = escapeHtml(source?.title || 'Untitled source')
+    const bits = [
+      url ? `<a href="${escapeHtml(url)}">${title}</a>` : title,
+      source?.publisher ? escapeHtml(source.publisher) : '',
+      source?.year ? escapeHtml(String(source.year)) : '',
+    ].filter(Boolean)
+    return `<li>${bits.join('. ')}</li>`
+  })
+  .join('\n')}
+</ol>`
+}
+
+/** The address a file is loaded from, or '' when it may not be shown. */
+const remoteSrc = (item) =>
+  licenceForbidsDerivatives(item?.license)
+    ? ''
+    : safeHttpUrl(item?.fileUrl) || ''
+
+const sentence = (text) => `${String(text).replace(/\.$/, '')}.`
+
+const plateHtml = (doc, image, lead = false) => {
+  const src = remoteSrc(image)
+  const detail = [viewLabel(image?.view), image?.caption]
+    .filter(Boolean)
+    .map((part) => escapeHtml(sentence(part)))
+    .join(' ')
+  const caption = [
+    image?.aiGenerated
+      ? '<span class="ai-label">AI-generated image</span>'
+      : '',
+    detail,
+    creditHtml(
+      creditModel(image, 'image', src ? { src, onSite: false } : null),
+      src,
+    ),
+  ]
+    .filter(Boolean)
+    .join(' ')
+  const alt = image?.alt || `${doc.en}: ${viewLabel(image?.view)}`
+  return src
+    ? `<figure class="plate">
+<button type="button" class="zoom" aria-pressed="false" aria-label="Zoom photograph">
+<img draggable="false" src="${escapeHtml(src)}" alt="${escapeHtml(alt)}"${lead ? '' : ' loading="lazy"'}>
+</button>
+<figcaption>${caption}</figcaption>
+</figure>`
+    : `<figure class="plate">
+<figcaption>Photograph not shown: its licence does not allow it. ${caption}</figcaption>
+</figure>`
+}
+
+const recordingHtml = (recording) => {
+  const src = remoteSrc(recording)
+  return `<div class="recording">${src ? `<audio controls preload="none" src="${escapeHtml(src)}"></audio>` : ''}${creditHtml(creditModel(recording, 'recording', src ? { src, onSite: false } : null), src)}</div>`
+}
+
+const callsHtml = (calls) =>
+  calls.length === 0
+    ? ''
+    : `<h2>Calls</h2>
+<ul class="call-list">
+${calls.map((call) => `<li><span class="call-type">${escapeHtml(callTypeLabel(call?.type))}</span> ${escapeHtml(call?.description || '')}${listed(call?.recordings).map(recordingHtml).join('')}</li>`).join('\n')}
+</ul>`
+
+const animalHtml = (item) => {
+  const label = escapeHtml(item?.en || item?.latin || item?.slug || 'Unnamed')
+  return item?.listed && item.slug
+    ? `<a href="/species/${escapeHtml(item.slug)}">${label}</a>`
+    : label
+}
+
+const animalsHtml = (heading, items) =>
+  items.length === 0
+    ? ''
+    : `<h3>${heading}</h3>
+<ul>
+${items.map((item) => `<li>${animalHtml(item)}${item?.note ? `. ${escapeHtml(item.note)}` : ''}</li>`).join('\n')}
+</ul>`
+
+const similarHtml = (items) =>
+  items.length === 0
+    ? ''
+    : `<h2>Similar species</h2>
+<ul>
+${items.map((item) => `<li>${animalHtml(item)}. ${escapeHtml(item?.note || '')}</li>`).join('\n')}
+</ul>`
+
+const viewNotesHtml = (notes) =>
+  notes.length === 0
+    ? ''
+    : `<h2>What to look for</h2>
+<ul>
+${notes
+  .map((note) => {
+    const who = [note?.age, note?.sex]
+      .filter((part) => part && part !== 'any')
+      .join(' ')
+    const label = [viewLabel(note?.view), who].filter(Boolean).join(', ')
+    return `<li><strong>${escapeHtml(label)}.</strong> ${escapeHtml(note?.note || '')}</li>`
+  })
+  .join('\n')}
+</ul>`
+
+const section = (heading, text) =>
+  text ? `<h2>${heading}</h2>\n${paragraphs(text)}` : ''
+
+const moreHtml = (summaryHtml, detailHtml) =>
+  `<details class="more"><summary>${summaryHtml}</summary>
+${detailHtml}
+</details>`
+
+/**
+ * The population as one row of the facts list: the figure in view, and the
+ * trend, notes, confidence, year and sources behind it.
+ */
+const populationRowHtml = (population) => {
+  const model = populationModel(population)
+  const state = [
+    `Trend: ${escapeHtml(model.trend)}.`,
+    model.confidence ? `Confidence: ${escapeHtml(model.confidence)}.` : '',
+    model.asOf ? `As of ${escapeHtml(String(model.asOf))}.` : '',
+  ]
+    .filter(Boolean)
+    .join(' ')
+  const detail = [
+    `<p>${APPROXIMATE_LABEL}.</p>`,
+    `<p>${state}</p>`,
+    model.notes ? `<p>${escapeHtml(model.notes)}</p>` : '',
+    '<p>Sources:</p>',
+    sourcesHtml(model.sources),
+  ]
+    .filter(Boolean)
+    .join('\n')
+  return `<dt>Numbers in Kruger</dt><dd class="population">${moreHtml(model.range ? escapeHtml(model.range) : 'No numeric estimate yet.', detail)}</dd>`
+}
+
+const sizeRowsHtml = (size) => {
+  const rows = sizeFacts(size)
+  const note = typeof size?.note === 'string' ? size.note.trim() : ''
+  return rows
+    .map(([label, text], index) => {
+      const value =
+        index === 0 && note
+          ? moreHtml(escapeHtml(text), `<p>${escapeHtml(note)}</p>`)
+          : escapeHtml(text)
+      return `<dt>${label}</dt><dd>${value}</dd>`
+    })
+    .join('\n')
+}
+
+const factRow = (term, value) =>
+  value ? `<dt>${term}</dt><dd>${escapeHtml(value)}</dd>` : ''
+
+const factsHtml = (doc, details) => `<dl class="facts">
+${[
+  factRow('Status', statusLabel(details.status)),
+  factRow('Months in Kruger', monthsLabel(details.monthsPresent)),
+  factRow('Conservation', conservationLabel(details.conservationStatus)),
+  sizeRowsHtml(details.size),
+  factRow('Habitat', details.habitat),
+  populationRowHtml(details.population),
+  `<dt>Family</dt><dd><a href="/family/${escapeHtml(doc.familySlug)}">${escapeHtml(doc.familyEn || doc.family)}</a></dd>`,
+  factRow('Order', doc.order),
+]
+  .filter(Boolean)
+  .join('\n')}
+</dl>`
+
+const publishedSpeciesHtml = (doc, details) => {
+  const images = listed(details.images)
+  const predators = animalsHtml('Predators', listed(details.predators))
+  const prey = animalsHtml('Prey', listed(details.prey))
+  const gaps = listed(details.gaps)
+  return `<div class="species-lead">
+${images.length > 0 ? plateHtml(doc, images[0], true) : '<p>No photograph is stored for this species yet.</p>'}
+<div class="species-lead-text">
+${paragraphs(details.summary)}
+${factsHtml(doc, details)}
+</div>
+</div>
+${section('Description', details.description)}
+${viewNotesHtml(listed(details.viewNotes))}
+${similarHtml(listed(details.similar))}
+${section('Habits', details.habits)}
+${section('Diet', details.diet?.summary)}
+${section('Young', details.young)}
+${predators || prey ? `<h2>Predators and prey</h2>\n${predators}\n${prey}` : ''}
+${callsHtml(listed(details.calls))}
+${
+  images.length > 1
+    ? `<h2>More photographs</h2>
+<div class="gallery">
+${images
+  .slice(1)
+  .map((image) => plateHtml(doc, image))
+  .join('\n')}
+</div>`
+    : ''
+}
+${
+  gaps.length > 0
+    ? `<details class="more"><summary>Not yet recorded</summary>
+<ul>
+${gaps.map((gap) => `<li>${escapeHtml(gap)}</li>`).join('\n')}
+</ul>
+</details>`
+    : ''
+}
+<h2>Sources</h2>
+${sourcesHtml(details.sources)}`
+}
+
+const evidenceHtml = (doc) => {
   const evidence = doc.inclusionEvidence || {}
   const facts = [
-    ['Afrikaans', dash(doc.af)],
     [
       'Family',
-      `<a href="/family/${escapeHtml(doc.familySlug)}">${escapeHtml(doc.family)}</a>`,
+      `<a href="/family/${escapeHtml(doc.familySlug)}">${escapeHtml(doc.familyEn || doc.family)}</a>`,
     ],
-    ['Order', escapeHtml(doc.order)],
+    ['Order', escapeHtml(doc.order || '')],
     [
       'SANParks 2011 checklist',
       evidence.sanparks2011 === true
         ? 'Listed'
         : evidence.sanparks2011 === false
           ? 'Not listed'
-          : 'Not recorded',
+          : '',
     ],
     [
       'iNaturalist research-grade records in the park',
       Number.isInteger(evidence.inatResearchGrade)
         ? String(evidence.inatResearchGrade)
-        : 'Not recorded',
+        : '',
     ],
-  ]
-  const summary =
-    typeof doc.details?.summary === 'string'
-      ? `<p>${escapeHtml(doc.details.summary)}</p>`
-      : `<div class="note"><p>${STATUS_NOTE}</p></div>`
-  const notes = Array.isArray(doc.notes) ? doc.notes : []
-  return layout({
-    ...ctx,
-    title: doc.en,
-    main: `<h1>${escapeHtml(doc.en)}</h1>
-<p class="lede">${latin(doc.latin)}</p>
-${summary}
-<dl class="facts">
+  ].filter(([, value]) => value)
+  const notes = listed(doc.notes)
+  return `<dl class="facts">
 ${facts.map(([term, value]) => `<dt>${term}</dt><dd>${value}</dd>`).join('\n')}
 </dl>
 ${
@@ -170,14 +487,50 @@ ${
 ${notes.map((note) => `<li>${escapeHtml(note)}</li>`).join('\n')}
 </ul>`
     : ''
-}`,
+}`
+}
+
+export const speciesHtml = (doc, { origin }) => {
+  const details = doc.details
+  const status = details?.status
+    ? ` · ${escapeHtml(statusLabel(details.status))}`
+    : ''
+  const main = `
+<div class="species-id">
+<p class="kicker"><a href="/family/${escapeHtml(doc.familySlug)}">${escapeHtml(doc.familyEn || doc.family)}</a>${status}</p>
+<h1>${escapeHtml(doc.en)}</h1>
+<p class="latin">${escapeHtml(doc.latin)}</p>
+${doc.af ? `<p class="afrikaans">${escapeHtml(doc.af)}</p>` : ''}
+</div>
+${details ? publishedSpeciesHtml(doc, details) : `<p>${UNPUBLISHED_SPECIES}</p>\n${evidenceHtml(doc)}`}`
+  return layout({
+    title: `${doc.en} (${doc.latin}) · ${SHORT_NAME}`,
+    description: inlineText(details?.summary || doc.en),
+    origin,
+    path: `/species/${doc.slug}`,
+    nav: 'species',
+    crumbs: crumbs([
+      { href: '/species', label: 'Species' },
+      { label: doc.en, current: true },
+    ]),
+    main,
   })
 }
 
-export const notFoundHtml = (ctx) =>
+export const notFoundHtml = ({ origin, path }) =>
   layout({
-    ...ctx,
-    title: 'Not found',
-    main: `<h1>Not found</h1>
-<p>There is no page at this address. Try the <a href="/">list of families</a> or the <a href="/species">list of species</a>.</p>`,
+    title: `Not found · ${SHORT_NAME}`,
+    description: 'That page is not published.',
+    origin,
+    path,
+    nav: '',
+    crumbs: '',
+    main: `
+<h1>Not found</h1>
+<p>No page is published at <code>${escapeHtml(path)}</code>.</p>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/families">Families</a></li>
+<li><a href="/species">Species</a></li>
+</ul>`,
   })
