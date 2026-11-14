@@ -1,0 +1,371 @@
+{
+  "kind": "species",
+  "slug": "helogale-parvula",
+  "scientificName": "Helogale parvula",
+  "commonNames": {
+    "en": "Dwarf mongoose",
+    "af": "Dwergmuishond"
+  },
+  "family": "herpestidae",
+  "inatTaxonId": 41906,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Dwarf Mongoose",
+        "url": "https://ewt.org/project/dwarf-mongoose/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable. No change from 2016. Afrikaans name Dwergmuishond. Also lists Common Dwarf Mongoose as an English name. The stored English name is the 2011 SANParks checklist name, Dwarf mongoose."
+      },
+      {
+        "title": "18. Dwarf Mongoose Helogale parvula, Least Concern",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/18.-Dwarf-Mongoose-Helogale-parvula_LC.pdf",
+        "publisher": "Endangered Wildlife Trust and South African National Biodiversity Institute",
+        "year": 2016,
+        "note": "2016 regional assessment PDF. Cited, not hosted."
+      },
+      {
+        "title": "Helogale parvula account",
+        "url": "https://animaldiversity.org/accounts/Helogale_parvula/",
+        "publisher": "Animal Diversity Web",
+        "year": 2026,
+        "note": "Lists the IUCN Red List status as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 16,
+      "max": 23
+    },
+    "tailCm": {
+      "min": 12,
+      "max": 20
+    },
+    "massKg": {
+      "min": 0.213,
+      "max": 0.341
+    },
+    "note": "Wikipedia gives a body length of 16–23 cm and a mass of 213–341 g, and describes the species as Africa's smallest carnivore; the 16–23 cm figure is entered as head-and-body because no separate tail length is given there. Animal Diversity Web, citing Walker's Mammals of the World, gives a head-and-body length of 18–26 cm and a tail of 12–20 cm, and only an average mass of 274.8 g (AnAge), so that average is not entered as a range. Those length disagreements are recorded rather than averaged. Shoulder height was not published in the sources used, so that range field is omitted. No sexual size difference was given."
+  },
+  "summary": "Africa's smallest carnivore: a tiny, diurnal mongoose of open woodland and wooded savanna, usually seen in packs. The soft coat is speckled and ranges from yellowish red to very dark brown or greyish, the legs and tail are generally darker, and the head is large and pointed. It dens in termite mounds, rock crevices and hollow logs, and forages by day mainly for insects.",
+  "description": "The dwarf mongoose is a very small, short-legged mongoose with a large pointed head, small ears, a long tail and long claws. Wikipedia describes the soft fur as ranging from yellowish red to very dark brown; Animal Diversity Web describes it as generally speckled brown to greyish, with the tail and lower legs generally darker and the underparts slightly paler. There is no sourced account of a difference in coat between the sexes.",
+  "habits": "It is diurnal and an obligate cooperative breeder, living in stable social groups. Sources disagree on group size: Wikipedia gives an average of twelve, with larger packs exceeding thirty; the EWT assessment gives 3–30. A dominant breeding pair is usually responsible for most of the young, and other adults help with territory defence, sentinel duty, grooming and pup care. A sentinel is often posted while the group forages, because the animals dig for prey and are then more exposed. In Limpopo, group members may forage together over 0.5–3.5 km and may use up to 30 different sleeping places. Territory size in Limpopo has been given as 0.3–0.4 km²; Animal Diversity Web gives a home range of around 2 ha. Dens are in termite mounds, rock outcrops or crevices, and hollow logs and trees; the species also climbs trees. It has a mutualistic foraging relationship with hornbills and with the fork-tailed drongo, in which the birds and the mongooses warn one another of predators. The EWT assessment records it as present in Kruger National Park.",
+  "diet": {
+    "summary": "Almost entirely insectivorous. It feeds mainly on beetles, beetle larvae, termites, grasshoppers, crickets, spiders and scorpions, and will also take small vertebrates, eggs and fruit. At Phuza Moya Private Game Reserve, near Hoedspruit, termites were rarely eaten even though the animals denned in termite mounds, and grasshoppers, spiders, crickets and scorpions were common prey.",
+    "items": [
+      "beetles and beetle larvae",
+      "termites",
+      "grasshoppers and crickets",
+      "spiders",
+      "scorpions",
+      "small vertebrates",
+      "eggs",
+      "fruit"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "In South Africa, groups rear two to three consecutive litters in the summer wet season (October–April in the EWT assessment; Wikipedia gives November–May). Gestation is given as 49–53 days by Wikipedia, 49–56 days by Animal Diversity Web, and about 50 days by the EWT assessment; mean litter size is about four (4.1 at pup emergence in one South African study). Young nurse for 45 days, and subordinate females may also nurse them. Sources disagree on when juveniles begin to forage with adults: Wikipedia says around six weeks, Animal Diversity Web around six months. Sources also disagree on age at sexual maturity: Wikipedia says three years; the EWT assessment, citing Creel et al. (1992), says individuals reach sexual maturity by one year, though males usually delay dispersal until two to three years of age. A Kruger-specific birth-month range, and a description of the pup's coat, were not found.",
+  "predators": [
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal",
+      "note": "Wikipedia names jackals among the mammalian predators; it does not specify the species."
+    },
+    {
+      "slug": "herpestes-ichneumon",
+      "en": "Large grey mongoose",
+      "note": "Named by Wikipedia as the Egyptian mongoose."
+    },
+    {
+      "slug": null,
+      "en": "Birds of prey",
+      "note": "Wikipedia names predatory birds such as raptors, and also marabou storks."
+    },
+    {
+      "slug": null,
+      "en": "Snakes and monitor lizards",
+      "note": "Named by Wikipedia."
+    }
+  ],
+  "prey": [],
+  "habitat": "Open woodlands, thickets and wooded savanna, especially where there are termite mounds, rock outcrops or crevices, or hollow logs and trees for dens. It is not found in highly arid areas or in dense riparian vegetation. In the assessment region it occurs in the eastern Lowveld of Mpumalanga and Limpopo, including Kruger National Park.",
+  "similar": [
+    {
+      "slug": "mungos-mungo",
+      "note": "The dwarf mongoose is much smaller and does not have the dark horizontal bars across the back that distinguish the banded mongoose. The two species may use the same dens, but not at the same time."
+    },
+    {
+      "slug": "herpestes-sanguineus",
+      "note": "The dwarf mongoose is Africa's smallest carnivore and is usually seen in packs, rather than as a single animal."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment does not give a park count. It states that there are certainly over 1,000 mature individuals, and probably over 10,000, in the assessment region as a whole, and that the regional trend is stable. Densities cited there are from other sites (20 individuals/km² at Phuza Moya Private Game Reserve near Hoedspruit, 42/km² at the start of the breeding season at Sorabi Rock Lodge Reserve, and typical figures of about 5/km², or up to 31/km², from the Serengeti) and are not Kruger counts.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Dwarf Mongoose",
+        "url": "https://ewt.org/project/dwarf-mongoose/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "small"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "large pointed head",
+          "muzzle": "pointed",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "yellowish-red",
+            "dark brown",
+            "greyish"
+          ],
+          "pattern": "soft, generally speckled coat"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": "slightly paler than the upperparts"
+        },
+        "legs": {
+          "colour": "generally darker than the body"
+        },
+        "tail": {
+          "colour": "generally darker than the body",
+          "shape": "long"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A very small, short-legged mongoose with a large pointed head, a long tail, and a soft speckled coat; the legs and tail are generally darker."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Small ears and a pointed muzzle. A sentinel often stands fully upright on the hind legs to watch while the pack forages."
+    },
+    {
+      "view": "perched-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The species also climbs trees and may watch from a branch or trunk."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Wild dwarf mongooses give predator-specific aerial and terrestrial alarm calls, and a general alert call.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Sentinels give a repeated watchman's song while on guard.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "helogale-parvula/tshokwane-h1-2-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Dwarf_Mongoose_(Helogale_parvula).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Dwarf_Mongoose_%28Helogale_parvula%29.jpg/1280px-Dwarf_Mongoose_%28Helogale_parvula%29.jpg",
+      "hosted": false,
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "alt": "Dwarf mongoose in profile on bare earth under a log, showing the speckled brown coat, pointed muzzle and long tail, in Kruger National Park",
+      "caption": "Adult, H1-2 road west of Tshokwane, Kruger National Park."
+    },
+    {
+      "key": "helogale-parvula/phabeni-s1-sentinel.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_Dwarf_Mongoose_(Helogale_parvula)_sentinel_..._(51668969047).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Common_Dwarf_Mongoose_%28Helogale_parvula%29_sentinel_..._%2851668969047%29.jpg/1280px-Common_Dwarf_Mongoose_%28Helogale_parvula%29_sentinel_..._%2851668969047%29.jpg",
+      "hosted": false,
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "alt": "Dwarf mongoose standing upright on its hind legs and facing slightly left, in Kruger National Park",
+      "caption": "Adult standing sentinel, S1 road east of Phabeni Gate, Kruger National Park."
+    },
+    {
+      "key": "helogale-parvula/lower-sabie-s21-lizard.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Dwarf_Mongoose_(Helogale_parvula)_eating_a_lizard_..._(33376775195).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Dwarf_Mongoose_%28Helogale_parvula%29_eating_a_lizard_..._%2833376775195%29.jpg/1280px-Dwarf_Mongoose_%28Helogale_parvula%29_eating_a_lizard_..._%2833376775195%29.jpg",
+      "hosted": false,
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "alt": "Close side view of a dwarf mongoose holding a lizard in its mouth, showing the speckled brown coat, in Kruger National Park",
+      "caption": "Adult eating a lizard, S21 road west of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "helogale-parvula/lower-sabie-s82-group.jpg",
+      "view": "herd",
+      "age": "any",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Dwarf_Mongooses_(Helogale_parvula)_(52798572017).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Dwarf_Mongooses_%28Helogale_parvula%29_%2852798572017%29.jpg/1280px-Dwarf_Mongooses_%28Helogale_parvula%29_%2852798572017%29.jpg",
+      "hosted": false,
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "alt": "Three dwarf mongooses on a dirt track, one facing the camera with its mouth open, in Kruger National Park",
+      "caption": "A group on the S82 road south of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "helogale-parvula/olifants-s90-tree.jpg",
+      "view": "perched-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Dwarf_Mongoose_(Helogale_parvula)_watching_from_tree.jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dwarf_Mongoose_%28Helogale_parvula%29_watching_from_tree.jpg/1280px-Dwarf_Mongoose_%28Helogale_parvula%29_watching_from_tree.jpg",
+      "hosted": false,
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "alt": "Dwarf mongoose watching from a fork in a tree, facing the camera, in Kruger National Park",
+      "caption": "Adult watching from a tree, S90 road south of Olifants, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Common dwarf mongoose",
+      "url": "https://en.wikipedia.org/wiki/Common_dwarf_mongoose",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Helogale parvula account",
+      "url": "https://animaldiversity.org/accounts/Helogale_parvula/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Dwarf Mongoose",
+      "url": "https://ewt.org/project/dwarf-mongoose/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "18. Dwarf Mongoose Helogale parvula, Least Concern",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/18.-Dwarf-Mongoose-Helogale-parvula_LC.pdf",
+      "publisher": "Endangered Wildlife Trust and South African National Biodiversity Institute",
+      "year": 2016,
+      "note": "Cited, not hosted."
+    },
+    {
+      "title": "Wild dwarf mongooses produce general alert and predator-specific alarm calls",
+      "url": "https://doi.org/10.1093/beheco/arx091",
+      "publisher": "Behavioral Ecology",
+      "year": null
+    },
+    {
+      "title": "Call of duty? Variation in use of the watchman's song by sentinel dwarf mongooses, Helogale parvula",
+      "url": "https://vocal-communication.bio.bris.ac.uk/pdfs/Mongoose_watchman.pdf",
+      "publisher": "University of Bristol",
+      "year": null
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Sources disagree on head-and-body length, when juveniles begin to forage, and age at sexual maturity. No reusable Kruger recording was found. Iris colour, ear colour, a named underpart colour, shoulder height and the appearance of the pup's coat were not found. A Kruger-specific birth-month range was not found beyond a general South African wet-season account (October–April).",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Shoulder height was not published in the sources used, so that range field is omitted.",
+    "Sources disagree on head-and-body length (16–23 cm versus 18–26 cm), when juveniles begin to forage with adults (about six weeks versus about six months), and age at sexual maturity (one year versus three years).",
+    "A Kruger-specific birth-month range was not found beyond a general South African account of two to three litters in the summer wet season (October–April).",
+    "The appearance of the pup's coat was not described in the sources used, so no young variant was added.",
+    "Iris colour, ear colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "No reusable Kruger recording found."
+  ]
+}

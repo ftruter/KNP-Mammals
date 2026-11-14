@@ -1,0 +1,273 @@
+{
+  "kind": "species",
+  "slug": "rhynchogale-melleri",
+  "scientificName": "Rhynchogale melleri",
+  "commonNames": {
+    "en": "Meller's mongoose",
+    "af": "Meller se muishond"
+  },
+  "family": "herpestidae",
+  "inatTaxonId": 41941,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhynchogale melleri",
+        "url": "https://ewt.org/project/mellers-mongoose/",
+        "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, with no change from 2016. Regional population trend Unknown. Lists Meller’s Mongoose as an English name and Meller se Muishond as the Afrikaans name. The stored English and Afrikaans names are the 2011 SANParks checklist names, Meller's mongoose and Meller se muishond. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Rhynchogale melleri",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/37.-Mellers-Mongoose-Rhynchogale-melleri-_LC.pdf",
+        "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Least Concern, with a Watch-list Data flag, changed from Data Deficient in 2004 (a non-genuine change). Global IUCN status Least Concern (2015). Cited, not hosted."
+      },
+      {
+        "title": "Meller's mongoose",
+        "url": "https://en.wikipedia.org/wiki/Meller%27s_mongoose",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Lists the IUCN Red List status as Least Concern, citing the 2015 global assessment."
+      }
+    ]
+  },
+  "size": {
+    "massKg": {
+      "min": 2.0,
+      "max": 3.0
+    },
+    "note": "Wikipedia, citing Skinner and Smithers (1990), gives an overall length of about 80 cm, a mass of 2–3 kg, and a tail slightly less than half the overall length. The 80 cm figure and the tail description are typical values, not published ranges, so lengthCm, headBodyLengthCm and tailCm are omitted. Shoulder height was not published in the sources used."
+  },
+  "summary": "A medium to large, solitary, nocturnal mongoose of open savannah woodland and grassland, often near termite mounds. The coat is light to dark brown and coarsely grizzled, with darker lower limbs and a paler underside. The long tail is usually dark brown to black, but may also be brown or white. It feeds mainly on termites, and also takes other invertebrates, small vertebrates and, occasionally, wild fruit.",
+  "description": "Meller's mongoose is a medium to large mongoose with a light to dark brown, coarsely grizzled coat. The lower parts of the limbs are darker than the upperparts, and the underparts are generally lighter. The tail is long and variable in colour: it may be black, brown or white, though dark brown to black is the most usual. The 2016 EWT assessment notes that predominantly brown, black or white tail hairs may occur within any one population, and that the densely furred, swollen upper lip and set-back nostrils may be adaptations to feeding on termites. Wikipedia says it may be confused with the white-tailed mongoose, but is smaller and blacker overall. No sourced difference in coat pattern between the sexes was found; females have two pairs of abdominal mammae.",
+  "habits": "It is solitary, nocturnal and terrestrial. Wikipedia, citing Skinner and Smithers (1990), says it does not appear until well after sunset and remains active until about midnight. The 2016 and 2025 EWT assessments likewise describe it as solitary and nocturnal, and say that no information is available on its spatial behaviour or detailed activity patterns. Wikipedia, citing Stuart and Stuart (2013), says it appears to need dense cover throughout the year and is rarely seen where fires are extensive and frequent. Young are born in burrows or rock crevices.",
+  "diet": {
+    "summary": "Termites, particularly Macrotermes and harvester termites (Hodotermes), make up the majority of the diet, according to the 2016 and 2025 EWT assessments, citing Skinner and Chimimba (2005). Those assessments also record small vertebrates, other invertebrates and, occasionally, wild fruit. Wikipedia, citing the same source, lists grasshoppers, small reptiles, centipedes, beetles and frogs as well as termites.",
+    "items": [
+      "termites, particularly Macrotermes and Hodotermes",
+      "grasshoppers",
+      "beetles",
+      "centipedes",
+      "other invertebrates",
+      "small reptiles",
+      "frogs",
+      "other small vertebrates",
+      "wild fruit (occasional)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Little is known of the reproductive biology of this species. The 2016 and 2025 EWT assessments, citing Stuart and Stuart (2013), say that females give birth to two to three young during the summer wet season. Wikipedia, citing Skinner and Smithers (1990), says they appear to breed at the beginning of the wet season (November to December), with two to three young born in burrows or rock crevices, and that females have two pairs of abdominal mammae. Gestation, the appearance of the young, and the pattern of care were not published in the sources used. A Kruger-specific birth-month range was not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Domestic or feral dog",
+      "note": "The 2016 and 2025 EWT assessments list an increasing population of domestic and feral dogs around settlements as a local threat, and say that animals may also be killed accidentally by dogs when hunting ungulates or lagomorphs."
+    }
+  ],
+  "prey": [],
+  "habitat": "A savannah species, mainly associated with open woodland and grassland with termite mounds, and also recorded in miombo woodland and, in Tanzania, montane bamboo forest. Within Kruger National Park it has been recorded from the low-lying granitic soils to the mountainous areas, and it has also been found in savannah woodland in Manyeleti Game Reserve and Sabi Sands Game Reserve. The 2016 and 2025 EWT assessments list Kruger National Park, the private protected areas on its western boundary, and several protected areas in KwaZulu-Natal among the places where it is protected, and treat Kruger as the likely stronghold in the assessment region.",
+  "similar": [
+    {
+      "slug": "ichneumia-albicauda",
+      "note": "Meller's mongoose is smaller and blacker overall than the white-tailed mongoose. Its tail is usually dark brown to black, though the tail colour is variable and may also be brown or white."
+    },
+    {
+      "slug": "paracynictis-selousi",
+      "note": "The 2016 and 2025 EWT assessments say this species may be confused with Selous' mongoose. Meller's mongoose has a light to dark brown, coarsely grizzled coat and a tail that is usually dark brown to black, but may also be brown or white."
+    },
+    {
+      "slug": "atilax-paludinosus",
+      "note": "The 2016 and 2025 EWT assessments say this species may be confused with the water mongoose. Meller's mongoose has a light to dark brown, coarsely grizzled coat and a tail that is usually dark brown to black, but may also be brown or white."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2016 and 2025 EWT assessments do not give a park count. They state that the species is uncommon to rare, that the population size is unknown, that the largest subpopulation is probably in Kruger National Park, and that the current regional trend is unknown but probably stable, inferred from the lack of major threats and from Kruger being the likely regional stronghold. Sightings may be overlooked or confused with the water mongoose, the white-tailed mongoose or Selous' mongoose. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Rhynchogale melleri",
+        "url": "https://ewt.org/project/mellers-mongoose/",
+        "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Gives no Kruger count. States that the population size is unknown, that the largest subpopulation is probably in Kruger National Park, and that the regional trend is unknown but probably stable. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Rhynchogale melleri",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/37.-Mellers-Mongoose-Rhynchogale-melleri-_LC.pdf",
+        "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Same regional population statements as the 2025 assessment, including presence and likely stronghold status in Kruger National Park. Cited, not hosted."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "densely furred, swollen upper lip and set-back nostrils",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "light brown",
+            "dark brown"
+          ],
+          "pattern": "coarsely grizzled"
+        },
+        "underparts": {
+          "colour": "lighter than the upperparts",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "darker on the lower limbs"
+        },
+        "tail": {
+          "colour": [
+            "dark brown",
+            "black",
+            "brown",
+            "white"
+          ],
+          "shape": "long; usually dark brown to black, but variable"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A medium to large mongoose with a light to dark brown, coarsely grizzled coat, darker lower limbs, a paler underside, and a long tail that is usually dark brown to black."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The upper lip is densely furred and swollen, and the nostrils are set back, marks that the 2016 EWT assessment treats as possible adaptations to feeding on termites."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The long tail is usually dark brown to black, but may also be brown or white, and predominantly brown, black or white tail hairs may occur in the same population."
+    }
+  ],
+  "calls": [],
+  "images": [
+    {
+      "key": "rhynchogale-melleri/limpopo-west-of-kruger-night-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/130006834",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/221022977/large.jpeg",
+      "hosted": false,
+      "author": "woodowlwildlife",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "Meller's mongoose sitting on a dirt track at night, showing a dark coat and a long dark tail, Limpopo, South Africa, west of Kruger National Park",
+      "caption": "Adult at night, Limpopo, South Africa, west of Kruger National Park."
+    }
+  ],
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Animal Diversity Web has a classification page for this species but no full account, so size, diet and habits were taken from Wikipedia and the 2016 and 2025 EWT assessments.",
+    "Shoulder height, a separate head-and-body length, and a numeric tail-length range were not published in the sources used, so those range fields are omitted. Overall length was published only as a typical value of about 80 cm.",
+    "Ear shape, iris colour, and muzzle marks were not given in the sources used, so those marks are null.",
+    "Gestation, the appearance of the young, and the pattern of care were not published in the sources used, so no young variant was added.",
+    "Call types were not described in the sources used.",
+    "No Kruger photograph on an allowed licence was found. One live southern African night photograph was used instead (Limpopo, west of Kruger National Park). Other allowed-licence South African iNaturalist records examined were roadkill, had camera-trap overlay text, or were too poorly framed to use. Close side and coat views without overlay text were not confirmed among the photographs examined.",
+    "No reusable Kruger recording found. iNaturalist place 69020 has 0 observations of any grade and 0 sounds for taxon 41941."
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Animal Diversity Web has no full account. Shoulder height, head-and-body length, a numeric tail range, ear, muzzle and iris marks, call types, and the appearance of the young were not found. No Kruger photograph on an allowed licence was found, so one live southern African night photograph from Limpopo, west of Kruger National Park, was used. No reusable Kruger recording was found, and iNaturalist place 69020 has 0 observations of this taxon.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "sources": [
+    {
+      "title": "Meller's mongoose",
+      "url": "https://en.wikipedia.org/wiki/Meller%27s_mongoose",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Used for size, appearance, habits, diet, young, the similar-species contrast with the white-tailed mongoose, and the global IUCN status."
+    },
+    {
+      "title": "A conservation assessment of Rhynchogale melleri",
+      "url": "https://ewt.org/project/mellers-mongoose/",
+      "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Used for regional status, distribution, habitat, habits, diet, young, predators, presence in Kruger National Park, and the Afrikaans name Meller se Muishond. The stored English and Afrikaans names are the 2011 checklist forms. Cited, not hosted."
+    },
+    {
+      "title": "A conservation assessment of Rhynchogale melleri",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/37.-Mellers-Mongoose-Rhynchogale-melleri-_LC.pdf",
+      "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Used for the swollen upper lip and variable tail-hair note, Kruger habitat from low-lying granitic soils to mountainous areas, and the 2016 regional status. Cited, not hosted."
+    }
+  ]
+}

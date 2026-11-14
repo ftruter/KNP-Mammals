@@ -1,0 +1,321 @@
+{
+  "kind": "species",
+  "slug": "mungos-mungo",
+  "scientificName": "Mungos mungo",
+  "commonNames": {
+    "en": "Banded mongoose",
+    "af": "Gebande muishond"
+  },
+  "family": "herpestidae",
+  "inatTaxonId": 41921,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Banded Mongoose",
+        "url": "https://ewt.org/project/banded-mongoose/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend unknown (the assessment also says the trend is probably stable, given a wide habitat tolerance and a lack of major threats). No change from 2016. Afrikaans names Gebande Muishond and Barasinga."
+      },
+      {
+        "title": "Banded mongoose",
+        "url": "https://en.wikipedia.org/wiki/Banded_mongoose",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2016 IUCN assessment (Gilchrist and Do Linh San), Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 30,
+      "max": 45
+    },
+    "tailCm": {
+      "min": 15,
+      "max": 30
+    },
+    "massKg": {
+      "min": 1.5,
+      "max": 2.25
+    },
+    "note": "Head-and-body length (30–45 cm), tail (15–30 cm) and mass (1.5–2.25 kg) follow Wikipedia, which cites the Smithsonian National Zoo and krugerpark.co.za; the 30–45 cm length is entered as head-and-body because the tail is given separately. Animal Diversity Web, citing Skinner and Smithers (1990), gives a total length of 55–60 cm, says the tail is usually about half the head-and-body length, and gives mass as 1.0–1.5 kg (average 1.3 kg). Those disagreements are recorded rather than averaged. Wikipedia also describes the tail as almost as long as the rest of the body, which does not match the ADW proportion. Shoulder height was not published in the sources used, so that range field is omitted. Animals of wetter areas are said to be larger and darker than those of drier regions. There is no apparent sexual dimorphism."
+  },
+  "summary": "A sturdy, diurnal mongoose of savanna and woodland, usually seen in packs. The greyish-brown coat is marked by dark horizontal bars across the back, the snout and legs are darker, and the tail is long. It forages by day, often on beetles and millipedes, and dens in termite mounds.",
+  "description": "The banded mongoose is a compact, short-legged mongoose with a large head, small ears, a pointed muzzle and a long tail. The rough coat is greyish brown to reddish-brown, with several dark brown to black horizontal bars across the back from mid-back to the base of the tail. The limbs and snout are darker than the body, the underparts are lighter, and the feet and tail tip are usually dark. The nose ranges from grey-brown to orange-red. Long, curved claws on the front feet are used for digging. Animals of wetter areas are larger and darker than those of drier regions, and coat colour varies among individuals. There is no apparent sexual dimorphism.",
+  "habits": "It is diurnal and highly social, living in mixed-sex packs. Sources disagree on typical group size: Wikipedia gives 5–75 animals with an average of about 20; the EWT assessment gives 4–29; Animal Diversity Web gives 10–20. The pack forages together, usually in the morning and again in the late afternoon, but each animal searches for food on its own, digging with the nose close to the ground. Low grunts are given every few seconds while foraging. Dens are most often in termite mounds, also in rock shelters, thickets and gullies, and the pack changes den frequently, often after only a few days. When danger is sensed, an animal may give a high-pitched chitter and stand fully upright to look around; if escape is difficult the pack may bunch together, with the young toward the centre. Wikipedia records a compact huddle, heads facing outwards, when the pack is hard-pressed by predators such as African wild dogs. Relations between packs can be aggressive. The species has also been seen removing ticks from warthogs, and it may den in buildings where it lives near people. It is present in the Lowveld, including Kruger, and is recorded in the park around roads and rest camps.",
+  "diet": {
+    "summary": "Mainly insectivorous. Beetles and millipedes make up most of the diet, with ants, termites, crickets, grasshoppers, caterpillars, earwigs and snails also taken. It also eats small reptiles, frogs, rodents, ground birds, the eggs of birds and reptiles, and wild fruit, and it will visit the dung of large herbivores for beetles. Hard items such as eggs or snails are thrown against a stone or other hard surface, and prey that secrete toxins may be rolled on the ground before they are eaten.",
+    "items": [
+      "beetles",
+      "millipedes",
+      "other insects and snails",
+      "lizards and small snakes",
+      "frogs",
+      "mice and rats",
+      "birds and eggs",
+      "wild fruit"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "All females in a pack can breed, and births in a group are usually synchronised. Sources disagree on gestation: Wikipedia gives 60–70 days, Animal Diversity Web about two months (and an AnAge figure of 60 days), and the EWT assessment, citing Cant (2000), gives 90 days. Litters are of two to six pups (Wikipedia gives an average of four; EWT gives a mean of 3.32). Newborns are blind, with only sparse hair; the eyes begin to open at about ten days, and a juvenile coat is well developed by two weeks. Pups stay in the den for about four weeks, often with a helper or escort, and start to accompany adults on foraging trips from about four to five weeks. In drier regions, one or two litters a year have been recorded, a pattern that the EWT assessment says may apply to much of semi-arid South Africa; in equatorial Uganda the species may breed up to four times a year. A Kruger-specific birth-month range was not found.",
+  "predators": [
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog",
+      "note": "Named by Wikipedia as a predator that may press a pack into a defensive huddle. No Kruger-specific predation record was found in the sources used."
+    }
+  ],
+  "prey": [],
+  "habitat": "Savanna and woodland, usually close to water, and also dry thorny bushland. It is absent from desert, semi-desert and montane regions. Termite mounds are the usual dens, with an average den density of 0.71 dens/ha recorded on a mixed cattle and game farm in KwaZulu-Natal. In the assessment region it occurs in bushveld in Limpopo, Mpumalanga, Gauteng, North West and coastal KwaZulu-Natal, and it is still recorded in the Lowveld reserves, including Kruger.",
+  "similar": [
+    {
+      "slug": "helogale-parvula",
+      "note": "The dwarf mongoose lives in smaller groups and uses dens that depend more on vegetation cover and have fewer entrances. It does not have the dark horizontal bars across the back that distinguish the banded mongoose. The two species may use the same dens, but not at the same time."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment does not give a park or regional head-count; the number of mature individuals is listed as unknown, and the regional trend is unknown, though the same page says the trend is probably stable given a wide habitat tolerance and a lack of major threats. Densities cited there are from other reserves (2.4 individuals/km² at Vernon Crookes Nature Reserve in KwaZulu-Natal, 2.2/km² on the Serengeti plains, and 18/km² in Queen Elizabeth National Park, Uganda) and are not Kruger counts.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Banded Mongoose",
+        "url": "https://ewt.org/project/banded-mongoose/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "small"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "large head with a darker snout; the nose is grey-brown to orange-red",
+          "muzzle": "pointed",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "greyish-brown",
+            "reddish-brown"
+          ],
+          "pattern": "dark brown to black horizontal bars across the back, from mid-back to the base of the tail"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": "lighter than the upperparts"
+        },
+        "legs": {
+          "colour": "darker than the body, with usually dark feet"
+        },
+        "tail": {
+          "colour": [
+            "greyish-brown",
+            "black"
+          ],
+          "shape": "long, the tip usually dark"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A sturdy, low body with dark horizontal bars across the back, a darker snout and legs, and a long tail."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Small ears, a pointed muzzle and a grey-brown to orange-red nose. An alert animal may stand fully upright on the hind legs."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "contact",
+      "description": "Low grunts given every few seconds while the pack is foraging, used to keep in touch.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A high-pitched warning chitter when danger is sensed. If the pack is scattered, members chitter to keep in contact, and the calls become higher as the animals draw further apart.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "mungos-mungo/letaba-h1-6-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Banded_Mongoose_(Mungos_mungo)_(13740518923).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Banded_Mongoose_%28Mungos_mungo%29_%2813740518923%29.jpg/1280px-Banded_Mongoose_%28Mungos_mungo%29_%2813740518923%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Banded mongoose in profile in tall green grass, showing the barred back and reddish snout, in Kruger National Park",
+      "caption": "Adult, H1-6 road north of Letaba, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "mungos-mungo/letaba-h1-6-alert.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Banded_Mongoose_(Mungos_mungo)_(13740950804).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Banded_Mongoose_%28Mungos_mungo%29_%2813740950804%29.jpg/1280px-Banded_Mongoose_%28Mungos_mungo%29_%2813740950804%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Banded mongoose standing upright and facing the camera in tall grass, in Kruger National Park",
+      "caption": "Adult standing alert, H1-6 road north of Letaba, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "mungos-mungo/lower-sabie-h4-1-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Day_25_Banded_Mongoose_(Mungos_mungo)_(53474331682).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Day_25_Banded_Mongoose_%28Mungos_mungo%29_%2853474331682%29.jpg/1280px-Day_25_Banded_Mongoose_%28Mungos_mungo%29_%2853474331682%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Banded mongoose standing in profile on a dirt verge, showing clear bars across the back, in Kruger National Park",
+      "caption": "Adult, H4-1 road west of Lower Sabie, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "mungos-mungo/nkuhlu-foraging.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Day_4_Banded_Mongoose_(Mungos_mungo)_munching_a_dig-up_cricket_..._(53210055543).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Day_4_Banded_Mongoose_%28Mungos_mungo%29_munching_a_dig-up_cricket_..._%2853210055543%29.jpg/1280px-Day_4_Banded_Mongoose_%28Mungos_mungo%29_munching_a_dig-up_cricket_..._%2853210055543%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Close side view of a banded mongoose holding prey in its mouth, showing the barred back and dark legs, in Kruger National Park",
+      "caption": "Adult eating a cricket it had dug up, H4-1 road north of Nkuhlu, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "mungos-mungo/crocodile-bridge-adult-and-young.jpg",
+      "view": "standing-front",
+      "age": "mixed",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Banded_Mongooses_(Mungos_mungo)_adult_and_young_..._(52721609398).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Banded_Mongooses_%28Mungos_mungo%29_adult_and_young_..._%2852721609398%29.jpg/1280px-Banded_Mongooses_%28Mungos_mungo%29_adult_and_young_..._%2852721609398%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "An adult banded mongoose and a smaller young animal standing together in green grass, in Kruger National Park",
+      "caption": "Adult and young, Crocodile Bridge, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Banded mongoose",
+      "url": "https://en.wikipedia.org/wiki/Banded_mongoose",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Mungos mungo account",
+      "url": "https://animaldiversity.org/accounts/Mungos_mungo/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Banded Mongoose",
+      "url": "https://ewt.org/project/banded-mongoose/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Sources disagree on length, mass, tail proportion, group size and gestation. No reusable Kruger recording was found. Iris colour, ear colour, a named underpart colour and shoulder height were not found. A Kruger-specific birth-month range was not found.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Shoulder height was not published in the sources used, so that range field is omitted.",
+    "Sources disagree on head-and-body versus total length, mass, the length of the tail relative to the body, typical group size, and gestation (60–70 days, about two months, or 90 days).",
+    "A Kruger-specific birth-month range was not found beyond a general account of one or two litters a year in drier regions, which may apply to much of semi-arid South Africa.",
+    "Iris colour, ear colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "No reusable Kruger recording found.",
+    "A 2016 regional Red List PDF URL was not found on the 2025 EWT page, so that assessment is cited only through the 2025 HTML page and the IUCN year given on Wikipedia."
+  ]
+}
