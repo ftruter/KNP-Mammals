@@ -1,0 +1,29 @@
+"$schema" = "./node_modules/wrangler/config-schema.json"
+name = "knp-mammals"
+main = "src/worker.js"
+account_id = "fd74641e5d61594bd1580237979194aa"
+compatibility_date = "2026-10-30"
+
+# Workers Caching sits in front of the Worker and honours Cache-Control. Its
+# key includes the Worker version, and DATA_VERSION is a Worker var, so a
+# data-only deploy starts with an empty cache.
+[cache]
+enabled = true
+
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+
+[[kv_namespaces]]
+binding = "MAMMALS_KV"
+id = "93d49abe1a594aadb7c5bbbdaf23cf75"
+
+# Uncomment to bind the public domain. Until then the Worker is served from
+# its workers.dev address only.
+# [[routes]]
+# pattern = "mammals.truter.world"
+# custom_domain = true

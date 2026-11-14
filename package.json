@@ -1,0 +1,27 @@
+{
+  "name": "knp-mammals",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Mammals of Kruger National Park, served by a Cloudflare Worker.",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint . && prettier --check \"**/*.{js,mjs}\"",
+    "format": "prettier --write \"**/*.{js,mjs}\"",
+    "seed": "node scripts/seed.mjs",
+    "kv:dry-run": "node scripts/publish-kv.mjs --dry-run",
+    "kv:publish": "node scripts/publish-kv.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "dev": "wrangler dev",
+    "check": "wrangler deploy --dry-run --outdir dist"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "prettier": "^3.10.0",
+    "wrangler": "^4.160.0"
+  }
+}
