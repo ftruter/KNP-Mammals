@@ -1,0 +1,320 @@
+{
+  "kind": "species",
+  "slug": "civettictis-civetta",
+  "scientificName": "Civettictis civetta",
+  "commonNames": {
+    "en": "African civet",
+    "af": "Afrikaanse siwet"
+  },
+  "family": "viverridae",
+  "inatTaxonId": 41627,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "African Civet",
+        "url": "https://ewt.org/project/african-civet/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend unknown. Kruger holds the largest protected subpopulation, but no count is given."
+      },
+      {
+        "title": "A conservation assessment of Civettictis civetta",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/10.-African-Civet-Civettictis-civetta_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "African civet",
+        "url": "https://en.wikipedia.org/wiki/African_civet",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 67,
+      "max": 84
+    },
+    "tailCm": {
+      "min": 34,
+      "max": 47
+    },
+    "massKg": {
+      "min": 7,
+      "max": 20
+    },
+    "note": "Head-and-body length (67–84 cm) and tail (34–47 cm) follow Wikipedia. Wikipedia gives mass as both 11–15 kg and 7–20 kg; the wider published range is entered, and the narrower 11–15 kg range is noted. Animal Diversity Web gives mass of 12–15 kg, head-and-body length of 24–36 in (about 61–91 cm) and tail length of 17–24 in (about 43–61 cm). Those disagreements are recorded rather than averaged. Shoulder height was published only as an average of 40 cm and is omitted."
+  },
+  "summary": "A stocky, nocturnal viverrid with a grey, black-spotted coat, a black-and-white face, black legs and a banded tail. It is often seen after dark on Kruger camp roads, and it marks regular latrines, or civetries.",
+  "description": "The African civet is the largest African viverrid. It has a deep-chested body, a grey coat patterned with black spots and bands, black legs, and a tail ringed with black and ending in a dark tip. The face is boldly marked in black and white, with a pale muzzle. When threatened it can raise a dark erectile crest along the back. Sexes are similar in colour.",
+  "habits": "It is nocturnal and usually solitary. It uses regular paths and leaves droppings at communal latrines known as civetries. When alarmed it may raise the dorsal crest. It is often recorded around rest camps in Kruger after dark.",
+  "diet": {
+    "summary": "An opportunistic omnivore, taking fruit, insects, millipedes, small vertebrates and carrion.",
+    "items": [
+      "fruit",
+      "insects",
+      "millipedes",
+      "small vertebrates",
+      "carrion"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "In southern Africa, breeding is usually between August and January. Litters are of 1–4 young, which are born already furred. A Kruger-specific birth-month range was not found.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    }
+  ],
+  "prey": [],
+  "habitat": "Woodland, riverine bush and the edges of rest camps, usually with cover and water nearby. It is widespread in Kruger but is most often seen at night.",
+  "similar": [
+    {
+      "slug": "genetta-fieldiana",
+      "note": "The large-spotted genet is much smaller and slimmer, with a more lightly built body, a longer ringed tail and no heavy black face mask or black legs."
+    },
+    {
+      "slug": "genetta-felina",
+      "note": "The small-spotted genet is much smaller and slimmer, with small spots and a white tail tip, not a heavy civet mask or black legs."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment says Kruger holds the largest protected subpopulation in the region, but it does not give a count.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Secondary source quoting SANParks surveys or estimates."
+      },
+      {
+        "title": "African Civet",
+        "url": "https://ewt.org/project/african-civet/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "boldly marked in black and white, with a pale muzzle",
+          "muzzle": "pale",
+          "beard": null
+        },
+        "mane": {
+          "colour": "dark",
+          "shape": "erectile crest along the back, raised when the animal is threatened"
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "black"
+          ],
+          "pattern": "black spots and bands on a grey coat"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "black"
+        },
+        "tail": {
+          "colour": "ringed with black, dark at the tip",
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A deep-chested, spotted body, black legs, a banded tail and a black-and-white face."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The pale muzzle and black-and-white face mask are the clearest marks from the front."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A general field description of the calls was not found in the sources consulted for this file.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "civettictis-civetta/kruger-daylight.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/414428717",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/762895421/large.jpg",
+      "author": "milliewhite567",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "African civet standing in daylight, seen from a three-quarter angle, in Kruger National Park",
+      "caption": "Adult, Mopani District, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "civettictis-civetta/kruger-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/332567419",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/603577363/large.jpg",
+      "author": "Rebecca Ryen Stols",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "African civet standing in profile at night in Kruger National Park",
+      "caption": "Adult at night, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "civettictis-civetta/kruger-punda-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/19455394",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29932620/large.jpeg",
+      "author": "Carmelo López Abad",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "African civet facing the camera at night at Punda Maria Rest Camp, Kruger National Park",
+      "caption": "Adult at night, Punda Maria Rest Camp, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "civettictis-civetta/kruger-lying.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Civet_cat_Kruger_South_Africa.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Civet_cat_Kruger_South_Africa.jpg/1280px-Civet_cat_Kruger_South_Africa.jpg",
+      "author": "amanderson2",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "African civet lying in grass in profile in Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "African civet",
+      "url": "https://en.wikipedia.org/wiki/African_civet",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Civettictis civetta account",
+      "url": "https://animaldiversity.org/accounts/Civettictis_civetta/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "African Civet",
+      "url": "https://ewt.org/project/african-civet/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Civettictis civetta",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/10.-African-Civet-Civettictis-civetta_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Shoulder height was published only as an average and was omitted. Sources disagree on length and mass. No reusable Kruger recording was found. Night photographs from rest camps were used where they clearly show the animal; tracks and very dark frames were not.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Shoulder height was published only as an average of 40 cm, so that range field is omitted.",
+    "Sources disagree on head-and-body length, tail length and mass.",
+    "A general field description of the calls was not found in the sources consulted.",
+    "No Kruger-specific birth-month range was found beyond a general southern African breeding season of August to January.",
+    "Iris colour, ear colour and underpart colour were not given as named values in the sources used, so those marks are null.",
+    "No reusable Kruger recording found."
+  ]
+}

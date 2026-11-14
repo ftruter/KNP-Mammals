@@ -1,0 +1,333 @@
+{
+  "kind": "species",
+  "slug": "otocyon-megalotis",
+  "scientificName": "Otocyon megalotis",
+  "commonNames": {
+    "en": "Bat-eared fox",
+    "af": "Bakoorvos"
+  },
+  "family": "canidae",
+  "inatTaxonId": 42095,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Bat-eared Fox",
+        "url": "https://ewt.org/project/bat-eared-fox/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable. No Kruger figure, and no Kruger mention, on that page."
+      },
+      {
+        "title": "A conservation assessment of Otocyon megalotis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/30.-Bat-eared-Fox-Otocyon-megalotis_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Bat-eared fox",
+        "url": "https://en.wikipedia.org/wiki/Bat-eared_fox",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 30,
+      "max": 40
+    },
+    "headBodyLengthCm": {
+      "min": 46,
+      "max": 66
+    },
+    "tailCm": {
+      "min": 23,
+      "max": 34
+    },
+    "massKg": {
+      "min": 3,
+      "max": 5.3
+    },
+    "note": "Shoulder height (30–40 cm), head-and-body length (46–66 cm), tail (23–34 cm) and mass (3–5.3 kg) are given in both Wikipedia and Animal Diversity Web. Ear length is 11–13 cm on Wikipedia and 114–135 mm (11.4–13.5 cm) on Animal Diversity Web. Females are generally a little larger than males; that is not entered as a separate range."
+  },
+  "summary": "A small, greyish fox with enormous ears, a short muzzle and a bushy, dark-tipped tail, specialised for eating insects, especially harvester termites. It is on the Kruger checklist, but no recent Kruger records were found in this session.",
+  "description": "The bat-eared fox is a lightly built fox with ears about 11–13 cm long, a short, sharp muzzle and a grey to buff coat. The legs are dark, the tail is bushy and usually dark towards the tip, and the face has dark markings. Sexes are similar in colour, and females are generally a little larger than males. Southern African animals belong to the subspecies Otocyon megalotis megalotis.",
+  "habits": "In southern Africa it usually lives in monogamous pairs. In South Africa it is typically nocturnal in summer and more often active by day in winter. It forages mainly for insects, using its hearing to find prey in the soil and dung. It has relatively few vocalisations, with contact and warning calls heard most often in winter.",
+  "diet": {
+    "summary": "An insectivore, with a strong preference for harvester termites, but also taking other insects and, at times, small vertebrates and fruit.",
+    "items": [
+      "harvester termites",
+      "other insects",
+      "small vertebrates",
+      "fruit"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Pups emerge from the den at about 17 days, are weaned at about 15 weeks, and are fully grown at about five to six months. A Kruger-specific birth-month range was not found.",
+  "predators": [
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    }
+  ],
+  "prey": [],
+  "habitat": "Open short-grass country and lightly wooded savanna, typically with termites. In South Africa it is best known from arid parks such as Kgalagadi; a Kruger-specific habitat account was not found.",
+  "similar": [
+    {
+      "slug": "lupulella-mesomelas",
+      "note": "The black-backed jackal is larger, with a silver-and-black saddle and smaller ears, and lacks the bat-eared fox's huge ear size and short muzzle."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment does not give a Kruger count, and no iNaturalist observations of any grade were found in Kruger (place 69020). The species is kept because it is on the 2011 checklist.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Secondary source quoting SANParks surveys or estimates."
+      },
+      {
+        "title": "Bat-eared Fox",
+        "url": "https://ewt.org/project/bat-eared-fox/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "very large, about 11–13 cm long"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "short, sharp muzzle with dark facial markings",
+          "muzzle": "short",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "buff"
+          ],
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "dark"
+        },
+        "tail": {
+          "colour": "usually dark towards the tip",
+          "shape": "bushy"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The enormous ears and short muzzle are the clearest marks from the front."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A small greyish fox with oversized ears, dark legs and a bushy, dark-tipped tail."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "It has relatively few vocalisations. Contact and warning calls are heard most often in winter.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "otocyon-megalotis/kgalagadi-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Bat-eared_fox,_Otocyon_megalotis,_at_Kgalagadi_Transfrontier_Park,_Northern_Cape,_South_Africa_(34193160604).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834193160604%29.jpg/1280px-Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834193160604%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "Bat-eared fox facing the camera, showing very large ears, in Kgalagadi Transfrontier Park",
+      "caption": "Adult, Kgalagadi Transfrontier Park, Northern Cape. No reusable Kruger photograph was found."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "otocyon-megalotis/kgalagadi-three-quarter.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Bat-eared_fox,_Otocyon_megalotis,_at_Kgalagadi_Transfrontier_Park,_Northern_Cape,_South_Africa_(34193161324).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834193161324%29.jpg/1280px-Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834193161324%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "Bat-eared fox standing and facing slightly to one side in Kgalagadi Transfrontier Park",
+      "caption": "Adult, Kgalagadi Transfrontier Park, Northern Cape. No reusable Kruger photograph was found."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "otocyon-megalotis/kgalagadi-pair.jpg",
+      "view": "herd",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Bat-eared_fox,_Otocyon_megalotis,_at_Kgalagadi_Transfrontier_Park,_Northern_Cape,_South_Africa_(34649391210).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834649391210%29.jpg/1280px-Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834649391210%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "A pair of bat-eared foxes standing together in Kgalagadi Transfrontier Park",
+      "caption": "Pair, Kgalagadi Transfrontier Park, Northern Cape. No reusable Kruger photograph was found."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "otocyon-megalotis/kgalagadi-foraging.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Bat-eared_fox,_Otocyon_megalotis,_at_Kgalagadi_Transfrontier_Park,_Northern_Cape,_South_Africa_(34905054911).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834905054911%29.jpg/1280px-Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834905054911%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "Bat-eared fox foraging in profile in Kgalagadi Transfrontier Park",
+      "caption": "Adult foraging, Kgalagadi Transfrontier Park, Northern Cape. No reusable Kruger photograph was found."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "otocyon-megalotis/kgalagadi-looking-back.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Bat-eared_fox,_Otocyon_megalotis,_at_Kgalagadi_Transfrontier_Park,_Northern_Cape,_South_Africa_(34905056501).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834905056501%29.jpg/1280px-Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834905056501%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "Bat-eared fox in profile looking back, showing the large ear and bushy tail, in Kgalagadi Transfrontier Park",
+      "caption": "Adult, Kgalagadi Transfrontier Park, Northern Cape. No reusable Kruger photograph was found."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bat-eared fox",
+      "url": "https://en.wikipedia.org/wiki/Bat-eared_fox",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Otocyon megalotis account",
+      "url": "https://animaldiversity.org/accounts/Otocyon_megalotis/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "Bat-eared Fox",
+      "url": "https://ewt.org/project/bat-eared-fox/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Otocyon megalotis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/30.-Bat-eared-Fox-Otocyon-megalotis_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "low",
+    "needsReview": true,
+    "note": "No Kruger count, and no Kruger photographs, recordings, or iNaturalist observations of any grade, were found. The species is kept because it is on the 2011 checklist. All photographs are from Kgalagadi Transfrontier Park and are captioned as such. Eastern African photographs were not used.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "No reusable Kruger photograph was found.",
+    "No Kruger-specific birth-month range was found.",
+    "Iris colour, ear colour and underpart colour were not given as named values in the sources used, so those marks are null.",
+    "No reusable Kruger recording found."
+  ]
+}

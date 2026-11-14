@@ -1,0 +1,339 @@
+{
+  "kind": "species",
+  "slug": "lupulella-adusta",
+  "scientificName": "Lupulella adusta",
+  "commonNames": {
+    "en": "Side-striped jackal",
+    "af": "Witkwasjakkals"
+  },
+  "family": "canidae",
+  "inatTaxonId": 1210965,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Side-striped Jackal",
+        "url": "https://ewt.org/project/side-striped-jackal/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable (expanding westwards; increasing or at minimum stable). No Kruger census."
+      },
+      {
+        "title": "A conservation assessment of Canis adustus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/7.-Side-striped-Jackal-Canis-adustus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Side-striped jackal",
+        "url": "https://en.wikipedia.org/wiki/Side-striped_jackal",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 35,
+      "max": 50
+    },
+    "headBodyLengthCm": {
+      "min": 69,
+      "max": 81
+    },
+    "tailCm": {
+      "min": 30,
+      "max": 41
+    },
+    "massKg": {
+      "min": 7,
+      "max": 14
+    },
+    "note": "Shoulder height (35–50 cm), head-and-body length (69–81 cm), tail (30–41 cm) and mass follow Wikipedia, which gives 6.5–14 kg (rounded here to 7–14 kg). Animal Diversity Web gives 7–12 kg, with males 7.3–12 kg and females seldom above 10 kg. The Wikipedia range is entered; the ADW disagreement is noted."
+  },
+  "summary": "A greyish jackal with a pale stripe along each side and a white tail tip. It is more secretive and more often nocturnal than the black-backed jackal, and is the less often seen of the two jackals in Kruger.",
+  "description": "The side-striped jackal is a little greyer and less contrastingly marked than the black-backed jackal. A pale, often whitish stripe runs along each side, and the bushy tail has a white tip, which is a useful field mark at night. The ears are smaller and more rounded than in the black-backed jackal. Sexes are similar in colour.",
+  "habits": "It is typically monogamous and lives in pairs or small family groups. It is more omnivorous and often more nocturnal than the black-backed jackal, and is less often seen on open roads in daylight. It occurs widely in well-wooded country.",
+  "diet": {
+    "summary": "An opportunistic omnivore, taking fruit, insects, small vertebrates and carrion, and generally less dependent on hunting than the black-backed jackal.",
+    "items": [
+      "fruit",
+      "insects",
+      "small vertebrates",
+      "carrion"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "In southern Africa, breeding is usually between June and November. Gestation is 57–70 days. Litters are of 3–6 young.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    }
+  ],
+  "prey": [],
+  "habitat": "Woodland and well-vegetated savanna, including the edges of rest camps and quieter roads. It is often recorded in the central and northern parts of Kruger.",
+  "similar": [
+    {
+      "slug": "lupulella-mesomelas",
+      "note": "The black-backed jackal has a sharp silver-and-black saddle, reddish flanks, and a black tail tip rather than a white one."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment says the majority of the regional population is in Kruger and gives a regional estimate of 1,627–9,382 mature individuals; that range is not a Kruger census and is not entered as a park figure.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Secondary source quoting SANParks surveys or estimates."
+      },
+      {
+        "title": "Side-striped Jackal",
+        "url": "https://ewt.org/project/side-striped-jackal/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "smaller and more rounded than in the black-backed jackal"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "buff"
+          ],
+          "pattern": "a pale stripe along each side"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "white at the tip",
+          "shape": "bushy"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A pale stripe along the side and a white tail tip distinguish it from the black-backed jackal."
+    },
+    {
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The white tail tip is often the clearest mark when the animal is moving, especially at night."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A general field description of the calls was not found in the sources consulted for this file.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lupulella-adusta/kruger-running-brown.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/49457367",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/78510789/large.jpg",
+      "author": "Dave Brown",
+      "license": "CC0 1.0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "Side-striped jackal trotting, showing the pale side stripe and white tail tip, in Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lupulella-adusta/kruger-running-letaba.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Side-striped_Jackal_(Canis_adustus)_(50623616127).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Side-striped_Jackal_%28Canis_adustus%29_%2850623616127%29.jpg/1280px-Side-striped_Jackal_%28Canis_adustus%29_%2850623616127%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Side-striped jackal walking on a road at dusk, white tail tip visible, in Kruger National Park",
+      "caption": "Adult, S131 west of Letaba, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lupulella-adusta/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Lupulella_adustus_in_KNP_01.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Lupulella_adustus_in_KNP_01.jpg/1280px-Lupulella_adustus_in_KNP_01.jpg",
+      "author": "Valentin Moser",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Side-striped jackal standing in profile in Kruger National Park",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lupulella-adusta/kruger-pair.jpg",
+      "view": "herd",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Side-striped_Jackals_(Canis_adustus)-_rare_sighting_of_this_nocturnal_animal_..._(13799101285).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Side-striped_Jackals_%28Canis_adustus%29-_rare_sighting_of_this_nocturnal_animal_..._%2813799101285%29.jpg/1280px-Side-striped_Jackals_%28Canis_adustus%29-_rare_sighting_of_this_nocturnal_animal_..._%2813799101285%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "A pair of side-striped jackals on a road in Kruger National Park",
+      "caption": "Pair, S131 west of Letaba, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lupulella-adusta/kruger-mopani.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/37001736",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58583622/large.jpeg",
+      "author": "Tom Heijnen",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Side-striped jackal standing in profile near Mopani, Kruger National Park",
+      "caption": "Adult, Mopani, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Side-striped jackal",
+      "url": "https://en.wikipedia.org/wiki/Side-striped_jackal",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Canis adustus account",
+      "url": "https://animaldiversity.org/accounts/Canis_adustus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026,
+      "note": "The ADW account is under the older name Canis adustus, not Lupulella adusta."
+    },
+    {
+      "title": "Side-striped Jackal",
+      "url": "https://ewt.org/project/side-striped-jackal/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Canis adustus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/7.-Side-striped-Jackal-Canis-adustus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. The regional mature range on the EWT page is not entered as a park estimate. No reusable Kruger recording was found. Animal Diversity Web was consulted under Canis adustus. The stored Afrikaans name Witkwasjakkals is the 2011 checklist name.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "A general field description of the calls was not found in the sources consulted.",
+    "No Kruger-specific birth-month range was found beyond a general southern African breeding season of June to November.",
+    "Iris colour, ear colour and underpart colour were not given as named values in the sources used, so those marks are null.",
+    "Sources disagree on mass (6.5–14 kg versus 7–12 kg).",
+    "No reusable Kruger recording found."
+  ]
+}

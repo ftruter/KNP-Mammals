@@ -1,0 +1,328 @@
+{
+  "kind": "species",
+  "slug": "lupulella-mesomelas",
+  "scientificName": "Lupulella mesomelas",
+  "commonNames": {
+    "en": "Black-backed jackal",
+    "af": "Rooijakkals"
+  },
+  "family": "canidae",
+  "inatTaxonId": 1210966,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Black-backed Jackal",
+        "url": "https://ewt.org/project/black-backed-jackal/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable. No accurate regional or Kruger estimates; more than 10,000 in the assessment region."
+      },
+      {
+        "title": "A conservation assessment of Canis mesomelas",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Black-backed-Jackal-Canis-mesomelas_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Black-backed jackal",
+        "url": "https://en.wikipedia.org/wiki/Black-backed_jackal",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 38,
+      "max": 48
+    },
+    "headBodyLengthCm": {
+      "min": 67,
+      "max": 81
+    },
+    "massKg": {
+      "min": 6,
+      "max": 13
+    },
+    "note": "Shoulder height (38–48 cm), head-and-body length (67.3–81.2 cm, rounded here to 67–81 cm) and mass (6–13 kg) follow Wikipedia (citing Kingdon 2013 for mass). Animal Diversity Web gives a lower mass range of 5–10 kg, an average shoulder height of about 38 cm (not entered as a range), and only a loose total length of nearly a metre. The Wikipedia ranges are entered; the ADW disagreement is noted. No published tail-length range was found."
+  },
+  "summary": "A medium-sized jackal with reddish flanks and legs, a sharply defined black-and-silver saddle, and a black-tipped tail. It is widespread and often seen by day in Kruger, including along roads and near kills.",
+  "description": "The black-backed jackal has a slender body, a pointed muzzle and fairly large pointed ears. The back is a distinct saddle of black mixed with silver hair, set against reddish to tawny flanks and legs. The tail is bushy and black at the tip. Sexes are similar in colour.",
+  "habits": "It is typically monogamous and territorial. Pairs or family groups hunt and forage, and helpers may stay on to raise later litters. It is opportunistic and often active by day as well as at night. In southern Africa it is highly vocal, advertising with a high-pitched howl and giving sharp yelps in alarm.",
+  "diet": {
+    "summary": "An opportunistic carnivore and scavenger. It takes small mammals, birds, reptiles, insects, fruit and carrion, and will also take young antelope when it can.",
+    "items": [
+      "small mammals",
+      "birds",
+      "reptiles",
+      "insects",
+      "fruit",
+      "carrion",
+      "young antelope"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "In southern Africa, mating is usually between May and August. Gestation is about 60 days. Litters average about four pups, of which often only one to three survive. Older offspring may help at the den.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    }
+  ],
+  "prey": [
+    {
+      "slug": "aepyceros-melampus",
+      "en": "Impala",
+      "note": "Young animals, when taken."
+    }
+  ],
+  "habitat": "Open woodland, savanna and grassland, including road verges and the edges of rest camps. It uses a wide range of habitats as long as there is cover and food.",
+  "similar": [
+    {
+      "slug": "lupulella-adusta",
+      "note": "The side-striped jackal is greyer, has a pale stripe along the side, and has a white tail tip rather than a black one. It lacks the sharply defined silver-and-black saddle."
+    },
+    {
+      "slug": "otocyon-megalotis",
+      "note": "The bat-eared fox is smaller, with much larger ears, a greyish coat and no black saddle."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The EWT 2025 assessment says there are no accurate regional estimates, and that more than 10,000 animals occur in the assessment region as a whole; that figure is not Kruger-specific.",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Carnivore figures in this file come from special surveys. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Secondary source quoting SANParks surveys or estimates."
+      },
+      {
+        "title": "Black-backed Jackal",
+        "url": "https://ewt.org/project/black-backed-jackal/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "pointed, fairly large"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "pointed muzzle",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "black",
+            "silver",
+            "reddish",
+            "tawny"
+          ],
+          "pattern": "sharply defined black-and-silver saddle on the back, with reddish to tawny flanks"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "reddish to tawny"
+        },
+        "tail": {
+          "colour": "black at the tip",
+          "shape": "bushy"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The black-and-silver saddle is sharply set off from the reddish flanks, and the tail tip is black."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "In southern Africa the species is highly vocal. Sounds include yelping, woofing, whining, growling and cackling. A high-pitched whining howl is used to advertise, and the alarm is an explosive cry followed by short, high-pitched yelps.",
+      "recordings": [
+        {
+          "key": "inaturalist/2160413",
+          "source": "https://www.inaturalist.org/observations/400618839",
+          "fileUrl": "https://static.inaturalist.org/sounds/2160413.m4a?1789525456",
+          "author": "Punkus",
+          "license": "CC BY-NC 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "aiGenerated": false,
+          "hosted": false,
+          "place": "Satara Camp Road, Kruger National Park",
+          "date": "2026-09-16",
+          "note": "Field recording made early in the morning. The observation does not name the call type."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lupulella-mesomelas/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Black-backed_Jackal_(Canis_mesomelas)_female_..._(50258097742).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Black-backed_Jackal_%28Canis_mesomelas%29_female_..._%2850258097742%29.jpg/1280px-Black-backed_Jackal_%28Canis_mesomelas%29_female_..._%2850258097742%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Black-backed jackal in profile, showing the silver-and-black saddle and reddish flanks, in Kruger National Park",
+      "caption": "Adult, H1-3 south of Satara, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lupulella-mesomelas/kruger-three-quarter.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Black-backed_Jackal_(Lupulella_mesomelas)_(51916182814).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Black-backed_Jackal_%28Lupulella_mesomelas%29_%2851916182814%29.jpg/1280px-Black-backed_Jackal_%28Lupulella_mesomelas%29_%2851916182814%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Black-backed jackal standing and facing slightly towards the camera in Kruger National Park",
+      "caption": "Adult, S25 west of Crocodile Bridge, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "lupulella-mesomelas/kruger-running.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Black-backed_Jackal_(Lupulella_mesomelas)_(53049008236).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Black-backed_Jackal_%28Lupulella_mesomelas%29_%2853049008236%29.jpg/1280px-Black-backed_Jackal_%28Lupulella_mesomelas%29_%2853049008236%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Black-backed jackal walking or trotting along a road in Kruger National Park",
+      "caption": "Adult, H1-3 south of Satara, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Black-backed jackal",
+      "url": "https://en.wikipedia.org/wiki/Black-backed_jackal",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Canis mesomelas account",
+      "url": "https://animaldiversity.org/accounts/Canis_mesomelas/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026,
+      "note": "The ADW account is under the older name Canis mesomelas, not Lupulella mesomelas."
+    },
+    {
+      "title": "Black-backed Jackal",
+      "url": "https://ewt.org/project/black-backed-jackal/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Canis mesomelas",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Black-backed-Jackal-Canis-mesomelas_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. One reusable Kruger recording was included. A published tail-length range was not found. Animal Diversity Web was consulted under Canis mesomelas.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "No published tail-length range was found.",
+    "No Kruger-specific birth-month range was found beyond a general southern African mating season of May to August.",
+    "Iris colour, ear colour and underpart colour were not given as named values in the sources used, so those marks are null.",
+    "Sources disagree on mass (6–13 kg versus 5–10 kg)."
+  ]
+}
