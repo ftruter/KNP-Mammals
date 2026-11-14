@@ -92,6 +92,8 @@ A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and r
 | Page | KV key | Built from |
 | --- | --- | --- |
 | `/` | `index/families` | Counts of species, families, orders and full accounts |
+| `/orders` | `index/families` | The `order` of each family, with family and species counts |
+| `/order/<slug>` | `order/<slug>` | The families and species of one order. The slug is the Latin name in lower case |
 | `/families` | `index/families` | `data/families.json`, with species counts |
 | `/species` | `index/species` | `species` in `data/species-list.json`, with the Kruger estimate where a details file records one |
 | `/family/<slug>` | `family/<slug>` | `data/families.json` and its species |
@@ -99,7 +101,9 @@ A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and r
 
 A species with a details file gets a full account: a lead photograph, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls with recordings, more photographs and sources. A species without one says its details have not been published. Photographs and recordings load from their sources (`fileUrl`) and each carries its credit and licence; nothing is copied to this site yet. The field marks in `variants` are not shown yet.
 
-The tables on `/families`, `/species` and `/family/<slug>` sort with `?sort=` and `dir=asc` or `dir=desc`. The server sorts, so the header links work with scripts off; `/app.js` sorts in place when scripts are on. The default is English, A to Z. Latin breaks ties and empty values sort last.
+Orders are not in the site navigation. They are reached from the home page, from the Order column of the tables, and from family and species pages. They have Latin names only, because `data/families.json` records no English or Afrikaans name for an order.
+
+The tables on `/orders`, `/order/<slug>`, `/families`, `/species` and `/family/<slug>` sort with `?sort=` and `dir=asc` or `dir=desc`. The server sorts, so the header links work with scripts off; `/app.js` sorts in place when scripts are on. The default is the first column, A to Z; an order page has two tables and both follow the same query. Latin breaks ties and empty values sort last.
 
 There is no search, sitemap, credits page or MCP endpoint yet.
 
@@ -142,7 +146,7 @@ Workers Builds on `main` should use:
 
 `pnpm run deploy` fails the build if either step fails:
 
-1. Uploads the payload to the `MAMMALS_KV` namespace. Keys that are gone from `data/` are deleted only when they start with `species/`, `family/` or `index/`.
+1. Uploads the payload to the `MAMMALS_KV` namespace. Keys that are gone from `data/` are deleted only when they start with `species/`, `family/`, `order/` or `index/`.
 2. Deploys the Worker with `DATA_VERSION` (a SHA-256 of the payload) and `DATA_PUBLISHED_AT` (the time the upload finished).
 
 KV is written first so the new version renders the data it advertises. Workers Caching (`[cache]` in `wrangler.toml`) includes the Worker version in its key, and `DATA_VERSION` is a Worker var, so a data-only deploy starts with an empty cache. For 70 seconds after `DATA_PUBLISHED_AT`, responses are `no-store`, because a KV read can return the previous value for up to 60 seconds.

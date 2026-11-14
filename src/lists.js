@@ -40,8 +40,14 @@ const ORDER = {
   id: 'order',
   label: 'Order',
   value: (row) => textOf(row.order),
-  html: (row) => escapeHtml(row.order || '—'),
-  md: (row) => row.order || '—',
+  html: (row) =>
+    row.order && row.orderSlug
+      ? `<a href="/order/${escapeHtml(row.orderSlug)}">${escapeHtml(row.order)}</a>`
+      : escapeHtml(row.order || '—'),
+  md: (row) =>
+    row.order && row.orderSlug
+      ? `[${row.order}](/order/${row.orderSlug}.md)`
+      : row.order || '—',
 }
 
 const FAMILY = {
@@ -71,6 +77,36 @@ const SPECIES_COUNT = {
   md: (row) => String(row.speciesCount),
 }
 
+const ORDER_NAME = {
+  id: 'latin',
+  label: 'Order',
+  value: (row) => textOf(row.latin),
+  html: (row) =>
+    `<a href="/order/${escapeHtml(row.slug)}">${escapeHtml(row.latin)}</a>`,
+  md: (row) => `[${row.latin}](/order/${row.slug}.md)`,
+  rowHeader: true,
+}
+
+const FAMILY_COUNT = {
+  id: 'families',
+  label: 'Families',
+  numeric: true,
+  value: (row) => row.familyCount,
+  html: (row) => String(row.familyCount),
+  md: (row) => String(row.familyCount),
+}
+
+/** Orders have a Latin name only, so that is the name column. */
+export const ORDER_COLUMNS = [ORDER_NAME, FAMILY_COUNT, SPECIES_COUNT]
+/** The families and species of one order: the order is the page itself. */
+export const ORDER_FAMILY_COLUMNS = [name('family'), AF, LATIN, SPECIES_COUNT]
+export const ORDER_SPECIES_COLUMNS = [
+  name('species'),
+  AF,
+  LATIN,
+  FAMILY,
+  POPULATION,
+]
 export const FAMILY_COLUMNS = [name('family'), AF, LATIN, ORDER, SPECIES_COUNT]
 export const SPECIES_COLUMNS = [
   name('species'),
@@ -83,13 +119,13 @@ export const SPECIES_COLUMNS = [
 /** The species of one family: the family and order are the page itself. */
 export const FAMILY_SPECIES_COLUMNS = [name('species'), AF, LATIN, POPULATION]
 
-/** Reads ?sort= and dir= from a URL. Anything else is English, A to Z. */
+/** Reads ?sort= and dir= from a URL. Anything else is the first column, A to Z. */
 export const parseListQuery = (url, columns) => {
   const params = url instanceof URL ? url.searchParams : new URLSearchParams()
   const sort = params.get('sort')
   const dir = params.get('dir')
   if (!columns.some((column) => column.id === sort))
-    return { sort: 'en', dir: 'asc' }
+    return { sort: columns[0].id, dir: 'asc' }
   return { sort, dir: dir === 'desc' ? 'desc' : 'asc' }
 }
 

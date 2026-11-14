@@ -10,6 +10,8 @@ import { iconFiles } from './icon.js'
 import {
   familiesHtml,
   familyHtml,
+  orderHtml,
+  ordersHtml,
   homeHtml,
   notFoundHtml,
   speciesHtml,
@@ -18,6 +20,8 @@ import {
 import {
   familiesMarkdown,
   familyMarkdown,
+  orderMarkdown,
+  ordersMarkdown,
   homeMarkdown,
   notFoundMarkdown,
   speciesListMarkdown,
@@ -35,6 +39,8 @@ import { css } from './style.js'
 const RENDERERS = {
   home: { html: homeHtml, md: homeMarkdown },
   families: { html: familiesHtml, md: familiesMarkdown },
+  orders: { html: ordersHtml, md: ordersMarkdown },
+  order: { html: orderHtml, md: orderMarkdown },
   'species-list': { html: speciesListHtml, md: speciesListMarkdown },
   family: { html: familyHtml, md: familyMarkdown },
   species: { html: speciesHtml, md: speciesMarkdown },

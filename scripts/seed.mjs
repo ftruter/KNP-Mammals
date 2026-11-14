@@ -9,6 +9,8 @@
  *
  *   data/families.json                 → family/<slug>, index/families
  *   data/species-list.json (species)   → species/<slug>, index/species
+ *   the `order` of each family         → order/<slug>, and `orders` in
+ *                                        index/families
  *   data/species/details/<slug>.json   → merged into species/<slug> as
  *                                        `details`, when the file exists.
  *                                        Its similar, predators and prey
@@ -51,6 +53,14 @@ const checkSlug = (slug, what) => {
   if (typeof slug !== 'string' || !SLUG.test(slug))
     throw new Error(`${what} has a bad slug: ${JSON.stringify(slug)}`)
 }
+
+/** An order's slug is its Latin name in lower case. */
+export const orderSlug = (order) =>
+  String(order ?? '')
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
 
 const names = ({ slug, latin, en, af }) => ({
   slug,
@@ -100,7 +110,12 @@ export const deriveDocuments = ({ families, list, details = new Map() }) => {
     checkSlug(family.slug, 'family')
     if (familyBySlug.has(family.slug))
       throw new Error(`duplicate family ${family.slug}`)
-    familyBySlug.set(family.slug, { ...family, species: [] })
+    checkSlug(orderSlug(family.order), `the order of ${family.slug}`)
+    familyBySlug.set(family.slug, {
+      ...family,
+      orderSlug: orderSlug(family.order),
+      species: [],
+    })
   }
 
   const speciesBySlug = new Map()
@@ -138,23 +153,46 @@ export const deriveDocuments = ({ families, list, details = new Map() }) => {
       familyEn: family.en,
       familySlug: family.slug,
       order: family.order,
+      orderSlug: family.orderSlug,
     })
     documents.set(`species/${species.slug}`, {
       ...species,
       familyEn: family.en,
+      orderSlug: family.orderSlug,
       ...(detail ? { details: resolveDetails(detail, speciesBySlug) } : {}),
     })
   }
 
   const familyIndex = []
-  const orders = []
+  const orderBySlug = new Map()
   for (const family of familyBySlug.values()) {
     documents.set(`family/${family.slug}`, family)
-    if (!orders.includes(family.order)) orders.push(family.order)
-    familyIndex.push({
+    const row = {
       ...names(family),
       order: family.order,
+      orderSlug: family.orderSlug,
       speciesCount: family.species.length,
+    }
+    familyIndex.push(row)
+    if (!orderBySlug.has(family.orderSlug))
+      orderBySlug.set(family.orderSlug, {
+        slug: family.orderSlug,
+        latin: family.order,
+        families: [],
+        species: [],
+      })
+    orderBySlug.get(family.orderSlug).families.push(row)
+  }
+  for (const row of speciesIndex)
+    orderBySlug.get(row.orderSlug).species.push(row)
+  const orders = []
+  for (const order of orderBySlug.values()) {
+    documents.set(`order/${order.slug}`, order)
+    orders.push({
+      slug: order.slug,
+      latin: order.latin,
+      familyCount: order.families.length,
+      speciesCount: order.species.length,
     })
   }
 

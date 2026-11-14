@@ -18,6 +18,9 @@ import {
 import {
   FAMILY_COLUMNS,
   FAMILY_SPECIES_COLUMNS,
+  ORDER_COLUMNS,
+  ORDER_FAMILY_COLUMNS,
+  ORDER_SPECIES_COLUMNS,
   SORT_NOTE,
   SPECIES_COLUMNS,
   tableMarkdown,
@@ -37,10 +40,36 @@ An open field guide to the mammals of Kruger National Park. ${progressSentence(d
 
 ${ABOUT}
 
+- [Orders](/orders.md): ${doc.counts.orders}
 - [Families](/families.md): ${doc.counts.families}
 - [Species](/species.md): ${doc.counts.species}
 
 Every page has a \`.md\` and a \`.json\` view at the same address.
+`
+
+const orderLink = (doc) =>
+  doc.orderSlug
+    ? `[${one(doc.order)}](/order/${doc.orderSlug}.md)`
+    : one(doc.order)
+
+export const ordersMarkdown = (doc) => `# Orders
+
+An order is the group above the family.
+
+${tableMarkdown({ columns: ORDER_COLUMNS, rows: doc.orders, empty: 'No orders are listed.' })}
+`
+
+export const orderMarkdown = (doc) => `# ${one(doc.latin)}
+
+An order with ${doc.families.length} ${doc.families.length === 1 ? 'family' : 'families'} and ${doc.species.length} species in Kruger. All orders: [/orders.md](/orders.md).
+
+## Families
+
+${tableMarkdown({ columns: ORDER_FAMILY_COLUMNS, rows: listed(doc.families), empty: 'No families are listed for this order.' })}
+
+## Species
+
+${tableMarkdown({ columns: ORDER_SPECIES_COLUMNS, rows: listed(doc.species), empty: 'No species are listed for this order.' })}
 `
 
 export const familiesMarkdown = (doc) => `# Families
@@ -63,7 +92,7 @@ export const familyMarkdown = (doc) => {
 
 - Latin: *${one(doc.latin)}*
 - Afrikaans: ${doc.af ? one(doc.af) : '—'}
-- Order: ${one(doc.order)}
+- Order: ${orderLink(doc)}
 
 ## Species in Kruger
 
@@ -186,7 +215,7 @@ export const speciesMarkdown = (doc) => `# ${one(doc.en)}
 - Latin: *${one(doc.latin)}*
 - Afrikaans: ${doc.af ? one(doc.af) : '—'}
 - Family: [${one(doc.familyEn || doc.family)}](/family/${doc.familySlug}.md)
-- Order: ${one(doc.order)}
+- Order: ${orderLink(doc)}
 
 ${doc.details ? publishedSpecies(doc, doc.details) : unpublishedSpecies(doc)}`
 
@@ -195,6 +224,7 @@ export const notFoundMarkdown = () => `# Not found
 No page is published at this address.
 
 - [Home](/.md)
+- [Orders](/orders.md)
 - [Families](/families.md)
 - [Species](/species.md)
 `
