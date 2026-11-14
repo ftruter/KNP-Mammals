@@ -6,6 +6,7 @@ import {
   kvCache,
 } from './cache.js'
 import { clientJs } from './client.js'
+import { iconFiles } from './icon.js'
 import {
   familiesHtml,
   familyHtml,
@@ -22,7 +23,12 @@ import {
   speciesListMarkdown,
   speciesMarkdown,
 } from './markdown.js'
-import { jsonBody, pageResponse, redirectResponse } from './respond.js'
+import {
+  iconResponse,
+  jsonBody,
+  pageResponse,
+  redirectResponse,
+} from './respond.js'
 import { readDocument } from './store.js'
 import { css } from './style.js'
 
@@ -58,6 +64,8 @@ export const renderRoute = async (request, env, route) => {
     return redirectResponse(route.location, REDIRECT_CACHE)
   if (route.kind === 'style')
     return pageResponse({ body: css, format: 'css', cache: ASSET_CACHE })
+  if (route.kind === 'icon')
+    return iconResponse(iconFiles[route.pathname], ASSET_CACHE)
   if (route.kind === 'script')
     return pageResponse({ body: clientJs, format: 'js', cache: ASSET_CACHE })
 

@@ -101,7 +101,7 @@ A species with a details file gets a full account: a lead photograph, facts, des
 
 The tables on `/families`, `/species` and `/family/<slug>` sort with `?sort=` and `dir=asc` or `dir=desc`. The server sorts, so the header links work with scripts off; `/app.js` sorts in place when scripts are on. The default is English, A to Z. Latin breaks ties and empty values sort last.
 
-There is no search, sitemap, site icon, credits page or MCP endpoint yet.
+There is no search, sitemap, credits page or MCP endpoint yet.
 
 `candidates` and `excluded` are not published. `scripts/seed.mjs` derives the payload on every run and writes nothing back to `data/`. It adds names to the animals a details file points at (similar, predators, prey) and marks whether this guide lists them. It stops if a species names a family that is not in `data/families.json`, if a slug repeats, or if a details file has no listed species.
 
@@ -120,6 +120,16 @@ node scripts/seed.mjs > /tmp/mammals-kv.json
 pnpm exec wrangler kv bulk put /tmp/mammals-kv.json --local --binding MAMMALS_KV
 pnpm run dev
 ```
+
+## Site icon
+
+The drawing is [`icons/icon.svg`](icons/icon.svg): a zebra standing on "KNP", in the header's green and gold. After changing it, run:
+
+```sh
+pnpm icons
+```
+
+This needs `rsvg-convert` (librsvg) and rewrites `src/icons.generated.js`, which holds every size the Worker serves: `favicon.svg`, `favicon.ico`, `apple-touch-icon.png` and the 192 and 512 px PNGs. Browser tabs get the zebra alone, because the lettering is unreadable at 16 px. Its stripes are few and wide so that they survive at that size.
 
 ## Deploy
 

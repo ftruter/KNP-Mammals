@@ -59,6 +59,20 @@ export const pageResponse = ({
   return new Response(body, { status, headers })
 }
 
+/** A picture: nothing in it may run, even if it is opened as a page. */
+export const iconResponse = (icon, cache) => {
+  const headers = new Headers(SECURITY)
+  headers.set('content-type', icon.contentType)
+  headers.set(
+    'content-security-policy',
+    "default-src 'none'; style-src 'none'; script-src 'none'; sandbox",
+  )
+  headers.set('cache-control', cache)
+  headers.set('content-length', String(icon.body.length))
+  headers.set('access-control-allow-origin', '*')
+  return new Response(icon.body, { headers })
+}
+
 export const redirectResponse = (location, cache) => {
   const headers = baseHeaders('html', cache)
   headers.delete('content-type')
