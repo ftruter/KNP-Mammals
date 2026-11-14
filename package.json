@@ -8,6 +8,7 @@
     "test": "NODE_OPTIONS='--import ./test/register-raw-client.mjs' node --test",
     "lint": "eslint . && prettier --check \"**/*.{js,mjs}\"",
     "format": "prettier --write \"**/*.{js,mjs}\"",
+    "icons": "node scripts/build-icons.mjs",
     "seed": "node scripts/seed.mjs",
     "kv:dry-run": "node scripts/publish-kv.mjs --dry-run",
     "kv:publish": "node scripts/publish-kv.mjs",

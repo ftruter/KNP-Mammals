@@ -2,6 +2,15 @@ const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 
 export const STYLE_PATH = '/style.css'
 export const SCRIPT_PATH = '/app.js'
+/** The site icon in every size. Built by scripts/build-icons.mjs. */
+export const ICON_PATHS = [
+  '/favicon.ico',
+  '/favicon.svg',
+  '/apple-touch-icon.png',
+  '/icon-192.png',
+  '/icon-512.png',
+  '/icon-maskable-512.png',
+]
 
 /** The three views of one page: HTML, Markdown and the stored JSON. */
 export const alternates = (pathname) =>
@@ -28,6 +37,8 @@ export const parseUrl = (url) => {
   const rawPath = url.pathname
   if (rawPath === STYLE_PATH)
     return { kind: 'style', format: 'css', pathname: rawPath }
+  if (ICON_PATHS.includes(rawPath))
+    return { kind: 'icon', format: 'icon', pathname: rawPath }
   if (rawPath === SCRIPT_PATH)
     return { kind: 'script', format: 'js', pathname: rawPath }
   if (rawPath.length > 1 && rawPath.endsWith('/')) {

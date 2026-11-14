@@ -226,6 +226,34 @@ test('missing pages, other methods, redirects and the stylesheet', async () => {
   )
 })
 
+test('the site icon is linked and served in every size', async () => {
+  const body = await (await get('/')).text()
+  assert.match(
+    body,
+    /<link rel="icon" href="\/favicon\.svg\?v=[0-9a-f]+" type="image\/svg\+xml">/,
+  )
+  const types = {
+    '/favicon.ico': 'image/x-icon',
+    '/favicon.svg': 'image/svg+xml',
+    '/apple-touch-icon.png': 'image/png',
+    '/icon-192.png': 'image/png',
+    '/icon-512.png': 'image/png',
+    '/icon-maskable-512.png': 'image/png',
+  }
+  for (const [path, type] of Object.entries(types)) {
+    const response = await get(`${path}?v=1`)
+    assert.equal(response.status, 200, path)
+    assert.equal(response.headers.get('content-type'), type)
+    const bytes = new Uint8Array(await response.arrayBuffer())
+    assert.equal(String(bytes.length), response.headers.get('content-length'))
+    if (type === 'image/png')
+      assert.deepEqual([...bytes.slice(1, 4)], [0x50, 0x4e, 0x47], path)
+  }
+  const svg = await (await get('/favicon.svg')).text()
+  assert.match(svg, /^<svg xmlns/)
+  assert.ok(!svg.includes('M112 320'), 'the tab icon has no lettering')
+})
+
 test('a missing binding is a 500, not a crash', async () => {
   const response = await handleRequest(new Request(`${origin}/`), {})
   assert.equal(response.status, 500)

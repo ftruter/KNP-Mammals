@@ -1,4 +1,5 @@
 import { clientSrc, styleSrc } from './client.js'
+import { ICON_LINKS } from './icon.js'
 import { creditHtml, creditModel } from './credit.js'
 import { escapeHtml, inlineText, safeHttpUrl } from './escape.js'
 import {
@@ -78,6 +79,7 @@ export const layout = ({
 <link rel="canonical" href="${escapeHtml(origin + alts.html)}">
 <link rel="alternate" type="text/markdown" href="${escapeHtml(alts.md)}" title="Markdown">
 <link rel="alternate" type="application/json" href="${escapeHtml(alts.json)}" title="JSON">
+${ICON_LINKS}
 <link rel="stylesheet" href="${styleSrc}">
 <script type="module" defer src="${clientSrc}"></script>
 </head>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Master drawing for the site icon. scripts/build-icons.mjs reads the
+       "zebra" and "letters" groups and writes every size into
+       src/icons.generated.js. Green and gold are the site header colours
+       (src/style.js). The lettering is the same as on the KNP-birds icon. -->
+  <rect id="tile" width="512" height="512" rx="96" fill="#28602a"/>
+  <g id="zebra" fill="#F6C64D">
+    <!-- A zebra facing right. The stripes are few and wide so that some of
+         them survive at 16 px, where one pixel is about 20 units. The build
+         script takes the group up to its first closing tag, so the group
+         must not hold another group. -->
+    <clipPath id="coat"><path d="M132 172Q132 156 148 156H266L306 82L324 86L336 42L352 80L420 120L412 156L362 150L342 190V232Q342 246 328 246H146Q132 246 132 232Z"/></clipPath>
+    <path d="M132 172Q132 156 148 156H266L306 82L324 86L336 42L352 80L420 120L412 156L362 150L342 190V232Q342 246 328 246H146Q132 246 132 232Z"/>
+    <path d="M140 240h24v86h-24zM184 240h24v86h-24zM272 240h24v86h-24zM314 240h24v86h-24z"/>
+    <path d="M134 168L104 226L122 234L146 194Z"/>
+    <path clip-path="url(#coat)" fill="none" stroke="#28602a" stroke-width="22" d="M178 150L166 252M224 150L212 252M270 150L258 252M276 132L356 182M296 96L376 146"/>
+    <circle cx="374" cy="112" r="7" fill="#28602a"/>
+  </g>
+  <g id="letters" fill="none" stroke="#F6C64D" stroke-width="26" clip-path="url(#band)">
+    <clipPath id="band"><rect x="0" y="334" width="512" height="108"/></clipPath>
+    <path d="M112 320V456M186 320L138 375L192 456"/>
+    <path d="M225 456V334L295 442V320"/>
+    <path d="M343 456V347H378A27 27 0 0 1 378 401H343"/>
+  </g>
+</svg>
