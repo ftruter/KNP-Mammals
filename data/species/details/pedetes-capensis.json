@@ -1,0 +1,314 @@
+{
+  "kind": "species",
+  "slug": "pedetes-capensis",
+  "scientificName": "Pedetes capensis",
+  "commonNames": {
+    "en": "Springhaas",
+    "af": "Springhaas"
+  },
+  "family": "pedetidae",
+  "inatTaxonId": 45929,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Pedetes capensis",
+        "url": "https://ewt.org/project/springhare/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Least Concern, with a stable regional trend and no change from 2016. Afrikaans name given as Springhaas, also listed as an English name. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "South African springhare",
+        "url": "https://en.wikipedia.org/wiki/South_African_springhare",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2016 IUCN assessment (Child 2016, errata 2017), Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 30,
+      "max": 30
+    },
+    "headBodyLengthCm": {
+      "min": 35,
+      "max": 45
+    },
+    "tailCm": {
+      "min": 37,
+      "max": 48
+    },
+    "massKg": {
+      "min": 2.5,
+      "max": 3.5
+    },
+    "note": "Head-and-body length (35–45 cm) and tail (37–48 cm) follow Animal Diversity Web, which also gives a shoulder height of 30 cm when the animal sits on its hind legs; that sitting height is recorded here rather than treated as a standing shoulder height. Wikipedia and the 2025 EWT assessment give a maximum length of 80 cm including the tail; added to the ADW ranges, a total length can exceed that figure, and that disagreement is recorded rather than averaged. Mass of 2.5–3.5 kg is Wikipedia's average range; Animal Diversity Web gives a range of 3–4 kg. ADW also gives ear length as 7–9 cm. Wikipedia reports hops of 20 cm and leaps of 2 m; the 2025 EWT assessment gives jump distances of 0.8 m and a speed of 8.5 km/h. Those disagreements are recorded rather than averaged."
+  },
+  "summary": "A medium-sized, kangaroo-like nocturnal rodent with long hind legs, short forelegs, large eyes and ears, sandy to reddish-brown upperparts, paler underparts, and a long, bushy tail with a black or dark-brown tip. Despite the name, it is not a hare. Kruger holds a resident population, but records are patchy and concentrated where sandy soils allow burrowing, especially in the north of the park.",
+  "description": "The springhaas is a burrowing rodent, not a hare, and is one of two living species in its family; the other, the East African springhare, is confined to East Africa. It has a short head, a thick muscular neck, large eyes, and long ears, which Animal Diversity Web says are 7–9 cm long and have a tragus that keeps sand out while the animal digs. Wikipedia notes that the ear tips are sometimes black. The short forelegs have five digits with long, sharp, curved claws, up to 16 mm; the long hind legs have four digits, three of them well developed and ending in a strong triangular nail. The fur is long and soft, and shortens on the legs, head and ears. Upperparts are described as reddish-brown (Wikipedia), as sandy and cinnamon-coloured (the 2025 EWT assessment), or as reddish brown, sandy, tawny brown or cinnamon buff, sometimes with white or black hairs (Animal Diversity Web). Underparts are off-white (Wikipedia) or white, with a pale line running up the front of the thighs and the insides of the legs (Animal Diversity Web). The long, very hairy tail is about half the total length and ends in a thick black or dark-brown brush. Young have finer, fluffier fur and usually show black patches under the hind feet and at the base of the tail. The sexes are alike in appearance. The fur is biofluorescent, most strongly on areas used in grooming and in contact between animals.",
+  "habits": "It is almost exclusively nocturnal, foraging after dark and spending the day in a burrow, though Animal Diversity Web says it is occasionally active by day and the 2025 EWT assessment says it is sometimes seen in late afternoon in winter. It sleeps standing in the burrow, with the head and forelimbs tucked between the hind legs and the tail wrapped around the feet. It digs its own burrows in well-drained sandy soils, preferably in the wet season, often near a tree or shrub. A burrow is about 20 cm across, may be up to 1 m deep and 7 m long, and may cover up to 170 m², with several entrances, some marked by a spoil heap and others hidden. Animals usually stay in a given burrow for only a few days, and cohabitation is rare except for a mother with young. They plug entrances with soil. They are non-territorial, but mark burrows with perineal-gland secretions or urine. Wikipedia says they may feed in groups of up to nine; the 2025 EWT assessment gives groups of two to six, with little lasting group cohesion. Those figures are recorded rather than averaged. Foraging distance is given as 150–400 m from a burrow (Wikipedia), or up to 400 m at new moon and about 30 m at full moon (EWT); Animal Diversity Web places the home range within 25–250 m of the burrow. Radio-tracked animals in South Africa used burrows over 0.6–28.5 ha, or, in the EWT assessment, home ranges of 0.3–28 ha. If disturbed, a springhaas returns to its own burrow, often hopping on the hind legs. Unoccupied burrows are used as daytime shelter by other species, including black-footed cat and Temminck's ground pangolin. In Kruger, research-grade records are concentrated in the north of the park, consistent with a patchy dependence on sandy ground.",
+  "diet": {
+    "summary": "A herbivore and selective grazer. The 2025 EWT assessment says it feeds mainly on green grass seeds, and also on grass stems, leaves, corms, roots and rhizomes, often uprooting a plant and leaving much of it uneaten. Wikipedia likewise lists roots, stems, leaves and seeds, and notes that it may occasionally take insects such as beetles or locusts, or even carrion.",
+    "items": [
+      "green grass seeds",
+      "grass stems and leaves",
+      "corms, roots and rhizomes",
+      "occasional beetles, locusts or carrion"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "Sources agree that it breeds throughout the year and usually produces a single young, with up to three litters a year; Wikipedia notes that twins also occur, and that a female may be lactating and in early pregnancy at the same time. Gestation is about 77 days in Wikipedia and an average of 77 days in the 2025 EWT assessment; Animal Diversity Web gives 78–82 days. Those figures are recorded rather than averaged. The young is born in a burrow, already furred, at about 250–300 g (Wikipedia and EWT; Animal Diversity Web gives averages of 300 g for males and 278 g for females). Animal Diversity Web says the eyes usually open at three days. While the young remains in the burrow, the mother stays with it and does not move burrows every few days; the young depends entirely on her milk. It leaves the burrow at about seven weeks, weighing about 1.3 kg (Wikipedia) or about 1.5 kg (Animal Diversity Web). Animal Diversity Web says it reaches sexual maturity at a body weight of 2.5 kg, and lists a female age at maturity of 1,034 days; EWT repeats that 1,034-day figure. Wikipedia's oldest recorded individual was 88 months (seven years and four months); EWT and Animal Diversity Web give captive lifespans of 13–14 years and 13–14.5 years respectively.",
+  "prey": [],
+  "habitat": "Flat, arid and semi-arid country with deep, compact sandy soils for burrowing and open short grass for foraging; pans and pan edges are described as optimum habitat. The 2025 EWT assessment says it is generally absent from tall grass, dense woodland, and mopane or miombo on clay, poorly drained soils, and that within its South African range, which includes Limpopo and the western parts of Mpumalanga, the distribution is patchy and discontinuous. In Kruger it is resident but likewise patchy, with research-grade records concentrated in the north of the park.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2025 regional assessment gives only a very rough national estimate, and density figures from sites outside the park, which are not Kruger counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Pedetes capensis",
+        "url": "https://ewt.org/project/springhare/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "National density and population figures only; not a Kruger count. Cited only; the page is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "long, with a tragus that keeps sand out while digging; the tips are sometimes black"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "short head with large eyes and long ears",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "reddish-brown",
+            "sandy",
+            "cinnamon"
+          ],
+          "pattern": "long, soft fur, sometimes with scattered white or black hairs"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": "a pale line may run up the front of the thighs and the insides of the legs"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": [
+            "black",
+            "dark brown"
+          ],
+          "shape": "long, about half the total length, very hairy, ending in a thick dark brush"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A kangaroo-like outline: short forelegs, long hind legs, large ears, and a long, bushy tail ending in a black or dark-brown tip."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Large eyes and long ears face the viewer, with the short, clawed forelegs held close and the dark tail often visible behind the body."
+    },
+    {
+      "view": "running",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "It hops on the hind legs, using the long tail for balance."
+    }
+  ],
+  "calls": [],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "pedetes-capensis/goddard-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/186838030",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/326604769/large.jpg",
+      "author": "Luke Goddard",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Springhaas in profile at night in grass, showing the long ears, short forelegs, long hind legs and tail, in Kruger National Park",
+      "caption": "Adult at night, east of Punda Maria, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "pedetes-capensis/correia-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/168712951",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/292418486/large.jpeg",
+      "author": "Daniel Correia",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Springhaas at the edge of a gravel track at night, with the long black-tipped tail extended, in Kruger National Park",
+      "caption": "Adult at night, east of Punda Maria, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "pedetes-capensis/hanks-night-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/144738749",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/248482576/large.jpg",
+      "author": "Cullen Hanks",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "alt": "Springhaas facing the camera at night on sandy ground, showing the large ears and the dark tail behind the body, in Kruger National Park",
+      "caption": "Adult at night, north-east of Letaba, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "pedetes-capensis/heliastes21-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/37709893",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/59837799/large.jpeg",
+      "author": "heliastes21",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Springhaas sitting upright at night, in profile, with long ears, large eyes and a long tail, in Kruger National Park",
+      "caption": "Adult at night, north-east of Letaba, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "pedetes-capensis/van-tonder-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/361098944",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/658982011/large.jpg",
+      "author": "Rowan van Tonder",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Springhaas standing in profile at night on sandy ground, showing the long hind legs and tail, in Kruger National Park",
+      "caption": "Adult at night, south-east of Letaba, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "South African springhare",
+      "url": "https://en.wikipedia.org/wiki/South_African_springhare",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Pedetes capensis account",
+      "url": "https://animaldiversity.org/accounts/Pedetes_capensis/",
+      "publisher": "Animal Diversity Web",
+      "year": 2000,
+      "note": "Account by Adria Jackson, dated 2000. The geographic range still lumps the East African springhare, and an older Vulnerable statement in the text is at odds with the Least Concern listing on the same page; neither the lumped range nor that older status is used here."
+    },
+    {
+      "title": "A conservation assessment of Pedetes capensis",
+      "url": "https://ewt.org/project/springhare/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Cited only; the page is not hosted in this repo. Afrikaans name Springhaas."
+    },
+    {
+      "title": "A conservation assessment of Pedetes capensis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/51.-Springhare-Pedetes-capensis_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "2016 regional assessment, Least Concern. Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The stored English name is Springhaas, as printed on the 2011 SANParks checklist; EWT also lists Springhaas as an English name, alongside Springhare and South African Springhare. Presence in Kruger is supported by that checklist and by research-grade iNaturalist records, which are concentrated in the north of the park. No Kruger population figure was found. Sources disagree on mass, total length, leap distance, foraging distance, group size, gestation, the weight of the young when it leaves the burrow, and lifespan; those disagreements are recorded rather than averaged. No vocal call was described and no Kruger recording was found. No source named a confusable Kruger species, so similar is empty. No Kruger-specific predator list was given, so predators is omitted. Animal Diversity Web's older lumped range and an outdated Vulnerable sentence in that account were not used.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Sources disagree on mass, total length versus head-and-body plus tail, leap distance, foraging or home-range distance, feeding-group size, gestation, the weight of the young when it leaves the burrow, and lifespan; those disagreements are recorded rather than averaged.",
+    "A standing shoulder height was not given; the 30 cm figure is a sitting height from Animal Diversity Web.",
+    "Iris colour, ear colour, muzzle colour and a named leg colour were not given in the sources used, so those marks are null.",
+    "No vocal call was described in the sources used, and no reusable Kruger recording was found.",
+    "No source named a confusable Kruger species, so similar is empty.",
+    "Sources name many predators in southern Africa and the Kalahari, but do not give a Kruger-specific list, so predators is omitted."
+  ]
+}
