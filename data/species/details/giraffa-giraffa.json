@@ -1,0 +1,420 @@
+{
+  "kind": "species",
+  "slug": "giraffa-giraffa",
+  "scientificName": "Giraffa giraffa",
+  "commonNames": {
+    "en": "Giraffe",
+    "af": "Kameelperd"
+  },
+  "family": "giraffidae",
+  "inatTaxonId": 1510571,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho. A species-level IUCN global assessment for Giraffa giraffa was not found in the sources used; Wikipedia notes that IUCN accepted four giraffe species in 2025, and that giraffes as a whole were earlier assessed as Vulnerable (2016).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Southern giraffe",
+        "url": "https://ewt.org/project/giraffe/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Giraffa camelopardalis giraffa",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/10.-South-African-Giraffe-Giraffa-camelopardalis-giraffa_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Southern giraffe",
+        "url": "https://en.wikipedia.org/wiki/Southern_giraffe",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "IUCN recognised four giraffe species in 2025; the article also states that giraffes are considered Vulnerable."
+      }
+    ]
+  },
+  "size": {
+    "tailCm": {
+      "min": 76,
+      "max": 101
+    },
+    "note": "Total standing height, rather than shoulder height, is the usual published measurement. Wikipedia gives 4.3–5.7 m for males, with females shorter. Animal Diversity Web (under the older combination Giraffa camelopardalis) gives bulls 5.7 m in total height and 3.3 m at the shoulder, with a neck of 2.4 m, and says cows are 0.7–1 m shorter than bulls. Tail length is 80–100 cm on Wikipedia and 76–101 cm on Animal Diversity Web. Mass was published only as averages (1,192 kg for males and 828 kg for females on Wikipedia) or as upper bounds (bulls up to 1,930 kg and cows up to 1,180 kg on Animal Diversity Web), so massKg is omitted. Newborns are 1.7–2 m tall (Wikipedia) or 2 m at the shoulder and 50–55 kg (Animal Diversity Web). Ossicones may reach 13.5 cm. No sexed shoulder-height range was found."
+  },
+  "summary": "The tallest land mammal, with a very long neck, long legs, and a coat of dark, somewhat rounded patches on a tawny ground, running down the legs and getting smaller. Both sexes have skin-covered ossicones. Kruger holds a large, year-round population of the southern giraffe.",
+  "description": "The South African form of the southern giraffe, the one in Kruger, has dark, somewhat rounded patches with some fine projections on a tawny background. The spots extend down the legs and become smaller. Bulls are taller than cows, and their ossicones are thicker, with the hair often worn smooth; cows have thinner, tufted ossicones. The median lump on the forehead is less developed in this form than in some others. A short erect mane runs along the neck, and the long tail ends in a dark tuft. Each animal's patch pattern is unique. The tongue is long, dark and prehensile.",
+  "habits": "Giraffes live in loose, open groups of related females and their young, or in bachelor groups of males; older bulls often become more solitary. They are not territorial. Animals browse through savanna and woodland, and may gather on open ground where mothers can watch for predators. They can defend themselves with powerful kicks. In Kruger the species is a year-round resident.",
+  "diet": {
+    "summary": "A browser of leaves, flowers, fruits and shoots of woody plants, including acacias, taken at heights most other herbivores cannot reach. An adult may eat around 34 kg of plant matter a day. They also take shrubs, and sometimes grass and fruit.",
+    "items": [
+      "leaves, flowers, fruits and shoots of woody plants, including acacias",
+      "shrubs",
+      "grass and fruit on occasion"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is usual, after a gestation of about 400–460 days (about 457 days in one compilation). The cow gives birth standing, and the calf falls to the ground. A newborn is about 1.7–2 m tall and can stand and suckle within hours. Mothers with calves may gather in nursery groups, sometimes leaving calves with one female while they forage. Calves first ruminate at four to six months and are weaned by about six to eight months in one account, or 12–16 months in another. Exact calving months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard",
+      "note": "Mainly a predator of calves."
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena",
+      "note": "Mainly a predator of calves."
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog",
+      "note": "Mainly a predator of calves."
+    }
+  ],
+  "prey": [],
+  "habitat": "Savanna and woodland with browse trees. In Kruger it is widespread, and one source notes that it is seen less often in the mopane country of the north.",
+  "population": {
+    "estimate": {
+      "low": 10345,
+      "high": 14554
+    },
+    "unit": "individuals",
+    "trend": "increasing",
+    "confidence": "medium",
+    "asOf": 2023,
+    "notes": "Some sources claim a 2023 Kruger population of 10,345–14,554 giraffe, with a point estimate of 12,412. SANParks is described as reporting an increasing trend. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. An earlier Kruger estimate of 7,427–10,876 animals in 2013 is kept here as a previous estimate. Regional Red List status is Least Concern.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 7427,
+          "high": 10876
+        },
+        "unit": "individuals",
+        "asOf": 2013,
+        "notes": "Kruger only, cited on the EWT Southern giraffe page as Ferreira and Ellis (2013) or Ferreira et al. (2013)."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range or count, where given."
+      },
+      {
+        "title": "Southern giraffe",
+        "url": "https://ewt.org/project/giraffe/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Cites Greaver et al. 2024 for the 12,412 (10,345–14,554) Kruger figure, and Ferreira and Ellis (2013) for the earlier range."
+      },
+      {
+        "title": "A conservation assessment of Giraffa camelopardalis giraffa",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/10.-South-African-Giraffe-Giraffa-camelopardalis-giraffa_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "skin-covered ossicones; thinner and tufted in females, thicker and often worn smooth in males"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "tawny, with a pattern of dark patches",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "short and erect along the neck"
+        },
+        "upperparts": {
+          "colour": [
+            "tawny",
+            "dark brown"
+          ],
+          "pattern": "dark, somewhat rounded patches with some fine projections, extending down the legs and becoming smaller"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "tawny, with smaller dark patches continuing down the legs"
+        },
+        "tail": {
+          "colour": "dark-tufted",
+          "shape": "long and thin, 76–101 cm"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "ossicones present, often with a tousled tuft of hair in young animals"
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "a conspicuous erect mane along the neck"
+        },
+        "upperparts": {
+          "colour": [
+            "tawny",
+            "dark brown"
+          ],
+          "pattern": "dark patches on a tawny ground, already present in the young"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A very long neck and legs, high shoulders, and a sloping back. Dark rounded patches run down onto the legs."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "The long legs and tufted tail are clear from behind, and the animal often looks back over its shoulder."
+    },
+    {
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "note": "Young animals may show tousled hair on the ossicones and a shaggy mane."
+    },
+    {
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "note": "Loose groups often include adults of different sizes and one or more shorter young animals."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Giraffes communicate with snorts, hisses, coughs, moans, grunts, growls and flute-like sounds. Courting males may cough loudly, females bellow to their young, and calves bleat, moo or mew. Snorting and hissing are associated with vigilance.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "giraffa-giraffa/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:South_African_giraffe_(Giraffa_camelopardalis_giraffa)_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/South_African_giraffe_%28Giraffa_camelopardalis_giraffa%29_Kruger.jpg/1280px-South_African_giraffe_%28Giraffa_camelopardalis_giraffa%29_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult giraffe standing in profile in Kruger National Park, showing the long neck, sloping back and dark patches",
+      "caption": "Adult, Kruger National Park."
+    },
+    {
+      "key": "giraffa-giraffa/kruger-male-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Giraffe_(Giraffa_giraffa)_male.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Southern_Giraffe_%28Giraffa_giraffa%29_male.jpg/1280px-Southern_Giraffe_%28Giraffa_giraffa%29_male.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male giraffe walking away down a dirt road in Kruger National Park, looking back",
+      "caption": "Adult male, H10 road north of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "giraffa-giraffa/kruger-young.jpg",
+      "view": "standing-front",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Giraffe_(Giraffa_giraffa),_young_with_tousled_hairs.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Southern_Giraffe_%28Giraffa_giraffa%29%2C_young_with_tousled_hairs.jpg/1280px-Southern_Giraffe_%28Giraffa_giraffa%29%2C_young_with_tousled_hairs.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Young giraffe in Kruger National Park, with tousled hair on the ossicones and a shaggy mane",
+      "caption": "Young animal, S28 road south of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "giraffa-giraffa/kruger-herd.jpg",
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Giraffes_(Giraffa_giraffa)_gathering.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Southern_Giraffes_%28Giraffa_giraffa%29_gathering.jpg/1280px-Southern_Giraffes_%28Giraffa_giraffa%29_gathering.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A group of giraffes of mixed size, including a smaller young animal, on a road in Kruger National Park",
+      "caption": "Group including young, S106 road east of Orpen, Kruger National Park."
+    },
+    {
+      "key": "giraffa-giraffa/kruger-drinking.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Giraffe_(Giraffa_camelopardalis)_drinking_..._(50810305028).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Giraffe_%28Giraffa_camelopardalis%29_drinking_..._%2850810305028%29.jpg/1280px-Giraffe_%28Giraffa_camelopardalis%29_drinking_..._%2850810305028%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult giraffe splay-legged and drinking at a pool in Kruger National Park",
+      "caption": "Adult drinking, H1-2 road south of Tshokwane, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Southern giraffe",
+      "url": "https://en.wikipedia.org/wiki/Southern_giraffe",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Giraffe",
+      "url": "https://en.wikipedia.org/wiki/Giraffe",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Giraffa camelopardalis: giraffe",
+      "url": "https://animaldiversity.org/accounts/Giraffa_camelopardalis/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "Account is under the older lumped name; measurements are used with that caveat."
+    },
+    {
+      "title": "Southern giraffe",
+      "url": "https://ewt.org/project/giraffe/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Giraffa camelopardalis giraffa",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/10.-South-African-Giraffe-Giraffa-camelopardalis-giraffa_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the 2023 range or count, where given."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2023 population range comes from more than one source that cites SANParks figures; a more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Size figures are for giraffes generally, compiled on Wikipedia and on Animal Diversity Web under Giraffa camelopardalis, together with the short Southern giraffe article for coat pattern. A species-level IUCN global status for Giraffa giraffa was not found.",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2023 population range is from sources that cite SANParks figures. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Mass was published only as averages or upper bounds, so massKg is omitted.",
+    "No sexed shoulder-height range was found.",
+    "No Kruger-specific calving-month range was found.",
+    "A species-level IUCN global assessment for Giraffa giraffa was not found in the sources used.",
+    "Iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No reusable Kruger recording found."
+  ]
+}

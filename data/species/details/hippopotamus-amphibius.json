@@ -1,0 +1,435 @@
+{
+  "kind": "species",
+  "slug": "hippopotamus-amphibius",
+  "scientificName": "Hippopotamus amphibius",
+  "commonNames": {
+    "en": "Hippopotamus",
+    "af": "Seekoei"
+  },
+  "family": "hippopotamidae",
+  "inatTaxonId": 42149,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Vulnerable globally",
+    "scope": "IUCN global (2017), and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Hippopotamus",
+        "url": "https://ewt.org/project/hippopotamus/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable."
+      },
+      {
+        "title": "A conservation assessment of Hippopotamus amphibius",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/11.-Hippopotamus-Hippopotamus-amphibius_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Hippopotamus",
+        "url": "https://en.wikipedia.org/wiki/Hippopotamus",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2017 IUCN Red List: Vulnerable, with a stable global population estimated at 115,000–130,000."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "male": {
+        "min": 140,
+        "max": 165
+      },
+      "female": {
+        "min": 130,
+        "max": 145
+      }
+    },
+    "tailCm": {
+      "min": 35,
+      "max": 56
+    },
+    "massKg": {
+      "min": 1300,
+      "max": 3200
+    },
+    "note": "Shoulder height and tail length follow Wikipedia, which also splits shoulder height as 140–165 cm in males and 130–145 cm in females, and gives a typical head-and-body length of 3.3–3.45 m and a total length including the tail of 2.90–5.05 m. Mass 1,300–3,200 kg follows Animal Diversity Web. Wikipedia instead gives mean adult weights of about 1,480 kg in bulls and 1,365 kg in cows, with exceptionally large males reaching 2,660 kg; those means are not entered as ranges. No Kruger-specific measurements were found."
+  },
+  "summary": "A huge, barrel-shaped, almost hairless mammal of rivers and dams. The eyes, ears and nostrils sit high on the head, so the animal can lie almost submerged with only those parts showing. The skin is purplish-grey or bluish-black, pinker around the eyes, ears and underside. Kruger holds a year-round population concentrated on the perennial rivers.",
+  "description": "Adults are among the heaviest land mammals. The body is barrel-shaped, with short legs and a short tail, and the mouth can open very widely, showing long lower canines and incisors used in fighting. The skin is very thick and nearly hairless, purplish-grey or blue-black on the upperparts and brownish-pink on the underside and around the eyes and ears. A red-orange secretion, sometimes called 'blood sweat', acts as a sunscreen and antibiotic. Males and females are hard to tell apart in the field; cows and young bulls in particular look similar. Calves are much smaller and often stay close to the cow, sometimes on her back in deep water.",
+  "habits": "Hippos spend most of the day in water, in pods that may be large but with little lasting social bonding between adults. Bulls hold territories in the water, not on land. At dusk they leave the water to graze, usually alone, walking a few kilometres and returning by dawn. In Kruger they concentrate on the perennial rivers, including the Sabie, Crocodile, Olifants, Letaba, Luvuvhu and Limpopo, and on dams. Numbers rise and fall with drought and recovery.",
+  "diet": {
+    "summary": "A grazer. The wild diet is almost entirely grass, with only minimal aquatic plants. An animal may eat around 40 kg of grass in a night. Occasional reports of carrion-eating are treated as unusual, not as a regular part of the diet.",
+    "items": [
+      "grass"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "Cows usually have a single calf after a gestation of about eight months. Conceptions and births peak in the wet season. Calves may be born on land or in shallow water, at an average mass of about 50 kg and an average length of about 127 cm. The cow is very protective. Calves can be carried on the mother's back in deep water, and may be left for a time in a nursery group. They no longer need to suckle at about a year. Exact calving months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion",
+      "note": "Adults are rarely taken; calves are more vulnerable."
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because large crocodiles may take calves."
+    }
+  ],
+  "prey": [],
+  "habitat": "Permanent water deep enough to immerse in, with gently sloping shores and short-grass grazing within a few kilometres. In Kruger, hippos concentrate on the perennial rivers and on dams.",
+  "population": {
+    "estimate": {
+      "low": 5889,
+      "high": 5889
+    },
+    "unit": "individuals",
+    "trend": "increasing",
+    "confidence": "medium",
+    "asOf": 2023,
+    "notes": "Some sources claim a 2023 Kruger population of 5,889 hippopotamus, given as a count rather than a range. One source describes the Kruger trend as up significantly since the late 1990s, with a dip in the 2015/16 drought. The regional Red List trend is stable. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Regional Red List status is Least Concern; the IUCN global assessment is Vulnerable.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range or count, where given."
+      },
+      {
+        "title": "Hippopotamus",
+        "url": "https://ewt.org/project/hippopotamus/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Cites Greaver et al. 2024 for 5,889 individuals in Kruger at the end of 2023."
+      },
+      {
+        "title": "A conservation assessment of Hippopotamus amphibius",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/11.-Hippopotamus-Hippopotamus-amphibius_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": [
+            "grey",
+            "pinkish"
+          ],
+          "shape": "small, set high on the head"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "purplish-grey or blue-black, brownish-pink around the eyes and nostrils",
+          "muzzle": "broad and heavy, with the nostrils set high",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "purplish-grey",
+            "blue-black"
+          ],
+          "pattern": "nearly hairless, very thick skin"
+        },
+        "underparts": {
+          "colour": "brownish-pink",
+          "pattern": null
+        },
+        "legs": {
+          "colour": [
+            "purplish-grey",
+            "blue-black"
+          ]
+        },
+        "tail": {
+          "colour": null,
+          "shape": "short, 35–56 cm"
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "pinkish-grey"
+          ],
+          "pattern": "much smaller than the adults; often seen close to the cow or on her back in deep water"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A barrel-shaped body, short legs, and a huge head with the eyes, ears and nostrils on top."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "In water, often only the eyes, ears and nostrils show above the surface."
+    },
+    {
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "note": "Calves are much smaller than the adults and may stand on rocks or banks while the adults lie in the water."
+    },
+    {
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "note": "Pods rest packed together in the water or along the shore, with calves among the adults."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "The most common call is a 'wheeze honk': a high-pitched squeal followed by a deeper, resonant call that can travel far in air. Animals can recognise one another's calls. When threatened they produce exhalations, and fighting bulls bellow. They also produce clicks underwater.",
+      "recordings": [
+        {
+          "key": "inaturalist/375228122",
+          "source": "https://www.inaturalist.org/observations/375228122",
+          "fileUrl": "https://static.inaturalist.org/sounds/2042690.m4a?1782414361",
+          "author": "Charlie Barwick",
+          "license": "CC BY-NC 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "aiGenerated": false,
+          "hosted": false,
+          "place": "Lake Panic Bird Hide, Kruger National Park",
+          "date": "2026-06-25",
+          "note": "Field recording made from the Lake Panic Bird Hide, with photographs of the same animals. The observation does not name the call type."
+        },
+        {
+          "key": "inaturalist/390595752",
+          "source": "https://www.inaturalist.org/observations/390595752",
+          "fileUrl": "https://static.inaturalist.org/sounds/2115804.m4a?1786550749",
+          "author": "MFC",
+          "license": "CC BY-NC 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "aiGenerated": false,
+          "hosted": false,
+          "place": "Kruger National Park",
+          "date": "2026-08-12",
+          "note": "Field recording from Kruger National Park. The observation does not name the call type."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "key": "hippopotamus-amphibius/kruger-letaba-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_hippopotamus,_Hippopotamus_amphibius,_at_Letaba,_Kruger_National_Park,_South_Africa_(19599031483).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Common_hippopotamus%2C_Hippopotamus_amphibius%2C_at_Letaba%2C_Kruger_National_Park%2C_South_Africa_%2819599031483%29.jpg/1280px-Common_hippopotamus%2C_Hippopotamus_amphibius%2C_at_Letaba%2C_Kruger_National_Park%2C_South_Africa_%2819599031483%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult hippopotamus walking on land at Letaba, Kruger National Park",
+      "caption": "Adult on land, Letaba, Kruger National Park."
+    },
+    {
+      "key": "hippopotamus-amphibius/kruger-sunset-dam.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Hippo_(Hippopotamus_amphibius).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Hippo_%28Hippopotamus_amphibius%29.jpg/1280px-Hippo_%28Hippopotamus_amphibius%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Hippopotamus with only the eyes, ears and nostrils above the water at Sunset Dam, Kruger National Park",
+      "caption": "Adult in the water, Sunset Dam, H4-1 road west of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "hippopotamus-amphibius/kruger-juvenile.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Hippopotamus_(Hippopotamus_amphibius)_juvenile_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hippopotamus_%28Hippopotamus_amphibius%29_juvenile_Kruger.jpg/1280px-Hippopotamus_%28Hippopotamus_amphibius%29_juvenile_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A juvenile hippopotamus standing on rocks, with adults lying in the river, Kruger National Park",
+      "caption": "Juvenile on a rock, with adults in the water, Kruger National Park."
+    },
+    {
+      "key": "hippopotamus-amphibius/kruger-pod.jpg",
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Hippos_(Hippopotamus_amphibius)_(52122072451).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Hippos_%28Hippopotamus_amphibius%29_%2852122072451%29.jpg/1280px-Hippos_%28Hippopotamus_amphibius%29_%2852122072451%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A pod of hippopotamus resting on the bank and in the water, Kruger National Park",
+      "caption": "Pod at N'watimhiri Dam, H4-1 road west of Lower Sabie, Kruger National Park."
+    },
+    {
+      "key": "hippopotamus-amphibius/kruger-lying.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Hippo_(Hippopotamus_amphibius)_(52121044837).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Hippo_%28Hippopotamus_amphibius%29_%2852121044837%29.jpg/1280px-Hippo_%28Hippopotamus_amphibius%29_%2852121044837%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult hippopotamus lying on a muddy bank, Kruger National Park",
+      "caption": "Adult lying at the water's edge, N'watimhiri Dam, H4-1 road west of Lower Sabie, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hippopotamus",
+      "url": "https://en.wikipedia.org/wiki/Hippopotamus",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Hippopotamus amphibius: hippopotamus",
+      "url": "https://animaldiversity.org/accounts/Hippopotamus_amphibius/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Hippopotamus",
+      "url": "https://ewt.org/project/hippopotamus/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Hippopotamus amphibius",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/11.-Hippopotamus-Hippopotamus-amphibius_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+      "url": "https://visitthekrugerpark.com/wildlife/",
+      "publisher": "Visit the Kruger Park",
+      "year": 2026,
+      "note": "Source of the 2023 range or count, where given."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The 2023 count of 5,889 comes from more than one source that cites SANParks figures; a more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Shoulder height is sexed on Wikipedia; mass ranges and means disagree between sources and are recorded in the size note. Two Kruger iNaturalist recordings are included (CC BY-NC); the observations do not name the call type.",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "2023 count is from sources that cite SANParks figures. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No Kruger-specific calving-month range was found. General accounts give a gestation of about eight months, with births peaking in the wet season.",
+    "Iris colour was not given in the sources used, so that mark is null.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web."
+  ]
+}

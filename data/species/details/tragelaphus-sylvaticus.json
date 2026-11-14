@@ -1,0 +1,448 @@
+{
+  "kind": "species",
+  "slug": "tragelaphus-sylvaticus",
+  "scientificName": "Tragelaphus sylvaticus",
+  "commonNames": {
+    "en": "Bushbuck",
+    "af": "Bosbok"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 1431867,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Southern Bushbuck",
+        "url": "https://ewt.org/project/southern-bushbuck/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable."
+      },
+      {
+        "title": "A conservation assessment of Tragelaphus sylvaticus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/33.-Southern-Bushbuck-Tragelaphus-sylvaticus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Cape bushbuck",
+        "url": "https://en.wikipedia.org/wiki/Cape_bushbuck",
+        "publisher": "Wikipedia",
+        "year": 2026
+      },
+      {
+        "title": "Tragelaphus scriptus: bushbuck",
+        "url": "https://animaldiversity.org/accounts/Tragelaphus_scriptus/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "year": null,
+        "note": "Account is under the older lumped name Tragelaphus scriptus. Lists IUCN Red List as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "massKg": {
+      "male": {
+        "min": 60,
+        "max": 80
+      },
+      "female": {
+        "min": 25,
+        "max": 60
+      }
+    },
+    "note": "Sexed mass follows the description section of the Wikipedia Cape bushbuck article (males 60–80 kg, females 25–60 kg). The same article's opening sentence gives an unsexed range of 45–80 kg, which overlaps those figures. Shoulder height is given only as 'around 90 cm', so shoulderHeightCm is omitted. Male horns are described as over half a metre long, with a single twist. Head-and-body and tail lengths were not found as published ranges."
+  },
+  "summary": "A medium-sized, usually solitary spiral-horned antelope of thickets and forest edge. The coat is light brown, with white spots and up to seven white stripes, a white muzzle, and white marks on the ears, chin, neck, legs and tail. Only males have horns. Kruger holds a resident population, but no recent park count was found.",
+  "description": "Cape or southern bushbuck, the form in Kruger, have a light brown coat with up to seven white stripes and geometrically shaped white splotches on the sides, and further white marks on the most mobile parts: the ears, chin, tail, legs and neck. The muzzle is white. Only males have horns; these are more than half a metre long and have a single twist. Young males sprout particularly twisted horns from about ten months, and the first loop of the spiral forms at maturity. Females are smaller and hornless. The species was listed on the 2011 SANParks checklist as Tragelaphus scriptus; the Kruger taxon is stored here as Tragelaphus sylvaticus.",
+  "habits": "Bushbuck are generally solitary, but they are not aggressively antisocial, and individuals sometimes forage close together. Each animal lives in a home area, often around five hectares on savanna and larger in forest, which usually overlaps those of others. They browse rather than graze, and they are active through the day, becoming more nocturnal near people. In Kruger they are often seen in riverine thickets and around rest camps.",
+  "diet": {
+    "summary": "A browser of trees, shrubs and forbs; they rarely if ever eat grasses. In south-eastern Africa they frequently take acacias and other legumes, mallows such as Grewia and Hibiscus, bushwillows, and buckthorns.",
+    "items": [
+      "leaves of trees and shrubs",
+      "forbs",
+      "acacias and other legumes",
+      "Grewia, Hibiscus, Combretum and related browse"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A detailed account of gestation length and calving months for this species was not found in the sources used here. Young animals resemble the female in coat and, in males, later grow short horns. A suckling calf in the Kruger photographs already shows the white spots of the adult coat. Exact calving months for Kruger were not found.",
+  "predators": [],
+  "prey": [],
+  "habitat": "A wide range of cover, including woodland, bushveld, thickets and forest edge. In Kruger it is typically seen in riverine thickets and around camps.",
+  "similar": [
+    {
+      "slug": "tragelaphus-angasii",
+      "note": "The bushbuck is a smaller, usually solitary antelope. The male's horns have a single twist, and both sexes show white spots and up to seven stripes on a light brown coat."
+    },
+    {
+      "slug": "tragelaphus-strepsiceros",
+      "note": "The bushbuck is much smaller, with shorter, single-twist horns in the male only, and a spotted, lightly striped coat."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No recent Kruger population figure was found. The EWT assessment cites a 2009 count of about 500 animals in Kruger (Ferreira et al. 2013), kept here as a previous estimate. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Regional Red List status is Least Concern, with a regional trend described as stable.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 500,
+          "high": 500
+        },
+        "unit": "individuals",
+        "asOf": 2009,
+        "notes": "Kruger only, given as 'c. 500 individuals (2009 count)' on the EWT Southern Bushbuck page, citing Ferreira et al. 2013."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range or count, where given."
+      },
+      {
+        "title": "Southern Bushbuck",
+        "url": "https://ewt.org/project/southern-bushbuck/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2009 Kruger figure of c. 500, and regional Least Concern / stable trend."
+      },
+      {
+        "title": "A conservation assessment of Tragelaphus sylvaticus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/33.-Southern-Bushbuck-Tragelaphus-sylvaticus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "a single twist, more than half a metre long"
+        },
+        "ears": {
+          "colour": "with white marks",
+          "shape": "large"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "light brown, with a white muzzle and other white facial marks",
+          "muzzle": "white",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "light brown",
+          "pattern": "up to seven white stripes and white splotches on the sides; white marks on the neck"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "light brown, with white marks"
+        },
+        "tail": {
+          "colour": "with white marks",
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "with white marks",
+          "shape": "large"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "light brown, with a white muzzle and a pale chevron-like mark",
+          "muzzle": "white",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "light brown",
+          "pattern": "white spots and up to seven white stripes"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "light brown, with white marks"
+        },
+        "tail": {
+          "colour": "with white marks",
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "light brown",
+          "pattern": "white spots, as in the adult female"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A compact, lightly spotted and striped brown antelope with single-twist horns and white marks on the legs and neck."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "A hornless face with large ears, a white muzzle and a pale mark between the eyes."
+    },
+    {
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "note": "The calf already shows white spots and stands close to the cow when suckling."
+    },
+    {
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "male",
+      "season": "any",
+      "note": "Young males first show short, twisted horns while the coat is still like the female's."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A detailed description of the call was not found in the sources used here.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "tragelaphus-sylvaticus/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Bushbuck_(Tragelaphus_sylvaticus),_male_on_the_move.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Southern_Bushbuck_%28Tragelaphus_sylvaticus%29%2C_male_on_the_move.jpg/1280px-Southern_Bushbuck_%28Tragelaphus_sylvaticus%29%2C_male_on_the_move.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male bushbuck walking, showing single-twist horns and white spots and leg marks, Kruger National Park",
+      "caption": "Adult male, H4-1 road east of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-sylvaticus/kruger-female-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Bushbuck_(Tragelaphus_sylvaticus)_female_portrait_..._(53014456014).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Southern_Bushbuck_%28Tragelaphus_sylvaticus%29_female_portrait_..._%2853014456014%29.jpg/1280px-Southern_Bushbuck_%28Tragelaphus_sylvaticus%29_female_portrait_..._%2853014456014%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female bushbuck facing the camera, showing large ears and a white muzzle, Kruger National Park",
+      "caption": "Adult female, tent number 4, Letaba Camp, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-sylvaticus/kruger-female-and-young.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Bushbucks_(Tragelaphus_sylvaticus),_female_and_young_suckling_..._(54047078204).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Southern_Bushbucks_%28Tragelaphus_sylvaticus%29%2C_female_and_young_suckling_..._%2854047078204%29.jpg/1280px-Southern_Bushbucks_%28Tragelaphus_sylvaticus%29%2C_female_and_young_suckling_..._%2854047078204%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Female bushbuck suckling a spotted calf, Kruger National Park",
+      "caption": "Female and young suckling, Crocodile Bridge Camp, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-sylvaticus/kruger-young-male.jpg",
+      "view": "standing-side",
+      "age": "juvenile",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Bushbuck_(Tragelaphus_scriptus)_young_male_grazing_..._(50326488221).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Bushbuck_%28Tragelaphus_scriptus%29_young_male_grazing_..._%2850326488221%29.jpg/1280px-Bushbuck_%28Tragelaphus_scriptus%29_young_male_grazing_..._%2850326488221%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Young male bushbuck grazing, with short horns just growing, Kruger National Park",
+      "caption": "Young male grazing, S42 road west of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "tragelaphus-sylvaticus/kruger-female-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Bushbuck_(Tragelaphus_sylvaticus),_gravid_female_..._(54045880322).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Southern_Bushbuck_%28Tragelaphus_sylvaticus%29%2C_gravid_female_..._%2854045880322%29.jpg/1280px-Southern_Bushbuck_%28Tragelaphus_sylvaticus%29%2C_gravid_female_..._%2854045880322%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female bushbuck, visibly pregnant, showing white spots on a light brown coat, Kruger National Park",
+      "caption": "Pregnant female, Crocodile Bridge Camp, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cape bushbuck",
+      "url": "https://en.wikipedia.org/wiki/Cape_bushbuck",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Tragelaphus scriptus: bushbuck",
+      "url": "https://animaldiversity.org/accounts/Tragelaphus_scriptus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "Account is under the older lumped name."
+    },
+    {
+      "title": "Southern Bushbuck",
+      "url": "https://ewt.org/project/southern-bushbuck/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Tragelaphus sylvaticus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/33.-Southern-Bushbuck-Tragelaphus-sylvaticus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No recent Kruger population figure was found; the 2009 figure of about 500 is kept as a previous estimate. Shoulder height was published only as 'around 90 cm'. A sourced description of the call, and of gestation length, was not found. Field text is from the Cape bushbuck article (Tragelaphus sylvaticus) and from Animal Diversity Web under Tragelaphus scriptus. A named list of predators was not found in the sources used, so predators is empty.",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No recent Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Shoulder height was published only as 'around 90 cm', so shoulderHeightCm is omitted.",
+    "A sourced description of the bushbuck's call was not found, so the call entry is a placeholder without a recording.",
+    "Gestation length and a Kruger-specific calving-month range were not found in the sources used.",
+    "Head-and-body length, tail length, iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits and young were taken from Wikipedia and Animal Diversity Web.",
+    "No reusable Kruger recording found.",
+    "A named list of predators was not found in the sources used, so predators is an empty list."
+  ]
+}

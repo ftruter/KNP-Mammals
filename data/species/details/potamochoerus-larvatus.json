@@ -1,0 +1,366 @@
+{
+  "kind": "species",
+  "slug": "potamochoerus-larvatus",
+  "scientificName": "Potamochoerus larvatus",
+  "commonNames": {
+    "en": "Bushpig",
+    "af": "Bosvark"
+  },
+  "family": "suidae",
+  "inatTaxonId": 42138,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Bushpig",
+        "url": "https://ewt.org/project/bushpig/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable."
+      },
+      {
+        "title": "A conservation assessment of Potamochoerus larvatus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/22.-Bushpig-Potamochoerus-larvatus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Bushpig",
+        "url": "https://en.wikipedia.org/wiki/Bushpig",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites IUCN Least Concern (2015 assessment, matching 2008)."
+      },
+      {
+        "title": "Potamochoerus larvatus: bushpig",
+        "url": "https://animaldiversity.org/accounts/Potamochoerus_larvatus/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "year": null,
+        "note": "Lists IUCN Red List as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 66,
+      "max": 100
+    },
+    "massKg": {
+      "male": {
+        "min": 60,
+        "max": 150
+      },
+      "female": {
+        "min": 45,
+        "max": 70
+      }
+    },
+    "note": "Shoulder height 66–100 cm follows Wikipedia. Boars can reach 150 kg, although 60–80 kg is described as more common; sows are given as 45–70 kg. The male range entered here is 60–150 kg, with the more common 60–80 kg recorded in this note. Head-and-body and tail lengths were not found as published ranges."
+  },
+  "summary": "A thick-coated wild pig of dense cover, with pointed, tasselled ears and a contrasting face mask. Southern animals are dark reddish, sometimes almost black, with a paler mane. It is mainly nocturnal, and it runs with the tail held down. It occurs in Kruger but is not often seen in daylight.",
+  "description": "Adults stand 66–100 cm at the shoulder. The coat in southern populations is dark reddish, sometimes almost black, and it darkens with age. A paler, often whitish dorsal mane or crest may bristle when the animal is agitated. The head has a contrasting face mask of dark and pale markings, or may be almost whitish, and the ears are pointed and tasselled with long hair. The tusks are fairly short and inconspicuous compared with a warthog's. Old boars develop two warts on the snout. Piglets are born with pale yellowish longitudinal stripes on a dark brown background; the stripes soon fade and the coat becomes reddish brown, with a black-and-white dorsal crest.",
+  "habits": "Bushpigs are mainly nocturnal and lie up in dense thickets by day. They move in sounders with overlapping home ranges, and they are not strictly territorial. They snort and grunt while foraging or when alarmed. Unlike warthogs, they run with the tail held down, and they do not hide in aardvark burrows. In Kruger they are seldom seen from a vehicle in daylight.",
+  "diet": {
+    "summary": "An omnivore. In South Africa about 40% of the diet has been recorded as tubers and other underground plant parts, 30% herbage, 13% fruit and some animal matter. They also take roots, succulent plants, insects, rotten wood and, on occasion, small animals.",
+    "items": [
+      "tubers and other underground plant parts",
+      "herbage",
+      "fruit",
+      "roots and succulent plants",
+      "insects and other animal matter"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "One to nine young are born, usually three, after a gestation of eight to ten months. Piglets have pale yellowish stripes on a dark brown coat, which soon fade. They are kept in a nest of plant debris for about four months while they wean. Exact farrowing months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard",
+      "note": "Described as the main predator."
+    }
+  ],
+  "prey": [],
+  "habitat": "Forests, woodland, riverine vegetation and other dense cover. In Kruger it is present but hard to see, and the few research-grade records are from thickly wooded areas such as Makuleke.",
+  "similar": [
+    {
+      "slug": "phacochoerus-africanus",
+      "note": "The warthog has a sparsely haired body, large curved tusks and facial warts, and it runs with the tail held up in open country. The bushpig has a full coat, tasselled ears and a face mask, short tusks, and it runs with the tail held down."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No recent Kruger population figure was found. The EWT assessment gives regional status as Least Concern and the regional trend as stable, but it does not give a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range or count, where given."
+      },
+      {
+        "title": "Bushpig",
+        "url": "https://ewt.org/project/bushpig/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Potamochoerus larvatus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/22.-Bushpig-Potamochoerus-larvatus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "pointed, with tassels of long hair"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "a contrasting pale and dark face mask, or sometimes almost whitish",
+          "muzzle": "tusks fairly short and inconspicuous; old males may have two warts on the snout",
+          "beard": null
+        },
+        "mane": {
+          "colour": [
+            "white",
+            "grey",
+            "black"
+          ],
+          "shape": "a pale dorsal crest that may bristle when the animal is agitated"
+        },
+        "upperparts": {
+          "colour": [
+            "dark reddish",
+            "almost black",
+            "brown"
+          ],
+          "pattern": "a thick coat, darker with age, in southern animals"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": [
+            "dark",
+            "blackish"
+          ]
+        },
+        "tail": {
+          "colour": null,
+          "shape": "long and thin, held downward when running"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "dark brown",
+            "yellowish"
+          ],
+          "pattern": "pale yellowish longitudinal stripes on a dark brown background; the stripes soon fade"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "A heavy, thick-coated animal with tasselled ears, a pale face and a bristling dorsal crest. The live photographs used here were taken outside Kruger."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The reddish-brown coat and paler mane are clear from the side. The tail is held down, not up."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "They snort and grunt harshly while foraging or when alarmed.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "potamochoerus-larvatus/imfolozi-sow.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Bushpig_(Potamochoerus_larvatus)_big_sow_(29415919673).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Bushpig_%28Potamochoerus_larvatus%29_big_sow_%2829415919673%29.jpg/1280px-Bushpig_%28Potamochoerus_larvatus%29_big_sow_%2829415919673%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female bushpig at night, showing a thick dark coat, tasselled ears and a pale face, iMfolozi Game Reserve",
+      "caption": "Adult female, Mpila Camp, iMfolozi Game Reserve, Hluhluwe-iMfolozi Park, KwaZulu-Natal. No live Kruger photograph with a reusable licence was found."
+    },
+    {
+      "key": "potamochoerus-larvatus/mapungubwe-pair.jpg",
+      "view": "running",
+      "age": "adult",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_bush_pigs,_Mapungubwe_National_Park_(35884241784).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/African_bush_pigs%2C_Mapungubwe_National_Park_%2835884241784%29.jpg/1280px-African_bush_pigs%2C_Mapungubwe_National_Park_%2835884241784%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two bushpigs moving through mud, showing the pale mane and face mask, Mapungubwe National Park",
+      "caption": "Adults, Mapungubwe National Park. No live Kruger photograph with a reusable licence was found."
+    },
+    {
+      "key": "potamochoerus-larvatus/mapungubwe-drinking.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Bushpig,_Potamochoerus_larvatus_-_having_a_sunset_drink_(6041235263).jpg",
+      "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Bushpig%2C_Potamochoerus_larvatus_-_having_a_sunset_drink_%286041235263%29.jpg",
+      "author": "Derek Keats",
+      "license": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A bushpig drinking at a pool, showing a white face mask and reddish back, Mapungubwe National Park",
+      "caption": "Adult drinking, Mapungubwe National Park. No live Kruger photograph with a reusable licence was found."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bushpig",
+      "url": "https://en.wikipedia.org/wiki/Bushpig",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Potamochoerus larvatus: bushpig",
+      "url": "https://animaldiversity.org/accounts/Potamochoerus_larvatus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Bushpig",
+      "url": "https://ewt.org/project/bushpig/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Potamochoerus larvatus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/22.-Bushpig-Potamochoerus-larvatus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. The only research-grade Kruger iNaturalist observations with a reusable licence show skulls, so the photographs are live animals from Hluhluwe-iMfolozi Park and Mapungubwe National Park, and the captions say so. Male mass is entered as 60–150 kg; 60–80 kg is described as more common.",
+    "researched": "13 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No recent Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No live Kruger photograph with a reusable licence was found. The only research-grade Kruger observations with a reusable licence show skulls. Live photographs from Hluhluwe-iMfolozi Park and Mapungubwe National Park are used instead, and the captions say where they were taken.",
+    "Head-and-body length, tail length, iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "No Kruger-specific farrowing-month range was found.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "No reusable Kruger recording found."
+  ]
+}
