@@ -1,0 +1,305 @@
+{
+  "kind": "species",
+  "slug": "paraxerus-cepapi",
+  "scientificName": "Paraxerus cepapi",
+  "commonNames": {
+    "en": "Tree squirrel",
+    "af": "Boomeekhoring"
+  },
+  "family": "sciuridae",
+  "inatTaxonId": 46110,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Paraxerus cepapi",
+        "url": "https://ewt.org/project/tree-squirrel/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Least Concern, with a stable regional trend and no change from 2016. The assessment notes occurrence in Kruger National Park. Afrikaans name given as Boomeekhoring. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "Smith's bush squirrel",
+        "url": "https://en.wikipedia.org/wiki/Smith%27s_bush_squirrel",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2016 IUCN assessment (Cassola 2016, errata 2017), Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 17.5,
+      "max": 17.5
+    },
+    "tailCm": {
+      "min": 17.5,
+      "max": 17.5
+    },
+    "massKg": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "note": "Wikipedia gives a total length of 350 mm, half of which is the tail, and a mass of 200 g; those typical figures are entered here as single values, not ranges. Animal Diversity Web instead gives an average body length of 238.5 mm and an average mass of 222.85 g. Those disagreements are recorded rather than averaged. No shoulder height was given."
+  },
+  "summary": "A small, diurnal bush squirrel with a long, bushy tail, pale underparts, and upperparts that range from pale grey in drier western country to browner in the east, often with a rusty tinge on the head and legs. It is common and resident in Kruger’s savanna woodland, where it forages both in trees and on the ground.",
+  "description": "The tree squirrel is a medium-sized African bush squirrel. Wikipedia gives a typical total length of 350 mm, of which about half is the tail, and a mass of 200 g; Animal Diversity Web instead gives an average body length of 238.5 mm and an average mass of 222.85 g. Coat colour varies across the range. Wikipedia describes pale grey animals in the west and browner animals in the east, with a rusty head and legs, a white belly, and a chest that is yellowish to buff in the east and white in the west. Animal Diversity Web describes the upperparts as brownish yellow or grey, the underparts as white or grey with a buff chest, faint white stripes above and below the eyes, brownish-yellow cheeks, and a long, bushy tail marked in black and yellow to brown. The sexes are alike. The 2025 EWT assessment notes that pelage and size vary among subspecies, but only the nominate form occurs in the assessment region; this account is at species level. Animals typically carry the tail extended backwards.",
+  "habits": "It is diurnal and both arboreal and partly terrestrial. The 2025 EWT assessment says it often basks in the sun before coming down to forage, and that it is occasionally solitary but lives mainly in pairs or small family groups, such as a female with two or three young, or one or two adults with subadults. Animal Diversity Web gives family groups of 2–12, with one or two adults and several young. Those figures are recorded rather than averaged. Territorial family groups nest together at night, usually in tree holes; older mopane trees, with hollow branches, are especially favoured, though Animal Diversity Web also records nests in ground holes, among rocks, and in roofs. It is territorial. The 2025 EWT assessment gives an average territory of 0.43 ha; Animal Diversity Web gives a range of 0.3–1.26 ha, marked by mouth wiping, urine and anal dragging. Those figures are recorded rather than averaged. Wikipedia says males are mainly responsible for territorial defence, though females also chase intruders when they have dependent young, and that group cohesion is reinforced by mutual grooming and a shared scent. When alarmed, a group may mob a predator with harsh clicking or chattering and tail flicking; a lone animal may keep a trunk or branch between itself and the threat, or flatten motionless against a branch. The 2025 EWT assessment notes that the alarm chatter is used in the field to pinpoint predators such as leopard.",
+  "diet": {
+    "summary": "An omnivore. The 2025 EWT assessment lists flowers, leaves, seeds, berries, fruits and bark, and also insects, taken both on the ground and in trees. Wikipedia describes it as primarily vegetarian, taking some insect prey and using the forefeet to handle food, and notes that it scatter-hoards seeds beside tree trunks or grass tufts. Animal Diversity Web says it prefers acacia seeds and gums and the seeds and flowers of aloes, and also takes termites; in East Africa it may also take insects, bird eggs and euphorbia leaves.",
+    "items": [
+      "flowers, leaves, seeds, berries, fruits and bark",
+      "acacia seeds and gums",
+      "aloe seeds and flowers",
+      "insects, including termites",
+      "occasional bird eggs (recorded in East Africa)"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "Animal Diversity Web gives a gestation of 56 days and an average litter of two. In the wild there is usually one litter a year, though up to three litters are recorded in captivity. In South Africa, births tend to fall from October to January; a study by Viljoen noted that most young in one population were born in a single week in November, when food was plentiful. The young open their eyes at 7–9 days, leave the nest of their own accord at 18–22 days, and are weaned at 29–42 days. The mother carries small young by the hind legs and grooms them with licks, nibbles and claw scratches; both parents care for the young, and the young must follow the adults to take solid food, which is not brought to the nest. Wikipedia says offspring become sexually mature at six to nine months, when the breeding pair evicts them; Animal Diversity Web gives six to ten months. Those figures are recorded rather than averaged. Little is known of lifespan in the wild; Animal Diversity Web records 9.6 years in captivity.",
+  "prey": [],
+  "habitat": "A savanna woodland species that is not tied to one woodland type. The 2025 EWT assessment lists mopane woodland, acacia woodland, and mixed acacia–terminalia and acacia–combretum associations, and says it avoids forest, where it is replaced by the red squirrel, and cannot persist in arid or grassland country without trees for shelter and food. Older mopane trees are favoured for nest holes. It occurs in Kruger National Park and is common in the northern bushveld of South Africa.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. One source cites densities, from woodland and termitaria sites, of a few hundred squirrels per square kilometre (up to 498 per km²); those figures are not Kruger counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Paraxerus cepapi",
+        "url": "https://ewt.org/project/tree-squirrel/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Gives densities from woodland and termitaria sites; not a Kruger count. Cited only; the page is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "faint white stripes above and below the eyes; cheeks brownish yellow; the head is often rusty",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "pale grey",
+            "brown",
+            "brownish yellow"
+          ],
+          "pattern": "paler and greyer in drier western country, browner in the east"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": "the chest may be yellowish to buff in the east, or white in the west; the belly is white"
+        },
+        "legs": {
+          "colour": "rusty"
+        },
+        "tail": {
+          "colour": [
+            "black",
+            "yellow",
+            "brown"
+          ],
+          "shape": "long and bushy, typically carried extended backwards"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A small squirrel on a branch or trunk, with a long, bushy tail extended behind, often a rusty tinge on the head and legs, and pale underparts."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The same outline is often seen on the ground, where it forages and may sit up to handle food in the forefeet."
+    },
+    {
+      "view": "perched-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "When alarmed, it may freeze, flattened against a trunk or branch, with the tail along the body."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Animal Diversity Web describes a low-intensity alarm of three “chir” or “click” notes, used as a warning or in territorial defence, and a high-intensity alarm of six or seven high-pitched notes, likened to a bird call or whistle. When a group is threatened, Wikipedia and the 2025 EWT assessment describe mobbing: the animals make harsh clicking or chattering sounds and flick their tails.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "If disturbed, Animal Diversity Web says they also grunt and growl. During the mating chase the female gives a rattle call and the male a low-pitched nasal murmur, and both sexes click and flick their tails. A reusable Kruger recording is attached; the vocalization type on that file was not identified.",
+      "recordings": [
+        {
+          "key": "paraxerus-cepapi/agujaceratops-shingwedzi.wav",
+          "source": "https://www.inaturalist.org/observations/135954701",
+          "fileUrl": "https://static.inaturalist.org/sounds/539266.wav",
+          "hosted": false,
+          "author": "agujaceratops",
+          "license": "CC BY 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "aiGenerated": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "paraxerus-cepapi/jessnitz-pafuri-perched-side.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/413756748",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/761570430/large.jpg",
+      "author": "Vaughan Jessnitz",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Tree squirrel in profile on a branch in a bush, showing the long bushy tail, in Kruger National Park",
+      "caption": "Adult in a bush, east of the Pafuri picnic site, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "paraxerus-cepapi/carstenunterwegx-letaba-standing-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/405341884",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/744515832/large.jpg",
+      "author": "carstenunterwegx",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Tree squirrel in profile on sandy ground, holding a fruit in its forefeet, showing rusty legs and a long bushy tail, in Kruger National Park",
+      "caption": "Adult feeding on a fruit, south-west of Letaba, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "paraxerus-cepapi/pattylomonaco-tree-trunk.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/386684122",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/708012080/large.jpg",
+      "author": "pattylomonaco",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Tree squirrel climbing a tree trunk, showing the long bushy tail against the bark, in Kruger National Park",
+      "caption": "Adult on a tree trunk, north-west of Crocodile Bridge, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Smith's bush squirrel",
+      "url": "https://en.wikipedia.org/wiki/Smith%27s_bush_squirrel",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Paraxerus cepapi account",
+      "url": "https://animaldiversity.org/accounts/Paraxerus_cepapi/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Account by Alexa Pronga, University of Wisconsin–Stevens Point; year of the account was not given on the page."
+    },
+    {
+      "title": "A conservation assessment of Paraxerus cepapi",
+      "url": "https://ewt.org/project/tree-squirrel/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Cited only; the page is not hosted in this repo. Afrikaans name Boomeekhoring."
+    },
+    {
+      "title": "A conservation assessment of Paraxerus cepapi",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/48.-Tree-Squirrel-Paraxerus-cepapi_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "2016 regional assessment, Least Concern. Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The stored English name is Tree squirrel, as printed on the 2011 SANParks checklist; EWT also lists Smith’s Bush Squirrel, Mopane Squirrel and Yellow-footed Squirrel. Presence in Kruger is supported by that checklist, the 2025 EWT assessment, and many research-grade iNaturalist records. No Kruger population figure was found. Sources disagree on body length, mass, group size, territory size, and age at sexual maturity; those disagreements are recorded rather than averaged. A reusable CC BY recording from east of Shingwedzi is attached, but the vocalization type on the file was not identified. Only three wild-bush Kruger photographs were kept from a six-image shortlist, after camp, road and watermarked shots were dropped. No source named a confusable Kruger species, so similar is empty. No Kruger-specific predator list was given, so predators is omitted.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Sources disagree on body length, mass, group size, territory size, and age at sexual maturity; those disagreements are recorded rather than averaged.",
+    "A shoulder height was not given in the sources used.",
+    "Iris colour, ear colour and muzzle colour were not given in the sources used, so those marks are null.",
+    "A reusable CC BY recording from east of Shingwedzi, Kruger National Park, was found, but the vocalization type on the file was not identified.",
+    "Only three licensable wild-bush Kruger photographs were kept after camp, road and watermarked shots were dropped from the shortlist.",
+    "No source named a confusable Kruger species, so similar is empty.",
+    "Sources name predators in general terms (snakes, raptors, carnivores, and leopard in the context of alarm calls) but do not give a Kruger-specific list, so predators is omitted."
+  ]
+}
