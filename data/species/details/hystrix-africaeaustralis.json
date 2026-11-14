@@ -1,0 +1,299 @@
+{
+  "kind": "species",
+  "slug": "hystrix-africaeaustralis",
+  "scientificName": "Hystrix africaeaustralis",
+  "commonNames": {
+    "en": "Cape porcupine",
+    "af": "Kaapse ystervark"
+  },
+  "family": "hystricidae",
+  "inatTaxonId": 44173,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2016 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Hystrix africaeaustralis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/29.-Cape-Porcupine-Hystrix-africaeaustralis_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Least Concern, unchanged from 2004. Afrikaans name given as Ystervark. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Cape porcupine",
+        "url": "https://en.wikipedia.org/wiki/Cape_porcupine",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2016 IUCN assessment (Cassola 2016, errata 2017), Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 63,
+      "max": 81
+    },
+    "tailCm": {
+      "min": 11,
+      "max": 20
+    },
+    "massKg": {
+      "min": 10,
+      "max": 24
+    },
+    "note": "Head-and-body length (63–81 cm), tail (11–20 cm) and a typical mass of 10–24 kg follow Wikipedia, which also notes exceptional animals of up to 30 kg, and regional averages of 16.9 kg (males) and 18.4 kg (females) in Zimbabwe, and 12.3 kg (males) and 13 kg (females) in the Orange River valley. Animal Diversity Web gives a mass range of 18–30 kg and says females average about one kilogram heavier than males; those disagreements are recorded rather than averaged. Neither source gives a shoulder height. ADW does not give a head-and-body or tail range beyond saying both sexes are larger than half a metre long."
+  },
+  "summary": "A very large, stocky rodent with a dark-haired head and underparts, an erectile crest of bristly hairs from the crown to the shoulders, and long black-and-white banded quills on the back, flanks and tail. Kruger holds a resident population, and animals are often seen after dark along park roads.",
+  "description": "The Cape porcupine is among the largest rodents in Africa. The body is heavily built, with short limbs and a short, inconspicuous tail. Long spines, up to 50 cm, and thicker defence quills, up to 30 cm, cover the back and flanks from about a third of the way along the body onto the tail; the quills are banded black and white. An erectile crest of long bristly hairs runs from the top of the head to the shoulders. The rest of the animal, including the undersides, is covered in dark, blackish or brownish hair. The eyes and ears are relatively small. Wikipedia describes the whiskers as short, while Animal Diversity Web describes them as very long and mobile; that disagreement is recorded rather than averaged. Some of the tail spines are hollow and can be rattled. Females have two pairs of teats. Males and females are similar in appearance; females are, on average, slightly heavier.",
+  "habits": "It is primarily nocturnal, though it may also be seen by day, and it is monogamous. A mated pair typically shares and defends a territory and may use up to six burrows, but the animals usually forage alone. Home-range size varies with habitat and food, and has been recorded between 67 and 203 hectares. Daytime shelter is taken in caves, aardvark burrows, or a self-dug den that may be many metres long. Both sexes scent-mark; males do so more often. When threatened it may freeze, rattle its hollow tail quills, charge sideways or backwards to drive quills into an attacker, or retreat into a burrow with only the quills exposed. The quills are not thrown, but they may come loose if the animal is touched or shakes them. In Kruger it is widespread and is regularly recorded after dark on park roads.",
+  "diet": {
+    "summary": "A herbivore that feeds mainly on plant material, including fruit, roots, tubers, bulbs and bark. It uses hindgut fermentation to digest tough plant matter. It has also been reported to gnaw carrion and bones, and in phosphorus-poor areas may collect bones in the den.",
+    "items": [
+      "fruit",
+      "roots, tubers and bulbs",
+      "bark",
+      "carrion and bones"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "Wikipedia states that pairs may mate throughout the year, with births most common in the rainy season, between August and March. Animal Diversity Web also places births in those wet months, but lists a breeding period of May to December; that disagreement is recorded rather than averaged. Females usually give birth once a year. Gestation lasts about 94 days. Wikipedia gives a litter of up to three young, with more than half of births being of a single young; Animal Diversity Web gives a range of one to four and an average of about 1.5. Newborns weigh 300–440 g (Wikipedia; Animal Diversity Web gives an average of 311 g), have open eyes and erupted incisors, and are born with soft quills that harden within hours. They are weaned at about 100 days (Wikipedia) or at three to four months, when they weigh 4–5 kg (Animal Diversity Web). Wikipedia says they reach adult size and sexual maturity at the end of the first year; Animal Diversity Web gives sexual maturity at 8–18 months in males and 9–16 months in females. Wikipedia gives a wild lifespan of about 10 years, or up to 20 years in captivity; Animal Diversity Web gives 12–15 years in the wild.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard",
+      "note": "A research-grade iNaturalist observation from Kruger shows a leopard with a killed porcupine (observation 96766069). Animal Diversity Web names big cats as predators, without naming the species."
+    },
+    {
+      "slug": null,
+      "en": "Hyaenas",
+      "note": "Animal Diversity Web names hyaenas as predators, without naming the species."
+    },
+    {
+      "slug": null,
+      "en": "Large predatory birds",
+      "note": "Named by Animal Diversity Web, without naming the species. Not mammals in this guide."
+    }
+  ],
+  "prey": [],
+  "habitat": "A wide range of vegetated habitats from sea level to 2,000 m, largely avoiding dense forest, the driest deserts and swampland. Daytime cover is taken in rocky areas, caves, aardvark burrows or self-dug dens. In Kruger it is widespread.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2016 regional assessment cites a density of eight individuals per square kilometre on a Northern Cape farm, which is not a park count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Hystrix africaeaustralis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/29.-Cape-Porcupine-Hystrix-africaeaustralis_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "relatively small"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "dark-haired, with relatively small eyes and ears",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "erectile crest of long bristly hairs from the crown to the shoulders"
+        },
+        "upperparts": {
+          "colour": [
+            "black",
+            "white"
+          ],
+          "pattern": "long spines and shorter black-and-white banded defence quills on the back and flanks, starting about a third of the way down the body"
+        },
+        "underparts": {
+          "colour": "dark",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "dark"
+        },
+        "tail": {
+          "colour": null,
+          "shape": "short and inconspicuous, with hollow rattling spines"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A stocky, low body with a dark head, an erectile crest to the shoulders, and a dense coat of long black-and-white quills over the back, flanks and short tail."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The raised black-and-white quills of the rump and the short, quill-covered tail are the clearest marks from behind."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Hollow spines on the tail are rattled to warn off predators. No vocal call was described in the sources used.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "hystrix-africaeaustralis/stols-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/332567416",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/603577332/large.jpg",
+      "author": "Rebecca Ryen Stols",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Cape porcupine in profile at night, with the crest and long black-and-white quills raised, in Kruger National Park",
+      "caption": "Adult at night, east of Skukuza, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "hystrix-africaeaustralis/mckenzie-veld-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/151810541",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/261995860/large.jpeg",
+      "author": "Duncan McKenzie",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Cape porcupine walking through open woodland, showing the banded quills of the back and flanks, in Kruger National Park",
+      "caption": "Adult, north-east of Skukuza, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "hystrix-africaeaustralis/hmi509-road-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/159546301",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/275660093/large.jpg",
+      "author": "hmi509",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Cape porcupine walking away down a gravel road by day, showing the raised black-and-white quills of the rump, in Kruger National Park",
+      "caption": "Adult on a gravel road, north of Satara, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "hystrix-africaeaustralis/brewmaster-night-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/260099175",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/467029916/large.jpg",
+      "author": "brewmaster",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Cape porcupine on a park road at night, seen from behind and slightly to the side, with the quills fanned, in Kruger National Park",
+      "caption": "Adult at night, east of Skukuza, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cape porcupine",
+      "url": "https://en.wikipedia.org/wiki/Cape_porcupine",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Hystrix africaeaustralis account",
+      "url": "https://animaldiversity.org/accounts/Hystrix_africaeaustralis/",
+      "publisher": "Animal Diversity Web",
+      "year": 2026
+    },
+    {
+      "title": "A conservation assessment of Hystrix africaeaustralis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/29.-Cape-Porcupine-Hystrix-africaeaustralis_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. A 2025 EWT species page was not found in a site search, so the regional status is taken from the 2016 assessment. Sources disagree on mass, wild lifespan, litter size, whisker length, the stated breeding period, and the age of sexual maturity. No reusable recording was found. Many licensed Kruger iNaturalist records were loose quills, dung, rest-camp shots or a leopard kill, so the photographs are the usable live-animal frames that remained after those were dropped.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "A 2025 EWT species assessment page was not found; regional status is taken from the 2016 assessment, Least Concern.",
+    "Shoulder height was not given in the sources used.",
+    "Sources disagree on mass, wild lifespan, litter size, whisker length, the stated breeding period, and the age of sexual maturity; those disagreements are recorded rather than averaged.",
+    "Iris colour, ear colour, muzzle colour and tail colour were not given as named values in the sources used, so those marks are null.",
+    "No vocal call was described beyond the rattling of hollow tail quills, and no reusable Kruger recording was found.",
+    "No source named a confusable Kruger species, so similar is empty."
+  ]
+}
