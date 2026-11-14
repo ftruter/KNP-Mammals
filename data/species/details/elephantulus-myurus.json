@@ -1,0 +1,329 @@
+{
+  "kind": "species",
+  "slug": "elephantulus-myurus",
+  "scientificName": "Elephantulus myurus",
+  "commonNames": {
+    "en": "Rock elephant-shrew",
+    "af": "Klipklaasneus"
+  },
+  "family": "macroscelididae",
+  "inatTaxonId": 43213,
+  "status": "resident",
+  "monthsPresent": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho. The IUCN global assessment is Least Concern (2015).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Eastern Rock Sengi",
+        "url": "https://ewt.org/project/eastern-rock-sengi/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Least Concern, regional trend unknown, no change from 2016. Afrikaans name given as Klip Klaasneus; the stored af value is the 2011 SANParks checklist name Klipklaasneus. English names on the page are Eastern Rock Sengi and Eastern Rock Elephant-shrew; the stored en value is the 2011 SANParks checklist name Rock elephant-shrew. The page names Kruger National Park as a key protected area."
+      },
+      {
+        "title": "Elephantulus myurus – Eastern Rock Sengi",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/4.-Eastern-Rock-Sengi-Elephantulus-myurus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "2016 regional assessment, Least Concern, then treated the regional trend as stable. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Eastern rock sengi",
+        "url": "https://en.wikipedia.org/wiki/Eastern_rock_sengi",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Rathbun (2015), IUCN global Least Concern. The article is a stub."
+      }
+    ]
+  },
+  "size": {
+    "lengthCm": {
+      "min": 20.2,
+      "max": 29.0
+    },
+    "massKg": {
+      "min": 0.041,
+      "max": 0.098
+    },
+    "note": "Animal Diversity Web, citing Skinner and Smithers (1990), gives a length range of 202–290 mm (average 260 mm) and a mass range of 41–98 g (average 60 g), and states that the tail is sparsely haired and slightly longer than the body. The 2025 regional assessment gives size at maturity as 26.3 cm for both sexes, without saying whether that is total length or another measurement. Those length figures are close, but the measurement is not named the same way, so they are not averaged; lengthCm stores the Animal Diversity Web range. Head-and-body length and tail length are left unset because no numeric values were given for those parts separately. Shoulder height was not found."
+  },
+  "summary": "A small sengi of rocky outcrops and koppies, with a long mobile snout, a white eye-ring and a sparsely haired tail slightly longer than the body. It is listed on the 2011 SANParks Kruger checklist, named by the 2025 regional assessment as occurring in Kruger National Park, and treated here as a year-round resident of the park.",
+  "description": "A small, soft-furred sengi of rocky ground. Animal Diversity Web, citing Skinner and Smithers, gives a length of 202–290 mm (average 260 mm) and a mass of 41–98 g (average 60 g), and describes a long, slender, trunk-like snout that can be used to forage and test the air. The same account gives the upperparts as brownish grey and the underparts as pale grey, with brown ears and eyes and a white ring around the eye. The tail is sparsely haired and slightly longer than the body, with glands visible at the base of the tail and near the anus. Animal Diversity Web states that the extremities are white on the dorsal side and lack hair on the ventral side, and also that black extremities distinguish this species from other Elephantulus; those two statements are recorded here and are not reconciled. The 2025 regional assessment gives size at maturity as 26.3 cm in both sexes. The sexes are not described as differing in coat.",
+  "habits": "The 2025 regional assessment describes the species as usually pair-living, with pairs occupying large exclusive home ranges, though solitary individuals are also common, and cites Ribble and Perrin on mate guarding. Home-range sizes in that assessment come from Goro Nature Reserve in Limpopo and Weenen Nature Reserve in KwaZulu-Natal, not from Kruger. The same assessment, citing Mzilikazi and Lovegrove, notes daily torpor and passive heating by basking. Animal Diversity Web, citing Skinner and Smithers and Woodall and others, describes it as primarily diurnal, active at sunrise and sunset, also partly nocturnal, and typically avoiding the hottest part of the afternoon, with less activity in winter. It often sits among rocks, hidden except for twitching ears, and darts out after prey. Footdrumming and vocalisations are described, though their social role is not settled in that account. It does not nest or burrow, instead using cracks and crevices in rocks.",
+  "diet": {
+    "summary": "Animal Diversity Web, citing Skinner and Smithers and Churchfield, describes it as primarily insectivorous, with some plant material. Churchfield's analysis of faecal pellets found invertebrates making up 60–100% of the diet by volume (mean 90%) and plant material (leaves, stems and grains) 10–40% (mean 10%), with ants and termites the main invertebrate prey (42% of the diet), and beetles, true bugs, flies, moths, spiders and centipedes also taken. The diet is described as remaining constant across seasons.",
+    "items": [
+      "ants and termites, the main invertebrate prey according to Churchfield as cited by Animal Diversity Web",
+      "beetles, true bugs, flies, moths, spiders and centipedes",
+      "leaves, stems and grains, as a smaller part of the diet"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Sources agree that the young are precocial: born with hair and with the eyes open, and able to run within a few hours of birth. Animal Diversity Web, citing Rathbun and Fons and Skinner and Smithers, gives a gestation of 49–56 days, a birth mass of 8.1 g, a length at birth of about 50 mm, and a litter size of 1–3. The 2025 regional assessment gives a gestation of 8 weeks and an age at maturity of 6 weeks for females, and does not give a litter size. Eight weeks is 56 days, which is the upper end of the Animal Diversity Web range; the figures are recorded rather than averaged. Animal Diversity Web also gives sexual maturity at 5–6 weeks in one section and 5–7 weeks in another, and states that the young remain hidden until about one-third of adult size and are driven away on reaching sexual maturity, with little male care. Animal Diversity Web gives the mating season as July to January. Wikipedia, in a stub article, states that this is one of three sengi species known to breed seasonally, in spring and summer, and that mothers normally give birth to two sets of twins. Those breeding and litter statements disagree with one another in wording and are not reconciled here. A Kruger-specific birth season was not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Snakes",
+      "note": "Named as a group by Animal Diversity Web, citing Skinner and Smithers. No species was given in the sources used."
+    },
+    {
+      "slug": null,
+      "en": "Owls",
+      "note": "Named as a group by Animal Diversity Web, citing Skinner and Smithers. No species was given in the sources used."
+    },
+    {
+      "slug": null,
+      "en": "Hawks",
+      "note": "Named as a group by Animal Diversity Web, citing Skinner and Smithers. No species was given in the sources used."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Ants and termites",
+      "note": "Named as the predominant invertebrate prey by Animal Diversity Web, citing Churchfield."
+    },
+    {
+      "slug": null,
+      "en": "Beetles, true bugs, flies, moths, spiders and centipedes",
+      "note": "Named as additional invertebrate prey by Animal Diversity Web, citing Churchfield."
+    }
+  ],
+  "habitat": "The 2025 regional assessment, citing Corbet and Hanks and Rathbun, places the species in rocky outcrops or koppies that provide cracks and holes for shelter and nesting, preferring parts of those habitats with overhanging ledges or vegetation as cover from aerial predators. Key vegetation types named on that page are the Nama Karoo, Grassland and Savanna Biomes. Animal Diversity Web, citing Skinner and Smithers, likewise places it in rocky outcrops of boulders in hilly terrain, and states that it does not nest or burrow. The 2025 page names Kruger National Park as a key protected area, and research-grade iNaturalist records occur in place 69020, including several with positional accuracy within about 1 km in far-northern Kruger.",
+  "similar": [
+    {
+      "slug": "elephantulus-brachyrhynchus",
+      "note": "Animal Diversity Web, citing Skinner and Smithers, states that the short-snouted elephant-shrew occurs in the same region but only on neighbouring sandy flat ground, and that the two habitats rarely overlap. The 2025 regional assessment of this species emphasises its association with rocky outcrops and koppies."
+    },
+    {
+      "slug": "petrodromus-tetradactylus",
+      "note": "A species-specific comparison with the four-toed elephant-shrew was not found in the sources used."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2025 regional assessment gives no national population estimate, describes the species as locally common and potentially the most abundant Elephantulus in South Africa, and treats the regional trend as unknown. Densities cited on that page (2.5 individuals/ha, Ribble and Perrin 2005; about 0.3 individuals/ha, Hoffmann and others 2020) are from studies outside Kruger and are not used as a park total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Eastern Rock Sengi",
+        "url": "https://ewt.org/project/eastern-rock-sengi/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "No national estimate; regionally locally common, trend unknown. Densities cited are from studies outside Kruger. No Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "brown, following Animal Diversity Web",
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": "white, following Animal Diversity Web"
+        },
+        "head": {
+          "face": "long, slender, trunk-like snout, following Animal Diversity Web",
+          "muzzle": "long, slender and mobile, with a small rhinarium at the tip, following Animal Diversity Web",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "brownish grey",
+          "pattern": "soft fur, following Animal Diversity Web"
+        },
+        "underparts": {
+          "colour": "pale grey",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "Animal Diversity Web states that the extremities are white on the dorsal side and lack hair on the ventral side, and also that black extremities distinguish this species from other Elephantulus; those statements are not reconciled here"
+        },
+        "tail": {
+          "colour": null,
+          "shape": "sparsely haired and slightly longer than the body, with glands at the base, following Animal Diversity Web"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Look for a small, soft-furred sengi among rocks, with a long mobile snout, a white eye-ring, brownish-grey upperparts, pale underparts, and a sparsely haired tail slightly longer than the body."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Animal Diversity Web, citing Skinner and Smithers, describes footdrumming and vocalisations, but states that their social role is not clear. No further description of the sounds was given in the sources used.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "elephantulus-myurus/far-north-close.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/325147354",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/588648364/large.jpg",
+      "author": "Duncan McKenzie",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Rock elephant-shrew in close side view among rocks, showing the long snout, white eye-ring and brownish-grey coat",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 3 November 2025."
+    },
+    {
+      "key": "elephantulus-myurus/far-north-overhang.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/254308020",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/455485681/large.jpg",
+      "author": "Heinrich Human",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Rock elephant-shrew in side view under a rock overhang, showing the long snout, pale eye-ring and long tail",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 3 December 2024."
+    },
+    {
+      "key": "elephantulus-myurus/far-north-rocks.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/345084511",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/628837774/large.jpg",
+      "author": "southbroom15",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Rock elephant-shrew standing on a jumble of rocks, showing the long snout, ears and brownish-grey upperparts",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 19 December 2017."
+    },
+    {
+      "key": "elephantulus-myurus/far-north-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/231602835",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/411372152/large.jpg",
+      "author": "Marc Cronje",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Rock elephant-shrew in full side view on stony ground, showing the long snout and a sparsely haired tail longer than the body",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 16 February 2018."
+    },
+    {
+      "key": "elephantulus-myurus/far-north-crevice.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/378478186",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/692212016/large.jpg",
+      "author": "rosshawkins",
+      "license": "CC0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Rock elephant-shrew in a rock crevice, showing the long snout among pale boulders",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 5 July 2026."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eastern rock sengi",
+      "url": "https://en.wikipedia.org/wiki/Eastern_rock_sengi",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "A stub article; used for seasonal breeding and the statement that mothers normally give birth to two sets of twins, and for the 2015 IUCN global assessment."
+    },
+    {
+      "title": "Elephantulus myurus: eastern rock elephant-shrew",
+      "url": "https://animaldiversity.org/accounts/Elephantulus_myurus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "Jones, J. Account used for length and mass, coat, eye-ring, tail, extremity colour, breeding figures, habits, diet, predators and footdrumming. No publication year was given on the page."
+    },
+    {
+      "title": "Eastern Rock Sengi",
+      "url": "https://ewt.org/project/eastern-rock-sengi/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Elephantulus myurus – Eastern Rock Sengi",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/4.-Eastern-Rock-Sengi-Elephantulus-myurus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Elephantulus myurus",
+      "url": "https://api.inaturalist.org/v1/taxa/43213",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": false,
+    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Rock elephant-shrew, Klipklaasneus). The 2025 EWT page uses Eastern Rock Sengi and Eastern Rock Elephant-shrew, and the Afrikaans name Klip Klaasneus. Status is resident: the 2011 SANParks Kruger checklist includes the species, the 2025 EWT page names Kruger National Park as a key protected area, and research-grade iNaturalist records occur in place 69020, including several with positional accuracy within about 1 km in far-northern Kruger. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Regional and global status is Least Concern; the 2025 regional trend is unknown, whereas the 2016 assessment treated it as stable. Sources disagree on gestation wording (49–56 days versus 8 weeks), litter size, and the exact age at maturity; those disagreements are recorded in young rather than averaged. Animal Diversity Web also gives two wordings for extremity colour, which are recorded and not reconciled.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Shoulder height was not found. Head-and-body length and tail length were left unset because Animal Diversity Web gives only that the tail is slightly longer than the body, and the 2025 assessment's 26.3 cm size at maturity does not say what was measured.",
+    "A Kruger-specific birth-month range was not found. Published breeding is described as July to January by Animal Diversity Web, and as spring and summer by Wikipedia.",
+    "Iris colour was not given in the sources used, so that mark is null. Predators were named only as broad groups (snakes, owls, hawks), with no species.",
+    "A species-specific comparison with the four-toed elephant-shrew (Petrodromus tetradactylus) was not found in the sources used.",
+    "iNaturalist has 0 sound observations for Elephantulus myurus in place 69020. Footdrumming and vocalisations are described from Animal Diversity Web; recordings is empty.",
+    "Animal Diversity Web both describes the extremities as white above and hairless below, and states that black extremities distinguish this species from other Elephantulus; those statements were not reconciled.",
+    "Wikipedia's account of this species is a stub, so breeding details from that page are thin.",
+    "No publication year was found on the Animal Diversity Web account."
+  ]
+}
