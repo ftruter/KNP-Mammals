@@ -1,0 +1,296 @@
+{
+  "kind": "species",
+  "slug": "elephantulus-brachyrhynchus",
+  "scientificName": "Elephantulus brachyrhynchus",
+  "commonNames": {
+    "en": "Short-shouted elephant-shrew",
+    "af": "Kortneus klaasneus"
+  },
+  "family": "macroscelididae",
+  "inatTaxonId": 43211,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho. The IUCN global assessment is Least Concern (2015).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Short-snouted Sengi",
+        "url": "https://ewt.org/project/short-snouted-sengi/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Least Concern, trend stable, no change from 2016. Afrikaans name given as Kortneus Klaasneus; the stored af value is the 2011 SANParks checklist name Kortneus klaasneus. The page does not name Kruger National Park."
+      },
+      {
+        "title": "Elephantulus brachyrhynchus – Short-snouted Sengi",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/1.-Short-snouted-Sengi-Elephantulus-brachyrhynchus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "2016 regional assessment. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Short-snouted sengi",
+        "url": "https://en.wikipedia.org/wiki/Short-snouted_sengi",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Rathbun (2015), IUCN global Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "lengthCm": {
+      "min": 21,
+      "max": 21
+    },
+    "massKg": {
+      "min": 0.04,
+      "max": 0.06
+    },
+    "note": "Wikipedia, citing Smithers (1983), gives an average length of 21 cm from head to tail and an average mass of 1.41–2.11 oz (40–60 g). The 2025 regional assessment gives size at maturity as 21 cm for both sexes, without saying whether that is total length or another measurement. Animal Diversity Web, also citing Smithers (1983), gives an average body length of 21 cm and a tail length of approximately the same, with a mass range of 40–60 g. The length figures therefore disagree on whether 21 cm includes the tail, and should not be averaged; lengthCm stores the 21 cm figure as an average, not a range, following Wikipedia's head-to-tail wording and the 2025 assessment's size at maturity. Head-and-body length and tail length are left unset because of that disagreement. Shoulder height was not found."
+  },
+  "summary": "A small sengi of dense grass and scrub, with a shorter, slightly tapered snout than other elephant-shrews, a pale eye-ring and yellowish patches behind the ears. It is listed on the 2011 SANParks Kruger checklist and is treated here as a year-round resident of the park.",
+  "description": "A small, soft-furred sengi. Wikipedia, citing Smithers, gives an average length of 21 cm from head to tail and a mass of 40–60 g. The 2025 regional assessment gives size at maturity as 21 cm in both sexes. Animal Diversity Web, also citing Smithers, gives an average body length of 21 cm and a tail of about the same length; those length figures disagree and are not averaged here. The snout is long and narrow, as in other sengis, but shorter and slightly tapered. Animal Diversity Web, citing Smithers, describes the coat as reddish-yellow to yellowish-brown or grey, with a faint white eye-ring and hairless soles on the hind feet. Wikipedia adds white, buffy or off-white rings around the eyes and upper lip, and brownish-yellow patches behind the ears. The sexes are not described as differing in coat.",
+  "habits": "The 2025 regional assessment lists the species as not a migrant. Animal Diversity Web and Wikipedia, citing Smithers, describe it as diurnal and most active in the early morning, mainly solitary but sometimes seen in pairs, and fast-moving, scurrying between cover and avoiding open ground. Sources describe it as highly territorial, with each sex driving off others of the same sex. Wikipedia and Animal Diversity Web, citing Nowak, state that it may dig its own burrow or use a rodent burrow. The 2025 regional assessment, citing Yarnell and others, adds that it uses termite mounds as a refuge from fire, and gives a home range of up to 0.25 ha. Animal Diversity Web, citing Neal, notes that it spends less time on the ground surface than other macroscelids. Wikipedia states that trails are marked with scent glands behind the ears.",
+  "diet": {
+    "summary": "Sources describe it as mainly insectivorous, and the 2025 regional assessment also calls it omnivorous. Animal Diversity Web and Wikipedia, citing Smithers and Leirs and others, give ants and termites as the main foods, with grasshoppers and crickets also named by Wikipedia, and small amounts of green plant material, fruits and seeds taken opportunistically.",
+    "items": [
+      "ants and termites",
+      "grasshoppers and crickets, named by Wikipedia",
+      "green plant material, fruits and seeds, taken opportunistically"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Sources agree that the young are precocial: fully furred, born with the eyes open, and able to run almost immediately. Wikipedia and Animal Diversity Web, citing Nowak, give a gestation of 57–65 days, a birth mass of about 10 g, and adult size at 50 days. The 2025 regional assessment gives a gestation of 61 days and a litter size of 2. Wikipedia gives litters of one or two; Animal Diversity Web, citing Smithers, says two young on average. Females may have five to six litters a year. Animal Diversity Web, citing Neal, adds that reproduction occurs throughout the year, though conceptions decrease in cool periods, and that the average is about eight young a year. Wikipedia states that offspring establish their own home ranges after about 15 days, and that pairs are monogamous and mate for life. A Kruger-specific birth season was not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Birds of prey",
+      "note": "Named as a group by Wikipedia. No species was given in the sources used."
+    },
+    {
+      "slug": null,
+      "en": "Big cats",
+      "note": "Named as a group by Wikipedia. No species was given in the sources used."
+    },
+    {
+      "slug": null,
+      "en": "Snakes",
+      "note": "Named as a group by Wikipedia. No species was given in the sources used."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Ants and termites",
+      "note": "Named as primary prey by Animal Diversity Web and Wikipedia, citing Smithers."
+    },
+    {
+      "slug": null,
+      "en": "Grasshoppers and crickets",
+      "note": "Named by Wikipedia."
+    }
+  ],
+  "habitat": "The 2025 regional assessment places the species in steppe and savannah woodland in the Savanna Biome, in dense grass with scrub and scattered trees, denser than the habitat of the bushveld sengi (Elephantulus intufi). It is sometimes found on rocky hillsides, but the same assessment states that it is not associated with rocky outcrops. It may occur on sandy ground, sandy alluvium or hard mopane-scrub soils. The page does not name Kruger National Park. The species is listed on the 2011 SANParks Kruger checklist, and two research-grade iNaturalist records occur in place 69020, both with positional accuracy coarser than 1 km.",
+  "similar": [
+    {
+      "slug": "elephantulus-myurus",
+      "note": "The 2025 regional assessment states that this species is sympatric with the rock elephant-shrew (Elephantulus myurus) but is segregated by habitat, preferring denser vegetation, and that it is not associated with rocky outcrops."
+    },
+    {
+      "slug": "petrodromus-tetradactylus",
+      "note": "Wikipedia and Animal Diversity Web describe this species as having a shorter, slightly tapered snout than other sengis. A more specific comparison with the four-toed elephant-shrew was not found in the sources used."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2025 regional assessment gives no national population estimate, describes the species as only locally common, and treats the regional trend as stable. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Short-snouted Sengi",
+        "url": "https://ewt.org/project/short-snouted-sengi/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "No national estimate; regionally only locally common, trend stable. No Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "brownish-yellow patches behind the ears, described by Wikipedia"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "faint white according to Animal Diversity Web; white, buffy or off-white according to Wikipedia"
+        },
+        "head": {
+          "face": "shorter, slightly tapered snout than other sengis; Wikipedia also describes a pale ring on the upper lip",
+          "muzzle": "shorter and slightly tapered than in other sengis",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "reddish-yellow",
+            "yellowish-brown",
+            "grey"
+          ],
+          "pattern": "soft fur; colour varies with locality, following Animal Diversity Web citing Smithers"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "soles of the hind feet lack hair, following Animal Diversity Web citing Smithers; a separate leg colour was not given"
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Look for a small, soft-furred sengi with a shorter, slightly tapered snout than other elephant-shrews, a pale eye-ring, and yellowish patches behind the ears."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Animal Diversity Web and Wikipedia, citing Faurie and others, describe footdrumming: a rapid tapping of the hind feet, with regular and irregular drum patterns in this species, given in stressful situations such as a predator encounter or during mating.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "elephantulus-brachyrhynchus/vhembe-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/340029359",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/618688886/large.jpg",
+      "author": "Vaughan Jessnitz",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Short-snouted sengi in side view on reddish ground, showing the tapered snout, pale eye-ring and yellowish patch behind the ear",
+      "caption": "Research-grade iNaturalist observation, Vhembe District Municipality, Limpopo, 24 February 2026."
+    },
+    {
+      "key": "elephantulus-brachyrhynchus/vhembe-alert.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/340029340",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/618686216/large.jpg",
+      "author": "Vaughan Jessnitz",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Short-snouted sengi crouched among dry grass and bare ground, showing the short tapered snout and pale eye-ring",
+      "caption": "Research-grade iNaturalist observation, Vhembe District Municipality, Limpopo, 24 February 2026."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Short-snouted sengi",
+      "url": "https://en.wikipedia.org/wiki/Short-snouted_sengi",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Elephantulus brachyrhynchus: short-snouted elephant-shrew",
+      "url": "https://animaldiversity.org/accounts/Elephantulus_brachyrhynchus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": 2000,
+      "note": "Gill, E. Account used for body and tail length, mass, coat, eye-ring, hairless hind soles, breeding figures, habits, diet and footdrumming."
+    },
+    {
+      "title": "Short-snouted Sengi",
+      "url": "https://ewt.org/project/short-snouted-sengi/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Elephantulus brachyrhynchus – Short-snouted Sengi",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/1.-Short-snouted-Sengi-Elephantulus-brachyrhynchus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Elephantulus brachyrhynchus",
+      "url": "https://api.inaturalist.org/v1/taxa/43211",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": false,
+    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Short-shouted elephant-shrew, Kortneus klaasneus), including the printed English spelling 'Short-shouted'. The 2025 EWT page uses Short-snouted Sengi and Short-snouted Elephant-shrew, and the Afrikaans name Kortneus Klaasneus. Status is resident: the 2011 SANParks Kruger checklist includes the species, and two research-grade iNaturalist records occur in place 69020, both with positional accuracy coarser than 1 km. The 2025 EWT page does not name Kruger. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Regional and global status is Least Concern. Sources disagree on whether the 21 cm length includes the tail, and on litter size and the exact gestation figure; those disagreements are recorded in size and young rather than averaged.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2025 EWT page does not name Kruger National Park. Resident status is based on the 2011 SANParks Kruger checklist and two research-grade iNaturalist records in place 69020, both with positional accuracy coarser than 1 km (observations 65846810 and 45100214).",
+    "Shoulder height was not found. Head-and-body length and tail length were left unset because Wikipedia and Animal Diversity Web, both citing Smithers, disagree on whether the 21 cm figure includes the tail.",
+    "A Kruger-specific birth-month range was not found. Published breeding is described as year-round, with fewer conceptions in cool periods.",
+    "Iris colour and underparts colour were not given in the sources used, so those marks are null. Predators were named only as broad groups (birds of prey, big cats, snakes), with no species.",
+    "A species-specific comparison with the four-toed elephant-shrew (Petrodromus tetradactylus) was not found beyond this species' shorter, slightly tapered snout relative to other sengis.",
+    "iNaturalist has 0 sound observations for Elephantulus brachyrhynchus in place 69020. Footdrumming is described from Animal Diversity Web and Wikipedia; recordings is empty.",
+    "No usable Kruger photograph was found. The two research-grade Kruger observations were excluded: 65846810 has accuracy of about 14 km, and 45100214 has accuracy of 5 km and CC BY-NC-ND photographs. Two South Africa photographs were used, both from Vhembe District Municipality on 24 February 2026 (observations 340029359 and 340029340, CC BY-NC, Vaughan Jessnitz). A Nylsvley observation (203733959) was a trap or bag shot, a Three Rondavels observation (67845600) was taken through a fence, and a Mopani record (413756595) was too poor to use."
+  ]
+}
