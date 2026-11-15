@@ -1,0 +1,357 @@
+{
+    "kind": "species",
+    "slug": "alcelaphus-buselaphus-lichtensteinii",
+    "scientificName": "Alcelaphus buselaphus lichtensteinii",
+    "commonNames": {
+        "en": "Lichtenstein's hartebeest",
+        "af": "Lichtenstein se hartbees"
+    },
+    "family": "bovidae",
+    "inatTaxonId": 132659,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Not Applicable",
+        "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho, which lists this subspecies as Not Applicable because historical residency in the region is uncertain. The same assessment, and Wikipedia citing a 2017 IUCN assessment, give a global status of Least Concern for Alcelaphus buselaphus lichtensteinii. The 2016 regional assessment listed it as Not Evaluated. Red hartebeest (A. b. caama) is assessed separately as Least Concern and is not this taxon.",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "Red Hartebeest",
+                "url": "https://ewt.org/project/red-hartebeest/",
+                "publisher": "Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "2025 regional assessment: A. b. lichtensteinii Not Applicable; A. b. caama Least Concern. Regional population trend is given for the red hartebeest account as Unknown."
+            },
+            {
+                "title": "A conservation assessment of Alcelaphus buselaphus caama (2016 Red List of Mammals of South Africa, Swaziland and Lesotho)",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Red-Hartebeest-Alcelaphus-buselaphus-caama_LC.pdf",
+                "publisher": "Endangered Wildlife Trust and South African National Biodiversity Institute",
+                "year": 2016,
+                "note": "Cited, not hosted. Regional status for A. b. lichtensteinii: Not Evaluated. Global status: Least Concern."
+            },
+            {
+                "title": "Lichtenstein's hartebeest",
+                "url": "https://en.wikipedia.org/wiki/Lichtenstein's_hartebeest",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites a 2017 IUCN assessment of Least Concern for this subspecies."
+            }
+        ]
+    },
+    "size": {
+        "note": "Wikipedia's Lichtenstein's hartebeest account gives only typical figures for this subspecies: about 125 cm at the shoulder and around 150 kg. Those are not ranges, so shoulderHeightCm and massKg are left null. Animal Diversity Web, writing about hartebeest generally (Alcelaphus buselaphus), gives shoulder height 110\u2013150 cm, length 1.5\u20132.45 m (not stated as head-and-body versus total length), tail 30\u201370 cm, and mass 75\u2013200 kg. Wikipedia's general hartebeest article gives a typical head-and-body length of 2\u20132.50 m and mass of 100\u2013200 kg, and says the shoulder stands just over 1 m. Those species-level ranges are recorded here only as a note, because they cover all subspecies. Horns of Lichtenstein's hartebeest are said to reach over 50 cm; the general account gives 45\u201370 cm for the species."
+    },
+    "summary": "A large, long-faced antelope with a red-brown coat, paler underparts, a steeply sloping back and ridged horns that look S-shaped from the side. Reintroduced in small numbers to Kruger, and still scarce there.",
+    "description": "Lichtenstein's hartebeest has a long, narrow face, a short neck, high shoulders and a conspicuously sloping back. The coat is red-brown and lighter on the underbelly. Both sexes have slightly ridged horns that rise from a single pedicel: from the side they appear S-shaped, and from the front they look like the letter O with the top missing. Horns reach over half a metre. The general hartebeest account also notes pointed ears, unusually long legs and a tufted tail; female horns are described as slenderer than those of males. This file follows the Kruger taxon stored as Alcelaphus buselaphus lichtensteinii, not the red hartebeest A. b. caama.",
+    "habits": "Diurnal grazers. Females and calves form small herds, often of five to 15 animals, with a single territorial male; in one Tanzanian account most groups numbered one to ten. The male may stand sentry on a termite mound. Males hold exclusive territories, which they mark by horning the soil and by dung piles. Bachelor males are often solitary and do not hold territories. The general hartebeest account describes grazing in the early morning and late afternoon and resting in shade around noon; that daily timetable is not Kruger-specific.",
+    "diet": {
+        "summary": "A grazing herbivore. Accounts of this subspecies, and of hartebeest generally, describe a diet of grasses.",
+        "items": [
+            "grasses"
+        ],
+        "guild": "herbivore"
+    },
+    "young": "A single calf is born after a gestation of eight to nine months (214\u2013242 days in one species-level account), usually in cover rather than on open plains, and is given as weighing about 9 kg in the general hartebeest account. Calves can move soon after birth and are weaned at about four months. In accounts of Lichtenstein's hartebeest from south-central Africa, most calves are born in August and September, and the rut typically runs from mid-October to January, with some local variation. A Kruger calving timetable was not found.",
+    "predators": [
+        {
+            "slug": "panthera-leo",
+            "en": "Lion"
+        },
+        {
+            "slug": "panthera-pardus",
+            "en": "Leopard"
+        },
+        {
+            "slug": "crocuta-crocuta",
+            "en": "Spotted hyaena"
+        },
+        {
+            "slug": "lycaon-pictus",
+            "en": "Wild dog"
+        },
+        {
+            "slug": "acinonyx-jubatus",
+            "en": "Cheetah",
+            "note": "Named for juveniles in the general hartebeest account."
+        },
+        {
+            "slug": "lupulella-mesomelas",
+            "en": "Black-backed jackal",
+            "note": "Jackals are named for juveniles in the general hartebeest account."
+        },
+        {
+            "slug": null,
+            "en": "Crocodile",
+            "note": "Named in the general hartebeest account."
+        }
+    ],
+    "prey": [],
+    "habitat": "Savannahs and floodplains of south-eastern and central Africa, including miombo woodland in the wider range. Within the assessment region the subspecies was probably present in low numbers in the Lowveld and northern Kruger, though whether it was ever a true resident is debated. Reintroduced animals have been released in both northern and southern Kruger.",
+    "similar": [
+        {
+            "slug": "damaliscus-lunatus",
+            "note": "Lichtenstein's hartebeest has a long, narrow face and horns that look S-shaped from the side and like an incomplete letter O from the front. One source notes that it may historically have been mistaken for tsessebe in southern Kruger."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census figure was found. One source records that 18 animals were moved from Malawi to Kruger in 1985, that 91 captive-bred animals were released in northern Kruger between 1990 and 1994, and that 31 were released in the south in 1994, with no further translocations into the park then planned (S. Ferreira, 2014). That source also says numbers in the assessment region (South Africa, Eswatini and Lesotho) are now very low, probably fewer than 50 individuals, and treats the regional Red List status as Not Applicable because historical residency is uncertain. Those figures are not a Kruger census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "previousEstimates": [],
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "A more accurate figure may be available here. Cited, not hosted. The official aerial sheet covers large herbivores."
+            },
+            {
+                "title": "Red Hartebeest",
+                "url": "https://ewt.org/project/red-hartebeest/",
+                "publisher": "Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Source of the reintroduction history and the regional remark that numbers are probably fewer than 50 individuals."
+            },
+            {
+                "title": "A conservation assessment of Alcelaphus buselaphus caama (2016 Red List of Mammals of South Africa, Swaziland and Lesotho)",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Red-Hartebeest-Alcelaphus-buselaphus-caama_LC.pdf",
+                "publisher": "Endangered Wildlife Trust and South African National Biodiversity Institute",
+                "year": 2016,
+                "note": "Cited, not hosted. Same reintroduction account."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": "slightly ridged; S-shaped from the side and like an incomplete O from the front; over 50 cm; present in both sexes, and slenderer in females in the general hartebeest account"
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": "pointed"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "long, narrow face with an elongated forehead",
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": "red-brown",
+                    "pattern": "high shoulders and a steeply sloping back"
+                },
+                "underparts": {
+                    "colour": "lighter than the upperparts",
+                    "pattern": null
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": "tufted"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "High shoulders, a steeply sloping back, a long narrow face, and ridged horns that look S-shaped from the side."
+        },
+        {
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "The horns appear from the front like the letter O with the upper part missing."
+        }
+    ],
+    "calls": [
+        {
+            "sex": "any",
+            "type": "call",
+            "description": "A bellow.",
+            "recordings": []
+        },
+        {
+            "sex": "any",
+            "type": "alarm",
+            "description": "A sneeze-snort sound.",
+            "recordings": []
+        }
+    ],
+    "images": [
+        {
+            "key": "alcelaphus-buselaphus-lichtensteinii/kruger-mopani-side.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/194378315",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341658335/large.jpg",
+            "author": "Punkus",
+            "license": "CC BY 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Adult Lichtenstein's hartebeest in three-quarter side view in Kruger National Park, showing a red-brown coat, paler rump and S-shaped horns",
+            "caption": "Adult, Mopani region, Kruger National Park, 6 November 2012."
+        },
+        {
+            "key": "alcelaphus-buselaphus-lichtensteinii/kruger-south-side.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/152354499",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/262995019/large.jpg",
+            "author": "jean hirons",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Adult Lichtenstein's hartebeest walking in side view in southern Kruger National Park, showing the sloping back, long face and S-shaped horns",
+            "caption": "Adult, southern Kruger National Park, 21 August 2008."
+        },
+        {
+            "key": "alcelaphus-buselaphus-lichtensteinii/kruger-south-front.jpg",
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/303480420",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/546995575/large.jpg",
+            "author": "rubenis2009",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Head-on view of an adult Lichtenstein's hartebeest near Pretoriuskop, Kruger National Park, showing the long face and horns that form an incomplete O from the front",
+            "caption": "Adult, near Pretoriuskop, Kruger National Park, 14 July 2025."
+        },
+        {
+            "key": "alcelaphus-buselaphus-lichtensteinii/kruger-south-herd.jpg",
+            "view": "herd",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/109934924",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/185376318/large.jpg",
+            "author": "katewalker17",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "A small group of Lichtenstein's hartebeest standing in tall grass in southern Kruger National Park",
+            "caption": "A small herd, southern Kruger National Park, 30 March 2022."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Lichtenstein's hartebeest",
+            "url": "https://en.wikipedia.org/wiki/Lichtenstein's_hartebeest",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Hartebeest",
+            "url": "https://en.wikipedia.org/wiki/Hartebeest",
+            "publisher": "Wikipedia",
+            "year": 2026,
+            "note": "Used for species-level size ranges, predators, gestation and general habits, with that caveat in the text."
+        },
+        {
+            "title": "Alcelaphus buselaphus",
+            "url": "https://animaldiversity.org/accounts/Alcelaphus_buselaphus/",
+            "publisher": "Animal Diversity Web",
+            "year": null,
+            "note": "Species-level account; there is no ADW page for A. lichtensteinii or Sigmoceros lichtensteinii."
+        },
+        {
+            "title": "Red Hartebeest",
+            "url": "https://ewt.org/project/red-hartebeest/",
+            "publisher": "Endangered Wildlife Trust",
+            "year": 2025
+        },
+        {
+            "title": "A conservation assessment of Alcelaphus buselaphus caama (2016 Red List of Mammals of South Africa, Swaziland and Lesotho)",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Red-Hartebeest-Alcelaphus-buselaphus-caama_LC.pdf",
+            "publisher": "Endangered Wildlife Trust and South African National Biodiversity Institute",
+            "year": 2016,
+            "note": "Cited, not hosted."
+        },
+        {
+            "title": "Most recent counts of Kruger's wildlife and trends over time",
+            "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+            "publisher": "SANParks Scientific Services",
+            "year": 2025,
+            "note": "Cited, not hosted."
+        },
+        {
+            "title": "iNaturalist taxon Alcelaphus buselaphus lichtensteinii",
+            "url": "https://www.inaturalist.org/taxa/132659-Alcelaphus-buselaphus-lichtensteinii",
+            "publisher": "iNaturalist",
+            "year": 2026
+        },
+        {
+            "title": "SANParks Kruger National Park mammal checklist 2011",
+            "url": null,
+            "publisher": "South African National Parks",
+            "year": 2011,
+            "note": "Source of the stored English and Afrikaans names, including the spelling hartbees."
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "The official list stores this Kruger taxon as the subspecies Alcelaphus buselaphus lichtensteinii. Field text follows that subspecies and does not treat red hartebeest (A. b. caama) as the Kruger animal. No Kruger census figure was found; a regional remark of probably fewer than 50 individuals is not a park count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Measurement ranges specific to this subspecies were not found, only typical values. Animal Diversity Web has no account under A. lichtensteinii.",
+        "researched": "14 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger population count was found. One source says numbers in the assessment region are probably fewer than 50 individuals, which is not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "No published measurement ranges were found for this subspecies, only typical values of about 125 cm at the shoulder and around 150 kg.",
+        "Iris colour, ear colour, leg colour and a named mane were not given in the sources used, so those marks are null.",
+        "No Kruger-specific calving-month range or daily activity timetable was found. Published August\u2013September calving and a mid-October to January rut come from accounts outside Kruger.",
+        "Predators listed are those named for hartebeest generally; a list specific to this subspecies in Kruger was not found.",
+        "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web, with Kruger status and reintroduction history from the EWT assessment.",
+        "No reusable Kruger recording was found.",
+        "Wikimedia Commons had no Kruger photographs of this taxon; the four photographs used are research-grade iNaturalist records from the park."
+    ]
+}

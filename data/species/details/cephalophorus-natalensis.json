@@ -1,0 +1,325 @@
+{
+  "kind": "species",
+  "slug": "cephalophorus-natalensis",
+  "scientificName": "Cephalophorus natalensis",
+  "commonNames": {
+    "en": "Red duiker",
+    "af": "Rooiduiker"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 1431002,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Near Threatened, declining). IUCN global status is Least Concern (2016).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Natal Red Duiker",
+        "url": "https://ewt.org/project/natal-red-duiker/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Near Threatened, regional trend declining, no change from 2016."
+      },
+      {
+        "title": "A conservation assessment of Cephalophus natalensis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/4.-Natal-Red-Duiker-Cephalophus-natalensis_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo. Regional status Near Threatened B2ab(ii,v)."
+      },
+      {
+        "title": "Red forest duiker",
+        "url": "https://en.wikipedia.org/wiki/Red_forest_duiker",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites IUCN SSC Antelope Specialist Group (2016), Least Concern globally."
+      }
+    ]
+  },
+  "size": {
+    "note": "Only typical or maximum values were published, so range fields are omitted. Wikipedia (citing wildlife-safari and WAZA compilations) gives a body length of up to 100 cm, a typical shoulder height of 43 cm, and an average mass of 14 kg. Horns are about 6 cm in both sexes, sometimes smaller in females, with a longest recorded length of 11 cm."
+  },
+  "summary": "A small, rich reddish-brown forest antelope with a hunched back, a forehead tuft, and short straight horns in both sexes. One source says it occurs in Kruger, but no park population figure was found, and no licensable Kruger photograph or recording was found.",
+  "description": "A small duiker, rich reddish-brown above, with typically paler underparts. The hairs on the chin, throat and the insides of the ears are commonly white. A tuft of reddish-brown and black hair grows between the horns, and the tail has a white tip. Both sexes have short, straight horns about 6 cm long, sometimes smaller in females; the horns have coarse rings and longitudinal striations at the base and are smooth towards the tips. The back is hunched, with the front legs shorter than the hind legs. It is smaller than the common duiker, and more reddish.",
+  "habits": "Usually seen singly, in pairs, or in a small family group; one compilation says groups of more than three are rare, while another, citing Skinner and Chimimba, allows loose associations of three to five. Most active around dawn and dusk, and more diurnal and less secretive than most forest duikers, though animals in heavily disturbed areas may become nocturnal. They spend much of the day lying up. Sources disagree on territoriality: one compilation describes them as quite territorial and says they scent-mark with secretions from glands near the eyes; the 2025 regional assessment, citing Bowland and Perrin (1995), says the species is not territorial and that home ranges may overlap by up to 100%. When threatened, an animal may freeze, then dive into thick cover. It can jump a 1.3 m net.",
+  "diet": {
+    "summary": "A concentrate feeder that cannot digest large amounts of fibre. It takes recently fallen fruits, flowers and leaves, and also browses low shrubs; whole fruits are often swallowed. Active browsing of live vegetation is less common than feeding on fallen material.",
+    "items": [
+      "fallen fruits, flowers and leaves",
+      "low-growing shrubs",
+      "dry leaves"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is usual, at any time of year. Gestation is given as about eight months in one compilation, and as approximately 210 days in the 2025 regional assessment; both figures are kept here. A calving interval of 236 days (range 222–273 days, n = 5) has also been published. Newborns weigh about 1 kg and are reddish-black with a reddish-brown face. The young stay with the cow for about six to eight months. Exact birth months for Kruger were not found.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": null,
+      "en": "Eagle",
+      "note": "Not a mammal in this guide; listed because eagles are named as predators in one compilation."
+    },
+    {
+      "slug": null,
+      "en": "Southern African rock python",
+      "note": "Not a mammal in this guide; listed because it is a documented predator in one compilation."
+    }
+  ],
+  "prey": [],
+  "habitat": "Indigenous forest and dense thicket, including coastal, riverine, swamp and montane slope forest, and wooded ravines, usually where surface water is at hand. Animals may wander into more open grassland to forage, but return to cover at any sign of disturbance. One source says the species can be found in Kruger National Park. The 2025 regional assessment lists protected areas in KwaZulu-Natal, Mpumalanga and Limpopo, but does not name Kruger.",
+  "similar": [
+    {
+      "slug": "sylvicapra-grimmia",
+      "note": "The red duiker is smaller and rich reddish-brown, with a forehead tuft of reddish-brown and black hair and a white-tipped tail. Both sexes usually have short, straight horns. The common duiker is greyer, favours more open cover, and usually only males have horns."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. One source says the species can be found in Kruger National Park. The 2025 regional assessment does not name Kruger among its listed protected areas, and its regional figures (for example 11,490–57,450 mature individuals, and counts from iSimangaliso Wetland Park) are not a park census. Regional Red List status is Near Threatened, with a declining regional trend. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Natal Red Duiker",
+        "url": "https://ewt.org/project/natal-red-duiker/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025
+      },
+      {
+        "title": "A conservation assessment of Cephalophus natalensis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/4.-Natal-Red-Duiker-Cephalophus-natalensis_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Red forest duiker",
+        "url": "https://en.wikipedia.org/wiki/Red_forest_duiker",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "States that the species can be found in Kruger National Park, but gives no park count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "short, straight spikes about 6 cm, sometimes smaller in females; longest recorded 11 cm; coarse rings and longitudinal striations at the base, smooth towards the tips"
+        },
+        "ears": {
+          "colour": "inners commonly white",
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "rich reddish-brown, with a tuft of reddish-brown and black hair between the horns",
+          "muzzle": "chin commonly white",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "reddish-brown",
+          "pattern": "plain; hunched back, with the front legs shorter than the hind legs"
+        },
+        "underparts": {
+          "colour": "typically paler",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "white-tipped",
+          "shape": "short"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A hunched outline, front legs shorter than the hind legs, a rich reddish-brown coat with paler underparts, a forehead tuft, and short straight horns in both sexes."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A reddish face with a dark muzzle, often paler on the throat, and a tuft of hair between the short horns."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A distinctive, loud, penetrating cry, somewhere between a snort and a whistle. When the animal is distressed the call becomes a throaty cry.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "cephalophorus-natalensis/mtunzini-standing-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Cephalophus_natalensis.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Cephalophus_natalensis.jpg/1280px-Cephalophus_natalensis.jpg",
+      "author": "Ryanvanhuyssteen",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult red duiker standing side-on in forest at Mtunzini, showing a rich reddish-brown coat, paler neck and throat, forehead tuft and white-tipped tail",
+      "caption": "Adult, Mtunzini, KwaZulu-Natal, South Africa."
+    },
+    {
+      "key": "cephalophorus-natalensis/isimangaliso-female-foraging.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Natal_Red_Duiker_(Cephalophus_natalensis)_female_..._(46636064441).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Natal_Red_Duiker_%28Cephalophus_natalensis%29_female_..._%2846636064441%29.jpg/1280px-Natal_Red_Duiker_%28Cephalophus_natalensis%29_female_..._%2846636064441%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female red duiker foraging at the edge of thicket, showing a reddish coat, paler inner ears and a forehead tuft",
+      "caption": "Adult female, Eastern Shores, iSimangaliso Wetland Park, St Lucia, KwaZulu-Natal, South Africa."
+    },
+    {
+      "key": "cephalophorus-natalensis/umlalazi-female-drinking.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Natal_Red_Duiker_(Cephalophus_natalensis)_female_drinking_..._(51931690168).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Natal_Red_Duiker_%28Cephalophus_natalensis%29_female_drinking_..._%2851931690168%29.jpg/1280px-Natal_Red_Duiker_%28Cephalophus_natalensis%29_female_drinking_..._%2851931690168%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female red duiker drinking at a sandy water's edge, showing a hunched back, reddish coat and paler underparts",
+      "caption": "Adult female drinking, Umlalazi Nature Reserve, Mtunzini, KwaZulu-Natal, South Africa."
+    },
+    {
+      "key": "cephalophorus-natalensis/ndumo-forest.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Duiker_(Cephalophus_natalensis)_(32282907691).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Red_Duiker_%28Cephalophus_natalensis%29_%2832282907691%29.jpg/1280px-Red_Duiker_%28Cephalophus_natalensis%29_%2832282907691%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult red duiker walking through leafy forest understorey at Ndumo Game Reserve",
+      "caption": "Adult, Ndumo Game Reserve, Maputaland, KwaZulu-Natal, South Africa."
+    },
+    {
+      "key": "cephalophorus-natalensis/hluhluwe-in-cover.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Duiker_(Cephalophus_natalensis)_hidden_in_the_bushes_..._(31867866050).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Red_Duiker_%28Cephalophus_natalensis%29_hidden_in_the_bushes_..._%2831867866050%29.jpg/1280px-Red_Duiker_%28Cephalophus_natalensis%29_hidden_in_the_bushes_..._%2831867866050%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult red duiker looking out from dense thicket, showing reddish coat, forehead tuft and rounded ears",
+      "caption": "Adult in cover, Hluhluwe Game Reserve, Hluhluwe-iMfolozi Park, KwaZulu-Natal, South Africa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Red forest duiker",
+      "url": "https://en.wikipedia.org/wiki/Red_forest_duiker",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "The stored English name is the 2011 SANParks checklist name, Red duiker. Wikipedia titles the article Red forest duiker and uses the current combination Cephalophorus natalensis."
+    },
+    {
+      "title": "Natal Red Duiker",
+      "url": "https://ewt.org/project/natal-red-duiker/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Cephalophus natalensis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/4.-Natal-Red-Duiker-Cephalophus-natalensis_NT.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The official list stores this Kruger taxon as Cephalophorus natalensis; EWT still uses Cephalophus natalensis. No Kruger census figure was found; regional totals and iSimangaliso counts are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Size was published only as typical or maximum values. Sources disagree on territoriality and on gestation length, and both accounts are kept. Animal Diversity Web has no species account under Cephalophus natalensis, only a classification page. No licensable Kruger photograph or recording was found; the photographs used are from KwaZulu-Natal and are captioned with those places.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. Regional totals and iSimangaliso counts are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Shoulder height, head-and-body length and mass were published only as typical or maximum values, so those range fields are omitted.",
+    "Sources disagree on territoriality (territorial and scent-marking versus not territorial, with overlapping home ranges) and on gestation (about eight months versus approximately 210 days); both accounts are recorded.",
+    "No licensable Kruger photograph was found. Wikimedia Commons had no Kruger photographs. iNaturalist has 0 research-grade observations with photos in place 69020; two casual Kruger-area records could not be used (one is all-rights-reserved, one has no photograph). The five photographs used are from KwaZulu-Natal.",
+    "iNaturalist has 0 sound observations for Cephalophorus natalensis in place 69020. No reusable Kruger recording was found.",
+    "Iris colour, a named leg colour, and a sexed size split were not given in the sources used, so those marks are null.",
+    "No Kruger-specific birth-month range was found. General accounts say a single calf may be born at any time of year.",
+    "Animal Diversity Web has no species account under Cephalophus natalensis, only a classification page.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young, calls and predators were taken from Wikipedia and the EWT assessment."
+  ]
+}

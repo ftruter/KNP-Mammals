@@ -1,0 +1,391 @@
+{
+  "kind": "species",
+  "slug": "pelea-capreolus",
+  "scientificName": "Pelea capreolus",
+  "commonNames": {
+    "en": "Grey rhebok",
+    "af": "Vaalribbok"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42336,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Near Threatened, declining). IUCN global status is Near Threatened (2017).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Grey Rhebok",
+        "url": "https://ewt.org/project/grey-rhebok/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Near Threatened A2bd; regional trend declining; no change from 2016. Afrikaans name given as Vaal Ribbok."
+      },
+      {
+        "title": "A conservation assessment of Pelea capreolus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/19.-Grey-Rhebok_Pelea-capreolus_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo. Regional status Near Threatened."
+      },
+      {
+        "title": "Grey rhebok",
+        "url": "https://en.wikipedia.org/wiki/Grey_rhebok",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2017 IUCN assessment (Taylor, Cowell and Drouilly) of Near Threatened."
+      }
+    ]
+  },
+  "size": {
+    "lengthCm": {
+      "min": 115,
+      "max": 125
+    },
+    "massKg": {
+      "min": 19,
+      "max": 30
+    },
+    "note": "Mass is given as 19–30 kg in one compilation and 20–30 kg in another; both are recorded and are not averaged, and the wider published range is stored. Length 1.15–1.25 m is given in one account but is not stated as head-and-body versus total length, so it is stored as lengthCm only. Male horn length is given as 15–25 cm in one compilation and 20–25 cm in another. No shoulder height or tail length was found."
+  },
+  "summary": "A medium-sized antelope with a woolly grey coat, a long neck, very long pointed ears and white underparts. Only males have straight, sharp horns. It lives on rocky hills and grassy mountain slopes, and is listed as Near Threatened in the region.",
+  "description": "A medium-sized antelope with a long neck and very long, pointed, erect ears, and no bare patch below the ear. The coat is short and dense, woollier and curlier than that of other antelopes, and coloured in various shades of grey; one account calls the upperparts brownish grey. The face and legs are yellowish in that account, and the underparts and tail are white. The eyes are black-lidded and stand out against a white surround. The muzzle is long and narrow, ending in a small mouth, and a naked swollen area around the nostrils extends up the nose. Only males have horns: straight or slightly bent forward, upright, sharp, and ringed at the base, with published lengths of 15–25 cm in one compilation and 20–25 cm in another. Females have four teats and no horns.",
+  "habits": "Active during the day in bouts of feeding and resting, and tends to rest in the shade around noon. It is territorial. The social system is female-defence polygyny: a territorial male defends a harem in a stable herd. Sources disagree on group size and are not averaged: one account gives a harem of two to seven females plus accompanying young; another gives herds of one to 15 females and young with one mature male; a third gives a typical group of about eight animals, sometimes as many as 30. Non-territorial males are generally solitary. Males become extremely aggressive during the breeding season, and harem defence includes postural displays, snorting, stamping and serious fighting. A sentinel may give a warning grunt and lead the group onto more rugged ground. The gait is described as jerky and rocking, and the species is an agile climber and jumper. Home range size is estimated at 30–100 ha in the eastern Free State mountain grasslands. Seasonal movement between protected areas and adjacent farmland is described from the Western Cape and the southern Drakensberg; a Kruger-specific movement account was not found.",
+  "diet": {
+    "summary": "Predominantly a browser, often feeding on ground-hugging forbs, especially the flowers and leaves. One faecal analysis found dicotyledons made up 88% of the diet, over 90% in winter, with dicotyledon use falling by about 10% in summer. Another account describes the diet as grasses and leaves. The species is largely water-independent and obtains most of its water from its food.",
+    "items": [
+      "forbs (flowers and leaves)",
+      "other dicotyledons",
+      "grasses",
+      "leaves"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "It is a seasonal breeder. One account places mating in April and births in November and December, early in the warm, wet season, after a gestation of about 8.7 months (also given as 261 days). A single calf is born and is generally hidden away from the mother in rocks, caves or bushes for the first few months. Sources disagree on when young males leave the natal group and are not averaged: one account says males become mature at about 18–21 months and then leave; another says male offspring disperse as yearlings and remain peripheral until they gain a territory. A Kruger-specific birth-month range was not found.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": null,
+      "en": "Hyenas",
+      "note": "Named at family level (Hyaeninae) in the source used."
+    },
+    {
+      "slug": null,
+      "en": "Jackals",
+      "note": "Named only as jackals in the source used."
+    },
+    {
+      "slug": null,
+      "en": "Pythons",
+      "note": "Named as a predator; not a mammal in this guide."
+    }
+  ],
+  "prey": [],
+  "habitat": "Associated with rocky hills, grassy mountain slopes and plateau grasslands in the eastern part of its range, and with the rocky hills of mountain fynbos and the Little Karoo in the south and southwest. It typically inhabits grassy montane country, usually above 1,000 m, but also occurs in the Cape coastal belt almost at sea level. It needs good grass cover in the home range for shelter, but often feeds on steep open slopes with little cover. A Kruger-specific habitat account was not found.",
+  "similar": [
+    {
+      "slug": "redunca-fulvorufula",
+      "note": "Grey rhebok is told by its woolly grey coat, very long pointed erect ears, and the absence of a bare patch below the ear. Only male grey rhebok have straight or slightly forward-bent horns."
+    },
+    {
+      "slug": "ourebia-ourebi",
+      "note": "Grey rhebok has a woolly grey coat, very long pointed erect ears, and no bare patch below the ear. Only males have straight or slightly forward-bent horns."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The species is on the official 2011 checklist. The 2025 regional assessment does not mention Kruger; it gives a regional minimum of 2,000 individuals in formally protected areas and says further research is needed to determine whether there are over 10,000 across the range. An earlier compilation suggested a total of about 18,000 in 1999. Those regional totals are not a park census. Regional Red List status is Near Threatened, with a declining regional trend. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Grey Rhebok",
+        "url": "https://ewt.org/project/grey-rhebok/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional totals and trend; the assessment does not mention Kruger."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "straight or slightly bent forward, upright, sharp, and ringed at the base; published lengths 15–25 cm in one compilation and 20–25 cm in another"
+        },
+        "ears": {
+          "colour": null,
+          "shape": "extremely long, pointed and erect; no bare patch below the ear"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "black lids prominent against a white surround"
+        },
+        "head": {
+          "face": "yellowish in one account; swollen forehead",
+          "muzzle": "long and narrow, ending in a small mouth; a naked swollen area around the nostrils extends to the top of the nose",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "brownish-grey"
+          ],
+          "pattern": "short, dense, and woollier and curlier than that of other antelopes"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "yellowish in one account"
+        },
+        "tail": {
+          "colour": "white",
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "extremely long, pointed and erect; no bare patch below the ear"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "black lids prominent against a white surround"
+        },
+        "head": {
+          "face": "yellowish in one account; swollen forehead",
+          "muzzle": "long and narrow, ending in a small mouth; a naked swollen area around the nostrils extends to the top of the nose",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "brownish-grey"
+          ],
+          "pattern": "short, dense, and woollier and curlier than that of other antelopes"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "yellowish in one account"
+        },
+        "tail": {
+          "colour": "white",
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A long neck, a woolly grey coat, very long pointed erect ears, white underparts and a white tail. The face and legs may appear yellowish. Only the male has straight, upright horns."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Very long, pointed, erect ears and no bare patch below the ear. Males show straight, upright horns; the eyes stand out against a white surround."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A sentinel may give a warning grunt, described as cough-like, then lead the group to more rugged ground.",
+      "recordings": []
+    },
+    {
+      "sex": "male",
+      "type": "other",
+      "description": "Territorial males snort and stamp as part of harem defence.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "pelea-capreolus/karoo-np-standing-side-male.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/247271379",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/441599469/large.jpeg",
+      "author": "Collette Hurt",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male grey rhebok standing among dry Karoo shrubs, showing straight upright horns, a woolly grey coat, long pointed ears and a white rump",
+      "caption": "Adult male, Karoo National Park, Beaufort West, Western Cape, South Africa."
+    },
+    {
+      "key": "pelea-capreolus/overberg-standing-front-females.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/81306076",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133321087/large.jpeg",
+      "author": "Shaun Swanepoel",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two adult female grey rhebok in grassland, one facing the camera, showing long pointed ears, a woolly grey-brown coat and no horns",
+      "caption": "Adult females, Overberg District Municipality, Western Cape, South Africa."
+    },
+    {
+      "key": "pelea-capreolus/breede-river-standing-side-female.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/91263250",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/150928083/large.jpg",
+      "author": "Timothy Whitehead",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female grey rhebok walking in profile on a rocky slope, showing a woolly grey coat, a long neck, long pointed ears and no horns",
+      "caption": "Adult female, Breede River District, Western Cape, South Africa."
+    },
+    {
+      "key": "pelea-capreolus/overberg-standing-side-male.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/160723756",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/277752708/large.jpg",
+      "author": "Timothy Whitehead",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male grey rhebok standing in dry grass, showing short straight horns, a woolly grey coat and a white underside to the tail",
+      "caption": "Adult male, Overberg District Municipality, Western Cape, South Africa."
+    },
+    {
+      "key": "pelea-capreolus/cape-point-herd-males.jpg",
+      "view": "herd",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/190894774",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/334752228/large.jpeg",
+      "author": "eugenevs",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two adult male grey rhebok on a sandy fynbos ridge, showing straight horns, woolly grey coats and long pointed ears",
+      "caption": "Adult males, Cape Point, Cape Town, Western Cape, South Africa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Grey Rhebok",
+      "url": "https://ewt.org/project/grey-rhebok/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Afrikaans name given as Vaal Ribbok; the 2011 checklist form Vaalribbok is used in this file. Regional status, range, habitat, diet and social system. Does not mention Kruger."
+    },
+    {
+      "title": "A conservation assessment of Pelea capreolus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/19.-Grey-Rhebok_Pelea-capreolus_NT.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Grey rhebok",
+      "url": "https://en.wikipedia.org/wiki/Grey_rhebok",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Pelea capreolus: common rhebok",
+      "url": "https://animaldiversity.org/accounts/Pelea_capreolus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2002
+    },
+    {
+      "title": "iNaturalist taxon Pelea capreolus",
+      "url": "https://www.inaturalist.org/taxa/42336",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The official 2011 checklist includes this species, but the 2025 regional assessment does not mention Kruger, and no Kruger census figure was found. iNaturalist has 1 casual observation in place 69020 (2016, no photograph) and 0 research-grade records. Status and monthsPresent are omitted rather than guessed. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Sources disagree on mass, horn length, group size and the age at which young males leave the natal group; both accounts are kept and are not averaged. No licensable Kruger photograph or recording was found; the five photographs used are from the Western Cape and are captioned with those places.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. Regional totals (a minimum of 2,000 individuals in formally protected areas, with uncertainty over whether the range total exceeds 10,000, and an earlier compilation of about 18,000 in 1999) are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Recent status in Kruger is unclear. The species is on the official 2011 checklist. The 2025 regional assessment does not mention Kruger. iNaturalist has 1 casual observation in place 69020 (2016-07-25, no photograph) and 0 research-grade records. Status and monthsPresent are omitted rather than guessed.",
+    "Sources disagree on mass (19–30 kg versus 20–30 kg), male horn length (15–25 cm versus 20–25 cm), group size (a harem of 2–7 females plus young versus 1–15 females and young plus one male versus about 8, up to 30), and when young males leave the natal group (at 18–21 months versus as yearlings); both accounts are recorded and are not averaged.",
+    "No shoulder height or tail length was found. The 1.15–1.25 m length figure is not stated as head-and-body versus total length.",
+    "No licensable Kruger photograph was found. A Commons search for Pelea capreolus in Kruger returned 0 hits. iNaturalist has 0 observations with photos in place 69020. The five photographs used are from the Western Cape.",
+    "iNaturalist has 0 sound observations for Pelea capreolus in place 69020. No reusable Kruger recording was found. Call types are limited to the alarm grunt and male snorting described in compiled accounts.",
+    "Iris colour, ear colour, horn colour, a sourced tail shape, and a sourced mane were not given in the sources used, so those marks are null. Calf coat marks were not found, so no calf variant was added.",
+    "No Kruger-specific habitat account or birth-month range was found.",
+    "Skinner & Chimimba and Stuart's field guide were not available as direct reads. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
+  ]
+}

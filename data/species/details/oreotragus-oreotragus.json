@@ -1,0 +1,454 @@
+{
+  "kind": "species",
+  "slug": "oreotragus-oreotragus",
+  "scientificName": "Oreotragus oreotragus",
+  "commonNames": {
+    "en": "Klipspringer",
+    "af": "Klipspringer"
+  },
+  "family": "bovidae",
+  "inatTaxonId": 42384,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Klipspringer",
+        "url": "https://ewt.org/project/klipspringer/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional status Least Concern, regional trend stable, no change from 2016. Afrikaans names are given as Klipspringer and Klipbokkie."
+      },
+      {
+        "title": "A conservation assessment of Oreotragus oreotragus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/16.-Klipspringer-Oreotragus-oreotragus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Oreotragus oreotragus",
+        "url": "https://www.iucnredlist.org/species/15485/50191264",
+        "publisher": "IUCN SSC Antelope Specialist Group",
+        "year": 2016,
+        "note": "Global status Least Concern."
+      },
+      {
+        "title": "Klipspringer",
+        "url": "https://en.wikipedia.org/wiki/Klipspringer",
+        "publisher": "Wikipedia",
+        "year": 2026
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 43,
+      "max": 60
+    },
+    "headBodyLengthCm": {
+      "min": 75,
+      "max": 115
+    },
+    "tailCm": {
+      "min": 6.5,
+      "max": 10.5
+    },
+    "massKg": {
+      "min": 8,
+      "max": 18
+    },
+    "note": "Shoulder height 43–60 cm, head-and-body length 75–115 cm, mass 8–18 kg and tail 6.5–10.5 cm follow Wikipedia (citing Kingdon). Animal Diversity Web agrees on mass 8–18 kg, with mean values of 10.6 kg in males and 13.2 kg in females, but gives shoulder height as 43–51 cm and treats 75–115 cm as total length rather than head-and-body length. Structured bounds follow Wikipedia. Both sources say females are slightly larger and heavier than males. Male horns typically measure 7.5–9 cm, with a maximum recorded length of 15.9 cm."
+  },
+  "summary": "A small, sturdy antelope of rocky outcrops, with a thick, speckled yellowish-grey to golden-yellow coat and a very short tail. It walks on the tips of cylindrical hooves. Only males have short, spiky horns. In Kruger it is a resident of granite koppies and other rocky hills.",
+  "description": "The coat is thick and coarse, of hollow, brittle hairs that give a speckled look, and ranges from yellowish grey to reddish brown; the Transvaal form of eastern South Africa is described as bright golden-yellow. The underside, lips and chin are white, the forehead is brown, and the sides of the face are paler. The ears are rounded, with black hairs on the back and long white hairs inside. A narrow black preorbital gland sits at the corner of each eye. Only males have short, spiky horns, typically 7.5–9 cm long. The tail is short and rudimentary. The animal walks on the tips of its blunt, cylindrical hooves, which give it a firm grip on rock. The lower legs are pale, with a black band just above each hoof.",
+  "habits": "Klipspringers form lasting pair bonds and usually stay within a few metres of one another on a territory of about 7.5–49 ha, marked with preorbital-gland secretions and with large dung heaps on the borders. The male is typically more vigilant and often stands guard while the female feeds. Wikipedia describes the species as typically nocturnal, resting at midday and late at night, more active on moonlit nights, and basking in the morning sun. Animal Diversity Web instead describes it as most active in the early morning and late afternoon, sheltering in shade in the heat, and remaining active through the day when it is cool. Pairs greet by rubbing cheeks, and they may also occur as small family groups or as solitary animals.",
+  "diet": {
+    "summary": "Primarily a selective browser of young plants, fruits and flowers, which Animal Diversity Web says make up about two thirds of the diet. Wikipedia says grasses form a minor part of the diet and are eaten mainly in the wet season; Animal Diversity Web says klipspringers generally do not eat grass, even when young shoots are available, and take more leaves in the dry season. They meet most of their water needs from food, dew and succulent plants, and will drink from temporary pools when water is available.",
+    "items": [
+      "fruits",
+      "flowers",
+      "young leaves and shoots",
+      "succulent plants",
+      "grasses (wet season; sources disagree on how often these are eaten)",
+      "Ximenia caffra (large sourplum)",
+      "Pseudolachnostylis maprouneifolia (kudu berry)",
+      "Combretum molle (velvet bushwillow)",
+      "Dichrostachys cinerea (sicklebush)"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf, weighing a little more than 1 kg, is born after a gestation of about six months (196 days in one account). Births peak from spring to early summer; Animal Diversity Web gives a typical mating period of August and September, while Wikipedia says the timing of mating varies geographically. The calf is born in dense vegetation or among rocks and is hidden for two to three months (up to three months on Wikipedia), being suckled a few times a day. It is weaned at four to five months. Wikipedia says the young leaves the mother at about a year old; Animal Diversity Web says males leave at about six months and females at 10–11 months, and it also gives sexual maturity at seven months, whereas Wikipedia says females mature at about a year and males slightly later. Lifespan is around 15 years, or up to nearly 18 years in captivity.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "caracal-caracal",
+      "en": "Caracal"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal"
+    },
+    {
+      "slug": "leptailurus-serval",
+      "en": "Serval"
+    },
+    {
+      "slug": "felis-lybica",
+      "en": "African wild cat"
+    },
+    {
+      "slug": null,
+      "en": "Martial eagle",
+      "note": "A non-mammal predator listed by Wikipedia and Animal Diversity Web."
+    },
+    {
+      "slug": null,
+      "en": "Verreaux's eagle",
+      "note": "A non-mammal predator listed by Wikipedia and Animal Diversity Web."
+    },
+    {
+      "slug": null,
+      "en": "Crowned eagle",
+      "note": "A non-mammal predator listed by Wikipedia."
+    },
+    {
+      "slug": null,
+      "en": "Tawny eagle",
+      "note": "A non-mammal predator listed by Animal Diversity Web."
+    }
+  ],
+  "prey": [],
+  "habitat": "Rocky terrain with sparse vegetation, including koppies, cliffs, hillsides and rocky gorges. Animals may cross open ground between isolated outcrops, and they sometimes move into lowlands when food is scarce. In Kruger they occur on granite koppies and rocky hills, including outcrops south of Skukuza and at Nkumbe.",
+  "similar": [
+    {
+      "slug": "raphicerus-campestris",
+      "note": "The klipspringer is stockier, with a thick speckled yellowish-grey to golden-yellow coat, a very short tail, and short spiky horns only on males, and it walks on the tips of cylindrical hooves on rocky outcrops. The steenbok is a small antelope of more open savanna."
+    },
+    {
+      "slug": "sylvicapra-grimmia",
+      "note": "The klipspringer has a thick speckled coat, a very short tail, and a tip-toe gait on rocks. It is not a hunched woodland browser."
+    },
+    {
+      "slug": "redunca-fulvorufula",
+      "note": "The klipspringer is a much smaller, sturdy antelope with short spiky horns only on males and a thick speckled coat, and it stands on the tips of its hooves on rocks."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2025 EWT assessment gives regional status as Least Concern with a stable regional trend, and it cites typical densities of 0.01–0.3 individuals per km² in protected areas and a suspected total of more than 10,000 mature individuals in South Africa, Eswatini and Lesotho; those figures are not Kruger counts. A 1999 global estimate of 42,000 individuals is likewise not a Kruger figure. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Klipspringer",
+        "url": "https://ewt.org/project/klipspringer/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional densities and a regional total, not a Kruger count."
+      },
+      {
+        "title": "Klipspringer",
+        "url": "https://en.wikipedia.org/wiki/Klipspringer",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites a 1999 global estimate of 42,000 individuals, which is not a Kruger figure."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "short and spiky, typically 7.5–9 cm (maximum recorded 15.9 cm)"
+        },
+        "ears": {
+          "colour": "black on the back, white inside",
+          "shape": "rounded"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "brown forehead, paler sides, with a narrow black preorbital gland at the corner of the eye",
+          "muzzle": "white lips and chin",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "yellowish grey",
+            "golden yellow",
+            "reddish brown"
+          ],
+          "pattern": "speckled, from hollow hairs with dark tips"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "pale lower legs with a black band just above the hooves"
+        },
+        "tail": {
+          "colour": "same as the upperparts, paler below",
+          "shape": "short and rudimentary"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "black on the back, white inside",
+          "shape": "rounded"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "brown forehead, paler sides, with a narrow black preorbital gland at the corner of the eye",
+          "muzzle": "white lips and chin",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "yellowish grey",
+            "golden yellow",
+            "reddish brown"
+          ],
+          "pattern": "speckled, from hollow hairs with dark tips"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "pale lower legs with a black band just above the hooves"
+        },
+        "tail": {
+          "colour": "same as the upperparts, paler below",
+          "shape": "short and rudimentary"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "note": "A small, sturdy antelope on the tips of cylindrical hooves, with a thick speckled coat and short spiky horns."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "mixed",
+      "season": "any",
+      "note": "Pairs often stand close together on a rocky outcrop, the horned male typically more vigilant."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "note": "Hornless, with rounded ears black on the back and white inside, a darker forehead, and white lips and chin."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A loud, trumpet-like whistle exhaled through the nostrils, audible from about 0.7 km. A pair often gives it as a duet, the male first, after moving to higher ground. Wikipedia describes the main call as a shrill whistle used both for communication and as an anti-predator response.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "A low humming call, given with an arched neck as a dominance display.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "oreotragus-oreotragus/kruger-pair-granite-skukuza.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Klipspringers_(Oreotragus_oreotragus)_(52135902931).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Klipspringers_%28Oreotragus_oreotragus%29_%2852135902931%29.jpg/1280px-Klipspringers_%28Oreotragus_oreotragus%29_%2852135902931%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult pair of klipspringers on a granite outcrop, the horned male standing behind a hornless female, Kruger National Park",
+      "caption": "Adult pair on a granite outcrop, H1-2 road east of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "oreotragus-oreotragus/kruger-male-nkumbe.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Klipspringer_(Oreotragus_oreotragus)_male_..._(51897520525).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Klipspringer_%28Oreotragus_oreotragus%29_male_..._%2851897520525%29.jpg/1280px-Klipspringer_%28Oreotragus_oreotragus%29_male_..._%2851897520525%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male klipspringer in side view, showing short spiky horns, a speckled coat and cylindrical hoof tips, Kruger National Park",
+      "caption": "Adult male, Nkumbe, H10 road south of Tshokwane, Kruger National Park."
+    },
+    {
+      "key": "oreotragus-oreotragus/kruger-female-nkumbe.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Klipspringer_(Oreotragus_oreotragus)_female_..._(51897521620).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Klipspringer_%28Oreotragus_oreotragus%29_female_..._%2851897521620%29.jpg/1280px-Klipspringer_%28Oreotragus_oreotragus%29_female_..._%2851897521620%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female klipspringer, hornless, with a speckled coat and rounded ears black on the back, Kruger National Park",
+      "caption": "Adult female, Nkumbe, H10 road south of Tshokwane, Kruger National Park."
+    },
+    {
+      "key": "oreotragus-oreotragus/kruger-male-stevenson-hamilton.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Klipspringer_(Oreotragus_oreotragus)_male_(6002382693).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Klipspringer_%28Oreotragus_oreotragus%29_male_%286002382693%29.jpg/1280px-Klipspringer_%28Oreotragus_oreotragus%29_male_%286002382693%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male klipspringer in profile, showing a thick speckled coat and a short spiky horn, Kruger National Park",
+      "caption": "Adult male, Stevenson-Hamilton Rock south of Skukuza, Kruger National Park."
+    },
+    {
+      "key": "oreotragus-oreotragus/kruger-female-stevenson-hamilton.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "female",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Klipspringer_(Oreotragus_oreotragus)_female_(6002381569).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Klipspringer_%28Oreotragus_oreotragus%29_female_%286002381569%29.jpg/1280px-Klipspringer_%28Oreotragus_oreotragus%29_female_%286002381569%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult female klipspringer facing the camera, hornless, with white lips and chin and rounded ears, Kruger National Park",
+      "caption": "Adult female, Stevenson-Hamilton Rock south of Skukuza, Kruger National Park."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Klipspringer",
+      "url": "https://en.wikipedia.org/wiki/Klipspringer",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Oreotragus oreotragus: klipspringer",
+      "url": "https://animaldiversity.org/accounts/Oreotragus_oreotragus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "Klipspringer",
+      "url": "https://ewt.org/project/klipspringer/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Regional Red List status, trend and Afrikaans names."
+    },
+    {
+      "title": "A conservation assessment of Oreotragus oreotragus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/16.-Klipspringer-Oreotragus-oreotragus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "No Kruger population figure was found. Shoulder height and whether 75–115 cm is head-and-body or total length, daily activity pattern, the role of grass in the diet, and age at independence disagree between Wikipedia and Animal Diversity Web; those disagreements are recorded in the text. A sourced call description was found, but no Kruger recording.",
+    "researched": "14 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. Regional densities and a regional total of more than 10,000 mature individuals are not Kruger counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable sound recording was found in iNaturalist observations from Kruger (place 69020).",
+    "No photograph of a hidden newborn calf was included.",
+    "Iris colour and horn colour were not given in the sources used, so those marks are null.",
+    "No Kruger-specific calving-month range was found. General accounts say births peak from spring to early summer, and Animal Diversity Web says mating is typically in August and September.",
+    "Shoulder height is 43–60 cm on Wikipedia and 43–51 cm on Animal Diversity Web, which also treats 75–115 cm as total length rather than head-and-body length. Structured bounds follow Wikipedia; see size.note.",
+    "Wikipedia lists the yellow baboon as a predator and Animal Diversity Web lists hamadryas baboons; neither is the chacma baboon of Kruger, so baboons were not entered as a Kruger predator. Animal Diversity Web lists common (golden) jackals rather than the black-backed jackal named by Wikipedia.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web."
+  ]
+}
