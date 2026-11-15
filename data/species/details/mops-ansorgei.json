@@ -1,0 +1,262 @@
+{
+  "kind": "species",
+  "slug": "mops-ansorgei",
+  "scientificName": "Mops ansorgei",
+  "commonNames": {
+    "en": "Ansorge's free-tailed bat",
+    "af": "Ansorge se losstertvlermuis"
+  },
+  "family": "molossidae",
+  "inatTaxonId": 1430965,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho; IUCN global status Least Concern (2017). No change from the 2016 regional Least Concern listing.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Mops ansorgei",
+        "url": "https://ewt.org/project/ansorges-free-tailed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Naidoo T, Richards LR, Balona J and da Silva JM. 2025. Regional status Least Concern; regional population trend stable; change compared with 2016: no change. The page treats the taxon as Mops ansorgei and lists Chaerephon ansorgei and Tadarida ansorgei among synonyms. Current habitat and population trend are given as stable in the regional account. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "A conservation assessment of Chaerephon ansorgei",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/1.-Ansorges-Free-tailed-Bat-Chaerephon-ansorgei_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Monadjem A, Taylor PJ, Cohen L, Jacobs D, MacEwan K, Richards LR, Schoeman C and Sethusa T. 2016. Regional status Least Concern. National status in 2004 was Least Concern; reasons for change none. Global Red List status then given as Least Concern (2016). Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Ansorge's free-tailed bat",
+        "url": "https://en.wikipedia.org/wiki/Ansorge%27s_free-tailed_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Redirects from Mops ansorgei. Cites Monadjem, Cotterill, Hutson, Mickleburgh and Bergmans (2017) for a global IUCN listing of Least Concern as Mops ansorgei (IUCN 2017-2)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "tailCm": {
+      "max": 4
+    },
+    "massKg": {
+      "min": null,
+      "max": null
+    },
+    "note": "The lengths published for this species are total body lengths, not head-and-body lengths, and are not entered as headBodyLengthCm. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean total length of 10.60 ± 0.61 cm and mean forearm length of 4.60 ± 0.15 cm in females, and mean total length of 11.60 ± 0.73 cm and mean forearm length of 4.72 ± 0.28 cm in males; maximum size is listed as not known. The 2016 EWT assessment gives a total body length of about 102 mm. Wikipedia, citing Bouchard (2001), gives a total length of 7-12 cm, a wingspan of about 33 cm, a tail of 4 cm of which about two thirds extends beyond the uropatagium, and an average adult mass of 16 g, with males slightly heavier than females. No mass range, shoulder height or unambiguous head-and-body length was published in the sources used."
+  },
+  "summary": "A small, fast-flying free-tailed bat of dry woodland savanna, chocolate brown above and lighter brown below, with a darker throat that may be almost blackish, especially in males. It roosts in narrow rock cracks, often on cliff faces, and also in buildings, mine adits and bridge joints, forages high in the open air, and is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List (2017).",
+  "description": "A free-tailed bat of the family Molossidae. Wikipedia, citing Bouchard (2001), describes one of the smaller members of its genus, with short chocolate-brown fur on the upper parts and lighter brown fur beneath; darker throat fur, sometimes almost blackish, especially in males; light brown, translucent wing membranes adapted for fast flight rather than manoeuvrability; a smooth pad at the base of the first wing finger that may help in climbing; a 4 cm tail of which about two thirds extends beyond the uropatagium; moderately long but broad ears that can be laid flat against the head in flight; and lips that are wrinkled at rest and stretch outward in flight. The 2025 and 2016 EWT assessments say the species is physically very similar to the Egyptian free-tailed bat (Tadarida aegyptiaca), especially in pelage colour, though somewhat smaller, and, citing Rautenbach (1997), that it lacks the unusually flattened skull of T. aegyptiaca. The English name in species-list.json is Ansorge's free-tailed bat, which matches the lead English name on the 2025 EWT page, the 2016 EWT assessment and Wikipedia; those sources also list Ansorge's Wrinkle-lipped Bat. The species-list form is kept. The 2025 EWT assessment treats the taxon as Mops ansorgei, following Simmons and Cirranello (2020), who include all Chaerephon species in Mops; the 2016 assessment used Chaerephon ansorgei. The file keeps the species-list.json name Mops ansorgei and does not remap it.",
+  "habits": "The 2025 EWT assessment describes a bat of dry woodland savanna, usually near rugged hills and mountains with rocky cliffs (Monadjem et al. 2020). Natural roosts are narrow cracks in rocks, especially on cliff faces (Cotterill and Fergusson 1993); it is also known to roost in buildings, roofs of houses, mine adits and expansion joints of bridges (Cotterill 2013; Monadjem et al. 2020). The availability of natural roost sites is considered a primary habitat requirement (Skinner and Chimimba 2005). It is gregarious and roosts communally, usually in small to medium-sized groups (Allen et al. 1917). The same assessment, citing Mickleburgh et al. (2008), says colonies outside the assessment region have been recorded as consisting of hundreds of individuals. Wikipedia, citing Bouchard (2001) and Cotterill and Fergusson (1993), likewise describes colonial roosts of several hundred bats in cliff-face crevices, sometimes more than 60 m above the ground, and under the roofs of houses, often sharing space with Madagascan large free-tailed bats (Tadarida fulminans). The 2025 assessment describes the species as an open-air forager and aerial insectivore, and notes that it is difficult to sample because of its fast, high-flying habits; Wikipedia, citing Bouchard (2001), also describes nocturnal feeding on flying insects and wings adapted for speed rather than manoeuvrability. The 2025 assessment lists movement patterns as unknown and congregatory behaviour as present in other parts of Africa; it does not describe a migrant or seasonal movement pattern. The species has been found in Kruger National Park, Mapungubwe National Park, the Vhembe Biosphere Reserve and Mkhuze Game Reserve (2025 EWT assessment).",
+  "diet": {
+    "summary": "An aerial insectivore. The 2025 and 2016 EWT assessments, citing Fenton (1985), say Coleoptera, Trichoptera and Lepidoptera constitute most of the diet. Wikipedia describes the species as feeding on flying insects. A climate-change note in the 2025 assessment that the prey base is likely to be moths, as in similar-sized large molossids, is an inference from other species and is not used as a measured diet fact for this one.",
+    "items": [
+      "beetles (Coleoptera)",
+      "caddisflies (Trichoptera)",
+      "moths and other lepidopterans (Lepidoptera)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment, citing Monadjem et al. (2020) on Zimbabwe studies, says the species generally produces a single young in late November, with a second birth peak in April at the end of the warm, wet season. It describes seasonal polyoestry, with young born in the austral summer and mid-autumn (Cotterill 2013), a presumed gestation of about three months, and a presumed litter size of one pup. Age at maturity and average reproductive age are given as approximately one year based on data from other molossid species, and are not used as measurements for this species. Longevity and size at birth are listed as not known. Generation length is suspected to be 1-3 years. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Barn owl",
+      "note": "The 2025 EWT assessment, citing Cotterill (1992), lists predation by the barn owl (Tyto alba). Not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Cape eagle-owl",
+      "note": "The 2025 EWT assessment, citing Cotterill (1992), lists predation by eagle-owls (Bubo capensis). Not a mammal in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "A predominant prey group in the 2025 and 2016 EWT assessments (Fenton 1985). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Caddisflies",
+      "note": "A predominant prey group in the 2025 and 2016 EWT assessments (Fenton 1985). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Moths and other lepidopterans",
+      "note": "A predominant prey group in the 2025 and 2016 EWT assessments (Fenton 1985). Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment describes dry woodland savanna, usually near rugged hills and mountains with rocky cliffs (Monadjem et al. 2020), with an elevational range of 400-2,000 m. In the IUCN habitat scheme used on that page, dry savanna and rocky areas (inland cliffs and mountain peaks) are listed as suitable, and subtropical or tropical dry forest as marginal. Within the assessment region the species is found sparsely in Limpopo, Mpumalanga and KwaZulu-Natal, recorded mostly from protected areas, including Kruger National Park. Wikipedia, citing the 2017 IUCN account, likewise places it in dry woodland savanna across a wide sub-Saharan range, with no subspecies recognised. A more detailed Kruger-specific habitat account was not given in the sources used, beyond the definite occurrence in the park.",
+  "similar": [
+    {
+      "slug": "tadarida-aegyptiaca",
+      "note": "The 2025 and 2016 EWT assessments say this species closely resembles the Egyptian free-tailed bat (Tadarida aegyptiaca), especially in pelage colour, but is slightly smaller and, citing Rautenbach (1997), lacks the unusually flattened skull of T. aegyptiaca."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment describes the species as suspected to be uncommon in the assessment region, difficult to capture, with most records appearing isolated (Skinner and Chimimba 2005), a stable regional trend, and no park-wide Kruger figure. Colonies of hundreds of individuals are reported from outside the assessment region (Mickleburgh et al. 2008). Those figures are not a park-wide Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Mops ansorgei",
+        "url": "https://ewt.org/project/ansorges-free-tailed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional population account only: suspected uncommon in the assessment region, stable regional trend, colonies of hundreds reported from elsewhere in Africa. The assessment names Kruger National Park among reserves in which the species has been found, but does not give a park-wide count. Cited only; the page is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "moderately long but broad, and can be laid flat against the head in flight"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "lips wrinkled at rest and stretched outward in flight",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "chocolate brown"
+          ],
+          "pattern": "short fur; throat darker than the rest of the body, sometimes almost blackish, especially in males. Sexes are not otherwise described as differing in colour"
+        },
+        "underparts": {
+          "colour": [
+            "lighter brown"
+          ],
+          "pattern": "lighter brown than the upper parts; not otherwise patterned"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "about two thirds of the 4 cm tail extends beyond the uropatagium"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically roosts by day in a narrow rock crack, often on a cliff face, and also in buildings, mine adits or bridge expansion joints. The free tail, wrinkled lips and darker throat (sometimes almost blackish, especially in males) are useful field characters; the fur is chocolate brown above and lighter brown below."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A fast, high, open-air flyer with light brown, translucent wing membranes (wingspan about 33 cm in Wikipedia, citing Bouchard 2001). The ears can be laid flat against the head in flight, and about two thirds of the tail trails beyond the uropatagium."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Wikipedia, citing Fenton and Bell (1981), describes long, high-intensity, low-frequency echolocation calls. The same account, citing Bouchard (2001), says the bats are noisy and squeak loudly when approached.",
+      "recordings": []
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Mops ansorgei",
+      "url": "https://ewt.org/project/ansorges-free-tailed-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Naidoo T, Richards LR, Balona J and da Silva JM. 2025. Source of the 2025 regional Least Concern status and stable regional trend, the treatment of the taxon as Mops ansorgei (Simmons and Cirranello 2020), common names including Afrikaans, habitat and roosts, diet (Fenton 1985), Zimbabwe breeding (Monadjem et al. 2020; Cotterill 2013), owl predation (Cotterill 1992), forearm and total-length means (Monadjem et al. 2020), movement patterns listed as unknown, and the definite occurrence in Kruger National Park. Cited only; the page is not hosted in this repo."
+    },
+    {
+      "title": "A conservation assessment of Chaerephon ansorgei",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/1.-Ansorges-Free-tailed-Bat-Chaerephon-ansorgei_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Monadjem A, Taylor PJ, Cohen L, Jacobs D, MacEwan K, Richards LR, Schoeman C and Sethusa T. 2016. Earlier regional Least Concern assessment, published under Chaerephon ansorgei, with a total body length of about 102 mm, the same diet, roost and Zimbabwe breeding outline, Afrikaans names, and occurrence through to Kruger National Park. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Ansorge's free-tailed bat",
+      "url": "https://en.wikipedia.org/wiki/Ansorge%27s_free-tailed_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Mops ansorgei. Used for appearance and measurements (Bouchard 2001), echolocation (Fenton and Bell 1981), cliff and roof roosts and colonial numbers, sharing roosts with Tadarida fulminans (Cotterill and Fergusson 1993), and the global IUCN listing (Monadjem et al. 2017). Afrikaans names were taken from the EWT assessments, not from this page."
+    },
+    {
+      "title": "iNaturalist taxon Mops ansorgei",
+      "url": "https://api.inaturalist.org/v1/taxa/1430965",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "Taxon 1430965, preferred common name Ansorge's Free-tailed Bat. Used to confirm the current name and to search place 69020 (Kruger) and place 6986 (South Africa) for licensed photographs and sounds."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Mops ansorgei (English Ansorge's free-tailed bat; Afrikaans Ansorge se losstertvlermuis) and does not remap the names. The 2025 EWT assessment and Wikipedia also use Mops ansorgei; the 2016 EWT assessment used Chaerephon ansorgei, now listed as a synonym. Status is set to resident because the 2025 EWT assessment states that the species has been found in Kruger National Park and does not give a migrant or seasonal movement pattern (movement patterns are listed as unknown; congregatory behaviour is recorded in other parts of Africa; the South Africa seasonality cell is blank, while Mozambique and Zambia are marked resident). Regional status is Least Concern (2025), unchanged from 2016; the global IUCN listing cited by Wikipedia is Least Concern (2017). No licensed photograph was kept: iNaturalist place 69020 had two licensed observations, one a dead bat at Letaba Rest Camp and one whose coordinates and accuracy coincide with Pretoriuskop Rest Camp; place 6986 returned only those same two observations. Place 69020 returned one sound observation, on the Pretoriuskop-associated record, which was not used. Animal Diversity Web has no species account under Mops ansorgei or Chaerephon ansorgei.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives a stable regional trend and describes the species as suspected to be uncommon in the assessment region, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2025 EWT assessment lists movement patterns as unknown, marks congregatory behaviour as occurring in other parts of Africa, and leaves the South Africa seasonality cell blank (Mozambique and Zambia are marked resident). Status is set to resident on the strength of the definite Kruger record and the absence of a migrant or seasonal movement pattern in that assessment.",
+    "species-list.json and the 2025 EWT assessment use Mops ansorgei. The 2016 EWT assessment used Chaerephon ansorgei, now listed as a synonym, with earlier names under Tadarida and Nyctinomus. The file keeps the species-list.json name and does not remap it.",
+    "The Afrikaans name in species-list.json is Ansorge se losstertvlermuis, which matches the first Afrikaans name in the 2025 and 2016 EWT assessments (Ansorge se Losstertvlermuis). The 2016 assessment also lists Ansorge-losstertvlermuis; the 2025 page lists a second form written Ansorge–osstertvlermuis. The species-list form is kept.",
+    "The English name in species-list.json is Ansorge's free-tailed bat, which matches the lead English name in the EWT assessments and Wikipedia. Those sources also list Ansorge's Wrinkle-lipped Bat. The species-list form is kept.",
+    "Head-and-body length, mass range, shoulder height, ear colour, iris colour, muzzle colour, leg colour and tail colour were not given unambiguously in the sources used, so those marks or bounds are null. Published lengths are total lengths: about 102 mm in the 2016 assessment, mean 10.60 cm (females) and 11.60 cm (males) in the 2025 assessment, and a 7-12 cm range in Wikipedia (Bouchard 2001). Wikipedia's average mass of 16 g is recorded in the size note but is not a min-max range.",
+    "Colony-size accounts differ: the EWT assessments, citing Allen et al. (1917), say roosts are usually small to medium-sized groups, and, citing Mickleburgh et al. (2008), that colonies of hundreds occur outside the assessment region; Wikipedia, citing Cotterill and Fergusson (1993), describes roosts of several hundred bats.",
+    "No licensed photograph was kept. The two licensed iNaturalist observations in Kruger (place 69020) were a dead bat at Letaba Rest Camp and a record whose coordinates and accuracy coincide with Pretoriuskop Rest Camp; a South Africa-wide search (place 6986) returned only those same two observations.",
+    "iNaturalist place 69020 returned one sound observation for taxon 1430965, on the Pretoriuskop-associated record. It was not used. Echolocation and the loud squeaking noted when the bats are approached are taken from Wikipedia. No licensable recording is included.",
+    "Animal Diversity Web has no species account for this taxon under Mops ansorgei or Chaerephon ansorgei.",
+    "Age at maturity and average reproductive age in the 2025 EWT assessment are based on other molossid species and are not used as facts for this one. Gestation (about three months) and litter size (one pup) are listed there as presumed.",
+    "No Kruger-specific breeding or habitat study was found beyond the 2025 assessment's statement that the species has been found in Kruger National Park."
+  ]
+}
