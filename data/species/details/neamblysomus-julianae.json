@@ -1,0 +1,253 @@
+{
+  "kind": "species",
+  "slug": "neamblysomus-julianae",
+  "scientificName": "Neamblysomus julianae",
+  "commonNames": {
+    "en": "Juliana's golden mole",
+    "af": "Juliana se gouemol"
+  },
+  "family": "chrysochloridae",
+  "inatTaxonId": 42531,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Endangered",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho; IUCN global status Endangered (2015). The Bronberg Ridge subpopulation is assessed separately as Critically Endangered.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Neamblysomus julianae",
+        "url": "https://ewt.org/project/julianas-golden-mole/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Patel T and da Silva JM. 2025. Regional status Endangered EN B2ab(iii); no change from the 2016 assessment. Regional population trend unknown. Known from three isolated subpopulations, including one in southwestern Kruger National Park."
+      },
+      {
+        "title": "A conservation assessment of Neamblysomus julianae",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/17.-Julianas-Golden-Mole-Neamblysomus-julianae-Endangered.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Maree S. 2016 (previous assessor named on the 2025 page). Regional status Endangered B2ab(iii). Global IUCN status Endangered (2015). National status in 2004 was Vulnerable. The Bronberg Ridge subpopulation is listed as Critically Endangered. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Juliana's golden mole",
+        "url": "https://en.wikipedia.org/wiki/Juliana%27s_golden_mole",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Maree (2015), IUCN Endangered globally. Notes that the Bronberg Ridge population is considered critically endangered."
+      }
+    ]
+  },
+  "size": {
+    "lengthCm": {
+      "min": 9,
+      "max": 11
+    },
+    "massKg": {
+      "min": 0.021,
+      "max": 0.046
+    },
+    "note": "The 2025 EWT assessment gives size at maturity as 9-11 cm for both females and males, but does not say whether this is head-and-body length or total length. Animal Diversity Web gives an average length of 100 mm and a mass of 21-46 g (average 35 g), and says males are larger. Wikipedia, citing Kingdon et al. (2013), gives a mass of 21-75 g. The mass figures are recorded as a disagreement rather than averaged; the 21-46 g range is entered here, and the higher Kingdon upper bound is not used. No shoulder height, head-and-body length or tail length was published as such in the sources used."
+  },
+  "summary": "A small, fossorial golden mole endemic to South Africa and known from only three isolated subpopulations, one of them in southwestern Kruger National Park. It is confined to sandy soils, has dense fur described as light brown or shiny golden, and has no visible eyes or ears. It forages in shallow subsurface tunnels, mainly in the late afternoon and at night, and is listed as Endangered in both the regional assessment and the global IUCN listing.",
+  "description": "A small golden mole. The 2025 EWT assessment gives size at maturity as 9-11 cm in both sexes, without saying which measurement that is. Wikipedia describes a shiny golden coat of dense fur and a streamlined, formless appearance, with no visible eyes or ears: the small eyes are covered with hairy skin and the animals are blind, and the ears are small and hidden in the fur. Animal Diversity Web, citing Jackson (2007) and Stuart (2001), describes the fur as light brown, becoming lighter on the flanks and nose, a hard keratinous nose, a streamlined body, one enlarged forefoot claw used for digging, and webbed hind feet; the eyes and ears are not visible and are covered in fur. The two colour descriptions are both recorded rather than reconciled. The sexes are not described as differently marked, though Animal Diversity Web states that males are larger. Animal Diversity Web, citing Bronner (1990), also notes that the Kruger National Park animals have a third lower molar, a difference that has been taken as evidence of a distinct subpopulation.",
+  "habits": "The 2025 EWT assessment describes the species as confined to sandy soils, often pockets of weathered sandstone associated with rocky ridges. Subsurface foraging tunnels are visible as broken ridges on the soil surface, and most foraging is in the upper 10-20 mm of soil. Contrary to earlier reports of a strictly nocturnal routine, a radio-telemetry study of one animal at Nylsvley Nature Reserve documented a bimodal but flexible diurnal and nocturnal pattern, dependent mainly on soil temperature, with shallow torpor during periods of low soil temperature and consistent use of the same resting site. Wikipedia, citing Kingdon et al. (2013) and Jackson et al. (2009), likewise says the main feeding activity is in the late afternoon and at night, and that the animals enter torpor daily in the morning and early afternoon. Animal Diversity Web describes them as solitary and territorial, sand-swimming close to the surface, with activity increasing after rain and decreasing or stopping in dry seasons, and with behavioural thermoregulation by moving towards or away from the surface. A Kruger-specific activity study was not found. The 2025 assessment notes that the species is not a migrant.",
+  "diet": {
+    "summary": "Wikipedia says golden moles eat invertebrates such as insects, earthworms and snails. Animal Diversity Web describes the species as primarily insectivorous, eating earthworms and a variety of insects including grasshoppers and beetle larvae, with prey usually taken underground, though animals may seize prey above ground and consume it below. The 2025 EWT assessment does not list diet items.",
+    "items": [
+      "insects",
+      "grasshoppers",
+      "beetle larvae",
+      "earthworms",
+      "snails"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment lists the species as aseasonally polyoestrous, states that it gives birth to live young, and gives a litter size of 2. Animal Diversity Web says reproduction is aseasonal but more frequent in the rainy season, with a litter of 1-2 young that are born naked and altricial and are weaned by the mother in bare nesting chambers linked to the tunnel network, after which the young are forced from the burrow. Wikipedia says usually two young are born, sometimes one, in a grass-lined cavity in the ground. The accounts disagree on whether the nest chamber is bare or grass-lined; both are recorded. Gestation, size at birth, and a Kruger-specific breeding study were not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Birds of prey",
+      "note": "Animal Diversity Web, citing Schütze (2002), lists birds of prey among the known predators. Not identified to species, and not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Domestic dogs and cats",
+      "note": "Animal Diversity Web, citing Schütze (2002), lists domestic dogs and cats. The 2025 EWT assessment treats predation by domestic pets as an inferred minor threat. These predators are more relevant to garden and farmland subpopulations than to the Kruger animals."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "Animal Diversity Web lists grasshoppers and beetle larvae; Wikipedia lists insects. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Earthworms",
+      "note": "Listed by Wikipedia and by Animal Diversity Web. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Snails",
+      "note": "Listed by Wikipedia. Not mammals in this guide."
+    }
+  ],
+  "habitat": "In Kruger National Park the 2025 EWT assessment records the species from southwestern Kruger, in Sour Lowveld Bushveld, on sandy soils in the Lowveld of Mpumalanga. More generally it is confined to sandy soils, often pockets of weathered sandstone associated with rocky ridges, in the Savanna biome and marginally in the Grassland biome. The other two subpopulations are on the Bronberg Ridge east of Tshwane in Rocky Highveld Grassland, and on the Nylsvley floodplain in Clay Thorn Bushveld, including Nylsvley Provincial Nature Reserve and surrounding farms in the Modimolle district of Limpopo. The species is also common in well-irrigated suburban and rural gardens, and is absent from grasslands on the heavier soils of the Mpumalanga escarpment where larger Amblysomus species occur instead.",
+  "similar": [
+    {
+      "slug": "calcochloris-obtusirostris",
+      "note": "Animal Diversity Web, citing Jackson (2007), describes the fur of Juliana's golden mole as light brown, becoming lighter on the flanks and nose. The 2016 EWT assessment of the yellow golden mole says that species is the only golden mole with orange-yellow underfur, which is greyish in other species."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment gives the regional population trend as unknown and the number of mature individuals as unknown. It describes the species as locally common, at 2-3 individuals/ha in prime habitat, with patchy, clumped dispersion, and from that density and an area of occupancy of 140 km2 it projects a regional total of 25,600-38,400 individuals, then divides the remainder after the Bronberg Ridge subpopulation equally between the other two subpopulations under stated assumptions of uniform density and equal area. That projection is not a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Neamblysomus julianae",
+        "url": "https://ewt.org/project/julianas-golden-mole/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend unknown. Number of mature individuals unknown. Local density and the regional projection from area of occupancy are not a Kruger total."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "not visible; Wikipedia and Animal Diversity Web say the small ears are hidden in the fur"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "no visible eyes or ears; Wikipedia says the small eyes are covered with hairy skin and the animal is blind",
+          "muzzle": "hard keratinous nose; Animal Diversity Web, citing Jackson (2007), says the fur is lighter around the nose",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "light brown",
+            "golden"
+          ],
+          "pattern": "dense fur; Wikipedia describes a shiny golden coat, Animal Diversity Web a light brown coat becoming lighter on the flanks; both accounts are recorded"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A small fossorial golden mole with a streamlined body, dense fur described as light brown or shiny golden and paler on the flanks and nose, no visible eyes or ears, a hardened nose, an enlarged forefoot claw and webbed hind feet. It is more often detected from shallow subsurface foraging ridges than seen on the surface."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Neamblysomus julianae",
+      "url": "https://ewt.org/project/julianas-golden-mole/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Patel T and da Silva JM. 2025. Main text source for status, habitat, habits, breeding periodicity and litter size. Afrikaans name Juliana se Gouemol is taken from this assessment (stored here in the species-list.json form Juliana se gouemol). Records a subpopulation in southwestern Kruger National Park."
+    },
+    {
+      "title": "A conservation assessment of Neamblysomus julianae",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/17.-Julianas-Golden-Mole-Neamblysomus-julianae-Endangered.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Maree S. 2016. Source of the 2015 global IUCN listing and of the separate Critically Endangered listing of the Bronberg Ridge subpopulation. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Juliana's golden mole",
+      "url": "https://en.wikipedia.org/wiki/Juliana%27s_golden_mole",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Neamblysomus julianae Juliana's golden mole",
+      "url": "https://animaldiversity.org/accounts/Neamblysomus_julianae/",
+      "publisher": "Animal Diversity Web",
+      "year": 2013,
+      "note": "Taylor E. 2013. Used for appearance, mass, habits, diet, predators and young."
+    },
+    {
+      "title": "iNaturalist taxon Neamblysomus julianae",
+      "url": "https://api.inaturalist.org/v1/taxa/42531",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Neamblysomus julianae (Juliana's golden mole; Afrikaans Juliana se gouemol, as given in the EWT assessments). The 2025 EWT assessment, following Bronner, notes consistent colour, dental and DNA differences between the eastern and western extremes of the range, and pronounced genetic partitioning between the Kruger National Park subpopulation and the other two; more Kruger specimens are said to be needed, and the outcome could change the conservation status. That taxonomic question is flagged, not resolved, and the species-list name is kept. EWT records a definite subpopulation in southwestern Kruger National Park, so status and monthsPresent are kept. Regional status remains Endangered in 2025, with no change from 2016; the global IUCN listing cited in the 2016 assessment is Endangered (2015). The Bronberg Ridge subpopulation is assessed separately as Critically Endangered. Animal Diversity Web has a full natural-history account for this species, unlike the classification stubs typical of many small mammals in this project. Wikipedia is a fuller page than for most golden moles and small rodents treated so far. No licensable photograph of the animal was used.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional trend as unknown and the number of mature individuals as unknown. A local density of 2-3 individuals/ha and a regional projection of 25,600-38,400 individuals, including an assumed equal split of the non-Bronberg remainder between the other two subpopulations, is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable photograph of the animal suitable for display was found. iNaturalist place 69020 (Kruger) returned 0 observations. The licensed research-grade records in South Africa (place 6986) that were viewed were subsurface runs in sandy soil in the City of Tshwane, not the animal; observations that showed the animal described handling or rescue and were not used.",
+    "iNaturalist has 0 sound observations for Neamblysomus julianae in place 69020. No sourced description of the calls was found in the assessments used. Animal Diversity Web says little is known about communication in this species and mentions high-pitched chirrups only in closely related species.",
+    "The 2025 EWT size at maturity of 9-11 cm does not state which measurement that is. Animal Diversity Web gives an average length of 100 mm. No shoulder height, head-and-body length or tail length was published as such. Mass is given as 21-46 g by Animal Diversity Web and as 21-75 g by Wikipedia citing Kingdon et al. (2013); the disagreement is recorded rather than averaged.",
+    "Iris colour, underpart colour, leg colour, tail shape and a quantified sexed size split were not given in the sources used, so those marks are null. Coat colour is entered as both light brown (Animal Diversity Web) and golden (Wikipedia) rather than inferred from the English name alone.",
+    "No Kruger-specific activity or breeding study was found. Gestation and size at birth were not given. Wikipedia and Animal Diversity Web disagree on whether the nest chamber is grass-lined or bare.",
+    "The 2025 EWT assessment and earlier work flag consistent differences and genetic partitioning between the Kruger National Park subpopulation and the other two, and say more Kruger specimens are needed to clarify whether more than one taxon is involved. This file keeps the species-list.json name and does not split the species."
+  ]
+}
