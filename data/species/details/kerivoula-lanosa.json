@@ -1,0 +1,185 @@
+{
+  "kind": "species",
+  "slug": "kerivoula-lanosa",
+  "scientificName": "Kerivoula lanosa",
+  "commonNames": {
+    "en": "Lesser woolly bat",
+    "af": "Klein wolhaarvlermuis"
+  },
+  "family": "vespertilionidae",
+  "inatTaxonId": 40468,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Least Concern; no change from 2016; regional population trend Unknown). Wikipedia cites a global IUCN listing of Least Concern (Monadjem, Taylor, Jacobs and Cotterill 2017).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Kerivoula lanosa",
+        "url": "https://ewt.org/project/lesser-woolly-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Richards LR and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Unknown). Cited only; not hosted in this repo."
+      },
+      {
+        "title": "Kerivoula lanosa",
+        "url": "https://doi.org/10.2305/IUCN.UK.2017-2.RLTS.T10977A22021700.en",
+        "publisher": "IUCN",
+        "year": 2017,
+        "note": "Monadjem, Taylor, Jacobs and Cotterill 2017. Global Least Concern listing as cited on the Wikipedia lesser woolly bat article. Cited only; not hosted in this repo."
+      }
+    ]
+  },
+  "size": {
+    "note": "The 2025 EWT assessment, citing DNSM Records, gives a female forearm length of 3.23 cm and a total length of 8.20 cm. Citing Monadjem et al. (2020), it gives a sexes-combined mean forearm length of 3.15 ± 1.23 cm and a mean total length of 7.61 ± 0.63 cm. No published minimum–maximum range, mass, head-and-body length, tail length or shoulder height was given in the sources used, so those fields are omitted."
+  },
+  "summary": "A small African woolly bat with a frosted, dark greyish-brown coat, the pale tips of the hairs scattered through the fur. It is an insectivorous clutter-edge forager that often roosts in abandoned weaver and sunbird nests, usually in ones or threes. The 2025 regional Red List rates it Least Concern and records it from Kruger National Park. This file keeps the checklist names Kerivoula lanosa and Lesser woolly bat.",
+  "description": "The lesser woolly bat is a small vesper bat. Wikipedia describes the fur as typically dark greyish brown, with whitish tips scattered throughout. The 2025 EWT assessment, citing Cotterill (2013), calls this a frosted pelage that helps camouflage the animal when it is roosting, and says the woolly texture of the coat may also give some insulation from low temperatures when the bats roost in foliage. No other part colours, and no ear, muzzle or interfemoral-membrane characters, were published in the sources used.",
+  "habits": "The 2025 EWT assessment classifies the species as a clutter-edge forager (Monadjem et al. 2020) and lists movement patterns as unknown. It notes low wing loading (Moir et al. 2020) in the context of limited rescue effects from neighbouring countries. Animals have often been found roosting in abandoned bird nests (Roberts 1951; Taylor 1998; Cotterill 2013), including weaver and sunbird nests (Oschadleus 2008), and the page describes the species as congregatory, able to roost collectively in bird nests. Wikipedia, citing Oschadleus (2008), says they have been known to use abandoned nests of the speckle-fronted weaver, the scarlet-chested sunbird and several other birds, and that the average number of bats per nest is usually between one and three. The species avoids mist nets and is more easily sampled with harp traps. The 2025 page also, citing McGee et al. (2022), notes that it has been recorded flying and foraging around swimming pools at Amakhala Game Reserve in the Eastern Cape; that record is not a Kruger record.",
+  "diet": {
+    "summary": "An insectivore and clutter-edge forager. The 2025 EWT assessment, citing Monadjem et al. (2020), says limited information is available on the diet, and no specific prey items are listed.",
+    "items": [
+      "insects"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment states that the species gives birth to live young, but lists gestation time, reproductive periodicity, litter size and size at birth as unknown. No description of the pup was published in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), says the species is insectivorous and a clutter-edge forager, but that limited information is available on the diet and no specific prey taxa were published. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Cotterill (2013) and Monadjem et al. (2020), says very little information is available on preferred habitat, but that in southern Africa the species has been recorded from evergreen forest, riparian forest and both wet and dry savannah woodlands, and that in drier regions it is associated with riverine habitats. Elevation limits on that page, citing Monadjem et al. (2024), are 5 m to 2,617 m above sea level. The 2025 assessment lists the species from Kruger National Park in Limpopo, and from Great Limpopo Transfrontier Park, among other protected areas in the assessment region. No more precise Kruger habitat was published in the sources used.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment gives the current population trend as Unknown, and does not quantify the number of mature individuals in the assessment region. The assessment rationale also says that, because the species has been recorded a number of times in harp traps since 2008 and is widespread, the population is considered stable, while noting that further surveys are needed to quantify size and trends. Those remarks apply to the assessment region (South Africa, Eswatini and Lesotho), not to Kruger.",
+    "sources": [
+      {
+        "title": "A conservation assessment of Kerivoula lanosa",
+        "url": "https://ewt.org/project/lesser-woolly-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional remarks only (mature population size not quantified; current population trend Unknown; rationale also describes the population as considered stable). Not a Kruger estimate."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "dark greyish brown",
+          "pattern": "frosted; whitish tips scattered throughout the fur. The 2025 EWT assessment, citing Cotterill (2013), says the frosted pelage provides camouflage when roosting, and that the woolly texture may add insulation when animals roost in foliage"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Often roosts in abandoned weaver and sunbird nests, usually with one to three bats in a nest, and may also roost in foliage. The frosted, woolly coat is said to aid camouflage and insulation at these sites."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter-edge forager. The 2025 EWT assessment, citing Moir et al. (2020), notes low wing loading."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Kerivoula lanosa",
+      "url": "https://ewt.org/project/lesser-woolly-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Richards LR and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Unknown), Afrikaans name Klein wolhaarvlermuis, synonyms, taxonomic notes on subspecies and a possible African Kerivoula species complex, habitat, roosting, diet, movement (unknown), forearm and total-length figures, low wing loading, the named Kruger National Park record, occurrence in Great Limpopo Transfrontier Park, and regional population remarks. Cited only; not hosted in this repo."
+    },
+    {
+      "title": "Lesser woolly bat",
+      "url": "https://en.wikipedia.org/wiki/Lesser_woolly_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Appearance (dark greyish brown fur with whitish tips), roosts in abandoned nests of the speckle-fronted weaver, the scarlet-chested sunbird and other birds, and typical group size of one to three bats per nest, citing Oschadleus (2008). The title Kerivoula lanosa redirects here. The page uses the English name lesser woolly bat, and cites the 2017 IUCN Least Concern assessment."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Kerivoula lanosa (English Lesser woolly bat; Afrikaans Klein wolhaarvlermuis) and does not remap it. The 2025 EWT assessment recognises four subspecies across the range, of which two occur in the assessment region: K. l. lanosa, endemic to the Cape provinces, and K. l. lucia, from the Eastern Cape through southern and central Africa. It states that the validity of these subspecies cannot currently be determined, that taxonomic relationships within African Kerivoula have yet to be resolved, and that further molecular work is needed on a possible species complex. Those issues are flagged here, not used to change the checklist names."
+  },
+  "gaps": [
+    "No Kruger census or park-wide count; the 2025 regional assessment does not quantify mature individuals and lists the current population trend as Unknown.",
+    "No published mass, head-and-body length, tail length, shoulder height, or minimum–maximum total-length range; only a female total length, mean total length and forearm figures were given.",
+    "No sourced colours or shapes for the ears, underparts, eyes, muzzle or tail membrane; marks are limited to the frosted dark greyish-brown pelage.",
+    "No sourced echolocation or social-call description, and no iNaturalist sound records in Kruger (place 69020).",
+    "No licensable unhandled photograph: none in Kruger (place 69020); the only licensed southern African iNaturalist record (observation 346357189, Gert Sibande District Municipality) is of a caught bat and was not used.",
+    "Gestation, litter size, size at birth and pup appearance were not published in the sources used.",
+    "No sourced field comparison with the Damara woolly bat (Kerivoula argentata) was published on the pages used for this species."
+  ]
+}
