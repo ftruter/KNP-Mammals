@@ -346,6 +346,42 @@ Researched in a fresh session for the eight Chiroptera families. The 2011 Waybac
 - iNaturalist HTML/JSON checklist 8810 was not used (Phase 1: HTTP 403/401). Jakob Fahr's bat updates on that checklist remain unchecked.
 - Skinner & Chimimba and Stuart’s guide were not available. No rare / reintroduced / introduced flags were added: the 2011 PDF does not mark any species in these eight families with an asterisk.
 
+## Batch 13 hints (long-fingered and free-tailed bats, 15 November 2026, Africa/Johannesburg)
+
+### Schreibers' long-fingered bat (Miniopterus natalensis), 14 calls
+- No 2025 EWT page (ignore the M. fraterculus page); 2016 PDF …/21.-Natal-Long-fingered-Bat-Miniopterus-natalensis_LC.pdf: no Kruger mention, migratory (up to 260 km). Status omitted.
+- Wikipedia and ADW stubs; skip Wikipedia's fish-catching claim.
+- 69020 photos are rest-camp roosts; 6986 cave records (Hangklip, Boomslang) usable.
+
+### Ansorge's free-tailed bat (Mops ansorgei), 13 calls
+- 2025 EWT https://ewt.org/project/ansorges-free-tailed-bat/ (Mops ansorgei; 2016 used Chaerephon ansorgei): Kruger definite, no migration.
+- Wikipedia useful (pelage, 16 g, tail, echolocation). ADW has no account under either name; skip.
+- iNat 1430965: only two licensed obs (dead at Letaba camp; Pretoriuskop camp). Zero photos.
+
+### Angola free-tailed bat (Mops condylurus), 17 calls
+- No 2025 EWT page; 2016 PDF has a definite Kruger record ("migrat" only refers to insects at turbines).
+- Wikipedia short (Smith 1833 appearance, IUCN 2017); ADW no account.
+- iNat 765544, 69020: 12 licensed photos, all camp/picnic/roof/handled (Letaba, Satara, Pretoriuskop, Lower Sabie, Mopani, Mlondozi, Nwanetsi). Zero photos.
+
+### Midas free-tailed bat (Mops midas), 16 calls
+- 2025 EWT https://ewt.org/project/midas-free-tailed-bat/ (body correct; Afrikaans matches list). Kruger definite, movement not specified.
+- Wikipedia useful; ADW classification only.
+- iNat 765553: 69020 one Pretoriuskop camp obs; 6986 gloved Musina bat and Pafuri River Camp shot. Zero photos.
+
+### Little free-tailed bat (Mops pumilus), 16 calls
+- 2025 EWT https://ewt.org/project/little-free-tailed-bat/ (2016 PDF under Chaerephon pumilus). Kruger record plus van der Merwe et al. 1986 Kruger parturition peaks.
+- ADW: try old genus (Chaerephon_pumilus). Wikipedia redirect works.
+- iNat 1370990: 69020 9 licensed photos and 4 sounds, all camp/roof/grounded; 6986 thumbs all handled or indoor. Zero photos.
+
+### Egyptian free-tailed bat (Tadarida aegyptiaca), 17 calls
+- 2025 EWT https://ewt.org/project/egyptian-free-tailed-bat/: Kruger named, South Africa Resident, movement not specified.
+- Wikipedia and ADW (Eiting 2006) both full.
+- iNat 41300: 69020 9 photos and 5 sounds, all rest camps; 6986 thumbs handled or on buildings. Zero photos.
+
+### Madagascar large free-tailed bat (Tadarida fulminans), 8 calls
+- 2025 EWT https://ewt.org/project/malagasy-free-tailed-bat/: Data Deficient (was LC 2016). Pafuri record but not recorded recently; status omitted.
+- Wikipedia and ADW stubs. iNat 41296: zero in 69020 and 6986.
+
 ## Phase 2 hints (batch 5: Bathyergidae, Gliridae, Hystricidae, Muridae, Nesomyidae, Pedetidae, Sciuridae, Thryonomyidae, Erinaceidae, Soricidae, Chrysochloridae, Macroscelididae, 13 November 2026, Africa/Johannesburg)
 
 Researched in a fresh session for the last Phase 2 batch, the eight Rodentia families plus Erinaceidae, Soricidae, Chrysochloridae and Macroscelididae. The 2011 Wayback PDF was again fetched to a temporary path, converted with `pdftotext -layout`, and deleted. **Do not host or copy that PDF into the repo.** Nesomyidae is printed under **Muridae** on that PDF; inclusion used that heading for the four remapped genera, and the family name stored is the Phase 1 remap in `families.json`.
