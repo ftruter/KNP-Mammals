@@ -1,0 +1,233 @@
+{
+  "kind": "species",
+  "slug": "rhinolophus-blasii",
+  "scientificName": "Rhinolophus blasii",
+  "commonNames": {
+    "en": "Peak-saddle horseshoe bat",
+    "af": "Spitssaalneusvlermuis"
+  },
+  "family": "rhinolophidae",
+  "inatTaxonId": 40673,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "The 2016 regional Red List for South Africa, Eswatini and Lesotho (Near Threatened D1); IUCN global status Least Concern (2016). No 2025 EWT species assessment page for this taxon was found among the EWT sources used.",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus blasii",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/40.-Peak-saddle-Horsehoe-Bat-Rhinolophus-blasii_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Jacobs D, Cohen L, Richards LR, Monadjem A, Schoeman C, MacEwan K, Sethusa T and Taylor P. 2016. Regional status Near Threatened D1. National status in 2004 was Vulnerable D2; the change is described as non-genuine (new information). Global Red List status then given as Least Concern (2016). Current population trend suspected to be stable. Number of mature individuals in the assessment region given as fewer than 2,000; 20-30 major cave roosting sites treated as subpopulations; largest subpopulation given as 100 mature individuals; total individuals suspected at 200-3,000. The species is recorded from Kruger National Park, specifically the Pafuri region. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Blasius's horseshoe bat",
+        "url": "https://en.wikipedia.org/wiki/Blasius's_horseshoe_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Taylor (2016) for a global IUCN listing of Least Concern (IUCN 3.1, article T19515A21972073)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "massKg": {
+      "min": 0.007,
+      "max": 0.013
+    },
+    "note": "Wikipedia, citing Happold in Kingdon et al. (2013), gives a forearm length of 43-48 mm and a mass of 7-13 g, and describes the species as small for an African horseshoe bat. Animal Diversity Web gives a low mass of 10 g and an average mass of 12-15 g, a length of 44-56 mm (average 46.5-54 mm; whether this is head-and-body or forearm length is not stated), and an average wingspan of 280 mm. Those ADW mass figures do not match the Kingdon range used for massKg, so they are recorded here rather than in the numeric fields. The 2016 EWT assessment does not give mass or length. No tail length, head-and-body length or shoulder height was clearly published in the sources used."
+  },
+  "summary": "A small insect-eating horseshoe bat with a high-rising, sharply pointed connecting process on the nose-leaf and no axillary tufts in the armpit. It roosts in small groups in small caves, mine adits and boulder piles, hunts moths and other insects by hawking and gleaning in cluttered savannah woodland, and is listed as Near Threatened in the 2016 regional assessment and as Least Concern on the global IUCN Red List (2016). In Kruger it is recorded from the Pafuri region.",
+  "description": "A horseshoe bat of the family Rhinolophidae. The 2016 EWT assessment, citing Monadjem et al. (2010), says the complicated nose-leaf with a vertical connecting process distinguishes Rhinolophus from all other southern African bats, and that this species is similar in size and appearance to the Bushveld, Lander's and Darling's horseshoe bats (Rhinolophus simulator, R. landeri and R. darlingi) but can be separated from those by its high-rising, sharply pointed connecting process and the absence of axillary tufts of hair in the armpit. Animal Diversity Web describes a medium-sized horseshoe bat with medium-sized ears and short, broad wings; long fur that is normally light brown with hints of grey, lilac and cream; and a broad horseshoe-shaped nose-leaf that covers only part of the muzzle. It also describes the skull as gracile, notes sexual dimorphism with the female the larger sex, and gives dentition as 1-1-2-3 / 2-1-3-3. Wikipedia, citing Happold in Kingdon et al. (2013), gives a forearm length of 43-48 mm and a mass of 7-13 g. The 2016 EWT assessment says the taxonomic status of the putative southern African subspecies Rhinolophus blasii empusa needs to be resolved; this file keeps the species-list.json names and does not remap the Kruger animals. Wikipedia gives the authority as Peters, 1866; the 2016 EWT assessment gives Peters 1867.",
+  "habits": "The 2016 EWT assessment describes the species as a clutter forager that aerially hawks and gleans insect prey (Siemers and Ivanova 2004). It does not typically roost in large caves, but prefers small caves and mine adits, and also uses boulder piles (Skinner and Chimimba 2005). Day roosts are of no more than three or four individuals (Rautenbach 1982; Monadjem 2005; Skinner and Chimimba 2005). In Swaziland, the bats shared an abandoned gold-mine roost with several other species, including the numerically dominant Geoffroy's horseshoe bat (Rhinolophus clivosus) (Monadjem 2005). Wikipedia, citing Kingdon et al. (2013), says social behaviour is poorly understood, that the bats roost singly or in small groups, and that group foraging of up to five individuals has been reported in Malawi. Animal Diversity Web says the bats are nocturnal, hang freely by the feet close together but not touching, hunt moths by echolocation and by ground gleaning (Siemers and Ivanova), and can also take prey in flight close to vegetation. It also says they hibernate in colder seasons, sometimes from as early as November, and will not hibernate where temperatures fall below 14 °C; that account is not a Kruger observation and was not repeated in the 2016 regional assessment. On movement, the 2016 assessment says the bats are not always present in cave sites, which suggests they are partially migratory (Rautenbach 1982), but see Hutterer et al. (2005). Animal Diversity Web states that Blasius's horseshoe bats do not migrate. Those two accounts disagree, so residency in Kruger is not scored.",
+  "diet": {
+    "summary": "An insectivore and clutter forager that hawks and gleans. The 2016 EWT assessment, citing Schoeman (2006), says the diet consists mainly of Lepidoptera. Wikipedia, citing Kingdon et al. (2013), lists moths, termites, beetles and flies, among other kinds. Animal Diversity Web describes a diet mainly of nocturnal moths, including Lasiocampidae, Noctuidae and Geometridae.",
+    "items": [
+      "moths (Lepidoptera)",
+      "termites",
+      "beetles",
+      "flies",
+      "other insects"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Wikipedia, citing Kingdon et al. (2013), says there is one annual breeding season and that females give birth to a single young. Animal Diversity Web gives the same litter size, places breeding in the early wet season (variable from November to the earlier part of January), and reports an average gestation of seven weeks, weaning at four weeks, and sexual maturity at two years. It also says the bats form nursery colonies in caves, with up to 200 females, and that many Rhinolophidae use delayed fertilisation, especially in temperate climates; it does not present delayed fertilisation as confirmed for this species. The nursery size in that account is much larger than the day-roost groups of no more than three or four given for the assessment region in the 2016 EWT assessment, and may refer to populations outside southern Africa. The 2016 assessment does not itself describe breeding. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "The staple in the 2016 EWT assessment (mainly Lepidoptera; Schoeman 2006) and in Animal Diversity Web (nocturnal moths, including Lasiocampidae, Noctuidae and Geometridae). Wikipedia, citing Kingdon et al. (2013), also lists moths first. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Termites",
+      "note": "Listed by Wikipedia, citing Kingdon et al. (2013). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "Listed by Wikipedia, citing Kingdon et al. (2013). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Flies",
+      "note": "Listed by Wikipedia, citing Kingdon et al. (2013). Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2016 EWT assessment says that in southern Africa the species occurs in savannah woodlands and depends on daylight roosts such as caves, mine adits or boulder piles (Skinner and Chimimba 2005). Within the assessment region it is recorded from dolomitic geology and occurs in the Mopane Bioregion, Central Bushveld and Mesic Highveld Grassland. Within Kruger National Park, the assessment says it occurs in the Pafuri region, and Kruger is listed among the protected areas from which the species is recorded. Animal Diversity Web says the bats prefer savanna woodlands, are occasionally found in desert regions, and may also roost in attics and cellars. Wikipedia, citing the 2016 IUCN assessment, lists deserts, savannas, shrublands and forests, and an elevational range of 0-2,215 m; the 2016 regional assessment gives the altitude range as sea level to 1,200 m. Those elevational figures disagree and are recorded rather than reconciled.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment lists the species from Kruger National Park, in the Pafuri region, but gives no park total. Regionally it describes a rarely captured species with small, fragmented subpopulations, a suspected regional total of fewer than 2,000 mature individuals and 200-3,000 individuals in all, 20-30 major cave roosting sites treated as subpopulations, 100 mature individuals in the largest subpopulation, and a trend suspected to be stable, with no continuing decline in mature individuals. Those regional figures are not a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Rhinolophus blasii",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/40.-Peak-saddle-Horsehoe-Bat-Rhinolophus-blasii_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional figures only: fewer than 2,000 mature individuals, 200-3,000 individuals suspected in total, 20-30 major cave roosts, largest subpopulation 100 mature individuals, trend suspected stable. Recorded from Kruger (Pafuri), but not a Kruger count. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "medium-sized, in the Animal Diversity Web account; no further sourced shape or colour was given"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "horseshoe-shaped nose-leaf with a high-rising, sharply pointed connecting process; the nose-leaf is broad but covers only part of the muzzle; no axillary tufts of hair in the armpit",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "light brown"
+          ],
+          "pattern": "long fur normally light brown with hints of grey, lilac and cream, from Animal Diversity Web. Wikipedia and the 2016 EWT assessment do not describe pelage colour. Sexes are not described as differing in colour; Animal Diversity Web says the female is larger"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen hanging in a small cave, mine adit or boulder pile, usually in a group of no more than three or four, close together but not touching. The high-rising, sharply pointed connecting process of the horseshoe-shaped nose-leaf, and the absence of axillary tufts, separate it from similar southern African horseshoe bats. Animal Diversity Web describes long, light brown fur with hints of grey, lilac and cream."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Short, broad wings; Animal Diversity Web gives an average wingspan of 280 mm. A clutter forager that hawks and gleans moths and other insects, and can fly close to vegetation or take prey from the ground."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Animal Diversity Web describes echolocation calls with a signal duration of around 40-50 milliseconds and a distinctive constant-frequency component of 93-98 kHz. The 2016 EWT assessment cites Monadjem (2005) for a recording from Eswatini, but does not itself give call measurements. No audible social-call description was given in the sources used.",
+      "recordings": []
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Rhinolophus blasii",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/40.-Peak-saddle-Horsehoe-Bat-Rhinolophus-blasii_NT.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Jacobs D, Cohen L, Richards LR, Monadjem A, Schoeman C, MacEwan K, Sethusa T and Taylor P. 2016. Source of the 2016 regional Near Threatened D1 status, common names (including Afrikaans Spitssaalneusvlermuis), the R. b. empusa taxonomic note, the Kruger (Pafuri) record, roosting and group size, the partial-migration suggestion (Rautenbach 1982; but see Hutterer et al. 2005), habitat, diet (Schoeman 2006), distinguishing characters versus R. simulator, R. landeri and R. darlingi (Monadjem et al. 2010), and regional population figures. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Blasius's horseshoe bat",
+      "url": "https://en.wikipedia.org/wiki/Blasius's_horseshoe_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Rhinolophus blasii. Used for forearm length and mass (Happold in Kingdon et al. 2013), roosting and foraging, diet, a single young once a year, possible predators (cited to Animal Diversity Web), elevational range and habitat (IUCN 2016), and the global IUCN listing (Taylor 2016). Afrikaans names were taken from the 2016 EWT assessment, not from this page."
+    },
+    {
+      "title": "Rhinolophus blasii (Blasius's horseshoe bat)",
+      "url": "https://animaldiversity.org/accounts/Rhinolophus_blasii/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Full species account by Claudia Cooper. Used for pelage, nose-leaf and wing shape, ADW measurements, roosting posture and group size, the statement that the bats do not migrate, hibernation, echolocation (93-98 kHz), diet of moth families, and breeding figures (litter size, season, gestation, weaning and sexual maturity). The account does not mention Kruger."
+    },
+    {
+      "title": "iNaturalist taxon Rhinolophus blasii",
+      "url": "https://api.inaturalist.org/v1/taxa/40673",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Rhinolophus blasii (English Peak-saddle horseshoe bat; Afrikaans Spitssaalneusvlermuis) and does not remap the names. The 2016 EWT assessment says the taxonomy needs revision and that the status of the putative southern African subspecies R. b. empusa must be resolved; Wikipedia gives the authority as Peters, 1866, while EWT gives Peters 1867. The preferred English name on Wikipedia and iNaturalist is Blasius's horseshoe bat; the 2016 EWT assessment leads with Peak-saddle Horseshoe Bat and also lists Peters's Horseshoe Bat and Blasius's Horseshoe Bat. The species-list English form, which matches the 2011 SANParks checklist, is kept. The EWT Afrikaans name Spitssaalneusvlermuis matches the species list. Status and monthsPresent are omitted: the site:ewt.org search and the EWT red-list Chiroptera table link only the 2016 PDF, with no 2025 /project/ page for this species, and although the 2016 assessment gives a definite Kruger record (Pafuri; Kruger listed among protected areas), it also says the bats are not always present in cave sites, which suggests they are partially migratory (Rautenbach 1982), but see Hutterer et al. (2005). Animal Diversity Web states that they do not migrate. Regional status is Near Threatened D1 (2016); the global IUCN listing cited by Wikipedia and the 2016 assessment is Least Concern (2016). Animal Diversity Web has a full species account. No licensed photograph was available: iNaturalist place 69020 (Kruger) and place 6986 both returned 0 observations with the allowed licences for taxon 40673. Place 69020 also returned 0 sound observations.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2016 regional assessment records the species from Kruger (Pafuri) and gives regional totals (fewer than 2,000 mature individuals; 200-3,000 individuals suspected; trend suspected stable), which are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Status and monthsPresent are omitted. The 2016 EWT assessment gives a definite Kruger record (Pafuri) but says the bats are not always present in cave sites, which suggests they are partially migratory (Rautenbach 1982), but see Hutterer et al. (2005). Animal Diversity Web states that they do not migrate. Resident is not scored, because the schema uses that value only for species present all year.",
+    "No 2025 EWT /project/ page for this species was found. The site:ewt.org search returned the 2016 PDF, and the EWT red-list Chiroptera table links only that PDF. The 2025 regional status was therefore not taken from a species page.",
+    "The 2016 EWT assessment says the taxonomy needs revision and that the status of Rhinolophus blasii empusa must be resolved. The file keeps the species-list.json names and does not remap the Kruger animals to a subspecies or another species.",
+    "The English name in species-list.json is Peak-saddle horseshoe bat (2011 checklist form). Wikipedia and iNaturalist prefer Blasius's horseshoe bat; the 2016 EWT assessment lists Peak-saddle Horseshoe Bat, Peters's Horseshoe Bat and Blasius's Horseshoe Bat. The species-list form is kept. The EWT 2025 page titled Peter's Horseshoe Bat is for Rhinolophus lobatus, a different species, and was not used.",
+    "The Afrikaans name in species-list.json, Spitssaalneusvlermuis, matches the 2016 EWT assessment.",
+    "Wikipedia gives the authority as Peters, 1866; the 2016 EWT assessment gives Peters 1867. The file does not choose between those dates.",
+    "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40673. The echolocation description is taken from Animal Diversity Web. No audible social-call description was given in the sources used.",
+    "No photograph was used. iNaturalist place 69020 (Kruger) returned 0 observations with the allowed licences for taxon 40673. One place 6986 query was then run and also returned 0 licensed observations, so no thumbnails were viewed.",
+    "Head-and-body length, tail length and shoulder height were not clearly published in the sources used, so those numeric fields are null. Animal Diversity Web gives a length of 44-56 mm without stating whether that is head-and-body or forearm length. Mass figures disagree: Wikipedia (Kingdon et al. 2013) 7-13 g, used for massKg, versus Animal Diversity Web's low of 10 g and average of 12-15 g. Elevational range also disagrees: sea level to 1,200 m in the 2016 EWT assessment, versus 0-2,215 m in Wikipedia citing IUCN (2016).",
+    "Ear colour, iris colour, muzzle colour, underpart colour, leg colour and tail colour were not given in the sources used, so those marks are null. Pelage colour is taken only from Animal Diversity Web.",
+    "No Kruger-specific breeding study was found. Animal Diversity Web's nursery size of up to 200 females conflicts with the assessment-region day-roost groups of no more than three or four in the 2016 EWT assessment, and may describe populations outside the region.",
+    "No species-specific, documented predators were given. Wikipedia lists snakes, owls and sometimes other bats, citing Animal Diversity Web, but that ADW account says no specific predation information was obtained and only assumes those groups. The predators list is therefore empty.",
+    "Animal Diversity Web describes hibernation in colder seasons; the 2016 regional assessment does not mention hibernation, and that ADW account is not treated as a Kruger fact."
+  ]
+}
