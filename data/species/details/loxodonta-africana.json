@@ -1,0 +1,421 @@
+{
+  "kind": "species",
+  "slug": "loxodonta-africana",
+  "scientificName": "Loxodonta africana",
+  "commonNames": {
+    "en": "Elephant",
+    "af": "Olifant"
+  },
+  "family": "elephantidae",
+  "inatTaxonId": 43694,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Endangered globally; Least Concern in the regional assessment",
+    "scope": "IUCN global assessment of the African savanna elephant (2021, amended 2022), and the 2016 and 2025 regional Red Lists for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Loxodonta africana",
+        "url": "https://www.iucnredlist.org/species/181008073/223031019",
+        "publisher": "IUCN",
+        "year": 2022,
+        "note": "Gobush, Edwards, Balfour, Wittemyer, Maisels and Taylor (2022, amending 2021). Endangered. Cited from the Wikipedia speciesbox and the iNaturalist taxon record; the assessment itself is not hosted in this repo."
+      },
+      {
+        "title": "African Savanna Elephant",
+        "url": "https://ewt.org/project/african-savanna-elephant/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Selier, Henley, Landman, Olivier and da Silva (2025). Regional status Least Concern, regional trend stable, no change from 2016. Afrikaans name given as Afrika Olifant."
+      },
+      {
+        "title": "A conservation assessment of Loxodonta africana",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/African-Elephant-Loxodonta-africana_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional Red List status Least Concern. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 247,
+      "max": 336
+    },
+    "massKg": {
+      "male": {
+        "min": 5200,
+        "max": 6900
+      },
+      "female": {
+        "min": 2600,
+        "max": 3500
+      }
+    },
+    "note": "Shoulder height and sexed mass are the 90% ranges given on Wikipedia for fully grown adults under optimal conditions (citing Larramendi 2016 and earlier growth studies): mature males average 320 cm and 6,000 kg (90% 304–336 cm and 5,200–6,900 kg); mature females average 260 cm and 3,000 kg (90% 247–273 cm and 2,600–3,500 kg). The shoulder-height field above spans those male and female 90% ranges; a sexed split is not stored on that field. The largest well-measured bull cited there was 396 cm at the shoulder and about 10,400 kg. Animal Diversity Web gives a wider, partly overlapping set: females 220–260 cm and 2,000–3,500 kg, males 320–400 cm and 4,500–6,100 kg. Those disagreements are not averaged. The longest tusk cited on Wikipedia measured 351 cm and weighed 117 kg. Head-and-body length and tail length were not published as distinct measures in the sources used (ADW's 'range length' of 2.2–4 m matches its shoulder-height figures)."
+  },
+  "summary": "The largest living land animal, and the only elephant in Kruger. Adults are grey, with a concave back, a long prehensile trunk that ends in two finger-like tips, large triangular ears, and curved ivory tusks. Cows and their young live in family herds led by a matriarch; adult bulls live alone or in small bachelor groups. Kruger holds a large, year-round population.",
+  "description": "The African savanna elephant (also called the African bush elephant) is a huge, grey animal with scant hair and deeply wrinkled, cracked skin. The back is markedly concave, the head slopes forward, and the large, pointed, triangular ears can cover the shoulder and help the animal shed heat. The trunk is long and muscular, with two finger-like tips used to grasp food and to drink. Both sexes usually carry tusks, which curve out and point forward; those of bulls are typically longer and heavier. Males are substantially larger than females. Calves are born without tusks and have softer hair of a lighter red or brown tone. The forest elephant (Loxodonta cyclotis) does not occur in Kruger.",
+  "habits": "Family units are made up of adult cows, their daughters and young sons, and are led by a matriarch; related families may form larger kinship groups. Young bulls leave the family at about 10 to 19 years and thereafter live alone or in small all-male groups. Bulls come into musth, a period of high testosterone and heightened aggression, when competing for cows. Animals are active for much of the day and night, typically resting in the early morning and again at midday, and they drink daily when water is at hand. In South Africa there are no long-distance migratory populations, but Kruger elephants are part of the Greater Limpopo Transfrontier Conservation Area and do move across the Mozambique and Zimbabwe borders. They occur in the park throughout the year.",
+  "diet": {
+    "summary": "A mixed herbivore, both grazing and browsing. The balance of grass, herbs, leaves, bark, twigs, roots and fruit shifts with habitat and season: grass is taken more in the wet season, and woody browse becomes more important when grass is scarce. An adult may eat about 150 kg of vegetation a day and drink about 180–230 litres of water. Animals also visit mineral licks and termite mounds. By pushing over and barking trees they can open woodland into grassland.",
+    "items": [
+      "grasses",
+      "herbs and creepers",
+      "leaves",
+      "bark, twigs and roots",
+      "fruit"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is usual, with twins rare, after a gestation of about 22 months, the longest of any mammal. Newborns weigh about 90–120 kg (captive births have been given as 100–120 kg) and can stand within about half an hour of birth. They have no tusks at birth, only temporary premaxillary incisors that are replaced at about a year, and softer, lighter reddish or brown hair. Other cows in the family help to guard and care for the calf. Sources disagree on weaning: one account says calves take only milk for the first three months, then feed more independently, while cows may lactate for about 4.8 years; another says they are weaned at four months but may still drink milk for up to three years. Birth intervals in other southern African parks have been estimated at about four to five years. A Kruger-specific calving season was not found; one compilation says mating occurs in the rainy season, while another describes year-round breeding.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator, mainly of young elephants."
+    }
+  ],
+  "prey": [],
+  "habitat": "Uses a wide range of woodland, bushveld, grassland and riverine country. In South Africa it occurs in Lowveld bushveld and similar habitats, and major river systems are important for its distribution. In Kruger it is often seen in wooded savanna and along rivers and dry riverbeds, and it stays within reach of drinking water.",
+  "population": {
+    "estimate": {
+      "low": 26401,
+      "high": 33198
+    },
+    "unit": "individuals",
+    "trend": "increasing",
+    "confidence": "medium",
+    "asOf": 2024,
+    "notes": "One source claims a Kruger estimate of 31,324 elephants (Ferreira et al. 2024), of which 13,382 are inferred to be mature, and that surveys from 2020 to 2024 reported confidence intervals of 26,401–33,198, a fluctuating population of about 30,000. The same source reports that the national population, driven largely by Kruger, grew at about 5.5% a year from 1991 to 2020. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. An earlier figure of 17,086 elephants in Kruger in 2016, from the African Elephant Specialist Group, is kept here as a previous estimate. Regional Red List status is Least Concern, with a stable regional trend.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 17086,
+          "high": 17086
+        },
+        "unit": "individuals",
+        "asOf": 2016,
+        "notes": "Kruger only, cited on the EWT African Savanna Elephant page as an African Elephant Specialist Group figure."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "African Savanna Elephant",
+        "url": "https://ewt.org/project/african-savanna-elephant/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Source of the 31,324 figure (Ferreira et al. 2024), the 2020–2024 confidence interval, the national growth rate, and the 2016 Kruger figure."
+      },
+      {
+        "title": "A conservation assessment of Loxodonta africana",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/African-Elephant-Loxodonta-africana_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": "ivory",
+          "shape": "tusks, not horns: sturdy, curved out and pointing forward; typically longer and heavier in males (recorded tusks to about 351 cm)"
+        },
+        "ears": {
+          "colour": "grey",
+          "shape": "large, pointed and triangular, large enough to cover the shoulder (cited to about 2 × 1.5 m); used in heat loss"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "grey, with a long prehensile trunk ending in two finger-like tips",
+          "muzzle": "the trunk is the upper lip and nose combined",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "grey",
+          "pattern": "scanty hair and deeply wrinkled, cracked skin; back markedly concave"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "grey"
+        },
+        "tail": {
+          "colour": "grey",
+          "shape": "long, with a tuft of dark, flattened hair (individual hairs cited to about 80 cm)"
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "no tusks at birth; temporary premaxillary incisors are replaced at about one year by the permanent tusks"
+        },
+        "ears": {
+          "colour": "grey",
+          "shape": "large and triangular relative to the body, as in the adult"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "grey, with a short trunk",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "grey",
+          "pattern": "softer hair of a lighter red or brown tone than in adults"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "grey"
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A broad grey face, a long trunk with two finger-like tips, large triangular ears, and tusks that curve out and forward."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A markedly concave back, a high shoulder, a long trunk, a tufted tail, and curved tusks. Bulls are larger, with heavier tusks."
+    },
+    {
+      "view": "standing-front",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "note": "A smaller grey animal with large ears and a short trunk. Newborns have no tusks; older calves show short emerging tusks and softer, lighter hair."
+    },
+    {
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "note": "Cows and calves usually move together in a family group. Adult bulls may be nearby but often stand apart or form small bachelor groups."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "contact",
+      "description": "Low-frequency rumbles, many of them infrasonic, used for long-distance contact, greeting, attracting mates and warning rivals. Audible growls occur in greetings.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "A trumpet is made by blowing through the trunk and signals excitement, distress or aggression. Bellows, moans, roars, squeals and screams are also used, including by calves in distress.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "loxodonta-africana/kruger-male-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_bush_elephant_(Loxodonta_africana)_male_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/African_bush_elephant_%28Loxodonta_africana%29_male_Kruger.jpg/1280px-African_bush_elephant_%28Loxodonta_africana%29_male_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult male elephant in side view in Kruger National Park, showing the concave back, large ear and long curved tusks",
+      "caption": "Adult male, Kruger National Park, 24 April 2024."
+    },
+    {
+      "key": "loxodonta-africana/kruger-drinking.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_bush_elephant_(Loxodonta_africana)_drinking_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/African_bush_elephant_%28Loxodonta_africana%29_drinking_Kruger.jpg/1280px-African_bush_elephant_%28Loxodonta_africana%29_drinking_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close view of an adult elephant drinking in Kruger National Park, with water falling from a curled trunk and a large triangular ear",
+      "caption": "Adult drinking, Kruger National Park, 24 April 2024."
+    },
+    {
+      "key": "loxodonta-africana/kruger-herd.jpg",
+      "view": "herd",
+      "age": "mixed",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:African_bush_elephants_(Loxodonta_africana)_Kruger.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/African_bush_elephants_%28Loxodonta_africana%29_Kruger.jpg/1280px-African_bush_elephants_%28Loxodonta_africana%29_Kruger.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A female elephant and a calf in the foreground, with a male in the background, in woodland and grassland in Kruger National Park",
+      "caption": "Female and calf in the foreground, male in the background, Kruger National Park, 24 April 2024."
+    },
+    {
+      "key": "loxodonta-africana/kruger-calf.jpg",
+      "view": "standing-front",
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Elefante_africano_de_sabana_(Loxodonta_africana),_parque_nacional_Kruger,_Sud%C3%A1frica,_2018-07-25,_DD_06.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Elefante_africano_de_sabana_%28Loxodonta_africana%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-25%2C_DD_06.jpg/1280px-Elefante_africano_de_sabana_%28Loxodonta_africana%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-25%2C_DD_06.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A young elephant standing among dry grass in Kruger National Park, showing large ears and short tusks",
+      "caption": "Young elephant, Kruger National Park, 25 July 2018. The photographer described it as a calf; short tusks are already visible."
+    },
+    {
+      "key": "loxodonta-africana/kruger-mutlumuvi.jpg",
+      "view": "standing-side",
+      "age": "any",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Kruger_National_Park_(ZA),_Elefant_--_2024_--_0649.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Kruger_National_Park_%28ZA%29%2C_Elefant_--_2024_--_0649.jpg/1280px-Kruger_National_Park_%28ZA%29%2C_Elefant_--_2024_--_0649.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "An elephant standing in a sandy dry riverbed in Kruger National Park, with the trunk raised",
+      "caption": "In the dry riverbed of the Mutlumuvi River, Kruger National Park, 21 February 2024."
+    }
+  ],
+  "sources": [
+    {
+      "title": "African bush elephant",
+      "url": "https://en.wikipedia.org/wiki/African_bush_elephant",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Loxodonta africana: African bush elephant",
+      "url": "https://animaldiversity.org/accounts/Loxodonta_africana/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "African Savanna Elephant",
+      "url": "https://ewt.org/project/african-savanna-elephant/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Loxodonta africana",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/African-Elephant-Loxodonta-africana_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Loxodonta africana",
+      "url": "https://api.inaturalist.org/v1/taxa/43694",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "English and Afrikaans names follow the 2011 SANParks checklist (Elephant, Olifant). EWT cites the Afrikaans name as Afrika Olifant. Text and measurements are sourced, but several size, habit and breeding figures come from compiled accounts (Wikipedia, Animal Diversity Web) rather than a southern-African field guide, and those two sources disagree on shoulder height, mass, weaning and whether breeding is seasonal. The Kruger population range is from the EWT 2025 page, not from the SANParks trends PDF itself; a more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "Kruger population figures are from the EWT 2025 page (citing Ferreira et al. 2024 and later survey intervals), not from the SANParks trends PDF itself. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "iNaturalist has 1 sound observation for Loxodonta africana in place 69020, but the recording is all-rights-reserved and is not displayed.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young, calls and predators were taken from Wikipedia (citing Larramendi, Estes and others) and Animal Diversity Web.",
+    "Head-and-body length and tail length were not published as distinct measures in the sources used, so those size fields are omitted.",
+    "Iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "No Kruger-specific calving-month range was found. Wikipedia, citing southern African studies, says mating occurs in the rainy season; Animal Diversity Web describes year-round breeding. Weaning and lactation figures also disagree between those two sources."
+  ]
+}

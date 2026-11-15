@@ -1,0 +1,418 @@
+{
+  "kind": "species",
+  "slug": "diceros-bicornis",
+  "scientificName": "Diceros bicornis",
+  "commonNames": {
+    "en": "Black rhinoceros",
+    "af": "Swartrenoster"
+  },
+  "family": "rhinocerotidae",
+  "inatTaxonId": 43350,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Critically Endangered globally; Endangered in the regional assessment",
+    "scope": "IUCN global assessment of Diceros bicornis (2020), and the 2016 and 2025 regional Red List assessments for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Diceros bicornis",
+        "url": "https://www.iucnredlist.org/species/6557/152728945",
+        "publisher": "IUCN",
+        "year": 2020,
+        "note": "Emslie, R. (2020). Critically Endangered. Cited from the Wikipedia speciesbox (article-number e.T6557A152728945); the assessment itself is not hosted in this repo."
+      },
+      {
+        "title": "Black Rhinoceros",
+        "url": "https://ewt.org/project/black-rhinoceros/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Ferreira, Balfour and da Silva. 2025 regional status Endangered, regional trend Stable, no change from 2016. Afrikaans name given as Swartrenoster."
+      },
+      {
+        "title": "A conservation assessment of Diceros bicornis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Black-Rhinoceros-Diceros-bicornis_EN.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Emslie RH, Adcock K. 2016, in Child et al. (eds.). Regional Red List status Endangered C2a(i). Afrikaans name given as Swartrenoster. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Black rhinoceros",
+        "url": "https://en.wikipedia.org/wiki/Black_rhinoceros",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Speciesbox cites Emslie (2020), Critically Endangered."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 132,
+      "max": 180
+    },
+    "headBodyLengthCm": {
+      "min": 280,
+      "max": 375
+    },
+    "tailCm": {
+      "min": 70,
+      "max": 70
+    },
+    "massKg": {
+      "min": 800,
+      "max": 1400
+    },
+    "note": "Shoulder height follows Wikipedia (citing Hillman-Smith and Groves 1994, Animal Diversity Web, and Arkive): 132–180 cm. Animal Diversity Web gives 140–180 cm; that narrower minimum is recorded rather than averaged. Wikipedia gives length as 280–375 cm without stating whether the tail is included; Animal Diversity Web gives head-and-body length as 300–375 cm. The Wikipedia range is used in the field above, with that disagreement noted. Typical adult mass is 800–1,400 kg in both sources; Wikipedia adds that cows are smaller than bulls and that unusually large bulls have been reported up to 2,900 kg, which is not used as the typical maximum. No sexed mass or shoulder-height split was published in the sources used. Animal Diversity Web gives tail length as generally around 70 cm; no range was given, so both bounds are set to that typical figure. The front horn is typically about 50 cm and may reach 135.9 cm, or nearly 150 cm in the longest recorded horn (Wikipedia); Animal Diversity Web gives the front horn as 42–128 cm and the rear horn as 20–50 cm."
+  },
+  "summary": "A large, hook-lipped browser of thicket and bushveld, smaller than the white rhinoceros, with a pointed prehensile upper lip, a relatively small head carried high, and two keratin horns, the front one larger. The body is grey to yellowish- or dark-brown and almost hairless, often stained by local soil. Kruger holds a resident population of the south-central subspecies at low density; numbers fell sharply under poaching.",
+  "description": "A heavily built rhinoceros, smaller than the white rhinoceros, with thick, almost hairless skin that is generally grey but may appear yellowish-brown to dark-brown according to the local soil. The only obvious hair is a short fringe on the relatively short, rounded ears. The head is smaller than in the white rhinoceros and is carried higher, as befits a browser. The upper lip is pointed and prehensile, used to grasp leaves and twigs, and is the clearest distinction from the square-lipped white rhinoceros. There is no nuchal hump. Two keratin horns sit one behind the other on the snout; the front horn is the larger. Both sexes carry horns; cows often have longer, thinner horns than bulls, and a small third horn sometimes develops. Each foot has three toes. The Kruger animals belong to the south-central subspecies, Diceros bicornis minor.",
+  "habits": "Generally solitary, with the strongest bond between a cow and her calf. Bulls and cows associate for mating, and subadults may form loose associations with older animals. Home ranges overlap and are not strongly territorial; their size varies with food and water, and Animal Diversity Web gives a range of 2.6–133 km². It browses mainly in the morning and evening, and rests, sleeps and wallows in mud in the heat of the day. It can go about five days without water in a drought. It has a reputation for charging readily at perceived threats, and Wikipedia, citing Berger and Cunningham, records unusually high rates of fatal combat. It can run at up to 55 km/h. Smell is acute and hearing is good. Accounts of eyesight disagree: it is often described as poor, and Animal Diversity Web gives a visual range of only 25–30 m, but Wikipedia cites a retinal study suggesting eyesight comparable to a rabbit's.",
+  "diet": {
+    "summary": "A selective browser, using the prehensile upper lip to strip leaves and twigs, and sometimes the horn to break higher branches or scrape bark. The diet includes leafy plants, twigs, branches, shoots, thorny bushes, small trees, legumes, fruit and some grass, with a preference for Acacia species and plants in the family Euphorbiaceae. Wikipedia, citing feeding studies, notes that it may take as many as 220 plant species but often concentrates on a few key ones, especially leafy woody plants in the dry season. Animal Diversity Web gives an average daily intake of about 23.6 kg. Optimum habitat is thick scrub and bushland, often with some woodland.",
+    "items": [
+      "leaves and twigs of woody plants, including Acacia species",
+      "plants in the family Euphorbiaceae",
+      "thorny bushes, small trees and legumes",
+      "fruit and some grass"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A single calf is born after a gestation of about 15 months, given by both Wikipedia and Animal Diversity Web. Birth mass disagrees: Wikipedia gives about 35–50 kg; Animal Diversity Web gives 20–25 kg. Those figures are recorded rather than averaged. Wikipedia says the calf can follow its mother after about three days; Animal Diversity Web says the cow hides it for the first week. The calf walks behind the cow, unlike a white rhinoceros calf, which walks in front. Animal Diversity Web says the cow pants and the calf squeals to keep contact, that the calf can browse after about a month and drink water after four to five months, and that weaning is typically at 18 months, with dependence lasting up to four years. Wikipedia places weaning at around two years, and says the cow and calf stay together for two to three years until the next calf is born, with daughters sometimes remaining longer. Sexual maturity is reached at 5–7 years in cows and 7–8 years in bulls in both sources. Breeding may occur all year; Wikipedia notes that births tend to be towards the end of the rainy season in more arid environments. No Kruger-specific calving months were found. Lifespan figures also disagree: Wikipedia gives 35–50 years in natural conditions; Animal Diversity Web gives a typical wild life of 30–35 years and more than 45 years in captivity.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion",
+      "note": "Documented mainly on calves and, very seldom, small subadults; Animal Diversity Web also records occasional attacks on adults."
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena",
+      "note": "Recorded as taking young animals."
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide. Wikipedia records exceptional predation on adult black rhinoceroses."
+    }
+  ],
+  "prey": [],
+  "habitat": "Thick scrub, bushland and woodland, usually within reach of permanent water, and also found in riverine woodland and, less often, in more open grassland. In Kruger it occurs at low density and prefers denser habitats, with enough suitable browse in the right height classes and permanent water. The Kruger population is of the south-central subspecies, which the 2025 regional assessment places in bushveld in Limpopo, Mpumalanga and KwaZulu-Natal.",
+  "similar": [
+    {
+      "slug": "ceratotherium-simum",
+      "note": "The white rhinoceros is larger, with a broad, straight, square lip, a long head carried low, and a nuchal hump; it is a grazer of short grass. The black rhinoceros has a pointed, prehensile upper lip, a smaller head held higher, and no nuchal hump, and is a browser. A black rhinoceros calf walks behind the cow; a white rhinoceros calf walks in front."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": 149,
+      "high": 261
+    },
+    "unit": "individuals",
+    "trend": "decreasing",
+    "confidence": "low",
+    "asOf": 2022,
+    "notes": "One source claims the Kruger population of the south-central subspecies declined from 627 (95% CI 588–666) individuals in 2008 to 205 (95% CI 149–261) by the end of 2022, and that this Kruger trend largely dictated the regional trend for that subspecies. The same source says the decline later stopped and that numbers may recently have been maintained. Those figures are not from a SANParks census publication. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. The 2025 regional assessment rates the species Endangered in South Africa and Eswatini, with a stable regional trend and no change from 2016. Poaching is the main threat.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 588,
+          "high": 666
+        },
+        "unit": "individuals",
+        "asOf": 2008,
+        "notes": "Kruger population of D. b. minor, given on the 2025 EWT page as 627 (95% CI 588–666), citing Ferreira et al. 2011."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Black Rhinoceros",
+        "url": "https://ewt.org/project/black-rhinoceros/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Source of the claim of a decline from 627 (95% CI 588–666) in 2008 to 205 (95% CI 149–261) by the end of 2022, citing Ferreira et al. 2011 and Ferreira et al. 2024c."
+      },
+      {
+        "title": "Resizing Kruger National Park: Trends in numbers of rhinoceroses within priority zones",
+        "url": "https://doi.org/10.4102/koedoe.v66i1.1802",
+        "publisher": "Koedoe",
+        "year": 2024,
+        "note": "Ferreira, Crowhurst, Greaver and Simms 2024. Underlying paper cited by the EWT page for the 2022 Kruger figure."
+      },
+      {
+        "title": "A conservation assessment of Diceros bicornis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Black-Rhinoceros-Diceros-bicornis_EN.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": "two horns in line on the snout, the front one larger, typically about 50 cm and exceptionally to about 136 cm (Wikipedia) or 42–128 cm (Animal Diversity Web); the rear horn shorter, 20–50 cm; a small third horn sometimes present; cows often have longer, thinner horns than bulls"
+        },
+        "ears": {
+          "colour": null,
+          "shape": "short and rounded, fringed with hair, and able to rotate widely"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "smaller skull than the white rhinoceros, with the head carried high",
+          "muzzle": "pointed, prehensile upper lip, used to grasp leaves and twigs",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "no nuchal hump"
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "yellowish-brown",
+            "dark-brown"
+          ],
+          "pattern": "thick, almost hairless skin, often stained by local soil"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "typically about 70 cm"
+        }
+      }
+    },
+    {
+      "age": "calf",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "already hook-lipped, but smaller than the adult; the calf walks behind the cow",
+          "muzzle": "pointed, prehensile upper lip",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Smaller than the white rhinoceros, with the head carried high, no nuchal hump, and two horns in line, the front one larger."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The pointed, prehensile upper lip used for browsing is the clearest distinction from the square-lipped white rhinoceros."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "contact",
+      "description": "A panting contact call from the cow, answered by a squeal from the calf.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Snorts when fleeing or in courtship; loud roars in aggression. Animal Diversity Web also describes groans during fights between bulls.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "diceros-bicornis/kruger-browsing.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/10675774",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/14904587/large.jpg",
+      "author": "Henry de Lange",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult black rhinoceros browsing, showing the hooked upper lip and two horns, in Kruger National Park",
+      "caption": "Adult browsing, showing the hooked lip, Kruger National Park, 20 December 2013."
+    },
+    {
+      "key": "diceros-bicornis/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/268962011",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/483522600/large.jpeg",
+      "author": "scaup",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult black rhinoceros walking in profile in Kruger National Park, showing two horns and a relatively high head carriage",
+      "caption": "Adult walking, Kruger National Park, 2 December 2014."
+    },
+    {
+      "key": "diceros-bicornis/kruger-lying.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Black_Rhino_(Diceros_bicornis)_(6025386757).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Black_Rhino_%28Diceros_bicornis%29_%286025386757%29.jpg/1280px-Black_Rhino_%28Diceros_bicornis%29_%286025386757%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult black rhinoceros lying on sand in Kruger National Park, showing the hooked lip, two horns, and oxpeckers on its back",
+      "caption": "Adult lying down, showing the hooked lip, Kruger National Park, 16 February 2011."
+    },
+    {
+      "key": "diceros-bicornis/kruger-pair.jpg",
+      "view": "herd",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/10837924",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15192254/large.jpg",
+      "author": "Andrew Deacon",
+      "license": "CC0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two adult black rhinoceroses in grass in Kruger National Park, one browsing with its head down",
+      "caption": "Two adults, one browsing, Kruger National Park, 2 May 2012."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Black rhinoceros",
+      "url": "https://en.wikipedia.org/wiki/Black_rhinoceros",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Diceros bicornis: black rhinoceros",
+      "url": "https://animaldiversity.org/accounts/Diceros_bicornis/",
+      "publisher": "Animal Diversity Web",
+      "year": null
+    },
+    {
+      "title": "Black Rhinoceros",
+      "url": "https://ewt.org/project/black-rhinoceros/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Afrikaans name Swartrenoster. 2025 regional status Endangered, regional trend Stable."
+    },
+    {
+      "title": "A conservation assessment of Diceros bicornis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Black-Rhinoceros-Diceros-bicornis_EN.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Emslie RH, Adcock K. 2016. Cited only; the PDF is not hosted in this repo. Afrikaans name Swartrenoster."
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "A more accurate population figure may be available here. Cited, not hosted."
+    },
+    {
+      "title": "iNaturalist taxon Diceros bicornis",
+      "url": "https://api.inaturalist.org/v1/taxa/43350",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Text and measurements are sourced, but several size and life-history figures come from compiled accounts (Wikipedia, Animal Diversity Web) rather than a southern-African field guide, and those two sources disagree on shoulder-height minimum, length, newborn mass, weaning and lifespan. The 2022 Kruger population figure comes from the 2025 EWT page, citing Ferreira et al. 2024c; a more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Kruger photographs are captioned only as Kruger National Park.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "The 2022 Kruger population figure is from the 2025 EWT page, citing Ferreira et al. 2024c, not from the SANParks trends PDF itself. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "iNaturalist has 0 sound observations for Diceros bicornis in place 69020. No licensable recording is included.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web, and the 2016 and 2025 regional assessments.",
+    "Iris colour, a named underpart colour, a named horn colour, and a named leg colour were not given in the sources used, so those marks are null.",
+    "Calf coat colour and whether the horns are visible at birth were not given in the sources used.",
+    "Wikipedia's length range of 280–375 cm does not state whether the tail is included; Animal Diversity Web gives head-and-body length as 300–375 cm. Shoulder-height minima also disagree (132 cm on Wikipedia, 140 cm on Animal Diversity Web). The Wikipedia figures are used in the size fields.",
+    "Newborn mass, weaning age and lifespan disagree between Wikipedia and Animal Diversity Web; both are recorded rather than averaged.",
+    "No Kruger-specific calving-month range was found. Wikipedia notes that births tend to be towards the end of the rainy season in more arid environments.",
+    "Only four licensable Kruger photographs with acceptable accuracy were kept after shortlisting; two further candidates were too distant to be useful."
+  ]
+}

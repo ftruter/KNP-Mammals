@@ -1,0 +1,392 @@
+{
+  "kind": "species",
+  "slug": "orycteropus-afer",
+  "scientificName": "Orycteropus afer",
+  "commonNames": {
+    "en": "Aardvark",
+    "af": "Erdvark"
+  },
+  "family": "orycteropodidae",
+  "inatTaxonId": 47062,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho. The 2016 regional assessment was Least Concern. IUCN global status remains Least Concern (2015).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Fact Sheet: The 2025 Regional Mammal Red List of South Africa, Eswatini and Lesotho",
+        "url": "https://ewt.org/wp-content/uploads/2026/02/Fact-Sheet_Mammal-Red-List_2.pdf",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Uplists Aardvark from Least Concern (2016) to Near Threatened. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "A conservation assessment of Orycteropus afer",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/Aardvark-Orycteropus-afer_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Taylor A, Cilliers S, Meyer L, Wilson A-L. 2016, in Child et al. (eds.). Regional status then Least Concern. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Aardvark",
+        "url": "https://en.wikipedia.org/wiki/Aardvark",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Taylor and Lehmann (2015), IUCN global Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 60,
+      "max": 60
+    },
+    "headBodyLengthCm": {
+      "min": 105,
+      "max": 130
+    },
+    "tailCm": {
+      "max": 70
+    },
+    "massKg": {
+      "min": 40,
+      "max": 82
+    },
+    "note": "Shoulder height is a single figure of 60 cm on Wikipedia, citing the Handbook of the Mammals of the World (Wilson et al. 2011), which also gives a typical head-and-body length of 105–130 cm, a tail of up to 70 cm, a typical mass of 60–80 kg, and no sexual dimorphism; total length can reach 2.2 m once the tail is included. Animal Diversity Web gives a wider unsexed mass of 40–82 kg and a length of 100–158 cm (it does not say whether that length includes the tail), and it describes males as larger, with the sides of the face and the tail paler in females and darker in males. Ears are 20–25 cm long and the tongue may reach 30 cm (Wikipedia). The mass range stored here is the wider published span; Wikipedia's typical 60–80 kg sits inside it."
+  },
+  "summary": "A stocky, nocturnal burrower with an arched back, a long pig-like snout, oversized ears and a tapering tail. The sparse yellowish-grey coat is often stained reddish-brown by soil. It feeds almost only on ants and termites, which it digs out with shovel-like claws and a long sticky tongue, and it spends the day in a burrow. Kruger holds a resident population, but the animals are seldom seen except on night drives.",
+  "description": "The aardvark is vaguely pig-like but is the only living member of the order Tubulidentata. The body is stout, with high, arched shoulders, moderately long legs (the hind legs longer than the forelegs) and tough skin under a thin coat of coarse hair. Hair is short on the head and tail and longer on the legs; adults may wear much of it away. Colour is pale yellowish-grey, often stained reddish-brown by the soil. The head is elongated, with a mobile snout ending in a disc that houses the nostrils, a small tubular mouth and a sticky tongue up to about 30 cm long. The ears are very long, about 20–25 cm, and can be folded back when the animal digs. The front feet have four toes and the hind feet five, each with a flattened, shovel-like nail. The tail is thick at the base and tapers toward the tip. Adult teeth are peg-like and lack enamel. Wikipedia, citing Wilson et al. (2011), says the sexes are not dimorphic; Animal Diversity Web instead describes males as larger and darker on the face and tail.",
+  "habits": "Generally nocturnal and solitary, coming together only briefly to mate; a mother and her young may share a burrow. It rests by day in a burrow and usually emerges in the late afternoon or after sunset, pausing at the entrance to sniff and listen before foraging. In cold weather it may come out in the afternoon, and when food is scarce it may become more diurnal. Foraging animals cover about 2–5 km a night, sometimes much farther, zigzagging with the snout to the ground. They dig temporary holes while feeding and keep several refuge burrows as well as a deeper home burrow, which may be many metres long and have several entrances. Vacated burrows are used by many other animals. If threatened it can dig very quickly, run in a zigzag, or roll onto its back and strike with its claws. It is a good swimmer.",
+  "diet": {
+    "summary": "A myrmecophage that feeds almost exclusively on ants and termites, dug from mounds or taken from marching columns, and swallowed with little chewing. It sometimes takes other insects, such as scarab-beetle pupae or grasshoppers, and may eat the underground fruit of the aardvark cucumber (Cucumis humifructus). In the Nama Karoo it is thought to get most of its water from food and is rarely seen drinking.",
+    "items": [
+      "ants",
+      "termites",
+      "scarab-beetle pupae and grasshoppers (occasional)",
+      "aardvark cucumber fruit (possible)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Usually a single young is born after a gestation of about seven months. In South Africa births are reported from May to July. Newborns weigh about 1.7–1.9 kg; Animal Diversity Web describes them as naked, with the eyes open, while Wikipedia describes flaccid ears and many wrinkles. The young can leave the burrow with the mother after about two weeks, begin to eat termites by about nine weeks, and are weaned at about three months (Wikipedia also gives a range up to 16 weeks). They can dig their own burrows at about six months but often remain with the mother until the next breeding season. Wikipedia and Animal Diversity Web give sexual maturity at about two years; the 2016 regional assessment says wild animals are unlikely to breed before three years, and that little is known about reproduction in the wild. Males take no part in care.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": null,
+      "en": "Hyaena",
+      "note": "Sources name hyenas without specifying the species."
+    },
+    {
+      "slug": null,
+      "en": "Python",
+      "note": "Not a mammal in this guide; listed because it is a documented predator of aardvarks."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Ants"
+    },
+    {
+      "slug": null,
+      "en": "Termites"
+    }
+  ],
+  "habitat": "A broad range of grasslands, savanna, woodland and thicket, wherever ants and termites are available and the soil can be dug. It avoids very rocky ground and hyper-arid desert. A Kruger-specific habitat account was not found; the park's mixed savanna and woodland fall within this range.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No sourced Kruger population estimate was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. The 2016 regional assessment did not give a Kruger total. It treated the regional trend as stable, with local declines suspected, and guessed more than 10,000 mature individuals in South Africa, Eswatini and Lesotho; those figures are not Kruger counts. A 2025 regional fact sheet infers a population reduction and uplists the species to Near Threatened.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Orycteropus afer",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/Aardvark-Orycteropus-afer_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional figures only; no Kruger total. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Fact Sheet: The 2025 Regional Mammal Red List of South Africa, Eswatini and Lesotho",
+        "url": "https://ewt.org/wp-content/uploads/2026/02/Fact-Sheet_Mammal-Red-List_2.pdf",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "very long, about 20–25 cm, and can be folded back when digging"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "elongated, with a mobile pig-like snout ending in a disc that houses the nostrils",
+          "muzzle": "tubular, with a small mouth and a sticky tongue up to about 30 cm",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "pale yellowish-grey",
+            "reddish-brown"
+          ],
+          "pattern": "sparse coarse hair over tough skin; often stained by soil; hair short on the head and longer on the legs, and may be worn away in adults"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": "Animal Diversity Web describes the sides of the face and the tail as paler in females and darker in males"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "thick at the base and tapering toward the tip; up to about 70 cm; hair short"
+        }
+      }
+    },
+    {
+      "age": "juvenile",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "flaccid at birth; can be held upright after about three weeks"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "many wrinkles at birth, which disappear after about two weeks",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": "Animal Diversity Web describes newborns as naked; Wikipedia says body hair starts growing at five to six weeks, and that hair is more apparent on the young than on worn adults"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "An arched back, a long snout held close to the ground, oversized ears and a tapering tail make the outline unmistakable. The front-heavy, pig-like profile is not that of a true pig."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Usually quiet. It makes soft grunts while foraging and louder grunts as it heads for a burrow.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A bleat when frightened.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "orycteropus-afer/kruger-night.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/254304852",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/455480107/large.jpg",
+      "author": "Marc Cronje",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "An aardvark in side view at night on a gravel track in Kruger National Park, showing the long snout, large ears and tapering tail",
+      "caption": "Research-grade iNaturalist observation, Kruger National Park, 2 December 2024."
+    },
+    {
+      "key": "orycteropus-afer/limpopo-bushveld.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/104628643",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/175359469/large.jpg",
+      "author": "Kelly Abram",
+      "license": "CC0 1.0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "An aardvark in daylight in the Limpopo bushveld, showing the arched back, long ears and snout held to the red sand",
+      "caption": "Research-grade iNaturalist observation, Bushveld, Limpopo, 25 June 2010."
+    },
+    {
+      "key": "orycteropus-afer/spitskopvlakte-foraging.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/13254820",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/19397007/large.jpeg",
+      "author": "Nick Helme",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "An aardvark foraging in open shrubland at Spitskopvlakte, Western Cape",
+      "caption": "Research-grade iNaturalist observation, Spitskopvlakte, Western Cape, 11 May 2011."
+    },
+    {
+      "key": "orycteropus-afer/western-cape.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/54629555",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/86933684/large.jpeg",
+      "author": "Ludwig Muller",
+      "license": "CC0 1.0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "An aardvark walking away through dry shrub, showing the long ears, arched back and pale tapering tail",
+      "caption": "Research-grade iNaturalist observation, Western Cape, 19 July 2020."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aardvark",
+      "url": "https://en.wikipedia.org/wiki/Aardvark",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Orycteropus afer: aardvark",
+      "url": "https://animaldiversity.org/accounts/Orycteropus_afer/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "A conservation assessment of Orycteropus afer",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/Aardvark-Orycteropus-afer_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo. Afrikaans names Erdvark, Aardvark and Erdmannetjie are taken from this assessment; the 2011 checklist name Erdvark is kept."
+    },
+    {
+      "title": "Fact Sheet: The 2025 Regional Mammal Red List of South Africa, Eswatini and Lesotho",
+      "url": "https://ewt.org/wp-content/uploads/2026/02/Fact-Sheet_Mammal-Red-List_2.pdf",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Orycteropus afer",
+      "url": "https://api.inaturalist.org/v1/taxa/47062",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "Appearance, habits, diet, young and calls are sourced from Wikipedia, Animal Diversity Web and the 2016 regional assessment. Size figures disagree between Wikipedia (typical 60–80 kg, no sexual dimorphism) and Animal Diversity Web (40–82 kg, males larger). No Kruger population figure was found. A 2025 EWT species project page was not found; regional status is taken from the 2025 fact sheet and the 2016 PDF. No source named a lookalike in this guide, so similar is empty.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No sourced Kruger population estimate. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No 2025 EWT species project page was found by a site search; regional status for 2025 is taken from the EWT fact sheet.",
+    "A Wikimedia Commons search for Kruger photographs returned only documents, not photographs, so images were taken from iNaturalist.",
+    "Only two research-grade, open-licence Kruger observations had usable accuracy; their night-road photographs appear to show the same scene, so only one was used. A third Kruger observation was dropped because its accuracy was about 2 km. Three further photographs from elsewhere in South Africa fill other views.",
+    "iNaturalist has 0 sound observations for Orycteropus afer in place 69020.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, habits, diet, young, predators and calls were taken from Wikipedia, Animal Diversity Web and the 2016 regional assessment.",
+    "No Kruger-specific habitat account or calving-month range beyond the general South African May–July birth season was found.",
+    "Iris colour, ear colour, a sexed size split that both sources agree on, underpart colour as a named value, and tail colour were not given consistently, so those marks are null.",
+    "No source named a lookalike in this guide, so similar is empty. The pangolin shares a diet but is not treated as a visual lookalike.",
+    "Age at first breeding disagrees: about two years (Wikipedia, Animal Diversity Web) versus unlikely before three years in the wild (2016 regional assessment)."
+  ]
+}

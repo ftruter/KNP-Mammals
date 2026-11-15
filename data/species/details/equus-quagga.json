@@ -1,0 +1,420 @@
+{
+  "kind": "species",
+  "slug": "equus-quagga",
+  "scientificName": "Equus quagga",
+  "commonNames": {
+    "en": "Burchell's zebra",
+    "af": "Bontsebra"
+  },
+  "family": "equidae",
+  "inatTaxonId": 43335,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened globally; Least Concern in the regional assessment",
+    "scope": "IUCN global, and the 2016 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Equus quagga",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/3.-Plains-Zebra-Equus-quagga_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Stears K, Shrader A, Castley G. 2016, in Child et al. (eds.). Regional status Least Concern; global status Near Threatened. Afrikaans name given as Bontsebra. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Plains zebra",
+        "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites King and Moehlman (2016), IUCN Red List, Near Threatened."
+      }
+    ]
+  },
+  "size": {
+    "shoulderHeightCm": {
+      "min": 127,
+      "max": 140
+    },
+    "headBodyLengthCm": {
+      "min": 217,
+      "max": 246
+    },
+    "tailCm": {
+      "min": 47,
+      "max": 56.5
+    },
+    "massKg": {
+      "male": {
+        "min": 220,
+        "max": 322
+      },
+      "female": {
+        "min": 175,
+        "max": 250
+      }
+    },
+    "note": "Shoulder height, head-and-body length, tail length and sexed mass follow the ranges compiled on Wikipedia (citing Kingdon 1988). Animal Diversity Web, still filed under the older name Equus burchellii, gives a wider unsexed shoulder height of 110–145 cm and an unsexed mass of 175–385 kg; those bounds are not merged into the figures above. Head-and-body and tail lengths on Animal Diversity Web (217–246 cm and 47–56 cm) sit inside or match the Wikipedia ranges. No Kruger-specific measurements were found."
+  },
+  "summary": "A stocky, black-and-white striped horse of open grassland and savanna woodland. Adults have broad stripes that run vertically on the neck and shoulder and become more horizontal on the rump; southern animals, including those in Kruger, often show brown shadow stripes between the black and white. The mane is short and erect, and the tail ends in a dark tuft. Kruger holds a large resident population, with some movement inside the park and the wider transfrontier area.",
+  "description": "The plains zebra, listed on the 2011 SANParks checklist as Burchell's zebra, is intermediate in size between the larger Grévy's zebra and the smaller mountain zebra, neither of which occurs in Kruger. It is heavily built, with relatively short legs, a convex forehead and an erect, striped mane. The ears are upright and rounded at the tips. No two animals have the same stripe pattern. Compared with the other zebra species, the stripes are broader; they are vertical on the foreparts and tend towards the horizontal on the hindquarters. Southern populations often have brown shadow stripes in the white interspaces, and may have less striping on the belly, legs and rump than northern animals. Males are slightly larger than females and have a thicker neck, but the sexes are otherwise alike. Foals are born with a brown-and-white natal coat that darkens with age. The extinct Cape quagga was a southern subspecies of this species.",
+  "habits": "Active mainly by day, and spends most of its time grazing. The basic social unit is a stable harem of one stallion, several mares and their recent young; stallions without mares form bachelor groups. Harems and bachelor groups may join into larger herds. Animals dust-bathe, drink and rest in the heat, and at night one animal typically stays alert. They are water-dependent and seldom wander more than about 10–12 km from a drinking place. In Kruger a migratory subpopulation has been recorded, but the species is present in the park throughout the year. It is a pioneer grazer, often seen on open grassland with blue wildebeest.",
+  "diet": {
+    "summary": "A grazer of grasses, taking both long, tough stems and shorter new growth. Preferred grasses in general accounts include Themeda triandra, Cynodon dactylon, Eragrostis superba and Cenchrus ciliaris. It will also browse herbs, leaves and twigs, and may dig for corms and rhizomes in the dry season. It drinks often and usually stays within reach of water.",
+    "items": [
+      "grasses, including Themeda triandra, Cynodon dactylon, Eragrostis superba and Cenchrus ciliaris",
+      "herbs, leaves and twigs",
+      "corms and rhizomes in the dry season"
+    ]
+  },
+  "young": "A single foal is born after a gestation of about a year (Animal Diversity Web gives 360–396 days). Breeding is not strictly seasonal, but in the regional assessment, citing a Kruger study (Smuts 1976), births peak in December and January and most foals are born in summer. Newborns weigh about 30–35 kg (Animal Diversity Web gives about 32 kg), can stand almost at once, and start to eat grass within a week. The natal coat is brown and white, and the brown darkens with age. Wikipedia gives weaning at around eleven months; Animal Diversity Web gives 7–11 months, with lactation sometimes continuing to 16 months.",
+  "predators": [
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "en": "Cheetah"
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": null,
+      "en": "Nile crocodile",
+      "note": "Not a mammal in this guide; listed because it is a documented predator of plains zebra, especially near water."
+    }
+  ],
+  "prey": [],
+  "habitat": "Open grassland and savanna woodland, usually close to drinking water. The species uses a broad range of tropical and temperate habitats, but generally avoids deserts, dense forest and permanent wetlands. In the regional assessment its natural South African range includes the eastern Lowveld.",
+  "similar": null,
+  "population": {
+    "estimate": {
+      "low": 29161,
+      "high": 43450
+    },
+    "unit": "individuals",
+    "trend": "increasing",
+    "confidence": "medium",
+    "asOf": 2012,
+    "notes": "One source claims a 2012 Kruger estimate of 29,161–43,450 individuals, from distance sampling, making up the bulk of a South African National Parks total of 31,948–46,237 (2010–2012 counts, Ferreira et al. 2013). The same assessment gives 17,497–30,415 mature individuals in Kruger, records a migratory subpopulation in the park, and describes the regional trend as increasing. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Equus quagga",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/3.-Plains-Zebra-Equus-quagga_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Source of the 2012 Kruger range, the 2010–2012 SANParks total, the Kruger mature-individual range, and the increasing regional trend. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "upright with rounded tips"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "black-and-white striped",
+          "muzzle": "dark",
+          "beard": null
+        },
+        "mane": {
+          "colour": [
+            "black",
+            "white"
+          ],
+          "shape": "short, stiff and erect, continuing the neck stripes"
+        },
+        "upperparts": {
+          "colour": [
+            "black",
+            "white"
+          ],
+          "pattern": "broad vertical stripes on the foreparts, becoming more horizontal on the hindquarters; southern animals often show brown shadow stripes between the black and white"
+        },
+        "underparts": {
+          "colour": [
+            "white",
+            "black"
+          ],
+          "pattern": "flank stripes often meet on the belly; southern animals may have less striping on the underparts"
+        },
+        "legs": {
+          "colour": "narrower horizontal black-and-white stripes, often continuing to the hooves"
+        },
+        "tail": {
+          "colour": "pale with a dark tuft",
+          "shape": "47–56.5 cm, ending in a tuft of hair"
+        }
+      }
+    },
+    {
+      "age": "foal",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "upright with rounded tips"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": [
+            "brown",
+            "white"
+          ],
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "short and erect"
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "white"
+          ],
+          "pattern": "striped; the natal coat is brown and white, and may look shaggy; the brown darkens with age"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "striped, often brown and white in the natal coat"
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A boldly striped face, upright rounded ears, and a short erect mane. The stripes of the two sides of the body are not identical."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Broad vertical stripes on the neck and shoulder become more horizontal on the rump. Brown shadow stripes are often visible on Kruger animals. The mane is stiff and upright, and the tail ends in a dark tuft."
+    },
+    {
+      "view": "standing-side",
+      "age": "foal",
+      "sex": "any",
+      "season": "any",
+      "note": "A smaller animal beside the mare, with a brown-and-white natal coat that can look shaggy. The brown darkens as the foal grows."
+    },
+    {
+      "view": "herd",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Usually seen in a small family group or a larger loose herd, often on open grass and sometimes with wildebeest."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "contact",
+      "description": "A distinctive high-pitched bark or bray, often given as “a-ha, a-ha, a-ha” or “kwa-ha, kaw-ha, ha, ha”, also written “kwahaah” or “oug-ga”. The species name quagga is onomatopoeic for this call.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A two-syllable alarm call given when a predator is sighted. A loud snort is also given when moving through cover where danger may be present.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "equus-quagga/kruger-head.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Cebra_de_Burchell_(Equus_quagga_burchellii),_parque_nacional_Kruger,_Sud%C3%A1frica,_2018-07-26,_DD_10.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cebra_de_Burchell_%28Equus_quagga_burchellii%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-26%2C_DD_10.jpg/1280px-Cebra_de_Burchell_%28Equus_quagga_burchellii%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-26%2C_DD_10.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close side view of an adult Burchell's zebra in Kruger National Park, showing the striped face, rounded ear and erect mane",
+      "caption": "Adult, Kruger National Park, July 2018."
+    },
+    {
+      "key": "equus-quagga/kruger-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Cebra_de_Burchell_(Equus_quagga_burchellii),_parque_nacional_Kruger,_Sud%C3%A1frica,_2018-07-24,_DD_01.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Cebra_de_Burchell_%28Equus_quagga_burchellii%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-24%2C_DD_01.jpg/1280px-Cebra_de_Burchell_%28Equus_quagga_burchellii%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-24%2C_DD_01.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult Burchell's zebra grazing in side view in Kruger National Park, showing broad body stripes, shadow stripes on the rump and a dark tail tuft",
+      "caption": "Adult grazing, Kruger National Park, July 2018."
+    },
+    {
+      "key": "equus-quagga/kruger-mare-and-foal.jpg",
+      "view": "standing-side",
+      "age": "mixed",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Plains_Zebras_(Equus_quagga)_mare_and_foal.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Plains_Zebras_%28Equus_quagga%29_mare_and_foal.jpg/1280px-Plains_Zebras_%28Equus_quagga%29_mare_and_foal.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "An adult Burchell's zebra standing beside a smaller foal in Kruger National Park",
+      "caption": "Mare and foal, H10 road south of Tshokwane, Kruger National Park, 24 November 2024."
+    },
+    {
+      "key": "equus-quagga/kruger-drinking.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Plains_Zebras_(Equus_quagga)_drinking.jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Plains_Zebras_%28Equus_quagga%29_drinking.jpg/1280px-Plains_Zebras_%28Equus_quagga%29_drinking.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult Burchell's zebras drinking at a waterhole in Kruger National Park, showing the striped neck, erect mane and legs striped to the hooves",
+      "caption": "Adults drinking, S110 road east of Berg-en-Dal, Kruger National Park, 4 December 2024."
+    },
+    {
+      "key": "equus-quagga/kruger-herd.jpg",
+      "view": "herd",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://commons.wikimedia.org/wiki/File:Plains_Zebras_(Equus_quagga)_(53642842554).jpg",
+      "fileUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Plains_Zebras_%28Equus_quagga%29_%2853642842554%29.jpg/1280px-Plains_Zebras_%28Equus_quagga%29_%2853642842554%29.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A small group of Burchell's zebras standing in tall green grass in Kruger National Park",
+      "caption": "Small group, S114 road east of Afsaal, Kruger National Park, 9 April 2024."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Plains zebra",
+      "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Equus burchellii: Burchell's zebra",
+      "url": "https://animaldiversity.org/accounts/Equus_burchellii/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "A conservation assessment of Equus quagga",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/3.-Plains-Zebra-Equus-quagga_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Most recent counts of Kruger's wildlife and trends over time",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+      "publisher": "SANParks Scientific Services",
+      "year": 2025,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Equus quagga",
+      "url": "https://api.inaturalist.org/v1/taxa/43335",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "English and Afrikaans names follow the 2011 SANParks checklist (Burchell's zebra, Bontsebra). Wikipedia and the 2016 regional Red List also use Plains zebra as a species common name; subspecies are ignored here, following the owner decision to list at species level. Text and measurements are sourced, but several size, habit and breeding figures come from compiled accounts (Wikipedia, Animal Diversity Web) rather than a southern-African field guide, and those two sources disagree on shoulder height, mass and weaning. The Kruger population range is from the 2016 regional Red List (citing Ferreira et al. 2013 and 2012 distance sampling), not from the SANParks trends PDF itself; a more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. No EWT 2025 species page was found.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "Kruger population figures are from the 2016 regional Red List (29,161–43,450 individuals in 2012), not from the SANParks trends PDF itself. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No EWT 2025 species project page was found for Equus quagga; conservation status, Afrikaans name and the Kruger count are taken from the 2016 PDF.",
+    "iNaturalist has 0 sound observations for Equus quagga in place 69020. No licensable recording is included.",
+    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young, calls and predators were taken from Wikipedia (citing Kingdon, Hack, Estes and others), Animal Diversity Web (under Equus burchellii), and the 2016 Red List.",
+    "Wikipedia and Animal Diversity Web disagree on shoulder height, unsexed versus sexed mass, and weaning age; the disagreements are recorded in size.note and young, and the figures are not averaged.",
+    "Iris colour and ear colour were not given in the sources used, so those marks are null.",
+    "No other zebra species occurs in Kruger, so similar is empty."
+  ]
+}
