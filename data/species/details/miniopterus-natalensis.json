@@ -1,0 +1,259 @@
+{
+  "kind": "species",
+  "slug": "miniopterus-natalensis",
+  "scientificName": "Miniopterus natalensis",
+  "commonNames": {
+    "en": "Schreibers' long-fingered bat",
+    "af": "Schreibers se grotvlermuis"
+  },
+  "family": "miniopteridae",
+  "inatTaxonId": 57530,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2016 regional Red List for South Africa, Eswatini and Lesotho, marked Watch-list Threat; IUCN global status Least Concern (2017, cited via Wikipedia; the 2016 assessment also gives the global status as Least Concern in 2016). No 2025 EWT species assessment page for this taxon was found among the EWT sources used.",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Miniopterus natalensis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/21.-Natal-Long-fingered-Bat-Miniopterus-natalensis_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "MacEwan K, Richards LR, Cohen L, Jacobs D, Monadjem A, Schoeman C, Sethusa T and Taylor PJ. 2016. Regional status Least Concern, with a Watch-list Threat flag. National status in 2004 was Near Threatened B2ab(ii,iii,iv,v); reasons for change non-genuine (new information). Global Red List status then given as Least Concern (2016). Current population trend stable, but possibly experiencing localised declines. Number of mature individuals unknown; number in the largest subpopulation unknown; not severely fragmented. Threats listed include loss of foraging habitat to agriculture, mortalities from collisions with wind turbines, disturbance of roost sites, and incidental poisoning. The assessment does not name Kruger National Park. Taxonomic status is given as a species complex. Common names listed are Natal Long-fingered Bat and Natal Clinging Bat (English) only; no Afrikaans name is given. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "tailCm": {
+      "min": null,
+      "max": null
+    },
+    "massKg": {
+      "min": null,
+      "max": null
+    },
+    "note": "The 2016 EWT assessment, the Wikipedia article and the Animal Diversity Web classification page do not give mass, head-and-body length, tail length, forearm length, shoulder height or wingspan figures. Those bounds are left null. The assessment describes high wing loading and aspect ratio (Norberg and Rayner 1987; Jacobs 1999; Schoeman and Jacobs 2003, 2008; Miller-Butterworth et al. 2005) without publishing the measurements."
+  },
+  "summary": "A cave-roosting long-fingered bat of the family Miniopteridae, recognised in the field by the elongated fingers typical of the genus. It is a clutter-edge forager that takes aerial insects, migrates seasonally between cooler winter hibernacula and summer maternity roosts, and is listed as Least Concern in the 2016 regional assessment and on the global IUCN Red List. Fur colour and body measurements were not given in the sources used.",
+  "description": "A long-fingered bat of the family Miniopteridae. This file follows species-list.json in treating the Kruger taxon as Miniopterus natalensis, with the English name Schreibers' long-fingered bat and the Afrikaans name Schreibers se grotvlermuis, and does not remap those names. The 2011 SANParks checklist used the 2011 name Miniopterus schreibersii; the current Kruger taxon is stored as M. natalensis following a recorded split. The 2016 EWT assessment, citing Miller-Butterworth et al. (2005) and Appleton et al. (2004), says M. natalensis was previously included as a subspecies of M. schreibersii, from which it is genetically distinct, and that M. schreibersii is now restricted to North Africa and Europe, with M. natalensis occurring in sub-Saharan Africa. The assessment treats the currently recognised M. natalensis as probably a complex of at least three morphologically similar species, notes that the West African form villiersi may be distinct, and says ongoing molecular research may reveal cryptic species within the assessment region. Wikipedia likewise titles the species Natal long-fingered bat and places it in Miniopteridae, while Animal Diversity Web is a classification stub that still lists the family as Vespertilionidae and the subfamily as Miniopterinae. The 2016 EWT assessment's English names are Natal Long-fingered Bat and Natal Clinging Bat; it does not give an Afrikaans name. A photo caption in that assessment describes the species as displaying the long \"fingers\" typical of the genus. Fur colour, ear shape and other markings were not described in the text sources used, and are not carried over from related Miniopterus species.",
+  "habits": "The 2016 EWT assessment describes a generally cave-roosting species that also uses similar sites such as disused mines; smaller groups will also use crevice-type habitats, and the availability of suitable roosts may be more critical than the surrounding vegetation (Monadjem et al. 2010). It uses separate caves as winter hibernacula and summer maternity roosts (van der Merwe 1975), with hibernacula generally cooler and at higher altitudes. Females typically migrate seasonally between these caves, which may be separated by up to 260 km (Miller-Butterworth et al. 2003). The assessment, citing van der Merwe (1975), states that the species is migratory, and, citing Miller-Butterworth (2003), that it shows a high degree of philopatry, so that a lost colony may not be repopulated from other areas. It is described as a clutter-edge forager and, given its high wing loading and aspect ratio (Norberg and Rayner 1987; Jacobs 1999; Schoeman and Jacobs 2003, 2008; Miller-Butterworth et al. 2005), as a fast flyer in relatively open spaces, prone to flying in the rotor sweep zone of wind turbines while foraging and while commuting during migration. Colonies may be small, or may exceed 2,500 animals, with some colonies exceeding 200,000 in certain seasons, such as the De Hoop Guano Cave in the Western Cape (Monadjem et al. 2010); in highveld caves, numbers vary from a few individuals up to about 4,000 (van der Merwe 1973). The assessment, citing van der Merwe (1989), gives a longevity record for a southern African bat of 13 years. Wikipedia, citing Pretorius et al. (2020), says the species relies on photoperiod as a cue for migration, and that bat activity increases when the night shortens. Animal Diversity Web has no natural-history account for this species.",
+  "diet": {
+    "summary": "An insectivore and clutter-edge forager. The 2016 EWT assessment, citing Jacobs (1999), Schoeman and Jacobs (2003) and Miller-Butterworth et al. (2005), says it feeds on a variety of aerial prey including Diptera, Hemiptera, Coleoptera, Lepidoptera and Isoptera. Wikipedia states that the species normally preys on insects; a further Wikipedia claim that it can sometimes prey on fish, citing Aizpurua et al. (2016), is not used, because the 2016 EWT assessment lists only those aerial insect groups and the study taxon of that paper was not verified in the sources used.",
+    "items": [
+      "flies (Diptera)",
+      "bugs (Hemiptera)",
+      "beetles (Coleoptera)",
+      "moths and other lepidopterans (Lepidoptera)",
+      "termites (Isoptera)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2016 EWT assessment, citing Monadjem et al. (2010), says females congregate at maternity roosts where each one gives birth to a single young. Gestation length, birth season, birth mass and lactation were not given in the sources used. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Flies (Diptera)",
+      "note": "Listed among the aerial prey in the 2016 EWT assessment (Jacobs 1999; Schoeman and Jacobs 2003; Miller-Butterworth et al. 2005). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Bugs (Hemiptera)",
+      "note": "Listed among the aerial prey in the 2016 EWT assessment (Jacobs 1999; Schoeman and Jacobs 2003; Miller-Butterworth et al. 2005). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles (Coleoptera)",
+      "note": "Listed among the aerial prey in the 2016 EWT assessment (Jacobs 1999; Schoeman and Jacobs 2003; Miller-Butterworth et al. 2005). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Moths and other lepidopterans",
+      "note": "Listed among the aerial prey in the 2016 EWT assessment (Jacobs 1999; Schoeman and Jacobs 2003; Miller-Butterworth et al. 2005). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Termites (Isoptera)",
+      "note": "Listed among the aerial prey in the 2016 EWT assessment (Jacobs 1999; Schoeman and Jacobs 2003; Miller-Butterworth et al. 2005). Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2016 EWT assessment describes a predominantly temperate or subtropical species with the core of its distribution in the savannahs and grasslands of southern Africa (Monadjem et al. 2010). It has been recorded from semi-desert, dry and moist savannah, and Mediterranean-type shrubby vegetation, and is associated with trees and orchards surrounding artificial wetlands (Sirami et al. 2013). It is generally a cave-roosting species, also found in disused mines and, in smaller groups, in crevice-type habitats; roost-site availability may be more critical than surrounding vegetation (Monadjem et al. 2010). The assessment gives a wide southern and East African range, including all nine South African provinces, and calculates the extent of occurrence as 1,387,139 km², but does not name Kruger National Park. Wikipedia, citing the 2017 IUCN account, lists dry and moist savanna, Mediterranean-type shrubby vegetation, caves and hot deserts. A Kruger-specific habitat account was not given in the sources used. The species is on the official 2011 SANParks checklist.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment describes a common and widespread species, with colonies that may exceed 2,500 animals and some, such as De Hoop Guano Cave, exceeding 200,000 in certain seasons, and highveld cave numbers from a few individuals up to about 4,000. The regional trend is given as stable, but possibly experiencing localised declines; the number of mature individuals, and the number in the largest subpopulation, are unknown, with no continuing decline in mature individuals. Those figures are not a park-wide Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Miniopterus natalensis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/21.-Natal-Long-fingered-Bat-Miniopterus-natalensis_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional population account only: common and widespread; colonies of more than 2,500, some exceeding 200,000 seasonally; highveld caves up to about 4,000; trend stable but possibly experiencing localised declines; mature individuals unknown. The assessment does not name Kruger National Park and does not give a park-wide count. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": "Fur colour was not described in the 2016 EWT assessment, Wikipedia or Animal Diversity Web, and is not inferred from related species. A photo caption in the 2016 assessment notes the long fingers typical of the genus."
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen hanging in a cave or similar roost such as a disused mine or rock crevice, often in a cluster. The elongated fingers typical of the genus are the only field character given in the sources used; fur colour was not described in those sources."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter-edge forager described in the 2016 EWT assessment as a fast flyer in relatively open spaces, with high wing loading and aspect ratio. No wingspan figure was published in the sources used."
+    }
+  ],
+  "calls": [],
+  "images": [
+    {
+      "key": "miniopterus-natalensis-perched-side",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/10910071",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15338068/large.jpg",
+      "hosted": false,
+      "author": "magriet b",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "alt": "A long-fingered bat hanging from a cave wall.",
+      "caption": "Roosting in Boomslang Cave, Table Mountain National Park, Western Cape, South Africa, 7 July 2013."
+    },
+    {
+      "key": "miniopterus-natalensis-perched-side-hangklip",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/214856650",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/379809042/large.jpeg",
+      "hosted": false,
+      "author": "Peter Swart",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "A long-fingered bat hanging from a pale cave wall.",
+      "caption": "Roosting on a cave wall, Hangklip Cave, Western Cape, South Africa, 8 May 2024."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A conservation assessment of Miniopterus natalensis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/21.-Natal-Long-fingered-Bat-Miniopterus-natalensis_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "MacEwan K, Richards LR, Cohen L, Jacobs D, Monadjem A, Schoeman C, Sethusa T and Taylor PJ. 2016. Source of the 2016 regional Least Concern status (Watch-list Threat), the 2004 Near Threatened national status, the global Least Concern listing then given, common names (English only), the species-complex taxonomic notes and the split from Miniopterus schreibersii, distribution, habitat and roosting, seasonal migration between hibernacula and maternity roosts (van der Merwe 1975; Miller-Butterworth et al. 2003), philopatry, colony sizes, longevity (van der Merwe 1989), clutter-edge aerial-insect diet, the single-young maternity-roost account, flight style, threats including wind turbines, and the absence of a named Kruger record. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Natal long-fingered bat",
+      "url": "https://en.wikipedia.org/wiki/Natal_long-fingered_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Parsed via the MediaWiki API with redirects from Miniopterus natalensis. Source of the IUCN global Least Concern listing (Monadjem, Griffin, Cotterill, Jacobs and Taylor 2017), the broad habitat list from that IUCN account, and the photoperiod migration cue (Pretorius et al. 2020). The page is a short stub. A claim of fish-catching, citing Aizpurua et al. (2016), was not used."
+    },
+    {
+      "title": "Miniopterus natalensis classification",
+      "url": "https://animaldiversity.org/accounts/Miniopterus_natalensis/classification/",
+      "publisher": "Animal Diversity Web, University of Michigan",
+      "year": 2026,
+      "note": "Classification stub only; no natural-history account. The page still places the species in Vespertilionidae, subfamily Miniopterinae. Not used for ecology, size or markings."
+    },
+    {
+      "title": "Red List of Mammals of South Africa, Swaziland and Lesotho",
+      "url": "https://ewt.org/red-list/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2026,
+      "note": "Chiroptera table lists Natal Long-fingered Bat (Miniopterus natalensis) as Least Concern in the 2016 regional assessment and links the 2016 PDF; no 2025 /project/ page for this taxon is listed there."
+    },
+    {
+      "title": "iNaturalist taxon Miniopterus natalensis",
+      "url": "https://api.inaturalist.org/v1/taxa/57530",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "Taxon 57530, preferred common name Natal Long-fingered Bat. Licensed photographs from places 69020 and 6986, and the place 69020 sounds check, were taken from the observations API."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Miniopterus natalensis (English Schreibers' long-fingered bat; Afrikaans Schreibers se grotvlermuis) and does not remap the names. The English name kept is the 2011 SANParks checklist form; Wikipedia, iNaturalist and the 2016 EWT assessment use Natal long-fingered bat (EWT also lists Natal Clinging Bat). The 2016 EWT assessment gives no Afrikaans name; the species-list form is kept. Status and monthsPresent are omitted because the 2016 EWT assessment does not name Kruger National Park and, citing van der Merwe (1975) and Miller-Butterworth et al. (2003), describes the species as migratory, with females moving seasonally between winter hibernacula and summer maternity roosts up to 260 km apart (schema: resident means present all year). No 2025 EWT /project/ page for this species was found: the site:ewt.org search returned the 2016 PDF, the EWT red-list Chiroptera table (which links that PDF), and a 2025 page for the different species Miniopterus fraterculus. Regional status is Least Concern (2016, Watch-list Threat); the global IUCN listing cited by Wikipedia is Least Concern (2017). The two licensed Kruger iNaturalist observations in place 69020 were at rest-camp coordinates and were dropped. Two licensed cave-roost photographs from the Western Cape (place 6986) were kept. iNaturalist place 69020 returned one sound observation, which was not used (needs ID; rest-camp coordinates). Fur colour and body measurements were not given in the text sources used.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives a stable regional trend, possibly with localised declines, and an unknown number of mature individuals, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No 2025 EWT /project/ page for this species was found. The site:ewt.org search returned the 2016 PDF, the EWT red-list Chiroptera table, which links that PDF, and a 2025 page for Miniopterus fraterculus, a different species. The 2025 regional status was therefore not taken from a species page.",
+    "The 2016 EWT assessment does not name Kruger National Park. It describes the species as migratory, with seasonal movements between winter hibernacula and summer maternity roosts. Status and monthsPresent are therefore omitted.",
+    "The English name in species-list.json is Schreibers' long-fingered bat (2011 checklist form). Wikipedia, iNaturalist and the 2016 EWT assessment use Natal long-fingered bat; EWT also lists Natal Clinging Bat. The species-list form is kept.",
+    "The Afrikaans name in species-list.json is Schreibers se grotvlermuis. The 2016 EWT assessment lists only English common names and does not give an Afrikaans name. The species-list form is kept.",
+    "The 2016 EWT assessment treats Miniopterus natalensis as a species complex of at least three morphologically similar species, previously a subspecies of M. schreibersii. The file keeps the species-list.json names and does not assign Kruger animals to a cryptic form.",
+    "Animal Diversity Web still places the species in Vespertilionidae (subfamily Miniopterinae). The 2016 EWT assessment, Wikipedia and species-list.json place it in Miniopteridae. The species-list family is kept.",
+    "Head-and-body length, tail length, mass, forearm length, shoulder height, wingspan, fur colour, ear shape, iris colour and tail shape were not given in the 2016 EWT assessment, Wikipedia or Animal Diversity Web, so those marks and bounds are null. Colour and markings were not carried over from related Miniopterus species.",
+    "Gestation length, birth season, birth mass and lactation were not given in the sources used. The 2016 assessment states only that each female gives birth to a single young at a maternity roost.",
+    "No sourced field comparison with Miniopterus fraterculus (the other long-fingered bat in the regional assessments) was found in the sources used for this species, so a similar-species entry was omitted.",
+    "iNaturalist place 69020 returned one sound observation (observation 57379381), which was not used because it is identified as needs ID and was taken at rest-camp coordinates. No echolocation or tonal-call description was found in the 2016 EWT assessment, Wikipedia or Animal Diversity Web.",
+    "Wikipedia attributes a fish-catching behaviour to this species, citing Aizpurua et al. (2016). That claim is not used: the 2016 EWT assessment lists only aerial insect prey, and the study taxon of that paper was not verified in the sources used.",
+    "The two licensed iNaturalist observations in Kruger (place 69020) were at rest-camp coordinates and were dropped. No usable Kruger photograph was found. Two Western Cape cave-roost photographs from place 6986 were kept."
+  ]
+}

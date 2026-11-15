@@ -1,0 +1,236 @@
+{
+  "kind": "species",
+  "slug": "mops-condylurus",
+  "scientificName": "Mops condylurus",
+  "commonNames": {
+    "en": "Angola free-tailed bat",
+    "af": "Angola-losstertvlermuis"
+  },
+  "family": "molossidae",
+  "inatTaxonId": 765544,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2016 regional Red List for South Africa, Eswatini and Lesotho; IUCN global status Least Concern (2017, cited via Wikipedia; the 2016 assessment also gives the global status as Least Concern in 2016). No 2025 EWT species assessment page for this taxon was found among the EWT sources used.",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Mops condylurus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/22.-Angolan-Free-tailed-Bat-Mops-condylurus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Monadjem A, Cohen L, Jacobs D, MacEwan K, Richards LR, Schoeman C, Sethusa T and Taylor PJ. 2016. Regional status Least Concern. National status in 2004 was Least Concern; reasons for change none. Global Red List status then given as Least Concern (2016). Current population trend stable; number of mature individuals unknown; number in the largest subpopulation given as more than 2,000; more than 30 subpopulations; not severely fragmented. The assessment records the species through Kruger National Park and lists the park among protected areas in which it is present. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Angolan free-tailed bat",
+        "url": "https://en.wikipedia.org/wiki/Angolan_free-tailed_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Redirects from Mops condylurus. Cites Monadjem, Cotterill, Hutson, Mickleburgh and Bergmans (2017) for a global IUCN listing of Least Concern as Mops condylurus (IUCN 2017-2)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "tailCm": {
+      "min": null,
+      "max": null
+    },
+    "massKg": {
+      "min": null,
+      "max": null
+    },
+    "note": "The lengths and masses published in the sources used are not entered as head-and-body, tail or mass ranges. The 2016 EWT assessment gives no mass, head-and-body length, tail length, forearm length or wingspan for this species; the only forearm figure on that page is for Mops midas (forearm length greater than 52 mm), which is used only as a comparison. Wikipedia, citing Smith (1833), gives a total length from nose to tip of tail of approximately 4.5 in (11 cm), which is a total length from the original description and is not entered as headBodyLengthCm. No shoulder height was published in the sources used."
+  },
+  "summary": "A free-tailed bat of moist and dry savanna, and sometimes of woodland edges, with short, silky brown fur, black ears and blackish-brown wings, wrinkled lips, and a tail of which about half extends beyond the uropatagium. It roosts in rock crevices, caves and tree hollows, and also in roofs, bridge joints and mine shafts, forages in the open air, and is listed as Least Concern in the 2016 regional assessment and on the global IUCN Red List (2017).",
+  "description": "A free-tailed bat of the family Molossidae. Wikipedia, citing Smith (1833), describes short, silky fur that is brown, black ears, blackish-brown wings, wrinkled lips, and a tail of which half extends beyond the uropatagium. The 2016 EWT assessment, citing Skinner and Chimimba (2005), notes marked variability in pelage colour and size even within a single locality, and recognises no subspecies. The same assessment, citing Monadjem et al. (2010), says a sparse-haired band across the shoulders separates Mops from Tadarida and most Chaerephon species. The English name in species-list.json is Angola free-tailed bat. The 2016 EWT assessment and Wikipedia use Angolan Free-tailed Bat as the lead English name; the assessment also lists Angolan Mops Bat, Knob-tailed Mops Bat and Knob-tailed Nyctinome. The species-list form is kept. The file keeps the species-list.json name Mops condylurus and does not remap it. Synonyms listed in the 2016 assessment include Nyctinomus condylurus and Tadarida condylura.",
+  "habits": "The 2016 EWT assessment describes a nocturnal open-air forager that commonly leaves the roost at dusk, feeds through the night and returns at dawn (Monadjem et al. 2010). Natural roosts are narrow crevices in rock faces and caves, and hollows in trees (Fenton et al. 1994); sites that allow a free vertical drop as the bats take flight are preferred (Verschuren 1957). It also roosts in anthropogenic structures, particularly the roofs of houses, in the expansion joints of bridges (Monadjem et al. 2010) and in mine shafts (Skinner and Chimimba 2005). It roosts communally, in groups ranging from a few individuals to thousands (Monadjem et al. 2010). During high day-time temperatures it shows heat tolerance and hyperthermia, including passive heat storage, panting and interscapular sweating (Bronner et al. 1999). In hot, dry South African summer conditions it is described as preferring roost temperature zones of 35–40 °C (Monadjem et al. 2010), and it can enter torpor in both summer and winter (Bronner et al. 1999; Buffenstein et al. 1999; Maloney et al. 1999; Vivier and van der Merwe 2007). Wikipedia, citing the 2017 IUCN account, likewise describes day roosts in human structures, tree hollows and rock crevices. The 2016 assessment does not describe a migrant or seasonal movement pattern; the only use of a migration-related term on that page is in a reference on insect movement at wind turbines. The species has been recorded through Kruger National Park and is listed among the park's bats (2016 EWT assessment).",
+  "diet": {
+    "summary": "An aerial insectivore. The 2016 EWT assessment, citing Monadjem et al. (2010), describes an open-air forager that feeds primarily on Coleoptera, Hemiptera and Lepidoptera.",
+    "items": [
+      "beetles (Coleoptera)",
+      "true bugs (Hemiptera)",
+      "moths and other lepidopterans (Lepidoptera)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2016 EWT assessment, citing Skinner and Chimimba (2005) and Monadjem et al. (2010), says females are seasonally polyoestrous and show a bimodal pattern of reproduction, with two birth seasons from early September to early May. Gestation is given as 85 days, and lactation as about 50–60 days after birth (Vivier and van der Merwe 1997). The breeding season of males in Mpumalanga was found to last nine months, from June to February, peaking in August/September and again in November/December (Vivier and van der Merwe 1996). Litter size, age at maturity and longevity were not given in the sources used. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "A primary prey group in the 2016 EWT assessment (Monadjem et al. 2010). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "True bugs",
+      "note": "A primary prey group in the 2016 EWT assessment (Monadjem et al. 2010). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Moths and other lepidopterans",
+      "note": "A primary prey group in the 2016 EWT assessment (Monadjem et al. 2010). Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2016 EWT assessment, citing Monadjem et al. (2016), describes the species as commonly associated with both moist and dry savanna, and as occasionally occurring at the edges of woodland. Within the assessment region it has been recorded from the Mopane, Central Bushveld, Lowveld, Mesic Highveld Grassland, Indian Ocean Coastal Belt and Sub-Escarpment Savanna bioregions, including through Kruger National Park. Wikipedia, citing the 2017 IUCN account, likewise places it in dry and moist savanna, sometimes at woodland edges. A more detailed Kruger-specific habitat account was not given in the sources used, beyond the definite occurrence in the park.",
+  "similar": [
+    {
+      "slug": "mops-ansorgei",
+      "note": "The 2016 EWT assessment, citing Monadjem et al. (2010), says the similar-sized Chaerephon ansorgei (treated in this guide as Mops ansorgei) shows a shoulder band, but has a black throat."
+    },
+    {
+      "slug": "mops-midas",
+      "note": "The 2016 EWT assessment, citing Monadjem et al. (2010), says Mops midas is far larger, with a forearm length greater than 52 mm."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment describes a presumed large population, a species considered globally common (ACR 2015) and abundant within its range across eastern South Africa (Monadjem et al. 2010), a stable regional trend, an unknown number of mature individuals, more than 2,000 mature individuals in the largest subpopulation, and more than 30 subpopulations. Those figures are not a park-wide Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Mops condylurus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/22.-Angolan-Free-tailed-Bat-Mops-condylurus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional population account only: presumed large, globally common, abundant in eastern South Africa, stable regional trend, more than 2,000 mature individuals in the largest subpopulation. The assessment records the species through Kruger National Park, but does not give a park-wide count. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "black",
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "lips wrinkled",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown"
+          ],
+          "pattern": "short, silky fur; pelage colour is described as variable even within a single locality. A sparse-haired band across the shoulders is a genus character used to separate Mops from Tadarida and most Chaerephon species. Sexes are not described as differing in colour in the sources used"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "about half of the tail extends beyond the uropatagium"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically roosts by day in a narrow rock crevice, a cave or a tree hollow, and also in roofs, bridge expansion joints or mine shafts, often preferring a site that allows a free vertical drop at take-off. The free tail (about half of it beyond the uropatagium), wrinkled lips, short silky brown fur and black ears are useful field characters; pelage colour is variable."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "An open-air forager that commonly leaves the roost at dusk and may stay out until dawn. Wikipedia, citing Smith (1833), describes blackish-brown wings; about half of the tail trails beyond the uropatagium."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Mops condylurus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/22.-Angolan-Free-tailed-Bat-Mops-condylurus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Monadjem A, Cohen L, Jacobs D, MacEwan K, Richards LR, Schoeman C, Sethusa T and Taylor PJ. 2016. Source of the 2016 regional Least Concern status and stable regional trend, English and Afrikaans names, synonyms, the shoulder-band genus character and comparisons with Chaerephon ansorgei and Mops midas, habitat and roosts, diet (Monadjem et al. 2010), breeding (Skinner and Chimimba 2005; Vivier and van der Merwe 1996, 1997), thermoregulation and torpor, and the definite occurrence through Kruger National Park. The EWT Chiroptera red-list table links this 2016 PDF and does not give a 2025 /project/ page for the taxon. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Angolan free-tailed bat",
+      "url": "https://en.wikipedia.org/wiki/Angolan_free-tailed_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Mops condylurus. Used for appearance and the 11 cm total length from Smith (1833), day roosts and habitats (IUCN 2017), and the global IUCN listing of Least Concern (Monadjem et al. 2017). Afrikaans names were taken from the 2016 EWT assessment, not from this page."
+    },
+    {
+      "title": "iNaturalist taxon Mops condylurus",
+      "url": "https://api.inaturalist.org/v1/taxa/765544",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "Taxon 765544, preferred common name Angolan Free-tailed Bat. Used to confirm the current name and to search place 69020 (Kruger) and place 6986 (South Africa) for licensed photographs and sounds."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Mops condylurus (English Angola free-tailed bat; Afrikaans Angola-losstertvlermuis) and does not remap the names. The 2016 EWT assessment and Wikipedia also use Mops condylurus; synonyms include Tadarida condylura and Nyctinomus condylurus. Status is set to resident because the 2016 EWT assessment records the species through Kruger National Park and lists the park among protected areas in which it is present, and does not give a migrant or seasonal movement pattern. Regional status is Least Concern (2016); the global IUCN listing cited by Wikipedia is Least Concern (2017). No 2025 EWT /project/ page was found: the EWT Chiroptera red-list table links only the 2016 PDF. No licensed photograph was kept. Animal Diversity Web has no species account under Mops condylurus (only a classification page), Tadarida condylura or Chaerephon condylurus.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives a stable regional trend, a presumed large population, and more than 2,000 mature individuals in the largest subpopulation, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2016 EWT assessment does not describe a migrant or seasonal movement pattern for this species (a migration-related term appears only in a wind-turbine reference on insect movement). Status is set to resident on the strength of the definite Kruger record and the absence of a migrant or seasonal movement pattern in that assessment.",
+    "No 2025 EWT species assessment page was found. The EWT Chiroptera red-list table links only the 2016 PDF for Mops condylurus, and that assessment is used for the regional status (Least Concern, asOf 2016).",
+    "species-list.json, the 2016 EWT assessment and Wikipedia use Mops condylurus. Synonyms in the 2016 assessment include Tadarida condylura and Nyctinomus condylurus, and several other historical names. The file keeps the species-list.json name and does not remap it. species-list.json records a spelling correction from the 2011 checklist form Mops condylus.",
+    "The Afrikaans name in species-list.json is Angola-losstertvlermuis. The 2016 EWT assessment lists Angola-losstertylermuis and Angolese losstertvlermuis. The species-list form is kept.",
+    "The English name in species-list.json is Angola free-tailed bat. The 2016 EWT assessment and Wikipedia use Angolan Free-tailed Bat as the lead name; the assessment also lists Angolan Mops Bat, Knob-tailed Mops Bat and Knob-tailed Nyctinome, and iNaturalist's preferred common name for taxon 765544 is Angolan Free-tailed Bat. The species-list form is kept.",
+    "Head-and-body length, tail length, mass, shoulder height, forearm length, underpart colour, ear shape, iris colour, muzzle colour, leg colour and tail colour were not given unambiguously in the sources used, so those marks or bounds are null. Wikipedia's total length of about 11 cm (Smith 1833) is recorded in the size note but is not a head-and-body measurement.",
+    "The opening identification paragraph of the 2016 EWT PDF is only partly recovered in the extract used; the comparisons with Chaerephon ansorgei and Mops midas, and the sparse-haired shoulder band, were recovered and are used. No further colour or measurement detail from that paragraph is assumed.",
+    "Wikipedia's country list, citing the 2017 IUCN account, includes Namibia. The 2016 EWT assessment, citing ACR (2015), says the species has not been recorded from Namibia. The difference is noted and is not resolved here; it does not affect the Kruger record.",
+    "No specific predators were named in the sources used.",
+    "Litter size, age at maturity and longevity were not given in the sources used. The breeding account is from regional and Mpumalanga studies, not from a Kruger-specific study.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned 12 licensed observations, all of them needs_id: most were at or next to rest camps (Letaba, Satara, Pretoriuskop, Lower Sabie, Mopani Rest Camp) or a picnic site (Mlondozi Picnic Road; one record about 0.65 km from Nwanetsi picnic site), one was a handled bat at Letaba Rest Camp, and one was a roof or building roost. A South Africa-wide search (place 6986) added one Zululand record from the same ADU virtual-museum set, showing a bat against a wall, which was not used.",
+    "iNaturalist place 69020 returned two sound observations for taxon 765544, both needs_id and both on rest-camp records (Pretoriuskop and Lower Sabie). They were not used. No echolocation or other call description was given in the 2016 EWT assessment or on Wikipedia. No licensable recording is included.",
+    "Animal Diversity Web has no species account for this taxon under Mops condylurus (the URL resolves to a classification page only), Tadarida condylura or Chaerephon condylurus.",
+    "No Kruger-specific breeding or habitat study was found beyond the 2016 assessment's statements that the species has been recorded through Kruger National Park and is present there."
+  ]
+}

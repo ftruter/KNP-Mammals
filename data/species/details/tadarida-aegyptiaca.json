@@ -1,0 +1,276 @@
+{
+  "kind": "species",
+  "slug": "tadarida-aegyptiaca",
+  "scientificName": "Tadarida aegyptiaca",
+  "commonNames": {
+    "en": "Egyptian free-tailed bat",
+    "af": "Egiptiese losstertvlermuis"
+  },
+  "family": "molossidae",
+  "inatTaxonId": 41300,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (no change from the 2016 regional assessment); IUCN global status Least Concern (2017, cited via Wikipedia).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Tadarida aegyptiaca",
+        "url": "https://ewt.org/project/egyptian-free-tailed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Richards LR, Howard A, Lötter CA and Richardson EJ. 2025. Regional status Least Concern; regional population trend stable; change compared with 2016 given as no change. The page records the species from Kruger National Park among other protected areas. The page body describes this species. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "Egyptian free-tailed bat",
+        "url": "https://en.wikipedia.org/wiki/Egyptian_free-tailed_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Redirects from Tadarida aegyptiaca. Cites Monadjem, Jacobs, Cotterill, Hutson, Mickleburgh, Bergmans and Fahr (2017) for a global IUCN listing of Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 6,
+      "max": 8
+    },
+    "tailCm": {
+      "min": 4.1,
+      "max": 4.6
+    },
+    "massKg": {
+      "male": {
+        "min": 0.011,
+        "max": 0.02
+      },
+      "female": {
+        "min": 0.0138,
+        "max": 0.0205
+      }
+    },
+    "note": "Head-and-body length of 6–8 cm follows Wikipedia, citing Wildscreen Arkive. The same page gives a forearm length of 5 cm, which is a forearm measurement and is not entered as headBodyLengthCm. Animal Diversity Web (Eiting 2006) gives a body length of 104–120 mm, a tail of 41–46 mm and a forearm of 47–56 mm; the 104–120 mm figure is not entered as head-and-body length, because it conflicts with the Wikipedia head-and-body range and is consistent with a total length (104–120 mm less a 41–46 mm tail is about 5.8–7.9 cm). Tail length and the sexed masses (males 11.0–20.0 g, average 15.8 g; females 13.8–20.5 g, average 16.3 g) follow Animal Diversity Web. The 2025 EWT assessment, citing Monadjem et al. (2020), gives size at maturity as a mean forearm length of 4.71 ± 0.20 cm in females and 4.59 ± 0.17 cm in males (the male line is clipped on the page as “M orearm length”, but the figures are shown); those forearm figures are not entered as headBodyLengthCm. Animal Diversity Web also gives an average wingspan of 35.4 cm. No shoulder height was published in the sources used."
+  },
+  "summary": "A free-tailed bat of desert, semi-arid scrub, savanna and grassland, and also of farmland and towns, with fine greyish-brown fur that is darker on the head and back and paler on the underparts, especially around the throat, and with narrow, pointed wings. It roosts by day in rock crevices, caves, trees and buildings, forages in open air from near the ground to well above the canopy, and is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List (2017).",
+  "description": "A free-tailed bat of the family Molossidae. Wikipedia, citing Wildscreen Arkive, describes fine, dense fur that is greyish brown, darker on the head and back and paler on the underparts, particularly around the throat; narrow, pointed wings with translucent light-brown membranes; a short tail that projects beyond the interfemoral membrane; rather rounded ears that sit close together on top of the head; and a bulldog-like, heavily wrinkled face, the facial shape that gives the family Molossidae its name. Animal Diversity Web likewise describes a greyish-brown dorsal coat with particularly dark areas on the back of the head and the back, a long snout slightly upturned at the lip, and very large (18–23 mm), forward-pointing ears, and it adds that this species shares with Tadarida brasiliensis, alone among Tadarida in that account, a distinct separation of the ears along the top of the head, and that the tragus is square with an accessory appendage. Animal Diversity Web also states that the species is sexually dimorphic, with males slightly smaller than females. The 2025 EWT assessment does not describe pelage colour in the habitat account, but its taxonomic note records two subspecies in the assessment region: Tadarida aegyptiaca aegyptiaca, which extends from North Africa southwards through East Africa and into the Western Cape, and the smaller and darker T. a. bocagei of central and western Africa (Hayman and Hill 1971; Skinner and Chimimba 2005). Craniodental morphometric and genetic data indicate a species complex, with a diminutive central-western form and a larger eastern form in southern Africa, loosely corresponding to those subspecies (Reddy 2015; Reddy et al. 2019). The English name in species-list.json is Egyptian free-tailed bat. The 2025 EWT assessment uses Egyptian Free-tailed Bat as the lead English name, and also lists Egyptian Guano Bat and Egyptian Nyctinome; the species-list form is kept. The Afrikaans name in species-list.json is Egiptiese losstertvlermuis, which matches the 2025 EWT assessment (Egiptiese Losstertvlermuis). The file keeps the species-list.json name Tadarida aegyptiaca and does not remap it. The 2025 assessment lists synonyms including Nyctinomus aegyptiaca, and notes that some databases list the species as Nyctinomus aegyptiacus, while others treat Nyctinomus as a basionym; in the absence of taxonomic clarity the assessors retain Tadarida. Monadjem et al. (2020) recommend further studies of the widespread African populations. The 2011 SANParks checklist listed the Kruger animal as the subspecies Tadarida aegyptiaca aegyptiaca; species-list.json stores the species, and this file follows that rank.",
+  "habits": "A nocturnal open-air forager. The 2025 EWT assessment, citing Skinner and Chimimba (2005) and Monadjem et al. (2020), says it forages high above the vegetation, from ground level to well above the canopy, and is therefore treated as at high risk of fatality from wind turbines (MacEwan et al. 2020). Wikipedia, citing Wildscreen Arkive, describes fast flight that can cover large distances over open terrain in a night, and prey taken both in flight and plucked from the ground; it also says the species is not as clumsy on the ground as some other bats and can scamper about adeptly. Animal Diversity Web says high-aspect-ratio wings and high wing loading allow high, fast flight, but that among Molossidae this species has one of the lowest wing loadings, so it likely flies more slowly than other members of the family, and that long, narrow-band echolocation calls suit sustained, high-altitude flight; one study found it emerging fairly late in the evening (after 18:40) and remaining active well past midnight in summer, and hunting possibly up to 500 m above ground, with search-phase echolocation calls of 10–20 ms, a narrow bandwidth of 5–10 kHz, and a centre frequency around 14–18 kHz. Day roosts include rock crevices, exfoliating rock sheets, tree hollows, caves, the bark of dead trees, building crevices and the roofs of houses (Herselman and Norton 1985; Taylor 1998; Skinner and Chimimba 2005; Monadjem et al. 2020, from the 2025 assessment). Wikipedia similarly mentions cliff faces, caves, old buildings and temples. The 2025 assessment, citing Herselman and Norton (1985) and Monadjem et al. (2020), says individuals roost communally in small to medium-sized groups, which may number in the dozens to hundreds. Wikipedia, citing Wildscreen Arkive, gives a wider colony range, from as few as three individuals to thousands; those two accounts are recorded and are not averaged. Wikipedia also says roost sites have a strong smell that may help the bats identify their roosts and play a role in social interactions. Movement Patterns on the 2025 EWT page is given as “Not specified”. The countries table on that page lists seasonality for South Africa as Resident. A research priority on the same page is research in identifying possible migratory routes. The habitats account also records definite seasonal patterns in activity levels at proposed and operational wind farms in the assessment region, typically peaking in late summer and autumn (February, March and April; Aronson 2022). Those activity peaks and the migratory-route research need are not labelled as a migrant or a regular seasonal movement pattern. Cory-Toussaint et al. (2010), cited in the climate-change section of the 2025 assessment, found that this species can enter prolonged periods of heterothermy for multiple days, suggesting hibernation capabilities. The assessment records a confirmed, severe threat from wind-farm fatalities, and also notes possible roost disturbance in caves, roof-roost persecution and fumigation along the KwaZulu-Natal coast, and uncertainty about pesticide impacts.",
+  "diet": {
+    "summary": "An aerial insectivore, and also reported to take some prey from the ground. The 2025 EWT assessment, citing Monadjem et al. (2020), says it feeds mainly on Diptera, Hemiptera and Coleoptera and, to a lesser degree, Lepidoptera. Wikipedia, citing Wildscreen Arkive, lists beetles, caterpillars, flies, moths, spiders, termite alates and wasps, and says prey is taken both in flight and plucked from the ground. Animal Diversity Web treats the species as a fast, long-range aerial-hawking insectivore of Lepidoptera and Coleoptera, and summarises a seasonal diet study from the Rajasthan desert of India (Advani 1982) that also included Orthoptera, Hymenoptera, Diptera, Isoptera and smaller amounts of other arthropods and some plant material. That Indian study is recorded separately and is not treated as a Kruger diet.",
+    "items": [
+      "flies (Diptera)",
+      "true bugs (Hemiptera)",
+      "beetles (Coleoptera)",
+      "moths and other lepidopterans (Lepidoptera), including caterpillars in one compiled account",
+      "termite alates (Isoptera), in compiled and extra-limital accounts",
+      "wasps and other hymenopterans (Hymenoptera), in compiled and extra-limital accounts",
+      "spiders (Araneae), in a compiled account",
+      "grasshoppers and relatives (Orthoptera), in an Indian study"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment, citing Bernard and Tsita (1995) and Monadjem et al. (2020), gives gestation as approximately four months, and says a single young is typically born once a year in November or December. The Life History section of the same page gives gestation as four months or 16 weeks, reproductive periodicity as once a year, and average annual fecundity as one offspring per mature female per year (Monadjem et al. 2020). Age at maturity, size at birth and longevity are given as not specified on that page. Wikipedia, citing Wildscreen Arkive, likewise says the female gives birth to one young each year, normally in the summer, after a pregnancy of four months. Animal Diversity Web gives a more detailed South African cycle: spermatogenesis from February, copulation, ovulation and fertilisation in August, births in December, and lactation continuing through January, with females sexually mature in their first year and males not until their second year; it also records a different northern-hemisphere cycle in India, with gestation of 77–90 days and births through October. Those ADW figures from named regions are recorded and are not substituted for the 2025 southern African account. Typical litter size is one pup.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Owls (Strigiformes)",
+      "note": "Animal Diversity Web (Eiting 2006) says this bat makes up a small part of the diet of owls. Not mammals in this guide, and not a Kruger-specific study."
+    },
+    {
+      "slug": null,
+      "en": "Snakes (Serpentes)",
+      "note": "Animal Diversity Web (Eiting 2006) says young in roosts may fall prey to snakes. Not mammals in this guide, and not a Kruger-specific study."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Flies",
+      "note": "Listed as a main diet item (Diptera) in the 2025 EWT assessment (Monadjem et al. 2020), and as prey on Wikipedia (citing Wildscreen Arkive). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "True bugs",
+      "note": "Listed as a main diet item (Hemiptera) in the 2025 EWT assessment (Monadjem et al. 2020). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "Listed as a main diet item (Coleoptera) in the 2025 EWT assessment (Monadjem et al. 2020), and as prey on Wikipedia and Animal Diversity Web. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Moths and other lepidopterans",
+      "note": "Listed to a lesser degree in the 2025 EWT assessment (Monadjem et al. 2020). Wikipedia, citing Wildscreen Arkive, lists moths and caterpillars. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Termite alates",
+      "note": "Listed on Wikipedia (citing Wildscreen Arkive). Animal Diversity Web records Isoptera as a major food in the monsoon season in an Indian study (Advani 1982). Not listed in the 2025 EWT diet summary. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Wasps and other hymenopterans",
+      "note": "Wasps are listed on Wikipedia (citing Wildscreen Arkive). Animal Diversity Web records Hymenoptera in an Indian diet study (Advani 1982). Not listed in the 2025 EWT diet summary. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Spiders",
+      "note": "Listed on Wikipedia (citing Wildscreen Arkive). Not listed in the 2025 EWT diet summary. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Skinner and Chimimba (2005) and Monadjem et al. (2020), describes the species foraging high above the vegetation in desert, semi-arid scrub, savanna and grassland, and also in urbanised areas and agricultural land, and says it is known to be common in arid scrub and open grassland. In arid areas its presence is commonly associated with surface water (Sirami et al. 2013), which provides drinking water and usually has concentrated insect prey. Elevation is given as 0–2,100 m. Wikipedia, citing Wildscreen Arkive, similarly places it in a wide range of habitats from arid savannas to humid uplands, so long as there is access to water. Animal Diversity Web says it is usually found in warm, semi-arid and arid regions and is generally not found in forested or mountainous habitats, with a range elevation given as up to 500 m; that habitat wording and elevation differ from the 2025 assessment and from Wikipedia, and the accounts are not averaged. Day roosts include rock crevices, exfoliating rock sheets, tree hollows, caves, bark of dead trees, and crevices and roofs in buildings. The 2025 assessment records the species from Kruger National Park among other protected areas, but a more detailed Kruger-specific habitat account was not given beyond that record.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment says there are no accurate population estimates, that the species is widespread and common within the assessment region and the rest of its range, and that the current regional population trend is stable, with the number of mature individuals unknown. It also warns that cumulative wind-farm fatalities may result in population declines in Renewable Energy Development Zones and other clusters of operational wind farms if fatality mitigation is lacking. Those statements are not a park-wide Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Tadarida aegyptiaca",
+        "url": "https://ewt.org/project/egyptian-free-tailed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional population account only: no accurate estimates, widespread and common, stable regional trend, colonies of dozens to hundreds. The assessment records the species from Kruger National Park, but does not give a park-wide count. Cited only; the page is not hosted in this repo."
+      }
+    ]
+  },
+  "threats": null,
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "rather rounded; sit close together on top of the head, but are distinctly separated along the crown rather than joined (Animal Diversity Web says this separation is shared only with Tadarida brasiliensis among Tadarida); very large (18–23 mm) and forward-pointing, with a square tragus that has an accessory appendage"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "bulldog-like and heavily wrinkled; darker than the flanks on the back of the head",
+          "muzzle": "long snout, slightly upturned at the lip",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "greyish-brown"
+          ],
+          "pattern": "fine, dense fur, darker on the head and back. The 2025 assessment records a smaller, darker western subspecies (T. a. bocagei) outside the eastern form expected in the assessment region; sexes are not described as differing in pelage colour in the sources used. Animal Diversity Web says males are slightly smaller than females"
+        },
+        "underparts": {
+          "colour": [
+            "paler than the upperparts"
+          ],
+          "pattern": "paler particularly around the throat"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "a short free tail that projects beyond the interfemoral membrane"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Roosts by day in rock crevices, under exfoliating rock sheets, in tree hollows and caves, behind the bark of dead trees, and in building crevices and roofs, in groups of a few individuals to hundreds (one compiled account also gives colonies of thousands). Greyish-brown fur that is darker on the head and back and paler on the throat, a wrinkled bulldog-like face, and ears that sit close together but are not joined across the crown are useful field characters."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "An open-air forager with narrow, pointed wings, hunting from ground level to well above the canopy, and possibly up to 500 m. Wikipedia describes fast flight over open terrain and some prey taken from the ground. Animal Diversity Web notes that, among free-tailed bats, this species has one of the lower wing loadings and may fly more slowly than its relatives."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Tadarida aegyptiaca",
+      "url": "https://ewt.org/project/egyptian-free-tailed-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Richards LR, Howard A, Lötter CA and Richardson EJ. 2025. Source of the 2025 regional Least Concern status (no change from 2016) and stable regional trend, English and Afrikaans names, synonyms and the retained use of Tadarida rather than Nyctinomus, the subspecies and species-complex notes, the definite record from Kruger National Park, habitat and roosts, the open-air diet, colony sizes of dozens to hundreds, mean forearm lengths at maturity, gestation of about four months and the single young born in November or December, Movement Patterns given as not specified, South African seasonality listed as Resident, wind-farm activity peaks in February–April, the heterothermy note (Cory-Toussaint et al. 2010), and the research priority on possible migratory routes. The page body describes this species. Cited only; the page is not hosted in this repo."
+    },
+    {
+      "title": "Egyptian free-tailed bat",
+      "url": "https://en.wikipedia.org/wiki/Egyptian_free-tailed_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Tadarida aegyptiaca. Used for appearance (Wildscreen Arkive), the 6–8 cm head-and-body length and 5 cm forearm, habitat from arid savanna to humid uplands, colony sizes from three to thousands, fast flight and ground-gleaning, diet items including spiders and termite alates, a four-month pregnancy and a single young in summer, and the global IUCN listing of Least Concern (Monadjem et al. 2017). Afrikaans names were taken from the 2025 EWT assessment, not from this page."
+    },
+    {
+      "title": "Tadarida aegyptiaca",
+      "url": "https://animaldiversity.org/accounts/Tadarida_aegyptiaca/",
+      "publisher": "Animal Diversity Web",
+      "year": 2006,
+      "note": "Eiting, T. 2006. Species account. Used for the separated ears and tragus shape, slightly smaller males, mass and tail measurements, the 104–120 mm body length that was not entered as head-and-body length, wing shape and echolocation, late evening activity, the Indian diet study (Advani 1982), the South African and Indian reproductive cycles, and named predators (owls and snakes). The habitat wording and 500 m elevation on this page differ from the 2025 EWT assessment."
+    },
+    {
+      "title": "iNaturalist taxon Tadarida aegyptiaca",
+      "url": "https://api.inaturalist.org/v1/taxa/41300",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "Taxon 41300, preferred common name Egyptian Free-tailed Bat; invalid scientific name Nyctinomus aegyptiacus; Afrikaans name Egiptiese Losstertvlermuis. Used to confirm the current name and to search place 69020 (Kruger) and place 6986 (South Africa) for licensed photographs and sounds."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Tadarida aegyptiaca (English Egyptian free-tailed bat; Afrikaans Egiptiese losstertvlermuis) and does not remap the names. The 2025 EWT assessment also uses Tadarida aegyptiaca, and notes the unresolved use of Nyctinomus in some databases and a possible species complex. Status is set to resident because the 2025 EWT assessment records the species from Kruger National Park, lists seasonality for South Africa as Resident, and does not label a migrant or regular seasonal movement pattern (Movement Patterns is “Not specified”). A research priority on possible migratory routes, and late-summer and autumn peaks in wind-farm activity, are flagged and are not treated as a seasonal absence from Kruger. Regional status is Least Concern (2025, no change from 2016); the global IUCN listing cited by Wikipedia is Least Concern (2017). No licensed photograph was kept. Animal Diversity Web has a full species account under Tadarida aegyptiaca.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives a stable regional trend, a widespread and common population, no accurate estimate, and colony counts of dozens to hundreds, none of which is a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2025 EWT assessment does not label a migrant or regular seasonal movement pattern. Movement Patterns is given as “Not specified”, and the countries table lists seasonality for South Africa as Resident. A research priority calls for work on possible migratory routes, and wind-farm monitoring shows activity peaks in February, March and April (Aronson 2022). Status is set to resident on the strength of the definite Kruger record and the absence of a labelled migrant or seasonal movement pattern. The activity peaks and the migratory-route research need are flagged and are not resolved here.",
+    "species-list.json and the 2025 EWT assessment use Tadarida aegyptiaca. The 2025 assessment notes that some databases list the species as Nyctinomus aegyptiacus, that two subspecies (T. a. aegyptiaca and the smaller, darker T. a. bocagei) have been recorded, and that morphometric and genetic data indicate a species complex (Reddy 2015; Reddy et al. 2019). The 2011 SANParks checklist listed the Kruger animal as the subspecies Tadarida aegyptiaca aegyptiaca; species-list.json stores the species. The file keeps the species-list.json name and does not remap it.",
+    "The Afrikaans name in species-list.json is Egiptiese losstertvlermuis, which matches the 2025 EWT assessment (Egiptiese Losstertvlermuis). The species-list form is kept.",
+    "The English name in species-list.json is Egyptian free-tailed bat. The 2025 EWT assessment uses Egyptian Free-tailed Bat as the lead name and also lists Egyptian Guano Bat and Egyptian Nyctinome; iNaturalist’s preferred common name for taxon 41300 is Egyptian Free-tailed Bat. The species-list form is kept.",
+    "Shoulder height, ear colour, iris colour, leg colour and tail colour were not given in the sources used, so those marks are null. Head-and-body length follows Wikipedia (6–8 cm). Animal Diversity Web’s 104–120 mm body length is recorded in the size note but is not entered as head-and-body length. Forearm lengths (Wikipedia 5 cm; EWT means of 4.71 ± 0.20 cm in females and 4.59 ± 0.17 cm in males; Animal Diversity Web 47–56 mm) and an average wingspan of 35.4 cm are recorded in the size note only. Tail length and the sexed masses follow Animal Diversity Web.",
+    "No species-level identification comparison with other free-tailed bats in this guide was given in the 2025 EWT assessment, beyond Animal Diversity Web’s note that the ears are separated along the crown, a mark shared in that account with the New World Tadarida brasiliensis. The similar list is therefore empty.",
+    "Named predators were found only on Animal Diversity Web (Eiting 2006): owls and snakes. Those records are not Kruger-specific. The 2025 EWT assessment does not name predators.",
+    "Longevity, age at maturity and size at birth are not specified in the 2025 assessment. Animal Diversity Web states that species-specific lifespan data are lacking and cites a general molossid average of about ten years, which is not entered as a figure for this species. Some breeding details on Animal Diversity Web (the Indian cycle; male maturity in the second year) come from named regions and are not substituted for the southern African account.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned nine licensed observations, all at or next to rest camps (Shingwedzi, Satara, Lower Sabie, Letaba, Punda Maria, Crocodile Bridge, Berg-en-Dal), including a bat that crawled across a sleeping person at Letaba, and none was used. A South Africa-wide search (place 6986) added further licensed records; four thumbnails were viewed (Great Fish River Nature Reserve, Wolwekraal Nature Reserve, Pixley ka Seme and a Kruger-coordinate record), and all were handled, on a building, or otherwise unusable.",
+    "iNaturalist place 69020 returned five sound observations for taxon 41300, all needs_id and all at or next to Satara, Lower Sabie, Crocodile Bridge or Berg-en-Dal rest camps, which were not used. Wikipedia and Animal Diversity Web describe echolocation, but no licensable recording is included, and calls is empty.",
+    "No Kruger-specific habitat study was found beyond the 2025 assessment’s statement that the species is recorded from Kruger National Park, among other protected areas. Animal Diversity Web’s statement that the species is generally absent from forested or mountainous habitats, and its 500 m elevation figure, differ from the 2025 assessment (0–2,100 m; desert to grassland, including towns and farmland) and from Wikipedia (arid savanna to humid uplands); the accounts are recorded separately."
+  ]
+}
