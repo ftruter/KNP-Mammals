@@ -1,0 +1,226 @@
+{
+  "kind": "species",
+  "slug": "epomophorus-crypturus",
+  "scientificName": "Epomophorus crypturus",
+  "commonNames": {
+    "en": "Peters' epauletted fruit bat",
+    "af": "Peters se witkol-vrugtevlermuis"
+  },
+  "family": "pteropodidae",
+  "inatTaxonId": 64485,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho; IUCN global status Least Concern (2016). No change from the 2016 regional assessment.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Epomophorus crypturus",
+        "url": "https://ewt.org/project/peters-epauletted-fruit-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Lötter CA, Richardson EJ, Richards LR and da Silva JM. 2025. Regional status Least Concern; no change from the 2016 assessment. The regional population trend is given as stable. The species is recorded as present in Kruger National Park."
+      },
+      {
+        "title": "A conservation assessment of Epomophorus crypturus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/7.-Gambian-Epauletted-Fruit-Bat-Epomophorus-crypturus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Monadjem A, Richards LR, Cohen L, Jacobs D, MacEwan K, Schoeman C, Sethusa T and Taylor PJ. 2016. Regional status Least Concern. Global IUCN status Least Concern (2016). National status in 2004 was Data Deficient; the change was classed as non-genuine (new information). Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Peters's epauletted fruit bat",
+        "url": "https://en.wikipedia.org/wiki/Peters%27s_epauletted_fruit_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Taylor (2016), IUCN Least Concern globally. Its country range list, taken from that IUCN assessment, does not include South Africa; the regional assessments do."
+      }
+    ]
+  },
+  "size": {
+    "massKg": {
+      "min": 0.056,
+      "max": 0.14
+    },
+    "note": "Wikipedia, citing Happold in Kingdon et al. (2013), gives a forearm length of 75-88 mm and an adult mass of 56-140 g; that mass range is entered here. The 2025 EWT assessment, citing Monadjem et al. (2020), does not give mass, but gives size at maturity as a total of 129.0 ± 12.0 mm in females and 147.0 ± 14.30 mm in males, and maximum total length as 148 mm in females and 168 mm in males. A forearm-length heading appears on that page without a completed figure, so no EWT forearm value is entered. No shoulder height, head-and-body length or tail length was published as such in the sources used, so the EWT total-length figures are recorded in this note rather than as head-and-body length."
+  },
+  "summary": "A medium-sized African fruit bat of dry savannah and riverine forest, distinguished from Wahlberg's epauletted fruit bat by two post-dental palatal ridges and a narrower muzzle. In Kruger National Park it specialises on the fruits of sycamore fig, roosts in the dense foliage of large trees, and has been tracked flying 4-14 km in a night when figs are scarce. It is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List.",
+  "description": "A medium-sized epauletted fruit bat. Coat colour, ear-patch and epaulette appearance were not described in the sources used. Adult Epomophorus crypturus is distinguished from sympatric E. wahlbergi by two post-dental palatal ridges (one in E. wahlbergi) and a narrower muzzle (Taylor and Monadjem 2008, cited in the EWT assessments). Wikipedia, citing Happold in Kingdon et al. (2013), gives a forearm length of 75-88 mm and a mass of 56-140 g. The 2025 EWT assessment, following Monadjem et al. (2020) and Simmons and Cirranello (2024), treats the taxon as a species distinct from E. gambianus, in which it was previously included; the 2016 assessment cited Simmons (2005) and Monadjem et al. (2010) for the same split.",
+  "habits": "The species is nocturnal in the sense that the sources describe nightly foraging from day roosts; a separate statement that it is nocturnal was not found. The 2025 EWT assessment, citing Monadjem et al. (2020), says it roosts singly or in small groups in the dense foliage of large, leafy trees, and may travel several kilometres each night to reach fruiting trees; it may also come into towns and feed on crops and fruit trees (ACR 2015). The same assessment says it forms loose colonies of fewer than 100 individuals. Wikipedia, citing Happold in Kingdon et al. (2013), says individuals may roost singly or in groups of several hundred. Those group-size accounts are recorded rather than averaged. Telemetry in Kruger National Park showed that, during the wet season and into the early dry season, nightly foraging movements of E. crypturus (and of E. wahlbergi) were similar, at 400 m to 2 km, to those of other fig-specialist bats; during a very dry period in July 2005, when few Ficus sycomorus produced fruit, individuals frequently moved 4-14 km from day roosts to fruiting sycamore figs and returned to their original day roosts by sunrise (Bonaccorso et al. 2014, cited in the 2025 assessment). Mean foraging range and core use area in Kruger change significantly with season, year and fig abundance (Bonaccorso et al. 2014).",
+  "diet": {
+    "summary": "The 2025 EWT assessment, citing Smithers (1983), says it feeds on a wide variety of fruit and flowers, and describes the bats as wasteful feeders that often discard uneaten skins, pips, unchewed pulp and seeds on the ground below the feeding site. Fig trees appear to be favoured; in Kruger National Park the species specialises on the fruits of Ficus sycomorus (Bonaccorso et al. 2014). Wikipedia likewise says it consumes plant matter such as fruit and nectar. The assessment notes that frugivorous bats are pollinators and seed dispersers, and that several studies have shown epauletted fruit bats prefer wild fruits to cultivated fruit.",
+    "items": [
+      "fruit, including a wide variety of indigenous and cultivated fruits",
+      "figs, including sycamore fig (Ficus sycomorus) in Kruger National Park",
+      "flowers",
+      "nectar"
+    ],
+    "guild": "frugivore"
+  },
+  "young": "The 2025 EWT assessment says the species gives birth to live young, but does not state gestation, litter size, size at birth, reproductive periodicity or age at maturity. Wikipedia, citing Happold in Kingdon et al. (2013), gives a typical litter of one, though twins are perhaps possible if very rare; says newborns are altricial, with eyes closed and sparse fur, and weigh around 11 g; says births likely occur around September; and notes that it has been suggested that females give birth once per year. A Kruger-specific breeding study was not found in the sources used.",
+  "prey": [],
+  "habitat": "The 2025 EWT assessment says the species is generally associated with dry savannah and riverine forest with fruit-bearing trees, and with forest and forest-edge habitats, particularly riparian forest that incises savannahs in the eastern part of the assessment region. It appears to prefer drier conditions than E. wahlbergi, which may explain its apparent absence from coastal forests in Mozambique (Monadjem et al. 2020). In Kruger National Park it specialises on sycamore fig (Ficus sycomorus) (Bonaccorso et al. 2014). Wikipedia describes the natural habitat as riverine or evergreen forest, or moist woodland, where there are fruit-bearing trees; that wording is recorded alongside the EWT account rather than reconciled. In the assessment region it is recorded from Limpopo, Mpumalanga, KwaZulu-Natal and the Eastern Cape, and from Eswatini, and is absent from Lesotho. The 2025 assessment, citing Mickleburgh et al. (2008) and Moir et al. (2020), gives an elevational range of up to 2,185 m, with most records between sea level and 1,500 m; the 2016 assessment gave the usual band as 500-1,500 m, and Wikipedia, citing the 2016 IUCN assessment, gives 500-2,185 m. Those lower-limit figures are recorded as a disagreement.",
+  "similar": [
+    {
+      "slug": "epomophorus-wahlbergi",
+      "note": "The 2025 and 2016 EWT assessments, citing Taylor and Monadjem (2008), say adult E. crypturus can be distinguished from sympatric E. wahlbergi by two post-dental palatal ridges (one in E. wahlbergi) and a narrower muzzle. The 2025 assessment also notes that, where the two occur together, differences in mating vocalisations may be used to avoid cross-mating (Adams and Snode 2015, a Kruger National Park study), and that E. crypturus appears to prefer drier habitats than E. wahlbergi."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment gives the number of mature individuals as unknown and the current population trend as stable, describes the species as widespread and abundant in the north-eastern parts of the assessment region (Limpopo and Mpumalanga), and cites a presumed large population size. The 2016 assessment likewise gave the regional trend as stable. Those regional figures are not a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Epomophorus crypturus",
+        "url": "https://ewt.org/project/peters-epauletted-fruit-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional number of mature individuals unknown; regional trend stable. The presumed large population size is for the assessment region, not a Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": "narrower than in E. wahlbergi; two post-dental palatal ridges (Taylor and Monadjem 2008, cited in the EWT assessments)",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A medium-sized fruit bat hanging in tree foliage. Coat colour and any white ear or shoulder marks were not described in the sources used. The two post-dental palatal ridges and narrower muzzle that separate it from Wahlberg's epauletted fruit bat are not usually visible in a perched view."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "male",
+      "type": "call",
+      "description": "The 2025 EWT assessment, citing Adams and Snode (2015), notes that mating vocalisations differ from those of E. wahlbergi where the two are sympatric, including in Kruger National Park. No further description of the call, and no recording, was given in the sources used.",
+      "recordings": []
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Epomophorus crypturus",
+      "url": "https://ewt.org/project/peters-epauletted-fruit-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Lötter CA, Richardson EJ, Richards LR and da Silva JM. 2025. Main text source for regional status, habitat, Kruger presence, diet in Kruger, movement, similar-species characters and regional trend. Afrikaans names on this page are Peters se Witkolvrugtevlermuis and Klein Vrugtevlermuis, which differ from the species-list.json form kept here."
+    },
+    {
+      "title": "A conservation assessment of Epomophorus crypturus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/7.-Gambian-Epauletted-Fruit-Bat-Epomophorus-crypturus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Monadjem A et al. 2016. Source of the 2016 global IUCN listing, the 2004 national status of Data Deficient, and the same Kruger diet and similar-species characters. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Peters's epauletted fruit bat",
+      "url": "https://en.wikipedia.org/wiki/Peters%27s_epauletted_fruit_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Used for mass, forearm length, young, roosting group size and the 2016 IUCN global listing. The article's country list does not include South Africa."
+    },
+    {
+      "title": "Epomophorus crypturus (Peters's epauletted fruit bat) | CLASSIFICATION",
+      "url": "https://animaldiversity.org/accounts/Epomophorus_crypturus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2025,
+      "note": "Classification stub only; no species account. Not used for facts."
+    },
+    {
+      "title": "iNaturalist taxon Epomophorus crypturus",
+      "url": "https://api.inaturalist.org/v1/taxa/64485",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Epomophorus crypturus (Peters' epauletted fruit bat; Afrikaans Peters se witkol-vrugtevlermuis). The 2016 and 2025 EWT assessments both give the Afrikaans names Peters se Witkolvrugtevlermuis and Klein Vrugtevlermuis; that disagreement is flagged, and the species-list name is kept. The English form Peters's (with a second s) is used by EWT, Wikipedia and iNaturalist; the 2011 checklist form Peters' is kept. EWT records the species as present in Kruger National Park, with Kruger-specific diet, movement and mating-call studies, so status and monthsPresent are kept. The 2025 occurrence table lists seasonality in South Africa as uncertain, but the Kruger telemetry covers the wet season, the early dry season and July, so monthsPresent is entered as year-round. Regional status remains Least Concern in 2025, with no change from 2016 and a stable regional trend in both assessments. Field identification from Wahlberg's epauletted fruit bat (E. wahlbergi) depends mainly on palatal ridges and muzzle width, which are hard to see in photographs. Coat colour and epaulette or ear-patch marks were not described in the sources used. Wikipedia's IUCN-derived country list omits South Africa, contrary to the regional assessments. No licensable photograph was kept: place 69020 had none, and the only licensed place 6986 observation was a mist-net capture.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the number of mature individuals as unknown, a stable regional trend, and a presumed large population in the assessment region, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "iNaturalist place 69020 (Kruger) returned 0 licensed photograph observations and 0 sound observations for taxon 64485. Place 6986 returned one licensed research-grade observation (Musina, Limpopo), which was a bat caught in a canopy net and was not used. No photograph is included.",
+    "No licensable sound recording from Kruger was found. The only call note in the sources used is that male mating vocalisations differ from those of E. wahlbergi in Kruger (Adams and Snode 2015); the call itself is not described.",
+    "Coat colour, ear shape and colour, eye colour, underparts, legs, tail shape, shoulder epaulettes and any white ear patches were not described in the sources used, so those marks are null. No shoulder height, head-and-body length or tail length was published as such. The 2025 EWT forearm-length field was incomplete on the page as extracted, so no EWT forearm figure is entered.",
+    "The 2025 EWT assessment does not give litter size, gestation, size at birth, birth season or age at maturity. Those details are taken only from Wikipedia (Happold in Kingdon et al. 2013): typical litter one, newborns about 11 g and altricial, births likely around September. No Kruger-specific breeding study was found.",
+    "No named natural predators were given in the sources used. Animal Diversity Web is a classification stub for this species and supplied no account.",
+    "The Afrikaans name in species-list.json is Peters se witkol-vrugtevlermuis (2011 checklist form, hyphen after witkol). Both the 2016 and 2025 EWT assessments give Peters se Witkolvrugtevlermuis and Klein Vrugtevlermuis. The species-list form is kept. The English list form Peters' epauletted fruit bat likewise differs from Peters's on EWT, Wikipedia and iNaturalist.",
+    "Wikipedia, following the 2016 IUCN assessment, does not list South Africa in the species' range. The 2016 and 2025 regional assessments record it from Limpopo, Mpumalanga and further south, including Kruger National Park. The regional record is followed for status."
+  ]
+}
