@@ -280,6 +280,52 @@ Researched in a fresh session for seven small families. The 2011 Wayback PDF was
 - Skinner & Chimimba and Stuart’s guide were not available. No rare / reintroduced / introduced flags were added: the 2011 PDF does not mark any species in these seven families with an asterisk.
 
 
+## Batch 16 hints (vesper bats part 2, 15 November 2026, Africa/Johannesburg)
+
+### Welwitsch's hairy bat (Myotis welwitschii), 12 calls
+- https://ewt.org/project/welwitschs-hairy-bat/ is correct; names only Great Limpopo Transfrontier Park, movement unknown, so status omitted. Forearm figures can sit under the wrong heading; quote only what is shown.
+- Wikipedia latin parse (Welwitsch's bat) gives the colour account EWT lacks. iNat taxon 40336: only Kruger record is a dead bat in a ground hornbill's bill; other licensed sets handled.
+
+### Anchieta's bat (Neoromicia anchieta), 20 calls
+- No 2025 page: the red-list table links only the 2016 PDF, filed as Hypsugo anchietae; it names Kruger with no migrant pattern, so resident. `needsReview` for genus and spelling.
+- The tag page's page 2 has no project cards in static HTML (loaded by script); if a species is missing from page 1, go to the site: search or the red-list table instead of paging.
+- Wikipedia latin parse redirects to Anchieta's serotine. iNat taxon 1431023 has zero observations.
+
+### Somali serotine bat (Neoromicia zuluensis), 9 calls
+- https://ewt.org/project/zulu-pipistrelle-bat/ is N. zuluensis (not N. somalica); names Kruger and cites a Kruger diet study, movement unknown, so resident. List English "Somali serotine bat" differs from EWT "Zulu pipistrelle" and Wikipedia "Zulu serotine"; `needsReview`.
+- iNat taxon 765532: 0 licensed photos (69020, 6986), 0 sounds.
+
+### Schlieffen's bat (Nycticeinops schlieffenii), 17 calls
+- https://ewt.org/project/schlieffens-bat/ is this species; names only Great Limpopo Transfrontier Park, so status omitted (an "Unknown" movement entry alone does not block resident when Kruger is named).
+- Wikipedia: the current latin name is missing; `Nycticeius schlieffeni` redirects to "Schlieffen's serotine". iNat taxon 57550: 0 Kruger photos or sounds; the one SA licensed record was indoors in hand.
+
+### African pipistrellus (Pipistrellus hesperidus), 17 calls
+- 2025 page is https://ewt.org/project/dusky-pipistrelle/ (body is P. hesperidus). It names GLTP, Soutpansberg and "Pafuri regions" but not Kruger, so status omitted; owner may judge Pafuri enough. EWT also gives Afrikaans "Kuhlvlermuis".
+- Wikipedia latin parse redirects to a Madagascar-focused "Dusky pipistrelle" stub. Licensed SA photos were street, captured, drowned or rescued bats.
+
+### Rusty bat (Pipistrellus rusticus), 11 calls
+- EWT https://ewt.org/project/rusty-bat/ matched the species; names GLTP only, movement Unknown, so status omitted.
+- Wikipedia parse API (redirects=1) gives the short "Rusty pipistrelle" stub: IUCN and a 3.5 g average mass only. Skip ADW.
+- iNat taxon 40361; licensed photo and sound queries for places 69020 and 6986 both empty.
+- Keep the list's English name over "Rusty pipistrelle".
+
+### Lesser yellow house bat (Scotophilus borbonicus), 12 calls
+- EWT /project/lesser-yellow-house-bat/ is an assessment of S. viridis (synonym S. borbonicus viridis); it names Kruger for S. viridis. Don't copy its ecology into borbonicus.
+- Wikipedia Scotophilus_borbonicus redirects to a Madagascar/Réunion stub (IUCN DD). Status omitted for doubtful identity; needsReview.
+- iNat taxon 40441 empty in 69020 and 6986.
+- Tag page also has yellow-house-bat, giant-yellow-house-bat, thomas-house-bat, white-bellied-house-bat.
+
+### Yellow house bat (Scotophilus dinganii), 16 calls
+- EWT /project/yellow-house-bat/ is S. dinganii; names Kruger, movement Unknown, so resident.
+- Wikipedia Scotophilus dinganii redirects to "African yellow bat". Litter size: EWT usually one, Wikipedia twins; both recorded.
+- iNat taxon 40436: four Kruger RG records, all camps, building roosts or handled; 6986 also unusable. Empty images expected for house bats.
+- Extra camps to drop: Orpen (~-24.475, 31.391), Pretoriuskop (~-25.17, 31.27).
+
+### Rüppell's bat (Vansonia rueppellii), 14 calls
+- EWT /project/ruppels-pipistrelle/ (header Vansonia rueppellii); names northern Kruger and a Kruger diet study, movement Unknown, so resident. 2025 regional NT D2.
+- Wikipedia Vansonia rueppellii redirects to "Rüppell's bat"; skip ADW.
+- iNat taxon 1431041: 0 photos/sounds in 69020 and 6986.
+
 ## Phase 2 hints (batch 2: Canidae, Felidae, Herpestidae, Hyaenidae, Mustelidae, Viverridae, 13 November 2026, Africa/Johannesburg)
 
 Researched in a fresh session for the second Phase 2 batch, the six Carnivora families. The 2011 Wayback PDF was again fetched to a temporary path, converted with `pdftotext -layout`, and deleted. **Do not host or copy that PDF into the repo.**
