@@ -1,0 +1,198 @@
+{
+  "kind": "species",
+  "slug": "tadarida-fulminans",
+  "scientificName": "Tadarida fulminans",
+  "commonNames": {
+    "en": "Madagascar large free-tailed bat",
+    "af": "Madagaskarse grootlosstersvlermuis"
+  },
+  "family": "molossidae",
+  "inatTaxonId": 41296,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Data Deficient",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (changed from Least Concern in the 2016 regional assessment); IUCN global status Least Concern (2017, cited via Wikipedia).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Tadarida fulminans",
+        "url": "https://ewt.org/project/malagasy-free-tailed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Richards LR, Taylor PJ and da Silva JM. 2025. Regional status Data Deficient; regional population trend unknown; change compared with 2016 given as changed. The page records the species only from the Pafuri region of Kruger National Park in the assessment region, and states that it has not been recorded in recent times. The page body describes this species. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "Madagascan large free-tailed bat",
+        "url": "https://en.wikipedia.org/wiki/Madagascan_large_free-tailed_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Redirects from Tadarida fulminans. Cites Monadjem, Ravino, Hutson, Cotterill and Racey (2017) for a global IUCN listing of Least Concern. The article is a stub and does not give a regional status."
+      }
+    ]
+  },
+  "size": {
+    "note": "No head-and-body length, tail length, mass or shoulder height was published in the sources used. The 2025 EWT assessment, citing Monadjem et al. (2020), gives size at maturity as a mean total length of 15.60 ± 0.37 cm and a mean forearm length of 6.02 ± 0.13 cm in females, and a mean total length of 15.10 ± 1.41 cm and a mean forearm length of 5.98 cm in males (no standard deviation is shown for the male forearm figure). Those total-length and forearm figures are not entered as headBodyLengthCm. Maximum size and size at birth are given as unknown on that page."
+  },
+  "summary": "A large free-tailed bat of dry and moist savanna, associated in southern Africa with miombo and mopane woodland around rocky outcrops, ridges and inselbergs. It roosts communally in crevices in vertical rock faces and under exfoliating rock, forages in open air on long, narrow wings, and is listed as Data Deficient in the 2025 regional assessment, a change from Least Concern in 2016. In the assessment region it is recorded only from the Pafuri area of Kruger National Park.",
+  "description": "A free-tailed bat of the family Molossidae. The 2025 EWT assessment, citing Monadjem et al. (2020), says the three large Tadarida species are easily distinguished from other large molossid species by their unwrinkled upper lips. No pelage colour, ear shape, or other field marks were given in the 2025 assessment, on the Wikipedia stub, or on Animal Diversity Web, which has only a classification page for this species, so those marks are not filled in. The English name in species-list.json is Madagascar large free-tailed bat, the 2011 SANParks checklist name. The 2025 EWT assessment uses Malagasy Free-tailed Bat as the lead English name, and also lists Large Free-tailed Bat, Large Guano Bat, Lightning Guano Bat, Madagascan Large Guano Bat, Madagascan Large Free-tailed Bat, and Madagascar Large Free-tailed Bat; the species-list form is kept. The Afrikaans name in species-list.json is Madagaskarse grootlosstersvlermuis, as printed on the 2011 checklist. The 2025 EWT assessment gives Madagaskarse Groot Losstertvlermuis (spaced, and with losstert rather than lossters); the species-list form is kept. The file keeps the species-list.json name Tadarida fulminans and does not remap it. The 2025 assessment lists the synonym Tadarida mastersoni Roberts, 1946, and notes that the African mainland population is geographically separated from the Madagascar population; those populations overlap in cranial and external characters but may ultimately be identified as separate species, in which case the mainland population could be reclassified as Nyctinomus mastersoni (Goodman and Cardiff 2004; Monadjem et al. 2020). No subspecies are currently recognised (Skinner and Chimimba 2005).",
+  "habits": "A nocturnal open-air forager. The 2025 EWT assessment, citing Monadjem et al. (2020), says that together with Tadarida ventralis this species has the longest, narrowest wing tips of all molossid bats, an adaptation for fast and agile flight, and that it has a high wing loading, from which the assessors assume dispersal and rescue effects are possible. It is a communal rooster: in southern Africa it roosts in small to medium-sized groups, which may number over 30 individuals but do not exceed 100 (Cotterill 2001; ACR 2024; Monadjem et al. 2016). Day roosts are crevices in vertical rock faces, which may occur more than 60 m above the ground (Cotterill and Fergusson 1993a), and spaces under exfoliating rock (Cotterill 2001). It is not thought to be dependent on caves. Movement Patterns on the 2025 EWT page is given as “Unknown”. The countries table on that page leaves seasonality for South Africa blank; Mozambique is listed as Resident. The assessment records the species only from the Pafuri region of Kruger National Park in the assessment region, states that the population is assumed to be stable inside the park, and also states that the species has not been recorded in recent times and that further research is needed to determine its presence in the assessment region. Status and monthsPresent are therefore omitted.",
+  "diet": {
+    "summary": "An aerial insectivore, but with no diet information from southern Africa or Kruger. The 2025 EWT assessment, citing Skinner and Chimimba (2005) and Monadjem et al. (2020), says there is no information on the diet of this species in southern Africa. It records a diet of Lepidoptera and Coleoptera at Sengwa, Zimbabwe (Fenton 1985). The climate-change section of the same page suggests the prey base is likely to be moths, as in similar-sized large molossids (Gaona et al. 2024); that is an inference from related species and is not entered as a Kruger or southern African diet.",
+    "items": [
+      "moths and other lepidopterans (Lepidoptera), in a Zimbabwe study",
+      "beetles (Coleoptera), in a Zimbabwe study"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment, citing Cotterill and Ferguson (1993b), says females from Zimbabwe were seasonally polyoestrous, giving birth during the austral summer and early winter, and gives average annual fecundity or litter size as one pup. Age at maturity is given as likely 1–2 years in both sexes, generation length as assumed to be 2–3 years, and longevity and size at birth as unknown. Gestation Time on that page is given as “(Not specified) 1100 – 110 days” (Cotterill and Ferguson 1993b); that figure appears clipped or garbled on the page and is not entered as a clean range. Those breeding details come from Zimbabwe and are not a Kruger-specific account. Typical litter size is one pup.",
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths and other lepidopterans",
+      "note": "Recorded in the diet at Sengwa, Zimbabwe (Fenton 1985), as cited in the 2025 EWT assessment. The same assessment says there is no diet information from southern Africa. Not a Kruger study, and not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "Recorded in the diet at Sengwa, Zimbabwe (Fenton 1985), as cited in the 2025 EWT assessment. The same assessment says there is no diet information from southern Africa. Not a Kruger study, and not a mammal in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Monadjem et al. (2016, 2020) and Cotterill (1996, 2001), describes a savanna species of both dry and moist savanna, commonly associated with miombo and mopane woodland interspersed with steep-sided mountain ridges or inselbergs, and found in rocky areas such as basalt, dolomite and especially granite outcrops with crevices. In the assessment region it is recorded from the Lowveld and Mopane bioregions, and only from the Pafuri area of Kruger National Park. Elevation is given as about sea level to 2,000 m (the upper figure from the Albertine Rift). Wikipedia likewise gives the natural habitat as savanna, without further detail. A more detailed Kruger-specific habitat account was not given beyond the Pafuri record and the Lowveld and Mopane bioregions.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment says the population size is unknown but is assumed to be stable inside Kruger National Park, that the current regional population trend is unknown, that the species is sporadically distributed but considered locally common in the rest of its range, and that groups in southern Africa may number over 30 individuals but do not exceed 100. The assumed stability inside Kruger is not a park-wide count, and the regional trend on the same page is unknown. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Tadarida fulminans",
+        "url": "https://ewt.org/project/malagasy-free-tailed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional population account only: size unknown, assumed stable inside Kruger National Park, regional trend unknown, one likely subpopulation in the assessment region, groups of over 30 but not more than 100 individuals. The assessment records the species from Pafuri in Kruger National Park, but does not give a park-wide count. Cited only; the page is not hosted in this repo."
+      }
+    ]
+  },
+  "threats": null,
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": "unwrinkled upper lips, a character that, according to the 2025 EWT assessment (Monadjem et al. 2020), distinguishes the three large Tadarida species from other large molossids",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Roosts by day in crevices in vertical rock faces, which may be more than 60 m above the ground, and in spaces under exfoliating rock, in groups of over 30 individuals that do not exceed 100. Not thought to depend on caves. Unwrinkled upper lips distinguish the three large Tadarida from other large molossids; pelage colour was not described in the sources used."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "An open-air forager. Together with Tadarida ventralis, this species has the longest, narrowest wing tips of all molossid bats, an adaptation for fast and agile flight, and a high wing loading."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Tadarida fulminans",
+      "url": "https://ewt.org/project/malagasy-free-tailed-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Richards LR, Taylor PJ and da Silva JM. 2025. Source of the 2025 regional Data Deficient status (changed from Least Concern in 2016), English and Afrikaans names, the synonym Tadarida mastersoni and the possible mainland–Madagascar split, the unwrinkled upper-lip character, the definite historical record from Pafuri in Kruger National Park, the statement that the species has not been recorded in recent times, habitat and roosts, the Zimbabwe diet (Fenton 1985), colony sizes, mean total and forearm lengths at maturity, the Zimbabwe polyoestrous breeding account, Movement Patterns given as unknown, South African seasonality left blank, the assumed stability inside Kruger, and the absence of plausible threats in the park. The page body describes this species. Cited only; the page is not hosted in this repo."
+    },
+    {
+      "title": "Madagascan large free-tailed bat",
+      "url": "https://en.wikipedia.org/wiki/Madagascan_large_free-tailed_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Tadarida fulminans. A stub. Used for the range countries, savanna as the natural habitat, and the global IUCN listing of Least Concern (Monadjem et al. 2017). It does not describe appearance, size, diet or breeding. Afrikaans names were taken from the 2025 EWT assessment and species-list.json, not from this page."
+    },
+    {
+      "title": "Tadarida fulminans",
+      "url": "https://animaldiversity.org/accounts/Tadarida_fulminans/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "The request resolves to a classification page only (Tadarida fulminans, Madagascan large free-tailed bat). No species account with measurements, appearance, diet or habits was present, so no facts were taken from it."
+    },
+    {
+      "title": "iNaturalist taxon Tadarida fulminans",
+      "url": "https://api.inaturalist.org/v1/taxa/41296",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "Taxon 41296, preferred common name Madagascan Large Free-tailed Bat; also lists Malagasy Free-tailed Bat. Used to confirm the current name and to search place 69020 (Kruger) and place 6986 (South Africa) for licensed photographs and sounds. No Afrikaans name was listed on the taxon record retrieved."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Tadarida fulminans (English Madagascar large free-tailed bat; Afrikaans Madagaskarse grootlosstersvlermuis) and does not remap the names. The 2025 EWT assessment also uses Tadarida fulminans, and notes that the mainland population may ultimately be separated as Nyctinomus mastersoni. Status and monthsPresent are omitted: the 2025 assessment records the species from Pafuri in Kruger National Park, but Movement Patterns is “Unknown”, seasonality for South Africa is left blank, the species is said not to have been recorded in recent times, and further research is needed to determine its presence in the assessment region. Regional status is Data Deficient (2025, changed from Least Concern in 2016); the global IUCN listing cited by Wikipedia is Least Concern (2017). No licensed photograph was kept. Wikipedia is a stub. Animal Diversity Web has only a classification page.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives an unknown regional trend, an unknown population size that is assumed to be stable inside Kruger National Park, and colony counts of over 30 but not more than 100 individuals, none of which is a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Status and monthsPresent are omitted. The 2025 EWT assessment records the species only from the Pafuri region of Kruger National Park, states that it occurs exclusively in that protected area, and says the population is assumed to be stable inside the park. The same page gives Movement Patterns as “Unknown”, leaves seasonality for South Africa blank (Mozambique is listed as Resident), states that the species has not been recorded in recent times, and says further research is needed to determine its presence in the assessment region. Year-round presence in Kruger is therefore not treated as confirmed.",
+    "species-list.json and the 2025 EWT assessment use Tadarida fulminans. The 2025 assessment notes the synonym Tadarida mastersoni Roberts, 1946, and that the geographically separated mainland and Madagascar populations may ultimately be identified as separate species, with the mainland form then reclassified as Nyctinomus mastersoni (Goodman and Cardiff 2004; Monadjem et al. 2020). No subspecies are recognised. The file keeps the species-list.json name and does not remap it.",
+    "The Afrikaans name in species-list.json is Madagaskarse grootlosstersvlermuis, as printed on the 2011 SANParks checklist. The 2025 EWT assessment gives Madagaskarse Groot Losstertvlermuis. The species-list form is kept.",
+    "The English name in species-list.json is Madagascar large free-tailed bat. The 2025 EWT assessment uses Malagasy Free-tailed Bat as the lead name and also lists Madagascar Large Free-tailed Bat and Madagascan Large Free-tailed Bat, among others; iNaturalist’s preferred common name for taxon 41296, and the Wikipedia title, is Madagascan Large Free-tailed Bat. The species-list form is kept.",
+    "Pelage colour, ear colour and shape, iris colour, leg colour, tail colour and tail shape, and all other coat marks except the unwrinkled upper lips, were not given in the sources used, so those marks are null. Wikipedia is a stub and does not describe appearance. Animal Diversity Web has only a classification page. Colour and markings were not carried over from Tadarida aegyptiaca.",
+    "No head-and-body length, tail length, mass or shoulder height was published in the sources used. Mean total length and mean forearm length at maturity from the 2025 assessment (Monadjem et al. 2020) are recorded in the size note only and are not entered as headBodyLengthCm.",
+    "No species-level identification comparison with other free-tailed bats in this guide was given beyond the 2025 assessment’s note that the three large Tadarida species have unwrinkled upper lips, unlike other large molossids. The similar list is therefore empty.",
+    "No named predators were found in the sources used.",
+    "Gestation is not entered as a figure. The Life History section of the 2025 assessment shows “(Not specified) 1100 – 110 days” (Cotterill and Ferguson 1993b), which appears clipped or garbled. Longevity and size at birth are given as unknown. The polyoestrous breeding account and the “likely 1–2 years” age at maturity come from Zimbabwe or are labelled as likely or assumed, and are not a Kruger-specific study.",
+    "Diet in southern Africa, including Kruger, is unknown (Skinner and Chimimba 2005; Monadjem et al. 2020). The only sourced diet is Lepidoptera and Coleoptera at Sengwa, Zimbabwe (Fenton 1985). An inference that the prey base is likely moths, from similar-sized large molossids (Gaona et al. 2024), is recorded in the diet summary and is not treated as a Kruger diet.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned 0 observations with photographs for taxon 41296, including any licence or grade. A South Africa-wide search (place 6986, per_page 30, licensed research-grade and then any-grade) also returned 0 observations with photographs. Zero photographs is acceptable for this species.",
+    "iNaturalist place 69020 returned 0 sound observations for taxon 41296. Wikipedia and Animal Diversity Web do not describe echolocation for this species, calls is empty, and no licensable recording is included.",
+    "No Kruger-specific habitat study was found beyond the 2025 assessment’s record from Pafuri in Kruger National Park and from the Lowveld and Mopane bioregions."
+  ]
+}
