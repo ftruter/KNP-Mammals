@@ -1,0 +1,305 @@
+{
+  "kind": "species",
+  "slug": "graphiurus-murinus",
+  "scientificName": "Graphiurus murinus",
+  "commonNames": {
+    "en": "Woodland dormouse",
+    "af": "Boswaaierstertmuis"
+  },
+  "family": "gliridae",
+  "inatTaxonId": 45848,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Woodland Dormouse",
+        "url": "https://ewt.org/project/woodland-dormouse/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Smith C and da Silva JM. 2025. Regional status Least Concern; no change from 2016; regional population trend unknown."
+      },
+      {
+        "title": "A conservation assessment of Graphiurus murinus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/25.-Woodland-Dormouse-Graphiurus-murinus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Woodland dormouse",
+        "url": "https://en.wikipedia.org/wiki/Woodland_dormouse",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Cassola F and Child MF (2016), IUCN Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 7.8,
+      "max": 11.3
+    },
+    "tailCm": {
+      "min": 5.8,
+      "max": 9.4
+    },
+    "massKg": {
+      "min": 0.023,
+      "max": 0.034
+    },
+    "note": "Head-and-body length (7.8–11.3 cm) and tail length (5.8–9.4 cm) are the southern African figures given on the 2025 EWT page, citing Skinner and Chimimba (2005). Animal Diversity Web, which may reflect an Africa-wide or historically lumped concept, gives a wider head-and-body range of 7.0–16.5 cm, a tail of 5.0–13.5 cm, and a mass of 23–34 g (0.023–0.034 kg). Those disagreements are recorded rather than averaged. Wikipedia, citing Kingdon and others, describes the bushy tail as about 85% of head-and-body length, which sits inside both tail ranges. No shoulder-height or sexed size split was found."
+  },
+  "summary": "A small, nocturnal dormouse with soft greyish-brown to golden-brown fur, pale underparts, large dark-ringed eyes, and a bushy tail nearly as long as the head and body. It is mostly arboreal, nesting in tree holes, and also uses rocky ground and, in some areas, buildings. It is present in Kruger National Park.",
+  "description": "The woodland dormouse is a small, squirrel-like rodent with soft, silky fur. The upperparts are golden or greyish-brown, sometimes with a coppery or reddish tinge, and some individuals have a darker streak along the spine. The underparts are pale grey flushed with white or cream. The cheeks are whitish, the ears rounded and brown, and the eyes large, often with a darker ring of fur. The hind feet are usually white with a dark streak. The bushy tail is the same colour as the back and is about 85% as long as the head and body. The sexes are not described as differently marked in the sources used here. Animal Diversity Web describes the upperparts as light to dark grey rather than golden-brown; that difference is recorded rather than averaged.",
+  "habits": "Nocturnal and mainly arboreal, and to a lesser extent active on the ground or on rocks. It usually forages alone at night in trees or among rocks. In riverine forest it has been found to use areas with dense canopy and good arboreal connections. It sleeps by day in holes in branches and trunks, and locally in rock crevices; dead logs and burrows are rarely used. Several animals may share a resting site. It can enter torpor, and in the Eastern Cape it has been found hibernating in the colder months, remaining torpid for up to about eight days. On the Highveld it may be inactive in cold winter weather and, on overcast days, sometimes becomes crepuscular. A Kruger-specific activity study was not found. Males are territorial in the breeding season; the mating system has been described as promiscuous, and some females may breed communally.",
+  "diet": {
+    "summary": "An omnivore. In the only detailed southern African diet study cited by EWT, at Great Fish River Nature Reserve, arthropods — mainly beetles and millipedes — were found in 99% of nest-box remains in every season, with molluscs (16%) and the fruits of cross-berry (Grewia robusta) and buffalo-thorn (Ziziphus mucronata) (14%) also taken. Animal Diversity Web describes a broader, seasonal diet that also includes buds, seeds, nuts, bark and, at times, small rodents and the eggs and young of small birds. Those wider items were not reported in the nest-box study and are not averaged with it. A Kruger-specific diet study was not found.",
+    "items": [
+      "beetles and other arthropods",
+      "millipedes",
+      "molluscs",
+      "fruits, including cross-berry and buffalo-thorn"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "A seasonal breeder from October to February, with females able to produce up to two litters six to eight weeks apart. Gestation is about 24 days, and wild litters are of three to six young. The 2025 EWT page gives size at birth as 1.8–4 cm. Animal Diversity Web describes the young as altricial, about 3.5 g at birth, and independent at about four to six weeks, maturing in the following summer; those figures were not repeated on the EWT page. Some females may engage in communal breeding. Kruger-specific birth months were not found.",
+  "predators": [
+    {
+      "slug": "genetta-felina",
+      "en": "Small-spotted genet",
+      "note": "EWT cites a diet study of the small-spotted genet (as Genetta genetta) at Great Fish River Nature Reserve. The species is stored in this guide as Genetta felina. This is not a Kruger-specific record."
+    },
+    {
+      "slug": null,
+      "en": "Owls and other aerial predators",
+      "note": "EWT lists aerial predators among the species' consumers. Animal Diversity Web reports remains in pellets of the Cape eagle-owl in East Africa. Not a mammal in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Beetles and other arthropods",
+      "note": "Dominant in nest-box remains at Great Fish River Nature Reserve (99% occurrence in all seasons)."
+    },
+    {
+      "slug": null,
+      "en": "Millipedes",
+      "note": "Grouped with beetles as the main arthropod prey in that study."
+    },
+    {
+      "slug": null,
+      "en": "Molluscs",
+      "note": "Present in 16% of nest-box remains in the same study."
+    }
+  ],
+  "habitat": "Woodland, savanna, grassland and rocky country, often where large trees, especially Acacia and Combretum, provide nest holes. In parts of its range it also uses Afromontane or riverine forest, flood debris near seasonal rivers, and buildings. It is recorded from Kruger National Park, but a Kruger-specific habitat account was not found.",
+  "similar": [
+    {
+      "slug": "paraxerus-cepapi",
+      "note": "The tree squirrel is a much larger, diurnal animal. The woodland dormouse is nocturnal and far smaller (head-and-body length about 7.8–11.3 cm), with a dark eye-ring, whitish cheeks, and a bushy tail about 85% as long as the head and body."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks count was found. One source reports densities of 2–16 individuals per hectare in riverine Combretum forest at Great Fish River Nature Reserve in the Eastern Cape; that figure is not a Kruger count. The 2025 regional assessment gives the population trend as unknown and does not publish a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Woodland Dormouse",
+        "url": "https://ewt.org/project/woodland-dormouse/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend unknown. Densities cited from Great Fish River Nature Reserve are not a Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "brown",
+          "shape": "rounded"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "darker fur often encircles the eye"
+        },
+        "head": {
+          "face": "whitish cheeks",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "greyish-brown",
+            "golden-brown"
+          ],
+          "pattern": "sometimes a coppery or reddish tinge; some individuals have a darker streak along the spine"
+        },
+        "underparts": {
+          "colour": [
+            "pale grey",
+            "white",
+            "cream"
+          ],
+          "pattern": "pale grey flushed with white or cream"
+        },
+        "legs": {
+          "colour": "hind feet usually white with a dark streak"
+        },
+        "tail": {
+          "colour": "same as the upperparts",
+          "shape": "bushy, about 85% of head-and-body length"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A small, soft-furred animal in a tree hole or fork, with large eyes, a darker eye-ring, whitish cheeks and a bushy tail."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Greyish-brown to golden-brown upperparts, paler underparts, and a bushy tail nearly as long as the body. The hind feet are usually white with a dark streak."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Animal Diversity Web describes mating calls, territorial calls, alarm squeaks and twittering sounds of unknown meaning. It says males give warning vocalisations when defending nest territories, and that females scent-mark but are not described as giving those warning calls. No recording from Kruger was found.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "graphiurus-murinus/limpopo-tree.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/414120415",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/762303109/large.jpg",
+      "author": "Leon Muntzke",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Woodland dormouse in the fork of a lichen-covered tree, showing the grey-brown coat, rounded ears and dark eye-ring",
+      "caption": "Research-grade iNaturalist observation, Bochum / My Darling, Limpopo, 5 November 2026."
+    },
+    {
+      "key": "graphiurus-murinus/makhado-leaf-litter.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/252119819",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/451262805/large.jpeg",
+      "author": "linalasse",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Woodland dormouse crouched in leaf litter, showing grey-brown upperparts, white underparts, a dark eye-ring and a bushy tail",
+      "caption": "Research-grade iNaturalist observation, Makhado (Louis Trichardt), Limpopo, 18 November 2024."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Woodland Dormouse",
+      "url": "https://ewt.org/project/woodland-dormouse/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Graphiurus murinus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/25.-Woodland-Dormouse-Graphiurus-murinus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Woodland dormouse",
+      "url": "https://en.wikipedia.org/wiki/Woodland_dormouse",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Graphiurus murinus: woodland dormouse",
+      "url": "https://animaldiversity.org/accounts/Graphiurus_murinus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "iNaturalist taxon Graphiurus murinus",
+      "url": "https://api.inaturalist.org/v1/taxa/45848",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Graphiurus murinus (Woodland dormouse; Afrikaans Boswaaierstertmuis, as given on the EWT page). EWT 2025 treats G. murinus as a species complex and says the boundaries with G. microtis should be clearly defined; G. microtis was previously included as a synonym or subspecies of G. murinus. Some Kruger identifications may be affected by that split. Presence in Kruger is supported by the 2011 checklist, by the 2025 EWT page, and by research-grade iNaturalist records. Text and southern African lengths come mainly from the 2025 EWT page (citing Skinner and Chimimba, Madikiza and others) and from Wikipedia (citing Kingdon). Animal Diversity Web measurements and some diet and call details may be Africa-wide or lumped; disagreements are recorded, not averaged. No Kruger population figure was found. No suitable licensable natural photograph from Kruger was found; the two photographs used are from Limpopo, outside the park.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. Densities of 2–16 individuals per hectare from Great Fish River Nature Reserve are not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable natural Kruger photograph suitable for display was found. Research-grade iNaturalist records in place 69020 were in a thatched shelter, handled, or in a building. A Commons search for Graphiurus murinus in Kruger returned no files. Two southern African photographs from Limpopo were used instead.",
+    "iNaturalist has 0 sound observations for Graphiurus murinus in place 69020.",
+    "Graphiurus murinus is treated as a species complex. EWT 2025 states that the boundaries between G. murinus and G. microtis should be clearly defined. This file follows species-list.json (Graphiurus murinus) and does not attempt to re-identify Kruger records.",
+    "Skinner and Chimimba and Stuart's field guide were not available as books. Southern African lengths were taken from the EWT page citing Skinner and Chimimba (2005). Mass is from Animal Diversity Web only.",
+    "No Kruger-specific diet, habitat or activity-month study was found. Torpor and hibernation accounts come from the Eastern Cape and the Highveld.",
+    "Iris colour as a named value, a sexed size split, and shoulder height were not given in the sources used, so those marks are null. No source named another Graphiurus species that is in this guide."
+  ]
+}
