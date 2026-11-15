@@ -1,0 +1,264 @@
+{
+  "kind": "species",
+  "slug": "thallomys-paedulcus",
+  "scientificName": "Thallomys paedulcus",
+  "commonNames": {
+    "en": "Tree rat",
+    "af": "Boomrot"
+  },
+  "family": "muridae",
+  "inatTaxonId": 45414,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Tree Rat",
+        "url": "https://ewt.org/project/tree-rat/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Taylor P and da Silva JM. 2025. Regional status Least Concern; no change from 2016; regional population trend unknown. Present in Kruger National Park."
+      },
+      {
+        "title": "A conservation assessment of Thallomys paedulcus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/61.-Tree-Rat-Thallomys-paedulcus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Acacia rat",
+        "url": "https://en.wikipedia.org/wiki/Acacia_rat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Child MF and Taylor P (2016, errata 2017), IUCN Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 12,
+      "max": 16.3
+    },
+    "tailCm": {
+      "min": 13,
+      "max": 21
+    },
+    "massKg": {
+      "min": 0.063,
+      "max": 0.1
+    },
+    "note": "The 2025 EWT page does not publish measurements. Figures are from Animal Diversity Web: head-and-body length 12–16.3 cm, tail 13–21 cm (often as long as or longer than the head and body), and mass 63–100 g (0.063–0.100 kg), with an average mass of 68 g. Animal Diversity Web may reflect an Africa-wide or historically lumped concept, because T. nigricauda was included in T. paedulcus until recently; those figures are recorded rather than treated as a confirmed southern African range. Sexual dimorphism has not been reported. No shoulder-height or sexed size split was found."
+  },
+  "summary": "A small, nocturnal, arboreal rat of Acacia and broad-leaved woodland, with grey-yellow upperparts, a white belly, a brown tail as long as or longer than the head and body, and a dark eye mask that is less complete than in the black-tailed tree rat. It nests in tree cavities or forks and is present in Kruger National Park.",
+  "description": "The tree rat has dense, soft fur, grey-yellow upperparts and a white underside. The ears are only sparsely haired. The paws are elongate and have long, curved claws. The tail is brown and is as long as, or longer than, the head and body, a mark used to separate it from the black-tailed tree rat (Thallomys nigricauda), which also has a more complete dark eye mask. The sexes are not described as differently marked. This description follows Animal Diversity Web, which may reflect an Africa-wide or historically lumped concept, because T. nigricauda was included in T. paedulcus until recently. The 2025 EWT assessment notes that the two species cannot be readily distinguished on morphological characters alone, and that some published information for T. paedulcus may actually refer to T. nigricauda.",
+  "habits": "A nocturnal, arboreal species. The 2025 EWT page, citing Perrin and Lovegrove, says it forages mainly in the canopies of Acacia trees and that small families may nest in a cavity in a large tree, or in any tree that offers a suitable fork or hollow. It is less selective in its choice of nest tree than the black-tailed tree rat. Animal Diversity Web adds that nightly activity may begin before dusk, that nests are built of leaves, grass and small twigs, and that the animals are shy and scent-mark; those details may refer to a historically lumped concept or to the sibling species, and are not averaged with the EWT account. A Kruger-specific activity study was not found.",
+  "diet": {
+    "summary": "The 2025 EWT assessment describes the tree rat as a dietary specialist that forages mainly in the canopies of Acacia trees and has a complex gastric anatomy containing microbial symbionts, which may limit colonisation of woodlands of a different species composition. Animal Diversity Web describes a broader diet: primarily the seeds and foliage of acacias, including umbrella thorn (Vachellia tortilis, given there as Acacia tortilis) and camel thorn (Vachellia erioloba, given there as Acacia erioloba), together with leaves of shepherd's trees, seeds of buffalo-thorn, and also berries, grasses, roots, buds and gum; food is often taken back to the nest, and carrion or invertebrates may be eaten when available. Those wider items were not repeated on the EWT page and are not averaged with it. A Kruger-specific diet study was not found.",
+    "items": [
+      "foliage and other material from Acacia canopies",
+      "seeds of acacias",
+      "leaves of shepherd's trees",
+      "seeds of buffalo-thorn"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "The 2025 EWT page does not give litter size or birth measurements, and says only that the reproductive biology of the tree rat is in most respects similar to that of the black-tailed tree rat. Animal Diversity Web, drawing on laboratory studies, gives litters of two to five pups, a birth mass of 2.5–2.8 g, walking at about 15 days, weaning at 28–31 days, and sexual maturity at about 107 days, with the young remaining with the parents until then. It places breeding in a summer rainy season and lists the months April through July; those months are the dry season in southern Africa, so they may not apply here and may reflect a lumped or extra-limital account. Kruger-specific birth months were not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Spotted Eagle-owl",
+      "note": "EWT cites Reed (2005) for tree-roosting owls, giving the Spotted Eagle-owl (Bubo africanus) as an example. Not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Snakes",
+      "note": "EWT lists snakes among opportunistic predators. Animal Diversity Web names arboreal snakes, including mambas (Dendroaspis). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Small carnivores",
+      "note": "EWT lists small carnivores among opportunistic predators but does not name a species."
+    }
+  ],
+  "prey": [],
+  "habitat": "An arboreal species of established woodland, particularly Acacia bushland and broad-leaved and Acacia savanna. The 2025 EWT page says it prefers woodland trees and does not inhabit shrublands or ecotones, and that in East Africa it is mainly associated with fever trees (Vachellia xanthophloea, given there as Acacia xanthophloa) and umbrella thorn (Vachellia tortilis). Wikipedia, by contrast, gives the natural habitat as subtropical or tropical dry shrubland; that disagreement is recorded rather than averaged. It is recorded from Kruger National Park, but a Kruger-specific habitat account was not found.",
+  "similar": [
+    {
+      "slug": "paraxerus-cepapi",
+      "note": "The tree squirrel is a much larger, diurnal animal. The tree rat is nocturnal and smaller (head-and-body length 12–16.3 cm in the Animal Diversity Web account), with a brown tail as long as or longer than the head and body and a dark eye mask."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks count was found. The 2025 regional assessment gives the population trend as unknown and does not publish a Kruger total. It describes the species as locally common in suitable habitat, but generally in small, isolated populations, and uncommon in southern Africa; those statements are not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Tree Rat",
+        "url": "https://ewt.org/project/tree-rat/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend unknown. Qualitative comments on local abundance are not a Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "sparsely haired"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "a dark eye mask, less complete than in the black-tailed tree rat"
+        },
+        "head": {
+          "face": "dark eye mask present but less complete than in the black-tailed tree rat",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "grey-yellow",
+          "pattern": "dense, soft fur"
+        },
+        "underparts": {
+          "colour": "white",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "brown",
+          "shape": "as long as or longer than the head and body"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A small, soft-furred rat in a thorny tree, with grey-yellow upperparts, a white belly, sparsely haired ears and a dark eye mask."
+    },
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Grey-yellow upperparts, white underparts, and a brown tail as long as or longer than the head and body. The dark eye mask is less complete than in the black-tailed tree rat."
+    }
+  ],
+  "calls": [],
+  "images": [
+    {
+      "key": "thallomys-paedulcus/hoedspruit-thornbush.jpg",
+      "view": "perched-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/172666915",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/299774302/large.jpg",
+      "author": "Jacob Dirsuwei",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Tree rat in a thorny bush, showing grey-yellow upperparts, a white belly, sparsely haired ears and a dark eye mask",
+      "caption": "Research-grade iNaturalist observation, Hoedspruit, Limpopo, 22 June 2023."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tree Rat",
+      "url": "https://ewt.org/project/tree-rat/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Thallomys paedulcus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/61.-Tree-Rat-Thallomys-paedulcus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Acacia rat",
+      "url": "https://en.wikipedia.org/wiki/Acacia_rat",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Thallomys paedulcus: acacia rat",
+      "url": "https://animaldiversity.org/accounts/Thallomys_paedulcus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null
+    },
+    {
+      "title": "iNaturalist taxon Thallomys paedulcus",
+      "url": "https://api.inaturalist.org/v1/taxa/45414",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Thallomys paedulcus (Tree rat; Afrikaans Boomrot, as given on the 2025 EWT page and the 2011 checklist). EWT 2025 treats T. paedulcus as a possible species complex, notes that T. nigricauda was included in it until recently, and says some published information may refer to that sibling species; it nonetheless records the species from Kruger National Park. Wikipedia's 'Acacia rat' stub also uses 'black-tailed tree rat' as a synonym, which is the English name of T. nigricauda. Text comes mainly from the 2025 EWT page and from Animal Diversity Web. ADW measurements and some diet, breeding and habit details may be Africa-wide or lumped; disagreements are recorded, not averaged. The EWT page does not publish size figures. No Kruger population figure was found. No suitable licensable natural photograph from Kruger was found; the photograph used is from Hoedspruit, Limpopo, outside the park.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the trend as unknown and does not publish a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable natural Kruger photograph suitable for display was found. Research-grade iNaturalist records in place 69020 were in rest camps or in thatched buildings. A South Africa (place 6986) search added a handled animal at Maruleng and a blurry night photograph from Mtubatuba, KwaZulu-Natal; one wild photograph from Hoedspruit, Limpopo, was used instead.",
+    "iNaturalist has 0 sound observations for Thallomys paedulcus in place 69020. No sourced description of the calls was found.",
+    "Thallomys paedulcus is treated as a possible species complex. EWT 2025 notes that T. nigricauda was included in T. paedulcus until recently, that some information may refer to the former, and that the two cannot be readily distinguished on morphological characters. This file follows species-list.json (Thallomys paedulcus) and does not attempt to re-identify Kruger records. EWT records the species from Kruger National Park.",
+    "Skinner and Chimimba and Stuart's field guide were not available as books. The 2025 EWT page does not publish measurements. Length and mass are from Animal Diversity Web only and may be Africa-wide or historically lumped.",
+    "No Kruger-specific diet, habitat or breeding study was found. Animal Diversity Web's breeding months (April through July, given as a rainy season) may not apply to southern Africa.",
+    "Iris colour, ear colour, leg colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null."
+  ]
+}
