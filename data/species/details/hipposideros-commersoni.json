@@ -1,0 +1,269 @@
+{
+  "kind": "species",
+  "slug": "hipposideros-commersoni",
+  "scientificName": "Hipposideros commersoni",
+  "commonNames": {
+    "en": "Commerson's leaf-nosed bat",
+    "af": "Commerson se bladneusvlermuis"
+  },
+  "family": "hipposideridae",
+  "inatTaxonId": 851017,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho, as Macronycteris vittata (Near Threatened D2; uplisted from Least Concern in 2016). IUCN global status Near Threatened (2020), as Macronycteris vittatus.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Macronycteris vittata",
+        "url": "https://ewt.org/project/striped-leaf-nosed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Richards LR, Balono J and da Silva JM. 2025. In Patel T, Smith C, Roxburgh L, da Silva JM and Raimondo D, editors. The Red List of Mammals of South Africa, Eswatini and Lesotho. Regional status Near Threatened D2. Regional population trend unknown. Uplisted from Least Concern (2016) because of the limited number of known location records, the absence of confirmed stable colonies, and a lack of data on population size and persistence in the assessment region."
+      },
+      {
+        "title": "A conservation assessment of Hipposideros vittatus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/12.-Striped-Leaf-nosed-Bat-Hipposideros-vittatus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Monadjem A, Jacobs D, Cohen L, Richards LR, Schoeman C, Sethusa T and Taylor PJ. 2016. Regional status then Least Concern, with a stable regional trend. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Striped leaf-nosed bat",
+        "url": "https://en.wikipedia.org/wiki/Striped_leaf-nosed_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Mickleburgh, Hutson, Bergmans, Cotterill and Cooper-Bohannon (2020) for a global IUCN listing of Near Threatened (as Macronycteris vittatus)."
+      }
+    ]
+  },
+  "size": {
+    "massKg": {
+      "female": {
+        "min": 0.08,
+        "max": 0.08
+      },
+      "male": {
+        "min": 0.2,
+        "max": null
+      }
+    },
+    "note": "The 2016 EWT assessment, citing Monadjem et al. (2010), says females weigh approximately 80 g, while a male in peak condition can weigh more than 200 g; the male figure is therefore a lower bound for animals in peak condition, not a published maximum, and max is left null. The 2025 EWT page gives forearm length at maturity as 9.59 cm ±0.23 in females and 10.25 cm ±0.25 in males (Cotterill and Ferguson 1999); those figures are recorded here because the schema has no forearm field. No head-and-body length, tail length, wingspan or shoulder height was given in the 2016 or 2025 EWT assessments. Animal Diversity Web, in an older account of the unsplit Hipposideros commersoni, gives a mass of 40-180 g, a length of 110-145 mm and a wingspan of 540-560 mm; those figures predate the split and are not entered as measurements of the Kruger animals."
+  },
+  "summary": "A very large insect-eating leaf-nosed bat of savannah and woodland, including mopane. In the assessment region it is known from northern Kruger at Pafuri and from the Greater Kruger at Thornybush Game Reserve. It is a clutter-edge forager that takes mainly beetles, roosts in caves, trees and sometimes under eaves, and is listed as Near Threatened in the 2025 regional assessment and on the global IUCN Red List (2020).",
+  "description": "A large leaf-nosed bat of the family Hipposideridae. This file follows species-list.json in treating the Kruger animal as Hipposideros commersoni (English Commerson's leaf-nosed bat; Afrikaans Commerson se bladneusvlermuis) and does not remap the names. The 2016 and 2025 EWT assessments assign the southern African and Kruger animals formerly included under that name to the striped leaf-nosed bat, now Macronycteris vittata (2016: Hipposideros vittatus). They treat true H. commersoni / Macronycteris commersoni as endemic to Madagascar. Wikipedia's Hipposideros commersoni page redirects to that Madagascar species and was not used for Kruger ecology. The 2016 assessment, citing Monadjem et al. (2010), notes sexual dimorphism: besides differences in colouring, females weigh about 80 g, and a male in peak condition can weigh more than 200 g. Neither the 2016 nor the 2025 assessment describes those colour differences or the coat, so no pelage colours are entered as marks. The 2025 page gives forearm length at maturity as 9.59 cm ±0.23 in females and 10.25 cm ±0.25 in males (Cotterill and Ferguson 1999). Animal Diversity Web, in an older account of the unsplit H. commersoni, describes an elaborate nose-leaf, falcate ears rounded near the tip, a large sagittal crest that is more prominent in males, and pelage from pale-grey to reddish-grey with tawny underparts; that account predates the split and is not used to fill the marks.",
+  "habits": "The 2025 EWT assessment, following the 2016 text, describes a clutter-edge forager with high wing-loading (Norberg and Rayner 1987). It is entirely dependent on large caves for breeding, where colonies numbering hundreds of thousands of individuals may aggregate (Monadjem et al. 2010). When suitable caves are available, extremely large colonies can occur, but smaller groups also roost in dense vegetation, hollow trees and tree canopies (Happold 1987; Skinner and Chimimba 2005). The bats are frequently seen flying between and within buildings, and occasionally roost under the eaves of buildings (Skinner and Chimimba 2005). The 2025 climate-change section adds that it is unclear whether South African M. vittata use caves as their primary roosts, and cites some evidence of foliage roosts (Abott 2023). Males exhibit territorial behaviour between February and July but roost together during the rest of the year (Monadjem et al. 2020). In other parts of the range, large ancestral roosts of tens of thousands of individuals are known to make extensive migrations (Mickleburgh et al. 2008). The 2025 page lists movement patterns as Full Migrant and congregatory (and dispersive). Those regional and range-wide habits are not a Kruger roost census.",
+  "diet": {
+    "summary": "An insectivore and clutter-edge forager. The 2016 and 2025 EWT assessments, citing Monadjem et al. (2010), say the diet consists mostly of Coleoptera, only occasionally consuming Isoptera.",
+    "items": [
+      "beetles (Coleoptera)",
+      "termites (Isoptera), occasionally"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2016 and 2025 EWT assessments, citing Cotterill and Fergusson (1999), say mating generally commences in June or July, and that pregnant females leave the breeding roost for about two months before returning in late October to give birth. Litter size, pup appearance, gestation length and weaning were not given in those assessments (the 2025 life-history fields for gestation, fecundity and size at birth are marked not specified). No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "The staple in the 2016 and 2025 EWT assessments (Monadjem et al. 2010): diet consisting mostly of Coleoptera. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Termites",
+      "note": "Taken only occasionally, listed as Isoptera in the 2016 and 2025 EWT assessments (Monadjem et al. 2010). Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2016 and 2025 EWT assessments, citing Cotterill (2001), say the species occupies a variety of savannah and woodland habitats, from arid scrubby savannah in Namibia to moist miombo woodland in Zimbabwe and Mozambique, and is recorded from the mopane bioregion in southern Africa. Within the assessment region it is limited to Limpopo, occurring in Pafuri in northern Kruger National Park (Rautenbach et al. 1984; Monadjem et al. 2010, 2020) and at Thornybush Game Reserve in the Greater Kruger region (Abott 2023). Day roosts may be in caves, dense vegetation, hollow trees, tree canopies, or occasionally under the eaves of buildings; the 2025 assessment notes that it is unclear whether South African animals use caves as their primary roosts.",
+  "similar": [
+    {
+      "slug": "hipposideros-caffer",
+      "note": "The other leaf-nosed bat in this guide. This species is much larger: the 2016 regional assessment, citing Monadjem et al. (2010), gives adult females at about 80 g and males in peak condition at more than 200 g."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment says there is no information on the number of individuals in the assessment region, that occurrence records are mostly of single individuals (Rautenbach et al. 1984), that the current regional trend is unknown, and that the number of mature individuals in the largest subpopulation is unknown, likely 10-50, with one subpopulation presumed. One source claims a likely range of 10-50 mature individuals in that largest regional subpopulation; that is not a Kruger total. The 2016 assessment had assumed the Kruger population was fairly large and stable; the 2025 assessment no longer states that, citing the absence of known, stable colonies and limited occurrence records. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Macronycteris vittata",
+        "url": "https://ewt.org/project/striped-leaf-nosed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "No regional head count; trend unknown; largest subpopulation unknown, likely 10-50 mature individuals. Not a Kruger census."
+      },
+      {
+        "title": "A conservation assessment of Hipposideros vittatus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/12.-Striped-Leaf-nosed-Bat-Hipposideros-vittatus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Then assumed a fairly large and stable Kruger population, with a stable regional trend and an unknown number of mature individuals. Superseded on trend and Kruger numbers by the 2025 assessment. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen hanging in a cave, in dense vegetation, in a hollow tree or tree canopy, or occasionally under the eaves of a building. A very large leaf-nosed bat: females about 80 g, males in peak condition more than 200 g (Monadjem et al. 2010). Coat colours were not described in the 2016 or 2025 EWT assessments."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter-edge forager with high wing-loading (Norberg and Rayner 1987). Forearm length at maturity about 9.59 cm in females and 10.25 cm in males (Cotterill and Ferguson 1999). Frequently seen flying between and within buildings (Skinner and Chimimba 2005)."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "No species-specific social-call or echolocation-frequency description was given in the 2016 or 2025 EWT assessments or on the Wikipedia pages used. Animal Diversity Web, in an older account of the unsplit Hipposideros commersoni, says communication in that taxon has not been fully described, and that members of the genus Hipposideros echolocate to capture prey.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "roost-thornybush-2023",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/152915814",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/264038810/large.jpg",
+      "hosted": false,
+      "author": "Luke Abbot",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "A large leaf-nosed bat hanging from a bare tree branch at night in Thornybush Game Reserve, Limpopo.",
+      "caption": "A bat roosting on a tree branch in Thornybush Game Reserve, Limpopo, South Africa, 31 March 2023. The reserve lies in the Greater Kruger region, outside Kruger National Park. This is the foliage-roost record cited in the 2025 EWT assessment."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A conservation assessment of Macronycteris vittata",
+      "url": "https://ewt.org/project/striped-leaf-nosed-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Richards LR, Balono J and da Silva JM. 2025. Source of the 2025 regional Near Threatened D2 status and unknown regional trend, taxonomy (including the move to Macronycteris and the split from the Madagascar endemic), Kruger and Greater Kruger occurrence (Pafuri; Thornybush), habitat and roosting, diet (Monadjem et al. 2010), breeding phenology (Cotterill and Fergusson 1999), forearm lengths, and the Full Migrant movement listing. The page body describes this taxon, not a pasted account of another species. Common names listed are English only."
+    },
+    {
+      "title": "A conservation assessment of Hipposideros vittatus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/12.-Striped-Leaf-nosed-Bat-Hipposideros-vittatus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Monadjem A, Jacobs D, Cohen L, Richards LR, Schoeman C, Sethusa T and Taylor PJ. 2016. Source of the earlier regional Least Concern status, the mass figures and the note on sexual differences in colouring (Monadjem et al. 2010), and the Pafuri occurrence. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Striped leaf-nosed bat",
+      "url": "https://en.wikipedia.org/wiki/Striped_leaf-nosed_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Used for the African taxon now called Macronycteris vittata, the split from M. commersoni, the 2017 move out of Hipposideros (Foley et al. 2017), occurrence in parts of Kruger National Park, and the global IUCN listing (Mickleburgh et al. 2020). The page has no appearance or measurement account."
+    },
+    {
+      "title": "Commerson's roundleaf bat",
+      "url": "https://en.wikipedia.org/wiki/Commerson's_roundleaf_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "The parse of Hipposideros commersoni redirects here. The page is the Madagascar endemic Macronycteris commersoni and was used only to record that split; its ecology, measurements and Near Threatened global listing were not applied to the Kruger animals."
+    },
+    {
+      "title": "Hipposideros commersoni Commerson's roundleaf bat",
+      "url": "https://animaldiversity.org/accounts/Hipposideros_commersoni/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Carl Roberts. An older account of the unsplit Hipposideros commersoni, including African subspecies and the Madagascar form. Used only with that caveat; measurements, pelage, hunting methods, reproduction and predators from this account were not entered as facts about the post-split southern African taxon."
+    },
+    {
+      "title": "iNaturalist taxon Macronycteris vittata",
+      "url": "https://api.inaturalist.org/v1/taxa/851017",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "The active iNaturalist taxon for the striped leaf-nosed bat, which is the name EWT now uses for the southern African and Kruger animals formerly included under Hipposideros commersoni. Used for the photograph search. iNaturalist treats Hipposideros commersoni as an invalid name of Macronycteris commersonii (taxon 851027), the Madagascar endemic."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Hipposideros commersoni (English Commerson's leaf-nosed bat; Afrikaans Commerson se bladneusvlermuis) and does not remap the names. The 2016 and 2025 EWT assessments, Wikipedia, and iNaturalist all treat the southern African population as a separate species, the striped leaf-nosed bat (2016: Hipposideros vittatus; current: Macronycteris vittata), and restrict true H. commersoni / M. commersoni to Madagascar. The 2025 assessment also notes remaining confusion and possible undescribed cryptic diversity on mainland Africa. The species-list latin and English forms, which match the 2011 SANParks checklist, are kept; inatTaxonId is 851017 (M. vittata), the taxon used for photographs, not 851027 (M. commersonii). The preferred English name in EWT, Wikipedia and iNaturalist is striped leaf-nosed bat; EWT also lists Commerson's Leafnosed Bat and other English names. The species-list English form is kept. EWT 2016 and 2025 list no Afrikaans name; the species-list form is kept. Status and monthsPresent are omitted. The 2025 page records the species in Pafuri in northern Kruger National Park (Rautenbach et al. 1984) and in the Greater Kruger at Thornybush Game Reserve, but it lists movement patterns as Full Migrant, describes seasonal departure of pregnant females from the breeding roost, and does not state that individuals are present in Kruger all year. Regional status is Near Threatened D2 (2025), uplisted from Least Concern (2016); the global IUCN listing cited by Wikipedia is Near Threatened (2020). Coat colours are left null: the 2016 assessment mentions sexual differences in colouring but does not describe them, and the Wikipedia striped leaf-nosed bat page has no appearance account. One licensed photograph was kept, a foliage roost at Thornybush Game Reserve, Limpopo, outside Kruger National Park; place 69020 had no observations.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives no head count, an unknown regional trend, and a largest subpopulation that is unknown, likely 10-50 mature individuals, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Status and monthsPresent are omitted because the 2025 EWT page lists movement patterns as Full Migrant and does not state that the species is present in Kruger all year, although it records a definite occurrence at Pafuri in northern Kruger.",
+    "The file keeps the species-list.json names (Hipposideros commersoni; Commerson's leaf-nosed bat; Commerson se bladneusvlermuis) and does not remap them. EWT, Wikipedia and iNaturalist treat the southern African and Kruger animals as Macronycteris vittata (striped leaf-nosed bat; 2016: Hipposideros vittatus) and restrict H. commersoni / M. commersoni to Madagascar. The 2025 assessment also notes possible undescribed cryptic diversity on mainland Africa.",
+    "The English name in species-list.json is Commerson's leaf-nosed bat (2011 checklist form). EWT, Wikipedia and iNaturalist prefer striped leaf-nosed bat; EWT also lists Commerson's Leafnosed Bat, Commerson's Rhinolph, Commerson's Roundleaf Bat and Giant Leaf-nosed Bat. The species-list form is kept.",
+    "The Afrikaans name in species-list.json is Commerson se bladneusvlermuis (2011 checklist form). The 2016 and 2025 EWT assessments list English names only and do not publish an Afrikaans name. The species-list form is kept.",
+    "iNaturalist place 69020 (Kruger) returned 0 observations, including 0 sound observations, for both Macronycteris vittata (taxon 851017) and Macronycteris commersonii (taxon 851027). No echolocation-frequency or social-call description was given in the 2016 or 2025 EWT assessments or on the Wikipedia pages used.",
+    "Coat, ear, face, underparts, leg and tail colours, and any striped pattern suggested by the English name, were not described in the 2016 or 2025 EWT assessments or on the Wikipedia striped leaf-nosed bat page, so those marks are null. The 2016 assessment mentions sexual differences in colouring without describing them. Animal Diversity Web colours belong to an older unsplit H. commersoni account and were not entered as marks.",
+    "Head-and-body length, tail length, wingspan and shoulder height were not given in the 2016 or 2025 EWT assessments. Forearm lengths from the 2025 page are recorded only in the size note.",
+    "Litter size, pup appearance, gestation length and weaning were not given in the 2016 or 2025 EWT assessments. No Kruger-specific breeding study was found.",
+    "No named predators were given in the 2016 or 2025 EWT assessments or on the Wikipedia striped leaf-nosed bat page. Animal Diversity Web lists bat hawks for the unsplit H. commersoni; that was not entered as a fact about the post-split southern African taxon.",
+    "Place 69020 had no licensed photographs. One place 6986 query returned a single licensed research-grade observation, a foliage roost at Thornybush Game Reserve, Limpopo (observation 152915814); one of its two nearly identical photographs was kept. The caption gives that reserve, which is outside Kruger National Park."
+  ]
+}
