@@ -111,7 +111,7 @@ ${main}
 <div class="wrap">
 <div class="footer-grid">
 <p>${SITE_NAME}</p>
-<p><a href="${BIRDS_URL}">Birds of Kruger National Park</a> · <a href="${escapeHtml(alts.md)}">Markdown</a> · <a href="${escapeHtml(alts.json)}">JSON</a></p>
+<p><a href="${BIRDS_URL}" title="Switch to our sister site">Birds</a> · <a href="${escapeHtml(alts.md)}">Markdown</a> · <a href="${escapeHtml(alts.json)}">JSON</a></p>
 </div>
 </div>
 </footer>
