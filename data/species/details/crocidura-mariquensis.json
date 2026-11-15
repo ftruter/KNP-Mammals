@@ -1,0 +1,223 @@
+{
+  "kind": "species",
+  "slug": "crocidura-mariquensis",
+  "scientificName": "Crocidura mariquensis",
+  "commonNames": {
+    "en": "Swamp musk shrew",
+    "af": "Vleiskeerbek"
+  },
+  "family": "soricidae",
+  "inatTaxonId": 46612,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "IUCN global Least Concern (2016, errata 2017); 2025 regional Red List for South Africa, Eswatini and Lesotho Near Threatened",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Crocidura mariquensis",
+        "url": "https://ewt.org/project/swamp-musk-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Russo IM and da Silva JM. 2025. Regional status Near Threatened B2ab(ii,iii,iv,v), with no change from the 2016 assessment. Regional population trend declining. The page says that although no data for Kruger National Park is available, the species presumably occurs in the park."
+      },
+      {
+        "title": "A conservation assessment of Crocidura mariquensis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/7.-Swamp-Musk-Shrew-Crocidura-mariquensis_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Near Threatened B2ab(ii,iii,iv). National status in 2004 was Data Deficient. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Swamp musk shrew",
+        "url": "https://en.wikipedia.org/wiki/Swamp_musk_shrew",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "The latin title Crocidura mariquensis redirects here. Cites Cassola (2016, errata 2017), IUCN global Least Concern."
+      }
+    ]
+  },
+  "summary": "A moderate-sized white-toothed musk shrew of wetlands and waterlogged grassland. The 2025 EWT assessment lists it as Near Threatened in the region, with a declining population trend and no change from 2016, and says that although no data for Kruger National Park is available, the species presumably occurs in the park. It lives close to open water among reedbeds, wetlands and riverbank grass, is primarily nocturnal, and is mainly insectivorous.",
+  "description": "Wikipedia, citing Kingdon et al. (2013), describes a moderate-sized shrew with a head-and-body length of about 80 mm and a tail of around 60 mm, males being slightly larger than females. The head is long and narrow, with a sharply pointed snout, small eyes and rounded ears. The dorsal pelage is blackish-brown tinged with rust, the individual hairs having greyish bases, brownish bands and brownish-black tips. The underparts are paler greyish-brown, with no clear demarcation from the back. The tail is about 70% of the head-and-body length, partially haired and some shade of brown, sometimes paler below. The fore and hind feet are yellowish-brown, reddish-brown or dark brown, and the digits of the hind feet splay when the animal is walking. Colouring varies considerably over the range. The 2025 EWT assessment, citing Baxter and Meester (1980), notes that the splayed hind feet may be an adaptation to marshy conditions. Animal Diversity Web places the species in the white-toothed shrew subfamily Crocidurinae but does not describe the pelage.",
+  "habits": "The 2025 EWT assessment, citing Baxter et al. (1979), says the species is active at night and during the day but is primarily nocturnal, and that it shows little agonistic behaviour towards conspecifics (Baxter et al. 1979; Baxter and Meester 1980). Citing Skinner and Chimimba (2005), the same page says individuals use the paths made by vlei rats (Otomys spp.) and marsh rats (Dasymys spp.), and, citing Baxter and Meester (1980), that when moving the tail is often curved slightly upwards. Wikipedia, citing Kingdon et al. (2013), adds that it clambers among aquatic vegetation with agility, does not scent-mark its surroundings, and that nests have been observed in grass tussocks and in debris above the ground.",
+  "diet": {
+    "summary": "The 2025 EWT assessment, citing Fuller and Perrin (2001), says insects constituted 92% of the diet in the Umvoti Vlei Conservancy, KwaZulu-Natal. Wikipedia, citing Kingdon et al. (2013), says that in captivity the species will feed on snails and termites, but does not dig into the ground to forage.",
+    "items": [
+      "insects",
+      "snails (in captivity)",
+      "termites (in captivity)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Wikipedia, citing Kingdon et al. (2013), says breeding mostly takes place in the wet season, with litters averaging three to four young. The appearance of the young was not described in the sources consulted. The 2025 EWT assessment leaves life-history fields, including litter size and gestation, unspecified.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "African grass owl (Tyto capensis)",
+      "note": "The 2025 EWT assessment describes the species as an important prey of African grass owls, citing Vernon (1972). Wikipedia, citing Kingdon et al. (2013), also lists the African grass owl as a predator. This is not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Barn owl (Tyto alba)",
+      "note": "Listed as a predator by Wikipedia, citing Kingdon et al. (2013). This is not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Southern fiscal (Lanius collaris)",
+      "note": "Listed as a predator by Wikipedia, citing Kingdon et al. (2013). This is not a mammal in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment, citing Fuller and Perrin (2001), reports that insects constituted 92% of the diet at Umvoti Vlei Conservancy, KwaZulu-Natal."
+    },
+    {
+      "slug": null,
+      "en": "Snails and termites",
+      "note": "Wikipedia, citing Kingdon et al. (2013), says the species will feed on snails and termites in captivity; this is not given as a wild Kruger diet."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment says the species has specific habitat requirements and occurs only close to open water with intact riverine and semi-aquatic vegetation such as reedbeds, wetlands and the thick grass along riverbanks (Monadjem 1999; Skinner and Chimimba 2005). Individuals are found both in wet substrates and in drier grassland away from the water's edge (Taylor 1998), and are often sampled in waterlogged areas such as inundated grasslands and vleis (Rautenbach 1982; Monadjem 1998; Taylor 1998; Fuller and Perrin 2001). Observations from Eswatini and Telperion Nature Reserve, Gauteng, suggest that it can occur within a variety of land covers. Wikipedia, citing the IUCN account, likewise describes a wetland habitat of reedbeds and semi-aquatic vegetation near rivers and lakes, seasonally flooded areas, and a marked preference for marshes and swamps. Within the assessment region the page places the species in wetlands and waterlogged grasslands of KwaZulu-Natal, Mpumalanga, Limpopo, Gauteng and eastern North West, with marginal Free State records.",
+  "size": {
+    "headBodyLengthCm": {
+      "min": 8,
+      "max": 8
+    },
+    "tailCm": {
+      "min": 6,
+      "max": 6
+    },
+    "note": "Wikipedia, citing Kingdon et al. (2013), gives a head-and-body length of about 80 mm and a tail of around 60 mm, with males slightly larger than females, and describes the tail as about 70% of the head-and-body length. The 2025 EWT assessment does not publish measurements. Mass and shoulder height were not found."
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "rounded"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "long and narrow, with a sharply pointed snout and small eyes",
+          "muzzle": "sharply pointed",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "blackish-brown tinged with rust",
+          "pattern": "hairs with greyish bases, brownish bands and brownish-black tips; colouring varies considerably over the range"
+        },
+        "underparts": {
+          "colour": "paler greyish-brown",
+          "pattern": "no clear demarcation from the dorsal fur"
+        },
+        "legs": {
+          "colour": "yellowish-brown, reddish-brown or dark brown"
+        },
+        "tail": {
+          "colour": "some shade of brown, sometimes paler below",
+          "shape": "partially haired, about 70% of the head-and-body length"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The 2025 EWT assessment, citing Baxter and Meester (1980), says the hind feet are splayed, which may be an adaptation to marshy conditions, and that when moving the tail is often curved slightly upwards. Wikipedia, citing Kingdon et al. (2013), also notes that the digits of the hind feet splay apart when the animal is walking."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 EWT assessment gives the regional population trend as declining, inferred from wetland habitat loss and degradation, and the number of mature individuals as unknown. It describes the species as common and locally abundant in suitable habitat, for example more numerous than Rhabdomys pumilio at Lajuma in the Soutpansberg, and the most abundant small mammal sampled at Seekoeivlei Nature Reserve in the Free State (41% of samples; Wandrag et al. 2002); those figures are not Kruger counts. The same page says that although no data for Kruger National Park is available, the species presumably occurs in the park. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Crocidura mariquensis",
+        "url": "https://ewt.org/project/swamp-musk-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend declining; number of mature individuals unknown; no Kruger total. Local abundance examples from Lajuma and Seekoeivlei are not park-wide Kruger figures."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official SANParks trends document cited as the place a Kruger figure may be published; no park-wide count for this species was taken from it in this session."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "A conservation assessment of Crocidura mariquensis",
+      "url": "https://ewt.org/project/swamp-musk-shrew/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Russo IM and da Silva JM. 2025. Main source for regional status, taxonomy notes, distribution, habitat, habits, diet, predators and the Afrikaans name Vleiskeerbek. The page says that although no data for Kruger National Park is available, the species presumably occurs in the park."
+    },
+    {
+      "title": "A conservation assessment of Crocidura mariquensis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/7.-Swamp-Musk-Shrew-Crocidura-mariquensis_NT.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Regional Near Threatened; notes a possible species complex. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Crocidura mariquensis (swamp musk shrew)",
+      "url": "https://animaldiversity.org/accounts/Crocidura_mariquensis/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "A classification page only; no biological account of size, pelage, habits or calls. Places the species in Crocidurinae and in Soricomorpha, an older ordinal name than Eulipotyphla."
+    },
+    {
+      "title": "Swamp musk shrew",
+      "url": "https://en.wikipedia.org/wiki/Swamp_musk_shrew",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirect from Crocidura mariquensis. Used for the IUCN global citation, a description of size and pelage, habits, diet in captivity, litter size and avian predators, following Kingdon et al. (2013). This file keeps the 2011 checklist English name Swamp musk shrew; the page also mentions the generic name musk shrew."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Crocidura mariquensis (Swamp musk shrew, the 2011 SANParks checklist name; Afrikaans Vleiskeerbek). The 2025 EWT page uses Swamp Musk Shrew and also lists Marico Musk Shrew, with the Afrikaans name Vleiskeerbek; iNaturalist taxon 46612 is used for media searches. The 2011 English and Afrikaans names are kept. The 2025 EWT assessment, following Meester et al. (1986), recognises two subspecies, C. m. mariquensis in KwaZulu-Natal, northern Free State, North West, Limpopo, Gauteng, Mpumalanga and Mozambique, and C. m. shortridgei from north-eastern Namibia to north-western Zimbabwe, and notes that morphometric data (Dippenaar 1979; Taylor 1998) show the KwaZulu-Natal population to be distinct; it treats the taxon as a possible species complex but retains species status pending further research. Kruger records are not remapped here. Because the assessment says no data for Kruger National Park is available and only that the species presumably occurs in the park, status and monthsPresent are omitted. Appearance measurements and pelage colours are taken from Wikipedia, citing Kingdon et al. (2013); the EWT page does not publish those figures.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "The 2025 EWT assessment says that although no data for Kruger National Park is available, the species presumably occurs in the park; status and monthsPresent are therefore omitted. The species is on the 2011 SANParks checklist.",
+    "No iNaturalist observations of any grade in Kruger (place 69020), and no usable wild photograph from South Africa (place 6986): the only licensed research-grade observation, from Steve Tshwete in Mpumalanga, was of a dead animal and was not used.",
+    "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
+    "No Kruger census or SANParks park-wide population figure.",
+    "Mass and shoulder height were not published in the sources consulted. Head-and-body length and tail length are single approximate figures from Wikipedia, citing Kingdon et al. (2013), not ranges.",
+    "Gestation, age at sexual maturity and the appearance of the young were not found, beyond Wikipedia, citing Kingdon et al. (2013), stating that breeding is mostly in the wet season and that litters average three to four young. The 2025 EWT life-history fields are unspecified.",
+    "No external field marks were found that separate this species from other Crocidura or Suncus species in this guide, so similar is omitted.",
+    "The 2025 EWT assessment treats the taxon as a possible species complex (C. m. mariquensis, C. m. shortridgei, and a morphometrically distinct KwaZulu-Natal population); this file keeps Crocidura mariquensis from species-list.json and does not remap records."
+  ]
+}
