@@ -1,0 +1,218 @@
+{
+  "kind": "species",
+  "slug": "aethomys-chrysophilus",
+  "scientificName": "Aethomys chrysophilus",
+  "inatTaxonId": 45573,
+  "commonNames": {
+    "en": "Red veld rat",
+    "af": "Afrikaanse bosrot"
+  },
+  "family": "muridae",
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "summary": "A medium-sized nocturnal rat of savanna woodland, with reddish-brown to cinnamon upperparts, paler underparts and a tail as long as or longer than the head and body. In Kruger it is recorded north of the Olifants River.",
+  "description": "A murine rat with a robust head and a heavy snout. Wikipedia, citing Linzey and Chimimba (2008), gives a head-and-body length of 12–17 cm, a tail of 13–20 cm and a mass of 40–114 g, and says males are not significantly larger than females; those figures may be Africa-wide and may historically include animals later referred to Aethomys ineptus. The fur on the upperparts and flanks is reddish-brown mixed with dark brown or black hairs, so the overall colour ranges from orange-yellow or cinnamon to medium brown. The underparts are white or very pale grey, with a sharp line between the two. It cannot be told from the Tete veld rat (A. ineptus) on appearance alone; the two have been separated mainly by chromosome number (2n = 50 in A. chrysophilus and 2n = 44 in A. ineptus) and by sperm shape. The 2025 EWT assessment treats A. ineptus as a younger synonym of A. chrysophilus. Females have three pairs of teats.",
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "regional (South Africa, Eswatini and Lesotho)",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Red Veld Rat",
+        "url": "https://ewt.org/project/red-veld-rat/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional assessment: Least Concern, regional trend stable, no change from 2016."
+      },
+      {
+        "title": "A conservation assessment of Aethomys chrysophilus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/3.-Red-Veld-Rat-Aethomys-chrysophilus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 12,
+      "max": 17
+    },
+    "tailCm": {
+      "min": 13,
+      "max": 20
+    },
+    "massKg": {
+      "min": 0.04,
+      "max": 0.114
+    },
+    "note": "Wikipedia, citing Linzey and Chimimba (2008, Mammalian Species): head-and-body length 12–17 cm, tail 13–20 cm, mass 40–114 g; males not significantly larger than females. These figures may be Africa-wide and may historically include animals later referred to A. ineptus. The 2025 EWT page does not publish measurements. Animal Diversity Web has only a classification stub for this taxon, with no account body."
+  },
+  "habits": "Nocturnal and mainly terrestrial, though it climbs trees occasionally. It digs burrows in soil where grass cover is good, and builds cup-like nests in burrows, rock niches or crevices, the bases of trees and termite mounds. In the wild it appears territorial and reacts aggressively to others of its own species. Densities are generally low and vary with the seasons, peaking in the hot-wet or early cool-dry season and falling in the late hot-dry season; those density figures are from studies outside Kruger (Linzey and Kesner 1997 and later summaries) and are not a park count.",
+  "diet": {
+    "summary": "Omnivorous, but typically relies more on plant than animal foods. Wikipedia, citing Linzey and Chimimba (2008), lists seeds, fruit, green leaves and starchy roots. No Kruger-specific diet study was found, and no animal prey was named.",
+    "items": [
+      "seeds",
+      "fruit",
+      "green leaves",
+      "starchy roots"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "Wikipedia, citing Linzey and Chimimba (2008) and Happold and Happold (1990), says wild animals breed in the rainy season, typically from October to January, although they can breed at any time of year in captivity. Gestation lasts 29 days. Litters are of one to five young, typically three. Newborns are blind and helpless, with thin black fur and naked undersides; the teeth are already erupted, and the eyes open after 10–14 days. At birth they weigh about 5 g and measure about 4 cm in head-and-body length. They are weaned at 24–33 days, by which time they have the adult coat, reach full adult dimensions at about seven weeks, and become sexually mature at about 82 days, though the first litter may not be born for up to six months. The 2025 EWT page does not publish litter size or birth measurements. Kruger-specific birth months were not found.",
+  "prey": [],
+  "habitat": "A habitat generalist of savanna woodland, provided there is good ground cover such as rocky crevices, boulders, debris, fallen trees, holes in termite mounds, thick scrub, or clumps of grass and forbs. It is often associated with miombo or mopane woodland, may be found near homesteads and barns, and can occur in disturbed grassland, but is absent from arid regions and high-elevation forest. It is recorded mainly below 1,000 m. The 2025 EWT assessment records it from Kruger National Park north of the Olifants River, notes that its southern limit in the east is about 24°S in the vicinity of that river, and cites MacFadyen (2007) for records in low numbers on the park's northern plains. A finer Kruger habitat account was not found.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks count was found. The 2025 regional assessment gives the number of mature individuals as unknown and the regional population trend as stable; it also cites general densities below 8 individuals/ha, and up to 6.2 individuals/ha, from studies that are not a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Red Veld Rat",
+        "url": "https://ewt.org/project/red-veld-rat/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend stable; number of mature individuals unknown. Density comments are not a Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "robust head with a heavy snout",
+          "muzzle": "heavy snout",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "reddish-brown",
+            "cinnamon",
+            "medium brown"
+          ],
+          "pattern": "mixed with dark brown or black hairs"
+        },
+        "underparts": {
+          "colour": [
+            "white",
+            "very pale grey"
+          ],
+          "pattern": "sharply divided from the upper fur"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "as long as or longer than the head and body"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A medium-sized rat with reddish-brown to cinnamon upperparts, paler underparts sharply divided from the upper fur, a heavy snout, and a long tail."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "Red Veld Rat",
+      "url": "https://ewt.org/project/red-veld-rat/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "A conservation assessment of Aethomys chrysophilus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/3.-Red-Veld-Rat-Aethomys-chrysophilus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Red rock rat",
+      "url": "https://en.wikipedia.org/wiki/Red_rock_rat",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Aethomys chrysophilus (red rock rat)",
+      "url": "https://animaldiversity.org/accounts/Aethomys_chrysophilus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "Classification stub only; no species account body."
+    },
+    {
+      "title": "iNaturalist taxon Aethomys chrysophilus",
+      "url": "https://api.inaturalist.org/v1/taxa/45573",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Aethomys chrysophilus (Red veld rat; Afrikaans Afrikaanse bosrot, the 2011 checklist name; the 2025 EWT page lists only English names). The 2025 EWT assessment records the species from Kruger National Park north of the Olifants River and treats A. ineptus (Tete veld rat) as a younger synonym, while still noting two genetically distinct subpopulations in the assessment region, primarily separated by the Limpopo River, and different chromosome numbers (2n = 50 and 2n = 44). Wikipedia still treats the two as cryptic species separable mainly by genetics or sperm shape. This file does not remap Kruger records. Text comes mainly from the 2025 EWT page and from Wikipedia (citing Linzey and Chimimba 2008). Size, breeding and some diet details are from that Wikipedia account and may be Africa-wide or historically lumped. Animal Diversity Web is a classification stub with no measurements. No Kruger population figure was found. No suitable licensable natural photograph was used.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the number of mature individuals as unknown and a stable regional trend, and cites general densities that are not a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable natural photograph suitable for display was used. A licence-filtered iNaturalist search in place 69020 returned no observations. A South Africa (place 6986) search found eight licensed records: research-grade photographs were a handled animal in a bag at the University of Limpopo, Pietersburg (Polokwane), and an animal in a live trap in Siyanda, Northern Cape; a Maruleng photograph showed a rat indoors, on a camera screen; a Rustenburg photograph on rocky grass was not research-grade and was not used, because this species cannot be reliably identified from photographs.",
+    "iNaturalist has 0 sound observations for Aethomys chrysophilus in place 69020. No sourced description of the calls was found.",
+    "Aethomys chrysophilus is cryptic with A. ineptus (Tete veld rat), historically separable mainly by chromosomes and sperm. The 2025 EWT assessment treats A. ineptus as a younger synonym but still describes the Kruger range as north of the Olifants River and notes two genetic subpopulations in the assessment region. This file follows species-list.json (A. chrysophilus) and does not remap records. A. ineptus is not a separate slug in species-list.json.",
+    "The 2025 EWT page does not publish an Afrikaans name. Afrikaanse bosrot is taken from species-list.json, which records the 2011 official checklist name.",
+    "Skinner and Chimimba and Stuart's field guide were not available as books. Length and mass are from Wikipedia, citing Linzey and Chimimba (2008), only, and may be Africa-wide or historically lumped. Animal Diversity Web has no account body.",
+    "No Kruger-specific diet, habitat or breeding study was found, and no predator species was named. Iris colour, ear colour, leg colour, tail colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null."
+  ]
+}
