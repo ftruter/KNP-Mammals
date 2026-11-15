@@ -1,0 +1,207 @@
+{
+    "kind": "species",
+    "slug": "vansonia-rueppellii",
+    "scientificName": "Vansonia rueppellii",
+    "commonNames": {
+        "en": "Rüppell's bat",
+        "af": "Rüppell se vlermuis"
+    },
+    "family": "vespertilionidae",
+    "inatTaxonId": 1431041,
+    "sampleData": false,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "conservationStatus": {
+        "status": "Near Threatened",
+        "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho (IUCN category NT D2); IUCN global Least Concern (2017, assessed as Pipistrellus rueppellii)",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Vansonia rueppellii",
+                "url": "https://ewt.org/project/ruppels-pipistrelle/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Richards LR and da Silva JM. 2025. Regional Near Threatened D2; uplisted compared with 2016; regional population trend Unknown."
+            },
+            {
+                "title": "Rüppell's bat",
+                "url": "https://en.wikipedia.org/wiki/R%C3%BCppell's_bat",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "The title Vansonia rueppellii redirects here. Cites Monadjem, Aulagnier, Jacobs, Palmeirim, Taylor and Cotterill (2017), IUCN Least Concern, assessed as Pipistrellus rueppellii."
+            }
+        ]
+    },
+    "size": {
+        "tailCm": {
+            "min": 3.8,
+            "max": 3.8
+        },
+        "massKg": {
+            "min": 0.007,
+            "max": 0.007
+        },
+        "note": "Wikipedia, citing Mills and Hes (1997) and Stuart and Stuart (2001), says the species is 10 cm long, its tail is 3.8 cm long, its forearm is no more than 3.4 cm, and it weighs only 7 g (0.007 kg). The 10 cm figure is quoted as given; the page does not say whether that length includes the tail. The 2025 EWT assessment, citing Monadjem et al. (2020b), gives mean forearm length (sexes combined) as 3.49 ± 0.24 cm, and, citing Monadjem et al. (2020a), a maximum forearm length (sexes combined) of 3.93 cm. Those forearm figures sit above Wikipedia's 'no more than 3.4 cm'. No head-and-body length or shoulder height was published on the pages used."
+    },
+    "summary": "A small insect-eating vesper bat, the only member of the genus Vansonia, with darkened upper parts and a striking pure-white underside that sets it apart from other pipistrelles. It is associated with large rivers and wetlands in dry savannah or woodland, and in Kruger it forages as a clutter-edge hunter whose diet is predominantly beetles. The 2025 regional assessment rates it Near Threatened. That page names occurrence in Kruger National Park, including the northern regions of the park, and lists the movement pattern as Unknown.",
+    "description": "The 2025 EWT assessment, citing Monadjem et al. (2020a), says the species is easily identified by its striking white venter and darkened upper parts, and later that it is small and easily distinguished from other pipistrelle bats by its pure white underparts. Wikipedia describes it as a vesper bat, also known as Rüppell's pipistrelle, and the only member of the genus Vansonia; it was formerly classified in Pipistrellus. The English checklist name is Rüppell's bat; the 2025 assessment also lists Rüppel's Pipistrelle, Ruppell's Pipistrelle, Rüppel's Pipistrelle Bat and Rüppell's Bat, and the Afrikaans name Rüppell se vlermuis. Wikipedia, citing Mills and Hes (1997) and Stuart and Stuart (2001), says the species is 10 cm long, with a tail of 3.8 cm, a forearm no more than 3.4 cm, and a mass of only 7 g. The 2025 assessment, citing Monadjem et al. (2020b, 2020a), gives mean forearm length (sexes combined) as 3.49 ± 0.24 cm and a maximum of 3.93 cm. The assessment notes that Pipistrellus rueppellii was previously included in the subgenus Vansonia Roberts, 1946, and that molecular evidence supports treating rueppellii as a distinct genus, while calling for further integrative taxonomic work, including on the subspecies listed by Meester et al. (1986).",
+    "habits": "The 2025 EWT assessment, citing Skinner and Chimimba (2005) and Monadjem et al. (2020a), says the species appears to be associated with large rivers and wetlands in dry savannah or woodland habitats, often within arid regions, and that it often hunts over open water. Happold (2013) is cited for slow-hawking over water, and the assessment calls it a clutter-edge forager. In the Okavango Delta, individuals were observed gleaning floating insects off the water surface in Xugana Lagoon, and some also landed in the water (Monadjem et al. 2020a). Nearly all southern African specimens were netted, so roosting habits in the region are not known; the species is presumed to show plastic roosting behaviour, as individuals elsewhere in the range have been observed roosting under rocks, inside buildings, under peeling wall plaster, and behind notice boards. It has also been reported to roost in pairs under rocks in Egypt (Hoogstraal 1962), though the assessment says it is uncertain whether that behaviour occurs in the assessment-region population. Movement patterns are listed as Unknown. Congregatory status is given as congregating for social foraging over water bodies elsewhere in its range (Happold 2013). The assessment describes it as a slow-flying species with low wing loading (Norberg and Rayner 1987; Monadjem et al. 2020a).",
+    "diet": {
+        "summary": "An insectivore and clutter-edge forager. The 2025 EWT assessment, citing Monadjem et al. (2020a), says the diet varies between regions: in Kruger National Park it included predominantly beetles (Coleoptera), while at Sengwa in Zimbabwe it comprised beetles, moths (Lepidoptera), caddisflies (Trichoptera) and flies (Diptera). In the Okavango Delta, individuals were observed gleaning floating insects off the water surface.",
+        "items": [
+            "beetles",
+            "moths",
+            "caddisflies",
+            "flies",
+            "floating insects taken from the water surface"
+        ],
+        "guild": "insectivore"
+    },
+    "young": "The 2025 EWT assessment states that the species gives birth to live young. Average litter size, gestation time, reproductive periodicity, age at maturity, size at birth and generation length are listed as unknown. Pup appearance was not described on the pages used.",
+    "predators": [],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Insects",
+            "note": "The 2025 EWT assessment, citing Monadjem et al. (2020a), reports a clutter-edge insect diet that in Kruger was predominantly Coleoptera, and elsewhere also Lepidoptera, Trichoptera and Diptera, with gleaning of floating insects off the water surface in the Okavango Delta. Not mammals in this guide."
+        }
+    ],
+    "habitat": "The 2025 EWT assessment, citing Skinner and Chimimba (2005) and Monadjem et al. (2020a), says the species appears to be associated with large rivers and wetlands in dry savannah or woodland habitats, often within arid regions. In southern Africa it occurs widely across the northern parts of the region from Kruger National Park through to Zimbabwe, Zambia, Malawi, southern Democratic Republic of the Congo, northern Botswana and west to Angola and the extreme north of Namibia. Meester et al. (1986) listed the nominate form from eastern Zimbabwe and the northern regions of Kruger National Park. Within the assessment region it is recorded from Bushmanland, the Lowveld and the Mopane Bioregion, with an isolated record from Augrabies Falls National Park in the Northern Cape that may represent a vagrant or an overlooked population. Elevation limits are given as 2–1,900 m above sea level (Monadjem et al. 2024). Wikipedia, citing the 2017 IUCN assessment, lists dry and moist savanna, subtropical or tropical dry shrubland, and hot deserts. The conservation section says occurrence records in the assessment region are in Kruger National Park and Augrabies Falls National Park, apart from the Venetia mine footprint.",
+    "similar": [
+        {
+            "slug": "pipistrellus-hesperidus",
+            "note": "The 2025 EWT assessment says this species is small and easily distinguished from other pipistrelle bats by its pure white underparts and striking white venter with darkened upper parts."
+        },
+        {
+            "slug": "pipistrellus-rusticus",
+            "note": "The 2025 EWT assessment says this species is small and easily distinguished from other pipistrelle bats by its pure white underparts and striking white venter with darkened upper parts."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. One source claims that in the assessment region (South Africa, Eswatini and Lesotho) no data are available for population size or trends, that the species is considered uncommon (only 60 specimens examined in Monadjem et al. 2020a), that it is unlikely the total population exceeds 1,000 individuals given the sparse occurrence records despite intensive surveys in the northern regions of South Africa, and that the current population trend is Unknown. A more accurate figure may be available at this URL: https://ewt.org/project/ruppels-pipistrelle/",
+        "sources": [
+            {
+                "title": "A conservation assessment of Vansonia rueppellii",
+                "url": "https://ewt.org/project/ruppels-pipistrelle/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional remarks only (current population trend Unknown; considered uncommon; one source claims it is unlikely the total regional population exceeds 1,000 individuals). Not a Kruger estimate."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": null
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": null,
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": "darkened",
+                    "pattern": null
+                },
+                "underparts": {
+                    "colour": "pure white",
+                    "pattern": "striking white venter"
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": null
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "flight-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A clutter-edge forager that often hunts over open water, including by slow-hawking and, outside Kruger, by gleaning floating insects from the water surface. The 2025 assessment describes it as slow-flying, with low wing loading."
+        },
+        {
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "Easily told from other pipistrelles by the striking white underside against darkened upper parts. Roosting habits in southern Africa are not known; elsewhere in the range it has been found under rocks, inside buildings, under peeling wall plaster, and behind notice boards."
+        }
+    ],
+    "calls": [],
+    "images": [],
+    "sources": [
+        {
+            "title": "A conservation assessment of Vansonia rueppellii",
+            "url": "https://ewt.org/project/ruppels-pipistrelle/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Richards LR and da Silva JM. 2025. Source of the 2025 regional Near Threatened D2 status (uplisted compared with 2016; regional population trend Unknown), the Afrikaans name Rüppell se vlermuis, the identification marks (striking white venter and darkened upper parts; pure white underparts), habitat (large rivers and wetlands in dry savannah or woodland), Kruger occurrence including the northern regions of the park, the Kruger diet of predominantly Coleoptera, forearm measurements, live birth, unknown movement patterns, and occurrence also at Augrabies Falls National Park and the Venetia mine footprint. Cited only; not hosted in this repo."
+        },
+        {
+            "title": "Rüppell's bat",
+            "url": "https://en.wikipedia.org/wiki/R%C3%BCppell's_bat",
+            "publisher": "Wikipedia",
+            "year": 2026,
+            "note": "The title Vansonia rueppellii redirects here. Source of the English name Rüppell's pipistrelle, the statement that the species is the only member of Vansonia and was formerly classified in Pipistrellus, the size figures (10 cm long, tail 3.8 cm, forearm no more than 3.4 cm, mass 7 g), habitat types (dry and moist savanna, dry shrubland, and hot deserts), and a note that it is not unusual to find them in crevices, rocks and buildings. Cites the 2017 IUCN Least Concern assessment (Monadjem, Aulagnier, Jacobs, Palmeirim, Taylor and Cotterill), assessed as Pipistrellus rueppellii."
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger-list animal as Vansonia rueppellii (English Rüppell's bat; Afrikaans Rüppell se vlermuis) and does not change the checklist English name, although the 2025 EWT assessment and iNaturalist prefer Rüppell's pipistrelle (EWT page title Rüppel's Pipistrelle). The 2025 assessment discusses the transfer from Pipistrellus to Vansonia, flags uncertainty over the subspecies vernayi and rueppellii, and calls for further integrative taxonomy; those points are flagged, not used to split or revert the checklist taxon. The page names Kruger National Park repeatedly, including the northern regions of the park and a Kruger-specific diet, so the Kruger record is treated as definite. Movement patterns are listed as Unknown, which does not block resident status. The assessment also names the Great Limpopo Transfrontier Park in the rationale and flags the Augrabies Falls record as possibly a vagrant or overlooked population, with no recent reports from that park."
+    },
+    "gaps": [
+        "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Unknown and discusses a possible regional total of fewer than 1,000 individuals, not a Kruger figure.",
+        "No published head-and-body length or shoulder height; Wikipedia's 10 cm length is not stated as head-and-body or total length, and its forearm maximum of 3.4 cm disagrees with the EWT mean and maximum forearm figures.",
+        "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
+        "No licensable photograph in Kruger (place 69020) or South Africa (place 6986); images are left empty.",
+        "Pup appearance, litter size and other life-history figures were not published in the sources used.",
+        "Ear, eye, face, muzzle, leg and tail colours were not described on the pages used.",
+        "Roosting habits in southern Africa, including Kruger, are not known.",
+        "No named predators were given on the pages used."
+    ]
+}

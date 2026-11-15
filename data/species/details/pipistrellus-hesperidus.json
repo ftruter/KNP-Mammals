@@ -1,0 +1,169 @@
+{
+    "kind": "species",
+    "slug": "pipistrellus-hesperidus",
+    "scientificName": "Pipistrellus hesperidus",
+    "commonNames": {
+        "en": "African pipistrellus",
+        "af": "Kuhl se vlermuis"
+    },
+    "family": "vespertilionidae",
+    "inatTaxonId": 57536,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Pipistrellus hesperidus",
+                "url": "https://ewt.org/project/dusky-pipistrelle/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Howard A, da Silva JM and Balona J. 2025. Regional Least Concern; no change from 2016; regional population trend Stable."
+            },
+            {
+                "title": "Dusky pipistrelle",
+                "url": "https://en.wikipedia.org/wiki/Dusky_pipistrelle",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "The title Pipistrellus hesperidus redirects here. Cites Piraccini (2016), IUCN Least Concern."
+            }
+        ]
+    },
+    "size": {
+        "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length as 3.24 ± 0.13 cm and 3.29 ± 0.11 cm (the two means are printed under the Age at Maturity: Male and Size at Maturity: Female labels) and a maximum forearm length of 3.50 cm in both males and females. It also states, citing Monadjem et al. (2010), that there is sexual dimorphism, with females on average slightly heavier than males, but it does not publish a mass, head-and-body length, tail length or shoulder height."
+    },
+    "summary": "A small insect-eating vesper bat, formerly treated within Kuhl's pipistrelle (Pipistrellus kuhlii). It forages along the clutter edge and has been recorded roosting in narrow cracks in rocks and under the loose bark of dead trees. The 2025 regional assessment rates it Least Concern. It is treated as resident in Kruger National Park: the SANBI Red List assessment describes it as widely distributed along the eastern half of South Africa, including Mpumalanga and Limpopo, and the 2025 assessment lists the Pafuri region and the Great Limpopo Transfrontier Park.",
+    "description": "The English checklist name is African pipistrellus; the 2025 EWT assessment and Wikipedia use Dusky Pipistrelle (the assessment also lists African Pipistrelle and Kuhl's Pipistrelle). The Afrikaans checklist name is Kuhl se vlermuis, which the assessment also lists, together with Kuhlvlermuis. No coat, ear or facial characters were published on the pages used, and none are carried over from P. kuhlii. The 2025 assessment, citing Monadjem et al. (2020), gives mean forearm length as 3.24 ± 0.13 cm and 3.29 ± 0.11 cm, and a maximum forearm length of 3.50 cm in both sexes, and, citing Monadjem et al. (2010), notes that females are on average slightly heavier than males. It was previously included in Pipistrellus kuhlii and later treated as a distinct species on morphological and karyotype evidence (Kock 2001; Kearney et al. 2002). The assessment, citing Koubínová et al. (2013) and Monadjem et al. (2021), states that chromosomal and molecular data suggest a species complex, and that three of the listed African subspecies may require elevation to species level.",
+    "habits": "The 2025 EWT assessment says there is a general lack of information on the types of diurnal roosting sites used, but the species has been recorded in narrow cracks in rocks and under the loose bark of dead trees (Smithers 1971; Skinner & Chimimba 2005). Tree cavities are mentioned as possible roosts at Paradise Valley Nature Reserve in the Durban region (Naidoo et al. 2011). It is a clutter-edge forager. Congregatory remarks, citing Kearney (2013) and Rautenbach (1982), report roosts of 12 individuals, foraging in groups, and possible swarming behaviour. Movement patterns are listed as no available information.",
+    "diet": {
+        "summary": "An insectivore. The 2025 EWT assessment, citing Schoeman (2006) and Monadjem et al. (2020), says it is a clutter-edge forager with a diet including beetles (Coleoptera), bugs (Hemiptera), flies (Diptera) and moths and allies (Lepidoptera). As an insectivore it may help control crop pests such as stinkbugs (Taylor et al. 2013, 2018).",
+        "items": [
+            "beetles",
+            "bugs",
+            "flies",
+            "moths and allies"
+        ],
+        "guild": "insectivore"
+    },
+    "young": "The 2025 EWT assessment states that the species gives birth to live young and typically produces twins, though occasionally only one pup (Rautenbach 1982; Kearney 2013). It exhibits seasonal monoestry, with breeding and births during the austral summer months, and pregnant females recorded in October and December (Taylor 1998; Moir et al. 2020a). In KwaZulu-Natal, a pregnant female with two foetuses was located in October (Taylor 1998), suggesting that young are born during the warm wet season. Gestation time, size at birth, generation length, age at maturity and longevity are listed as unknown or not specified. Average reproductive age is listed as possibly 1–2 years. Pup appearance was not described on the pages used.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Avian raptors",
+            "note": "The 2025 EWT assessment, citing Kearney (2013), lists avian raptors and snakes as natural predators. Not identified to species."
+        },
+        {
+            "slug": null,
+            "en": "Snakes",
+            "note": "The 2025 EWT assessment, citing Kearney (2013), lists avian raptors and snakes as natural predators. Not identified to species."
+        }
+    ],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Insects",
+            "note": "The 2025 EWT assessment, citing Schoeman (2006) and Monadjem et al. (2020), reports a diet of Coleoptera, Hemiptera, Diptera and Lepidoptera. Not mammals in this guide."
+        }
+    ],
+    "habitat": "The 2025 EWT assessment says the species is associated with woody habitats, such as riparian vegetation and forest patches (Happold et al. 1987), especially in the proximity of water (Skinner & Chimimba 2005; Monadjem & Reside 2008). Suitable habitats listed under the IUCN scheme are dry and moist subtropical or tropical forest and dry and moist savanna. Within the assessment region it occurs widely in the east, from the Eastern Cape north through KwaZulu-Natal, Eswatini and northern South Africa. In Limpopo Province it occurs in the Soutpansberg and Pafuri regions southwards into Mpumalanga (Skinner & Chimimba 2005). Elevation limits are given as 5–3,869 m above sea level (Monadjem et al. 2024). The conservation section records it from many protected areas, including the Great Limpopo Transfrontier Park. The page does not name Kruger National Park.",
+    "similar": [
+        {
+            "slug": "pipistrellus-rusticus",
+            "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), says this species is larger than P. rusticus (English checklist name rusty bat). It also notes that the species is very difficult to distinguish from other Pipistrellus, Hypsugo or Neoromicia species."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment lists the current population trend as Stable, does not give a Kruger figure, and states that because abundance across much of the range is poorly known it is not possible to estimate the effective population size. Those remarks apply to South Africa, Eswatini and Lesotho, not to Kruger.",
+        "sources": [
+            {
+                "title": "A conservation assessment of Pipistrellus hesperidus",
+                "url": "https://ewt.org/project/dusky-pipistrelle/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional remarks only (current population trend Stable; effective population size not estimable). Not a Kruger estimate."
+            }
+        ]
+    },
+    "variants": [],
+    "viewNotes": [
+        {
+            "view": "flight-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A clutter-edge forager. Also known to forage in groups, and may engage in swarming behaviour."
+        },
+        {
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "Diurnal roosts are poorly known. Recorded in narrow cracks in rocks and under the loose bark of dead trees; tree cavities have been suggested as possible roosts. Reported to roost in groups of 12 individuals."
+        }
+    ],
+    "calls": [],
+    "images": [],
+    "sources": [
+        {
+            "title": "Red List assessment of Pipistrellus hesperidus",
+            "url": "https://speciesstatus.sanbi.org/assessment/last-assessment/2359/",
+            "publisher": "South African National Biodiversity Institute (SANBI)",
+            "year": null,
+            "note": "Source of resident status: \"widely distributed within South Africa along the eastern half of the country from the Eastern Cape through KwaZulu-Natal, Eswatini, Mpumalanga, and Limpopo... north into Zimbabwe, Zambia, Malawi, and Mozambique.\""
+        },
+        {
+            "title": "A conservation assessment of Pipistrellus hesperidus",
+            "url": "https://ewt.org/project/dusky-pipistrelle/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Howard A, da Silva JM and Balona J. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable), the English names Dusky Pipistrelle, African Pipistrelle and Kuhl's Pipistrelle, the Afrikaans names Kuhl se Vlermuis and Kuhlvlermuis, habitat, roost remarks, diet, life-history remarks, predators, former inclusion in Pipistrellus kuhlii, the listed synonyms and subspecies, the species-complex and possible subspecies-elevation flags, comparison with P. rusticus, movement patterns listed as no available information, and occurrence in the Great Limpopo Transfrontier Park and in the Soutpansberg and Pafuri regions of Limpopo Province. The page does not mention Kruger National Park. Cited only; not hosted in this repo."
+        },
+        {
+            "title": "Dusky pipistrelle",
+            "url": "https://en.wikipedia.org/wiki/Dusky_pipistrelle",
+            "publisher": "Wikipedia",
+            "year": 2026,
+            "note": "The title Pipistrellus hesperidus redirects here. A short stub; it gives the English name Dusky pipistrelle, cites the 2016 IUCN Least Concern assessment (Piraccini), and describes the species as a small pipistrelle found in Madagascar. It does not describe appearance, size, or the mainland African range given by the 2025 EWT assessment."
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger-list animal as Pipistrellus hesperidus (English African pipistrellus; Afrikaans Kuhl se vlermuis) and does not remap the name. The 2025 EWT assessment and Wikipedia use Dusky Pipistrelle as the preferred English name; that is flagged here, not used to change the checklist name. The 2011 list already treated P. kuhlii as a synonym of P. hesperidus. The 2025 assessment, citing Kock (2001) and Kearney et al. (2002), confirms the split from P. kuhlii, and, citing Koubínová et al. (2013) and Monadjem et al. (2021), reports a species complex and that three listed African subspecies may require elevation to species level; those points are flagged, not used to split or remap the checklist taxon. The 2025 page names the Great Limpopo Transfrontier Park and cites occurrence in the Soutpansberg and Pafuri regions of Limpopo Province, but does not name Kruger National Park itself. The project owner decided (15 November 2026) to treat the species as resident in Kruger on the basis of the SANBI Red List assessment (https://speciesstatus.sanbi.org/assessment/last-assessment/2359/), which describes it as \"widely distributed within South Africa along the eastern half of the country from the Eastern Cape through KwaZulu-Natal, Eswatini, Mpumalanga, and Limpopo... north into Zimbabwe, Zambia, Malawi, and Mozambique.\" Wikipedia's stub mentions only Madagascar, which does not match the wide sub-Saharan range given by EWT."
+    },
+    "gaps": [
+        "No source found names Kruger National Park itself; resident status rests on the SANBI Red List range description (eastern South Africa, including Mpumalanga and Limpopo) and the 2025 assessment's mention of the Pafuri region and the Great Limpopo Transfrontier Park. Movement patterns are listed as no available information.",
+        "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Stable and says an effective population size cannot be estimated, not a Kruger figure.",
+        "No published head-and-body length, tail length, shoulder height or mass; only forearm means and a 3.50 cm maximum, plus a qualitative note that females are on average slightly heavier than males, were given.",
+        "No coat, ear, face or other appearance characters were published on the pages used; none were carried over from P. kuhlii. variants is empty.",
+        "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
+        "No licensable usable photograph: Kruger (place 69020) had no observations, and the four licensed South African records were a bat on a towel on a street in St Lucia, a captured bat, a drowned bat, and a rescued juvenile.",
+        "Pup appearance was not published in the sources used.",
+        "The English checklist name is African pipistrellus; EWT and Wikipedia use Dusky Pipistrelle. The Afrikaans checklist form Kuhl se vlermuis matches EWT's Kuhl se Vlermuis; EWT also lists Kuhlvlermuis. Names are not remapped.",
+        "The only sourced field comparison is that this species is larger than P. rusticus, with a general note that it is very difficult to distinguish from other Pipistrellus, Hypsugo or Neoromicia species."
+    ]
+}

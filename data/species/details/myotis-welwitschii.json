@@ -1,0 +1,177 @@
+{
+    "kind": "species",
+    "slug": "myotis-welwitschii",
+    "scientificName": "Myotis welwitschii",
+    "commonNames": {
+        "en": "Welwitsch's hairy bat",
+        "af": "Welwitsch se langhaarvlermuis"
+    },
+    "family": "vespertilionidae",
+    "inatTaxonId": 40336,
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Myotis welwitschii",
+                "url": "https://ewt.org/project/welwitschs-hairy-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Richards LR, Howard A and da Silva JM. 2025. Regional Least Concern; no change from 2016; regional population trend Stable."
+            },
+            {
+                "title": "Welwitsch's bat",
+                "url": "https://en.wikipedia.org/wiki/Welwitsch%27s_bat",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "The title Myotis welwitschii redirects here. Cites Monadjem, Taylor, Jacobs and Cotterill (2017), IUCN Least Concern."
+            }
+        ]
+    },
+    "size": {
+        "lengthCm": {
+            "min": 10.5,
+            "max": 12.7
+        },
+        "note": "The 2025 EWT assessment lists total body length as 10.5–12.7 cm, and, citing Monadjem et al. (2020), gives only means for the other figures: forearm length 5.60 ± 0.22 cm and total length 11.60 ± 0.74 cm. Wikipedia, citing Ratcliffe (2002), says the species measures about 12 cm in length and weighs 12 to 17 g. No head-and-body length, tail length, shoulder height or mass range in kilograms was published on the pages used."
+    },
+    "summary": "A relatively large insect-eating vesper bat with chestnut-brown fur, off-white underparts, and distinctive reddish wing membranes marked with irregular dark brown to black spots. It mainly inhabits open woodland and savannah, usually roosts alone in trees, bushes, buildings or caves, and forages along the clutter edge. The 2025 regional assessment rates it Least Concern. That page does not mention Kruger National Park, and it lists the movement pattern as unknown.",
+    "description": "Wikipedia, citing Ratcliffe (2002), describes a relatively large member of its genus, about 12 cm in length and weighing 12 to 17 g, with a chestnut-brown body, off-white underparts, a pinkish face, a moderately long snout, and large, round, coppery-red ears. The wing membranes are reddish with irregular dark brown to black spots. The English checklist name is Welwitsch's hairy bat; Wikipedia's title is Welwitsch's bat, and it also lists Welwitsch's mouse-eared bat and Welwitsch's myotis. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length as 5.60 cm and mean total length as 11.60 cm, and lists total body length as 10.5–12.7 cm. The species was described in 1866 as Myotis welwitschii (Gray). The assessment lists Scotophilus welwetschii, venustus, and the incorrect subsequent spelling welwitschi as synonyms, and states that the species is monotypic, with no recognised subspecies.",
+    "habits": "The 2025 EWT assessment, citing Ratcliffe (2002) and Monadjem et al. (2020), says the species is generally a solitary rooster and clings to surfaces in trees or shrubs. Anecdotal day-roost records include factories, houses, low bushes, trees (in hollows and among leaves, including rolled banana leaves), and deep caves such as Makapan's Cave in Limpopo. It is a clutter-edge forager. Morales et al. (2024) assigned it to the \"gleaner\" ecomorph type. Wikipedia, citing Ratcliffe (2002), likewise says it generally roosts alone in trees, low bushes, artificial structures or deep caves, and describes broad wings with a low aspect ratio, typical of a clutter-edge forager. Movement patterns are listed as unknown. Congregatory is listed as no; records reported thus far all relate to singletons roosting in trees and bushes (Happold 2013). The assessment notes intermediate wing loading (Schoeman and Jacobs 2003), so dispersal effects are probably possible. Wikipedia adds that there is limited information about social habits, with a single recorded observation of a pair roosting together.",
+    "diet": {
+        "summary": "An insectivore. The 2025 EWT assessment, citing Monadjem et al. (2020), says it is a clutter-edge forager and, based on limited observations in Mpumalanga, its diet comprises aerial prey such as beetles (Coleoptera) and bugs (Hemiptera). Wikipedia also lists moths among that aerial prey.",
+        "items": [
+            "beetles",
+            "bugs",
+            "moths"
+        ],
+        "guild": "insectivore"
+    },
+    "young": "The 2025 EWT assessment states that the species gives birth to live young. Average litter size, gestation time, generation length, age at maturity, size at birth and longevity are listed as not specified or unknown. Wikipedia says there is limited information about the reproductive habits of this species. Pup appearance was not described on the pages used.",
+    "predators": [],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Insects",
+            "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), reports a diet of aerial Coleoptera and Hemiptera, from limited observations in Mpumalanga. Wikipedia also lists moths. Not mammals in this guide."
+        }
+    ],
+    "habitat": "The 2025 EWT assessment, citing Ratcliffe (2002) and ACR (2024), says the species mainly inhabits open woodland and savannah, but has been recorded from tropical dry forest, montane tropical moist forest, both dry and moist savannah, shrublands, and high-altitude grassland. It may be associated with mountains covered by a woodland-forest mosaic in some areas (Fahr and Ebigbo 2003; Monadjem et al. 2020). Elevation limits are given as 49–2,380 m above sea level (Monadjem et al. 2024). Within the assessment region it occurs in Limpopo, Mpumalanga, Gauteng, KwaZulu-Natal and marginally in the Free State, has recently been recorded in Eswatini, and is absent from Lesotho. The conservation section says it has been recorded from the Great Limpopo Transfrontier Park and is expected to occur in many other smaller protected areas. The page does not name Kruger National Park.",
+    "similar": [],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment lists the current population trend as Stable, does not give a Kruger figure, and says that although the species is widespread it is not common (ACR 2024), tends to roost singly, and is poorly represented in museums, with just 30 records examined in Monadjem et al. (2020). Those remarks apply to the assessment region, not to Kruger.",
+        "sources": [
+            {
+                "title": "A conservation assessment of Myotis welwitschii",
+                "url": "https://ewt.org/project/welwitschs-hairy-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional remarks only (current population trend Stable; uncommon; roosts singly; 30 museum records in Monadjem et al. 2020). Not a Kruger estimate."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": "coppery-red",
+                    "shape": "large and round"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "pinkish, with a moderately long snout",
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": "chestnut brown",
+                    "pattern": null
+                },
+                "underparts": {
+                    "colour": "off-white",
+                    "pattern": null
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": null
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "flight-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A clutter-edge forager. Wikipedia, citing Ratcliffe (2002), describes broad wings with a low aspect ratio, and wing membranes that are reddish with irregular dark brown to black spots."
+        },
+        {
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "Generally a solitary rooster, clinging to surfaces in trees or shrubs. Anecdotal day roosts also include factories, houses, low bushes, tree hollows, rolled banana leaves, and deep caves such as Makapan's Cave in Limpopo."
+        }
+    ],
+    "calls": [],
+    "images": [],
+    "sources": [
+        {
+            "title": "A conservation assessment of Myotis welwitschii",
+            "url": "https://ewt.org/project/welwitschs-hairy-bat/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Richards LR, Howard A and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable), the Afrikaans names Welwitsch se langhaarvlermuis and Welwitsch-langhaarvlermuis, habitat, solitary tree, bush, building and cave roosts including Makapan's Cave, clutter-edge foraging, the Mpumalanga diet of Coleoptera and Hemiptera, the live-bearing remark, the original combination Myotis welwitschii, the synonyms Scotophilus welwetschii, venustus and welwitschi, the monotypic taxonomic note, two mitochondrial lineages flagged by Patterson et al. (2019), mean forearm and total lengths, the total body length range, and occurrence in the Great Limpopo Transfrontier Park. Movement patterns are listed as unknown. The page does not mention Kruger National Park. Cited only; not hosted in this repo."
+        },
+        {
+            "title": "Welwitsch's bat",
+            "url": "https://en.wikipedia.org/wiki/Welwitsch%27s_bat",
+            "publisher": "Wikipedia",
+            "year": 2026,
+            "note": "The title Myotis welwitschii redirects here. Source of the appearance account (chestnut-brown body, off-white underparts, reddish wing membranes with irregular dark brown to black spots, pinkish face, moderately long snout, large round coppery-red ears), the length of about 12 cm and the mass of 12 to 17 g, the clutter-edge foraging note, the addition of moths to the diet, and the remark that reproductive and social habits are poorly known, with a single record of a pair roosting together. Lists the English names Welwitsch's bat, Welwitsch's mouse-eared bat and Welwitsch's myotis. Cites the 2017 IUCN Least Concern assessment (Monadjem, Taylor, Jacobs and Cotterill)."
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger-list animal as Myotis welwitschii (English Welwitsch's hairy bat; Afrikaans Welwitsch se langhaarvlermuis) and does not remap the name. Wikipedia uses Welwitsch's bat as the title, and iNaturalist uses Welwitsch's Mouse-eared Bat as the preferred English name; those are flagged here, not used to change the checklist name. The 2025 EWT assessment, citing Patterson et al. (2019), reports two evolutionarily distinct lineages within M. welwitschii, but notes that only a single mitochondrial gene and limited samples were used and recommends further integrative taxonomy; those points are flagged, not used to split the checklist taxon. The 2025 page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park. Movement patterns are listed as unknown, so status and monthsPresent are omitted."
+    },
+    "gaps": [
+        "The 2025 EWT assessment does not mention Kruger National Park (it names the Great Limpopo Transfrontier Park). Movement patterns are listed as unknown, so status and monthsPresent are omitted.",
+        "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Stable and discusses a widespread but uncommon species that roosts singly, not a Kruger figure.",
+        "No published head-and-body length, tail length, shoulder height or mass range in kilograms; only a total body length of 10.5–12.7 cm, mean forearm and total lengths, and a Wikipedia mass of 12 to 17 g, were given.",
+        "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
+        "No usable photograph: the only licensed Kruger observation (place 69020) shows a dead bat being carried by a southern ground hornbill; the other licensed southern African photographs were of handled bats, or could not be confirmed from the thumbnail as a natural roost.",
+        "Pup appearance was not published in the sources used.",
+        "Iris, muzzle, legs and tail colours were not described on the pages used. No natural predators were named on the pages used.",
+        "No sourced field comparison with another species in this guide."
+    ]
+}

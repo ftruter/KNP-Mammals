@@ -1,0 +1,199 @@
+{
+    "kind": "species",
+    "slug": "neoromicia-zuluensis",
+    "scientificName": "Neoromicia zuluensis",
+    "commonNames": {
+        "en": "Somali serotine bat",
+        "af": "Somali-dakvlermuis"
+    },
+    "family": "vespertilionidae",
+    "inatTaxonId": 765532,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Neoromicia zuluensis",
+                "url": "https://ewt.org/project/zulu-pipistrelle-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Balona J, Richards LR and da Silva JM. 2025. Regional Least Concern; no change from 2016; regional population trend Stable. The page title is Zulu Pipistrelle Bat."
+            },
+            {
+                "title": "Zulu serotine",
+                "url": "https://en.wikipedia.org/wiki/Zulu_serotine",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "The title Neoromicia zuluensis redirects here. Cites Monadjem, Cotterill and Jacobs (2017), IUCN Least Concern."
+            }
+        ]
+    },
+    "size": {
+        "massKg": {
+            "min": 0.003,
+            "max": 0.006
+        },
+        "note": "Wikipedia, citing Kingdon and Happold in Mammals of Africa (2013), gives a head-and-body length of about 7.5 cm, a forearm length of about 3.0 cm, a wingspan of about 22.5 cm, and a mass of 3–6 g (0.003–0.006 kg). The approximate length figures are recorded here rather than as min–max bounds. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length as 3.02 ± 0.14 cm in females and 3.00 ± 0.083 cm in males, and mean total length as 8.00 ± 0.36 cm in females and 7.46 ± 0.39 cm in males. Those totals are not the same measurement as Wikipedia's head-and-body length, and no tail length was published on the pages used."
+    },
+    "summary": "A very small brown vesper bat of savanna woodland and shrubland, often near water. The back is medium brown, the underside paler greyish-brown, and the dark wings usually lack a white trailing edge. It is recorded as a year-round resident of Kruger National Park, where a diet study found mostly beetles and some moths. Daytime roosts are not known. The 2025 regional assessment rates it Least Concern.",
+    "description": "Wikipedia, citing Kingdon and Happold (2013), describes a very small microbat with soft, dense fur that is longer on the rump than elsewhere. The back is medium brown, each hair with a brownish-black shaft and a medium to pale brown tip; the underside is a paler greyish-brown, the hairs having dark grey shafts and paler, greyish-brown tips. The wing membranes are dark and usually lack a white trailing edge, and the tail is wholly enclosed in the interfemoral membrane. The English checklist name is Somali serotine bat, and the Afrikaans checklist name is Somali-dakvlermuis; those list forms are kept here. The 2025 EWT assessment uses Zulu Pipistrelle Bat as its title and also lists Zulu Serotine, Aloe Bat, Aloe Serotine and Aloe Serotine Bat, with the Afrikaans name Kaapse dakvlermuis. Wikipedia's title is Zulu serotine, and it also lists Zulu pipistrelle, aloe bat and aloe serotine. iNaturalist's preferred English name is Zulu serotine. The species was described as Eptesicus zuluensis Roberts, 1924, and has also been placed in Pipistrellus; the current combination is Neoromicia zuluensis. The 2025 assessment says it is closely related to Neoromicia somalica, that earlier authors treated the two as conspecific (Meester et al. 1986), and that chromosomal data (Rautenbach et al. 1993) and later mitochondrial studies (Monadjem et al. 2020) support treating zuluensis as a separate species. Taylor et al. (2022) found deep mitochondrial divergence between southern African N. zuluensis and East African N. cf. zuluensis, but further integrative taxonomic work is needed before those lineages are formally described. The 2011 Kruger checklist listed this animal as the subspecies Eptesicus somalicus zuluensis; this file follows species-list.json in keeping the stored species as Neoromicia zuluensis and does not remap the checklist names.",
+    "habits": "The 2025 EWT assessment, citing Monadjem et al. (2020), says roosting sites are not well known, a point Wikipedia also makes. Morphometric data and field studies show that it forages over water, in highly cluttered vegetation, in tree canopies, in open spaces between lower branches and trunks, and in clearings around buildings (Fenton and Bogdanowicz 2002; Happold et al. 2013). Wikipedia, citing the same Mammals of Africa account, describes a moderately fast, highly manoeuvrable flight, and says the bat can bank, twist and stall, scramble across the ground and take off from it. It hawks insects by echolocation, hunting in glades and around trees, flying between trunks and among branches, and it has been seen flying over water, though whether it was feeding or drinking is unclear. Individuals from the Namib Desert have a high urine-concentrating ability (Happold and Happold 1988), and Wikipedia notes that captives can survive for several days without water. Movement patterns are listed as Unknown, and the text does not describe a migrant or seasonal pattern. The assessment records the species from Kruger National Park, and a Kruger diet study is cited, so it is treated here as a year-round resident.",
+    "diet": {
+        "summary": "An insectivore. The 2025 EWT assessment, citing Aldridge and Rautenbach (1987), says that in Kruger National Park the diet consisted mostly of beetles (Coleoptera) and a lesser proportion of moths (Lepidoptera). Wikipedia, citing Kingdon and Happold (2013), says it feeds primarily on moths and beetles.",
+        "items": [
+            "beetles",
+            "moths"
+        ],
+        "guild": "insectivore"
+    },
+    "young": "The 2025 EWT assessment states that the species gives birth to live young, lists average litter size as two pups per litter (Happold et al. 2013), and says it exhibits seasonal monoestry, with births coinciding with the rainy summer months (Happold et al. 2013). Females are known to give birth at the end of November and the beginning of December (Skinner and Chimimba 2005). Wikipedia, citing Kingdon and Happold (2013), says breeding seems to take place early in the wet season, with litters of one or two young. Gestation time, size at birth, age at maturity and longevity are listed as unknown or uncertain. Pup appearance was not described on the pages used.",
+    "predators": [],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Beetles",
+            "note": "The 2025 EWT assessment, citing Aldridge and Rautenbach (1987), reports that beetles (Coleoptera) made up most of the diet in Kruger National Park. Not mammals in this guide."
+        },
+        {
+            "slug": null,
+            "en": "Moths",
+            "note": "The same Kruger study found a lesser proportion of moths (Lepidoptera). Wikipedia, citing Kingdon and Happold (2013), also lists moths among the primary prey. Not mammals in this guide."
+        }
+    ],
+    "habitat": "The 2025 EWT assessment, citing Happold et al. (2013) and Monadjem et al. (2020), says populations have been recorded from dry and moist savannah, savannah woodland (including miombo woodland), and more arid shrublands where surface water or riparian corridors are available. In the assessment region it is recorded from the Mopane Bioregion, Lowveld, Highveld and Central Bushveld. Elevation limits are given as 17–1,666 m above sea level (Monadjem et al. 2024). The conservation section records it from many protected areas, including Kruger National Park, as well as Baobab Tree Reserve, Mapungubwe National Park, Blouberg Nature Reserve, Percy Fyfe Nature Reserve, Borakalalo National Park, Pilanesberg National Park and Hluhluwe-iMfolozi Park. Wikipedia, citing Kingdon and Happold (2013), describes the southern African range as wooded savanna, including miombo woodland, and, in drier south-western parts of the range, bushland and shrubland.",
+    "similar": [],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment lists the current population trend as Stable, does not give a Kruger figure, and says abundance in the assessment region is uncertain, though the species is generally reported as uncommon there (ACR 2024). It is well represented in museums, with more than 160 individuals assessed in Monadjem et al. (2020). Those remarks apply to the assessment region or the wider range, not to a Kruger count.",
+        "sources": [
+            {
+                "title": "A conservation assessment of Neoromicia zuluensis",
+                "url": "https://ewt.org/project/zulu-pipistrelle-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional remarks only (current population trend Stable; generally uncommon in the assessment region). Not a Kruger estimate."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": null
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": null,
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": "medium brown",
+                    "pattern": "soft, dense fur, longer on the rump; hairs with brownish-black shafts and medium to pale brown tips"
+                },
+                "underparts": {
+                    "colour": "paler greyish-brown",
+                    "pattern": "hairs with dark grey shafts and paler, greyish-brown tips"
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": "totally enclosed in the interfemoral membrane"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "flight-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "Hawks insects in glades and around trees, flying between trunks and among branches, and also forages over water, in cluttered vegetation, in canopies and in clearings. Wikipedia describes a moderately fast, highly manoeuvrable flight. The wing membranes are dark and usually lack a white trailing edge."
+        },
+        {
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "Daytime roost sites are not known."
+        }
+    ],
+    "calls": [],
+    "images": [],
+    "sources": [
+        {
+            "title": "A conservation assessment of Neoromicia zuluensis",
+            "url": "https://ewt.org/project/zulu-pipistrelle-bat/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Balona J, Richards LR and da Silva JM. 2025. The page body is an account of Neoromicia zuluensis (not N. somalica). Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable), the English names Zulu Pipistrelle Bat, Zulu Serotine, Aloe Bat, Aloe Serotine and Aloe Serotine Bat, the Afrikaans name Kaapse dakvlermuis, the synonyms Eptesicus zuluensis and Pipistrellus zuluensis, the distinction from N. somalica, the Taylor et al. (2022) note on southern versus East African mitochondrial lineages, occurrence in Kruger National Park, the Kruger diet of Coleoptera and Lepidoptera (Aldridge and Rautenbach 1987), foraging habitats, mean forearm and total lengths, life-history remarks, and movement patterns listed as Unknown. Cited only; not hosted in this repo."
+        },
+        {
+            "title": "Zulu serotine",
+            "url": "https://en.wikipedia.org/wiki/Zulu_serotine",
+            "publisher": "Wikipedia",
+            "year": 2026,
+            "note": "The title Neoromicia zuluensis redirects here. Source of the appearance account (medium brown upperparts, paler greyish-brown underparts, hair shaft and tip colours, dark wings usually without a white trailing edge, tail enclosed in the interfemoral membrane), the approximate head-and-body, forearm and wingspan figures, the 3–6 g mass range, the flight and hawking remarks, and the breeding note of one or two young early in the wet season. Lists the English names Zulu serotine, Zulu pipistrelle, aloe bat and aloe serotine. Cites the 2017 IUCN Least Concern assessment (Monadjem, Cotterill and Jacobs) and Kingdon and Happold in Mammals of Africa (2013)."
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger-list animal as Neoromicia zuluensis, keeping the 2011 checklist English name Somali serotine bat and the Afrikaans name Somali-dakvlermuis, and does not remap those names. The 2011 checklist printed the trinomial Eptesicus somalicus zuluensis; current sources use Neoromicia zuluensis and call the species Zulu pipistrelle or Zulu serotine, not Somali serotine (that English name belongs to N. somalica). The 2025 EWT assessment lists the Afrikaans name as Kaapse dakvlermuis, which differs from the checklist form. The same assessment, citing Taylor et al. (2022), reports deep mitochondrial divergence between southern African N. zuluensis and East African N. cf. zuluensis, but says further integrative taxonomy is needed before those lineages are formally described; that point is flagged, not used to split the checklist taxon. Movement patterns are listed as Unknown, and Kruger is named both as a protected area of occurrence and as the site of a diet study, so status is set to resident with all-year monthsPresent."
+    },
+    "gaps": [
+        "The English checklist name Somali serotine bat differs from the names used by EWT, Wikipedia and iNaturalist (Zulu pipistrelle, Zulu serotine, aloe bat). The Afrikaans checklist name Somali-dakvlermuis differs from the Afrikaans name on the 2025 EWT page (Kaapse dakvlermuis). The list forms are kept.",
+        "Taylor et al. (2022) report deep mitochondrial divergence between southern African N. zuluensis and East African N. cf. zuluensis; those lineages have not been formally described.",
+        "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Stable and describes the species as generally uncommon in the assessment region, not a Kruger figure.",
+        "No published min–max head-and-body, forearm, tail or wingspan range; only Wikipedia's approximate single figures, a 3–6 g mass range, and EWT mean forearm and total lengths were given.",
+        "No sourced echolocation-frequency or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
+        "No licensable photograph in Kruger (place 69020), and none among licensed observations in the South Africa iNaturalist place (6986).",
+        "Daytime roost sites are not known.",
+        "Pup appearance was not published in the sources used.",
+        "Ear, eye, face, muzzle, leg and tail colours were not described on the pages used.",
+        "No sourced field comparison with a similar species in this guide.",
+        "Natural predators were not listed on the pages used."
+    ]
+}
