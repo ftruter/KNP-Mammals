@@ -1,0 +1,211 @@
+{
+  "kind": "species",
+  "slug": "cryptomys-hottentotus",
+  "scientificName": "Cryptomys hottentotus",
+  "commonNames": {
+    "en": "Common molerat",
+    "af": "Vaalmol"
+  },
+  "family": "bathyergidae",
+  "inatTaxonId": 43749,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global (2019), and the 2016 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2019,
+    "sources": [
+      {
+        "title": "A conservation assessment of Cryptomys spp.",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Common-Mole-rats-Cryptomys-spp_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Bennett N. 2016. Regional status Least Concern for C. hottentotus, C. natalensis and C. pretoriae; C. mahali is Data Deficient. Cited only; the PDF is not hosted in this repo. No 2025 EWT project page for this species was located."
+      },
+      {
+        "title": "Common mole-rat",
+        "url": "https://en.wikipedia.org/wiki/Common_mole-rat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Bennett NC and Child MF (2019), IUCN Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 10.5,
+      "max": 16.5
+    },
+    "tailCm": {
+      "min": 1.2,
+      "max": 3.8
+    },
+    "massKg": {
+      "min": 0.05,
+      "max": 0.13
+    },
+    "note": "Head-and-body length (10.5–16.5 cm) and tail length (1.2–3.8 cm) are given by both Wikipedia and Animal Diversity Web; Wikipedia cites the Animal Diversity Web account for those figures, so they are not independent measurements. Mass of 50–130 g (0.05–0.13 kg) is from Animal Diversity Web only. Those accounts may reflect a historically lumped Cryptomys hottentotus concept; the disagreement with later splits is recorded rather than averaged. The 2016 EWT assessment did not publish measurements. No shoulder height or sexed numerical split was found, although Animal Diversity Web says the breeding pair are the largest animals and that, among the other colony members, males are larger than females."
+  },
+  "summary": "A short-limbed, cylindrical burrowing rodent, usually grey or brown and sometimes with a white spot on the head. It lives in family colonies underground and feeds on bulbs, corms, tubers and grass rhizomes. The 2011 Kruger checklist uses this name; a later regional assessment assigns Kruger animals to other Cryptomys species.",
+  "description": "A compact, cylindrical mole-rat with short limbs, thick, evenly coloured fur that is usually grey or brown, and very reduced eyes. Some animals have a white spot on the head. The 2016 regional assessment also records dark sable-brown, light fawny-rufous and smoky-grey animals among captured Cryptomys. Prominent ungrooved, chisel-like incisors are used for digging, feeding and fighting, and long sensory hairs (vibrissae) stand out from the coat over the body and hind legs. Hairy cheeks can close behind the incisors to keep soil out of the throat while the animal digs.",
+  "habits": "Entirely subterranean and social. Animal Diversity Web and the 2016 EWT assessment describe family colonies of up to 14 animals, often around five, with a single breeding pair — usually the largest female and male — and a workforce of younger “workers” and older “casual workers” that burrow and forage. Wikipedia, citing Animal Diversity Web, treats this arrangement as eusocial. The animals loosen soil with the incisors, pass it back with the feet, and reverse to push batches of earth out of the tunnel. One tunnel system that held 10 adults and 3 young was measured at 1 km. They can live in a wide range of substrates. A Kruger-specific activity study under this name was not found.",
+  "diet": {
+    "summary": "A herbivore that feeds mainly on geophytes — plants with underground storage organs — and on grass rhizomes. The 2016 EWT assessment says Cryptomys species specialise on bulbs, corms and tubers, especially those of Albuca, Lachenalia, Ornithogalum, Romulea, Micranthus, Homeria and Oxalis, and also notes that common mole-rats eat some geophytes that contain cardiac glycosides and are toxic to livestock. Animal Diversity Web adds that they consume large amounts of fibre in plant roots. A Kruger-specific diet study under this name was not found.",
+    "items": [
+      "bulbs, corms and tubers, including Albuca, Lachenalia, Ornithogalum, Romulea, Micranthus, Homeria and Oxalis",
+      "grass rhizomes",
+      "other underground plant storage organs and roots"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "A seasonal breeder. Wikipedia says mating begins in September and October, and that births are restricted to the southern-hemisphere summer, with one or two litters of up to five pups. Animal Diversity Web gives litters of two to five young, each weighing 8–9 g, and says the pups first leave the nest about five days after birth and begin to eat solids at about 10 days. The 2016 EWT assessment gives litters of two to six young for C. hottentotus and a generation time of roughly three years; that upper litter size is recorded rather than averaged with the figures of five. Gestation is about 81 days, and average age at reproductive maturity is about 450 days. Courtship, as described by Animal Diversity Web and Wikipedia, is started by the male while the female is in oestrus. Kruger-specific birth months were not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Mole snake",
+      "note": "Animal Diversity Web says mole snakes (Pseudaspis cana) prey on mole-rats by entering the tunnel system."
+    },
+    {
+      "slug": null,
+      "en": "Eastern beaked snake",
+      "note": "Named by Animal Diversity Web as a predator that may attack mole-rats while they are digging out a burrow or coming to the surface."
+    },
+    {
+      "slug": null,
+      "en": "Birds of prey",
+      "note": "Animal Diversity Web says some birds of prey may attack mole-rats while they are digging out a burrow or coming to the surface. The 2016 EWT assessment also states that Cryptomys species are eaten by a wide range of predators, without naming them."
+    }
+  ],
+  "prey": [],
+  "habitat": "Lives underground in a wide range of fine- to medium-grained clays and loams, and is often found in human-modified places such as lawns, gardens and golf courses. Animal Diversity Web describes the habitat as the soil of grassy open plains. A Kruger-specific habitat account under this name was not found. The 2016 regional assessment places C. hottentotus, in the narrow sense, in the Western Cape, Eastern Cape, Free State and Northern Cape, and treats Kruger as part of the range of C. natalensis (clay and loam grassland), with some records in northern Kruger possibly belonging to C. nimrodi.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks count was found. One source reports that, in prime habitats, the density of C. hottentotus can surpass 150 individuals per square kilometre; that figure is not a Kruger count. The 2016 regional assessment gives the population trend of the genus in the assessment region as stable and does not publish a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Cryptomys spp.",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Common-Mole-rats-Cryptomys-spp_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional trend for the genus given as stable. The density figure of more than 150 individuals per square kilometre in prime habitats is not a Kruger count. Cited, not hosted."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "sometimes a white spot on the head",
+          "muzzle": "chisel-like ungrooved incisors",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "brown"
+          ],
+          "pattern": "evenly coloured"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "short"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A cylindrical body with short limbs, thick even grey or brown fur, very reduced eyes, and prominent chisel-like incisors. Some animals have a white spot on the head."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Cryptomys spp.",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Common-Mole-rats-Cryptomys-spp_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Bennett N. 2016. Regional taxonomy, status, habitat, diet, colony size and Afrikaans names (Vaalmol, Grysmol). Cited only; the PDF is not hosted in this repo. No 2025 EWT project page for this species was located."
+    },
+    {
+      "title": "Common mole-rat",
+      "url": "https://en.wikipedia.org/wiki/Common_mole-rat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Appearance, range under a broad concept, reproduction, tunnelling and IUCN status, in part citing Animal Diversity Web and Bennett and Child (2019)."
+    },
+    {
+      "title": "Cryptomys hottentotus: African mole rat",
+      "url": "https://animaldiversity.org/accounts/Cryptomys_hottentotus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2001,
+      "note": "Bruening S. Sizes, mass, colony structure, diet, predators and development. The account’s geographic range is limited to the south-western Cape and may reflect a lumped or incomplete concept."
+    },
+    {
+      "title": "iNaturalist taxon Cryptomys hottentotus",
+      "url": "https://www.inaturalist.org/taxa/43749",
+      "publisher": "iNaturalist",
+      "year": null,
+      "note": "Taxon 43749; preferred English name Common Molerat; Afrikaans name Vaalmol is listed. Used for photograph and sound checks in places 69020 and 6986."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Cryptomys hottentotus (Common molerat; Afrikaans Vaalmol, as given on the 2011 checklist and on the 2016 EWT assessment, which also lists Grysmol). The 2016 assessment splits the old C. hottentotus into several species that can at present be distinguished only by molecular evidence: it places C. hottentotus, in the narrow sense, in the Western Cape, Eastern Cape, Free State and Northern Cape, assigns Kruger to C. natalensis, and notes that some records in northern Kruger may belong to C. nimrodi (Matabeleland mole-rat) rather than C. natalensis. Cryptomys and Fukomys cannot be distinguished morphologically. C. natalensis appears in species-list.json as an iNaturalist-only candidate (two research-grade records in place 69020) and is marked there as not included, because it is not on the 2011 SANParks list. This file does not remap the official 2011 name. Wikipedia still gives a broad southern African range for C. hottentotus; Animal Diversity Web limits it to the south-western Cape. Those disagreements are recorded, not averaged. Presence of C. hottentotus in the narrow sense is not supported by the 2016 assessment, so status and monthsPresent are omitted. No Kruger population figure was found. No suitable licensable photograph of a live animal was found.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. A density of more than 150 individuals per square kilometre in prime habitats, given in the 2016 EWT assessment, is not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Status and monthsPresent are omitted. Under the 2016 split, the EWT assessment places Kruger in the range of C. natalensis, with some northern Kruger records possibly C. nimrodi; C. hottentotus in the narrow sense is described from the Western Cape, Eastern Cape, Free State and Northern Cape. This file follows the 2011 checklist name in species-list.json and does not remap it.",
+    "No licensable photograph of a live wild animal suitable for display was found. iNaturalist had no licensed photographs in Kruger (place 69020). A South Africa (place 6986) query was shortlisted and four thumbnails were viewed: three were mounds, which are not used as species photographs, and one showed a live animal in a container. The images array is empty.",
+    "iNaturalist has 0 sound observations for Cryptomys hottentotus in place 69020. No sourced description of a vocalisation was found; Animal Diversity Web lists only tactile and chemical communication. The calls array is empty.",
+    "No 2025 EWT project page for this species was located. Conservation status is taken from the 2016 regional assessment and from the IUCN listing cited by Wikipedia.",
+    "Skinner and Chimimba and Stuart's field guide were not available as books. Lengths and mass are from Wikipedia and Animal Diversity Web, which may reflect a lumped concept.",
+    "Iris colour, ear and underpart colours, a sexed size split, and shoulder height were not given in the sources used, so those marks are null. No call recordings were found."
+  ]
+}

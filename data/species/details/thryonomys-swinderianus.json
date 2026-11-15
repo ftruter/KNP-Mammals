@@ -1,0 +1,292 @@
+{
+  "kind": "species",
+  "slug": "thryonomys-swinderianus",
+  "scientificName": "Thryonomys swinderianus",
+  "commonNames": {
+    "en": "Greater canerat",
+    "af": "Groot rietrot"
+  },
+  "family": "thryonomyidae",
+  "inatTaxonId": 46279,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2016 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Thryonomys swinderianus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/63.-Greater-Cane-Rat-Thryonomys-swinderianus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "2016 regional status Least Concern, with no change from 2004, and a regional trend described as stable or increasing from range expansion. Global status is also given as Least Concern (2016). Afrikaans names given as Grootrietrot and Rietrot. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Greater cane rat",
+        "url": "https://en.wikipedia.org/wiki/Greater_cane_rat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2016 IUCN assessment (Child 2016, errata 2017), Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 43,
+      "max": 60
+    },
+    "tailCm": {
+      "min": 16,
+      "max": 19.5
+    },
+    "massKg": {
+      "min": 3.2,
+      "max": 5.2
+    },
+    "note": "Head-and-body length (43–60 cm) and tail (16–19.5 cm) follow Wikipedia, which cites southern African sources including Smithers and van der Merwe (2007). Typical mass of 3.2–5.2 kg is also Wikipedia's range, with males averaging about 4.5 kg and females 3.4–3.8 kg, and some animals reaching about 7–9 kg. The 2016 EWT assessment characterises adults as more than 4.5 kg and as the second-largest rodents in Africa. Animal Diversity Web, citing Walker's Mammals for an Africa-wide range, gives a broader head-and-body length of 35–61 cm, a much wider tail range of 6.5–26 cm, a mass range of 3–9 kg, and average masses of 4.5 kg in males and 3.5 kg in females; those figures are not attributed to southern Africa and are recorded rather than used as the stored ranges. No shoulder height was given."
+  },
+  "summary": "A large, heavy-set African rodent with a short, rounded head, small rounded ears, coarse bristly yellowish-brown upperparts, paler grey underparts, and a short, sparsely haired tail. It is not a true rat. In Kruger it is resident along rivers and reedbeds, nocturnal or crepuscular, and often overlooked.",
+  "description": "The greater canerat is one of two living cane rats, a small African family not closely related to typical rats. It has a short nose, rounded ears, continuously growing incisors, and a coarse coat of flattened, bristle-like hairs that Animal Diversity Web says grow in groups of five or six and have no underfur. Upperparts are yellowish brown and the underside a much lighter grey. The forefeet are smaller than the hind feet; Animal Diversity Web describes three well-developed middle digits on the forefeet, with the first and fifth greatly reduced, and hind feet that lack a first digit and end in heavy claws. Wikipedia likewise notes three toes on each foot. The sexes are alike in coat, though males are typically heavier. It is among the largest rodents in Africa, behind the porcupines; the 2016 EWT assessment gives a mass of more than 4.5 kg.",
+  "habits": "The 2016 EWT assessment says it is predominantly nocturnal or crepuscular. It lives among reedbeds and dense, tall grass, and in Kruger its mapped distribution is along all the rivers; the same assessment records it in relatively high numbers at Punda Maria and at the N'washitshumbe enclosure vlei on the northern plains. Animal Diversity Web says it makes trails through grass and reeds between shelter, feeding sites and water, pounds down tall grass to make nests, and also digs shallow burrows; Wikipedia likewise says it makes nests from grasses or burrows underground, typically near water, reedbeds and thick vegetation. It is a good swimmer and diver. If frightened, sources agree that it may grunt and run towards water; Animal Diversity Web adds that it may first stomp its hind feet, and that males may fight with a nose-to-nose pushing duel. Social accounts disagree and are recorded rather than averaged: Wikipedia describes vaguely linked groups that forage alone; Animal Diversity Web describes groups of one male, several females and young of more than one generation, with males leaving the group in the dry season; the 2016 EWT assessment, following Skinner and Chimimba, says a single male may be seen with several females and their offspring, that the species is generally reported to be solitary, and that family groups of up to ten may live in a restricted area.",
+  "diet": {
+    "summary": "A herbivore. The 2016 EWT assessment says grasses are the principal food, and that it feeds on roots, reeds and the stems of grasses along rivers and in other moist areas, including Couch Grass, Swamp Grass, Elephant Grass and Guinea Grass. It cuts stems at the base with its broad, sharp incisors, and also raids crops such as maize, millet, sorghum, wheat and sugar cane. Animal Diversity Web adds bark, fallen fruit, nuts, cassava, sweet potatoes and pumpkins, and says it prefers plants high in moisture and soluble carbohydrates; those additional items are not specifically attributed to Kruger.",
+    "items": [
+      "roots, reeds and grass stems",
+      "Couch Grass, Swamp Grass, Elephant Grass and Guinea Grass",
+      "crops such as maize, millet, sorghum, wheat and sugar cane",
+      "bark, fallen fruit and nuts, in some parts of the range"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "Sources agree that southern African females usually have two litters a year. The 2016 EWT assessment, citing Skinner and Chimimba, says litters may be as large as 12, with two to four young the norm in southern African countries for which data exist (van der Merwe 1999). Animal Diversity Web, citing a broader African literature, gives a usual litter of four, a range of one to six, a gestation of 137–172 days, and young that weigh about 129 g, are born fully haired with their eyes open, and can run. Those figures are recorded rather than averaged. Animal Diversity Web says they become sexually mature at about a year, and that breeding often coincides with the wet season, though the timing depends on the region. Farmed litters of more than 14, and year-round breeding on West African farms, are not used as wild southern African figures. Wikipedia says individuals may live in excess of four years; Animal Diversity Web records a captive lifespan of four years and four months.",
+  "prey": [],
+  "predators": [
+    {
+      "slug": "leptailurus-serval",
+      "en": "Serval"
+    },
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": null,
+      "en": "Crowned Eagle",
+      "note": "Stephanoaetus coronatus, named in the 2016 regional assessment as a predator of this species."
+    },
+    {
+      "slug": null,
+      "en": "African rock python",
+      "note": "Python sebae, named in the 2016 regional assessment as a predator of this species."
+    }
+  ],
+  "habitat": "Confined to reedbeds and dense, tall grass with thick, cane-like stems along drainage lines, rivers, vleis and other moist ground, and seldom found far from water. In Kruger, the 2016 EWT assessment says the mapped distribution is along all the rivers, with records from Punda Maria and from the vlei at the N'washitshumbe enclosure on the northern plains.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2016 regional assessment gives no park total, only a qualitative note of relatively high numbers at Punda Maria and at the N'washitshumbe enclosure, which is not a census. Its regional trend, described as stable or increasing from range expansion, is not a Kruger trend. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Thryonomys swinderianus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/63.-Greater-Cane-Rat-Thryonomys-swinderianus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "No Kruger count; qualitative notes of relatively high numbers at two northern sites only. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "short and rounded"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "short, rounded head with a short nose and small rounded ears",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "yellowish brown",
+          "pattern": "coarse, bristly coat of flattened hairs, with no underfur"
+        },
+        "underparts": {
+          "colour": "grey",
+          "pattern": "much lighter than the upperparts"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "short, relatively sparsely haired compared with the body"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A heavy, rounded body on short legs, with a blunt head, small ears, a coarse yellowish-brown coat, and a short tail."
+    },
+    {
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The short tail and coarse, bristly coat are the main features from behind."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A grunt given when the animal is frightened, often as it runs towards water; Animal Diversity Web also describes stomping of the hind feet.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "A loud, distinctive chattering of the incisors while cutting grass or other food, described by Animal Diversity Web.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "thryonomys-swinderianus/oelsen-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/336280546",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/611060099/large.jpg",
+      "author": "Yolande Oelsen",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Greater canerat in profile at night on a bed of dry grass, showing the coarse coat, blunt head and small ears, in Kruger National Park",
+      "caption": "Adult at night, north-east of Orpen, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "thryonomys-swinderianus/qgrobler-day-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/11046806",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15590001/large.jpg",
+      "author": "qgrobler",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Greater canerat in profile in short green grass, showing the coarse yellowish-brown coat and short tail, in Kruger National Park",
+      "caption": "Adult, south-east of Lower Sabie, Kruger National Park."
+    },
+    {
+      "season": "any",
+      "aiGenerated": false,
+      "hosted": false,
+      "key": "thryonomys-swinderianus/tippett-night-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "source": "https://www.inaturalist.org/observations/391131687",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/716656550/large.jpg",
+      "author": "Ryan Tippett",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "alt": "Greater canerat from behind at night, showing the coarse coat and short tail, in uMkhanyakude District, KwaZulu-Natal",
+      "caption": "Adult at night, uMkhanyakude District, KwaZulu-Natal."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Greater cane rat",
+      "url": "https://en.wikipedia.org/wiki/Greater_cane_rat",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Thryonomys swinderianus account",
+      "url": "https://animaldiversity.org/accounts/Thryonomys_swinderianus/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Account by Emily Gochis. Geographic range and some measurements follow Africa-wide sources, including Walker's Mammals, and are not all attributed to southern Africa; those wider figures are noted rather than used as the stored size ranges."
+    },
+    {
+      "title": "A conservation assessment of Thryonomys swinderianus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/63.-Greater-Cane-Rat-Thryonomys-swinderianus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo. Afrikaans names Grootrietrot and Rietrot. The stored Afrikaans name is Groot rietrot, as printed on the 2011 SANParks checklist."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The stored English name is Greater canerat, as printed on the 2011 SANParks checklist (one word); the 2016 EWT assessment uses Greater Cane Rat. The stored Afrikaans name is Groot rietrot, as printed on that checklist; EWT gives Grootrietrot and Rietrot. Presence in Kruger is supported by the 2011 checklist, by the 2016 EWT assessment (mapped along all the park's rivers, and recorded in relatively high numbers at Punda Maria and N'washitshumbe), and by research-grade iNaturalist records. Many of those records are at rest camps, which were not used as photographs. No 2025 EWT project page was found in a site search; conservation status follows the 2016 regional assessment and the IUCN citation on Wikipedia. No Kruger population figure was found. Animal Diversity Web measurements are Africa-wide and disagree with Wikipedia's tighter southern African figures; those disagreements are recorded rather than averaged. No source named a confusable species that is in this guide, so similar is empty. The lesser cane rat is not on the Kruger list. Predators are taken from the 2016 regional assessment and are not a Kruger-specific list. No reusable Kruger recording was found.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "No 2025 EWT project page was found; regional status is taken from the 2016 assessment.",
+    "Sources disagree on head-and-body length, tail length, mass, litter size and social grouping; Animal Diversity Web's wider measurements are not attributed to southern Africa. Those disagreements are recorded rather than averaged.",
+    "A shoulder height was not given, so that field is omitted.",
+    "Iris colour, ear colour, muzzle colour, leg colour and tail colour were not given in the sources used, so those marks are null.",
+    "No reusable Kruger sound recording was found.",
+    "No source named a confusable Kruger species that is in this guide, so similar is empty.",
+    "The predators listed are from the 2016 regional assessment, not a Kruger-specific list.",
+    "Only two research-grade photographs from outside rest camps were usable in Kruger, so one KwaZulu-Natal photograph is included to show the rear view."
+  ]
+}

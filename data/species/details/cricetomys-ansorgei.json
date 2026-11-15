@@ -1,0 +1,308 @@
+{
+  "kind": "species",
+  "slug": "cricetomys-ansorgei",
+  "scientificName": "Cricetomys ansorgei",
+  "commonNames": {
+    "en": "Giant rat",
+    "af": "Reuse rot"
+  },
+  "family": "nesomyidae",
+  "inatTaxonId": 1453959,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern regionally; Least Concern globally",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho (unchanged from the 2016 regional assessment)",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Giant Rat (Cricetomys ansorgei)",
+        "url": "https://ewt.org/project/giant-rat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Least Concern, with no change from 2016, and a regional population trend described as stable. Afrikaans name given as Reuse Rot."
+      },
+      {
+        "title": "A conservation assessment of Cricetomys ansorgei",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/7.-Giant-Rat-Cricetomys-ansorgei_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "2016 regional status Least Concern, downlisted from Vulnerable C1 in 2004 on new information. Global status is given there as Least Concern (2008). Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Southern giant pouched rat",
+        "url": "https://en.wikipedia.org/wiki/Southern_giant_pouched_rat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the IUCN assessment by Dando and Kennerley (2023, amending 2019), Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 34.7,
+      "max": 41.3
+    },
+    "massKg": {
+      "male": {
+        "min": 1.5,
+        "max": 2.0
+      },
+      "female": {
+        "min": 1.2,
+        "max": 1.6
+      }
+    },
+    "note": "Head-and-body length follows the 2025 EWT assessment, which cites Monadjem et al. (2015) for a size at maturity of 34.7 cm and a maximum of 41.3 cm (sexes combined); those two figures are stored as the range and are not a typical min–max compiled from many specimens. Wikipedia gives a nose-to-tail-tip length of about 70–80 cm, and adult masses of 1.5–2.0 kg in males and 1.2–1.6 kg in females, with males larger than females. No separate tail length or shoulder height was given for C. ansorgei. Animal Diversity Web has no species account for C. ansorgei, only a classification page; its 2004 account of C. gambianus, the name under which this species was formerly included, gives an Africa-wide total length of 645–910 mm, a mass of 1–1.47 kg, and little sexual dimorphism. Those figures are not attributed to C. ansorgei or to southern Africa and are recorded rather than used as the stored ranges."
+  },
+  "summary": "A large African pouched rat with dark brown to reddish upperparts, a pale belly, oversized cheek pouches, and a long tail that is brown at the base and white on the last third. In Kruger it is a resident of the far north, recorded around Punda Maria and Pafuri, and is primarily nocturnal.",
+  "description": "The giant rat is the largest rat in the southern African subregion and the only Cricetomys in the assessment region. It was formerly included in C. gambianus and was later raised to species rank; it cannot be told from other Cricetomys on external characters alone, but no other member of the genus occurs in South Africa. Adults have dark brown to reddish fur on the back and a pale belly. The long tail is bi-coloured, brown with white on the distal third, a character used in the 2016 regional assessment. The pouches for which the genus is named are oversized cheek pouches, used to carry food and nesting material back to the burrow. Wikipedia says males are typically heavier than females, and gives a nose-to-tail-tip length of about 70–80 cm.",
+  "habits": "The 2025 EWT assessment, citing Skinner and Chimimba, says it is primarily nocturnal, and only occasionally active in the late afternoon or early morning, usually where there is suitable cover. It is generally solitary, though a pair may share a burrow while breeding. Burrows are typically at the base of a large tree or under a boulder, in moist, well-shaded ground, and food is hoarded there. Smithers noted that these rats also gather small, often brightly coloured objects such as bottle caps, string, nails, bones and wire. Climbing is uncommon but not absent, especially in fruit trees in farmland. Home range is generally about 5 ha and may be between 2.2 and 11 ha. They appear to depend on fresh water, or at least on moisture in fleshy fruits. Wikipedia, citing Freeman and Ophir (2018), says males scent-mark with cheek and anogenital rubbing and with urine, and appear to mark unfamiliar places preferentially.",
+  "diet": {
+    "summary": "An omnivore that feeds mainly on vegetable matter. The 2025 EWT assessment lists fruit, bulbs, grains and insects, particularly termites, and says cultivated foods such as mangoes, avocados, pecans, macadamias, maize, sorghum, pumpkins and beans are particular favourites. Food and nesting material are carried in the large cheek pouches and hoarded in the burrow. Animal Diversity Web's account of C. gambianus, the name under which this species was formerly included, also lists cassava, sweet potatoes, other roots, nuts and snails; those items are not specifically attributed to C. ansorgei or to Kruger.",
+    "items": [
+      "fruit, bulbs and grains",
+      "insects, particularly termites",
+      "cultivated foods such as mangoes, avocados, pecans, macadamias, maize, sorghum, pumpkins and beans"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "Sources disagree on litter size. Wikipedia says females usually have one to three young at a time. The 2025 EWT assessment cites a litter of two to four (Knight 1986; Duplantier and Granjon 2013) and also one to five young per litter (Duplantier and Granjon 2013). Data from other parts of southern Africa suggest a gestation of 27–42 days, and births have been recorded from September to May in Malawi. The species is generally solitary, but a pair may remain together in one burrow while breeding, and it is known to breed well in captivity.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Eagle owls",
+      "note": "The 2025 regional assessment, citing Duplantier and Granjon (2013), names eagle owls among the raptors that prey on this species. No Kruger-specific predator list was found."
+    }
+  ],
+  "prey": [],
+  "habitat": "Savannah, forest and woodland, as well as farmland, cropland, plantations and rural settlements; it is an adaptable species and is even known to use sewers. Burrows are generally at the base of large trees or under boulders, in moist, well-shaded ground, and the species appears to depend on fresh water or on moisture in fleshy fruits. In Kruger, the 2025 EWT assessment records it in the far north, as relatively common at Punda Maria and also present at Pafuri.",
+  "similar": [
+    {
+      "slug": "thryonomys-swinderianus",
+      "note": "The greater canerat is also a large Kruger rodent, but it has a short, sparsely haired tail and a coarse bristly coat, and it lacks the oversized cheek pouches and the long, white-tipped tail that mark this species, the largest rat in the subregion."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": "individuals",
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2025 regional assessment gives no park total, only a qualitative note that the species is relatively common at Punda Maria and also occurs at Pafuri, which is not a census. A Zimbabwe garden take of 42 animals from 0.5 ha, cited in that assessment, is not a Kruger count. The regional trend, described as stable, with some increases in urban and peri-urban areas, is not a Kruger trend. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "previousEstimates": [],
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "The official aerial census sheet covers large herbivores. Cited, not hosted."
+      },
+      {
+        "title": "Giant Rat (Cricetomys ansorgei)",
+        "url": "https://ewt.org/project/giant-rat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "No Kruger count; qualitative notes of occurrence at Punda Maria and Pafuri only."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "narrow face with oversized cheek pouches used to carry food and nesting material",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "dark brown to reddish",
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "pale",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": "brown with white on the distal third",
+          "shape": "long and bi-coloured"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A large, heavy-bodied rat with dark brown to reddish upperparts, a pale belly, and a long tail that is brown at the base and white on the last third."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "The oversized cheek pouches and narrow face are the main features from the front; the white tail tip may not be visible."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Animal Diversity Web, in its account of Cricetomys gambianus (the name under which this species was formerly included), describes a single short screech as the main vocalisation. No source described a call specifically for C. ansorgei.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "cricetomys-ansorgei/tristanspurway-pafuri-tree.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/257698041",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/462326182/large.jpg",
+      "author": "tristanspurway",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Giant rat facing the camera at night from a hollow in a tree trunk, showing the narrow face, whiskers and pale feet.",
+      "caption": "Adult at night in a tree hollow, Pafuri area, Kruger National Park."
+    },
+    {
+      "key": "cricetomys-ansorgei/lubcker-lajuma-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/249362691",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/445741698/large.jpg",
+      "author": "Nico Lubcker",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Giant rat in profile at night in short grass, showing the dark brown coat and the long tail with a white tip.",
+      "caption": "Adult at night, Lajuma, Soutpansberg, Limpopo."
+    },
+    {
+      "key": "cricetomys-ansorgei/lubcker-lajuma-head.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/249362691",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/445741742/large.jpg",
+      "author": "Nico Lubcker",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Close view of a giant rat's head at night, showing the whiskers, pale muzzle and rounded ear.",
+      "caption": "Adult at night, Lajuma, Soutpansberg, Limpopo."
+    },
+    {
+      "key": "cricetomys-ansorgei/themba-louis-trichardt-climb.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/397205814",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/728493332/large.jpg",
+      "author": "Themba L",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Giant rat climbing down a wooden rail at night, showing the coarse coat, rounded ear and pale feet.",
+      "caption": "Adult at night on a wooden rail, Louis Trichardt, Limpopo."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Giant Rat (Cricetomys ansorgei)",
+      "url": "https://ewt.org/project/giant-rat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "2025 regional assessment by Richards and da Silva. Afrikaans name Reuse Rot. The stored Afrikaans name is Reuse rot, as printed on the 2011 SANParks checklist. The stored English name is Giant rat, as printed on that checklist; the assessment also uses Southern Giant Pouched Rat."
+    },
+    {
+      "title": "A conservation assessment of Cricetomys ansorgei",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/7.-Giant-Rat-Cricetomys-ansorgei_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Southern giant pouched rat",
+      "url": "https://en.wikipedia.org/wiki/Southern_giant_pouched_rat",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Cricetomys gambianus account",
+      "url": "https://animaldiversity.org/accounts/Cricetomys_gambianus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2004,
+      "note": "Account by Michael S. Joo, last updated 2004. Written under C. gambianus, the name under which C. ansorgei was formerly included. There is no full ADW species account for C. ansorgei, only a classification page. Measurements and some habits on the gambianus account follow Africa-wide or West African sources and are not all attributed to C. ansorgei or to southern Africa; those figures are noted rather than used as the stored ranges."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The stored English name is Giant rat, as printed on the 2011 SANParks checklist; the 2025 EWT assessment and iNaturalist use Southern Giant Pouched Rat. The stored Afrikaans name is Reuse rot, as printed on that checklist; EWT gives Reuse Rot. Kruger giant rats were treated as C. gambianus in older lists; C. ansorgei was later split out (Musser and Carleton 2005; Olayemi et al. 2012) and is the only member of the genus in the assessment region. Research-grade iNaturalist records in place 69020 are identified as C. ansorgei, not C. gambianus, which matches species-list.json. Presence in Kruger is supported by the 2011 checklist, by the 2016 and 2025 EWT assessments (Punda Maria and Pafuri), and by those records. Most Kruger photographs are at Punda Maria rest camp and were not used; one Pafuri-area photograph is included, with three Limpopo photographs from outside the park. No Kruger population figure was found. Animal Diversity Web has no C. ansorgei species account; its C. gambianus measurements disagree with Wikipedia and with Monadjem figures cited by EWT, and are recorded rather than averaged. Litter-size figures also disagree across sources.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found.",
+    "Sources disagree on head-and-body length, total length, mass, sexual dimorphism and litter size. Animal Diversity Web figures are from a C. gambianus account and are not attributed to C. ansorgei or to southern Africa. Those disagreements are recorded rather than averaged.",
+    "A separate tail length and a shoulder height were not given for C. ansorgei, so those fields are omitted.",
+    "Iris colour, ear colour and shape, muzzle colour and leg colour were not given in the sources used, so those marks are null.",
+    "No reusable Kruger sound recording was found. The only call description found is from Animal Diversity Web's account of C. gambianus, not a source that names C. ansorgei.",
+    "The predators listed are from the 2025 regional assessment, not a Kruger-specific list.",
+    "Only one usable research-grade photograph from outside rest camps was found in Kruger (Pafuri area); four of five licensed Kruger records were at Punda Maria rest camp and were not used. Three Limpopo photographs from outside the park are included.",
+    "Older lists treated Kruger animals as Cricetomys gambianus. This file follows species-list.json in using C. ansorgei; C. gambianus remains a separate active species and does not appear among research-grade Kruger records."
+  ]
+}

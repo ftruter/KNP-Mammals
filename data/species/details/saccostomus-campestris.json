@@ -1,0 +1,271 @@
+{
+    "kind": "species",
+    "slug": "saccostomus-campestris",
+    "scientificName": "Saccostomus campestris",
+    "commonNames": {
+        "en": "Pouched mouse",
+        "af": "Wangsakmuis"
+    },
+    "family": "nesomyidae",
+    "inatTaxonId": 44509,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "IUCN global, and the 2016 regional Red List for South Africa, Swaziland and Lesotho",
+        "asOf": 2016,
+        "sources": [
+            {
+                "title": "A conservation assessment of Saccostomus campestris",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/57.-Pouched-Mouse-Saccostomus-campestris_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "MacFadyen D, Relton C, Child MF. 2016. Regional status Least Concern; no change from the 2004 national assessment. Global IUCN status Least Concern (2016). Regional population trend stable. Present in Kruger National Park. Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "South African pouched mouse",
+                "url": "https://en.wikipedia.org/wiki/South_African_pouched_mouse",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Cassola F and Child MF (2016, errata 2017), IUCN Least Concern."
+            }
+        ]
+    },
+    "size": {
+        "headBodyLengthCm": {
+            "min": 9.4,
+            "max": 18.8
+        },
+        "tailCm": {
+            "min": 3.0,
+            "max": 8.1
+        },
+        "massKg": {
+            "min": 0.04,
+            "max": 0.085
+        },
+        "note": "The 2016 EWT assessment does not publish measurements. Figures are from Animal Diversity Web: body length 94-188 mm (9.4-18.8 cm), given separately from a short tail of 30-81 mm (3.0-8.1 cm), and mass 40-85 g (0.040-0.085 kg). Animal Diversity Web presents the 94-188 mm figure as the length of a robust body, and it is entered here as head-and-body length; it may be an Africa-wide account, and the taxon is treated as a species complex. Animal Diversity Web states that males are not significantly heavier than females on average, but that older animals are heavier than younger ones, and that animals tend to be heavier in the wet season (December-March) than in the dry season (June-September)."
+    },
+    "summary": "A small, robust, short-tailed rodent of southern African savanna, named for the large cheek pouches in which it carries food. The coat is grey to grey-brown above, with lighter sides and white underparts, including the underside of the tail. It is crepuscular or nocturnal, solitary in a burrow, and is present in Kruger National Park, including in high numbers on the northern plains.",
+    "description": "The pouched mouse has a robust body, short legs with strong toes, a broad head, short rounded ears and small eyes. Animal Diversity Web describes the pelage as long, yet dense and fine, grey or grey-brown on the upperparts, with lighter sides and white underparts, including the underside of the tail. It is named for cheek pouches that stretch from the corners of the mouth to the shoulders and are used to carry seeds and other food; the 2016 EWT assessment, citing Skinner and Chimimba, adds that females may occasionally carry their young in these pouches. The incisors are not grooved. The sexes are not described as differently marked. This description follows Animal Diversity Web, which may be an Africa-wide account, and the 2016 EWT assessment treats the taxon as a species complex.",
+    "habits": "The 2016 EWT assessment describes this species complex as crepuscular or nocturnal, and often trapped shortly after dark. It is solitary, with only one animal in a burrow except during the breeding season, when females are found with their young. The animals usually dig burrows, but also use the burrows of other animals, and on release readily take refuge in the nearest burrow. They are slow-moving and appear to be affected by cool temperatures, often being inactive in traps after cold evenings. Animal Diversity Web, which may be an Africa-wide account, adds that a burrow has two entrances and one large chamber used for sleeping and storing food, that tunnels range from less than 2 m in a simple burrow to 8.5 m in a four-chambered burrow, and that the occupants may fill in the entrance holes when inside or out foraging. Wikipedia likewise gives burrows extending up to 8.5 m. Both Wikipedia and Animal Diversity Web describe torpor in the cool, dry season or when food is scarce; Animal Diversity Web adds that females enter torpor more readily than males. A Kruger-specific activity study beyond trapping after dark and inactivity after cold nights was not found.",
+    "diet": {
+        "summary": "The 2016 EWT assessment describes the pouched mouse as omnivorous, feeding on a variety of seeds, vegetation and insects. Citing Watson (1987), it says that in Kruger National Park the diet varied with season, with insects making up a larger share during drought than in periods of high rainfall, but that seeds remained the dominant food in both seasons. Animal Diversity Web describes the species as a granivore that primarily eats seeds, grains and nuts, and also fruits, berries, insects such as ants or termites, and some leafy material, and that hoards seeds in the burrow; those details may be Africa-wide and are not averaged with the EWT account. The animal carries food in its cheek pouches while foraging.",
+        "items": [
+            "seeds",
+            "vegetation",
+            "insects",
+            "fruits and berries",
+            "ants",
+            "termites"
+        ],
+        "guild": "omnivore"
+    },
+    "young": "The 2016 EWT assessment, citing Skinner and Chimimba, says reproduction is seasonal, with females giving birth during the warm, wet, summer months, after a gestation of 20-21 days (Earl 1978). Litters are large, with an average of 7.1 young (range 1-10; N = 15) in the figures EWT cites from Smithers. EWT, again citing Skinner and Chimimba, notes that females may occasionally carry their young in the cheek pouches. Animal Diversity Web, which may be an Africa-wide or laboratory account, gives litters of 2-10 (averages of 5 and 6.8 are both stated), a gestation of less than 50 days, weaning at 20-25 days (commonly 25 days in the wild), incisors erupting at 10-14 days, eyes becoming fully functional at about 24 days, and female sexual maturity at 45 days. It also describes breeding as opportunistic, tending to run from January through September; those months are not the same as EWT's warm, wet summer season and are not averaged with it. Kruger-specific birth months were not found.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Owls",
+            "note": "The 2016 EWT assessment, citing MacFadyen (2007), says the pouched mouse is regularly recorded from owl pellets and is an important prey species. Animal Diversity Web names the Barn Owl (Tyto alba) as the only predator specifically noted in the account it used. Not mammals in this guide."
+        },
+        {
+            "slug": null,
+            "en": "Nocturnal carnivores and raptors",
+            "note": "The 2016 EWT assessment says the species forms an important prey base for nocturnal carnivores and raptors, but does not name a mammal species."
+        }
+    ],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Insects",
+            "note": "The 2016 EWT assessment, citing Watson (1987), records insects in the Kruger diet, especially during drought. Animal Diversity Web names ants and termites."
+        }
+    ],
+    "habitat": "A habitat generalist of savanna woodland across southern Africa, also recorded from grasslands, semi-deserts, rocky ground, lowveld forest edges, closed coastal forest, marshy habitats, and modified landscapes including degraded grassland, old lands and gardens. The 2016 EWT assessment gives an elevational range of about 50-2,000 m and says the species occurs in high numbers on the northern plains of Kruger National Park. Animal Diversity Web gives a narrower elevational range of 263-1,198 m; that disagreement is recorded rather than averaged. A more detailed Kruger-specific habitat account was not found.",
+    "similar": [
+        {
+            "slug": "thallomys-paedulcus",
+            "note": "The tree rat is arboreal and has a brown tail as long as or longer than the head and body. The pouched mouse is terrestrial, with a short tail (30-81 mm in the Animal Diversity Web account), much shorter than the head and body, and large cheek pouches."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment gives the regional population trend as stable and does not publish a Kruger total. It reports that the species was the second most common small mammal after Mastomys natalensis on the northern plains of Kruger National Park, and that the population at the N'washitshumbe enclosure site in northern Kruger was estimated at 9 animals per hectare (MacFadyen 2007); those statements are a local density and a qualitative comment on abundance, not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "A more accurate figure may be available here. Cited, not hosted."
+            },
+            {
+                "title": "A conservation assessment of Saccostomus campestris",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/57.-Pouched-Mouse-Saccostomus-campestris_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Regional trend stable. The northern-plains abundance comment and the N'washitshumbe density of 9 animals per hectare are not a Kruger total. Cited only; the PDF is not hosted in this repo."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": "short and rounded"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "broad head with small eyes",
+                    "muzzle": "cheek pouches stretching from the corners of the mouth to the shoulders",
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": "grey to grey-brown",
+                    "pattern": "long, dense, fine pelage; lighter sides"
+                },
+                "underparts": {
+                    "colour": "white",
+                    "pattern": "including the underside of the tail"
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": "white on the underside",
+                    "shape": "short, much shorter than the head and body"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A robust, short-tailed mouse on open sand, with grey to grey-brown upperparts, lighter sides, white underparts, a broad head, short rounded ears and small eyes."
+        },
+        {
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A broad head with short rounded ears and small eyes, often at a burrow entrance. The large cheek pouches are the namesake mark."
+        }
+    ],
+    "calls": [],
+    "images": [
+        {
+            "key": "saccostomus-campestris/medike-side.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/11017591",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15534458/large.jpg",
+            "author": "Ryan van Huyssteen",
+            "license": "CC BY 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Pouched mouse standing on sand at night, showing a robust grey-brown body, a short tail, short rounded ears and small eyes",
+            "caption": "Research-grade iNaturalist observation, Medike Mountain Sanctuary, Limpopo, 12 September 2014."
+        },
+        {
+            "key": "saccostomus-campestris/medike-burrow.jpg",
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/11017591",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15534460/large.jpg",
+            "author": "Ryan van Huyssteen",
+            "license": "CC BY 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Pouched mouse looking out from a burrow, showing a broad head, short rounded ears and small eyes",
+            "caption": "Research-grade iNaturalist observation, Medike Mountain Sanctuary, Limpopo, 12 September 2014."
+        }
+    ],
+    "sources": [
+        {
+            "title": "A conservation assessment of Saccostomus campestris",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/57.-Pouched-Mouse-Saccostomus-campestris_LC.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited only; the PDF is not hosted in this repo. Afrikaans name Wangsakmuis is taken from this assessment."
+        },
+        {
+            "title": "South African pouched mouse",
+            "url": "https://en.wikipedia.org/wiki/South_African_pouched_mouse",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Saccostomus campestris: pouched mouse",
+            "url": "https://animaldiversity.org/accounts/Saccostomus_campestris/",
+            "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+            "year": 2004
+        },
+        {
+            "title": "iNaturalist taxon Saccostomus campestris",
+            "url": "https://api.inaturalist.org/v1/taxa/44509",
+            "publisher": "iNaturalist",
+            "year": 2026
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger animal as Saccostomus campestris (Pouched mouse, the 2011 SANParks checklist name; Afrikaans Wangsakmuis, as given in the 2016 EWT assessment). EWT 2016 also lists Southern African Pouched Mouse as an English name, and iNaturalist uses that as the preferred common name for taxon 44509. EWT 2016 treats the taxon as a species complex with high chromosomal variability and likely undescribed cryptic species, and Wikipedia describes it as a complex of at least three undescribed species; this file does not attempt to split or remap Kruger records. A 2025 EWT project page was not found in the one site search, so conservation status follows the 2016 assessment (Least Concern; regional trend stable) and the IUCN global listing cited on Wikipedia. Length and mass are from Animal Diversity Web only. No licensable wild Kruger photograph suitable for display was found.",
+        "researched": "15 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives the regional trend as stable and does not publish a Kruger total. A local density of 9 animals per hectare at the N'washitshumbe enclosure site, and a comment that the species was the second most common small mammal on the northern plains, are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "No licensable natural Kruger photograph suitable for display was found. Of three research-grade iNaturalist records in place 69020, one was a road-killed animal near Pafuri, one was 0.38 km from Letaba rest camp, and one had obscured coordinates. A South Africa (place 6986) search added a handled animal at Grietjie Nature Reserve; two wild photographs from Medike Mountain Sanctuary, Limpopo, were used instead.",
+        "iNaturalist has 0 sound observations for Saccostomus campestris in place 69020. No sourced description of the calls was found.",
+        "Saccostomus campestris is treated as a species complex. The 2016 EWT assessment notes high chromosomal variability and likely undescribed cryptic species, and Wikipedia describes a complex of at least three undescribed species. This file follows species-list.json (Saccostomus campestris) and does not attempt to re-identify Kruger records. EWT records the species as present in Kruger National Park.",
+        "A 2025 EWT project page was not found in the one site search, so conservation status and much of the natural-history text follow the 2016 assessment.",
+        "Skinner and Chimimba and Stuart's field guide were not available as books. The 2016 EWT page does not publish measurements. Length and mass are from Animal Diversity Web only and may be Africa-wide.",
+        "No Kruger-specific breeding study was found. Animal Diversity Web's breeding months (January through September) disagree with the 2016 EWT account of birth in the warm, wet summer, and the two sources also disagree on gestation length; those disagreements are recorded rather than averaged.",
+        "Iris colour, ear colour, leg colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null."
+    ]
+}
