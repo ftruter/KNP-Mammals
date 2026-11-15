@@ -1,0 +1,157 @@
+{
+  "kind": "species",
+  "slug": "crocidura-fuscomurina",
+  "scientificName": "Crocidura fuscomurina",
+  "commonNames": {
+    "en": "Tiny musk shrew",
+    "af": "Dwergskeerbek"
+  },
+  "family": "soricidae",
+  "inatTaxonId": 46592,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Crocidura fuscomurina",
+        "url": "https://ewt.org/project/tiny-musk-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Russo IM and da Silva JM. 2025. Regional status Least Concern, with no change from the 2016 assessment. Regional population trend stable. The page lists Kruger National Park among the protected areas in which the species occurs."
+      },
+      {
+        "title": "A conservation assessment of Crocidura fuscomurina",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/4.-Tiny-Musk-Shrew-Crocidura-fuscomurina_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Least Concern. Treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Bicolored musk shrew",
+        "url": "https://en.wikipedia.org/wiki/Bicolored_musk_shrew",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "A stub. The latin title Crocidura fuscomurina redirects here. Cites Hutterer and Howell (2016, errata 2017), IUCN Least Concern."
+      }
+    ]
+  },
+  "summary": "A small white-toothed musk shrew, widely but patchily distributed in sub-Saharan Africa as far south as north-eastern South Africa. It is generally associated with savannahs and is often found in thick grass near water, though it uses a wide range of other habitats. It is active by day and night and feeds on insects taken from the soil surface or among leaf litter. The 2025 EWT assessment lists it from Kruger National Park.",
+  "description": "The 2025 EWT assessment and the Wikipedia stub do not describe the pelage or publish head-and-body length, tail length or mass. The English name Bicolored Musk Shrew, used on iNaturalist and Wikipedia, is not treated here as a description of the coat.",
+  "habits": "The 2025 EWT assessment says that, like other Crocidura species, the animals appear to be active both at night and by day, and that they prefer dense vegetation, especially during the day, to escape heat and predators. They also prefer moist soils (Dickman 1995), presumably because of higher prey content. The species is not readily trapped in Sherman traps; pitfall traps work better, because the animals are so small. At Phinda Private Game Reserve in KwaZulu-Natal, abundance was not significantly different among seasons or vegetation types (Rautenbach et al. 2014); that study is not a Kruger account.",
+  "diet": {
+    "summary": "The 2025 EWT assessment treats the species as an insectivore that takes prey from the soil surface or among leaf litter and other debris.",
+    "items": [
+      "insects"
+    ],
+    "guild": "insectivore"
+  },
+  "predators": [
+    {
+      "slug": null,
+      "en": "Owls",
+      "note": "The 2025 EWT assessment describes the species as an important prey species, having been found in owl remains, citing Avery et al. (2003). These are not mammals in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment says the species takes prey from the soil surface or among leaf litter and other debris."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Skinner and Chimimba (2005), says the species is generally associated with savannahs, including dry Kalahari savannah and grasslands in the west and moist woodlands and bush savannah in the east. It generally occurs in thick grass, such as couch grass (Cynodon dactylon), along the water's edge, but also on dry, sandy soil near water, and has been recorded from rubbish heaps and wood piles. At Phinda and Mkhuze Game Reserves in KwaZulu-Natal it was found in most sites sampled, including Acacia woodland, Combretum molle woodland, riverine woodland, Lebombo thicket, floodplain grassland and sand forest, indicating a wide habitat tolerance (Rautenbach et al. 2014; Delcros et al. 2015). In Eswatini it has been collected from Lowveld Acacia woodland and from a home in an industrial area (Monadjem 1998, 1999). It can also survive in agricultural landscapes that are not overgrazed (P. Taylor pers. comm.). It prefers moist soils and dense vegetation (Dickman 1995). No Kruger-specific habitat account was found, though the assessment lists the species from the park.",
+  "similar": [],
+  "variants": [],
+  "viewNotes": [],
+  "calls": [],
+  "images": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 EWT assessment gives the regional population trend as stable and the number of mature individuals as unknown. It says the species can be one of the dominant sandveld small mammals and can be locally common; counts from Mkhuze Game Reserve, where C. hirta and C. fuscomurina together made up 73% of shrew captures (Delcros et al. 2015), and from Phinda Private Game Reserve (Rautenbach et al. 2014), are not Kruger totals. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Crocidura fuscomurina",
+        "url": "https://ewt.org/project/tiny-musk-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend stable; number of mature individuals unknown; no Kruger total."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official SANParks trends document cited as the place a Kruger figure may be published; no park-wide count for this species was taken from it in this session."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "A conservation assessment of Crocidura fuscomurina",
+      "url": "https://ewt.org/project/tiny-musk-shrew/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Russo IM and da Silva JM. 2025. Main source for regional status, taxonomy notes, Kruger occurrence, distribution, habitat, habits, diet, predators and the Afrikaans names Dwergskeerbek and Dwergskeerbekmuis. This file keeps Dwergskeerbek, the name in species-list.json."
+    },
+    {
+      "title": "A conservation assessment of Crocidura fuscomurina",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/4.-Tiny-Musk-Shrew-Crocidura-fuscomurina_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Regional Least Concern; treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Crocidura fuscomurina (tiny musk shrew)",
+      "url": "https://animaldiversity.org/accounts/Crocidura_fuscomurina/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "A classification page only; no biological account of size, pelage, habits or calls. Places the species in Soricomorpha, an older ordinal name than Eulipotyphla."
+    },
+    {
+      "title": "Bicolored musk shrew",
+      "url": "https://en.wikipedia.org/wiki/Bicolored_musk_shrew",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "A stub. Redirect from Crocidura fuscomurina. Used for the IUCN global citation only. This file keeps the 2011 checklist English name Tiny musk shrew."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Crocidura fuscomurina (Tiny musk shrew, the 2011 SANParks checklist name; Afrikaans Dwergskeerbek, also given on the 2025 EWT page, which additionally lists Dwergskeerbekmuis). iNaturalist taxon 46592 and Wikipedia use the preferred English name Bicolored Musk Shrew; the 2011 name is kept. The 2025 EWT assessment, following Meester et al. (1986), lists two subspecies, with C. f. bicolor the form whose range includes Limpopo and Mpumalanga, and notes that Lowveld subpopulations in those provinces may comprise a different species (R. Hutterer unpubl. data) and need revision; Kruger records are not remapped here. The assessment lists Kruger National Park among the protected areas in which the species occurs, so status is given as resident and monthsPresent as all year; no Kruger-specific seasonal account was published, though a Phinda study found no significant difference in abundance among seasons (Rautenbach et al. 2014). Appearance measurements and pelage colours were not published in the sources consulted, so size is omitted and variants are empty.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No iNaturalist observations of any grade in Kruger (place 69020). The three licensed research-grade photographs from place 6986 were not used: one from Ladybrand was annotated dead and had been found by a dog; the Sekhukhune, Limpopo, set showed a handled animal in a glove or plastic bag; and the Nkangala, Mpumalanga, photograph showed an animal laid out on a pale surface.",
+    "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
+    "No Kruger census or SANParks park-wide population figure.",
+    "Head-and-body length, tail length, mass, and pelage colours were not published in the sources consulted, so size is omitted and variants are empty. Coat colour was not inferred from the English name Bicolored Musk Shrew.",
+    "Litter size, gestation, age at sexual maturity and the appearance of the young were not found.",
+    "No external field marks were found that separate this species from Crocidura cyanea, C. hirta, C. mariquensis, C. silacea or Suncus lixa, so similar is left empty.",
+    "The 2025 EWT assessment says the taxonomic status of Lowveld subpopulations in Limpopo and Mpumalanga needs revision, as they might comprise a different species (R. Hutterer unpubl. data); this file keeps Crocidura fuscomurina from species-list.json and does not remap records."
+  ]
+}
