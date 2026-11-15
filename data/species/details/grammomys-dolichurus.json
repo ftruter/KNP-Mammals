@@ -1,0 +1,245 @@
+{
+    "kind": "species",
+    "slug": "grammomys-dolichurus",
+    "scientificName": "Grammomys dolichurus",
+    "commonNames": {
+        "en": "Woodland mouse",
+        "af": "Woudmuis"
+    },
+    "family": "muridae",
+    "inatTaxonId": 45253,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "IUCN global, and the 2016 and 2025 regional Red Lists for South Africa, Eswatini and Lesotho",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Grammomys dolichurus",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/23.-Woodland-Mouse-Grammomys-dolichurus_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Schoeman C, Relton C, Child MF. 2016. Regional status Least Concern; national status in 2004 was Data Deficient (a non-genuine change with new information). Global IUCN status Least Concern (2016). Regional population trend stable. Present in Kruger National Park. Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "Fact Sheet: The 2025 Regional Mammal Red List of South Africa, Eswatini and Lesotho",
+                "url": "https://ewt.org/wp-content/uploads/2026/02/Fact-Sheet_Mammal-Red-List_2.pdf",
+                "publisher": "Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "This fact sheet lists species whose regional status changed between 2016 and 2025. Grammomys dolichurus is not listed, so the 2025 regional status is taken as Least Concern, unchanged from the 2016 assessment. Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "Woodland thicket rat",
+                "url": "https://en.wikipedia.org/wiki/Woodland_thicket_rat",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Child MF and Taylor P (2016, errata 2017), IUCN Least Concern."
+            }
+        ]
+    },
+    "size": {
+        "lengthCm": {
+            "min": 27,
+            "max": 27
+        },
+        "massKg": {
+            "min": 0.03,
+            "max": 0.03
+        },
+        "note": "The 2016 EWT assessment does not publish body measurements; it gives only a skull length under 31 mm as a character that, on average, distinguishes this species from Grammomys cometes and Grammomys ibeanus. Wikipedia, citing Stuart's Field Guide to Mammals of Southern Africa (2007), gives a total length of 27 cm and a mass of 30 g (0.030 kg). Those are single figures, not ranges, and the length is a total length rather than a head-and-body and tail split. Animal Diversity Web is a classification stub and does not publish measurements."
+    },
+    "summary": "A small, nocturnal, typically arboreal mouse of forest, woodland and thick vegetation in eastern southern Africa, with a long tail used for balance and a lengthened fifth digit on each hindfoot. It builds a spherical nest of grass and leaves above the ground, and is present in Kruger National Park.",
+    "description": "The woodland mouse, also called the woodland thicket rat, is a small arboreal murid. The 2016 EWT assessment, citing Happold, describes it as a highly agile climber, with a long tail for balance and a lengthened fifth digit on each hindfoot. On average it is smaller than Grammomys cometes and Grammomys ibeanus (skull length under 31 mm) and lacks the white patch behind the ear that those species have; EWT, citing Skinner and Chimimba and Happold, notes that the characters used to separate the three are otherwise unreliable where they occur together, and that they are easily confused. Wikipedia, citing Stuart (2007), gives a total length of 27 cm and a mass of 30 g. A sourced description of coat colour was not found in the accounts used. The sexes are not described as differently marked. EWT treats the taxon as a species complex.",
+    "habits": "The 2016 EWT assessment describes the species as nocturnal and typically arboreal, though it may be terrestrial when trees and bushes are scarce. Citing Happold, EWT says the animals build spherical nests of grasses and leaves, with a single entrance, up to about 4 m above the ground; they also nest in the axils of banana leaves and pineapple plants, and are occasionally found in abandoned barbet and weaver nests. Wikipedia, citing Stuart (2007), gives nests of fine grass and vegetation usually up to 2 m above the ground, and also notes the use of weaver nests; the two nest-height figures are recorded rather than averaged. EWT, citing Roberts (1951), describes the species as communal, with several individuals or family groups found in the same nest. A Kruger-specific activity study was not found.",
+    "diet": {
+        "summary": "The 2016 EWT assessment, citing a study of 11 animals in Karkloof Forest, KwaZulu-Natal (Wirminghaus and Perrin 1992), reports that 47% of the stomach contents was fruit, 46% leaves and stems, and 6% invertebrates. That is not a Kruger diet study. No other diet account was found in the sources used.",
+        "items": [
+            "fruit",
+            "leaves and stems",
+            "invertebrates"
+        ],
+        "guild": "omnivore"
+    },
+    "young": "The 2016 EWT assessment, citing Skinner and Chimimba, says that from limited information the species appears to have a prolonged breeding season, which peaks in the warm, wet summer months from October to February. Litter size, gestation and a Kruger-specific breeding account were not found.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Domestic cats",
+            "note": "The 2016 EWT assessment lists localised predation by domestic cats in urban and agricultural areas as a threat. No wild predator species was named, and no Kruger-specific predator account was found."
+        }
+    ],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Invertebrates",
+            "note": "The 2016 EWT assessment, citing Wirminghaus and Perrin (1992), records invertebrates as 6% of stomach contents in a Karkloof Forest sample. That is not a Kruger study."
+        }
+    ],
+    "habitat": "The 2016 EWT assessment, citing Monadjem and others and Happold, describes the species in dry forest, moist lowland forest, dry, moist and high-altitude shrubland, woodland, and anthropogenic habitats such as arable land, pasture and urban areas. It prefers thick vegetation and secondary growth with shrubs, and is absent from Africa's rainforest zone. Within the assessment region it is recorded from northeastern Limpopo, widely in KwaZulu-Natal, along the Eastern Cape coastline, and from Swaziland around Maguga Dam. EWT lists Kruger National Park among the protected areas in which the species occurs. A more detailed Kruger-specific habitat account was not found.",
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment gives the regional population trend as stable, or possibly increasing, and does not publish a Kruger total. A mean density of 1.1 animals per hectare in an Afromontane forest in KwaZulu-Natal (Wirminghaus and Perrin 1993) is not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "A more accurate figure may be available here. Cited, not hosted."
+            },
+            {
+                "title": "A conservation assessment of Grammomys dolichurus",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/23.-Woodland-Mouse-Grammomys-dolichurus_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Regional trend stable. The Karkloof density of 1.1 animals per hectare is not a Kruger total. Cited only; the PDF is not hosted in this repo."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": null
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "no white postauricular patch",
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": null,
+                    "pattern": null
+                },
+                "underparts": {
+                    "colour": null,
+                    "pattern": null
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": "long, used for balance"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A small mouse climbing in a shrub at night, with a long tail for balance and no white patch behind the ear."
+        }
+    ],
+    "calls": [],
+    "images": [
+        {
+            "key": "grammomys-dolichurus/letaba-night-drive.jpg",
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/146695259",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/252267238/large.jpg",
+            "author": "Bernard DUPONT",
+            "license": "CC BY 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "A woodland mouse climbing in a shrub at night, showing brown upperparts, white underparts and dark eyes",
+            "caption": "Research-grade iNaturalist observation, on a night drive near Letaba, Kruger National Park, 27 January 2009."
+        }
+    ],
+    "sources": [
+        {
+            "title": "A conservation assessment of Grammomys dolichurus",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/23.-Woodland-Mouse-Grammomys-dolichurus_LC.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited only; the PDF is not hosted in this repo. Afrikaans names Woudmuis and Bosmuis are taken from this assessment; this file uses Woudmuis, matching species-list.json."
+        },
+        {
+            "title": "Fact Sheet: The 2025 Regional Mammal Red List of South Africa, Eswatini and Lesotho",
+            "url": "https://ewt.org/wp-content/uploads/2026/02/Fact-Sheet_Mammal-Red-List_2.pdf",
+            "publisher": "Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Cited only; the PDF is not hosted in this repo. Used for the 2025 regional status, which is unchanged from 2016."
+        },
+        {
+            "title": "Woodland thicket rat",
+            "url": "https://en.wikipedia.org/wiki/Woodland_thicket_rat",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Grammomys dolichurus: woodland thicket rat",
+            "url": "https://animaldiversity.org/accounts/Grammomys_dolichurus/",
+            "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+            "year": 2025,
+            "note": "Classification stub only; no measurements or natural-history account."
+        },
+        {
+            "title": "iNaturalist taxon Grammomys dolichurus",
+            "url": "https://api.inaturalist.org/v1/taxa/45253",
+            "publisher": "iNaturalist",
+            "year": 2026
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger animal as Grammomys dolichurus (Woodland mouse, the 2011 SANParks checklist name; Afrikaans Woudmuis, as given in the 2016 EWT assessment, which also lists Bosmuis). EWT 2016 and iNaturalist (taxon 45253) use Woodland Thicket Rat as a preferred English name; EWT also lists Forest Mouse. EWT 2016 treats the taxon as a species complex: northern populations may correspond to Grammomys surdaster, and the species is easily confused with G. cometes and G. ibeanus. Wikipedia lists older names in Thamnomys (including Thamnomys discolor and Thamnomys surdaster) among the synonyms. G. cometes is assessed separately by EWT (Mozambique Woodland Mouse) and is not in species-list.json; this file does not remap Kruger records. A 2025 EWT project page was not found in the one site search; the 2025 fact sheet does not list a status change, so the 2025 regional status is taken as Least Concern. Coat colour was not described in the sources used, so those marks are null. Length and mass are single figures from Wikipedia citing Stuart (2007).",
+        "researched": "15 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives the regional trend as stable, or possibly increasing, and does not publish a Kruger total. A mean density of 1.1 animals per hectare in Karkloof Forest, KwaZulu-Natal, is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "No sourced description of coat colour, ear colour, iris colour or a head-and-body and tail split was found in the accounts used, so those marks and size fields are null. Length and mass are single figures from Wikipedia citing Stuart (2007), not ranges.",
+        "Of six research-grade iNaturalist records with an allowed licence in place 69020, four were at rest camps (Letaba, Lower Sabie and Shingwedzi) and were dropped. One photograph by Ernest Porter had a visible watermark and was dropped. One wild photograph from a night drive near Letaba was kept. A South Africa (place 6986) search was not run because a usable Kruger photograph was found.",
+        "iNaturalist has 0 sound observations for Grammomys dolichurus in place 69020. No sourced description of the calls was found.",
+        "Grammomys dolichurus is treated as a species complex. The 2016 EWT assessment notes that northern populations may correspond to G. surdaster, and that G. dolichurus is easily confused with G. cometes and G. ibeanus. Wikipedia lists older combinations in Thamnomys among the synonyms. This file follows species-list.json (Grammomys dolichurus) and does not remap Kruger records. G. cometes is not in the Kruger species list. EWT records the species as present in Kruger National Park.",
+        "A 2025 EWT project page was not found in the one site search. The 2025 regional status is taken as Least Concern because the 2025 Mammal Red List fact sheet does not list a status change for this species.",
+        "Skinner and Chimimba and Stuart's field guide were not available as books. Animal Diversity Web is a classification stub and has no measurements or natural-history account.",
+        "No Kruger-specific breeding, diet or activity study was found. Litter size and gestation were not given in the sources used. The only diet figures are from a Karkloof Forest sample, not from Kruger. No wild predator species was named."
+    ]
+}
