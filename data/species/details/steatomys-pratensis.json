@@ -1,0 +1,159 @@
+{
+  "kind": "species",
+  "slug": "steatomys-pratensis",
+  "scientificName": "Steatomys pratensis",
+  "commonNames": {
+    "en": "Fat mouse",
+    "af": "Vetmuis"
+  },
+  "family": "nesomyidae",
+  "inatTaxonId": 44923,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Steatomys pratensis",
+        "url": "https://ewt.org/project/fat-mouse/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Smith C and da Silva JM. 2025. Regional status Least Concern, with no change from the 2016 assessment. Regional population trend stable. Lists Kruger National Park among the protected areas in which it occurs."
+      },
+      {
+        "title": "A conservation assessment of Steatomys pratensis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/59.-Fat-Mouse-Steatomys-pratensis_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Least Concern. The assessment treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Fat mouse",
+        "url": "https://en.wikipedia.org/wiki/Fat_mouse",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "A stub. The latin title Steatomys pratensis redirects here. Cites Schlitter and Monadjem (2004), IUCN Least Concern."
+      }
+    ]
+  },
+  "summary": "A small, nocturnal, terrestrial mouse of southern African dry savanna and open grassland, present in Kruger National Park. It lives alone or in pairs in deep burrows in loose sandy soil, and in Kruger in summer it feeds mainly on seeds, with some insects and herbage.",
+  "description": "The 2025 EWT assessment does not describe the pelage, and neither the Wikipedia stub nor the Animal Diversity Web classification page publishes measurements or coat colours. The assessment notes that the species is generally larger than Steatomys krebsii, though the two overlap in size, and that it has 10-14 nipples compared with eight in S. krebsii (Monadjem et al. 2015). It is exclusively terrestrial (Monadjem et al. 2015). Head-and-body length, tail length and mass were not published in the sources consulted.",
+  "habits": "The 2025 EWT assessment describes Fat mice as nocturnal, living either singly or in pairs (Skinner and Chimimba 2005), and exclusively terrestrial (Monadjem et al. 2015). Deep burrows with several tunnels are constructed in loose, sandy soils, sloping downwards into a chamber (De Graaf and Nel 1992); that burrow account is a Kruger National Park study. The animals enter daily torpor during the coolest periods of the year (Richardson and Perrin 1992), can gather and store food when it is readily available, and do not often leave their burrows during the hot season (Skinner and Chimimba 2005; Kayala 2024).",
+  "diet": {
+    "summary": "The 2025 EWT assessment, citing Watson (1987), says that the diet of Fat mice in Kruger National Park in summer comprised 82% seeds, 13% insects and 4% herbage, and treats the species as omnivorous and granivorous.",
+    "items": [
+      "seeds",
+      "insects",
+      "herbage"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "The 2025 EWT assessment, citing Smithers (1971), Kern (1977), Smithers and Wilson (1979) and Rautenbach (1982), gives an average of 3.2 young, born seasonally during the warm summer months between October and April. Kern (1977) is a Kruger study, but the assessment does not separate a Kruger-only figure from the regional average. Gestation, age at sexual maturity and the appearance of the young were not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Nocturnal avian predators",
+      "note": "The 2025 EWT assessment, citing Monadjem et al. (2015), says the species is a valuable prey resource for nocturnal avian predators. Species were not named, and these are not mammals in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment, citing Watson (1987), gives insects as 13% of the summer diet in Kruger National Park."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment describes a species of open grasslands (subtropical or tropical dry lowland) and dry savannas, generally absent from forests and montane grasslands, recorded along the edges of rivers and swamplands in arid regions, in grassland from sparse to dense cover, and often in cultivated land (Skinner and Chimimba 2005; Rautenbach 2013). It appears to favour recently burnt areas with new grass cover (Monadjem 1999), and typically occurs below 1,500 m (Monadjem et al. 2015). A Kruger-specific habitat account was not found, though the species is listed from Kruger National Park.",
+  "variants": [],
+  "viewNotes": [],
+  "calls": [],
+  "images": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 EWT assessment gives the regional population trend as stable and does not publish a Kruger total. It describes the species as common within its range and states that it is expected to number in excess of 10,000 mature individuals in the assessment region; that is a regional assumption, not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Steatomys pratensis",
+        "url": "https://ewt.org/project/fat-mouse/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend stable; no Kruger total. The assessment-region figure of more than 10,000 mature individuals is not a Kruger count."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official SANParks trends document cited as the place a Kruger figure may be published; no park-wide count for this species was taken from it in this session."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "A conservation assessment of Steatomys pratensis",
+      "url": "https://ewt.org/project/fat-mouse/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Smith C and da Silva JM. 2025. Main source for regional status, Kruger occurrence, habitat, habits, the Kruger summer diet, young and predators. Afrikaans name given as Vetmuis."
+    },
+    {
+      "title": "A conservation assessment of Steatomys pratensis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/59.-Fat-Mouse-Steatomys-pratensis_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Regional Least Concern; treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Steatomys pratensis (fat mouse)",
+      "url": "https://animaldiversity.org/accounts/Steatomys_pratensis/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "A classification page only; no biological account of size, pelage, habits or calls."
+    },
+    {
+      "title": "Fat mouse",
+      "url": "https://en.wikipedia.org/wiki/Fat_mouse",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "A stub. Redirect from Steatomys pratensis. Used for the IUCN global citation and a broad range list only. This file keeps the 2011 checklist English name Fat mouse."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Steatomys pratensis (Fat mouse, the 2011 SANParks checklist name; Afrikaans Vetmuis, also given on the 2025 EWT page). iNaturalist taxon 44923 uses the preferred English name Common Fat Mouse; the 2011 name is kept. The 2025 EWT assessment says the species requires urgent taxonomic revision and is not always easily distinguished from S. krebsii, but that those issues are unlikely to affect the South African form; Kruger records are listed under S. pratensis and are not remapped here. The 2016 assessment treated the taxon as a species complex. S. krebsii is not on the Kruger species list, so no similar-species contrast was added."
+  },
+  "gaps": [
+    "No licensable wild photographs; iNaturalist place 69020 had no research-grade observations of this taxon, and the only research-grade South African photograph (place 6986) with an allowed licence showed a handled animal and was not used.",
+    "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
+    "No Kruger census or SANParks park-wide population figure.",
+    "Head-and-body length, tail length, mass, and pelage colours were not published in the sources consulted.",
+    "Age at sexual maturity, gestation and the appearance of the young were not found.",
+    "A Kruger-specific habitat account was not found.",
+    "Predators were not identified to species.",
+    "The 2025 EWT assessment says the genus needs taxonomic revision; this file keeps Steatomys pratensis from species-list.json and does not remap Kruger records."
+  ]
+}

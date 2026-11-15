@@ -1,0 +1,259 @@
+{
+  "kind": "species",
+  "slug": "dendromus-mystacalis",
+  "scientificName": "Dendromus mystacalis",
+  "commonNames": {
+    "en": "Chestnut climbing mouse",
+    "af": "Roeskleurklimmuis"
+  },
+  "family": "nesomyidae",
+  "inatTaxonId": 44976,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Dendromus mystacalis s.l.",
+        "url": "https://ewt.org/project/chestnut-climbing-mouse/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Richards LR, Naidoo T and da Silva JM. 2025. Regional status Least Concern, with no change from the 2016 assessment. Regional population trend unknown. The 2025 assessment treats the taxon as Dendromus mystacalis sensu lato and lists Kruger National Park among the protected areas in which it occurs."
+      },
+      {
+        "title": "A conservation assessment of Dendromus mystacalis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/12.-Chestnut-Climbing-Mouse-Dendromus-mystacalis_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "The 2025 assessment records no change from this 2016 assessment and lists the previous assessors as MacFadyen D, Shoeman C and Relton C. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Chestnut climbing mouse",
+        "url": "https://en.wikipedia.org/wiki/Chestnut_climbing_mouse",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "A stub. The latin title Dendromus mystacalis redirects here. Cites Coetzee N and Monadjem A (2004), IUCN Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 5.0,
+      "max": 8.0
+    },
+    "tailCm": {
+      "min": 7.2,
+      "max": 10.1
+    },
+    "massKg": {
+      "min": 0.007,
+      "max": 0.017
+    },
+    "note": "The 2016 and 2025 EWT assessments do not publish head-and-body length, tail length or mass. Figures are from Animal Diversity Web: head and body 50-80 mm (5.0-8.0 cm), given separately from a tail of 72-101 mm (7.2-10.1 cm; average 83 mm), and mass 7-17 g (0.007-0.017 kg). Animal Diversity Web states that females are generally smaller than males, but does not split the ranges by sex. The 2025 EWT assessment, citing Rautenbach (1982), instead gives mean total length as 14.9 cm in males and 14.8 cm in females, and maximum total length as 16.9 cm in males and 17.1 cm in females; those totals are not split into head-and-body and tail, and are not averaged with the Animal Diversity Web ranges. Adding the Animal Diversity Web bounds would give a total length of about 12.2-18.1 cm, which is not the same as the Rautenbach totals and is not used here as a size field."
+  },
+  "summary": "A small, long-tailed climbing mouse of southern African grassland and savanna, bright chestnut above, often with a dark band from behind the shoulders to the base of the tail, and paler underparts. It is nocturnal, climbs grass and low bushes with a prehensile tail, and is present in Kruger National Park.",
+  "description": "The 2025 EWT assessment describes this species as similar in size to the grey climbing mouse, differentiated by bright chestnut colouration, and says it also has a dark band running from behind the shoulders to the base of the tail. Animal Diversity Web, which may be a broader African account, describes a relatively small climbing mouse with a head-and-body length of 50-80 mm, a longer semi-prehensile tail of 72-101 mm, three well-developed digits on each front foot, and fur that is dark yellowish-brown at the tips with slate-coloured bases; the underparts are usually white or light brown, and the overall colour can range from pale sandy brown to a rich, moderately dark brown. Animal Diversity Web says this species normally lacks a dorsal stripe, though some animals show a vestigial stripe and a few have an obvious one; that disagrees with the EWT description of a dark band and is not averaged with it. The 2025 assessment treats the tail as prehensile and used for balance while climbing. Females are stated by Animal Diversity Web to have eight mammae and to be generally smaller than males. The sexes are not described as differently marked. This description follows the EWT assessments, which treat the taxon as a species complex (Dendromus mystacalis sensu lato in 2025), and Animal Diversity Web.",
+  "habits": "The 2025 EWT assessment describes this species as nocturnal and largely terrestrial, but able to reach seeds and invertebrates in low bushes and grass stalks, using its prehensile tail for balance. It is solitary, or lives in pairs or small family groups, and has been suspected to forage in pairs after two animals were routinely caught in the same live-trap in Eswatini (Monadjem et al. 2013). Like other climbing mice, it builds nests with multiple entrances in low bushes and trees about 1-2 m above the ground (Monadjem 2013); these are used in the warm, wet season mainly for rearing young and resting (Skinner and Chimimba 2005). It may also occupy disused burrows and weaver nests (Monadjem 2013). Animal Diversity Web, which may be a broader account, instead describes it as almost exclusively arboreal in tall grasses, though it can live on the ground; it gives globular nests of shredded banana leaves or long wiry grass, less than 7.35 cm across, with a hole in one side, from just above the ground up to three metres, and says only one adult occupies a nest. Those nest heights, entrance counts and occupancy notes are not the same as EWT's and are not averaged with them. Population numbers in the assessment region appear to peak in the austral winter and early spring (June to October) (Monadjem and Perrin 2003; MacFadyen 2014). A Kruger-specific activity study was not found.",
+  "diet": {
+    "summary": "The 2025 EWT assessment says the species is omnivorous and feeds on seeds and a wide range of invertebrates, including termites, crickets, moths and small beetles (Monadjem 1997). Animal Diversity Web likewise describes it as omnivorous, taking seeds from grasses, foliage and arthropods; in one study of stomach contents, grasses and foliage made up more than 75% of the diet and arthropods less than 25%. Those dietary studies are not Kruger-specific and are not averaged with the EWT list of prey.",
+    "items": [
+      "seeds",
+      "foliage",
+      "termites",
+      "crickets",
+      "moths",
+      "small beetles",
+      "other invertebrates"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "The 2025 EWT assessment says breeding appears to coincide with the austral summer, with young appearing between January and March (Smithers and Wilson 1979), and that pregnant females have been recorded from the former Transvaal region in March (Rautenbach 1982). Litters are of three to eight young (Rautenbach 1982; Skinner and Chimimba 2005). Gestation time and age at maturity are listed as unknown. Animal Diversity Web, which may be a broader African account, also leaves the breeding season and gestation unknown; it gives litters of three to four naked and blind young, births mainly between November and January near the equator, and records from other months in eastern Zaire, Uganda and northern Rhodesia. Those litter sizes are not the same as EWT's three to eight and are not averaged with them. The nursing period and the male's role in care were not found. Kruger-specific birth months were not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Barn Owl",
+      "note": "The 2025 EWT assessment, citing Coetzee (1972) and Durban Natural Science Museum specimen records, says climbing mice are preyed upon by Barn Owls (Tyto alba). Not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Black-winged Kite",
+      "note": "The 2025 EWT assessment, citing Mendelsohn (1982), reports skeletal remains of this species from pellets of the Black-winged Kite (Elanus caeruleus), formerly called the Black-shouldered Kite. Not a mammal in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Termites",
+      "note": "Named among invertebrate foods in the 2025 EWT assessment, citing Monadjem (1997)."
+    },
+    {
+      "slug": null,
+      "en": "Crickets",
+      "note": "Named among invertebrate foods in the 2025 EWT assessment, citing Monadjem (1997)."
+    },
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "Named among invertebrate foods in the 2025 EWT assessment, citing Monadjem (1997)."
+    },
+    {
+      "slug": null,
+      "en": "Small beetles",
+      "note": "Named among invertebrate foods in the 2025 EWT assessment, citing Monadjem (1997)."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment describes a species of grassland and savanna mosaic that prefers tall, rank grassland, but can also inhabit riparian forests, Afromontane forest, Sand Forest, wetlands, drainage lines and thickets (Monadjem 2013; Rautenbach et al. 2014; Delcros et al. 2015). It is widely but discontinuously distributed in low-lying savanna and grasslands, typically below 1,000 m, with an upper elevation limit given as 1,500 m above sea level. It has also been recorded in short moist degraded grassland and in wetlands. Animal Diversity Web, which may be a broader account, describes it as common in banana shambas and in grass, herbage and bush in African savanna, not occurring in true forests or very arid areas, and not found above 2,000 m; the statement that it does not occur in true forests disagrees with the EWT forest habitats and is not averaged with them. A Kruger-specific habitat account was not found.",
+  "similar": [
+    {
+      "slug": "dendromus-melanotis",
+      "note": "The 2025 EWT assessment says this species is of similar size to the grey climbing mouse and is differentiated by bright chestnut colouration, and that it also has a dark band from behind the shoulders to the base of the tail. The grey climbing mouse is the other climbing mouse on the Kruger list; Animal Diversity Web describes that species as ash-grey above with a dark dorsal stripe and white or off-white underparts."
+    }
+  ],
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "chestnut",
+          "pattern": "dark band from behind the shoulders to the base of the tail"
+        },
+        "underparts": {
+          "colour": [
+            "white",
+            "light brown"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "long, prehensile"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Bright chestnut upperparts, a dark band from behind the shoulders to the base of the tail, and a long prehensile tail."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 EWT assessment gives the regional population trend as unknown and does not publish a Kruger total. It reports densities of 2 animals/ha in Rocky Highveld Grassland and 1 animal/ha in moist degraded grassland (MacFadyen 2014), and 2.5 individuals/ha in Eswatini (Monadjem 2013); those are local densities outside Kruger, not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Dendromus mystacalis s.l.",
+        "url": "https://ewt.org/project/chestnut-climbing-mouse/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend unknown; no Kruger total. Highveld and Eswatini densities cited from MacFadyen (2014) and Monadjem (2013) are not a Kruger figure."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official SANParks trends document cited as the place a Kruger figure may be published; no park-wide count for this species was taken from it in this session."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "A conservation assessment of Dendromus mystacalis s.l.",
+      "url": "https://ewt.org/project/chestnut-climbing-mouse/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Richards LR, Naidoo T and da Silva JM. 2025. Main source for regional status, Kruger occurrence, habitat, habits, diet, young and predators. Afrikaans name given as Roeskleurklimmuis."
+    },
+    {
+      "title": "A conservation assessment of Dendromus mystacalis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/12.-Chestnut-Climbing-Mouse-Dendromus-mystacalis_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Previous assessment; the 2025 page records no change from 2016 and lists previous assessors as MacFadyen D, Shoeman C and Relton C. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Dendromus mystacalis (chestnut climbing mouse)",
+      "url": "https://animaldiversity.org/accounts/Dendromus_mystacalis/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": 2004,
+      "note": "Szymanski C. Account used for pelage, size, mass, some habits and reproduction, and diet studies. It may be a broader African account."
+    },
+    {
+      "title": "Chestnut climbing mouse",
+      "url": "https://en.wikipedia.org/wiki/Chestnut_climbing_mouse",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "A stub. Redirect from Dendromus mystacalis. Used for the IUCN global citation and a broad range list only."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Dendromus mystacalis (Chestnut climbing mouse, the 2011 SANParks checklist name; Afrikaans Roeskleurklimmuis, also given on the 2025 EWT page). The 2025 EWT assessment treats the taxon as Dendromus mystacalis sensu lato, a species complex, and notes that phylogenetic work (Voelker et al. 2021; Mulualem et al. 2024) restricts D. mystacalis sensu stricto to the Ethiopian Highlands, leaving the identity of southern African populations unresolved. Kruger records are listed under the sensu lato assessment and are not remapped here. iNaturalist taxon 44976 remains Dendromus mystacalis. There were no research-grade iNaturalist observations in Kruger (place 69020)."
+  },
+  "gaps": [
+    "No licensable Kruger photographs; iNaturalist place 69020 had no research-grade observations of this taxon.",
+    "The only research-grade, openly licensed iNaturalist observation in South Africa (place 6986) shows the animal in a container and was not used.",
+    "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
+    "No Kruger census or SANParks park-wide population figure.",
+    "No Kruger-specific habitat or activity study.",
+    "Age at sexual maturity and gestation period were not found.",
+    "Iris, ear, leg and tail colours, and ear shape, were not described in the sources consulted.",
+    "The 2025 EWT assessment treats the taxon as Dendromus mystacalis sensu lato, a species complex; true D. mystacalis sensu stricto may be restricted to the Ethiopian Highlands, and which lineage the Kruger animals belong to is unresolved. This file keeps Dendromus mystacalis from species-list.json and does not remap Kruger records."
+  ]
+}

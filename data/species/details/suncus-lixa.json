@@ -1,0 +1,186 @@
+{
+  "kind": "species",
+  "slug": "suncus-lixa",
+  "scientificName": "Suncus lixa",
+  "commonNames": {
+    "en": "Greater dwarf shrew",
+    "af": "Groter dwergskeerbek"
+  },
+  "family": "soricidae",
+  "inatTaxonId": 1370725,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global (as Suncus lixus), and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Suncus lixus",
+        "url": "https://ewt.org/project/greater-dwarf-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Russo IM and da Silva JM. 2025. Regional status Least Concern, with no change from the 2016 assessment. Regional population trend unknown. The page lists Kruger National Park among the protected areas in which the species occurs. The assessment uses the latin Suncus lixus."
+      },
+      {
+        "title": "A conservation assessment of Suncus lixus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/15.-Greater-Dwarf-Shrew-Suncus-lixus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Least Concern. Treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Greater dwarf shrew",
+        "url": "https://en.wikipedia.org/wiki/Greater_dwarf_shrew",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "A stub. The latin title Suncus lixa redirects here. The speciesbox uses Suncus lixa. Cites Cassola (2017), IUCN global Least Concern, under the name Suncus lixus."
+      }
+    ]
+  },
+  "summary": "A dwarf shrew of dry savannah and dry woodland, also recorded from riverine forest, open dry scrub, open grassland, coastal lowland forest, Acacia woodland and suburban gardens. The 2025 EWT assessment lists it as Least Concern in the region, with no change from 2016 and an unknown regional population trend, and lists it from Kruger National Park. It is insectivorous and has been recorded in Barn Owl pellets.",
+  "description": "The 2025 EWT assessment and the Wikipedia stub do not describe the pelage or publish head-and-body length, tail length or mass. Coat colour and relative size were not inferred from the English name Greater dwarf shrew.",
+  "habits": "Daily activity, social behaviour and movement in Kruger were not described in the sources consulted. The 2025 EWT assessment notes that the species is a poor disperser, and that there is a disjunct distribution between populations in the assessment region and the rest of its range, so there is no significant rescue effect.",
+  "diet": {
+    "summary": "The 2025 EWT assessment, citing Skinner and Chimimba (2005), says the species is insectivorous and has been recorded in Barn Owl pellets.",
+    "items": [
+      "insects"
+    ],
+    "guild": "insectivore"
+  },
+  "young": null,
+  "predators": [
+    {
+      "slug": null,
+      "en": "Barn owl (Tyto alba)",
+      "note": "The 2025 EWT assessment, citing Skinner and Chimimba (2005), says the species has been recorded in Barn Owl pellets. This is not a mammal in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment, citing Skinner and Chimimba (2005), treats the species as insectivorous."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment says the species has generally been recorded from dry savannah and dry woodland, and has also been encountered in riverine forest, open dry scrub, open grassland, coastal lowland forest, Acacia woodland and suburban gardens (Rautenbach 1982; Wirminghaus and Nanni 1989; Baker and Meester 1991; Taylor 1998). It has been recorded from bushveld in the Rustenburg area of North West (Power 2014). At Mkhuze Game Reserve and Phinda Private Game Reserve in KwaZulu-Natal it was recently found to be most common in riverine woodland and floodplain grassland respectively (Rautenbach et al. 2014; Delcros et al. 2015). It has been collected from highveld sour grassland in Eswatini (Monadjem 1998). Within the assessment region the page places it in Mpumalanga, Limpopo, North West and KwaZulu-Natal, with a westward range extension into the Zeerust area of North West (Power 2014), and in Malolotja and Mlawula Nature Reserves in Eswatini (Monadjem 1998). Wikipedia, citing a brief IUCN-based account, gives the natural habitats as subtropical or tropical dry forests and dry savanna, and also notes presence in Kruger National Park. No Kruger-specific habitat account was found, though the 2025 EWT assessment lists the species from the park.",
+  "size": null,
+  "similar": [],
+  "variants": [],
+  "viewNotes": [],
+  "calls": [],
+  "images": [
+    {
+      "key": "suncus-lixa/vhembe-standing-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/11018025",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15535179/large.jpg",
+      "hosted": false,
+      "author": "Ryan van Huyssteen",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "alt": "A greater dwarf shrew foraging among dry leaf litter, showing a pointed snout, small eyes, pale feet and a slender tail.",
+      "caption": "Vhembe, Limpopo, South Africa, 14 February 2015."
+    },
+    {
+      "key": "suncus-lixa/vhembe-standing-side-2.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/11018025",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15535181/large.jpg",
+      "hosted": false,
+      "author": "Ryan van Huyssteen",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "alt": "A greater dwarf shrew among leaf litter, seen from slightly above, showing the back, pointed snout and slender tail.",
+      "caption": "Vhembe, Limpopo, South Africa, 14 February 2015."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 EWT assessment gives the regional population trend as unknown and the number of mature individuals as unknown. It says the species can be locally common in suitable habitat and is regularly caught during field surveys, for example at Mkhuze Game Reserve and Phinda Private Game Reserve in KwaZulu-Natal (Rautenbach et al. 2014; Delcros et al. 2015); those figures are not Kruger counts. The same page says the population is not severely fragmented, that the species can use modified habitats, but that poor dispersal ability may negate its broad habitat suitability. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Suncus lixus",
+        "url": "https://ewt.org/project/greater-dwarf-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend unknown; number of mature individuals unknown; no Kruger total. Local sampling at Mkhuze and Phinda is not a park-wide Kruger figure."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official SANParks trends document cited as the place a Kruger figure may be published; no park-wide count for this species was taken from it in this session."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "A conservation assessment of Suncus lixus",
+      "url": "https://ewt.org/project/greater-dwarf-shrew/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Russo IM and da Silva JM. 2025. Main source for regional status, taxonomy notes, Kruger occurrence, distribution, habitat, diet, predators and the Afrikaans name Groter Dwergskeerbek. The assessment uses the latin Suncus lixus. This file keeps Groter dwergskeerbek, the form in species-list.json."
+    },
+    {
+      "title": "A conservation assessment of Suncus lixus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/15.-Greater-Dwarf-Shrew-Suncus-lixus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Regional Least Concern; treats the taxon as a species complex and uses the latin Suncus lixus. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Greater dwarf shrew",
+      "url": "https://en.wikipedia.org/wiki/Greater_dwarf_shrew",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "A stub. Redirect from Suncus lixa. Used for the IUCN global citation (Cassola 2017, as Suncus lixus) and a brief habitat note. The speciesbox uses Suncus lixa. This file keeps the 2011 checklist English name Greater dwarf shrew, and the remapped latin Suncus lixa from species-list.json."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Suncus lixa (Greater dwarf shrew, the 2011 SANParks checklist English name, with the epithet remapped from the 2011 spelling Suncus lixus; Afrikaans Groter dwergskeerbek). The 2025 EWT page uses Greater Dwarf Shrew and Suncus lixus, with the Afrikaans name Groter Dwergskeerbek; iNaturalist taxon 1370725 is used for media searches and lists Suncus lixus as an invalid scientific name. The 2011 English name and the remapped latin are kept. The 2025 EWT assessment says Suncus lixus possibly represents a complex of at least two similar species within the assessment region, and, following Meester and Lambrechts (1971) and Meester et al. (1986), recognises two subspecies, S. l. lixus from Zimbabwe and Botswana and S. l. gratulus from within the assessment region, pending further study. Kruger records are not remapped here. The assessment lists Kruger National Park among the protected areas in which the species occurs, so status is given as resident and monthsPresent as all year; no Kruger-specific seasonal account was published. Appearance measurements and pelage colours were not published in the sources consulted, so size is omitted and variants are empty. Wikipedia's country list omits South Africa, Eswatini and Mozambique and includes Namibia, while still noting presence in Kruger National Park; distribution in this file follows the 2025 EWT assessment.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No iNaturalist observations with licensed research-grade photographs, and no sound recordings, in Kruger (place 69020). Two wild photographs from one research-grade observation in Vhembe, Limpopo (place 6986), are used.",
+    "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
+    "No Kruger census or SANParks park-wide population figure.",
+    "Head-and-body length, tail length, mass, and pelage colours were not published in the sources consulted, so size is omitted and variants are empty. Coat colour and relative size were not inferred from the English name Greater dwarf shrew.",
+    "Litter size, gestation, age at sexual maturity, daily activity and the appearance of the young were not found. The 2025 EWT life-history fields are unspecified.",
+    "No external field marks were found that separate this species from the Crocidura shrews in this guide, or from other Suncus species, so similar is left empty.",
+    "The 2025 EWT assessment uses Suncus lixus and treats the taxon as a possible species complex (S. l. lixus and S. l. gratulus); this file keeps Suncus lixa from species-list.json and does not remap records.",
+    "Animal Diversity Web has no account under Suncus lixa."
+  ]
+}
