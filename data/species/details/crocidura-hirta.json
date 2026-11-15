@@ -1,0 +1,180 @@
+{
+  "kind": "species",
+  "slug": "crocidura-hirta",
+  "scientificName": "Crocidura hirta",
+  "commonNames": {
+    "en": "Lesser red musk shrew",
+    "af": "Kleiner rooiskeerbek"
+  },
+  "family": "soricidae",
+  "inatTaxonId": 46621,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Crocidura hirta",
+        "url": "https://ewt.org/project/lesser-red-musk-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Russo IM and da Silva JM. 2025. Regional status Least Concern, with no change from the 2016 assessment. Regional population trend stable. The page lists Kruger National Park among the protected areas in which the species occurs."
+      },
+      {
+        "title": "A conservation assessment of Crocidura hirta",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/5.-Lesser-Red-Musk-Shrew-Crocidura-hirta_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Least Concern. Treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Lesser red musk shrew",
+        "url": "https://en.wikipedia.org/wiki/Lesser_red_musk_shrew",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "A stub. The latin title Crocidura hirta redirects here. Cites Cassola (2016, errata 2017), IUCN Least Concern."
+      }
+    ]
+  },
+  "summary": "A small white-toothed musk shrew and one of the most common Crocidura species in suitable habitat in the regional assessment area. The 2025 EWT assessment lists it from Kruger National Park and calls it the only shrew commonly recorded from the Lowveld. It uses grassland, savanna, scrub, moist ground near streams and wetlands, and gardens, is mainly insectivorous, and is active by day and night but predominantly nocturnal.",
+  "description": "The 2025 EWT assessment, the Wikipedia stub and the Animal Diversity Web classification page do not describe the pelage or publish head-and-body length, tail length or mass. Animal Diversity Web places the species in the white-toothed shrew subfamily Crocidurinae. No external field marks were found in the sources consulted.",
+  "habits": "The 2025 EWT assessment, citing Baxter et al. (1979), says the animals are active throughout the day and night but predominantly nocturnal. It describes the species as generally solitary, though Meester (1963) showed that they can live together in pairs and groups. The assessment, citing Kern (1981), a Kruger National Park study, says it is the only shrew commonly recorded from the Lowveld, where numbers fluctuate with fire: they increase with successional regrowth of vegetation and grass cover, and crash after fire has removed the undergrowth. The same page says the species is well adapted to living with people and can be common in gardens, and that it is largely commensal with humans.",
+  "diet": {
+    "summary": "The 2025 EWT assessment, citing Dickman (1995), treats the species as mainly insectivorous, with small amounts of plant material also ingested. Citing Meester (1963), the same page says they also feed on carcasses of rodents and bats and can be cannibalistic.",
+    "items": [
+      "insects",
+      "small amounts of plant material",
+      "carcasses of rodents and bats",
+      "conspecifics (cannibalism)"
+    ],
+    "guild": "insectivore"
+  },
+  "predators": [
+    {
+      "slug": null,
+      "en": "Owls, including the Barn Owl (Tyto alba)",
+      "note": "The 2025 EWT assessment describes the species as an important prey species, citing Avery and Avery (2011), a micromammal study that includes Barn Owl pellet analyses from the Northern Cape. These are not mammals in this guide."
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal",
+      "note": "The 2025 EWT assessment says that in the Maluti Mountains the species prefers steep slopes with high soil moisture to escape predation from black-backed jackals and domestic cats. That account is not a Kruger record."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment, citing Dickman (1995), describes the diet as mainly insectivorous."
+    },
+    {
+      "slug": null,
+      "en": "Carcasses of rodents and bats, and conspecifics",
+      "note": "Reported by Meester (1963), as cited on the 2025 EWT page; not given as a Kruger-specific diet."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment says the species is found in grassland, savanna, scrublands and compost heaps in gardens. In the eastern parts of its range it occurs mainly in moist habitats along streams and wetlands and needs cover in dense undergrowth, shrubs, disused rodent burrows, termitaria holes or beneath rocks (Skinner and Chimimba 2005). In North West it has been taken from vleis and dense bushveld with rank grass (Power 2014); in KwaZulu-Natal from grass clumps, reedbeds, fig-dominated forests, savanna woodland, tall grassland and fallow agricultural fields (Taylor 1998); and at Mkhuze and Phinda from woodland, floodplain grassland, Lebombo thicket and sand forest (Delcros et al. 2014; Rautenbach et al. 2014). In Eswatini it uses a wide range of vegetation from moist Middleveld grasslands to Acacia and broad-leaf savanna in the Lowveld, but is closely associated with tall, dense grass and is absent from Highveld sour grassland (Monadjem 1998). In the western part of the range, individuals occur in scrub bushes and riverine woodland where there is debris, and they probably rely on dew in the water-scarce Kalahari. The assessment, citing Dickman (1995) and Rautenbach et al. (2014), says they show a preference for dense vegetation, deep leaf litter and proximity to water. Citing Kern (1981), a Kruger National Park study, it also calls this the only shrew commonly recorded from the Lowveld.",
+  "similar": [
+    {
+      "slug": "crocidura-cyanea",
+      "note": "The 2025 EWT assessment, citing Taylor and Contrafatto (1996), says there is morphological and distributional overlap with Crocidura cyanea, and that mandibles from Barn Owl pellets can be confused between the two species. No external field marks that separate them were published in the sources consulted."
+    },
+    {
+      "slug": "crocidura-fuscomurina",
+      "note": "The 2025 EWT assessment, citing Delcros et al. (2014) and a comparison at Phinda Private Game Reserve, says C. hirta and C. fuscomurina were the most frequently captured shrews in those KwaZulu-Natal reserves, with C. hirta the more abundant at Mkhuze. No external field marks that separate them were published in the sources consulted."
+    }
+  ],
+  "variants": [],
+  "viewNotes": [],
+  "calls": [],
+  "images": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 EWT assessment gives the regional population trend as stable and the number of mature individuals as unknown. It describes the species as one of the most common shrews in the assessment region and the only shrew commonly recorded from the Lowveld, where Kern (1981) reported seasonal fluctuations in numbers after fire in Kruger National Park; those observations are not a park-wide total. A density of 0.7 to 2.5 individuals/ha from ungrazed grassland near Matshapa, Eswatini (Monadjem and Perrin 2003), is not a Kruger figure. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Crocidura hirta",
+        "url": "https://ewt.org/project/lesser-red-musk-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend stable; number of mature individuals unknown; no Kruger total. Cites Kern (1981) for Lowveld fluctuations after fire, and Monadjem and Perrin (2003) for an Eswatini density."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official SANParks trends document cited as the place a Kruger figure may be published; no park-wide count for this species was taken from it in this session."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "A conservation assessment of Crocidura hirta",
+      "url": "https://ewt.org/project/lesser-red-musk-shrew/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Russo IM and da Silva JM. 2025. Main source for regional status, taxonomy notes, distribution, habitat, habits, diet, predators and the Afrikaans name Klein Rooiskeerbek. The page lists Kruger National Park among the protected areas in which the species occurs."
+    },
+    {
+      "title": "A conservation assessment of Crocidura hirta",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/5.-Lesser-Red-Musk-Shrew-Crocidura-hirta_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Regional Least Concern; treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Crocidura hirta (lesser red musk shrew)",
+      "url": "https://animaldiversity.org/accounts/Crocidura_hirta/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "A classification page only; no biological account of size, pelage, habits or calls. Places the species in Crocidurinae and in Soricomorpha, an older ordinal name than Eulipotyphla."
+    },
+    {
+      "title": "Lesser red musk shrew",
+      "url": "https://en.wikipedia.org/wiki/Lesser_red_musk_shrew",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "A stub. Redirect from Crocidura hirta. Used for the IUCN global citation and a broad range list only. This file keeps the 2011 checklist English name Lesser red musk shrew."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Crocidura hirta (Lesser red musk shrew, the 2011 SANParks checklist name; Afrikaans Kleiner rooiskeerbek). The 2025 EWT page uses Lesser Red Musk Shrew and Klein Rooiskeerbek; iNaturalist taxon 46621 uses the preferred English name Lesser Red White-toothed Shrew. The 2011 English and Afrikaans names are kept. The 2025 EWT assessment lists four subspecies, of which two occur in southern Africa, written as C. c. hirta in the wetter east (KwaZulu-Natal, Free State, North West, Mpumalanga and Limpopo, plus Zimbabwe and Mozambique) and C. h. deserti in the drier west; it says further research should resolve whether more than one species is involved, and cites Dianat et al. (2023) for cryptic diversity in Tanzania, Mozambique and Zambia. Kruger records are not remapped here. Because the assessment lists Kruger National Park, status is set to resident and monthsPresent to all year; Kern (1981) describes fire-related abundance changes in the park, not seasonal absence. Appearance measurements and pelage colours were not published in the sources consulted, so size is omitted and variants are empty.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No iNaturalist observations of any grade in Kruger (place 69020), and no usable wild photograph from South Africa (place 6986): the only licensed research-grade observation, from the University of Limpopo in Polokwane, showed a shrew held in the hand and was not used.",
+    "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
+    "No Kruger census or SANParks park-wide population figure.",
+    "Head-and-body length, tail length, mass, and pelage colours were not published in the sources consulted, so size and variants are omitted or left empty.",
+    "Litter size, gestation, age at sexual maturity and the appearance of the young were not found, beyond the 2025 EWT assessment stating that the species gives birth to live young.",
+    "No external field marks were found that separate this species from Crocidura mariquensis, C. silacea, Suncus lixa or Suncus varilla; only overlap and pellet-mandible confusion with C. cyanea, and co-occurrence with C. fuscomurina at Mkhuze and Phinda, were sourced.",
+    "The 2025 EWT assessment treats the taxon as needing further taxonomic research (including the two southern African forms it writes as C. c. hirta and C. h. deserti, and cryptic diversity reported by Dianat et al. 2023); this file keeps Crocidura hirta from species-list.json and does not remap records.",
+    "The 2011 SANParks checklist Afrikaans name Kleiner rooiskeerbek is kept; the 2025 EWT page gives Klein Rooiskeerbek."
+  ]
+}
