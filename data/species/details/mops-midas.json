@@ -1,0 +1,228 @@
+{
+  "kind": "species",
+  "slug": "mops-midas",
+  "scientificName": "Mops midas",
+  "commonNames": {
+    "en": "Midas free-tailed bat",
+    "af": "Midas se losstertvlermuis"
+  },
+  "family": "molossidae",
+  "inatTaxonId": 765553,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (no change from the 2016 regional assessment); IUCN global status Least Concern (2017, cited via Wikipedia).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Mops midas",
+        "url": "https://ewt.org/project/midas-free-tailed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Lötter C, Balona J, Naidoo T and da Silva JM. 2025. Regional status Least Concern; regional population trend unknown; change compared with 2016 given as no change. The page records the species from northeastern South Africa through Kruger National Park, and lists occurrence in the Great Limpopo Transfrontier Park. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "Midas free-tailed bat",
+        "url": "https://en.wikipedia.org/wiki/Midas_free-tailed_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Redirects from Mops midas. Cites Monadjem, Cotterill, Ratrimomanarivo, Jenkins, Mickleburgh, Fahr, Bergmans, Ranivo, Racey and Hutson (2017) for a global IUCN listing of Least Concern as Mops midas (IUCN 2017-2)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "tailCm": {
+      "min": null,
+      "max": null
+    },
+    "massKg": {
+      "min": null,
+      "max": null
+    },
+    "note": "The lengths and adult masses published in the sources used are not entered as head-and-body, tail or mass ranges. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 6.15 cm in females and 6.38 cm in males; those figures are not entered as headBodyLengthCm. The same assessment, citing Skinner and Chimimba (2005), gives the mass of a single young at birth as 9.6–10.0 g, which is a neonatal mass and is not entered as adult massKg. Wikipedia, citing Dunlop (1999), says the species is heavier than other bats of the same family because of its larger feet, thumbs and tail, but gives no measurements. No shoulder height was published in the sources used."
+  },
+  "summary": "A large free-tailed bat of hot, low-lying savanna and woodland, often near rivers and permanent water, with dark brown fur speckled with white and paler on the front half of the body, and broad ears joined by a hairy membrane across the forehead. It roosts by day in complete darkness, including in trees, under bridges and in roofs, forages in open air usually high above the ground, and is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List (2017).",
+  "description": "A free-tailed bat of the family Molossidae. Wikipedia, citing Dunlop (1999), describes broad ears connected by a hairy membrane across the forehead, dark brown fur with white specks and paler on the front half of the body, and less hair on the neck, thighs and legs; it also describes the species as heavier than other members of the family, with larger feet, thumbs and tail. The same page, citing Ratrimomanarivo et al., says African savanna animals have dark and red colour phases, whereas the Malagasy population is entirely dark. The 2025 EWT assessment does not describe pelage colour. The English name in species-list.json is Midas free-tailed bat. The 2025 EWT assessment uses Midas Free-tailed Bat as the lead English name, and also lists Midas Mops Bat, Midas Bat, Midas Groove-cheeked Bat and Sundevall's Free-tailed Bat; the species-list form is kept. The Afrikaans name in species-list.json is Midas se losstertvlermuis, which matches the 2025 EWT assessment (Midas se Losstertvlermuis). The file keeps the species-list.json name Mops midas and does not remap it. Synonyms listed in the 2025 assessment include Dysopes midas, Mops midas ssp. miarensi, Mops unicolor and Tadarida midas. The assessment treats the African continental population as the subspecies M. midas midas and the Madagascan population as M. midas miarensis, while noting that genetic work has not validated those subspecies and that further research is needed.",
+  "habits": "The 2025 EWT assessment describes a nocturnal open-air forager that is not considered an agile flier and flies in uncluttered airspaces, usually at heights of above 40 m (Aldridge and Rautenbach 1987). It is a fast flier and is known to range considerable distances during excursions (Skinner and Chimimba 2005). Wikipedia, citing Smithers and Skinner, likewise says it is not an agile flier, but places the preferred open airspace at up to 40 m, a figure that is not the same as the EWT wording and is not averaged here. Wikipedia, citing Dunlop (1999) and Smithers and Skinner, says the bats prefer to roost in total darkness, have been reported to roost in trees, under bridges and inside houses, leave the roost in groups of up to 20 at sundown and return together at sunrise, and have been detected foraging up to 10 km from the roost, on flights lasting from less than 10 minutes to more than 50 minutes. The 2025 assessment, citing Monadjem et al. (2020) and Skinner and Chimimba (2005), says individuals use corrugated roofs, wooden roof rafters and other small spaces in the roofs of buildings as communal roosts, packing themselves extremely tightly, and that in Maun, Botswana, the species was noted to prefer roosting in complete darkness. It roosts communally in small to large groups that may number in the hundreds (Smithers 1971, from Monadjem et al. 2020; also Monadjem et al. 2010). Wikipedia, citing Dunlop (1999) and Smithers and Skinner, adds that groups are normally very noisy as the bats push and shove for position, can be aggressive in the presence of people and will bite if given the chance, that groups range from as few as two to the hundreds, and that females outnumber males by four to one. The 2025 assessment does not describe a migrant or seasonal movement pattern; Movement Patterns is given as not specified. The only movement language on that page concerns historical movement between southern Africa and Madagascar in a taxonomic note, assumed dispersal capacity sufficient for rescue effects, and ranging during foraging excursions. The species has been recorded from northeastern South Africa through Kruger National Park and occurs in the Great Limpopo Transfrontier Park (2025 EWT assessment).",
+  "diet": {
+    "summary": "An aerial insectivore. The 2025 EWT assessment, citing Archer (1977) and Monadjem et al. (2020), describes the diet as primarily Coleoptera. The same assessment, citing Taylor et al. (2017), reports a molecular study of faecal samples from a macadamia-growing area in South Africa in which at least seven insect orders were consumed, lepidopteran prey were much more prevalent and diverse (81 taxa from 17 families) than coleopteran prey (two taxa), and about one third of pellets contained DNA of the stink bug Nezara viridula (Heteroptera).",
+    "items": [
+      "beetles (Coleoptera)",
+      "moths and other lepidopterans (Lepidoptera)",
+      "stink bugs, including Nezara viridula (Heteroptera)",
+      "other insects (at least seven orders in the Taylor et al. 2017 study)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment, citing Monadjem et al. (2020), says limited data on reproductive seasonality in southern Africa suggest a parturition period between December and March. The same assessment, citing Skinner and Chimimba (2005), says females give birth to a single young, weighing between 9.6 and 10.0 g. Wikipedia, citing Smithers and Skinner, says pregnant females have been found in December and January and give birth between February and March, and that females carry a single fetus weighing up to 10 g at birth. The Wikipedia birth window (February–March) is narrower than the December–March parturition period given in the 2025 assessment; both are recorded and are not averaged. Age at maturity and longevity were not given in the sources used (the 2025 assessment marks those fields as not specified). No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "Described as the primary prey in the 2025 EWT assessment (Archer 1977; Monadjem et al. 2020). A later molecular study cited on the same page (Taylor et al. 2017) found only two coleopteran taxa in faecal samples from a macadamia-growing area. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Moths and other lepidopterans",
+      "note": "The 2025 EWT assessment, citing Taylor et al. (2017), reports 81 lepidopteran taxa from 17 families in faecal samples, at much higher prevalence and diversity than Coleoptera in that study. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Stink bugs, including the green vegetable bug (Nezara viridula)",
+      "note": "The 2025 EWT assessment, citing Taylor et al. (2017), says about one third of faecal pellets in a South African macadamia-growing area contained DNA of Nezara viridula (Heteroptera). Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Monadjem et al. (2020), describes the species as generally restricted to the Savannah Biome, in lowland and woodland regions, and as recorded from hot, low-lying river valleys and permanent water bodies in northeastern South Africa. It is frequently associated with large rivers and swamps (Smithers 1983; Dunlop 1999). Within the assessment region it has been recorded from the Mopane Bioregion, Lowveld and Central Bushveld, and from northeastern South Africa through Kruger National Park. Wikipedia, citing Dunlop (1999), likewise places it in dry and moist savanna, woodlands and hot deserts, with more southern animals also known to live around large rivers or swamps. A more detailed Kruger-specific habitat account was not given in the sources used, beyond the definite occurrence in the park.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment gives the regional population trend as unknown, the number of mature individuals as unknown, and the number in the largest subpopulation as unknown. It describes the species as generally considered rare across its range (Monadjem et al. 2016), locally abundant in the eastern parts of its distribution, where communal roosts may number in the hundreds (Monadjem et al. 2010), and thought to be declining globally (ACR 2015; Monadjem et al. 2016). Those statements are not a park-wide Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Mops midas",
+        "url": "https://ewt.org/project/midas-free-tailed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional population account only: trend unknown; generally rare; locally abundant in eastern parts of the range; global decline reported in earlier sources. The assessment records the species through Kruger National Park, but does not give a park-wide count. Cited only; the page is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "broad, connected by a hairy membrane across the forehead"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "dark brown"
+          ],
+          "pattern": "white specks; paler on the front half of the body; less hair on the neck, thighs and legs. African animals are described as having dark and red colour phases; the Malagasy population is described as entirely dark. Sexes are not described as differing in colour in the sources used"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically roosts by day in complete darkness, including in trees, under bridges and in roofs and other small spaces in buildings, often packed tightly and in noisy groups of a few to hundreds of animals. Broad ears joined by a hairy membrane across the forehead, and dark brown fur with white specks, are useful field characters; African animals may also show a red colour phase."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "An open-air forager that is not considered an agile flier. The 2025 EWT assessment, citing Aldridge and Rautenbach (1987), places flight usually at heights of above 40 m; Wikipedia, citing Smithers and Skinner, says the preferred open airspace is at up to 40 m. Bats leave the roost in groups of up to 20 at sundown and may forage up to 10 km from the roost."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Mops midas",
+      "url": "https://ewt.org/project/midas-free-tailed-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Lötter C, Balona J, Naidoo T and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016) and unknown regional trend, English and Afrikaans names, synonyms and subspecies notes, the definite occurrence through Kruger National Park and in the Great Limpopo Transfrontier Park, habitat and roof roosts, open-air foraging usually above 40 m, diet (including the Taylor et al. 2017 molecular study), mean forearm lengths, and the December–March parturition period and single young of 9.6–10.0 g. Movement Patterns is given as not specified. The page body describes this species. Cited only; the page is not hosted in this repo."
+    },
+    {
+      "title": "Midas free-tailed bat",
+      "url": "https://en.wikipedia.org/wiki/Midas_free-tailed_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Mops midas. Used for appearance (Dunlop 1999), roosts, group size and sex ratio, foraging flights and the 'up to 40 m' flight height (Smithers and Skinner), colour phases and subspecies notes (Ratrimomanarivo et al.), the February–March birth window, and the global IUCN listing of Least Concern (Monadjem et al. 2017). Afrikaans names were taken from the 2025 EWT assessment, not from this page."
+    },
+    {
+      "title": "iNaturalist taxon Mops midas",
+      "url": "https://api.inaturalist.org/v1/taxa/765553",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "Taxon 765553, preferred common name Midas Free-tailed Bat. Used to confirm the current name and to search place 69020 (Kruger) and place 6986 (South Africa) for licensed photographs and sounds."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Mops midas (English Midas free-tailed bat; Afrikaans Midas se losstertvlermuis) and does not remap the names. The 2025 EWT assessment and Wikipedia also use Mops midas; synonyms include Tadarida midas and Dysopes midas, and two subspecies (M. m. midas and M. m. miarensis) remain unresolved genetically. Status is set to resident because the 2025 EWT assessment records the species through Kruger National Park and lists occurrence in the Great Limpopo Transfrontier Park, and does not give a migrant or seasonal movement pattern (Movement Patterns is not specified). Regional status is Least Concern (2025, no change from 2016); the global IUCN listing cited by Wikipedia is Least Concern (2017). No licensed photograph was kept. Animal Diversity Web has no species account under Mops midas (only a classification page).",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives an unknown regional trend and unknown numbers of mature individuals, describes the species as generally rare, and cites a reported global decline, none of which is a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2025 EWT assessment does not describe a migrant or seasonal movement pattern for this species (Movement Patterns is not specified; movement language on the page concerns historical movement between southern Africa and Madagascar, assumed dispersal capacity, and ranging during foraging excursions). Status is set to resident on the strength of the definite Kruger record and the absence of a migrant or seasonal movement pattern in that assessment.",
+    "species-list.json, the 2025 EWT assessment and Wikipedia use Mops midas. Synonyms in the 2025 assessment include Dysopes midas, Tadarida midas, Mops unicolor and Mops midas ssp. miarensi. The file keeps the species-list.json name and does not remap it. The 2025 assessment notes that the named subspecies have not been validated genetically and that the southern and northern African populations may be isolated; those questions are flagged and are not resolved here.",
+    "The Afrikaans name in species-list.json is Midas se losstertvlermuis, which matches the 2025 EWT assessment (Midas se Losstertvlermuis). The species-list form is kept.",
+    "The English name in species-list.json is Midas free-tailed bat. The 2025 EWT assessment uses Midas Free-tailed Bat as the lead name and also lists Midas Mops Bat, Midas Bat, Midas Groove-cheeked Bat and Sundevall's Free-tailed Bat; iNaturalist's preferred common name for taxon 765553 is Midas Free-tailed Bat. The species-list form is kept.",
+    "Head-and-body length, tail length, adult mass, shoulder height, underpart colour, ear colour, iris colour, muzzle colour, leg colour, tail colour and tail shape were not given unambiguously in the sources used, so those marks or bounds are null. Mean forearm lengths (6.15 cm in females and 6.38 cm in males) and neonatal mass (9.6–10.0 g) are recorded in the size note but are not entered as head-and-body length or adult mass.",
+    "The 2025 EWT assessment, citing Aldridge and Rautenbach (1987), says the species flies usually at heights of above 40 m. Wikipedia, citing Smithers and Skinner, says it prefers open airspace at up to 40 m. The two wordings are recorded and are not averaged.",
+    "The 2025 EWT assessment gives a southern African parturition period of December–March (Monadjem et al. 2020). Wikipedia, citing Smithers and Skinner, gives births in February–March after pregnancies found in December and January. Both accounts are kept.",
+    "No species-level identification comparison with other free-tailed bats in this guide was given in the 2025 EWT assessment or on Wikipedia, beyond the qualitative statement that this species is heavier, with larger feet, thumbs and tail, than other members of the family. The similar list is therefore empty.",
+    "No specific predators were named in the sources used.",
+    "Age at maturity and longevity were not given in the sources used. The breeding account is from regional southern African sources, not from a Kruger-specific study.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned one licensed observation, needs_id, at or next to Pretoriuskop rest camp, which was not used. A South Africa-wide search (place 6986) added a handled bat in a glove at Musina, Limpopo, and a black-background photograph from Pafuri River Camp; neither was used.",
+    "iNaturalist place 69020 returned one sound observation for taxon 765553, on the same Pretoriuskop rest-camp record, which was not used. No echolocation or other call description was given in the 2025 EWT assessment. Wikipedia describes roosting groups as very noisy, which is recorded under habits, but gives no call type. No licensable recording is included.",
+    "Animal Diversity Web has no species account for this taxon under Mops midas (the URL resolves to a classification page only).",
+    "No Kruger-specific breeding or habitat study was found beyond the 2025 assessment's statements that the species has been recorded through Kruger National Park and occurs in the Great Limpopo Transfrontier Park."
+  ]
+}
