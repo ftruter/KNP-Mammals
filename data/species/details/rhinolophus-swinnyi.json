@@ -1,0 +1,221 @@
+{
+  "kind": "species",
+  "slug": "rhinolophus-swinnyi",
+  "scientificName": "Rhinolophus swinnyi",
+  "commonNames": {
+    "en": "Swinny's horseshoe bat",
+    "af": "Swinny se saalneusvlermuis"
+  },
+  "family": "rhinolophidae",
+  "inatTaxonId": 40670,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Vulnerable",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Vulnerable C2a(i); no change from 2016; regional population trend Declining). Wikipedia cites a global IUCN listing of Least Concern (2017 assessment).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus swinnyi",
+        "url": "https://ewt.org/project/swinnys-horseshoe-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Taylor P, Richards LR, Balona J, Howard A and da Silva JM. 2025. In Patel T, Smith C, Roxburgh L, da Silva JM and Raimondo D, editors. The Red List of Mammals of South Africa, Eswatini and Lesotho. 2025 Red List status Vulnerable; change compared with 2016: No Change; regional population trend: Declining. Header also gives Red List Status VU – Vulnerable C2a(i) (IUCN version 3.1)."
+      },
+      {
+        "title": "Swinny's horseshoe bat",
+        "url": "https://en.wikipedia.org/wiki/Swinny's_horseshoe_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Redirects from Rhinolophus swinnyi. Cites Monadjem and Cotterill (2017) for a global IUCN listing of Least Concern (IUCN 3.1, article T19572A21992092)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "note": "Wikipedia, citing Skinner and Chimimba (2005), describes the species as small, with an average total length of 70 mm, an average mass of 7.6 g and a skull length of 17.5 mm; it does not separate head-and-body length from tail length, and it does not publish a range, shoulder height, forearm length or wingspan. Those figures are recorded here rather than entered as structured bounds, because total length is not a head-and-body measurement and the mass is an average, not a range. The 2025 EWT assessment marks its life-history size fields, including maximum size, as not specified. Animal Diversity Web has no species account and no measurements."
+  },
+  "summary": "A small African horseshoe bat with grey to brown fur on the back, paler pale-brown to off-white underparts, short pointed ears, and light brown to light grey wings. The 2025 regional assessment lists it as Vulnerable, with a declining trend and no change from 2016, and, after a post-2011 split of northeastern populations as Rhinolophus rhodesiae, records it only from KwaZulu-Natal and the Eastern Cape. It roosts in caves, mines and similar shelter and forages as a clutter-feeding insectivore, mainly on moths, in temperate Afromontane forest and wooded habitat.",
+  "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia, citing Skinner and Chimimba (2005), describes it as a small bat with an average total length of 70 mm and an average mass of 7.6 g; the back is grey to brown and white at the bottom; the underparts are significantly lighter, pale brown to off-white; the ears are short and pointed; and the wings and interfemoral membrane are light brown to light grey. The same source gives a skull length of 17.5 mm and notes a horseshoe-shaped nose-leaf with a lancet and a sella, without published measurements of horseshoe width. The 2025 EWT assessment does not itself describe pelage colour or nose-leaf shape, and its life-history size fields are marked not specified. Wikipedia and the 2025 EWT assessment give the authority as Gough, 1908. The 2025 assessment, citing Taylor et al. (2018), Demos et al. (2019) and Taylor et al. (2024), treats northeastern populations formerly grouped with this species as a separate species, Rhinolophus rhodesiae, and states that within the assessment region Rhinolophus swinnyi has been found only in KwaZulu-Natal and Eastern Cape provinces and is endemic to the assessment region. Species delimitations in the genus are not fully resolved. This file keeps the species-list.json names and does not remap the 2011 checklist animal.",
+  "habits": "The 2025 EWT assessment describes the species as an insectivorous clutter forager that requires dense vegetation, and, citing Monadjem et al. (2020), says it roosts singly or in small groups of up to five individuals. It is dependent on caves, mines and similar habitats for roosting, and on wooded or forested habitat for foraging (Skinner and Chimimba 2005; Bronner 1990, as cited in that assessment). Wikipedia, citing Skinner and Chimimba (2005), says they roost in wet, sheltered caves and in dark areas of caves and old mining sites, hanging from the ceiling in daylight individually or in pairs, and that some have been found in company with Rhinolophus simulator; flight is described as slow and highly manoeuvrable, with low wing loading. Wikipedia, citing Stoffberg (2007), gives an average echolocation frequency of 106.7 kHz. The assessment has recorded the species only from KwaZulu-Natal and the Eastern Cape, lists capture or acoustic records from several state forests and nature reserves in those provinces, and marks movement patterns and whether the species is congregatory as not specified; the countries table leaves seasonality blank for South Africa. The assessment does not describe the species as a migrant, partial migrant or seasonal visitor. It assumes limited dispersal because of low wing loading, and treats subpopulations as fragmented. It does not mention Kruger National Park.",
+  "diet": {
+    "summary": "An insectivore and clutter forager. The 2025 EWT assessment, citing Monadjem et al. (2020), says it primarily preys on Lepidoptera. Wikipedia, citing Whitaker and Black (1976) on cave bats in Zambia, says it fed almost exclusively on mature Lepidoptera, and also mentions termites, beetles, flies and crickets.",
+    "items": [
+      "moths (Lepidoptera)",
+      "termites",
+      "beetles",
+      "flies",
+      "crickets"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment, citing Monadjem et al. (2020), states that females have been recorded to give birth to a single young, marks average annual fecundity or litter size as one, and marks live birth as yes. Gestation time, reproductive periodicity, generation length and the other life-history timing fields are marked unknown or not specified. Wikipedia states that many reproductive and chronology patterns are not known. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), says the species primarily preys on Lepidoptera. Wikipedia, citing Whitaker and Black (1976), says it fed almost exclusively on mature Lepidoptera. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Termites, beetles, flies and crickets",
+      "note": "Wikipedia, citing Whitaker and Black (1976) on cave bats in Zambia, also lists termites, beetles, flies and crickets. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Monadjem et al. (2020), says the species is found in temperate Afromontane forests, and, citing Skinner and Chimimba (2005) and Bronner (1990), that its distribution depends on suitable day roosts and on wooded or forested foraging habitat. It is dependent on caves, mines and similar habitats for roosting. Roberts (1951), as cited there, recorded it in the Pirie Forest, Eastern Cape Province. In the assessment region it is recorded from the Mesic Highveld Grassland, Lowveld, Sub-Escarpment Grassland, Indian Ocean Coastal Belt, Sub-Escarpment Savanna and Drakensberg Grassland. Its IUCN habitat scheme on that page lists subtropical or tropical moist montane forest, caves, and other subterranean habitats as suitable. Elevation is given as 81–1,588 m above sea level (Monadjem et al. 2024). Wikipedia, citing Skinner and Chimimba (2005), says the species is largely found in montane forest and savanna woodlands and roosts in wet, sheltered caves, with no preference for particular vegetation. The 2025 assessment does not mention Kruger National Park; a Kruger-specific habitat sentence was not found.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment does not mention Kruger National Park, and after the split of northeastern populations as Rhinolophus rhodesiae it records Rhinolophus swinnyi only from KwaZulu-Natal and the Eastern Cape. Regionally the population is suspected to consist of fewer than 10,000 mature individuals, with no subpopulation having more than 1,000 mature individuals, an extent of occurrence of 129,099 km², and a current population trend of Declining, with a continuing decline in mature individuals inferred. Those regional figures are not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus swinnyi",
+        "url": "https://ewt.org/project/swinnys-horseshoe-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Taylor P, Richards LR, Balona J, Howard A and da Silva JM. 2025. Regional remarks only; no Kruger total. Cited from the project page; the underlying PDF is not hosted in this repo."
+      },
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "Wikipedia, citing Skinner and Chimimba (2005), describes the ears as short and pointed. The 2025 EWT assessment gives no ear description"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "Wikipedia, citing Skinner and Chimimba (2005) and Stoffberg (2007), describes a horseshoe-shaped nose-leaf with a lancet and a sella, without a published horseshoe width. The 2025 EWT assessment gives no nose-leaf description",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "brown"
+          ],
+          "pattern": "Wikipedia, citing Skinner and Chimimba (2005), describes the back as grey to brown and white at the bottom. The 2025 EWT assessment gives no pelage colour. Sexes are not described as differing in colour in the sources used"
+        },
+        "underparts": {
+          "colour": [
+            "pale brown",
+            "off-white"
+          ],
+          "pattern": "Wikipedia, citing Skinner and Chimimba (2005), describes the underparts as significantly lighter than the back, pale brown to off-white"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "Wikipedia, citing Skinner and Chimimba (2005), describes the wings and interfemoral membrane as light brown to light grey, but does not give a separate tail colour"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen roosting in a cave, mine or similar shelter, hanging from the ceiling singly, in pairs, or in small groups of up to five. Grey to brown dorsal fur, paler pale-brown to off-white underparts, short pointed ears and a horseshoe-shaped nose-leaf, from Wikipedia (Skinner and Chimimba 2005). Wings and the interfemoral membrane are light brown to light grey."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter forager that primarily preys on moths. Wikipedia, citing Norberg and Rayner (1987), describes slow, highly manoeuvrable flight with low wing loading. No wingspan was published in the sources used."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "echolocation",
+      "description": "Wikipedia, citing Stoffberg (2007), gives an average echolocation frequency of 106.7 kHz. No audible social-call description was given in the sources used.",
+      "recordings": []
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Rhinolophus swinnyi",
+      "url": "https://ewt.org/project/swinnys-horseshoe-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Taylor P, Richards LR, Balona J, Howard A and da Silva JM. 2025. Source of the 2025 regional Vulnerable C2a(i) status (no change from 2016; trend Declining), common names (including Afrikaans Swinny se Saalneusvlermuis), the taxonomic note splitting northeastern populations as R. rhodesiae, the restriction of the species in the assessment region to KwaZulu-Natal and the Eastern Cape, roosting and foraging habitat, small group size (Monadjem et al. 2020), diet (primarily Lepidoptera), single young, movement patterns marked not specified, seasonality left blank in the countries table, elevation limits (Monadjem et al. 2024), and regional population remarks. The page body describes Rhinolophus swinnyi throughout. Cited from the project page; the underlying PDF is not hosted in this repo."
+    },
+    {
+      "title": "Swinny's horseshoe bat",
+      "url": "https://en.wikipedia.org/wiki/Swinny's_horseshoe_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Rhinolophus swinnyi. Used for authority, average total length, mass and skull length, pelage colour, ear shape, nose-leaf parts, wing and interfemoral-membrane colour (Skinner and Chimimba 2005), roosting behaviour, flight and wing loading (Norberg and Rayner 1987), echolocation frequency (Stoffberg 2007), diet (Whitaker and Black 1976), habitat, a continental range statement, and the global IUCN listing (Monadjem and Cotterill 2017). Afrikaans names were taken from the 2025 EWT assessment, which matches the form also given on this page."
+    },
+    {
+      "title": "Rhinolophus swinnyi (Swinny's horseshoe bat)",
+      "url": "https://animaldiversity.org/accounts/Rhinolophus_swinnyi/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Classification page only; there is no species account, so the page was not used for measurements, ecology, calls or appearance."
+    },
+    {
+      "title": "iNaturalist taxon Rhinolophus swinnyi",
+      "url": "https://api.inaturalist.org/v1/taxa/40670",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the 2011 checklist animal as Rhinolophus swinnyi (English Swinny's horseshoe bat; Afrikaans Swinny se saalneusvlermuis) and does not remap the names. The 2025 EWT assessment, citing Taylor et al. (2018), Demos et al. (2019) and Taylor et al. (2024), treats northeastern populations formerly grouped with this species as Rhinolophus rhodesiae and records R. swinnyi only from KwaZulu-Natal and the Eastern Cape, where it is endemic to the assessment region. Status and monthsPresent are omitted: a search of the 2025 page for Kruger and migrat found no Kruger record; movement patterns are marked not specified and seasonality is left blank; the assessment does not describe the species as a migrant, partial migrant or seasonal visitor. The Afrikaans name in species-list.json, Swinny se saalneusvlermuis, matches the 2025 EWT form Swinny se Saalneusvlermuis; the species-list form is kept. The English name matches the assessment. Regional status is Vulnerable C2a(i) (2025, no change from 2016, trend Declining); the global IUCN listing cited by Wikipedia is Least Concern (Monadjem and Cotterill 2017). The 2025 page body describes this species (Rhinolophus swinnyi throughout; ecology is of a small horseshoe bat in temperate Afromontane forest). Animal Diversity Web is a classification stub. No licensed photograph was kept: iNaturalist places 69020 and 6986 each returned 0 licensed research-grade observations for taxon 40670. Place 69020 returned 0 sound observations for taxon 40670.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "Status and monthsPresent are omitted. The 2025 EWT assessment does not mention Kruger National Park. After the split of northeastern populations as Rhinolophus rhodesiae, it records Rhinolophus swinnyi only from KwaZulu-Natal and the Eastern Cape. Movement patterns are marked not specified, and seasonality is left blank in the countries table.",
+    "The 2025 EWT assessment, citing Taylor et al. (2018), Demos et al. (2019) and Taylor et al. (2024), treats northeastern populations formerly grouped with Rhinolophus swinnyi as a separate species, Rhinolophus rhodesiae, and restricts R. swinnyi in the assessment region to KwaZulu-Natal and the Eastern Cape. The file keeps the species-list.json names and does not remap the 2011 checklist animal.",
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives regional remarks (fewer than 10,000 mature individuals; no subpopulation with more than 1,000 mature individuals; extent of occurrence 129,099 km²; trend Declining), which are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The Afrikaans name in species-list.json, Swinny se saalneusvlermuis, matches the Afrikaans name in the 2025 EWT assessment (Swinny se Saalneusvlermuis). The species-list form is kept. The English name matches the assessment.",
+    "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40670. Wikipedia (Stoffberg 2007) gives an average echolocation frequency of 106.7 kHz, entered under calls with no recordings. No audible social-call description was given in the sources used.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned 0 licensed research-grade observations for taxon 40670. One place 6986 query (per_page 30, same licence and research-grade filters) also returned 0. Zero photos is recorded. Commons was not searched.",
+    "Head-and-body length, tail length, shoulder height, forearm length, wingspan and a mass range were not published in the sources used, so those numeric fields are null. Wikipedia (Skinner and Chimimba 2005) gives only an average total length of 70 mm, an average mass of 7.6 g and a skull length of 17.5 mm. The 2025 EWT assessment marks its life-history size fields as not specified.",
+    "Ear colour, iris colour, muzzle colour and leg colour were not given in the sources used, so those marks are null. Pelage colour, ear shape, nose-leaf parts and wing-membrane colour are taken only from Wikipedia (Skinner and Chimimba 2005; Stoffberg 2007). No horseshoe width was published. The phrase white at the bottom is kept as given for the back and was not interpreted further.",
+    "No sourced comparison characters that distinguish this species from other horseshoe bats in this guide were given in the sources used, so similar is omitted. Wikipedia notes that R. denti and R. simulator have very similar body structure, size, morphology and echolocation calls; those comparisons are recorded here rather than entered as similar items.",
+    "No Kruger-specific breeding study was found. Beyond the Monadjem et al. (2020) record, cited in the 2025 EWT assessment, that females give birth to a single live young, breeding timing including gestation is marked unknown or not specified.",
+    "No species-specific, documented predators were given in the sources used, so the predators list is empty.",
+    "Animal Diversity Web has only a classification page for this species, with no species account, so it was not used for facts."
+  ]
+}
