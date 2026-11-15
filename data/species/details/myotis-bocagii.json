@@ -1,0 +1,123 @@
+{
+  "kind": "species",
+  "slug": "myotis-bocagii",
+  "scientificName": "Myotis bocagii",
+  "commonNames": {
+    "en": "Rufous hairy bat",
+    "af": "Rooi langhaarvlermuis"
+  },
+  "family": "vespertilionidae",
+  "inatTaxonId": 74698,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Myotis bocagii",
+        "url": "https://ewt.org/project/rufous-hairy-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Howard A, Richards LR and da Silva JM. 2025. Regional Least Concern; no change from 2016; regional population trend Stable."
+      },
+      {
+        "title": "Rufous mouse-eared bat",
+        "url": "https://en.wikipedia.org/wiki/Rufous_mouse-eared_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Monadjem and Jacobs (2017), IUCN Least Concern. The title Myotis bocagii redirects here."
+      }
+    ]
+  },
+  "size": {
+    "note": "The 2025 EWT assessment gives only mean forearm lengths: 4.04 cm (female) and 3.91 cm (male). No head-and-body length, tail length, shoulder height or mass range was published on the pages used."
+  },
+  "summary": "A small insect-eating vesper bat of low-lying riverine and wetland habitats in the eastern lowveld. It forages low over open water and at the edge of vegetation, taking caddisflies, moths, beetles, bugs and flies. The regional assessment rates it Least Concern. Appearance was not described in the sources used.",
+  "description": "The 2025 EWT assessment and the Wikipedia stub do not describe the coat, ears, wings or other field marks. The English checklist name is Rufous hairy bat; Wikipedia uses rufous mouse-eared bat. The assessment treats bocagei as an incorrect subsequent spelling of bocagii, and recognises two subspecies, with the nominate form in southern Africa and M. b. cupreolus in West Africa. Mean forearm length is given as 4.04 cm in females and 3.91 cm in males.",
+  "habits": "The 2025 EWT assessment, citing Monadjem et al. (2020), says the species forages low over open water and is closely associated with wetlands and riverine habitats. It is described as a clutter-edge and clutter forager, and Morales et al. (2024) assigned it to the trawler ecomorph group as a water-surface forager. In southern Africa it is often mentioned as occurring singly or in pairs (Happold 1987; Skinner and Chimimba 2005). In Central and West Africa it lives in harem groups (Brosset 1976; Monadjem and Fahr 2007), and that may also be the case in southern Africa (Monadjem et al. 2020). Roosting habits are not known in southern Africa. In West Africa it has been captured singly or in groups of up to eight in furled banana leaves, or in other broad-leaved plants and hollow trees. It has been netted in mixed banana and macadamia plantations in KwaZulu-Natal and is thought likely to use furled banana leaves as roosts. Movement patterns are listed as not specified.",
+  "diet": {
+    "summary": "An insectivore. The 2025 EWT assessment, citing Monadjem et al. (2020) and Naidoo et al. (2011), says it feeds mainly on caddisflies, moths, beetles, bugs and flies. Along the Umbilo River it fed opportunistically on flies during winter (Naidoo et al. 2011).",
+    "items": [
+      "caddisflies",
+      "moths",
+      "beetles",
+      "bugs",
+      "flies"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment states that the species gives birth to live young, and lists average litter size as assumed one. Generation length, age at maturity, gestation time, reproductive periodicity, size at birth and longevity are all listed as unknown. Very little is known about reproductive behaviour in southern Africa (Monadjem et al. 2020). A grounded pup was found beside the Umgeni River in the greater Durban North region, with adult bats flying above it (L. Richards, pers. obs.), but no description of the pup was published.",
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment, citing Monadjem et al. (2020) and Naidoo et al. (2011), reports a diet mainly of caddisflies (Trichoptera), moths (Lepidoptera), beetles (Coleoptera), bugs (Hemiptera) and flies (Diptera). Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Monadjem et al. (2020), says that in southern Africa the species is associated with low-lying riverine habitats or wetlands within a savannah or woodland matrix, and is also recorded from tropical moist forest and from rivers and streams bordered by forest. Within the assessment region it is restricted to the eastern lowveld, with records from Limpopo, Mpumalanga, KwaZulu-Natal and the Eastern Cape, and it is confirmed from Eswatini. Elevation limits are given as 7–3,497 m above sea level (Monadjem et al. 2024). Protected areas named on the page include the Great Limpopo Transfrontier Park, Greater Mapungubwe Transfrontier Conservation Area, Tzaneen Dam, iSimangaliso Wetland Park, and Oribi Gorge and Umtamvuna Nature Reserves. The page does not name Kruger National Park.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment lists the current population trend as Stable, does not give a number of mature individuals, and says the species is not well represented in museums (60 records examined in Monadjem et al. 2020). Those remarks apply to the assessment region (South Africa, Eswatini and Lesotho), not to Kruger.",
+    "sources": [
+      {
+        "title": "A conservation assessment of Myotis bocagii",
+        "url": "https://ewt.org/project/rufous-hairy-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional remarks only (current population trend Stable; number of mature individuals not quantified). Not a Kruger estimate."
+      }
+    ]
+  },
+  "variants": [],
+  "viewNotes": [
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Forages low over open water and at the clutter edge. Morales et al. (2024) assigned the species to the trawler ecomorph as a water-surface forager."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Myotis bocagii",
+      "url": "https://ewt.org/project/rufous-hairy-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Howard A, Richards LR and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable), Afrikaans name Rooi langhaarvlermuis, the incorrect subsequent spelling bocagei, the two subspecies (nominate in southern Africa; M. b. cupreolus in West Africa), habitat, foraging, diet, West African roosts in furled banana leaves, life-history remarks, and occurrence in the Great Limpopo Transfrontier Park and other named protected areas. Movement patterns are listed as not specified. The page does not mention Kruger National Park. Cited only; not hosted in this repo."
+    },
+    {
+      "title": "Rufous mouse-eared bat",
+      "url": "https://en.wikipedia.org/wiki/Rufous_mouse-eared_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "A short stub. The title Myotis bocagii redirects here. Lists range countries, dry and moist savanna habitats, and the 2017 IUCN Least Concern assessment (Monadjem and Jacobs). No size or appearance account."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Myotis bocagii (English Rufous hairy bat; Afrikaans Rooi langhaarvlermuis) and does not remap the name. The 2025 EWT assessment states that bocagei (du Bocage, 1889) is an incorrect subsequent spelling, and that two subspecies are recognised, with the nominate form in southern Africa. Those points are flagged here, not used to change the checklist names. The 2025 page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park, so status and monthsPresent are omitted pending a definite park record."
+  },
+  "gaps": [
+    "The 2025 EWT assessment does not mention Kruger National Park (it names the Great Limpopo Transfrontier Park), so status and monthsPresent are omitted.",
+    "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Stable and does not quantify mature individuals.",
+    "No published head-and-body length, tail length, shoulder height or mass; only mean forearm lengths (female 4.04 cm, male 3.91 cm) were given.",
+    "No sourced colours or shapes for any body part; variants are empty because appearance was not described on the pages used.",
+    "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
+    "No licensable photograph: none in Kruger (place 69020) and none in South Africa (place 6986) under the allowed licences.",
+    "Gestation, size at birth, pup appearance and southern African roost sites were not published in the sources used.",
+    "No sourced field comparison with similar Myotis species was published on the pages used."
+  ]
+}
