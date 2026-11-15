@@ -438,6 +438,59 @@ Researched in a fresh session for the last Phase 2 batch, the eight Rodentia fam
 - Left-out rows are kept in each family file's `excluded` array with an `excludedReason`, not deleted.
 
 
+## Batch 12 hints (golden moles and first bats, 15 November 2026, Africa/Johannesburg)
+
+### Yellow golden mole (Calcochloris obtusirostris), 13 calls
+- EWT 2025 https://ewt.org/project/yellow-golden-mole/ records it from the Nyadu Sandveld in Kruger. Near Threatened. 2016 PDF …/2022/11/6.-Yellow-Golden-Mole-Calcochloris-obtusirostris-Near-Threatened.pdf has the underfur mark.
+- Wikipedia and ADW are stubs.
+- iNat 42519: 0 at place 69020; the one licensed record at place 6986 showed only runs in sand. Golden-mole records are often tracks, dead or handled animals.
+
+### Juliana's golden mole (Neamblysomus julianae), 17 calls
+- EWT 2025 https://ewt.org/project/julianas-golden-mole/ (Endangered); 2016 PDF …/2022/11/17.-Julianas-Golden-Mole-Neamblysomus-julianae-Endangered.pdf.
+- Wikipedia is fuller, and ADW has a real account.
+- iNat 42531: 0 at place 69020. Place 6986 has 35 records, mostly Tshwane gardens showing tunnels or handled animals. Zero photos.
+
+### Wahlberg's epauletted fruit bat (Epomophorus wahlbergi), 20 calls
+- EWT Chiroptera tag page lists every bat /project/ link; 2025 page https://ewt.org/project/wahlbergs-epauletted-fruit-bat/ (do not guess slugs).
+- 2025 page has definite Kruger record plus diet/telemetry (Fenton 1985; Bonaccorso 2014; Adams and Snode 2015).
+- Wikipedia full account; ADW /accounts/Epomophorus_wahlbergi/ is a real account (useful for fruit bats).
+- iNat 69020: 0 licensed photos, 0 sounds. Place 6986 per_page 30: drop estates, zoo, handled, dead, thatch; foliage roosts from uMkhanyakude usable.
+- EWT Afrikaans "Wahlberg se Vrugtevlermuis" differs from 2011 list name; kept list name, flagged.
+
+### Peters's epauletted fruit bat (Epomophorus crypturus), 12 calls
+- 2025 EWT slug /project/peters-epauletted-fruit-bat/; 2016 PDF titled Gambian Epauletted Fruit Bat. Kruger record with Bonaccorso et al. 2014 telemetry, Ficus sycomorus diet, Adams and Snode 2015 male calls.
+- Wikipedia short (mass, forearm, young); ADW classification stub only.
+- iNat 64485: 69020 empty; 6986 only a mist-net capture. Zero photos.
+
+### Egyptian fruit bat (Rousettus aegyptiacus), 16 calls
+- 2025 EWT slug /project/egyptian-fruit-bat/ (not the Egyptian free-tailed bat). Kruger named; "present, at least at times of the year". No Afrikaans on the page.
+- Wikipedia full article; ADW /accounts/Rousettus_aegyptiacus/ (Cohen 2011) full account.
+- iNat 75042: 69020 empty. 6986 has wild cave roosts (Mission Rocks, Wynberg, Groot Winterhoek); drop Helderberg handled, Musina mist-net, Nthakeni camp.
+
+### Tomb bat (Taphozous mauritianus), 17 calls
+- 2025 EWT https://ewt.org/project/mauritian-tomb-bat/: header usable, but the ecology/habitat/threats body is a pasted shrew account (mentions Crocidura silacea); not used. 2016 PDF is reliable (Schoeman 2006 diet; Fenton and Griffin 1997 foraging; definite Kruger record).
+- Wikipedia and ADW both full accounts.
+- iNat 69020 has many licensed photos, mostly camp thatch/eaves (Afsaal, Skukuza, picnic sites); one natural tree-trunk roost kept.
+
+### Sundevall's leaf-nosed bat (Hipposideros caffer), 19 calls
+- No 2025 EWT /project/ page; 2016 PDF https://ewt.org/wp-content/uploads/2022/11/11.-Sundevalls-Leaf-nosed-Bat-Hipposideros-caffer_LC.pdf has no Kruger mention.
+- Wikipedia (redirects to Sundevall's roundleaf bat; Wright 2009) is the main measurements source; ADW stub.
+- iNat 40761: 69020 has 12 licensed photos, all Lower Sabie camp, a picnic site or a rest-area bathroom; drop by coordinates. 6986 thumbs mostly buildings. Zero photos.
+
+### Commerson's leaf-nosed bat (Hipposideros commersoni), 17 calls
+- EWT 2025 /project/striped-leaf-nosed-bat/ (Macronycteris vittata); 2016 PDF as Hipposideros vittatus. Pafuri record (Rautenbach et al. 1984) and Thornybush. Near Threatened D2 (2025). Movement pattern Full Migrant, so status omitted (schema: resident means all year).
+- Wikipedia H. commersoni is the Madagascar endemic; use Striped leaf-nosed bat page. ADW is a pre-split account; don't copy its figures.
+- iNat 851017 (M. vittata): 69020 empty; 6986 Thornybush foliage roost obs 152915814 kept.
+
+### Common slit-faced bat (Nycteris thebaica), 14 calls
+- No 2025 EWT page; 2016 PDF …/33.-Egyptian-Slit-faced-Bat-Nycteris-thebaica_LC.pdf names Kruger in the Conservation section.
+- Wikipedia (Egyptian slit-faced bat) and ADW both full accounts; ADW's "migratory" line is weak, don't let it override EWT.
+- iNat 41192, 69020: 11 licensed photos; drop Lower Sabie, Malelane Satellite Camp, Bateleur Bushveld Camp, Timbavati Picnic Site (obs 1443084). Kept obs 151079 tree roost.
+
+### Wood's slit-faced bat (Nycteris woodi), 16 calls
+- 2025 EWT https://ewt.org/project/woods-slit-faced-bat/ (body correct): Pafuri record July 2006, population called resident. Near Threatened.
+- Wikipedia and ADW stubs. iNat 41190 has only two observations worldwide (Zimbabwe); zero photos expected.
+
 ## Phase 4 hints (pro forma, Blue wildebeest, 13 Nov 2026)
 
 Worked example: `data/species/details/connochaetes-taurinus.json`, schema in `docs/schema.md`. Later batches should reuse these patterns. Budget about 25 tool calls per species; this pro forma used about 25 research lookups (iNaturalist APIs, Wikimedia Commons API, xeno-canto pages, Wikipedia, Animal Diversity Web, the EWT species page, SANParks pages, and web searches). The official SANParks census PDF and the Macaulay Library search were attempted and failed, and are counted in that total.

@@ -1,0 +1,291 @@
+{
+  "kind": "species",
+  "slug": "taphozous-mauritianus",
+  "scientificName": "Taphozous mauritianus",
+  "commonNames": {
+    "en": "Tomb bat",
+    "af": "Witlyfvlermuis"
+  },
+  "family": "emballonuridae",
+  "inatTaxonId": 41380,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho; IUCN global status Least Concern (2017). No change from the 2016 regional assessment.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Taphozous mauritianus",
+        "url": "https://ewt.org/project/mauritian-tomb-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Lötter CA and da Silva JM. 2025. Regional status Least Concern, with no change from the 2016 assessment. The page header gives the regional population trend as stable. The species is listed as Least Concern in view of its wide distribution, its tolerance of a broad range of habitats including built-up areas for roost sites and foraging, a presumed large population, and occurrence in several protected areas. Open-air foraging is noted as exposing it to wind-farm developments in some areas, including several wind farms in the Eastern Cape."
+      },
+      {
+        "title": "A conservation assessment of Taphozous mauritianus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/62.-Mauritian-Tomb-Bat-Taphozous-mauritianus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Monadjem A, Jacobs D, MacEwan K, Cohen L, Richards L, Schoeman C and others. 2016. Regional status Least Concern. Current population trend unknown, but suspected to be stable. Number of mature individuals unknown. Listed among protected areas with records is Kruger National Park. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Mauritian tomb bat",
+        "url": "https://en.wikipedia.org/wiki/Mauritian_tomb_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Monadjem et al. (2017) for a global IUCN listing of Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 10.1,
+      "max": 11.6
+    },
+    "tailCm": {
+      "min": 1.7,
+      "max": 2.5
+    },
+    "massKg": {
+      "male": {
+        "min": 0.02,
+        "max": 0.036
+      },
+      "female": {
+        "min": 0.0275,
+        "max": 0.0316
+      }
+    },
+    "note": "Animal Diversity Web gives South African head-and-body lengths of 101-109 mm in males and 105-116 mm in females, forearm lengths of 61-63 mm in males and 61-66 mm in females, and tail lengths of 17-25 mm in males and 20-23 mm in females; a typical Southern African male mass is given as 20-36 g and a female mass as 27.5-31.6 g, with an average wingspan of 181-204 mm. Wikipedia, citing Garbutt (2007), gives an unssexed adult mass of 25-36 g, a forearm of 58-64 mm, and a total length of 10-11 cm. The Animal Diversity Web head-and-body and sexed-mass figures are entered here; the Wikipedia total-length and unssexed-mass figures, and the forearm and wingspan ranges, are recorded as a disagreement rather than averaged or converted. The 2025 EWT assessment does not give mass or length in the fields used. No shoulder height was published in the sources used."
+  },
+  "summary": "A fairly large insect-eating tomb bat with a grizzled, salt-and-pepper back and a wholly white belly, often seen clinging flat to tree trunks, cliff overhangs or the outer walls of buildings. It hunts moths and other flying insects in open air, sometimes high above the ground, and is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List.",
+  "description": "A sheath-tailed bat of the family Emballonuridae. Wikipedia distinguishes it by a completely white ventral surface and a mottled dorsal coat of brown, grey and white that gives a grizzled salt-and-pepper appearance; the fur is sleek and short, and the wing membranes are beige and mainly translucent. Animal Diversity Web likewise describes an entirely white ventral surface with mixed-grey dorsal pelage, and long, narrow, pale parchment-like wings that attach at the ankle; the long, narrow wing tip shortens when folded, which helps the bat crawl, a trait of the genus. Sexes are similar in colour and size; Wikipedia says adults are generally lighter than juveniles, which have more of a grey hue. The face is conical and thinly haired, bare below and in front of the eyes, and sunken around the eyes; the eyes are large (2-3 mm). The ears are erect and triangular with rounded edges, and the inner margins lack papillae. Males have a gular sac at the base of the jaw that releases secretions used to mark territories and attract females; Wikipedia, citing Dengis (1996), says the sac may be absent, vestigial or fully present in females depending on the region. Wikipedia, citing Stuart (2001), says the Egyptian tomb bat (Taphozous perforatus) is the same size but lacks the completely white belly; that species is not in this guide.",
+  "habits": "The species is mainly nocturnal. The 2016 EWT assessment describes it as fairly common and conspicuous, roosting under covering vegetation on the outer bark of trees, on cliff walls with overhanging rock shelves, or on the outer walls of buildings under the eaves, especially face-brick houses (Dengis 1996; Taylor 1998, 2000). It rests with its belly flat against the roost and its head facing down; favoured sites are usually in shade, where the grizzled dorsal pelage camouflages the bat (Fenton 1992). If disturbed, it moves sideways in a crab-like way to take cover, or flies off and may alight on a nearby tree. Females roost in small groups of 2-5, sometimes up to 30 (Taylor 1998, 2000); males generally roost singly and apart from the females. Wikipedia, citing Skinner and Chimimba (2005), adds that groups are often of about five and usually of one sex, that mixed groups keep the sexes at least 10 cm apart, and that the bats roost loosely spaced rather than in tight clusters, except for a mother and her young; roosts are often reused and may become stained with gular-sac secretions and urine. Wikipedia and Animal Diversity Web both say the bats remain watchful by day, have relatively good eyesight for an echolocating bat, and usually wait for darkness before foraging, though they may occasionally hunt by day. The 2016 assessment, citing Fenton and Griffin (1997), describes it as an open-air forager that may feed more than 500 m above the ground. Animal Diversity Web, by contrast, says it never flies above the tops of nearby trees and that hunting dives may be up to 10 m; those height accounts are recorded rather than reconciled. Prey is captured and eaten in flight. Animal Diversity Web says individuals rarely travel far from the day roost.",
+  "diet": {
+    "summary": "An insectivore and open-air forager. The 2016 EWT assessment, citing Schoeman (2006), lists aerial insects such as Lepidoptera, Isoptera and Coleoptera. Wikipedia, citing Goodman, Benstead and Schütz (2007), says moths are preferred, with butterflies and termites taken during daylight hours. Animal Diversity Web likewise treats moths near the day roost as the staple, supplemented by termites, butterflies and other insects, and says the bats typically do not return to the roost to feed at night.",
+    "items": [
+      "moths (Lepidoptera)",
+      "termites (Isoptera)",
+      "beetles (Coleoptera)",
+      "butterflies",
+      "other aerial insects"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Wikipedia, citing Skinner and Chimimba (2005), says tomb bats of the southern African subregion often have two birth seasons, one in February or March and another from October to December, and that the litter is a single pup; males take no part in raising it, and the pup clings to the mother's abdomen in flight and at rest until it can fly. Wikipedia also records another pattern, of mating in December, a gestation of four to five months, and births in April or May. Animal Diversity Web similarly records conflicting cycles: births from March to April and November to December in some accounts, or in April to May in others, a single young, and an average gestation of two months. The birth-season and gestation accounts disagree and are recorded rather than reconciled. No Kruger-specific breeding study was found in the sources used. Size at birth and age at maturity were not given.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Snakes",
+      "note": "Animal Diversity Web says snakes occasionally prey on the species, but that specific predators are rarely named. Not identified to species in the sources used."
+    },
+    {
+      "slug": null,
+      "en": "Owls",
+      "note": "Animal Diversity Web lists nocturnal raptors, including owls (Strigiformes), as occasional predators, but does not name a species."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "Preferred prey in Wikipedia (Goodman, Benstead and Schütz 2007) and Animal Diversity Web; included under Lepidoptera in the 2016 EWT assessment (Schoeman 2006). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Termites",
+      "note": "Listed by the 2016 EWT assessment (Isoptera; Schoeman 2006), Wikipedia and Animal Diversity Web. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "Listed as Coleoptera in the 2016 EWT assessment (Schoeman 2006). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Butterflies",
+      "note": "Wikipedia and Animal Diversity Web list butterflies among prey taken in daylight. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2016 EWT assessment records roosts on the trunks of large trees, on cliff walls with overhanging rock shelves, and on buildings, including in built-up areas. Wikipedia describes a wide habitat range from subarid scrub to moist open savanna, forest and grassland, often near swamps and rivers, and says the bats avoid the thicker parts of tropical forest because of limited turning manoeuvrability; natural roosts include palm trunks, caves and crevices, with a preference for sites that have overhead shelter but an unhindered take-off. Animal Diversity Web places the species mainly in moist open habitats and in savanna, with records in drier country usually close to swamps and rivers. A Kruger-specific habitat account was not given in the 2025 EWT assessment text used.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment header gives the regional population trend as stable and a presumed large population in the assessment region; the number of mature individuals is unknown. The 2016 assessment gave the regional trend as unknown, but suspected to be stable, and also left the number of mature individuals unknown. Those regional figures are not a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Taphozous mauritianus",
+        "url": "https://ewt.org/project/mauritian-tomb-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend given as stable in the page header; presumed large population in the assessment region; number of mature individuals unknown. Not a Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "erect, triangular, with rounded edges; inner margins lack papillae"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "conical and thinly haired; bare below and in front of the eyes, and sunken around the eyes; eyes large (2-3 mm). Males have a gular sac at the base of the jaw",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "grey",
+            "white"
+          ],
+          "pattern": "mottled, grizzled salt-and-pepper appearance; fur sleek and short. Wikipedia says adults are generally lighter than the greyer juveniles. Sexes similar in colour"
+        },
+        "underparts": {
+          "colour": [
+            "white"
+          ],
+          "pattern": "completely white ventral surface, used as a field character"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "Animal Diversity Web gives South African tail lengths of 17-25 mm in males and 20-23 mm in females"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen clinging with the belly flat against a tree trunk, cliff or wall and the head facing down. The grizzled salt-and-pepper back and wholly white belly are the usual field characters; the long, narrow wings fold so that the bat can crawl sideways if disturbed."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Long, narrow wings with pale, parchment-like or beige, mainly translucent membranes, attached at the ankle. Animal Diversity Web gives an average wingspan of 181-204 mm. An open-air forager that captures and eats prey in flight."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Wikipedia and Animal Diversity Web say the bats use audible calls: they chirrup at rest and screech in aggressive situations. Animal Diversity Web adds that roost-mates give three-syllable calls at two- to three-second intervals when another bat approaches.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Wikipedia describes the echolocation pulses as being given in patterns of twos and threes separated by long intervals of silence, a pattern used to tell the species from other bats. Animal Diversity Web says the pulse rate increases during hunting dives.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "taphozous-mauritianus-perched-side",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/272146625",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/489602393/large.jpeg",
+      "hosted": false,
+      "author": "jandutoit",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "A tomb bat clinging to tree bark, with a second bat partly visible.",
+      "caption": "Roosting on a tree trunk, Kruger National Park, Mopani District Municipality, South Africa, 25 March 2025. A second bat is partly visible at the edge of the frame."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A conservation assessment of Taphozous mauritianus",
+      "url": "https://ewt.org/project/mauritian-tomb-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Lötter CA and da Silva JM. 2025. Used for the 2025 regional status, the stable regional trend in the page header, common names (including Afrikaans Witlyfvlermuis), and the assessment rationale. The habitats, population narrative, threats and conservation prose on the page describe a shrew, including a comparison with Crocidura silacea, and were not used."
+    },
+    {
+      "title": "A conservation assessment of Taphozous mauritianus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/62.-Mauritian-Tomb-Bat-Taphozous-mauritianus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Monadjem A, Jacobs D, MacEwan K, Cohen L, Richards L, Schoeman C and others. 2016. Source of roosting habits, diet (Schoeman 2006), open-air foraging at height (Fenton and Griffin 1997), the 2016 regional trend, and a definite record in Kruger National Park. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Mauritian tomb bat",
+      "url": "https://en.wikipedia.org/wiki/Mauritian_tomb_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Taphozous mauritianus. Used for appearance, roosting, diet, young, calls, Afrikaans name, and the global IUCN listing. Cites Dengis (1996), Skinner and Chimimba (2005), Goodman et al. (2007), Garbutt (2007) and Monadjem et al. (2017)."
+    },
+    {
+      "title": "Taphozous mauritianus Mauritian tomb bat",
+      "url": "https://animaldiversity.org/accounts/Taphozous_mauritianus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2007,
+      "note": "Francis C. 2007. Used for South African measurements, appearance, roosting, diet, young, predators and calls."
+    },
+    {
+      "title": "iNaturalist taxon Taphozous mauritianus",
+      "url": "https://api.inaturalist.org/v1/taxa/41380",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Taphozous mauritianus (English Tomb bat; Afrikaans Witlyfvlermuis). The 2016 and 2025 EWT assessments, and Wikipedia, also give the Afrikaans name as Witlyfvlermuis, matching the species list. The preferred English name in those sources, and on iNaturalist, is Mauritian tomb bat; EWT also lists Tomb Bat as a common name. The species-list English form is kept. Status and monthsPresent are omitted: the 2025 EWT page was searched for Kruger and does not mention the park. The 2016 assessment does list Kruger National Park among protected areas with records. The habitats, population narrative, threats and conservation sections of the 2025 page describe a shrew, including a comparison with Crocidura silacea, and were not used; ecology was taken from the 2016 assessment, Wikipedia and Animal Diversity Web. Regional status remains Least Concern in 2025, with no change from 2016; the global IUCN listing cited by Wikipedia is Least Concern (2017). One licensed research-grade photograph of bats roosting on a tree trunk in Kruger (place 69020) was used; three other licensed Kruger thumbnails that were viewed showed bats under thatch or buildings and were not used.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment header gives a stable regional trend and a presumed large population in the assessment region, with the number of mature individuals unknown, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Status and monthsPresent are omitted because the 2025 EWT page does not mention Kruger. The 2016 assessment lists Kruger National Park among protected areas with records.",
+    "The habitats, population narrative, threats and conservation prose on the 2025 EWT page describe a shrew, including a comparison with Crocidura silacea, and were not used.",
+    "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 41380. Call and echolocation descriptions are taken from Wikipedia and Animal Diversity Web. Of the licensed research-grade Kruger photographs, three of four thumbnails viewed were of bats under thatch or buildings and were not used; one tree-trunk roost was kept. No second photograph was added.",
+    "Mass and length disagree between sources: Animal Diversity Web gives sexed South African figures (males 20-36 g and 101-109 mm head-and-body; females 27.5-31.6 g and 105-116 mm), while Wikipedia gives an unssexed mass of 25-36 g and a total length of 10-11 cm. Forearm and wingspan are given only in the size note. No shoulder height was published.",
+    "Iris colour, ear colour, muzzle colour, leg colour and tail colour were not given in the sources used, so those marks are null.",
+    "Birth season and gestation disagree: Wikipedia gives February or March and October to December in southern Africa, or April or May after a four- to five-month gestation; Animal Diversity Web gives March to April and November to December, or April to May, and an average gestation of two months. Size at birth and age at maturity were not given. No Kruger-specific breeding study was found.",
+    "Foraging height disagrees: the 2016 EWT assessment, citing Fenton and Griffin (1997), says the species may feed more than 500 m above the ground, while Animal Diversity Web says it never flies above the tops of nearby trees.",
+    "No named species-level predators were given. Animal Diversity Web lists snakes and owls only at group level.",
+    "The English name in species-list.json is Tomb bat (2011 checklist form). The 2016 and 2025 EWT assessments, Wikipedia and iNaturalist prefer Mauritian tomb bat; EWT also lists Tomb Bat. The species-list form is kept. The Afrikaans name Witlyfvlermuis matches EWT and Wikipedia."
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "kind": "species",
+  "slug": "hipposideros-caffer",
+  "scientificName": "Hipposideros caffer",
+  "commonNames": {
+    "en": "Sundevall's leaf-nosed bat",
+    "af": "Sundevall se Bladneusvlermuis"
+  },
+  "family": "hipposideridae",
+  "inatTaxonId": 40761,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2016 regional Red List for South Africa, Eswatini and Lesotho; IUCN global status Least Concern (2020). No 2025 EWT species assessment page for this taxon was found among the EWT sources used.",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Hipposideros caffer",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/11.-Sundevalls-Leaf-nosed-Bat-Hipposideros-caffer_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Monadjem A, Jacobs D, Cohen L, Richards LR, Schoeman C, Sethusa T and Taylor PJ. 2016. Regional status Least Concern. Current population trend stable. Number of mature individuals unknown. National status in 2004 was Data Deficient; the change is described as non-genuine (new information). Global Red List status then given as Least Concern (2008). Taxonomic status is given as a species complex. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Sundevall's roundleaf bat",
+        "url": "https://en.wikipedia.org/wiki/Sundevall's_roundleaf_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Richards, Cooper-Bohannon, Kock, Amr, Mickleburgh, Hutson, Bergmans and Aulagnier (2020) for a global IUCN listing of Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 8,
+      "max": 9
+    },
+    "massKg": {
+      "min": 0.008,
+      "max": 0.01
+    },
+    "note": "Wikipedia, citing Wright (2009), gives a head-and-body length of 8-9 cm, a wingspan of 20-29 cm, and an adult mass of 8-10 g. No tail length, forearm length or shoulder height was published in the sources used. The 2016 EWT assessment does not give mass or length. Animal Diversity Web is a classification stub for this species and has no measurements."
+  },
+  "summary": "A medium-sized insect-eating leaf-nosed bat with long fur that may be grey or bright golden-orange, paler below, and brown wings. It hunts moths and other insects along cluttered edges, roosts in caves, rock fissures, hollow trees, mines and culverts, and is listed as Least Concern in the 2016 regional assessment and on the global IUCN Red List (2020).",
+  "description": "A leaf-nosed bat of the family Hipposideridae. Wikipedia, citing Wright (2009), describes a medium-sized bat with long fur that may be either grey or a bright golden-orange, generally paler on the underside, and brown wings; adults weigh 8-10 g, with a head-and-body length of 8-9 cm and a wingspan of 20-29 cm. The ears are large and rounded, with a well-developed antitragus. The nose-leaf is horseshoe-shaped, with a distinctive small projection on either side and an additional serrated ridge of skin behind the main leaf. Both sexes have an extra pair of teats in the pubic region; these are vestigial in males and can be as long as 4 cm in some females, but are never functional, and may give the young something to hold on to. Wikipedia notes that the species is very similar in appearance to Noack's roundleaf bat (Hipposideros ruber), that the two have in the past been treated as the same species, and that together they may represent a species group containing cryptic species or subspecies that have yet to be distinguished. The 2016 EWT assessment likewise treats Hipposideros caffer as a species complex (Kock et al. 2008), assigns southern African populations to the nominate lineage H. c. caffer (Vallo et al. 2008), and notes that molecular work is still needed to resolve the taxonomy. Noack's roundleaf bat is not in this guide.",
+  "habits": "The 2016 EWT assessment describes the species as a clutter-edge forager with low wing-loading (Monadjem et al. 2010). Wikipedia, citing Fenton (1986) and Wright (2009), says the bats are relatively slow-flying but highly manoeuvrable, and can hover briefly; they mostly catch moths and other prey in mid-air, but can also snatch fluttering insects on the ground, using echolocation to tell the rapid movement of insect wings from nearby clutter. Day roosts, in the 2016 assessment (Happold 1987; Monadjem et al. 2010), are in caves, sinkholes, rock fissures, hollow trees or cavities, including mines and culverts, and are commonly shared with other species, including the Egyptian slit-faced bat (Nycteris thebaica) in Swaziland. Wikipedia adds tree hollows and man-made structures such as mines or attics, and records a cave roost of as many as 500,000 individuals in Gabon; that figure is outside the regional assessment and is not a Kruger count. The 2016 assessment describes the species as extremely gregarious, forming colonies from fewer than a dozen to more than 1,000 individuals where roosting space is adequate (Kock et al. 2008; Monadjem et al. 2010), with colonies in the hundreds reported in the assessment region; males may occasionally roost solitarily (Monadjem et al. 2010). Wikipedia, citing Bell (1987), says colonies appear to have a harem structure, with dominant males monopolising access to a number of females. The bats do not truly hibernate, but Wikipedia, citing Wright (2009), says they may enter torpor in cold weather.",
+  "diet": {
+    "summary": "An insectivore and clutter-edge forager. The 2016 EWT assessment, citing Monadjem et al. (2010), says it feeds predominantly on Lepidoptera, with smaller quantities of Trichoptera and Coleoptera. Wikipedia says it feeds primarily on moths, which may form up to 92% of the diet, and that the bats appear selective, having been observed to avoid certain arctiid moths that advertise an unpleasant taste with ultrasonic clicks (Dunning and Krüger 1996); small amounts of beetles, flies and other insects are also taken.",
+    "items": [
+      "moths (Lepidoptera)",
+      "caddisflies (Trichoptera)",
+      "beetles (Coleoptera)",
+      "flies",
+      "other insects"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2016 EWT assessment describes seasonal breeding in KwaZulu-Natal: copulation in April, embryonic development delayed during winter until the end of September, and a single young born in early December (Rautenbach 1997; Skinner and Chimimba 2005). Because of this delayed embryonic development, gestation in KwaZulu-Natal was found to be nearly 100 days longer (about 220 days) than in tropical populations (Bernard and Meester 1982). The assessment notes that normal fertilisation and implantation occur, after which the embryo's growth is halted during hibernation and resumes afterwards (Monadjem et al. 2010). Wikipedia, citing Wright (2009), places breeding in winter in the northern and southern parts of the range, gives gestation as about three to four months, and says that in some populations delayed implantation means the young are not born until five to seven months after mating. Those accounts of the delay (embryonic growth halted after implantation, versus delayed implantation) disagree and are recorded rather than reconciled. Wikipedia, citing Wright (2009) and Menzies (1973), says the female has a single young, which is initially blind and partly hairless; deciduous teeth form in the womb but have already been lost by birth; the pup begins to fly at about one month, is weaned at about three months when it is close to adult size, and reaches sexual maturity at one or two years. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Bat hawks",
+      "note": "Wikipedia lists bat hawks as known predators of this species. Not a mammal in this guide, and not identified to species beyond that group name in the sources used."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "The staple in both accounts: predominantly Lepidoptera in the 2016 EWT assessment (Monadjem et al. 2010); up to 92% of the diet in Wikipedia, with some arctiid moths avoided (Dunning and Krüger 1996). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Caddisflies",
+      "note": "Listed as Trichoptera in smaller quantities in the 2016 EWT assessment (Monadjem et al. 2010). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "Listed as Coleoptera in smaller quantities in the 2016 EWT assessment (Monadjem et al. 2010) and as a minor item in Wikipedia. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Flies",
+      "note": "Wikipedia lists flies among insects taken in small amounts. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2016 EWT assessment, citing Taylor (2000), associates the species with savannah, bushveld and coastal forests near rivers and other water sources, with day roosts in nearby caves, sinkholes, rock fissures, hollow trees or cavities, including mines and culverts. Wikipedia adds that it is most often found in savannah, avoids the dense rainforests of central Africa, and has also been reported in Acacia shrubland, bushveld, and coastal and mopane forests. A Kruger-specific habitat account was not given in the sources used.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment describes the species as common in the assessment region, with a stable regional trend, no continuing decline in mature individuals, an unknown number of mature individuals, more than 100 mature individuals in the largest subpopulation, and colonies in the hundreds, ranging from fewer than a dozen to more than 1,000 where roosting space is adequate. Those regional figures are not a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Hipposideros caffer",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/11.-Sundevalls-Leaf-nosed-Bat-Hipposideros-caffer_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional trend given as stable; common in the assessment region; number of mature individuals unknown. Not a Kruger count. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "large and rounded, with a well-developed antitragus"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "horseshoe-shaped nose-leaf with a small projection on either side and an additional serrated ridge of skin behind the main leaf",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "golden-orange"
+          ],
+          "pattern": "long fur that may be either grey or bright golden-orange; wings brown. Colour morphs, not a patterned coat. Sexes not described as differing in colour"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": "generally paler than the upperparts; a specific ventral colour was not given"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen hanging in a cave, rock fissure, hollow tree, mine or culvert. The horseshoe-shaped nose-leaf, large rounded ears, and long grey or golden-orange fur paler below are the usual field characters; both colour forms occur in adults."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Brown wings with a wingspan of 20-29 cm (Wright 2009). Relatively slow-flying but highly manoeuvrable, and able to hover briefly; a clutter-edge forager that usually takes moths and other insects in mid-air."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Wikipedia, citing Fenton (1986), describes echolocation calls as a constant-frequency component lasting about 6 ms, followed by a short frequency-modulated downward sweep. The frequency varies with locality but is typically about 140 kHz.",
+      "recordings": []
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Hipposideros caffer",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/11.-Sundevalls-Leaf-nosed-Bat-Hipposideros-caffer_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Monadjem A, Jacobs D, Cohen L, Richards LR, Schoeman C, Sethusa T and Taylor PJ. 2016. Source of the 2016 regional Least Concern status and stable regional trend, common names (including Afrikaans), the species-complex note, habitat and roosting, diet (Monadjem et al. 2010), KwaZulu-Natal breeding and delayed embryonic development, and regional colony sizes. The text does not name Kruger National Park. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Sundevall's roundleaf bat",
+      "url": "https://en.wikipedia.org/wiki/Sundevall's_roundleaf_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Hipposideros caffer. Used for appearance and measurements (Wright 2009), similarity to Noack's roundleaf bat, roosting, diet, echolocation (Fenton 1986), young, predators, and the global IUCN listing (Richards et al. 2020). Afrikaans names were taken from the 2016 EWT assessment, not from this page."
+    },
+    {
+      "title": "Hipposideros caffer Sundevall's roundleaf bat",
+      "url": "https://animaldiversity.org/accounts/Hipposideros_caffer/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Classification stub only; no species account text was available to use."
+    },
+    {
+      "title": "iNaturalist taxon Hipposideros caffer",
+      "url": "https://api.inaturalist.org/v1/taxa/40761",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Hipposideros caffer (English Sundevall's leaf-nosed bat; Afrikaans Sundevall se Bladneusvlermuis) and does not remap the names. The taxon is a known species complex: the 2016 EWT assessment and Wikipedia both record unresolved cryptic lineages in the caffer-ruber group, with southern African populations assigned to H. c. caffer (Vallo et al. 2008). The preferred English name in Wikipedia and on iNaturalist is Sundevall's roundleaf bat; the 2016 EWT assessment uses Sundevall's Leaf-nosed Bat and lists several other English names. The species-list English form, which matches the 2011 SANParks checklist, is kept. The 2016 EWT Afrikaans list opens with Sundevall se bladneusvlermuis (lowercase b), then Sundevall-bladneusvlermuis, Sundevall se blaarneusvlermuis and Kaapse Blaarneusvlermuis; the species-list spelling with a capital B is kept, and the extra EWT forms are flagged. Status and monthsPresent are omitted: the site:ewt.org search returned the 2016 PDF and the EWT red-list Chiroptera table, which links that PDF, and no 2025 /project/ page for this species. The 2016 assessment text does not name Kruger National Park, though the species is on the 2011 SANParks checklist and has research-grade iNaturalist records in place 69020. Regional status is Least Concern (2016); the global IUCN listing cited by Wikipedia is Least Concern (2020). Animal Diversity Web is a classification stub. No licensed photograph was kept: all 12 licensed research-grade Kruger observations were at rest camps, a picnic-site cluster, or a rest-area bathroom, and the four place-6986 thumbnails viewed were three definite building roosts and one Hluhluwe roost on an indeterminate surface.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives a stable regional trend and describes the species as common in the assessment region, with an unknown number of mature individuals, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Status and monthsPresent are omitted because no 2025 EWT species page was found, and the 2016 assessment text does not name Kruger National Park. The species is on the 2011 SANParks checklist and has research-grade iNaturalist records in Kruger (place 69020).",
+    "No 2025 EWT /project/ page for this species was found. The site:ewt.org search returned the 2016 PDF and the EWT red-list Chiroptera table, which links that PDF. The 2025 regional status was therefore not taken from a species page.",
+    "This is a known species complex (Kock et al. 2008; Vallo et al. 2008; Monadjem et al. 2013). The file keeps the species-list.json names and does not remap the Kruger animals to another species or subspecies.",
+    "The English name in species-list.json is Sundevall's leaf-nosed bat (2011 checklist form). Wikipedia and iNaturalist prefer Sundevall's roundleaf bat; the 2016 EWT assessment uses Sundevall's Leaf-nosed Bat and lists further English names. The species-list form is kept.",
+    "The Afrikaans name in species-list.json is Sundevall se Bladneusvlermuis (capital B, 2011 checklist form). The 2016 EWT assessment lists Sundevall se bladneusvlermuis (lowercase b), Sundevall-bladneusvlermuis, Sundevall se blaarneusvlermuis and Kaapse Blaarneusvlermuis. The species-list form is kept.",
+    "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40761. The echolocation description is taken from Wikipedia (Fenton 1986). No audible social-call description was given in the sources used.",
+    "No photograph was used. Place 69020 returned 12 licensed research-grade observations, all at rest camps (including Lower Sabie), a tight picnic-site cluster, or a bathroom at a rest area along a river; those were dropped. One place 6986 query was then run; four thumbnails were viewed (Hluhluwe-iMfolozi, False Bay, Musina and Maruleng). Three were definite building roosts. The Hluhluwe roost was on an indeterminate surface and was not kept.",
+    "Animal Diversity Web is a classification stub for Hipposideros caffer and supplied no measurements, appearance, ecology or predators.",
+    "Tail length, forearm length, shoulder height, ear colour, iris colour, muzzle colour, leg colour, tail colour and a specific ventral colour were not given in the sources used, so those marks are null. Underparts are described only as generally paler than the upperparts.",
+    "Breeding accounts disagree on the delay mechanism: the 2016 EWT assessment describes retarded embryonic development after implantation, with a KwaZulu-Natal gestation of about 220 days, while Wikipedia, citing Wright (2009), describes delayed implantation in some populations and a gestation of three to four months. No Kruger-specific breeding study was found.",
+    "No sourced field comparison with Hipposideros commersoni (the other leaf-nosed bat in this guide) was found, so a similar-species entry was omitted. Wikipedia compares the species with Noack's roundleaf bat (Hipposideros ruber), which is not in this guide.",
+    "No named species-level mammal predators were given. Wikipedia lists bat hawks only at group level."
+  ]
+}

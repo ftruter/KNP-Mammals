@@ -1,0 +1,337 @@
+{
+  "kind": "species",
+  "slug": "epomophorus-wahlbergi",
+  "scientificName": "Epomophorus wahlbergi",
+  "commonNames": {
+    "en": "Wahlberg's epauletted fruit bat",
+    "af": "Wahlberg se witkolvrugtevlermuis"
+  },
+  "family": "pteropodidae",
+  "inatTaxonId": 40811,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho; IUCN global status Least Concern (2016). No change from the 2016 regional assessment.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Epomophorus wahlbergi",
+        "url": "https://ewt.org/project/wahlbergs-epauletted-fruit-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Richardson E, Lötter C and da Silva JM. 2025. Regional status Least Concern; no change from the 2016 assessment. The regional population trend is given as fluctuating, but overall declining slowly. The species is recorded as present in Kruger National Park."
+      },
+      {
+        "title": "A conservation assessment of Epomophorus wahlbergi",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Wahlbergs-Epauletted-Fruit-Bat-Epomophorus-wahlbergi_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Schoeman C, White W, Monadjem A, Richards LR, Cohen L, Jacobs D, MacEwan K, Sethusa T and Taylor PJ. 2016. Regional status Least Concern, with a watch-list threat. Global IUCN status Least Concern (2016). National status in 2004 was Least Concern. The 2016 assessment inferred that the regional population was stable. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Wahlberg's epauletted fruit bat",
+        "url": "https://en.wikipedia.org/wiki/Wahlberg%27s_epauletted_fruit_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Schoeman (2016), IUCN Least Concern globally."
+      }
+    ]
+  },
+  "size": {
+    "massKg": {
+      "min": 0.054,
+      "max": 0.125
+    },
+    "note": "Wikipedia, citing Bergmans (1988) and Happold, Happold and Hill (1987), gives an adult mass of 54-125 g, and wingspans of 510-600 mm in males and 456-540 mm in females. Animal Diversity Web gives a mass of 40-120 g and a male wingspan of about 508 mm, and also a total body length of 125-250 mm; those figures are recorded as a disagreement rather than averaged, and the 54-125 g range is entered here. The 2025 EWT assessment does not give mass or wingspan, but gives mean forearm length at maturity as 8.12 cm in females and 8.51 cm in males (Monadjem et al. 2020). No shoulder height, head-and-body length or tail length was published as such in the sources used, so the wide Animal Diversity Web total-length range is not entered as head-and-body length."
+  },
+  "summary": "A medium-sized African fruit bat of woodland, riparian forest and wooded gardens, brown to tawny, with white hair patches at the base of the ears and, in males, erectable white shoulder epaulettes. In Kruger National Park it specialises on the fruits of sycamore fig, roosts in tree foliage, and may fly more than 13 km in a night between roost and feeding sites. It is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List.",
+  "description": "A medium-sized epauletted fruit bat. Wikipedia describes the coat as brown to tawny, with white hair patches at the base of the ears, and says males are typically darker than females, have erectable epaulettes of hair around large scent glands, and have air sacs on the neck that may increase the volume of courtship calls; scent glands also lie near the white ear patches in both sexes. Animal Diversity Web describes the colour as grayish brown, russet or tawny, a dog-like face, large eyes, simple oval ears that form an unbroken ring and lack a tragus, no nose-leaf, a short tail that projects from a very narrow uropatagium, clawed first and second digits, and large flat cheek teeth. Wikipedia likewise notes large eyes, simple oval ears without a tragus, a simple nose, and highly folded, expansible lips, and says the wings are broad compared with other bats. The two colour accounts are both recorded rather than reconciled. Adult Epomophorus wahlbergi is distinguished from sympatric E. crypturus by a single post-dental palatal ridge and a broader muzzle (Taylor and Monadjem 2008, cited in the EWT assessments). Wikipedia, citing Hayman and Hill (1971), says species of Epomophorus can be distinguished from other megabats by their white epaulettes.",
+  "habits": "The species is nocturnal. The 2025 EWT assessment, citing Monadjem et al. (2020), says it roosts under the canopy of trees, in thick foliage, singly or in small groups and sometimes in considerable numbers, and that it continually changes roost site as an anti-predation strategy; it occasionally roosts in man-made structures. Wikipedia, citing Wickler and Seibt (1976) and Fenton et al. (1985), adds well-lit open trees, palm fronds, dense forest near rivers, thatched roofs and, rarely, caves, and gives roosting groups of 3-100 individuals that typically change location daily or every few days. The 2025 assessment gives congregations of up to 65 animals; Animal Diversity Web also uses the 3-100 range. Those group-size figures are recorded rather than averaged. Telemetry in Kruger National Park showed that individuals may travel more than 13 km a night between roosting and feeding sites, but that most flight activity was within 400 m of a Ficus sycomorus tree with ripe fruit, with home ranges averaging about 16 ha (Bonaccorso et al. 2014, cited in the 2025 assessment). The 2016 assessment notes that, in Kruger, more than 90% of its activity occurs within riparian woodlands containing sycamore figs. Wikipedia, citing Fenton et al. (1985), says most flight occurs in the first three hours of the night and that an extensive grooming period of up to 30 minutes usually precedes departure from the roost. Wikipedia describes the flight as relatively slow and somewhat clumsy; Animal Diversity Web calls the bats strong fliers. Both accounts are recorded. Wikipedia, citing Downs et al. (2012), says the species does not enter torpor but is heterothermic while roosting, more markedly so in winter.",
+  "diet": {
+    "summary": "The 2025 EWT assessment describes the species as frugivorous, feeding on fruit (indigenous and cultivated), nectar, pollen and flowers, with fig trees favoured; in Kruger National Park it specialises on the fruits of Ficus sycomorus (Fenton et al. 1985; Bonaccorso et al. 2014). It is a key seed disperser of sycamore fig in the assessment region and has been recorded pollinating baobab (Adansonia digitata). Wikipedia, citing Wickler and Seibt (1976) and Pienaar, Rautenbach and de Graaff (1980), lists figs, guava and fruits of Diospyros, and says leaves of Balanites and several insects may also be eaten; fruit is typically carried away from the source tree, the soft tissue is consumed, and seeds and skins are discarded. Animal Diversity Web describes chewing fruit, swallowing the juice and some softer pulp and seeds, and spitting out most of the pulp and seeds, and also lists mango, banana, peach, apple, papaya and small berries.",
+    "items": [
+      "figs, including sycamore fig (Ficus sycomorus) in Kruger National Park",
+      "guava",
+      "Diospyros fruits",
+      "mango",
+      "banana",
+      "nectar, pollen and flowers",
+      "baobab pollen (Adansonia digitata)",
+      "Balanites leaves",
+      "insects"
+    ],
+    "guild": "frugivore"
+  },
+  "young": "The 2025 EWT assessment says the species gives birth to live young, that births occur mainly in November but occasionally in July, and that the litter is one, very rarely two (Monadjem et al. 2020). It gives age at maturity as 12 months in females and 18 months in males, and does not state gestation or size at birth. Wikipedia, citing Andersen (1912) and Bergmans (1979), gives two birth periods, February to March and October to December, the first coinciding with peak fruit in the rainy season; it gives gestation as 5-6 months (Thomas and Marshall 1984), a usual litter of one and occasionally two, animals full-grown at 15 months, females able to reproduce at 12 months, and males reaching sexual maturity after that but before 18 months. Animal Diversity Web places births around the end of February and the beginning of September, and says the mother carries the offspring clinging to her chest while she forages. The birth-season accounts disagree and are recorded rather than reconciled. A Kruger-specific breeding study was not found in the sources used.",
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "Wikipedia, citing Pienaar, Rautenbach and de Graaff (1980), says several insects may also be eaten. The diet is otherwise frugivorous. Not mammals in this guide."
+    }
+  ],
+  "habitat": "In Kruger National Park the 2016 EWT assessment, citing Bonaccorso et al. (2014), describes the species as interdependent with sycamore fig (Ficus sycomorus), with more than 90% of its activity in riparian woodlands containing those trees. The 2025 assessment records it from woodland savannahs, including mopane and the Lowveld, and more generally from forest and forest-edge habitats, including riparian forest with fruiting trees. Within the assessment region it is also recorded from Central Bushveld, Indian Ocean Coastal Belt and several other bioregions, and from well-wooded urban and suburban areas. Wikipedia gives the altitudinal range as sea level to 2,000 m, matching the 2025 assessment.",
+  "similar": [
+    {
+      "slug": "epomophorus-crypturus",
+      "note": "The 2025 and 2016 EWT assessments, citing Taylor and Monadjem (2008), say adult E. wahlbergi can be distinguished from sympatric E. crypturus by a single post-dental palatal ridge (two in E. crypturus) and a broader muzzle. The 2025 assessment also notes that, where the two occur together, differences in mating vocalisations may be used to avoid cross-mating, including in Kruger National Park (Adams and Snode 2015), and that E. crypturus seems to prefer drier habitats, with its capture rate increasing in northern regions and that of E. wahlbergi in the south (Monadjem et al. 2020)."
+    },
+    {
+      "slug": "rousettus-aegyptiacus",
+      "note": "Wikipedia, citing Hayman and Hill (1971), says species of Epomophorus can be distinguished from other megabats by their white epaulettes. This species also has white hair patches at the base of the ears in both sexes."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment gives the number of mature individuals as unknown and the current population trend as fluctuating, but overall declining slowly, and presumes more than 5,000 individuals in the assessment region (South Africa, Eswatini and Lesotho). The 2016 assessment inferred that the regional population was stable. Those regional figures are not a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Epomophorus wahlbergi",
+        "url": "https://ewt.org/project/wahlbergs-epauletted-fruit-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional number of mature individuals unknown; regional trend fluctuating, but overall declining slowly. The presumed total of more than 5,000 individuals is for the assessment region, not a Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "white patches at the base in both sexes",
+          "shape": "simple oval, forming an unbroken ring and lacking a tragus"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "large eyes; Animal Diversity Web describes a dog-like face; scent glands lie near the white ear patches in both sexes",
+          "muzzle": "broader than in E. crypturus; Wikipedia describes a simple nose and highly folded, expansible lips",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "tawny",
+            "grayish brown",
+            "russet"
+          ],
+          "pattern": "Wikipedia describes the coat as brown to tawny, Animal Diversity Web as grayish brown, russet or tawny; both accounts are recorded. Wikipedia says males are typically darker than females"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "short; Animal Diversity Web says it projects from a very narrow uropatagium"
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "white patches at the base",
+          "shape": "simple oval, lacking a tragus"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "air sacs on the neck that may increase the volume of courtship calls",
+          "muzzle": "broader than in E. crypturus",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "tawny"
+          ],
+          "pattern": "typically darker than in females; erectable white epaulettes of hair around large shoulder scent glands, used in courtship display"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "short"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A medium-sized fruit bat hanging in foliage, brown to tawny, with a white patch at the base of each simple oval ear and a dog-like face with large eyes. Males are typically darker and may show white shoulder epaulettes and neck air sacs. The single post-dental palatal ridge that separates it from Peters' epauletted fruit bat is not usually visible in a perched view."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Broad wings relative to many other bats; Wikipedia gives wingspans of 510-600 mm in males and 456-540 mm in females. Wikipedia describes the flight as relatively slow and somewhat clumsy; Animal Diversity Web calls the bats strong fliers."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "male",
+      "type": "call",
+      "description": "Wikipedia, citing Nowak (1994) and Wickler and Seibt (1976), says that in the mating season males leave the roost, fly to another tree, and make frog-like courtship calls while displaying their erected epaulettes, positioning themselves about 50 m from other males and calling 75-120 times a minute. Animal Diversity Web describes the courtship call as four short chirps from 2.0 to 7.5 kHz, lasting one second, and says the neck air sacs may have a megaphone effect. The 2025 EWT assessment, citing Adams and Snode (2015), notes that mating vocalisations differ from those of E. crypturus where the two are sympatric, including in Kruger National Park.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Animal Diversity Web says the species may be one of a few megabats that use tongue-click sounds, mostly audible but with ultrasonic components, as a limited form of echolocation, while otherwise orienting mainly by sight and scent.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "epomophorus-wahlbergi-perched-side",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "mixed",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/390812696",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/716031536/large.jpg",
+      "hosted": false,
+      "author": "Ryan Tippett",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "Wahlberg's epauletted fruit bats hanging in tree foliage.",
+      "caption": "A group roosting in tree foliage, uMkhanyakude District Municipality, KwaZulu-Natal, South Africa, 16 March 2016."
+    },
+    {
+      "key": "epomophorus-wahlbergi-perched-side-foliage",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/412141963",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/758306728/large.jpg",
+      "hosted": false,
+      "author": "jannikb",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "A Wahlberg's epauletted fruit bat roosting in dense foliage.",
+      "caption": "Roosting in dense foliage, uMkhanyakude District Municipality, KwaZulu-Natal, South Africa, 30 October 2015."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A conservation assessment of Epomophorus wahlbergi",
+      "url": "https://ewt.org/project/wahlbergs-epauletted-fruit-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Richardson E, Lötter C and da Silva JM. 2025. Main text source for regional status, habitat, Kruger presence, diet in Kruger, movement, litter size and similar-species characters. Afrikaans name on this page is Wahlberg se Vrugtevlermuis, which differs from the species-list.json form kept here."
+    },
+    {
+      "title": "A conservation assessment of Epomophorus wahlbergi",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Wahlbergs-Epauletted-Fruit-Bat-Epomophorus-wahlbergi_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Schoeman C et al. 2016. Source of the 2016 global IUCN listing, the inferred stable regional trend in 2016, and the Kruger figure that more than 90% of activity occurs in riparian woodland with sycamore figs. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Wahlberg's epauletted fruit bat",
+      "url": "https://en.wikipedia.org/wiki/Wahlberg%27s_epauletted_fruit_bat",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Epomophorus wahlbergi Wahlberg's epauletted fruit bat",
+      "url": "https://animaldiversity.org/accounts/Epomophorus_wahlbergi/",
+      "publisher": "Animal Diversity Web",
+      "year": 2000,
+      "note": "Lundrigan B and Grome H. 2000. Used for appearance, mass, courtship-call structure, diet and young."
+    },
+    {
+      "title": "iNaturalist taxon Epomophorus wahlbergi",
+      "url": "https://api.inaturalist.org/v1/taxa/40811",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Epomophorus wahlbergi (Wahlberg's epauletted fruit bat; Afrikaans Wahlberg se witkolvrugtevlermuis). The 2016 and 2025 EWT assessments both give the Afrikaans name as Wahlberg se Vrugtevlermuis; that disagreement is flagged, and the species-list name is kept. EWT records the species as present in Kruger National Park, with Kruger-specific diet and movement studies, so status and monthsPresent are kept. Regional status remains Least Concern in 2025, with no change from 2016; the global IUCN listing cited in the 2016 assessment is Least Concern (2016). The 2025 regional trend (fluctuating, but overall declining slowly) differs from the stable trend inferred in 2016; that is a regional, not a Kruger, assessment. Field identification from Peters' epauletted fruit bat (E. crypturus) depends mainly on palatal ridges and muzzle width, which are hard to see in photographs. No licensable research-grade photograph from Kruger (place 69020) was found; the two photographs used are wild foliage roosts in uMkhanyakude District Municipality, KwaZulu-Natal.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the number of mature individuals as unknown, a regional trend of fluctuating but overall declining slowly, and a presumed total of more than 5,000 individuals in the assessment region, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "iNaturalist place 69020 (Kruger) returned 0 licensed research-grade photograph observations and 0 sound observations for taxon 40811. The two photographs used are wild foliage roosts from uMkhanyakude District Municipality, KwaZulu-Natal (place 6986). Two other licensed South Africa photographs that were viewed showed bats under thatch and were not used.",
+    "No licensable sound recording from Kruger was found. Courtship-call and possible tongue-click descriptions are taken from Wikipedia, Animal Diversity Web and the 2025 EWT assessment (Adams and Snode 2015).",
+    "Mass is given as 54-125 g by Wikipedia and as 40-120 g by Animal Diversity Web; the disagreement is recorded rather than averaged. No shoulder height, head-and-body length or quantified tail length was published as such. Animal Diversity Web's total body length of 125-250 mm is noted but not entered as head-and-body length. Forearm means from the 2025 assessment and wingspans from Wikipedia are given in the size note only.",
+    "Iris colour, underpart colour, leg colour and a quantified sexed mass split were not given in the sources used, so those marks are null. Coat colour is entered as both brown to tawny (Wikipedia) and grayish brown, russet or tawny (Animal Diversity Web).",
+    "Birth season is given as mainly November, occasionally July (2025 EWT assessment); as February to March and October to December (Wikipedia); and as around the end of February and the beginning of September (Animal Diversity Web). Those accounts are recorded as a disagreement. Size at birth was not given. No Kruger-specific breeding study was found.",
+    "No named natural predators were given in the sources used.",
+    "The Afrikaans name in species-list.json is Wahlberg se witkolvrugtevlermuis (2011 checklist form). Both the 2016 and 2025 EWT assessments give Wahlberg se Vrugtevlermuis. The species-list form is kept."
+  ]
+}

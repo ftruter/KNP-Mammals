@@ -1,0 +1,224 @@
+{
+  "kind": "species",
+  "slug": "calcochloris-obtusirostris",
+  "scientificName": "Calcochloris obtusirostris",
+  "commonNames": {
+    "en": "Yellow golden mole",
+    "af": "Geel gouemol"
+  },
+  "family": "chrysochloridae",
+  "inatTaxonId": 42519,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho; IUCN global status Least Concern (2015)",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Calcochloris obtusirostris",
+        "url": "https://ewt.org/project/yellow-golden-mole/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Patel T and da Silva JM. 2025. Regional status Near Threatened NT B1ab(iii); no change from the 2016 assessment. Regional population trend unknown. Recorded from the Nyadu Sandveld in the north-eastern corner of Kruger National Park."
+      },
+      {
+        "title": "A conservation assessment of Calcochloris obtusirostris",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/6.-Yellow-Golden-Mole-Calcochloris-obtusirostris-Near-Threatened.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Maree S and Bronner GN. 2016. Regional status Near Threatened B1ab(iii). Global IUCN status Least Concern (2015). National status in 2004 was Vulnerable. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Yellow golden mole",
+        "url": "https://en.wikipedia.org/wiki/Yellow_golden_mole",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Maree (2015), IUCN Least Concern globally, with the population trend unknown. Also notes the Endangered Wildlife Trust regional assessment of Near Threatened."
+      }
+    ]
+  },
+  "size": {
+    "lengthCm": {
+      "min": 9,
+      "max": 11
+    },
+    "note": "The 2025 EWT assessment gives size at maturity as 9-11 cm for both females and males, but does not say whether this is head-and-body length or total length. No shoulder height, head-and-body length, tail length or mass was published in the sources used."
+  },
+  "summary": "A small, strictly fossorial golden mole of light sandy soils on the Mozambique sand plain and adjacent Lowveld, recorded from the Nyadu Sandveld in the north-eastern corner of Kruger National Park. The 2016 EWT assessment says it is the only golden mole with orange-yellow underfur, which is greyish in other species. It is predominantly insectivorous, nests among tree roots, and is listed as Near Threatened in the regional assessment and Least Concern globally.",
+  "description": "A small golden mole. The 2016 EWT assessment says this is the only golden mole with orange-yellow underfur, which is greyish in other species, and that this underfur is the source of the English name. The 2025 EWT assessment gives size at maturity as 9-11 cm in both sexes, without saying which measurement that is. No sourced description of the upperparts, face, limbs or tail was found in the sources used, and coat colour is not inferred from the English name beyond the underfur statement. The sexes are not described as differently marked. Three subspecies are recognised and are said to intergrade in size, with only subtle morphological differences between them; Kruger records belong to Calcochloris obtusirostris obtusirostris.",
+  "habits": "The 2025 EWT assessment describes the species as strictly fossorial and highly sensitive to vibrations produced by live insect prey. Shallow subsurface foraging tunnels are linked to nest chambers among the roots of trees. Nesting chambers lie at the base of trees, up to 20 cm below the soil surface, and subsurface runs have been recorded up to 50 m from those chambers (Roberts 1936). The species lives close to human settlements and thrives in rural and urban gardens; it also occurs in cultivated and pastoral land and in commercial forestry plantations, though plantations are considered suboptimal. Dispersal is described as poor and limited by soil type and the high energetic cost of digging. A Kruger-specific activity study was not found.",
+  "diet": {
+    "summary": "The 2025 EWT assessment describes the species as predominantly insectivorous. Prey includes tenebreonid larvae, termites, grasshoppers, flies, moths and also small lizards. Wikipedia, citing the 2016 EWT assessment, likewise says the diet consists mainly of insects, small lizards, flies and other tiny animals found underground.",
+    "items": [
+      "tenebreonid larvae",
+      "termites",
+      "grasshoppers",
+      "flies",
+      "moths",
+      "small lizards"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment, citing Taylor (1998) and Skinner and Chimimba (2005), says breeding is suggested to be limited to the wet summer season. It lists the species as seasonally polyoestrous, states that it gives birth to live young, and gives an average litter size of 2. Gestation, size at birth, appearance of the young, and a Kruger-specific breeding study were not found.",
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment lists tenebreonid larvae, termites, grasshoppers, flies and moths. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Small lizards",
+      "note": "The 2025 EWT assessment includes small lizards in the diet. Not mammals in this guide."
+    }
+  ],
+  "habitat": "In Kruger National Park the 2025 EWT assessment records Calcochloris obtusirostris obtusirostris from the Nyadu Sandveld in the north-eastern corner of the park, in Acacia and Mopane savannah (thornveld woodland) on light sandy soils. More generally the species is strictly fossorial and restricted to light sandy soils, sandy alluvium and coastal sand dunes in southern African subtropical forest and savannah woodland transitions and mosaics, particularly close to rivers and waterways. It also lives near human settlements and in gardens, cultivated land and pastoral land.",
+  "similar": [
+    {
+      "slug": "neamblysomus-julianae",
+      "note": "The 2016 EWT assessment says the yellow golden mole is the only golden mole with orange-yellow underfur, and that the underfur is greyish in other species."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment gives the regional population trend as unknown and says estimates of population size or densities are unknown. A comment that the species is locally common in suitable sandy habitats on the coastal plains of Mozambique and northern KwaZulu-Natal is not a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Calcochloris obtusirostris",
+        "url": "https://ewt.org/project/yellow-golden-mole/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend unknown. Population size and densities unknown. The comment on local abundance on the Mozambique and northern KwaZulu-Natal coastal plains is not a Kruger total."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "orange-yellow",
+          "pattern": "orange-yellow underfur; the 2016 EWT assessment says this is the only golden mole with orange-yellow underfur, which is greyish in other species"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A small fossorial golden mole whose distinctive mark, if the animal is seen on the surface, is orange-yellow underfur; the underfur is greyish in other golden moles."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Calcochloris obtusirostris",
+      "url": "https://ewt.org/project/yellow-golden-mole/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Patel T and da Silva JM. 2025. Main text source for status, habitat, habits, diet and breeding. Afrikaans name Geel Gouemol is taken from this assessment (stored here in the species-list.json form Geel gouemol). Recorded from the Nyadu Sandveld in the north-eastern corner of Kruger National Park."
+    },
+    {
+      "title": "A conservation assessment of Calcochloris obtusirostris",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/6.-Yellow-Golden-Mole-Calcochloris-obtusirostris-Near-Threatened.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Maree S and Bronner GN. 2016. Source of the orange-yellow underfur mark and of the 2015 global IUCN listing. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Yellow golden mole",
+      "url": "https://en.wikipedia.org/wiki/Yellow_golden_mole",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "iNaturalist taxon Calcochloris obtusirostris",
+      "url": "https://api.inaturalist.org/v1/taxa/42519",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Calcochloris obtusirostris (Yellow golden mole; Afrikaans Geel gouemol, as given in the EWT assessments). The 2011 SANParks checklist printed the name as Calcochloris obtrusirostris; that spelling is already remapped in species-list.json and is not revisited here. EWT recognises three subspecies that intergrade in size; Kruger records are of C. o. obtusirostris in the Nyadu Sandveld in the north-eastern corner of the park, so status and monthsPresent are kept. Regional status remains Near Threatened in 2025, with no change from 2016; the global IUCN listing cited in the 2016 assessment is Least Concern (2015). The 2025 page gives an area of occupancy of 48 km2, against 5,218 km2 in 2016; the status was not changed. Animal Diversity Web has only a classification page for this species and was not used for natural history. Wikipedia is a short stub. No licensable photograph of the animal was found.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional trend as unknown and says estimates of population size or densities are unknown. A comment that the species is locally common on the coastal plains of Mozambique and northern KwaZulu-Natal is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable photograph of the animal suitable for display was found. iNaturalist place 69020 (Kruger) returned 0 observations. The one licensed research-grade record in South Africa (place 6986) is from a picnic site in Tembe Elephant Park and shows subsurface runs in sand, not the animal, so it was not used.",
+    "iNaturalist has 0 sound observations for Calcochloris obtusirostris in place 69020. No sourced description of the calls was found.",
+    "Animal Diversity Web has only a classification page for this species and no natural-history account. Skinner and Chimimba and Stuart's field guide were not available as books. Size is entered only as the 2025 EWT size at maturity of 9-11 cm, without a statement of which measurement that is. No mass, shoulder height, head-and-body length or tail length was published in the sources used.",
+    "Iris colour, ear shape, upperpart colour, leg colour, tail shape and a sexed size split were not given in the sources used, so those marks are null. Coat colour is not inferred from the English name beyond the 2016 EWT statement on orange-yellow underfur.",
+    "No predators were named in the sources used.",
+    "No Kruger-specific breeding study was found. Gestation, size at birth and the appearance of the young were not given.",
+    "Three subspecies are recognised (C. o. obtusirostris, C. o. chrysillus and C. o. limpopoensis). This file follows species-list.json at species rank and assigns Kruger records to C. o. obtusirostris as stated by EWT, without attempting a further split."
+  ]
+}
