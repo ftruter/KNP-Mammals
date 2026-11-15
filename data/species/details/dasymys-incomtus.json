@@ -1,0 +1,218 @@
+{
+    "kind": "species",
+    "slug": "dasymys-incomtus",
+    "scientificName": "Dasymys incomtus",
+    "commonNames": {
+        "en": "Water rat",
+        "af": "Waterrot"
+    },
+    "family": "muridae",
+    "inatTaxonId": 45632,
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Vulnerable",
+        "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho, for Dasymys incomtus (African Shaggy Rat), treated there as endemic. The 2016 regional assessment listed D. incomtus as Near Threatened and Dasymys robertsii (Robert’s Marsh Rat) as Vulnerable, and recorded D. robertsii, not D. incomtus, in Kruger National Park. The IUCN global listing for D. incomtus is Least Concern (2016, errata 2017), under a broader species concept",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "Fact sheet: the 2025 regional Mammal Red List of South Africa, Eswatini and Lesotho",
+                "url": "https://ewt.org/wp-content/uploads/2026/02/Fact-Sheet_Mammal-Red-List_2.pdf",
+                "publisher": "Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Lists African Shaggy Rat (Dasymys incomtus) as uplisted from Near Threatened to Vulnerable, and as endemic, with population declines due to land transformation and climate change. Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "A conservation assessment of Dasymys spp.",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/9.-African-Marsh-Rat-Dasymys-spp_VU.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Pillay N, Taylor P, Baxter R, Jewitt D, Pence G, Child MF. 2016. Regional status: D. capensis Vulnerable, D. incomtus Near Threatened B2ab(ii,iii,iv), D. robertsii Vulnerable B2ab(ii,iii,iv). The assessment records D. robertsii, not D. incomtus, in Kruger National Park. Global IUCN status for D. incomtus Least Concern (2016). Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "African marsh rat",
+                "url": "https://en.wikipedia.org/wiki/African_marsh_rat",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Taylor P.J. (2016, errata 2017), IUCN Least Concern, for a broad African range."
+            }
+        ]
+    },
+    "size": {
+        "headBodyLengthCm": {
+            "min": 15.3,
+            "max": 17.5
+        },
+        "tailCm": {
+            "min": 11.0,
+            "max": 17.5
+        },
+        "massKg": {
+            "min": 0.118,
+            "max": 0.171
+        },
+        "note": "The 2016 EWT assessment does not publish measurements. Figures are from Animal Diversity Web: body length 153-175 mm (15.3-17.5 cm), given separately from a tail of similar length, 110-175 mm (11.0-17.5 cm), and mass 118-171 g (0.118-0.171 kg). Animal Diversity Web also gives hind-foot length 27-39 mm and ear length 16.5-20.5 mm, and states that the sexes are alike. The account is written for a wide sub-Saharan range and may not be limited to the narrower eastern-South-African concept of D. incomtus used in the 2016 regional assessment."
+    },
+    "summary": "A medium-sized, shaggy, dark brown wetland rat with a small snout, long hairless tail about as long as the head and body, and white underparts. It is a wetland specialist, semi-aquatic and a good swimmer, building woven nests and runways in dense cover along rivers and marshes. The 2011 SANParks checklist records this name in Kruger National Park, but the 2016 regional assessment assigns Kruger animals to Robert’s Marsh Rat (Dasymys robertsii), a species split from D. incomtus.",
+    "description": "A medium-sized murid with a shaggy coat. Animal Diversity Web, citing Mullin and Skinner and Chimimba, describes the animal as dark brown, with a small snout and a long, hairless tail; some accounts give the pelage as dark grey or black, with a still darker head, lighter grey cheeks and flanks, white underparts, and distinctly shiny hair on the back. The tail is about as long as the head and body. The sexes are not described as differently marked. This description follows Animal Diversity Web, which treats a wide sub-Saharan range. The 2016 EWT assessment splits the former D. incomtus in the region into D. capensis (Cape), D. incomtus (eastern South Africa and Eswatini) and D. robertsii (northern South Africa and Zimbabwe), and does not itself publish a pelage account.",
+    "habits": "The 2016 EWT assessment, citing Pillay and Monadjem, describes African marsh rats as wetland specialists that construct complex, intricately woven nests in holes along the banks of rivers and ponds, with nests extending into the water, and with sub-surface and above-surface runways from the nest cavities. They are good swimmers, adapted to marshy habitats, and are rare relative to Otomys species, occurring at low densities, and are trap-shy. Animal Diversity Web, which may be an Africa-wide account, adds that they are primarily nocturnal, although some have been seen by day; that burrows may run parallel to a river or towards it, and can be used even when partly flooded; and that they live in small, isolated groups with little gene flow between populations. A Kruger-specific activity study was not found.",
+    "diet": {
+        "summary": "The 2016 EWT assessment describes these species as opportunistic omnivores, feeding predominantly on the succulent stems and fruiting heads of semi-aquatic grasses, and supplementing the diet with insects, especially during reproduction. Animal Diversity Web likewise says the diet is primarily green plant material, typically the stems and heads of semi-aquatic grasses and reeds around the burrow, with some insects in stomach contents, and describes the species as primarily herbivorous; that wording is not averaged with the EWT account.",
+        "items": [
+            "succulent stems of semi-aquatic grasses",
+            "fruiting heads of semi-aquatic grasses",
+            "reeds",
+            "insects"
+        ],
+        "guild": "omnivore"
+    },
+    "young": "The 2016 EWT assessment, citing Pillay (2003) and Skinner and Chimimba, gives a gestation of 29 days and a litter of two to five young. The young are altricial and nipple-cling, and reproductive output is low compared with other African rodents. Animal Diversity Web, based on the same captive study (Pillay 2003) and written as a possibly Africa-wide account, adds an average litter of 2.9, a breeding season from August to December in periods of high rainfall, a breeding interval of about 32 days in the wet season, weaning at about 24 days, eyes opening at 12-14 days, and sexual maturity at 9 weeks in males and 17 weeks in females. Kruger-specific birth months were not found.",
+    "predators": [],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Insects",
+            "note": "The 2016 EWT assessment, citing Pillay (2003), says the diet is supplemented with insects, especially during reproduction. Animal Diversity Web also records insects in stomach contents."
+        }
+    ],
+    "habitat": "A wetland specialist of intact rivers, reed beds, semi-aquatic grasses, swamps and grassy ground close to water, including wetlands in forest, savanna and grassland; the 2016 EWT assessment says African marsh rats have not been recorded from agricultural landscapes or dam areas, and that they co-occur with Otomys species. Elevational range is given as sea level to 1,500 m in the Drakensberg (Skinner and Chimimba, cited by both EWT and Animal Diversity Web). The 2016 assessment records D. robertsii from Kruger National Park; a habitat account written specifically for D. incomtus inside Kruger was not found.",
+    "similar": [
+        {
+            "slug": "otomys-angoniensis",
+            "note": "The Angoni vlei rat also uses grassy areas close to water, and the 2016 EWT assessment says African marsh rats co-occur with Otomys species but are rare relative to them. The water rat is a shaggy, dark brown, semi-aquatic wetland specialist with a long hairless tail about as long as the head and body, and it builds woven nests and runways in dense cover along rivers and marshes."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment gives no Kruger total and says abundances are unknown; the species are rare and exist at low densities, and the regional trend is described as declining on the basis of ongoing habitat loss. That assessment records D. robertsii, not D. incomtus, in Kruger National Park. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "A more accurate figure may be available here. Cited, not hosted."
+            },
+            {
+                "title": "A conservation assessment of Dasymys spp.",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/9.-African-Marsh-Rat-Dasymys-spp_VU.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Abundances unknown; rare, at low densities. Regional trend declining on the basis of habitat loss. No Kruger total. Cited only; the PDF is not hosted in this repo."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": "medium-sized"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "darker than the body in some accounts, with a small snout",
+                    "muzzle": "small snout; lighter grey cheeks in some accounts",
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": "dark brown",
+                    "pattern": "shaggy, distinctly shiny pelage; some accounts dark grey or black, with lighter grey flanks"
+                },
+                "underparts": {
+                    "colour": "white",
+                    "pattern": null
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": "long and hairless, similar in length to the head and body"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A medium-sized, shaggy, dark brown rat at the water’s edge, with a small snout and a long hairless tail about as long as the head and body."
+        }
+    ],
+    "calls": [],
+    "images": [],
+    "sources": [
+        {
+            "title": "A conservation assessment of Dasymys spp.",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/9.-African-Marsh-Rat-Dasymys-spp_VU.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited only; the PDF is not hosted in this repo. Afrikaans name Waterrot is taken from this assessment, which lists it for Dasymys spp."
+        },
+        {
+            "title": "Fact sheet: the 2025 regional Mammal Red List of South Africa, Eswatini and Lesotho",
+            "url": "https://ewt.org/wp-content/uploads/2026/02/Fact-Sheet_Mammal-Red-List_2.pdf",
+            "publisher": "Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Cited only; the PDF is not hosted in this repo. Lists African Shaggy Rat (Dasymys incomtus) as Vulnerable and endemic."
+        },
+        {
+            "title": "African marsh rat",
+            "url": "https://en.wikipedia.org/wiki/African_marsh_rat",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Dasymys incomtus: African marsh rat",
+            "url": "https://animaldiversity.org/accounts/Dasymys_incomtus/",
+            "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+            "year": 2020
+        },
+        {
+            "title": "iNaturalist taxon Dasymys incomtus",
+            "url": "https://api.inaturalist.org/v1/taxa/45632",
+            "publisher": "iNaturalist",
+            "year": 2026
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the 2011 SANParks checklist animal as Dasymys incomtus (Water rat, the 2011 English name; Afrikaans Waterrot, as given in the 2016 EWT assessment). iNaturalist uses Common Shaggy Rat as the preferred common name for taxon 45632, and also lists African Marsh Rat and Common Dasymys; the 2025 EWT fact sheet uses African Shaggy Rat. The 2016 EWT assessment splits the former D. incomtus in the region into D. capensis, D. incomtus (eastern South Africa and Eswatini; Near Threatened in 2016) and D. robertsii (northern South Africa and Zimbabwe, including the lowveld; Vulnerable), and explicitly records D. robertsii, not D. incomtus, in Kruger National Park. This file does not remap the Kruger records or the filename. Because of that assignment, Kruger residency (status and monthsPresent) is omitted. The 2025 fact sheet uplists D. incomtus from Near Threatened to Vulnerable and treats it as endemic; it does not mention D. robertsii. A 2025 EWT project page was not found in the one site search. Animal Diversity Web and Wikipedia still treat a broad sub-Saharan D. incomtus. Length and mass are from Animal Diversity Web only. No licensable photograph suitable for display was found.",
+        "researched": "15 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives no Kruger total and describes abundances as unknown, with the animals rare and at low densities. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "The 2016 EWT assessment records Dasymys robertsii, not D. incomtus, in Kruger National Park, and restricts D. incomtus to eastern South Africa and Eswatini. This file keeps the 2011 checklist name and does not remap the taxon. Kruger residency (status and monthsPresent) is therefore omitted.",
+        "No licensable photograph suitable for display was found. iNaturalist had 0 observations of taxon 45632 in Kruger (place 69020), of any grade, and 0 research-grade observations with an allowed licence in South Africa (place 6986).",
+        "iNaturalist has 0 sound observations for Dasymys incomtus in place 69020. No sourced description of the calls was found.",
+        "A 2025 EWT project page was not found in the one site search. The 2025 fact sheet uplists D. incomtus to Vulnerable as an endemic, without mentioning D. robertsii. Conservation status for the named taxon follows that fact sheet and the 2016 split assessment.",
+        "Skinner and Chimimba and Stuart's field guide were not available as books. The 2016 EWT page does not publish measurements. Length and mass are from Animal Diversity Web only and may follow a broader, Africa-wide species concept.",
+        "No named predator of this species was given in the sources used.",
+        "Iris colour, ear colour, leg colour, tail colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null.",
+        "A Kruger-specific habitat or breeding study for D. incomtus was not found."
+    ]
+}
