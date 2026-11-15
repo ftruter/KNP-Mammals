@@ -1,0 +1,300 @@
+{
+  "kind": "species",
+  "slug": "nycteris-thebaica",
+  "scientificName": "Nycteris thebaica",
+  "commonNames": {
+    "en": "Common slit-faced bat",
+    "af": "Gewone spleetneusvlermuis"
+  },
+  "family": "nycteridae",
+  "inatTaxonId": 41192,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2016 regional Red List for South Africa, Eswatini and Lesotho; IUCN global status Least Concern (2017). No 2025 EWT species assessment page for this taxon was found among the EWT sources used.",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Nycteris thebaica",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/33.-Egyptian-Slit-faced-Bat-Nycteris-thebaica_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Monadjem A, Cohen L, Jacobs D, MacEwan K, Richards LR, Schoeman C, Sethusa T and Taylor PJ. 2016. Regional status Least Concern. National status in 2004 was Least Concern; reasons for change none. Global Red List status then given as Least Concern (2016). Current population trend stable. Number of mature individuals unknown; number in the largest subpopulation given as more than 100. No major threats in the assessment region. The assessment names Kruger National Park among large reserves in which the species occurs. Taxonomic notes: Meester et al. (1986) recognised three subspecies in the region, but the assessment does not recognise any subspecies in southern Africa, treating east-west differences as a cline. Common names listed include Egyptian Slit-faced Bat and Common Slit-faced Bat (English), and Gewone Spleetneusvlermuis, Egiptiese Spleetneusvlermuis and Kaapse Langoorvlermuis (Afrikaans). Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Egyptian slit-faced bat",
+        "url": "https://en.wikipedia.org/wiki/Egyptian_slit-faced_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Monadjem, Fahr, Hutson, Mickleburgh and Bergmans (2017) for a global IUCN listing of Least Concern (IUCN 2017-2)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "tailCm": {
+      "max": 6.1
+    },
+    "massKg": {
+      "min": 0.0065,
+      "max": 0.016
+    },
+    "note": "Wikipedia, citing Gray, Fenton and Van Cakenberghe (1999), gives a typical adult mass of 6.5-9.7 g, with females weighing up to 11.5 g, a wingspan of 283 mm, and a tail reaching 61 mm. Animal Diversity Web gives a wider mass range of 6.5-16 g, a wingspan of 270-307 mm, and a total body length of 83-168 mm; that length is not entered as head-and-body length because the account does not say whether the tail is included. ADW also states that females tend to be larger than males. The 2016 EWT assessment does not give mass, length, forearm length or shoulder height. No shoulder height or forearm length was published in the sources used."
+  },
+  "summary": "A small insect-eating slit-faced bat with a deep facial slit, very large ears and long silky fur that is dusky to reddish brown or grey above and white to whitish grey below. It roosts in caves, aardvark burrows, hollow trees and other cavities, forages low over the ground, and is listed as Least Concern in the 2016 regional assessment and on the global IUCN Red List (2017).",
+  "description": "A slit-faced bat of the family Nycteridae. Wikipedia, citing Gray, Fenton and Van Cakenberghe (1999), describes a deep slit running from the base of the ears to the nostrils, between the nose-leaves; broad wings with a wingspan of 283 mm and a low aspect ratio, allowing high manoeuvrability and the ability to hover close to the ground; a long tail reaching 61 mm; and fur that is dusky to reddish brown above and white to whitish grey below, lighter than in other members of the family. Animal Diversity Web describes the pelage as long and silky, ranging from grey to light red to murky brown, with a white to light grey underside; enormous ears longer than the head, with a very small tragus; an extensive nose-leaf with a split in the middle; and a long tail fully enclosed in the uropatagium, the tip of the tail and membrane forming a T-shape that is distinctive of the family. Typical mass in the Mammalian Species account is 6.5-9.7 g, with females up to 11.5 g; Animal Diversity Web gives 6.5-16 g and says females tend to be larger than males. The English name in species-list.json is Common slit-faced bat, the 2011 SANParks checklist form. Wikipedia and iNaturalist prefer Egyptian slit-faced bat; the 2016 EWT assessment uses Egyptian Slit-faced Bat as the lead English name and also lists Common Slit-faced Bat. The species-list form is kept.",
+  "habits": "The 2016 EWT assessment describes the species as essentially cave-roosting, but also roosting by day in mine adits, aardvark (Orycteropus afer) holes, rock crevices, culverts under roads, roofs and hollow trees, typically in open savannah woodland (Smithers and Lobao-Tello 1976; Taylor 1998). Tree cover is described as essential, both for cool roost microhabitats in high ambient temperatures and as cover from predators while the bats forage close to the ground (Monadjem et al. 2010; Toussaint and McKechnie 2012). It is a clutter forager: the assessment, citing Monadjem et al. (2010), says it flies low above the ground, listening for prey scurrying on the surface. Wikipedia, citing Seamark and Bogdanowicz (2002) and Gray et al. (1999), likewise describes high-frequency, low-intensity echolocation, low wing-loading and the ability to hover and take prey from the ground or from the tops of trees. The species is gregarious. The 2016 assessment, citing Skinner and Chimimba (2005), gives colony sizes of up to a few hundred individuals, loosely packed and in scattered groups, and records shared roosts with Miniopterus schreibersii, Hipposideros caffer and Rhinolophus simulator. Animal Diversity Web gives cave colonies of 500-600 individuals, with some reports of thousands. Wikipedia, citing Toussaint, Brigham and McKechnie (2013), says the bats do not huddle in the communal roost, occupy a day roost and a shorter-used night roost, have a long night foraging period, and show no evidence of hibernation or torpor. In Swaziland, individuals travel an average of 1.1 km between day roosts and foraging areas, with relatively small, overlapping home ranges of 12.9 ha (Monadjem et al. 2009, cited in the 2016 assessment). A banded individual was recovered 100 km from the capture site (Monadjem 2005, cited in the 2016 assessment). Copulation takes place in flight (Lindeque 1987, cited in the 2016 assessment). Monadjem (2001), cited in the 2016 assessment, found the adult sex ratio in this species to be highly skewed and seasonally variable, with females usually outnumbering males by 2.8:1 between July and December. Animal Diversity Web describes the species as migratory but gives little information on the pattern; that claim is not adopted here, because the 2016 EWT assessment does not describe a migrant or seasonal movement pattern and lists seasonal behaviour and movement patterns as a research priority.",
+  "diet": {
+    "summary": "An insectivore and clutter forager whose diet varies seasonally. The 2016 EWT assessment, citing Monadjem et al. (2010), says Orthoptera, Coleoptera and Lepidoptera predominate, and, citing Skinner and Chimimba (2005), that arachnids, amphibians, fish and vegetative matter may form small proportions of the diet. Wikipedia, citing Seamark and Bogdanowicz (2002) from KwaZulu-Natal, gives beetles in spring, orthopterans in summer, bugs (Hemiptera) in autumn, and moths (Lepidoptera) in winter, and says insects make up the bulk of the diet. Animal Diversity Web adds spiders and, when available, scorpions as a major item, with smaller amounts of flies, bugs, hymenopterans, termites and lacewings, and describes both aerial capture and gleaning of still prey from the ground, walls, rocks, lights and vegetation.",
+    "items": [
+      "orthopterans (Orthoptera)",
+      "beetles (Coleoptera)",
+      "moths and other lepidopterans (Lepidoptera)",
+      "bugs (Hemiptera)",
+      "scorpions",
+      "spiders and other arachnids",
+      "flies (Diptera)",
+      "hymenopterans",
+      "termites (Isoptera)",
+      "lacewings (Neuroptera)",
+      "amphibians",
+      "fish",
+      "vegetative matter"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2016 EWT assessment, citing Bernard (1982), describes a KwaZulu-Natal cycle in which young are born in November after a five-month gestation, and lactation lasts two months. Wikipedia, citing Gray et al. (1999), says gestation varies with climate, lasting two to three months in tropical areas and up to five months in temperate climates; at birth the young weighs about 50% of the mother's weight, and females fly while carrying their young between roosts to keep them safe from predators. Animal Diversity Web places South African breeding in May and June, gives a gestation of 2.5 to 6 months (typically about 2.5 to 3 months in tropical habitats and 5 months in subtropical and temperate regions), notes that implantation may not occur until as late as 16 days after mating, and gives birth in November, a single young, and an average birth mass of 6 g; it describes the neonate as unable to fly and clinging to the mother as she forages. The two-month lactation period given by Animal Diversity Web is inferred from Nycteris macrotis and is not used as a fact for this species. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Owls",
+      "note": "The 2016 EWT assessment, citing Monadjem et al. (2010), says low foraging over the ground may make the species susceptible to predation by owls, which is given as a reason for the need for tree cover. Not identified to species in the sources used, and not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Bat hawks",
+      "note": "Wikipedia lists bat hawks as possible predators. Animal Diversity Web names the bat hawk Machaerhamphus alcinus. Not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Snakes",
+      "note": "Wikipedia and Animal Diversity Web list snakes as possible predators. Not identified to species in the sources used, and not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Large slit-faced bat",
+      "note": "Wikipedia, citing Toussaint, Brigham and McKechnie (2013), says the large slit-faced bat (Nycteris grandis) is known to prey on roosting Egyptian slit-faced bats. Nycteris grandis is not a species in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Orthopterans",
+      "note": "A predominant prey group in the 2016 EWT assessment (Monadjem et al. 2010); Wikipedia, citing Seamark and Bogdanowicz (2002), places them mainly in summer in KwaZulu-Natal. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "A predominant prey group in the 2016 EWT assessment (Monadjem et al. 2010); Wikipedia, citing Seamark and Bogdanowicz (2002), places them mainly in spring in KwaZulu-Natal. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Moths and other lepidopterans",
+      "note": "A predominant prey group in the 2016 EWT assessment (Monadjem et al. 2010); Wikipedia, citing Seamark and Bogdanowicz (2002), places them mainly in winter in KwaZulu-Natal. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Bugs (Hemiptera)",
+      "note": "Wikipedia, citing Seamark and Bogdanowicz (2002), places them mainly in autumn in KwaZulu-Natal. Animal Diversity Web also lists hemipterans. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Scorpions",
+      "note": "Animal Diversity Web describes scorpions as a major dietary item when available. Arachnids are also listed as a small dietary fraction in the 2016 EWT assessment (Skinner and Chimimba 2005). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Spiders and other arachnids",
+      "note": "Listed as a small dietary fraction in the 2016 EWT assessment (Skinner and Chimimba 2005) and by Animal Diversity Web. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Amphibians",
+      "note": "Listed as a small dietary fraction in the 2016 EWT assessment (Skinner and Chimimba 2005). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Fish",
+      "note": "Listed as a small dietary fraction in the 2016 EWT assessment (Skinner and Chimimba 2005). Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2016 EWT assessment describes a savannah species with wide habitat tolerance, occurring in moist and dry savannah and ranging into desert, arid rocky areas and riparian strips; it appears to occur throughout the savannah and Karoo biomes but avoids open grasslands (Monadjem et al. 2010), possibly because it needs tree cover. Day roosts are typically in caves and other cavities in open savannah woodland. The assessment gives an altitudinal range from sea level to about 2,000 m (ACR 2015) and says the species is common in Mpumalanga, among other provinces. Wikipedia, citing the 2017 IUCN account, adds forests, deserts, savannas, shrublands and grasslands as habitats in which it can live; that mention of grasslands sits beside the regional assessment's statement that the species avoids open grasslands. Animal Diversity Web says it is most often found in dry habitats such as savanna woodland, and lists a wide range of roosts, including caves, mines, buildings, culverts, hollow trees, dense foliage, rock crevices, and porcupine or aardvark burrows. A more detailed Kruger-specific habitat account was not given in the sources used, beyond the 2016 assessment's statement that the species occurs in Kruger National Park.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment describes the species as particularly common throughout the assessment region, presumed abundant, with day and night roosts that may contain hundreds of individuals, a stable regional trend, no continuing decline in mature individuals, an unknown number of mature individuals, and more than 100 mature individuals in the largest subpopulation. Those figures are not a park-wide Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Nycteris thebaica",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/33.-Egyptian-Slit-faced-Bat-Nycteris-thebaica_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional population account only: presumed abundant, roosts of hundreds, stable trend, mature individuals unknown. The assessment names Kruger National Park as one of the large reserves in which the species occurs, but does not give a park-wide count. Cited only; the PDF is not hosted in this repo."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "enormous, longer than the head, with a very small tragus"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "deep slit from the base of the ears to the nostrils, between the nose-leaves; extensive nose-leaf with a split in the middle",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": ["dusky brown", "reddish brown", "grey"],
+          "pattern": "long silky fur; Wikipedia gives dusky to reddish brown, Animal Diversity Web gives grey to light red to murky brown, and both describe the fur as lighter than in other nycterids. Sexes not described as differing in colour"
+        },
+        "underparts": {
+          "colour": ["white", "whitish grey"],
+          "pattern": "white to whitish grey or light grey; not otherwise patterned"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "long, fully enclosed in the uropatagium, with a T-shaped tip distinctive of the family"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen hanging in a cave, hollow tree, aardvark burrow or other cavity. The deep facial slit, very large ears and T-shaped tail tip are the usual field characters; the fur is dusky to reddish brown or grey above and white to whitish grey below."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Broad wings (wingspan about 27-31 cm in the sources used) with low aspect ratio; a clutter forager that flies low over the ground, is highly manoeuvrable and can hover close to the ground."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Wikipedia, citing Seamark and Bogdanowicz (2002) and Gray et al. (1999), describes high-frequency, low-intensity echolocation used to locate prey. Animal Diversity Web calls this a whispering bat: the echolocation is low-intensity and multi-harmonic, and the species is said to use eyesight more than some bats, probably to compensate for weak echolocation.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "contact",
+      "description": "Animal Diversity Web reports two long tonal calls besides echolocation: one given in the roost that appears to attract other bats, and another given when bats leave the roost.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "nycteris-thebaica-perched-side",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/151079",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/207760/large.jpg",
+      "hosted": false,
+      "author": "Tim Ellis",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "A slit-faced bat hanging from thin tree branches.",
+      "caption": "Roosting in a tree by the side of a road, Kruger National Park, South Africa, 20 October 2012."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A conservation assessment of Nycteris thebaica",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/33.-Egyptian-Slit-faced-Bat-Nycteris-thebaica_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Monadjem A, Cohen L, Jacobs D, MacEwan K, Richards LR, Schoeman C, Sethusa T and Taylor PJ. 2016. Source of the 2016 regional Least Concern status and stable regional trend, common names (including Afrikaans), the decision not to recognise subspecies in southern Africa, habitat and roosting, diet (Monadjem et al. 2010; Skinner and Chimimba 2005), KwaZulu-Natal breeding (Bernard 1982), flight copulation (Lindeque 1987), Swaziland movements (Monadjem et al. 2009), the 100 km dispersal record (Monadjem 2005), sex ratio (Monadjem 2001), owl-predation note, and the definite occurrence in Kruger National Park. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Egyptian slit-faced bat",
+      "url": "https://en.wikipedia.org/wiki/Egyptian_slit-faced_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Nycteris thebaica. Used for appearance and measurements (Gray, Fenton and Van Cakenberghe 1999), diet seasonality (Seamark and Bogdanowicz 2002), young, lack of torpor, predation by the large slit-faced bat (Toussaint, Brigham and McKechnie 2013), snakes and bat hawks, and the global IUCN listing (Monadjem et al. 2017). Afrikaans names were taken from the 2016 EWT assessment, not from this page."
+    },
+    {
+      "title": "Nycteris thebaica Egyptian slit-faced bat",
+      "url": "https://animaldiversity.org/accounts/Nycteris_thebaica/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Lauren Esmailka, University of Alaska Fairbanks. Used for additional appearance and measurement ranges, roost types, colony size, echolocation and tonal calls, diet (including scorpions), breeding notes, and the unsourced statement that the species is migratory, which is recorded but not used to set status."
+    },
+    {
+      "title": "iNaturalist taxon Nycteris thebaica",
+      "url": "https://api.inaturalist.org/v1/taxa/41192",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Nycteris thebaica (English Common slit-faced bat; Afrikaans Gewone spleetneusvlermuis) and does not remap the names. The English name kept is the 2011 SANParks checklist form; Wikipedia and iNaturalist prefer Egyptian slit-faced bat, and the 2016 EWT assessment uses Egyptian Slit-faced Bat as the lead English name while also listing Common Slit-faced Bat. The 2016 EWT Afrikaans list opens with Gewone Spleetneusvlermuis, which matches the species-list name, then adds Egiptiese Spleetneusvlermuis and Kaapse Langoorvlermuis; the species-list form is kept. Status is set to resident because the 2016 EWT assessment names Kruger National Park among large reserves in which the species occurs and does not give a migrant or seasonal movement pattern. Animal Diversity Web describes the species as migratory with little information; that claim is flagged and was not used to omit status. No 2025 EWT /project/ page for this species was found: the site:ewt.org search returned the 2016 PDF and the EWT red-list Chiroptera table, which links that PDF. Regional status is Least Concern (2016); the global IUCN listing cited by Wikipedia is Least Concern (2017). One licensed Kruger photograph was kept (a tree roost beside a road). Building, camp and picnic-site roosts were dropped. iNaturalist place 69020 returned 0 sound observations for taxon 41192.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives a stable regional trend and describes the species as particularly common in the assessment region, with an unknown number of mature individuals, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No 2025 EWT /project/ page for this species was found. The site:ewt.org search returned the 2016 PDF and the EWT red-list Chiroptera table, which links that PDF. The 2025 regional status was therefore not taken from a species page.",
+    "The English name in species-list.json is Common slit-faced bat (2011 checklist form). Wikipedia and iNaturalist prefer Egyptian slit-faced bat; the 2016 EWT assessment uses Egyptian Slit-faced Bat as the lead name and also lists Common Slit-faced Bat. The species-list form is kept.",
+    "The Afrikaans name in species-list.json is Gewone spleetneusvlermuis, which matches the first Afrikaans name in the 2016 EWT assessment (Gewone Spleetneusvlermuis). That assessment also lists Egiptiese Spleetneusvlermuis and Kaapse Langoorvlermuis. The species-list form is kept.",
+    "Animal Diversity Web describes the species as migratory but gives little information. The 2016 EWT assessment does not describe a migrant or seasonal movement pattern and lists seasonal behaviour and movement patterns as a research priority. Status is set to resident on the strength of the definite Kruger record in that assessment; the ADW migration claim was not used to omit status.",
+    "The 2016 EWT assessment does not recognise subspecies in southern Africa, treating east-west size and colour differences as a cline. Wikipedia lists six subspecies. The file keeps the species-list.json names and does not assign Kruger animals to a subspecies.",
+    "Wikipedia gives the authority year as 1818; the 2016 EWT assessment gives 1813 (E. Geoffroy Saint-Hilaire). The discrepancy is recorded and not reconciled.",
+    "Head-and-body length, forearm length, shoulder height, ear colour, iris colour, muzzle colour, leg colour and tail colour were not given unambiguously in the sources used, so those marks or bounds are null. Animal Diversity Web's total body length of 83-168 mm was not entered as head-and-body length.",
+    "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 41192. Echolocation and tonal-call descriptions are taken from Wikipedia and Animal Diversity Web. No licensable recording was found.",
+    "Mass and wingspan disagree between sources: Wikipedia (Gray et al. 1999) gives 6.5-9.7 g typical, females to 11.5 g, and a wingspan of 283 mm; Animal Diversity Web gives 6.5-16 g and 270-307 mm. The wider mass range is stored, and both accounts are quoted in the size note.",
+    "No sourced field comparison with Nycteris woodi (the other slit-faced bat in this guide) was found, so a similar-species entry was omitted. Wikipedia and Animal Diversity Web say only that this species has lighter fur than other nycterids.",
+    "No Kruger-specific breeding study was found. Gestation accounts differ by climate and source (five months in KwaZulu-Natal in the 2016 assessment; two to three months in tropical areas and up to five months in temperate climates in Wikipedia; 2.5 to 6 months, with possible delayed implantation, in Animal Diversity Web).",
+    "The two-month lactation figure in Animal Diversity Web is inferred from Nycteris macrotis, not measured for this species, and is not used. The 2016 assessment's two-month lactation figure is from Bernard (1982) in KwaZulu-Natal."
+  ]
+}
