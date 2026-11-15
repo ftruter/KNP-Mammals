@@ -1,0 +1,81 @@
+{
+    "kind": "species",
+    "slug": "scotophilus-borbonicus",
+    "scientificName": "Scotophilus borbonicus",
+    "commonNames": {
+        "en": "Lesser yellow house bat",
+        "af": "Klein geel dakvlermuis"
+    },
+    "family": "vespertilionidae",
+    "inatTaxonId": 40441,
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Data Deficient",
+        "scope": "IUCN global",
+        "asOf": 2019,
+        "sources": [
+            {
+                "title": "Lesser yellow bat",
+                "url": "https://en.wikipedia.org/wiki/Lesser_yellow_bat",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "The title Scotophilus borbonicus redirects here. Cites Andriafidison and others (2019), IUCN Data Deficient. The page also notes a 1996 critically endangered listing and that the species may be extinct."
+            }
+        ]
+    },
+    "summary": "A poorly known vesper bat. Wikipedia applies the name Scotophilus borbonicus to a Data Deficient species known only from Madagascar and Réunion, last sighted on Réunion late in the nineteenth century and known from Madagascar by a single specimen collected in 1868; that account says the species may be extinct. The 2011 Kruger checklist uses this scientific name and the English name Lesser yellow house bat. The 2025 regional Red List page under that English name is an assessment of Scotophilus viridis, lists S. borbonicus viridis as a synonym, and records S. viridis from Kruger National Park. Because it is unclear whether the checklist taxon is S. borbonicus or S. viridis, this file keeps the 2011 name and does not use the southern African S. viridis account as a description of S. borbonicus.",
+    "description": "Wikipedia, under the title Lesser yellow bat, treats Scotophilus borbonicus (É. Geoffroy, 1803) as a vesper bat found only on Madagascar and Réunion. It states that the species was considered common on Réunion early in the nineteenth century but was last sighted there late in that century, that only a single specimen attributed to this species, collected in 1868, is known from Madagascar, that it was listed as critically endangered in 1996 because of habitat loss, and that it may be extinct. The IUCN assessment cited there (Andriafidison and others, 2019) lists the species as Data Deficient. Wikipedia does not mention Kruger National Park or mainland southern Africa, and it gives no measurements or description of the fur, face or wings. The English checklist name is Lesser yellow house bat; Wikipedia's title is Lesser yellow bat, and iNaturalist also lists Réunion House Bat as an English name. The 2025 EWT page titled Lesser Yellow House Bat is a conservation assessment of Scotophilus viridis (Peters, 1852). It gives the common names Lesser Yellow House Bat, Green House Bat and Greenish Yellow Bat, the Afrikaans name Klein Geel Dakvlermuis, and the synonym S. borbonicus viridis Koopman 1994. That page says the genus urgently needs taxonomic revision, recognises S. viridis as a valid species following Robbins et al. (1985), Simmons (2005) and Jacobs et al. (2006), and notes that Meester et al. (1986) treated two forms in the subregion as subspecies of S. borbonicus (S. b. damarensis and S. b. viridis).",
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. Wikipedia gives no population figure for S. borbonicus. The 2025 regional assessment under the English name Lesser Yellow House Bat is of S. viridis, lists the regional trend as Stable, and does not give a Kruger figure; those remarks are not used as an estimate for S. borbonicus.",
+        "sources": [
+            {
+                "title": "A conservation assessment of Scotophilus viridis",
+                "url": "https://ewt.org/project/lesser-yellow-house-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Richardson E and da Silva JM. 2025. An assessment of S. viridis under the English name Lesser Yellow House Bat; regional population trend Stable; no Kruger count. Not used as an estimate for S. borbonicus."
+            }
+        ]
+    },
+    "variants": [],
+    "viewNotes": [],
+    "calls": [],
+    "images": [],
+    "sources": [
+        {
+            "title": "Lesser yellow bat",
+            "url": "https://en.wikipedia.org/wiki/Lesser_yellow_bat",
+            "publisher": "Wikipedia",
+            "year": 2026,
+            "note": "The title Scotophilus borbonicus redirects here. Source of the range (Madagascar and Réunion only), the Réunion nineteenth-century history, the single 1868 Madagascar specimen, the 1996 critically endangered listing, the remark that the species may be extinct, and the cited 2019 IUCN Data Deficient assessment (Andriafidison and others). The page does not mention Kruger National Park or mainland southern Africa and publishes no measurements or appearance account."
+        },
+        {
+            "title": "A conservation assessment of Scotophilus viridis",
+            "url": "https://ewt.org/project/lesser-yellow-house-bat/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Richardson E and da Silva JM. 2025. The Chiroptera tag page links this URL under the English name Lesser Yellow House Bat; the body is an assessment of S. viridis, not of S. borbonicus. Cited for the regional treatment of that English name (common names including Klein Geel Dakvlermuis; synonym S. borbonicus viridis Koopman 1994; taxonomic note recognising S. viridis as valid and recording Meester et al. 1986 subspecies of S. borbonicus), for named occurrence of S. viridis in Kruger National Park (including Fenton et al. 1985 on hollow mopane trees along the sides and tops of ridges), and for local movement of 100–1,000 m between roosts, with radio-tracked individuals travelling up to 4 km, with no migratory pattern stated. Ecology, size, diet and life history on that page are not used in this file. Cited only; not hosted in this repo."
+        }
+    ],
+    "research": {
+        "confidence": "low",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger-list animal as Scotophilus borbonicus (English Lesser yellow house bat; Afrikaans Klein geel dakvlermuis) and does not remap the name. Wikipedia and the cited IUCN assessment apply S. borbonicus only to Madagascar and Réunion (Data Deficient; may be extinct). The matching 2025 EWT page for the English name Lesser Yellow House Bat is an assessment of S. viridis (also Green House Bat / Greenish Yellow Bat), which lists S. borbonicus viridis as a synonym and records S. viridis from Kruger National Park. Fenton et al. (1985), as cited on that page, found the assessed species favouring hollow mopane trees along the sides and tops of ridges in Kruger National Park; no camp, road or waterhole is named. Movement on that page is local (100–1,000 m between roosts; up to 4 km), not migratory, but status and monthsPresent are omitted because the identity of the 2011 Kruger taxon is doubtful. Ecology, measurements and other details from the S. viridis assessment are not carried into this file. iNaturalist taxon 40441 has no licensed photographs in Kruger (place 69020) or South Africa (place 6986), and no sound in place 69020."
+    },
+    "gaps": [
+        "The identity of the 2011 Kruger checklist taxon is unresolved (S. borbonicus versus S. viridis). Wikipedia restricts S. borbonicus to Madagascar and Réunion. The 2025 EWT page under the English name Lesser Yellow House Bat is an assessment of S. viridis and names Kruger National Park for that species. Status and monthsPresent are omitted because the Kruger record under this scientific name is of doubtful identity.",
+        "No Kruger census or park-wide count; no SANParks figure was found.",
+        "No published measurements or appearance account for S. borbonicus on the pages used; Wikipedia is a stub, and figures from the S. viridis assessment were not used.",
+        "Habitat, habits, diet, young, predators and similar-species comparisons were not published for S. borbonicus on the pages used.",
+        "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
+        "No licensable photograph in Kruger (place 69020) or South Africa (place 6986) for iNaturalist taxon 40441."
+    ]
+}
