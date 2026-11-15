@@ -8,6 +8,21 @@
   },
   "family": "hipposideridae",
   "inatTaxonId": 40761,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
   "sampleData": false,
   "conservationStatus": {
     "status": "Least Concern",
@@ -185,7 +200,24 @@
       "recordings": []
     }
   ],
-  "images": [],
+  "images": [
+    {
+      "key": "hipposideros-caffer/arnhem-cave.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/9200458",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/12455718/large.jpg",
+      "author": "Jon Hall",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A Sundevall's leaf-nosed bat hanging on a cave wall at Arnhem Cave, Namibia",
+      "caption": "An adult hanging on a cave wall, Arnhem Cave, Namibia, 29 November 2017."
+    }
+  ],
   "sources": [
     {
       "title": "A conservation assessment of Hipposideros caffer",
@@ -213,23 +245,30 @@
       "url": "https://api.inaturalist.org/v1/taxa/40761",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "iNaturalist research-grade observations of Hipposideros caffer in Kruger National Park (place 69020)",
+      "url": "https://api.inaturalist.org/v1/observations?taxon_id=40761&place_id=69020&quality_grade=research&per_page=10&order_by=observed_on",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "Used to set status resident and monthsPresent 1-12 under owner rule (c). The query returned 13 research-grade records inside place 69020, with observed dates from 2012 to 2025 in the ten records returned; none was captive or obviously mis-placed. Camp and picnic-site localities were accepted for residency but not used as photographs."
     }
   ],
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Hipposideros caffer (English Sundevall's leaf-nosed bat; Afrikaans Sundevall se Bladneusvlermuis) and does not remap the names. The taxon is a known species complex: the 2016 EWT assessment and Wikipedia both record unresolved cryptic lineages in the caffer-ruber group, with southern African populations assigned to H. c. caffer (Vallo et al. 2008). The preferred English name in Wikipedia and on iNaturalist is Sundevall's roundleaf bat; the 2016 EWT assessment uses Sundevall's Leaf-nosed Bat and lists several other English names. The species-list English form, which matches the 2011 SANParks checklist, is kept. The 2016 EWT Afrikaans list opens with Sundevall se bladneusvlermuis (lowercase b), then Sundevall-bladneusvlermuis, Sundevall se blaarneusvlermuis and Kaapse Blaarneusvlermuis; the species-list spelling with a capital B is kept, and the extra EWT forms are flagged. Status and monthsPresent are omitted: the site:ewt.org search returned the 2016 PDF and the EWT red-list Chiroptera table, which links that PDF, and no 2025 /project/ page for this species. The 2016 assessment text does not name Kruger National Park, though the species is on the 2011 SANParks checklist and has research-grade iNaturalist records in place 69020. Regional status is Least Concern (2016); the global IUCN listing cited by Wikipedia is Least Concern (2020). Animal Diversity Web is a classification stub. No licensed photograph was kept: all 12 licensed research-grade Kruger observations were at rest camps, a picnic-site cluster, or a rest-area bathroom, and the four place-6986 thumbnails viewed were three definite building roosts and one Hluhluwe roost on an indeterminate surface.",
+    "note": "This file follows species-list.json in treating the Kruger animal as Hipposideros caffer (English Sundevall's leaf-nosed bat; Afrikaans Sundevall se Bladneusvlermuis) and does not remap the names. The taxon is a known species complex: the 2016 EWT assessment and Wikipedia both record unresolved cryptic lineages in the caffer-ruber group, with southern African populations assigned to H. c. caffer (Vallo et al. 2008). The preferred English name in Wikipedia and on iNaturalist is Sundevall's roundleaf bat; the 2016 EWT assessment uses Sundevall's Leaf-nosed Bat and lists several other English names. The species-list English form, which matches the 2011 SANParks checklist, is kept. The 2016 EWT Afrikaans list opens with Sundevall se bladneusvlermuis (lowercase b), then Sundevall-bladneusvlermuis, Sundevall se blaarneusvlermuis and Kaapse Blaarneusvlermuis; the species-list spelling with a capital B is kept, and the extra EWT forms are flagged. Status is resident with monthsPresent 1-12 under owner rule (c): research-grade iNaturalist observations inside Kruger (place 69020) from 2012 to 2025, none captive or obviously mis-placed. The sources used do not describe a migrant or seasonal presence pattern; torpor in cold weather is recorded, not migration. The 2016 assessment text does not name Kruger National Park, and no 2025 EWT /project/ page was found; the species remains on the 2011 SANParks checklist. Regional status is Least Concern (2016); the global IUCN listing cited by Wikipedia is Least Concern (2020). Animal Diversity Web is a classification stub. One licensed photograph was kept on this gap-fill pass: a cave-wall roost at Arnhem Cave, Namibia (iNaturalist observation 9200458, CC BY-NC). Earlier place 69020 photographs were all at rest camps, a picnic-site cluster, or a rest-area bathroom, and the four place-6986 thumbnails were three definite building roosts and one Hluhluwe roost on an indeterminate surface. A place 113055 licensed research-grade query and a Commons search were added; of four thumbnails viewed, the Arnhem Cave roost was kept, and a Mkhuze hide beam, an Umkhanyakude wooden ceiling, and a Commons Usakos photograph of a bat in a cloth bag were dropped. Commons otherwise returned museum skins and that handled Usakos pair.",
     "researched": "15 November 2026, Africa/Johannesburg"
   },
   "gaps": [
     "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives a stable regional trend and describes the species as common in the assessment region, with an unknown number of mature individuals, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "Status and monthsPresent are omitted because no 2025 EWT species page was found, and the 2016 assessment text does not name Kruger National Park. The species is on the 2011 SANParks checklist and has research-grade iNaturalist records in Kruger (place 69020).",
+    "Kruger residency is taken from research-grade iNaturalist observations in place 69020 (2012-2025) under owner rule (c), not from the 2016 EWT assessment, which does not name Kruger National Park. No 2025 EWT species page was found.",
     "No 2025 EWT /project/ page for this species was found. The site:ewt.org search returned the 2016 PDF and the EWT red-list Chiroptera table, which links that PDF. The 2025 regional status was therefore not taken from a species page.",
     "This is a known species complex (Kock et al. 2008; Vallo et al. 2008; Monadjem et al. 2013). The file keeps the species-list.json names and does not remap the Kruger animals to another species or subspecies.",
     "The English name in species-list.json is Sundevall's leaf-nosed bat (2011 checklist form). Wikipedia and iNaturalist prefer Sundevall's roundleaf bat; the 2016 EWT assessment uses Sundevall's Leaf-nosed Bat and lists further English names. The species-list form is kept.",
     "The Afrikaans name in species-list.json is Sundevall se Bladneusvlermuis (capital B, 2011 checklist form). The 2016 EWT assessment lists Sundevall se bladneusvlermuis (lowercase b), Sundevall-bladneusvlermuis, Sundevall se blaarneusvlermuis and Kaapse Blaarneusvlermuis. The species-list form is kept.",
     "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40761. The echolocation description is taken from Wikipedia (Fenton 1986). No audible social-call description was given in the sources used.",
-    "No photograph was used. Place 69020 returned 12 licensed research-grade observations, all at rest camps (including Lower Sabie), a tight picnic-site cluster, or a bathroom at a rest area along a river; those were dropped. One place 6986 query was then run; four thumbnails were viewed (Hluhluwe-iMfolozi, False Bay, Musina and Maruleng). Three were definite building roosts. The Hluhluwe roost was on an indeterminate surface and was not kept.",
+    "No licensed Kruger photograph was kept: the place 69020 records were at rest camps (including Lower Sabie), a picnic-site cluster, or a bathroom at a rest area along a river, and the place 6986 thumbnails were building roosts or an indeterminate Hluhluwe surface. This gap-fill pass added a place 113055 licensed research-grade query and a Commons search, and kept one southern African cave-wall photograph from Arnhem Cave, Namibia (iNaturalist observation 9200458, CC BY-NC). Thumbnails dropped on this pass were a Mkhuze hide beam, an Umkhanyakude wooden ceiling, and a Commons Usakos photograph of a bat in a cloth bag; Commons otherwise returned museum skins.",
     "Animal Diversity Web is a classification stub for Hipposideros caffer and supplied no measurements, appearance, ecology or predators.",
     "Tail length, forearm length, shoulder height, ear colour, iris colour, muzzle colour, leg colour, tail colour and a specific ventral colour were not given in the sources used, so those marks are null. Underparts are described only as generally paler than the upperparts.",
     "Breeding accounts disagree on the delay mechanism: the 2016 EWT assessment describes retarded embryonic development after implantation, with a KwaZulu-Natal gestation of about 220 days, while Wikipedia, citing Wright (2009), describes delayed implantation in some populations and a gestation of three to four months. No Kruger-specific breeding study was found.",
