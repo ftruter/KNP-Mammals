@@ -1,0 +1,262 @@
+{
+    "kind": "species",
+    "slug": "gerbilliscus-leucogaster",
+    "scientificName": "Gerbilliscus leucogaster",
+    "commonNames": {
+        "en": "Bushveld gerbil",
+        "af": "Bosveldse nagmuis"
+    },
+    "family": "muridae",
+    "inatTaxonId": 74367,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "Regional Red List for South Africa, Eswatini and Lesotho (2025 and 2016), and IUCN global",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Gerbilliscus leucogaster",
+                "url": "https://ewt.org/project/bushveld-gerbil/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Smith C and da Silva JM. 2025. Regional status Least Concern; regional population trend stable; no change from the 2016 regional assessment."
+            },
+            {
+                "title": "A conservation assessment of Gerbilliscus leucogaster",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/19.-Bushveld-Gerbil-Gerbilliscus-leucogaster_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "du Plessis J, Swanepoel LH, McDonough M, Schoeman C. 2016. Regional status Least Concern. Global IUCN status Least Concern (2016). The 2004 national assessment was Data Deficient; the 2016 change was recorded as non-genuine (new information). Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "Bushveld gerbil",
+                "url": "https://en.wikipedia.org/wiki/Bushveld_gerbil",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Cassola F (2016, errata 2017), IUCN Least Concern."
+            }
+        ]
+    },
+    "summary": "A burrowing gerbil of southern African bushveld and grassland, present in Kruger National Park. It is told from other Gerbilliscus species by a long tail with a black line along the top. It is nocturnal, lives in pairs or groups in interconnected burrows, and eats plant material and insects. Populations can rise sharply when food is plentiful.",
+    "description": "The 2025 and 2016 EWT assessments, citing Monadjem and others (2015), say the Bushveld gerbil can be distinguished in its range from other Gerbilliscus species by its long tail and the black dorsal line that runs along the length of the tail. Older sources classified it as Tatera leucogaster. A published description of the coat, ears, eyes or other marks was not found in the sources used, so those parts are left null rather than inferred from photographs.",
+    "habits": "The 2025 EWT assessment, citing Pinto (2023), describes the species as nocturnal, living in groups or in pairs. Both the 2025 and 2016 assessments, citing Skinner and Chimimba (2005) and Dempster (2013), say it excavates small burrows that are interconnected underground, and that it cleans its burrows every evening, so that burrows in use can be recognised by fresh soil outside. The 2025 assessment, citing Starik (2020), adds that it prefers deep, light sandy soils. A Kruger-specific activity study beyond the fire-related abundance comment in Korn (1981) was not found.",
+    "diet": {
+        "summary": "The 2025 and 2016 EWT assessments describe an omnivorous diet that mainly consists of plant material and insects (Perrin and Swanepoel 1987; Monadjem 1997b). They add that in some parts of South Africa the animals may damage cropland by foraging on germinating seeds and newly emergent seedlings. Wikipedia classifies the species as a granivorous insectivore that will feed on herbage if its preferred foods are unavailable, and that it commonly does so in the dry season; that classification is recorded rather than averaged with the EWT account.",
+        "items": [
+            "plant material",
+            "insects",
+            "germinating seeds and seedlings",
+            "herbage"
+        ],
+        "guild": "omnivore"
+    },
+    "young": "The 2025 and 2016 EWT assessments say breeding is seasonal and associated with regular summer rainfall, that the length of the breeding season is variable, and that litter size is large but variable and associated with a xeric environment (Perrin and Swanepoel 1987). Wikipedia, citing the same paper, gives breeding in the wet season from September to April, with timing dependent on rainfall, and a mean litter size of between four and five. Those extra figures are from Wikipedia and are not averaged with the EWT wording. Gestation, appearance of the young, and Kruger-specific birth months were not found.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Barn Owl",
+            "note": "The 2025 and 2016 EWT assessments say that, except when numbers are low, the species is a valuable food source for small carnivores and raptors, especially Barn Owls (Tyto alba). Not a mammal in this guide."
+        },
+        {
+            "slug": null,
+            "en": "Small carnivores and raptors",
+            "note": "Named as a group in the 2025 and 2016 EWT assessments; no mammal species in this guide is listed."
+        }
+    ],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Insects",
+            "note": "The 2025 and 2016 EWT assessments include insects in the diet, with plant material. Not mammals in this guide."
+        }
+    ],
+    "habitat": "Generally associated with a wide variety of habitats, including bushveld and grasslands, and it may also occur in highly transformed and agricultural habitats. It typically occurs where mean annual rainfall is above 250 mm, and is predominantly associated with light sandy soils or sandy alluvium, though it may also use holes in termitaria and under tree roots on harder ground. It is absent from areas of heavy red clay soils or soft sand. The 2025 and 2016 EWT assessments record it as present in Kruger National Park and, citing Korn (1981), say it was the most common species in habitats there that were frequently burned, compared with unburned habitat. A more detailed Kruger-specific habitat account was not found.",
+    "similar": [
+        {
+            "slug": "saccostomus-campestris",
+            "note": "The pouched mouse has a short tail, much shorter than the head and body. The Bushveld gerbil is distinguished from other Gerbilliscus species by a long tail with a black line along the top."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment gives the regional population trend as stable and does not publish a Kruger total. Citing Korn (1981), it says this species was the most common small mammal in frequently burned habitats in Kruger National Park, compared with unburned habitat; that is a qualitative comment on relative abundance, not a park-wide count. Densities reported from Vhembe, the Free State and other sites outside Kruger are not Kruger figures. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "A more accurate figure may be available here. Cited, not hosted."
+            },
+            {
+                "title": "A conservation assessment of Gerbilliscus leucogaster",
+                "url": "https://ewt.org/project/bushveld-gerbil/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional trend stable. The Korn (1981) comment on relative abundance in burned Kruger habitats is not a Kruger total."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": null
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": null,
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": null,
+                    "pattern": null
+                },
+                "underparts": {
+                    "colour": null,
+                    "pattern": null
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": "long, with a black dorsal line along its length"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A long tail with a black line along the top distinguishes this species from other Gerbilliscus gerbils in its range."
+        }
+    ],
+    "calls": [],
+    "images": [
+        {
+            "key": "gerbilliscus-leucogaster/medike-side.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/11093602",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15668183/large.jpg",
+            "author": "Ryan van Huyssteen",
+            "license": "CC BY 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Bushveld gerbil among dry grass, showing a pale sandy coat, a large dark eye and a pale inner ear",
+            "caption": "Research-grade iNaturalist observation, Medike Mountain Sanctuary, Limpopo, 15 November 2014."
+        },
+        {
+            "key": "gerbilliscus-leucogaster/waterberg-litter.jpg",
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/363660773",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/663832384/large.jpg",
+            "author": "Solly Modimola",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Bushveld gerbil in leaf litter in the Waterberg, showing the head and pale underside among dry leaves",
+            "caption": "Research-grade iNaturalist observation, Waterberg District Municipality, Limpopo, 19 May 2026."
+        }
+    ],
+    "sources": [
+        {
+            "title": "A conservation assessment of Gerbilliscus leucogaster",
+            "url": "https://ewt.org/project/bushveld-gerbil/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Afrikaans name Bosveldse Nagmuis is taken from this assessment (given in species-list.json as Bosveldse nagmuis)."
+        },
+        {
+            "title": "A conservation assessment of Gerbilliscus leucogaster",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/19.-Bushveld-Gerbil-Gerbilliscus-leucogaster_LC.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited only; the PDF is not hosted in this repo. Afrikaans name Bosveldse Nagmuis is also given here."
+        },
+        {
+            "title": "Bushveld gerbil",
+            "url": "https://en.wikipedia.org/wiki/Bushveld_gerbil",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Gerbilliscus leucogaster (bushveld gerbil)",
+            "url": "https://animaldiversity.org/accounts/Gerbilliscus_leucogaster/",
+            "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+            "year": null,
+            "note": "Classification stub only; no species account with measurements or natural-history text."
+        },
+        {
+            "title": "iNaturalist taxon Gerbilliscus leucogaster",
+            "url": "https://api.inaturalist.org/v1/taxa/74367",
+            "publisher": "iNaturalist",
+            "year": 2026
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger animal as Gerbilliscus leucogaster (Bushveld gerbil, the 2011 SANParks checklist name; Afrikaans Bosveldse nagmuis, as given in the EWT assessments). Older lists used Tatera leucogaster; EWT and iNaturalist treat that as a synonym after a genus transfer, not a split. The 2025 EWT assessment, citing McDonough and others (2015), notes extensive genetic structure, including three mitochondrial clades in the assessment region that could correspond to evolutionary significant units; this file does not attempt to split or remap Kruger records. No published measurements or a full coat description were found in the sources used. No licensable wild Kruger photograph suitable for display was found.",
+        "researched": "15 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional trend as stable and does not publish a Kruger total. A comment, citing Korn (1981), that the species was the most common small mammal in frequently burned Kruger habitats is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "No licensable natural Kruger photograph suitable for display was found. Of three research-grade iNaturalist records in place 69020, one was a trapped animal at Skukuza, one had a positional accuracy of about 27 km, and one, about 2.2 km from the Pafuri picnic site, showed an animal in a holding container. A South Africa (place 6986) search supplied two wild photographs from Limpopo, at Medike Mountain Sanctuary and in the Waterberg District Municipality; two other Phalaborwa-area photographs showed handled animals in tanks or indoors and were not used.",
+        "iNaturalist has 0 sound observations for Gerbilliscus leucogaster in place 69020. No sourced description of the calls was found.",
+        "No published measurements (head-and-body length, tail length, mass or shoulder height) were found in the 2025 EWT page, the 2016 EWT assessment or Wikipedia. Animal Diversity Web is a classification stub only. The size object is omitted.",
+        "No published description of the coat, ears, eyes, legs or other marks, beyond the long tail with a black dorsal line, was found in the sources used. Those marks are null.",
+        "Older lists used Tatera leucogaster. This file follows species-list.json (Gerbilliscus leucogaster), a genus transfer rather than a split. The 2025 EWT assessment notes three mitochondrial clades in the assessment region (McDonough et al. 2015) and lists taxonomic resolution of Gerbilliscus as a research priority; Kruger records are not remapped.",
+        "Wikipedia, citing Perrin and Swanepoel (1987), gives breeding from September to April and a mean litter of four to five; the EWT assessments, citing the same paper, say only that breeding is seasonal with summer rainfall and that litter size is large but variable. Those disagreements are recorded rather than averaged. Gestation and a description of the young were not found.",
+        "Skinner and Chimimba and Stuart's field guide were not available as books."
+    ]
+}

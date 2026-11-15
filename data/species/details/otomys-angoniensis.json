@@ -1,0 +1,259 @@
+{
+    "kind": "species",
+    "slug": "otomys-angoniensis",
+    "scientificName": "Otomys angoniensis",
+    "commonNames": {
+        "en": "Angoni vlei rat",
+        "af": "Angoni-vleirot"
+    },
+    "family": "muridae",
+    "inatTaxonId": 45439,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "the 2025 regional Red List for South Africa, Eswatini and Lesotho; the 2016 regional assessment also listed the global IUCN status as Least Concern",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Otomys angoniensis",
+                "url": "https://ewt.org/project/angoni-vlei-rat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Taylor P and da Silva JM. 2025. Regional status Least Concern, with no change from 2016. Regional population trend increasing. Present in Kruger National Park. Cited only; the page is not hosted in this repo."
+            },
+            {
+                "title": "A conservation assessment of Otomys angoniensis",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/40.-Angoni-Vlei-Rat-Otomys-angoniensis_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Taylor P, Baxter R, Child MF. 2016. Regional and global IUCN status Least Concern; no change from the 2004 national assessment. Regional population trend increasing. Present in Kruger National Park. Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "Angoni vlei rat",
+                "url": "https://en.wikipedia.org/wiki/Angoni_vlei_rat",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Taylor PJ and Maree S (2008), IUCN Least Concern."
+            }
+        ]
+    },
+    "size": {
+        "massKg": {
+            "min": 0.025,
+            "max": 0.215
+        },
+        "note": "The 2016 and 2025 EWT assessments do not publish body measurements. Figures are from Animal Diversity Web, citing Bronner and Meester (1988): range mass 25-215 g (0.025-0.215 kg). That range is wide and may be an Africa-wide account that includes both young and adults. Head-and-body length, tail length and shoulder height were not given in the sources used. Animal Diversity Web does not split mass by sex."
+    },
+    "summary": "A medium to large murid of well-watered savanna grassland, seasonally flooded grassland and wetlands, usually found near water. The coat is long and soft, reddish brown to grey, and the throat is often buff. The ears are large, and the animal makes distinctive trails through dense grass. It is mainly diurnal, usually solitary, and is present in Kruger National Park.",
+    "description": "Animal Diversity Web, citing Bronner and Meester (1988), describes the Angoni vlei rat as medium to large compared with other murids, with long, soft reddish-brown to grey fur and a throat that is often buff. The same account says the ears are large, and that the name Otomys comes from the Greek for ear and mouse. The sexes are not described as differently marked. This description may be an Africa-wide account. The 2016 and 2025 EWT assessments do not publish a pelage description.",
+    "habits": "Animal Diversity Web, citing Bronner and Meester (1988), describes the species as mainly diurnal, usually solitary and sometimes found in pairs; that account may be Africa-wide. The 2025 EWT assessment, citing Taylor (2013), says the animals make distinctive trails through dense grass that are also used by other small mammals, and that drier habitats can be occupied during the wet season. A Kruger-specific activity study was not found.",
+    "diet": {
+        "summary": "Animal Diversity Web, citing Bronner and Meester (1988), describes the species as a herbivore that eats mainly grasses, reeds and roots, and occasionally bark; that account may be Africa-wide. The 2025 EWT assessment does not publish a diet list, but, citing Skinner and Chimimba (2005) and Taylor (2013), says the feeding signs are short chopped lengths of grass and green, moist faecal pellets.",
+        "items": [
+            "grasses",
+            "reeds",
+            "roots",
+            "bark"
+        ],
+        "guild": "herbivore"
+    },
+    "young": "The 2025 EWT assessment, citing Phillips et al. (1997), gives a gestation of 37 days, a mean litter size of 3.1, and average reproductive age of 5 weeks for females and 8 weeks for males, and longevity of 2-3 years in captivity. Animal Diversity Web, citing Bronner and Meester (1988), and possibly an Africa-wide account, says breeding starts at around 4 months of age, that females have up to 3 litters a year, with estimates of 1-5 young per litter, that breeding coincides with good food availability, and that the young are precocial. The age at first breeding in Animal Diversity Web (around 4 months) disagrees with the EWT figures (5 and 8 weeks) and is recorded rather than averaged. Kruger-specific birth months were not found.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Pale chanting-goshawk",
+            "note": "The 2025 EWT assessment says the species is an important prey species, citing Malan (2001) and Taylor (2013). Malan (2001) concerns otomyine rodent refuge habitat and pale chanting-goshawk families. Not a mammal in this guide."
+        }
+    ],
+    "prey": [],
+    "habitat": "The 2025 EWT assessment, citing Taylor (2013), describes well-watered savanna grassland associated with wetlands, seasonally flooded grassland and wetlands, generally below 1,000 m above sea level. The animals are usually found near water, but drier habitats can be occupied during the wet season, and the species can occur in modified habitats such as pastureland, though usually not where livestock is present. Where it co-occurs with Otomys auratus, it is associated with plants of the drier wetland margins (Davis 1973), though it is also the more habitat-flexible of the two at Telperion Nature Reserve. The 2025 and 2016 assessments record the species as present in Kruger National Park, among other protected areas. Animal Diversity Web, citing Bronner and Meester (1988), says it is found mainly in coastal or montane areas, usually in wetter habitats but also observed in desert; that disagreement with the EWT habitat account is recorded rather than averaged. A more detailed Kruger-specific habitat account was not found.",
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment (and the 2016 assessment) gives the regional population trend as increasing and suspects there are over 10,000 mature individuals within the assessment region (South Africa, Eswatini and Lesotho); that is not a Kruger total. It also cites a density of 30 animals per hectare in Kenya (Taylor 2013), which is not a Kruger figure. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "A more accurate figure may be available here. Cited, not hosted."
+            },
+            {
+                "title": "A conservation assessment of Otomys angoniensis",
+                "url": "https://ewt.org/project/angoni-vlei-rat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional trend increasing. The suspected regional total of over 10,000 mature individuals, and the Kenyan density of 30 animals per hectare, are not a Kruger total. Cited only; the page is not hosted in this repo."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": "large"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": null,
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": "reddish brown to grey",
+                    "pattern": "long, soft fur"
+                },
+                "underparts": {
+                    "colour": null,
+                    "pattern": "throat often buff"
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": null
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A blunt face with large ears and long, soft grey-brown fur, often among grass or rocks."
+        },
+        {
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A compact, shaggy grey-brown rodent with large ears, often at the base of a rock or in dense grass."
+        }
+    ],
+    "calls": [],
+    "images": [
+        {
+            "key": "otomys-angoniensis/golden-gate-front.jpg",
+            "view": "standing-front",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/268744979",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/483049402/large.jpg",
+            "author": "Michael Standin Wright",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Angoni vlei rat facing the camera among grass and rock, showing large ears and long, soft grey-brown fur",
+            "caption": "Research-grade iNaturalist observation, Golden Gate Highlands National Park, Free State, 17 April 2024."
+        },
+        {
+            "key": "otomys-angoniensis/buffelskloof-side.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/99371504",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165634991/large.jpeg",
+            "author": "Alex Rebelo",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Angoni vlei rat in side view under a rock overhang, showing a shaggy grey-brown coat and large ears",
+            "caption": "Research-grade iNaturalist observation, Buffelskloof Nature Reserve, Mpumalanga, 23 October 2021."
+        }
+    ],
+    "sources": [
+        {
+            "title": "A conservation assessment of Otomys angoniensis",
+            "url": "https://ewt.org/project/angoni-vlei-rat/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Cited only; the page is not hosted in this repo. Afrikaans name Angoni-vleirot is taken from this assessment (also in the 2016 assessment)."
+        },
+        {
+            "title": "A conservation assessment of Otomys angoniensis",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/40.-Angoni-Vlei-Rat-Otomys-angoniensis_LC.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited only; the PDF is not hosted in this repo."
+        },
+        {
+            "title": "Angoni vlei rat",
+            "url": "https://en.wikipedia.org/wiki/Angoni_vlei_rat",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Otomys angoniensis: Angoni vlei rat",
+            "url": "https://animaldiversity.org/accounts/Otomys_angoniensis/",
+            "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+            "year": 2000
+        },
+        {
+            "title": "iNaturalist taxon Otomys angoniensis",
+            "url": "https://api.inaturalist.org/v1/taxa/45439",
+            "publisher": "iNaturalist",
+            "year": 2026
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger animal as Otomys angoniensis (Angoni vlei rat, the 2011 SANParks checklist name; Afrikaans Angoni-vleirot, as given in the 2016 and 2025 EWT assessments). The 2025 EWT assessment notes that unpublished molecular and morphometric data show East and southern African O. angoniensis may be distinct species (Monadjem et al. 2015); that O. a. maximus has been regarded as a separate species but is provisionally included because of mitochondrial DNA similarity and morphometric overlap; and that three subspecies are recognised (Taylor 2013). This file does not attempt to split or remap Kruger records. A 2025 EWT project page was found (https://ewt.org/project/angoni-vlei-rat/); conservation status follows that assessment (Least Concern, no change from 2016; regional trend increasing). EWT records the species as present in Kruger National Park. Length measurements were not found; mass is from Animal Diversity Web only. No licensable wild Kruger photograph suitable for display was found.",
+        "researched": "15 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional trend as increasing and suspects more than 10,000 mature individuals in the assessment region; that, and a Kenyan density of 30 animals per hectare, are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "No licensable natural Kruger photograph suitable for display was found. A research-grade iNaturalist search in place 69020 with the licence filter returned 0 observations. A South Africa (place 6986) search returned 5 research-grade licensed observations: 3 were dead animals (Sedibeng, a garden kill by a domestic cat in Centurion, and a road-killed animal at Upper Treur, Mpumalanga) and were dropped. Two wild photographs were kept: one from Golden Gate Highlands National Park, Free State, and one from Buffelskloof Nature Reserve, Mpumalanga.",
+        "iNaturalist has 0 sound observations for Otomys angoniensis in place 69020. No sourced description of the calls was found.",
+        "The 2025 EWT assessment notes that East and southern African Otomys angoniensis may be distinct species, that O. a. maximus is provisionally included, and that three subspecies are recognised. This file follows species-list.json (Otomys angoniensis) and does not attempt to re-identify Kruger records. EWT records the species as present in Kruger National Park.",
+        "Skinner and Chimimba and Stuart's field guide were not available as books. The 2016 and 2025 EWT pages do not publish body measurements. Mass is from Animal Diversity Web only and may be Africa-wide. Head-and-body length, tail length and shoulder height were not found.",
+        "No Kruger-specific breeding study was found. Animal Diversity Web's age at first breeding (around 4 months) disagrees with the 2025 EWT figures (5 weeks for females and 8 weeks for males, citing Phillips et al. 1997); those disagreements are recorded rather than averaged.",
+        "Animal Diversity Web describes mainly coastal or montane habitat, including desert records, which disagrees with the EWT account of well-watered savanna grassland and wetlands generally below 1,000 m; the disagreement is recorded rather than averaged.",
+        "This is the only Otomys species in the Kruger list, so no similar-species contrast with another vlei rat in this guide was written.",
+        "Iris colour, ear colour, face and muzzle colour, underpart colour besides the throat, leg colour, tail colour and shape, and a sexed size split were not given in the sources used, so those marks are null."
+    ]
+}

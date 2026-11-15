@@ -1,0 +1,257 @@
+{
+  "kind": "species",
+  "slug": "lemniscomys-rosalia",
+  "scientificName": "Lemniscomys rosalia",
+  "commonNames": {
+    "en": "Single-striped mouse",
+    "af": "Eenstreepmuis"
+  },
+  "family": "muridae",
+  "inatTaxonId": 45500,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "Regional Red List for South Africa, Eswatini and Lesotho (2025 and 2016), and IUCN global",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Lemniscomys rosalia",
+        "url": "https://ewt.org/project/single-striped-grass-mouse/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Russo IM and da Silva JM. 2025. Regional status Least Concern; regional population trend stable; no change from the 2016 regional assessment. The assessment records the species as present in Kruger National Park."
+      },
+      {
+        "title": "A conservation assessment of Lemniscomys rosalia",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/30.-Single-striped-Grass-Mouse-Lemniscomys-rosalia_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Cited only; the PDF is not hosted in this repo. The 2025 assessment records no change from this 2016 Least Concern listing."
+      },
+      {
+        "title": "Single-striped grass mouse",
+        "url": "https://en.wikipedia.org/wiki/Single-striped_grass_mouse",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Child M.F. and Monadjem A. (2016, errata 2017), IUCN Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "lengthCm": {
+      "min": 27,
+      "max": 27
+    },
+    "massKg": {
+      "min": 0.06,
+      "max": 0.06
+    },
+    "note": "The 2025 and 2016 EWT assessments do not publish body measurements (the 2025 life-history fields are unspecified). Wikipedia, citing Stuart's Field Guide to Mammals of Southern Africa (2007), gives a total length of 27 cm and a mass of 60 g (0.06 kg). Those are single figures, not ranges, and the length is a total length rather than a head-and-body measurement, so it is entered as lengthCm. A head-and-body and tail split, a sexed size split and shoulder height were not found."
+  },
+  "summary": "A small terrestrial mouse of tall, dense grass in savanna, including Kruger National Park. It is mainly crepuscular but may be active by day, and it lives in burrows under matted grass. A Kruger study found a diet of seeds and herbage with a little insect material. The 2025 regional Red List lists it as Least Concern.",
+  "description": "A small, terrestrial African grass mouse of the family Muridae. Wikipedia, citing Stuart (2007), gives a total length of 27 cm and a mass of 60 g. No sourced description of the coat, ears, eyes or other marks was found in the accounts used for this file, so those marks are left null.",
+  "habits": "The 2025 EWT assessment, citing Oosthuizen et al. (2024) and Perrin (1981), describes the species as predominantly crepuscular but able to be diurnal, and as terrestrial. Citing Skinner and Chimimba (2005), it says burrows are excavated where there is overhead cover of matted grass. Wikipedia, citing Stuart (2007), adds that it lives in self-constructed burrows and excavates tunnels that lead to its feeding grounds. The 2025 assessment, citing Monadjem and Perrin (1997), says it vacates recently burnt areas but returns as soon as the grass recovers.",
+  "diet": {
+    "summary": "In a study in Kruger National Park, stomach-content analysis found a diet of 50% seeds, 48% herbaceous material and 2% insects (Watson 1987), as reported in the 2025 EWT assessment. That assessment also cites a Hluhluwe-iMfolozi sample in which grass leaves and stems made up 65% of the diet, seeds 25% and arthropods 3% (Hagenah et al. 2009), and an eSwatini sample in which herbaceous material made up about 85% and seeds about 15% (Monadjem 1997b). Hagenah et al. (2009) found that it feeds on the most abundant grass species in its habitat, not necessarily the most nutritious. Wikipedia, citing Stuart (2007), describes the diet as seeds, greenery and occasionally insects.",
+    "items": [
+      "seeds",
+      "herbaceous material",
+      "grass leaves and stems",
+      "insects"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "The 2025 EWT assessment, citing Monadjem (1997a, 2013) and Taylor (1998), says the most important habitat requirement is probably dense ground cover of long grass, as the species breeds in surface grass nests. It does not publish litter size, gestation or breeding months. Wikipedia, citing Stuart (2007), gives a reproductive season between September and March, an average litter of five, and litters as large as 11. Those figures are from Wikipedia and are not averaged with the EWT account. Appearance of the young, gestation and a Kruger-specific breeding study were not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Black-shouldered Kite",
+      "note": "The 2025 EWT assessment, citing Monadjem (2013), says the species is preyed on by Black-shouldered Kites (Elanus caeruleus). Not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Barn Owl",
+      "note": "The 2025 EWT assessment, citing Monadjem (2013), says the species is preyed on by Barn Owls (Tyto alba). Not a mammal in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "A Kruger stomach-content study reported in the 2025 EWT assessment found insects made up 2% of the diet (Watson 1987). Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment says it tolerates a wide range of savannah habitats, all characterised by tall grassland, including savannah woodland, dry grassland at the ecotone between vleis and woodland, and scrub savannah. It prefers good cover of grass, herbs or reeds and avoids short or bare ground. It vacates recently burnt areas but returns as the grass recovers, and it has not been recorded from montane grasslands, forests and riverine woodlands. The same assessment records it as present in Kruger National Park. Kern (1981), cited there for the association with tall grassland, is a Kruger study of fire and small mammals.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment gives the regional population trend as stable and does not publish a Kruger total. It describes the species as relatively common to very common across its range, with a fluctuating population, and gives densities from an ungrazed grassland in eSwatini and comments on abundance in KwaZulu-Natal reserves; those figures are not Kruger counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "A conservation assessment of Lemniscomys rosalia",
+        "url": "https://ewt.org/project/single-striped-grass-mouse/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend stable. Densities and abundance comments from eSwatini and KwaZulu-Natal are not a Kruger total."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [],
+  "calls": [],
+  "images": [
+    {
+      "key": "lemniscomys-rosalia/imfolozi-dorsal.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/226467847",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/401640852/large.jpeg",
+      "author": "Margaret Burger",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Single-striped grass mouse on a sandy track, seen from above, with a single dark line running down the back",
+      "caption": "Research-grade iNaturalist observation, iMfolozi Game Reserve, KwaZulu-Natal, 30 June 2024."
+    },
+    {
+      "key": "lemniscomys-rosalia/zululand-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/268745002",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/483049924/large.jpg",
+      "author": "Michael Standin Wright",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Single-striped grass mouse in profile on leaf litter, holding food in its forepaws",
+      "caption": "Research-grade iNaturalist observation, Zululand District Municipality, KwaZulu-Natal, 29 August 2019."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A conservation assessment of Lemniscomys rosalia",
+      "url": "https://ewt.org/project/single-striped-grass-mouse/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Afrikaans name Eenstreepmuis is taken from this assessment, which also lists the English names Single-striped Grass Mouse, Single-striped Lemniscomys and Zebra Mouse. The stored English name is the 2011 SANParks checklist name, Single-striped mouse."
+    },
+    {
+      "title": "A conservation assessment of Lemniscomys rosalia",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/30.-Single-striped-Grass-Mouse-Lemniscomys-rosalia_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo. Afrikaans name Eenstreepmuis is also given here."
+    },
+    {
+      "title": "Single-striped grass mouse",
+      "url": "https://en.wikipedia.org/wiki/Single-striped_grass_mouse",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Lemniscomys rosalia (single-striped grass mouse)",
+      "url": "https://animaldiversity.org/accounts/Lemniscomys_rosalia/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "Classification stub only; no species account with measurements or natural-history text."
+    },
+    {
+      "title": "iNaturalist taxon Lemniscomys rosalia",
+      "url": "https://api.inaturalist.org/v1/taxa/45500",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Lemniscomys rosalia (Single-striped mouse, the 2011 SANParks checklist name; Afrikaans Eenstreepmuis, as given in the EWT assessments). The 2025 EWT assessment and iNaturalist (taxon 45500) use Single-striped Grass Mouse as a preferred English name; EWT also lists Single-striped Lemniscomys and Zebra Mouse. The 2025 assessment, citing Meester et al. (1986), treats only the subspecies L. r. spinalis as present in the assessment region, and, citing Van der Straeten et al. (2008) and Castiglia et al. (2002), notes that L. rosalia may represent a species complex and that chromosomal data suggest it may comprise at least two species. This file does not remap Kruger records. Photos used here are from KwaZulu-Natal, not Kruger."
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional trend as stable and does not publish a Kruger total. Densities from an ungrazed grassland in eSwatini and abundance comments from KwaZulu-Natal reserves are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No licensable natural Kruger photograph suitable for display was found. Of seven research-grade iNaturalist records with an allowed licence in place 69020, three were at rest camps (Punda Maria, Skukuza and Berg-en-Dal), one was a handled animal in a bag, one was a road-killed animal, one was next to a field container, and one was a distant, blurry rear view about 2.3 km from Orpen. A South Africa (place 6986) search supplied two wild photographs from KwaZulu-Natal, at iMfolozi Game Reserve and in the Zululand District Municipality. A Pilanesberg photograph was dropped because of a visible watermark.",
+    "iNaturalist has 0 sound observations for Lemniscomys rosalia in place 69020. No sourced description of the calls was found.",
+    "No sourced description of coat colour, ear colour, iris colour or a head-and-body and tail split was found in the accounts used, so those marks and size fields are null. Length and mass are single figures from Wikipedia citing Stuart (2007), not ranges.",
+    "Van der Straeten et al. (2008), cited in the 2025 EWT assessment, noted that L. rosalia may represent a complex of species, and Castiglia et al. (2002) chromosomal data may indicate at least two species. Only the subspecies L. r. spinalis is listed for the assessment region. This file follows species-list.json (Lemniscomys rosalia) and does not remap Kruger records. EWT records the species as present in Kruger National Park.",
+    "Skinner and Chimimba and Stuart's field guide were not available as books. Animal Diversity Web is a classification stub and has no measurements or natural-history account.",
+    "Appearance of the young, gestation and a Kruger-specific breeding study were not found. Litter size and breeding months are from Wikipedia citing Stuart (2007) only."
+  ]
+}

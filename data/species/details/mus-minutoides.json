@@ -1,0 +1,263 @@
+{
+    "kind": "species",
+    "slug": "mus-minutoides",
+    "scientificName": "Mus minutoides",
+    "commonNames": {
+        "en": "Pygmy mouse",
+        "af": "Dwergmuis"
+    },
+    "family": "muridae",
+    "inatTaxonId": 44716,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "IUCN global, and the 2016 regional Red List for South Africa, Swaziland and Lesotho",
+        "asOf": 2016,
+        "sources": [
+            {
+                "title": "A conservation assessment of Mus minutoides",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/36.-Pygmy-Mouse-Mus-minutoides_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "MacFadyen D, Watson J, Britton-Davidian J, Robinson T, Richards RR. 2016. Regional status Least Concern; no change from the 2004 national assessment. Global IUCN status Least Concern (2016). Regional population trend stable, although it fluctuates widely across seasons. Present in Kruger National Park. Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "African pygmy mouse",
+                "url": "https://en.wikipedia.org/wiki/African_pygmy_mouse",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Child MF and Monadjem A (2016, errata 2017), IUCN Least Concern. The page title is African pygmy mouse; the latin title Mus minutoides redirects here."
+            }
+        ]
+    },
+    "size": {
+        "headBodyLengthCm": {
+            "min": 5.6,
+            "max": 5.6
+        },
+        "tailCm": {
+            "min": 4.1,
+            "max": 4.1
+        },
+        "massKg": {
+            "min": 0.0055,
+            "max": 0.0055
+        },
+        "note": "The 2016 EWT assessment, citing Skinner and Chimimba (2005), gives a total length of about 97 mm, a tail of 41 mm and a mass of 5.5 g (0.0055 kg). Head-and-body length is entered as 5.6 cm by subtracting the quoted tail from the quoted total length. Wikipedia, citing a Tiergarten Schönbrunn account, gives average adult body length 50 mm (5.0 cm), tail 40 mm (4.0 cm) and average adult mass 5 g (0.005 kg); those figures disagree with the EWT account and are not averaged with it."
+    },
+    "summary": "One of the smallest murids in southern Africa, with brownish-buff upperparts, orange-buffy flanks sharply divided from white underparts, brownish ears and a tail shorter than the head and body. It is nocturnal and terrestrial, usually solitary when foraging, and lives in grassland, woodland and other cover. The 2016 EWT assessment records it as present in Kruger National Park.",
+    "description": "The 2016 EWT assessment, citing Skinner and Chimimba, describes this as among the smallest murids. The upper parts are brownish-buff, the colour coming from black-tipped hairs that become fewer on the flanks, which are orange-buffy; the border between the flanks and the white underparts is sharply defined. The tail is brown above and buffy below, the ears brownish, and the hands and feet buffy-white. Wikipedia, which titles the species African pygmy mouse, instead describes it as grey to brick-red overall, pale on the underside, with small but prominent triangular ears; that colour account disagrees with the EWT description and is not averaged with it. The sexes are not described as differently marked. EWT treats the taxon as a species complex, and Wikipedia states that it forms a super-species complex with Mus musculoides.",
+    "habits": "The 2016 EWT assessment, citing Skinner and Chimimba, describes the species as nocturnal and terrestrial, and not communal: burrows are used only by a pair or a family group. In soft ground it digs shallow burrows, but it more commonly uses existing shelter under fallen logs, piles of debris, boulders or holes in termite mounds. It appears to forage singly at night and may not be tied closely to a single shelter. An effective way of catching the animals, according to the same account, is to lay a tarpaulin or sheets of corrugated iron on the ground, which they use as a temporary diurnal shelter. EWT, citing Veyrunes and others, also notes an atypical sex-chromosome system, in which a high proportion of females from geographically widespread localities in southern and eastern Africa are sex-reversed and possess a Y chromosome; Wikipedia cites the same work. A Kruger-specific activity study was not found.",
+    "diet": {
+        "summary": "The 2016 EWT assessment, citing Monadjem (2013), gives the main diet as grass seeds, insects and termites. It also cites Wilson (1975) for seeds of couch grass (Cynodon dactylon) in stomach contents. Those details are not a Kruger-specific diet study.",
+        "items": [
+            "grass seeds",
+            "insects",
+            "termites",
+            "couch grass seeds (Cynodon dactylon)"
+        ],
+        "guild": "omnivore"
+    },
+    "young": "The 2016 EWT assessment does not describe breeding. Wikipedia, citing Kingdon and Happold in Mammals of Africa (2013), says the animals reach breeding age at about 6 to 8 weeks, that pregnancy lasts around 20 days, and that a litter of about three young is born blind and hairless, with an average birth mass of 0.8 g; the eyes open after two weeks and weaning is complete after three weeks. Kruger-specific birth months were not found.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Small predators",
+            "note": "The 2016 EWT assessment says the species is a valuable prey species for a number of small predators, but does not name them. It may also contribute to seed dispersal. No mammal predator in this guide was named in the sources used."
+        }
+    ],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Insects and termites",
+            "note": "The 2016 EWT assessment, citing Monadjem (2013), includes insects and termites in the main diet, together with grass seeds."
+        }
+    ],
+    "habitat": "A habitat generalist. The 2016 EWT assessment says it prefers grassland, but also occurs in lightly wooded areas and on the fringes of semi-forested areas, and is recorded from savannah, fynbos, grassland, rocky habitats, and vlei and riverine regions (Monadjem 2013). It has also been recorded in recently burnt or disturbed grassland, and in areas used for agriculture, livestock production and forestry, and it occurs in suburban areas, although it is not usually found inside buildings (Skinner and Chimimba 2005). The assessment records the species as present in Kruger National Park, but a more detailed Kruger-specific habitat account was not found.",
+    "similar": [
+        {
+            "slug": "mastomys-natalensis",
+            "note": "The 2016 EWT assessment describes the pygmy mouse as among the smallest murids, with a total length of about 97 mm and a mass of 5.5 g, and a sharply defined line between the orange-buffy flanks and the white underparts. Those size and flank marks distinguish it from the larger multimammate mice in this guide; this file does not invent marks for Natal multimammate mouse."
+        },
+        {
+            "slug": "mastomys-coucha",
+            "note": "As with Natal multimammate mouse, the pygmy mouse is much smaller (about 97 mm in total length and 5.5 g in the Skinner and Chimimba figures cited by EWT) and has a sharply defined flank–underpart border. This file does not invent marks for southern multimammate mouse."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment gives the regional population trend as stable, although abundance fluctuates widely across seasons, and it does not publish a Kruger total. It reports densities of up to 28 individuals per hectare (Monadjem 2013), and that the species can be more numerous in the dry winter months (Monadjem and Perrin 2003); those figures are not a park-wide Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "A more accurate figure may be available here. Cited, not hosted."
+            },
+            {
+                "title": "A conservation assessment of Mus minutoides",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/36.-Pygmy-Mouse-Mus-minutoides_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Regional trend stable, with wide seasonal fluctuation. Densities of up to 28 individuals per hectare and dry-winter abundance comments are not a Kruger total. Cited only; the PDF is not hosted in this repo."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": "brownish",
+                    "shape": "small but prominent and triangular"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": null,
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": "brownish-buff",
+                    "pattern": "black-tipped hairs, becoming fewer on the orange-buffy flanks"
+                },
+                "underparts": {
+                    "colour": "white",
+                    "pattern": "sharply defined border with the flanks"
+                },
+                "legs": {
+                    "colour": "buffy-white on the hands and feet"
+                },
+                "tail": {
+                    "colour": "brown above and buffy below",
+                    "shape": "shorter than the head and body, about 41 mm"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A very small mouse on open ground, with brownish-buff upperparts, orange-buffy flanks sharply divided from white underparts, brownish ears and a tail shorter than the head and body."
+        }
+    ],
+    "calls": [],
+    "images": [
+        {
+            "key": "mus-minutoides/thabazimbi-side.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/333174971",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/604820821/large.jpg",
+            "author": "kameelsafari",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Pygmy mouse standing on rocks, showing brownish-buff upperparts, pale feet, a dark eye and a tail shorter than the body",
+            "caption": "Research-grade iNaturalist observation, Thabazimbi, Limpopo, 2 January 2026."
+        },
+        {
+            "key": "mus-minutoides/modimolle-night.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/324849286",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/588057749/large.jpg",
+            "author": "tarrybutcher",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "Pygmy mouse on bare ground at night, showing a small brown body, pale underparts and a short tail",
+            "caption": "Research-grade iNaturalist observation, Modimolle-Mookgophong, Limpopo, 30 September 2025."
+        }
+    ],
+    "sources": [
+        {
+            "title": "A conservation assessment of Mus minutoides",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/36.-Pygmy-Mouse-Mus-minutoides_LC.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited only; the PDF is not hosted in this repo. Afrikaans name Dwergmuis is taken from this assessment."
+        },
+        {
+            "title": "African pygmy mouse",
+            "url": "https://en.wikipedia.org/wiki/African_pygmy_mouse",
+            "publisher": "Wikipedia",
+            "year": 2026,
+            "note": "The latin title Mus minutoides redirects to this page."
+        },
+        {
+            "title": "Mus minutoides (pygmy mouse)",
+            "url": "https://animaldiversity.org/accounts/Mus_minutoides/",
+            "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+            "year": null,
+            "note": "Classification page only; no natural-history account."
+        },
+        {
+            "title": "iNaturalist taxon Mus minutoides",
+            "url": "https://api.inaturalist.org/v1/taxa/44716",
+            "publisher": "iNaturalist",
+            "year": 2026
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger animal as Mus minutoides (Pygmy mouse, the 2011 SANParks checklist name; Afrikaans Dwergmuis, as given in the 2016 EWT assessment). EWT 2016 also lists Tiny Pygmy Mouse as an English name, iNaturalist uses that as the preferred common name for taxon 44716, and Wikipedia titles the species African pygmy mouse. EWT 2016 treats the taxon as a species complex with several chromosomal clades in the assessment region, and notes frequent misidentification with Mus indutus, especially in older museum records from more arid areas; it nonetheless lists Kruger National Park among the protected areas in which M. minutoides occurs, so status is entered as resident rather than omitted. A 2025 EWT project page was not found in the one site search, so conservation status follows the 2016 assessment (Least Concern; regional trend stable). Animal Diversity Web is a classification stub. Length and mass follow EWT (Skinner and Chimimba), with Wikipedia's zoo-cited averages recorded as a disagreement. No licensable wild Kruger photograph suitable for display was found.",
+        "researched": "15 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives the regional trend as stable, with wide seasonal fluctuation, and does not publish a Kruger total. A density of up to 28 individuals per hectare, and a comment that the species can be more numerous in the dry winter, are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "No licensable natural Kruger photograph suitable for display was found. Of four research-grade iNaturalist records in place 69020, one had positional accuracy of 1,690 m, one was at Punda Maria rest camp, one was 0.19 km from Shingwedzi, and one (S51 mopane veld) showed a handled animal on a person's hand. A South Africa (place 6986) search supplied two wild photographs from Thabazimbi and Modimolle-Mookgophong, Limpopo; shortlisted Blouberg and Wilderness thumbnails were a handled animal and a usable wild shot not selected once two Limpopo photographs were available.",
+        "iNaturalist has 0 sound observations for Mus minutoides in place 69020. No sourced description of the calls was found.",
+        "Mus minutoides is treated as a species complex. The 2016 EWT assessment notes several chromosomal clades in the assessment region and frequent confusion with Mus indutus in museum records. This file follows species-list.json (Mus minutoides) and does not attempt to re-identify Kruger records. EWT records the species as present in Kruger National Park.",
+        "A 2025 EWT project page was not found in the one site search, so conservation status and much of the natural-history text follow the 2016 assessment.",
+        "Skinner and Chimimba and Stuart's field guide were not available as books. Animal Diversity Web is a classification stub and does not publish measurements. Length and mass are from the 2016 EWT assessment (citing Skinner and Chimimba), with a disagreeing Wikipedia account cited to a zoo page.",
+        "No Kruger-specific breeding or diet study was found. Breeding details are from Wikipedia's citation of Mammals of Africa (2013) only.",
+        "Iris colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null. Ear shape follows Wikipedia's 'small but prominent triangular ears'; EWT gives ear colour only."
+    ]
+}

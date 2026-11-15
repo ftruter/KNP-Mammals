@@ -443,6 +443,29 @@ Details files: `data/species/details/<slug>.json` for `aepyceros-melampus`, `dam
 
 Least Concern: Impala, Waterbuck, Buffalo, Kudu, Nyala, Eland. Vulnerable: Tsessebe (regional trend declining), Sable (regional trend stable; Kruger subpopulation increasing).
 
+## Batch 10 hints (small rodents, 15 November 2026, Africa/Johannesburg)
+- Water rat (16 calls): EWT 2016 PDF 9.-African-Marsh-Rat-Dasymys-spp_VU.pdf records D. robertsii (not incomtus) in Kruger, so status omitted; 2025 Mammal Red List fact sheet ewt.org/wp-content/uploads/2026/02/Fact-Sheet_Mammal-Red-List_2.pdf lists updated statuses (useful for other species too). Wikipedia "African marsh rat" stub. ADW full 2020 account, Africa-wide. iNat 69020 and 6986: 0 licensed RG; zero photos.
+- Bushveld gerbil (24 calls): EWT /project/bushveld-gerbil/ + 2016 PDF; Afrikaans Bosveldse nagmuis. No measurements anywhere (EWT, Wikipedia, ADW stub; /accounts/Tatera_leucogaster/ 404). iNat 69020 none usable; 6986 keepers Medike (CC BY) and Waterberg (CC BY-NC).
+- Woodland mouse (20 calls): EWT 2016 PDF 23.-Woodland-Mouse-Grammomys-dolichurus_LC.pdf; no 2025 page. 2025 fact sheet lists only status CHANGES (absent = unchanged); pdftotext splits names across columns, search full text. Wikipedia "Woodland thicket rat" stub. ADW stub. iNat 69020 keeper obs 146695259 (Dupont, CC BY, near Letaba).
+- Single-striped mouse (18 calls): EWT /project/single-striped-grass-mouse/ (Watson 1987 Kruger diet) + 2016 PDF. Wikipedia "Single-striped grass mouse" stub (Stuart 2007 sizes). ADW stub. iNat 69020: 7 licensed, none usable; 6986 keepers iMfolozi (CC BY-SA) and Zululand (CC BY-NC); drop watermarked Pilanesberg shots.
+- Multimammate mouse M. coucha (16 calls): EWT combined 2016 PDF 32.-Multimammate-Mouse-Mastomys-spp_LC.pdf (Kneidinger et al. 2014: both species at Roan Camp, Kruger). M. natalensis has /project/natal-multimammate-mouse/. Wikipedia "Southern multimammate mouse". ADW stub. iNat 69020: 0; 6986: 3 licensed, all handled/building; zero photos.
+- Natal multimammate mouse (18 calls): EWT /project/natal-multimammate-mouse/ is a full assessment, Afrikaans Natalse Vaalveldmuis. Wikipedia thin. ADW stub. No measurements anywhere. iNat 69020: 0 licensed; 6986 keeper obs 363660764 Waterberg (CC BY-NC).
+
+### Namaqua rock mouse (Micaelamys namaquensis), 21 calls
+- EWT search finds the 2016 PDF at once: https://ewt.org/wp-content/uploads/2022/11/34.-Namaqua-Rock-Mouse-Micaelamys-namaquensis_LC.pdf. No 2025 page. It does not mention Kruger, so status was omitted.
+- Wikipedia (redirects to "Namaqua rock rat") and ADW are stubs; don't retry ADW under Aethomys.
+- iNat taxon 851046. Place 69020 has one licensed record, in a tank (unusable). Place 6986: a Mapungubwe photo worked; drop live-traps, plastic sheets and the watermarked Vhembe photo. large.jpg is enough.
+
+### Pygmy mouse (Mus minutoides), 15 calls
+- EWT 2016 PDF: https://ewt.org/wp-content/uploads/2022/11/36.-Pygmy-Mouse-Mus-minutoides_LC.pdf (Afrikaans Dwergmuis, size, Kruger listed). /project/thomass-pygmy-mouse/ is Mus neavei; don't use it.
+- Wikipedia "African pygmy mouse" is thin, with zoo-cited sizes; prefer EWT. ADW is a stub.
+- iNat 69020 shots were near camps or handled. Place 6986: Thabazimbi 604820821 and Modimolle 588057749 kept. Some photos use large.jpeg, not .jpg.
+
+### Angoni vlei rat (Otomys angoniensis), 17 calls
+- EWT 2025 page: https://ewt.org/project/angoni-vlei-rat/ and 2016 PDF …/2022/11/40.-Angoni-Vlei-Rat-Otomys-angoniensis_LC.pdf. Both mention Kruger.
+- ADW /accounts/Otomys_angoniensis/ is a short real account (mass, diet, habits; no lengths). Wikipedia is a stub.
+- iNat 45439: 0 at place 69020. Place 6986: 5 licensed, 3 dead. Golden Gate and Buffelskloof (.jpeg) kept.
+
 ## Batch 2 hints (8 species: Giraffe, Hippopotamus, Warthog, Bushpig, Bushbuck, Reedbuck, Common duiker, Steenbok, 13 Nov 2026, Africa/Johannesburg)
 
 Details files: `data/species/details/<slug>.json` for `giraffa-giraffa`, `hippopotamus-amphibius`, `phacochoerus-africanus`, `potamochoerus-larvatus`, `tragelaphus-sylvaticus`, `redunca-arundinum`, `sylvicapra-grimmia`, `raphicerus-campestris`. Branched from a fresh `origin/main` after PRs #6 and #7 were merged.
