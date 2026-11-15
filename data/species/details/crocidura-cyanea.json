@@ -1,0 +1,173 @@
+{
+  "kind": "species",
+  "slug": "crocidura-cyanea",
+  "scientificName": "Crocidura cyanea",
+  "commonNames": {
+    "en": "Reddish-grey musk shrew",
+    "af": "Rooigrysskeerbek"
+  },
+  "family": "soricidae",
+  "inatTaxonId": 46777,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Crocidura cyanea",
+        "url": "https://ewt.org/project/reddish-grey-musk-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Russo IM and da Silva JM. 2025. Regional status Least Concern, with no change from the 2016 assessment. Regional population trend stable. The page does not list Kruger National Park among the protected areas or localities from which the species is recorded."
+      },
+      {
+        "title": "A conservation assessment of Crocidura cyanea",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Reddish-grey-Musk-Shrew-Crocidura-cyanea_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Least Concern. Treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Reddish-gray musk shrew",
+        "url": "https://en.wikipedia.org/wiki/Reddish-gray_musk_shrew",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "A stub. The latin title Crocidura cyanea redirects here. Cites Baxter, Hutterer, Griffin and Howell (2016, errata 2017), IUCN Least Concern."
+      }
+    ]
+  },
+  "summary": "A small white-toothed musk shrew of southern Africa, found from sea level to 2,000 m in relatively dry terrain as well as rocky ground, scrub, grassland, gardens and other habitats. It is sporadically active by day and night and feeds mainly on insects, especially termites. The 2025 EWT assessment does not list Kruger National Park among the localities or protected areas from which it is recorded.",
+  "description": "The 2025 EWT assessment and the Wikipedia stub do not describe the pelage or publish head-and-body length, tail length or mass. The assessment, citing Meester et al. (1986), Taylor et al. (1994) and Taylor and Contrafatto (1996), says the species is almost undiscernible from its sibling Crocidura silacea, differing only in cranial and dental characters, and that many museum records of the two have been confused.",
+  "habits": "The 2025 EWT assessment, citing Dickman (1995), says the animals are sporadically active throughout the day and night. They are often trap shy (Jooste and Palmer 1982). The species occurs at low density, though it can be locally abundant, and can be very common in gardens and houses because of compost heaps. In Namibia, a population has been found in a cave, feeding on cave invertebrates and possibly dead bats (Marais and Irish 1990); that account is not a Kruger record.",
+  "diet": {
+    "summary": "The 2025 EWT assessment, citing Dickman (1995), treats the species as insectivorous, with a high proportion of Isoptera (termites) in the diet. A later threats section on the same page also calls the diet predominantly insectivorous. The Namibian cave population is reported to feed on cave invertebrates and possibly dead bats (Marais and Irish 1990).",
+    "items": [
+      "insects",
+      "termites (Isoptera)",
+      "cave invertebrates",
+      "possibly dead bats"
+    ],
+    "guild": "insectivore"
+  },
+  "predators": [
+    {
+      "slug": null,
+      "en": "Owls, including the Barn Owl (Tyto alba)",
+      "note": "The 2025 EWT assessment describes the species as an important prey species for owls, citing Perrin (1982), a Barn Owl diet study from the Great Fish River Valley in the Eastern Cape. These are not mammals in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects, especially termites (Isoptera)",
+      "note": "The 2025 EWT assessment, citing Dickman (1995), gives a high proportion of Isoptera in the diet."
+    },
+    {
+      "slug": null,
+      "en": "Cave invertebrates and possibly dead bats",
+      "note": "Reported for a Namibian cave population (Marais and Irish 1990), not as a Kruger diet."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment says the species often occurs in relatively dry terrain compared with other shrews, and has been collected from rocky habitats, dense scrub and grass, moist montane forest, hedges around farmlands, degraded areas and gardens (Meester 1963, Rautenbach 1982, Taylor 1998). In KwaZulu-Natal it has been found in moist grassy habitats bordering reedbeds, drier bushveld, open grassland, coastal forest and gardens; in the west, in scrub on Kalahari sand, reedbeds around waterholes, karroid scrub and fynbos in rocky areas (Skinner and Chimimba 2005; Taylor 1998; J. Harvey pers. obs. 2015). It has a wide habitat tolerance, though it prefers deep leaf litter, moist soil and ground-level vegetation (Dickman 1995), and in Eswatini it is mainly associated with grasslands on rocky terrain (Monadjem 1997). Elevation is given as 0-2,000 m. A Kruger-specific habitat account was not found, and the assessment does not mention the park.",
+  "similar": [
+    {
+      "slug": "crocidura-silacea",
+      "note": "The 2025 EWT assessment, citing Meester et al. (1986), Taylor et al. (1994) and Taylor and Contrafatto (1996), says Crocidura cyanea is almost undiscernible from C. silacea, differing only in cranial and dental characters, and that museum records of the two have often been confused. No external field marks that separate them were published in the sources consulted."
+    }
+  ],
+  "variants": [],
+  "viewNotes": [],
+  "calls": [],
+  "images": [
+    {
+      "key": "crocidura-cyanea/zf-mgcawu-standing-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/362771636",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/662138470/large.jpg",
+      "hosted": false,
+      "author": "cliffdorse",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "alt": "A reddish-grey musk shrew standing on reddish sand beside a low green plant, showing a long pointed snout, small eyes and a slender tail.",
+      "caption": "ZF Mgcawu District Municipality, South Africa, 27 April 2026."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 EWT assessment gives the regional population trend as stable and the number of mature individuals as unknown. It describes the species as widespread but at low density, and sometimes locally abundant, including counts from other reserves; those figures are not Kruger totals. The assessment does not mention Kruger National Park. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Crocidura cyanea",
+        "url": "https://ewt.org/project/reddish-grey-musk-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend stable; number of mature individuals unknown; no Kruger total."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official SANParks trends document cited as the place a Kruger figure may be published; no park-wide count for this species was taken from it in this session."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "A conservation assessment of Crocidura cyanea",
+      "url": "https://ewt.org/project/reddish-grey-musk-shrew/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Russo IM and da Silva JM. 2025. Main source for regional status, taxonomy notes, distribution, habitat, habits, diet, predators and the Afrikaans name Rooigrysskeerbek. The page does not mention Kruger National Park."
+    },
+    {
+      "title": "A conservation assessment of Crocidura cyanea",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Reddish-grey-Musk-Shrew-Crocidura-cyanea_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Regional Least Concern; treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Crocidura cyanea (reddish-gray musk shrew)",
+      "url": "https://animaldiversity.org/accounts/Crocidura_cyanea/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "A classification page only; no biological account of size, pelage, habits or calls. Places the species in Soricomorpha, an older ordinal name than Eulipotyphla."
+    },
+    {
+      "title": "Reddish-gray musk shrew",
+      "url": "https://en.wikipedia.org/wiki/Reddish-gray_musk_shrew",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "A stub. Redirect from Crocidura cyanea. Used for the IUCN global citation and a broad range list only. This file keeps the 2011 checklist English name Reddish-grey musk shrew."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Crocidura cyanea (Reddish-grey musk shrew, the 2011 SANParks checklist name; Afrikaans Rooigrysskeerbek, also given on the 2025 EWT page). iNaturalist taxon 46777 and Wikipedia use the preferred English spelling Reddish-gray Musk Shrew; the 2011 name is kept. The 2025 EWT assessment treats the taxon as a species complex of nine subspecies, with C. c. infumata the form whose range includes Limpopo and Mpumalanga, and says further research is needed; Kruger records are not remapped here. The assessment does not mention Kruger National Park, so status and monthsPresent are omitted even though the species is on the 2011 SANParks checklist. Appearance measurements and pelage colours were not published in the sources consulted, so variants are empty.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "The 2025 EWT assessment does not mention Kruger National Park, so status and monthsPresent are omitted. The species is on the 2011 SANParks checklist, but no sourced Kruger occurrence, year-round status or park-specific habitat account was found in this session.",
+    "No iNaturalist observations of any grade in Kruger (place 69020). One wild South African photograph from ZF Mgcawu District Municipality was used; other licensed research-grade photographs from place 6986 showed trapped, boxed, handled, dead, cat-killed, indoor or rescued animals and were not used.",
+    "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
+    "No Kruger census or SANParks park-wide population figure.",
+    "Head-and-body length, tail length, mass, and pelage colours were not published in the sources consulted, so size and variants are omitted or left empty.",
+    "Litter size, gestation, age at sexual maturity and the appearance of the young were not found.",
+    "No external field marks were found that separate this species from Crocidura hirta, C. fuscomurina, C. mariquensis or Suncus lixa; only the cranial and dental contrast with C. silacea was sourced.",
+    "The 2025 EWT assessment says further research is needed to resolve this species complex, and that C. cyanea and C. silacea have often been misidentified in museum records; this file keeps Crocidura cyanea from species-list.json and does not remap records."
+  ]
+}
