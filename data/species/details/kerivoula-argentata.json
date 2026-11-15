@@ -1,0 +1,208 @@
+{
+  "kind": "species",
+  "slug": "kerivoula-argentata",
+  "scientificName": "Kerivoula argentata",
+  "commonNames": {
+    "en": "Damara woolly bat",
+    "af": "Damara-wolhaarvlermuis"
+  },
+  "family": "vespertilionidae",
+  "inatTaxonId": 40456,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Near Threatened C2a(i); no change from 2016; regional population trend Declining). Wikipedia cites a global IUCN listing of Least Concern (Monadjem, Taylor, Jacobs and Cotterill 2017).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Kerivoula argentata",
+        "url": "https://ewt.org/project/damara-woolly-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Richards LR and da Silva JM. 2025. In Patel T, Smith C, Roxburgh L, da Silva JM and Raimondo D, editors. The Red List of Mammals of South Africa, Eswatini and Lesotho. 2025 regional Near Threatened C2a(i) status (no change from 2016; trend Declining), common names including Afrikaans Damara-wolhaarvlermuis, ecology and taxonomy. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "Damara woolly bat",
+        "url": "https://en.wikipedia.org/wiki/Damara_woolly_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2017 IUCN global assessment of Kerivoula argentata (Monadjem, Taylor, Jacobs and Cotterill) as Least Concern. The title Kerivoula argentata redirects here."
+      }
+    ]
+  },
+  "size": {
+    "note": "The 2025 EWT assessment gives female size at maturity, from Durban Natural Science Museum records, as a forearm length of 3.70 cm and a total length of 9.10 cm. Citing Monadjem et al. (2020), it also gives a combined mean forearm length of 3.77 ± 0.15 cm, a mean total length of 9.4 ± 0.68 cm, and maxima of 4.03 cm (forearm) and 10.10 cm (total length). The same page, citing Monadjem et al. (2020), says the species weighs 7 g and is the heavier of the two African Kerivoula species. Those means, maxima and the single mass figure are not entered as min–max bounds. Wikipedia, citing Apps (2000), gives a length of 8.3–10 cm, a mass of 6–9 g, and an average wingspan of 25 cm; the same article's introduction also says these bats typically weigh about 10 g, which is recorded here rather than reconciled. No separate head-and-body length, tail length or shoulder height was published in the sources used, so those fields are omitted."
+  },
+  "summary": "A small southern African woolly bat with long, dense fur, typically rich brown mixed with grizzled silver above and grey or whitish below, and a fringe of hair on the outer edge of the interfemoral membrane. It is a clutter-foraging insectivore that roosts in deserted weaver nests, foliage and similar sites, usually in small clusters. The 2025 regional Red List rates it Near Threatened and records it from riverine forest at Pafuri in Kruger National Park. This file keeps the checklist names Kerivoula argentata and Damara woolly bat.",
+  "description": "A vesper bat (Vespertilionidae, subfamily Kerivoulinae). The 2025 EWT assessment, citing Monadjem et al. (2020), describes a small species with long, dense fur, a mean forearm length of 3.77 ± 0.15 cm and a mean total length of 9.4 ± 0.68 cm, a mass of 7 g, and the heavier of the two African Kerivoula species. Wikipedia, citing Apps (2000), describes a rich brown coat mixed with grizzled silver above and grey or whitish hair underneath; the same article's introduction also calls the back reddish brown and the abdomen white. The ears are proportionally large with rounded tips. A fringe of hair on the outer edge of the interfemoral membrane is described as distinctive of this species. Wikipedia also gives a length of 8.3–10 cm, a mass of 6–9 g (the introduction says about 10 g) and an average wingspan of 25 cm. This file keeps the checklist names Kerivoula argentata and Damara woolly bat. The 2025 EWT page lists the synonyms nidicola (J. Kirk, 1865) and zuluensis A. Roberts, 1924, and notes three subspecies listed by Meester et al. (1986): K. a. argentata, K. a. nidicola and K. a. zuluensis. Owing to the limited number of specimens, their validity cannot currently be determined (Monadjem et al. 2020). No split is applied here.",
+  "habits": "The 2025 EWT assessment classifies the species as a clutter-forager and notes short, broad wings with low wing loading (Norberg and Rayner 1987). Movement patterns are listed as unknown, but owing to that low wing loading the species is considered unlikely to be capable of long-distance movement or migration. It is described as rare, and difficult to catch without harp traps or unless found roosting in weaver nests. Roosting sites include deserted weaver nests (Oschadleus 2008), clusters of leaves, the bark of trees, and the eaves of houses or rondavels (Roberts 1951; Skinner and Chimimba 2005). Wikipedia, citing Stuart and Stuart (2007), says it uses abandoned nests of weaverbirds and the scarlet-chested sunbird. Typical of woolly bats, the pelage is said to aid camouflage when animals roost in foliage; groups of two to five individuals cling together in a tight cluster and can resemble mud-wasp nests (Monadjem et al. 2020). The 2025 page also, citing Cotterill (2013), describes it as congregatory, roosting in small clusters of four to five individuals. Wikipedia, citing Apps (2000), says the bats typically roost alone, but that colonies can reach up to six members. The long, dense fur may also be a physiological adaptation to the temperatures experienced in foliage or birds' nests (Monadjem et al. 2020). Wikipedia describes the species as nocturnal.",
+  "diet": {
+    "summary": "An insectivore and clutter-forager. The 2025 EWT assessment, citing Skinner and Chimimba (2005) and Monadjem et al. (2020), says the species is insectivorous, but that limited information is available on the diet and no specific prey items are listed.",
+    "items": [
+      "insects"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment states that the species gives birth to live young, but lists gestation time, reproductive periodicity, litter size and size at birth as unknown or not available. No description of the pup was published in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment, citing Skinner and Chimimba (2005) and Monadjem et al. (2020), says the species is insectivorous, but that limited information is available on the diet and no specific prey taxa were published. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Cotterill (2013) and Monadjem et al. (2020), places the species in evergreen forests, riverine forests and both mesic and dry woodland savannahs, including bushveld and miombo, mostly in riverine associations such as riparian corridors. It has been recorded from riverine forest in Pafuri (Kruger National Park) and from coastal forests in Mozambique and Durban, South Africa (Monadjem et al. 2020). Within the assessment region it is generally associated with moist savannah (Taylor 2000). Elevation limits on that page, citing Monadjem et al. (2024), are 4 m to 1,685 m above sea level. The 2025 assessment also lists the species from Great Limpopo Transfrontier Park, among other protected areas in the assessment region.",
+  "similar": [
+    {
+      "slug": "kerivoula-lanosa",
+      "en": "Lesser woolly bat",
+      "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), says that although it weighs only 7 g, the Damara woolly bat is the heavier of the two African Kerivoula species. No other comparison was published in the sources used, and marks of the lesser woolly bat are not entered here."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment says the population size in the assessment region is unknown, that the species appears rare, and that it is possible there are fewer than 10,000 mature individuals; the regional trend is given as Declining (inferred). Those remarks apply to the assessment region (South Africa, Eswatini and Lesotho), not to Kruger.",
+    "sources": [
+      {
+        "title": "A conservation assessment of Kerivoula argentata",
+        "url": "https://ewt.org/project/damara-woolly-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional remarks only (population size unknown; possibly fewer than 10,000 mature individuals; trend Declining, inferred). Not a Kruger estimate."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "proportionally large, with rounded tips"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "rich brown",
+            "reddish brown"
+          ],
+          "pattern": "long, dense fur, mixed with grizzled silver; the pelage is said to aid camouflage when animals roost in foliage"
+        },
+        "underparts": {
+          "colour": [
+            "grey",
+            "whitish",
+            "white"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "a fringe of hair on the outer edge of the interfemoral membrane, described as distinctive of this species"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Roosts in deserted weaver nests, among clusters of leaves, on tree bark, and sometimes under the eaves of houses. Animals may roost alone, or in tight clusters of two to six that can resemble mud-wasp nests."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter-forager with short, broad wings and low wing loading. Wikipedia, citing Monadjem et al., describes a low-intensity echolocation call lasting about two milliseconds, with a low-frequency peak of around 90–118 kHz."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "echolocation",
+      "description": "Wikipedia, citing Monadjem et al., describes a relatively low-intensity call lasting about two milliseconds, with a low-frequency peak of around 90–118 kHz. Citing Fullard and Thomas (1981), it says these properties allow the bat to come as close as 3 m from its prey before the calls are detectable.",
+      "recordings": []
+    }
+  ],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Kerivoula argentata",
+      "url": "https://ewt.org/project/damara-woolly-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Richards LR and da Silva JM. 2025. Source of the 2025 regional Near Threatened C2a(i) status (no change from 2016; trend Declining), Afrikaans name Damara-wolhaarvlermuis and the additional form Damaralandse Wolhaarvlermuis, synonyms, taxonomic notes on three subspecies of uncertain validity, habitat, roosting, diet, movement, forearm and total-length figures, the 7 g mass remark, the named Pafuri (Kruger National Park) record, occurrence in Great Limpopo Transfrontier Park, and regional population remarks. Cited only; not hosted in this repo."
+    },
+    {
+      "title": "Damara woolly bat",
+      "url": "https://en.wikipedia.org/wiki/Damara_woolly_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Appearance, length, mass and wingspan, the interfemoral hair fringe, roosts in abandoned weaver and scarlet-chested sunbird nests, colony size, and echolocation, citing Apps (2000), Stuart and Stuart (2007), Monadjem et al., and Fullard and Thomas (1981). The title Kerivoula argentata redirects here. The page uses the English name Damara woolly bat."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Kerivoula argentata (English Damara woolly bat; Afrikaans Damara-wolhaarvlermuis) and does not remap it to Silver Woolly Bat, Silvered Woolly Bat or Silvery Woolly Bat, which the 2025 EWT page also lists, or to the additional Afrikaans form Damaralandse Wolhaarvlermuis. The three historically recognised subspecies remain of uncertain validity; no split is applied. Movement patterns are unknown, but the 2025 assessment does not describe the species as a migrant and says long-distance movement or migration is unlikely; it also gives a definite record from riverine forest at Pafuri in Kruger National Park (Monadjem et al. 2020) and lists occurrence in Great Limpopo Transfrontier Park, so status is entered as resident. Appearance characters are taken from Wikipedia citing Apps (2000) and from the 2025 EWT page, not from another species file. Published mass figures disagree (EWT 7 g; Wikipedia 6–9 g, or about 10 g in the introduction).",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger or SANParks park-wide population figure was found. The 2025 assessment's remarks that the regional population size is unknown, that there may be fewer than 10,000 mature individuals, and that the regional trend is Declining, apply to South Africa, Eswatini and Lesotho, not to Kruger.",
+    "No head-and-body length, tail length or shoulder height was published in the sources used. Forearm and total-length figures on the 2025 EWT page are means, a female-at-maturity pair, and maxima, not min–max bounds, and were not entered as size ranges.",
+    "Published mass figures disagree: the 2025 EWT page gives 7 g, while Wikipedia, citing Apps (2000), gives 6–9 g and, in the introduction, about 10 g. No wingspan was published on the 2025 EWT page.",
+    "No sourced predator was found in the sources used, so predators is empty.",
+    "No specific prey taxa were published, only that the species is insectivorous.",
+    "No Kruger photograph or sound was found: iNaturalist place 69020 returned no licensed observations for taxon 40456, and place 6986 (southern Africa) likewise returned none. Images and call recordings are empty.",
+    "Gestation time, litter size, reproductive periodicity and pup appearance were not published in the sources used.",
+    "The 2025 EWT assessment lists movement patterns as unknown and says the validity of the three currently recognised subspecies cannot currently be determined.",
+    "No ear, face, muzzle, leg or tail-membrane colour was published in the sources used, so those mark fields are null."
+  ]
+}
