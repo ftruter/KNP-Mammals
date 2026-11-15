@@ -381,6 +381,53 @@ Researched in a fresh session for the last Phase 2 batch, the eight Rodentia fam
 - Skinner & Chimimba and Stuart’s guide were not available. No rare or reintroduced flags were added. The only introduced flags in this batch are the two 2011 asterisks under Muridae.
 
 
+## Batch 11 hints (Nesomyidae and shrews, 15 November 2026, Africa/Johannesburg)
+
+### Grey climbing mouse (Dendromus melanotis), 18 calls
+- One EWT search finds the 2025 page https://ewt.org/project/grey-climbing-mouse/ (titled Poemys melanotis) and the 2016 PDF …/2022/11/10.-Grey-Climbing-Mouse-Dendromus-melanotis_LC.pdf. Both list Kruger. Flag Poemys / species complex; don't remap.
+- ADW /accounts/Dendromus_melanotis/ is a real short account. Wikipedia is a stub.
+- iNat 44971: 0 at place 69020. Place 6986: uMkhanyakude wild shots worked; drop tub or cloth shots.
+
+### Chestnut climbing mouse (Dendromus mystacalis), 15 calls
+- EWT 2025 page https://ewt.org/project/chestnut-climbing-mouse/ (still Dendromus, lists Kruger) and 2016 PDF …/2022/11/12.-Chestnut-Climbing-Mouse-Dendromus-mystacalis_LC.pdf.
+- ADW /accounts/Dendromus_mystacalis/ is a real account with sizes. Wikipedia is a stub.
+- iNat 44976: 0 at place 69020; place 6986 had only one record (in a tub). Zero photos.
+
+### Fat mouse (Steatomys pratensis), 15 calls
+- EWT 2025 page https://ewt.org/project/fat-mouse/ is worth reading in full (Kruger diet and burrow citations); 2016 PDF …/2022/11/59.-Fat-Mouse-Steatomys-pratensis_LC.pdf. Not /project/krebs-fat-mouse/.
+- ADW is a stub; Wikipedia is a stub.
+- iNat 44923: 0 at place 69020; place 6986 had one held animal. Zero photos.
+
+### Reddish-grey musk shrew (Crocidura cyanea), 18 calls
+- EWT 2025 https://ewt.org/project/reddish-grey-musk-shrew/ is the main text source; it doesn't mention Kruger, so status was omitted. 2016 PDF …/2022/11/2.-Reddish-grey-Musk-Shrew-Crocidura-cyanea_LC.pdf.
+- Wikipedia (American "gray") and ADW are stubs.
+- iNat 46777: 0 at place 69020. Place 6986: many dead, cat-killed, boxed or trapped shrews, so thumbnails are needed. Kept one ZF Mgcawu shot.
+
+### Tiny musk shrew (Crocidura fuscomurina), 13 calls
+- EWT 2025 https://ewt.org/project/tiny-musk-shrew/ mentions Kruger; 2016 PDF …/2022/11/4.-Tiny-Musk-Shrew-Crocidura-fuscomurina_LC.pdf.
+- Wikipedia ("Bicolored musk shrew") and ADW are stubs.
+- iNat 46592: 0 at place 69020; the 3 records at place 6986 were all unusable. Zero photos.
+
+### Lesser red musk shrew (Crocidura hirta), 14 calls
+- EWT 2025 https://ewt.org/project/lesser-red-musk-shrew/ mentions Kruger and cites Kern 1981 (a Kruger fire study); 2016 PDF …/2022/11/5.-Lesser-Red-Musk-Shrew-Crocidura-hirta_LC.pdf.
+- Wikipedia and ADW are stubs.
+- iNat 46621: 0 at place 69020; place 6986 had one handheld record. Zero photos.
+
+### Swamp musk shrew (Crocidura mariquensis), 12 calls
+- EWT 2025 /project/swamp-musk-shrew/ says there are no Kruger data and it only presumably occurs, so status was omitted. Near Threatened. 2016 PDF …/2022/11/7.-Swamp-Musk-Shrew-Crocidura-mariquensis_NT.pdf.
+- Wikipedia is a full Kingdon-based account (size, pelage, litter). ADW is a stub.
+- iNat 46612: 0 at place 69020; place 6986 had one dead record. Zero photos.
+
+### Peters' musk shrew (Crocidura silacea), 15 calls
+- EWT 2025 https://ewt.org/project/lesser-grey-brown-musk-shrew/ names Kruger; 2016 PDF …/2022/11/8.-Lesser-Grey-brown-Musk-Shrew-Crocidura-silacea_LC.pdf. EWT says it's almost indistinguishable from C. cyanea.
+- Wikipedia and ADW are stubs.
+- iNat 46772: 0 at place 69020 and 0 licensed at place 6986.
+
+### Greater dwarf shrew (Suncus lixa), 11 calls
+- EWT 2025 /project/greater-dwarf-shrew/ (as Suncus lixus) lists Kruger; 2016 PDF …/2022/11/15.-Greater-Dwarf-Shrew-Suncus-lixus_LC.pdf.
+- Wikipedia is a stub; ADW returns not-found.
+- iNat 1370725: 0 at place 69020; place 6986 had one wild Vhembe set (CC BY), and both photos were kept.
+
 ## Owner decisions (13 Nov 2026)
 
 - Burchell's zebra is stored at species level as *Equus quagga*, and its subspecies are ignored. The species has 2,431 research-grade records in place 69020.
