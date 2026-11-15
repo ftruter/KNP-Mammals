@@ -1,0 +1,189 @@
+{
+  "kind": "species",
+  "slug": "rhinolophus-hildebrandtii",
+  "scientificName": "Rhinolophus hildebrandtii",
+  "commonNames": {
+    "en": "Hildebrandt's horseshoe bat",
+    "af": "Hildebrandt se saalneusvlermuis"
+  },
+  "family": "rhinolophidae",
+  "inatTaxonId": 183175,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "Wikipedia cites a global IUCN listing of Least Concern (2017 assessment). The 2025 regional Red List summary for South Africa, Eswatini and Lesotho does not list Rhinolophus hildebrandtii; the Chiroptera table on the EWT Red List page likewise has no 2016 assessment row under this name. Regional 2016 and 2025 listings instead cover taxa split from the former R. hildebrandtii complex, including Rhinolophus cohenae and Rhinolophus smithersi.",
+    "asOf": 2017,
+    "sources": [
+      {
+        "title": "Hildebrandt's horseshoe bat",
+        "url": "https://en.wikipedia.org/wiki/Hildebrandt's_horseshoe_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Monadjem and Jacobs (2017) for a global IUCN listing of Least Concern (IUCN 3.1, article T64586080A21979893)."
+      },
+      {
+        "title": "2025 Regional Mammal Red List summary listings",
+        "url": "https://ewt.org/wp-content/uploads/2026/01/2025-Regional-Mammal-Red-List-summary-listings.xlsx",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Summary table of 2016 and 2025 regional statuses. Rhinolophus hildebrandtii is not listed. Rhinolophus cohenae is listed as Vulnerable in both years; Rhinolophus smithersi as Near Threatened in both years."
+      },
+      {
+        "title": "Red List",
+        "url": "https://ewt.org/red-list/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Chiroptera table of 2016 assessment PDFs. There is no row for Rhinolophus hildebrandtii. The horseshoe-bat rows include Rhinolophus cohenae and Rhinolophus smithersi."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "note": "Wikipedia is a short stub and does not publish forearm length, mass, head-and-body length, tail length, wingspan or shoulder height. Animal Diversity Web has no species account and no measurements. No EWT 2025 assessment page or 2016 assessment PDF exists under this scientific name, so no life-history size fields were available from that source."
+  },
+  "summary": "A horseshoe bat of the family Rhinolophidae found in Africa. Wikipedia gives its natural habitats as savanna, caves and other subterranean habitats, and cites a global IUCN listing of Least Concern (2017). The 2011 Kruger checklist uses this scientific name, but the taxon was split after 2011, and the 2016 and 2025 regional assessments for South Africa, Eswatini and Lesotho do not list Rhinolophus hildebrandtii, assessing split taxa instead. This account keeps the checklist names and does not remap the Kruger animals. No sourced description of pelage, nose-leaf or size was found in the sources used.",
+  "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia gives the authority as Peters, 1878, which matches the species-list name Rhinolophus hildebrandtii, and describes the species as found in Africa, but it does not describe pelage colour, ear shape, nose-leaf or dental characters, or any measurements. Animal Diversity Web has only a classification page, with no species account. No EWT 2025 project page or 2016 PDF under this scientific name was found to search for a description. Colour, dental and nose-leaf characters are therefore not described here and are not taken from related horseshoe bats. The 2016 EWT assessments of Rhinolophus cohenae and Rhinolophus smithersi state that those species were formerly included in Rhinolophus hildebrandtii (also spelled R. hildebrandti in those texts) and were recognised as distinct in a 2012 revision of the complex (Taylor et al. 2012). This file keeps the species-list.json names and does not remap the Kruger animals.",
+  "habits": "Wikipedia describes the natural habitats as savanna, caves and other subterranean habitats, but gives no further account of roosting, colony size, foraging style or daily activity. No EWT 2025 assessment page or 2016 PDF under this scientific name was available to search for movement patterns, the words Kruger or migrat, or a seasonal status. Animal Diversity Web has no species account. No Kruger-specific habits were found in the sources used.",
+  "habitat": "Wikipedia describes the natural habitats as savanna, caves and other subterranean habitats. No Kruger-specific habitat statement was found in the sources used. No EWT 2025 or 2016 assessment under this scientific name was available for habitat detail.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional Red List summary and the 2016 EWT Chiroptera table do not list Rhinolophus hildebrandtii, so they provide no regional or park figure under this name. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official URL for a more accurate Kruger figure, if one is published. Not used as a source of a count in this file."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "Hildebrandt's horseshoe bat",
+      "url": "https://en.wikipedia.org/wiki/Hildebrandt's_horseshoe_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Rhinolophus hildebrandtii. Used for authority (Peters, 1878), a continental range statement (Africa), natural habitats (savanna, caves and other subterranean habitats), and the global IUCN listing (Monadjem and Jacobs 2017). The page is a short stub and was not a source of measurements, pelage, nose-leaf characters, diet, breeding or Afrikaans names."
+    },
+    {
+      "title": "Rhinolophus hildebrandtii (Hildebrandt's horseshoe bat)",
+      "url": "https://animaldiversity.org/accounts/Rhinolophus_hildebrandtii/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Classification page only; there is no species account, so the page was not used for measurements, ecology, calls or appearance."
+    },
+    {
+      "title": "Red List",
+      "url": "https://ewt.org/red-list/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Chiroptera table of 2016 assessment PDFs, used to confirm that there is no 2016 row or 2025 project link for Rhinolophus hildebrandtii, and that Rhinolophus cohenae and Rhinolophus smithersi are listed instead."
+    },
+    {
+      "title": "2025 Regional Mammal Red List summary listings",
+      "url": "https://ewt.org/wp-content/uploads/2026/01/2025-Regional-Mammal-Red-List-summary-listings.xlsx",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Used to confirm that Rhinolophus hildebrandtii is not among the 2025 (or 2016) regional listings, while R. cohenae and R. smithersi are."
+    },
+    {
+      "title": "A conservation assessment of Rhinolophus cohenae",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/43.-Cohens-Horseshoe-Bat-Rhinolophus-cohenae_VU.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "2016 regional assessment. Cited only for the taxonomic note that, in previous Red List assessments, this species was included within Rhinolophus hildebrandtii, and that R. hildebrandtii was revised in 2012 with R. cohenae recognised as one of four newly described species from the complex (Taylor et al. 2012). Not used for appearance, diet, habitat, movement or Kruger status of R. hildebrandtii. The underlying PDF is not hosted in this repo."
+    },
+    {
+      "title": "A conservation assessment of Rhinolophus smithersi",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/50.-Smithers-Horseshoe-Bat-Rhinolophus-smithersi_NT.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "2016 regional assessment. Cited only for the taxonomic note that this species was formerly included in Rhinolophus hildebrandti and that acoustic, biogeographical, morphological and molecular data show it to be distinct (Taylor et al. 2012). Not used for appearance, diet, habitat, movement or Kruger status of R. hildebrandtii. The underlying PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Rhinolophus hildebrandtii",
+      "url": "https://api.inaturalist.org/v1/taxa/183175",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "low",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger checklist animal as Rhinolophus hildebrandtii (English Hildebrandt's horseshoe bat; Afrikaans Hildebrandt se saalneusvlermuis) and does not remap the names. After 2011 the complex was split (Taylor et al. 2012): the 2016 EWT assessments of R. cohenae and R. smithersi state that those species were formerly included in R. hildebrandtii / R. hildebrandti. The 2025 regional summary and the 2016 EWT Chiroptera table do not list R. hildebrandtii, and no 2025 /project/ page exists for this name (the red-list table has no row, so no slug was guessed). Status and monthsPresent are omitted: there was no 2025 page or 2016 PDF under this name to search for Kruger or migrat, and a definite record of this taxon as now regionally circumscribed was not found in the sources used. Wikipedia cites a global IUCN listing of Least Concern (Monadjem and Jacobs 2017). Animal Diversity Web is a classification stub. Wikipedia is a short stub with no measurements or appearance characters; colour, dental and nose-leaf characters were not taken from related species. The Afrikaans name is that given in species-list.json; no EWT assessment under this name was available to confirm it. iNaturalist taxon 183175 was used for media queries. Place 69020 returned 0 licensed research-grade photographs and 1 sound observation that was not research-grade. Place 6986 returned 2 licensed research-grade observations, both dropped (building roost; handled bat). Zero photographs were kept.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "Status and monthsPresent are omitted. No EWT 2025 assessment page or 2016 PDF exists under the name Rhinolophus hildebrandtii to search for Kruger or migrat. The species is on the 2011 SANParks checklist, but after the 2012 split a definite Kruger record of this taxon as now regionally circumscribed was not found in the sources used.",
+    "The 2016 EWT assessments of Rhinolophus cohenae and Rhinolophus smithersi state that those species were formerly included in Rhinolophus hildebrandtii / R. hildebrandti and were recognised as distinct in a 2012 revision of the complex (Taylor et al. 2012). The 2025 regional summary lists those split taxa and does not list R. hildebrandtii. This file keeps the species-list.json names and does not remap the Kruger animals. iNaturalist treats several of the split names as unaccepted for taxon 183175.",
+    "No Kruger census or SANParks population figure was found, and the 2016 and 2025 regional lists provide no figure under this name. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The Afrikaans name in species-list.json is Hildebrandt se saalneusvlermuis. No EWT 2025 or 2016 assessment under this scientific name was available to cite as an independent source of that name. The species-list form is kept. The English name matches Wikipedia.",
+    "iNaturalist place 69020 (Kruger) returned 1 sound observation for taxon 183175, which was not research-grade, so it was not used. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned 0 licensed research-grade observations for taxon 183175. One place 6986 query (per_page 30, same licence and research-grade filters) returned 2 observations: one at an abandoned farm house in Bela Bela, Limpopo, dropped as a building roost; and one from Wet Tiger River Cave, Ehlanzeni, Mpumalanga, dropped because the photograph shows a bat held in a hand. Zero photos is recorded. Commons was not searched.",
+    "Head-and-body length, tail length, shoulder height, forearm length, mass and wingspan were not published in the sources used, so those numeric fields are null. Wikipedia is a stub and publishes no measurements. Animal Diversity Web has no species account. There is no EWT assessment under this name to quote life-history size fields from.",
+    "No sourced pelage, ear, eye, muzzle, leg, tail, dental or nose-leaf characters were given in the sources used, so all marks are null. Those characters were not taken from related horseshoe-bat accounts.",
+    "No sourced comparison characters for other horseshoe bats in this guide were given in the sources used, so similar is omitted.",
+    "Diet, guild, prey, predators, breeding and young were not described in the sources used, so those fields are omitted or, where the schema expects a list that would wrongly imply a negative finding, left out. predators is omitted rather than entered as an empty list.",
+    "Animal Diversity Web has only a classification page for this species, with no species account, so it was not used for facts.",
+    "Regional conservation status under this scientific name is unknown in the 2016 and 2025 EWT/SANBI lists, which do not include it. Only the global IUCN Least Concern listing cited by Wikipedia (Monadjem and Jacobs 2017) is entered."
+  ]
+}
