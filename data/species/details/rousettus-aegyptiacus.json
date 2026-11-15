@@ -1,0 +1,347 @@
+{
+    "kind": "species",
+    "slug": "rousettus-aegyptiacus",
+    "scientificName": "Rousettus aegyptiacus",
+    "commonNames": {
+        "en": "Egyptian fruit bat",
+        "af": "Egiptiese vrugtevlermuis"
+    },
+    "family": "pteropodidae",
+    "inatTaxonId": 75042,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho; IUCN global status Least Concern (2016). No change from the 2016 regional assessment.",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Rousettus aegyptiacus",
+                "url": "https://ewt.org/project/egyptian-fruit-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "L\u00f6tter C, Richards LR, Balona J and da Silva JM. 2025. Regional status Least Concern; no change from the 2016 assessment. The regional population trend is given as unknown. The species is recorded from Kruger National Park."
+            },
+            {
+                "title": "A conservation assessment of Rousettus aegyptiacus",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/52.-Egyptian-Fruit-Bat-Rousettus-aegyptiacus_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "The 2025 assessment lists this as the previous regional assessment, from which it records no change. Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "Egyptian fruit bat",
+                "url": "https://en.wikipedia.org/wiki/Egyptian_fruit_bat",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Korine (2016), IUCN Least Concern globally."
+            }
+        ]
+    },
+    "size": {
+        "massKg": {
+            "min": 0.08,
+            "max": 0.17
+        },
+        "note": "Wikipedia, citing Kwiecinski and Griffiths (1999), gives an adult mass of 80-170 g, an average total body length of 15 cm, an average wingspan of about 60 cm, and a forearm length of 81-102 mm. Animal Diversity Web, citing the same work and Grzimek (2003), also gives a mass of 80-170 g and a wingspan close to 60 cm, and splits total body length as 14-19.2 cm in males and 12.1-16.7 cm in females, with forearm length 85-101.9 mm in males and 88.1-99 mm in females. The 2025 EWT assessment does not give mass or wingspan, but gives mean forearm length at maturity as 9.26 cm in females and 9.20 cm in males (Monadjem et al. 2020). Those forearm accounts are recorded as a disagreement rather than averaged. No shoulder height, head-and-body length or tail length was published as such in the sources used, so the total-length figures are not entered as head-and-body length. Wingspan and forearm figures are given in this note only. Males are described as typically larger than females."
+    },
+    "summary": "A medium-sized African fruit bat, dark brown to grey-brown above and paler below, often with a yellowish or orange-tinged collar, that roosts in caves, sometimes in thousands, and finds its way in the dark with tongue-click echolocation. It is recorded from Kruger National Park, feeds on soft fruit, flowers and occasionally leaves or beetles, and is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List.",
+    "description": "A medium-sized fruit bat. Wikipedia, citing Kwiecinski and Griffiths (1999), describes relatively short, soft fur, dark brown to grey-brown on the back, pale brown underparts, a yellowish-brown collar around the neck, and wings darker brown than the body, with the wing membranes attaching at the first toe; males and females are similar in colour, but males are larger and can be told by a large scrotum and prominent stiff hairs around the throat. Animal Diversity Web, citing the same work, describes dorsal pelage from dark brown to medium grey, ventral pelage several shades lighter, a collar of pale yellow or orange fur often seen around the neck, no colour difference between the sexes, well-developed stiff throat hairs in males, short fur covering the head almost to the end of the muzzle except for slightly longer fur on the forehead, ears about as long as the muzzle with blunt tips and darker than the back, large eyes adapted for twilight and night vision, dark brown wing membranes with short fur extending to the proximal half of the forearm, claws on the first and second digits, and five clawed toes on each hind limb. The two collar-colour accounts (yellowish-brown; pale yellow or orange) are both recorded rather than reconciled. Wikipedia adds that the species is well adapted to seeing in low light and has a highly developed sense of smell, and gives a dental formula of 2.1.3.2 / 2.1.3.3 (34 teeth).",
+    "habits": "The species is nocturnal and, in the 2025 EWT assessment, strictly cavernicolous (Herzig-Straschil and Robinson 1978), roosting in moist natural caverns and in artificial structures such as underground irrigation tunnels, ruins, mines and open wells, often with other bats, and sometimes in very large numbers. Animal Diversity Web describes colonies from 20-40 to about 9,000, roosting by day in dark, slightly humid caves or ruins, with small colonies sometimes in trees, and close contact among roosting animals; individuals leave near sunset and return before sunrise. The 2025 assessment gives African colonies of up to 50,000 (ACR 2023, ACR 2024) and, in the assessment region, counted colonies from 15 to 12,000 individuals, with marked seasonal changes in numbers, and says the species can move hundreds of kilometres (Monadjem et al. 2020); a bat recorded near Tzaneen was later recovered 500 km away at Cape Vidal (Jacobsen and du Plessis 1976). Wikipedia likewise describes large cave colonies, or cave-like buildings when no cave is nearby, and departure at dusk. During breeding, Wikipedia and Animal Diversity Web describe males forming bachelor groups and females forming maternity colonies. Unlike some insectivorous bats, South African animals of this species do not enter torpor when conditions are suboptimal (Barclay et al. 2017, cited in the 2025 assessment). The 2025 conservation text records the species as present, at least at times of the year, in a number of protected areas including Kruger National Park; a Kruger-specific roost or movement study was not found in the sources used.",
+    "diet": {
+        "summary": "The 2025 EWT assessment describes the species as frugivorous, feeding on soft fruits (date, carob, mulberry, azedarach, fig, apricot, peach, mango and apple), flowers and occasionally leaves, often foraging in orchards such as litchi (Litchi chinensis) and also in urban habitats with fruiting trees. Other fruits recorded in that assessment include Syzygium spp., Harpephyllum caffrum, Ekebergia capensis, Prunus africana and Diospyros senensis. It has been recorded pollinating baobab (Adansonia digitata) and dispersing seeds of Ficus spp. In Cape Town it has also been observed deliberately feeding on scarab beetles (Pachnoda sinuata) (Barclay et al. 2006). Wikipedia and Animal Diversity Web similarly describe a flexible diet of soft, pulpy fruit, including figs, dates, loquat and Persian lilac, with fruit often carried away from the source tree; only pulp and juice are swallowed and seeds are spat out. Animal Diversity Web says an individual may consume 50-150% of its body mass in fruit each night.",
+        "items": [
+            "figs (Ficus spp.)",
+            "dates",
+            "carob",
+            "mulberry",
+            "azedarach (Melia azedarach / Persian lilac)",
+            "apricot",
+            "peach",
+            "mango",
+            "apple",
+            "loquat",
+            "litchi (Litchi chinensis)",
+            "Syzygium spp.",
+            "Harpephyllum caffrum",
+            "Ekebergia capensis",
+            "Prunus africana",
+            "Diospyros senensis",
+            "flowers, including baobab (Adansonia digitata)",
+            "leaves",
+            "scarab beetles (Pachnoda sinuata)"
+        ],
+        "guild": "frugivore"
+    },
+    "young": "The 2025 EWT assessment says the species gives birth to live young, that parturition usually occurs in the wet summer months (Monadjem et al. 2020), that the litter is one, or occasionally two (Penzhorn and Rautenbach 1988), and that gestation is 105-107 days. Age at maturity is given as unknown, and size at birth is not stated. Wikipedia, citing Okia (1987) and Kwiecinski and Griffiths (1999), gives two breeding seasons, April to August and October to February, a usual litter of one with occasional twins, and gestation of around 115-120 days; newborns are altricial, with the eyes shut until nine days, the mother carries the pup until about six weeks, and independence comes at about nine months, when adult size is reached. Animal Diversity Web similarly describes biannual breeding in much of the range, gestation of 3.5-4 months, altricial naked pups with a thin down on the head and back, weaning at 6-10 weeks, first flight at 63-70 days, independence at about nine months, and sexual maturity on average at about 15 months (with a wider reported range). The gestation and birth-season accounts disagree and are recorded rather than reconciled. A Kruger-specific breeding study was not found in the sources used.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Lanner falcon",
+            "note": "Wikipedia, citing Kwiecinski and Griffiths (1999), lists hawks, owls and falcons as avian predators, and names the lanner falcon. Not a mammal in this guide."
+        },
+        {
+            "slug": null,
+            "en": "Genet",
+            "note": "Wikipedia, citing Kwiecinski and Griffiths (1999), names the genet as a mammalian predator, without specifying the species. Two genet species are in this guide (Genetta felina and Genetta fieldiana)."
+        }
+    ],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Scarab beetles (Pachnoda sinuata)",
+            "note": "The 2025 EWT assessment, citing Barclay et al. (2006), records deliberate feeding on these beetles in Cape Town. The diet is otherwise frugivorous. Not a mammal in this guide."
+        }
+    ],
+    "habitat": "The 2025 EWT assessment describes a broad habitat tolerance in arid to moist tropical and subtropical biomes, provided fruiting trees and suitable roosting caves are available, and says the presence of caves is suspected to influence distribution more than vegetation associations (Monadjem et al. 2020). Within the assessment region the subspecies R. a. leachii occurs from Cape Town along the coast to KwaZulu-Natal and through Mpumalanga and Limpopo, in the moist eastern parts of the region, and is absent from the dry west. It is recorded from Kruger National Park. The altitudinal range is given as sea level to about 4,000 m. Wikipedia describes tropical rainforest, savanna and other forest, with roosts usually in caves near fruiting trees.",
+    "similar": [
+        {
+            "slug": "epomophorus-wahlbergi",
+            "note": "This species is described as strictly cavernicolous, with dark brown to grey-brown upperparts, a yellowish-brown or pale yellow to orange neck collar, and tongue-click echolocation. The sources used do not describe white ear-base patches or white shoulder epaulettes for it."
+        },
+        {
+            "slug": "epomophorus-crypturus",
+            "note": "This species is described as strictly cavernicolous, with dark brown to grey-brown upperparts, a yellowish-brown or pale yellow to orange neck collar, and tongue-click echolocation. The sources used do not describe white ear-base patches or white shoulder epaulettes for it."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional population trend as unknown, reports counted colonies in the assessment region from 15 to 12,000 individuals, and cites African colonies of up to 50,000. Those colony counts are not a park-wide Kruger figure, and numbers at some caves fluctuate widely between seasons. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "sources": [
+            {
+                "title": "A conservation assessment of Rousettus aegyptiacus",
+                "url": "https://ewt.org/project/egyptian-fruit-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional trend unknown; colony counts cited above are regional or African, not a Kruger census."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": "darker than the back",
+                    "shape": "medium length, about as long as the muzzle, with blunt tips"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "short fur almost to the end of the muzzle, slightly longer on the forehead; large eyes",
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": [
+                        "dark brown",
+                        "grey-brown"
+                    ],
+                    "pattern": null
+                },
+                "underparts": {
+                    "colour": "pale brown, several shades lighter than the back, with a yellowish-brown or pale yellow to orange neck collar",
+                    "pattern": null
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": null
+                }
+            }
+        },
+        {
+            "age": "adult",
+            "sex": "male",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": null
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "prominent stiff hairs around the throat; large scrotum",
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": null,
+                    "pattern": "typically larger than the female; no colour difference from the female was given"
+                },
+                "underparts": {
+                    "colour": null,
+                    "pattern": null
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": null
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A medium-sized fruit bat hanging in a cave roost, dark brown to grey-brown above and paler below, often with a yellowish or orange-tinged collar, a dog-like face and large eyes. Colonies may number from a few animals to many thousands. White ear-base patches and shoulder epaulettes are not described for this species in the sources used."
+        },
+        {
+            "view": "flight-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "Wikipedia and Animal Diversity Web give an average wingspan of about 60 cm. The species navigates in darkness with sharp tongue-click echolocation, and also uses sight and smell."
+        }
+    ],
+    "calls": [
+        {
+            "sex": "any",
+            "type": "other",
+            "description": "Wikipedia and the 2025 EWT assessment, with Animal Diversity Web citing Roberts (1975) and Holland et al. (2004), describe tongue-click echolocation, unusual among fruit bats: a series of sharp, bidirectional click pairs produced with the tongue. Animal Diversity Web gives a frequency range of 12-70 kHz. The clicks are normally slow and constant, and speed up as the bat approaches an object.",
+            "recordings": []
+        },
+        {
+            "sex": "any",
+            "type": "call",
+            "description": "Wikipedia says the species also uses grunts and screeches to communicate in the colony, so that a large roost can be very loud, and that colonies may develop their own dialects, which pups acquire by listening to their mothers (Prat et al. 2017).",
+            "recordings": []
+        }
+    ],
+    "images": [
+        {
+            "key": "rousettus-aegyptiacus-perched-side-colony",
+            "view": "perched-side",
+            "age": "mixed",
+            "sex": "mixed",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/4524009",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5478101/large.jpg",
+            "hosted": false,
+            "author": "Natalie Weber",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "alt": "A colony of Egyptian fruit bats hanging on the wall of a coastal cave.",
+            "caption": "A colony roosting in a coastal cave, Mission Rocks, iSimangaliso Wetland Park, KwaZulu-Natal, South Africa, 11 August 2016."
+        },
+        {
+            "key": "rousettus-aegyptiacus-perched-side",
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/223519035",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/396055460/large.jpeg",
+            "hosted": false,
+            "author": "Jess Worsley",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "alt": "An Egyptian fruit bat hanging from a cave ceiling.",
+            "caption": "Hanging in a cave roost, Wynberg Cave, Western Cape, South Africa, 17 June 2024."
+        }
+    ],
+    "sources": [
+        {
+            "title": "A conservation assessment of Rousettus aegyptiacus",
+            "url": "https://ewt.org/project/egyptian-fruit-bat/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "L\u00f6tter C, Richards LR, Balona J and da Silva JM. 2025. Main text source for regional status, habitat, Kruger presence, diet, roosting, movement, litter size and gestation. This page lists English, Italian and French common names only, and does not give an Afrikaans name."
+        },
+        {
+            "title": "A conservation assessment of Rousettus aegyptiacus",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/52.-Egyptian-Fruit-Bat-Rousettus-aegyptiacus_LC.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited as the previous regional assessment from which the 2025 page records no change. The PDF is not hosted in this repo."
+        },
+        {
+            "title": "Egyptian fruit bat",
+            "url": "https://en.wikipedia.org/wiki/Egyptian_fruit_bat",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Rousettus aegyptiacus Egyptian rousette",
+            "url": "https://animaldiversity.org/accounts/Rousettus_aegyptiacus/",
+            "publisher": "Animal Diversity Web",
+            "year": 2011,
+            "note": "Cohen R. 2011. Used for appearance, mass, roosting, diet, young, echolocation and predators."
+        },
+        {
+            "title": "iNaturalist taxon Rousettus aegyptiacus",
+            "url": "https://api.inaturalist.org/v1/taxa/75042",
+            "publisher": "iNaturalist",
+            "year": 2026
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger animal as Rousettus aegyptiacus (Egyptian fruit bat; Afrikaans Egiptiese vrugtevlermuis). The 2025 EWT assessment lists English names Egyptian Fruit Bat and Egyptian Rousette, plus Italian and French names, and does not give an Afrikaans name; the species-list form, from the 2011 SANParks checklist, is kept. iNaturalist's preferred English name for taxon 75042 is Egyptian Rousette; that remap is already recorded on the species list and is not applied here. The 2025 assessment records the species from Kruger National Park, so status is kept. The same assessment also says it is present, at least at times of the year, in a list of protected areas that includes Kruger, and that the species can move hundreds of kilometres, with colony size fluctuating seasonally; monthsPresent is entered as all year on the basis of a definite park record and a country-level resident listing, but a Kruger-specific year-round roost study was not found. Regional status remains Least Concern in 2025, with no change from 2016; the global IUCN listing cited by Wikipedia is Least Concern (2016). No licensable research-grade photograph from Kruger (place 69020) was found; the two photographs used are wild cave roosts in KwaZulu-Natal and the Western Cape.",
+        "researched": "15 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional trend as unknown and cites colony counts of 15-12,000 in the assessment region, and up to 50,000 in Africa, which are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "iNaturalist place 69020 (Kruger) returned 0 licensed research-grade photograph observations and 0 sound observations for taxon 75042. The two photographs used are wild cave roosts from Mission Rocks, iSimangaliso Wetland Park, KwaZulu-Natal, and Wynberg Cave, Western Cape (place 6986). Two other licensed South Africa cave photographs were viewed: one was a cave colony at Groot Winterhoek and was not needed once two roost photographs were kept; one showed a handled bat at Helderberg Fruit Bat Cave and was not used.",
+        "No licensable sound recording from Kruger was found. Echolocation and social-call descriptions are taken from Wikipedia, Animal Diversity Web and the 2025 EWT assessment.",
+        "No shoulder height, head-and-body length or quantified tail length was published as such. Total-length and forearm accounts differ slightly among Wikipedia, Animal Diversity Web and the 2025 EWT assessment, and are recorded in the size note rather than averaged. Iris colour, leg colour and a quantified sexed mass split were not given, so those marks are null.",
+        "Gestation is given as 105-107 days (2025 EWT assessment) and as around 115-120 days (Wikipedia, citing Kwiecinski and Griffiths 1999). Birth season is given as usually the wet summer months (2025 EWT assessment) and as two periods, at the ends of April-August and October-February seasons (Wikipedia and Animal Diversity Web). Those accounts are recorded as a disagreement. Size at birth was not given. No Kruger-specific breeding study was found.",
+        "The 2025 EWT assessment says the species is present, at least at times of the year, in a number of protected areas including Kruger National Park, and that it can migrate over hundreds of kilometres, with colony size fluctuating seasonally. Year-round presence inside the park was not separately confirmed in the sources used.",
+        "The Afrikaans name in species-list.json is Egiptiese vrugtevlermuis (2011 checklist form). The 2025 EWT assessment does not list an Afrikaans name. The species-list form is kept.",
+        "Wikipedia names the genet as a predator without specifying which species; two genet species are in this guide."
+    ]
+}
