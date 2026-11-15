@@ -1,0 +1,362 @@
+{
+  "kind": "species",
+  "slug": "procavia-capensis",
+  "scientificName": "Procavia capensis",
+  "commonNames": {
+    "en": "Rock dassie",
+    "af": "Klipdas"
+  },
+  "family": "procaviidae",
+  "inatTaxonId": 43086,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho. The IUCN global assessment is Least Concern (2015).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Rock Hyrax",
+        "url": "https://ewt.org/project/rock-dassie/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Least Concern, trend stable, no change from 2016. Afrikaans names given as Klipdas and Klipdassie; the stored af value is the 2011 SANParks checklist name Klipdas. The page does not name Kruger National Park."
+      },
+      {
+        "title": "Procavia capensis – Rock Hyrax",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/3.-Rock-Hyrax-Procavia-capensis_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "2016 regional assessment. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Rock hyrax",
+        "url": "https://en.wikipedia.org/wiki/Rock_hyrax",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Butynski, Hoeck, Koren and de Jong (2015), IUCN global Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "lengthCm": {
+      "min": 30.5,
+      "max": 55
+    },
+    "tailCm": {
+      "min": 1.1,
+      "max": 2.4
+    },
+    "massKg": {
+      "min": 3.6,
+      "max": 4.3
+    },
+    "note": "Total length of 30.5–55 cm, tail 1.1–2.4 cm and mass 3.6–4.3 kg are from Animal Diversity Web, which also gives a typical male mass of 4 kg, a typical female mass of 3.6 kg, a maximum of 4.3 kg and an average of 3.8 kg. Wikipedia gives a typical length of 50 cm and a mass of 4–5 kg, and states that males are about 10% heavier than females. Those mass figures disagree and should not be averaged; the bounds stored here follow Animal Diversity Web. The 2025 regional assessment gives male size at maturity as 45–60 cm, without saying whether that is total length or another measurement. Animal Diversity Web does not give a separate head-and-body length. Shoulder height was not found."
+  },
+  "summary": "A squat, heavily built dassie of rocky outcrops, with a thick grey-brown coat, rounded ears and a very short tail. It is stouter than the yellow-spotted rock dassie, with a broader muzzle, and it is a year-round resident of Kruger.",
+  "description": "A compact, stout hyrax. Animal Diversity Web gives a total length of 30.5–55 cm, a tail of 1.1–2.4 cm, and a mass of 3.6–4.3 kg, with males slightly heavier than females. Wikipedia gives a typical length of 50 cm and a mass of 4–5 kg, and states that males are about 10% heavier than females. The coat is thick and grey-brown, darker in wetter country and paler in drier country. A dorsal gland on the back is surrounded by longer hairs; in the southern African form P. c. capensis that patch is typically black. The head is pointed, the neck short, and the ears rounded, with long black whiskers on the muzzle. The soles of the feet have moist pads that grip smooth rock. An umbraculum in the eye lets the animal look towards the sun while watching for birds of prey. The sexes are alike in coat, though males have blunter features, thicker necks, and larger, sharper tusk-like upper incisors.",
+  "habits": "Predominantly diurnal and gregarious, living in colonies that Wikipedia puts at 10–80 animals. The 2025 regional assessment describes a dominant male with a harem of 3–17 females; Animal Diversity Web gives a harem of 3–7 females. Animals spend much of the day resting and basking, and are most active in the morning and evening; sources state that adults may spend about 95% of their time resting. Body temperature is only incompletely regulated, so rock shelters and sun-basking matter. A sentry gives an alarm when there is danger, and the group retreats into crevices. The species often shares rocky outcrops with the yellow-spotted rock dassie. The 2025 regional assessment notes that it is the more adaptable of the two. It can meet its water needs from food for many days, and it will climb trees to browse, though less readily than the yellow-spotted rock dassie. It is not a migrant.",
+  "diet": {
+    "summary": "Sources describe it as a generalist herbivore and, in some accounts, as primarily a grazer. The 2025 regional assessment says the diet comprises grasses, forbs and shrubs, with a predilection for new shoots, buds, fruits and berries. Animal Diversity Web states that grass makes up most of the diet in the wet season and a smaller share in the dry season, and that bark, lichens and liverworts may be eaten in drought. Wikipedia reports that insects and grubs have also been eaten.",
+    "items": [
+      "grasses, forbs and shrubs",
+      "new shoots, buds, fruits and berries",
+      "bark, lichens and liverworts in drought",
+      "insects and grubs, reported by Wikipedia"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "Sources disagree on the details. The 2025 regional assessment and Animal Diversity Web give a gestation of 6–8 months; Wikipedia gives 6–7 months. Wikipedia gives litters of two to four. Animal Diversity Web states a litter of one to six (average 2.4) in the main account, and a range of one to four in its summary figures. Young are born open-eyed and fully furred, weighing about 170–240 g. They can take solid food after two weeks. Wikipedia states that they are weaned at 10 weeks; Animal Diversity Web states that weaning is usually complete by about three months. Sexual maturity is given as 16 months, with adult size reached at three years. A Kruger-specific birth season was not found. Animal Diversity Web describes seasonal breeding, with an August–November breeding season in Kenya and births timed to the rainy season; Wikipedia notes that in the former Cape Province males are sexually inactive from May to January and become active from February.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "caracal-caracal",
+      "en": "Caracal"
+    },
+    {
+      "slug": "felis-lybica",
+      "en": "African wild cat"
+    },
+    {
+      "slug": null,
+      "en": "Jackals",
+      "note": "Named as a group (Canis spp.) by the 2025 regional assessment, Wikipedia and Animal Diversity Web."
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog"
+    },
+    {
+      "slug": "leptailurus-serval",
+      "en": "Serval"
+    },
+    {
+      "slug": "panthera-leo",
+      "en": "Lion"
+    },
+    {
+      "slug": null,
+      "en": "Verreaux's eagle",
+      "note": "Not a mammal in this guide; named as a predator in the 2025 regional assessment, Wikipedia and Animal Diversity Web."
+    },
+    {
+      "slug": null,
+      "en": "Martial eagle",
+      "note": "Not a mammal in this guide; named as a predator in the 2025 regional assessment and Animal Diversity Web."
+    },
+    {
+      "slug": null,
+      "en": "Crowned eagle",
+      "note": "Not a mammal in this guide; named as a predator in the 2025 regional assessment."
+    },
+    {
+      "slug": null,
+      "en": "Snakes",
+      "note": "The 2025 regional assessment names various snakes. Wikipedia and Animal Diversity Web name the Egyptian cobra, puff adder and rock python."
+    },
+    {
+      "slug": null,
+      "en": "Mongooses and other small carnivores",
+      "note": "Animal Diversity Web names mongooses as predators of neonates, without species."
+    }
+  ],
+  "prey": [],
+  "habitat": "Rocky habitats: outcrops, cliffs and piles of boulders, in dry savanna and a wide range of other habitats, from sea level to about 4,200–4,300 m (Wikipedia gives 4,200 m; the 2025 regional assessment gives 4,300 m). The 2025 regional assessment does not name Kruger National Park. The species is listed on the 2011 SANParks Kruger checklist, and research-grade iNaturalist records occur in the park, including a cluster in the Masorini area and others in the north.",
+  "similar": [
+    {
+      "slug": "heterohyrax-brucei",
+      "note": "The two species often share the same crevices and bask together, but they do not interbreed. Wikipedia, following the Mammalian Species account, describes the yellow-spotted rock dassie as smaller, less heavily built, and with a narrower muzzle than the rock dassie. The 2016 regional assessment of the yellow-spotted rock dassie, citing Skinner & Chimimba, distinguishes that species by lighter-coloured markings above the eyes and along the sides of the face. The rock dassie is the more heavily built of the two, with a broader muzzle, and it climbs trees less readily. The 2025 regional assessment notes that the rock dassie appears to be more adaptable than the yellow-spotted rock dassie, with which it is sympatric in the northern parts of the assessment region."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2025 regional assessment gives the number of mature individuals as unknown and the regional trend as stable. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Rock Hyrax",
+        "url": "https://ewt.org/project/rock-dassie/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional mature-individual count unknown; regional trend stable. No Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "short and rounded"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "pointed head and short neck; lacks the pale markings above the eyes and along the sides of the face that distinguish the yellow-spotted rock dassie",
+          "muzzle": "broader than in the yellow-spotted rock dassie, with long black whiskers",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey-brown",
+            "dark brown",
+            "pale grey"
+          ],
+          "pattern": "thick coat, darker in wetter country and paler in drier country; a dorsal gland on the back is surrounded by longer hairs, typically black in P. c. capensis"
+        },
+        "underparts": {
+          "colour": "paler cream",
+          "pattern": null
+        },
+        "legs": {
+          "colour": "short; a separate leg colour was not given; moist pads on the soles"
+        },
+        "tail": {
+          "colour": null,
+          "shape": "very short, 1.1–2.4 cm"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Look for a squat, heavily built body, a broader muzzle than the yellow-spotted rock dassie, rounded ears, and a thick grey-brown coat. A darker dorsal patch may be visible on the lower back."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Wikipedia describes a high trill given in response to perceived danger. Animal Diversity Web describes striking alarm calls given when a potential predator is identified.",
+      "recordings": []
+    },
+    {
+      "sex": "male",
+      "type": "other",
+      "description": "Territorial or song-like calls are loud and repetitious, increasing in volume and duration before ending in a series of guttural noises. Researchers have described a rich syntactic structure and geographical variation in the songs of males.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "procavia-capensis/northern-kruger-portrait.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/250569711",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/448160757/large.jpg",
+      "author": "Alan Manson",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Rock dassie in three-quarter view on a rock, showing the thick grey-brown coat, rounded ears and broad muzzle",
+      "caption": "Research-grade iNaturalist observation, northern Kruger National Park, 11 October 2024."
+    },
+    {
+      "key": "procavia-capensis/masorini-side.jpeg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/82251056",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/134976125/large.jpeg",
+      "author": "copper",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Rock dassie in profile on a pale boulder against the sky, showing the squat build and short tail",
+      "caption": "Research-grade iNaturalist observation, Kruger National Park, Masorini area, 26 May 2021."
+    },
+    {
+      "key": "procavia-capensis/masorini-pair.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/403647355",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/741119590/large.jpg",
+      "author": "lallen",
+      "license": "CC0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two rock dassies on a sloping rock in open woodland",
+      "caption": "Research-grade iNaturalist observation, Kruger National Park, Masorini area, 13 September 2026."
+    },
+    {
+      "key": "procavia-capensis/far-north-pair.jpeg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/198980315",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/350817799/large.jpeg",
+      "author": "Corné Rautenbach",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Two rock dassies on a lichen-stained rock",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 29 January 2024."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Rock hyrax",
+      "url": "https://en.wikipedia.org/wiki/Rock_hyrax",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Procavia capensis: rock hyrax",
+      "url": "https://animaldiversity.org/accounts/Procavia_capensis/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "Linderman, E. Account used for total length, tail, mass, breeding figures, alarm and territorial calls, and general habits."
+    },
+    {
+      "title": "Rock Hyrax",
+      "url": "https://ewt.org/project/rock-dassie/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Procavia capensis – Rock Hyrax",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/3.-Rock-Hyrax-Procavia-capensis_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Procavia capensis",
+      "url": "https://api.inaturalist.org/v1/taxa/43086",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": false,
+    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Rock dassie, Klipdas). The 2025 EWT page uses Rock Hyrax and Rock Dassie, and the Afrikaans names Klipdas and Klipdassie. Status is resident: the 2011 SANParks Kruger checklist includes the species, and research-grade iNaturalist records occur in place 69020, including a cluster in the Masorini area. The 2025 EWT page does not name Kruger. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Regional and global status is Least Concern. Sources disagree on mass, gestation, litter size and weaning age; those disagreements are recorded in size and young rather than averaged.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2025 EWT page does not name Kruger National Park. Resident status is based on the 2011 SANParks Kruger checklist and research-grade iNaturalist records in place 69020.",
+    "Shoulder height was not found. Animal Diversity Web gives total length rather than a separate head-and-body length.",
+    "A Kruger-specific birth-month range was not found. Published breeding timing is for Kenya and the former Cape Province.",
+    "Iris colour was not given in the sources used, so that mark is null.",
+    "iNaturalist has 0 sound observations for Procavia capensis in place 69020. Call descriptions are taken from Wikipedia and Animal Diversity Web; recordings is empty.",
+    "Four Kruger photographs were used, from observations 250569711 (CC BY), 82251056 and 198980315 (CC BY-NC), and 403647355 (CC0, credited to the login lallen). Letaba, Olifants and Punda Maria rest-camp shots, records with accuracy worse than about 1 km, and two distant observations (290193385 and 95683636) were excluded."
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "kind": "species",
+  "slug": "petrodromus-tetradactylus",
+  "scientificName": "Petrodromus tetradactylus",
+  "commonNames": {
+    "en": "Four-toed elephant-shrew",
+    "af": "Bosklaasneus"
+  },
+  "family": "macroscelididae",
+  "inatTaxonId": 43226,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho, criterion NT B2ab(ii,iii,v). The IUCN global assessment is Least Concern (2015).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Four-toed Sengi",
+        "url": "https://ewt.org/project/four-toed-sengi/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Near Threatened B2ab(ii,iii,v), regional trend stable, no change from 2016. Afrikaans name given as Bosklaasneus, which matches the 2011 SANParks checklist name stored in af. English names on the page are Four-toed Sengi and Four-toed Elephant-shrew; the stored en value is the 2011 SANParks checklist name Four-toed elephant-shrew. The page states that the species is confirmed in northern Kruger National Park."
+      },
+      {
+        "title": "Petrodromus tetradactylus – Four-toed Sengi",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Four-toed-Sengi-Petrodromus-tetradactylus_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "2016 regional assessment, Near Threatened B2ab(ii,iii,v). Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Four-toed sengi",
+        "url": "https://en.wikipedia.org/wiki/Four-toed_sengi",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Rathbun and FitzGibbon (2015), IUCN global Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 19,
+      "max": 23
+    },
+    "tailCm": {
+      "min": 15.5,
+      "max": 17
+    },
+    "massKg": {
+      "min": 0.13,
+      "max": 0.28
+    },
+    "note": "Animal Diversity Web, citing Grizmek (1990), gives a body length of 19–23 cm, a tail of 15.5–17 cm, and a mass of 160–280 g (average 205 g). Wikipedia gives the same body, tail and mass ranges. The 2025 regional assessment, citing Rathbun (2005), describes this as the largest sengi in the subregion, with a body mass of 130–280 g. The mass field stores that 130–280 g span; the 160–280 g range is not averaged with it. The same assessment gives size at maturity as 35.5 cm in females and 35 cm in males, without saying what was measured. Those figures sit near the sum of the Animal Diversity Web body and tail lengths (34.5–40 cm) and are not treated as head-and-body length, and are not averaged with it. Shoulder height was not found. Animal Diversity Web states that the long legs hold the body 3–4 cm from the ground; that is ground clearance, not shoulder height."
+  },
+  "summary": "A fairly large sengi of forest, woodland and thicket, with a long mobile snout, a white eye-ring, and only four toes on the hind feet. It is listed on the 2011 SANParks Kruger checklist, confirmed in northern Kruger National Park by the 2025 regional assessment, and treated here as a year-round resident of the park.",
+  "description": "A soft-furred sengi, and the only living species in the genus Petrodromus. The 2025 regional assessment describes it as the largest sengi in the subregion, and states that, unlike all other members of the family, it has only four toes on the hind feet. Animal Diversity Web describes grey to sandy fur, rather long and soft, with a touch of orange and yellow, sometimes with a wide dark stripe on the back and white rings around the eyes, and a long, trunk-like flexible nose. Wikipedia describes the coat as greyish pale brown to dark brown, also with white eye-rings and wide dark stripes on the back; those two colour wordings are recorded here and are not reconciled. Wikipedia further gives the upper parts of the feet as brownish-yellow; the ears as dark brown, with pure white hair on the base of the inner margin; and the tail as black above and pale yellow-brown below, darkening in the middle and almost black at the tip. It also describes short forelimbs, long hind limbs, and a long, pointed, flexible snout. Animal Diversity Web adds that the long, skinny legs hold the body 3–4 cm from the ground. The 2025 assessment notes that subspecies are characterised mainly by pelage colour and bristles under the tail; two occur in the assessment region, P. t. schwanni in north-eastern Limpopo (including the Great Limpopo Transfrontier Park) and P. t. warreni in northern KwaZulu-Natal, the latter lacking tail bristles unlike other forms. The sexes are not described as differing in coat.",
+  "habits": "The 2025 regional assessment, citing Jennings and Rathbun, states that animals probably form pairs, are active during day and night, and shelter in holes, termite mounds, under fallen logs, hollow logs, patches of dense underbrush or under the roots of trees, but do not build or use nests. It also describes characteristic paths through leaf litter, usually a straight line of oval bare patches. Animal Diversity Web, citing Rathbun and Nowak, describes the species as mostly diurnal, with activity peaks just before daybreak and just after nightfall; as making extensive runways through brush; as usually scurrying, with long jumps when alarmed; as taking refuge in burrows and hollow tree trunks when pursued; as sleeping outside under brush rather than in nests; and as pointing the tail upward when running. Wikipedia, citing Jennings and Rathbun, likewise describes it as mostly active during the day and early evening, and less active at night or at midday. Those activity wordings are recorded here and are not reconciled. Animal Diversity Web, citing Rathbun, states that monogamous pairs defend territories, female against female and male against male. Wikipedia, citing Jennings and Rathbun, describes same-sex fights as a boxing motion on the hind legs.",
+  "diet": {
+    "summary": "The 2025 regional assessment states that they are omnivorous, but prey mainly on invertebrates. Animal Diversity Web, citing Rathbun, describes termites and ants as preferred, with insects making up the largest part of the diet and some plant material also taken. Wikipedia lists ants and termites as the most common prey, as well as crickets, grasshoppers, spiders, centipedes, millipedes and earthworms, and states that seeds, fruits, buds and other plant material also form part of the diet.",
+    "items": [
+      "ants and termites, described as preferred or most common prey by Animal Diversity Web and Wikipedia",
+      "crickets, grasshoppers, spiders, centipedes, millipedes and earthworms, following Wikipedia",
+      "seeds, fruits, buds and other plant material, following Wikipedia and Animal Diversity Web"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Sources agree that one, sometimes two, young are born, and Animal Diversity Web, citing Nicoll and Rathbun, describes them as highly precocial and able to run as fast as adults soon after birth. Animal Diversity Web, citing Grizmek, gives a birth mass of about 32 g, and states that the gestation period for this species is unknown, though the range for other elephant-shrews is 42–65 days, and that timing of weaning and sexual maturity is also unknown for this species, with ranges of 14–25 days and 35–50 days given for other elephant-shrews. Wikipedia, citing a general Macroscelidea account, instead gives a gestation of 40–60 days, weaning at 15–25 days, and sexual maturity close to 50 days after birth, as if for this species; those statements disagree with Animal Diversity Web on whether the figures are known for Petrodromus tetradactylus, and are recorded rather than reconciled. The 2025 regional assessment does not give gestation, litter size or age at maturity, and gives longevity as up to 6 years and 7 months in captivity. Wikipedia and Animal Diversity Web describe monogamy and breeding throughout the year when habitat and food allow. A Kruger-specific birth season was not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Snakes",
+      "note": "Named as a group by Animal Diversity Web and by Wikipedia, citing Jennings and Rathbun (2001). No species was given in the sources used."
+    },
+    {
+      "slug": null,
+      "en": "Hawks and owls",
+      "note": "Animal Diversity Web names hawks and owls; Wikipedia, citing Jennings and Rathbun (2001), names raptors. No species was given in the sources used."
+    },
+    {
+      "slug": null,
+      "en": "Small carnivores",
+      "note": "Named as a group by Animal Diversity Web. Wikipedia, citing Jennings and Rathbun (2001), names carnivores, and in some cases domestic cats. No wild species was given in the sources used."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Ants and termites",
+      "note": "Described as preferred or most common prey by Animal Diversity Web, citing Rathbun, and by Wikipedia."
+    },
+    {
+      "slug": null,
+      "en": "Crickets, grasshoppers, spiders, centipedes, millipedes and earthworms",
+      "note": "Named by Wikipedia as additional invertebrate prey."
+    }
+  ],
+  "habitat": "The 2025 regional assessment, citing Jennings and Rathbun and Skinner and Chimimba, places the species in forest, dense woodlands and thickets, usually with surface leaf litter, and describes an edge-of-range occurrence in woodland and forest in Limpopo and KwaZulu-Natal. The Limpopo form, P. t. schwanni, is placed in the riparian forests of northern Limpopo and in the Great Limpopo Transfrontier Park. The same page states that the species is confirmed in northern Kruger National Park. Animal Diversity Web, citing Kingdon, states that it usually prefers thickets and dense forest undergrowth, and is sometimes found in rocky areas. Research-grade iNaturalist records occur in place 69020, including several with positional accuracy within a few tens of metres in far-northern Kruger.",
+  "similar": [
+    {
+      "slug": "elephantulus-myurus",
+      "note": "The 2025 regional assessment describes this species as the largest sengi in the subregion, and states that, unlike all other members of the family, it has only four toes on the hind feet. The assessment also places it in forest, woodland and thicket, including the riparian forests of northern Limpopo, rather than in a rocky-outcrop setting."
+    },
+    {
+      "slug": "elephantulus-brachyrhynchus",
+      "note": "The same sourced marks apply: the 2025 regional assessment describes this species as the largest sengi in the subregion, with only four toes on the hind feet, unlike all other members of the family, and places it in forest, woodland and thicket, including the riparian forests of northern Limpopo."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2025 regional assessment derives a regional total of 52,800 individuals by applying a density of about one hectare per pair to the regional area of occupancy, and also gives Limpopo and KwaZulu-Natal subpopulation figures of 14,400 and 38,400 individuals used in a genetics indicator. Those are regional figures, not a Kruger count. Densities cited on that page come from studies in Kenya and from Sodwana Bay and Tembe Elephant Park in KwaZulu-Natal, and are not used as a park total. The assessment treats the regional trend as stable, while also recording a suspected continuing decline in mature individuals from incidental bushmeat hunting; neither statement is a Kruger trend. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Four-toed Sengi",
+        "url": "https://ewt.org/project/four-toed-sengi/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional figures and densities from studies outside Kruger. No Kruger count. Regional trend stable."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "dark brown, with pure white hair on the base of the inner margin, following Wikipedia",
+          "shape": "broad and upstanding, following Wikipedia"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "white, following Animal Diversity Web and Wikipedia"
+        },
+        "head": {
+          "face": "long, pointed, flexible and sensitive snout, following Wikipedia and Animal Diversity Web",
+          "muzzle": "long, trunk-like and flexible, following Animal Diversity Web",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "grey to sandy with orange and yellow hues, following Animal Diversity Web; also described as greyish pale brown to dark brown by Wikipedia",
+          "pattern": "soft, rather long fur, sometimes with a wide dark stripe on the back, following Animal Diversity Web and Wikipedia"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": "upper parts of the feet brownish-yellow, following Wikipedia; hind feet with four toes, following the 2025 regional assessment and Animal Diversity Web"
+        },
+        "tail": {
+          "colour": "black above and pale yellow-brown below, darkening in the middle and almost black at the tip, following Wikipedia",
+          "shape": "held upward when running, following Animal Diversity Web; some forms have bristles under the tail, though the KwaZulu-Natal subspecies lacks them, following the 2025 regional assessment"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Look for a fairly large, soft-furred sengi with a long mobile snout, a white eye-ring, grey-brown to sandy upperparts sometimes with a dark stripe on the back, and only four toes on the hind feet."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "The 2025 regional assessment, citing Rathbun (2005), states that when alarmed they rapidly stamp their hind feet on the substrate, which can be heard many metres away, and notes that the species often foot-drums. Animal Diversity Web, citing Nowak, describes rapping sounds with the hind feet when running, and states that ants have been noted to respond, helping the animal to locate them.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "The 2025 regional assessment, citing Rathbun (2005), states that they may utter a loud shrill squeak when in distress. Wikipedia, citing Jennings and Rathbun (2001), states that vocal capacity is not well developed, and that in captivity they make sounds such as screaming, purring or clucking.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "petrodromus-tetradactylus/far-north-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/304178158",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/548327044/large.jpg",
+      "author": "Duncan McKenzie",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Four-toed elephant-shrew in close side view on open ground, showing the long snout, white eye-ring, ears and long tail",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 28 July 2025."
+    },
+    {
+      "key": "petrodromus-tetradactylus/far-north-front.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/254306606",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/455483067/large.jpg",
+      "author": "Heinrich Human",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Four-toed elephant-shrew in close three-quarter front view, showing the long snout, white eye-ring, dark ears and soft grey-brown coat",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 3 December 2024."
+    },
+    {
+      "key": "petrodromus-tetradactylus/far-north-litter.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/383846033",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/702580521/large.jpg",
+      "author": "zachsavage",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Four-toed elephant-shrew in side view on sandy leaf litter, showing the long snout, body and upward-curving tail",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 22 July 2026."
+    },
+    {
+      "key": "petrodromus-tetradactylus/far-north-thicket.jpeg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/237704855",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/423077064/large.jpeg",
+      "author": "Ehren",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Four-toed elephant-shrew in side view among low thicket, showing the long snout and grey-brown upperparts",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 17 August 2024."
+    },
+    {
+      "key": "petrodromus-tetradactylus/far-north-path.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/347442924",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/633499207/large.jpg",
+      "author": "rosshawkins",
+      "license": "CC0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Four-toed elephant-shrew on a leaf-litter path in woodland, showing the body and long tail",
+      "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 4 April 2026."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Four-toed sengi",
+      "url": "https://en.wikipedia.org/wiki/Four-toed_sengi",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Used for coat and tail colours, ear marks, size ranges, activity, diet items, predators, breeding figures, and the 2015 IUCN global assessment."
+    },
+    {
+      "title": "Petrodromus tetradactylus: four-toed elephant-shrew",
+      "url": "https://animaldiversity.org/accounts/Petrodromus_tetradactylus/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": 2002,
+      "note": "Smith, M. Account used for hind-foot toe count, coat, size and mass, habits, diet, predators, precocial young and foot-drumming. Last updated 2002-02-04."
+    },
+    {
+      "title": "Four-toed Sengi",
+      "url": "https://ewt.org/project/four-toed-sengi/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Petrodromus tetradactylus – Four-toed Sengi",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Four-toed-Sengi-Petrodromus-tetradactylus_NT.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Petrodromus tetradactylus",
+      "url": "https://api.inaturalist.org/v1/taxa/43226",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": false,
+    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Four-toed elephant-shrew, Bosklaasneus). The 2025 EWT page uses Four-toed Sengi and Four-toed Elephant-shrew, and the same Afrikaans name Bosklaasneus. Status is resident: the 2011 SANParks Kruger checklist includes the species, the 2025 EWT page states that it is confirmed in northern Kruger National Park and is not a migrant, and research-grade iNaturalist records occur in place 69020, including several with positional accuracy within a few tens of metres in far-northern Kruger. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Regional status is Near Threatened, unchanged from 2016; the IUCN global assessment is Least Concern (2015). Sources disagree on mass (130–280 g versus 160–280 g), on whether published gestation and weaning figures apply to this species, on coat-colour wording, and on whether activity is described as day and night or as mostly diurnal with peaks around dawn and dusk; those disagreements are recorded rather than averaged. Wikipedia's lead also states that the species is smaller than its relatives, which is not reconciled with the 2025 assessment's statement that it is the largest sengi in the subregion, or with Animal Diversity Web's statement that it is one of the largest elephant-shrews.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Shoulder height was not found. Animal Diversity Web's figure of 3–4 cm is ground clearance, not shoulder height. The 2025 assessment's size at maturity (35.5 cm in females, 35 cm in males) does not say what was measured.",
+    "Underparts colour and iris colour were not given in the sources used, so those marks are null.",
+    "A Kruger-specific birth-month range was not found. Published breeding is described as year-round when habitat and food allow.",
+    "Animal Diversity Web treats gestation, weaning and age at maturity as unknown for this species and gives only ranges for other elephant-shrews; Wikipedia gives figures as if they apply to this species. Those accounts are not reconciled.",
+    "Predators were named only as broad groups (snakes, raptors, small carnivores), with no wild species.",
+    "iNaturalist has 0 sound observations for Petrodromus tetradactylus in place 69020. Foot-drumming and a distress squeak are described from the 2025 assessment and Animal Diversity Web; recordings is empty.",
+    "Sources disagree on mass (130–280 g versus 160–280 g) and on activity period wording, and Wikipedia's lead states that the species is smaller than its relatives while the 2025 assessment and Animal Diversity Web describe it as large among sengis."
+  ]
+}

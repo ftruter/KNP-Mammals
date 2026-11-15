@@ -1,0 +1,313 @@
+{
+  "kind": "species",
+  "slug": "pronolagus-crassicaudatus",
+  "scientificName": "Pronolagus crassicaudatus",
+  "commonNames": {
+    "en": "Natal red rock rabbit",
+    "af": "Natalse rooiklipkonyn"
+  },
+  "family": "leporidae",
+  "inatTaxonId": 43158,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Natal Red Rock Hare",
+        "url": "https://ewt.org/project/natal-red-rock-hare/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Least Concern, declining regional trend, no change from 2016. Afrikaans name given as Natal se Rooiklipkonyn."
+      },
+      {
+        "title": "Pronolagus spp. – Red rock hares",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/3.-Red-Rock-Hares-Pronolagus-spp_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Combined 2016 regional assessment of Pronolagus species, Least Concern for P. crassicaudatus. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Natal red rock hare",
+        "url": "https://en.wikipedia.org/wiki/Natal_red_rock_hare",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Child, Matthee and Robinson (2019), IUCN Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "lengthCm": {
+      "min": 46,
+      "max": 56
+    },
+    "tailCm": {
+      "min": 3.5,
+      "max": 11
+    },
+    "massKg": {
+      "min": 2.4,
+      "max": 3
+    },
+    "note": "A compiled Wikipedia account (citing Happold 2013, Kingdon 2015 and Schütze 2002) gives length 46–56 cm, tail 3.5–11 cm, ears 7.5–8.5 cm, and mass 2.4–3 kg. It does not say whether the 46–56 cm figure is head-and-body or total length. The 2025 EWT assessment gives a maximum size of 50–67 cm, also without saying whether this is head-and-body or total length, and gives no mass. Shoulder height was not found. It is described as the largest Pronolagus species."
+  },
+  "summary": "A short-eared, rabbit-like hare of rocky slopes, with a grizzled grey-brown coat that becomes bright rufous on the rump, limbs and tail. It is the largest of the red rock hares, lives in small colonies, and is nocturnal, sheltering in rock crevices or dense grass by day. The 2011 SANParks checklist includes it in Kruger, but later range accounts and the lack of iNaturalist records in the park leave its presence there uncertain.",
+  "description": "The largest of the red rock hares, rabbit-like, with short ears 7.5–8.5 cm long that are sparsely furred, grey on the inner surface and whitish grey on the outer surface. The head is slightly grizzled greyish brown, with grey or greyish-white lower cheeks and chin, and a greyish-white band running along the jaw edge to the nape patch. The dorsal pelage is grizzled brown flecked with black; the dense fur is thick and rougher than in other rock hares. The rump is bright reddish brown, the flanks paler, and the feet, forelimbs and hindlimbs dull to rufous-brown. Accounts of the underparts differ: one compiled description gives pale reddish brown underparts with uneven white patches and streaks, and greyish underparts grizzled with rufous in another passage of the same source, while the 2025 EWT assessment describes typically greyish pelage becoming rufous on the rump and limbs. The tail is bright rufous above and below, and lighter in tone than in other members of the genus. A brown to grey nuchal patch is present.",
+  "habits": "Nocturnal, emerging at dusk to feed and not foraging far from shelter, though it may move to higher elevations at night and may forage around the base of hills for fresh sprouting grasses. By day it hides in rock crevices, under boulders, or in dense grass, and has occasionally been flushed from thick grass. It lives in small colonies of a few hares. It can run and jump over rocks and run up steep rock faces to reach crevices when fleeing. Flattened, round dung pellets are deposited at latrines away from resting sites, often the only sign of its presence. It has 360-degree vision and an acute sense of smell and hearing; a network of veins on the inner surface of the erect ear radiates heat. A Kruger-specific home-range figure was not found.",
+  "diet": {
+    "summary": "A herbivore and grazer that feeds on grass, especially young grass, and also on weeds and herbs. It obtains moisture from dew and from food and is independent of water, but drinks when water is available.",
+    "items": [
+      "grass, especially young grass",
+      "weeds",
+      "herbs"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "Not much is known about reproduction in this species; the 2025 regional assessment says it is likely to resemble other red rock hares, probably breeding year-round, with one or two altricial young deposited in a nest in a shallow excavation lined with the female's belly and flank fur over a grass and stick structure. Gestation is given as 32–38 days in the 2025 assessment and as one month in a compiled account that cites a Kruger field guide. That compiled account also says one or two pups weighing 70–100 g are usually born in the summer. Sexual maturity is given as six months, and longevity as two to three years in the 2025 assessment, or up to five years in the compiled account. A Kruger-specific birth season was not found.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard"
+    },
+    {
+      "slug": "caracal-caracal",
+      "en": "Caracal"
+    },
+    {
+      "slug": "felis-lybica",
+      "en": "African wild cat",
+      "note": "Named as a predator, with leopards, caracals, snakes and birds of prey, in a compiled account citing Schütze (2002) and Cillié (2004)."
+    },
+    {
+      "slug": null,
+      "en": "Snakes",
+      "note": "Named as predators in a compiled account citing Schütze (2002) and Cillié (2004); no species was given."
+    },
+    {
+      "slug": null,
+      "en": "Birds of prey",
+      "note": "Named as predators in a compiled account citing Schütze (2002) and Cillié (2004); no species was given."
+    }
+  ],
+  "prey": [],
+  "habitat": "Confined to rocky areas that provide shelter, including krantzes, boulder-strewn hillsides, ravines and rocky stretches of dry riverbeds, with palatable grass and some scrub. It is usually seen in tall, dense grassland on rocky slopes, where grasses and shrubs grow among the rocks or at their bases, and is found from sea level to 1,550 m. A Kruger-specific habitat account was not found.",
+  "similar": [
+    {
+      "slug": "lepus-saxatilis",
+      "note": "The Natal red rock rabbit has short ears (7.5–8.5 cm) and a tail that is bright rufous above and below, with a bright reddish-brown rump and rufous limbs, and is confined to rocky slopes, living in small colonies."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2025 regional assessment says there are no population size or trend estimates for any Pronolagus species, while inferring a large population and describing the Natal red rock hare as widespread and locally abundant, with a declining regional trend. Those statements are not Kruger counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Natal Red Rock Hare",
+        "url": "https://ewt.org/project/natal-red-rock-hare/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "No population size or trend estimates for any Pronolagus species; a large population is inferred. Regional trend declining."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": [
+            "grey",
+            "whitish grey"
+          ],
+          "shape": "short, sparsely furred, 7.5–8.5 cm; grey inside and whitish grey outside"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "slightly grizzled greyish brown, with grey or greyish-white lower cheeks and a greyish-white band along the jaw to the nape",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grizzled brown",
+            "reddish brown"
+          ],
+          "pattern": "dorsal pelage flecked with black; rump bright reddish brown; flanks paler; fur dense, thick and rougher than in other rock hares; brown to grey nuchal patch"
+        },
+        "underparts": {
+          "colour": [
+            "pale reddish brown",
+            "greyish"
+          ],
+          "pattern": "accounts disagree: one compiled description gives pale reddish brown underparts with uneven white patches and streaks, and also describes greyish underparts grizzled with rufous"
+        },
+        "legs": {
+          "colour": "dull to rufous-brown"
+        },
+        "tail": {
+          "colour": "rufous",
+          "shape": "bright rufous above and below, 3.5–11 cm, lighter in tone than in other Pronolagus"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Short ears, a grizzled grey-brown coat becoming bright rufous on the rump and limbs, and a tail that is bright rufous above and below."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "contact",
+      "description": "A compiled account citing a Kruger field guide describes grunting calls used in contact with other members of the species.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "The same compiled account describes shrill screams and cries when the animal is alarmed.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "pronolagus-crassicaudatus/gert-sibande-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/390820930",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/716049695/large.jpg",
+      "author": "murraykeeton",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult Natal red rock rabbit sitting in grass at night, showing short ears, a grizzled grey-brown coat and rufous legs",
+      "caption": "Research-grade iNaturalist observation, Gert Sibande District Municipality, Mpumalanga, 7 August 2026."
+    },
+    {
+      "key": "pronolagus-crassicaudatus/zululand-rocks-back.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/367684629",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/671496203/large.jpg",
+      "author": "murraykeeton",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult Natal red rock rabbit on boulders, showing a bright rufous rump and short ears",
+      "caption": "Research-grade iNaturalist observation, Zululand District Municipality, KwaZulu-Natal, 2 June 2026."
+    },
+    {
+      "key": "pronolagus-crassicaudatus/ehlanzeni-rocky-slope.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/395451679",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/725100464/large.jpg",
+      "author": "Daniel Correia",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Natal red rock rabbit moving away over rocks in tall grassland, showing a rufous rump",
+      "caption": "Research-grade iNaturalist observation, Ehlanzeni District Municipality, Mpumalanga, 13 June 2026."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Natal red rock hare",
+      "url": "https://en.wikipedia.org/wiki/Natal_red_rock_hare",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Cites Happold (2013), Kingdon (2015), and Schütze (2002), Field Guide to the Mammals of the Kruger National Park, among others."
+    },
+    {
+      "title": "Natal Red Rock Hare",
+      "url": "https://ewt.org/project/natal-red-rock-hare/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Jameson's Red Rock Hare",
+      "url": "https://ewt.org/project/jamesons-red-rock-hare/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Consulted for the regional range of Pronolagus randensis relative to Kruger, not as a source of marks for this species."
+    },
+    {
+      "title": "Pronolagus spp. – Red rock hares",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/3.-Red-Rock-Hares-Pronolagus-spp_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Pronolagus crassicaudatus",
+      "url": "https://api.inaturalist.org/v1/taxa/43158",
+      "publisher": "iNaturalist",
+      "year": 2026
+    },
+    {
+      "title": "SANParks Kruger National Park mammal checklist",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "publisher": "SANParks",
+      "year": 2011,
+      "note": "Source of the English and Afrikaans names used here (Natal red rock rabbit, Natalse rooiklipkonyn) and of official inclusion."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Natal red rock rabbit, Natalse rooiklipkonyn). The 2025 EWT page gives Natal se Rooiklipkonyn, and iNaturalist lists Natalse Rooihaas. The species is on that checklist, and a compiled Wikipedia account cites Schütze (2002), Field Guide to the Mammals of the Kruger National Park, but the 2025 EWT range for P. crassicaudatus (Eastern Cape, KwaZulu-Natal, Mpumalanga, Eswatini Lebombo and highveld, and marginally Maputo Province) does not name Kruger or Limpopo, while the 2025 assessment for Jameson's red rock hare (P. randensis) includes Limpopo and Mpumalanga. iNaturalist place 69020 has 0 observations of any Pronolagus species, so status and monthsPresent are omitted. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Animal Diversity Web has no species account, only a classification page.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Kruger presence is uncertain: the species is on the 2011 SANParks checklist, and a compiled account cites Schütze (2002), Field Guide to the Mammals of the Kruger National Park, but iNaturalist place 69020 has 0 observations of any grade for this species, and 0 observations of any Pronolagus species. The 2025 EWT range for P. crassicaudatus (Eastern Cape, KwaZulu-Natal and Mpumalanga, Eswatini in the Lebombo and highveld, and a tiny part of Maputo Province) does not name Kruger or Limpopo. The same 2025 assessment assigns Jameson's red rock hare (P. randensis) to Gauteng, Limpopo, Mpumalanga and North West, a range that includes the Kruger provinces. P. crassicaudatus was previously treated as a subspecies of P. randensis, and P. lebombo (Lebombo) is listed as a synonym of doubtful validity. Smith's red rock hare (P. rupestris) is not on the 2011 checklist and was not assigned to Kruger in the sources used. status and monthsPresent are omitted.",
+    "No reusable Kruger photograph was found (0 observations of any grade in iNaturalist place 69020). The three photographs are research-grade records from South Africa outside Kruger. From a shortlist of six thumbnails, an almost hidden night photograph (observation 390820930, photo 716049694), an obscured rear view (observation 395451679, photo 725100687), and a largely hidden crevice view (observation 367684629, photo 671496199) were not used. A Golden Gate National Park record (observation 143782360) was not used, as the 2025 EWT assessment does not record the species from the Free State. A Mountain Zebra National Park record had no reusable licence.",
+    "iNaturalist has 0 sound observations for Pronolagus crassicaudatus in place 69020, and 0 in place 6986. Call descriptions are taken from a compiled Wikipedia account only; no licensable recording was found.",
+    "Shoulder height was not found. The Wikipedia length of 46–56 cm and the 2025 EWT maximum size of 50–67 cm do not say whether they are head-and-body or total length.",
+    "A Kruger-specific habitat account, home-range figure and birth-month range were not found.",
+    "Longevity is given as two to three years in the 2025 EWT assessment and as up to five years in a compiled account; both are recorded rather than averaged.",
+    "Iris colour, muzzle colour, and a single agreed colour for the underparts were not given clearly in the sources used. Animal Diversity Web has no species account. Skinner & Chimimba and Stuart's field guide were not available."
+  ]
+}

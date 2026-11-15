@@ -1,0 +1,355 @@
+{
+  "kind": "species",
+  "slug": "lepus-saxatilis",
+  "scientificName": "Lepus saxatilis",
+  "commonNames": {
+    "en": "Scrub hare",
+    "af": "Kolhaas"
+  },
+  "family": "leporidae",
+  "inatTaxonId": 43125,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Cape Scrub Hare",
+        "url": "https://ewt.org/project/cape-scrub-hare/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Least Concern, stable trend, no change from 2016. Afrikaans name given as Ribbokhaas. The assessment applies Lepus saxatilis in a narrow sense mainly to the Western and Northern Cape."
+      },
+      {
+        "title": "Lepus spp. – Hares",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Hares-Lepus-spp_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Combined 2016 regional assessment of Lepus species, Least Concern. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Cape scrub hare",
+        "url": "https://en.wikipedia.org/wiki/Cape_scrub_hare",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Robinson, Child, Relton and Johnston (2019), IUCN Least Concern, with a decreasing global trend."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 45,
+      "max": 63
+    },
+    "tailCm": {
+      "min": 13,
+      "max": 15
+    },
+    "massKg": {
+      "min": 3.2,
+      "max": 4
+    },
+    "note": "Head-and-body length 45–63 cm, tail 13–15 cm, ears 10–15 cm, and mass 3.2–4 kg follow a compiled account cited by Wikipedia (Robinson 2018; Schai-Braun and Hackländer in Handbook of the Mammals of the World). Females are generally heavier than males, but a sex-split mass range was not given. The 2025 EWT assessment gives size at maturity as 48 cm in males and 51 cm in females, and a maximum of 62 cm, without saying whether this is head-and-body or total length. Animal Diversity Web gives a wider length of 45–65 cm and mass of 1.5–4.5 kg, and describes a decrease in size from north to south, but that account also places the species in West and East Africa, so those wider bounds are not used. Shoulder height was not found."
+  },
+  "summary": "A long-eared hare of savannah woodland and scrub, and the common hare of the Kruger Lowveld on the 2011 SANParks checklist. The coat is a coarse grizzled grey, a pale ring usually surrounds the eye, and the tail is black above and white below. It is nocturnal and usually solitary. Females are larger than males.",
+  "description": "A medium to large hare with long, broad ears 10–15 cm long that are black at the tips, and hind legs built for leaping and running. A white or off-white ring encircles the eye. The coat is described as coarse and grizzled grey; Animal Diversity Web instead calls the hair soft and says the back is often flecked with tiny black spots, but that account is used with caution. Accounts disagree on the underparts: one compiled description calls the undersides white, while another passage in the same source describes the undersides as grey, with the chin, chest and inner sides of the limbs white. The tail is black on top and white below. Females are generally heavier than males. In the field it is easily confused with the Cape hare (Lepus capensis); a published distinction is in the upper incisors, which is not a field character. Skeleton and tooth characters that separate it from the Cape hare and the African savanna hare are likewise not field marks.",
+  "habits": "Nocturnal, generally emerging at dusk and foraging through the night. Usually solitary, though a female in oestrus may be accompanied by one or more males. By day it rests in a form, an indentation pressed into the ground, often with the ears folded back, and may stay in the same form for several days unless disturbed; when approached closely it bolts at the last moment and runs a zigzag course. It is occasionally seen by day in overcast weather. Animal Diversity Web also describes coprophagy, the re-ingestion of a pellet, as in other hares. A Kruger-specific home-range figure was not found.",
+  "diet": {
+    "summary": "A herbivore that prefers green grasses, eating the leaves, stems and rhizomes, and taking green grass over dry grass. Animal Diversity Web notes that hares in this genus may eat shrub bark when little else is available, but how often that happens in this species is not known.",
+    "items": [
+      "green grasses, including leaves, stems and rhizomes"
+    ],
+    "guild": "herbivore"
+  },
+  "young": "Breeding can take place all year, with a peak in the rainy summer. Gestation is given as 42 days in the 2025 regional assessment, as 5–6 weeks in a compiled account, and as 35–42 days (average 42) by Animal Diversity Web. Litters are of one to three precocial leverets; the 2025 assessment gives about 3.9 litters a year and says three young are usually born in the summer peak, while Animal Diversity Web gives a mean litter of 1.6 and says triplets are more frequent after rainy seasons. The young are born fully furred, with their eyes open, and can move about shortly after birth; no nest is made, and care is largely limited to nocturnal suckling. Newborn mass is given as 98 g in one compiled account and 115 g by Animal Diversity Web. Sexual maturity is reached at about one year. A Kruger-specific birth season was not found.",
+  "predators": [
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal"
+    },
+    {
+      "slug": "lupulella-adusta",
+      "en": "Side-striped jackal",
+      "note": "Named as a predator by Animal Diversity Web."
+    },
+    {
+      "slug": null,
+      "en": "Cape fox",
+      "note": "Vulpes chama. Named as a predator of hares in a Free State diet study cited by the 2025 regional assessment; the species is not in this Kruger guide."
+    },
+    {
+      "slug": null,
+      "en": "Martial eagle",
+      "note": "Polemaetus bellicosus. In one Cape study cited by the 2025 regional assessment, hares made up half of the diet."
+    },
+    {
+      "slug": null,
+      "en": "Verreaux's eagle",
+      "note": "Aquila verreauxii. Named as a predator of hares in the 2025 regional assessment."
+    }
+  ],
+  "prey": [],
+  "habitat": "Prefers savannah woodland and scrub with grass cover for shelter, and adapts readily to agricultural land. It is typically absent from forest, desert and open grassland, though it may occur at forest or mountain edges, and Animal Diversity Web says it may forage in open grassland at night. This habitat is widespread in Kruger, but a Kruger-specific habitat study was not found. The 2025 regional assessment, which applies the name in a narrow sense, describes the range mainly as the Western and Northern Cape.",
+  "similar": [
+    {
+      "slug": "lepus-capensis",
+      "note": "Field identification of scrub and Cape hares is often uncertain, and the two are easily confused. A published distinction is in the shape of the upper incisors, which is not a field character. The scrub hare is associated with grass cover in savannah woodland and scrub, whereas the Cape hare prefers dry, open country and avoids bushy or closed cover, but the ranges overlap."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2025 regional assessment says there are no detailed population or density estimates, though it is considered common in South Africa, and that in some areas densities may reach 20.22 individuals/km²; those figures are not Kruger counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. The 2025 regional assessment lists a stable trend for the assessment region, and the 2019 IUCN assessment a decreasing global trend; neither is a Kruger trend.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Cape Scrub Hare",
+        "url": "https://ewt.org/project/cape-scrub-hare/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "No detailed population estimate; a density of 20.22/km² is mentioned for some areas, not for Kruger. Regional trend stable."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "black-tipped",
+          "shape": "long and broad, 10–15 cm"
+        },
+        "eye": {
+          "iris": null,
+          "ring": "white or off-white"
+        },
+        "head": {
+          "face": "chin described as white in one compiled account",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "grizzled grey",
+          "pattern": "described as a coarse coat in one compiled account; Animal Diversity Web instead calls the hair soft and often flecked with tiny black spots"
+        },
+        "underparts": {
+          "colour": [
+            "white",
+            "grey"
+          ],
+          "pattern": "accounts disagree: one description calls the undersides white, while another passage in the same source describes them as grey, with the chin, chest and inner limbs white"
+        },
+        "legs": {
+          "colour": "inner sides described as white in one compiled account"
+        },
+        "tail": {
+          "colour": [
+            "black",
+            "white"
+          ],
+          "shape": "black on top and white below, 13–15 cm"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Long black-tipped ears, a pale eye-ring, a grizzled grey coat, and a tail that is black above and white below."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Animal Diversity Web describes a loud squeal when the hare is captured or otherwise distressed.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Animal Diversity Web describes a loud chirping sound if the hare is disturbed in open habitat at night.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "lepus-saxatilis/gomondwane-loop-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/388293550",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/711133459/large.jpg",
+      "author": "jaminkurik1",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult scrub hare sitting in profile, showing long ears, a pale eye-ring, a grizzled grey coat and white underparts",
+      "caption": "Research-grade iNaturalist observation, Gomondwane Loop, Kruger National Park, 13 October 2024."
+    },
+    {
+      "key": "lepus-saxatilis/mopani-crouched.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/381689810",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/698427090/large.jpg",
+      "author": "Daniel Correia",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult scrub hare crouched in grass in northern Kruger, showing a long ear and grizzled grey coat",
+      "caption": "Research-grade iNaturalist observation, Kruger National Park (Mopani District), 3 June 2026."
+    },
+    {
+      "key": "lepus-saxatilis/shongololo-loop-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/99522804",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165923925/large.jpeg",
+      "author": "Mark Bolnik",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult scrub hare standing in profile in dry woodland on the Shongololo Loop",
+      "caption": "Research-grade iNaturalist observation, Shongololo Loop, Kruger National Park, 1 September 2017."
+    },
+    {
+      "key": "lepus-saxatilis/mpumalanga-standing-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/390358105",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/715144524/large.jpg",
+      "author": "Lukas Zangl",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult scrub hare standing in open thornveld in southern Kruger",
+      "caption": "Research-grade iNaturalist observation, Kruger National Park, Mpumalanga, 9 August 2026."
+    },
+    {
+      "key": "lepus-saxatilis/mopani-night-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/374078075",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/683696598/large.jpg",
+      "author": "Arthur",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Adult scrub hare seen at night in open grassland with scattered shrubs",
+      "caption": "Research-grade iNaturalist observation, Kruger National Park (Mopani District), 19 August 2023."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cape scrub hare",
+      "url": "https://en.wikipedia.org/wiki/Cape_scrub_hare",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Lepus saxatilis: scrub hare",
+      "url": "https://animaldiversity.org/accounts/Lepus_saxatilis/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "Used with caution: the geographic range in this account includes West and East Africa and appears to mix this species with other African hares."
+    },
+    {
+      "title": "Cape Scrub Hare",
+      "url": "https://ewt.org/project/cape-scrub-hare/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Lepus spp. – Hares",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Hares-Lepus-spp_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Lepus saxatilis",
+      "url": "https://api.inaturalist.org/v1/taxa/43125",
+      "publisher": "iNaturalist",
+      "year": 2026
+    },
+    {
+      "title": "SANParks Kruger National Park mammal checklist",
+      "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+      "publisher": "SANParks",
+      "year": 2011,
+      "note": "Source of the English and Afrikaans names used here (Scrub hare, Kolhaas) and of official inclusion."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Scrub hare, Kolhaas). The 2025 EWT page and Wikipedia give the Afrikaans name as Ribbokhaas, and EWT uses the English name Cape Scrub Hare. Status is set to resident on the 2011 checklist name and on many research-grade iNaturalist records in place 69020. The 2025 regional assessment, however, applies Lepus saxatilis in a narrow sense mainly to the Western and Northern Cape, and refers to populations in the rest of South Africa, Eswatini and Lesotho as L. cf. saxatilis, which may be related to L. victoriae; that narrow range and the assessment's elevation limits of 1,220–1,830 m would not include Kruger. Kruger animals are treated here under the 2011 name. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Animal Diversity Web appears to mix this species with other African hares, so its wider size range and some distribution statements were not used.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2025 EWT assessment applies Lepus saxatilis in a narrow sense mainly to the Western and Northern Cape, and treats other southern African populations as L. cf. saxatilis, possibly related to L. victoriae. Kruger status is resident under the 2011 SANParks checklist name, but the taxonomic identity of Kruger hares under that narrow concept is unresolved and should be reviewed.",
+    "iNaturalist place 69020 also has research-grade records identified as Lepus microtis (African savanna hare), which is not on the 2011 checklist. Field marks that reliably separate Cape hares, scrub hares and African savanna hares in a photograph, other than incisor and skull characters, were not found in the sources used.",
+    "iNaturalist has 0 sound observations for Lepus saxatilis in place 69020. Call descriptions are taken from Animal Diversity Web only; no licensable recording was found.",
+    "Shoulder height was not found. The 2025 EWT length figures (48–62 cm) do not say whether they are head-and-body or total length.",
+    "A Kruger-specific habitat account, home-range figure and birth-month range were not found.",
+    "Newborn mass is given as 98 g in one compiled account and 115 g by Animal Diversity Web; both are recorded rather than averaged.",
+    "Iris colour, muzzle colour, and a single agreed colour for the underparts were not given clearly in the sources used. Animal Diversity Web describes a white forehead patch and a reddish-brown patch behind the ears, but that account appears to mix taxa, so those marks were not used. Skinner & Chimimba and Stuart's field guide were not available."
+  ]
+}

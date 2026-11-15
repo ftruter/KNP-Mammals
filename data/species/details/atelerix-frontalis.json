@@ -1,0 +1,318 @@
+{
+  "kind": "species",
+  "slug": "atelerix-frontalis",
+  "scientificName": "Atelerix frontalis",
+  "commonNames": {
+    "en": "South African hedgehog",
+    "af": "Suid-Afrikaanse krimpvarkie"
+  },
+  "family": "erinaceidae",
+  "inatTaxonId": 43056,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Near Threatened",
+    "scope": "2025 regional Red List for South Africa, Eswatini and Lesotho. The IUCN global assessment is Least Concern (2016, errata 2017).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "Southern African Hedgehog",
+        "url": "https://ewt.org/project/southern-african-hedgehog/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "2025 regional status Near Threatened (A4cde), declining trend, no change from 2016. Afrikaans name Suid-Afrikaanse Krimpvarkie."
+      },
+      {
+        "title": "Atelerix frontalis – South African Hedgehog",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/1.-South-African-Hedgehog-Atelerix-frontalis_NT.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "2016 regional assessment, Near Threatened. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Southern African hedgehog",
+        "url": "https://en.wikipedia.org/wiki/Southern_African_hedgehog",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Cassola (2016, errata 2017), IUCN global Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 15,
+      "max": 20
+    },
+    "tailCm": {
+      "min": 2,
+      "max": 2
+    },
+    "massKg": {
+      "min": 0.15,
+      "max": 0.555
+    },
+    "note": "Animal Diversity Web gives head-and-body length, including the head, as 15–20 cm (average about 20 cm), tail length as approximately 2 cm, and mass as 150–555 g. Wikipedia, citing the same account, gives an average length of about 20 cm and an average mass of 350 g for a fully grown male. Shoulder height was not found."
+  },
+  "summary": "A small, nocturnal hedgehog with a white band across the forehead and a coat of spines that are white at the base and dark brown to black towards the tip. The face, belly and ears are covered in fur, not spines, and the animal rolls into a ball when threatened. It is on the 2011 SANParks Kruger checklist, but the 2025 regional range does not name Kruger or the Lowveld, and there are no iNaturalist records from the park, so its Kruger status is treated as uncertain.",
+  "description": "A compact hedgehog, about 15–20 cm from nose to rump, with a short tail of about 2 cm and a mass of 150–555 g. Sharp keratin spines cover the upperparts, each typically white at the base with a dark brown to black band towards the tip; the width of that dark band can make an animal look lighter or darker. The face, ears, belly and limbs are covered in fine fur. The unmistakable field mark is a white band across the forehead, which may extend over the shoulders or behind the arms to the throat and breast. The snout is pointed, the ears and tail are fairly short, and the legs are fairly long, with five toes on each foot. The underside varies from white to black. The sexes are alike.",
+  "habits": "Nocturnal and mainly solitary. It spends the day curled up under vegetation or in a hole, emerging in the evening to forage, and may also be active at dawn and dusk, or by day if the weather is cool. It moves slowly but can run at 6–7 km/h when fleeing, and defends itself by rolling into a spiny ball. It readily enters torpor when temperatures fall or food is scarce, and one study found animals spending as much as 84% of their time in torpor. Home range in the genus is typically a radius of 200–300 m around an inhabited hole, and daytime resting places are often changed daily. It is not a migrant. A self-anointing habit is described, in which a new scent is chewed or licked and the froth is spread onto the spines.",
+  "diet": {
+    "summary": "An omnivore whose diet is mostly invertebrates, including beetles, earwigs, grasshoppers, termites, slugs, snails, centipedes, millipedes, moths and earthworms. It also takes eggs, mice, lizards, frogs, bird chicks, carrion, vegetable matter and fungi, and in gardens may eat dog food. It is not reliant on standing water, taking most of its moisture from food, and can eat about 30% of its body mass in one night.",
+    "items": [
+      "beetles, earwigs, grasshoppers, termites, slugs, snails, centipedes, millipedes, moths and earthworms",
+      "eggs, mice, lizards, frogs, bird chicks and carrion",
+      "vegetable matter and fungi"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "Breeding is concentrated in the warmer months. Animal Diversity Web gives a courtship and mating season from August to February, with young born from October to March after a gestation of about 35 days (a range of 30–40 days). Litters are of one to ten young, typically four or five; other accounts give ranges of one to nine or one to eleven. Newborns weigh about 10 g and are naked and blind, with infant spines that are later replaced by the adult set. The eyes open at about 14 days, and the young begin to forage with the mother at about six weeks. Males take no part in raising the young. Animal Diversity Web gives sexual maturity at 61–68 days, but also lists a figure of one year in a summary table. A Kruger-specific birth season was not found.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Domestic dogs",
+      "note": "Named as predators by Animal Diversity Web and the 2025 regional assessment."
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal",
+      "note": "The 2025 regional assessment reports Free State farmers raising a concern that increased jackal densities may affect already low hedgehog numbers. A confirmed diet study was not found."
+    },
+    {
+      "slug": null,
+      "en": "Birds of prey and other carnivores",
+      "note": "Animal Diversity Web states that many raptors and carnivores can kill and eat hedgehogs, without naming species."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Invertebrates",
+      "note": "Beetles, earwigs, grasshoppers, termites, slugs, snails, centipedes, millipedes, moths and earthworms form the bulk of the diet."
+    },
+    {
+      "slug": null,
+      "en": "Mice"
+    },
+    {
+      "slug": null,
+      "en": "Lizards"
+    },
+    {
+      "slug": null,
+      "en": "Frogs"
+    },
+    {
+      "slug": null,
+      "en": "Bird chicks and eggs"
+    }
+  ],
+  "habitat": "A wide range of semi-arid and sub-temperate savannah and grassland, including scrub, rocky outcrops, western Karoo, and suburban gardens, provided there is dry ground cover for resting, nesting and insect prey. The 2025 regional assessment places it where mean annual rainfall is 200–800 mm, mean annual temperature 10–25 °C, and altitude 800–2000 m. It rarely occurs in deserts or in very wet areas. A Kruger-specific habitat account was not found, and the 2025 regional range in Limpopo and Mpumalanga is described as western, without naming the Lowveld.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger population figure was found. The 2025 regional assessment gives the number of mature individuals as unknown, records no density studies, and lists a declining regional trend, which is not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "sources": [
+      {
+        "title": "Most recent counts of Kruger's wildlife and trends over time",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks Scientific Services",
+        "year": 2025,
+        "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Southern African Hedgehog",
+        "url": "https://ewt.org/project/southern-african-hedgehog/",
+        "publisher": "Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional mature-individual count unknown; declining regional trend; no density studies. No Kruger count."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "fine fur, not spines",
+          "shape": "fairly short"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "a white band across the forehead, which may extend over the shoulders or behind the arms to the throat and breast; the rest of the face is covered in fine dark brown or greyish-brown fur",
+          "muzzle": "pointed snout",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "brown",
+            "dark brown",
+            "black"
+          ],
+          "pattern": "coat of spines, typically white at the base with a dark brown to black band towards the tip; the width of the dark band can make an animal look lighter or darker"
+        },
+        "underparts": {
+          "colour": [
+            "white",
+            "black"
+          ],
+          "pattern": "fine fur; colour varies across this range, and some accounts also describe a brown belly"
+        },
+        "legs": {
+          "colour": "dark brown or greyish brown; fairly long, with five toes on each foot"
+        },
+        "tail": {
+          "colour": "dark brown or greyish brown",
+          "shape": "fairly short, about 2 cm"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A white band across the forehead is the main field mark. Spines cover the upperparts; the face, ears and belly are furred."
+    },
+    {
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "When threatened it rolls into a ball, leaving the spines facing outward and the face, belly and legs tucked in."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "call",
+      "description": "Snorts and growls in excitement, and may make a weak twittering sound when uneasy. Spitting and hissing are described as a reaction to a strange animal in the territory. A male chatters and snorts while courting or fighting; a female snorts when courted.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "A very high-pitched alarm call similar to a scream.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "atelerix-frontalis/moreleta-kloof-curled.jpg",
+      "view": "standing-front",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/106429996",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/178785417/large.jpeg",
+      "author": "Rouxne Botha",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "South African hedgehog rolled into a ball in short grass, showing the white forehead band, an ear and the hind feet",
+      "caption": "Research-grade iNaturalist observation, Moreleta Kloof Nature Reserve, Pretoria, Gauteng, 9 February 2022. No reusable Kruger photograph was found."
+    },
+    {
+      "key": "atelerix-frontalis/pixley-ka-seme-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/306661225",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/553047604/large.jpg",
+      "author": "Ryan Tippett",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "South African hedgehog in profile at night, showing the white forehead band and dark-tipped spines",
+      "caption": "Research-grade iNaturalist observation, Pixley ka Seme District Municipality, Northern Cape, 23 September 2023."
+    },
+    {
+      "key": "atelerix-frontalis/frances-baard-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/44231028",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/70128449/large.jpg",
+      "author": "Calvin Harris",
+      "license": "CC BY-NC-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "South African hedgehog walking through dry grass at night, showing the white forehead band",
+      "caption": "Research-grade iNaturalist observation, Frances Baard District Municipality, Northern Cape, 28 December 2019."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Southern African hedgehog",
+      "url": "https://en.wikipedia.org/wiki/Southern_African_hedgehog",
+      "publisher": "Wikipedia",
+      "year": 2026
+    },
+    {
+      "title": "Atelerix frontalis: southern African hedgehog",
+      "url": "https://animaldiversity.org/accounts/Atelerix_frontalis/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "King, W. (2004). The fullest single account used for size, marks, habits, diet, young and calls."
+    },
+    {
+      "title": "Southern African Hedgehog",
+      "url": "https://ewt.org/project/southern-african-hedgehog/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": 2025
+    },
+    {
+      "title": "Atelerix frontalis – South African Hedgehog",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/1.-South-African-Hedgehog-Atelerix-frontalis_NT.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "iNaturalist taxon Atelerix frontalis",
+      "url": "https://api.inaturalist.org/v1/taxa/43056",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "low",
+    "needsReview": true,
+    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (South African hedgehog, Suid-Afrikaanse krimpvarkie). The 2025 EWT page uses Southern African Hedgehog and Suid-Afrikaanse Krimpvarkie. The species is on that checklist, but the 2025 EWT range (throughout Gauteng, Free State and North West, western Limpopo and Mpumalanga, and parts of the Northern and Eastern Cape, marginally KwaZulu-Natal) does not name Kruger or the Lowveld, and iNaturalist place 69020 has 0 observations of any grade, so status and monthsPresent are omitted. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Regional status is Near Threatened; IUCN global status is Least Concern.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "Kruger presence is uncertain: the species is on the 2011 SANParks checklist, but the 2025 EWT range (throughout Gauteng, Free State and North West, western Limpopo and Mpumalanga, and parts of the Northern and Eastern Cape, marginally KwaZulu-Natal) does not name Kruger or the Lowveld. iNaturalist place 69020 has 0 observations of any grade. status and monthsPresent are omitted.",
+    "No reusable Kruger photograph was found (0 licensed research-grade photographs in iNaturalist place 69020). The three photographs are research-grade records from South Africa outside Kruger. From a shortlist of six thumbnails, a garden record of animals in the hand (observation 138702992), a watermarked photograph (observation 150035250), and a photograph taken on a dirt track (observation 225977488) were not used.",
+    "iNaturalist has 0 sound observations for Atelerix frontalis in place 69020. Call descriptions are taken from Animal Diversity Web; recordings is empty.",
+    "Shoulder height was not found.",
+    "A Kruger-specific habitat account and a Kruger-specific birth-month range were not found. Southern African accounts give births from October to March.",
+    "Iris colour was not given in the sources used, so that mark is null. Skinner & Chimimba and Stuart's field guide were not available.",
+    "Confirmed wild predator species, other than a Free State anecdotal concern about black-backed jackals, were not named in the sources used."
+  ]
+}
