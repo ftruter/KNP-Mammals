@@ -1,0 +1,195 @@
+{
+    "kind": "species",
+    "slug": "nycticeinops-schlieffenii",
+    "scientificName": "Nycticeinops schlieffenii",
+    "commonNames": {
+        "en": "Schlieffen's bat",
+        "af": "Schlieffen se vlermuis"
+    },
+    "family": "vespertilionidae",
+    "inatTaxonId": 57550,
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Nycticeinops schlieffenii",
+                "url": "https://ewt.org/project/schlieffens-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Richards LR, Naidoo T, Balona J and da Silva JM. 2025. Regional Least Concern; no change from 2016; regional population trend Stable."
+            },
+            {
+                "title": "Schlieffen's serotine",
+                "url": "https://en.wikipedia.org/wiki/Schlieffen's_serotine",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Monadjem, Cotterill, Taylor and Jacobs (2017), IUCN Least Concern. The title Nycticeius schlieffeni redirects here. There is no Wikipedia article at Nycticeinops schlieffenii (two i's)."
+            }
+        ]
+    },
+    "size": {
+        "headBodyLengthCm": {
+            "min": 4,
+            "max": 5
+        },
+        "massKg": {
+            "min": 0.0037,
+            "max": 0.005
+        },
+        "note": "Wikipedia, citing Johnston (2006), gives a head-and-body length of 4–5 cm, a mass of 3.7–5 g, and a proportionately long tail of approximately 3 cm; that approximate tail figure is not entered as a range. The 2025 EWT assessment gives only means and maxima, not head-and-body or mass ranges: mean forearm length 3.11 ± 0.12 cm and mean total length 7.94 ± 0.58 cm in females, mean forearm length 3.13 ± 0.11 cm and mean total length 7.58 ± 0.34 cm in males, and maximum forearm length 3.30 cm in females and 3.36 cm in males. No shoulder height was published on the pages used."
+    },
+    "summary": "A very small insect-eating vesper bat, brown above with pale grey or white underparts, a short sparsely haired snout and rounded ears. It roosts by day in tree hollows, rock crevices and sometimes buildings, and forages along the clutter edge. The 2025 regional assessment rates it Least Concern. That page does not mention Kruger National Park; it lists occurrence in the Great Limpopo Transfrontier Park, and it lists the movement pattern as unknown.",
+    "description": "Wikipedia describes an unusually small bat, measuring 4–5 cm in head-and-body length and weighing 3.7–5 g, with a proportionately long tail of about 3 cm. Coat colour varies across the range; in general the fur is brown, with pale grey or white underparts. The skull is broad and flattened, the snout short, wide and sparsely haired, and the ears rounded, with a blunt, convex tragus. A prominent calcar extends about halfway along the border of the tail membrane. Wikipedia notes a resemblance to the evening bats of North America, distinguished most readily by the shorter snout and by the shape of the baculum. The English checklist name is Schlieffen's bat; Wikipedia's title is Schlieffen's serotine, and it also lists Schlieffen's twilight bat. The 2025 EWT assessment, which does not describe colour or ear shape, gives mean forearm length as 3.11 cm in females and 3.13 cm in males, mean total length as 7.94 cm in females and 7.58 cm in males, and maximum forearm length as 3.30 cm in females and 3.36 cm in males. It notes that the species was originally listed under Nycticeius and later placed in Nycticeinops, and it lists several synonyms, including Nycticeius schlieffeni.",
+    "habits": "The 2025 EWT assessment, citing Happold (2013), Skinner and Chimimba (2005) and Monadjem et al. (2020), says the species roosts by day in hollow branches, crevices in hollow trees, rock crevices, roofs and cellars, and that Smithers and Lobão Tello (1976) also recorded it under the bark of a dead Senegalia (formerly Acacia) nigrescens tree in mopane savannah in Zinave National Park. In the subregion it roosts singly, in pairs, and in small and large colonies (Rautenbach 1982; Smithers and Lobão Tello 1976), and individuals may congregate while foraging (Smithers 1983). The assessment describes it as gregarious and as a clutter-edge forager with broad wings and low wing-loading, allowing slow, manoeuvrable flight. Movement patterns are listed as Unknown. Wikipedia, citing Johnston (2006), says the bats are nocturnal, forage over fresh water such as marshes, rivers and lakes, and appear to be generally solitary, though they may roost in small groups of about three; it also reports echolocation calls as narrow band with steep frequency modulation, from 39 to 47 kHz.",
+    "diet": {
+        "summary": "An insectivore. The 2025 EWT assessment, citing Fenton et al. (1977a, 1998), Fenton and Thomas (1980) and Aldridge and Rautenbach (1987), says it feeds predominantly on aerial insects such as beetles (Coleoptera), flies (Diptera), moths (Lepidoptera), caddisflies (Trichoptera) and wasps, bees and ants (Hymenoptera). Vegetative matter may also form a proportion of the diet (Seamark and Bogdanowicz 2002). Wikipedia, citing Fenton and Thomas (1980), says it feeds primarily on beetles and caddisflies, and a smaller proportion of moths, bugs and flies.",
+        "items": [
+            "beetles",
+            "flies",
+            "moths",
+            "caddisflies",
+            "wasps, bees and ants",
+            "bugs",
+            "vegetative matter"
+        ],
+        "guild": "insectivore"
+    },
+    "young": "The 2025 EWT assessment states that the species gives birth to live young, and lists average litter size as two to three young (van der Merwe and Rautenbach 1986). Gestation time is given as approximately 11 weeks. It exhibits seasonal monoestry, with births coinciding with the austral summer months (November to December) (van der Merwe and Rautenbach 1986). Generation length, age at maturity, size at birth and longevity are listed as unknown. Wikipedia, citing van der Merwe and Rautenbach (1987), says the bats mate in June but carry sperm in the uterus until August, when ovulation and fertilisation occur, and, citing the 1986 paper, that they typically give birth to a litter of three. Pup appearance was not described on the pages used.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Bat hawks",
+            "note": "The 2025 EWT assessment, citing Fenton et al. (1977b), lists bat hawks as natural predators. Wikipedia cites the same work. Not a mammal in this guide."
+        }
+    ],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Insects",
+            "note": "The 2025 EWT assessment, citing Fenton et al. (1977a, 1998), Fenton and Thomas (1980) and Aldridge and Rautenbach (1987), reports a diet predominantly of Coleoptera, Diptera, Lepidoptera, Trichoptera and Hymenoptera. Wikipedia adds bugs among the lesser prey. Not mammals in this guide."
+        }
+    ],
+    "habitat": "The 2025 EWT assessment, citing Happold (2013), says the species occurs across dry and moist savannah (including miombo and mopane woodland), semi-desert grassland and shrubland, riparian forest (but avoids true forests), Vachellia–Commiphora bushland and some coastal woodlands and forests, and that it avoids most arid areas except those with persistent riverine habitats. Citing Monadjem and Reside (2008), the assessment says it appears closely associated with low-lying savannahs, where it may be abundant in well-wooded places such as riparian vegetation along rivers and drainage lines. Within the assessment region it is recorded from the Mopane, Lowveld and Central Bushveld bioregions of Limpopo, Mpumalanga and KwaZulu-Natal, and from Eswatini. Elevation limits are given as 3–2,922 m above sea level (Monadjem et al. 2024). The conservation section says it occurs in a number of protected areas, including the Great Limpopo Transfrontier Park. The page does not name Kruger National Park.",
+    "similar": [],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment lists the current population trend as Stable, does not give a Kruger figure, and says the species is considered common within its range in northeastern South Africa and Eswatini, that individuals are known to roost together in large numbers, and that it is well represented in museums, with over 300 specimens examined in Monadjem et al. (2010). Those remarks apply to the assessment region, not to Kruger.",
+        "sources": [
+            {
+                "title": "A conservation assessment of Nycticeinops schlieffenii",
+                "url": "https://ewt.org/project/schlieffens-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional remarks only (current population trend Stable; common in northeastern South Africa and Eswatini; large roosts; over 300 museum specimens). Not a Kruger estimate."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": "rounded, with a blunt, convex tragus"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": null,
+                    "muzzle": "short, wide and sparsely haired",
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": "brown",
+                    "pattern": "coat colour varies across the range"
+                },
+                "underparts": {
+                    "colour": [
+                        "pale grey",
+                        "white"
+                    ],
+                    "pattern": null
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": "proportionately long, about 3 cm; a prominent calcar extends about halfway along the tail-membrane border"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "flight-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A clutter-edge forager. The 2025 EWT assessment, citing Norberg and Rayner (1987) and Monadjem et al. (2020), describes broad wings and low wing-loading that allow slow, manoeuvrable flight. Wikipedia, citing Johnston (2006), says it forages over fresh water such as marshes, rivers and lakes."
+        },
+        {
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "Roosts by day in hollow branches, crevices in hollow trees, rock crevices, roofs and cellars, and has also been recorded under the bark of a dead Senegalia nigrescens tree. In the subregion it may roost singly, in pairs, or in small or large colonies."
+        }
+    ],
+    "calls": [],
+    "images": [],
+    "sources": [
+        {
+            "title": "A conservation assessment of Nycticeinops schlieffenii",
+            "url": "https://ewt.org/project/schlieffens-bat/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Richards LR, Naidoo T, Balona J and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable), the Afrikaans name Schlieffen se Vlermuis (also listed as Schlieffen-vlermuis and Klein Dakvlermuis), habitat, roost sites, clutter-edge foraging, diet, life-history remarks, predators, movement patterns listed as Unknown, occurrence in the Great Limpopo Transfrontier Park, the original combination under Nycticeius, synonyms including Nycticeius schlieffeni, uncertain subspecies N. s. australis and N. s. fitzsimonsi, the Torrent et al. (2025) mitochondrial lineages, and the Demos et al. (2024) genus note. The page heading and recommended citation use Nycticeinops schlieffenii (two i's); the running text usually uses schlieffeni (one i). The page does not mention Kruger National Park. Cited only; not hosted in this repo."
+        },
+        {
+            "title": "Schlieffen's serotine",
+            "url": "https://en.wikipedia.org/wiki/Schlieffen's_serotine",
+            "publisher": "Wikipedia",
+            "year": 2026,
+            "note": "The title Nycticeius schlieffeni redirects here. There is no article at Nycticeinops schlieffenii (two i's). Source of the appearance account (brown fur, pale grey or white underparts, short sparsely haired snout, rounded ears with a blunt convex tragus, prominent calcar, tail about 3 cm), the 4–5 cm head-and-body length, 3.7–5 g mass, the comparison with North American evening bats, echolocation (39–47 kHz, narrow band with steep frequency modulation), foraging over fresh water, the generally solitary roosting remark, delayed fertilisation, and a typical litter of three. Lists the English names Schlieffen's serotine, Schlieffen's bat and Schlieffen's twilight bat. Cites the 2017 IUCN Least Concern assessment (Monadjem, Cotterill, Taylor and Jacobs) and, citing Hill and Harrison (1987) and Ruedas (1990), treats the species as the only member of Nycticeinops."
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger-list animal as Nycticeinops schlieffenii (English Schlieffen's bat; Afrikaans Schlieffen se vlermuis) and does not remap the name. The checklist and the EWT recommended citation use schlieffenii (two i's); the EWT running text and Wikipedia use schlieffeni (one i). That spelling difference is already recorded as a remap on the species list and is flagged here, not used to change the checklist name. Wikipedia and EWT also use Schlieffen's serotine or Schlieffen's twilight bat as English names; those are flagged, not used to change the checklist name. The 2025 EWT assessment, citing Torrent et al. (2025), reports two mitochondrial lineages (West Africa and the Arabian Peninsula versus East Africa) and states that samples from the assessment region were not included, so the affinity of southern African animals remains uncertain; citing Demos et al. (2024), it also notes a proposal to move other Nycticeinops species to Afropipistrellus, leaving N. schlieffeni in Nycticeinops; and it treats the subspecies australis and fitzsimonsi as of uncertain validity. Wikipedia, citing older work, calls this the only species in Nycticeinops. Those points are flagged, not used to split or remap the checklist taxon. The 2025 page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park. Movement patterns are listed as Unknown, so status and monthsPresent are omitted even though the species is on the 2011 Kruger checklist."
+    },
+    "gaps": [
+        "The 2025 EWT assessment does not mention Kruger National Park (it names the Great Limpopo Transfrontier Park). Movement patterns are listed as Unknown, so status and monthsPresent are omitted.",
+        "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Stable and discusses regional abundance, not a Kruger figure.",
+        "No published shoulder height or tail-length range; Wikipedia gives a head-and-body length of 4–5 cm, a mass of 3.7–5 g and a tail of approximately 3 cm, and the 2025 EWT assessment gives only mean and maximum forearm lengths and mean total lengths.",
+        "No sourced recording. Wikipedia describes echolocation calls as 39–47 kHz, narrow band with steep frequency modulation. No iNaturalist sound was found in Kruger (place 69020).",
+        "No licensable photograph in Kruger (place 69020). The only licensed iNaturalist record in South Africa (place 6986) showed a handled, indoor bat and was not used.",
+        "Pup appearance was not published in the sources used.",
+        "Iris, ear colour, face, legs and tail colour were not described on the pages used.",
+        "No sourced field comparison with another species in this guide; Wikipedia compares the species only with North American evening bats.",
+        "The Afrikaans checklist form Schlieffen se vlermuis matches the 2025 EWT form Schlieffen se Vlermuis; EWT also lists Schlieffen-vlermuis and Klein Dakvlermuis, which are not used."
+    ]
+}
