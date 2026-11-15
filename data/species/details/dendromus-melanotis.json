@@ -1,0 +1,294 @@
+{
+  "kind": "species",
+  "slug": "dendromus-melanotis",
+  "scientificName": "Dendromus melanotis",
+  "commonNames": {
+    "en": "Grey climbing mouse",
+    "af": "Grysklimmuis"
+  },
+  "family": "nesomyidae",
+  "inatTaxonId": 44971,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Poemys melanotis s.l.",
+        "url": "https://ewt.org/project/grey-climbing-mouse/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Richards LR and da Silva JM. 2025. Regional status Least Concern, with no change from the 2016 assessment. Regional population trend stable. The 2025 assessment treats the taxon as Poemys melanotis sensu lato (formerly Dendromus melanotis) and lists Kruger National Park among the protected areas in which it occurs."
+      },
+      {
+        "title": "A conservation assessment of Dendromus melanotis",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/10.-Grey-Climbing-Mouse-Dendromus-melanotis_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "MacFadyen D, Relton C. 2016. Regional status Least Concern; no change from the 2004 national assessment. Global IUCN status Least Concern (2016). Also lists Kruger National Park among protected areas in the assessment region. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Gray climbing mouse",
+        "url": "https://en.wikipedia.org/wiki/Gray_climbing_mouse",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "A stub. The latin title Dendromus melanotis redirects here. Cites Child MF and Monadjem A (2016), IUCN Least Concern. This file keeps the 2011 checklist English name Grey climbing mouse."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": 6.0,
+      "max": 9.0
+    },
+    "tailCm": {
+      "min": 7.5,
+      "max": 13.0
+    },
+    "massKg": {
+      "min": 0.008,
+      "max": 0.017
+    },
+    "note": "The 2016 and 2025 EWT assessments do not publish head-and-body length, tail length or mass. Figures are from Animal Diversity Web: body length 6-9 cm, given separately from a tail of 7.5-13 cm, and mass 8-17 g (0.008-0.017 kg). The body-length figure is entered as head-and-body length. The 2025 EWT assessment, citing Rautenbach (1982), instead gives mean total length as 15.2 cm in males and 15.3 cm in females, and maximum total length as 18.5 cm in males and 19.8 cm in females; those totals are not split into head-and-body and tail, and are not averaged with the Animal Diversity Web ranges. Adding the Animal Diversity Web bounds would give a total length of about 13.5-22 cm, which is not the same as the Rautenbach totals and is not used here as a size field."
+  },
+  "summary": "A small, long-tailed climbing mouse of southern African grassland and savanna, ash-grey above with a dark stripe down the back and white or off-white underparts. It is nocturnal, climbs grass and low bushes with a prehensile tail, and is present in Kruger National Park.",
+  "description": "Animal Diversity Web describes the grey climbing mouse as having a body 6-9 cm long, a longer prehensile tail of 7.5-13 cm, unusually large eyes, three digits on each hand, and ash-grey upperparts with a dark dorsal stripe and white or off-white underparts. The 2025 EWT assessment likewise describes slender digits used to grip grass stalks and a prehensile tail used for balance, and treats the animal as semi-arboreal. Females are stated by Animal Diversity Web to have eight mammae. The sexes are not described as differently marked. This description follows Animal Diversity Web, which may be a broader African account, and the EWT assessments, which treat the taxon as a species complex (Poemys melanotis sensu lato in 2025).",
+  "habits": "The 2025 EWT assessment describes this species as nocturnal and largely terrestrial, but adapted to climbing low bushes and grass stalks. It is solitary, or lives in pairs or small family groups. It weaves a grass nest with a single entrance, usually attached to grass stems or shrubs up to 1 m above the ground (Skinner and Chimimba 2005; Monadjem 2013), and family groups may continue to use the nest after the young have been weaned. It has also been observed to dig burrows about 0.5 m deep, with a nest chamber and an exit opposite the entrance tunnel (De Graaff 1981); these burrows are thought to protect the animals from veld fires. Several studies treat it as a pioneer species that can recolonise burned grassland within a month, though one account reported complete post-burn mortality at another site; those results are not averaged. Animal Diversity Web, which may be a broader account, likewise describes nocturnal climbing, unlined ball-shaped grass nests about three inches across and no more than one metre above the ground, use of abandoned weaver and sunbird nests, and burrows 30-60 mm deep with an entrance tunnel and an opposite exit. A Kruger-specific activity study was not found.",
+  "diet": {
+    "summary": "The 2025 EWT assessment says the species feeds on seeds and on a wide range of invertebrates, including termites, crickets and moths. Animal Diversity Web describes it as granivorous and insectivorous: in one study of seven stomachs, three contained starchy and fatty seeds, one a mixture of seeds and insects, and two small beetles; in another, all stomachs contained seeds and 24% contained arthropods. Those dietary studies are not Kruger-specific and are not averaged with the EWT list of prey.",
+    "items": [
+      "seeds",
+      "termites",
+      "crickets",
+      "moths",
+      "beetles",
+      "other invertebrates"
+    ],
+    "guild": "omnivore"
+  },
+  "young": "The 2025 EWT assessment says the species breeds seasonally and is reproductively active in the summer and early autumn, with pregnant females recorded from November to April in the assessment region (Jacobsen 1977; De Graaff 1981; Rowe-Rowe and Meester 1982b; Lynch 1994). Litters are typically of two to four young (De Graaff 1981), though litters of up to six or seven have been recorded (Hanney 1965; Jacobsen 1977). Family groups may continue to use the grass nest after the young have been weaned (Skinner and Chimimba 2005). Animal Diversity Web, citing Stuart (1999) and Dieterlen (1990), gives a gestation of 23-27 days, litters of five to eight young born in summer, young born hairless and undeveloped at about 1 g, eyes opening at 20-24 days, and weaning a further 4-5 weeks after the eyes open; those litter sizes are not the same as EWT's typical two to four and are not averaged with them. Age at sexual maturity was not found. Kruger-specific birth months were not found.",
+  "predators": [
+    {
+      "slug": "lupulella-mesomelas",
+      "en": "Black-backed jackal"
+    },
+    {
+      "slug": null,
+      "en": "Cape fox",
+      "note": "The 2025 EWT assessment, citing Klare et al. (2014), lists the Cape fox (Vulpes chama) among meso-carnivore predators. It is not a species in this Kruger guide."
+    },
+    {
+      "slug": null,
+      "en": "Snakes",
+      "note": "The 2025 EWT assessment, citing De Graaff (1981), says the species is predated by snakes. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Raptors",
+      "note": "The 2025 EWT assessment, citing Nel and Nolte (1965), says it is predated by various raptors. Not mammals in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Termites",
+      "note": "Named among invertebrate foods in the 2025 EWT assessment."
+    },
+    {
+      "slug": null,
+      "en": "Crickets",
+      "note": "Named among invertebrate foods in the 2025 EWT assessment."
+    },
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "Named among invertebrate foods in the 2025 EWT assessment."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment describes a habitat generalist of grassland and savanna, including tall grass, short montane grassland, dry Kalahari scrub, river fringes and flood plains, and both intact and degraded areas, but absent from overgrazed ground with very little biomass. It occurs from sea level to about 2,700 m in the Drakensberg. A Kruger-specific habitat account was not found.",
+  "similar": [
+    {
+      "slug": "dendromus-mystacalis",
+      "note": "The grey climbing mouse has ash-grey upperparts with a dark dorsal stripe and white or off-white underparts, in the Animal Diversity Web account. The chestnut climbing mouse is the other climbing mouse on the Kruger list."
+    }
+  ],
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "ash-grey",
+          "pattern": "dark dorsal stripe"
+        },
+        "underparts": {
+          "colour": [
+            "white",
+            "off-white"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "long, prehensile"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A long prehensile tail, a dark stripe down the back, and unusually large eyes."
+    }
+  ],
+  "calls": [],
+  "images": [
+    {
+      "key": "dendromus-melanotis/umkhanyakude-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/293061155",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/527447054/large.jpg",
+      "author": "Ryan Tippett",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Grey climbing mouse on sand among short grass, showing ash-grey upperparts, a dark stripe down the back, large eyes and white underparts",
+      "caption": "Research-grade iNaturalist observation, uMkhanyakude District Municipality, KwaZulu-Natal, 25 May 2016."
+    },
+    {
+      "key": "dendromus-melanotis/umkhanyakude-climbing.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/260350817",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/467532406/large.jpeg",
+      "author": "Thomas Brooks",
+      "license": "CC BY-NC-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Grey climbing mouse at night, gripping a grass stem, showing a long tail, large eyes and pale underparts",
+      "caption": "Research-grade iNaturalist observation, uMkhanyakude District Municipality, KwaZulu-Natal, 22 January 2025."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 EWT assessment gives the regional population trend as stable and does not publish a Kruger total. It reports Highveld grassland densities of 5 animals/ha in Rocky Highveld Grassland and 12 animals/ha in degraded grassland (MacFadyen 2014); those are local densities outside Kruger, not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Poemys melanotis s.l.",
+        "url": "https://ewt.org/project/grey-climbing-mouse/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend stable; no Kruger total. Highveld densities cited from MacFadyen (2014) are not a Kruger figure."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official SANParks trends document cited as the place a Kruger figure may be published; no park-wide count for this species was taken from it in this session."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "A conservation assessment of Poemys melanotis s.l.",
+      "url": "https://ewt.org/project/grey-climbing-mouse/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Richards LR and da Silva JM. 2025. Main source for regional status, Kruger occurrence, habitat, habits, diet, young and predators."
+    },
+    {
+      "title": "A conservation assessment of Dendromus melanotis",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/10.-Grey-Climbing-Mouse-Dendromus-melanotis_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "MacFadyen D, Relton C. 2016. Regional Least Concern; Kruger listed among protected areas. Afrikaans names given as Grys Klimmuis and Grys Boommuis. Cited only; the PDF is not hosted in this repo. This file uses the 2011 checklist form Grysklimmuis for commonNames.af."
+    },
+    {
+      "title": "Dendromus melanotis (gray climbing mouse)",
+      "url": "https://animaldiversity.org/accounts/Dendromus_melanotis/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": 2000,
+      "note": "Clauss B. Account used for pelage, size, mass, some habits and reproduction, and diet studies. It may be a broader African account."
+    },
+    {
+      "title": "Gray climbing mouse",
+      "url": "https://en.wikipedia.org/wiki/Gray_climbing_mouse",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "A stub. Redirect from Dendromus melanotis. Used for the IUCN global citation and a broad range list only."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Dendromus melanotis (Grey climbing mouse, the 2011 SANParks checklist name; Afrikaans Grysklimmuis). The 2025 EWT assessment treats the same taxon as Poemys melanotis sensu lato, a species complex with at least four putative cryptic species in South Africa, and notes that true P. melanotis sensu stricto may be restricted to the Eastern Cape. Kruger records are listed under the sensu lato assessment and are not remapped here. iNaturalist taxon 44971 remains Dendromus melanotis. Wikipedia uses the American spelling Gray climbing mouse; the 2011 English name is kept. There were no research-grade iNaturalist observations in Kruger (place 69020)."
+  },
+  "gaps": [
+    "No licensable Kruger photographs; iNaturalist place 69020 had no research-grade observations of this taxon.",
+    "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
+    "No Kruger census or SANParks park-wide population figure.",
+    "No Kruger-specific habitat or activity study.",
+    "Age at sexual maturity was not found.",
+    "Iris, ear, leg and tail colours, and ear shape, were not described in the sources consulted.",
+    "The 2025 EWT assessment treats the taxon as Poemys melanotis sensu lato, a species complex; this file keeps Dendromus melanotis from species-list.json and does not remap Kruger records. Which cryptic species the Kruger animals belong to is unresolved."
+  ]
+}
