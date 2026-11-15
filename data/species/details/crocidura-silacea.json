@@ -1,0 +1,148 @@
+{
+  "kind": "species",
+  "slug": "crocidura-silacea",
+  "scientificName": "Crocidura silacea",
+  "commonNames": {
+    "en": "Peters' musk shrew",
+    "af": "Peters se skeerbek"
+  },
+  "family": "soricidae",
+  "inatTaxonId": 46772,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global Least Concern (2016, errata 2017); 2025 regional Red List for South Africa, Eswatini and Lesotho Least Concern, with no change from 2016",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Crocidura silacea",
+        "url": "https://ewt.org/project/lesser-grey-brown-musk-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Russo IM and da Silva JM. 2025. Regional status Least Concern, with no change from the 2016 assessment. Regional population trend declining, based on ongoing habitat loss. The page lists occurrence in many protected areas, including Kruger National Park."
+      },
+      {
+        "title": "A conservation assessment of Crocidura silacea",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Lesser-Grey-brown-Musk-Shrew-Crocidura-silacea_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional status Least Concern. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Lesser gray-brown musk shrew",
+        "url": "https://en.wikipedia.org/wiki/Lesser_gray-brown_musk_shrew",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "The latin title Crocidura silacea redirects here. Cites Cassola (2016, errata 2017), IUCN global Least Concern. The page is a stub."
+      }
+    ]
+  },
+  "summary": "A white-toothed musk shrew of intact woodland, bushveld, grassland and forest in southern Africa. The 2025 EWT assessment lists it as Least Concern in the region, with no change from 2016, a declining regional population trend inferred from habitat loss, and occurrence in several protected areas including Kruger National Park. It has not been recorded from agricultural or modified habitats. The same assessment says it is almost indistinguishable from the reddish-grey musk shrew (Crocidura cyanea), and that museum records of the two have often been confused.",
+  "description": "The sources consulted do not describe the pelage, measurements or other external field marks of this species, and those details are not inferred from the English names Lesser Grey-brown Musk Shrew or Peters' musk shrew. Animal Diversity Web places it in the white-toothed shrew subfamily Crocidurinae but does not describe the animal. The 2025 EWT assessment, citing Taylor and Contrafatto (1996), says the species is very similar to, and almost indistinguishable from, Crocidura cyanea, though more restricted in distribution, and that many museum records have been misidentified as C. cyanea and vice versa. A taxonomic note on the same page records earlier controversy over the validity of the species (Ellerman et al. 1953; Heim de Balsac and Meester 1977), with later morphometric studies supporting species status (Meester et al. 1986; Taylor et al. 1994; Taylor and Contrafatto 1996). Wikipedia is a stub and gives no appearance account.",
+  "habitat": "The 2025 EWT assessment, citing Skinner and Chimimba (2005), says the species occurs in montane evergreen forest, savannah woodland, bushveld, grassland and coastal forest, and has been collected from under trees, in old timber and under stones. In Maputaland it prefers sand forest. In Mkhuze, Kube Yini and Phinda Game Reserves it was found in Lebombo wooded grassland, Spirostachys africana woodland, Acacia woodland, Terminalia sericea woodland, Combretum molle woodland on red sand, and sand forest (Delcros et al. 2014). In Eswatini, specimens have been collected from savannah woodland (Monadjem 1998) and from tall grassland, rocky thicket, short rocky forest and low open rocky woodland in the Maguga Dam area (Avenant and Kuyler 2002). The page concludes that it exists in a wide range of habitats but has not been captured on agricultural or transformed landscapes and so relies on intact environments. Wikipedia lists natural habitats of dry savanna, subtropical or tropical dry shrubland, Mediterranean-type shrubby vegetation, subtropical or tropical high-elevation grassland, and rocky areas.",
+  "similar": [
+    {
+      "slug": "crocidura-cyanea",
+      "note": "The 2025 EWT assessment, citing Taylor and Contrafatto (1996), says C. silacea is very similar to, and almost indistinguishable from, C. cyanea, but is more restricted in distribution. The same page says many museum records have been misidentified as C. cyanea and vice versa, leading to inaccuracies in the distribution maps for both species. No external field marks that separate the two were published in the sources consulted."
+    }
+  ],
+  "predators": [
+    {
+      "slug": null,
+      "en": "Barn owl (Tyto alba)",
+      "note": "The 2025 EWT assessment describes the species as an important prey species, citing Avery et al. (2002), a study of barn-owl pellets and micromammal distributions in KwaZulu-Natal. This is not a mammal in this guide."
+    }
+  ],
+  "variants": [],
+  "viewNotes": [],
+  "calls": [],
+  "images": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 EWT assessment gives the regional population trend as declining, based on ongoing habitat loss, and the number of mature individuals as unknown. It says the species can be common or abundant in suitable habitats, for example in Maputaland in northern KwaZulu-Natal (P. Taylor unpubl. data), but was the least abundant shrew sampled at Mkhuze Game Reserve, where Crocidura fuscomurina and C. hirta represented 73% of captures (Delcros et al. 2014), and at Phinda Private Game Reserve was only more abundant than Suncus infinitesimus, with C. fuscomurina and C. hirta the most abundant species (Rautenbach et al. 2014); those figures are not Kruger counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Crocidura silacea",
+        "url": "https://ewt.org/project/lesser-grey-brown-musk-shrew/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional trend declining, based on ongoing habitat loss; number of mature individuals unknown; no Kruger total. Local abundance examples from Maputaland, Mkhuze and Phinda are not park-wide Kruger figures."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official SANParks trends document cited as the place a Kruger figure may be published; no park-wide count for this species was taken from it in this session."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "A conservation assessment of Crocidura silacea",
+      "url": "https://ewt.org/project/lesser-grey-brown-musk-shrew/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Russo IM and da Silva JM. 2025. Main source for regional status, taxonomy notes, distribution, habitat, regional population comments, predators and the Afrikaans name Peters se Skeerbek. The page lists occurrence in several protected areas, including Kruger National Park."
+    },
+    {
+      "title": "A conservation assessment of Crocidura silacea",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/8.-Lesser-Grey-brown-Musk-Shrew-Crocidura-silacea_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Regional Least Concern. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Crocidura silacea (lesser gray-brown musk shrew)",
+      "url": "https://animaldiversity.org/accounts/Crocidura_silacea/",
+      "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+      "year": null,
+      "note": "A classification page only; no biological account of size, pelage, habits or calls. Places the species in Crocidurinae and in Soricomorpha, an older ordinal name than Eulipotyphla."
+    },
+    {
+      "title": "Lesser gray-brown musk shrew",
+      "url": "https://en.wikipedia.org/wiki/Lesser_gray-brown_musk_shrew",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirect from Crocidura silacea. A stub. Used for the IUCN global citation (Cassola 2016, errata 2017) and a short list of natural habitats. The range listed on the page (including Tanzania and Uganda) is broader than the confirmed range in the 2025 EWT assessment. This file keeps the 2011 checklist English name Peters' musk shrew; the page title is lesser gray-brown musk shrew."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Crocidura silacea (Peters' musk shrew, the 2011 SANParks checklist name; Afrikaans Peters se skeerbek). The 2025 EWT page uses Lesser Grey-brown Musk Shrew and also lists Peters' Musk Shrew, with the Afrikaans name Peters se Skeerbek; iNaturalist taxon 46772, whose preferred English name is Lesser Gray-brown Musk Shrew, is used for media searches. The 2011 English and Afrikaans names are kept. The 2025 EWT assessment supports species status on morphometric grounds and stresses frequent confusion with C. cyanea; Kruger records are not remapped here. Because the assessment lists Kruger National Park among protected areas where the species occurs, status is given as resident and monthsPresent as all year; no seasonal Kruger data were found. Appearance, measurements, habits, diet and life history were not published in the sources consulted (the EWT life-history fields are unspecified; Wikipedia and Animal Diversity Web are stubs).",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No iNaturalist observations of any grade in Kruger (place 69020), and no licensed research-grade photographs from South Africa (place 6986).",
+    "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
+    "No Kruger census or SANParks park-wide population figure.",
+    "Size, mass, pelage and other external field marks were not published in the sources consulted, and are not inferred from the English name. Variants are therefore empty.",
+    "Habits, diet, gestation, litter size, age at maturity and the appearance of the young were not found. The 2025 EWT life-history fields are unspecified.",
+    "No external field marks were found that separate this species from C. cyanea or from other Crocidura or Suncus species in this guide, beyond the 2025 EWT statement that it is almost indistinguishable from C. cyanea.",
+    "The 2025 EWT assessment notes earlier controversy over the validity of C. silacea and frequent misidentification with C. cyanea; this file keeps Crocidura silacea from species-list.json and does not remap records.",
+    "Wikipedia, citing the IUCN account, lists a broader range (including Tanzania and Uganda) than the confirmed countries in the 2025 EWT assessment, which treats presence in Angola, Botswana, Malawi and Zambia as uncertain and does not list Tanzania or Uganda."
+  ]
+}
