@@ -1,0 +1,228 @@
+{
+  "kind": "species",
+  "slug": "glauconycteris-variegata",
+  "scientificName": "Glauconycteris variegata",
+  "commonNames": {
+    "en": "Butterfly bat",
+    "af": "Vlindervlermuis"
+  },
+  "family": "vespertilionidae",
+  "inatTaxonId": 57549,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Least Concern; no change from 2016; regional population trend Stable). Wikipedia cites a global IUCN listing of Least Concern (Monadjem, Taylor, Jacobs and Cotterill 2017).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Glauconycteris variegata",
+        "url": "https://ewt.org/project/butterfly-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Richards LR and da Silva JM. 2025. In Patel T, Smith C, Roxburgh L, da Silva JM and Raimondo D, editors. The Red List of Mammals of South Africa, Eswatini and Lesotho. 2025 regional Least Concern status (no change from 2016; trend Stable), common names including Afrikaans Vlindervlermuis, ecology and taxonomy. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "Variegated butterfly bat",
+        "url": "https://en.wikipedia.org/wiki/Variegated_butterfly_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2017 IUCN global assessment of Glauconycteris variegata (Monadjem, Taylor, Jacobs and Cotterill) as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 4.42 ± 0.11 cm in females and 4.37 ± 0.14 cm in males, and mean total length in females as 10.40 ± 0.74 cm. The male mean total length on that page is incomplete and is not entered. Wikipedia, citing Rambaldini (2010), gives an average total length of 10 cm, a tail of 4.7 cm, a mass of around 11 g, and an average wingspan of 32 cm in females and 31 cm in males, with females slightly larger than males. Those compiled averages are not entered as min–max bounds. No separate head-and-body length or shoulder height was published in the sources used, so those fields are omitted."
+  },
+  "summary": "A small southern African vesper bat with long, usually yellowish or light grey fur and a distinctive net of dark veins on the wing membranes, from which it takes the name butterfly bat. It roosts in foliage, usually in small groups, and is a clutter-edge insectivore that feeds mainly on moths. The 2025 regional Red List rates it Least Concern and records it from Kruger National Park. This file keeps the checklist names Glauconycteris variegata and Butterfly bat.",
+  "description": "A vesper bat (Vespertilionidae). Wikipedia, citing Rambaldini (2010), describes relatively small animals averaging 10 cm in total length, with a 4.7 cm tail and a mass of around 11 g; females are slightly larger than males, with an average wingspan of 32 cm against 31 cm in males. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 4.42 ± 0.11 cm in females and 4.37 ± 0.14 cm in males, and mean total length in females as 10.40 ± 0.74 cm. The fur is long and silky and highly variable in colour, usually yellowish or light grey, without the bold body patterns of some related species; the underside is white or very pale grey, and the fur on the face and ears is brown. The wing membranes have a sparse covering of hair and a distinctive reticulated pattern of dark veins. The head is domed, with a short snout and a deep groove between the nostrils; the lower lip is large and padded, and the ears are relatively short, with a small tragus. This file keeps the checklist names Glauconycteris variegata and Butterfly bat. The 2025 EWT page lists the synonyms Chalinolobus variegatus and Scotophilus variegatus, and notes two subspecies whose validity remains uncertain (Happold 2013): G. v. phalaena in Sudan and Somalia, and G. v. variegata through the rest of the range, including the assessment region. Glauconycteris machadoi is sometimes treated as a melanistic subspecies of G. variegata (Monadjem et al. 2020), but is considered a distinct species by Happold (2013). No split is applied here.",
+  "habits": "The 2025 EWT assessment classifies the species as a clutter-edge forager and notes intermediate wing-loading (Happold 2013). Movement patterns are listed as unknown. It is considered rare throughout its range, and may be under-sampled because roosting animals are well camouflaged by reticulated wings that resemble dead leaves (Happold 2013). It roosts in foliage, often hidden among leaves or palm fronds, usually singly or in pairs (Monadjem et al. 2020), and always in groups of fewer than 10 individuals (Rambaldini 2010). Happold and Happold (2023: 136), cited on the 2025 EWT page, mention animals roosting singly, in pairs, or in groups of three to 12. Roosts have also been found in the thatched roofs of abandoned huts and among dense vegetation (Allen 1917; Rautenbach et al. 1979; Ansell and Dowsett 1988; Taylor 1998). In Zimbabwe, Obrist et al. (1989) recorded a group of eight in the foliage of a Natal mahogany (Trichilia emetica); EWT also cites records from lychee trees (Pienaar et al. 1987) and from a low branch of a mango tree (McLellan 1986). Wikipedia, citing Rambaldini (2010) and Obrist et al. (1989), describes the species as nocturnal, and says that, unlike many other bats, it does not wrap itself in its wings while roosting; foraging flight has been measured at 4 m/s. Wikipedia, citing Fenton et al. (1977), says it forages for flying insects in open terrain, close to the ground or above open water.",
+  "diet": {
+    "summary": "An insectivore and clutter-edge forager. The 2025 EWT assessment, citing Monadjem et al. (2020) and Happold (2013), says the diet mainly comprises Lepidoptera. The same page, citing Kingdon (1974) and Fenton et al. (1977), says it eats airborne prey, primarily soft-bodied insects such as moths.",
+    "items": [
+      "moths",
+      "other soft-bodied flying insects"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment, citing Anciaux de Faveaux (1970) in Rambaldini (2010: 255), describes the species as monoestrous, with a seasonal reproductive cycle that can change across its range. Pregnant females have been encountered in August (Smithers and Wilson 1979) and November (Obrist 1989) in Zimbabwe. Average litter size is reported as a single young (Obrist et al. 1989). Gestation time is not specified on the 2025 EWT page. Wikipedia, citing Rambaldini (2010), says there is a single breeding season each year during the winter, with timing varying widely by latitude from December in the north to August in the south, that a single young is born after a gestation of about three months, and that the young is weaned before the age of two months.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "The 2025 EWT assessment, citing Monadjem et al. (2020) and Happold (2013), says the diet mainly comprises Lepidoptera, and, citing Kingdon (1974) and Fenton et al. (1977), that the prey is primarily soft-bodied insects such as moths. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment associates the species with open savannah woodland, open bushland and riverine woodland or coastal forest within the assessment region (Skinner and Chimimba 2005; Monadjem et al. 2020; Happold 2013). It is generally absent from areas of closed forest. However, Rautenbach (1982) captured this species in dense riparian forest in Pafuri, Kruger National Park. It has also been recorded over streams and pools (Happold 2013), and one individual was mist-netted in a picnic ground within dense forest in KwaZulu-Natal (Taylor 1998). It can occur in semi-disturbed or modified habitats. Wikipedia, citing the 2017 IUCN assessment, places it in forested, savanna and bushveld habitats south of the Sahara, at elevations of up to 1,000 m. The 2025 assessment records the species from Kruger National Park, among other protected areas in the assessment region, and notes that a phylogenetic dataset (Hassanin et al., cited on that page) included South African animals from Kruger National Park.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment lists the number of mature individuals as fewer than 10,000, suspects there may well be fewer than 1,000 mature individuals within the assessment region, and describes the regional trend as Stable; those remarks apply to the assessment region (South Africa, Eswatini and Lesotho), not to Kruger.",
+    "sources": [
+      {
+        "title": "A conservation assessment of Glauconycteris variegata",
+        "url": "https://ewt.org/project/butterfly-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional remarks only (fewer than 10,000 mature individuals listed; possibly fewer than 1,000 in the assessment region; trend Stable). Not a Kruger estimate."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "brown",
+          "shape": "relatively short, with a small tragus"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "brown",
+          "muzzle": "short snout with a deep groove between the nostrils; lower lip large and padded",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "yellowish",
+            "light grey"
+          ],
+          "pattern": "long silky fur, highly variable in colour, without the bold body patterns of some related species"
+        },
+        "underparts": {
+          "colour": [
+            "white",
+            "very pale grey"
+          ],
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Roosts in foliage, often hidden among leaves or palm fronds, usually singly or in pairs, and in groups of fewer than ten, or of three to twelve according to Happold and Happold (2023). Unlike many other bats, it is described as not wrapping itself in its wings while roosting."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter-edge forager with intermediate wing-loading and a distinctive reticulated pattern of dark veins on the wing membranes. Wikipedia, citing Obrist et al. (1989), gives a foraging flight speed of 4 m/s."
+    }
+  ],
+  "calls": [],
+  "images": [
+    {
+      "key": "glauconycteris-variegata/st-lucia-foliage-roost.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/359152771",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/655254815/large.jpg",
+      "author": "Paul Carter",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A group of butterfly bats roosting in foliage at St Lucia, KwaZulu-Natal",
+      "caption": "Adults roosting in foliage, St Lucia, KwaZulu-Natal, 5 December 2025."
+    },
+    {
+      "key": "glauconycteris-variegata/st-lucia-wing-pattern.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/359151369",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/655253076/large.jpg",
+      "author": "Paul Carter",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Butterfly bat in foliage, showing the reticulated wing membranes, in the uMkhanyakude District Municipality, KwaZulu-Natal",
+      "caption": "Adult roosting in foliage, showing the reticulated wing membranes, uMkhanyakude District Municipality, KwaZulu-Natal, 4 December 2025. Same site as the St Lucia record."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A conservation assessment of Glauconycteris variegata",
+      "url": "https://ewt.org/project/butterfly-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Richards LR and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; trend Stable), Afrikaans name Vlindervlermuis, synonyms, taxonomic notes, habitat, roosting, diet, reproduction, movement, forearm and female total-length means, named Kruger records, and regional population remarks. Cited only; not hosted in this repo."
+    },
+    {
+      "title": "Variegated butterfly bat",
+      "url": "https://en.wikipedia.org/wiki/Variegated_butterfly_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Appearance, average total length, tail length, mass and wingspan, roosting posture, foraging flight speed, and some reproductive details, citing Rambaldini (2010), Obrist et al. (1989) and Fenton et al. (1977). The title Glauconycteris variegata redirects here. The page uses the English name variegated butterfly bat, also listing leaf-winged bat and butterfly bat."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Glauconycteris variegata (English Butterfly bat; Afrikaans Vlindervlermuis) and does not remap it to Variegated Butterfly Bat or Leaf-winged Bat, which the 2025 EWT page also lists, or to the older combinations Chalinolobus variegatus and Scotophilus variegatus. The epithet is kept as variegata, following the 2025 assessment and the checklist; Glauconycteris variegatus is only a gender-agreement spelling. Two historically recognised subspecies remain of uncertain validity, and G. machadoi is sometimes lumped with this species; no split is applied. The name Niumbaha was not used for this species on the 2025 EWT page or on Wikipedia. Movement patterns are unknown, but the 2025 assessment does not describe the species as a migrant, and it gives a definite Kruger occurrence, including a phylogenetic dataset (Hassanin et al., cited there) based on animals from Kruger National Park, so status is entered as resident. Appearance characters are taken from Wikipedia citing Rambaldini (2010), not from another species file.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger or SANParks park-wide population figure was found. The 2025 assessment's figures of fewer than 10,000 mature individuals, and a suspicion of fewer than 1,000 in the assessment region, apply to South Africa, Eswatini and Lesotho, not to Kruger.",
+    "The male mean total length on the 2025 EWT page is incomplete and was not entered. No separate head-and-body length was published in the sources used.",
+    "No mass, tail length or wingspan was published on the 2025 EWT page. Wikipedia, citing Rambaldini (2010), gives averages only, which are recorded in the size note rather than as min–max bounds.",
+    "No sourced predator was found in the sources used, so predators is empty.",
+    "No sourced comparison with other Kruger vesper bats was found, so similar is empty.",
+    "No Kruger photograph or sound was found: iNaturalist place 69020 returned no licensed observations for taxon 57549. Two South African foliage-roost photographs from the same St Lucia / uMkhanyakude site were kept.",
+    "No sourced description of social calls was used, and calls is empty. Wikipedia, citing Obrist et al. (1989), describes frequency-modulated ultrasonic calls but quotes a sweep of 70 to 30 Hz, which was not entered.",
+    "Gestation time is not specified on the 2025 EWT page. Wikipedia, citing Rambaldini (2010), gives a gestation of about three months.",
+    "The 2025 EWT assessment lists movement patterns as unknown and says the validity of the two currently recognised subspecies remains uncertain."
+  ]
+}
