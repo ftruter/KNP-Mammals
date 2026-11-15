@@ -1,0 +1,244 @@
+{
+  "kind": "species",
+  "slug": "rhinolophus-simulator",
+  "scientificName": "Rhinolophus simulator",
+  "commonNames": {
+    "en": "Bushveld horseshoe bat",
+    "af": "Bosveldsaalneusvlermuis"
+  },
+  "family": "rhinolophidae",
+  "inatTaxonId": 40693,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2016 regional Red List for South Africa, Eswatini and Lesotho (Least Concern; no change from the 2004 national assessment). The same assessment lists the global Red List status as Least Concern (2016). Wikipedia cites a global IUCN listing of Least Concern (2017 assessment).",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus simulator",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/49.-Bushveld-Horseshoe-Bat-Rhinolophus-simulator_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Jacobs D, Taylor PJ, Richards LR, Cohen L, MacEwan K, Schoeman C, Sethusa T and Monadjem A. 2016. In Child MF, Roxburgh L, Do Linh San E, Raimondo D, Davies-Mostert HT, editors. The Red List of Mammals of South Africa, Swaziland and Lesotho. Regional Red List status (2016) Least Concern; National Red List status (2004) Least Concern; Reasons for change: None; Global Red List status (2016) Least Concern. The EWT red-list Chiroptera table links this 2016 PDF and does not list a later project page. The underlying PDF is not hosted in this repo."
+      },
+      {
+        "title": "Bushveld horseshoe bat",
+        "url": "https://en.wikipedia.org/wiki/Bushveld_horseshoe_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Monadjem, Taylor, Jacobs and Cotterill (2017) for a global IUCN listing of Least Concern (IUCN 3.1, article T19568A21994351)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "note": "Neither the 2016 EWT assessment nor Wikipedia publishes forearm length, mass, head-and-body length, tail length, shoulder height or wingspan. Animal Diversity Web has no species account and no measurements."
+  },
+  "summary": "A horseshoe bat of moist savannah, riparian forest and wooded drainage lines, also recorded in bushveld beside rivers, savannah woodland, montane habitats and coastal mosaics. It roosts in caves and mine adits, sometimes in colonies of up to 300, and also singly or in smaller groups in rocky outcrops, caverns and road culverts, and it hunts moths and other soft-bodied insects as a slow, acrobatic clutter forager. The 2016 regional assessment lists it as Least Concern, with a stable trend and no change from 2004, and records it as present in Kruger National Park.",
+  "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia and the 2016 EWT assessment give the authority as K. Andersen, 1904, which matches. Neither source describes pelage colour, ear shape or colour, nose-leaf shape, or wing-membrane colour, so those marks are not entered. The 2016 assessment treats the taxon as a species, with two subspecies tentatively recognised: Rhinolophus simulator simulator, from eastern Africa, extending from Ethiopia to KwaZulu-Natal, South Africa; and R. s. alticolus, from Guinea, Liberia, Nigeria and Cameroon (Cotterill and Happold 2013). It notes that future research may confirm that R. s. alticolus is a distinct species, and lists Rhinolophus bembanicus Senna, 1914 as a probable synonym (Monadjem et al. 2010). This file keeps the species-list.json names and does not remap the Kruger animals, which fall in the range of R. s. simulator.",
+  "habits": "The 2016 EWT assessment describes the species as an insectivorous clutter forager (Skinner and Chimimba 2005; Monadjem et al. 2010) and a slow but acrobatic flier (Rautenbach 1997), with a low aspect ratio, very low wing-loading and rounded wing tips (Cotterill and Happold 2013). It is thought to be common. Colonies of up to 300 individuals have been recorded in caves and mine adits (Rautenbach 1982), but it also roosts singly or in smaller groups within rocky outcrops, caverns and culverts under the road (Monadjem et al. 2010). A boxed note, citing Skinner and Chimimba (2005), says Bushveld horseshoe bats alter their roosting positions according to the relative humidity and temperature within the cave, preferring humidities of 83–100% and temperatures of 19–23°C. In spring, females have been observed migrating to maternity roosts to give birth, before returning to the colony with their young (Wingate 1983). The assessment does not list the species as a migrant, partial migrant or seasonal visitor, and its southern African countries table marks presence (extant in South Africa, Eswatini, Mozambique, Zimbabwe and Botswana; absent from Namibia and Lesotho) without a seasonal pattern. The Conservation section records it as present in Kruger National Park among other protected areas.",
+  "diet": {
+    "summary": "An insectivore and clutter forager. The 2016 EWT assessment, citing Rautenbach (1997), says it feeds on a range of soft-bodied insects and is known to hunt amongst dense vegetation and even on the ground. It feeds most commonly on Lepidoptera, but to a lesser extent also takes Hemiptera, Isoptera, Orthoptera and Coleoptera (Whitaker and Black 1976; Findley and Black 1983; Schoeman 2006).",
+    "items": [
+      "moths (Lepidoptera)",
+      "bugs (Hemiptera)",
+      "termites (Isoptera)",
+      "orthopterans (Orthoptera)",
+      "beetles (Coleoptera)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2016 EWT assessment, citing Wingate (1983), states that in spring females have been observed migrating to maternity roosts to give birth, before returning to the colony with their young. In KwaZulu-Natal, pregnant females were observed in September and October (Skinner and Chimimba 2005). A single, naked young is born in summer, usually in late November or early December, and young are weaned after a period of four to six weeks (Rautenbach 1997). No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "The 2016 EWT assessment says the species feeds most commonly on Lepidoptera, and to a lesser extent also takes Hemiptera, Isoptera, Orthoptera and Coleoptera (Whitaker and Black 1976; Findley and Black 1983; Schoeman 2006). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Bugs",
+      "note": "Taken to a lesser extent than moths, according to the 2016 EWT assessment (Whitaker and Black 1976; Findley and Black 1983; Schoeman 2006). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Termites",
+      "note": "Taken to a lesser extent than moths, according to the 2016 EWT assessment (Whitaker and Black 1976; Findley and Black 1983; Schoeman 2006). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Orthopterans",
+      "note": "Taken to a lesser extent than moths, according to the 2016 EWT assessment (Whitaker and Black 1976; Findley and Black 1983; Schoeman 2006). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "Taken to a lesser extent than moths, according to the 2016 EWT assessment (Whitaker and Black 1976; Findley and Black 1983; Schoeman 2006). Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2016 EWT assessment says the species typically occurs in caves within areas of moist savannah, but has also been documented in bushveld regions adjacent to rivers and savannah woodland (for example, Brachystegia woodland in Zimbabwe) (Skinner and Smithers 1990), montane habitats and coastal mosaics (Cotterill and Happold 2013). It is most commonly associated with riparian forest and along wooded drainage lines (Monadjem et al. 2010). The availability of diurnal roosting sites, such as caves and mine adits, is an essential component of its habitat requirements (Taylor 1998). In KwaZulu-Natal it is often associated with Valley Bushveld regions along the lower reaches of east-flowing rivers (Taylor 1998). It is absent from deserts and rare in semi-arid savannahs (Cotterill and Happold 2013). In the assessment region it occurs in Limpopo, Mpumalanga, Gauteng, North West and KwaZulu-Natal, and in Eswatini (Monadjem et al. 2010), with an extent of occurrence of 349,369 km². The Conservation section lists it as present in Kruger National Park, iSimangaliso Wetland Park, Madikwe Nature Reserve, Pilanesberg Game Reserve, Oribi Gorge Nature Reserve and Songimvelo Nature Reserve. Wikipedia gives the natural habitats as moist savanna, caves and other subterranean habitats.",
+  "similar": [
+    {
+      "slug": "rhinolophus-darlingi",
+      "note": "The 2016 EWT assessment, citing Monadjem et al. (2010), says this species is easily confused with Rhinolophus darlingi and can only be reliably separated by the position and presence of the minute first upper premolar. No pelage or nose-leaf contrast between the two was given in the sources used."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment records the species as present in Kruger National Park among other protected areas, but gives no park total. Regionally it is listed as Least Concern in view of its wide distribution (extent of occurrence estimated as 349,369 km²), its presumed large population, its ability to use modified habitats for roosting, and a regional population not suspected to be declining fast enough to qualify as threatened. It is thought to be common, with 300 specimens examined in Monadjem et al. (2010); colonies of up to 300 individuals have been recorded; there are limited population estimates, though it is considered locally common in Zimbabwe (Cotterill and Happold 2013); the number of mature individuals, the number in the largest subpopulation, and the number of subpopulations are marked Unknown; and the current population trend is Stable. Habitat is described as stable overall, with local declines in area and quality. Those regional figures are not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus simulator",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/49.-Bushveld-Horseshoe-Bat-Rhinolophus-simulator_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional remarks (extent of occurrence 349,369 km²; presumed large population; thought to be common; 300 specimens in Monadjem et al. 2010; colonies of up to 300; limited estimates; locally common in Zimbabwe; mature individuals Unknown; trend Stable). Kruger is listed among protected areas of occurrence, with no park figure."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official URL for a more accurate Kruger figure, if one is published. Not used as a source of a count in this file."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen roosting in a cave or mine adit, sometimes in colonies of up to 300, and also singly or in smaller groups in rocky outcrops, caverns or road culverts. A boxed note in the 2016 EWT assessment, citing Skinner and Chimimba (2005), says they alter roosting positions according to cave humidity and temperature, preferring humidities of 83–100% and temperatures of 19–23°C. No pelage, ear or nose-leaf description was published in the sources used."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A slow but acrobatic clutter forager that hunts soft-bodied insects amongst dense vegetation and even on the ground, feeding most commonly on moths. The 2016 EWT assessment, citing Cotterill and Happold (2013) and Rautenbach (1997), describes a low aspect ratio, very low wing-loading and rounded wing tips. No wingspan or wing-membrane colour was published in the sources used."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Rhinolophus simulator",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/49.-Bushveld-Horseshoe-Bat-Rhinolophus-simulator_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Jacobs D, Taylor PJ, Richards LR, Cohen L, MacEwan K, Schoeman C, Sethusa T and Monadjem A. 2016. Source of the 2016 regional Least Concern status (no change from 2004; trend Stable), common names (including Afrikaans Bosveldsaalneusvlermuis), the tentative subspecies and probable synonym, the Kruger record among protected areas, roosting sites and colony size, cave humidity and temperature preferences (Skinner and Chimimba 2005), diet, habitat, wing shape and loading, the spring movement of females to maternity roosts (Wingate 1983), KwaZulu-Natal pregnancy and birth timing, confusion with R. darlingi (Monadjem et al. 2010), and regional population remarks. Cited from the 2016 PDF linked from the EWT red-list Chiroptera table; no later project page was listed there. The underlying PDF is not hosted in this repo."
+    },
+    {
+      "title": "Bushveld horseshoe bat",
+      "url": "https://en.wikipedia.org/wiki/Bushveld_horseshoe_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Rhinolophus simulator. Used for authority, a continental range statement, a short habitat list (moist savanna, caves and other subterranean habitats), and the global IUCN listing (Monadjem et al. 2017). The page is a stub and does not describe appearance or size. Afrikaans names were taken from the 2016 EWT assessment, not from this page."
+    },
+    {
+      "title": "Rhinolophus simulator (bushveld horseshoe bat)",
+      "url": "https://animaldiversity.org/accounts/Rhinolophus_simulator/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Classification page only; there is no species account, so the page was not used for measurements, ecology, calls or appearance."
+    },
+    {
+      "title": "iNaturalist taxon Rhinolophus simulator",
+      "url": "https://api.inaturalist.org/v1/taxa/40693",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Rhinolophus simulator (English Bushveld horseshoe bat; Afrikaans Bosveldsaalneusvlermuis) and does not remap the names. The 2016 EWT assessment tentatively recognises two subspecies, R. s. simulator (eastern Africa from Ethiopia to KwaZulu-Natal) and R. s. alticolus (West Africa), and notes that future research may confirm that R. s. alticolus is a distinct species; Kruger falls in the range of R. s. simulator. The EWT Afrikaans name is Bosveldsaalneusvlermuis, which matches the species-list form and is kept. Status is scored resident, with monthsPresent all year: the 2016 assessment gives a definite Kruger record (present in Kruger National Park among named protected areas) and does not describe the species as a migrant, partial migrant or seasonal visitor. It does record that, in spring, females have been observed migrating to maternity roosts to give birth, before returning to the colony with their young (Wingate 1983); that is treated as a breeding-season roost movement, not a seasonal absence from Kruger. Regional status is Least Concern (2016, no change from 2004); the global IUCN listing cited by Wikipedia is Least Concern (Monadjem et al. 2017). No 2025 EWT project page was listed: a site search and the Chiroptera table on the EWT red-list page both lead only to the 2016 PDF, which is the source used. The 2016 PDF body describes this species (Rhinolophus simulator throughout; ecology is of a horseshoe bat). Animal Diversity Web is a classification stub. Wikipedia is a stub and gives no appearance or size. No licensed photograph was kept: iNaturalist places 69020 and 6986 each returned 0 licensed research-grade observations. Place 69020 returned 0 sound observations for taxon 40693.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2016 regional assessment records the species as present in Kruger National Park among other protected areas and gives regional remarks (extent of occurrence 349,369 km²; presumed large population; thought to be common; 300 specimens examined in Monadjem et al. 2010; colonies of up to 300 individuals; limited estimates; locally common in Zimbabwe; number of mature individuals Unknown; trend Stable; habitat stable overall with local declines), which are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2016 EWT assessment tentatively recognises two subspecies (R. s. simulator in eastern Africa from Ethiopia to KwaZulu-Natal, and R. s. alticolus in West Africa) and notes that future research may confirm that R. s. alticolus is a distinct species. Rhinolophus bembanicus is listed as a probable synonym. The file keeps the species-list.json names and does not remap the Kruger animals.",
+    "The Afrikaans name in species-list.json, Bosveldsaalneusvlermuis, matches the Afrikaans name in the 2016 EWT assessment. The species-list form is kept. The English name matches the assessment (Bushveld Horseshoe Bat), and the species-list capitalisation (Bushveld horseshoe bat) is kept.",
+    "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40693. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned 0 licensed research-grade observations for taxon 40693. One place 6986 query (per_page 30, same licence and research-grade filters) also returned 0. Zero photos is recorded. Commons was not searched.",
+    "Head-and-body length, tail length, shoulder height, forearm length, mass and wingspan were not published in the sources used, so those numeric fields are null. The 2016 EWT assessment and the Wikipedia stub give no measurements.",
+    "Pelage colour, ear colour and shape, iris colour, muzzle colour, nose-leaf shape, leg colour, tail colour and wing-membrane colour were not given in the sources used, so those marks are null. Colour, dental and nose-leaf characters were not carried over from another horseshoe bat.",
+    "No Kruger-specific breeding study was found. Breeding details in the file are from the 2016 assessment's southern African and KwaZulu-Natal records (Wingate 1983; Skinner and Chimimba 2005; Rautenbach 1997).",
+    "No species-specific, documented predators were given in the sources used, so the predators list is empty.",
+    "No 2025 EWT project page was listed for this species. A site search and the Chiroptera table on the EWT red-list page both link only the 2016 PDF, which was used as the regional source.",
+    "Animal Diversity Web has only a classification page for this species, with no species account, so it was not used for facts.",
+    "Wikipedia is a stub for this species and was not a source of appearance or size."
+  ]
+}
