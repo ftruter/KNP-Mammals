@@ -1,0 +1,222 @@
+{
+  "kind": "species",
+  "slug": "rhinolophus-fumigatus",
+  "scientificName": "Rhinolophus fumigatus",
+  "commonNames": {
+    "en": "Rüppell's horseshoe bat",
+    "af": "Rüppell se saalneusvlermuis"
+  },
+  "family": "rhinolophidae",
+  "inatTaxonId": 40684,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Least Concern; no change from 2016; regional population trend Stable). Wikipedia cites a global IUCN listing of Least Concern (2017 assessment).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus fumigatus",
+        "url": "https://ewt.org/project/ruppells-horseshoe-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Balona J, Taylor P and da Silva JM. 2025. In Patel T, Smith C, Roxburgh L, da Silva JM and Raimondo D, editors. The Red List of Mammals of South Africa, Eswatini and Lesotho. 2025 Red List status Least Concern; change compared with 2016: No Change; regional population trend: Stable. Header also gives Red List Status LC – Least Concern (IUCN version 3.1)."
+      },
+      {
+        "title": "Rüppell's horseshoe bat",
+        "url": "https://en.wikipedia.org/wiki/Rüppell's_horseshoe_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Monadjem, Griffin, Cotterill, Jacobs and Taylor (2017) for a global IUCN listing of Least Concern (IUCN 3.1, article T19541A21980197)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "note": "Wikipedia, citing Kingdon et al. (2013), describes the species as a small microbat, although fairly large for an African species, and gives a horseshoe width of about 10 mm; it does not publish forearm length, mass, head-and-body length, tail length or shoulder height. The 2025 EWT assessment marks its life-history size fields, including maximum size, as not specified. Animal Diversity Web has no species account and no measurements."
+  },
+  "summary": "A fairly large African horseshoe bat with grey to greyish-brown fur on the back, slightly paler underparts, a sub-triangular nose-leaf lancet and a horseshoe about 10 mm wide. It favours savannah woodland and dry forest where it can roost in caves, mine adits, rock cavities, hollow baobabs and road culverts, and it hunts beetles and moths as a clutter forager. The 2025 regional assessment lists it as Least Concern, with a stable trend and no change from 2016, and records subpopulations in the northern parts of Kruger National Park.",
+  "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia, citing Kingdon et al. (2013), describes it as a small microbat, although fairly large for an African species; the upper parts have grey to greyish-brown fur, each hair with a pale greyish-brown or greyish-fawn shaft and a blackish tip; the underparts are slightly paler than the dorsal pelage; the ears are small; the nose-leaf has a sub-triangular lancet with slightly concave sides and a rounded tip; the horseshoe is about 10 mm wide and approximately covers the muzzle; and the wing membranes are dark brown to dark grey. The 2025 EWT assessment does not itself describe pelage colour or nose-leaf shape, and its life-history size fields are marked not specified. Wikipedia gives the authority as Rüppell, 1842, which matches the 2025 EWT assessment. That assessment treats the taxon as a species complex: six subspecies have been listed, more than one species may have been included under Rhinolophus fumigatus, and as many as four species may be involved; only R. f. aethiops Peters, 1869 is known from the assessment region, and the isolated eastern and western southern African populations differ in size, pelage colour and genetics and may prove to be distinct species. This file keeps the species-list.json names and does not remap the Kruger animals.",
+  "habits": "The 2025 EWT assessment describes the species as an insectivorous clutter forager, with broad, short wings, a low aspect ratio and intermediate wing loading (Aldridge and Rautenbach 1987; Norberg and Rayner 1987; Schoeman and Jacobs 2008). It is gregarious and usually roosts close together in caves, mine adits, rock boulders and cavities, hollow baobab (Adansonia digitata) trees and culverts under roads (Skinner and Chimimba 2005). In parts of its range it is locally common and has been reported in large colonies, including colonies of 500 individuals in caves in Namibia (Churchill et al. 1997). Colonies in the western population are generally larger, whereas those of the eastern population, including South Africa and Zimbabwe, tend to be smaller (Monadjem et al. 2010; Cotterill and Happold 2013); Rautenbach (1982) collected two specimens from Limpopo Province that were solitary. The assessment has recorded the species from fewer than ten localities in the assessment region, with subpopulations in the northern parts of Kruger National Park, the Soutpansberg and Mapungubwe, and lists four subpopulations (colonies). Movement patterns and whether the species is congregatory are marked not specified; the countries table leaves seasonality blank for South Africa and the other listed countries. The assessment does not describe the species as a migrant, partial migrant or seasonal visitor. Regional population effects note that wing morphology indicates it is not a fast, long-distance flying species, but that habitat is connected with populations in Zimbabwe through the Great Limpopo Transfrontier Park and the Greater Mapungubwe Transfrontier Conservation Area.",
+  "diet": {
+    "summary": "An insectivore and clutter forager. The 2025 EWT assessment, citing Aldridge and Rautenbach (1987), says it feeds mainly on Coleoptera and, to a lesser extent, Lepidoptera.",
+    "items": [
+      "beetles (Coleoptera)",
+      "moths (Lepidoptera)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment, citing Smithers (1983), states that in southern Africa females pregnant with a single foetus were collected in September and October, suggesting that young are born between October and December. The same assessment marks gestation time, reproductive periodicity, average annual fecundity or litter size, whether the species gives birth to live young, and the other life-history fields as not specified. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "The 2025 EWT assessment, citing Aldridge and Rautenbach (1987), says the species feeds mainly on Coleoptera and, to a lesser extent, Lepidoptera. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "The 2025 EWT assessment, citing Aldridge and Rautenbach (1987), says the species feeds mainly on Coleoptera and, to a lesser extent, Lepidoptera. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment says the species favours savannah woodland habitats (for example, miombo and mopane woodlands) and dry forests where appropriate roosting sites are available (Cotterill and Happold 2013), and that it is associated with arid savannah in the west and savannah woodland in the east (Monadjem et al. 2010). It does not range into desert, semi-desert or true moist forest regions (Skinner and Chimimba 2005; Cotterill and Happold 2013). Within Limpopo Province, it has been recorded from the Lowveld and Mopane Bioregion. Its IUCN habitat scheme on that page lists subtropical or tropical dry forest, dry savanna, moist savanna, and caves and other subterranean habitats as suitable. Elevation limits are marked not specified. In the Population Information and Conservation sections, the same assessment records subpopulations in the northern parts of Kruger National Park, the Soutpansberg and Mapungubwe, and describes it as an edge-of-range species occurring within Kruger and Mapungubwe National Parks, with its range continuous into Zimbabwe through transfrontier conservation areas. The Assessment Rationale says it occurs predominantly in Great Limpopo Transfrontier Park and the Greater Mapungubwe Transfrontier Conservation Area. Wikipedia, citing the 2017 IUCN assessment, gives the natural habitats as subtropical or tropical dry forests, savanna, caves and other subterranean habitats, and says it roosts colonially in caves.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment records subpopulations in the northern parts of Kruger National Park among other localities, but gives no park total. Regionally it is known from fewer than ten localities and four subpopulations (colonies), with an estimated extent of occurrence of 50,211 km² and an area of occupancy of 104 km², and it is considered plausible that the mature population is fewer than 1,500 mature individuals, which would qualify the species as Near Threatened D1, but it is downlisted to Least Concern because habitat is connected and rescue effects are assumed possible. It is described as locally common in parts of its range and rarer in southern Africa, with a current population trend of Stable. Those regional figures are not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus fumigatus",
+        "url": "https://ewt.org/project/ruppells-horseshoe-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional remarks (fewer than ten localities; four subpopulations or colonies; extent of occurrence 50,211 km²; area of occupancy 104 km²; plausible mature population fewer than 1,500; trend Stable); Kruger is listed among localities and protected areas of occurrence, with no park figure."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official URL for a more accurate Kruger figure, if one is published. Not used as a source of a count in this file."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "Wikipedia, citing Kingdon et al. (2013), describes the ears as small. The 2025 EWT assessment gives no ear description"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "Wikipedia, citing Kingdon et al. (2013), describes a nose-leaf with a sub-triangular lancet that has slightly concave sides and a rounded tip, and a horseshoe about 10 mm wide that approximately covers the muzzle. The 2025 EWT assessment gives no nose-leaf description",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "greyish-brown"
+          ],
+          "pattern": "Wikipedia, citing Kingdon et al. (2013), describes grey to greyish-brown fur, each hair with a pale greyish-brown or greyish-fawn shaft and a blackish tip. The 2025 EWT assessment gives no pelage colour, though it notes that isolated eastern and western southern African populations differ in size and pelage colour. Sexes are not described as differing in colour in the sources used"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": "Wikipedia, citing Kingdon et al. (2013), describes the underparts as slightly paler than the dorsal pelage, without a separate colour name"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen roosting close together in a cave, mine adit, rock cavity, hollow baobab or road culvert. Eastern southern African colonies, including those in South Africa, tend to be smaller than western ones; two Limpopo specimens were solitary. Grey to greyish-brown dorsal fur, slightly paler underparts, small ears, a sub-triangular nose-leaf lancet and a horseshoe about 10 mm wide, from Wikipedia (Kingdon et al. 2013). Wing membranes are dark brown to dark grey."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter forager that feeds mainly on beetles and, to a lesser extent, moths. The 2025 EWT assessment, citing Aldridge and Rautenbach (1987), Norberg and Rayner (1987) and Schoeman and Jacobs (2008), describes broad, short wings with a low aspect ratio and intermediate wing loading. No wingspan was published in the sources used."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Rhinolophus fumigatus",
+      "url": "https://ewt.org/project/ruppells-horseshoe-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Balona J, Taylor P and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; trend Stable), common names (including Afrikaans Rüppell se Saalneusvlermuis), the species-complex taxonomic note and R. f. aethiops, the Kruger and Mapungubwe records, roosting sites, colony-size contrast between eastern and western populations, diet (Aldridge and Rautenbach 1987), habitat, wing shape and loading, southern African breeding season (Smithers 1983), movement patterns marked not specified, seasonality left blank in the countries table, and regional population remarks. Cited from the project page; the underlying PDF is not hosted in this repo."
+    },
+    {
+      "title": "Rüppell's horseshoe bat",
+      "url": "https://en.wikipedia.org/wiki/Rüppell's_horseshoe_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Rhinolophus fumigatus. Used for authority, qualitative size, pelage colour and hair-shaft pattern, ear size, nose-leaf and horseshoe shape and width, wing-membrane colour (Kingdon et al. 2013), habitat, colonial cave roosting, a continental range statement, and the global IUCN listing (Monadjem et al. 2017). Afrikaans names were taken from the 2025 EWT assessment, not from this page."
+    },
+    {
+      "title": "Rhinolophus fumigatus (Rüppell's horseshoe bat)",
+      "url": "https://animaldiversity.org/accounts/Rhinolophus_fumigatus/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Classification page only; there is no species account, so the page was not used for measurements, ecology, calls or appearance."
+    },
+    {
+      "title": "iNaturalist taxon Rhinolophus fumigatus",
+      "url": "https://api.inaturalist.org/v1/taxa/40684",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Rhinolophus fumigatus (English Rüppell's horseshoe bat; Afrikaans Rüppell se saalneusvlermuis) and does not remap the names. The 2025 EWT assessment treats the taxon as a species complex (possibly as many as four species) and assigns the assessment-region animals to R. f. aethiops; isolated eastern and western southern African populations differ in size, pelage colour and genetics (Dool et al. 2016) and may prove distinct. Kruger falls in the eastern population. The EWT Afrikaans name is Rüppell se Saalneusvlermuis, which matches the species-list form and is kept. Status is scored resident, with monthsPresent all year: the 2025 assessment gives a definite Kruger record (subpopulations in the northern parts of Kruger National Park; occurring within Kruger and Mapungubwe National Parks), marks movement patterns as not specified, and leaves seasonality blank in the countries table; it does not describe the species as a migrant, partial migrant or seasonal visitor. Regional status is Least Concern (2025, no change from 2016); the global IUCN listing cited by Wikipedia is Least Concern (Monadjem et al. 2017). The 2025 page body describes this species (Rhinolophus fumigatus throughout; ecology is of a horseshoe bat). Animal Diversity Web is a classification stub. No licensed photograph was kept: iNaturalist places 69020 and 6986 each returned 0 licensed research-grade observations. Place 69020 returned 0 sound observations for taxon 40684.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment records subpopulations in northern Kruger among other localities and gives regional remarks (fewer than ten localities; four subpopulations or colonies; extent of occurrence 50,211 km²; area of occupancy 104 km²; plausible mature population fewer than 1,500 in the assessment region, downlisted from a potential Near Threatened D1 listing because rescue effects are assumed; trend Stable; rarer in southern Africa than in parts of West Africa and Malawi), which are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2025 EWT assessment treats Rhinolophus fumigatus as a species complex (six named subspecies; possibly as many as four species) and assigns the assessment-region animals to R. f. aethiops. Isolated eastern and western southern African populations differ in size, pelage colour and genetics and may prove to be distinct species. The file keeps the species-list.json names and does not remap the Kruger animals.",
+    "The Afrikaans name in species-list.json, Rüppell se saalneusvlermuis, matches the Afrikaans name in the 2025 EWT assessment (Rüppell se Saalneusvlermuis). The species-list form is kept. The English name matches the assessment.",
+    "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40684. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned 0 licensed research-grade observations for taxon 40684. One place 6986 query (per_page 30, same licence and research-grade filters) also returned 0. Zero photos is recorded. Commons was not searched.",
+    "Head-and-body length, tail length, shoulder height, forearm length, mass and wingspan were not published in the sources used, so those numeric fields are null. Wikipedia (Kingdon et al. 2013) gives only a qualitative size and a horseshoe width of about 10 mm. The 2025 EWT assessment marks its life-history size fields as not specified.",
+    "Ear colour, iris colour, muzzle colour, leg colour and tail colour were not given in the sources used, so those marks are null. Pelage colour, ear size, nose-leaf shape and wing-membrane colour are taken only from Wikipedia (Kingdon et al. 2013). Underparts are described there only as slightly paler than the back, so no separate underpart colour name is entered.",
+    "No sourced comparison characters for other horseshoe bats in this guide were given in the fumigatus sources used, so similar is omitted. Wikipedia (Kingdon et al. 2013) says the only other species with which it is likely to be confused are the eloquent horseshoe bat (Rhinolophus eloquens) and Hildebrandt's horseshoe bat (Rhinolophus hildebrandtii), both slightly larger; those comparisons are recorded here rather than entered as similar items.",
+    "No Kruger-specific breeding study was found. Beyond the Smithers (1983) southern African record of females pregnant with a single foetus in September and October, and a suggested birth season of October to December, breeding details including live birth are marked not specified in the 2025 EWT assessment.",
+    "No species-specific, documented predators were given in the sources used, so the predators list is empty.",
+    "Animal Diversity Web has only a classification page for this species, with no species account, so it was not used for facts."
+  ]
+}

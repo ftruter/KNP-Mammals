@@ -1,0 +1,271 @@
+{
+  "kind": "species",
+  "slug": "rhinolophus-clivosus",
+  "scientificName": "Rhinolophus clivosus",
+  "commonNames": {
+    "en": "Geoffroy's horseshoe bat",
+    "af": "Geoffroy se saalneusvlermuis"
+  },
+  "family": "rhinolophidae",
+  "inatTaxonId": 320633,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2016 regional Red List for South Africa, Eswatini and Lesotho (Least Concern, with a watch-list data flag); IUCN global status Least Concern (2017 assessment cited on Wikipedia). No 2025 EWT species assessment page for this taxon was found among the EWT sources used; the EWT red-list Chiroptera table links only the 2016 PDF.",
+    "asOf": 2016,
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus clivosus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/42.-Geoffroys-Horseshoe-Bat-Rhinolophus-clivosus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Jacobs D, Cohen L, Richards LR, Monadjem A, Schoeman C, MacEwan K, Sethusa T and Taylor P. 2016. Regional status Least Concern, with a watch-list data flag. National status in 2004 was Near Threatened B2; the change is described as non-genuine (new information). Global Red List status then given as Least Concern (2016). Current population trend: Stable. Number of mature individuals, number in the largest subpopulation, and number of subpopulations all given as unknown. The species is recorded from many protected areas in the assessment region, including Kruger National Park. Taxonomic status: species complex. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "Geoffroy's horseshoe bat",
+        "url": "https://en.wikipedia.org/wiki/Geoffroy's_horseshoe_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Monadjem, Taylor, Jacobs, Kock, Amr and Cotterill (2017) for a global IUCN listing of Least Concern (IUCN 3.1, article T19531A21980500)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "massKg": {
+      "min": 0.01,
+      "max": 0.025
+    },
+    "note": "Wikipedia, citing Bernard and Happold in Kingdon et al. (2013), describes the species as medium-sized for an African horseshoe bat, with a forearm length of 42-59 mm and a mass of 10-25 g. The 2016 EWT assessment does not give mass or length, but says R. clivosus is larger than R. darlingi (Monadjem et al. 2010). Animal Diversity Web has no species account and no measurements. No tail length, head-and-body length or shoulder height was published in the sources used."
+  },
+  "summary": "A medium-sized insect-eating horseshoe bat with a high, rounded connecting process on the nose-leaf. Like Darling's horseshoe bat, it lacks a minute first upper premolar in the toothrow, and it is the larger of those two species. It roosts in caves, rock crevices, disused mines, hollow baobabs and buildings, sometimes in colonies of thousands, hunts moths and beetles as a clutter forager, and is listed as Least Concern both in the 2016 regional assessment and on the global IUCN Red List. The 2016 regional assessment records it from Kruger National Park.",
+  "description": "A horseshoe bat of the family Rhinolophidae. The 2016 EWT assessment treats the taxon as a species complex and, citing Monadjem et al. (2010), says a useful character for separating Rhinolophus clivosus and R. darlingi from all other southern African Rhinolophus species is the absence of the minute first upper premolar in the toothrow, and that R. clivosus is larger than R. darlingi. A caption to a photograph in that assessment (Ara Monadjem) describes a high and rounded connecting process. Wikipedia, citing Bernard and Happold in Kingdon et al. (2013), gives a forearm length of 42-59 mm and a mass of 10-25 g, and describes the species as medium-sized for an African horseshoe bat. No sourced description of pelage colour was given in the text sources used; the 2016 assessment notes that pelage colour varies among lineages as part of the evidence that more than one species may be involved. Wikipedia gives the authority as Cretzschmar, 1828, which matches the 2016 EWT assessment; the holotype was collected in Mohila, Saudi Arabia. The 2016 assessment, citing Stoffberg et al. (2012), describes five distinct groups within South Africa (a Western Cape clade, a Knysna region clade, a Northern Cape clade, a predominantly KwaZulu-Natal/Mpumalanga mixed group, and a Mpumalanga/Limpopo clade). This file keeps the species-list.json names and does not remap the Kruger animals to a clade or another species.",
+  "habits": "The 2016 EWT assessment describes the species as a clutter forager. Day roosts have been recorded in caves, rock crevices, disused mines, hollow baobabs (Adansonia spp.) and various rural and urban buildings. The bats travel up to 10 km between caves (Rautenbach 1982) and undergo prolonged periods of hibernation (R. T. F. Bernard unpublished data). At night they establish feeding stations, hanging from tree branches or from verandahs of houses to eat prey and discarding the harder parts in a pile underneath the night roost (Monadjem et al. 2010). The assessment says the species can be locally abundant in certain caves (Herselman and Norton 1985), such as De Hoop Guano Cave, where it may form colonies of several thousand individuals (McDonald et al. 1990), and that in Swaziland three separate populations contained over a thousand individuals (Monadjem 1998; ACR 2015). Wikipedia, citing Kingdon et al. (2013), says sociality varies: in Algeria individuals roost alone or in small groups of fewer than 50, whereas in southern Africa and Malawi groups of up to 10,000 have been documented in a colony; roosts are typically of mixed sex, and females do not form maternity colonies to raise young. The 2016 assessment does not describe the species as a migrant or as a partial migrant; the only movement distance it gives is the 10 km travel between caves.",
+  "diet": {
+    "summary": "An insectivore and clutter forager. The 2016 EWT assessment, citing Monadjem et al. (2010), says it feeds mainly on Lepidoptera and Coleoptera.",
+    "items": [
+      "moths (Lepidoptera)",
+      "beetles (Coleoptera)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "Wikipedia, citing Kingdon et al. (2013), says there is one breeding season each year, that gestation lasts around 3.5 months, and that one offspring is born. It also says roosts are typically of mixed sex and that females do not form maternity colonies to raise young. The 2016 EWT assessment does not itself describe breeding, though it lists variability in reproduction among the evidence that R. clivosus comprises multiple species. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "The 2016 EWT assessment, citing Monadjem et al. (2010), says the species feeds mainly on Lepidoptera and Coleoptera. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "The 2016 EWT assessment, citing Monadjem et al. (2010), says the species feeds mainly on Lepidoptera and Coleoptera. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2016 EWT assessment says Rhinolophus clivosus sensu lato has been recorded from a wide variety of habitats, ranging from savannah woodland, Mediterranean-type shrubland, dry (and possibly moist) savannah, riparian forest, open grasslands and semi-desert to even more arid environments, but that these habitat types may correspond to cryptic species (Stoffberg et al. 2012). It describes the animal as generally a temperate species, absent from hot low-lying areas and associated with mountainous areas (such as the Drakensberg) in its northerly range (Taylor 2000; Monadjem et al. 2010), and says its range is probably dependent on the availability of caves or similar day roosts. It can also use modified habitats, such as artificial wetlands (Sirami et al. 2013). In the Conservation section, the same assessment lists Kruger National Park among the protected areas in the assessment region from which the species has been recorded, together with iSimangaliso Wetland Park, Garden Route National Park, De Hoop Nature Reserve, Agulhas National Park, Table Mountain National Park and West Coast National Park. Those two statements sit together in the same assessment and are recorded rather than reconciled. Wikipedia, citing the 2017 IUCN assessment, lists desert, savanna woodland, Mediterranean shrubland and grassland, and, in the lead, subtropical or tropical moist lowland forest, Mediterranean-type shrubby vegetation, caves and other subterranean habitats, and hot deserts.",
+  "similar": [
+    {
+      "slug": "rhinolophus-darlingi",
+      "note": "The 2016 EWT assessment, citing Monadjem et al. (2010), says the absence of the minute first upper premolar in the toothrow separates both this species and Darling's horseshoe bat from all other southern African Rhinolophus, and that R. clivosus is larger than R. darlingi. A photograph caption in that assessment describes a high and rounded connecting process in R. clivosus."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment lists the species from Kruger National Park among other protected areas, but gives no park total. Regionally it describes the species as generally common in southern Africa (besides Zimbabwe) (Taylor 2000), locally abundant in certain caves, with colonies of several thousand at De Hoop Guano Cave and populations of over a thousand in Swaziland, a current population trend of Stable, and an unknown number of mature individuals. Those regional figures are not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus clivosus",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/42.-Geoffroys-Horseshoe-Bat-Rhinolophus-clivosus_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Regional abundance, colony sizes, trend (Stable) and unknown mature-individual totals; Kruger is listed among protected areas of occurrence, with no park figure. Cited only; the PDF is not hosted in this repo."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official URL for a more accurate Kruger figure, if one is published. Not used as a source of a count in this file."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "horseshoe-shaped nose-leaf with a high and rounded connecting process, from a photograph caption in the 2016 EWT assessment (Ara Monadjem)",
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": "The 2016 EWT assessment notes variability in pelage colour among lineages, but does not itself give a colour for the species. Wikipedia and Animal Diversity Web also give no pelage colour. Sexes are not described as differing in colour in the sources used"
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen hanging in a cave, rock crevice, disused mine, hollow baobab or building. Colonies in southern Africa may number thousands; Wikipedia also cites groups of up to 10,000 in southern Africa and Malawi, versus lone animals or groups of fewer than 50 in Algeria. The high, rounded connecting process of the nose-leaf, and the absence of a minute first upper premolar, are the sourced field characters. No sourced pelage colour was given in the text sources used."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter forager that feeds mainly on moths and beetles. At night it may hang at a feeding station on a tree branch or a verandah, leaving a pile of discarded harder prey parts underneath (Monadjem et al. 2010). No wingspan was published in the sources used."
+    }
+  ],
+  "calls": [],
+  "images": [
+    {
+      "key": "rhinolophus-clivosus-perched-side-adult-oudtshoorn-1.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/334336064",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/607172508/large.jpg",
+      "author": "Elena Reljic",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Geoffroy's horseshoe bats hanging in a cave roost in Oudtshoorn Local Municipality, Western Cape.",
+      "caption": "Cave roost in Oudtshoorn Local Municipality, Western Cape, South Africa, 11 January 2026."
+    },
+    {
+      "key": "rhinolophus-clivosus-perched-side-adult-oudtshoorn-2.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/334336064",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/607180267/large.jpg",
+      "author": "Elena Reljic",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Closer view of Geoffroy's horseshoe bats hanging in a cave roost in Oudtshoorn Local Municipality, Western Cape.",
+      "caption": "Cave roost in Oudtshoorn Local Municipality, Western Cape, South Africa, 11 January 2026."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A conservation assessment of Rhinolophus clivosus",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/42.-Geoffroys-Horseshoe-Bat-Rhinolophus-clivosus_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Jacobs D, Cohen L, Richards LR, Monadjem A, Schoeman C, MacEwan K, Sethusa T and Taylor P. 2016. Source of the 2016 regional Least Concern status (watch-list data), common names (including Afrikaans Geoffroy se Saalneusvlermuis and Geoffroy-saalneusvlermuis), the species-complex note and the five South African clades (Stoffberg et al. 2012), the Kruger record among protected areas, roosting sites, the 10 km movement between caves (Rautenbach 1982), hibernation (Bernard unpublished), diet (Monadjem et al. 2010), distinguishing characters versus other Rhinolophus and R. darlingi, the high and rounded connecting process (photograph caption, Ara Monadjem), habitat, and regional population remarks. Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "Geoffroy's horseshoe bat",
+      "url": "https://en.wikipedia.org/wiki/Geoffroy's_horseshoe_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Rhinolophus clivosus. Used for authority and holotype locality, the 2012 split of R. horaceki and further genetic lineages, forearm length and mass (Bernard and Happold in Kingdon et al. 2013), breeding (one season, gestation of about 3.5 months, a single young, mixed-sex roosts and no maternity colonies), colony-size variation, range and habitat, and the global IUCN listing (Monadjem et al. 2017). Afrikaans names were taken from the 2016 EWT assessment, not from this page."
+    },
+    {
+      "title": "Rhinolophus clivosus (Geoffroy's horseshoe bat)",
+      "url": "https://animaldiversity.org/accounts/Rhinolophus_clivosus/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Classification page only; there is no species account, so the page was not used for measurements, ecology, calls or appearance."
+    },
+    {
+      "title": "iNaturalist taxon Rhinolophus clivosus",
+      "url": "https://api.inaturalist.org/v1/taxa/320633",
+      "publisher": "iNaturalist",
+      "year": 2026
+    },
+    {
+      "title": "iNaturalist observation 334336064",
+      "url": "https://www.inaturalist.org/observations/334336064",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "Research-grade photographs by Elena Reljic of a cave roost in Oudtshoorn Local Municipality, Western Cape (CC BY-NC). Used for the two images in this file."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Rhinolophus clivosus (English Geoffroy's horseshoe bat; Afrikaans Geoffroy se saalneusvlermuis) and does not remap the names. The 2016 EWT assessment treats the taxon as a species complex and, citing Stoffberg et al. (2012), describes five genetically distinct groups in South Africa, including a Mpumalanga/Limpopo clade that would be the relevant unit for Kruger if a split is accepted; Wikipedia also notes the 2012 recognition of R. horaceki and further lineages. The EWT Afrikaans names are Geoffroy se Saalneusvlermuis and Geoffroy-saalneusvlermuis; the species-list form matches the first of those and is kept. Status is scored resident, with monthsPresent all year: the 2016 assessment gives a definite Kruger record (listed among protected areas of occurrence) and does not describe the species as a migrant, partial migrant or seasonal visitor; the only movement distance given is travel of up to 10 km between caves, together with prolonged hibernation, which is not treated as absence from the park. The same assessment also calls it generally a temperate species, absent from hot low-lying areas in its northerly range, which sits unresolved next to the Kruger listing. Regional status is Least Concern (2016, watch-list data); the global IUCN listing cited by Wikipedia is Least Concern (Monadjem et al. 2017). Animal Diversity Web is a classification stub. Two licensed cave-roost photographs from Oudtshoorn Local Municipality, Western Cape, are used; iNaturalist place 69020 (Kruger) returned 0 licensed observations and 0 sound observations for taxon 320633.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2016 regional assessment records the species from Kruger among other protected areas and gives regional remarks (generally common; colonies of several thousand at De Hoop; trend Stable; mature-individual totals unknown), which are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "No 2025 EWT /project/ page for this species was found. The site:ewt.org search returned the 2016 PDF, and the EWT red-list Chiroptera table links only that PDF. The 2025 regional status was therefore not taken from a species page.",
+    "The 2016 EWT assessment treats Rhinolophus clivosus as a species complex and describes five South African clades, including a Mpumalanga/Limpopo clade. The file keeps the species-list.json names and does not remap the Kruger animals to a clade, subspecies or another species.",
+    "The Afrikaans name in species-list.json, Geoffroy se saalneusvlermuis, matches the first Afrikaans name in the 2016 EWT assessment (Geoffroy se Saalneusvlermuis). That assessment also lists Geoffroy-saalneusvlermuis. The species-list form is kept. The English name matches the assessment's lead name; the assessment also lists Arabian Horseshoe Bat and Cretzschmar's Horseshoe Bat.",
+    "The 2016 assessment lists Kruger National Park among protected areas of occurrence, and also describes the species as generally temperate and absent from hot low-lying areas in its northerly range (Taylor 2000; Monadjem et al. 2010). Those statements are recorded rather than reconciled.",
+    "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 320633. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
+    "No licensed Kruger photograph was available. iNaturalist place 69020 returned 0 observations with the allowed licences for taxon 320633. One place 6986 query then returned four licensed observations: two were dropped from metadata (a handled bat with forearm and mass measurements in the Bo-Karoo, and a mist-netted series from De Hoop that was taken back to a lodging); three thumbnails from the remaining two observations were viewed on one contact sheet; a spectrogram from Ruiters 4 was dropped; two cave-roost photographs from Oudtshoorn Local Municipality, Western Cape (observation 334336064, Elena Reljic, CC BY-NC), were kept.",
+    "Head-and-body length, tail length, shoulder height and wingspan were not published in the sources used, so those numeric fields are null. Mass and forearm length are taken from Wikipedia (Kingdon et al. 2013).",
+    "Ear colour, iris colour, muzzle colour, underpart colour, leg colour, tail colour and pelage colour were not given in the text sources used, so those marks are null. The 2016 assessment notes that pelage colour varies among lineages but does not assign a colour to the species.",
+    "No Kruger-specific breeding study was found. Breeding details are taken from Wikipedia, citing Kingdon et al. (2013).",
+    "No species-specific, documented predators were given in the sources used, so the predators list is empty.",
+    "Animal Diversity Web has only a classification page for this species, with no species account, so it was not used for facts.",
+    "The 2016 assessment describes prolonged hibernation (Bernard unpublished). That is recorded under habits and is not treated as seasonal absence from Kruger."
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "kind": "species",
+  "slug": "rhinolophus-darlingi",
+  "scientificName": "Rhinolophus darlingi",
+  "commonNames": {
+    "en": "Darling's horseshoe bat",
+    "af": "Darling se saalneusvlermuis"
+  },
+  "family": "rhinolophidae",
+  "inatTaxonId": 338548,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Least Concern; no change from 2016; regional population trend Stable). Wikipedia cites a global IUCN listing of Least Concern (2017 assessment).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus darlingi",
+        "url": "https://ewt.org/project/darlings-horseshoe-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Taylor P and da Silva JM. 2025. In Patel T, Smith C, Roxburgh L, da Silva JM and Raimondo D, editors. The Red List of Mammals of South Africa, Eswatini and Lesotho. 2025 Red List status Least Concern; change compared with 2016: No Change; regional population trend: Stable. Header also gives Red List Status LC – Least Concern (IUCN version 3.1)."
+      },
+      {
+        "title": "Darling's horseshoe bat",
+        "url": "https://en.wikipedia.org/wiki/Darling's_horseshoe_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Monadjem, Taylor, Jacobs and Cotterill (2017) for a global IUCN listing of Least Concern (IUCN 3.1, article T67369483A21981665)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "massKg": {
+      "min": 0.006,
+      "max": 0.013
+    },
+    "note": "Wikipedia, citing Cotterill and Happold in Kingdon et al. (2013), describes the species as medium-sized for an African horseshoe bat, with a forearm length of 42-51 mm and a mass of 6-13 g. The 2025 EWT assessment does not give mass, forearm length, tail length, head-and-body length or shoulder height; its life-history size fields are all marked not specified. Animal Diversity Web has no species account and no measurements."
+  },
+  "summary": "A medium-sized insect-eating horseshoe bat with soft, fluffy fur that is grey or greyish-brown on the back and pale grey on the belly. It roosts in caves, cavities among boulders, mine adits, culverts, large hollow trees and disused buildings, usually in small groups but sometimes in colonies of about a hundred, and hunts moths and beetles as a clutter forager. The 2025 regional assessment lists it as Least Concern, with a stable trend and no change from 2016, and records it from Kruger National Park.",
+  "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia, citing Cotterill and Happold in Kingdon et al. (2013), describes it as medium-sized for an African horseshoe bat, with soft, fluffy fur, a grey or greyish-brown back and a pale grey belly, a forearm length of 42-51 mm and a mass of 6-13 g. The 2025 EWT assessment does not itself describe pelage colour or nose-leaf shape. Wikipedia gives the authority as K. Andersen, 1905, which matches the 2025 EWT assessment; the holotype was collected at Mazowe, Zimbabwe, by James ffolliott Darling, the eponym of the specific name. The 2025 assessment treats the present concept as new following the split of Rhinolophus damarensis: Jacobs et al. (2013) found R. darlingi sensu lato to be polyphyletic, with western arid populations (Angola, Namibia and northwestern South Africa) belonging to R. damarensis, and central and eastern southern African populations to R. darlingi (the assessment also writes R. darlingii in that sentence). This file keeps the species-list.json names and does not remap the Kruger animals.",
+  "habits": "The 2025 EWT assessment describes the species as a clutter forager. Day roosts have been recorded in caves and in cavities in piles of boulders, especially in broken, rocky terrain in the southern part of its range (Skinner and Chimimba 2005), and also in mine adits, where colonies of about 100 individuals may form, as well as culverts (Monadjem 1998), large hollow trees and disused buildings (Cotterill and Happold 2013). It hangs freely from ceilings (Rautenbach 1982). It is usually found in small numbers: a group of about 20 has been reported from KwaZulu-Natal (Taylor 1998), groups of 2-15 were recorded by Rautenbach (1982), and a colony may reach a maximum of about a hundred bats (Skinner and Chimimba 2005). Wikipedia, citing the same Kingdon et al. (2013) account, says the species has a low aspect ratio and very low wing loading, so that flight is likely slow but highly manoeuvrable; the 2025 assessment, citing Norberg and Rayner (1987), instead describes wing loading as low to intermediate, which is recorded rather than reconciled. Movement patterns and whether the species is congregatory are marked not specified in the 2025 assessment; the countries table lists seasonality for South Africa as resident. The assessment does not describe the species as a migrant, partial migrant or seasonal visitor.",
+  "diet": {
+    "summary": "An insectivore and clutter forager. The 2025 EWT assessment, citing Schoeman (2006), says Lepidoptera and Coleoptera comprise the bulk of its diet.",
+    "items": [
+      "moths (Lepidoptera)",
+      "beetles (Coleoptera)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment states that the species gives birth to live young, but marks gestation time, reproductive periodicity, average annual fecundity or litter size, and the other life-history fields as not specified. Wikipedia has no breeding account. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "The 2025 EWT assessment, citing Schoeman (2006), says Lepidoptera and Coleoptera comprise the bulk of its diet. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "The 2025 EWT assessment, citing Schoeman (2006), says Lepidoptera and Coleoptera comprise the bulk of its diet. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment says the species occurs in mesic woodland savannahs where suitable day roosts are present (Cotterill and Happold 2013), and that in the southern part of its range it is particularly associated with broken, rocky terrain (Skinner and Chimimba 2005). Its IUCN habitat scheme on that page lists dry savanna, moist savanna, temperate grassland, caves and other subterranean habitats as suitable. Elevation is given as 416-1,414 m above sea level (Monadjem et al. 2024). In the Conservation section, the same assessment states that the species is present in many protected areas, including Kruger National Park; the Assessment Rationale also names Great Limpopo Transfrontier Park among protected areas of occurrence. Wikipedia, citing the 2017 IUCN assessment, gives the natural habitats as dry savanna, caves and other subterranean habitats.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment records the species from Kruger National Park among other protected areas, but gives no park total. Regionally it infers a total mature population a little less than 10,000 individuals in the assessment region, gives 100 as the number of mature individuals in the largest subpopulation, describes the species as locally common near day roosts in South Africa and Zimbabwe, usually in small groups, with colonies of at most about a hundred, a current population trend of Stable, and an effective population size estimated at 1,000-3,000 based on that regional total (to be confirmed by a genomic study). Those regional figures are not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus darlingi",
+        "url": "https://ewt.org/project/darlings-horseshoe-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional mature-population inference (a little less than 10,000), largest-subpopulation figure (100), colony sizes, trend (Stable) and effective-population-size estimate (1,000-3,000); Kruger is listed among protected areas of occurrence, with no park figure."
+      },
+      {
+        "title": "KNP wildlife trends",
+        "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "publisher": "SANParks",
+        "year": 2025,
+        "note": "Official URL for a more accurate Kruger figure, if one is published. Not used as a source of a count in this file."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "grey",
+            "greyish-brown"
+          ],
+          "pattern": "Wikipedia, citing Cotterill and Happold in Kingdon et al. (2013), describes soft, fluffy fur, grey or greyish-brown on the back. The 2025 EWT assessment gives no pelage colour. Sexes are not described as differing in colour in the sources used"
+        },
+        "underparts": {
+          "colour": "pale grey",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically seen hanging freely from a ceiling in a cave, a cavity among boulders, a mine adit, a culvert, a large hollow tree or a disused building. Groups are usually small (about 2-20 have been reported); a colony may reach about a hundred. Soft, fluffy fur is grey or greyish-brown on the back and pale grey on the belly, from Wikipedia (Kingdon et al. 2013). No sourced description of the nose-leaf shape was given in the sources used."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter forager that feeds mainly on moths and beetles. Wikipedia, citing Kingdon et al. (2013), describes a low aspect ratio and very low wing loading, and therefore likely slow but highly manoeuvrable flight; the 2025 EWT assessment cites Norberg and Rayner (1987) for low to intermediate wing loading. No wingspan was published in the sources used."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Rhinolophus darlingi",
+      "url": "https://ewt.org/project/darlings-horseshoe-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Taylor P and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; trend Stable), common names (including Afrikaans Darling se saalneusvlermuis and Darling-saalneusvlermuis), the split of R. damarensis (Jacobs et al. 2013), the Kruger record among protected areas, Great Limpopo Transfrontier Park in the Assessment Rationale, roosting sites, colony sizes, diet (Schoeman 2006), habitat, elevation (Monadjem et al. 2024), movement patterns marked not specified, South African seasonality listed as resident, and regional population remarks. Cited from the project page; the underlying PDF is not hosted in this repo."
+    },
+    {
+      "title": "Darling's horseshoe bat",
+      "url": "https://en.wikipedia.org/wiki/Darling's_horseshoe_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Rhinolophus darlingi. Used for authority and holotype locality, forearm length and mass, pelage colour and texture, wing aspect ratio and wing loading (Cotterill and Happold in Kingdon et al. 2013), a broader continental range statement, habitat, and the global IUCN listing (Monadjem et al. 2017). Afrikaans names were taken from the 2025 EWT assessment, not from this page."
+    },
+    {
+      "title": "Rhinolophus darlingi (Darling's horseshoe bat)",
+      "url": "https://animaldiversity.org/accounts/Rhinolophus_darlingi/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Classification page only; there is no species account, so the page was not used for measurements, ecology, calls or appearance."
+    },
+    {
+      "title": "iNaturalist taxon Rhinolophus darlingi",
+      "url": "https://api.inaturalist.org/v1/taxa/338548",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Rhinolophus darlingi (English Darling's horseshoe bat; Afrikaans Darling se saalneusvlermuis) and does not remap the names. The 2025 EWT assessment treats the present concept as new following the split of R. damarensis from western arid populations (Jacobs et al. 2013); Kruger falls in the eastern southern African range retained as R. darlingi. The EWT Afrikaans names are Darling se saalneusvlermuis and Darling-saalneusvlermuis; the species-list form matches the first of those and is kept. Status is scored resident, with monthsPresent all year: the 2025 assessment gives a definite Kruger record (present in many protected areas, including Kruger National Park), lists seasonality for South Africa as resident, and marks movement patterns as not specified; it does not describe the species as a migrant, partial migrant or seasonal visitor. Regional status is Least Concern (2025, no change from 2016); the global IUCN listing cited by Wikipedia is Least Concern (Monadjem et al. 2017). Wikipedia's range includes countries west and north of southern Africa that the 2025 assessment either assigns to R. damarensis or treats as not reliably reported; those statements are recorded rather than reconciled. Animal Diversity Web is a classification stub. No licensed photograph was kept: the only licensed research-grade observation in iNaturalist places 69020 and 6986 is a rest-camp roost and was dropped from metadata. Place 69020 returned 0 sound observations for taxon 338548.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment records the species from Kruger among other protected areas and gives regional remarks (mature population inferred a little less than 10,000 in the assessment region; 100 mature individuals in the largest subpopulation; colonies of at most about a hundred; trend Stable; effective population size estimated at 1,000-3,000), which are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2025 EWT assessment treats the present concept of Rhinolophus darlingi as new following the split of R. damarensis (Jacobs et al. 2013). The file keeps the species-list.json names and does not remap the Kruger animals. In one sentence the assessment also writes R. darlingii.",
+    "The Afrikaans name in species-list.json, Darling se saalneusvlermuis, matches the first Afrikaans name in the 2025 EWT assessment. That assessment also lists Darling-saalneusvlermuis. The species-list form is kept. The English name matches the assessment.",
+    "Wikipedia, citing the 2017 IUCN assessment, lists a range that includes Angola, Namibia, Kenya, Tanzania, Burundi, the Democratic Republic of the Congo and a possible presence in Nigeria and Lesotho. The 2025 EWT assessment says the species has not been reliably reported outside southern Africa, assigns Angola, Namibia and northwestern South Africa to R. damarensis, and treats presence in Lesotho and the taxonomic status of a Nigerian population as uncertain. Those statements are recorded rather than reconciled. The 2025 countries table still lists Angola and Tanzania as extant, which sits unresolved next to the range text.",
+    "Wikipedia (Kingdon et al. 2013) describes very low wing loading; the 2025 EWT assessment cites Norberg and Rayner (1987) for low to intermediate wing loading. Both are recorded.",
+    "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 338548. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned one licensed research-grade observation (354001, John Kinghorn, CC BY-NC), whose description places the roost at Olifants Rest Camp; it was dropped from metadata as a rest-camp shot and was not viewed. One place 6986 query (per_page 30) returned only that same observation. Zero photos is recorded.",
+    "Head-and-body length, tail length, shoulder height and wingspan were not published in the sources used, so those numeric fields are null. Mass and forearm length are taken from Wikipedia (Kingdon et al. 2013). The 2025 EWT assessment does not show those measurements.",
+    "Ear colour, iris colour, muzzle colour, leg colour, tail colour and nose-leaf shape were not given in the sources used, so those marks are null. Pelage colour is taken only from Wikipedia (Kingdon et al. 2013).",
+    "No sourced comparison characters for other horseshoe bats in this guide were given in the darlingi sources used, so similar is omitted.",
+    "No Kruger-specific breeding study was found. Beyond live birth, breeding details were not specified in the 2025 EWT assessment, and Wikipedia has no breeding account.",
+    "No species-specific, documented predators were given in the sources used, so the predators list is empty.",
+    "Animal Diversity Web has only a classification page for this species, with no species account, so it was not used for facts."
+  ]
+}

@@ -310,6 +310,45 @@ Researched in a fresh session for the second Phase 2 batch, the six Carnivora fa
 - iNaturalist HTML/JSON checklist 8810 was not used (Phase 1: HTTP 403/401).
 - Skinner & Chimimba and Stuart’s guide were not available. No rare / reintroduced / introduced flags were added: the 2011 PDF does not mark any species in these six families with an asterisk.
 
+## Batch 14 hints (horseshoe bats, 15 November 2026, Africa/Johannesburg)
+
+### Peak-saddle horseshoe bat (Rhinolophus blasii), 12 calls
+- No 2025 EWT page; 2016 PDF …/40.-Peak-saddle-Horsehoe-Bat-…_NT.pdf ("Horsehoe" typo is real). Pafuri record; partial migration suggested, so status omitted. ewt.org/project/peters-horseshoe-bat/ is R. lobatus, not this.
+- Wikipedia short; ADW full account. iNat 40673: zero in 69020 and 6986.
+
+### Geoffroy's horseshoe bat (Rhinolophus clivosus), 13 calls
+- No 2025 EWT page; 2016 PDF …/42.-Geoffroys-Horseshoe-Bat-Rhinolophus-clivosus_LC.pdf lists Kruger among protected areas. Moves up to 10 km between caves (not migrant).
+- Wikipedia short but useful; ADW stub. iNat 320633: 69020 zero; 6986 Oudtshoorn cave roost obs 334336064 kept.
+- Stoffberg et al. clades flagged, not remapped.
+
+### Darling's horseshoe bat (Rhinolophus darlingi), 17 calls
+- 2025 EWT https://ewt.org/project/darlings-horseshoe-bat/: Kruger in Conservation, SA resident, no migration. Body correct (stray "shrew" alt text only).
+- Wikipedia gives pelage and measurements (EWT clips them); ADW stub.
+- iNat 338548: only obs 354001 at Olifants Rest Camp; zero photos.
+
+### Rüppell's horseshoe bat (Rhinolophus fumigatus), 17 calls
+- `site:ewt.org Rhinolophus fumigatus` returns the 2016 PDF first; the Chiroptera tag page gives the 2025 URL https://ewt.org/project/ruppells-horseshoe-bat/ (two l's; not the `ruppels-pipistrelle` slug). The 2025 body is this species; Kruger appears in Population Information and Conservation (northern Kruger subpopulations). No "migrat"; countries-table seasonality is blank.
+- Wikipedia parse (redirects=1) is short but has the Kingdon et al. 2013 pelage and nose-leaf description; no forearm or mass. ADW is a classification stub only.
+- iNat 69020 and 6986 licensed photos: both 0. No 69020 sounds.
+
+### Hildebrandt's horseshoe bat (Rhinolophus hildebrandtii), 13 calls
+- No EWT page under this name: after Taylor et al. 2012 the regional lists carry R. cohenae and R. smithersi instead. Check the https://ewt.org/red-list/ Chiroptera table and the 2025 summary Excel (https://ewt.org/wp-content/uploads/2026/01/2025-Regional-Mammal-Red-List-summary-listings.xlsx, linked from /resources/mammal-red-list/); no row means stop. Cite split taxa for taxonomy only.
+- Wikipedia parse is a stub (habitats and IUCN only); ADW classification only.
+- iNat taxon 183175 lumps the split names; 69020 had 0 licensed photos; 6986 had 2, both dropped (farmhouse; handled).
+
+### Lander's horseshoe bat (Rhinolophus landeri), 14 calls
+- No 2025 landeri page; the red-list Chiroptera row links only the 2016 PDF (no "Kruger" or "migrat"; only Great Limpopo Transfrontier Park). The southern African animals are now R. lobatus: https://ewt.org/project/peters-horseshoe-bat/ gives the split, pre-2000 records, and Brinkley et al. (2021) not finding it in northern Kruger. Use it for taxonomy and region facts only; keep list names.
+- Afrikaans: list has "Lander se…", 2016 EWT has "Landers se…"; logged as a gap.
+- Wikipedia parse is thin (size, etymology); ADW stub. iNat taxon 40680: 0 licensed photos (69020, 6986), 0 sounds.
+
+### Bushveld horseshoe bat (Rhinolophus simulator), 13 calls
+- No 2025 page; `site:ewt.org Rhinolophus simulator` returns the 2016 PDF (…/49.-Bushveld-Horseshoe-Bat-Rhinolophus-simulator_LC.pdf), which the red-list row also links. Two-column PDF: Kruger is in the Conservation list of protected areas; "migrat" only describes females' spring move to maternity roosts, not a species-level migrant pattern.
+- Wikipedia parse is a stub (range, habitat, IUCN 2017 LC); ADW classification only. iNat taxon 40693: 0 licensed photos (69020, 6986), 0 sounds.
+
+### Swinny's horseshoe bat (Rhinolophus swinnyi), 13 calls
+- `site:ewt.org Rhinolophus swinnyi` returns the 2016 PDF and the R. rhodesiae page; the Chiroptera tag page from the same search gives https://ewt.org/project/swinnys-horseshoe-bat/ (body is this species). No "Kruger" and no "migrat": after the split R. swinnyi is KZN and Eastern Cape only, and northeastern animals are R. rhodesiae. Regional VU C2a(i), declining.
+- Wikipedia (Skinner & Chimimba 2005) gives appearance and size; ADW stub. iNat taxon 40670: 0 licensed photos (69020, 6986), 0 sounds.
+
 ## Phase 2 hints (batch 4: Emballonuridae, Hipposideridae, Miniopteridae, Molossidae, Nycteridae, Pteropodidae, Rhinolophidae, Vespertilionidae, 13 November 2026, Africa/Johannesburg)
 
 Researched in a fresh session for the eight Chiroptera families. The 2011 Wayback PDF was again fetched to a temporary path, converted with `pdftotext -layout`, and deleted. **Do not host or copy that PDF into the repo.** Miniopteridae is printed under **Vespertilionidae** on that PDF; inclusion used that heading, and the family name stored is the Phase 1 remap in `families.json`.
