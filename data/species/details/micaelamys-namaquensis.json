@@ -1,0 +1,215 @@
+{
+    "kind": "species",
+    "slug": "micaelamys-namaquensis",
+    "scientificName": "Micaelamys namaquensis",
+    "commonNames": {
+        "en": "Namaqua rock mouse",
+        "af": "Namakwalandse Klipmuis"
+    },
+    "family": "muridae",
+    "inatTaxonId": 851046,
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "2016 regional Red List for South Africa, Eswatini and Lesotho. A 2025 EWT project page was not found in the one site search. Global IUCN listing Least Concern (2016, amended 2017)",
+        "asOf": 2016,
+        "sources": [
+            {
+                "title": "A conservation assessment of Micaelamys namaquensis",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/34.-Namaqua-Rock-Mouse-Micaelamys-namaquensis_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Russo I-R, MacFadyen D, Taylor P, Child MF. 2016. Regional status Least Concern (no change from 2004). Global Red List status Least Concern (2016). Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "Namaqua rock rat",
+                "url": "https://en.wikipedia.org/wiki/Namaqua_rock_rat",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Cassola, Child and Coetzee (2017, amends 2016), IUCN Least Concern, for Micaelamys namaquensis."
+            }
+        ]
+    },
+    "summary": "A small rock-dwelling mouse of southern African savannas and other habitats that have rocky outcrops, with underparts often pure white and a tail that is relatively long compared with Grant’s rock mouse. It is predominantly nocturnal and communal, omnivorous, and often commensal with people. Colour, tail length and body size vary greatly across the range, and the taxon is treated as a species complex. The 2011 SANParks checklist records it in Kruger National Park; the 2016 regional assessment does not mention Kruger.",
+    "description": "The 2016 EWT assessment of this species does not publish a full pelage account. It says the colour of the pelage, the length of the tail and body size vary greatly over the wide distributional range, and that the animal closely resembles the red veld rat (Aethomys chrysophilus) but is not as large, reddish or heavily built. The 2016 assessment of Grant’s rock mouse (Micaelamys granti), which is not in this guide, distinguishes M. namaquensis by a relatively longer tail, ventral pelage that is often pure white, and three pairs of nipples (M. granti has a ventral pelage that is never pure white, usually grey or greyish, and five pairs of nipples). The sexes are not described as differently marked. Older lists placed the species in Aethomys.",
+    "habits": "The 2016 EWT assessment, citing Perrin (1981), describes the species as predominantly nocturnal and communal. It prefers rocky koppies, outcrops and boulders, and shelters in rocky crevices, hollow trees, or burrows under logs or dense shrubs. Its presence is often given away by nests of large amounts of dry grass in rock cracks and under rocky overhangs. It is commensal with people and is often found in houses and huts; juveniles have been recorded in buildings at Tswalu Kalahari Reserve. A Kruger-specific activity study was not found.",
+    "diet": {
+        "summary": "The 2016 EWT assessment describes the species as omnivorous, feeding on seeds, green plant material and insects, with a preference for seeds of Protea caffra, which it may eat in large numbers in a short time. The same assessment, citing Bond and Breytenbach (1985), says it acts as a seed disperser and as a pollinator of certain geoflorous Protea species by taking nectar, for example Protea welwitschia.",
+        "items": [
+            "seeds",
+            "Protea caffra seeds",
+            "green plant material",
+            "insects",
+            "nectar of geoflorous Protea species"
+        ],
+        "guild": "omnivore"
+    },
+    "predators": [],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Insects",
+            "note": "The 2016 EWT assessment, citing Breytenbach (1982), Kerley et al. (1990) and Monadjem (1997), lists insects among the foods of this omnivorous species."
+        }
+    ],
+    "habitat": "The 2016 EWT assessment says the species occupies a wide range of habitats as long as they contain patches of rocky ground. It prefers rocky koppies, outcrops and boulders, but even small rocky knolls, slopes of small stones, or grassy areas with scattered rocks can hold a population, and it is also encountered in woodlands and grasslands away from rocks. It is absent from agricultural monocultures, rockless grasslands, sodic areas and wetlands, and it is commensal with people. A habitat account written specifically for Kruger National Park was not found, and the 2016 assessment does not mention Kruger.",
+    "similar": [
+        {
+            "slug": "aethomys-chrysophilus",
+            "note": "The 2016 EWT assessment says the Namaqua rock mouse closely resembles the red veld rat (Aethomys chrysophilus), which is larger, more reddish and more heavily built. Pelage colour, tail length and body size in M. namaquensis vary greatly over its range."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment gives no Kruger total. It describes the species as widespread and common, especially in highveld rocky grasslands, with more than 10,000 mature individuals in the assessment region and a stable regional trend, and it gives local densities of up to 54 individuals per hectare in the western Soutpansberg. Those figures are not a park-wide Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "A more accurate figure may be available here. Cited, not hosted."
+            },
+            {
+                "title": "A conservation assessment of Micaelamys namaquensis",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/34.-Namaqua-Rock-Mouse-Micaelamys-namaquensis_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "Widespread and common; more than 10,000 mature individuals in the assessment region; regional trend stable. No Kruger total. Cited only; the PDF is not hosted in this repo."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": null
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": null,
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": null,
+                    "pattern": "pelage colour varies greatly over the range; less reddish and less heavily built than the red veld rat"
+                },
+                "underparts": {
+                    "colour": "white",
+                    "pattern": "often pure white, as described in the 2016 assessment of Grant’s rock mouse"
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": "relatively longer than in Grant’s rock mouse; length varies greatly over the range"
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A small rock-dwelling mouse on rocky ground, often with pure white underparts, and not as reddish or heavily built as the red veld rat."
+        }
+    ],
+    "calls": [],
+    "images": [
+        {
+            "key": "micaelamys-namaquensis/mapungubwe-side.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/338554194",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/615715419/large.jpg",
+            "hosted": false,
+            "author": "victor_luijk",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "alt": "A Namaqua rock mouse standing in short grass at Mapungubwe National Park, showing pale underparts and large ears",
+            "caption": "Research-grade iNaturalist observation, Mapungubwe National Park, Limpopo, 13 February 2026."
+        }
+    ],
+    "sources": [
+        {
+            "title": "A conservation assessment of Micaelamys namaquensis",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/34.-Namaqua-Rock-Mouse-Micaelamys-namaquensis_LC.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited only; the PDF is not hosted in this repo. Afrikaans name Namakwalandse Klipmuis is taken from this assessment."
+        },
+        {
+            "title": "A conservation assessment of Micaelamys granti",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/33.-Grants-Rock-Mouse-Micaelamys-granti_LC.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "Cited only for the characters used to tell M. namaquensis from M. granti (relatively longer tail, ventral pelage often pure white, three pairs of nipples). The PDF is not hosted in this repo. M. granti is not in this guide."
+        },
+        {
+            "title": "Namaqua rock rat",
+            "url": "https://en.wikipedia.org/wiki/Namaqua_rock_rat",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Micaelamys namaquensis: Namaqua micaelemys",
+            "url": "https://animaldiversity.org/accounts/Micaelamys_namaquensis/",
+            "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+            "year": 2025,
+            "note": "Classification stub only; no natural-history account."
+        },
+        {
+            "title": "iNaturalist taxon Micaelamys namaquensis",
+            "url": "https://api.inaturalist.org/v1/taxa/851046",
+            "publisher": "iNaturalist",
+            "year": 2026
+        }
+    ],
+    "gaps": [
+        "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives the regional trend as stable and more than 10,000 mature individuals in the assessment region, and does not publish a Kruger total. Local densities, including up to 54 individuals per hectare in the western Soutpansberg, are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "The 2016 EWT assessment does not mention Kruger National Park. Status and monthsPresent are omitted rather than inferred. The species is on the 2011 SANParks checklist and has one research-grade iNaturalist observation in place 69020.",
+        "No licensable natural Kruger photograph suitable for display was found. The only research-grade iNaturalist record with an allowed licence in place 69020, at Masorini, shows an animal in a glass container and was dropped. A South Africa (place 6986) search supplied one wild photograph from Mapungubwe National Park, Limpopo. A Vhembe District photograph was dropped because of a visible watermark; a Mopani District photograph showed an animal in a metal live-trap; and a Waterberg photograph showed an animal on a plastic sheet.",
+        "iNaturalist has 0 sound observations for Micaelamys namaquensis in place 69020. No sourced description of the calls was found.",
+        "No published measurements (head-and-body length, tail length, mass or shoulder height) were found in the 2016 EWT assessment or on Wikipedia. Animal Diversity Web is a classification stub only. The size object is omitted.",
+        "Named colours for the upperparts, ears, eyes, legs and tail were not given in the accounts used, so those marks are null. Underparts and relative tail length are taken from the 2016 EWT comparison with Grant’s rock mouse. Appearance of the young, gestation and litter size were not found.",
+        "No wild predator species was named.",
+        "The taxon is treated as a species complex. The 2016 EWT assessment, citing Russo et al. (2010) and Chimimba (2001), notes at least eight mitochondrial lineages and earlier recognition of four morphometric subspecies, against as many as 16 subspecies in older treatments, and says further research may require reassessment. Older lists used Aethomys namaquensis; EWT and iNaturalist treat that as a synonym after a genus transfer, not a split. This file follows species-list.json (Micaelamys namaquensis) and does not remap Kruger records.",
+        "A 2025 EWT project page was not found in the one site search. Conservation status follows the 2016 regional assessment.",
+        "Skinner and Chimimba and Stuart's field guide were not available as books. Wikipedia is a stub. Animal Diversity Web has only a classification page. No Kruger-specific habitat, diet or activity study was found."
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger animal as Micaelamys namaquensis (Namaqua rock mouse, the 2011 SANParks checklist name; Afrikaans Namakwalandse Klipmuis, as given in the 2016 EWT assessment). EWT uses Namaqua Rock Mouse and also lists Golden Rat; iNaturalist (taxon 851046) uses Namaqua Rock Rat as the preferred English name, and Wikipedia titles the page Namaqua rock rat. Older lists used Aethomys namaquensis; that is a genus transfer, not a split. The 2016 EWT assessment treats the taxon as a species complex (at least eight mitochondrial lineages) and does not mention Kruger, so status and monthsPresent are omitted; the 2011 checklist and one research-grade iNaturalist record support inclusion. A 2025 EWT project page was not found. No published measurements were found. The one photograph is from Mapungubwe National Park, Limpopo, not Kruger.",
+        "researched": "15 November 2026, Africa/Johannesburg"
+    }
+}
