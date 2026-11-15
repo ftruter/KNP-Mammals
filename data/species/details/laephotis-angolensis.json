@@ -1,0 +1,153 @@
+{
+  "kind": "species",
+  "slug": "laephotis-angolensis",
+  "scientificName": "Laephotis angolensis",
+  "commonNames": {
+    "en": "Botswana long-eared bat",
+    "af": "Botswana-langoorvlermuis"
+  },
+  "family": "vespertilionidae",
+  "inatTaxonId": 40531,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Data Deficient",
+    "scope": "Wikipedia cites a global IUCN listing of Data Deficient (Jacobs, Cotterill and Taylor 2019). The 2025 regional Red List does not assess Laephotis angolensis under that name; it assesses Laephotis cf. botswanae as Least Concern (no change from 2016; regional population trend Unknown).",
+    "asOf": 2019,
+    "sources": [
+      {
+        "title": "Laephotis angolensis",
+        "url": "https://doi.org/10.2305/IUCN.UK.2019-3.RLTS.T11135A22011591.en",
+        "publisher": "IUCN",
+        "year": 2019,
+        "note": "Jacobs, Cotterill and Taylor 2019. Global Data Deficient listing as cited on the Wikipedia Angolan long-eared bat article. Cited only; not hosted in this repo."
+      },
+      {
+        "title": "A conservation assessment of Laephotis cf. botswanae",
+        "url": "https://ewt.org/project/botswana-long-eared-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Taylor PJ, Howard A, Balona J and da Silva JM. 2025. Regional Least Concern assessment of Laephotis cf. botswanae, not of Laephotis angolensis. Cited only; not hosted in this repo."
+      }
+    ]
+  },
+  "summary": "A small African long-eared vesper bat. Wikipedia, citing Mammals of Africa, describes the back fur as yellowish- or reddish-brown and the underside as pale gray or cream, and places the species in moist savanna in Angola and the Democratic Republic of the Congo. This file keeps the checklist names Laephotis angolensis and Botswana long-eared bat. The 2025 regional Red List treats L. botswanae sensu stricto as a synonym of L. angolensis, and treats South African animals formerly assigned to L. botswanae as a distinct, still-unnamed clade (L. cf. botswanae), which it records from Kruger National Park.",
+  "description": "The Botswana long-eared bat is a small vesper bat. Wikipedia, citing Mammals of Africa, gives a dental formula of 2.1.1.3/3.1.2.3 (32 teeth in total), describes the fur of the back as yellowish- or reddish-brown, and describes the ventral fur as pale gray or cream. No ear, muzzle, wing or tail-membrane colours or shapes were published on the pages used.",
+  "predators": [],
+  "habitat": "Wikipedia, citing Mammals of Africa and the 2019 IUCN assessment, says the species has only been documented in the Central Zambezian miombo woodlands and can be found in moist savanna in Angola and the Democratic Republic of the Congo. No Kruger-specific habitat was published for L. angolensis on the pages used. The 2025 EWT assessment of L. cf. botswanae, which it treats as a South African endemic distinct from L. angolensis, records that clade from forests and grasslands, often near rivers and sometimes near rocky outcrops, and lists a record from Kruger National Park.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. Wikipedia, citing Mammals of Africa, calls L. angolensis a locally rare species. The 2025 regional assessment of L. cf. botswanae, not of L. angolensis, gives the current population trend as Unknown and does not quantify mature individuals.",
+    "sources": [
+      {
+        "title": "Angolan long-eared bat",
+        "url": "https://en.wikipedia.org/wiki/Angolan_long-eared_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Mammals of Africa for the remark that the species is considered locally rare. Not a Kruger estimate."
+      },
+      {
+        "title": "A conservation assessment of Laephotis cf. botswanae",
+        "url": "https://ewt.org/project/botswana-long-eared-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional remarks for L. cf. botswanae only (mature population size not quantified; current population trend Unknown). Not an assessment of L. angolensis and not a Kruger estimate."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "yellowish-brown or reddish-brown",
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "pale gray or cream",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Wikipedia, citing Mammals of Africa, describes yellowish- or reddish-brown back fur and pale gray or cream underparts. No ear length or shape was published on the pages used."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Laephotis cf. botswanae",
+      "url": "https://ewt.org/project/botswana-long-eared-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Taylor PJ, Howard A, Balona J and da Silva JM. 2025. Source of the taxonomic note that L. botswanae sensu stricto (Setzer, 1971) is synonymous with savanna-associated L. angolensis (Monard, 1935), while South African specimens formerly assigned to L. botswanae form a distinct clade termed L. cf. botswanae, pending formal naming (Kearney and Seamark 2005; Taylor et al. 2022, 2024). Also the source of the 2025 regional Least Concern status of that clade (no change from 2016; regional population trend Unknown), the statement that common names are none available pending formal description, movement patterns listed as no information available, habitat remarks for that clade, and the record of that clade from Kruger National Park. Forearm means and maxima on the page are flagged as possibly including L. angolensis individuals and were not used as measurements for this file. Cited only; not hosted in this repo."
+    },
+    {
+      "title": "Angolan long-eared bat",
+      "url": "https://en.wikipedia.org/wiki/Angolan_long-eared_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "The title Laephotis angolensis redirects here. Appearance (yellowish- or reddish-brown back fur; pale gray or cream ventral fur; dental formula 2.1.1.3/3.1.2.3), range in moist savanna of Angola and the Democratic Republic of the Congo and restriction to Central Zambezian miombo woodlands, the suggestion that it may be synonymous with the Botswanan long-eared bat, and the 2019 IUCN Data Deficient assessment (Jacobs, Cotterill and Taylor), citing Mammals of Africa and the IUCN account. The page uses the English name Angolan long-eared bat."
+    }
+  ],
+  "research": {
+    "confidence": "low",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the checklist animal as Laephotis angolensis (English Botswana long-eared bat; Afrikaans Botswana-langoorvlermuis, the 2011 SANParks checklist name) and does not remap it. The 2011 checklist used Laephotis botswanae. The 2025 EWT assessment is of Laephotis cf. botswanae, not of L. angolensis: it states that, based on mtDNA and craniometric data, L. botswanae sensu stricto is synonymous with savanna-associated L. angolensis, while South African specimens formerly assigned to L. botswanae comprise a distinct clade, here termed L. cf. botswanae, pending formal naming. Wikipedia, under Angolan long-eared bat, likewise notes that L. angolensis has been suggested to be synonymous with the Botswanan long-eared bat, and it does not include South Africa in the range. The Kruger record cited by EWT is of L. cf. botswanae, so status and monthsPresent are omitted. Those issues are flagged here, not used to change the checklist names."
+  },
+  "gaps": [
+    "Status and monthsPresent omitted: the 2025 EWT Kruger record is of Laephotis cf. botswanae, which that assessment treats as distinct from L. angolensis; Wikipedia does not include South Africa in the range of L. angolensis.",
+    "No Kruger census or park-wide count; no population estimate for L. angolensis in Kruger.",
+    "No published mass, head-and-body length, tail length, shoulder height, or unmixed forearm range for L. angolensis; the 2025 EWT forearm means and maxima are given for L. cf. botswanae and may include L. angolensis individuals, so they were not used.",
+    "No sourced colours or shapes for the ears, eyes, muzzle, legs or tail membrane; marks are limited to back and ventral fur from Wikipedia.",
+    "Diet, roosting, habits, echolocation and social calls of L. angolensis were not published on the pages used; no iNaturalist sound records in Kruger (place 69020).",
+    "No licensable unhandled photograph: none in Kruger (place 69020) or South Africa (place 6986). The only licensed iNaturalist records were a handled bat at Gorongosa, Mozambique (observation 266356093), handled bats at Wedza, Zimbabwe (observation 222858299), and a dry carcass at buildings in Tutume, Botswana (observation 25257350); all were dropped.",
+    "Gestation, litter size, size at birth and pup appearance of L. angolensis were not published on the pages used.",
+    "The 2025 EWT page lists no common names, pending formal description of L. cf. botswanae. The Afrikaans name kept here is the 2011 checklist form Botswana-langoorvlermuis. The list English name Botswana long-eared bat differs from the Wikipedia and iNaturalist preferred name Angolan long-eared bat.",
+    "No sourced field comparison with other long-eared or serotine bats in this guide was published on the pages used."
+  ]
+}
