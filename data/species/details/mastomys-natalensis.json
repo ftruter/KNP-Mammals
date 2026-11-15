@@ -1,0 +1,240 @@
+{
+    "kind": "species",
+    "slug": "mastomys-natalensis",
+    "scientificName": "Mastomys natalensis",
+    "commonNames": {
+        "en": "Natal multimammate mouse",
+        "af": "Natalse Vaalveldmuis"
+    },
+    "family": "muridae",
+    "inatTaxonId": 45326,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Mastomys natalensis",
+                "url": "https://ewt.org/project/natal-multimammate-mouse/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Russo IM & da Silva JM. 2025. Regional status Least Concern, with no change from the 2016 regional assessment. Regional population trend stable. Current population trend given as stable/increasing. Cited only; the page is not hosted in this repo."
+            },
+            {
+                "title": "A conservation assessment of Mastomys spp.",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/32.-Multimammate-Mouse-Mastomys-spp_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "du Plessis J, Russo IM, Child MF. 2016. Combined assessment of Mastomys coucha and M. natalensis. Regional status of M. natalensis Least Concern; no change from the 2004 national assessment. Global IUCN status Least Concern (2016). Cited only; the PDF is not hosted in this repo."
+            },
+            {
+                "title": "Natal multimammate mouse",
+                "url": "https://en.wikipedia.org/wiki/Natal_multimammate_mouse",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Granjon L (2016), IUCN Least Concern."
+            }
+        ]
+    },
+    "summary": "A small, terrestrial, nocturnal mouse of the wetter savannahs, grasslands and agricultural landscapes of eastern and northeastern South Africa, named for the eight to 12 pairs of mammae that run from the sternum to the inguinal region. It cannot be told from the multimammate mouse by appearance alone; the two are separated by chromosome number and molecular markers. It is a habitat generalist and a prolific breeder, often abundant after disturbance, and has been recorded in Kruger National Park, where it dominated wetter areas at Roan Camp.",
+    "description": "The 2025 EWT assessment, like the combined 2016 assessment of this species and the multimammate mouse, gives the namesake mark as a large number of mammae, between eight and 12 pairs from the sternum to the inguinal region. It states that the two species are cryptic and cannot be distinguished by appearance, cranio-dental features, or a multivariate analysis, and are separated only by chromosome number (2n = 32 in M. natalensis; 2n = 36 in M. coucha) and molecular markers. Coat colour, ear shape and other external marks were not described in the sources used. The sexes are not described as differently marked, apart from the mammae.",
+    "habits": "Both Mastomys species are described in the 2025 and 2016 EWT assessments as terrestrial and nocturnal. M. natalensis is typically associated with agricultural fields and homes, but also occurs in natural savannahs and grasslands. It tolerates disturbance well, can be abundant in Aristida and disturbed grasslands, and rapidly colonises areas after fire, overgrazing or cultivation. It is a prolific, opportunistic breeder, and population eruptions often occur under favourable conditions. In Roan Camp, Kruger National Park, Kneidinger et al. (2014), as cited by EWT, found that M. natalensis dominated in wetter areas, whereas M. coucha was found in relatively more high-altitude, low-rainfall areas. A more detailed Kruger-specific activity study was not found.",
+    "diet": {
+        "summary": "The 2025 EWT assessment, citing Monadjem et al. (2015), describes both Mastomys species as having a diet that varies from granivorous to omnivorous, sometimes including arthropods and carrion. At Umvoti Vlei Conservancy, KwaZulu-Natal, Fuller and Perrin (2001), as cited by EWT, found that M. natalensis preferred green plant foods, and that its diet changed from predominantly plant material in summer to mainly seeds in winter. A diet study confined to Kruger was not found.",
+        "items": [
+            "green plant foods",
+            "seeds",
+            "arthropods",
+            "carrion"
+        ],
+        "guild": "omnivore"
+    },
+    "young": "The 2025 EWT assessment, citing Monadjem et al. (2015), says both M. coucha and M. natalensis are opportunistic breeders that can breed throughout the year when conditions are favourable, with breeding strongly correlated with rainfall; in most areas, however, reproduction does not occur during winter. They are prolific breeders and, although this rarely happens, can carry up to 24 foetuses at once under favourable conditions. Gestation and the interval between litters are relatively short, and litter size varies from 1 to 27 young. Kruger-specific birth months and a measured gestation length were not found.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Carnivores",
+            "note": "The 2025 EWT assessment says Mastomys species form a forage resource for carnivores, especially in post-fire landscapes, because they do not vacate an area after fire. It does not name a mammal species in this guide."
+        }
+    ],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Arthropods",
+            "note": "The 2025 EWT assessment, citing Monadjem et al. (2015), says the diet of both Mastomys species sometimes includes arthropods."
+        }
+    ],
+    "habitat": "The 2025 EWT assessment, citing Monadjem et al. (2015) and Venturi et al. (2004), gives M. natalensis a very wide distribution across the savannahs, grasslands and agricultural landscapes of sub-Saharan Africa, and, within the assessment region, places it predominantly in the wetter eastern regions east of the Drakensberg escarpment, or in the low-altitude, high-rainfall eastern coastal region, extending to northeastern South Africa. It is typically associated with agricultural fields and homes, but also occurs in natural savannahs and grasslands, and is a generalist that rapidly colonises areas after disturbance. In Kruger National Park, Kneidinger et al. (2014), as cited by EWT, recorded the species at Roan Camp, where it dominated wetter areas.",
+    "similar": [
+        {
+            "slug": "mastomys-coucha",
+            "note": "The two species cannot be distinguished by appearance, cranio-dental features or a multivariate analysis. They are told apart by chromosome number (2n = 32 in M. natalensis; 2n = 36 in M. coucha) and by molecular markers. In South Africa they co-occur only marginally, with a possible zone of overlap along the eastern escarpment. In Kruger National Park both have been recorded at Roan Camp, where M. natalensis dominated wetter areas and M. coucha was found in relatively more high-altitude, low-rainfall areas (Kneidinger et al. 2014, as cited by the 2025 and 2016 EWT assessments)."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment gives the regional population trend as stable and the current population trend as stable/increasing, and does not publish a Kruger total. The 2016 assessment reports that, at Roan Camp, Kruger National Park, Mastomys spp. were the most abundant genus in, around and outside the enclosure, comprising 81% of captures (MacFadyen 2007); that figure is for the genus, not a park-wide count of M. natalensis. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "sources": [
+            {
+                "title": "Most recent counts of Kruger's wildlife and trends over time",
+                "url": "https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+                "publisher": "SANParks Scientific Services",
+                "year": 2025,
+                "note": "A more accurate figure may be available here. Cited, not hosted."
+            },
+            {
+                "title": "A conservation assessment of Mastomys natalensis",
+                "url": "https://ewt.org/project/natal-multimammate-mouse/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional trend stable; current population trend stable/increasing. No Kruger total is published. Cited only; the page is not hosted in this repo."
+            },
+            {
+                "title": "A conservation assessment of Mastomys spp.",
+                "url": "https://ewt.org/wp-content/uploads/2022/11/32.-Multimammate-Mouse-Mastomys-spp_LC.pdf",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2016,
+                "note": "The Roan Camp figure of 81% of captures is for Mastomys spp., not a Kruger total for M. natalensis. Cited only; the PDF is not hosted in this repo."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": null,
+                    "shape": null
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": null,
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": null,
+                    "pattern": null
+                },
+                "underparts": {
+                    "colour": null,
+                    "pattern": "eight to 12 pairs of mammae from the sternum to the inguinal region"
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": null
+                }
+            }
+        }
+    ],
+    "viewNotes": [],
+    "calls": [],
+    "images": [
+        {
+            "key": "mastomys-natalensis/waterberg-1.jpg",
+            "view": "standing-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/363660764",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/663831852/large.jpg",
+            "hosted": false,
+            "author": "Solly Modimola",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "alt": "A multimammate mouse on bare earth among grass in the Waterberg District Municipality, Limpopo, South Africa",
+            "caption": "Photographed in the Waterberg District Municipality, Limpopo, South Africa. The iNaturalist record is research-grade and identified as the Natal multimammate mouse; this species and the multimammate mouse cannot be told apart by appearance."
+        }
+    ],
+    "sources": [
+        {
+            "title": "A conservation assessment of Mastomys natalensis",
+            "url": "https://ewt.org/project/natal-multimammate-mouse/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Russo IM & da Silva JM. 2025. Afrikaans name Natalse Vaalveldmuis is taken from this assessment. Cited only; the page is not hosted in this repo."
+        },
+        {
+            "title": "A conservation assessment of Mastomys spp.",
+            "url": "https://ewt.org/wp-content/uploads/2022/11/32.-Multimammate-Mouse-Mastomys-spp_LC.pdf",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2016,
+            "note": "du Plessis J, Russo IM, Child MF. 2016. Combined assessment of Mastomys coucha and M. natalensis. Afrikaans name Natalse Vaalveldmuis is also given here. Cited only; the PDF is not hosted in this repo."
+        },
+        {
+            "title": "Natal multimammate mouse",
+            "url": "https://en.wikipedia.org/wiki/Natal_multimammate_mouse",
+            "publisher": "Wikipedia",
+            "year": 2026
+        },
+        {
+            "title": "Mastomys natalensis: Hildebrandt's multimammate mouse",
+            "url": "https://animaldiversity.org/accounts/Mastomys_natalensis/",
+            "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+            "year": 2025,
+            "note": "Classification page only; there is no species account. ADW also lists the names Natal multimammate mouse and rock mouse."
+        },
+        {
+            "title": "iNaturalist taxon Mastomys natalensis",
+            "url": "https://api.inaturalist.org/v1/taxa/45326",
+            "publisher": "iNaturalist",
+            "year": 2026
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger animal as Mastomys natalensis (Natal multimammate mouse, the 2011 SANParks checklist name; Afrikaans Natalse Vaalveldmuis, as given in the 2025 and 2016 EWT assessments). EWT also lists Natal Mastomys as an English name. M. natalensis and M. coucha are cryptic and are told apart mainly by chromosomes (2n = 32 versus 2n = 36) and molecular markers; a separate file covers M. coucha. The 2025 and 2016 EWT assessments record both species in Kruger National Park at Roan Camp (Kneidinger et al. 2014), with habitat partitioning, so status is entered as resident rather than omitted. Conservation status follows the 2025 EWT assessment (Least Concern; no change from 2016; regional trend stable) and the IUCN global listing cited on Wikipedia. No published measurements were found. The one photograph is a research-grade iNaturalist record identified as M. natalensis, taken in the Waterberg District Municipality, Limpopo, not in Kruger; because the two Mastomys species cannot be distinguished by appearance, that identification cannot be confirmed from the image.",
+        "researched": "15 November 2026, Africa/Johannesburg"
+    },
+    "gaps": [
+        "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional trend as stable and the current population trend as stable/increasing, and does not publish a Kruger total. A report that Mastomys spp. made up 81% of captures at Roan Camp (MacFadyen 2007) is a genus-level local figure, not a park-wide count of M. natalensis. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+        "No licensable photograph from Kruger suitable for display was found. iNaturalist has 0 research-grade observations of Mastomys natalensis in place 69020 with an allowed photo licence. A South Africa (place 6986) search returned four licensed research-grade records identified as M. natalensis: one wild animal in the Waterberg District Municipality, Limpopo, is used, with the caveat that M. natalensis and M. coucha cannot be distinguished by appearance; one at KwaDukuza, KwaZulu-Natal, shows an animal being held; and two at Ukulinga Research Farm, KwaZulu-Natal, are of animals caught at night.",
+        "iNaturalist has 0 sound observations for Mastomys natalensis in place 69020. No sourced description of the calls was found.",
+        "M. natalensis and M. coucha are cryptic sibling species, told apart mainly by chromosome number (2n = 32 versus 2n = 36) and molecular markers, not by appearance. This file follows species-list.json (Mastomys natalensis) and does not attempt to re-identify Kruger records. The 2025 and 2016 EWT assessments, citing Kneidinger et al. (2014), record both species at Roan Camp, Kruger National Park.",
+        "Skinner and Chimimba and Stuart's field guide were not available as books. The 2025 and 2016 EWT assessments and Wikipedia do not publish measurements, and Animal Diversity Web has only a classification page, so size is omitted.",
+        "Coat colour, ear colour and shape, eye colour, tail colour and shape, leg colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null.",
+        "iNaturalist has 0 research-grade observations of this taxon in place 69020, although the species is on the 2011 SANParks checklist and the 2016 and 2025 EWT assessments record it in Kruger. Kruger presence follows those sources.",
+        "No Kruger-specific breeding or diet study was found. Litter size and the figure of up to 24 foetuses are given by EWT for both Mastomys species together. The summer–winter diet shift is from Umvoti Vlei, KwaZulu-Natal, not Kruger."
+    ]
+}
