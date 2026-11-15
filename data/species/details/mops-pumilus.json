@@ -1,0 +1,328 @@
+{
+  "kind": "species",
+  "slug": "mops-pumilus",
+  "scientificName": "Mops pumilus",
+  "commonNames": {
+    "en": "Little free-tailed bat",
+    "af": "Klein losstertvlermuis"
+  },
+  "family": "molossidae",
+  "inatTaxonId": 1370990,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (no change from the 2016 regional assessment); IUCN global status Least Concern (2019, cited via Wikipedia as Chaerephon pumilus).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Mops pumilus",
+        "url": "https://ewt.org/project/little-free-tailed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Naidoo T, Richards LR, Balona J, van der Meulen K and da Silva JM. 2025. Regional status Least Concern; regional population trend stable; change compared with 2016 given as no change. The page records the species from Kruger National Park and cites a Kruger breeding study (van der Merwe et al. 1986). The page body describes this species. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "Little free-tailed bat",
+        "url": "https://en.wikipedia.org/wiki/Little_free-tailed_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Redirects from Mops pumilus. Cites Mickleburgh, Hutson, Racey, Ravino, Bergmans, Cotterill and Gerlach (2019) for a global IUCN listing of Least Concern as Chaerephon pumilus (IUCN 2019-3)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "tailCm": {
+      "min": null,
+      "max": null
+    },
+    "massKg": {
+      "min": null,
+      "max": null
+    },
+    "note": "The lengths and adult masses published in the sources used are not entered as head-and-body, tail or mass ranges. The 2025 EWT assessment gives size at maturity as a total length of 8.96 cm and a forearm of 3.81 cm in females, and a total length of 8.85 cm and a forearm of 3.76 cm in males; those figures are total length and forearm, and are not entered as headBodyLengthCm. Wikipedia, citing Kingdon (1974) and Smithers (1983), gives a total body length of 54–102 mm; that range is also not entered as head-and-body length. The same 2025 assessment, citing Skinner and Chimimba (2005), gives the mass of a single young as about 3.2 g, which is a neonatal mass and is not entered as adult massKg, and, citing Happold and Happold (1989), gives size at birth as approximately 56% of adult total length (about 4.90 cm). Animal Diversity Web (Mead 2009) states an average mass of 11.1 g, an average length of 252 mm and an average wingspan of 255 mm; the 252 mm length conflicts with the EWT total lengths and the Wikipedia range, so none of those ADW measurements is entered as a size bound. No shoulder height was published in the sources used."
+  },
+  "summary": "A small free-tailed bat of savanna, woodland and forest, including urban areas, with short blackish-brown fur that is paler on the underside, pale or white hairs where the wings meet the flanks, and rounded ears that are large for the head. It roosts by day in rock and tree crevices and in roofs and other spaces in buildings, forages in open air on the wing, and is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List (2019).",
+  "description": "A free-tailed bat of the family Molossidae, and one of the smallest species in the genus Mops (Wikipedia, citing Kingdon 1974 and Smithers 1983). Wikipedia, citing Bouchard (1998), Smithers (1983), Happold (1987) and Jacobs et al. (2004), describes short blackish-brown dorsal fur, lighter ventral fur, and pale or white hairs on the underside where the wings meet the flanks; both a white-winged type (north-eastern Africa) and a dark-winged type (southern Africa) have been reported, and the species shows marked geographical variation in wing and pelage colour. Animal Diversity Web likewise describes blackish-brown fur fading to pale tan or white where the body meets the wings, and much variation across the range. The 2025 EWT assessment does not describe pelage colour in the habitat account, but its population-genetics section records light and dark colour forms that have not been shown to be separate species (Aspetsberger et al. 2003; Jacobs et al. 2004). Wikipedia, citing Bouchard (1998) and Smithers (1983), describes rounded ears that are large for the head, a small tragus that is asymmetrically bilobed at the end and is covered by a large antitragus, and a forehead tuft in males that can make their outline recognizable in flight. Animal Diversity Web adds that the species lacks a lobe projecting between the inner bases of the ears, a mark used to separate it from other members of the genus as then circumscribed, and that males are slightly larger than females. The English name in species-list.json is Little free-tailed bat. The 2025 EWT assessment uses Little Free-tailed Bat as the lead English name, and also lists Lesser Free-tailed Bat, Little Wrinkle-lipped Bat and White-bellied Free-tailed Bat; the species-list form is kept. The Afrikaans name in species-list.json is Klein losstertvlermuis, which matches the 2025 EWT assessment (Klein Losstertvlermuis). The file keeps the species-list.json name Mops pumilus and does not remap it. The 2025 assessment lists the synonyms Chaerephon pumila (an orthographic error) and Tadarida pumila, and notes that the species was previously included in Chaerephon before being placed in Mops (Simmons and Cirranello 2020). It also notes that several species have been separated from this complex in recent years, including M. leucogaster, M. atsinanana and M. pusillus, and that discordance between molecular markers and genetic introgression have made it difficult to resolve the species within the mainland African complex (Taylor 2009; Naidoo et al. 2013, 2016).",
+  "habits": "A nocturnal open-air forager. The 2025 EWT assessment, citing Aldridge and Rautenbach (1987) and Bohmann et al. (2011), treats the species as an open-air insectivore. Wikipedia, citing Bouchard (1998) and Aldridge and Rautenbach (1987), says it flies fast in open areas, has long, narrow wings of high aspect ratio suited to fast, long-distance flight but low manoeuvrability, and that the minimum gap it can fly between two objects is 44 cm, compared with 11 cm in some other African bats; the ears can be laid on the head to reduce drag in flight. The same page says it uses low-frequency, high-intensity echolocation calls that carry farther and are suited to long-range prey detection in open air. Animal Diversity Web says the bats leave the roost at dusk, hunt alone and return after feeding, that they are noisy before leaving the roost, and that they often share roosts with the larger Angola free-tailed bat (Mops condylurus). The 2025 assessment, citing Skinner and Chimimba (2005), Mickleburgh et al. (2008) and Monadjem et al. (2020), says brickwork under roofs, corrugated roofs and other crevices in buildings are used as roosts in built-up areas, and that natural roosts include cracks and crevices in rocks and trees. Animal Diversity Web adds hollows and crevices of trees and the crowns of some palms. Colonies range from about 5–20 to thousands of individuals (Taylor 1998; Mickleburgh et al. 2008, from the 2025 assessment), including an estimate of up to 2,000 in the roof of a sugar mill in KwaZulu-Natal (Monadjem et al. 2020). The 2025 assessment records the species from Kruger National Park and cites a breeding study of females in the park (van der Merwe et al. 1986). Movement Patterns on that page is given as a possible shift in distribution or roosting patterns during ENSO events (Bats KZN data), and the geographic account says there is evidence that the species moves with ENSO fluctuations and may not be present in all parts of its range in all years. That language is not labelled as a migrant or a regular seasonal movement pattern. Animal Diversity Web (2009) states that migration has not been reported in this species. The two accounts are recorded and are not averaged. The assessment also notes human intolerance of bats in building roofs, persecution of roof-roosting colonies, and a risk to free-tailed bats from wind farms because of their open-air foraging habits.",
+  "diet": {
+    "summary": "An aerial insectivore. The 2025 EWT assessment, citing Aldridge and Rautenbach (1987) and Bohmann et al. (2011), lists Lepidoptera, Diptera, Hemiptera, Isoptera, Trichoptera and Hymenoptera in the diet. Wikipedia, citing Andrianaivoarivelo et al. (2006) for a Madagascan study, treats beetles (Coleoptera), true bugs (Hemiptera) and moths and butterflies (Lepidoptera) as major prey, with flies (Diptera) contributing notably in winter and beetles mainly in summer in that study; it also, citing Aspetsberger et al. (2003), says a population at Amani, Tanzania, fed mainly on cockroaches (Blattodea). Those geographic diet accounts are recorded separately and are not treated as a single Kruger diet.",
+    "items": [
+      "moths and other lepidopterans (Lepidoptera)",
+      "flies (Diptera)",
+      "true bugs (Hemiptera)",
+      "termites (Isoptera)",
+      "caddisflies (Trichoptera)",
+      "ants, bees and wasps (Hymenoptera)",
+      "beetles (Coleoptera), in some studies outside the assessment region",
+      "cockroaches (Blattodea), in a Tanzanian study"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment describes summer seasonal breeding, and seasonal polyoestry coinciding with the austral summer and early autumn. Citing van der Merwe et al. (1986), it says females in Kruger National Park had synchronised breeding with three peaks in parturition: early November, late January and early April. The same pattern was similar in Eswatini, with peaks estimated in November, January and March (Monadjem 1998); a fourth peak around May has been reported in Malawi and is suggested to be limited to lower-latitude, more tropical climates. Gestation is given as approximately 60 days (Skinner and Chimimba 2005; Happold 2013 in the Life History section), and a single young of about 3.2 g is produced (Skinner and Chimimba 2005). Typical litter size is one pup. Sexual maturity in females is reached at between 5 and 12 months, depending on area (Skinner and Chimimba 2005); the Life History section gives male maturity as likely one year, and size at birth as about 4.90 cm, approximately 56% of adult total length (Happold and Happold 1989). Animal Diversity Web, drawing mainly on studies from Ghana and other parts of the range, says gestation varies from 60 days in the south to 72 days in the north, that young are nursed for two to three weeks, that twinning has been documented in one case, and that males in Ghana reached sexual maturity about five months after birth. Those ADW figures from outside Kruger are recorded and are not substituted for the Kruger and southern African account in the 2025 assessment. Longevity is given as not known in the 2025 assessment.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Bat hawk (Macheiramphus alcinus)",
+      "note": "Named as a known predator on Animal Diversity Web (Mead 2009), which also says these raptors, together with the other birds listed here, may take between one and five bats a night. Not a mammal in this guide, and not a Kruger-specific study."
+    },
+    {
+      "slug": null,
+      "en": "Eurasian hobby (Falco subbuteo)",
+      "note": "Named as a known predator (hobby falcons) on Animal Diversity Web (Mead 2009). Not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Wahlberg's eagle (Hieraaetus wahlbergi)",
+      "note": "Named as a known predator, under Aquila wahlbergi, on Animal Diversity Web (Mead 2009). Not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "African goshawk (Accipiter tachiro)",
+      "note": "Named as a known predator on Animal Diversity Web (Mead 2009). Not a mammal in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths and other lepidopterans",
+      "note": "Listed in the diet in the 2025 EWT assessment (Aldridge and Rautenbach 1987; Bohmann et al. 2011). Also treated as major prey in a Madagascan study cited by Wikipedia (Andrianaivoarivelo et al. 2006). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Flies",
+      "note": "Listed in the diet in the 2025 EWT assessment (Aldridge and Rautenbach 1987; Bohmann et al. 2011). Wikipedia, citing Andrianaivoarivelo et al. (2006), says flies contributed notably to the diet in winter in that Madagascan study. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "True bugs",
+      "note": "Listed in the diet in the 2025 EWT assessment (Aldridge and Rautenbach 1987; Bohmann et al. 2011) and as major prey in the Madagascan study cited by Wikipedia. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Termites",
+      "note": "Listed as Isoptera in the diet in the 2025 EWT assessment (Aldridge and Rautenbach 1987; Bohmann et al. 2011). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Caddisflies",
+      "note": "Listed as Trichoptera (spelled Tricoptera on the page) in the 2025 EWT assessment (Aldridge and Rautenbach 1987; Bohmann et al. 2011). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Ants, bees and wasps",
+      "note": "Listed as Hymenoptera in the diet in the 2025 EWT assessment (Aldridge and Rautenbach 1987; Bohmann et al. 2011). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "Treated as major prey in a Madagascan study cited by Wikipedia (Andrianaivoarivelo et al. 2006), mainly in summer in that study. Not listed in the 2025 EWT diet summary. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Happold (1987), describes the species across a variety of habitats from semi-arid savanna in the north of its range to forested regions further south, and, citing Skinner and Chimimba (2005), in dry mopane woodland below 1,000 m in Zimbabwe. Within the assessment region it occurs widely in the northeast, from the far-eastern Eastern Cape along the coast in KwaZulu-Natal and through Eswatini to Mpumalanga and Limpopo, and it uses both natural crevices in rocks and trees and roosts in buildings. It appears to be absent from regions above about 1,000–1,500 m (Monadjem et al. 2020). Wikipedia similarly places it from rainforest in the south to semi-arid country in the north, in typically open foraging habitat, and never on the Zimbabwe plateau above 1,000 m. The 2025 assessment records the species from Kruger National Park, but a more detailed Kruger-specific habitat account was not given beyond that record and the Kruger breeding study.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment describes a widespread and abundant species (Monadjem et al. 2020), a presumed large population, a stable regional trend, no suspected decline in mature individuals, and an undetermined number of mature individuals in the largest subpopulation. It cites colonies of about 5–20 to thousands of individuals, including an estimate of up to 2,000 in a sugar-mill roof in KwaZulu-Natal, and Rautenbach (1997) for the suggestion that the species may be one of the most common in its southern African range. Those statements are not a park-wide Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Mops pumilus",
+        "url": "https://ewt.org/project/little-free-tailed-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional population account only: widespread and abundant, presumed large, stable regional trend, colonies from a few individuals to thousands, including up to 2,000 in a KwaZulu-Natal sugar-mill roof. The assessment records the species from Kruger National Park, but does not give a park-wide count. Cited only; the page is not hosted in this repo."
+      }
+    ]
+  },
+  "threats": null,
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "rounded and large for the head; small tragus asymmetrically bilobed at the end and covered by a large antitragus; no lobe projecting between the inner bases of the ears, as described on Animal Diversity Web"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "males have a forehead tuft that can make their outline recognizable in flight"
+        },
+        "upperparts": {
+          "colour": [
+            "blackish-brown"
+          ],
+          "pattern": "short fur; paler on the underside. Southern African animals are described as a dark-winged type, in contrast to a white-winged type reported from north-eastern Africa. Light and dark colour forms have been studied and have not been shown to be separate species. Sexes are not described as differing in pelage colour in the sources used"
+        },
+        "underparts": {
+          "colour": [
+            "paler than the upperparts"
+          ],
+          "pattern": "pale or white hairs where the wings meet the flanks"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    },
+    {
+      "age": "adult",
+      "sex": "male",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "rounded and large for the head; small tragus asymmetrically bilobed at the end and covered by a large antitragus"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": "forehead tuft that can make the outline recognizable in flight"
+        },
+        "upperparts": {
+          "colour": [
+            "blackish-brown"
+          ],
+          "pattern": "short fur; paler on the underside; southern African animals described as dark-winged. Animal Diversity Web says males are slightly larger than females"
+        },
+        "underparts": {
+          "colour": [
+            "paler than the upperparts"
+          ],
+          "pattern": "pale or white hairs where the wings meet the flanks"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Roosts by day in cracks and crevices in rocks and trees, in the crowns of some palms, and in roofs, brickwork and other small spaces in buildings, in colonies of a few individuals to thousands. Rounded ears that are large for the head, paler underparts, and pale or white hairs where the wings meet the flanks are useful field characters; males may show a forehead tuft."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "An open-air forager with long, narrow wings of high aspect ratio, built for fast flight and low manoeuvrability. Wikipedia, citing Aldridge and Rautenbach (1987), gives 44 cm as the minimum gap it can fly between two objects. Bats leave the roost at dusk; the male forehead tuft can make the outline recognizable in flight."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Mops pumilus",
+      "url": "https://ewt.org/project/little-free-tailed-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Naidoo T, Richards LR, Balona J, van der Meulen K and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016) and stable regional trend, English and Afrikaans names, synonyms and the move from Chaerephon to Mops, the species-complex note, the definite record from Kruger National Park, the Kruger parturition peaks (van der Merwe et al. 1986), habitat and roof and crevice roosts, open-air diet, colony sizes, total length and forearm at maturity, gestation and the single young of about 3.2 g, and the possible ENSO-related shifts in distribution or roosting. Movement Patterns is given as a possible ENSO shift, not as a labelled migrant or seasonal movement pattern. The page body describes this species. Cited only; the page is not hosted in this repo."
+    },
+    {
+      "title": "Little free-tailed bat",
+      "url": "https://en.wikipedia.org/wiki/Little_free-tailed_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Mops pumilus. Used for appearance (Bouchard 1998; Smithers 1983; Happold 1987; Jacobs et al. 2004), the 54–102 mm total body length (Kingdon 1974; Smithers 1983), white-winged and dark-winged types, the male forehead tuft, ear shape, fast open-air flight and the 44 cm minimum gap (Aldridge and Rautenbach 1987), low-frequency echolocation, diet studies from Madagascar and Tanzania, and the global IUCN listing of Least Concern as Chaerephon pumilus (Mickleburgh et al. 2019). Afrikaans names were taken from the 2025 EWT assessment, not from this page."
+    },
+    {
+      "title": "Chaerephon pumilus",
+      "url": "https://animaldiversity.org/accounts/Chaerephon_pumilus/",
+      "publisher": "Animal Diversity Web",
+      "year": 2009,
+      "note": "Mead, K. 2009. Species account under the earlier name Chaerephon pumilus. Used for tree and palm-crown roosts, roosting with Mops condylurus, noisy pre-departure behaviour, the statement that migration has not been reported, named avian predators, the lack of a lobe between the ear bases, slight male size advantage, and the ADW size figures that were not entered as bounds because of the conflicting average length. The URL for Mops pumilus is not a species account."
+    },
+    {
+      "title": "iNaturalist taxon Mops pumilus",
+      "url": "https://api.inaturalist.org/v1/taxa/1370990",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "Taxon 1370990, preferred common name Little Free-tailed Bat; invalid scientific names include Tadarida pumila and Chaerephon pumilus. Used to confirm the current name and to search place 69020 (Kruger) and place 6986 (South Africa) for licensed photographs and sounds."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Mops pumilus (English Little free-tailed bat; Afrikaans Klein losstertvlermuis) and does not remap the names. The 2025 EWT assessment also uses Mops pumilus, and notes the earlier placement in Chaerephon, unresolved relationships in the mainland African complex, and species already split from that complex. Status is set to resident because the 2025 EWT assessment records the species from Kruger National Park and cites a Kruger breeding study, and does not label a migrant or regular seasonal movement pattern (Movement Patterns is a possible ENSO-related shift in distribution or roosting, with Bats KZN evidence that the species may not be present in all parts of the range in all years). Regional status is Least Concern (2025, no change from 2016); the global IUCN listing cited by Wikipedia is Least Concern (2019, as Chaerephon pumilus). No licensed photograph was kept. Animal Diversity Web has a species account under Chaerephon pumilus, not under Mops pumilus.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives a stable regional trend, a presumed large and abundant population, and colony counts from elsewhere, including up to 2,000 in a KwaZulu-Natal sugar-mill roof, none of which is a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2025 EWT assessment does not label a migrant or regular seasonal movement pattern. Movement Patterns is given as a possible shift in distribution or roosting patterns during ENSO events (Bats KZN data), and the geographic account says the species may not be present in all parts of its range in all years. Animal Diversity Web (2009) states that migration has not been reported. Status is set to resident on the strength of the definite Kruger record, including the van der Merwe et al. (1986) breeding study, and the absence of a labelled migrant or seasonal movement pattern. The ENSO caveat is flagged and is not resolved here.",
+    "species-list.json and the 2025 EWT assessment use Mops pumilus. Synonyms in the 2025 assessment include Chaerephon pumila (orthographic error) and Tadarida pumila. The assessment notes that the species was previously included in Chaerephon, that taxonomic revision of the genus is required, that M. leucogaster, M. atsinanana and M. pusillus have been separated from this complex, and that the mainland African complex remains difficult to resolve. The file keeps the species-list.json name and does not remap it.",
+    "The Afrikaans name in species-list.json is Klein losstertvlermuis, which matches the 2025 EWT assessment (Klein Losstertvlermuis). The species-list form is kept.",
+    "The English name in species-list.json is Little free-tailed bat. The 2025 EWT assessment uses Little Free-tailed Bat as the lead name and also lists Lesser Free-tailed Bat, Little Wrinkle-lipped Bat and White-bellied Free-tailed Bat; iNaturalist's preferred common name for taxon 1370990 is Little Free-tailed Bat. The species-list form is kept.",
+    "Head-and-body length, tail length, adult mass, shoulder height, ear colour, iris colour, muzzle colour, leg colour, tail colour and tail shape were not given unambiguously in the sources used, so those marks or bounds are null. Total lengths and forearm lengths at maturity, Wikipedia's 54–102 mm total body length, neonatal mass and length, and the conflicting ADW average measurements are recorded in the size note but are not entered as head-and-body length or adult mass.",
+    "No species-level identification comparison with other free-tailed bats in this guide was given in the 2025 EWT assessment, beyond Wikipedia's statement that this is one of the smallest Mops and Animal Diversity Web's note that it lacks a lobe between the inner bases of the ears. The similar list is therefore empty.",
+    "Named predators were found only on Animal Diversity Web (Mead 2009): bat hawk, Eurasian hobby, Wahlberg's eagle and African goshawk. The 2025 EWT assessment says only 'various nocturnal predators'. Those ADW records are not Kruger-specific.",
+    "Longevity is not known in the 2025 assessment. Some breeding details on Animal Diversity Web (gestation up to 72 days in the north, twinning in one case, male maturity at about five months in Ghana) come from outside Kruger and are not substituted for the southern African and Kruger account.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned nine licensed observations, all at or next to rest camps (Olifants, Pretoriuskop, Lower Sabie, Crocodile Bridge, Berg-en-Dal) or of a specimen on the ground near a waterhole in the Sandriver Camp area, and none was used. A South Africa-wide search (place 6986) added further licensed records; four thumbnails were viewed (Makhado, Hluhluwe, uMkhanyakude and Zululand), and all were handled, indoor or otherwise unusable.",
+    "iNaturalist place 69020 returned four sound observations for taxon 1370990, all needs_id and all at or next to Pretoriuskop, Lower Sabie, Crocodile Bridge or Berg-en-Dal rest camps, which were not used. Wikipedia and Animal Diversity Web describe low-frequency echolocation and geographic variation in calls, but no licensable recording is included, and calls is empty.",
+    "Animal Diversity Web has a species account under Chaerephon pumilus. The URL under Mops pumilus is not a species account.",
+    "No Kruger-specific habitat study was found beyond the 2025 assessment's statement that the species is recorded from Kruger National Park, and the Kruger breeding study cited there."
+  ]
+}
