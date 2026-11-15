@@ -1,0 +1,264 @@
+{
+  "kind": "species",
+  "slug": "afronycteris-nanus",
+  "scientificName": "Afronycteris nanus",
+  "commonNames": {
+    "en": "Banana bat",
+    "af": "Piesangvlermuis"
+  },
+  "family": "vespertilionidae",
+  "inatTaxonId": 1431034,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Least Concern; no change from 2016; regional population trend Stable). Wikipedia cites a global IUCN listing of Least Concern (Monadjem et al. 2017, under the name Neoromicia nana).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Afronycteris nanus",
+        "url": "https://ewt.org/project/banana-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Richards LR, Balona J and da Silva JM. 2025. In Patel T, Smith C, Roxburgh L, da Silva JM and Raimondo D, editors. The Red List of Mammals of South Africa, Eswatini and Lesotho. 2025 regional Least Concern status (no change from 2016; trend Stable), common names including Afrikaans Piesangvlermuis, ecology and taxonomy. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "Banana serotine",
+        "url": "https://en.wikipedia.org/wiki/Banana_serotine",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2017 IUCN global assessment of Neoromicia nana (Monadjem, Jacobs, Racey, Hutson and Goodman) as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "lengthCm": {
+      "min": 7,
+      "max": 8
+    },
+    "massKg": {
+      "min": 0.002,
+      "max": 0.004
+    },
+    "note": "Wikipedia, citing Lausen and Barclay (2005), gives a total length of about 7-8 cm, about half of which consists of the tail, and an adult mass of 2-4 g, with females slightly larger than males. Those total-length figures are entered as lengthCm; separate head-and-body and tail lengths were not published in the sources used, so those fields are omitted rather than split by guesswork. The 2025 EWT assessment, citing Monadjem et al. (2020b), gives mean forearm length at maturity as 3.11 ± 0.17 cm in females and 2.98 ± 0.17 cm in males, and a maximum forearm length of 3.40 cm in both sexes. Neonates weigh about 1 g (Van Cakenberghe and Happold 2013, cited on the 2025 EWT page). No shoulder height was published."
+  },
+  "summary": "A very small vesper bat that roosts upright in furled banana, Strelitzia and similar leaves, using thickened thumb and hind-foot pads. The fur is dark with golden or reddish-brown tips, paler on the underparts. It is an insectivorous clutter-edge forager of well-wooded places, often near water, and also uses gardens and urban green space. The 2025 regional Red List rates it Least Concern.",
+  "description": "A diminutive vesper bat (Vespertilionidae). Wikipedia, citing Lausen and Barclay (2005), describes it as unusually small, with a total length of about 7-8 cm, about half of that the tail, and an adult mass of only 2-4 g; females are slightly larger than males. The fur is dark with golden or reddish-brown tips, fading to greyish or near-white tips on the underparts. The wings are brown, sometimes with a narrow white border on the hind margin. The ears are triangular, with a tragus described as hatchet-shaped. The thumbs bear an unusual pad of ridged, hairy skin; the 2025 EWT assessment also notes thickened thumb and hind-foot pads that are thought to help the bat roost upright inside a furled leaf. Most, though not all, individuals have a relatively large, visible gland of unknown function on each side of the tail (Lausen and Barclay 2005, cited on Wikipedia). This file keeps the checklist names Afronycteris nanus and Banana bat. The species was formerly placed in Pipistrellus and then Neoromicia; Monadjem et al. (2020a), cited on the 2025 EWT page, moved it to the genus Afronycteris. The 2025 assessment, citing the Mammal Diversity Database (2025), treats nanus as a noun, so the epithet does not change with the genus. Evidence suggests A. nanus is a species complex (Koubínová et al. 2013; Taylor et al. 2022), but no split is applied here.",
+  "habits": "The 2025 EWT assessment classifies the species as an insectivorous clutter-edge forager with low wing loading (Aldridge and Rautenbach 1987; Schoeman and Jacobs 2008). It forages by slow-hawking, is highly manoeuvrable, and can fly in confined spaces, with flight described as a series of banks and twists (Van Cakenberghe and Happold 2013). Animals are most active for about five hours after sunset; activity then declines rapidly after midnight (Monadjem et al. 2010a). Wikipedia, citing Lausen and Barclay (2005), says they fly close to the ground, typically 2-5 m high, emerge less than an hour after sunset, and rarely travel more than 100 m from the roost; at least some individuals enter daily torpor in cool weather. They roost most often in the rolled-up terminal leaves of banana or Strelitzia plants, and also in the leaves of other plants and in roofs of thatch or palm leaves (Taylor 2000; Skinner and Chimimba 2005; Monadjem et al. 2020b, cited on the 2025 EWT page). A furled-leaf roost is used only while the opening is between 7 and 24 cm wide, and is usually abandoned within 1-3 days as the leaf unfurls (Van Cakenberghe and Happold 2013). They usually roost singly or in small groups of two to six (Skinner and Chimimba 2005), or of one to eight in a furled leaf or leaf clump in the assessment region (LaVal and LaVal 1977). In the non-breeding season males roost singly and form harem groups in the breeding season; lactating females roost in maternity groups or alone with their young (Monadjem et al. 2020b and references therein, cited on the 2025 EWT page). Movement is likely to be largely sedentary, given the low wing loading and banding recoveries (Van Cakenberghe and Happold 2013).",
+  "diet": {
+    "summary": "An insectivore and clutter-edge forager. The 2025 EWT assessment, citing Fenton et al. (1977), Fenton and Thomas (1980) and Schoeman (2006), says the diet consists predominantly of small beetles (Coleoptera) and moths (Lepidoptera) and, to a lesser extent, flies (Diptera). Wikipedia, citing Lausen and Barclay (2005), likewise says it feeds primarily on beetles and small moths, caught in mid-air.",
+    "items": [
+      "beetles",
+      "moths",
+      "flies"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment describes seasonal monoestry. Mating occurs in May, followed by sperm storage until ovulation and fertilisation at the onset of spring; births take place in November and early December (LaVal and LaVal 1977; Bernard et al. 1997). Females typically give birth to twins (Shortridge 1934; LaVal and LaVal 1977; Bernard et al. 1997). Females mature at one year (Bernard et al. 1997). Neonates weigh about 1 g (Van Cakenberghe and Happold 2013). Gestation time is reported differently: the 2025 EWT assessment, citing LaVal and LaVal (1977), gives approximately three months, whereas Wikipedia, citing Lausen and Barclay (2005), gives eight weeks; both figures are recorded and neither is preferred. Wikipedia, citing the same sources, says the young are weaned at eight weeks and fully grown at five months, and that in some parts of the range birth can apparently occur at any time of year.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Bat hawk",
+      "note": "The 2025 EWT assessment, citing Allen et al. (1917), lists the bat hawk (Macheiramphus alcinus) among predators. Not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Grey-headed bushshrike",
+      "note": "The 2025 EWT assessment, citing Van Jaarsveld (1988), lists the grey-headed bushshrike (Malaconotus blanchoti) among predators. Not a mammal in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "The 2025 EWT assessment, citing Fenton et al. (1977), Fenton and Thomas (1980) and Schoeman (2006), says the diet consists predominantly of small Coleoptera and Lepidoptera and, to a lesser extent, Diptera. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "Small Lepidoptera, cited as a main prey group in the 2025 EWT assessment and on Wikipedia (citing Lausen and Barclay 2005). Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Flies",
+      "note": "Diptera, taken to a lesser extent according to the 2025 EWT assessment. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment associates the species with well-wooded habitats such as riparian vegetation and forest patches, especially near water (Monadjem and Reside 2008), and also with dry and moist savanna, lowland and montane moist forest, plantations, rural gardens and disturbed or urban green space. It is particularly common where banana or Strelitzia plants are present (Skinner and Chimimba 2005). Within the assessment region it occurs in the wetter eastern and northern parts, including the lowveld and the Greater Mapungubwe and Great Limpopo Transfrontier Conservation Areas, and is absent from the arid southwest (Monadjem et al. 2010b). In the Soutpansberg it has not been observed above 1,031 m (Weier et al. 2019a), although elsewhere in the wider range it has been recorded up to 4,207 m (Monadjem et al. 2024).",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment estimates more than 10,000 mature individuals in the assessment region (South Africa, Eswatini and Lesotho) and describes the regional trend as Stable (citing Moir et al. 2020); that figure is not a Kruger count.",
+    "sources": [
+      {
+        "title": "A conservation assessment of Afronycteris nanus",
+        "url": "https://ewt.org/project/banana-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional remarks only (more than 10,000 mature individuals in the assessment region; trend Stable). Not a Kruger estimate."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": "triangular, with a hatchet-shaped tragus (Lausen and Barclay 2005, cited on Wikipedia)"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": [
+            "dark",
+            "golden-brown",
+            "reddish-brown"
+          ],
+          "pattern": "dark fur with golden or reddish-brown tips (Lausen and Barclay 2005, cited on Wikipedia)"
+        },
+        "underparts": {
+          "colour": [
+            "greyish",
+            "near-white"
+          ],
+          "pattern": "fur tips greyish or near-white (Lausen and Barclay 2005, cited on Wikipedia)"
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "about half the total length; most individuals have a relatively large visible gland of unknown function on each side of the tail (Lausen and Barclay 2005, cited on Wikipedia)"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Often seen roosting upright inside a furled banana, Strelitzia or similar leaf, gripping with thickened thumb and hind-foot pads. Leaf roosts are usually occupied only while the opening is 7-24 cm wide and are abandoned within a few days as the leaf unfurls. Small groups, or a single animal, are typical; large thatch-roof clusters are atypical for this species."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter-edge forager with slow, highly manoeuvrable flight, typically 2-5 m above the ground and usually close to the roost. Wikipedia, citing Taylor (1999), gives steep frequency-modulated echolocation calls of about four to five milliseconds, with a dominant frequency of about 43 kHz."
+    }
+  ],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Wikipedia, citing Taylor (1999), describes echolocation as steep frequency-modulated calls lasting four or five milliseconds, with a dominant frequency of about 43 kHz.",
+      "recordings": []
+    },
+    {
+      "sex": "male",
+      "type": "call",
+      "description": "Wikipedia, citing Lausen and Barclay (2005), says males also make longer calls of up to eight syllables when encountering other males, and that two individuals may engage in ultrasonic vocal duels lasting up to twenty minutes and ending in an aerial chase.",
+      "recordings": []
+    },
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Wikipedia, citing Lausen and Barclay (2005), says that when distressed both sexes emit noisy squabble calls of variable pitch.",
+      "recordings": []
+    }
+  ],
+  "images": [
+    {
+      "key": "afronycteris-nanus/st-lucia-leaf-roost.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/125602696",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/213015532/large.jpg",
+      "author": "buggsbalmer",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Banana bat roosting inside a furled green leaf at St Lucia, KwaZulu-Natal",
+      "caption": "Adult roosting in a furled leaf, St Lucia, KwaZulu-Natal, 1 December 2016."
+    },
+    {
+      "key": "afronycteris-nanus/selbourne-leaf-roost.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/414407513",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/762876999/large.jpg",
+      "author": "Paul Carter",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Banana bat at the edge of a leaf roost on a golf estate in KwaZulu-Natal",
+      "caption": "Adult at a leaf roost, Selbourne Golf Estate, KwaZulu-Natal, 11 November 2026."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A conservation assessment of Afronycteris nanus",
+      "url": "https://ewt.org/project/banana-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Richards LR, Balona J and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; trend Stable), common names (including Afrikaans Piesangvlermuis), taxonomic history, habitat, diet, roosting, reproduction, movement and the only named Kruger record. Cited only; not hosted in this repo."
+    },
+    {
+      "title": "Banana serotine",
+      "url": "https://en.wikipedia.org/wiki/Banana_serotine",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Appearance, total length, mass, echolocation, social calls and some reproductive details, citing Lausen and Barclay (2005), Thewissen and Etnier (1995), Taylor (1999), LaVal and LaVal (1977) and Bernard et al. (1997). The Wikipedia page titled Banana bat is about Musonycteris harrisoni and was not used. The title Afronycteris nanus does not exist; Afronycteris nana, Neoromicia nana, Neoromicia nanus and Pipistrellus nanus redirect here."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Afronycteris nanus (English Banana bat; Afrikaans Piesangvlermuis) and does not remap it to Banana serotine, the iNaturalist and Wikipedia preferred English name, or to older combinations in Pipistrellus or Neoromicia. The epithet is kept as nanus, following the 2025 EWT assessment and the Mammal Diversity Database. The 2025 assessment flags a possible species complex (Koubínová et al. 2013; Taylor et al. 2022) and notes that a supposed 1977 thatched-roof maternity colony in Kruger National Park may instead have been Afronycteris cf. helios; status and monthsPresent are therefore omitted. Gestation figures in the 2025 EWT assessment and on Wikipedia disagree and are both recorded. Text and measurements are sourced, but several size, colour and call details come from compiled accounts (Wikipedia, citing Mammalian Species) rather than a southern-African field guide.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "status and monthsPresent are omitted. The 2025 EWT assessment's only named Kruger record is a supposed maternity colony of about 150 bats in a thatched roof (LaVal and LaVal 1977); the assessment says this atypical behaviour may instead indicate a cryptic diminutive species, Afronycteris cf. helios, and the record is from before 2000. A 2024 iNaturalist research-grade observation at Letaba rest camp (observation 405182961) was a palm-frond roost at camp coordinates and was not used to set residency.",
+    "No Kruger or SANParks park-wide population figure was found. The 2025 assessment's estimate of more than 10,000 mature individuals applies to the assessment region, not to Kruger.",
+    "No usable non-camp Kruger photograph was found. The only licensed Kruger observation (405182961, Letaba rest camp) was dropped as a camp roost.",
+    "No usable Kruger sound was kept. Two iNaturalist recordings from October 2023 (observations 197093300 and 197090182) are needs-id and were taken at Satara and Lower Sabie rest-camp coordinates.",
+    "Separate head-and-body and tail lengths were not published in the sources used. Wikipedia gives only a total length of about 7-8 cm, about half of it the tail.",
+    "Gestation time disagrees between sources: approximately three months in the 2025 EWT assessment (citing LaVal and LaVal 1977) versus eight weeks on Wikipedia (citing Lausen and Barclay 2005). Both are recorded.",
+    "Animal Diversity Web has no species account under Afronycteris nanus. A classification page exists under the older name Neoromicia nanus and was not used as a source of facts.",
+    "No sourced comparison with other Kruger vesper bats was found, so similar is empty.",
+    "The 2025 EWT assessment treats A. nanus as a possible species complex still in need of a continent-wide taxonomic study.",
+    "Echolocation and social calls are described from Wikipedia, but no licensed research-grade recording was kept."
+  ]
+}
