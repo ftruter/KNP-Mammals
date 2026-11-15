@@ -1,0 +1,196 @@
+{
+  "kind": "species",
+  "slug": "scotophilus-dinganii",
+  "scientificName": "Scotophilus dinganii",
+  "commonNames": {
+    "en": "Yellow house bat",
+    "af": "Geel dakvlermuis"
+  },
+  "family": "vespertilionidae",
+  "inatTaxonId": 40436,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Scotophilus dinganii",
+        "url": "https://ewt.org/project/yellow-house-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Lötter C, Richardson EJ and da Silva JM. 2025. Regional status Least Concern, with no change from 2016; regional population trend Stable."
+      },
+      {
+        "title": "African yellow bat",
+        "url": "https://en.wikipedia.org/wiki/African_yellow_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "The title Scotophilus dinganii redirects here. Cites Monadjem and Griffin (2017), IUCN Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm lengths of 5.37 ± 0.19 cm in females and 5.36 ± 0.20 cm in males, and lists maximum sizes in the same forearm fields of 5.72 cm (female) and 5.80 cm (male). Wikipedia quotes an average total body length of 130 mm, a forearm length of 50–58 mm, and an average mass of 23 g. No head-and-body length, tail length, shoulder height or mass range was published on the pages used. The EWT assessment also lists size at birth as 2.0 cm, without stating which measurement that is."
+  },
+  "summary": "A medium-sized vesper bat with light brown upperparts, a yellow belly, and a short, broad, dog-like snout. It roosts by day in hollow trees and in roofs, and forages after dark along clutter edges, mainly for beetles. It is a year-round resident in Kruger, and also uses buildings and suburban roosts.",
+  "description": "A medium-sized house bat with a short, broad, dog-like snout and clearly visible eyes. Wikipedia describes the upperparts as light brown and the belly as yellow, the wings as olive, grey or red, and the interfemoral membrane as brown and translucent. The 2025 EWT assessment does not add a separate colour account. Ear, iris and leg colours were not described on the pages used.",
+  "habits": "A clutter-edge forager with high wing-loading. The 2025 EWT assessment, citing Monadjem et al. (2020), says it roosts in hollow trees such as leadwood (Combretum imberbe), in roofs, and in other dark places in houses, and that it may use buildings to avoid competition with sympatric Scotophilus species. It may roost singly, or in small groups of up to 30 (Happold et al. 1987; Skinner and Chimimba 2005). Wikipedia, citing a Kruger Park guide, says colonies in tree hollows and cracks rarely number more than 12, that animals are faithful to roost sites, that they do not leave the roost until after dark, and that they usually feed for about two hours before returning. The same Wikipedia account says they sometimes share roosts with the smaller Cape serotine bat. The EWT assessment, citing Schoeman (2016), also treats the species as an urban exploiter in suburbs and other places with roosts and food.",
+  "diet": {
+    "summary": "An insectivore and clutter-edge forager. The 2025 EWT assessment, citing Monadjem et al. (2020), says it feeds mainly on medium-sized beetles (Coleoptera), and also takes other insects. Wikipedia, citing EcoSolutions, says it preys mostly on beetles, but also plant-sucking bugs, flies, flying termites, moths and lacewings.",
+    "items": [
+      "medium-sized beetles",
+      "plant-sucking bugs",
+      "flies",
+      "flying termites",
+      "moths",
+      "lacewings"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment says females give birth in November or December, that it is not known whether every female breeds each year, and, citing Monadjem et al. (2020), that the litter is one young, very rarely two or three. Wikipedia, citing a Kruger Park guide, says animals mate in the austral autumn in southern Africa and give birth to twins towards the end of November or early December, and that females wean the young within weeks of birth. Those litter-size accounts disagree. The EWT assessment gives female age at maturity as 12 months and does not specify gestation or longevity. Pup appearance was not described on the pages used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), reports a diet mainly of medium-sized Coleoptera, plus other insects. Wikipedia also lists plant-sucking bugs, flies, flying termites, moths and lacewings. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Monadjem et al. (2020), says that south of the Sahara the species has been recorded mainly from dry and moist woodland savannah in the Savannah Biome, that its habitat is tied to the presence of trees and appropriate buildings, and that its absence from open habitats may reflect a lack of roost sites. It also occurs in suburbs and other situations with roosts and food (Schoeman 2016). IUCN habitat classes listed as suitable are dry savanna, moist savanna and urban areas; rural gardens are listed as marginal. Elevation limits are given as 3–1,910 m above sea level (Monadjem et al. 2024). Within the assessment region it has been recorded in the Eastern Cape, KwaZulu-Natal, Mpumalanga, Gauteng and Limpopo, and is absent from the Western Cape, the Karoo and the Kalahari. The conservation section names Kruger and Mapungubwe National Parks, Hluhluwe-iMfolozi Game Reserve and iSimangaliso Wetland Park among at least 27 protected areas.",
+  "similar": [
+    {
+      "slug": "laephotis-capensis",
+      "note": "Wikipedia says this species sometimes shares roosts with the smaller Cape serotine bat, from which it may be distinguished by its larger wing size and faster flight."
+    }
+  ],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment lists the current population trend as Stable, says little information is available on abundance, and treats the regional population as presumably large because the species is relatively common, roosts singly or in groups of up to 30, and is well represented in museums (over 700 records in Monadjem et al. 2020). Those remarks apply to South Africa, Eswatini and Lesotho, not to Kruger.",
+    "sources": [
+      {
+        "title": "A conservation assessment of Scotophilus dinganii",
+        "url": "https://ewt.org/project/yellow-house-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional remarks only (current population trend Stable; population presumed large). Not a Kruger estimate."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "plain, with no nose-leaf; eyes clearly visible",
+          "muzzle": "short, broad and dog-like",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "light brown",
+          "pattern": null
+        },
+        "underparts": {
+          "colour": "yellow",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": "interfemoral membrane brown and translucent"
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter-edge forager with high wing-loading. Wikipedia describes the wings as olive, grey or red, and says flight is faster, with larger wings, than in the Cape serotine bat. The same account says animals do not usually leave the roost until after dark and feed for about two hours."
+    },
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Roosts by day in hollow trees, including leadwood, and in roofs and other dark places in houses, hanging or tucked into cracks, singly or in small groups."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Scotophilus dinganii",
+      "url": "https://ewt.org/project/yellow-house-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Lötter C, Richardson EJ and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable), the Afrikaans name Geel Dakvlermuis, occurrence in Kruger National Park, movement patterns listed as Unknown, habitat (dry and moist woodland savannah, trees and buildings, urban exploiter), hollow-tree and roof roosts including leadwood, groups of up to 30, clutter-edge foraging, a diet mainly of medium-sized Coleoptera, life-history remarks (births in November or December; litter usually one, very rarely two or three; female maturity at 12 months; forearm means and maxima), elevation 3–1,910 m, and taxonomic notes (former use of Scotophilus nigrita for this form until Robbins 1978; a possible species complex; Monadjem et al. 2020 suggest a southern African endemic). Cited only; not hosted in this repo."
+    },
+    {
+      "title": "African yellow bat",
+      "url": "https://en.wikipedia.org/wiki/African_yellow_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "The title Scotophilus dinganii redirects here. Source of the appearance account (light brown upperparts, yellow belly, short broad dog-like snout, visible eyes, wings olive, grey or red, brown translucent interfemoral membrane), average total body length 130 mm, forearm 50–58 mm, average mass 23 g, tree-hollow and roof roosts, colonies rarely of more than 12, roost-site faithfulness, emergence after dark and a roughly two-hour feeding bout, the comparison with the Cape serotine bat, diet details beyond beetles, and the breeding remarks (mating in the austral autumn; twins in late November or early December; weaning within weeks). Lists several English names, including African yellow bat, African yellow house bat, yellow-bellied house bat and Dingan's Bat. Cites the 2017 IUCN Least Concern assessment (Monadjem and Griffin)."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Scotophilus dinganii (English Yellow house bat; Afrikaans Geel dakvlermuis) and does not remap the name. Wikipedia uses African yellow bat as the article title; iNaturalist uses Yellow-bellied House Bat as the preferred common name. Those are flagged here, not used to change the checklist name. The 2025 EWT assessment says the genus needs revision, that molecular and echolocation evidence suggests S. dinganii is a species complex, that Demos et al. (2018) raised the possibility of as many as 15 African Scotophilus species, and that Monadjem et al. (2020) suggest S. dinganii is a southern African endemic. Those points are flagged, not used to split the checklist taxon. Movement patterns are listed as Unknown, which does not block resident status. The assessment names Kruger National Park, and four research-grade iNaturalist observations in place 69020 are dated 2019–2025."
+  },
+  "gaps": [
+    "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Stable and treats the regional population as presumably large, not a Kruger figure.",
+    "No licensable wild photograph was kept. The four research-grade Kruger observations (place 69020) from 2019–2025 were at rest camps or had a day-roost-in-building tag, or showed a handled bat; the South African photographs viewed from place 6986 were grounded, indoor or handled.",
+    "No sourced echolocation or social-call description. The only iNaturalist sound in Kruger (place 69020) was recorded at a rest camp and was not used.",
+    "No published head-and-body length, tail length, shoulder height or mass range; only Wikipedia's average total length and mass, plus forearm figures, were given.",
+    "Pup appearance was not published in the sources used. The 2025 EWT assessment lists size at birth as 2.0 cm without stating which measurement that is.",
+    "Ear, iris and leg colours were not described on the pages used.",
+    "Natural predators were not listed on the pages used.",
+    "No sourced field-mark comparison with the lesser yellow house bat was found."
+  ]
+}
