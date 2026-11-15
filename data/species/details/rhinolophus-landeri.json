@@ -1,0 +1,239 @@
+{
+  "kind": "species",
+  "slug": "rhinolophus-landeri",
+  "scientificName": "Rhinolophus landeri",
+  "commonNames": {
+    "en": "Lander's horseshoe bat",
+    "af": "Lander se saalneusvlermuis"
+  },
+  "family": "rhinolophidae",
+  "inatTaxonId": 40680,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2016 regional Red List assessed Rhinolophus landeri as Least Concern (no genuine change from a 2004 national listing of Near Threatened B2; global IUCN listing also Least Concern in 2016). The ewt.org/red-list/ Chiroptera table still links only that 2016 PDF for this name; no 2025 /project/ page was found for Rhinolophus landeri. The 2025 regional Red List assesses the southern African animals, previously treated as R. l. lobatus, as Rhinolophus lobatus (Peter's horseshoe bat): Least Concern, no change from 2016, regional population trend Unknown. Wikipedia cites a global IUCN listing of Least Concern for R. landeri (2017 assessment). This file keeps the species-list.json names and does not remap the Kruger animals.",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus landeri",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/48.-Landers-Horseshoe-Bat-Rhinolophus-landeri_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Monadjem A, Jacobs D, Cohen L, MacEwan K, Richards LR, Schoeman C, Sethusa T and Taylor PJ. 2016. In Child MF, Roxburgh L, Do Linh San E, Raimondo D and Davies-Mostert HT, editors. The Red List of Mammals of South Africa, Swaziland and Lesotho. Regional Red List status (2016) Least Concern; National Red List status (2004) Near Threatened B2; reasons for change Non-genuine; Global Red List status (2016) Least Concern. Cited from the PDF; it is not hosted in this repo."
+      },
+      {
+        "title": "A conservation assessment of Rhinolophus lobatus",
+        "url": "https://ewt.org/project/peters-horseshoe-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Balona J, Taylor P and da Silva JM. 2025. In Patel T, Smith C, Roxburgh L, da Silva JM and Raimondo D, editors. The Red List of Mammals of South Africa, Eswatini and Lesotho. 2025 Red List status Least Concern; change compared with 2016: No Change; regional population trend: Unknown. Header also gives Red List Status LC – Least Concern (IUCN version 3.1). The page assesses Peter's horseshoe bat (Rhinolophus lobatus), elevated from R. l. lobatus, not a 2025 assessment published under the name R. landeri."
+      },
+      {
+        "title": "Lander's horseshoe bat",
+        "url": "https://en.wikipedia.org/wiki/Lander's_horseshoe_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites Monadjem, Taylor, Jacobs and Cotterill (2017) for a global IUCN listing of Least Concern (IUCN 3.1, article T19546A21977797)."
+      }
+    ]
+  },
+  "size": {
+    "headBodyLengthCm": {
+      "min": null,
+      "max": null
+    },
+    "tailCm": {
+      "min": 2.3,
+      "max": 2.3
+    },
+    "massKg": {
+      "min": 0.005,
+      "max": 0.011
+    },
+    "lengthCm": {
+      "min": 7.5,
+      "max": 7.5
+    },
+    "note": "Wikipedia, citing Brown and Dunlop (1997), describes the species as a medium-sized horseshoe bat and gives a mass of 5–11 g, a total length of approximately 75 mm, a tail length of 23 mm and a forearm length of 38–41 mm. Those figures are entered here as massKg 0.005–0.011, lengthCm 7.5 (total length, not head-and-body length) and tailCm 2.3; head-and-body length was not published separately and is not calculated from total length minus tail. The same figures apply to Rhinolophus landeri in the broad sense used by that source; the holotype of R. landeri is from Fernando Pó (Bioko). The 2025 EWT assessment of the southern African taxon now treated as R. lobatus marks its life-history size fields, including maximum size, as not specified, and the 2016 EWT assessment of R. landeri publishes no measurements, so the Brown and Dunlop figures may not apply to the assessment-region animals. Animal Diversity Web has no species account and no measurements."
+  },
+  "summary": "A medium-sized African horseshoe bat. In southern Africa it is typically associated with riparian woodland and, in the assessment region, the Mopane Bioregion, and it roosts in caves, mine adits and rock crevices, and also in baobabs, hollow trees, buildings and water wells. It is an insectivorous clutter forager that feeds mainly on moths. The 2011 Kruger checklist treats it as Rhinolophus landeri (Lander's horseshoe bat). The 2025 regional assessment treats the southern African animals as a separate species, Rhinolophus lobatus (Peter's horseshoe bat), listed as Least Concern with no change from the 2016 landeri assessment; records in the assessment region are pre-2000, and a 2021 survey did not record it in northern Kruger.",
+  "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia, citing Brown and Dunlop (1997), describes it as a medium-sized member of its family, and gives a mass of 5–11 g, a total length of approximately 75 mm, a tail length of 23 mm and a forearm length of 38–41 mm; it does not describe pelage colour, ear shape or the nose-leaf. The 2016 EWT assessment of R. landeri and the 2025 EWT assessment of R. lobatus likewise give no pelage, dental or nose-leaf characters. Wikipedia gives the authority as Martin, 1837, and says the specific epithet honours the explorer Richard Lander, the holotype having been collected on his expedition to Fernando Pó. The 2016 EWT heading gives Martin 1838, while its taxonomic notes use Martin 1837. That 2016 assessment treated the taxon as a species complex, with the nominate subspecies and R. l. lobatus Peters 1852 known from southern Africa, and noted that R. l. landeri favours forest whereas R. l. lobatus is more often associated with savannah woodland and may prove distinct. The 2025 EWT assessment, citing Taylor et al. (2018) and Monadjem et al. (2020), states that R. l. lobatus has been elevated to full species as R. lobatus (Peter's horseshoe bat), and that R. landeri occurs in central and west Africa. This file keeps the species-list.json names and does not remap the Kruger animals.",
+  "habits": "The 2016 EWT assessment of R. landeri, and the 2025 assessment of the southern African taxon now treated as R. lobatus, describe it as gregarious, but say that in the assessment region it occurs only in small numbers, usually one or two and not more than twelve individuals (Skinner and Chimimba 2005). Both assessments say it roosts in mine adits, rock crevices and caves, and has also been observed roosting in baobab (Adansonia digitata) trees, hollow trees, buildings (Rosevear 1965) and water wells (Koopman et al. 1978). When roosting in caves, individuals hang from the ceiling well separated from each other (Skinner and Chimimba 2005). Both assessments, citing Monadjem et al., describe it as a clutter forager, and the regional population-effects text cites low wing loading (Norberg and Rayner 1987). The 2025 assessment marks movement patterns as Unknown and congregatory as not specified, and leaves seasonality blank in the countries table; it does not describe the species as a migrant, partial migrant or seasonal visitor. The 2016 PDF does not use the words Kruger or migrat, and places the assessment-region animals in the Great Limpopo Transfrontier Park in the northeastern region of Limpopo Province (Monadjem et al. 2010). The 2025 assessment uses the same locality wording (Monadjem et al. 2020), adds that the regional distribution estimates are based on pre-2000 records and that there are no recent records for this species in the assessment region, and notes that Brinkley et al. (2021) did not record this species in the northern Kruger despite two years of acoustic surveys.",
+  "diet": {
+    "summary": "An insectivore and clutter forager. The 2016 and 2025 EWT assessments, citing Fenton et al. (1977), say it feeds mostly on Lepidoptera and, to a lesser extent, Orthoptera, and that at a feeding site in Zimbabwe it was highly selective for certain moth species.",
+    "items": [
+      "moths (Lepidoptera)",
+      "orthopterans (Orthoptera)"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2016 and 2025 EWT assessments both state that there is very little information available on the reproductive ecology of this species. The 2025 assessment of R. lobatus marks live birth as yes, and marks gestation time, reproductive periodicity, average annual fecundity or litter size, and the other life-history fields as not specified. No Kruger-specific breeding study was found in the sources used.",
+  "predators": [],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Moths",
+      "note": "The 2016 and 2025 EWT assessments, citing Fenton et al. (1977), say the species feeds mostly on Lepidoptera and, to a lesser extent, Orthoptera, and was highly selective for certain moth species at a Zimbabwe feeding site. Not mammals in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Orthopterans",
+      "note": "The 2016 and 2025 EWT assessments, citing Fenton et al. (1977), say Orthoptera are taken to a lesser extent than Lepidoptera. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2016 EWT assessment of R. landeri says the species is generally associated with both forest and savannah woodlands, and has also been recorded from the Lowveld, sparsely wooded transition areas, dense thornscrub, tropical moist forest and riverine forest (Rosevear 1965; Menzies 1973; Happold 1987; Taylor 1998). It says that in Central and West Africa it most commonly occurs in forest habitats (Csorba et al. 2003), while in southern Africa it is typically associated with riparian woodland (Smithers and Wilson 1979) and, in the assessment area, is known from the Mopane Bioregion. The 2025 assessment of R. lobatus repeats the southern African riparian-woodland and Mopane Bioregion statements and the same roost-site list. Its IUCN habitat scheme lists subtropical or tropical moist lowland and moist montane forest, dry savanna (major importance), moist savanna, subtropical or tropical dry shrubland, caves (major importance) and other subterranean habitats as suitable. Elevation limits on that page are 0–1,933 m above sea level (Monadjem et al. 2024). Both assessments place the species in the Great Limpopo Transfrontier Park in the northeastern region of Limpopo Province, as an edge-of-range species whose range is continuous into Zimbabwe and Mozambique. The 2016 assessment also gives a wider sub-Saharan range for R. landeri, from Senegal and The Gambia through West and Central Africa to Ethiopia and Sudan, and south to northeastern South Africa, and records high-elevation localities outside the assessment region, including 2,000 m on Mount Elgon in Kenya.",
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2016 regional assessment of R. landeri recorded fewer than five subpopulations in the assessment region, with an estimated extent of occurrence of 2,570 km² and an area of occupancy of 1,146 km², a current population trend of Stable, no continuing decline in mature individuals, and a largest-subpopulation figure of 12 mature individuals; it described the species as locally common in other parts of its range but not common anywhere in southern Africa, and as occurring in the Great Limpopo Transfrontier Park. The 2025 assessment of the southern African taxon now treated as R. lobatus records fewer than five localities, an extent of occurrence of 37,205 km² and an area of occupancy of 52 km² (2×2 km cells) to 1,300 km² (10×10 km cells), a current population trend of Unknown, no continuing decline in mature individuals, and a likely single metapopulation; those distribution estimates are based on pre-2000 records, there are no recent records in the assessment region, and Brinkley et al. (2021) did not record the species in northern Kruger during two years of acoustic surveys. In the assessment region it still occurs only in small numbers, usually one or two and not more than twelve individuals (Skinner and Chimimba 2005). Those regional figures are not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "sources": [
+      {
+        "title": "A conservation assessment of Rhinolophus landeri",
+        "url": "https://ewt.org/wp-content/uploads/2022/11/48.-Landers-Horseshoe-Bat-Rhinolophus-landeri_LC.pdf",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2016,
+        "note": "Source of the 2016 regional Least Concern status, the 2016 regional population remarks (fewer than five subpopulations; EOO 2,570 km²; AOO 1,146 km²; trend Stable; largest subpopulation 12 mature individuals), and the Great Limpopo Transfrontier Park locality. Cited from the PDF; it is not hosted in this repo."
+      },
+      {
+        "title": "A conservation assessment of Rhinolophus lobatus",
+        "url": "https://ewt.org/project/peters-horseshoe-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Source of the 2025 regional Least Concern status (no change from 2016; trend Unknown), the updated regional figures (EOO 37,205 km²; AOO 52–1,300 km²; five localities; single metapopulation), the statement that estimates rest on pre-2000 records with no recent records in the assessment region, and the Brinkley et al. (2021) northern Kruger survey result."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Typically roosts in a cave, mine adit or rock crevice, and has also been found in baobabs, hollow trees, buildings and water wells. In caves, individuals hang from the ceiling well separated from each other. In the assessment region, groups are small, usually one or two and not more than twelve individuals. No pelage colour, ear shape or nose-leaf characters were published in the sources used."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter forager that feeds mainly on moths and, to a lesser extent, orthopterans. The 2016 and 2025 EWT assessments cite low wing loading (Norberg and Rayner 1987). No wingspan or forearm figure is published in those assessments; Wikipedia (Brown and Dunlop 1997) gives a forearm length of 38–41 mm for R. landeri in the broad sense."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Rhinolophus landeri",
+      "url": "https://ewt.org/wp-content/uploads/2022/11/48.-Landers-Horseshoe-Bat-Rhinolophus-landeri_LC.pdf",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2016,
+      "note": "Monadjem A, Jacobs D, Cohen L, MacEwan K, Richards LR, Schoeman C, Sethusa T and Taylor PJ. 2016. Source of the 2016 regional Least Concern status, common names (including Afrikaans Landers se Saalneusvlermuis), the species-complex taxonomic note and R. l. lobatus, the Great Limpopo Transfrontier Park locality in northeastern Limpopo (the PDF does not use the word Kruger), roosting sites, colony size in the assessment region, diet (Fenton et al. 1977), habitat, low wing loading, scarce reproductive information, and 2016 regional population remarks. Cited from the PDF; it is not hosted in this repo."
+    },
+    {
+      "title": "A conservation assessment of Rhinolophus lobatus",
+      "url": "https://ewt.org/project/peters-horseshoe-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Balona J, Taylor P and da Silva JM. 2025. Source of the post-2011 split (R. l. lobatus elevated to R. lobatus; R. landeri retained for central and west Africa), the 2025 regional Least Concern status (no change from 2016; trend Unknown), pre-2000 records and absence of recent records in the assessment region, the Brinkley et al. (2021) northern Kruger result, movement patterns marked Unknown, seasonality left blank in the countries table, live birth marked yes with other life-history size and breeding fields not specified, and the repeated southern African habitat, roost, diet and small-colony remarks. The page body describes Rhinolophus lobatus throughout. Cited from the project page; the underlying PDF is not hosted in this repo."
+    },
+    {
+      "title": "Red List",
+      "url": "https://ewt.org/red-list/",
+      "publisher": "Endangered Wildlife Trust",
+      "year": null,
+      "note": "The Chiroptera table row for Lander's Horseshoe Bat (Rhinolophus landeri) links only the 2016 PDF; no 2025 /project/ page for this name is listed there."
+    },
+    {
+      "title": "Lander's horseshoe bat",
+      "url": "https://en.wikipedia.org/wiki/Lander's_horseshoe_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Redirects from Rhinolophus landeri. Used for authority and etymology (Martin 1837; holotype from Fernando Pó), qualitative size, mass, total length, tail length and forearm length (Brown and Dunlop 1997), a brief habitat statement (savanna and caves), a sub-Saharan range statement including 2,000 m on Mount Elgon, and the global IUCN listing (Monadjem et al. 2017). The page does not describe pelage colour or the nose-leaf. Afrikaans names were taken from the 2016 EWT assessment and species-list.json, not from this page."
+    },
+    {
+      "title": "Rhinolophus landeri (Lander's horseshoe bat)",
+      "url": "https://animaldiversity.org/accounts/Rhinolophus_landeri/",
+      "publisher": "Animal Diversity Web",
+      "year": null,
+      "note": "Classification page only; there is no species account, so the page was not used for measurements, ecology, calls or appearance."
+    },
+    {
+      "title": "iNaturalist taxon Rhinolophus landeri",
+      "url": "https://api.inaturalist.org/v1/taxa/40680",
+      "publisher": "iNaturalist",
+      "year": 2026
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Rhinolophus landeri (English Lander's horseshoe bat; Afrikaans Lander se saalneusvlermuis) and does not remap the names. The 2016 EWT assessment treated the taxon as a species complex (including R. l. lobatus). The 2025 EWT assessment, citing Taylor et al. (2018) and Monadjem et al. (2020), elevates the south-eastern form to Rhinolophus lobatus (Peter's horseshoe bat) and restricts R. landeri to central and west Africa; the 2025 page body describes R. lobatus. Status and monthsPresent are omitted: the 2016 PDF does not mention Kruger by name (only the Great Limpopo Transfrontier Park in northeastern Limpopo), and the 2025 assessment states that regional records are pre-2000, that there are no recent records in the assessment region, and that Brinkley et al. (2021) did not record the species in northern Kruger; movement patterns are marked Unknown and seasonality is left blank. The Afrikaans name in species-list.json, Lander se saalneusvlermuis, is close to the 2016 EWT form Landers se Saalneusvlermuis; the species-list form is kept. The 2025 lobatus page lists only the English name Peter's Horseshoe Bat and gives no Afrikaans name. Regional status is Least Concern (2016 under the landeri name; 2025 under the lobatus name, no change from 2016). The global IUCN listing cited by Wikipedia for R. landeri is Least Concern (Monadjem et al. 2017). Animal Diversity Web is a classification stub. No licensed photograph was kept: iNaturalist places 69020 and 6986 each returned 0 licensed research-grade observations for taxon 40680. Place 69020 returned 0 sound observations for taxon 40680.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "No Kruger census or SANParks population figure was found. The 2016 regional assessment of R. landeri and the 2025 assessment of R. lobatus give regional remarks (localities or subpopulations, extent of occurrence, area of occupancy, small colony size, and a 2016 trend of Stable versus a 2025 trend of Unknown), which are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
+    "The 2016 EWT assessment treated Rhinolophus landeri as a species complex, including R. l. lobatus in southern Africa. The 2025 EWT assessment treats the assessment-region animals as Rhinolophus lobatus (Peter's horseshoe bat), elevated from R. l. lobatus by Taylor et al. (2018), and restricts R. landeri to central and west Africa (Monadjem et al. 2020). The file keeps the species-list.json names and does not remap the Kruger animals.",
+    "Status and monthsPresent are omitted. The 2016 PDF does not mention Kruger by name. The 2025 assessment places the species in the Great Limpopo Transfrontier Park, states that records in the assessment region are pre-2000 and that there are no recent records, and notes that Brinkley et al. (2021) did not record it in northern Kruger. Movement patterns are marked Unknown.",
+    "The Afrikaans name in species-list.json, Lander se saalneusvlermuis, is close to the 2016 EWT name Landers se Saalneusvlermuis. The species-list form is kept. The 2025 lobatus page gives no Afrikaans name. The English checklist name Lander's horseshoe bat matches the 2016 assessment.",
+    "No 2025 /project/ page was found for Rhinolophus landeri. The ewt.org/red-list/ Chiroptera table row links only the 2016 PDF, which was used together with the 2025 R. lobatus page for the split southern African taxon.",
+    "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40680. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
+    "No licensed photograph was kept. iNaturalist place 69020 returned 0 licensed research-grade observations for taxon 40680. One place 6986 query (per_page 30, same licence and research-grade filters) also returned 0. Zero photos is recorded. Commons was not searched.",
+    "Head-and-body length, shoulder height and wingspan were not published in the sources used. Wikipedia (Brown and Dunlop 1997) gives mass, an approximate total length, tail length and forearm length for R. landeri in the broad sense; those figures may not apply to the southern African animals now treated as R. lobatus. The 2016 and 2025 EWT assessments publish no measurements, and the 2025 life-history size fields are marked not specified.",
+    "Pelage colour, ear colour and shape, iris colour, nose-leaf and horseshoe characters, muzzle colour, leg colour and tail colour were not given in the sources used, so those marks are null. Colour, dental and nose-leaf characters were not taken from another horseshoe-bat file.",
+    "No sourced comparison characters for other horseshoe bats in this guide were given in the landeri or lobatus sources used, so similar is omitted.",
+    "No Kruger-specific breeding study was found. Beyond a 2025 life-history mark that the species gives birth to live young, and a statement that very little reproductive-ecology information is available, breeding details are marked not specified in the 2025 EWT assessment.",
+    "No species-specific, documented predators were given in the sources used, so the predators list is empty.",
+    "Animal Diversity Web has only a classification page for this species, with no species account, so it was not used for facts."
+  ]
+}
