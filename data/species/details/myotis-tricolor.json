@@ -1,0 +1,225 @@
+{
+    "kind": "species",
+    "slug": "myotis-tricolor",
+    "scientificName": "Myotis tricolor",
+    "commonNames": {
+        "en": "Temminck's hairy bat",
+        "af": "Temminck se langhaarvlermuis"
+    },
+    "family": "vespertilionidae",
+    "inatTaxonId": 40279,
+    "sampleData": false,
+    "conservationStatus": {
+        "status": "Least Concern",
+        "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
+        "asOf": 2025,
+        "sources": [
+            {
+                "title": "A conservation assessment of Myotis tricolor",
+                "url": "https://ewt.org/project/temmincks-hairy-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Richards LR, Howard A and da Silva JM. 2025. Regional Least Concern; no change from 2016; regional population trend Stable."
+            },
+            {
+                "title": "Cape hairy bat",
+                "url": "https://en.wikipedia.org/wiki/Cape_hairy_bat",
+                "publisher": "Wikipedia",
+                "year": 2026,
+                "note": "Cites Monadjem and Jacobs (2017), IUCN Least Concern. The title Myotis tricolor redirects here."
+            }
+        ]
+    },
+    "size": {
+        "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives only means: forearm length 5.04 ± 0.18 cm and total length 10.60 ± 0.56 cm in females, and forearm length 4.96 ± 0.15 cm and total length 10.40 ± 0.62 cm in males. Wikipedia quotes an average mass of 13.9 g and a forelimb length of 49.5 mm. No head-and-body length, tail length, shoulder height or mass range was published on the pages used."
+    },
+    "summary": "A medium-sized insect-eating vesper bat with orangey to rufous fur, each hair dark at the base and coppery-red towards the tip. It roosts by day in moist caves and mine shafts, forages along the clutter edge, and in the assessment region migrates between summer maternity caves and winter hibernation caves. The 2025 regional assessment rates it Least Concern. That page does not mention Kruger National Park, and it lists the movement pattern as migratory.",
+    "description": "Wikipedia describes a diminutive bat, very similar in appearance to the even more diminutive rufous mouse-eared bat, with orangey to rufous fur on the back, slightly paler underparts, and long, erect, soft fur. Each hair is dark at its base and coppery-red towards the tips. The wings are relatively broad and dark brown, contrasting with the bright body fur. The face is plain, with no nose-leaf, and the moderately large brown ears have a long narrow tragus. The English checklist name is Temminck's hairy bat; Wikipedia's title is Cape hairy bat, and it also lists Temminck's mouse-eared bat, Cape myotis, three-coloured bat and other English names. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length as 5.04 cm in females and 4.96 cm in males, and mean total length as 10.60 cm in females and 10.40 cm in males. Wikipedia quotes an average mass of 13.9 g and a forelimb length of 49.5 mm. The assessment notes that the species was originally described in 1832 as Vespertilio tricolor, with type locality Cape Town, and lists Eptesicus loveni as a synonym.",
+    "habits": "The 2025 EWT assessment, citing Monadjem et al. (2020), says the species roosts by day in moist caves and mine shafts, hanging freely from ceilings or clinging to walls, and is mostly found in larger caves that usually contain pools of water and little disturbance, though not always. In North West it has been recorded in old mine tunnels in the Vredefort Dome area (Power 2014). Throughout the assessment region it migrates hundreds of kilometres between warmer summer maternity caves (the assessment names De Hoop Gauno Cave in the Western Cape) and colder winter hibernation caves. Movement patterns are listed as Migratory, with local migrations between winter hibernacula and summer maternity roosts. It is congregatory; some cave-roosting colonies can harbour 1,500 individuals (Taylor 1998, 2000). It is a clutter-edge forager. Jordaan and Jacobs (2009) say its intermediate wing morphology allows it to forage as an aerial forager, a gleaner and a trawler (taking prey from the water surface). It has been mist-netted in open spaces close to trees and close to the surface of running water.",
+    "diet": {
+        "summary": "An insectivore. The 2025 EWT assessment, citing Monadjem et al. (2020), says it is a clutter-edge forager with a diet of beetles (Coleoptera), bugs (Hemiptera), flies (Diptera), lacewings and allies (Neuroptera) and wasps, bees and ants (Hymenoptera). Aquatic insects can make up a substantial part of the diet (Moyo and Jacobs 2020).",
+        "items": [
+            "beetles",
+            "bugs",
+            "flies",
+            "lacewings and allies",
+            "wasps, bees and ants",
+            "aquatic insects"
+        ],
+        "guild": "insectivore"
+    },
+    "young": "The 2025 EWT assessment states that the species gives birth to live young, and lists average litter size as one pup per year. It exhibits seasonal monoestry, with births in summer (November–December) (Bernard 1982). Gestation time is estimated at about 63 days. Wingate (1986) reported that most females attain sexual maturity at 4–5 months of age, and the remainder a year later. Generation length, male age at maturity, size at birth and longevity are listed as not specified or unknown. Wikipedia, for KwaZulu-Natal, says copulation occurred in May, females stored the sperm until fertilising the ovum in September, the young were born in November and December and suckled for six weeks, and that females gather in maternity roosts to give birth. Pup appearance was not described on the pages used.",
+    "predators": [
+        {
+            "slug": null,
+            "en": "Snakes",
+            "note": "The 2025 EWT assessment lists snakes, owls and other nocturnal raptors as natural predators. Not identified to species."
+        },
+        {
+            "slug": null,
+            "en": "Owls and other nocturnal raptors",
+            "note": "The 2025 EWT assessment lists snakes, owls and other nocturnal raptors as natural predators. Not identified to species."
+        }
+    ],
+    "prey": [
+        {
+            "slug": null,
+            "en": "Insects",
+            "note": "The 2025 EWT assessment, citing Monadjem et al. (2020) and Moyo and Jacobs (2020), reports a diet of Coleoptera, Hemiptera, Diptera, Neuroptera and Hymenoptera, with aquatic insects sometimes a substantial part. Not mammals in this guide."
+        }
+    ],
+    "habitat": "The 2025 EWT assessment, citing Monadjem et al. (2020), says the species occupies widely varied habitats, including montane forests, rainforests, coastal forests, savannah woodlands (including mopane and miombo), arid thickets, mixed grassland and fynbos, and has a close association with mountainous terrain that may reflect its need for caves. Within the assessment region it occurs mainly in woodland savannah, but also in dry grassland savannahs and in montane grasslands in the Drakensberg (Lynch 1994; Taylor 1998). Most records are from areas with more than 500 mm of annual rainfall (Rautenbach 1982), and its distribution is thought to be limited by rainfall and by the availability of humid caves and mines (Salata 2012). Elevation limits are given as 18–3,869 m above sea level (Monadjem et al. 2024). The conservation section says it occurs in more than ten protected areas in the assessment region, including the Great Limpopo Transfrontier Park. The page does not name Kruger National Park.",
+    "similar": [
+        {
+            "slug": "myotis-bocagii",
+            "note": "Wikipedia describes this species as very similar in appearance to the even more diminutive rufous mouse-eared bat (Myotis bocagii; English checklist name Rufous hairy bat)."
+        }
+    ],
+    "population": {
+        "estimate": {
+            "low": null,
+            "high": null
+        },
+        "unit": null,
+        "trend": "unknown",
+        "confidence": "low",
+        "asOf": null,
+        "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment lists the current population trend as Stable, does not give a Kruger figure, and says that in the assessment region the species has been recorded from many localities, in colonies of hundreds up to 1,500 animals (Taylor 1998, 2000; Monadjem et al. 2020). It also states that if the species is a single metapopulation, at least 5,000 individuals are highly likely to exist in the assessment region. Those remarks apply to South Africa, Eswatini and Lesotho, not to Kruger.",
+        "sources": [
+            {
+                "title": "A conservation assessment of Myotis tricolor",
+                "url": "https://ewt.org/project/temmincks-hairy-bat/",
+                "publisher": "SANBI and Endangered Wildlife Trust",
+                "year": 2025,
+                "note": "Regional remarks only (current population trend Stable; colonies of hundreds up to 1,500; at least 5,000 individuals thought likely in the assessment region). Not a Kruger estimate."
+            }
+        ]
+    },
+    "variants": [
+        {
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "marks": {
+                "horns": {
+                    "colour": null,
+                    "shape": null
+                },
+                "ears": {
+                    "colour": "brown",
+                    "shape": "moderately large, with a long narrow tragus"
+                },
+                "eye": {
+                    "iris": null,
+                    "ring": null
+                },
+                "head": {
+                    "face": "plain, with no nose-leaf",
+                    "muzzle": null,
+                    "beard": null
+                },
+                "mane": {
+                    "colour": null,
+                    "shape": null
+                },
+                "upperparts": {
+                    "colour": "orangey to rufous",
+                    "pattern": "long, erect, soft fur; each hair dark at the base and coppery-red towards the tip"
+                },
+                "underparts": {
+                    "colour": "slightly paler than the back",
+                    "pattern": null
+                },
+                "legs": {
+                    "colour": null
+                },
+                "tail": {
+                    "colour": null,
+                    "shape": null
+                }
+            }
+        }
+    ],
+    "viewNotes": [
+        {
+            "view": "flight-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "A clutter-edge forager. Jordaan and Jacobs (2009) say the intermediate wing morphology also allows gleaning and trawling prey from the water surface. Wikipedia describes relatively broad, dark brown wings that contrast with the bright body fur."
+        },
+        {
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "note": "Roosts by day in moist caves and mine shafts, hanging freely from ceilings or clinging to walls, often in larger caves with pools of water."
+        }
+    ],
+    "calls": [],
+    "images": [
+        {
+            "key": "myotis-tricolor/vhembe-foliage.jpg",
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/409222223",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/752375014/large.jpg",
+            "author": "jorisleuning",
+            "license": "CC BY-NC 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "A Temminck's hairy bat hanging in foliage in the Vhembe District Municipality, Limpopo",
+            "caption": "An adult hanging in foliage, Vhembe District Municipality, Limpopo, 18 October 2026."
+        },
+        {
+            "key": "myotis-tricolor/langeberg-cave-roost.jpg",
+            "view": "perched-side",
+            "age": "adult",
+            "sex": "any",
+            "season": "any",
+            "source": "https://www.inaturalist.org/observations/260980308",
+            "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/468778577/large.jpeg",
+            "author": "Chris Oldnall",
+            "license": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "aiGenerated": false,
+            "hosted": false,
+            "alt": "A group of Temminck's hairy bats roosting on a cave wall in the Langeberg Local Municipality, Western Cape",
+            "caption": "A group roosting on a cave wall, Langeberg Local Municipality, Western Cape, 7 February 2025."
+        }
+    ],
+    "sources": [
+        {
+            "title": "A conservation assessment of Myotis tricolor",
+            "url": "https://ewt.org/project/temmincks-hairy-bat/",
+            "publisher": "SANBI and Endangered Wildlife Trust",
+            "year": 2025,
+            "note": "Richards LR, Howard A and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable), the Afrikaans name Temminck se langhaarvlermuis (also listed as Temminck-langhaarvlermuis and Kaapse Langhaarvlermuis), habitat, cave and mine roosts, migratory movements between summer maternity caves and winter hibernation caves, diet, life-history remarks, predators, the original combination Vespertilio tricolor, the synonym Eptesicus loveni, two mitochondrial lineages flagged by Patterson et al. (2019), and occurrence in the Great Limpopo Transfrontier Park. Movement patterns are listed as Migratory. The page does not mention Kruger National Park. Cited only; not hosted in this repo."
+        },
+        {
+            "title": "Cape hairy bat",
+            "url": "https://en.wikipedia.org/wiki/Cape_hairy_bat",
+            "publisher": "Wikipedia",
+            "year": 2026,
+            "note": "The title Myotis tricolor redirects here. Source of the appearance account (orangey to rufous fur, paler underparts, hair dark at the base and coppery-red towards the tips, dark brown wings, plain face, brown ears with a long narrow tragus), the average mass and forelimb figures, the comparison with the rufous mouse-eared bat, and the KwaZulu-Natal breeding remarks (mating in May, sperm storage, births in November and December, six weeks of suckling). Lists several English names, including Cape hairy bat and Temminck's hairy bat. Cites the 2017 IUCN Least Concern assessment (Monadjem and Jacobs)."
+        }
+    ],
+    "research": {
+        "confidence": "medium",
+        "needsReview": true,
+        "note": "This file follows species-list.json in treating the Kruger-list animal as Myotis tricolor (English Temminck's hairy bat; Afrikaans Temminck se langhaarvlermuis) and does not remap the name. Wikipedia and iNaturalist use Cape hairy bat as the preferred English name; that is flagged here, not used to change the checklist name. The 2025 EWT assessment, citing Patterson et al. (2019), reports two significantly distinct evolutionary lineages of M. tricolor, one of them in South Africa, and, citing Moir et al. (2020), mitochondrial structuring within South Africa; it recommends further integrative taxonomy. Those points are flagged, not used to split the checklist taxon. The 2025 page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park. Movement patterns are listed as Migratory (local migrations between winter hibernacula and summer maternity roosts), so status and monthsPresent are omitted even though the species is on the 2011 Kruger checklist."
+    },
+    "gaps": [
+        "The 2025 EWT assessment does not mention Kruger National Park (it names the Great Limpopo Transfrontier Park). Movement patterns are listed as Migratory, so status and monthsPresent are omitted.",
+        "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Stable and discusses regional colonies of up to 1,500, not a Kruger figure.",
+        "No published head-and-body length, tail length, shoulder height or mass range; only mean forearm and total lengths, plus a Wikipedia average mass of 13.9 g and forelimb length of 49.5 mm, were given.",
+        "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
+        "No licensable photograph in Kruger (place 69020); two southern African photographs from outside the park are used.",
+        "Pup appearance was not published in the sources used.",
+        "Iris, muzzle, legs and tail colours were not described on the pages used.",
+        "The only sourced field comparison is Wikipedia's note that the species is very similar to the smaller rufous mouse-eared bat."
+    ]
+}
