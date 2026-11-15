@@ -1,0 +1,187 @@
+{
+  "kind": "species",
+  "slug": "laephotis-capensis",
+  "scientificName": "Laephotis capensis",
+  "commonNames": {
+    "en": "Cape serotine bat",
+    "af": "Kaapse Dakvlermuis"
+  },
+  "family": "vespertilionidae",
+  "inatTaxonId": 1431030,
+  "sampleData": false,
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Least Concern; no change from 2016; regional population trend Stable). Wikipedia cites a global IUCN listing of Least Concern (Monadjem, Taylor, Jacobs and Cotterill 2017, assessed as Neoromicia capensis).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Laephotis capensis",
+        "url": "https://ewt.org/project/cape-roof-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Howard A, Lötter CA, Balona J, Richardson EJ and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable). Cited only; not hosted in this repo."
+      },
+      {
+        "title": "Neoromicia capensis",
+        "url": "https://doi.org/10.2305/IUCN.UK.2017-2.RLTS.T44918A22048372.en",
+        "publisher": "IUCN",
+        "year": 2017,
+        "note": "Monadjem, Taylor, Jacobs and Cotterill 2017. Global Least Concern listing, assessed under Neoromicia capensis, as cited on the Wikipedia Cape serotine article. Cited only; not hosted in this repo."
+      }
+    ]
+  },
+  "size": {
+    "massKg": {
+      "min": 0.004,
+      "max": 0.01
+    },
+    "note": "Wikipedia, citing Stuart and Stuart (2007), gives a mass of 4–10 g (0.004–0.010 kg), a forearm length of 29–38 mm, and a total length of about 85 mm. The 2025 EWT assessment, citing Monadjem et al. (2020), gives only mean forearm lengths at maturity: 3.45 ± 0.217 cm in females and 3.28 ± 0.195 cm in males. No published head-and-body length, tail length, shoulder height, or minimum–maximum total-length range was given in the sources used, so those fields are omitted."
+  },
+  "summary": "A small, brownish African vesper bat with a greyish underside, dark wing membranes and a dome-shaped forehead. It is an insectivorous clutter-edge forager that roosts under bark, at the bases of aloe leaves, in wall cracks and under roofs, in small natural groups or in larger maternity colonies in buildings. The 2025 regional Red List rates it Least Concern. This file keeps the checklist names Laephotis capensis and Cape serotine bat.",
+  "description": "The Cape serotine bat is a small vesper bat. Wikipedia, citing Stuart and Stuart (2007), describes it as small and brownish, with a greyish underbelly and relatively untidy fur, and notes that the colour is quite variable depending on the region. It has a small snout and mouth, a dome-shaped forehead, dark wing membranes, and a forearm length of 29–38 mm. The 2025 EWT assessment gives no further part colours or ear characters, and notes that the species is highly variable morphologically.",
+  "habits": "The 2025 EWT assessment classifies the species as an insectivorous clutter-edge forager (Monadjem et al. 2020) and, citing ACR (2015), describes the flight as slow at the edge of vegetation. Movement patterns are listed as not specified. Natural roosts tend to hold one to three individuals (earlier accounts also say it roosts singly or in twos or threes), under the bark of trees and similar vegetation, at the base of aloe leaves, in cracks in walls, and under the roofs of houses, including thatched, corrugated-iron and tiled roofs (Lynch 1983; Monadjem 1998; ACR 2015). In buildings it now often forms medium mixed groups or large female maternity colonies; groups of up to 100 animals have been recorded in houses in Zimbabwe (Monadjem et al. 2020). Wikipedia adds hollow trees and eaves, and says the bats will occupy a bat house. Females are mono-oestrous and give birth in the warm, wet season (Monadjem et al. 2020).",
+  "diet": {
+    "summary": "An insectivore and clutter-edge forager. The 2025 EWT assessment, citing Monadjem et al. (2020), says the diet varies seasonally and geographically. At Sengwa, Zimbabwe, Coleoptera and Trichoptera made up most of the diet, with Lepidoptera, Hemiptera and Diptera in smaller amounts (Fenton 1985). Wikipedia, citing EcoSolutions, also lists beetles, lacewings, moths, mosquitoes, plant-sucking bugs and other flying insects. Moth consumption has been shown to increase under artificial lights (Minnaar et al. 2015).",
+    "items": [
+      "beetles",
+      "caddisflies",
+      "moths",
+      "lacewings",
+      "mosquitoes",
+      "plant-sucking bugs",
+      "other flying insects"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment states that the species gives birth to live young. Females are mono-oestrous and give birth in the warm, wet season, with a litter of 1–4 pups, usually one (Monadjem et al. 2020). Wikipedia says they give birth once a year to one to four young between October and November. Gestation time and size at birth are listed as unknown, and no description of the pup was published in the sources used. Age at maturity is given as 12 months, generation length as three years, and longevity as 7–8 years.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Owls",
+      "note": "The 2025 EWT assessment, citing ACR (2015), says the species is an important prey of owls because of its abundance and clutter-edge foraging style. Not identified to species, and not mammals in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Insects",
+      "note": "The 2025 EWT assessment, citing Fenton (1985), reports a Zimbabwe study in which beetles (Coleoptera) and caddisflies (Trichoptera) made up most of the diet, with moths (Lepidoptera), bugs (Hemiptera) and flies (Diptera) in smaller amounts. Wikipedia also lists lacewings, mosquitoes and plant-sucking bugs. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment, citing Skinner and Chimimba (2005) and Monadjem et al. (2020), says the species tolerates a wide range of conditions, from arid semi-desert to montane grassland (as high as 1,600 m above sea level in the Drakensberg, KwaZulu-Natal; Taylor 1998), dry and moist forest, bushveld, Acacia woodland, dry and moist savannah, and Mediterranean shrubland. It is possibly less abundant in low-lying, hot savannahs in the far east of southern Africa (Monadjem et al. 2020). It is recorded from all bioregions and all provinces in the assessment region, and from numerous protected areas, but the 2025 page does not name Kruger National Park. Elevation limits on that page are not specified.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment lists the number of mature individuals as Unknown and the current population trend as Stable, with localised increases and decreases in certain areas, and does not quantify the Kruger population. Those remarks apply to the assessment region (South Africa, Eswatini and Lesotho), not to Kruger.",
+    "sources": [
+      {
+        "title": "A conservation assessment of Laephotis capensis",
+        "url": "https://ewt.org/project/cape-roof-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional remarks only (mature population size Unknown; current population trend Stable, with localised increases and decreases). Not a Kruger estimate."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": "small snout and mouth, with a dome-shaped forehead (Wikipedia, citing Stuart and Stuart 2007)",
+          "muzzle": "small snout and mouth",
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "brownish",
+          "pattern": "relatively untidy fur; colour quite variable depending on the region (Wikipedia, citing Stuart and Stuart 2007)"
+        },
+        "underparts": {
+          "colour": "greyish",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Roosts under bark, at the bases of aloe leaves, in wall cracks and under roofs. Natural roosts usually hold one to three bats; building roosts may hold mixed or maternity groups of up to about 100."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter-edge forager with dark wing membranes. The 2025 EWT assessment, citing ACR (2015), describes slow flight at the edge of vegetation."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Laephotis capensis",
+      "url": "https://ewt.org/project/cape-roof-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Howard A, Lötter CA, Balona J, Richardson EJ and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable), Afrikaans name Kaapse Dakvlermuis, synonyms (including Eptesicus capensis and Pipistrellus capensis), the transfer from Eptesicus to Neoromicia and then to Laephotis, the possible species complex, two genetically distinct South African clades (Taylor et al. 2022), habitat, roosting, clutter-edge foraging, diet, movement patterns (not specified), forearm means, life-history figures, and occurrence in numerous unnamed protected areas. The page does not mention Kruger National Park. Cited only; not hosted in this repo."
+    },
+    {
+      "title": "Cape serotine",
+      "url": "https://en.wikipedia.org/wiki/Cape_serotine",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "Appearance (brownish, greyish underbelly, untidy and regionally variable fur, small snout and mouth, dome-shaped forehead, dark wing membranes), forearm 29–38 mm, total length about 85 mm and mass 4–10 g, citing Stuart and Stuart (2007); roosts under bark, in hollow trees, in wall cracks and under eaves and roofs, in groups of up to about 20, and will use a bat house; diet and October–November births of 1–4 young. The title Laephotis capensis redirects here. The page uses the English name Cape serotine, lists the former classification in Neoromicia, and cites the 2017 IUCN Least Concern assessment under Neoromicia capensis."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Laephotis capensis (English Cape serotine bat; Afrikaans Kaapse Dakvlermuis) and does not remap it. The 2025 EWT assessment records the transfers from Eptesicus capensis to Neoromicia capensis (Hill and Harrison 1987) and then to Laephotis (Monadjem et al. 2020b). It states that the species is highly variable morphologically and ecologically and may represent a complex of several similar species (Monadjem et al. 2020), and that L. capensis forms at least two distinct clades in South Africa that are genetically differentiated from other L. capensis in Africa (Taylor et al. 2022). Those issues are flagged here, not used to change the checklist names. The 2025 page does not mention Kruger, so status and monthsPresent are omitted pending a definite park record."
+  },
+  "gaps": [
+    "The 2025 EWT assessment does not mention Kruger National Park, so status and monthsPresent are omitted.",
+    "No Kruger census or park-wide count; the 2025 regional assessment lists mature individuals as Unknown and the regional trend as Stable.",
+    "No published head-and-body length, tail length, shoulder height, or minimum–maximum total-length range; only forearm means, a Wikipedia total length of about 85 mm, and a mass of 4–10 g were given.",
+    "No sourced colours or shapes for the ears, eyes, legs or tail; marks are limited to brownish, regionally variable upperparts, a greyish underside, a dome-shaped forehead and dark wing membranes.",
+    "No sourced echolocation or social-call description. The only iNaturalist sound in Kruger (place 69020; observation 57399714, needs_id) was at rest-camp coordinates and was not used.",
+    "No licensable unhandled photograph: none research-grade in Kruger (place 69020). Four licensed southern African thumbnails were viewed (Cederberg, Pixley ka Seme, Cacadu and Overberg); all showed a handled, grounded or sheet-laid bat and were not used.",
+    "Gestation, size at birth and pup appearance were not published in the sources used.",
+    "No sourced field comparison with similar serotines was published on the pages used for this species."
+  ]
+}
