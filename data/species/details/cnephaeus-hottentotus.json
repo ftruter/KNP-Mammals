@@ -1,0 +1,200 @@
+{
+  "kind": "species",
+  "slug": "cnephaeus-hottentotus",
+  "scientificName": "Cnephaeus hottentotus",
+  "commonNames": {
+    "en": "Long-tailed serotine bat",
+    "af": "Langstertdakvlermuis"
+  },
+  "family": "vespertilionidae",
+  "inatTaxonId": 1596136,
+  "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conservationStatus": {
+    "status": "Least Concern",
+    "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Least Concern; no change from 2016; regional population trend Stable). Wikipedia cites a global IUCN listing of Least Concern (Monadjem, Cotterill and Jacobs 2017, under the name Eptesicus hottentotus).",
+    "asOf": 2025,
+    "sources": [
+      {
+        "title": "A conservation assessment of Cnephaeus hottentotus",
+        "url": "https://ewt.org/project/long-tailed-serotine-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Lötter C, Balona J and da Silva JM. 2025. In Patel T, Smith C, Roxburgh L, da Silva JM and Raimondo D, editors. The Red List of Mammals of South Africa, Eswatini and Lesotho. 2025 regional Least Concern status (no change from 2016; trend Stable), common names, ecology and taxonomy. Cited only; the page is not hosted in this repo."
+      },
+      {
+        "title": "Long-tailed house bat",
+        "url": "https://en.wikipedia.org/wiki/Long-tailed_house_bat",
+        "publisher": "Wikipedia",
+        "year": 2026,
+        "note": "Cites the 2017 IUCN global assessment of Eptesicus hottentotus (Monadjem, Cotterill and Jacobs) as Least Concern."
+      }
+    ]
+  },
+  "size": {
+    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 5.10 ± 0.16 cm in females and 4.88 ± 0.16 cm in males, and a maximum forearm length of 5.30 cm in females and 5.20 cm in males. Head-and-body length, tail length, total length and mass were not published in the sources used, so those fields are omitted. No shoulder height was published."
+  },
+  "summary": "A medium-sized southern African vesper bat that roosts in small groups in caves, mines and rock crevices, usually in mountainous or broken rocky country near water. It is an insectivorous clutter-edge forager, feeding mainly on beetles. The 2025 regional Red List rates it Least Concern and records it from Kruger National Park. This file keeps the checklist names Cnephaeus hottentotus and Long-tailed serotine bat; the species was formerly placed in Eptesicus.",
+  "description": "A vesper bat (Vespertilionidae). The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 5.10 ± 0.16 cm in females and 4.88 ± 0.16 cm in males, with maxima of 5.30 cm and 5.20 cm respectively. No sourced account of fur colour, ear shape or other external marks was found in the sources used, so those details are left unstated. This file keeps the checklist names Cnephaeus hottentotus and Long-tailed serotine bat. Following Cláudio et al. (2023), cited on the 2025 EWT page, Old World taxa formerly placed in Eptesicus are now referred to Cnephaeus; the assessment therefore treats Eptesicus hottentotus as Cnephaeus hottentotus (the page also spells the genus Cnaephaeus once). Earlier work, cited there, treats it as the only member of the genus in southern Africa (Kearney et al. 2002). Three subspecies have previously been recognised in the region (Monadjem et al. 2020); the assessment says further molecular studies are required. No split is applied here.",
+  "habits": "The 2025 EWT assessment classifies the species as a clutter-edge forager and notes intermediate wing-loading (Schoeman and Jacobs 2008), which it takes as evidence that dispersal and rescue effects are possible. Movement patterns are listed as unknown. It roosts in small groups of two to five individuals in caves and mines (Skinner and Chimimba 2005) and in rock crevices (Herselman and Norton 1985; groups of two to four in Herselman and Norton 1985). A single specimen was collected hanging on the outside wall of a building in Zimbabwe (Skinner and Chimimba 2005). In South Africa it is usually captured or recorded with ultrasonic detectors near rocky outcrops, faces and gorges (Monadjem et al. 2010; Inkululeko Wildlife Services unpubl. data, cited on the 2025 EWT page). Abundance is generally low, and the patchy distribution is thought to reflect specific roosting requirements in suitable rocky terrain (Monadjem et al. 2020).",
+  "diet": {
+    "summary": "An insectivore and clutter-edge forager. The 2025 EWT assessment, citing Schoeman and Jacobs (2003) and Schoeman (2006), says it feeds primarily on coleopteran species (beetles).",
+    "items": [
+      "beetles"
+    ],
+    "guild": "insectivore"
+  },
+  "young": "The 2025 EWT assessment says no detailed data on reproductive behaviour are currently available for the assessment region, but describes the species as seasonally monoestrous and likely to give birth between November and December (Cotterill and Happold 2013). A post-lactating female was netted over a river at Schaapplaats Farm, Free State, in late February, which the assessment takes as evidence that breeding likely occurs during the austral summer; that inference is supported by records of heavily pregnant or lactating females in mid-November in Zimbabwe (Cotterill and Happold 2013). Gestation time, litter size and the appearance of the young were not published in the sources used.",
+  "predators": [
+    {
+      "slug": null,
+      "en": "Barn owl",
+      "note": "The 2025 EWT assessment, citing Avery et al. (2005), says there is evidence that this species is preyed upon by barn owls (Tyto alba) in the Western Cape. Not a mammal in this guide."
+    },
+    {
+      "slug": null,
+      "en": "Bat hawk",
+      "note": "The 2025 EWT assessment, citing Mikula et al. (2016), lists the bat hawk (Macheiramphus alcinus) among predators. Not a mammal in this guide."
+    }
+  ],
+  "prey": [
+    {
+      "slug": null,
+      "en": "Beetles",
+      "note": "The 2025 EWT assessment, citing Schoeman and Jacobs (2003) and Schoeman (2006), says the species feeds primarily on Coleoptera. Not mammals in this guide."
+    }
+  ],
+  "habitat": "The 2025 EWT assessment associates the species with mountainous or broken rocky terrain close to water (references in ACR 2024, and recent records from Schaapplaats Farm, Free State), in habitats that include semi-arid Karoo and Kalahari, montane grasslands, marshland and well-wooded riverbanks (Skinner and Chimimba 2005). Rocky areas are listed as of major importance in the IUCN habitats scheme on that page. In Zimbabwe it occurs in Miombo woodland in gorges and granitic hills (Cotterill 1996). Elevation in the assessment is given as 25-2,430 m above sea level (Monadjem et al. 2024). Wikipedia, citing the 2017 IUCN assessment, lists savanna, subtropical or tropical dry shrubland, Mediterranean-type shrubby vegetation, rocky areas and caves. The 2025 assessment records the species from Kruger National Park among other South African protected areas.",
+  "similar": [],
+  "population": {
+    "estimate": {
+      "low": null,
+      "high": null
+    },
+    "unit": null,
+    "trend": "unknown",
+    "confidence": "low",
+    "asOf": null,
+    "notes": "No Kruger census or SANParks park-wide count was found. The 2025 regional assessment lists the number of mature individuals as unknown and describes the regional trend as Stable; those remarks apply to the assessment region (South Africa, Eswatini and Lesotho), not to Kruger.",
+    "sources": [
+      {
+        "title": "A conservation assessment of Cnephaeus hottentotus",
+        "url": "https://ewt.org/project/long-tailed-serotine-bat/",
+        "publisher": "SANBI and Endangered Wildlife Trust",
+        "year": 2025,
+        "note": "Regional remarks only (number of mature individuals unknown; trend Stable). Not a Kruger estimate."
+      }
+    ]
+  },
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": null,
+          "shape": null
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "underparts": {
+          "colour": null,
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
+  "viewNotes": [
+    {
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "Roosts in small groups of two to five individuals in caves, mines and rock crevices, typically in mountainous or broken rocky terrain."
+    },
+    {
+      "view": "flight-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "note": "A clutter-edge forager with intermediate wing-loading. In South Africa it is usually recorded near rocky outcrops, faces and gorges."
+    }
+  ],
+  "calls": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "A conservation assessment of Cnephaeus hottentotus",
+      "url": "https://ewt.org/project/long-tailed-serotine-bat/",
+      "publisher": "SANBI and Endangered Wildlife Trust",
+      "year": 2025,
+      "note": "Lötter C, Balona J and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; trend Stable), Afrikaans name Langstert-dakvlermuis, taxonomic history, habitat, roosting, diet, reproduction, movement, predators, forearm measurements, and the named Kruger record. Cited only; not hosted in this repo."
+    },
+    {
+      "title": "Long-tailed house bat",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_house_bat",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "note": "A short stub. Used for the 2017 IUCN global Least Concern listing of Eptesicus hottentotus and a brief habitat list. The title Cnephaeus hottentotus redirects here. The page still uses the older combination Eptesicus hottentotus and the English name long-tailed house bat."
+    }
+  ],
+  "research": {
+    "confidence": "medium",
+    "needsReview": true,
+    "note": "This file follows species-list.json in treating the Kruger animal as Cnephaeus hottentotus (English Long-tailed serotine bat; Afrikaans Langstertdakvlermuis) and does not remap it to Long-tailed house bat, the Wikipedia title, or to the older combination Eptesicus hottentotus. The 2025 EWT assessment, citing Cláudio et al. (2023), is a genus transfer, not a split; three historically recognised subspecies remain untested by further molecular work. Appearance characters are left null because they were not published in the sources used. Movement patterns are unknown, but the 2025 assessment does not describe the species as a migrant, and a definite Kruger record is given, so status is entered as resident.",
+    "researched": "15 November 2026, Africa/Johannesburg"
+  },
+  "gaps": [
+    "The 2011 checklist Afrikaans name Langstertdakvlermuis is kept. The 2025 EWT assessment gives Langstert-dakvlermuis, with a hyphen.",
+    "No published head-and-body length, tail length, total length or mass was found in the sources used. Only forearm measurements appear on the 2025 EWT page.",
+    "No sourced account of fur colour, ear shape or other external marks was found, so variant marks are null.",
+    "No Kruger or SANParks park-wide population figure was found. The 2025 assessment lists the number of mature individuals as unknown for the assessment region.",
+    "No usable photograph was kept. Both licensed Kruger observations were dropped as rest-camp records: 197090187 at Lower Sabie coordinates and 57417647 (needs-id) at Crocodile Bridge coordinates. Licensed South African photographs in place 6986 were mist-netted, handled or spectrograms.",
+    "No usable Kruger sound was kept. Both iNaturalist recordings (observations 197090187 and 57417647) were at rest-camp coordinates.",
+    "Animal Diversity Web has no species account under Cnephaeus hottentotus. A classification page exists under the older name Eptesicus hottentotus and was not used as a source of facts.",
+    "No sourced comparison with other Kruger vesper bats was found, so similar is empty.",
+    "No sourced description of echolocation or social calls was found in the sources used, and calls is empty.",
+    "The 2025 EWT assessment lists movement patterns as unknown and notes that further molecular studies of historically recognised subspecies are required."
+  ]
+}

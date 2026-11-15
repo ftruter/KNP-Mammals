@@ -249,6 +249,47 @@ Researched in a fresh session for the first five-family batch after the Bovidae 
 - Skinner & Chimimba and Stuart’s guide were not available. No rare / reintroduced / introduced flags were added: the 2011 PDF does not mark any species in these five families with an asterisk.
 
 
+## Batch 15 hints (vesper bats part 1, 15 November 2026, Africa/Johannesburg)
+
+### Banana bat (Afronycteris nanus), 16 calls
+- `site:ewt.org Afronycteris nanus` found https://ewt.org/project/banana-bat/ first try (2016 PDF uses Neoromicia nana). Only Kruger record is a 1977 thatched-roof colony that may be A. cf. helios, so status was omitted.
+- Wikipedia: use `Afronycteris_nana`, `Neoromicia_nana` or `Pipistrellus_nanus` (redirect to Banana serotine); the "Banana bat" article is a Mexican species. ADW `Afronycteris_nanus` missing; `Neoromicia_nanus` is a stub.
+- iNat 1431034: Kruger record at Letaba camp (-23.855, 31.576) dropped; kept 2 KZN banana/Strelitzia leaf roosts (CC BY-NC). Sound cuts sat on Satara and Lower Sabie camp coordinates.
+
+### Long-tailed serotine bat (Cnephaeus hottentotus), 17 calls
+- `site:ewt.org` with current plus old (Eptesicus) names found https://ewt.org/project/long-tailed-serotine-bat/ first; definite Kruger record, movement unknown, so resident. EWT Afrikaans is "Langstert-dakvlermuis" (hyphen; list form kept).
+- Wikipedia redirects to a stub ("Long-tailed house bat", still Eptesicus): IUCN and habitat only. ADW current genus missing; old genus is classification only, so skip ADW for small vespers.
+- iNat 1596136: Kruger photos and sounds all at Lower Sabie or Crocodile Bridge (-25.358, 31.894) camps; 6986 records were mist-net, in-hand or spectrogram .png files.
+
+### Butterfly bat (Glauconycteris variegata), 17 calls
+- `site:ewt.org` plus the Chiroptera tag page gave https://ewt.org/project/butterfly-bat/; definite Kruger record (Pafuri capture, Hassanin et al. park specimens), movement unknown, so resident. EWT HTML clipped the male total length.
+- Wikipedia latin-name parse worked first time (Variegated butterfly bat; Rambaldini 2010 appearance). Older names: Chalinolobus variegatus.
+- iNat: Kruger 69020 empty; 6986 had one natural foliage group at St Lucia (2 CC BY-NC photos kept).
+
+### Damara woolly bat (Kerivoula argentata), 13 calls
+- Exact EWT URLs: curl https://ewt.org/project_tag/chiroptera/ and read the hrefs (WebFetch drops links). 2025 page is the right species: NT, definite Kruger record from riverine forest at Pafuri (Monadjem et al. 2020), migration unlikely, so resident.
+- Wikipedia latin parse works; mass figures conflict with EWT (kept in the size note). iNat taxon 40456: 0 licensed photos (69020, 6986), 0 sounds.
+
+### Lesser woolly bat (Kerivoula lanosa), 10 calls
+- https://ewt.org/project/lesser-woolly-bat/ is this species; definite Kruger record, movement unknown, so resident. Gives only mean forearm and total length: quote in the note, no invented ranges.
+- Wikipedia latin parse is short but has pelage. iNat taxon 40468: 69020 empty; the one licensed 6986 record (Gert Sibande) is in-hand, dropped.
+
+### Botswana long-eared bat (Laephotis angolensis), 16 calls
+- EWT 2025 page is https://ewt.org/project/botswana-long-eared-bat/ titled L. cf. botswanae: L. botswanae s.s. is a synonym of savanna L. angolensis, and South African animals (including Kruger) are a distinct unnamed clade. Status omitted; `needsReview` set for the owner.
+- Wikipedia "Laephotis angolensis" (Angolan long-eared bat) gives pelage and IUCN DD 2019, but its range is Angola/DRC. No Afrikaans on the EWT page. iNat taxon 40531: 0 licensed photos or sounds in 69020 and 6986.
+
+### Cape serotine bat (Laephotis capensis), 14 calls
+- EWT slug is https://ewt.org/project/cape-roof-bat/ (not cape-serotine); no Kruger mention and movement not specified, so status omitted.
+- Wikipedia `Laephotis capensis` redirects to "Cape serotine" with Stuart 2007 size and appearance. iNat taxon 1431030: 0 licensed Kruger photos; the only Kruger sound was at Berg-en-Dal camp (about -25.425, 31.450). 6986 photos are mostly houses, in-hand, dead or laid-out bats.
+
+### Rufous hairy bat (Myotis bocagii), 10 calls
+- Exact slug from https://ewt.org/project_tag/chiroptera/ (page 1 lists most bats; check page 2 if needed). EWT names Great Limpopo Transfrontier Park but never Kruger, so status omitted; GLTP alone is not enough.
+- Wikipedia is a stub; no appearance anywhere. iNat taxon 74698: 0 licensed photos (69020, 6986), 0 Kruger sounds.
+
+### Temminck's hairy bat (Myotis tricolor), 15 calls
+- https://ewt.org/project/temmincks-hairy-bat/: movement Migratory (summer maternity caves, winter hibernacula) and only Great Limpopo Transfrontier Park named, so status omitted. Wikipedia title is "Cape hairy bat" (appearance and contrast with M. bocagii).
+- Photos: 2 southern African (Vhembe foliage; Langeberg cave). Photo-level licences can be stricter than the observation licence; drop all-rights-reserved photos. Drop harp-trap and board/table shots too.
+
 ## Phase 2 hints (batch 3: Cercopithecidae, Galagidae, Elephantidae, Manidae, Orycteropodidae, Procaviidae, Leporidae, 13 November 2026, Africa/Johannesburg)
 
 Researched in a fresh session for seven small families. The 2011 Wayback PDF was again fetched to a temporary path, converted with `pdftotext -layout`, and deleted. **Do not host or copy that PDF into the repo.** Galagidae is printed as **Lorisidae** on that PDF; inclusion used that heading, and the family name stored is the Phase 1 remap in `families.json`.
