@@ -8,6 +8,21 @@
     },
     "family": "vespertilionidae",
     "inatTaxonId": 57550,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
     "sampleData": false,
     "conservationStatus": {
         "status": "Least Concern",
@@ -166,7 +181,7 @@
             "url": "https://ewt.org/project/schlieffens-bat/",
             "publisher": "SANBI and Endangered Wildlife Trust",
             "year": 2025,
-            "note": "Richards LR, Naidoo T, Balona J and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable), the Afrikaans name Schlieffen se Vlermuis (also listed as Schlieffen-vlermuis and Klein Dakvlermuis), habitat, roost sites, clutter-edge foraging, diet, life-history remarks, predators, movement patterns listed as Unknown, occurrence in the Great Limpopo Transfrontier Park, the original combination under Nycticeius, synonyms including Nycticeius schlieffeni, uncertain subspecies N. s. australis and N. s. fitzsimonsi, the Torrent et al. (2025) mitochondrial lineages, and the Demos et al. (2024) genus note. The page heading and recommended citation use Nycticeinops schlieffenii (two i's); the running text usually uses schlieffeni (one i). The page does not mention Kruger National Park. Cited only; not hosted in this repo."
+            "note": "Richards LR, Naidoo T, Balona J and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; regional population trend Stable), the Afrikaans name Schlieffen se Vlermuis (also listed as Schlieffen-vlermuis and Klein Dakvlermuis), habitat, roost sites, clutter-edge foraging, diet, life-history remarks, predators, movement patterns listed as Unknown, occurrence in the Great Limpopo Transfrontier Park, occurrence in the Mopane, Lowveld and Central Bushveld bioregions of Limpopo, Mpumalanga and KwaZulu-Natal (the Lowveld range, with movement listed as Unknown, is the basis for status resident and months 1–12), the original combination under Nycticeius, synonyms including Nycticeius schlieffeni, uncertain subspecies N. s. australis and N. s. fitzsimonsi, the Torrent et al. (2025) mitochondrial lineages, and the Demos et al. (2024) genus note. The page heading and recommended citation use Nycticeinops schlieffenii (two i's); the running text usually uses schlieffeni (one i). The page does not mention Kruger National Park. Cited only; not hosted in this repo."
         },
         {
             "title": "Schlieffen's serotine",
@@ -179,14 +194,15 @@
     "research": {
         "confidence": "medium",
         "needsReview": true,
-        "note": "This file follows species-list.json in treating the Kruger-list animal as Nycticeinops schlieffenii (English Schlieffen's bat; Afrikaans Schlieffen se vlermuis) and does not remap the name. The checklist and the EWT recommended citation use schlieffenii (two i's); the EWT running text and Wikipedia use schlieffeni (one i). That spelling difference is already recorded as a remap on the species list and is flagged here, not used to change the checklist name. Wikipedia and EWT also use Schlieffen's serotine or Schlieffen's twilight bat as English names; those are flagged, not used to change the checklist name. The 2025 EWT assessment, citing Torrent et al. (2025), reports two mitochondrial lineages (West Africa and the Arabian Peninsula versus East Africa) and states that samples from the assessment region were not included, so the affinity of southern African animals remains uncertain; citing Demos et al. (2024), it also notes a proposal to move other Nycticeinops species to Afropipistrellus, leaving N. schlieffeni in Nycticeinops; and it treats the subspecies australis and fitzsimonsi as of uncertain validity. Wikipedia, citing older work, calls this the only species in Nycticeinops. Those points are flagged, not used to split or remap the checklist taxon. The 2025 page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park. Movement patterns are listed as Unknown, so status and monthsPresent are omitted even though the species is on the 2011 Kruger checklist."
+        "note": "This file follows species-list.json in treating the Kruger-list animal as Nycticeinops schlieffenii (English Schlieffen's bat; Afrikaans Schlieffen se vlermuis) and does not remap the name. The checklist and the EWT recommended citation use schlieffenii (two i's); the EWT running text and Wikipedia use schlieffeni (one i). That spelling difference is already recorded as a remap on the species list and is flagged here, not used to change the checklist name. Wikipedia and EWT also use Schlieffen's serotine or Schlieffen's twilight bat as English names; those are flagged, not used to change the checklist name. The 2025 EWT assessment, citing Torrent et al. (2025), reports two mitochondrial lineages (West Africa and the Arabian Peninsula versus East Africa) and states that samples from the assessment region were not included, so the affinity of southern African animals remains uncertain; citing Demos et al. (2024), it also notes a proposal to move other Nycticeinops species to Afropipistrellus, leaving N. schlieffeni in Nycticeinops; and it treats the subspecies australis and fitzsimonsi as of uncertain validity. Wikipedia, citing older work, calls this the only species in Nycticeinops. Those points are flagged, not used to split or remap the checklist taxon. The 2025 page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park. It records the species from the Mopane, Lowveld and Central Bushveld bioregions of Limpopo, Mpumalanga and KwaZulu-Natal, and lists movement patterns as Unknown, not migrant or seasonal, so status is entered as resident with months 1–12 under the 15 November 2026 rule (b)."
     },
     "gaps": [
-        "The 2025 EWT assessment does not mention Kruger National Park (it names the Great Limpopo Transfrontier Park). Movement patterns are listed as Unknown, so status and monthsPresent are omitted.",
+        "The 2025 EWT assessment does not mention Kruger National Park (it names the Great Limpopo Transfrontier Park). Status is entered as resident with months 1–12 from that assessment's record of the species in the Lowveld bioregion of Limpopo and Mpumalanga, with movement patterns listed as Unknown (15 November 2026 rule (b)).",
         "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Stable and discusses regional abundance, not a Kruger figure.",
         "No published shoulder height or tail-length range; Wikipedia gives a head-and-body length of 4–5 cm, a mass of 3.7–5 g and a tail of approximately 3 cm, and the 2025 EWT assessment gives only mean and maximum forearm lengths and mean total lengths.",
         "No sourced recording. Wikipedia describes echolocation calls as 39–47 kHz, narrow band with steep frequency modulation. No iNaturalist sound was found in Kruger (place 69020).",
         "No licensable photograph in Kruger (place 69020). The only licensed iNaturalist record in South Africa (place 6986) showed a handled, indoor bat and was not used.",
+        "A further search of licensed research-grade iNaturalist photographs in southern Africa (place 113055) returned none. Wikimedia Commons has only museum skins and skulls under Nycticeinops schlieffenii and the synonym Nycticeius schlieffeni.",
         "Pup appearance was not published in the sources used.",
         "Iris, ear colour, face, legs and tail colour were not described on the pages used.",
         "No sourced field comparison with another species in this guide; Wikipedia compares the species only with North American evening bats.",
