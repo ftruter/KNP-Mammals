@@ -199,13 +199,20 @@
       "url": "https://api.inaturalist.org/v1/taxa/765553",
       "publisher": "iNaturalist",
       "year": 2026,
-      "note": "Taxon 765553, preferred common name Midas Free-tailed Bat. Used to confirm the current name and to search place 69020 (Kruger) and place 6986 (South Africa) for licensed photographs and sounds."
+      "note": "Taxon 765553, preferred common name Midas Free-tailed Bat. Used to confirm the current name and to search place 69020 (Kruger) and place 6986 (South Africa) for licensed photographs and sounds, and later place 113055 (southern Africa); that last search returned only the same three licensed observations already considered."
+    },
+    {
+      "title": "Wikimedia Commons file search for Mops midas",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srsearch=Mops%20midas",
+      "publisher": "Wikimedia Commons",
+      "year": 2026,
+      "note": "A file search for Mops midas, and a further search for the synonym Tadarida midas, found no photograph of this species. Hits included a museum skin of Mops condylurus and unrelated documents, none of which was used."
     }
   ],
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Mops midas (English Midas free-tailed bat; Afrikaans Midas se losstertvlermuis) and does not remap the names. The 2025 EWT assessment and Wikipedia also use Mops midas; synonyms include Tadarida midas and Dysopes midas, and two subspecies (M. m. midas and M. m. miarensis) remain unresolved genetically. Status is set to resident because the 2025 EWT assessment records the species through Kruger National Park and lists occurrence in the Great Limpopo Transfrontier Park, and does not give a migrant or seasonal movement pattern (Movement Patterns is not specified). Regional status is Least Concern (2025, no change from 2016); the global IUCN listing cited by Wikipedia is Least Concern (2017). No licensed photograph was kept. Animal Diversity Web has no species account under Mops midas (only a classification page).",
+    "note": "This file follows species-list.json in treating the Kruger animal as Mops midas (English Midas free-tailed bat; Afrikaans Midas se losstertvlermuis) and does not remap the names. The 2025 EWT assessment and Wikipedia also use Mops midas; synonyms include Tadarida midas and Dysopes midas, and two subspecies (M. m. midas and M. m. miarensis) remain unresolved genetically. Status is set to resident because the 2025 EWT assessment records the species through Kruger National Park and lists occurrence in the Great Limpopo Transfrontier Park, and does not give a migrant or seasonal movement pattern (Movement Patterns is not specified). Regional status is Least Concern (2025, no change from 2016); the global IUCN listing cited by Wikipedia is Least Concern (2017). No licensed photograph was kept. A further iNaturalist search of southern Africa (place 113055) returned only the same three licensed observations already considered, and Wikimedia Commons searches for Mops midas and the synonym Tadarida midas found no photograph of this species. Animal Diversity Web has no species account under Mops midas (only a classification page).",
     "researched": "15 November 2026, Africa/Johannesburg"
   },
   "gaps": [
@@ -223,6 +230,7 @@
     "No licensed photograph was kept. iNaturalist place 69020 returned one licensed observation, needs_id, at or next to Pretoriuskop rest camp, which was not used. A South Africa-wide search (place 6986) added a handled bat in a glove at Musina, Limpopo, and a black-background photograph from Pafuri River Camp; neither was used.",
     "iNaturalist place 69020 returned one sound observation for taxon 765553, on the same Pretoriuskop rest-camp record, which was not used. No echolocation or other call description was given in the 2025 EWT assessment. Wikipedia describes roosting groups as very noisy, which is recorded under habits, but gives no call type. No licensable recording is included.",
     "Animal Diversity Web has no species account for this taxon under Mops midas (the URL resolves to a classification page only).",
-    "No Kruger-specific breeding or habitat study was found beyond the 2025 assessment's statements that the species has been recorded through Kruger National Park and occurs in the Great Limpopo Transfrontier Park."
+    "No Kruger-specific breeding or habitat study was found beyond the 2025 assessment's statements that the species has been recorded through Kruger National Park and occurs in the Great Limpopo Transfrontier Park.",
+    "A further iNaturalist search of southern Africa (place 113055) returned only the same three licensed observations already considered, none of which was used. Wikimedia Commons searches for Mops midas and the synonym Tadarida midas found no photograph of this species."
   ]
 }
