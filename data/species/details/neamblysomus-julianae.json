@@ -199,7 +199,24 @@
     }
   ],
   "calls": [],
-  "images": [],
+  "images": [
+    {
+      "key": "neamblysomus-julianae/imagined-by-grok.jpg",
+      "view": "standing-side",
+      "age": "any",
+      "sex": "any",
+      "season": "any",
+      "source": "https://github.com/ftruter/KNP-Mammals/blob/main/media/images/neamblysomus-julianae/imagined-by-grok.jpg",
+      "fileUrl": "https://raw.githubusercontent.com/ftruter/KNP-Mammals/main/media/images/neamblysomus-julianae/imagined-by-grok.jpg",
+      "author": "Grok",
+      "license": "CC0 1.0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "aiGenerated": true,
+      "hosted": false,
+      "alt": "An AI-generated illustration of a golden mole with pale brown fur on reddish sandy soil scattered with quartz pebbles",
+      "caption": "Imagined by Grok. An illustration, not a photograph of a real animal."
+    }
+  ],
   "sources": [
     {
       "title": "A conservation assessment of Neamblysomus julianae",
@@ -243,7 +260,7 @@
   },
   "gaps": [
     "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional trend as unknown and the number of mature individuals as unknown. A local density of 2-3 individuals/ha and a regional projection of 25,600-38,400 individuals, including an assumed equal split of the non-Bronberg remainder between the other two subpopulations, is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "No licensable photograph of a live wild animal with a named locality was found that was suitable for display. iNaturalist place 69020 (Kruger) has 0 observations. Licensed research-grade records in place 6986 and place 113055 (35 in total, including page 2 of the place 6986 query) were subsurface runs in sandy soil in the City of Tshwane, or showed a handled or in-hand animal. A Wikimedia Commons search under Neamblysomus julianae found those same run photographs and a CC BY 4.0 photograph of a live animal on sand by Craig R. Jackson, published as Figure 3.C (Top) in Wilson and Primack (2019); the figure caption and file page do not name a locality, so the photograph was not used.",
+    "No licensable photograph of a live wild animal with a named locality was found that was suitable for display. iNaturalist place 69020 (Kruger) has 0 observations. Licensed research-grade records in place 6986 and place 113055 (35 in total, including page 2 of the place 6986 query) were subsurface runs in sandy soil in the City of Tshwane, or showed a handled or in-hand animal. A Wikimedia Commons search under Neamblysomus julianae found those same run photographs and a CC BY 4.0 photograph of a live animal on sand by Craig R. Jackson, published as Figure 3.C (Top) in Wilson and Primack (2019); the figure caption and file page do not name a locality, so the photograph was not used. The page shows an AI-generated illustration until a suitable photograph is found.",
     "iNaturalist has 0 sound observations for Neamblysomus julianae in place 69020. No sourced description of the calls was found in the assessments used. Animal Diversity Web says little is known about communication in this species and mentions high-pitched chirrups only in closely related species.",
     "The 2025 EWT size at maturity of 9-11 cm does not state which measurement that is. Animal Diversity Web gives an average length of 100 mm. No shoulder height, head-and-body length or tail length was published as such. Mass is given as 21-46 g by Animal Diversity Web and as 21-75 g by Wikipedia citing Kingdon et al. (2013); the disagreement is recorded rather than averaged.",
     "Iris colour, underpart colour, leg colour, tail shape and a quantified sexed size split were not given in the sources used, so those marks are null. Coat colour is entered as both light brown (Animal Diversity Web) and golden (Wikipedia) rather than inferred from the English name alone.",
