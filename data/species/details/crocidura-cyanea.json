@@ -26,7 +26,7 @@
         "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Reddish-grey-Musk-Shrew-Crocidura-cyanea_LC.pdf",
         "publisher": "SANBI and Endangered Wildlife Trust",
         "year": 2016,
-        "note": "Regional status Least Concern. Treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+        "note": "Regional status Least Concern. Treats the taxon as a species complex. The distribution section does not name Kruger National Park or the Lowveld of Mpumalanga or Limpopo. Cited only; the PDF is not hosted in this repo."
       },
       {
         "title": "Reddish-gray musk shrew",
@@ -137,7 +137,7 @@
       "url": "https://ewt.org/wp-content/uploads/2022/11/2.-Reddish-grey-Musk-Shrew-Crocidura-cyanea_LC.pdf",
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
-      "note": "Regional Least Concern; treats the taxon as a species complex. Cited only; the PDF is not hosted in this repo."
+      "note": "Regional Least Concern; treats the taxon as a species complex. The distribution section does not name Kruger National Park or the Lowveld of Mpumalanga or Limpopo. Cited only; the PDF is not hosted in this repo."
     },
     {
       "title": "Crocidura cyanea (reddish-gray musk shrew)",
@@ -157,11 +157,11 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger-list animal as Crocidura cyanea (Reddish-grey musk shrew, the 2011 SANParks checklist name; Afrikaans Rooigrysskeerbek, also given on the 2025 EWT page). iNaturalist taxon 46777 and Wikipedia use the preferred English spelling Reddish-gray Musk Shrew; the 2011 name is kept. The 2025 EWT assessment treats the taxon as a species complex of nine subspecies, with C. c. infumata the form whose range includes Limpopo and Mpumalanga, and says further research is needed; Kruger records are not remapped here. The assessment does not mention Kruger National Park, so status and monthsPresent are omitted even though the species is on the 2011 SANParks checklist. Appearance measurements and pelage colours were not published in the sources consulted, so variants are empty.",
-    "researched": "15 November 2026, Africa/Johannesburg"
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Crocidura cyanea (Reddish-grey musk shrew, the 2011 SANParks checklist name; Afrikaans Rooigrysskeerbek, also given on the 2025 EWT page). iNaturalist taxon 46777 and Wikipedia use the preferred English spelling Reddish-gray Musk Shrew; the 2011 name is kept. The 2025 EWT assessment treats the taxon as a species complex of nine subspecies, with C. c. infumata the form whose range includes Limpopo and Mpumalanga, and says further research is needed; Kruger records are not remapped here. A 16 November 2026 gap-fill pass rechecked status rules: the 2025 and 2016 EWT assessments do not name Kruger National Park or a place inside it (rule a), and they do not describe the range as covering the Lowveld of Mpumalanga or Limpopo in clear terms, only that the species is widespread throughout all provinces and that C. c. infumata occurs in Limpopo and Mpumalanga (rule b). No research-grade iNaturalist observations in Kruger (place 69020) were found in the earlier pass (rule c). No source describes a migrant or seasonal pattern. Status and monthsPresent are therefore still omitted, even though the species is on the 2011 SANParks checklist. Appearance measurements and pelage colours were not published in the sources consulted, so variants are empty.",
+    "researched": "15 November 2026, Africa/Johannesburg; gap-fill 16 November 2026, Africa/Johannesburg"
   },
   "gaps": [
-    "The 2025 EWT assessment does not mention Kruger National Park, so status and monthsPresent are omitted. The species is on the 2011 SANParks checklist, but no sourced Kruger occurrence, year-round status or park-specific habitat account was found in this session.",
+    "The 2025 and 2016 EWT assessments do not mention Kruger National Park, and they do not describe the range as covering the Lowveld of Mpumalanga or Limpopo in clear terms (they say it is widespread throughout all provinces, with C. c. infumata in Limpopo and Mpumalanga). No research-grade iNaturalist observations were found in Kruger (place 69020). Status and monthsPresent are therefore still omitted, even though the species is on the 2011 SANParks checklist.",
     "No iNaturalist observations of any grade in Kruger (place 69020). One wild South African photograph from ZF Mgcawu District Municipality was used; other licensed research-grade photographs from place 6986 showed trapped, boxed, handled, dead, cat-killed, indoor or rescued animals and were not used.",
     "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
     "No Kruger census or SANParks park-wide population figure.",
