@@ -115,7 +115,40 @@
   ],
   "viewNotes": [],
   "calls": [],
-  "images": [],
+  "images": [
+    {
+      "key": "rhinolophus-hildebrandtii/chimanimani-cave-trio.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/153805909",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/265693481/large.jpg",
+      "author": "Bart Wursten",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "Three Hildebrandt's horseshoe bats hanging on a cave wall in Chimanimani National Park, Mozambique",
+      "caption": "A group of three roosting on a cave wall, Chimanimani National Park, Mozambique, 25 November 2019."
+    },
+    {
+      "key": "rhinolophus-hildebrandtii/chimanimani-cave-roost.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/153805909",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/265693461/large.jpg",
+      "author": "Bart Wursten",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A group of Hildebrandt's horseshoe bats roosting on a cave wall in Chimanimani National Park, Mozambique",
+      "caption": "A group roosting on a cave wall, Chimanimani National Park, Mozambique, 25 November 2019."
+    }
+  ],
   "sources": [
     {
       "title": "Hildebrandt's horseshoe bat",
@@ -164,21 +197,35 @@
       "url": "https://api.inaturalist.org/v1/taxa/183175",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "iNaturalist research-grade observations of Rhinolophus hildebrandtii in Kruger National Park",
+      "url": "https://api.inaturalist.org/v1/observations?taxon_id=183175&place_id=69020&quality_grade=research&per_page=10&order_by=observed_on",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "Zero research-grade observations in place 69020. Used to test owner status rule (c); status remains omitted."
+    },
+    {
+      "title": "iNaturalist observation 153805909",
+      "url": "https://www.inaturalist.org/observations/153805909",
+      "publisher": "iNaturalist",
+      "year": 2019,
+      "note": "Research-grade photographs by Bart Wursten of wild Hildebrandt's horseshoe bats roosting on a cave wall in Chimanimani National Park, Mozambique, 25 November 2019. Licence CC BY-NC."
     }
   ],
   "research": {
     "confidence": "low",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger checklist animal as Rhinolophus hildebrandtii (English Hildebrandt's horseshoe bat; Afrikaans Hildebrandt se saalneusvlermuis) and does not remap the names. After 2011 the complex was split (Taylor et al. 2012): the 2016 EWT assessments of R. cohenae and R. smithersi state that those species were formerly included in R. hildebrandtii / R. hildebrandti. The 2025 regional summary and the 2016 EWT Chiroptera table do not list R. hildebrandtii, and no 2025 /project/ page exists for this name (the red-list table has no row, so no slug was guessed). Status and monthsPresent are omitted: there was no 2025 page or 2016 PDF under this name to search for Kruger or migrat, and a definite record of this taxon as now regionally circumscribed was not found in the sources used. Wikipedia cites a global IUCN listing of Least Concern (Monadjem and Jacobs 2017). Animal Diversity Web is a classification stub. Wikipedia is a short stub with no measurements or appearance characters; colour, dental and nose-leaf characters were not taken from related species. The Afrikaans name is that given in species-list.json; no EWT assessment under this name was available to confirm it. iNaturalist taxon 183175 was used for media queries. Place 69020 returned 0 licensed research-grade photographs and 1 sound observation that was not research-grade. Place 6986 returned 2 licensed research-grade observations, both dropped (building roost; handled bat). Zero photographs were kept.",
-    "researched": "15 November 2026, Africa/Johannesburg"
+    "note": "This file follows species-list.json in treating the Kruger checklist animal as Rhinolophus hildebrandtii (English Hildebrandt's horseshoe bat; Afrikaans Hildebrandt se saalneusvlermuis) and does not remap the names. After 2011 the complex was split (Taylor et al. 2012): the 2016 EWT assessments of R. cohenae and R. smithersi state that those species were formerly included in R. hildebrandtii / R. hildebrandti. The 2025 regional summary and the 2016 EWT Chiroptera table do not list R. hildebrandtii, and no 2025 /project/ page exists for this name (the red-list table has no row, so no slug was guessed). Status and monthsPresent are omitted: there was no 2025 page or 2016 PDF under this name to search for Kruger or migrat, and a definite record of this taxon as now regionally circumscribed was not found in the sources used. Wikipedia cites a global IUCN listing of Least Concern (Monadjem and Jacobs 2017). Animal Diversity Web is a classification stub. Wikipedia is a short stub with no measurements or appearance characters; colour, dental and nose-leaf characters were not taken from related species. The Afrikaans name is that given in species-list.json; no EWT assessment under this name was available to confirm it. iNaturalist taxon 183175 was used for media queries. Place 69020 returned 0 licensed research-grade photographs and 1 sound observation that was not research-grade. Place 6986 returned 2 licensed research-grade observations, both dropped (building roost; handled bat). Zero photographs were kept. Gap-fill 16 November 2026: status remains omitted. Owner rule (c) was tested with one research-grade iNaturalist query for taxon 183175 in place 69020, which returned 0 observations. There is still no SANBI/EWT regional assessment under this name (rule b), and no source in this pass named a Kruger locality for the taxon as now circumscribed (rule a). Two photographs were kept from iNaturalist observation 153805909, of wild adults roosting on a cave wall in Chimanimani National Park, Mozambique (place 113055, CC BY-NC). The two place 6986 observations already rejected in the previous pass (building roost; handled bat) were also returned by the place 113055 query and were not used. Wikimedia Commons searches under Rhinolophus hildebrandtii and the English name found only museum skulls, skins, a range map and unrelated PDFs; no live-animal photograph was kept.",
+    "researched": "16 November 2026, Africa/Johannesburg"
   },
   "gaps": [
-    "Status and monthsPresent are omitted. No EWT 2025 assessment page or 2016 PDF exists under the name Rhinolophus hildebrandtii to search for Kruger or migrat. The species is on the 2011 SANParks checklist, but after the 2012 split a definite Kruger record of this taxon as now regionally circumscribed was not found in the sources used.",
+    "Status and monthsPresent are omitted. No EWT 2025 assessment page or 2016 PDF exists under the name Rhinolophus hildebrandtii, so owner rule (b) does not apply. A research-grade iNaturalist query for taxon 183175 in place 69020 returned 0 observations, so rule (c) is not met. The species is on the 2011 SANParks checklist, but after the 2012 split a definite Kruger record of this taxon as now regionally circumscribed was not found (rule a).",
     "The 2016 EWT assessments of Rhinolophus cohenae and Rhinolophus smithersi state that those species were formerly included in Rhinolophus hildebrandtii / R. hildebrandti and were recognised as distinct in a 2012 revision of the complex (Taylor et al. 2012). The 2025 regional summary lists those split taxa and does not list R. hildebrandtii. This file keeps the species-list.json names and does not remap the Kruger animals. iNaturalist treats several of the split names as unaccepted for taxon 183175.",
     "No Kruger census or SANParks population figure was found, and the 2016 and 2025 regional lists provide no figure under this name. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "The Afrikaans name in species-list.json is Hildebrandt se saalneusvlermuis. No EWT 2025 or 2016 assessment under this scientific name was available to cite as an independent source of that name. The species-list form is kept. The English name matches Wikipedia.",
     "iNaturalist place 69020 (Kruger) returned 1 sound observation for taxon 183175, which was not research-grade, so it was not used. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
-    "No licensed photograph was kept. iNaturalist place 69020 returned 0 licensed research-grade observations for taxon 183175. One place 6986 query (per_page 30, same licence and research-grade filters) returned 2 observations: one at an abandoned farm house in Bela Bela, Limpopo, dropped as a building roost; and one from Wet Tiger River Cave, Ehlanzeni, Mpumalanga, dropped because the photograph shows a bat held in a hand. Zero photos is recorded. Commons was not searched.",
+    "Two licensed photographs were kept from iNaturalist observation 153805909, of wild adults roosting on a cave wall in Chimanimani National Park, Mozambique (place 113055, CC BY-NC). Place 69020 still has 0 licensed research-grade photographs. The two place 6986 observations already rejected (building roost at an abandoned farm house in Bela Bela, Limpopo; handled bat at Wet Tiger River Cave, Ehlanzeni, Mpumalanga) reappeared in the place 113055 results and were not used. Wikimedia Commons searches under Rhinolophus hildebrandtii and Hildebrandt's horseshoe bat found only museum skulls, skins, a range map and unrelated PDFs, so no Commons photograph was kept.",
     "Head-and-body length, tail length, shoulder height, forearm length, mass and wingspan were not published in the sources used, so those numeric fields are null. Wikipedia is a stub and publishes no measurements. Animal Diversity Web has no species account. There is no EWT assessment under this name to quote life-history size fields from.",
     "No sourced pelage, ear, eye, muzzle, leg, tail, dental or nose-leaf characters were given in the sources used, so all marks are null. Those characters were not taken from related horseshoe-bat accounts.",
     "No sourced comparison characters for other horseshoe bats in this guide were given in the sources used, so similar is omitted.",
