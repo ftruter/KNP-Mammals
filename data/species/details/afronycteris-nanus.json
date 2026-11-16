@@ -9,6 +9,21 @@
   "family": "vespertilionidae",
   "inatTaxonId": 1431034,
   "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
   "conservationStatus": {
     "status": "Least Concern",
     "scope": "The 2025 regional Red List for South Africa, Eswatini and Lesotho (Least Concern; no change from 2016; regional population trend Stable). Wikipedia cites a global IUCN listing of Least Concern (Monadjem et al. 2017, under the name Neoromicia nana).",
@@ -233,7 +248,7 @@
       "url": "https://ewt.org/project/banana-bat/",
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2025,
-      "note": "Richards LR, Balona J and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; trend Stable), common names (including Afrikaans Piesangvlermuis), taxonomic history, habitat, diet, roosting, reproduction, movement and the only named Kruger record. Cited only; not hosted in this repo."
+      "note": "Richards LR, Balona J and da Silva JM. 2025. Source of the 2025 regional Least Concern status (no change from 2016; trend Stable), common names (including Afrikaans Piesangvlermuis), taxonomic history, habitat, diet, roosting, reproduction, movement and the only named Kruger record. The assessment's range in the wetter eastern and northern parts, including the lowveld, is the basis for entering resident status; the 1977 Kruger maternity-colony record is not used. Cited only; not hosted in this repo."
     },
     {
       "title": "Banana serotine",
@@ -241,16 +256,23 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "Appearance, total length, mass, echolocation, social calls and some reproductive details, citing Lausen and Barclay (2005), Thewissen and Etnier (1995), Taylor (1999), LaVal and LaVal (1977) and Bernard et al. (1997). The Wikipedia page titled Banana bat is about Musonycteris harrisoni and was not used. The title Afronycteris nanus does not exist; Afronycteris nana, Neoromicia nana, Neoromicia nanus and Pipistrellus nanus redirect here."
+    },
+    {
+      "title": "Banana bat (Afronycteris nanus) observed in Kruger National Park",
+      "url": "https://www.inaturalist.org/observations/405182961",
+      "publisher": "iNaturalist",
+      "year": 2024,
+      "note": "Research-grade observation in Kruger (place 69020): a palm-frond roost at Letaba rest camp. Used as additional post-2000 evidence of presence (rule c). Not used as a photograph, because it is a rest-camp roost."
     }
   ],
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Afronycteris nanus (English Banana bat; Afrikaans Piesangvlermuis) and does not remap it to Banana serotine, the iNaturalist and Wikipedia preferred English name, or to older combinations in Pipistrellus or Neoromicia. The epithet is kept as nanus, following the 2025 EWT assessment and the Mammal Diversity Database. The 2025 assessment flags a possible species complex (Koubínová et al. 2013; Taylor et al. 2022) and notes that a supposed 1977 thatched-roof maternity colony in Kruger National Park may instead have been Afronycteris cf. helios; status and monthsPresent are therefore omitted. Gestation figures in the 2025 EWT assessment and on Wikipedia disagree and are both recorded. Text and measurements are sourced, but several size, colour and call details come from compiled accounts (Wikipedia, citing Mammalian Species) rather than a southern-African field guide.",
+    "note": "This file follows species-list.json in treating the Kruger animal as Afronycteris nanus (English Banana bat; Afrikaans Piesangvlermuis) and does not remap it to Banana serotine, the iNaturalist and Wikipedia preferred English name, or to older combinations in Pipistrellus or Neoromicia. The epithet is kept as nanus, following the 2025 EWT assessment and the Mammal Diversity Database. The 2025 assessment flags a possible species complex (Koubínová et al. 2013; Taylor et al. 2022) and notes that a supposed 1977 thatched-roof maternity colony in Kruger National Park may instead have been Afronycteris cf. helios; that pre-2000 record is not used for status. Resident status and monthsPresent 1-12 are entered because the 2025 EWT assessment describes the range in the assessment region as including the lowveld, and movement is likely to be largely sedentary (Van Cakenberghe and Happold 2013, cited there). A 2024 research-grade iNaturalist observation in Kruger (observation 405182961) is additional post-2000 evidence of presence; it is a palm-frond roost at Letaba rest camp and is not used as a photograph. Gestation figures in the 2025 EWT assessment and on Wikipedia disagree and are both recorded. Text and measurements are sourced, but several size, colour and call details come from compiled accounts (Wikipedia, citing Mammalian Species) rather than a southern-African field guide.",
     "researched": "15 November 2026, Africa/Johannesburg"
   },
   "gaps": [
-    "status and monthsPresent are omitted. The 2025 EWT assessment's only named Kruger record is a supposed maternity colony of about 150 bats in a thatched roof (LaVal and LaVal 1977); the assessment says this atypical behaviour may instead indicate a cryptic diminutive species, Afronycteris cf. helios, and the record is from before 2000. A 2024 iNaturalist research-grade observation at Letaba rest camp (observation 405182961) was a palm-frond roost at camp coordinates and was not used to set residency.",
+    "The 2025 EWT assessment's only named Kruger record is a supposed maternity colony of about 150 bats in a thatched roof (LaVal and LaVal 1977); the assessment says this atypical behaviour may instead indicate a cryptic diminutive species, Afronycteris cf. helios, and the record is from before 2000, so it is not used for status. Resident status is based on the assessment's lowveld range and on a 2024 research-grade iNaturalist observation in Kruger (405182961); that Letaba palm-frond roost is not used as a photograph.",
     "No Kruger or SANParks park-wide population figure was found. The 2025 assessment's estimate of more than 10,000 mature individuals applies to the assessment region, not to Kruger.",
     "No usable non-camp Kruger photograph was found. The only licensed Kruger observation (405182961, Letaba rest camp) was dropped as a camp roost.",
     "No usable Kruger sound was kept. Two iNaturalist recordings from October 2023 (observations 197093300 and 197090182) are needs-id and were taken at Satara and Lower Sabie rest-camp coordinates.",

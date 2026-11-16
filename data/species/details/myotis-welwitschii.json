@@ -8,6 +8,21 @@
     },
     "family": "vespertilionidae",
     "inatTaxonId": 40336,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
     "sampleData": false,
     "conservationStatus": {
         "status": "Least Concern",
@@ -157,19 +172,26 @@
             "publisher": "Wikipedia",
             "year": 2026,
             "note": "The title Myotis welwitschii redirects here. Source of the appearance account (chestnut-brown body, off-white underparts, reddish wing membranes with irregular dark brown to black spots, pinkish face, moderately long snout, large round coppery-red ears), the length of about 12 cm and the mass of 12 to 17 g, the clutter-edge foraging note, the addition of moths to the diet, and the remark that reproductive and social habits are poorly known, with a single record of a pair roosting together. Lists the English names Welwitsch's bat, Welwitsch's mouse-eared bat and Welwitsch's myotis. Cites the 2017 IUCN Least Concern assessment (Monadjem, Taylor, Jacobs and Cotterill)."
+        },
+        {
+            "title": "iNaturalist research-grade observations of Myotis welwitschii in Kruger National Park",
+            "url": "https://api.inaturalist.org/v1/observations?taxon_id=40336&place_id=69020&quality_grade=research&per_page=10&order_by=observed_on",
+            "publisher": "iNaturalist",
+            "year": 2026,
+            "note": "One research-grade observation, 30 May 2014 (observation 2096771), of a dead bat being carried by a southern ground hornbill at a point inside Kruger National Park; not marked captive and not obviously misplaced. Used to set status to resident and monthsPresent to 1–12 under the 15 Nov 2026 rule (c). The 2025 EWT assessment lists movement patterns as unknown, not as migrant or seasonal."
         }
     ],
     "research": {
         "confidence": "medium",
         "needsReview": true,
-        "note": "This file follows species-list.json in treating the Kruger-list animal as Myotis welwitschii (English Welwitsch's hairy bat; Afrikaans Welwitsch se langhaarvlermuis) and does not remap the name. Wikipedia uses Welwitsch's bat as the title, and iNaturalist uses Welwitsch's Mouse-eared Bat as the preferred English name; those are flagged here, not used to change the checklist name. The 2025 EWT assessment, citing Patterson et al. (2019), reports two evolutionarily distinct lineages within M. welwitschii, but notes that only a single mitochondrial gene and limited samples were used and recommends further integrative taxonomy; those points are flagged, not used to split the checklist taxon. The 2025 page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park. Movement patterns are listed as unknown, so status and monthsPresent are omitted."
+        "note": "This file follows species-list.json in treating the Kruger-list animal as Myotis welwitschii (English Welwitsch's hairy bat; Afrikaans Welwitsch se langhaarvlermuis) and does not remap the name. Wikipedia uses Welwitsch's bat as the title, and iNaturalist uses Welwitsch's Mouse-eared Bat as the preferred English name; those are flagged here, not used to change the checklist name. The 2025 EWT assessment, citing Patterson et al. (2019), reports two evolutionarily distinct lineages within M. welwitschii, but notes that only a single mitochondrial gene and limited samples were used and recommends further integrative taxonomy; those points are flagged, not used to split the checklist taxon. The 2025 page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park, and it lists movement patterns as unknown, not as migrant or seasonal. Status and monthsPresent are set to resident, months 1–12, under the 15 Nov 2026 rule (c): one research-grade iNaturalist observation inside place 69020 dated 30 May 2014 (observation 2096771), not marked captive and not obviously misplaced, of a dead bat being carried by a southern ground hornbill."
     },
     "gaps": [
-        "The 2025 EWT assessment does not mention Kruger National Park (it names the Great Limpopo Transfrontier Park). Movement patterns are listed as unknown, so status and monthsPresent are omitted.",
+        "The 2025 EWT assessment does not mention Kruger National Park (it names the Great Limpopo Transfrontier Park) and lists movement patterns as unknown. Status and monthsPresent are set from a research-grade iNaturalist observation inside Kruger (place 69020) dated 30 May 2014, under the 15 Nov 2026 rule (c).",
         "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Stable and discusses a widespread but uncommon species that roosts singly, not a Kruger figure.",
         "No published head-and-body length, tail length, shoulder height or mass range in kilograms; only a total body length of 10.5–12.7 cm, mean forearm and total lengths, and a Wikipedia mass of 12 to 17 g, were given.",
         "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
-        "No usable photograph: the only licensed Kruger observation (place 69020) shows a dead bat being carried by a southern ground hornbill; the other licensed southern African photographs were of handled bats, or could not be confirmed from the thumbnail as a natural roost.",
+        "No usable photograph: the only licensed Kruger observation (place 69020) shows a dead bat being carried by a southern ground hornbill; other licensed southern African iNaturalist photographs were of handled bats, or could not be confirmed from the thumbnail as a natural roost. A further pass found no additional licensed Kruger photographs (place 69020 page 2 was empty) and no new usable shots in South Africa (place 6986) or southern Africa (place 113055). Wikimedia Commons searches for Myotis welwitschii and Welwitsch's bat returned only an 1866 illustration, a range map, and one CC BY 4.0 photograph of a bat held in gloved hands.",
         "Pup appearance was not published in the sources used.",
         "Iris, muzzle, legs and tail colours were not described on the pages used. No natural predators were named on the pages used.",
         "No sourced field comparison with another species in this guide."

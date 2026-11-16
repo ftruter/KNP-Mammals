@@ -159,19 +159,26 @@
             "publisher": "Wikipedia",
             "year": 2026,
             "note": "The title Pipistrellus rusticus redirects here. A short stub. Source of the average mass of 3.5 g, the remark that the species is perhaps Africa's smallest bat (citing Branch and Stuart 2007), the range of countries of occurrence, and dry and moist savanna as natural habitats. Cites the 2017 IUCN Least Concern assessment (Monadjem, Taylor, Jacobs and Cotterill). Uses Rusty pipistrelle as the English title."
+        },
+        {
+            "title": "iNaturalist research-grade observations of Pipistrellus rusticus in Kruger National Park",
+            "url": "https://www.inaturalist.org/observations?taxon_id=40361&place_id=69020&quality_grade=research",
+            "publisher": "iNaturalist",
+            "year": 2026,
+            "note": "A search of research-grade observations in Kruger National Park (place 69020) returned no records. Status and monthsPresent therefore remain omitted."
         }
     ],
     "research": {
         "confidence": "medium",
         "needsReview": true,
-        "note": "This file follows species-list.json in treating the Kruger-list animal as Pipistrellus rusticus (English Rusty bat; Afrikaans Roeskleurvlermuis) and does not remap the name. Wikipedia and iNaturalist use Rusty pipistrelle as the preferred English name; the 2025 EWT assessment uses Rusty Bat as its title and also lists Rusty Pipistrelle. Those alternatives are flagged here, not used to change the checklist name. The 2025 assessment, citing Torrent et al. (2025) and Simmons (2005), notes that southern African individuals may be more closely related to Pipistrellus cf. hesperidus from Senegal than to Kenyan P. hesperidus, and that the validity of the subspecies P. r. marrensis and P. r. rusticus is uncertain; those points are flagged, not used to split or remap the checklist taxon. The 2025 page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park. Movement patterns are listed as Unknown, which does not by itself block resident status, but because no definite Kruger record is given, status and monthsPresent are omitted even though the species is on the 2011 Kruger checklist."
+        "note": "This file follows species-list.json in treating the Kruger-list animal as Pipistrellus rusticus (English Rusty bat; Afrikaans Roeskleurvlermuis) and does not remap the name. Wikipedia and iNaturalist use Rusty pipistrelle as the preferred English name; the 2025 EWT assessment uses Rusty Bat as its title and also lists Rusty Pipistrelle. Those alternatives are flagged here, not used to change the checklist name. The 2025 assessment, citing Torrent et al. (2025) and Simmons (2005), notes that southern African individuals may be more closely related to Pipistrellus cf. hesperidus from Senegal than to Kenyan P. hesperidus, and that the validity of the subspecies P. r. marrensis and P. r. rusticus is uncertain; those points are flagged, not used to split or remap the checklist taxon. The 2025 page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park, and its range remarks (occurrence in Limpopo, Mpumalanga, Gauteng, the North West and Eswatini) are not stated in Lowveld terms. Movement patterns are listed as Unknown, which does not by itself block resident status. A research-grade iNaturalist search in Kruger (place 69020) returned no observations. Status and monthsPresent are omitted even though the species is on the 2011 Kruger checklist."
     },
     "gaps": [
-        "The 2025 EWT assessment does not mention Kruger National Park (it names the Great Limpopo Transfrontier Park). Movement patterns are listed as Unknown. Status and monthsPresent are omitted because no definite Kruger record is given.",
+        "The 2025 EWT assessment does not mention Kruger National Park (it names the Great Limpopo Transfrontier Park), and it describes occurrence in Limpopo and Mpumalanga but not specifically the Lowveld. Movement patterns are listed as Unknown. A research-grade iNaturalist search in Kruger (place 69020) returned no observations. Status and monthsPresent are omitted because no definite Kruger record was found.",
         "No Kruger census or park-wide count; the 2025 regional assessment lists the regional trend as Stable and discusses regional abundance, not a Kruger figure.",
         "No published head-and-body length, total length, tail length, wingspan or mass range; only mean and maximum forearm lengths, plus a Wikipedia average mass of 3.5 g, were given.",
         "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
-        "No licensable photograph was found in Kruger (place 69020) or in South Africa (place 6986).",
+        "No licensable photograph was found in Kruger (place 69020), in South Africa (place 6986), or in southern Africa (place 113055). Wikimedia Commons has only File:Pipistrellus rusticus.jpg, a white-background portrait from Mamba et al. (2024), which was not used; a search under the English name Rusty pipistrelle found no further photographs.",
         "Pup appearance was not published in the sources used.",
         "Ear, face, underparts, wing, leg and tail colours were not described on the pages used, beyond bicoloured fur with rusty-tinged tips and pale rusty-grey bases.",
         "No named similar species; the 2025 assessment only notes that the species can be difficult to distinguish in the field from other similarly sized pipistrelles."
