@@ -8,6 +8,21 @@
   },
   "family": "emballonuridae",
   "inatTaxonId": 41380,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
   "sampleData": false,
   "conservationStatus": {
     "status": "Least Concern",
@@ -247,7 +262,7 @@
       "url": "https://ewt.org/wp-content/uploads/2022/11/62.-Mauritian-Tomb-Bat-Taphozous-mauritianus_LC.pdf",
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
-      "note": "Monadjem A, Jacobs D, MacEwan K, Cohen L, Richards L, Schoeman C and others. 2016. Source of roosting habits, diet (Schoeman 2006), open-air foraging at height (Fenton and Griffin 1997), the 2016 regional trend, and a definite record in Kruger National Park. Cited only; the PDF is not hosted in this repo."
+      "note": "Monadjem A, Jacobs D, MacEwan K, Cohen L, Richards L, Schoeman C and others. 2016. Source of roosting habits, diet (Schoeman 2006), open-air foraging at height (Fenton and Griffin 1997), the 2016 regional trend, and a definite record in Kruger National Park, used for status resident and monthsPresent 1–12 under owner rule (a). Cited only; the PDF is not hosted in this repo."
     },
     {
       "title": "Mauritian tomb bat",
@@ -273,12 +288,12 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Taphozous mauritianus (English Tomb bat; Afrikaans Witlyfvlermuis). The 2016 and 2025 EWT assessments, and Wikipedia, also give the Afrikaans name as Witlyfvlermuis, matching the species list. The preferred English name in those sources, and on iNaturalist, is Mauritian tomb bat; EWT also lists Tomb Bat as a common name. The species-list English form is kept. Status and monthsPresent are omitted: the 2025 EWT page was searched for Kruger and does not mention the park. The 2016 assessment does list Kruger National Park among protected areas with records. The habitats, population narrative, threats and conservation sections of the 2025 page describe a shrew, including a comparison with Crocidura silacea, and were not used; ecology was taken from the 2016 assessment, Wikipedia and Animal Diversity Web. Regional status remains Least Concern in 2025, with no change from 2016; the global IUCN listing cited by Wikipedia is Least Concern (2017). One licensed research-grade photograph of bats roosting on a tree trunk in Kruger (place 69020) was used; three other licensed Kruger thumbnails that were viewed showed bats under thatch or buildings and were not used.",
+    "note": "This file follows species-list.json in treating the Kruger animal as Taphozous mauritianus (English Tomb bat; Afrikaans Witlyfvlermuis). The 2016 and 2025 EWT assessments, and Wikipedia, also give the Afrikaans name as Witlyfvlermuis, matching the species list. The preferred English name in those sources, and on iNaturalist, is Mauritian tomb bat; EWT also lists Tomb Bat as a common name. The species-list English form is kept. Status is set to resident with monthsPresent 1–12 under owner rule (a): the 2016 EWT assessment lists Kruger National Park among protected areas with records, and the sources used do not describe a migrant or seasonal pattern. The 2025 EWT page does not mention the park. The habitats, population narrative, threats and conservation sections of the 2025 page describe a shrew, including a comparison with Crocidura silacea, and were not used; ecology was taken from the 2016 assessment, Wikipedia and Animal Diversity Web. Regional status remains Least Concern in 2025, with no change from 2016; the global IUCN listing cited by Wikipedia is Least Concern (2017). One licensed research-grade photograph of bats roosting on a tree trunk in Kruger (place 69020) was used; three other licensed Kruger thumbnails that were viewed showed bats under thatch or buildings and were not used.",
     "researched": "15 November 2026, Africa/Johannesburg"
   },
   "gaps": [
     "No Kruger census or SANParks population figure was found. The 2025 regional assessment header gives a stable regional trend and a presumed large population in the assessment region, with the number of mature individuals unknown, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "Status and monthsPresent are omitted because the 2025 EWT page does not mention Kruger. The 2016 assessment lists Kruger National Park among protected areas with records.",
+    "Status is resident with monthsPresent 1–12 under owner rule (a): the 2016 EWT assessment lists Kruger National Park among protected areas with records, and the sources used do not describe a migrant or seasonal pattern. The 2025 EWT page does not mention the park.",
     "The habitats, population narrative, threats and conservation prose on the 2025 EWT page describe a shrew, including a comparison with Crocidura silacea, and were not used.",
     "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 41380. Call and echolocation descriptions are taken from Wikipedia and Animal Diversity Web. Of the licensed research-grade Kruger photographs, three of four thumbnails viewed were of bats under thatch or buildings and were not used; one tree-trunk roost was kept. No second photograph was added.",
     "Mass and length disagree between sources: Animal Diversity Web gives sexed South African figures (males 20-36 g and 101-109 mm head-and-body; females 27.5-31.6 g and 105-116 mm), while Wikipedia gives an unssexed mass of 25-36 g and a total length of 10-11 cm. Forearm and wingspan are given only in the size note. No shoulder height was published.",
