@@ -8,6 +8,21 @@
     },
     "family": "muridae",
     "inatTaxonId": 851046,
+    "status": "resident",
+    "monthsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
     "sampleData": false,
     "conservationStatus": {
         "status": "Least Concern",
@@ -192,11 +207,24 @@
             "url": "https://api.inaturalist.org/v1/taxa/851046",
             "publisher": "iNaturalist",
             "year": 2026
+        },
+        {
+            "title": "SANParks Kruger National Park mammal checklist",
+            "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
+            "publisher": "SANParks",
+            "year": 2011,
+            "note": "Records the species in Kruger National Park. Status is resident with months 1–12 under the 15 Nov 2026 owner rule (a)."
+        },
+        {
+            "title": "iNaturalist research-grade observations of Micaelamys namaquensis in Kruger National Park",
+            "url": "https://www.inaturalist.org/observations?place_id=69020&taxon_id=851046&quality_grade=research",
+            "publisher": "iNaturalist",
+            "year": 2026,
+            "note": "One research-grade observation in place 69020, dated 15 October 2015, not marked captive. Status is resident with months 1–12 under the 15 Nov 2026 owner rule (c)."
         }
     ],
     "gaps": [
         "No Kruger census or SANParks population figure was found. The 2016 regional assessment gives the regional trend as stable and more than 10,000 mature individuals in the assessment region, and does not publish a Kruger total. Local densities, including up to 54 individuals per hectare in the western Soutpansberg, are not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-        "The 2016 EWT assessment does not mention Kruger National Park. Status and monthsPresent are omitted rather than inferred. The species is on the 2011 SANParks checklist and has one research-grade iNaturalist observation in place 69020.",
         "No licensable natural Kruger photograph suitable for display was found. The only research-grade iNaturalist record with an allowed licence in place 69020, at Masorini, shows an animal in a glass container and was dropped. A South Africa (place 6986) search supplied one wild photograph from Mapungubwe National Park, Limpopo. A Vhembe District photograph was dropped because of a visible watermark; a Mopani District photograph showed an animal in a metal live-trap; and a Waterberg photograph showed an animal on a plastic sheet.",
         "iNaturalist has 0 sound observations for Micaelamys namaquensis in place 69020. No sourced description of the calls was found.",
         "No published measurements (head-and-body length, tail length, mass or shoulder height) were found in the 2016 EWT assessment or on Wikipedia. Animal Diversity Web is a classification stub only. The size object is omitted.",
@@ -209,7 +237,7 @@
     "research": {
         "confidence": "medium",
         "needsReview": true,
-        "note": "This file follows species-list.json in treating the Kruger animal as Micaelamys namaquensis (Namaqua rock mouse, the 2011 SANParks checklist name; Afrikaans Namakwalandse Klipmuis, as given in the 2016 EWT assessment). EWT uses Namaqua Rock Mouse and also lists Golden Rat; iNaturalist (taxon 851046) uses Namaqua Rock Rat as the preferred English name, and Wikipedia titles the page Namaqua rock rat. Older lists used Aethomys namaquensis; that is a genus transfer, not a split. The 2016 EWT assessment treats the taxon as a species complex (at least eight mitochondrial lineages) and does not mention Kruger, so status and monthsPresent are omitted; the 2011 checklist and one research-grade iNaturalist record support inclusion. A 2025 EWT project page was not found. No published measurements were found. The one photograph is from Mapungubwe National Park, Limpopo, not Kruger.",
-        "researched": "15 November 2026, Africa/Johannesburg"
+        "note": "This file follows species-list.json in treating the Kruger animal as Micaelamys namaquensis (Namaqua rock mouse, the 2011 SANParks checklist name; Afrikaans Namakwalandse Klipmuis, as given in the 2016 EWT assessment). EWT uses Namaqua Rock Mouse and also lists Golden Rat; iNaturalist (taxon 851046) uses Namaqua Rock Rat as the preferred English name, and Wikipedia titles the page Namaqua rock rat. Older lists used Aethomys namaquensis; that is a genus transfer, not a split. The 2016 EWT assessment treats the taxon as a species complex (at least eight mitochondrial lineages) and does not mention Kruger. Status is resident with months 1–12 under the 15 Nov 2026 owner rule (a): the 2011 SANParks checklist records the species in Kruger National Park; and rule (c): a research-grade iNaturalist search in place 69020 returned one observation dated 15 October 2015, not marked captive. No source describes a migrant or seasonal pattern. Rule (b) does not apply: the 2016 assessment does not describe the range as covering the Lowveld of Mpumalanga or Limpopo in clear terms. A 2025 EWT project page was not found. No published measurements were found. The one photograph is from Mapungubwe National Park, Limpopo, not Kruger.",
+        "researched": "16 November 2026, Africa/Johannesburg"
     }
 }

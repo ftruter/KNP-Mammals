@@ -8,6 +8,21 @@
   },
   "family": "mustelidae",
   "inatTaxonId": 41822,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
   "sampleData": false,
   "conservationStatus": {
     "status": "Least Concern regionally; Least Concern globally",
@@ -262,7 +277,8 @@
       "title": "Zorilla",
       "url": "https://ewt.org/project/zorilla/",
       "publisher": "Endangered Wildlife Trust",
-      "year": 2025
+      "year": 2025,
+      "note": "Names Kruger National Park as a locality (likely very rare in the park). Seems rare in the Lowveld of Mpumalanga. No migrant or seasonal pattern is given."
     },
     {
       "title": "A conservation assessment of Ictonyx striatus",
@@ -275,7 +291,7 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "No Kruger population figure was found. One source states that the species is likely very rare in the park. No reusable Kruger photograph or recording was found. The two photographs used are from Addo Elephant National Park and Tutume, Botswana, and the captions name those places. Sources disagree on length, mass, litter size and weaning age. Iris colour and shoulder height were not found. Status and months present were omitted because a Kruger year-round presence was not sourced.",
+    "note": "No Kruger population figure was found. One source states that the species is likely very rare in the park. No reusable Kruger photograph or recording was found. The two photographs used are from Addo Elephant National Park and Tutume, Botswana, and the captions name those places. Sources disagree on length, mass, litter size and weaning age. Iris colour and shoulder height were not found. Status is resident with months 1–12 under the 15 Nov 2026 owner rule (a): the 2025 EWT assessment names Kruger National Park as a locality (likely very rare in the park). Rule (b) also holds: the same assessment says the species seems rare in the Lowveld of Mpumalanga. No migrant or seasonal pattern is described (a KwaZulu-Natal wet- and dry-year range shift is not treated as seasonal migration). Rule (c) does not apply: a research-grade iNaturalist search in place 69020 returned no records.",
     "researched": "14 November 2026, Africa/Johannesburg"
   },
   "gaps": [

@@ -165,7 +165,24 @@
     }
   ],
   "calls": [],
-  "images": [],
+  "images": [
+    {
+      "key": "aethomys-chrysophilus/umzingwane-stump.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/37224117",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58976650/large.jpeg",
+      "author": "Simon Tonge",
+      "license": "CC0",
+      "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A red veld rat on a weathered wooden stump in Umzingwane, Zimbabwe",
+      "caption": "An adult on a weathered stump, Umzingwane, Zimbabwe, 1 December 2019."
+    }
+  ],
   "sources": [
     {
       "title": "Red Veld Rat",
@@ -198,17 +215,22 @@
       "url": "https://api.inaturalist.org/v1/taxa/45573",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "iNaturalist observation 37224117",
+      "url": "https://www.inaturalist.org/observations/37224117",
+      "publisher": "iNaturalist",
+      "year": 2019
     }
   ],
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Aethomys chrysophilus (Red veld rat; Afrikaans Afrikaanse bosrot, the 2011 checklist name; the 2025 EWT page lists only English names). The 2025 EWT assessment records the species from Kruger National Park north of the Olifants River and treats A. ineptus (Tete veld rat) as a younger synonym, while still noting two genetically distinct subpopulations in the assessment region, primarily separated by the Limpopo River, and different chromosome numbers (2n = 50 and 2n = 44). Wikipedia still treats the two as cryptic species separable mainly by genetics or sperm shape. This file does not remap Kruger records. Text comes mainly from the 2025 EWT page and from Wikipedia (citing Linzey and Chimimba 2008). Size, breeding and some diet details are from that Wikipedia account and may be Africa-wide or historically lumped. Animal Diversity Web is a classification stub with no measurements. No Kruger population figure was found. No suitable licensable natural photograph was used.",
+    "note": "This file follows species-list.json in treating the Kruger animal as Aethomys chrysophilus (Red veld rat; Afrikaans Afrikaanse bosrot, the 2011 checklist name; the 2025 EWT page lists only English names). The 2025 EWT assessment records the species from Kruger National Park north of the Olifants River and treats A. ineptus (Tete veld rat) as a younger synonym, while still noting two genetically distinct subpopulations in the assessment region, primarily separated by the Limpopo River, and different chromosome numbers (2n = 50 and 2n = 44). Wikipedia still treats the two as cryptic species separable mainly by genetics or sperm shape. This file does not remap Kruger records. Text comes mainly from the 2025 EWT page and from Wikipedia (citing Linzey and Chimimba 2008). Size, breeding and some diet details are from that Wikipedia account and may be Africa-wide or historically lumped. Animal Diversity Web is a classification stub with no measurements. No Kruger population figure was found. A research-grade CC0 photograph from Umzingwane, Zimbabwe (iNaturalist observation 37224117) is used. Other licensed southern African records and the one Wikimedia Commons file were live-trapped, handled, indoor or dead, and were not used.",
     "researched": "15 November 2026, Africa/Johannesburg"
   },
   "gaps": [
     "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the number of mature individuals as unknown and a stable regional trend, and cites general densities that are not a Kruger total. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "No licensable natural photograph suitable for display was used. A licence-filtered iNaturalist search in place 69020 returned no observations. A South Africa (place 6986) search found eight licensed records: research-grade photographs were a handled animal in a bag at the University of Limpopo, Pietersburg (Polokwane), and an animal in a live trap in Siyanda, Northern Cape; a Maruleng photograph showed a rat indoors, on a camera screen; a Rustenburg photograph on rocky grass was not research-grade and was not used, because this species cannot be reliably identified from photographs.",
     "iNaturalist has 0 sound observations for Aethomys chrysophilus in place 69020. No sourced description of the calls was found.",
     "Aethomys chrysophilus is cryptic with A. ineptus (Tete veld rat), historically separable mainly by chromosomes and sperm. The 2025 EWT assessment treats A. ineptus as a younger synonym but still describes the Kruger range as north of the Olifants River and notes two genetic subpopulations in the assessment region. This file follows species-list.json (A. chrysophilus) and does not remap records. A. ineptus is not a separate slug in species-list.json.",
     "The 2025 EWT page does not publish an Afrikaans name. Afrikaanse bosrot is taken from species-list.json, which records the 2011 official checklist name.",
