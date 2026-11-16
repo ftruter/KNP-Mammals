@@ -9,6 +9,21 @@
   "family": "leporidae",
   "inatTaxonId": 43158,
   "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
   "conservationStatus": {
     "status": "Least Concern",
     "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
@@ -291,18 +306,18 @@
       "url": "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
       "publisher": "SANParks",
       "year": 2011,
-      "note": "Source of the English and Afrikaans names used here (Natal red rock rabbit, Natalse rooiklipkonyn) and of official inclusion."
+      "note": "Source of the English and Afrikaans names used here (Natal red rock rabbit, Natalse rooiklipkonyn) and of official inclusion. Used for resident status under rule (a)."
     }
   ],
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Natal red rock rabbit, Natalse rooiklipkonyn). The 2025 EWT page gives Natal se Rooiklipkonyn, and iNaturalist lists Natalse Rooihaas. The species is on that checklist, and a compiled Wikipedia account cites Schütze (2002), Field Guide to the Mammals of the Kruger National Park, but the 2025 EWT range for P. crassicaudatus (Eastern Cape, KwaZulu-Natal, Mpumalanga, Eswatini Lebombo and highveld, and marginally Maputo Province) does not name Kruger or Limpopo, while the 2025 assessment for Jameson's red rock hare (P. randensis) includes Limpopo and Mpumalanga. iNaturalist place 69020 has 0 observations of any Pronolagus species, so status and monthsPresent are omitted. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Animal Diversity Web has no species account, only a classification page.",
-    "researched": "15 November 2026, Africa/Johannesburg"
+    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Natal red rock rabbit, Natalse rooiklipkonyn). The 2025 EWT page gives Natal se Rooiklipkonyn, and iNaturalist lists Natalse Rooihaas. Status is set to resident with monthsPresent 1–12 under rule (a): the 2011 SANParks Kruger mammal checklist includes the species, and a compiled Wikipedia account cites Schütze (2002), Field Guide to the Mammals of the Kruger National Park. Rules (b) and (c) were not met: the 2025 EWT range for P. crassicaudatus (Eastern Cape, KwaZulu-Natal, Mpumalanga, Eswatini Lebombo and highveld, and marginally Maputo Province) does not name Kruger or the Lowveld of Mpumalanga or Limpopo, while the 2025 assessment for Jameson's red rock hare (P. randensis) includes Limpopo and Mpumalanga; iNaturalist place 69020 has 0 observations of any Pronolagus species. No migrant or seasonal pattern was found. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Animal Diversity Web has no species account, only a classification page.",
+    "researched": "16 November 2026, Africa/Johannesburg"
   },
   "gaps": [
     "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "Kruger presence is uncertain: the species is on the 2011 SANParks checklist, and a compiled account cites Schütze (2002), Field Guide to the Mammals of the Kruger National Park, but iNaturalist place 69020 has 0 observations of any grade for this species, and 0 observations of any Pronolagus species. The 2025 EWT range for P. crassicaudatus (Eastern Cape, KwaZulu-Natal and Mpumalanga, Eswatini in the Lebombo and highveld, and a tiny part of Maputo Province) does not name Kruger or Limpopo. The same 2025 assessment assigns Jameson's red rock hare (P. randensis) to Gauteng, Limpopo, Mpumalanga and North West, a range that includes the Kruger provinces. P. crassicaudatus was previously treated as a subspecies of P. randensis, and P. lebombo (Lebombo) is listed as a synonym of doubtful validity. Smith's red rock hare (P. rupestris) is not on the 2011 checklist and was not assigned to Kruger in the sources used. status and monthsPresent are omitted.",
+    "Kruger status is resident under the 2011 SANParks checklist and a compiled account citing Schütze (2002), Field Guide to the Mammals of the Kruger National Park (rule (a)). The 2025 EWT range for P. crassicaudatus (Eastern Cape, KwaZulu-Natal and Mpumalanga, Eswatini in the Lebombo and highveld, and a tiny part of Maputo Province) does not name Kruger or Limpopo. The same 2025 assessment assigns Jameson's red rock hare (P. randensis) to Gauteng, Limpopo, Mpumalanga and North West, a range that includes the Kruger provinces. iNaturalist place 69020 has 0 observations of any grade for this species, and 0 observations of any Pronolagus species. P. crassicaudatus was previously treated as a subspecies of P. randensis, and P. lebombo (Lebombo) is listed as a synonym of doubtful validity. Smith's red rock hare (P. rupestris) is not on the 2011 checklist and was not assigned to Kruger in the sources used. The 2025 range and the lack of iNaturalist records should be reviewed.",
     "No reusable Kruger photograph was found (0 observations of any grade in iNaturalist place 69020). The three photographs are research-grade records from South Africa outside Kruger. From a shortlist of six thumbnails, an almost hidden night photograph (observation 390820930, photo 716049694), an obscured rear view (observation 395451679, photo 725100687), and a largely hidden crevice view (observation 367684629, photo 671496199) were not used. A Golden Gate National Park record (observation 143782360) was not used, as the 2025 EWT assessment does not record the species from the Free State. A Mountain Zebra National Park record had no reusable licence.",
     "iNaturalist has 0 sound observations for Pronolagus crassicaudatus in place 69020, and 0 in place 6986. Call descriptions are taken from a compiled Wikipedia account only; no licensable recording was found.",
     "Shoulder height was not found. The Wikipedia length of 46–56 cm and the 2025 EWT maximum size of 50–67 cm do not say whether they are head-and-body or total length.",
