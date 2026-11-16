@@ -81,7 +81,24 @@
   "variants": [],
   "viewNotes": [],
   "calls": [],
-  "images": [],
+  "images": [
+    {
+      "key": "crocidura-fuscomurina/okavango-delta-standing-side.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/57213575",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/91232715/large.jpg",
+      "author": "Grant Reed",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A tiny musk shrew on sandy ground in the Okavango Delta, Botswana, showing a pointed snout, small eyes, pale feet and a slender tail.",
+      "caption": "An adult on sandy ground, Okavango Delta, Botswana, 20 August 2020."
+    }
+  ],
   "population": {
     "estimate": {
       "low": null,
@@ -146,7 +163,7 @@
     "researched": "15 November 2026, Africa/Johannesburg"
   },
   "gaps": [
-    "No iNaturalist observations of any grade in Kruger (place 69020). The three licensed research-grade photographs from place 6986 were not used: one from Ladybrand was annotated dead and had been found by a dog; the Sekhukhune, Limpopo, set showed a handled animal in a glove or plastic bag; and the Nkangala, Mpumalanga, photograph showed an animal laid out on a pale surface.",
+    "No iNaturalist observations of any grade in Kruger (place 69020). One research-grade photograph from the Okavango Delta, Botswana (place 113055) is used. The three licensed research-grade photographs from place 6986 were not used: one from Ladybrand was annotated dead and had been found by a dog; the Sekhukhune, Limpopo, set showed a handled animal in a glove or plastic bag; and the Nkangala, Mpumalanga, photograph showed an animal laid out on a pale surface. A Windhoek record in place 113055 was annotated dead. Wikimedia Commons had only a range map and a copy of the rejected Sekhukhune photograph.",
     "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
     "No Kruger census or SANParks park-wide population figure.",
     "Head-and-body length, tail length, mass, and pelage colours were not published in the sources consulted, so size is omitted and variants are empty. Coat colour was not inferred from the English name Bicolored Musk Shrew.",
