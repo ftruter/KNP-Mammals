@@ -170,7 +170,40 @@
       "recordings": []
     }
   ],
-  "images": [],
+  "images": [
+    {
+      "key": "epomophorus-crypturus/moremi-tree-roost.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/232964491",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/413958872/large.jpeg",
+      "author": "Kerbusch",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A Peters' epauletted fruit bat hanging in a tree in Moremi Game Reserve, Botswana",
+      "caption": "An adult hanging in a tree, Moremi Game Reserve, Botswana, 28 July 2024."
+    },
+    {
+      "key": "epomophorus-crypturus/north-west-botswana-foliage.jpg",
+      "view": "perched-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/341923260",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/622556903/large.jpg",
+      "author": "olliesaunders",
+      "license": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A Peters' epauletted fruit bat hanging in foliage in the North West District, Botswana",
+      "caption": "An adult hanging in foliage, North West District, Botswana, 8 March 2026."
+    }
+  ],
   "sources": [
     {
       "title": "A conservation assessment of Epomophorus crypturus",
@@ -210,12 +243,12 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Epomophorus crypturus (Peters' epauletted fruit bat; Afrikaans Peters se witkol-vrugtevlermuis). The 2016 and 2025 EWT assessments both give the Afrikaans names Peters se Witkolvrugtevlermuis and Klein Vrugtevlermuis; that disagreement is flagged, and the species-list name is kept. The English form Peters's (with a second s) is used by EWT, Wikipedia and iNaturalist; the 2011 checklist form Peters' is kept. EWT records the species as present in Kruger National Park, with Kruger-specific diet, movement and mating-call studies, so status and monthsPresent are kept. The 2025 occurrence table lists seasonality in South Africa as uncertain, but the Kruger telemetry covers the wet season, the early dry season and July, so monthsPresent is entered as year-round. Regional status remains Least Concern in 2025, with no change from 2016 and a stable regional trend in both assessments. Field identification from Wahlberg's epauletted fruit bat (E. wahlbergi) depends mainly on palatal ridges and muzzle width, which are hard to see in photographs. Coat colour and epaulette or ear-patch marks were not described in the sources used. Wikipedia's IUCN-derived country list omits South Africa, contrary to the regional assessments. No licensable photograph was kept: place 69020 had none, and the only licensed place 6986 observation was a mist-net capture.",
+    "note": "This file follows species-list.json in treating the Kruger animal as Epomophorus crypturus (Peters' epauletted fruit bat; Afrikaans Peters se witkol-vrugtevlermuis). The 2016 and 2025 EWT assessments both give the Afrikaans names Peters se Witkolvrugtevlermuis and Klein Vrugtevlermuis; that disagreement is flagged, and the species-list name is kept. The English form Peters's (with a second s) is used by EWT, Wikipedia and iNaturalist; the 2011 checklist form Peters' is kept. EWT records the species as present in Kruger National Park, with Kruger-specific diet, movement and mating-call studies, so status and monthsPresent are kept. The 2025 occurrence table lists seasonality in South Africa as uncertain, but the Kruger telemetry covers the wet season, the early dry season and July, so monthsPresent is entered as year-round. Regional status remains Least Concern in 2025, with no change from 2016 and a stable regional trend in both assessments. Field identification from Wahlberg's epauletted fruit bat (E. wahlbergi) depends mainly on palatal ridges and muzzle width, which are hard to see in photographs. Coat colour and epaulette or ear-patch marks were not described in the sources used. Wikipedia's IUCN-derived country list omits South Africa, contrary to the regional assessments. Two licensed photographs were kept on this gap-fill pass: a tree roost in Moremi Game Reserve, Botswana (iNaturalist observation 232964491, CC BY-NC), and a bat hanging in foliage in the North West District, Botswana (observation 341923260, CC BY-SA). Place 69020 still has no licensed photographs, and the only licensed place 6986 observation remains the previously rejected Musina canopy-net capture. A place 113055 licensed research-grade query and a Commons search were added; of four thumbnails viewed, the Moremi and North West District tree roosts were kept, and a Matobo roost on a probable thatched or built surface and a Wuparo Conservancy pair on a smooth wall or ceiling were dropped. Handled, lodge and Kavango East cluster records were not viewed. Commons had no uniquely identified live photograph with a stated southern African locality.",
     "researched": "15 November 2026, Africa/Johannesburg"
   },
   "gaps": [
     "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the number of mature individuals as unknown, a stable regional trend, and a presumed large population in the assessment region, which is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "iNaturalist place 69020 (Kruger) returned 0 licensed photograph observations and 0 sound observations for taxon 64485. Place 6986 returned one licensed research-grade observation (Musina, Limpopo), which was a bat caught in a canopy net and was not used. No photograph is included.",
+    "No licensed Kruger photograph was kept: place 69020 still has 0 licensed photograph observations for taxon 64485, and place 6986 still has only the previously rejected Musina canopy-net capture (page 2 was empty). This gap-fill pass added a place 113055 licensed research-grade query and a Commons search, and kept two southern African photographs: an adult hanging in a tree in Moremi Game Reserve, Botswana (iNaturalist observation 232964491, CC BY-NC), and an adult hanging in foliage in the North West District, Botswana (observation 341923260, CC BY-SA). Thumbnails dropped on this pass were a Matobo roost on a probable thatched or built surface and a Wuparo Conservancy pair hanging against a smooth wall or ceiling. Handled Wedza records, a Ganda Lodge record, an Okavango Research Institute record, and a tight cluster of observations in Kavango East, Namibia, were not viewed. Commons had no uniquely identified live photograph with a stated southern African locality; several Kruger images are identified only as E. crypturus or E. wahlbergi and are of camp roosts.",
     "No licensable sound recording from Kruger was found. The only call note in the sources used is that male mating vocalisations differ from those of E. wahlbergi in Kruger (Adams and Snode 2015); the call itself is not described.",
     "Coat colour, ear shape and colour, eye colour, underparts, legs, tail shape, shoulder epaulettes and any white ear patches were not described in the sources used, so those marks are null. No shoulder height, head-and-body length or tail length was published as such. The 2025 EWT forearm-length field was incomplete on the page as extracted, so no EWT forearm figure is entered.",
     "The 2025 EWT assessment does not give litter size, gestation, size at birth, birth season or age at maturity. Those details are taken only from Wikipedia (Happold in Kingdon et al. 2013): typical litter one, newborns about 11 g and altricial, births likely around September. No Kruger-specific breeding study was found.",
