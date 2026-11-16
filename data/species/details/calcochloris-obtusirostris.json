@@ -176,7 +176,24 @@
     }
   ],
   "calls": [],
-  "images": [],
+  "images": [
+    {
+      "key": "calcochloris-obtusirostris/bazaruto-surface.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/150413446",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/259357016/large.jpg",
+      "author": "Evan Trotzuk",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A yellow golden mole on the ground among grass and leaf litter in Bazaruto National Park, Mozambique",
+      "caption": "An adult on the ground, Bazaruto National Park, Mozambique, 6 March 2023."
+    }
+  ],
   "sources": [
     {
       "title": "A conservation assessment of Calcochloris obtusirostris",
@@ -208,12 +225,12 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Calcochloris obtusirostris (Yellow golden mole; Afrikaans Geel gouemol, as given in the EWT assessments). The 2011 SANParks checklist printed the name as Calcochloris obtrusirostris; that spelling is already remapped in species-list.json and is not revisited here. EWT recognises three subspecies that intergrade in size; Kruger records are of C. o. obtusirostris in the Nyadu Sandveld in the north-eastern corner of the park, so status and monthsPresent are kept. Regional status remains Near Threatened in 2025, with no change from 2016; the global IUCN listing cited in the 2016 assessment is Least Concern (2015). The 2025 page gives an area of occupancy of 48 km2, against 5,218 km2 in 2016; the status was not changed. Animal Diversity Web has only a classification page for this species and was not used for natural history. Wikipedia is a short stub. No licensable photograph of the animal was found.",
+    "note": "This file follows species-list.json in treating the Kruger animal as Calcochloris obtusirostris (Yellow golden mole; Afrikaans Geel gouemol, as given in the EWT assessments). The 2011 SANParks checklist printed the name as Calcochloris obtrusirostris; that spelling is already remapped in species-list.json and is not revisited here. EWT recognises three subspecies that intergrade in size; Kruger records are of C. o. obtusirostris in the Nyadu Sandveld in the north-eastern corner of the park, so status and monthsPresent are kept. Regional status remains Near Threatened in 2025, with no change from 2016; the global IUCN listing cited in the 2016 assessment is Least Concern (2015). The 2025 page gives an area of occupancy of 48 km2, against 5,218 km2 in 2016; the status was not changed. Animal Diversity Web has only a classification page for this species and was not used for natural history. Wikipedia is a short stub. No licensable photograph was found in Kruger (iNaturalist place 69020). One research-grade photograph of the animal from Bazaruto National Park, Mozambique (iNaturalist observation 150413446, CC BY-NC) is used. Other licensed photographs in southern Africa (place 113055) showed subsurface runs or animals held in the hand, and were not used.",
     "researched": "15 November 2026, Africa/Johannesburg"
   },
   "gaps": [
     "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional trend as unknown and says estimates of population size or densities are unknown. A comment that the species is locally common on the coastal plains of Mozambique and northern KwaZulu-Natal is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "No licensable photograph of the animal suitable for display was found. iNaturalist place 69020 (Kruger) returned 0 observations. The one licensed research-grade record in South Africa (place 6986) is from a picnic site in Tembe Elephant Park and shows subsurface runs in sand, not the animal, so it was not used.",
+    "No licensable photograph in Kruger (place 69020; 0 observations). One southern African photograph from outside the park is used (Bazaruto National Park, Mozambique). Other licensed iNaturalist photographs in southern Africa (place 113055) were of subsurface runs or of animals in the hand, and were not used. The one licensed research-grade record in South Africa (place 6986) is from a picnic site in Tembe Elephant Park and shows subsurface runs in sand, not the animal.",
     "iNaturalist has 0 sound observations for Calcochloris obtusirostris in place 69020. No sourced description of the calls was found.",
     "Animal Diversity Web has only a classification page for this species and no natural-history account. Skinner and Chimimba and Stuart's field guide were not available as books. Size is entered only as the 2025 EWT size at maturity of 9-11 cm, without a statement of which measurement that is. No mass, shoulder height, head-and-body length or tail length was published in the sources used.",
     "Iris colour, ear shape, upperpart colour, leg colour, tail shape and a sexed size split were not given in the sources used, so those marks are null. Coat colour is not inferred from the English name beyond the 2016 EWT statement on orange-yellow underfur.",
