@@ -8,6 +8,8 @@
   },
   "family": "bovidae",
   "inatTaxonId": 42306,
+  "status": "resident",
+  "monthsPresent": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
   "sampleData": false,
   "conservationStatus": {
     "status": "Endangered",
@@ -268,7 +270,7 @@
       "aiGenerated": false,
       "hosted": false,
       "alt": "Adult female mountain reedbuck lying in dry woodland, showing a reddish-brown face, grey-brown body and no horns",
-      "caption": "Adult female lying in woodland, Pretoriuskop, Kruger National Park, South Africa."
+      "caption": "Adult female lying in woodland, Kruger National Park, South Africa."
     },
     {
       "key": "redunca-fulvorufula/cacadu-standing-side-female.jpg",
@@ -325,7 +327,7 @@
       "url": "https://ewt.org/project/mountain-reedbuck/",
       "publisher": "Endangered Wildlife Trust",
       "year": 2025,
-      "note": "Afrikaans name given as Rooiribbok, matching the 2011 checklist. Regional status, range, habitat, diet, social system, breeding and predators. Mentions a suspected 150 individuals in Kruger in 2009."
+      "note": "Afrikaans name given as Rooiribbok, matching the 2011 checklist. Regional status, range, habitat, diet, social system, breeding and predators. Names Kruger National Park as a locality (suspected 150 individuals in 2009). Status is resident with months 1–12 under the 15 Nov 2026 owner rule (a). No migrant or seasonal pattern is given."
     },
     {
       "title": "A conservation assessment of Redunca fulvorufula",
@@ -351,17 +353,24 @@
       "url": "https://www.inaturalist.org/taxa/42306",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "iNaturalist research-grade observations of Redunca fulvorufula in Kruger National Park",
+      "url": "https://www.inaturalist.org/observations?place_id=69020&taxon_id=42306&quality_grade=research",
+      "publisher": "iNaturalist",
+      "year": 2026,
+      "note": "One research-grade observation in place 69020, dated 5 October 2024, not marked captive. Status is resident with months 1–12 under the 15 Nov 2026 owner rule (c)."
     }
   ],
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "The official 2011 checklist includes this species. One source claims a suspected 150 individuals in Kruger in 2009, with no long-term Kruger trend. iNaturalist has 1 research-grade observation in place 69020 (2024-10-05, near Pretoriuskop). Status and monthsPresent are omitted rather than guessed from a single recent record and a 2009 suspected count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Sources disagree on shoulder height and group size; both accounts are kept and are not averaged. No published min–max ranges for size were found. One licensable Kruger photograph was found; the other three photographs are from the Eastern Cape, Mpumalanga and KwaZulu-Natal and are captioned with those places.",
-    "researched": "15 November 2026, Africa/Johannesburg"
+    "note": "The official 2011 checklist includes this species. One source claims a suspected 150 individuals in Kruger in 2009, with no long-term Kruger trend. iNaturalist has 1 research-grade observation in place 69020, dated 5 October 2024, not marked captive. Status is resident with months 1–12 under the 15 Nov 2026 owner rule (a): the 2025 EWT assessment names Kruger National Park as a locality (suspected 150 individuals in 2009); and rule (c): that research-grade iNaturalist record in place 69020. No source describes a migrant or seasonal pattern (seasonal breeding in some accounts is not treated as seasonal presence). A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Sources disagree on shoulder height and group size; both accounts are kept and are not averaged. No published min–max ranges for size were found. One licensable Kruger photograph was found; the other three photographs are from the Eastern Cape, Mpumalanga and KwaZulu-Natal and are captioned with those places.",
+    "researched": "16 November 2026, Africa/Johannesburg"
   },
   "gaps": [
     "No current Kruger population figure was found. One source claims a suspected 150 individuals in Kruger in 2009, with no long-term Kruger trend. Regional protected-area totals (2,585 in 2008 to 577 in 2023, or 1,918 to 574 in a smaller sample) are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "Recent year-round status in Kruger is unclear. The species is on the official 2011 checklist. iNaturalist has 1 research-grade observation in place 69020 (2024-10-05, near Pretoriuskop) and 0 other records. Status and monthsPresent are omitted rather than guessed.",
+    "Status is resident with months 1–12 under the 15 Nov 2026 owner rule (a): the 2025 EWT assessment names Kruger National Park as a locality (suspected 150 individuals in 2009); and rule (c): one research-grade iNaturalist observation in place 69020 dated 5 October 2024, not marked captive. No source describes a migrant or seasonal pattern.",
     "No published min–max ranges were found for shoulder height, head-and-body length, tail or mass. Sources disagree on shoulder height (about 70 cm for an adult male versus an average of 75 cm) and on group size (mostly up to 3, even up to 8, versus six or fewer); both accounts are recorded and are not averaged. Mass is given only as a typical value of around 30 kg.",
     "A Commons search for Redunca fulvorufula in Kruger returned 0 hits. iNaturalist has 1 research-grade photograph in place 69020, used here. The other three photographs are from Cacadu in the Eastern Cape, Sabie in Mpumalanga, and uMkhanyakude District in KwaZulu-Natal.",
     "iNaturalist has 0 sound observations for Redunca fulvorufula in place 69020. No reusable Kruger recording was found. Call types are limited to the shrill whistle described in a compiled account.",
