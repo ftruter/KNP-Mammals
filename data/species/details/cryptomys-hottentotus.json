@@ -162,7 +162,40 @@
     }
   ],
   "calls": [],
-  "images": [],
+  "images": [
+    {
+      "key": "cryptomys-hottentotus/mossel-bay-surface.jpg",
+      "view": "standing-side",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/341566896",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/621836495/large.jpg",
+      "author": "Stephan and Unelle Knoetze",
+      "license": "CC BY-NC 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A common molerat on sandy ground in Mossel Bay, Western Cape, showing a blunt head, small eyes and pale feet",
+      "caption": "An adult on sandy ground with plant material in its mouth, Mossel Bay, Western Cape, 6 March 2026."
+    },
+    {
+      "key": "cryptomys-hottentotus/bitou-burrow.jpg",
+      "view": "standing-back",
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "source": "https://www.inaturalist.org/observations/370837914",
+      "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/677510020/large.jpg",
+      "author": "Karen Eichholz",
+      "license": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "aiGenerated": false,
+      "hosted": false,
+      "alt": "A common molerat at a burrow entrance in short grass in the Bitou Local Municipality, Western Cape",
+      "caption": "An adult at a burrow entrance in short grass, Bitou Local Municipality, Western Cape, 7 June 2026."
+    }
+  ],
   "sources": [
     {
       "title": "A conservation assessment of Cryptomys spp.",
@@ -190,19 +223,19 @@
       "url": "https://www.inaturalist.org/taxa/43749",
       "publisher": "iNaturalist",
       "year": null,
-      "note": "Taxon 43749; preferred English name Common Molerat; Afrikaans name Vaalmol is listed. Used for photograph and sound checks in places 69020 and 6986."
+      "note": "Taxon 43749; preferred English name Common Molerat; Afrikaans name Vaalmol is listed. Used for photograph and sound checks in places 69020, 6986 and 113055. Two live-animal photographs from Western Cape records in place 113055 were kept."
     }
   ],
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Cryptomys hottentotus (Common molerat; Afrikaans Vaalmol, as given on the 2011 checklist and on the 2016 EWT assessment, which also lists Grysmol). The 2016 assessment splits the old C. hottentotus into several species that can at present be distinguished only by molecular evidence: it places C. hottentotus, in the narrow sense, in the Western Cape, Eastern Cape, Free State and Northern Cape, assigns Kruger to C. natalensis, and notes that some records in northern Kruger may belong to C. nimrodi (Matabeleland mole-rat) rather than C. natalensis. Cryptomys and Fukomys cannot be distinguished morphologically. C. natalensis appears in species-list.json as an iNaturalist-only candidate (two research-grade records in place 69020) and is marked there as not included, because it is not on the 2011 SANParks list. This file does not remap the official 2011 name. Wikipedia still gives a broad southern African range for C. hottentotus; Animal Diversity Web limits it to the south-western Cape. Those disagreements are recorded, not averaged. Presence of C. hottentotus in the narrow sense is not supported by the 2016 assessment, so status and monthsPresent are omitted. No Kruger population figure was found. No suitable licensable photograph of a live animal was found.",
-    "researched": "15 November 2026, Africa/Johannesburg"
+    "note": "This file follows species-list.json in treating the Kruger animal as Cryptomys hottentotus (Common molerat; Afrikaans Vaalmol, as given on the 2011 checklist and on the 2016 EWT assessment, which also lists Grysmol). The 2016 assessment splits the old C. hottentotus into several species that can at present be distinguished only by molecular evidence: it places C. hottentotus, in the narrow sense, in the Western Cape, Eastern Cape, Free State and Northern Cape, assigns Kruger to C. natalensis, and notes that some records in northern Kruger may belong to C. nimrodi (Matabeleland mole-rat) rather than C. natalensis. Cryptomys and Fukomys cannot be distinguished morphologically. C. natalensis appears in species-list.json as an iNaturalist-only candidate (two research-grade records in place 69020) and is marked there as not included, because it is not on the 2011 SANParks list. This file does not remap the official 2011 name. Wikipedia still gives a broad southern African range for C. hottentotus; Animal Diversity Web limits it to the south-western Cape. Those disagreements are recorded, not averaged. Presence of C. hottentotus in the narrow sense is not supported by the 2016 assessment, so status and monthsPresent are omitted. No Kruger population figure was found. Two licensable photographs of live animals from Western Cape iNaturalist records in place 113055 (southern Africa) were added.",
+    "researched": "16 November 2026, Africa/Johannesburg"
   },
   "gaps": [
     "No Kruger census or SANParks population figure was found. A density of more than 150 individuals per square kilometre in prime habitats, given in the 2016 EWT assessment, is not a Kruger count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "Status and monthsPresent are omitted. Under the 2016 split, the EWT assessment places Kruger in the range of C. natalensis, with some northern Kruger records possibly C. nimrodi; C. hottentotus in the narrow sense is described from the Western Cape, Eastern Cape, Free State and Northern Cape. This file follows the 2011 checklist name in species-list.json and does not remap it.",
-    "No licensable photograph of a live wild animal suitable for display was found. iNaturalist had no licensed photographs in Kruger (place 69020). A South Africa (place 6986) query was shortlisted and four thumbnails were viewed: three were mounds, which are not used as species photographs, and one showed a live animal in a container. The images array is empty.",
+    "Two licensable photographs of live animals were added from research-grade iNaturalist observations in place 113055 (southern Africa): an adult on sandy ground at Mossel Bay, Western Cape (CC BY-NC), and an adult at a burrow in the Bitou Local Municipality, Western Cape (CC BY). iNaturalist still had no licensed live-animal photographs in Kruger (place 69020). An earlier South Africa (place 6986) shortlist had only mounds and a container shot.",
     "iNaturalist has 0 sound observations for Cryptomys hottentotus in place 69020. No sourced description of a vocalisation was found; Animal Diversity Web lists only tactile and chemical communication. The calls array is empty.",
     "No 2025 EWT project page for this species was located. Conservation status is taken from the 2016 regional assessment and from the IUCN listing cited by Wikipedia.",
     "Skinner and Chimimba and Stuart's field guide were not available as books. Lengths and mass are from Wikipedia and Animal Diversity Web, which may reflect a lumped concept.",
