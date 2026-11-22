@@ -5,3 +5,7 @@ dist/
 *.log
 .DS_Store
 .claude
+
+# Spike caches and downloaded label files. Counts are committed; media bytes are not.
+spike/**/cache/
+spike/**/__pycache__/
