@@ -160,3 +160,7 @@ Media licences are separate from the licence of the code. CC0, CC BY, CC BY-SA, 
 ## Unpublished species
 
 A stub has the scientific name, English and Afrikaans names, the family slug, `sampleData: true`, empty `variants`, `viewNotes`, `calls` and `images`, and a `gaps` note that the details have not been published. `status` and `size` are omitted rather than invented. `population` may still carry a cited estimate.
+
+## Derived offline index
+
+`index/offline` is built by `scripts/seed.mjs` for the installed app. It is not a species field and it is not stored under `data/`. It lists the HTML pages the app saves, `iconic` (empty until a family ranking is chosen), and at most one photograph and one recording per species. A file is listed only when `data/media/mirror.json` has a positive integer `bytes` for that file's current `fileUrl`. The pack address is the same-origin `/images/<key>` or `/audio/<key>`. Sizes are the measured mirror sizes. `/offline.json` is that document plus the shell files for the current deploy. `/offline` and `/offline.md` are not pages.

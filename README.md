@@ -98,6 +98,7 @@ A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and r
 | `/species` | `index/species` | `species` in `data/species-list.json`, with the Kruger estimate where a details file records one |
 | `/family/<slug>` | `family/<slug>` | `data/families.json` and its species |
 | `/species/<slug>` | `species/<slug>` | The species-list row, plus `data/species/details/<slug>.json` as `details` when that file exists |
+| `/manifest.webmanifest`, `/sw.js`, `/offline.json` | `index/offline` for the JSON | The installable app: the manifest, the service worker, and the pages and media a saved copy can keep. `/offline` and `/offline.md` are not pages |
 
 A species with a details file gets a full account: a lead photograph, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls with recordings, more photographs and sources. A species without one says its details have not been published. Photographs and recordings that are saved on this site load from `/images/<key>` or `/audio/<key>`; otherwise they load from their sources (`fileUrl`). Each carries its credit and licence. CC BY-NC media is shown on a non-commercial site. The field marks in `variants` are not shown yet.
 
@@ -106,6 +107,8 @@ Orders are not in the site navigation. They are reached from the home page, from
 The tables on `/orders`, `/order/<slug>`, `/families`, `/species` and `/family/<slug>` sort with `?sort=` and `dir=asc` or `dir=desc`. The server sorts, so the header links work with scripts off; `/app.js` sorts in place when scripts are on. The default is the first column, A to Z; an order page has two tables and both follow the same query. Latin breaks ties and empty values sort last.
 
 There is no search, sitemap, credits page or MCP endpoint yet.
+
+`index/offline` is derived when the KV payload is built and is not written under `data/`. It lists the HTML pages above, one lead photograph and one clip per species when `data/media/mirror.json` has a measured size for that file, and `iconic` (empty until a family ranking is chosen, so the family rows stay unavailable). The pack addresses are `/images/<key>` and `/audio/<key>`. Add a path to `GUIDE_PAGES` in `src/offline.js` when another HTML page should be saved with the guide.
 
 `candidates` and `excluded` are not published. `scripts/seed.mjs` derives the payload on every run and writes nothing back to `data/`. It adds names to the animals a details file points at (similar, predators, prey) and marks whether this guide lists them. It stops if a species names a family that is not in `data/families.json`, if a slug repeats, or if a details file has no listed species.
 

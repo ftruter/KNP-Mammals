@@ -1,4 +1,6 @@
 import clientJs from './client/app.js'
+import offlineJs from './client/offline.js'
+import serviceWorkerJs from './client/sw.js'
 import { STYLE_PATH } from './route.js'
 import { css } from './style.js'
 
@@ -12,7 +14,9 @@ export const clientVersion = (source) => {
   return (hash >>> 0).toString(16)
 }
 
-export { clientJs }
+export { clientJs, offlineJs, serviceWorkerJs }
 export const clientSrc = `/app.js?v=${clientVersion(clientJs)}`
+/** The installed app's page script: the download panel and the saved pages. */
+export const offlineSrc = `/offline.js?v=${clientVersion(offlineJs)}`
 /** The stylesheet is cached for a day, so its address changes with it too. */
 export const styleSrc = `${STYLE_PATH}?v=${clientVersion(css)}`

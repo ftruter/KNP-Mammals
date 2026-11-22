@@ -83,6 +83,12 @@ export const parseUrl = (url) => {
     return { kind: 'icon', format: 'icon', pathname: rawPath }
   if (rawPath === SCRIPT_PATH)
     return { kind: 'script', format: 'js', pathname: rawPath }
+  if (rawPath === '/offline.js')
+    return { kind: 'offline-script', format: 'js', pathname: rawPath }
+  if (rawPath === '/sw.js')
+    return { kind: 'service-worker', format: 'js', pathname: rawPath }
+  if (rawPath === '/manifest.webmanifest')
+    return { kind: 'web-manifest', format: 'html', pathname: rawPath }
   if (rawPath.length > 1 && rawPath.endsWith('/')) {
     const pathname = rawPath.slice(0, -1)
     return {
@@ -94,6 +100,11 @@ export const parseUrl = (url) => {
   }
 
   const { format, pathname } = splitFormat(rawPath)
+  // The list of what an installed copy can keep. It has a JSON form only.
+  if (pathname === '/offline')
+    return format === 'json'
+      ? { kind: 'offline', format, pathname, key: 'index/offline' }
+      : notFound(format, pathname)
   if (format === 'html' && pathname.startsWith('/images/'))
     return objectRoute('image', pathname, 'images')
   if (format === 'html' && pathname.startsWith('/audio/'))

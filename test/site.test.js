@@ -35,6 +35,17 @@ test('routes map to KV keys and formats', () => {
   assert.equal(route('/species/Bad_Slug').kind, 'not-found')
   assert.equal(route('/family/bovidae/extra').kind, 'not-found')
   assert.equal(route('/family/bovidae/').location, '/family/bovidae')
+  assert.equal(route('/manifest.webmanifest').kind, 'web-manifest')
+  assert.equal(route('/sw.js').kind, 'service-worker')
+  assert.equal(route('/offline.js').kind, 'offline-script')
+  assert.equal(route('/offline.json').kind, 'offline')
+  assert.equal(route('/offline').kind, 'not-found')
+  assert.equal(route('/offline.md').kind, 'not-found')
+  assert.equal(
+    route('/manifest.webmanifest/').location,
+    '/manifest.webmanifest',
+  )
+  assert.equal(route('/sw.js/').location, '/sw.js')
 })
 
 test('home links to the lists and has three formats', async () => {

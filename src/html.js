@@ -1,5 +1,7 @@
-import { clientSrc, styleSrc } from './client.js'
+import { clientSrc, offlineSrc, styleSrc } from './client.js'
 import { ICON_LINKS } from './icon.js'
+import { INSTALL_LINKS } from './offline-app.js'
+import { OFFLINE_PATH } from './offline.js'
 import { creditHtml, creditModel } from './credit.js'
 import { escapeHtml, inlineText, safeHttpUrl } from './escape.js'
 import {
@@ -31,6 +33,19 @@ export const ABOUT =
 export const UNPUBLISHED_SPECIES =
   'The details for this species have not been published yet.'
 export const APPROXIMATE_LABEL = 'Approximate number in Kruger'
+
+/**
+ * The download panel. It stays hidden in a browser tab: the page script shows
+ * it only when the site was opened from the home screen, and fills in the
+ * options from /offline.json.
+ */
+const OFFLINE_PANEL = `<section id="offline-panel" class="offline-panel" aria-labelledby="offline-heading" data-manifest="${OFFLINE_PATH}.json" hidden>
+<h2 id="offline-heading">Use without a signal</h2>
+<p>Signal in much of the park is poor. Tick what to keep on this device. Untick it to remove it again.</p>
+<ul id="offline-rows" class="offline-rows"></ul>
+<p id="offline-pages" class="offline-note"></p>
+<p id="offline-status" class="visually-hidden" role="status" aria-live="polite"></p>
+</section>`
 
 export const progressSentence = (counts) =>
   `The list has ${counts.species} species in ${counts.families} families and ${counts.orders} orders. ${counts.researched} of the species have a full account so far; the rest are listed by name.`
@@ -83,8 +98,10 @@ export const layout = ({
 <link rel="alternate" type="text/markdown" href="${escapeHtml(alts.md)}" title="Markdown">
 <link rel="alternate" type="application/json" href="${escapeHtml(alts.json)}" title="JSON">
 ${ICON_LINKS}
+${INSTALL_LINKS}
 <link rel="stylesheet" href="${styleSrc}">
 <script type="module" defer src="${clientSrc}"></script>
+<script type="module" defer src="${offlineSrc}"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -143,7 +160,8 @@ export const homeHtml = (doc, { origin }) => {
 <h2>About this guide</h2>
 <p>An open field guide to the mammals of Kruger National Park. ${escapeHtml(progressSentence(counts))}</p>
 <p>The list follows the 2011 SANParks checklist for the park. Species with no Kruger records, and animals that live only around rest camps because they arrived with people, are left out.</p>
-<p>${escapeHtml(ABOUT)}</p>`
+<p>${escapeHtml(ABOUT)}</p>
+${OFFLINE_PANEL}`
   return layout({
     title: SITE_NAME,
     description:
