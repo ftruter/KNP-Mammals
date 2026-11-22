@@ -96,6 +96,7 @@ A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and r
 | `/order/<slug>` | `order/<slug>` | The families and species of one order. The slug is the Latin name in lower case |
 | `/families` | `index/families` | `data/families.json`, with species counts |
 | `/species` | `index/species` | `species` in `data/species-list.json`, with the Kruger estimate where a details file records one |
+| `/facts` | `index/facts` | One row per listed species from the details files: size, mass, Kruger status, conservation status and the Kruger individuals range |
 | `/family/<slug>` | `family/<slug>` | `data/families.json` and its species |
 | `/species/<slug>` | `species/<slug>` | The species-list row, plus `data/species/details/<slug>.json` as `details` when that file exists |
 
@@ -103,11 +104,11 @@ A species with a details file gets a full account: a lead photograph, facts, des
 
 Orders are not in the site navigation. They are reached from the home page, from the Order column of the tables, and from family and species pages. They have Latin names only, because `data/families.json` records no English or Afrikaans name for an order.
 
-The tables on `/orders`, `/order/<slug>`, `/families`, `/species` and `/family/<slug>` sort with `?sort=` and `dir=asc` or `dir=desc`. The server sorts, so the header links work with scripts off; `/app.js` sorts in place when scripts are on. The default is the first column, A to Z; an order page has two tables and both follow the same query. Latin breaks ties and empty values sort last.
+The tables on `/orders`, `/order/<slug>`, `/families`, `/species`, `/facts` and `/family/<slug>` sort with `?sort=` and `dir=asc` or `dir=desc`. The server sorts, so the header links work with scripts off; `/app.js` sorts in place when scripts are on. The default is the first column, A to Z; an order page has two tables and both follow the same query. Latin breaks ties and empty values sort last.
 
 There is no search, sitemap, credits page or MCP endpoint yet.
 
-`candidates` and `excluded` are not published. `scripts/seed.mjs` derives the payload on every run and writes nothing back to `data/`. It adds names to the animals a details file points at (similar, predators, prey) and marks whether this guide lists them. It stops if a species names a family that is not in `data/families.json`, if a slug repeats, or if a details file has no listed species.
+`candidates` and `excluded` are not published. `scripts/seed.mjs` derives the payload on every run and writes nothing back to `data/`. It adds names to the animals a details file points at (similar, predators, prey) and marks whether this guide lists them. It also builds `index/facts` from those details. It stops if a species names a family that is not in `data/families.json`, if a slug repeats, or if a details file has no listed species.
 
 ```sh
 pnpm install
