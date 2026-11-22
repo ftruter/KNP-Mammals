@@ -141,9 +141,9 @@ test('the plan keeps https media and skips ND and non-https URLs', () => {
   )
 })
 
-test('plans all 381 photographs and 12 recordings and does not fetch them', async () => {
+test('plans all 382 photographs and 12 recordings and does not fetch them', async () => {
   const { items, skipped } = mediaPlan(await loadSpeciesDetails())
-  assert.equal(items.filter((item) => item.group === 'images').length, 381)
+  assert.equal(items.filter((item) => item.group === 'images').length, 382)
   assert.equal(items.filter((item) => item.group === 'audio').length, 12)
   assert.equal(skipped.length, 0)
 
@@ -164,7 +164,7 @@ test('plans all 381 photographs and 12 recordings and does not fetch them', asyn
   assert.equal(fetched, false)
   assert.equal(
     result.plan.filter((item) => item.group === 'images').length,
-    381,
+    382,
   )
   assert.equal(result.plan.filter((item) => item.group === 'audio').length, 12)
   await rm(dir, { recursive: true, force: true })
@@ -370,7 +370,7 @@ test('--local uploads locally and does not write the mirror', async (t) => {
   await assert.rejects(() => readFile(path.join(dir, 'mirror.json')))
 })
 
-test('the dry-run command plans 381 photographs and 12 recordings', async () => {
+test('the dry-run command plans 382 photographs and 12 recordings', async () => {
   const child = spawn(
     process.execPath,
     ['scripts/publish-media.mjs', '--dry-run'],
@@ -392,6 +392,6 @@ test('the dry-run command plans 381 photographs and 12 recordings', async () => 
   assert.equal(code, 0)
   assert.match(
     out,
-    /393 files in the plan \(381 photographs, 12 clips\); 0 to copy, 0 old copies to delete/,
+    /394 files in the plan \(382 photographs, 12 clips\); 1 to copy, 0 old copies to delete/,
   )
 })
