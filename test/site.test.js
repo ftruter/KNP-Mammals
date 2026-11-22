@@ -202,6 +202,32 @@ test('a researched species page has photographs, facts and credits', async () =>
   assert.match(md, /Mass: males 165–290 kg, females 140–260 kg/)
 })
 
+test("Juliana's golden mole shows the Imagined by Grok illustration", async () => {
+  const caption =
+    'Imagined by Grok. An illustration, not a photograph of a real animal.'
+  const body = await (await get('/species/neamblysomus-julianae')).text()
+  assert.match(body, /<span class="ai-label">AI-generated image<\/span>/)
+  assert.ok(body.includes(caption))
+  assert.match(
+    body,
+    /src="https:\/\/raw\.githubusercontent\.com\/ftruter\/KNP-Mammals\/main\/media\/images\/neamblysomus-julianae\/imagined-by-grok\.jpg"/,
+  )
+  const credit = body.match(/<details class="credit"[\s\S]*?<\/details>/)?.[0]
+  assert.ok(credit)
+  assert.match(credit, />Grok</)
+  assert.match(credit, /CC0 1\.0/)
+  assert.equal(credit.includes('Photograph, not AI-generated.'), false)
+  assert.equal(
+    body.includes('No photograph is stored for this species yet.'),
+    false,
+  )
+
+  const md = await (await get('/species/neamblysomus-julianae.md')).text()
+  assert.ok(md.includes(caption))
+  assert.match(md, /Credit: Grok, CC0 1\.0/)
+  assert.equal(md.includes('Photograph, not AI-generated.'), false)
+})
+
 test('a species with no account says so', async () => {
   // Every listed species now has a details file, so this stands in for one
   // that does not. It is not a species record.
