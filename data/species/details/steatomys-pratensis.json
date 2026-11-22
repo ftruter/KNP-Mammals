@@ -80,6 +80,21 @@
     }
   ],
   "habitat": "The 2025 EWT assessment describes a species of open grasslands (subtropical or tropical dry lowland) and dry savannas, generally absent from forests and montane grasslands, recorded along the edges of rivers and swamplands in arid regions, in grassland from sparse to dense cover, and often in cultivated land (Skinner and Chimimba 2005; Rautenbach 2013). It appears to favour recently burnt areas with new grass cover (Monadjem 1999), and typically occurs below 1,500 m (Monadjem et al. 2015). A Kruger-specific habitat account was not found, though the species is listed from Kruger National Park.",
+  "size": {
+    "headBodyLengthCm": {
+      "min": 8.2,
+      "max": 10.2
+    },
+    "tailCm": {
+      "min": 4,
+      "max": 5.6
+    },
+    "massKg": {
+      "min": 0.022,
+      "max": 0.048
+    },
+    "note": "One source claims a head-and-body length of 8.2–10.2 cm, a tail of 4–5.6 cm and a mass of 22–48 g (0.022–0.048 kg) for Steatomys pratensis. Those figures are a published range, not a mean. A more accurate figure may be available at this URL: https://ewt.org/project/fat-mouse/"
+  },
   "variants": [],
   "viewNotes": [],
   "calls": [],

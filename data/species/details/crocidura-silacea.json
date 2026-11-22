@@ -55,6 +55,21 @@
   "summary": "A white-toothed musk shrew of intact woodland, bushveld, grassland and forest in southern Africa. The 2025 EWT assessment lists it as Least Concern in the region, with no change from 2016, a declining regional population trend inferred from habitat loss, and occurrence in several protected areas including Kruger National Park. It has not been recorded from agricultural or modified habitats. The same assessment says it is almost indistinguishable from the reddish-grey musk shrew (Crocidura cyanea), and that museum records of the two have often been confused.",
   "description": "The sources consulted do not describe the pelage, measurements or other external field marks of this species, and those details are not inferred from the English names Lesser Grey-brown Musk Shrew or Peters' musk shrew. Animal Diversity Web places it in the white-toothed shrew subfamily Crocidurinae but does not describe the animal. The 2025 EWT assessment, citing Taylor and Contrafatto (1996), says the species is very similar to, and almost indistinguishable from, Crocidura cyanea, though more restricted in distribution, and that many museum records have been misidentified as C. cyanea and vice versa. A taxonomic note on the same page records earlier controversy over the validity of the species (Ellerman et al. 1953; Heim de Balsac and Meester 1977), with later morphometric studies supporting species status (Meester et al. 1986; Taylor et al. 1994; Taylor and Contrafatto 1996). Wikipedia is a stub and gives no appearance account.",
   "habitat": "The 2025 EWT assessment, citing Skinner and Chimimba (2005), says the species occurs in montane evergreen forest, savannah woodland, bushveld, grassland and coastal forest, and has been collected from under trees, in old timber and under stones. In Maputaland it prefers sand forest. In Mkhuze, Kube Yini and Phinda Game Reserves it was found in Lebombo wooded grassland, Spirostachys africana woodland, Acacia woodland, Terminalia sericea woodland, Combretum molle woodland on red sand, and sand forest (Delcros et al. 2014). In Eswatini, specimens have been collected from savannah woodland (Monadjem 1998) and from tall grassland, rocky thicket, short rocky forest and low open rocky woodland in the Maguga Dam area (Avenant and Kuyler 2002). The page concludes that it exists in a wide range of habitats but has not been captured on agricultural or transformed landscapes and so relies on intact environments. Wikipedia lists natural habitats of dry savanna, subtropical or tropical dry shrubland, Mediterranean-type shrubby vegetation, subtropical or tropical high-elevation grassland, and rocky areas.",
+  "size": {
+    "headBodyLengthCm": {
+      "min": 6,
+      "max": 8
+    },
+    "tailCm": {
+      "min": 4.3,
+      "max": 5.6
+    },
+    "massKg": {
+      "min": 0.006,
+      "max": 0.008
+    },
+    "note": "One source claims a head-and-body length of 6–8 cm, a tail of 4.3–5.6 cm and a mass of 6–8 g (0.006–0.008 kg). Those figures are a published range for Crocidura silacea, not a mean. A more accurate figure may be available at this URL: https://ewt.org/project/lesser-grey-brown-musk-shrew/"
+  },
   "similar": [
     {
       "slug": "crocidura-cyanea",

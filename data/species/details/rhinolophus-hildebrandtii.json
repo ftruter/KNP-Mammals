@@ -48,6 +48,12 @@
   "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia gives the authority as Peters, 1878, which matches the species-list name Rhinolophus hildebrandtii, and describes the species as found in Africa, but it does not describe pelage colour, ear shape, nose-leaf or dental characters, or any measurements. Animal Diversity Web has only a classification page, with no species account. No EWT 2025 project page or 2016 PDF under this scientific name was found to search for a description. Colour, dental and nose-leaf characters are therefore not described here and are not taken from related horseshoe bats. The 2016 EWT assessments of Rhinolophus cohenae and Rhinolophus smithersi state that those species were formerly included in Rhinolophus hildebrandtii (also spelled R. hildebrandti in those texts) and were recognised as distinct in a 2012 revision of the complex (Taylor et al. 2012). This file keeps the species-list.json names and does not remap the Kruger animals.",
   "habits": "Wikipedia describes the natural habitats as savanna, caves and other subterranean habitats, but gives no further account of roosting, colony size, foraging style or daily activity. No EWT 2025 assessment page or 2016 PDF under this scientific name was available to search for movement patterns, the words Kruger or migrat, or a seasonal status. Animal Diversity Web has no species account. No Kruger-specific habits were found in the sources used.",
   "habitat": "Wikipedia describes the natural habitats as savanna, caves and other subterranean habitats. No Kruger-specific habitat statement was found in the sources used. No EWT 2025 or 2016 assessment under this scientific name was available for habitat detail.",
+  "similar": [
+    {
+      "slug": "rhinolophus-fumigatus",
+      "note": "Wikipedia, citing Kingdon et al. (2013), says Rüppell's horseshoe bat is likely to be confused with this species, and that this species is slightly larger."
+    }
+  ],
   "population": {
     "estimate": {
       "low": null,

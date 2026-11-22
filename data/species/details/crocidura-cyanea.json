@@ -70,6 +70,29 @@
     }
   ],
   "habitat": "The 2025 EWT assessment says the species often occurs in relatively dry terrain compared with other shrews, and has been collected from rocky habitats, dense scrub and grass, moist montane forest, hedges around farmlands, degraded areas and gardens (Meester 1963, Rautenbach 1982, Taylor 1998). In KwaZulu-Natal it has been found in moist grassy habitats bordering reedbeds, drier bushveld, open grassland, coastal forest and gardens; in the west, in scrub on Kalahari sand, reedbeds around waterholes, karroid scrub and fynbos in rocky areas (Skinner and Chimimba 2005; Taylor 1998; J. Harvey pers. obs. 2015). It has a wide habitat tolerance, though it prefers deep leaf litter, moist soil and ground-level vegetation (Dickman 1995), and in Eswatini it is mainly associated with grasslands on rocky terrain (Monadjem 1997). Elevation is given as 0-2,000 m. A Kruger-specific habitat account was not found, and the assessment does not mention the park.",
+  "size": {
+    "headBodyLengthCm": {
+      "male": {
+        "min": 6.7,
+        "max": 9.3
+      },
+      "female": {
+        "min": 6.8,
+        "max": 8.9
+      }
+    },
+    "tailCm": {
+      "male": {
+        "min": 4.2,
+        "max": 6.9
+      },
+      "female": {
+        "min": 3.3,
+        "max": 5.5
+      }
+    },
+    "note": "One source claims a head-and-body length of 6.7–9.3 cm in males and 6.8–8.9 cm in females, and a tail of 4.2–6.9 cm in males and 3.3–5.5 cm in females. Those figures are published ranges, split by sex. No mass was given. A more accurate figure may be available at this URL: https://ewt.org/project/reddish-grey-musk-shrew/"
+  },
   "similar": [
     {
       "slug": "crocidura-silacea",

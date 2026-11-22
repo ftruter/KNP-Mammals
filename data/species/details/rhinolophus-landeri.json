@@ -82,6 +82,12 @@
     }
   ],
   "habitat": "The 2016 EWT assessment of R. landeri says the species is generally associated with both forest and savannah woodlands, and has also been recorded from the Lowveld, sparsely wooded transition areas, dense thornscrub, tropical moist forest and riverine forest (Rosevear 1965; Menzies 1973; Happold 1987; Taylor 1998). It says that in Central and West Africa it most commonly occurs in forest habitats (Csorba et al. 2003), while in southern Africa it is typically associated with riparian woodland (Smithers and Wilson 1979) and, in the assessment area, is known from the Mopane Bioregion. The 2025 assessment of R. lobatus repeats the southern African riparian-woodland and Mopane Bioregion statements and the same roost-site list. Its IUCN habitat scheme lists subtropical or tropical moist lowland and moist montane forest, dry savanna (major importance), moist savanna, subtropical or tropical dry shrubland, caves (major importance) and other subterranean habitats as suitable. Elevation limits on that page are 0–1,933 m above sea level (Monadjem et al. 2024). Both assessments place the species in the Great Limpopo Transfrontier Park in the northeastern region of Limpopo Province, as an edge-of-range species whose range is continuous into Zimbabwe and Mozambique. The 2016 assessment also gives a wider sub-Saharan range for R. landeri, from Senegal and The Gambia through West and Central Africa to Ethiopia and Sudan, and south to northeastern South Africa, and records high-elevation localities outside the assessment region, including 2,000 m on Mount Elgon in Kenya.",
+  "similar": [
+    {
+      "slug": "rhinolophus-blasii",
+      "note": "The 2016 EWT assessment of the peak-saddle horseshoe bat, citing Monadjem et al. (2010), says that bat is similar in size and appearance to Lander's horseshoe bat and is separated from it by a high-rising, sharply pointed connecting process and by the absence of axillary tufts of hair in the armpit. The comparison was published under the name Rhinolophus landeri."
+    }
+  ],
   "population": {
     "estimate": {
       "low": null,

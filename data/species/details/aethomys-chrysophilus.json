@@ -76,6 +76,12 @@
   "young": "Wikipedia, citing Linzey and Chimimba (2008) and Happold and Happold (1990), says wild animals breed in the rainy season, typically from October to January, although they can breed at any time of year in captivity. Gestation lasts 29 days. Litters are of one to five young, typically three. Newborns are blind and helpless, with thin black fur and naked undersides; the teeth are already erupted, and the eyes open after 10–14 days. At birth they weigh about 5 g and measure about 4 cm in head-and-body length. They are weaned at 24–33 days, by which time they have the adult coat, reach full adult dimensions at about seven weeks, and become sexually mature at about 82 days, though the first litter may not be born for up to six months. The 2025 EWT page does not publish litter size or birth measurements. Kruger-specific birth months were not found.",
   "prey": [],
   "habitat": "A habitat generalist of savanna woodland, provided there is good ground cover such as rocky crevices, boulders, debris, fallen trees, holes in termite mounds, thick scrub, or clumps of grass and forbs. It is often associated with miombo or mopane woodland, may be found near homesteads and barns, and can occur in disturbed grassland, but is absent from arid regions and high-elevation forest. It is recorded mainly below 1,000 m. The 2025 EWT assessment records it from Kruger National Park north of the Olifants River, notes that its southern limit in the east is about 24°S in the vicinity of that river, and cites MacFadyen (2007) for records in low numbers on the park's northern plains. A finer Kruger habitat account was not found.",
+  "similar": [
+    {
+      "slug": "micaelamys-namaquensis",
+      "note": "The 2016 EWT assessment of the Namaqua rock mouse says that mouse closely resembles this species, which is larger, more reddish and more heavily built. Pelage colour, tail length and body size in the Namaqua rock mouse vary greatly over its range."
+    }
+  ],
   "population": {
     "estimate": {
       "low": null,

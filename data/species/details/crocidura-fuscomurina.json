@@ -77,6 +77,17 @@
     }
   ],
   "habitat": "The 2025 EWT assessment, citing Skinner and Chimimba (2005), says the species is generally associated with savannahs, including dry Kalahari savannah and grasslands in the west and moist woodlands and bush savannah in the east. It generally occurs in thick grass, such as couch grass (Cynodon dactylon), along the water's edge, but also on dry, sandy soil near water, and has been recorded from rubbish heaps and wood piles. At Phinda and Mkhuze Game Reserves in KwaZulu-Natal it was found in most sites sampled, including Acacia woodland, Combretum molle woodland, riverine woodland, Lebombo thicket, floodplain grassland and sand forest, indicating a wide habitat tolerance (Rautenbach et al. 2014; Delcros et al. 2015). In Eswatini it has been collected from Lowveld Acacia woodland and from a home in an industrial area (Monadjem 1998, 1999). It can also survive in agricultural landscapes that are not overgrazed (P. Taylor pers. comm.). It prefers moist soils and dense vegetation (Dickman 1995). No Kruger-specific habitat account was found, though the assessment lists the species from the park.",
+  "size": {
+    "headBodyLengthCm": {
+      "min": 4.8,
+      "max": 7.5
+    },
+    "massKg": {
+      "min": 0.002,
+      "max": 0.005
+    },
+    "note": "One source claims a head-and-body length of 4.8–7.5 cm and a mass of 2–5 g (0.002–0.005 kg) for Crocidura fuscomurina. Those figures are a published range, not a mean. A tail length was printed in the same account, but the digits were not a clear minimum and maximum, so tail bounds are left unset. A more accurate figure may be available at this URL: https://ewt.org/project/tiny-musk-shrew/"
+  },
   "similar": [],
   "variants": [],
   "viewNotes": [],

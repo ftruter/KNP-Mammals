@@ -138,7 +138,12 @@
     }
   ],
   "habitat": "The 2025 EWT assessment, citing Happold (1987), describes the species across a variety of habitats from semi-arid savanna in the north of its range to forested regions further south, and, citing Skinner and Chimimba (2005), in dry mopane woodland below 1,000 m in Zimbabwe. Within the assessment region it occurs widely in the northeast, from the far-eastern Eastern Cape along the coast in KwaZulu-Natal and through Eswatini to Mpumalanga and Limpopo, and it uses both natural crevices in rocks and trees and roosts in buildings. It appears to be absent from regions above about 1,000–1,500 m (Monadjem et al. 2020). Wikipedia similarly places it from rainforest in the south to semi-arid country in the north, in typically open foraging habitat, and never on the Zimbabwe plateau above 1,000 m. The 2025 assessment records the species from Kruger National Park, but a more detailed Kruger-specific habitat account was not given beyond that record and the Kruger breeding study.",
-  "similar": [],
+  "similar": [
+    {
+      "slug": "mops-condylurus",
+      "note": "Animal Diversity Web says this bat often shares roosts with the larger Angola free-tailed bat. Wikipedia, citing Kingdon (1974) and Smithers (1983), calls this one of the smallest species in the genus."
+    }
+  ],
   "population": {
     "estimate": {
       "low": null,
