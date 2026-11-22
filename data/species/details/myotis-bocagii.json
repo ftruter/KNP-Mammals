@@ -123,7 +123,7 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger-list animal as Myotis bocagii (English Rufous hairy bat; Afrikaans Rooi langhaarvlermuis) and does not remap the name. The 2025 EWT assessment states that bocagei (du Bocage, 1889) is an incorrect subsequent spelling, and that two subspecies are recognised, with the nominate form in southern Africa. Those points are flagged here, not used to change the checklist names. Status is resident with months 1–12 under Lowveld-range rule (b): the 2025 EWT assessment describes the species as restricted to the eastern lowveld, with records from Limpopo and Mpumalanga (and also KwaZulu-Natal, the Eastern Cape and Eswatini). Movement patterns are listed as not specified, so no migrant or seasonal pattern was found. The page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park itself."
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Myotis bocagii (English Rufous hairy bat; Afrikaans Rooi langhaarvlermuis) and does not remap the name. The 2025 EWT assessment states that bocagei (du Bocage, 1889) is an incorrect subsequent spelling, and that two subspecies are recognised, with the nominate form in southern Africa. Those points are flagged here, not used to change the checklist names. Status is resident with months 1–12 under Lowveld-range rule (b): the 2025 EWT assessment describes the species as restricted to the eastern lowveld, with records from Limpopo and Mpumalanga (and also KwaZulu-Natal, the Eastern Cape and Eswatini). Movement patterns are listed as not specified, so no migrant or seasonal pattern was found. The page names the Great Limpopo Transfrontier Park but does not mention Kruger National Park itself. A photograph check on 22 November 2026 left images empty."
   },
   "gaps": [
     "Status is resident under the Lowveld-range rule from the 2025 EWT assessment (eastern lowveld, with records from Limpopo and Mpumalanga); that page still does not name Kruger National Park itself.",
@@ -133,6 +133,7 @@
     "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
     "No licensable photograph of a live wild animal: none in Kruger (place 69020) or South Africa (place 6986); southern Africa (place 113055) had only a handled and measured series from Chivero and a mist-netted bat at Afdis Ponds; Wikimedia Commons had only a museum specimen, a range map and a PDF under the Latin name, and no usable photograph under the English names.",
     "Gestation, size at birth, pup appearance and southern African roost sites were not published in the sources used.",
-    "No sourced field comparison with similar Myotis species was published on the pages used."
+    "No sourced field comparison with similar Myotis species was published on the pages used.",
+    "Photograph check on 22 November 2026: place 113055 still returns only the mist-netted bat at Afdis Ponds and the Chivero series already rejected. Images remain empty."
   ]
 }

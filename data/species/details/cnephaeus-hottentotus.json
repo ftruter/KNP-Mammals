@@ -182,7 +182,7 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Cnephaeus hottentotus (English Long-tailed serotine bat; Afrikaans Langstertdakvlermuis) and does not remap it to Long-tailed house bat, the Wikipedia title, or to the older combination Eptesicus hottentotus. The 2025 EWT assessment, citing Cláudio et al. (2023), is a genus transfer, not a split; three historically recognised subspecies remain untested by further molecular work. Appearance characters are left null because they were not published in the sources used. Movement patterns are unknown, but the 2025 assessment does not describe the species as a migrant, and a definite Kruger record is given, so status is entered as resident.",
+    "note": "This file follows species-list.json in treating the Kruger animal as Cnephaeus hottentotus (English Long-tailed serotine bat; Afrikaans Langstertdakvlermuis) and does not remap it to Long-tailed house bat, the Wikipedia title, or to the older combination Eptesicus hottentotus. The 2025 EWT assessment, citing Cláudio et al. (2023), is a genus transfer, not a split; three historically recognised subspecies remain untested by further molecular work. Appearance characters are left null because they were not published in the sources used. Movement patterns are unknown, but the 2025 assessment does not describe the species as a migrant, and a definite Kruger record is given, so status is entered as resident. A photograph check on 22 November 2026 left images empty.",
     "researched": "15 November 2026, Africa/Johannesburg"
   },
   "gaps": [
@@ -196,6 +196,7 @@
     "Animal Diversity Web has no species account under Cnephaeus hottentotus. A classification page exists under the older name Eptesicus hottentotus and was not used as a source of facts.",
     "No sourced comparison with other Kruger vesper bats was found, so similar is empty.",
     "No sourced description of echolocation or social calls was found in the sources used, and calls is empty.",
-    "The 2025 EWT assessment lists movement patterns as unknown and notes that further molecular studies of historically recognised subspecies are required."
+    "The 2025 EWT assessment lists movement patterns as unknown and notes that further molecular studies of historically recognised subspecies are required.",
+    "Photograph check on 22 November 2026: place 113055 returned six licensed research-grade observations, all older than the earlier gap note. They are the rest-camp record, a mist-net capture, and other records already in the rejected South African set. Images remain empty."
   ]
 }

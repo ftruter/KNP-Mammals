@@ -174,7 +174,7 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger-list animal as Neoromicia anchieta (English Anchieta's bat; Afrikaans Anchieta se vlermuis) and does not remap the name. The 2016 regional assessment uses Hypsugo anchietae, lists Pipistrellus anchietae as a synonym, and states that the correct spelling is anchietae, not anchieta or anchietai; it places the species in Hypsugo on bacular and chromosomal evidence. Wikipedia and later phylogenetic papers cited there support a transfer to Neoromicia under the spelling N. anchietae. iNaturalist taxon 1431023 is Neoromicia anchieta (preferred English name Anchieta's Serotine Bat) and lists Pipistrellus anchietai, Pipistrellus anchietae and Hypsugo anchietae as invalid names; that English form is flagged here, not used to change the checklist name. These are genus transfers and a spelling difference, not a split. No 2025 EWT project page was listed on the Chiroptera tag pages or in the red-list table, which links only the 2016 PDF."
+    "note": "This file follows species-list.json in treating the Kruger-list animal as Neoromicia anchieta (English Anchieta's bat; Afrikaans Anchieta se vlermuis) and does not remap the name. The 2016 regional assessment uses Hypsugo anchietae, lists Pipistrellus anchietae as a synonym, and states that the correct spelling is anchietae, not anchieta or anchietai; it places the species in Hypsugo on bacular and chromosomal evidence. Wikipedia and later phylogenetic papers cited there support a transfer to Neoromicia under the spelling N. anchietae. iNaturalist taxon 1431023 is Neoromicia anchieta (preferred English name Anchieta's Serotine Bat) and lists Pipistrellus anchietai, Pipistrellus anchietae and Hypsugo anchietae as invalid names; that English form is flagged here, not used to change the checklist name. These are genus transfers and a spelling difference, not a split. No 2025 EWT project page was listed on the Chiroptera tag pages or in the red-list table, which links only the 2016 PDF. A photograph check on 22 November 2026 left images empty."
   },
   "gaps": [
     "No 2025 EWT project page was found; conservation, habitat, diet and the Kruger record are taken from the 2016 assessment (Hypsugo anchietae).",
@@ -187,6 +187,7 @@
     "Gap-fill: iNaturalist taxon 1431023 still has no licensed research-grade photographs in southern Africa (place 113055). Wikimedia Commons searches for Neoromicia anchieta and Hypsugo anchietae returned only museum skulls and range maps.",
     "Pup appearance was not published in the sources used.",
     "Predators were not identified in the sources used.",
-    "No sourced field comparison with other Kruger vesper bats was found, so similar is empty."
+    "No sourced field comparison with other Kruger vesper bats was found, so similar is empty.",
+    "Photograph check on 22 November 2026: place 113055 returned no licensed research-grade photographs for taxon 1431023. Images remain empty."
   ]
 }
