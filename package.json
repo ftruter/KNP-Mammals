@@ -12,6 +12,8 @@
     "seed": "node scripts/seed.mjs",
     "kv:dry-run": "node scripts/publish-kv.mjs --dry-run",
     "kv:publish": "node scripts/publish-kv.mjs",
+    "media:dry-run": "node scripts/publish-media.mjs --dry-run",
+    "media:publish": "node scripts/publish-media.mjs",
     "deploy": "node scripts/deploy.mjs",
     "dev": "wrangler dev",
     "check": "wrangler deploy --dry-run --outdir dist"

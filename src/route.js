@@ -29,6 +29,48 @@ const splitFormat = (rawPath) => {
 
 const notFound = (format, pathname) => ({ kind: 'not-found', format, pathname })
 
+const objectRoute = (kind, pathname, prefix) => {
+  const key = safeObjectKey(pathname.slice(`/${prefix}/`.length))
+  if (!key) return notFound('html', pathname)
+  return { kind, format: 'html', pathname, objectKey: key }
+}
+
+/**
+ * An R2 object key from a URL path or a stored key. Rejects `..`, an empty
+ * segment, a backslash, and a leading or trailing slash.
+ */
+export const safeObjectKey = (raw) => {
+  let key
+  try {
+    key = decodeURIComponent(raw)
+  } catch {
+    return null
+  }
+  if (
+    !key ||
+    key.startsWith('/') ||
+    key.endsWith('/') ||
+    key.includes('\\') ||
+    key.includes('\0')
+  )
+    return null
+  const parts = key.split('/')
+  if (parts.some((part) => part === '' || part === '.' || part === '..'))
+    return null
+  return key
+}
+
+/** `/images/<key>` or `/audio/<key>` for a stored key, or '' when it is unsafe. */
+export const objectPublicPath = (group, key) => {
+  if (group !== 'images' && group !== 'audio') return ''
+  const safe = safeObjectKey(typeof key === 'string' ? key : '')
+  if (!safe) return ''
+  return `/${group}/${safe
+    .split('/')
+    .map((part) => encodeURIComponent(part))
+    .join('/')}`
+}
+
 /**
  * Maps a URL to a route. `key` is the KV document the page is rendered from.
  * A trailing slash redirects to the same path without it.
@@ -52,6 +94,10 @@ export const parseUrl = (url) => {
   }
 
   const { format, pathname } = splitFormat(rawPath)
+  if (format === 'html' && pathname.startsWith('/images/'))
+    return objectRoute('image', pathname, 'images')
+  if (format === 'html' && pathname.startsWith('/audio/'))
+    return objectRoute('audio', pathname, 'audio')
   if (pathname === '/')
     return { kind: 'home', format, pathname, key: 'index/families' }
   if (pathname === '/families')

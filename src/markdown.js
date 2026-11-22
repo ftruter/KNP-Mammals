@@ -1,4 +1,5 @@
 import { inlineText, safeHttpUrl } from './escape.js'
+import { mediaSrc } from './media.js'
 import {
   ABOUT,
   APPROXIMATE_LABEL,
@@ -120,25 +121,43 @@ const animal = (item) => {
   return item?.note ? `${link}. ${one(item.note)}` : link
 }
 
+const filePhrase = (shown) => {
+  if (!shown) return ''
+  const where = shown.onSite
+    ? 'Saved on this site: yes.'
+    : `Saved on this site: no. It loads from ${new URL(shown.src).hostname}.`
+  return `[File](${shown.src}). ${where}`
+}
+
+const creditBits = (item, shown) => {
+  const credit = [
+    item?.author ? one(item.author) : 'author not recorded',
+    item?.license ? one(item.license) : 'licence not recorded',
+  ].join(', ')
+  const source = safeHttpUrl(item?.source)
+  return [
+    `Credit: ${credit}`,
+    source ? `[Source](${source})` : '',
+    filePhrase(shown),
+  ]
+    .filter(Boolean)
+    .join('. ')
+}
+
 const imageLine = (image) => {
   const what = [viewLabel(image?.view), image?.caption]
     .filter(Boolean)
     .map(one)
     .join('. ')
-  const source = safeHttpUrl(image?.source)
-  const credit = [
-    image?.author ? one(image.author) : 'author not recorded',
-    image?.license ? one(image.license) : 'licence not recorded',
-  ].join(', ')
-  return `${what} Credit: ${credit}${source ? `. [Source](${source})` : ''}`
+  const credit = creditBits(image, mediaSrc(image, 'images'))
+  return [what, credit].filter(Boolean).join('. ')
 }
 
 const callLine = (call) => {
-  const files = listed(call?.recordings)
-    .map((recording) => safeHttpUrl(recording?.source))
-    .filter(Boolean)
-    .map((href) => `[recording](${href})`)
-  return `**${callTypeLabel(call?.type)}.** ${one(call?.description || '')}${files.length ? ` ${files.join(', ')}` : ''}`
+  const files = listed(call?.recordings).map((recording) =>
+    creditBits(recording, mediaSrc(recording, 'audio')),
+  )
+  return `**${callTypeLabel(call?.type)}.** ${one(call?.description || '')}${files.length ? ` ${files.join(' ')}` : ''}`
 }
 
 const publishedSpecies = (doc, details) => {

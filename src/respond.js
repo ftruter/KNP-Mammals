@@ -16,6 +16,9 @@ const SECURITY = {
 const PAGE_CSP =
   "default-src 'none'; style-src 'self'; img-src 'self' https:; media-src 'self' https:; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; script-src 'self'"
 
+const OBJECT_CSP =
+  "default-src 'none'; style-src 'none'; script-src 'none'; sandbox"
+
 export const CONTENT_TYPES = {
   html: 'text/html; charset=utf-8',
   md: 'text/markdown; charset=utf-8',
@@ -71,6 +74,45 @@ export const iconResponse = (icon, cache) => {
   headers.set('content-length', String(icon.body.length))
   headers.set('access-control-allow-origin', '*')
   return new Response(icon.body, { headers })
+}
+
+/** A photograph or recording: nothing in it may run, even if it is opened as a page. */
+export const objectResponse = ({
+  body,
+  status = 200,
+  contentType,
+  cache,
+  etag,
+  size,
+  disposition,
+  range = null,
+  ranges = false,
+}) => {
+  const headers = new Headers(SECURITY)
+  headers.set('content-type', contentType)
+  headers.set('content-security-policy', OBJECT_CSP)
+  headers.set('cache-control', cache)
+  headers.set('access-control-allow-origin', '*')
+  if (etag) headers.set('etag', etag)
+  if (ranges) headers.set('accept-ranges', 'bytes')
+  if (range) {
+    headers.set(
+      'content-range',
+      `bytes ${range.offset}-${range.offset + range.length - 1}/${size}`,
+    )
+    headers.set('content-length', String(range.length))
+  } else if (Number.isFinite(size)) headers.set('content-length', String(size))
+  if (disposition) headers.set('content-disposition', disposition)
+  return new Response(body, { status: range ? 206 : status, headers })
+}
+
+export const plainResponse = ({ body, status = 200, cache }) => {
+  const headers = new Headers(SECURITY)
+  headers.set('content-type', 'text/plain; charset=utf-8')
+  headers.set('content-security-policy', PAGE_CSP)
+  headers.set('cache-control', cache)
+  headers.set('access-control-allow-origin', '*')
+  return new Response(body, { status, headers })
 }
 
 export const redirectResponse = (location, cache) => {

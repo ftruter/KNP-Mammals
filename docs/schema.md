@@ -111,7 +111,7 @@ Each image:
 | `view`, `age`, `sex`, `season` | Same vocabularies as variants and view notes. |
 | `source` | Source page URL (Commons file page, or iNaturalist observation). |
 | `fileUrl` | Optional file URL used for display when the photograph is not in the bucket. A Wikimedia 1280-pixel thumbnail, or an iNaturalist `large` open-data URL, is fine. ND items are not displayed this way. |
-| `hosted` | `false` means the file is not in the bucket. The page then shows `fileUrl` when the licence allows display. |
+| `hosted` | `false` means the file is not in the bucket. The page then shows `fileUrl` when the licence allows display. `hosted: true` means this key is in the bucket and the page loads `/images/<key>` or `/audio/<key>`. |
 | `author` | Who made the photograph. |
 | `license` | Licence name, for example `CC BY-SA 2.0`. The field name stays `license`. |
 | `licenceUrl` | A link to the licence terms, or `null`. |

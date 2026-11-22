@@ -203,9 +203,30 @@ test('a researched species page has photographs, facts and credits', async () =>
 })
 
 test('a species with no account says so', async () => {
+  // Every listed species now has a details file, so this stands in for one
+  // that does not. It is not a species record.
   const index = JSON.parse(store.get('index/species'))
-  const plain = index.species.find((species) => !species.researched)
-  const body = await (await get(`/species/${plain.slug}`)).text()
+  assert.ok(index.species.every((species) => species.researched))
+  const bare = {
+    MAMMALS_KV: {
+      get: async (key) =>
+        key === 'species/no-account'
+          ? JSON.stringify({
+              slug: 'no-account',
+              en: 'No account',
+              latin: 'Sine specie',
+              family: 'Cats',
+              familySlug: 'felidae',
+              familyEn: 'Cats',
+              order: 'Carnivora',
+              orderSlug: 'carnivora',
+            })
+          : null,
+    },
+  }
+  const body = await (
+    await handleRequest(new Request(`${origin}/species/no-account`), bare)
+  ).text()
   assert.match(
     body,
     /The details for this species have not been published yet\./,

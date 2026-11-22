@@ -33,6 +33,11 @@ invocation_logs = true
 binding = "MAMMALS_KV"
 id = "93d49abe1a594aadb7c5bbbdaf23cf75"
 
+# Binding only. Create knp-mammals-images separately, after the owner agrees.
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "knp-mammals-images"
+
 [[routes]]
 pattern = "mammals.truter.world"
 custom_domain = true
