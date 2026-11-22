@@ -147,7 +147,7 @@ Try xeno-canto and the Macaulay Library. If no licensable recording is found, le
 | `trend` | `increasing`, `stable`, `decreasing`, or `unknown`. |
 | `confidence` | `low`, `medium`, `high`, or `null`. Use `medium` or `low` when the figure is not from the official source. |
 | `asOf` | Year of the estimate, or `null`. |
-| `notes` | Plain text. Say when a PDF could not be fetched, and keep older figures in the note or in `previousEstimates`. |
+| `notes` | Plain text. Keep older figures in the note or in `previousEstimates`, and do not record access problems in species data. |
 | `sources` | Citations: `title`, `url`, `publisher`, `year`, optional `note`. |
 | `previousEstimates` | Optional. Earlier cited ranges, each with `estimate`, `unit`, `asOf`, and `notes`. They do not replace `estimate`. |
 
