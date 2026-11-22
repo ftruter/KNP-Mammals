@@ -184,7 +184,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult Cape hare standing in profile in open Karoo shrubland",
       "caption": "Research-grade iNaturalist observation, Karoo National Park, 16 November 2014. No reusable Kruger photograph was found."
     },
@@ -200,7 +200,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Close side view of an adult Cape hare, showing the long ears and pale eye-ring",
       "caption": "Research-grade iNaturalist observation, Nautilus Bay, Mossel Bay, Western Cape, 27 October 2022."
     },
@@ -216,7 +216,7 @@
       "license": "CC0 1.0",
       "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult Cape hare standing alert in profile, showing long black-tipped ears",
       "caption": "Research-grade iNaturalist observation, Aberdeen District, South Africa, 30 January 2009."
     },
@@ -232,7 +232,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult Cape hare standing in dry grassland near Beaufort West",
       "caption": "Research-grade iNaturalist observation, Beaufort West, Western Cape, 30 September 2023."
     },
@@ -248,7 +248,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult Cape hare crouched on open ground on the Cape Peninsula",
       "caption": "Research-grade iNaturalist observation, Cape Peninsula, Cape Town, 3 May 2022."
     }

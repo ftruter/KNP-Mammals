@@ -331,7 +331,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two adult eland facing the camera in dry woodland, with spiral horns and oxpeckers on their backs, Kruger National Park",
       "caption": "Research-grade iNaturalist observation, Mopani, Kruger National Park, 30 August 2017. The two tan animals are treated as adult females."
     },
@@ -347,7 +347,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two adult eland seen from behind, showing tawny unstriped rumps and spiral horns, Kruger National Park",
       "caption": "Research-grade iNaturalist observation, Mopani, Kruger National Park, 30 August 2017."
     },
@@ -363,7 +363,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "An adult male eland in side view, showing a dewlap and a darker neck and face, Kruger National Park",
       "caption": "Research-grade iNaturalist observation, Kruger National Park, 11 November 2024. The dewlap and darker forequarters identify an adult male."
     },
@@ -379,7 +379,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "An adult eland standing with a small calf in grassland, Kruger National Park",
       "caption": "Research-grade iNaturalist observation, Mopani, Kruger National Park, 23 November 2023."
     }

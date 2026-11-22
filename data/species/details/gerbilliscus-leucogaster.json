@@ -187,7 +187,7 @@
             "license": "CC BY 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "Bushveld gerbil among dry grass, showing a pale sandy coat, a large dark eye and a pale inner ear",
             "caption": "Research-grade iNaturalist observation, Medike Mountain Sanctuary, Limpopo, 15 November 2014."
         },
@@ -203,7 +203,7 @@
             "license": "CC BY-NC 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "Bushveld gerbil in leaf litter in the Waterberg, showing the head and pale underside among dry leaves",
             "caption": "Research-grade iNaturalist observation, Waterberg District Municipality, Limpopo, 19 May 2026."
         }

@@ -198,7 +198,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "hystrix-africaeaustralis/stols-night-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -214,7 +214,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "hystrix-africaeaustralis/mckenzie-veld-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -230,7 +230,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "hystrix-africaeaustralis/hmi509-road-back.jpg",
       "view": "standing-back",
       "age": "adult",
@@ -246,7 +246,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "hystrix-africaeaustralis/brewmaster-night-back.jpg",
       "view": "standing-back",
       "age": "adult",

@@ -293,7 +293,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male Sharpe's grysbok standing in tall green grass, showing short horns and a white-flecked reddish-brown coat, Kruger National Park",
       "caption": "Adult male, Mahonie Loop near Punda Maria, Kruger National Park."
     },
@@ -309,7 +309,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult female Sharpe's grysbok seen from behind, showing shaggy white-flecked hindquarters and a short tail, Kruger National Park",
       "caption": "Adult female, Mahonie Loop near Punda Maria, Kruger National Park."
     },
@@ -325,7 +325,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult female Sharpe's grysbok hidden in tall grass, Kruger National Park",
       "caption": "Adult female hidden in grass, Mahonie Loop north of Punda Maria, Kruger National Park."
     },
@@ -341,7 +341,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult female Sharpe's grysbok in woodland, showing a reddish coat speckled with white, Kruger National Park",
       "caption": "Adult female, S58 road east of Punda Maria, Kruger National Park."
     },
@@ -357,7 +357,7 @@
       "license": "CC BY-SA 3.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult Sharpe's grysbok facing the camera in dry grass, showing a pale muzzle, ear linings and a grizzled coat, Kruger National Park",
       "caption": "Adult female (no horns visible), Kruger National Park."
     }

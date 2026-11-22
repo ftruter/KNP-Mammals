@@ -198,7 +198,7 @@
           "key": "paraxerus-cepapi/agujaceratops-shingwedzi.wav",
           "source": "https://www.inaturalist.org/observations/135954701",
           "fileUrl": "https://static.inaturalist.org/sounds/539266.wav",
-          "hosted": false,
+          "hosted": true,
           "author": "agujaceratops",
           "license": "CC BY 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -211,7 +211,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "paraxerus-cepapi/jessnitz-pafuri-perched-side.jpg",
       "view": "perched-side",
       "age": "adult",
@@ -227,7 +227,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "paraxerus-cepapi/carstenunterwegx-letaba-standing-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -243,7 +243,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "paraxerus-cepapi/pattylomonaco-tree-trunk.jpg",
       "view": "perched-side",
       "age": "adult",

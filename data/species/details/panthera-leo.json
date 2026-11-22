@@ -380,7 +380,7 @@
           "license": "CC BY-NC 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
           "aiGenerated": false,
-          "hosted": false,
+          "hosted": true,
           "place": "Sable Hide, Mopani, Kruger National Park",
           "date": "2015-05-18",
           "note": "Field recording made during a sleepover at Sable Hide. The observation does not name the call type."
@@ -401,7 +401,7 @@
       "license": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male lion with a full mane lying in bush in Kruger National Park",
       "caption": "Adult male, Kruger National Park."
     },
@@ -417,7 +417,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Young male lion standing in profile in tall grass in Kruger National Park",
       "caption": "Young male, H10 road south of Tshokwane, Kruger National Park."
     },
@@ -433,7 +433,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult lioness walking forwards through grass in Kruger National Park",
       "caption": "Adult female, Kruger National Park."
     },
@@ -449,7 +449,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Close view of an adult lioness's head in Kruger National Park",
       "caption": "Adult female, Kruger National Park."
     },
@@ -465,7 +465,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Lioness lying on grass with a cub standing beside her in Kruger National Park",
       "caption": "Female and cub, James Waterhole, S114 road north of Malelane Gate, Kruger National Park."
     },
@@ -481,7 +481,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Lionesses and cubs resting together on a road in Kruger National Park",
       "caption": "Lionesses and cubs, H3 road north of Malelane Gate, Kruger National Park."
     }

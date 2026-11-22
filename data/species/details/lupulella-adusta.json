@@ -216,7 +216,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lupulella-adusta/kruger-running-brown.jpg",
       "view": "running",
       "age": "adult",
@@ -232,7 +232,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lupulella-adusta/kruger-running-letaba.jpg",
       "view": "running",
       "age": "adult",
@@ -248,7 +248,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lupulella-adusta/kruger-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -264,7 +264,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lupulella-adusta/kruger-pair.jpg",
       "view": "herd",
       "age": "adult",
@@ -280,7 +280,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lupulella-adusta/kruger-mopani.jpg",
       "view": "standing-side",
       "age": "adult",

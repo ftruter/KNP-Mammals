@@ -358,7 +358,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male kudu in side view browsing, showing spiral horns, a throat beard and vertical white stripes, Kruger National Park",
       "caption": "Adult male browsing, H4-1 road west of Lower Sabie, Kruger National Park."
     },
@@ -374,7 +374,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male kudu standing among bushes, with long spiral horns and body stripes, Kruger National Park",
       "caption": "Adult male, S28 road south of Lower Sabie, Kruger National Park."
     },
@@ -390,7 +390,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Hornless adult female kudu in side view, showing vertical white stripes and large ears, Kruger National Park",
       "caption": "Adult female browsing, H4-1 road south of Lower Sabie, Kruger National Park."
     },
@@ -406,7 +406,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two adult female kudu seen from behind, showing large ears and body stripes, Kruger National Park",
       "caption": "Adult females, H3 road north of Afsaal, Kruger National Park."
     },
@@ -422,7 +422,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A young male kudu facing the camera, with horns not yet fully spiralled, Kruger National Park",
       "caption": "Young male, Mahonie Loop west of Punda Maria, Kruger National Park."
     }

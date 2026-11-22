@@ -283,7 +283,7 @@
           "license": "CC BY-NC 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
           "aiGenerated": false,
-          "hosted": false,
+          "hosted": true,
           "place": "Lake Panic Bird Hide, Kruger National Park",
           "date": "2026-06-25",
           "note": "Field recording made from the Lake Panic Bird Hide, with photographs of the same animals. The observation does not name the call type."
@@ -296,7 +296,7 @@
           "license": "CC BY-NC 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
           "aiGenerated": false,
-          "hosted": false,
+          "hosted": true,
           "place": "Kruger National Park",
           "date": "2026-08-12",
           "note": "Field recording from Kruger National Park. The observation does not name the call type."
@@ -317,7 +317,7 @@
       "license": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult hippopotamus walking on land at Letaba, Kruger National Park",
       "caption": "Adult on land, Letaba, Kruger National Park."
     },
@@ -333,7 +333,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Hippopotamus with only the eyes, ears and nostrils above the water at Sunset Dam, Kruger National Park",
       "caption": "Adult in the water, Sunset Dam, H4-1 road west of Lower Sabie, Kruger National Park."
     },
@@ -349,7 +349,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A juvenile hippopotamus standing on rocks, with adults lying in the river, Kruger National Park",
       "caption": "Juvenile on a rock, with adults in the water, Kruger National Park."
     },
@@ -365,7 +365,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A pod of hippopotamus resting on the bank and in the water, Kruger National Park",
       "caption": "Pod at N'watimhiri Dam, H4-1 road west of Lower Sabie, Kruger National Park."
     },
@@ -381,7 +381,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult hippopotamus lying on a muddy bank, Kruger National Park",
       "caption": "Adult lying at the water's edge, N'watimhiri Dam, H4-1 road west of Lower Sabie, Kruger National Park."
     }

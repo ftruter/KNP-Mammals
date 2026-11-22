@@ -238,7 +238,7 @@
       "season": "any",
       "source": "https://www.inaturalist.org/observations/151079",
       "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/207760/large.jpg",
-      "hosted": false,
+      "hosted": true,
       "author": "Tim Ellis",
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",

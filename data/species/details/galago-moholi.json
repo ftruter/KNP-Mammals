@@ -250,7 +250,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "South African lesser bushbaby clinging to a branch at night in the Makuleke area of Kruger National Park, showing large grey ears, orange eyes and a darker tail",
       "caption": "Research-grade iNaturalist observation, Makuleke, Kruger National Park, 16 March 2018."
     },
@@ -266,7 +266,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two South African lesser bushbabies looking out from a tree hollow at dusk in northern Kruger National Park",
       "caption": "Two animals at a tree hollow. Research-grade iNaturalist observation, northern Kruger National Park, 9 September 2022."
     },
@@ -282,7 +282,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "South African lesser bushbaby in side view on a thorny acacia branch at night in southern Kruger National Park",
       "caption": "Research-grade iNaturalist observation, southern Kruger National Park, 10 October 2019."
     },
@@ -298,7 +298,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "South African lesser bushbaby perched in a tree at night in central Kruger National Park, showing the grey coat and large ears",
       "caption": "Research-grade iNaturalist observation, central Kruger National Park, 21 June 2022."
     }

@@ -392,7 +392,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male warthog grazing, showing large curved tusks, facial warts and a mane, Kruger National Park",
       "caption": "Adult male grazing, H7 road west of Satara, Kruger National Park."
     },
@@ -408,7 +408,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult female warthog standing in grass, Kruger National Park",
       "caption": "Adult female, H10 road north of Lower Sabie, Kruger National Park."
     },
@@ -424,7 +424,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A sounder of adult warthogs with piglets along a road in Kruger National Park",
       "caption": "Adults with piglets, H4-1 road east of Skukuza, Kruger National Park."
     },
@@ -440,7 +440,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A young warthog running with its tail held up, Kruger National Park",
       "caption": "Young animal running, S63 road near Pafuri, Kruger National Park."
     }

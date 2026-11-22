@@ -204,7 +204,7 @@
             "license": "CC BY 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "Pouched mouse standing on sand at night, showing a robust grey-brown body, a short tail, short rounded ears and small eyes",
             "caption": "Research-grade iNaturalist observation, Medike Mountain Sanctuary, Limpopo, 12 September 2014."
         },
@@ -220,7 +220,7 @@
             "license": "CC BY 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "Pouched mouse looking out from a burrow, showing a broad head, short rounded ears and small eyes",
             "caption": "Research-grade iNaturalist observation, Medike Mountain Sanctuary, Limpopo, 12 September 2014."
         }

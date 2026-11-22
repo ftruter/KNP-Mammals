@@ -257,7 +257,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Rock dassie in three-quarter view on a rock, showing the thick grey-brown coat, rounded ears and broad muzzle",
       "caption": "Research-grade iNaturalist observation, northern Kruger National Park, 11 October 2024."
     },
@@ -273,7 +273,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Rock dassie in profile on a pale boulder against the sky, showing the squat build and short tail",
       "caption": "Research-grade iNaturalist observation, Kruger National Park, Masorini area, 26 May 2021."
     },
@@ -289,7 +289,7 @@
       "license": "CC0",
       "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two rock dassies on a sloping rock in open woodland",
       "caption": "Research-grade iNaturalist observation, Kruger National Park, Masorini area, 13 September 2026."
     },
@@ -305,7 +305,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two rock dassies on a lichen-stained rock",
       "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 29 January 2024."
     }

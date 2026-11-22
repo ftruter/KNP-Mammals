@@ -353,7 +353,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Three adult male impala standing in open grassland in Kruger National Park, showing lyre-shaped horns and black haunch streaks",
       "caption": "Adult males, S32 road east of Tshokwane, Kruger National Park."
     },
@@ -369,7 +369,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male impala lying down and facing the camera, showing lyre-shaped horns, white chin and black-tipped ears",
       "caption": "Adult male ruminating, S63 road, Pafuri area, Kruger National Park."
     },
@@ -385,7 +385,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male impala running through long grass in Kruger National Park",
       "caption": "Male running, Kruger National Park."
     },
@@ -401,7 +401,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Hornless adult female impala with a lamb, showing black haunch streaks, in Kruger National Park",
       "caption": "Females and lamb, Sunset Dam, H4-1 road west of Lower Sabie, Kruger National Park."
     },
@@ -417,7 +417,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A young impala lamb standing in green grass in Kruger National Park",
       "caption": "Lamb, S28 road north of Crocodile Bridge, Kruger National Park. The file title names it as a male lamb."
     },
@@ -433,7 +433,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A group of female impala and young lying and standing in a nursery group in Kruger National Park",
       "caption": "Female guarding a nursery group, S130 road south of Lower Sabie, Kruger National Park."
     },
@@ -449,7 +449,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A small impala breeding herd feeding under a marula tree in Kruger National Park",
       "caption": "Breeding herd feeding on fallen marula fruit, Mahonie Loop, Kruger National Park."
     }

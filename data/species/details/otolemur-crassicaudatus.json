@@ -220,7 +220,7 @@
           "author": "eliegaget",
           "license": "CC BY-NC 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
-          "hosted": false,
+          "hosted": true,
           "aiGenerated": false
         }
       ]
@@ -251,7 +251,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Thick-tailed bushbaby lying on a branch at night in the Pafuri area of Kruger National Park, showing very large ears and a short wide muzzle",
       "caption": "Research-grade iNaturalist observation, Pafuri, Kruger National Park, 19 May 2025."
     },
@@ -267,7 +267,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Thick-tailed bushbaby in a tree at night along the Lebombo and Sweni Lodge Road in Kruger National Park, showing the long bushy tail",
       "caption": "Research-grade iNaturalist observation, Lebombo and Sweni Lodge Road, Kruger National Park, 10 April 2026."
     },
@@ -283,7 +283,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Thick-tailed bushbaby hanging from a thin branch among seed pods at night along the Lebombo and Sweni Lodge Road in Kruger National Park",
       "caption": "Research-grade iNaturalist observation, Lebombo and Sweni Lodge Road, Kruger National Park, 24 July 2026."
     },
@@ -299,7 +299,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Thick-tailed bushbaby walking along a branch at night in Kruger National Park, showing grey upperparts, paler underparts and a bushy tail with a darker tip",
       "caption": "Research-grade iNaturalist observation, Kruger National Park (Mopani), 30 November 2025."
     }

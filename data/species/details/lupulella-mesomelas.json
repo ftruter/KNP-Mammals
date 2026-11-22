@@ -226,7 +226,7 @@
           "license": "CC BY-NC 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
           "aiGenerated": false,
-          "hosted": false,
+          "hosted": true,
           "place": "Satara Camp Road, Kruger National Park",
           "date": "2026-09-16",
           "note": "Field recording made early in the morning. The observation does not name the call type."
@@ -238,7 +238,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lupulella-mesomelas/kruger-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -254,7 +254,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lupulella-mesomelas/kruger-three-quarter.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -270,7 +270,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lupulella-mesomelas/kruger-running.jpg",
       "view": "running",
       "age": "adult",

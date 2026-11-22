@@ -229,7 +229,7 @@
           "license": "CC BY-NC 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
           "aiGenerated": false,
-          "hosted": false
+          "hosted": true
         }
       ]
     }
@@ -247,7 +247,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult vervet monkey sitting in a tree in Kruger National Park, showing the black face, white hair fringe, grizzled-grey coat and long tail",
       "caption": "Adult, Kruger National Park, 26 April 2024."
     },
@@ -263,7 +263,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Close view of an adult vervet monkey's head in Kruger National Park, showing the black face and white fringe of hair",
       "caption": "Adult, Kruger National Park, 25 July 2018."
     },
@@ -279,7 +279,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Young vervet monkey facing the camera on the H4-1 road north of Lower Sabie, Kruger National Park",
       "caption": "Young animal, H4-1 road north of Lower Sabie, Kruger National Park, 12 November 2021."
     },
@@ -295,7 +295,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult vervet monkey walking on rocks with an infant clinging to its back, west of Biyamiti, Kruger National Park",
       "caption": "Adult with an infant on its back, S23 road west of Biyamiti, Kruger National Park, 18 January 2015."
     },
@@ -311,7 +311,7 @@
       "license": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult vervet monkey holding a young infant, with another animal behind, in Kruger National Park",
       "caption": "Adult with a clinging infant, Kruger National Park, 1 January 2014."
     }

@@ -391,7 +391,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult roan antelope standing in open grassland, showing a roan coat, dark face, tufted ears and backswept horns, Kruger National Park",
       "caption": "Adult, Kruger National Park."
     },
@@ -407,7 +407,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult roan antelope walking in dry open ground, showing the side profile, mane, dark legs and tufted tail, Kruger National Park",
       "caption": "Adult, eastern Kruger National Park, north of Olifants."
     },
@@ -423,7 +423,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult roan antelope facing the camera in tall grass, showing the face mask and long tufted ears, Kruger National Park",
       "caption": "Adult, Mopani area, Kruger National Park."
     },
@@ -439,7 +439,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult roan antelope striding through a puddle, showing the dark face, mane, darker legs and scimitar horns, Kruger National Park",
       "caption": "Adult, Dipeni road, Kruger National Park."
     },
@@ -455,7 +455,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Juvenile roan antelope standing in open woodland, with a rufous mane and shorter developing horns, Kruger National Park",
       "caption": "Juvenile, northern Kruger National Park. The observer described it as a youngster."
     }

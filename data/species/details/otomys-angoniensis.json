@@ -184,7 +184,7 @@
             "license": "CC BY-NC 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "Angoni vlei rat facing the camera among grass and rock, showing large ears and long, soft grey-brown fur",
             "caption": "Research-grade iNaturalist observation, Golden Gate Highlands National Park, Free State, 17 April 2024."
         },
@@ -200,7 +200,7 @@
             "license": "CC BY-NC 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "Angoni vlei rat in side view under a rock overhang, showing a shaggy grey-brown coat and large ears",
             "caption": "Research-grade iNaturalist observation, Buffelskloof Nature Reserve, Mpumalanga, 23 October 2021."
         }

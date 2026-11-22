@@ -235,7 +235,7 @@
         {
             "season": "any",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "key": "lutra-capensis/mjejane-bank-side.jpg",
             "view": "standing-side",
             "age": "adult",
@@ -251,7 +251,7 @@
         {
             "season": "any",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "key": "lutra-capensis/sabie-causeway-front.jpg",
             "view": "standing-front",
             "age": "adult",
@@ -267,7 +267,7 @@
         {
             "season": "any",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "key": "lutra-capensis/kruger-swimming-front.jpg",
             "view": "standing-front",
             "age": "adult",
@@ -283,7 +283,7 @@
         {
             "season": "any",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "key": "lutra-capensis/olifants-river-pair.jpg",
             "view": "herd",
             "age": "adult",

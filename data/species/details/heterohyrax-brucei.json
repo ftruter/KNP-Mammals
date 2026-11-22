@@ -231,7 +231,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Yellow-spotted rock dassie sitting in a tree, showing the pale eyebrow, narrow muzzle and grey-brown coat",
       "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 25 November 2023."
     },
@@ -247,7 +247,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Yellow-spotted rock dassie in a thorny bush, showing the pale eyebrow and grey coat",
       "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 25 July 2025."
     },
@@ -263,7 +263,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two yellow-spotted rock dassies on a rock, showing pale eyebrows and grey coats",
       "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 31 August 2024."
     }

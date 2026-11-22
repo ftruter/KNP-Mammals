@@ -205,7 +205,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Rock elephant-shrew in close side view among rocks, showing the long snout, white eye-ring and brownish-grey coat",
       "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 3 November 2025."
     },
@@ -221,7 +221,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Rock elephant-shrew in side view under a rock overhang, showing the long snout, pale eye-ring and long tail",
       "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 3 December 2024."
     },
@@ -237,7 +237,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Rock elephant-shrew standing on a jumble of rocks, showing the long snout, ears and brownish-grey upperparts",
       "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 19 December 2017."
     },
@@ -253,7 +253,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Rock elephant-shrew in full side view on stony ground, showing the long snout and a sparsely haired tail longer than the body",
       "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 16 February 2018."
     },
@@ -269,7 +269,7 @@
       "license": "CC0",
       "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Rock elephant-shrew in a rock crevice, showing the long snout among pale boulders",
       "caption": "Research-grade iNaturalist observation, far-northern Kruger National Park, 5 July 2026."
     }

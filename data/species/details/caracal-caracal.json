@@ -287,7 +287,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Caracal walking in profile, showing the black ear tufts, in Kruger National Park",
       "caption": "Adult, Kruger National Park."
     },
@@ -303,7 +303,7 @@
       "license": "CC BY-SA 3.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Close view of a caracal's face and black-tufted ears at Mountain Zebra National Park",
       "caption": "Adult, Mountain Zebra National Park, Eastern Cape. No comparably clear front view from Kruger was found."
     },
@@ -319,7 +319,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Caracal moving through dry bush near Mopani Rest Camp, Kruger National Park",
       "caption": "Adult, Mopani Rest Camp, Kruger National Park."
     }

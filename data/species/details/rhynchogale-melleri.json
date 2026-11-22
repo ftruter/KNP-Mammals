@@ -222,7 +222,7 @@
       "season": "any",
       "source": "https://www.inaturalist.org/observations/130006834",
       "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/221022977/large.jpeg",
-      "hosted": false,
+      "hosted": true,
       "author": "woodowlwildlife",
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
