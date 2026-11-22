@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
-import { collectEntries } from '../scripts/seed.mjs'
+import { collectEntries, mediaCredit } from '../scripts/seed.mjs'
 import { NO_STORE, PAGE_CACHE } from '../src/cache.js'
 import { parseUrl } from '../src/route.js'
 import { handleRequest } from '../src/worker.js'
@@ -226,6 +226,163 @@ test("Juliana's golden mole shows the Imagined by Grok illustration", async () =
   assert.ok(md.includes(caption))
   assert.match(md, /Credit: Grok, CC0 1\.0/)
   assert.equal(md.includes('Photograph, not AI-generated.'), false)
+})
+
+const ALLOWED_MEDIA_LICENCE =
+  /^(?:CC0(?: \d+\.\d+)?|CC BY(?:-NC)?(?:-SA)?(?: \d+\.\d+)?)$/
+
+test('the credits page lists sources, taxonomy and every file', async () => {
+  const route = (path) => parseUrl(new URL(`${origin}${path}`))
+  assert.deepEqual(route('/credits'), {
+    kind: 'credits',
+    format: 'html',
+    pathname: '/credits',
+    key: 'index/credits',
+  })
+  assert.equal(route('/credits.md').format, 'md')
+  assert.equal(route('/credits.md').key, 'index/credits')
+  assert.equal(route('/credits.json').format, 'json')
+  assert.equal(route('/credits.json').key, 'index/credits')
+
+  const response = await get('/credits')
+  assert.equal(response.status, 200)
+  const body = await response.text()
+  const doc = JSON.parse(store.get('index/credits'))
+  const images = doc.species.flatMap((group) => group.images)
+  const recordings = doc.species.flatMap((group) => group.recordings)
+  const ai = images.filter((image) => image.aiGenerated === true).length
+  assert.equal(images.length - ai, 381)
+  assert.equal(ai, 1)
+  assert.equal(recordings.length, 12)
+  assert.equal(doc.species.length, 143)
+  assert.equal(
+    doc.species.reduce((sum, group) => sum + group.sources.length, 0),
+    747,
+  )
+  assert.equal(doc.mediaNote, null)
+  assert.equal(doc.site.licence, null)
+  assert.equal(doc.site.licenceUrl, null)
+  assert.equal(doc.models, undefined)
+  assert.match(body, /381 photographs and 1 AI-generated illustration/)
+  assert.match(body, /12 recordings/)
+  assert.match(body, /143 species sections/)
+  for (const name of [
+    'SANParks 2011 Kruger mammal checklist',
+    'iNaturalist, Kruger National Park, place 69020',
+    'Waterberg Bioquest, Soogdiere',
+    'Suider-Afrikaanse soogdiere en hul ordes',
+    '2016 SANBI / EWT Red List of Mammals',
+    'wildlife and trends over time',
+    'Wikimedia Commons, category Mammals of Kruger National Park',
+    'Galagidae',
+    'Nesomyidae',
+    'Miniopteridae',
+  ])
+    assert.ok(body.includes(name), name)
+  assert.match(body, /Bernard DUPONT/)
+  assert.match(body, /CC BY-SA 2\.0/)
+  assert.match(body, /Blue wildebeest/)
+  assert.match(body, /AI-generated image/)
+  assert.match(body, /Licence not recorded\./)
+  assert.equal(body.includes('Apache'), false)
+  assert.equal(
+    body.includes(
+      'Adult, H4-2 road north of Crocodile Bridge, Kruger National Park.',
+    ),
+    false,
+  )
+  assert.equal(
+    body.includes(
+      'Imagined by Grok. An illustration, not a photograph of a real animal.',
+    ),
+    false,
+  )
+  assert.equal(body.includes('kruger-skukuza.mp3'), false)
+  assert.equal(body.includes('agujaceratops-shingwedzi.wav'), false)
+  assert.match(body, /href="\/credits"/)
+  assert.equal(body.includes('aria-current="page">Families'), false)
+  assert.equal(body.includes('aria-current="page">Species'), false)
+
+  for (const item of [...images, ...recordings]) {
+    assert.match(item.licence, ALLOWED_MEDIA_LICENCE, item.key)
+    assert.equal(Object.hasOwn(item, 'caption'), false)
+  }
+  assert.ok(recordings.some((item) => item.licence === 'CC BY-NC'))
+  assert.ok(recordings.some((item) => item.key.endsWith('kruger-skukuza.mp3')))
+  const wildebeest = doc.species.find(
+    (group) => group.slug === 'connochaetes-taurinus',
+  )
+  assert.equal(wildebeest.images[0].author, 'Bernard DUPONT')
+  assert.equal(wildebeest.images[0].licence, 'CC BY-SA 2.0')
+  assert.equal(wildebeest.recordings[0].quality, 'A')
+  assert.equal(wildebeest.recordings[0].callType, 'call')
+
+  const names = doc.species.map((group) => group.scientificName)
+  assert.deepEqual(
+    names,
+    names.slice().sort((a, b) => a.localeCompare(b, 'en')),
+  )
+  assert.deepEqual(await (await get('/credits.json')).json(), doc)
+
+  const md = await (await get('/credits.md')).text()
+  assert.match(md, /## Photographs and recordings and cited sources/)
+  assert.equal(md.includes('kruger-skukuza.mp3'), false)
+  assert.equal(md.includes('agujaceratops-shingwedzi.wav'), false)
+  assert.equal(
+    md.includes(
+      'Adult, H4-2 road north of Crocodile Bridge, Kruger National Park.',
+    ),
+    false,
+  )
+
+  const home = await (await get('/')).text()
+  assert.match(home, /href="\/credits"/)
+  assert.match(await (await get('/.md')).text(), /\(\/credits\.md\)/)
+  const species = await (await get('/species/connochaetes-taurinus')).text()
+  assert.match(species, /<details class="credit"/)
+  assert.match(species, /href="\/credits"/)
+})
+
+test('a credits helper rejects an ND licence and does not invent an author', () => {
+  assert.throws(
+    () =>
+      mediaCredit(
+        {
+          key: 'nd.jpg',
+          author: 'A Person',
+          license: 'CC BY-ND 4.0',
+          source: 'https://example.org/nd',
+          hosted: false,
+        },
+        { slug: 'fake-species' },
+      ),
+    /CC BY-ND 4\.0/,
+  )
+  const credit = mediaCredit(
+    {
+      key: 'x.jpg',
+      license: 'CC BY 4.0',
+      source: 'https://example.org/a',
+      hosted: false,
+      aiGenerated: false,
+    },
+    { slug: 'fake-species' },
+  )
+  assert.equal(credit.author, null)
+  assert.equal(credit.licence, 'CC BY 4.0')
+  assert.equal(JSON.stringify(credit).includes('Author not recorded'), false)
+  assert.doesNotThrow(() =>
+    mediaCredit(
+      {
+        key: 'nc.jpg',
+        author: 'A Person',
+        license: 'CC BY-NC',
+        source: 'https://example.org/nc',
+        hosted: false,
+      },
+      { slug: 'fake-species' },
+    ),
+  )
 })
 
 test('a species with no account says so', async () => {

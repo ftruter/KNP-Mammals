@@ -9,6 +9,7 @@ import { objectHttpResponse } from './objects.js'
 import { clientJs } from './client.js'
 import { iconFiles } from './icon.js'
 import {
+  creditsHtml,
   familiesHtml,
   familyHtml,
   orderHtml,
@@ -19,6 +20,7 @@ import {
   speciesListHtml,
 } from './html.js'
 import {
+  creditsMarkdown,
   familiesMarkdown,
   familyMarkdown,
   orderMarkdown,
@@ -40,6 +42,7 @@ import { css } from './style.js'
 
 const RENDERERS = {
   home: { html: homeHtml, md: homeMarkdown },
+  credits: { html: creditsHtml, md: creditsMarkdown },
   families: { html: familiesHtml, md: familiesMarkdown },
   orders: { html: ordersHtml, md: ordersMarkdown },
   order: { html: orderHtml, md: orderMarkdown },

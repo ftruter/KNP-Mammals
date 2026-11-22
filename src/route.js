@@ -106,6 +106,8 @@ export const parseUrl = (url) => {
     return { kind: 'orders', format, pathname, key: 'index/families' }
   if (pathname === '/species')
     return { kind: 'species-list', format, pathname, key: 'index/species' }
+  if (pathname === '/credits')
+    return { kind: 'credits', format, pathname, key: 'index/credits' }
 
   const [, section, slug, ...rest] = pathname.split('/')
   if (rest.length > 0 || !slug || !SLUG.test(slug))
