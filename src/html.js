@@ -5,13 +5,13 @@ import { escapeHtml, inlineText, safeHttpUrl } from './escape.js'
 import {
   callTypeLabel,
   conservationLabel,
-  licenceForbidsDerivatives,
   monthsLabel,
   populationModel,
   sizeFacts,
   statusLabel,
   viewLabel,
 } from './labels.js'
+import { mediaSrc } from './media.js'
 import {
   FAMILY_COLUMNS,
   FAMILY_SPECIES_COLUMNS,
@@ -326,16 +326,11 @@ ${list
 </ol>`
 }
 
-/** The address a file is loaded from, or '' when it may not be shown. */
-const remoteSrc = (item) =>
-  licenceForbidsDerivatives(item?.license)
-    ? ''
-    : safeHttpUrl(item?.fileUrl) || ''
-
 const sentence = (text) => `${String(text).replace(/\.$/, '')}.`
 
 const plateHtml = (doc, image, lead = false) => {
-  const src = remoteSrc(image)
+  const shown = mediaSrc(image, 'images')
+  const src = shown?.src || ''
   const detail = [viewLabel(image?.view), image?.caption]
     .filter(Boolean)
     .map((part) => escapeHtml(sentence(part)))
@@ -345,10 +340,7 @@ const plateHtml = (doc, image, lead = false) => {
       ? '<span class="ai-label">AI-generated image</span>'
       : '',
     detail,
-    creditHtml(
-      creditModel(image, 'image', src ? { src, onSite: false } : null),
-      src,
-    ),
+    creditHtml(creditModel(image, 'image', shown), src),
   ]
     .filter(Boolean)
     .join(' ')
@@ -366,8 +358,9 @@ const plateHtml = (doc, image, lead = false) => {
 }
 
 const recordingHtml = (recording) => {
-  const src = remoteSrc(recording)
-  return `<div class="recording">${src ? `<audio controls preload="none" src="${escapeHtml(src)}"></audio>` : ''}${creditHtml(creditModel(recording, 'recording', src ? { src, onSite: false } : null), src)}</div>`
+  const shown = mediaSrc(recording, 'audio')
+  const src = shown?.src || ''
+  return `<div class="recording">${src ? `<audio controls preload="none" src="${escapeHtml(src)}"></audio>` : ''}${creditHtml(creditModel(recording, 'recording', shown), src)}</div>`
 }
 
 const callsHtml = (calls) =>

@@ -4,6 +4,8 @@ export const NOT_FOUND_CACHE =
   'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
 export const ASSET_CACHE =
   'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400'
+export const OBJECT_CACHE =
+  'public, max-age=604800, s-maxage=2592000, stale-while-revalidate=86400'
 export const REDIRECT_CACHE = 'public, max-age=3600, s-maxage=86400'
 export const NO_STORE = 'no-store'
 

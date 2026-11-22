@@ -33,6 +33,20 @@ invocation_logs = true
 binding = "MAMMALS_KV"
 id = "93d49abe1a594aadb7c5bbbdaf23cf75"
 
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "knp-mammals-images"
+
+# Pull-request builds run `wrangler preview`, which does not inherit the
+# bindings above. The preview reads the same public data and the same bucket.
+[[previews.kv_namespaces]]
+binding = "MAMMALS_KV"
+id = "93d49abe1a594aadb7c5bbbdaf23cf75"
+
+[[previews.r2_buckets]]
+binding = "IMAGES"
+bucket_name = "knp-mammals-images"
+
 [[routes]]
 pattern = "mammals.truter.world"
 custom_domain = true

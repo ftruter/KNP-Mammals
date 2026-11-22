@@ -5,6 +5,7 @@ import {
   REDIRECT_CACHE,
   kvCache,
 } from './cache.js'
+import { objectHttpResponse } from './objects.js'
 import { clientJs } from './client.js'
 import { iconFiles } from './icon.js'
 import {
@@ -31,6 +32,7 @@ import {
   iconResponse,
   jsonBody,
   pageResponse,
+  plainResponse,
   redirectResponse,
 } from './respond.js'
 import { readDocument } from './store.js'
@@ -62,6 +64,20 @@ const notFound = (route, origin, env) => {
   })
 }
 
+const renderObject = async (request, env, key) => {
+  const response = await objectHttpResponse(
+    env?.IMAGES,
+    key,
+    request.headers.get('range'),
+  )
+  if (response) return response
+  return plainResponse({
+    body: 'Not found\n',
+    status: 404,
+    cache: NOT_FOUND_CACHE,
+  })
+}
+
 /** Renders one parsed route. The JSON view is the stored document. */
 export const renderRoute = async (request, env, route) => {
   const url = new URL(request.url)
@@ -74,6 +90,8 @@ export const renderRoute = async (request, env, route) => {
     return iconResponse(iconFiles[route.pathname], ASSET_CACHE)
   if (route.kind === 'script')
     return pageResponse({ body: clientJs, format: 'js', cache: ASSET_CACHE })
+  if (route.kind === 'image' || route.kind === 'audio')
+    return renderObject(request, env, route.objectKey)
 
   const renderer = RENDERERS[route.kind]
   const found = renderer ? await readDocument(env.MAMMALS_KV, route.key) : null
