@@ -171,7 +171,7 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Kerivoula lanosa (English Lesser woolly bat; Afrikaans Klein wolhaarvlermuis) and does not remap it. The 2025 EWT assessment recognises four subspecies across the range, of which two occur in the assessment region: K. l. lanosa, endemic to the Cape provinces, and K. l. lucia, from the Eastern Cape through southern and central Africa. It states that the validity of these subspecies cannot currently be determined, that taxonomic relationships within African Kerivoula have yet to be resolved, and that further molecular work is needed on a possible species complex. Those issues are flagged here, not used to change the checklist names. A photograph check on 22 November 2026 left images empty."
+    "note": "This file follows species-list.json in treating the Kruger animal as Kerivoula lanosa (English Lesser woolly bat; Afrikaans Klein wolhaarvlermuis) and does not remap it. The 2025 EWT assessment recognises four subspecies across the range, of which two occur in the assessment region: K. l. lanosa, endemic to the Cape provinces, and K. l. lucia, from the Eastern Cape through southern and central Africa. It states that the validity of these subspecies cannot currently be determined, that taxonomic relationships within African Kerivoula have yet to be resolved, and that further molecular work is needed on a possible species complex. Those issues are flagged here, not used to change the checklist names."
   },
   "gaps": [
     "No Kruger census or park-wide count; the 2025 regional assessment does not quantify mature individuals and lists the current population trend as Unknown.",
@@ -181,6 +181,6 @@
     "No licensable unhandled photograph: none in Kruger (place 69020); the only licensed southern African iNaturalist record (observation 346357189, Gert Sibande District Municipality; also the only such research-grade record in place 113055) is of a caught bat and was not used. A Wikimedia Commons search for Kerivoula lanosa returned only nineteenth-century plates and scanned volumes, with no photograph of a live animal.",
     "Gestation, litter size, size at birth and pup appearance were not published in the sources used.",
     "No sourced field comparison with the Damara woolly bat (Kerivoula argentata) was published on the pages used for this species.",
-    "Photograph check on 22 November 2026: place 113055 still has only observation 346357189, the caught bat in Gert Sibande already rejected. Images remain empty."
+    "Place 113055 still has only observation 346357189, the caught bat in Gert Sibande already rejected. No licensed field photograph found yet."
   ]
 }

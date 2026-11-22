@@ -191,7 +191,7 @@
   "research": {
     "confidence": "medium",
     "needsReview": true,
-    "note": "This file follows species-list.json in treating the Kruger animal as Kerivoula argentata (English Damara woolly bat; Afrikaans Damara-wolhaarvlermuis) and does not remap it to Silver Woolly Bat, Silvered Woolly Bat or Silvery Woolly Bat, which the 2025 EWT page also lists, or to the additional Afrikaans form Damaralandse Wolhaarvlermuis. The three historically recognised subspecies remain of uncertain validity; no split is applied. Movement patterns are unknown, but the 2025 assessment does not describe the species as a migrant and says long-distance movement or migration is unlikely; it also gives a definite record from riverine forest at Pafuri in Kruger National Park (Monadjem et al. 2020) and lists occurrence in Great Limpopo Transfrontier Park, so status is entered as resident. Appearance characters are taken from Wikipedia citing Apps (2000) and from the 2025 EWT page, not from another species file. Published mass figures disagree (EWT 7 g; Wikipedia 6–9 g, or about 10 g in the introduction). A photograph check on 22 November 2026 left images empty.",
+    "note": "This file follows species-list.json in treating the Kruger animal as Kerivoula argentata (English Damara woolly bat; Afrikaans Damara-wolhaarvlermuis) and does not remap it to Silver Woolly Bat, Silvered Woolly Bat or Silvery Woolly Bat, which the 2025 EWT page also lists, or to the additional Afrikaans form Damaralandse Wolhaarvlermuis. The three historically recognised subspecies remain of uncertain validity; no split is applied. Movement patterns are unknown, but the 2025 assessment does not describe the species as a migrant and says long-distance movement or migration is unlikely; it also gives a definite record from riverine forest at Pafuri in Kruger National Park (Monadjem et al. 2020) and lists occurrence in Great Limpopo Transfrontier Park, so status is entered as resident. Appearance characters are taken from Wikipedia citing Apps (2000) and from the 2025 EWT page, not from another species file. Published mass figures disagree (EWT 7 g; Wikipedia 6–9 g, or about 10 g in the introduction).",
     "researched": "15 November 2026, Africa/Johannesburg"
   },
   "gaps": [
@@ -205,6 +205,6 @@
     "Gestation time, litter size, reproductive periodicity and pup appearance were not published in the sources used.",
     "The 2025 EWT assessment lists movement patterns as unknown and says the validity of the three currently recognised subspecies cannot currently be determined.",
     "No ear, face, muzzle, leg or tail-membrane colour was published in the sources used, so those mark fields are null.",
-    "Photograph check on 22 November 2026: place 113055 still has only the Cheringoma, Mozambique photograph already rejected as a handled or studio shot. Images remain empty."
+    "Place 113055 still has only the Cheringoma, Mozambique photograph already rejected as a handled or studio shot. No licensed field photograph found yet."
   ]
 }
