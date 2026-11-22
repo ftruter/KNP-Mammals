@@ -9,7 +9,7 @@ export const handleRequest = async (request, env) => {
     const route = parseUrl(url)
     format = route.format
     if (request.method !== 'GET' && request.method !== 'HEAD')
-      return methodNotAllowed(format)
+      return methodNotAllowed(format, url.origin)
     return await renderRoute(request, env, route)
   } catch (error) {
     console.error(
@@ -19,7 +19,7 @@ export const handleRequest = async (request, env) => {
         error: error instanceof Error ? error.message : String(error),
       }),
     )
-    return serverError(format)
+    return serverError(format, url.origin)
   }
 }
 

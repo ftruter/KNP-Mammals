@@ -1,4 +1,5 @@
 import { clientSrc, styleSrc } from './client.js'
+import { ARD_LINK } from './head.js'
 import { ICON_LINKS } from './icon.js'
 import { creditHtml, creditModel } from './credit.js'
 import { escapeHtml, inlineText, safeHttpUrl } from './escape.js'
@@ -21,6 +22,15 @@ import {
   SPECIES_COLUMNS,
   tableHtml,
 } from './lists.js'
+import {
+  ASK_AI_EXAMPLES,
+  ASK_AI_EXPECT,
+  ASK_AI_INTRO,
+  ASK_AI_PATH,
+  ASK_AI_TITLE,
+  HOME_ASK_AI,
+  aiPrompt,
+} from './prompt.js'
 import { alternates } from './route.js'
 
 export const SITE_NAME = 'Mammals of Kruger National Park'
@@ -38,6 +48,8 @@ export const progressSentence = (counts) =>
 const NAV = [
   ['families', '/families', 'Families'],
   ['species', '/species', 'Species'],
+  ['ask-ai', '/ask-ai', 'Ask your AI'],
+  ['agents', '/llms.txt', 'For agents'],
 ]
 
 const listed = (value) => (Array.isArray(value) ? value : [])
@@ -82,6 +94,7 @@ export const layout = ({
 <link rel="canonical" href="${escapeHtml(origin + alts.html)}">
 <link rel="alternate" type="text/markdown" href="${escapeHtml(alts.md)}" title="Markdown">
 <link rel="alternate" type="application/json" href="${escapeHtml(alts.json)}" title="JSON">
+${ARD_LINK}
 ${ICON_LINKS}
 <link rel="stylesheet" href="${styleSrc}">
 <script type="module" defer src="${clientSrc}"></script>
@@ -96,7 +109,7 @@ ${ICON_LINKS}
 </div>
 <nav aria-label="Site">
 <ul class="nav-list">
-${NAV.map(([key, href, label]) => `<li><a href="${href}"${nav === key ? ' aria-current="page"' : ''}>${label}</a></li>`).join('\n')}
+${NAV.map(([key, href, label]) => `<li${key === 'agents' ? ' class="for-agents"' : ''}><a href="${href}"${nav === key ? ' aria-current="page"' : ''}>${label}</a></li>`).join('\n')}
 </ul>
 </nav>
 </div>
@@ -111,7 +124,7 @@ ${main}
 <div class="wrap">
 <div class="footer-grid">
 <p>${SITE_NAME}</p>
-<p><a href="${BIRDS_URL}" title="Switch to our sister site">Birds</a> · <a href="${escapeHtml(alts.md)}">Markdown</a> · <a href="${escapeHtml(alts.json)}">JSON</a></p>
+<p><a href="${BIRDS_URL}" title="Switch to our sister site">Birds</a> · <a href="/llms.txt">llms.txt</a> · <a href="${escapeHtml(alts.md)}">Markdown</a> · <a href="${escapeHtml(alts.json)}">JSON</a></p>
 </div>
 </div>
 </footer>
@@ -131,6 +144,7 @@ export const homeHtml = (doc, { origin }) => {
 <li><a href="/species">Species</a> <span>${counts.species}</span></li>
 </ul>
 </nav>
+<p class="ask-ai-link"><a href="${HOME_ASK_AI.href}">${escapeHtml(HOME_ASK_AI.name)}</a>: ${escapeHtml(HOME_ASK_AI.description)}</p>
 <h2>What a full account covers</h2>
 <ol class="compare-list">
 <li>Photographs from the front, the side and the back</li>
@@ -578,6 +592,39 @@ ${details ? publishedSpeciesHtml(doc, details) : `<p>${UNPUBLISHED_SPECIES}</p>\
     crumbs: crumbs([
       { href: '/species', label: 'Species' },
       { label: doc.en, current: true },
+    ]),
+    main,
+  })
+}
+
+export const askAiHtml = ({ origin }) => {
+  const main = `
+<h1>${escapeHtml(ASK_AI_TITLE)}</h1>
+<p>${escapeHtml(ASK_AI_INTRO)}</p>
+<div class="ask-ai" data-copy>
+<h2 id="ask-ai-prompt">The prompt</h2>
+<pre class="ask-ai-prompt" tabindex="0" aria-labelledby="ask-ai-prompt" data-copy-text>${escapeHtml(aiPrompt(origin))}</pre>
+<p class="ask-ai-actions"><button class="copy-button" type="button" data-copy-button hidden>Copy prompt</button> <span class="copy-status" role="status" data-copy-status></span></p>
+<p class="ask-ai-manual" data-copy-manual>Select all of the text in the box and copy it.</p>
+</div>
+<h2>Then ask it anything</h2>
+<p>Every question is taken to be about Kruger, so you need not say so. For example:</p>
+<ul>
+${ASK_AI_EXAMPLES.map((item) => `<li>${escapeHtml(item)}</li>`).join('\n')}
+</ul>
+<h2>What to expect</h2>
+<ul>
+${ASK_AI_EXPECT.map((item) => `<li>${escapeHtml(item)}</li>`).join('\n')}
+</ul>`
+  return layout({
+    title: `${ASK_AI_TITLE} · ${SHORT_NAME}`,
+    description:
+      'A prompt to paste into Claude, ChatGPT, Grok or Gemini so it can answer questions about the mammals of Kruger National Park from this guide.',
+    origin,
+    path: ASK_AI_PATH,
+    nav: 'ask-ai',
+    crumbs: crumbs([
+      { href: ASK_AI_PATH, label: 'Ask your AI', current: true },
     ]),
     main,
   })

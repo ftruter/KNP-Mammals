@@ -1,4 +1,5 @@
 import { inlineText, safeHttpUrl } from './escape.js'
+import { siteOrigin } from './head.js'
 import { mediaSrc } from './media.js'
 import {
   ABOUT,
@@ -16,6 +17,14 @@ import {
   statusLabel,
   viewLabel,
 } from './labels.js'
+import {
+  ASK_AI_EXAMPLES,
+  ASK_AI_EXPECT,
+  ASK_AI_INTRO,
+  ASK_AI_TITLE,
+  answeringMarkdown,
+  aiPrompt,
+} from './prompt.js'
 import {
   FAMILY_COLUMNS,
   FAMILY_SPECIES_COLUMNS,
@@ -35,7 +44,7 @@ const bullets = (items) => items.map((item) => `- ${item}`).join('\n')
 
 const section = (heading, body) => (body ? `## ${heading}\n\n${body}\n` : '')
 
-export const homeMarkdown = (doc) => `# ${SITE_NAME}
+export const homeMarkdown = (doc, origin) => `# ${SITE_NAME}
 
 An open field guide to the mammals of Kruger National Park. ${progressSentence(doc.counts)}
 
@@ -46,6 +55,38 @@ ${ABOUT}
 - [Species](/species.md): ${doc.counts.species}
 
 Every page has a \`.md\` and a \`.json\` view at the same address.
+
+${answeringMarkdown(origin)}
+`
+
+/**
+ * Writes every root-relative link target out in full. Several chat AIs open
+ * only a URL they have seen complete, so `](/species/x)` is a dead end for them.
+ */
+export const absoluteLinks = (markdown, origin) =>
+  markdown.replace(/\]\(\/(?!\/)/g, `](${siteOrigin(origin)}/`)
+
+export const askAiMarkdown = (origin) => `# ${ASK_AI_TITLE}
+
+${ASK_AI_INTRO}
+
+This page is for people. If you are an AI and a reader pasted the prompt below into your chat, do what it says.
+
+## The prompt
+
+\`\`\`text
+${aiPrompt(origin)}
+\`\`\`
+
+## Then ask it anything
+
+Every question is taken to be about Kruger. For example:
+
+${ASK_AI_EXAMPLES.map((item) => `- ${item}`).join('\n')}
+
+## What to expect
+
+${ASK_AI_EXPECT.map((item) => `- ${item}`).join('\n')}
 `
 
 const orderLink = (doc) =>

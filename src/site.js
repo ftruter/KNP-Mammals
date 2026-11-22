@@ -1,3 +1,4 @@
+import { discoveryDocuments } from './ard.js'
 import {
   ASSET_CACHE,
   NOT_FOUND_CACHE,
@@ -9,6 +10,7 @@ import { objectHttpResponse } from './objects.js'
 import { clientJs } from './client.js'
 import { iconFiles } from './icon.js'
 import {
+  askAiHtml,
   familiesHtml,
   familyHtml,
   orderHtml,
@@ -19,6 +21,8 @@ import {
   speciesListHtml,
 } from './html.js'
 import {
+  absoluteLinks,
+  askAiMarkdown,
   familiesMarkdown,
   familyMarkdown,
   orderMarkdown,
@@ -29,12 +33,20 @@ import {
   speciesMarkdown,
 } from './markdown.js'
 import {
+  ASK_AI_EXAMPLES,
+  ASK_AI_PATH,
+  ASK_AI_TITLE,
+  aiPrompt,
+} from './prompt.js'
+import { llmsTxt } from './static.js'
+import {
   iconResponse,
   jsonBody,
   pageResponse,
   plainResponse,
   redirectResponse,
 } from './respond.js'
+import { alternates } from './route.js'
 import { readDocument } from './store.js'
 import { css } from './style.js'
 
@@ -54,13 +66,15 @@ const notFound = (route, origin, env) => {
     format === 'json'
       ? jsonBody({ error: 'not_found', status: 404 })
       : format === 'md'
-        ? notFoundMarkdown()
+        ? absoluteLinks(notFoundMarkdown(), origin)
         : notFoundHtml({ path: route.pathname, origin })
   return pageResponse({
     body,
     status: 404,
     format,
     cache: kvCache(env, NOT_FOUND_CACHE),
+    path: route.pathname,
+    origin,
   })
 }
 
@@ -92,6 +106,16 @@ export const renderRoute = async (request, env, route) => {
     return pageResponse({ body: clientJs, format: 'js', cache: ASSET_CACHE })
   if (route.kind === 'image' || route.kind === 'audio')
     return renderObject(request, env, route.objectKey)
+  if (route.kind === 'llms')
+    return pageResponse({
+      body: llmsTxt(origin),
+      format: 'html',
+      contentType: 'text/plain; charset=utf-8',
+      cache: ASSET_CACHE,
+    })
+  if (route.kind === 'ard' || route.kind === 'ai-catalog')
+    return renderDiscovery(env, origin, route.kind)
+  if (route.kind === 'ask-ai') return renderAskAi(route.format, origin)
 
   const renderer = RENDERERS[route.kind]
   const found = renderer ? await readDocument(env.MAMMALS_KV, route.key) : null
@@ -102,7 +126,7 @@ export const renderRoute = async (request, env, route) => {
     format === 'json'
       ? jsonBody(found.data)
       : format === 'md'
-        ? renderer.md(found.data)
+        ? absoluteLinks(renderer.md(found.data, origin), origin)
         : renderer.html(found.data, { origin, url })
   return pageResponse({
     body,
@@ -110,5 +134,54 @@ export const renderRoute = async (request, env, route) => {
     cache: kvCache(env, PAGE_CACHE),
     path: pathname,
     origin,
+  })
+}
+
+const renderAskAi = (format, origin) => {
+  if (format === 'json') {
+    const alts = alternates(ASK_AI_PATH)
+    return pageResponse({
+      body: jsonBody({
+        prompt: aiPrompt(origin),
+        title: ASK_AI_TITLE,
+        examples: ASK_AI_EXAMPLES,
+        pages: {
+          html: origin + alts.html,
+          md: origin + alts.md,
+          json: origin + alts.json,
+        },
+      }),
+      format,
+      cache: ASSET_CACHE,
+      path: ASK_AI_PATH,
+      origin,
+    })
+  }
+  return pageResponse({
+    body:
+      format === 'md'
+        ? absoluteLinks(askAiMarkdown(origin), origin)
+        : askAiHtml({ origin }),
+    format,
+    cache: ASSET_CACHE,
+    path: ASK_AI_PATH,
+    origin,
+  })
+}
+
+const renderDiscovery = async (env, origin, kind) => {
+  const [families, species] = await Promise.all([
+    readDocument(env.MAMMALS_KV, 'index/families'),
+    readDocument(env.MAMMALS_KV, 'index/species'),
+  ])
+  const docs = discoveryDocuments({
+    origin,
+    familiesIndex: families?.data,
+    speciesIndex: species?.data,
+  })
+  return pageResponse({
+    body: jsonBody(kind === 'ard' ? docs.ard : docs.catalog),
+    format: 'json',
+    cache: kvCache(env, PAGE_CACHE),
   })
 }

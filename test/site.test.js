@@ -53,7 +53,7 @@ test('home links to the lists and has three formats', async () => {
 
   const md = await get('/.md')
   assert.match(md.headers.get('content-type'), /^text\/markdown/)
-  assert.match(await md.text(), /\(\/families\.md\)/)
+  assert.match(await md.text(), /\(https:\/\/mammals\.example\/families\.md\)/)
 
   const json = await get('/.json')
   assert.deepEqual(await json.json(), index)
@@ -132,7 +132,7 @@ test('orders have a list, a page each, and links from the other pages', async ()
     )
   assert.match(
     await (await get('/family/felidae.md')).text(),
-    /Order: \[Carnivora\]\(\/order\/carnivora\.md\)/,
+    /Order: \[Carnivora\]\(https:\/\/mammals\.example\/order\/carnivora\.md\)/,
   )
 })
 
