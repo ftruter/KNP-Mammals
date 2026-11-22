@@ -46,8 +46,10 @@ export const pageResponse = ({
   cache,
   path,
   origin,
+  contentType,
 }) => {
   const headers = baseHeaders(format, cache)
+  if (contentType) headers.set('content-type', contentType)
   if (path && origin) {
     const alts = alternates(path)
     headers.set(

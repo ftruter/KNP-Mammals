@@ -22,6 +22,7 @@ import {
   tableHtml,
 } from './lists.js'
 import { alternates } from './route.js'
+import { SITEMAP_INTRO } from './sitemap.js'
 
 export const SITE_NAME = 'Mammals of Kruger National Park'
 export const SHORT_NAME = 'KNP Mammals'
@@ -71,6 +72,7 @@ export const layout = ({
   main,
 }) => {
   const alts = alternates(path)
+  const onSitemap = path === '/sitemap' ? ' aria-current="page"' : ''
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -111,7 +113,7 @@ ${main}
 <div class="wrap">
 <div class="footer-grid">
 <p>${SITE_NAME}</p>
-<p><a href="${BIRDS_URL}" title="Switch to our sister site">Birds</a> · <a href="${escapeHtml(alts.md)}">Markdown</a> · <a href="${escapeHtml(alts.json)}">JSON</a></p>
+<p><a href="${BIRDS_URL}" title="Switch to our sister site">Birds</a> · <a href="/sitemap"${onSitemap}>Sitemap</a> · <a href="${escapeHtml(alts.md)}">Markdown</a> · <a href="${escapeHtml(alts.json)}">JSON</a></p>
 </div>
 </div>
 </footer>
@@ -599,5 +601,40 @@ export const notFoundHtml = ({ origin, path }) =>
 <li><a href="/orders">Orders</a></li>
 <li><a href="/families">Families</a></li>
 <li><a href="/species">Species</a></li>
+<li><a href="/sitemap">Sitemap</a></li>
 </ul>`,
+  })
+
+const sitemapLatin = (latin) =>
+  latin ? ` <span class="sitemap-latin">${escapeHtml(latin)}</span>` : ''
+
+const sitemapLink = (item) =>
+  `<a href="${escapeHtml(item.href)}"${item.href === '/sitemap' ? ' aria-current="page"' : ''}>${escapeHtml(item.name)}</a>${sitemapLatin(item.latin)}`
+
+const sitemapNest = (items) =>
+  items?.length
+    ? `<ul class="sitemap-nest">\n${items
+        .map(
+          (item) =>
+            `<li>${sitemapLink(item)}${sitemapNest(item.children)}</li>`,
+        )
+        .join('\n')}\n</ul>`
+    : ''
+
+export const renderSitemapHtml = (entries, { origin }) =>
+  layout({
+    title: `Sitemap · ${SHORT_NAME}`,
+    description: SITEMAP_INTRO,
+    origin,
+    path: '/sitemap',
+    nav: '',
+    crumbs: crumbs([{ label: 'Sitemap', current: true }]),
+    main: `
+<h1>Sitemap</h1>
+<p>${escapeHtml(SITEMAP_INTRO)} <a href="/sitemap.xml">Sitemap XML</a> lists each HTML page once.</p>
+<nav aria-label="Sitemap">
+<ol class="sitemap">
+${entries.map((item) => `<li>${sitemapLink(item)}${sitemapNest(item.children)}</li>`).join('\n')}
+</ol>
+</nav>`,
   })

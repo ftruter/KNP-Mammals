@@ -15,6 +15,7 @@ import {
   ordersHtml,
   homeHtml,
   notFoundHtml,
+  renderSitemapHtml,
   speciesHtml,
   speciesListHtml,
 } from './html.js'
@@ -25,6 +26,7 @@ import {
   ordersMarkdown,
   homeMarkdown,
   notFoundMarkdown,
+  renderSitemapMarkdown,
   speciesListMarkdown,
   speciesMarkdown,
 } from './markdown.js'
@@ -35,6 +37,13 @@ import {
   plainResponse,
   redirectResponse,
 } from './respond.js'
+import {
+  buildSitemap,
+  robotsTxt,
+  sitemapEntries,
+  sitemapLastmod,
+  sitemapXml,
+} from './sitemap.js'
 import { readDocument } from './store.js'
 import { css } from './style.js'
 
@@ -61,6 +70,34 @@ const notFound = (route, origin, env) => {
     status: 404,
     format,
     cache: kvCache(env, NOT_FOUND_CACHE),
+  })
+}
+
+const renderSitemap = async (env, route, origin) => {
+  const families = await readDocument(env.MAMMALS_KV, 'index/families')
+  const species = await readDocument(env.MAMMALS_KV, 'index/species')
+  const tree = buildSitemap(families?.data ?? null, species?.data ?? null)
+  if (route.kind === 'sitemap')
+    return pageResponse({
+      body: sitemapXml(origin, tree, sitemapLastmod(env.DATA_PUBLISHED_AT)),
+      format: 'html',
+      contentType: 'application/xml; charset=utf-8',
+      cache: kvCache(env, PAGE_CACHE),
+    })
+  const entries = sitemapEntries(tree)
+  const { format, pathname } = route
+  const body =
+    format === 'json'
+      ? jsonBody({ kind: 'sitemap', title: 'Sitemap', entries })
+      : format === 'md'
+        ? renderSitemapMarkdown(entries)
+        : renderSitemapHtml(entries, { origin })
+  return pageResponse({
+    body,
+    format,
+    cache: kvCache(env, PAGE_CACHE),
+    path: pathname,
+    origin,
   })
 }
 
@@ -92,6 +129,15 @@ export const renderRoute = async (request, env, route) => {
     return pageResponse({ body: clientJs, format: 'js', cache: ASSET_CACHE })
   if (route.kind === 'image' || route.kind === 'audio')
     return renderObject(request, env, route.objectKey)
+  if (route.kind === 'robots')
+    return pageResponse({
+      body: robotsTxt(origin),
+      format: 'html',
+      contentType: 'text/plain; charset=utf-8',
+      cache: ASSET_CACHE,
+    })
+  if (route.kind === 'sitemap' || route.kind === 'sitemap-page')
+    return renderSitemap(env, route, origin)
 
   const renderer = RENDERERS[route.kind]
   const found = renderer ? await readDocument(env.MAMMALS_KV, route.key) : null
