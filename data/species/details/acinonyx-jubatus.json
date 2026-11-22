@@ -306,7 +306,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult female cheetah standing in dry grass in Kruger National Park",
       "caption": "Adult female, Kruger National Park."
     },
@@ -322,7 +322,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Close profile of an adult male cheetah showing the black tear-mark, Kruger National Park",
       "caption": "Adult male, Kruger National Park."
     },
@@ -338,7 +338,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "One of three brother cheetahs walking in profile in Kruger National Park",
       "caption": "Adult male, one of three brothers, Kruger National Park."
     },
@@ -354,7 +354,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Cheetah cub walking on a road in Kruger National Park",
       "caption": "Cub, Kruger National Park."
     }

@@ -268,7 +268,7 @@
       "license": "CC BY-NC-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult female mountain reedbuck lying in dry woodland, showing a reddish-brown face, grey-brown body and no horns",
       "caption": "Adult female lying in woodland, Kruger National Park, South Africa."
     },
@@ -284,7 +284,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult female mountain reedbuck standing in tall grass, showing a reddish-brown face and neck, a grey-brown body, white underparts and no horns",
       "caption": "Adult female, Cacadu, Eastern Cape, South Africa."
     },
@@ -300,7 +300,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male mountain reedbuck standing on a grassy rocky hillside, showing short forward-curving horns, a reddish neck and white underparts",
       "caption": "Adult male, Sabie, Mpumalanga, South Africa."
     },
@@ -316,7 +316,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male mountain reedbuck lying among rocks and facing the camera, showing short forward-curving ridged horns, a dark scent patch beneath the ear and a reddish-brown face",
       "caption": "Adult male, uMkhanyakude District, KwaZulu-Natal, South Africa."
     }

@@ -199,7 +199,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Grey climbing mouse on sand among short grass, showing ash-grey upperparts, a dark stripe down the back, large eyes and white underparts",
       "caption": "Research-grade iNaturalist observation, uMkhanyakude District Municipality, KwaZulu-Natal, 25 May 2016."
     },
@@ -215,7 +215,7 @@
       "license": "CC BY-NC-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Grey climbing mouse at night, gripping a grass stem, showing a long tail, large eyes and pale underparts",
       "caption": "Research-grade iNaturalist observation, uMkhanyakude District Municipality, KwaZulu-Natal, 22 January 2025."
     }

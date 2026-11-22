@@ -212,7 +212,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "otocyon-megalotis/kgalagadi-front.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -228,7 +228,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "otocyon-megalotis/kgalagadi-three-quarter.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -244,7 +244,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "otocyon-megalotis/kgalagadi-pair.jpg",
       "view": "herd",
       "age": "adult",
@@ -260,7 +260,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "otocyon-megalotis/kgalagadi-foraging.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -276,7 +276,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "otocyon-megalotis/kgalagadi-looking-back.jpg",
       "view": "standing-side",
       "age": "adult",

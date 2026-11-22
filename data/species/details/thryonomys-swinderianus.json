@@ -204,7 +204,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "thryonomys-swinderianus/oelsen-night-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -220,7 +220,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "thryonomys-swinderianus/qgrobler-day-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -236,7 +236,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "thryonomys-swinderianus/tippett-night-back.jpg",
       "view": "standing-back",
       "age": "adult",

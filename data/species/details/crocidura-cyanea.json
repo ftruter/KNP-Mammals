@@ -88,7 +88,7 @@
       "season": "any",
       "source": "https://www.inaturalist.org/observations/362771636",
       "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/662138470/large.jpg",
-      "hosted": false,
+      "hosted": true,
       "author": "cliffdorse",
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",

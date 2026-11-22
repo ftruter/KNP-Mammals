@@ -343,7 +343,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male suni standing in leaf litter in woodland, showing a reddish-brown coat, white underparts and short backward-slanting horns",
       "caption": "Adult male, uMkhanyakude District, KwaZulu-Natal, South Africa."
     },
@@ -359,7 +359,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult female suni standing in grass, showing a reddish-brown coat, white belly and throat, large ears and no horns",
       "caption": "Adult female, uMkhanyakude District, KwaZulu-Natal, South Africa."
     },
@@ -375,7 +375,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult female suni among undergrowth, looking back over the shoulder, showing a reddish-brown coat, pale rump and no horns",
       "caption": "Adult female, northern KwaZulu-Natal, South Africa."
     }

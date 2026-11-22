@@ -194,7 +194,7 @@
       "license": "CC0 1.0",
       "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Aardwolf standing in tall grass, showing vertical stripes and a bushy tail, in Mountain Zebra National Park",
       "caption": "Adult, Mountain Zebra National Park, Eastern Cape. No reusable Kruger photograph was found."
     },
@@ -210,7 +210,7 @@
       "license": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Aardwolf lying at a den, showing the vertical stripes, mane and slender muzzle, at Lion and Rhino Reserve, Gauteng",
       "caption": "Adult at a den, Lion and Rhino Reserve, Gauteng. No reusable Kruger photograph was found."
     },
@@ -226,7 +226,7 @@
       "license": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two aardwolves lying together at a den at Lion and Rhino Reserve, Gauteng",
       "caption": "Adults at a den, Lion and Rhino Reserve, Gauteng. No reusable Kruger photograph was found."
     }

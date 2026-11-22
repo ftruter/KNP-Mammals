@@ -307,7 +307,7 @@
           "license": "CC BY-NC 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
           "aiGenerated": false,
-          "hosted": false,
+          "hosted": true,
           "place": "Kruger National Park",
           "date": "2026-07-22",
           "note": "Field recording from Kruger National Park. The observation does not name the call type."
@@ -320,7 +320,7 @@
           "license": "CC BY-NC 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
           "aiGenerated": false,
-          "hosted": false,
+          "hosted": true,
           "place": "Kruger National Park",
           "date": "2025-08-11",
           "note": "Field recording from Kruger National Park. The observation does not name the call type."
@@ -333,7 +333,7 @@
           "license": "CC BY-NC 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
           "aiGenerated": false,
-          "hosted": false,
+          "hosted": true,
           "place": "Skukuza, Kruger National Park",
           "date": "2024-06-09",
           "note": "Field recording from Skukuza. The observation does not name the call type."
@@ -354,7 +354,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Spotted hyaena walking towards the camera on a tar road in Kruger National Park",
       "caption": "Adult, H3 road south of Skukuza, Kruger National Park."
     },
@@ -370,7 +370,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Spotted hyaena in profile walking along a road towards a waterhole in Kruger National Park",
       "caption": "Adult, Ngotso North, H1-4 road north of Satara, Kruger National Park."
     },
@@ -386,7 +386,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Spotted hyaena standing in dry grass in Kruger National Park",
       "caption": "Adult, Kruger National Park."
     },
@@ -402,7 +402,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Dark-coated spotted hyaena cub sitting in grass in Kruger National Park",
       "caption": "Cub, H10 road east of Tshokwane, Kruger National Park."
     },
@@ -418,7 +418,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult female spotted hyaena lying with cubs of mixed ages in Kruger National Park",
       "caption": "Adult female with cubs, H1-1 road east of Pretoriuskop, Kruger National Park."
     }

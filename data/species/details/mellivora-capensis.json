@@ -252,7 +252,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "mellivora-capensis/h10-tshokwane-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -268,7 +268,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "mellivora-capensis/satara-veld-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -284,7 +284,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "mellivora-capensis/tamboti-front.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -300,7 +300,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "mellivora-capensis/tamboti-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -316,7 +316,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "mellivora-capensis/timbavati-pair.jpg",
       "view": "herd",
       "age": "mixed",

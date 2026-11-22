@@ -139,6 +139,25 @@ test('a bucket object is served with its type, range, and a long cache', async (
   assert.ok(seen.includes('missing.jpg'))
 })
 
+const withHosted = (value, hosted) => {
+  const doc = JSON.parse(value)
+  for (const image of doc.details?.images ?? []) image.hosted = hosted
+  for (const call of doc.details?.calls ?? []) {
+    for (const recording of call.recordings ?? []) recording.hosted = hosted
+  }
+  return JSON.stringify(doc)
+}
+
+const unhostedEnv = {
+  MAMMALS_KV: {
+    get: async (key) => {
+      const value = store.get(key) ?? null
+      if (key !== 'species/connochaetes-taurinus' || value == null) return value
+      return withHosted(value, false)
+    },
+  },
+}
+
 test('no bucket is a 404 and an unhosted page still hotlinks', async () => {
   const missing = await handleRequest(new Request(`${origin}${CHEETAH}`), env)
   assert.equal(missing.status, 404)
@@ -147,7 +166,7 @@ test('no bucket is a 404 and an unhosted page still hotlinks', async () => {
   const html = await (
     await handleRequest(
       new Request(`${origin}/species/connochaetes-taurinus`),
-      env,
+      unhostedEnv,
     )
   ).text()
   assert.match(html, /src="https:\/\/thumb\.wikimedia\.org\//)
@@ -161,7 +180,7 @@ test('no bucket is a 404 and an unhosted page still hotlinks', async () => {
   const md = await (
     await handleRequest(
       new Request(`${origin}/species/connochaetes-taurinus.md`),
-      env,
+      unhostedEnv,
     )
   ).text()
   assert.match(md, /https:\/\/thumb\.wikimedia\.org\//)
@@ -179,7 +198,7 @@ test('hosted media points at this site and an ND licence is not shown', async ()
       get: async (key) => {
         if (key !== 'species/connochaetes-taurinus')
           return store.get(key) ?? null
-        const doc = JSON.parse(store.get(key))
+        const doc = JSON.parse(withHosted(store.get(key), false))
         doc.details.images[0].hosted = true
         const call = doc.details.calls.find((item) => item.recordings?.length)
         call.recordings[0].hosted = true

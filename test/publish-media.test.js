@@ -392,6 +392,6 @@ test('the dry-run command plans 381 photographs and 12 recordings', async () => 
   assert.equal(code, 0)
   assert.match(
     out,
-    /393 files in the plan \(381 photographs, 12 clips\); 393 to copy, 0 old copies to delete/,
+    /393 files in the plan \(381 photographs, 12 clips\); 0 to copy, 0 old copies to delete/,
   )
 })

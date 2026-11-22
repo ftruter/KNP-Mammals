@@ -184,7 +184,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Single-striped grass mouse on a sandy track, seen from above, with a single dark line running down the back",
       "caption": "Research-grade iNaturalist observation, iMfolozi Game Reserve, KwaZulu-Natal, 30 June 2024."
     },
@@ -200,7 +200,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Single-striped grass mouse in profile on leaf litter, holding food in its forepaws",
       "caption": "Research-grade iNaturalist observation, Zululand District Municipality, KwaZulu-Natal, 29 August 2019."
     }

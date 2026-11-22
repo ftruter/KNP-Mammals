@@ -323,7 +323,7 @@
           "license": "CC BY-NC",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
           "aiGenerated": false,
-          "hosted": false,
+          "hosted": true,
           "place": "Kruger National Park",
           "date": "2026-10-06",
           "note": "Research-grade iNaturalist sound observation. The recordist did not describe the call type."
@@ -344,7 +344,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male chacma baboon sitting in Kruger National Park, showing the long downward-sloping muzzle and dark face",
       "caption": "Adult male sitting, S140 road east of Orpen, Kruger National Park, 31 January 2015."
     },
@@ -360,7 +360,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male chacma baboon walking in side view in Kruger National Park, showing the bent tail and long muzzle",
       "caption": "Adult male walking, H1-2 road east of Skukuza, Kruger National Park, 3 April 2023."
     },
@@ -376,7 +376,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Chacma baboons in Kruger National Park eating sausage-tree fruit, with a small infant clinging to an adult",
       "caption": "Adults eating sausage-tree fruit, with a young infant, H4-1 road north of Lower Sabie, Kruger National Park, 11 June 2022."
     },
@@ -392,7 +392,7 @@
       "license": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A young chacma baboon riding on an adult's back in Kruger National Park",
       "caption": "Young baboon riding on an adult's back, Kruger National Park, 13 August 2012."
     },
@@ -408,7 +408,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two adult chacma baboons grooming beside a road in Kruger National Park",
       "caption": "Adults grooming, H1-3 road south of Satara, Kruger National Park, 28 January 2015."
     }

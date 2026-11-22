@@ -213,7 +213,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "civettictis-civetta/kruger-daylight.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -229,7 +229,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "civettictis-civetta/kruger-night-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -245,7 +245,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "civettictis-civetta/kruger-punda-front.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -261,7 +261,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "civettictis-civetta/kruger-lying.jpg",
       "view": "standing-side",
       "age": "adult",

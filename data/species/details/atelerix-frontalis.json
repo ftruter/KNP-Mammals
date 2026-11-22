@@ -228,7 +228,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "South African hedgehog rolled into a ball in short grass, showing the white forehead band, an ear and the hind feet",
       "caption": "Research-grade iNaturalist observation, Moreleta Kloof Nature Reserve, Pretoria, Gauteng, 9 February 2022. No reusable Kruger photograph was found."
     },
@@ -244,7 +244,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "South African hedgehog in profile at night, showing the white forehead band and dark-tipped spines",
       "caption": "Research-grade iNaturalist observation, Pixley ka Seme District Municipality, Northern Cape, 23 September 2023."
     },
@@ -260,7 +260,7 @@
       "license": "CC BY-NC-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "South African hedgehog walking through dry grass at night, showing the white forehead band",
       "caption": "Research-grade iNaturalist observation, Frances Baard District Municipality, Northern Cape, 28 December 2019."
     }

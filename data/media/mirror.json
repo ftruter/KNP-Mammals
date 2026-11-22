@@ -1,0 +1,2365 @@
+{
+  "note": "Written by scripts/publish-media.mjs. Do not edit by hand.",
+  "images": {
+    "acinonyx-jubatus/kruger-cub.jpg": {
+      "bytes": 541037,
+      "sha256": "9813e2615b17795853ee4e813611e15a7983cabcd5748d40f9f34d8c6109da6d",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Cheetah_%28Acinonyx_jubatus%29_cub_..._%2852484807947%29.jpg/1280px-Cheetah_%28Acinonyx_jubatus%29_cub_..._%2852484807947%29.jpg"
+    },
+    "acinonyx-jubatus/kruger-female-side.jpg": {
+      "bytes": 544803,
+      "sha256": "c22f193fcaa4b18457ff880f77df3f0858123fcc953bb9ced04e3e9aaf1d5f1c",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Cheetah_%28Acinonyx_jubatus%29_female_..._%2851995712064%29.jpg/1280px-Cheetah_%28Acinonyx_jubatus%29_female_..._%2851995712064%29.jpg"
+    },
+    "acinonyx-jubatus/kruger-male-head.jpg": {
+      "bytes": 379824,
+      "sha256": "fdf5484fe93e2305b4471f86e74d22e851e2e7a294f649f07ca63cdfb60878c8",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Cheetah_%28Acinonyx_jubatus%29_male_..._%2852121486480%29.jpg/1280px-Cheetah_%28Acinonyx_jubatus%29_male_..._%2852121486480%29.jpg"
+    },
+    "acinonyx-jubatus/kruger-male-side.jpg": {
+      "bytes": 574237,
+      "sha256": "5b1fd51b2f65c7bb87b5d39d0e084de5246f988d65e63c1163a6286c025c1adb",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Cheetah_%28Acinonyx_jubatus%29%2C_1_of_3_brothers.jpg/1280px-Cheetah_%28Acinonyx_jubatus%29%2C_1_of_3_brothers.jpg"
+    },
+    "aepyceros-melampus/kruger-females-and-lamb.jpg": {
+      "bytes": 509533,
+      "sha256": "012ddacbebd3dd15929ebad55c80da39f0ae48e5a0770e727216bf0ff31c5ce9",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Impalas_%28Aepyceros_melampus%29%2C_females_and_lamb.jpg/1280px-Impalas_%28Aepyceros_melampus%29%2C_females_and_lamb.jpg"
+    },
+    "aepyceros-melampus/kruger-herd-marula.jpg": {
+      "bytes": 653958,
+      "sha256": "6760a379fc92c359ea7dc3a9df3571aaf8ec24be66beff547701d49e1ee641d1",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Impalas_%28Aepyceros_melampus%29_small_herd_eating_fruits_under_a_Marula_tree_..._%2850855847451%29.jpg/1280px-Impalas_%28Aepyceros_melampus%29_small_herd_eating_fruits_under_a_Marula_tree_..._%2850855847451%29.jpg"
+    },
+    "aepyceros-melampus/kruger-lamb.jpg": {
+      "bytes": 834579,
+      "sha256": "3c809f48c1bdd4dee75c06befcf98f77f7503f798e033a2c0c6ad91a40fd49ce",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Impala_%28Aepyceros_melampus%29_lamb_male_%2811493143944%29.jpg/1280px-Impala_%28Aepyceros_melampus%29_lamb_male_%2811493143944%29.jpg"
+    },
+    "aepyceros-melampus/kruger-male-front.jpg": {
+      "bytes": 505459,
+      "sha256": "a5f9bea9e9546898000ca5ab608562ba04dc66b8df89daba901ef4bcf3a7cf56",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Impala_%28Aepyceros_melampus%29_male_ruminating_..._%2852776933314%29.jpg/1280px-Impala_%28Aepyceros_melampus%29_male_ruminating_..._%2852776933314%29.jpg"
+    },
+    "aepyceros-melampus/kruger-male-running.jpg": {
+      "bytes": 537151,
+      "sha256": "2c8f09aebfde183dd3fa5ef5375b4844a11da36eac614193c9a01800f31fb6ba",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Impala_%28Aepyceros_melampus%29_male_running_Kruger.jpg/1280px-Impala_%28Aepyceros_melampus%29_male_running_Kruger.jpg"
+    },
+    "aepyceros-melampus/kruger-males.jpg": {
+      "bytes": 420744,
+      "sha256": "775ad7ae7ab20780a7ffc1828bd8a9edc2e0d441ab12a011b202f621652f4354",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Impalas_%28Aepyceros_melampus%29_males_..._%2852520821373%29.jpg/1280px-Impalas_%28Aepyceros_melampus%29_males_..._%2852520821373%29.jpg"
+    },
+    "aepyceros-melampus/kruger-nursery.jpg": {
+      "bytes": 397705,
+      "sha256": "346d09daf7dd4d0e48b2645847be8c0e0b12e5c8b0d3161ed9277f8909e63882",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Impalas_%28Aepyceros_melampus%29%2C_female_guarding_youngs_nursery.jpg/1280px-Impalas_%28Aepyceros_melampus%29%2C_female_guarding_youngs_nursery.jpg"
+    },
+    "aethomys-chrysophilus/umzingwane-stump.jpg": {
+      "bytes": 323704,
+      "sha256": "9d15d5740e8424c663ddcc5be73f816952ef82ef64a156bea2fe05397505115d",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/58976650/large.jpeg"
+    },
+    "afronycteris-nanus/selbourne-leaf-roost.jpg": {
+      "bytes": 438888,
+      "sha256": "42bec25e8d89925d7f36e0dd1abeb0f2b777bdd98d395e058a992224852d0e56",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/762876999/large.jpg"
+    },
+    "afronycteris-nanus/st-lucia-leaf-roost.jpg": {
+      "bytes": 124379,
+      "sha256": "e51d191917d4304eff8ca9b3efb8e225cd1611003ccc4507aca1da9f74bcc509",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/213015532/large.jpg"
+    },
+    "alcelaphus-buselaphus-lichtensteinii/kruger-mopani-side.jpg": {
+      "bytes": 165472,
+      "sha256": "43874b204ff132e7489fa30d8fa81ac795055449a068afcd5a0dd6f20221da08",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/341658335/large.jpg"
+    },
+    "alcelaphus-buselaphus-lichtensteinii/kruger-south-front.jpg": {
+      "bytes": 243914,
+      "sha256": "c8846b55d3867556bb05a1c1dbd49ef7116edf49829b8572c9d87ac3237cfdce",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/546995575/large.jpg"
+    },
+    "alcelaphus-buselaphus-lichtensteinii/kruger-south-herd.jpg": {
+      "bytes": 720249,
+      "sha256": "4baa3911462da9fa713a2fff86ab82d41a729e2c2aa517be5111c217e76a2acb",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/185376318/large.jpg"
+    },
+    "alcelaphus-buselaphus-lichtensteinii/kruger-south-side.jpg": {
+      "bytes": 377325,
+      "sha256": "499512f27fe4a63d5df21738c5307f43810c1cc7b9d3bdde831fe42a7ab61f29",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/262995019/large.jpg"
+    },
+    "atelerix-frontalis/frances-baard-side.jpg": {
+      "bytes": 880100,
+      "sha256": "5e0d091bcc6980ebd4a275145649c54c2c7def17b7cba1659ddfe54751e1c818",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/70128449/large.jpg"
+    },
+    "atelerix-frontalis/moreleta-kloof-curled.jpg": {
+      "bytes": 695161,
+      "sha256": "2a903c4c6abdb258f779776ce0fbb6b72e4f383a191dd1eff7b861a607ea40f1",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/178785417/large.jpeg"
+    },
+    "atelerix-frontalis/pixley-ka-seme-side.jpg": {
+      "bytes": 238138,
+      "sha256": "f22857f6ddbf04b2959383524bd6690c6026abdbc66e8f145be80a801e356ba5",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/553047604/large.jpg"
+    },
+    "atilax-paludinosus/rietvlei-running.jpg": {
+      "bytes": 323722,
+      "sha256": "0216fac5d8723aa8e8301989b2a208ea661ed82604be4129ddf2a02bb40a70b2",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822966495105%29.jpg/1280px-Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822966495105%29.jpg"
+    },
+    "atilax-paludinosus/rietvlei-side-crab.jpg": {
+      "bytes": 260076,
+      "sha256": "6f9028d39a987cde1a9d94145d1cfda96a122783f7911bc431967fecf55e6077",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822953068812%29.jpg/1280px-Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822953068812%29.jpg"
+    },
+    "atilax-paludinosus/rietvlei-side.jpg": {
+      "bytes": 294101,
+      "sha256": "308fc8d2517031ce428b32820af9af68f0aa11cb6d9105a4c4aef7a54cad01ee",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822343760634%29.jpg/1280px-Marsh_mongoose_or_water_mongoose%2C_Atilax_paludinosus%2C_at_Rietvlei_Nature_Reserve%2C_Gauteng%2C_South_Africa_%2822343760634%29.jpg"
+    },
+    "calcochloris-obtusirostris/bazaruto-surface.jpg": {
+      "bytes": 529738,
+      "sha256": "11bb7ac927bb1cb0a8d7a26eb25071ad584798671258e83f9bbab11dc6f59e3b",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/259357016/large.jpg"
+    },
+    "caracal-caracal/kruger-mopani.jpg": {
+      "bytes": 175779,
+      "sha256": "21d58720f199e1c6ae2a6086569b52ceb38cc6f2f4fce301c0d1adb63e9964b2",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/441618043/large.jpg"
+    },
+    "caracal-caracal/kruger-side.jpg": {
+      "bytes": 186231,
+      "sha256": "7b2807a8ec6375a8a8a4d3e8a4aec2922859db11e41df14e2bf05f26ac17b3af",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/5/54/Caracal_-_Flickr_-_Ragnhild_%26_Neil_Crawford.jpg"
+    },
+    "caracal-caracal/mountain-zebra-front.jpg": {
+      "bytes": 288582,
+      "sha256": "42ba2794d38ed7f7d2ac72cd221f27774e75a9fa3971b1906ac8415fb8ee113b",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Caracal_Caracal-001.jpg/1280px-Caracal_Caracal-001.jpg"
+    },
+    "cephalophorus-natalensis/hluhluwe-in-cover.jpg": {
+      "bytes": 261498,
+      "sha256": "adc58a340dc58a51df83ccb00ac7a09f9efd56625a6159dcaa8b6d1122e340ae",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Red_Duiker_%28Cephalophus_natalensis%29_hidden_in_the_bushes_..._%2831867866050%29.jpg/1280px-Red_Duiker_%28Cephalophus_natalensis%29_hidden_in_the_bushes_..._%2831867866050%29.jpg"
+    },
+    "cephalophorus-natalensis/isimangaliso-female-foraging.jpg": {
+      "bytes": 422504,
+      "sha256": "b6e0ce01f73b5f9effc04c3afe6ad614e792e2e28d242b243a1f65127f56ee0d",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Natal_Red_Duiker_%28Cephalophus_natalensis%29_female_..._%2846636064441%29.jpg/1280px-Natal_Red_Duiker_%28Cephalophus_natalensis%29_female_..._%2846636064441%29.jpg"
+    },
+    "cephalophorus-natalensis/mtunzini-standing-side.jpg": {
+      "bytes": 188922,
+      "sha256": "b66897317e0bd15e7fe61cdab625b6ed62aadfbba6a85de185d391bc372617f1",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Cephalophus_natalensis.jpg/1280px-Cephalophus_natalensis.jpg"
+    },
+    "cephalophorus-natalensis/ndumo-forest.jpg": {
+      "bytes": 640411,
+      "sha256": "220038e828a7906e84bda9530cdbbd50c7f898389726ba810b4e82190876b85f",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Red_Duiker_%28Cephalophus_natalensis%29_%2832282907691%29.jpg/1280px-Red_Duiker_%28Cephalophus_natalensis%29_%2832282907691%29.jpg"
+    },
+    "cephalophorus-natalensis/umlalazi-female-drinking.jpg": {
+      "bytes": 295295,
+      "sha256": "7c04e94e15e5ca0570ec713f0df12effd88dc22c823cf487bd06ab99408a7fdd",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Natal_Red_Duiker_%28Cephalophus_natalensis%29_female_drinking_..._%2851931690168%29.jpg/1280px-Natal_Red_Duiker_%28Cephalophus_natalensis%29_female_drinking_..._%2851931690168%29.jpg"
+    },
+    "ceratotherium-simum/kruger-female-calf.jpg": {
+      "bytes": 512375,
+      "sha256": "fc0ca0465d1fdb460ea9ea57c23f93140193950ee25479a8c47aae72de822842",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/White_rhinoceros_%28Ceratotherium_simum%29_with_calf_Kruger.jpg/1280px-White_rhinoceros_%28Ceratotherium_simum%29_with_calf_Kruger.jpg"
+    },
+    "ceratotherium-simum/kruger-front.jpg": {
+      "bytes": 611764,
+      "sha256": "36e4d7df0640199c7c2966bf3dc268569afc75ceb120613812e0774466a07b7f",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/White_Rhino_%28Ceratotherium_simum%29_close-up_..._%2850671734292%29.jpg/1280px-White_Rhino_%28Ceratotherium_simum%29_close-up_..._%2850671734292%29.jpg"
+    },
+    "ceratotherium-simum/kruger-grazing.jpg": {
+      "bytes": 412111,
+      "sha256": "ec38408e86a6b3c60f00d3a61c44e2d044bf0674fb47ca3b01ec0bf3cb0edf2d",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/White_Rhino_%28Ceratotherium_simum%29_grazing_..._%2852441309439%29.jpg/1280px-White_Rhino_%28Ceratotherium_simum%29_grazing_..._%2852441309439%29.jpg"
+    },
+    "ceratotherium-simum/kruger-juvenile.jpg": {
+      "bytes": 626764,
+      "sha256": "edec961c4dc007815a5932e5d13b2e0c37bd78d527eb6b820dbfbc916bb46052",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/White_rhinoceros_%28Ceratotherium_simum%29_juvenile_Kruger.jpg/1280px-White_rhinoceros_%28Ceratotherium_simum%29_juvenile_Kruger.jpg"
+    },
+    "ceratotherium-simum/kruger-male-side.jpg": {
+      "bytes": 397314,
+      "sha256": "25e2be4e7194ef4ea074f44e56b164c961fa23588adc597057035278075ba597",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/White_Rhino_%28Ceratotherium_simum%29_male_..._%2846078947015%29.jpg/1280px-White_Rhino_%28Ceratotherium_simum%29_male_..._%2846078947015%29.jpg"
+    },
+    "chlorocebus-pygerythrus/kruger-face.jpg": {
+      "bytes": 254601,
+      "sha256": "27fb3ec11aa4a9607583bab19f18a42531b6c58f3babe702fdc622ff5403319c",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Cercopiteco_verde_%28Chlorocebus_pygerythrus%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-25%2C_DD_57.jpg/1280px-Cercopiteco_verde_%28Chlorocebus_pygerythrus%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-25%2C_DD_57.jpg"
+    },
+    "chlorocebus-pygerythrus/kruger-female-infant-back.jpg": {
+      "bytes": 247153,
+      "sha256": "d84606da0a0f40457a7fa13f2b511f8c0e44a063fee3d7686885ec509c1a8a46",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Vervet_Monkeys_%28Chlorocebus_pygerythrus%29_%2816438007097%29.jpg/1280px-Vervet_Monkeys_%28Chlorocebus_pygerythrus%29_%2816438007097%29.jpg"
+    },
+    "chlorocebus-pygerythrus/kruger-female-infant.jpg": {
+      "bytes": 267843,
+      "sha256": "7f6c735297bc5023e01dd7567db9b0cb9af2bfafc62d0b74d61a5442787f9807",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Vervet_monkey%2C_Chlorocebus_pygerythrus_with_baby_at_Kruger_Park_%2819613584223%29.jpg/1280px-Vervet_monkey%2C_Chlorocebus_pygerythrus_with_baby_at_Kruger_Park_%2819613584223%29.jpg"
+    },
+    "chlorocebus-pygerythrus/kruger-juvenile.jpg": {
+      "bytes": 412291,
+      "sha256": "5920040d55beb48615b365e108acb52c673a80e2bd085b53ee42d4520c7b9b86",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Vervet_Monkey_%28Chlorocebus_pygerythrus%29_young_..._%2851674928959%29.jpg/1280px-Vervet_Monkey_%28Chlorocebus_pygerythrus%29_young_..._%2851674928959%29.jpg"
+    },
+    "chlorocebus-pygerythrus/kruger-perched-side.jpg": {
+      "bytes": 730355,
+      "sha256": "b7bb81b843f7f8861d391edb701e72bf6ad5f426781f598e178d7eea586d7541",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Vervet_monkey_%28Chlorocebus_pygerythrus%29_Kruger.jpg/1280px-Vervet_monkey_%28Chlorocebus_pygerythrus%29_Kruger.jpg"
+    },
+    "civettictis-civetta/kruger-daylight.jpg": {
+      "bytes": 532131,
+      "sha256": "1e734079220f54d5700e0b63a676eb9a84076efa1538273f5c408d8ce4665cfb",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/762895421/large.jpg"
+    },
+    "civettictis-civetta/kruger-lying.jpg": {
+      "bytes": 545417,
+      "sha256": "fc62e912c408659faa28ce6a3e648228a41c7adabf3f70f5ef4d133d3cdb7816",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Civet_cat_Kruger_South_Africa.jpg/1280px-Civet_cat_Kruger_South_Africa.jpg"
+    },
+    "civettictis-civetta/kruger-night-side.jpg": {
+      "bytes": 389091,
+      "sha256": "cec53019a70d6d03f1d3bce08c6b56c8f30c297af3d551a4103d6ee7fadde318",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/603577363/large.jpg"
+    },
+    "civettictis-civetta/kruger-punda-front.jpg": {
+      "bytes": 282823,
+      "sha256": "0dd451e34816e1a74b22caa218ddb19d3504d892a853f7eff70c5415d453fd07",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/29932620/large.jpeg"
+    },
+    "connochaetes-taurinus/kruger-drinking.jpg": {
+      "bytes": 298367,
+      "sha256": "50ded7d88707000721da18bdeb8ba4636f5df166689a87e6f8740c8f3ec629cd",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Blue_Wildebeest_%28Connochaetes_taurinus%29_drinking_..._%2851903925357%29.jpg/1280px-Blue_Wildebeest_%28Connochaetes_taurinus%29_drinking_..._%2851903925357%29.jpg"
+    },
+    "connochaetes-taurinus/kruger-females-and-calves.jpg": {
+      "bytes": 431904,
+      "sha256": "4b0e44ee50eac8ad282e2e43d6f321b18ed15cc7b12e151050da3932383a025e",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Blue_Wildebeests_%28Connochaetes_taurinus%29_females_and_youngs_..._%2850120233353%29.jpg/1280px-Blue_Wildebeests_%28Connochaetes_taurinus%29_females_and_youngs_..._%2850120233353%29.jpg"
+    },
+    "connochaetes-taurinus/kruger-front.jpg": {
+      "bytes": 465553,
+      "sha256": "9f984ffdab5f7f7c51939432522366affcc05f3065eee7a4257771a5987d8c04",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Blue_Wildebeest_%28Connochaetes_taurinus%29_%2852007289387%29.jpg/1280px-Blue_Wildebeest_%28Connochaetes_taurinus%29_%2852007289387%29.jpg"
+    },
+    "connochaetes-taurinus/kruger-grazing.jpg": {
+      "bytes": 397407,
+      "sha256": "c1b39f1d0c3a9ecf88a9a421df274678fc3e19a1aa95e26cfe4f48b835bd802d",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Blue_Wildebeests_%28Connochaetes_taurinus%29_grazing_..._%2852332847142%29.jpg/1280px-Blue_Wildebeests_%28Connochaetes_taurinus%29_grazing_..._%2852332847142%29.jpg"
+    },
+    "connochaetes-taurinus/kruger-herd-running.jpg": {
+      "bytes": 392987,
+      "sha256": "e7684c81895269e9246a4d7ef5b36d1450a69b7d29a0fe649443113bf11dd6bd",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Blue_Wildebeests_%28Connochaetes_taurinus%29_running_..._%2852483404595%29.jpg/1280px-Blue_Wildebeests_%28Connochaetes_taurinus%29_running_..._%2852483404595%29.jpg"
+    },
+    "connochaetes-taurinus/kruger-nursing.jpg": {
+      "bytes": 525197,
+      "sha256": "58a4c248b35fda90c7a80562c094c42af3bfef263d5434272bd5ac7e749a0781",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/110739298/large.jpeg"
+    },
+    "connochaetes-taurinus/kruger-side.jpg": {
+      "bytes": 508070,
+      "sha256": "fcde8d103abc6b1b3c9f96ed15fd4f52406486027b46e5f0346aa464c71de363",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Blue_Wildebeest_%28Connochaetes_taurinus%29_%2852488384080%29.jpg/1280px-Blue_Wildebeest_%28Connochaetes_taurinus%29_%2852488384080%29.jpg"
+    },
+    "cricetomys-ansorgei/lubcker-lajuma-head.jpg": {
+      "bytes": 308081,
+      "sha256": "89fd7760defc4244cf8bb03b36c6e1f3ce73a1e06e1aa6b43b3086f07f38ce6d",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/445741742/large.jpg"
+    },
+    "cricetomys-ansorgei/lubcker-lajuma-side.jpg": {
+      "bytes": 478105,
+      "sha256": "ee53222dbc12efb4f7b43d56579e3d5fba46c0fbbc6b4ba1ea6cdfbe8d029043",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/445741698/large.jpg"
+    },
+    "cricetomys-ansorgei/themba-louis-trichardt-climb.jpg": {
+      "bytes": 558742,
+      "sha256": "1e92b10d9cd7c01ee465c8e50fb9bb65ae0f2845bdfff59d197eade45306b8ea",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/728493332/large.jpg"
+    },
+    "cricetomys-ansorgei/tristanspurway-pafuri-tree.jpg": {
+      "bytes": 278629,
+      "sha256": "438306d12ab4ef8b9367f7bfbef3127894cf75b7244ea86eecc0b421c264204d",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/462326182/large.jpg"
+    },
+    "crocidura-cyanea/zf-mgcawu-standing-side.jpg": {
+      "bytes": 165943,
+      "sha256": "9cb71f282b250856b13e21181b16650f532f3f21e6d3e42aab06950256677b68",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/662138470/large.jpg"
+    },
+    "crocidura-fuscomurina/okavango-delta-standing-side.jpg": {
+      "bytes": 115303,
+      "sha256": "91fba5729749cba13d9f691d4f3239d9a5f81593eefd57080b9e6a3eb05e71f7",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/91232715/large.jpg"
+    },
+    "crocuta-crocuta/kruger-cub.jpg": {
+      "bytes": 477069,
+      "sha256": "2cd48c68371aba0e8f8d50f09e471a483db9b240f3019eeae8bc2859311f2121",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Spotted_Hyaena_%28Crocuta_crocuta%29_cub_..._%2852142898331%29.jpg/1280px-Spotted_Hyaena_%28Crocuta_crocuta%29_cub_..._%2852142898331%29.jpg"
+    },
+    "crocuta-crocuta/kruger-female-cubs.jpg": {
+      "bytes": 438858,
+      "sha256": "48398affba9bde9c080b3c11a7e176c915d990649dee6689b9a79e7d78764a61",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Spotted_Hyaenas_%28Crocuta_crocuta%29_female_with_cubs_..._%2850332522933%29.jpg/1280px-Spotted_Hyaenas_%28Crocuta_crocuta%29_female_with_cubs_..._%2850332522933%29.jpg"
+    },
+    "crocuta-crocuta/kruger-front.jpg": {
+      "bytes": 413303,
+      "sha256": "7033c75f77d0fa8d1694511fb68e983d54a18b07da177035b9fdb821b8791f8d",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Spotted_Hyaena_%28Crocuta_crocuta%29_female_..._%2852562551601%29.jpg/1280px-Spotted_Hyaena_%28Crocuta_crocuta%29_female_..._%2852562551601%29.jpg"
+    },
+    "crocuta-crocuta/kruger-grass.jpg": {
+      "bytes": 415133,
+      "sha256": "88d9d0f755a8a5766dd8cf8e9c3589cfcc7751b96cb0d20e5108136e82e38ff2",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Hiena_manchada_%28Crocuta_crocuta%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-26%2C_DD_21.jpg/1280px-Hiena_manchada_%28Crocuta_crocuta%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-26%2C_DD_21.jpg"
+    },
+    "crocuta-crocuta/kruger-side.jpg": {
+      "bytes": 234421,
+      "sha256": "40db410c320f56e5694ea0f634918d5dc9db11e7c4fb7c95a1bad4fc068b7664",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Spotted_Hyena_%28Crocuta_crocuta%29_walking_to_the_waterhole.jpg/1280px-Spotted_Hyena_%28Crocuta_crocuta%29_walking_to_the_waterhole.jpg"
+    },
+    "cryptomys-hottentotus/bitou-burrow.jpg": {
+      "bytes": 566604,
+      "sha256": "2078fe5ebe877b29c9c2d6cd515d8fa265266c51ee9e42608b691353ea540b1c",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/677510020/large.jpg"
+    },
+    "cryptomys-hottentotus/mossel-bay-surface.jpg": {
+      "bytes": 484702,
+      "sha256": "ab187920a7b3a3fd52435b3798211cde6685254002be36269cd549d7c3917741",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/621836495/large.jpg"
+    },
+    "damaliscus-lunatus/kruger-adults-and-calf.jpg": {
+      "bytes": 523354,
+      "sha256": "f7d9c56f25429006816075b34796c8f294cd19a0236654be8c457c2829012489",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Tsessebes_%28Damaliscus_lunatus_lunatus%29_%2811682908953%29.jpg/1280px-Tsessebes_%28Damaliscus_lunatus_lunatus%29_%2811682908953%29.jpg"
+    },
+    "damaliscus-lunatus/kruger-calf.jpg": {
+      "bytes": 488709,
+      "sha256": "69f31c842760715b0887478176bac7931d9fb6b481050e11cf938bb1c733ecd1",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Young_Tsessebe_%28Damaliscus_lunatus_lunatus%29_%2811683857613%29.jpg/1280px-Young_Tsessebe_%28Damaliscus_lunatus_lunatus%29_%2811683857613%29.jpg"
+    },
+    "damaliscus-lunatus/kruger-head.jpg": {
+      "bytes": 384935,
+      "sha256": "5b82f4e8f77e992cc3de19bfbe149cddda863421b0f75c05db2b965804f1f017",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tsessebe_%28Damaliscus_lunatus_lunatus%29_close-up_%2811684009833%29.jpg/1280px-Tsessebe_%28Damaliscus_lunatus_lunatus%29_close-up_%2811684009833%29.jpg"
+    },
+    "damaliscus-lunatus/kruger-male-side.jpg": {
+      "bytes": 365648,
+      "sha256": "4520dd56a7ef57d0828fdfc5783c4d2762fbcbd0b7716ae6c87a4fd49909c022",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Tsessebe_%28Damaliscus_lunatus%29_male_..._%2852164833803%29.jpg/1280px-Tsessebe_%28Damaliscus_lunatus%29_male_..._%2852164833803%29.jpg"
+    },
+    "damaliscus-lunatus/kruger-nursery.jpg": {
+      "bytes": 519822,
+      "sha256": "f0064f00d52ed1babdf8d8b6ca2098504684ac02b14ea887206ea6057d88ad8c",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Young_Tsessebes_%28Damaliscus_lunatus_lunatus%29_nursery_%2811684080854%29.jpg/1280px-Young_Tsessebes_%28Damaliscus_lunatus_lunatus%29_nursery_%2811684080854%29.jpg"
+    },
+    "damaliscus-lunatus/kruger-pair.jpg": {
+      "bytes": 199614,
+      "sha256": "6f6544cafb3481b785e94b9040d2d963cf6d93526cf647399439ab056a2d0162",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Common_Tsessebe_in_Kruger_National_Park.JPG/1280px-Common_Tsessebe_in_Kruger_National_Park.JPG"
+    },
+    "damaliscus-lunatus/kruger-side.jpg": {
+      "bytes": 356818,
+      "sha256": "554dd5a2be79ed6b062b99dfa61b1e02c280839ae39f7e16c8c75969343308ff",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tsessebe_%28Damaliscus_lunatus%29_%2851872054543%29.jpg/1280px-Tsessebe_%28Damaliscus_lunatus%29_%2851872054543%29.jpg"
+    },
+    "dendromus-melanotis/umkhanyakude-climbing.jpg": {
+      "bytes": 400847,
+      "sha256": "bcac6109c3e253c2fdaa8ace44f325e9de01f1d0538d3d2a4a02bc264be29a7a",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/467532406/large.jpeg"
+    },
+    "dendromus-melanotis/umkhanyakude-side.jpg": {
+      "bytes": 478440,
+      "sha256": "72ba94b476cfde4918d272200681115569188c2d560744a16277266b67d80703",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/527447054/large.jpg"
+    },
+    "diceros-bicornis/kruger-browsing.jpg": {
+      "bytes": 165422,
+      "sha256": "ba8b531a9696721256fd57c4a2d0080064e4226dcca168237d26576fbafc119e",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/14904587/large.jpg"
+    },
+    "diceros-bicornis/kruger-lying.jpg": {
+      "bytes": 347522,
+      "sha256": "a488bdab53de9c8fa8688a3e7581cfb4bf251f644fd921b156512be823c59561",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Black_Rhino_%28Diceros_bicornis%29_%286025386757%29.jpg/1280px-Black_Rhino_%28Diceros_bicornis%29_%286025386757%29.jpg"
+    },
+    "diceros-bicornis/kruger-pair.jpg": {
+      "bytes": 190107,
+      "sha256": "6a48445ff13ec4777f23b45a5c99af2b775fb73b96ab2b2b6388d9827011306c",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15192254/large.jpg"
+    },
+    "diceros-bicornis/kruger-side.jpg": {
+      "bytes": 222930,
+      "sha256": "7d22edf19920c02c728c0fd4aa8ae263baa8a2a54bc05dc915384376eafb0260",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/483522600/large.jpeg"
+    },
+    "elephantulus-brachyrhynchus/vhembe-alert.jpg": {
+      "bytes": 653857,
+      "sha256": "42a9a43122e8aeded536c4d6a43b3b3975af19eaf2fa78fb4c960c2d140c94b7",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/618686216/large.jpg"
+    },
+    "elephantulus-brachyrhynchus/vhembe-side.jpg": {
+      "bytes": 627735,
+      "sha256": "2dc30f7c6b39c2a008f159d81b747931faab3603698d89a66796d282f923b140",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/618688886/large.jpg"
+    },
+    "elephantulus-myurus/far-north-close.jpg": {
+      "bytes": 559161,
+      "sha256": "bcd3395662f3700a7ea4c994298a1fcc58145e24693a7b411f1fdec96664c378",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/588648364/large.jpg"
+    },
+    "elephantulus-myurus/far-north-crevice.jpg": {
+      "bytes": 813599,
+      "sha256": "34e2292f11eced271a702ad65e4eb9fdd095dd1e10c0fa758a00b9061ebdfe03",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/692212016/large.jpg"
+    },
+    "elephantulus-myurus/far-north-overhang.jpg": {
+      "bytes": 716457,
+      "sha256": "07e5cd4c5c7b25a17a5cdc6fe5e90445318c32a3fd712a4ae6483e8c3d0eb709",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/455485681/large.jpg"
+    },
+    "elephantulus-myurus/far-north-rocks.jpg": {
+      "bytes": 782956,
+      "sha256": "1b635f6ad9324ee686a25e67151e2b3e0ca53453f6e926356249254bb3e0d04a",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/628837774/large.jpg"
+    },
+    "elephantulus-myurus/far-north-side.jpg": {
+      "bytes": 228620,
+      "sha256": "346cc61e3e010ef416c6948d770664c18473519e1f93ab983655236d8746360e",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/411372152/large.jpg"
+    },
+    "epomophorus-crypturus/moremi-tree-roost.jpg": {
+      "bytes": 248007,
+      "sha256": "475dbdc575c3373055edecfb4da4a3233fe79ce155e743016ba5e28365978ccd",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/413958872/large.jpeg"
+    },
+    "epomophorus-crypturus/north-west-botswana-foliage.jpg": {
+      "bytes": 1028821,
+      "sha256": "7065de480a43b1ac067b8b1e10b69f36cdc14baae3fa6a31706fb5fc4d157a63",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/622556903/large.jpg"
+    },
+    "epomophorus-wahlbergi-perched-side": {
+      "bytes": 206582,
+      "sha256": "59b47f994873d6199f22dc594aa5cade2a55c53f0c8c86a5bd65599ee6562a94",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716031536/large.jpg"
+    },
+    "epomophorus-wahlbergi-perched-side-foliage": {
+      "bytes": 200029,
+      "sha256": "cac837e4097814365ce9832a2f6c0bf4d33b16dca5fbcf3bc51c7de24e9c6188",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/758306728/large.jpg"
+    },
+    "equus-quagga/kruger-drinking.jpg": {
+      "bytes": 462949,
+      "sha256": "b739bfe4848626a49a75b75aa737a39f38762364988056831802c0dac5edca64",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Plains_Zebras_%28Equus_quagga%29_drinking.jpg/1280px-Plains_Zebras_%28Equus_quagga%29_drinking.jpg"
+    },
+    "equus-quagga/kruger-head.jpg": {
+      "bytes": 451458,
+      "sha256": "cf349122d7ff429b2761bdf5704461ccf9ef918fc5cfef1f71a838f961a6b3de",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cebra_de_Burchell_%28Equus_quagga_burchellii%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-26%2C_DD_10.jpg/1280px-Cebra_de_Burchell_%28Equus_quagga_burchellii%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-26%2C_DD_10.jpg"
+    },
+    "equus-quagga/kruger-herd.jpg": {
+      "bytes": 452713,
+      "sha256": "b2cf76d3690b04c42666e0f8fed018c982c5f12c9a5da312a0cf532e50e809c0",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Plains_Zebras_%28Equus_quagga%29_%2853642842554%29.jpg/1280px-Plains_Zebras_%28Equus_quagga%29_%2853642842554%29.jpg"
+    },
+    "equus-quagga/kruger-mare-and-foal.jpg": {
+      "bytes": 457511,
+      "sha256": "3e7e7e72f9d8e7d73fedbe464b2184e7d43cb8c840ac9626fda1400c35cdfbb2",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Plains_Zebras_%28Equus_quagga%29_mare_and_foal.jpg/1280px-Plains_Zebras_%28Equus_quagga%29_mare_and_foal.jpg"
+    },
+    "equus-quagga/kruger-side.jpg": {
+      "bytes": 562347,
+      "sha256": "b4916cc55ede8073c20dcfe5bb85661b1e137da1817175e0e3c769edee0618c6",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Cebra_de_Burchell_%28Equus_quagga_burchellii%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-24%2C_DD_01.jpg/1280px-Cebra_de_Burchell_%28Equus_quagga_burchellii%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-24%2C_DD_01.jpg"
+    },
+    "felis-lybica/kgalagadi-day.jpg": {
+      "bytes": 589575,
+      "sha256": "36ed6458b5c5622031b90d225a02bd6dd92dfe1d7a13d6d0bb61b13400cc90ed",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/African_Wildcat_%28Felis_lybica%29_%2851659798835%29.jpg/1280px-African_Wildcat_%28Felis_lybica%29_%2851659798835%29.jpg"
+    },
+    "felis-lybica/kruger-satara-camp.jpg": {
+      "bytes": 173325,
+      "sha256": "d179d8ffdcf5c29ec6ae322c639682c9e2c6b9dad3bf5bb648f986aac6b440b5",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/76888927/large.jpeg"
+    },
+    "felis-lybica/kruger-satara.jpg": {
+      "bytes": 76517,
+      "sha256": "42f417a6ff7a7e2e0e3bd771d567339348bf88c83cd70dea4a85557020f46c5e",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15920631/large.jpg"
+    },
+    "felis-lybica/kruger-side.jpg": {
+      "bytes": 206009,
+      "sha256": "d5def9887c19fcd362e62757cbc3b8aa66507a892cdc4da12b3a3c206b06675c",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/270414532/large.jpeg"
+    },
+    "galago-moholi/kruger-acacia.jpg": {
+      "bytes": 582427,
+      "sha256": "c31b5224f0f5df3958dea6fe6ebad229ea2419ed9a9f287951e6361126040f6e",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/173712564/large.jpg"
+    },
+    "galago-moholi/kruger-central.jpg": {
+      "bytes": 725403,
+      "sha256": "3f51f6fb57f192c5f2f907f891f1357a5ebaa9cdc5824f4612388cfd954ff22d",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/209791864/large.jpg"
+    },
+    "galago-moholi/kruger-makuleke.jpg": {
+      "bytes": 545857,
+      "sha256": "81e89b2c900b31736824726c63538855fcf78dd6b4ff77ee3e55b43aa0c841eb",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/142087351/large.jpg"
+    },
+    "galago-moholi/kruger-tree-hole.jpg": {
+      "bytes": 135668,
+      "sha256": "92d3d13b4ea576a50b3895bfb400ce15f92f6e566d245e48088b21cd4fe43454",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/230501749/large.jpeg"
+    },
+    "genetta-felina/beaufort-west-side.jpg": {
+      "bytes": 299188,
+      "sha256": "14a06316882d3cfc90fed5d727ff501a674874e1e14902a8b07ac4fcfc3fc3f1",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Genetta_felina_11034107.jpg/1280px-Genetta_felina_11034107.jpg"
+    },
+    "genetta-felina/bushbuckridge-log.jpg": {
+      "bytes": 647170,
+      "sha256": "3dc0ec30d512c1f1c0264cfdd854bc3ef021879d7944dafd97225642935fc3e2",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Genetta_felina_721177347.jpg/1280px-Genetta_felina_721177347.jpg"
+    },
+    "genetta-felina/kai-garib-side.jpg": {
+      "bytes": 217196,
+      "sha256": "624c96787eb91606dcd23d8ee5053ad644aa055c62a503bfd09faf0b0e91af38",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Genetta_felina_60147573.jpg/1280px-Genetta_felina_60147573.jpg"
+    },
+    "genetta-felina/kruger-tree.jpg": {
+      "bytes": 386107,
+      "sha256": "3853ff9af3383cbd8fe2b9d8a3b4ed647e7f8f14dc08638641c1bc510589f01c",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/603577339/large.jpg"
+    },
+    "genetta-fieldiana/kruger-maroela.jpg": {
+      "bytes": 423028,
+      "sha256": "49b5fc798636c183216eca747c91008aa453206fd509c7efcecbf9f854cb43be",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/158812520/large.jpeg"
+    },
+    "genetta-fieldiana/kruger-mopani.jpg": {
+      "bytes": 676328,
+      "sha256": "3cbd64bd078b79f9607ac2b276c6d407a43d81e89f8a9555a6027e92bdc3cc53",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/60150179/large.jpeg"
+    },
+    "genetta-fieldiana/kruger-skukuza.jpg": {
+      "bytes": 160439,
+      "sha256": "c5bf876457b2f4217c8d569a4e049b105bbda252709ef00476d5584f0df63697",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/175181839/large.jpeg"
+    },
+    "genetta-fieldiana/kruger-tamboti-side.jpg": {
+      "bytes": 297464,
+      "sha256": "06aa91b45a37a71cca0d23bb930bf40d03b47860a2b17f33e29288146c169463",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Rusty-spotted_Genet_%28Genetta_maculata%29_%2832484079077%29.jpg/1280px-Rusty-spotted_Genet_%28Genetta_maculata%29_%2832484079077%29.jpg"
+    },
+    "genetta-fieldiana/kruger-tree.jpg": {
+      "bytes": 64258,
+      "sha256": "cb8665693df9b2ea30ff60bbf9d5e0dbd5475b24d64661c348ca7886fbdaed88",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/116287025/large.jpg"
+    },
+    "gerbilliscus-leucogaster/medike-side.jpg": {
+      "bytes": 111239,
+      "sha256": "1863bebcaed486a6e62c385a62e2876321877042e1a0ae700e48bf437182b590",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15668183/large.jpg"
+    },
+    "gerbilliscus-leucogaster/waterberg-litter.jpg": {
+      "bytes": 293269,
+      "sha256": "1f81a1eee53669411a1e81a7e297c7d7a916f76a404d988792ab9e53bd2f65fb",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/663832384/large.jpg"
+    },
+    "giraffa-giraffa/kruger-drinking.jpg": {
+      "bytes": 601274,
+      "sha256": "d77a66b37b80ca090ab724dc2b3f84bf76a7dc0ed5c9f7ddaf6799d1fea02acd",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Giraffe_%28Giraffa_camelopardalis%29_drinking_..._%2850810305028%29.jpg/1280px-Giraffe_%28Giraffa_camelopardalis%29_drinking_..._%2850810305028%29.jpg"
+    },
+    "giraffa-giraffa/kruger-herd.jpg": {
+      "bytes": 292231,
+      "sha256": "5418a296820271e7b10654b9ebb098edfdd2ddddd2045943a4293b7f5b80fddc",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Southern_Giraffes_%28Giraffa_giraffa%29_gathering.jpg/1280px-Southern_Giraffes_%28Giraffa_giraffa%29_gathering.jpg"
+    },
+    "giraffa-giraffa/kruger-male-back.jpg": {
+      "bytes": 383342,
+      "sha256": "ac03d26bafd1204e62d59124560fc9ac960ae90437cdfe81a56eb393bbbc9370",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Southern_Giraffe_%28Giraffa_giraffa%29_male.jpg/1280px-Southern_Giraffe_%28Giraffa_giraffa%29_male.jpg"
+    },
+    "giraffa-giraffa/kruger-side.jpg": {
+      "bytes": 413499,
+      "sha256": "7c95a85a640e9a326e49b1b67f2ace6b1c6c515727e26a20cdfccf14d28ed05b",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/South_African_giraffe_%28Giraffa_camelopardalis_giraffa%29_Kruger.jpg/1280px-South_African_giraffe_%28Giraffa_camelopardalis_giraffa%29_Kruger.jpg"
+    },
+    "giraffa-giraffa/kruger-young.jpg": {
+      "bytes": 277615,
+      "sha256": "df4c176b81f922fc811d477b13e2129b21201e8d01f659d2c4d0e809c6326717",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Southern_Giraffe_%28Giraffa_giraffa%29%2C_young_with_tousled_hairs.jpg/1280px-Southern_Giraffe_%28Giraffa_giraffa%29%2C_young_with_tousled_hairs.jpg"
+    },
+    "glauconycteris-variegata/st-lucia-foliage-roost.jpg": {
+      "bytes": 776668,
+      "sha256": "fe0c8260e199a4621d4b90fd2bedd6409588b0ae62efbec7c007c37f81c9830a",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/655254815/large.jpg"
+    },
+    "glauconycteris-variegata/st-lucia-wing-pattern.jpg": {
+      "bytes": 829215,
+      "sha256": "8b4a512590978b1be92b27568520c33509bc80bc87a41dc163edd62d97520969",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/655253076/large.jpg"
+    },
+    "grammomys-dolichurus/letaba-night-drive.jpg": {
+      "bytes": 282062,
+      "sha256": "5d56ed6b06db02f43eabf5ff594b92e5ed05bd0cdbe4aee80e6ad1049b356df0",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/252267238/large.jpg"
+    },
+    "graphiurus-murinus/limpopo-tree.jpg": {
+      "bytes": 878897,
+      "sha256": "787f9663609236488ab9a2b85995abd59e70d1b22a03409dd2232826c0cb7a37",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/762303109/large.jpg"
+    },
+    "graphiurus-murinus/makhado-leaf-litter.jpg": {
+      "bytes": 369747,
+      "sha256": "4aa46daa7cc99f77344d6de0280fe955583b0a79e530528590bc91c037ca16c3",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/451262805/large.jpeg"
+    },
+    "helogale-parvula/lower-sabie-s21-lizard.jpg": {
+      "bytes": 797667,
+      "sha256": "025672ec8c2a899777b4db4104d24fd87fa28f5f4e14bdc19f0ee6327c520bf1",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Dwarf_Mongoose_%28Helogale_parvula%29_eating_a_lizard_..._%2833376775195%29.jpg/1280px-Dwarf_Mongoose_%28Helogale_parvula%29_eating_a_lizard_..._%2833376775195%29.jpg"
+    },
+    "helogale-parvula/lower-sabie-s82-group.jpg": {
+      "bytes": 399250,
+      "sha256": "3de2c5308fa9b7b6da12087e0360bdcd7ff6c3c30f2441a8ca4cc8ea21387a8d",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Dwarf_Mongooses_%28Helogale_parvula%29_%2852798572017%29.jpg/1280px-Dwarf_Mongooses_%28Helogale_parvula%29_%2852798572017%29.jpg"
+    },
+    "helogale-parvula/olifants-s90-tree.jpg": {
+      "bytes": 723777,
+      "sha256": "b2c82c66ce886b30750da1bb567e58ddde2cc0a8fe9a705e2136311f9126cd76",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dwarf_Mongoose_%28Helogale_parvula%29_watching_from_tree.jpg/1280px-Dwarf_Mongoose_%28Helogale_parvula%29_watching_from_tree.jpg"
+    },
+    "helogale-parvula/phabeni-s1-sentinel.jpg": {
+      "bytes": 483652,
+      "sha256": "6b9de82df067c973121b70a555e077a4e6a8d5dc4b81fed5a0e4996a936caef3",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Common_Dwarf_Mongoose_%28Helogale_parvula%29_sentinel_..._%2851668969047%29.jpg/1280px-Common_Dwarf_Mongoose_%28Helogale_parvula%29_sentinel_..._%2851668969047%29.jpg"
+    },
+    "helogale-parvula/tshokwane-h1-2-side.jpg": {
+      "bytes": 414499,
+      "sha256": "faeec31061f2310943459aa4338bfa666128a0f28b6b70daf227d0fc671d5fab",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Dwarf_Mongoose_%28Helogale_parvula%29.jpg/1280px-Dwarf_Mongoose_%28Helogale_parvula%29.jpg"
+    },
+    "herpestes-ichneumon/george-running-side.jpg": {
+      "bytes": 64989,
+      "sha256": "1734882697556b0961677e8fc27c12b49252c2351eb9e0608c0ab4a3fba01cc8",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/745916538/large.jpg"
+    },
+    "herpestes-ichneumon/south-cape-pair-back.jpg": {
+      "bytes": 293817,
+      "sha256": "79b78debf189ef65172552d9c7aff12086526eb84202bc243d3e249ea3dda2db",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/151372107/large.jpg"
+    },
+    "herpestes-sanguineus/crocodile-bridge-s27-rock.jpg": {
+      "bytes": 404068,
+      "sha256": "d97df8f1910ac82b6ffa1b7e982ed332deb20f576bb9fd44e286dc4564543ed6",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Day_44_Black-tailed_Mongoose_%28Galerella_sanguinea%29_%2853305029315%29.jpg/1280px-Day_44_Black-tailed_Mongoose_%28Galerella_sanguinea%29_%2853305029315%29.jpg"
+    },
+    "herpestes-sanguineus/lower-sabie-s82-portrait.jpg": {
+      "bytes": 397253,
+      "sha256": "a4ac0332ee77b4cd33cf07d9117b9a96fd980efe38678abfd25416e532c38420",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Black-tailed_Mongoose_%28Herpestes_sanguineus%29_portrait_..._%2851892635743%29.jpg/1280px-Black-tailed_Mongoose_%28Herpestes_sanguineus%29_portrait_..._%2851892635743%29.jpg"
+    },
+    "herpestes-sanguineus/nsemani-h7-pair.jpg": {
+      "bytes": 360739,
+      "sha256": "808521daf033e3a849b30523ea46f945db923d176f7a3741dfadef922129ddc8",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Black-tailed_Mongooses_%28Herpestes_sanguineus%29_%2853046976731%29.jpg/1280px-Black-tailed_Mongooses_%28Herpestes_sanguineus%29_%2853046976731%29.jpg"
+    },
+    "herpestes-sanguineus/orpen-h7-side.jpg": {
+      "bytes": 443631,
+      "sha256": "7fcd312b096ed6d114dfabb7f6842bd31855b2a4eb8beab0b3f316b3bfe41738",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Black-tailed_Mongoose_%28Herpestes_sanguineus%29_%2851886003417%29.jpg/1280px-Black-tailed_Mongoose_%28Herpestes_sanguineus%29_%2851886003417%29.jpg"
+    },
+    "herpestes-sanguineus/skukuza-h12-side.jpg": {
+      "bytes": 452402,
+      "sha256": "d352bd39d3821a605fa595c97984538e9bc902b2e2d1438ca10a64b3c04efb65",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Slender_Mongoose_%28Herpestes_sanguineus%29_%2851782949829%29.jpg/1280px-Slender_Mongoose_%28Herpestes_sanguineus%29_%2851782949829%29.jpg"
+    },
+    "heterohyrax-brucei/northern-kruger-browse.jpg": {
+      "bytes": 313922,
+      "sha256": "786215317d92d17d85e969fa0461dfa6eb271a2b5ca2082304a4c86aa687eebf",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/757997233/large.jpg"
+    },
+    "heterohyrax-brucei/northern-kruger-pair.jpg": {
+      "bytes": 324335,
+      "sha256": "1ed902dae0d446ca7451460dfaeca55589d7bfaadfce639c4e5e31b2037905ea",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/426686819/large.jpg"
+    },
+    "heterohyrax-brucei/northern-kruger-tree.jpeg": {
+      "bytes": 193944,
+      "sha256": "10ee623ddd5af506dbde475fdf1105b26befc260fdb3b620509c78ba3e4b8491",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/345219840/large.jpeg"
+    },
+    "hippopotamus-amphibius/kruger-juvenile.jpg": {
+      "bytes": 356680,
+      "sha256": "655c68401207a7831e7ae853c5de6b10091039f12c3d85f7cff5b75359c3a68b",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hippopotamus_%28Hippopotamus_amphibius%29_juvenile_Kruger.jpg/1280px-Hippopotamus_%28Hippopotamus_amphibius%29_juvenile_Kruger.jpg"
+    },
+    "hippopotamus-amphibius/kruger-letaba-side.jpg": {
+      "bytes": 489728,
+      "sha256": "be6808b878e42bb150cde4a0d2674c464fc4c3b93e60dc44066369aa3242e96f",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Common_hippopotamus%2C_Hippopotamus_amphibius%2C_at_Letaba%2C_Kruger_National_Park%2C_South_Africa_%2819599031483%29.jpg/1280px-Common_hippopotamus%2C_Hippopotamus_amphibius%2C_at_Letaba%2C_Kruger_National_Park%2C_South_Africa_%2819599031483%29.jpg"
+    },
+    "hippopotamus-amphibius/kruger-lying.jpg": {
+      "bytes": 499089,
+      "sha256": "671a5108a61cf21c94670541af9fd065813067184480dc9cca740b3d83353fee",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Hippo_%28Hippopotamus_amphibius%29_%2852121044837%29.jpg/1280px-Hippo_%28Hippopotamus_amphibius%29_%2852121044837%29.jpg"
+    },
+    "hippopotamus-amphibius/kruger-pod.jpg": {
+      "bytes": 401493,
+      "sha256": "244059373997ecc1d9f3cfde78f904303a20dbaa5d4c568a1d77744ac2223d3a",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Hippos_%28Hippopotamus_amphibius%29_%2852122072451%29.jpg/1280px-Hippos_%28Hippopotamus_amphibius%29_%2852122072451%29.jpg"
+    },
+    "hippopotamus-amphibius/kruger-sunset-dam.jpg": {
+      "bytes": 147816,
+      "sha256": "0d11064b185d49bb45b0a4cc75b833b56915e7d05c9e99f4aaeb5ba38a39a393",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Hippo_%28Hippopotamus_amphibius%29.jpg/1280px-Hippo_%28Hippopotamus_amphibius%29.jpg"
+    },
+    "hipposideros-caffer/arnhem-cave.jpg": {
+      "bytes": 270490,
+      "sha256": "9d225859e0595e3249c358dc040ecd448c91d7c3ddd48ef15b997e5452636e16",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/12455718/large.jpg"
+    },
+    "hippotragus-equinus/kruger-dipeni-running.jpg": {
+      "bytes": 688765,
+      "sha256": "04629349ea1a1ec0f4d96c5d9ff7506f568a7a054e199c1b938472f67866b71b",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/26032248/large.jpeg"
+    },
+    "hippotragus-equinus/kruger-grassland.jpg": {
+      "bytes": 271264,
+      "sha256": "3caa5cd7b6fc355a2b317235f7c49150777f24ab47634c7ae742f16186762962",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Roan_en_el_kruger_park.jpg/1280px-Roan_en_el_kruger_park.jpg"
+    },
+    "hippotragus-equinus/kruger-juvenile.jpg": {
+      "bytes": 483891,
+      "sha256": "a7bcc357a025c9d5e3393da63d883fd61e82a163f4f98ea8c91028ba6461cf92",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/348853050/large.jpeg"
+    },
+    "hippotragus-equinus/kruger-mopani-front.jpg": {
+      "bytes": 242184,
+      "sha256": "15eba757f01682b87dbe181cb70c55d435d695b0b7b82cc0e4e4bdf3def57e4b",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/261390340/large.jpeg"
+    },
+    "hippotragus-equinus/kruger-olifants-side.jpg": {
+      "bytes": 292462,
+      "sha256": "75ebc917f355a5f382fa7d50cb85ed296fe572ad8b14fcf5e4023f70f1dc4588",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/452199626/large.jpeg"
+    },
+    "hippotragus-niger/kruger-female-and-young.jpg": {
+      "bytes": 457556,
+      "sha256": "762802e86d37db1bd2ca5e6cb548f728d5f53f5a4b1a239e08573eb21f4cf54a",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Sable_%28Hippotragus_niger%29_female_and_young_%2817256033105%29.jpg/1280px-Sable_%28Hippotragus_niger%29_female_and_young_%2817256033105%29.jpg"
+    },
+    "hippotragus-niger/kruger-female-side.jpg": {
+      "bytes": 352746,
+      "sha256": "78c2d559ab44f8ac53cb07e10e66624d8312be57330142f3ddf5477d7a1a1624",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Sable_%28Hippotragus_niger%29_female_crossing_the_road_..._%2816635641913%29.jpg/1280px-Sable_%28Hippotragus_niger%29_female_crossing_the_road_..._%2816635641913%29.jpg"
+    },
+    "hippotragus-niger/kruger-female-woodland.jpg": {
+      "bytes": 355782,
+      "sha256": "892a6f9a5b41db4a3f3a66cef60b0cfa01e32bf03666e7216a5adeba5832cbbe",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Sable_Antilope_%28Hippotragus_niger%29_female_%2831339821075%29.jpg/1280px-Sable_Antilope_%28Hippotragus_niger%29_female_%2831339821075%29.jpg"
+    },
+    "hippotragus-niger/kruger-male.jpg": {
+      "bytes": 313455,
+      "sha256": "4ce51b9607a11374c00fce80081acf7e1b97632b33846466590858a378f857b6",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sable_Antelope_%28Hippotragus_niger%29_male_..._%2851992694691%29.jpg/1280px-Sable_Antelope_%28Hippotragus_niger%29_male_..._%2851992694691%29.jpg"
+    },
+    "hystrix-africaeaustralis/brewmaster-night-back.jpg": {
+      "bytes": 450515,
+      "sha256": "360c09879245e06afd54ca9e01b05595113f76c20eb28f9529dbd32d375a26f4",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/467029916/large.jpg"
+    },
+    "hystrix-africaeaustralis/hmi509-road-back.jpg": {
+      "bytes": 181815,
+      "sha256": "77fc72a9bc154057a196a2d4e08665292ab6fbc69e224a58cc0812ab1ab72243",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/275660093/large.jpg"
+    },
+    "hystrix-africaeaustralis/mckenzie-veld-side.jpg": {
+      "bytes": 376873,
+      "sha256": "dd4bf57da7162fef7d569a4893001b0f40a281472f8a4d1d7238b36929cdadb8",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/261995860/large.jpeg"
+    },
+    "hystrix-africaeaustralis/stols-night-side.jpg": {
+      "bytes": 504347,
+      "sha256": "dfbd84e04ff4004bdf36dd858a2138e65cb7065e8b24e3adb7d448d2a10f7ce5",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/603577332/large.jpg"
+    },
+    "ichneumia-albicauda/bushbuckridge-side.jpg": {
+      "bytes": 287564,
+      "sha256": "3ea73efbd1602d0cab6f3b48e34e4437be250519cd56de8fd0bdaab9de141d4c",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/429907988/large.jpeg"
+    },
+    "ichneumia-albicauda/ehlanzeni-front.jpg": {
+      "bytes": 643903,
+      "sha256": "48dcd19543f0c050a504729c05c4a1ffe1ed0467ce301130e88c5f61e86fc91d",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/406090107/large.jpg"
+    },
+    "ichneumia-albicauda/lower-sabie-side.jpg": {
+      "bytes": 487410,
+      "sha256": "3e4fc2d16c0b682f29f1c18949210bd4e9f11af0d52786798ef1a3161f992a5f",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/326584476/large.jpg"
+    },
+    "ichneumia-albicauda/pafuri-makuleke-side.jpg": {
+      "bytes": 441363,
+      "sha256": "e84837bd34880ca4ec2895410b3dd7d151677d1556b20e85371dd23b11bad7de",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/695239837/large.jpg"
+    },
+    "ictonyx-striatus/addo-front.jpg": {
+      "bytes": 361741,
+      "sha256": "d985b698103df739051765062d004eb331b9fe5475ecf9f51223bfabc7857674",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/60/Addo_zorilla.jpg"
+    },
+    "ictonyx-striatus/tutume-pair.jpg": {
+      "bytes": 313656,
+      "sha256": "4cbf2243e2c13fbd8fa9c949ecdbfd1c80f7e06987e7eb1ece4e5b040f85f4c6",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Zorilla_pair.jpg"
+    },
+    "kobus-ellipsiprymnus/kruger-female-and-young.jpg": {
+      "bytes": 379306,
+      "sha256": "53a076db02bc919f31e2c8e47bf9b5562f6076afa223d81d60fb5f144638fe19",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Waterbucks_%28Kobus_ellipsiprymnus%29_female_and_young_..._%2852338546005%29.jpg/1280px-Waterbucks_%28Kobus_ellipsiprymnus%29_female_and_young_..._%2852338546005%29.jpg"
+    },
+    "kobus-ellipsiprymnus/kruger-female-side.jpg": {
+      "bytes": 518966,
+      "sha256": "d74b774660013d4ccbe1e40655eb4962634c551fba0988b38a267c92c2a8b5b3",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Waterbuck_%28Kobus_ellipsiprymnus%29_female_..._%2851140470950%29.jpg/1280px-Waterbuck_%28Kobus_ellipsiprymnus%29_female_..._%2851140470950%29.jpg"
+    },
+    "kobus-ellipsiprymnus/kruger-male-rump.jpg": {
+      "bytes": 692481,
+      "sha256": "f340524caf91cfaef2e764f4ab7185b332ccc090145d4f3c6add3458cdbef817",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Waterbuck_%28Kobus_ellipsiprymnus%29_%2817311902812%29.jpg/1280px-Waterbuck_%28Kobus_ellipsiprymnus%29_%2817311902812%29.jpg"
+    },
+    "kobus-ellipsiprymnus/kruger-male-side.jpg": {
+      "bytes": 534952,
+      "sha256": "65c7870124fbe5ac2fe61232a0891a6ff93c910992469a2260ddae0d8e86107f",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Waterbuck_%28Kobus_ellipsiprymnus%29_male_at_Kruger_NP%2C_Mpumalanga%2C_South_Africa.jpg/1280px-Waterbuck_%28Kobus_ellipsiprymnus%29_male_at_Kruger_NP%2C_Mpumalanga%2C_South_Africa.jpg"
+    },
+    "kobus-ellipsiprymnus/kruger-young-male.jpg": {
+      "bytes": 860330,
+      "sha256": "21f09a7e7e91d5e3bebf2de8f8f472826844fbb8a8053e06979e202bc464b33f",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Waterbuck_%28Kobus_ellipsiprymnus%29_young_male_..._%2850844229711%29.jpg/1280px-Waterbuck_%28Kobus_ellipsiprymnus%29_young_male_..._%2850844229711%29.jpg"
+    },
+    "lemniscomys-rosalia/imfolozi-dorsal.jpg": {
+      "bytes": 246230,
+      "sha256": "e3be27c0984fe1a8f99ee1fec343b34e4266ab6fd81c0880fc41c50eb743c4e8",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/401640852/large.jpeg"
+    },
+    "lemniscomys-rosalia/zululand-side.jpg": {
+      "bytes": 288989,
+      "sha256": "9839779a95720a64a7337b738131b347b0cc03b3de6af87e3e6abe06eedf742f",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/483049924/large.jpg"
+    },
+    "leptailurus-serval/kruger-back.jpg": {
+      "bytes": 411457,
+      "sha256": "033a1dc66684322fcb0dfbde03bee051ff6bad4f97c3a8c47bc7909bd3e2f928",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Serval_%28Leptailurus_serval%29_watching_a_bird_behind_..._%2850679790473%29.jpg/1280px-Serval_%28Leptailurus_serval%29_watching_a_bird_behind_..._%2850679790473%29.jpg"
+    },
+    "leptailurus-serval/kruger-front.jpg": {
+      "bytes": 298248,
+      "sha256": "a3f09896894b9adcd4099268363758657f7ca8bb0293583b07f031181e2b3604",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Serval_%28Leptailurus_serval%29_%2850680628697%29.jpg/1280px-Serval_%28Leptailurus_serval%29_%2850680628697%29.jpg"
+    },
+    "leptailurus-serval/kruger-grass.jpg": {
+      "bytes": 344440,
+      "sha256": "7ef79fb15b905dffbf7e57573ef89e9802d07264bfea674308019a465ac1d261",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Serval_%28Leptailurus_serval%29_in_the_grass_%2816579529791%29.jpg/1280px-Serval_%28Leptailurus_serval%29_in_the_grass_%2816579529791%29.jpg"
+    },
+    "leptailurus-serval/kruger-side.jpg": {
+      "bytes": 80665,
+      "sha256": "72fd455a6f39efcc395b88dc2de89456317e7d2a78e15176100fe83926794bb7",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/24/Serval2.jpg"
+    },
+    "leptailurus-serval/kruger-skukuza.jpg": {
+      "bytes": 429830,
+      "sha256": "aa205e74087cdf1a030658211dc72b97027d0042ae08f0bc11a68de0c66a7dd9",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Serval_on_a_Skukuza_Sunset_Drive_%284107392742%29.jpg/1280px-Serval_on_a_Skukuza_Sunset_Drive_%284107392742%29.jpg"
+    },
+    "lepus-capensis/aberdeen-side.jpg": {
+      "bytes": 358048,
+      "sha256": "2d9b134337b057db620913bc9686602c5f8c9cd0da25b5c14108a4b51882b21f",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/78308163/large.jpg"
+    },
+    "lepus-capensis/beaufort-west-side.jpg": {
+      "bytes": 524658,
+      "sha256": "8aba5fc2b401914bbfa8842a4f7f2aae480bcf2bf4122ed54613fc0a6946f233",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/324117412/large.jpeg"
+    },
+    "lepus-capensis/cape-peninsula-crouched.jpg": {
+      "bytes": 810376,
+      "sha256": "50e1ddff6a1b2fb53407a27d1cd49efdfb9a55ffaa7b4a62046fc51aa14f228a",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/195341116/large.jpeg"
+    },
+    "lepus-capensis/karoo-np-side.jpg": {
+      "bytes": 190400,
+      "sha256": "eae3f9f60786ad701a0dd5ee3256244ebbe2e86850ef6cb0aab16a8058dfaa8d",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15643326/large.jpg"
+    },
+    "lepus-capensis/mossel-bay-side.jpg": {
+      "bytes": 280766,
+      "sha256": "65051edf17b264bb6cb1c6086d387499d8de96468459ece748e1f280b8f279ee",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/240081697/large.jpg"
+    },
+    "lepus-saxatilis/gomondwane-loop-side.jpg": {
+      "bytes": 783867,
+      "sha256": "61e8225189d426ab865bcd5031ae67ec621fc3ca527faaaeea1ab4b37296396c",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/711133459/large.jpg"
+    },
+    "lepus-saxatilis/mopani-crouched.jpg": {
+      "bytes": 174880,
+      "sha256": "f83014837b4c101d53fea7188a82772b582b3e15cd0530b6d5e02f26addb5904",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/698427090/large.jpg"
+    },
+    "lepus-saxatilis/mopani-night-side.jpg": {
+      "bytes": 278107,
+      "sha256": "77537d61b036b369cff7b2f6c5f774f7386103f3d2fb7eb433db97a3b8153b5b",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/683696598/large.jpg"
+    },
+    "lepus-saxatilis/mpumalanga-standing-side.jpg": {
+      "bytes": 509285,
+      "sha256": "82e5ff8b60567405ff57de8b1fe930d94bc067f39b273e9d047427faffc7094f",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/715144524/large.jpg"
+    },
+    "lepus-saxatilis/shongololo-loop-side.jpg": {
+      "bytes": 500302,
+      "sha256": "6a2f5500bc533673cdc3f26c05448df4dfb68010569372c30652f964820fd5b3",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/165923925/large.jpeg"
+    },
+    "loxodonta-africana/kruger-calf.jpg": {
+      "bytes": 372304,
+      "sha256": "ce2767b5fd4b3e9726e5a500cc9e044b822807b1a4a53b9a3270d9c8f2cd34c0",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Elefante_africano_de_sabana_%28Loxodonta_africana%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-25%2C_DD_06.jpg/1280px-Elefante_africano_de_sabana_%28Loxodonta_africana%29%2C_parque_nacional_Kruger%2C_Sud%C3%A1frica%2C_2018-07-25%2C_DD_06.jpg"
+    },
+    "loxodonta-africana/kruger-drinking.jpg": {
+      "bytes": 386464,
+      "sha256": "96ddc8019d8a4acb7f66e0c6e554da8bc08dc58c21f98d65a1fe0eda6c41a2e6",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/African_bush_elephant_%28Loxodonta_africana%29_drinking_Kruger.jpg/1280px-African_bush_elephant_%28Loxodonta_africana%29_drinking_Kruger.jpg"
+    },
+    "loxodonta-africana/kruger-herd.jpg": {
+      "bytes": 441896,
+      "sha256": "389604e0974c6a9be0a5cc1fd4f5ad7828a8fe5f97e36941c73f8dcbd764ee18",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/African_bush_elephants_%28Loxodonta_africana%29_Kruger.jpg/1280px-African_bush_elephants_%28Loxodonta_africana%29_Kruger.jpg"
+    },
+    "loxodonta-africana/kruger-male-side.jpg": {
+      "bytes": 430704,
+      "sha256": "c236019d6e492065b7f1133d7988b5e41750fcf42bcdb6a7045627bc6b43145f",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/African_bush_elephant_%28Loxodonta_africana%29_male_Kruger.jpg/1280px-African_bush_elephant_%28Loxodonta_africana%29_male_Kruger.jpg"
+    },
+    "loxodonta-africana/kruger-mutlumuvi.jpg": {
+      "bytes": 497200,
+      "sha256": "379667624594d2f6824711b7bc42b3786df419069a39b69699880675a9cee2f2",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Kruger_National_Park_%28ZA%29%2C_Elefant_--_2024_--_0649.jpg/1280px-Kruger_National_Park_%28ZA%29%2C_Elefant_--_2024_--_0649.jpg"
+    },
+    "lupulella-adusta/kruger-mopani.jpg": {
+      "bytes": 387041,
+      "sha256": "3185c2a321ab036d7f52dea9c8070c6cef7251c6005698ce0814b4d23e5edd16",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/58583622/large.jpeg"
+    },
+    "lupulella-adusta/kruger-pair.jpg": {
+      "bytes": 428204,
+      "sha256": "ea0356869022e3ad510d100bdd3574df16bcbeee961e45e7ec30b4367d7bac09",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Side-striped_Jackals_%28Canis_adustus%29-_rare_sighting_of_this_nocturnal_animal_..._%2813799101285%29.jpg/1280px-Side-striped_Jackals_%28Canis_adustus%29-_rare_sighting_of_this_nocturnal_animal_..._%2813799101285%29.jpg"
+    },
+    "lupulella-adusta/kruger-running-brown.jpg": {
+      "bytes": 98063,
+      "sha256": "6ad10f4d07f96fb41271ac37ae21815c6b93b103204f64b86a2b400487e2393f",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/78510789/large.jpg"
+    },
+    "lupulella-adusta/kruger-running-letaba.jpg": {
+      "bytes": 508051,
+      "sha256": "8e0d22662bcdd84b6b4e7caa8a4781747c3516d814ed7a6ccb98449ab9e4f3d8",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Side-striped_Jackal_%28Canis_adustus%29_%2850623616127%29.jpg/1280px-Side-striped_Jackal_%28Canis_adustus%29_%2850623616127%29.jpg"
+    },
+    "lupulella-adusta/kruger-side.jpg": {
+      "bytes": 239566,
+      "sha256": "6b71c647cfde2debea3f9b5ebe3e2fdd007dfabc026dbfed120a9214c745ac64",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Lupulella_adustus_in_KNP_01.jpg/1280px-Lupulella_adustus_in_KNP_01.jpg"
+    },
+    "lupulella-mesomelas/kruger-running.jpg": {
+      "bytes": 399908,
+      "sha256": "ce825e7a33ee204829cf872dd6292b9015de588dc60e53b694ce5337580e069f",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Black-backed_Jackal_%28Lupulella_mesomelas%29_%2853049008236%29.jpg/1280px-Black-backed_Jackal_%28Lupulella_mesomelas%29_%2853049008236%29.jpg"
+    },
+    "lupulella-mesomelas/kruger-side.jpg": {
+      "bytes": 601341,
+      "sha256": "0b6b34be2df4c6af458accf2fc12ed31e39353e516f201634f0793dafbda5a33",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Black-backed_Jackal_%28Canis_mesomelas%29_female_..._%2850258097742%29.jpg/1280px-Black-backed_Jackal_%28Canis_mesomelas%29_female_..._%2850258097742%29.jpg"
+    },
+    "lupulella-mesomelas/kruger-three-quarter.jpg": {
+      "bytes": 353816,
+      "sha256": "821aa0e1e129ea06f7c4d07f0cd6dc916a50109e8e7b14f09894c4e3327961c1",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Black-backed_Jackal_%28Lupulella_mesomelas%29_%2851916182814%29.jpg/1280px-Black-backed_Jackal_%28Lupulella_mesomelas%29_%2851916182814%29.jpg"
+    },
+    "lutra-capensis/kruger-swimming-front.jpg": {
+      "bytes": 340404,
+      "sha256": "cfb9d76d946380167a2d4322176208c7345b0f4cec9d5eeae5bd84290903e2f6",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/151157774/large.jpg"
+    },
+    "lutra-capensis/mjejane-bank-side.jpg": {
+      "bytes": 104636,
+      "sha256": "9d73b7b2b920dcb4d6552c8c9e67ab9385101e22555a34b7f5d29cbe9e660d86",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15585636/large.jpg"
+    },
+    "lutra-capensis/olifants-river-pair.jpg": {
+      "bytes": 163910,
+      "sha256": "e494527922bee383f65b8aee76c8168274b5b124fbecb3bf5b85ef912e2d25cc",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15498313/large.jpg"
+    },
+    "lutra-capensis/sabie-causeway-front.jpg": {
+      "bytes": 237199,
+      "sha256": "8eab7c97a97975ff945d187e86504084c5352cabbe42c5fd7d573e66bfa4450a",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/624495740/large.jpg"
+    },
+    "lycaon-pictus/kruger-back.jpg": {
+      "bytes": 392192,
+      "sha256": "46e28d16bf6a70251e3b14c3166ac48ccc706df430614c36b5fa498d865286a0",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/African_Wild_Dog_%28Lycaon_pictus%29_on_the_road_%2814016253495%29.jpg/1280px-African_Wild_Dog_%28Lycaon_pictus%29_on_the_road_%2814016253495%29.jpg"
+    },
+    "lycaon-pictus/kruger-front.jpg": {
+      "bytes": 142155,
+      "sha256": "65090affde826e159167e40334a6e07f01c292a0e5a89d9388cc9bd4ea7cda59",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/116410166/large.jpg"
+    },
+    "lycaon-pictus/kruger-pack.jpg": {
+      "bytes": 218226,
+      "sha256": "848a2e4822c38c5dc430492110cb9a012fcdcebb6eb6c7a7ca9259acbe153a2a",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/African_Wild_Dogs_%28Lycaon_pictus%29_%2851904887356%29.jpg/1280px-African_Wild_Dogs_%28Lycaon_pictus%29_%2851904887356%29.jpg"
+    },
+    "lycaon-pictus/kruger-side.jpg": {
+      "bytes": 414284,
+      "sha256": "a4b9087da85b8e0d3daa9cb875dc4585251282b7596733748331d27942a1dfa8",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/African_Wild_Dog_%28Lycaon_pictus%29_%2850670527553%29.jpg/1280px-African_Wild_Dog_%28Lycaon_pictus%29_%2850670527553%29.jpg"
+    },
+    "lycaon-pictus/kruger-sitting.jpg": {
+      "bytes": 495881,
+      "sha256": "c102cbb729f047efb218f814c0c389ae2179409ed3927aebac79c4390d37eeb1",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/African_Wild_Dog_%28Lycaon_pictus%29_%2852712847288%29.jpg/1280px-African_Wild_Dog_%28Lycaon_pictus%29_%2852712847288%29.jpg"
+    },
+    "mastomys-natalensis/waterberg-1.jpg": {
+      "bytes": 452120,
+      "sha256": "efcf62a696e3403310aa2ceee3f6f80a034665a40beb70724992ba70a8a7d043",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/663831852/large.jpg"
+    },
+    "mellivora-capensis/h10-tshokwane-side.jpg": {
+      "bytes": 484471,
+      "sha256": "ba2f2a7a51117b42836446c55ebf97e92cb9142cef2a5b361f8b222a37c985f3",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Ratel_%28Mellivora_capensis%29_%2852545666782%29.jpg/1280px-Ratel_%28Mellivora_capensis%29_%2852545666782%29.jpg"
+    },
+    "mellivora-capensis/satara-veld-side.jpg": {
+      "bytes": 182697,
+      "sha256": "610a8efcef6ce0e716d36fc83347d416d4ce9d07e46c51c3c15a717c9c7233ff",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15889694/large.jpg"
+    },
+    "mellivora-capensis/tamboti-front.jpg": {
+      "bytes": 311646,
+      "sha256": "ae6bd09adfc6606c9657603c61ae69bc0c4562fa79877270b0f10156e275a099",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Honey_Badger_%28Mellivora_capensis%29_%2816804971054%29.jpg/1280px-Honey_Badger_%28Mellivora_capensis%29_%2816804971054%29.jpg"
+    },
+    "mellivora-capensis/tamboti-side.jpg": {
+      "bytes": 518354,
+      "sha256": "a12f6fd06573609e7ae25d90728bc4535e2d38ebdad2b065c0024764eeb55f36",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Honey_Badger_%28Mellivora_capensis%29_on_braai_inspection_tour_..._%2851858174377%29.jpg/1280px-Honey_Badger_%28Mellivora_capensis%29_on_braai_inspection_tour_..._%2851858174377%29.jpg"
+    },
+    "mellivora-capensis/timbavati-pair.jpg": {
+      "bytes": 548103,
+      "sha256": "394b5a25d7d0c24db419824a451263521d53f8d6457cf5e6ce12464bc681132a",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Ratels_%28Mellivora_capensis%29_pair_in_Timbavati_dry_riverbed_..._%2852488410060%29.jpg/1280px-Ratels_%28Mellivora_capensis%29_pair_in_Timbavati_dry_riverbed_..._%2852488410060%29.jpg"
+    },
+    "micaelamys-namaquensis/mapungubwe-side.jpg": {
+      "bytes": 307980,
+      "sha256": "7287d4c00ca606b5c015a00a44d784bea50f3e7364afeaaf36cfa9ad7bdf09ce",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/615715419/large.jpg"
+    },
+    "miniopterus-natalensis-perched-side": {
+      "bytes": 482733,
+      "sha256": "ba76ebf0e19518053e4c314e1012596427de0ba962d7c3963683d5a6936ebabb",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15338068/large.jpg"
+    },
+    "miniopterus-natalensis-perched-side-hangklip": {
+      "bytes": 504929,
+      "sha256": "5360c8288dd843758a31345980f6a90dcdf5cb23adb7a66569a214668d1898a2",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/379809042/large.jpeg"
+    },
+    "mungos-mungo/crocodile-bridge-adult-and-young.jpg": {
+      "bytes": 487465,
+      "sha256": "9b8e5223d59feac4f3411808e1266928d49a078059b91cb338b105d9758fbd2a",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Banded_Mongooses_%28Mungos_mungo%29_adult_and_young_..._%2852721609398%29.jpg/1280px-Banded_Mongooses_%28Mungos_mungo%29_adult_and_young_..._%2852721609398%29.jpg"
+    },
+    "mungos-mungo/letaba-h1-6-alert.jpg": {
+      "bytes": 484353,
+      "sha256": "04d4fa3f4741bbcda39a6120fd74075e624e3384825326de0b1c4ced1cf3208f",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Banded_Mongoose_%28Mungos_mungo%29_%2813740950804%29.jpg/1280px-Banded_Mongoose_%28Mungos_mungo%29_%2813740950804%29.jpg"
+    },
+    "mungos-mungo/letaba-h1-6-side.jpg": {
+      "bytes": 485841,
+      "sha256": "2701c30114a4aa969317b60cbef6ef03d5776677f4ec5268a78daf2cabcbc4a0",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Banded_Mongoose_%28Mungos_mungo%29_%2813740518923%29.jpg/1280px-Banded_Mongoose_%28Mungos_mungo%29_%2813740518923%29.jpg"
+    },
+    "mungos-mungo/lower-sabie-h4-1-side.jpg": {
+      "bytes": 590550,
+      "sha256": "a067fbf78b826562fdca82b2cf00b4a4208fa8b19f8f7e1355d585b6d5766764",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Day_25_Banded_Mongoose_%28Mungos_mungo%29_%2853474331682%29.jpg/1280px-Day_25_Banded_Mongoose_%28Mungos_mungo%29_%2853474331682%29.jpg"
+    },
+    "mungos-mungo/nkuhlu-foraging.jpg": {
+      "bytes": 364646,
+      "sha256": "e0d0fda825a7eabe1c6406daa47074f7712ccca38ee599e5fb5fd83ce4f82d37",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Day_4_Banded_Mongoose_%28Mungos_mungo%29_munching_a_dig-up_cricket_..._%2853210055543%29.jpg/1280px-Day_4_Banded_Mongoose_%28Mungos_mungo%29_munching_a_dig-up_cricket_..._%2853210055543%29.jpg"
+    },
+    "mus-minutoides/modimolle-night.jpg": {
+      "bytes": 1143417,
+      "sha256": "a13f0c548e6ad0bd24df055c41cfab883a2bf52df6563d288484a510a24e9f8d",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/588057749/large.jpg"
+    },
+    "mus-minutoides/thabazimbi-side.jpg": {
+      "bytes": 1095967,
+      "sha256": "890a278a87248189e16e30074fd51aeb560fa48bf7543e03ef015e76d64b0422",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/604820821/large.jpg"
+    },
+    "myotis-tricolor/langeberg-cave-roost.jpg": {
+      "bytes": 441106,
+      "sha256": "b37fddc10adec7f44833f13fc1fc526c7d092068a60bbfd5f09827f25de79bc2",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/468778577/large.jpeg"
+    },
+    "myotis-tricolor/vhembe-foliage.jpg": {
+      "bytes": 335879,
+      "sha256": "32df00bb0044b1cb31f46596c25f4e692890f1a7f8f0b92c5de3b86fa27b4037",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/752375014/large.jpg"
+    },
+    "nesotragus-moschatus/northern-kzn-standing-side-female.jpg": {
+      "bytes": 121614,
+      "sha256": "4abb08ba8011e9075e47c7b4b2af6ce5dece54ee0082c864a6d8785e34a75e97",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15556086/large.jpg"
+    },
+    "nesotragus-moschatus/umkhanyakude-standing-side-female.jpg": {
+      "bytes": 881125,
+      "sha256": "afb856738928c7674ffd644f04adc3139e30e1913dcc6255ccdb29eedc665ba0",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/261443657/large.jpg"
+    },
+    "nesotragus-moschatus/umkhanyakude-standing-side-male.jpg": {
+      "bytes": 229927,
+      "sha256": "6fafadcf45028e3e638c7b1f5b954851573c176d82e518b4e61a4c3582845891",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/153944495/large.jpeg"
+    },
+    "nycteris-thebaica-perched-side": {
+      "bytes": 182183,
+      "sha256": "9ceec700ff17b5d6c7ce04d910b439b7ee47a215bb40d000dd6acd425881649f",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/207760/large.jpg"
+    },
+    "oreotragus-oreotragus/kruger-female-nkumbe.jpg": {
+      "bytes": 707682,
+      "sha256": "474201fcac449f157ba895e4bd064563e499e4aa5f3109977be537b393b4ef3e",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Klipspringer_%28Oreotragus_oreotragus%29_female_..._%2851897521620%29.jpg/1280px-Klipspringer_%28Oreotragus_oreotragus%29_female_..._%2851897521620%29.jpg"
+    },
+    "oreotragus-oreotragus/kruger-female-stevenson-hamilton.jpg": {
+      "bytes": 420339,
+      "sha256": "e064b7cbbfebe4d0bb01e10694c85ff2678842f5b3c596a02735ecd02538725b",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Klipspringer_%28Oreotragus_oreotragus%29_female_%286002381569%29.jpg/1280px-Klipspringer_%28Oreotragus_oreotragus%29_female_%286002381569%29.jpg"
+    },
+    "oreotragus-oreotragus/kruger-male-nkumbe.jpg": {
+      "bytes": 607338,
+      "sha256": "9c936797b195a98b562c2f44e0dddb1447b9d5e27cc25db12d07a73b5c1cf4ce",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Klipspringer_%28Oreotragus_oreotragus%29_male_..._%2851897520525%29.jpg/1280px-Klipspringer_%28Oreotragus_oreotragus%29_male_..._%2851897520525%29.jpg"
+    },
+    "oreotragus-oreotragus/kruger-male-stevenson-hamilton.jpg": {
+      "bytes": 375231,
+      "sha256": "5c9b813870121fd0e00355e6aea84aeb8622508ab10d7665aa404ffc6c6ebfee",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Klipspringer_%28Oreotragus_oreotragus%29_male_%286002382693%29.jpg/1280px-Klipspringer_%28Oreotragus_oreotragus%29_male_%286002382693%29.jpg"
+    },
+    "oreotragus-oreotragus/kruger-pair-granite-skukuza.jpg": {
+      "bytes": 531082,
+      "sha256": "90547591867d4935dffa7e0faf73645fa10b4331636702119de32f9ea1e4f673",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Klipspringers_%28Oreotragus_oreotragus%29_%2852135902931%29.jpg/1280px-Klipspringers_%28Oreotragus_oreotragus%29_%2852135902931%29.jpg"
+    },
+    "orycteropus-afer/kruger-night.jpg": {
+      "bytes": 156908,
+      "sha256": "ce3903ce3b43bc921ece236dfdc0406aec80b8ddce6cc50b1e4994a73262b604",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/455480107/large.jpg"
+    },
+    "orycteropus-afer/limpopo-bushveld.jpg": {
+      "bytes": 650984,
+      "sha256": "b1609ba9807af37e738334c8acb590c00469d16419045c7d2660154da1ff98fe",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/175359469/large.jpg"
+    },
+    "orycteropus-afer/spitskopvlakte-foraging.jpg": {
+      "bytes": 188792,
+      "sha256": "6886dbe90ad236581e4a717b57010b0401ac75492bf44c77e966cb55d3dd1556",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/19397007/large.jpeg"
+    },
+    "orycteropus-afer/western-cape.jpg": {
+      "bytes": 546027,
+      "sha256": "a9698f2dcc982c599096677c3d5527f3a2588592f1354599c10730043c3d4b39",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/86933684/large.jpeg"
+    },
+    "otocyon-megalotis/kgalagadi-foraging.jpg": {
+      "bytes": 299803,
+      "sha256": "2f32552243918dceac155f7fee3f1ed1ccce6f8743ea00764ff0f1011583c646",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834905054911%29.jpg/1280px-Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834905054911%29.jpg"
+    },
+    "otocyon-megalotis/kgalagadi-front.jpg": {
+      "bytes": 427841,
+      "sha256": "ca061a716c191f46eedf89a1e93a28e0b07d9467abcb7123f0bd5374c83210f9",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834193160604%29.jpg/1280px-Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834193160604%29.jpg"
+    },
+    "otocyon-megalotis/kgalagadi-looking-back.jpg": {
+      "bytes": 173952,
+      "sha256": "eeb4a460fc91f47fa0c60670bba5badff7bad6eb28fc8edb4d0f38c37183ae59",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834905056501%29.jpg/1280px-Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834905056501%29.jpg"
+    },
+    "otocyon-megalotis/kgalagadi-pair.jpg": {
+      "bytes": 119425,
+      "sha256": "8b96cf3faec9616f9b8d0858a0372ca8bbe9010775d74b8902d5a2721d8fab0c",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834649391210%29.jpg/1280px-Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834649391210%29.jpg"
+    },
+    "otocyon-megalotis/kgalagadi-three-quarter.jpg": {
+      "bytes": 247869,
+      "sha256": "d34c213b7c2a85978e5cce1f2a415e94701cf072286f09384fd776401f71d39e",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834193161324%29.jpg/1280px-Bat-eared_fox%2C_Otocyon_megalotis%2C_at_Kgalagadi_Transfrontier_Park%2C_Northern_Cape%2C_South_Africa_%2834193161324%29.jpg"
+    },
+    "otolemur-crassicaudatus/kruger-mopani.jpg": {
+      "bytes": 512154,
+      "sha256": "ad7eff307d688e6c9937c4ee2bf933c6a8b92195fb09952189adc185a1d60b46",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/750110825/large.jpg"
+    },
+    "otolemur-crassicaudatus/kruger-pafuri.jpg": {
+      "bytes": 165166,
+      "sha256": "5aadb1be2438be079c94a758dce444e40d6695d76975f792666e82890f94717b",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/517536246/large.jpg"
+    },
+    "otolemur-crassicaudatus/kruger-sweni-hanging.jpg": {
+      "bytes": 335705,
+      "sha256": "395582ca16edbf1e702d3e47ff5109e1d924ffd14be0e2d4c1bbc744cc7e2318",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/704038158/large.jpg"
+    },
+    "otolemur-crassicaudatus/kruger-sweni-tree.jpg": {
+      "bytes": 958279,
+      "sha256": "1e61eb951d847939bd38a0c3e237bb2f76f5c889743d8dfaea70653f77a881ea",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/636088068/large.jpg"
+    },
+    "otomys-angoniensis/buffelskloof-side.jpg": {
+      "bytes": 428052,
+      "sha256": "3e9f63e892fd42f9a38bc0625173df29328fb06e65ae74b91c1000a008296748",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/165634991/large.jpeg"
+    },
+    "otomys-angoniensis/golden-gate-front.jpg": {
+      "bytes": 611006,
+      "sha256": "c3a079ddf499692ea78ca7ed611bf715c7d206e75273aaaad510d58143250bb8",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/483049402/large.jpg"
+    },
+    "ourebia-ourebi/cacadu-herd-adults.jpg": {
+      "bytes": 109021,
+      "sha256": "50dd31b3f8eb13075505dc7139eb08e9644025055d460f4e18b3a6e146bd3968",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/742080633/large.jpg"
+    },
+    "ourebia-ourebi/mpofana-standing-side-male.jpg": {
+      "bytes": 363641,
+      "sha256": "f3c106aae703e734436b91b82434b28c2d4ceb98bea108aabfb919f6b3092997",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/557440382/large.jpg"
+    },
+    "ourebia-ourebi/nkangala-standing-side-female.jpg": {
+      "bytes": 365770,
+      "sha256": "3d21cdafba1fa2b72fe5e289d41f2e5cf6c987bb14d156154d9e18492a2d4139",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/511828769/large.jpg"
+    },
+    "ourebia-ourebi/umngeni-standing-front-male.jpg": {
+      "bytes": 495911,
+      "sha256": "74c48b06af1383d769f8971bf01f1053bfdd2ea36b57ee621214c63fbb324c64",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/671191961/large.jpg"
+    },
+    "panthera-leo/kruger-female-cub.jpg": {
+      "bytes": 364788,
+      "sha256": "da8496ff99a518ec03687f50d495f6fae6591d58edeb587fe114c03b6dcb736c",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lioness_%28Panthera_leo%29_with_cub.jpg/1280px-Lioness_%28Panthera_leo%29_with_cub.jpg"
+    },
+    "panthera-leo/kruger-female-front.jpg": {
+      "bytes": 479197,
+      "sha256": "d111b5d35653f21b4c51ef5f3d978e751cc69f73eee4f31abfcb81c77cfd8e9d",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lion_%28Panthera_leo%29_female_Kruger.jpg/1280px-Lion_%28Panthera_leo%29_female_Kruger.jpg"
+    },
+    "panthera-leo/kruger-female-head.jpg": {
+      "bytes": 345877,
+      "sha256": "77372bd483289f1b96ef4b7d673a41de59953f61d9172094922c859563288f3a",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Lion_%28Panthera_leo%29_female_head_Kruger.jpg/1280px-Lion_%28Panthera_leo%29_female_head_Kruger.jpg"
+    },
+    "panthera-leo/kruger-male-lying.jpg": {
+      "bytes": 514683,
+      "sha256": "76da3f2d12823bf8ee497b237f2b454a7f36786d0f317354aff4aab3c164a069",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Male_lion_profile_Kruger_South_Africa.jpg/1280px-Male_lion_profile_Kruger_South_Africa.jpg"
+    },
+    "panthera-leo/kruger-pride-cubs.jpg": {
+      "bytes": 349668,
+      "sha256": "dcf26c15c857e8c5d0e627f09156eb41fbfd2aab0710a845aba74755941c1494",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Lioness_%28Panthera_leo%29_with_cubs_in_Kruger_Park_%2852728925792%29.jpg/1280px-Lioness_%28Panthera_leo%29_with_cubs_in_Kruger_Park_%2852728925792%29.jpg"
+    },
+    "panthera-leo/kruger-young-male-side.jpg": {
+      "bytes": 340019,
+      "sha256": "14e96f26a9a3d344db7b207561658e38cae1575d517d8ae45838bbb28650b5e5",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Lion_%28Panthera_leo%29%2C_young_male.jpg/1280px-Lion_%28Panthera_leo%29%2C_young_male.jpg"
+    },
+    "panthera-pardus/kruger-drinking.jpg": {
+      "bytes": 381006,
+      "sha256": "2659ab3bc7195d018354dc71619d073ef7699d4dafd8a2f38951836abc4d2243",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/African_leopard_%28Panthera_pardus%29.jpg/1280px-African_leopard_%28Panthera_pardus%29.jpg"
+    },
+    "panthera-pardus/kruger-female-tree.jpg": {
+      "bytes": 89452,
+      "sha256": "3a765b1686686a427f04c4d2926194074a22614edbba3e4b81594295afe3d465",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/81/Leopard_%28Panthera_pardus%29_female_in_a_tree_%2815835004964%29.jpg"
+    },
+    "panthera-pardus/kruger-front.jpg": {
+      "bytes": 355270,
+      "sha256": "92c50833691be413aff9854bdd9341af1050fd5808597d914fbd038802d9f5c1",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Leopard_%28Panthera_pardus_pardus%29_Kruger.jpg/1280px-Leopard_%28Panthera_pardus_pardus%29_Kruger.jpg"
+    },
+    "panthera-pardus/kruger-male-resting.jpg": {
+      "bytes": 399475,
+      "sha256": "7cb6dbb6fcf51cb5ab40edfa3673438df5213b50a36a67bf51640e3f14a812e1",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Leopard_%28Panthera_pardus%29%2C_male_resting_in_N%27wanetsi_riverbed.jpg/1280px-Leopard_%28Panthera_pardus%29%2C_male_resting_in_N%27wanetsi_riverbed.jpg"
+    },
+    "panthera-pardus/kruger-side.jpg": {
+      "bytes": 443024,
+      "sha256": "bb86758a7292068a0356d1e066dc9d647d91d37b64848a995afc33f3675d317b",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Leopard_%28Panthera_pardus_pardus%29_Kruger_2.jpg/1280px-Leopard_%28Panthera_pardus_pardus%29_Kruger_2.jpg"
+    },
+    "papio-ursinus/kruger-eating-sausage-fruit.jpg": {
+      "bytes": 445139,
+      "sha256": "4d3df42f299f188e956647b6dd9e1be113670f267714c713cfed027e58ea4112",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Chacma_Baboons_%28Papio_ursinus%29_eating_Sausage_Tree_%28Kigelia_africana%29_fruit_..._%2852526362720%29.jpg/1280px-Chacma_Baboons_%28Papio_ursinus%29_eating_Sausage_Tree_%28Kigelia_africana%29_fruit_..._%2852526362720%29.jpg"
+    },
+    "papio-ursinus/kruger-grooming.jpg": {
+      "bytes": 388531,
+      "sha256": "de9f859e94160066c8cb1205ec3fc8dbcbfd61c4d99f910cd72ab26612483ecd",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Chacma_Baboons_%28Papio_ursinus%29_%2817342998405%29.jpg/1280px-Chacma_Baboons_%28Papio_ursinus%29_%2817342998405%29.jpg"
+    },
+    "papio-ursinus/kruger-infant-riding.jpg": {
+      "bytes": 287228,
+      "sha256": "e7217c1b33430245ea957f9e3aac5c7a228db8d776132bfa62f7adbcd9c3954b",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Baby_baboon_riding_mom%2C_Kruger_National_Park_%287826483274%29.jpg/1280px-Baby_baboon_riding_mom%2C_Kruger_National_Park_%287826483274%29.jpg"
+    },
+    "papio-ursinus/kruger-male-side.jpg": {
+      "bytes": 364667,
+      "sha256": "77c5a8e203666a9f726fc43a3007a922e6db2b4e9789284a55d58c7e129fddc1",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Chacma_Baboon_%28Papio_ursinus%29_male_..._%2853052319453%29.jpg/1280px-Chacma_Baboon_%28Papio_ursinus%29_male_..._%2853052319453%29.jpg"
+    },
+    "papio-ursinus/kruger-male-sitting.jpg": {
+      "bytes": 489813,
+      "sha256": "78de46dbd79f467f97d4b2522e2aede3d43f431f35f7f6c8c2a24cae4e8034f8",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Chacma_Baboon_%28Papio_ursinus%29_%2816822794354%29.jpg/1280px-Chacma_Baboon_%28Papio_ursinus%29_%2816822794354%29.jpg"
+    },
+    "paracynictis-selousi/kalabo-zambia-night-side.jpg": {
+      "bytes": 619161,
+      "sha256": "5c2f787ee9e6e4ac89a1be06b3c43c48f83e3d15d58ad8371eb23a163f466938",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Paracynictis_selousi_11781660.jpg/1280px-Paracynictis_selousi_11781660.jpg"
+    },
+    "paracynictis-selousi/medike-limpopo-night-side.jpg": {
+      "bytes": 43392,
+      "sha256": "f4a8cf28e70a6e1b2d57bab0154261502b910e1e3bf35e84286d4997132e7099",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15670182/large.jpg"
+    },
+    "parahyaena-brunnea/kgalagadi-night.jpg": {
+      "bytes": 159121,
+      "sha256": "358d8e933daf461b6ef07911713638e691740a414ca1e9e95df96df84733dffe",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Brown_Hyena_%28Hyaena_brunnea%29_at_waterhole_..._%2831255399287%29.jpg/1280px-Brown_Hyena_%28Hyaena_brunnea%29_at_waterhole_..._%2831255399287%29.jpg"
+    },
+    "parahyaena-brunnea/kgalagadi-side.jpg": {
+      "bytes": 583671,
+      "sha256": "3d2ef6b1aa1da3805ea0409b8c6b0378fbcd7e226a06a2d033b454f3ecb75650",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Brown_Hyena_%28Hyaena_brunnea%29_leaving_waterhole_..._%2850915531592%29.jpg/1280px-Brown_Hyena_%28Hyaena_brunnea%29_leaving_waterhole_..._%2850915531592%29.jpg"
+    },
+    "parahyaena-brunnea/madikwe-cubs.jpg": {
+      "bytes": 336835,
+      "sha256": "fa49c752e2a3bce0a0f018262b5d16db9afe98ce980871d5707ce9072b731bdc",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Baby_brown_hyenas%2C_Madikwe_%2852212385852%29%2C_crop.jpg/1280px-Baby_brown_hyenas%2C_Madikwe_%2852212385852%29%2C_crop.jpg"
+    },
+    "paraxerus-cepapi/carstenunterwegx-letaba-standing-side.jpg": {
+      "bytes": 761113,
+      "sha256": "cf1fb448b415d13a12a64350b5315522f2f51b3bb0661fa09b03d690ab858bdb",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/744515832/large.jpg"
+    },
+    "paraxerus-cepapi/jessnitz-pafuri-perched-side.jpg": {
+      "bytes": 163337,
+      "sha256": "735e0935b73eafe2696bbe88e4ce61b511f998c761c182f67e5ed51ba655da4f",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/761570430/large.jpg"
+    },
+    "paraxerus-cepapi/pattylomonaco-tree-trunk.jpg": {
+      "bytes": 253567,
+      "sha256": "c953b73a47148a1de61d8e87bc87c4a30a6d4726b61a47ffc20a3ca2c1a4b9e4",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/708012080/large.jpg"
+    },
+    "pedetes-capensis/correia-night-side.jpg": {
+      "bytes": 210696,
+      "sha256": "0fe324bc91460e50155ffe3390a616a007b7061858c3c01d2f22e58fbd7b5cc3",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/292418486/large.jpeg"
+    },
+    "pedetes-capensis/goddard-night-side.jpg": {
+      "bytes": 415734,
+      "sha256": "89c38e8999bd33042995933a9fcd7db6c685fda43aa0f5654b185d784d976af0",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/326604769/large.jpg"
+    },
+    "pedetes-capensis/hanks-night-front.jpg": {
+      "bytes": 335930,
+      "sha256": "d01118b98132f904d8a29ac5801ae9f54780c710e4fac1e70774ede4626d001e",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/248482576/large.jpg"
+    },
+    "pedetes-capensis/heliastes21-night-side.jpg": {
+      "bytes": 326489,
+      "sha256": "c388175f37e203e79c92e271f5d474df7cf0ea2f53771f93d5cc0669a1e1c5e0",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/59837799/large.jpeg"
+    },
+    "pedetes-capensis/van-tonder-night-side.jpg": {
+      "bytes": 88934,
+      "sha256": "47bf660f9a39d8dc2c9ff83e17611c3422a5c35d9d442b2d527347873a3ba0e4",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/658982011/large.jpg"
+    },
+    "pelea-capreolus/breede-river-standing-side-female.jpg": {
+      "bytes": 593159,
+      "sha256": "8a78a89b85aefe1625633a240c3d10deaa383aa5ab83517a10f687b053029095",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/150928083/large.jpg"
+    },
+    "pelea-capreolus/cape-point-herd-males.jpg": {
+      "bytes": 417730,
+      "sha256": "517a7a1345293339c3d1f9c750d748ea1d6233482c3af511456b972f6bfebcb8",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/334752228/large.jpeg"
+    },
+    "pelea-capreolus/karoo-np-standing-side-male.jpg": {
+      "bytes": 473973,
+      "sha256": "29dd368ebfd87dff9e0da823bae8ffc37c7c7c5530785e07f55ad9646f70c50d",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/441599469/large.jpeg"
+    },
+    "pelea-capreolus/overberg-standing-front-females.jpg": {
+      "bytes": 259314,
+      "sha256": "f28bd27cd972a018986497905e05f9d118ce4fdf2d8b4725d6154153dbdb1f0a",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/133321087/large.jpeg"
+    },
+    "pelea-capreolus/overberg-standing-side-male.jpg": {
+      "bytes": 601981,
+      "sha256": "d95c1a74622f85371662a887c2311e6f89e3ca6eee79f3764f9503a1419ed084",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/277752708/large.jpg"
+    },
+    "petrodromus-tetradactylus/far-north-front.jpg": {
+      "bytes": 683242,
+      "sha256": "53f40e7231ee778889c8fd0a097cdb44dbce9319315910fc83245b0b9c5d0650",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/455483067/large.jpg"
+    },
+    "petrodromus-tetradactylus/far-north-litter.jpg": {
+      "bytes": 719885,
+      "sha256": "510ccad0826a11d70fa260b6c8a9adce7a958f516dfd0bd35f0c12783b8fec49",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/702580521/large.jpg"
+    },
+    "petrodromus-tetradactylus/far-north-path.jpg": {
+      "bytes": 1148339,
+      "sha256": "556e876ee09537c12d6b06acf48d6642ea81f16a9b093d2bc3ce2ceeec6c2358",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/633499207/large.jpg"
+    },
+    "petrodromus-tetradactylus/far-north-side.jpg": {
+      "bytes": 275277,
+      "sha256": "d2dbf500b54ee51a09032b1290ea37800e1a8665ca2bfc964726f2a682b35d54",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/548327044/large.jpg"
+    },
+    "petrodromus-tetradactylus/far-north-thicket.jpeg": {
+      "bytes": 348272,
+      "sha256": "62ab1ed31a716d7ddebd88a8b16e951e036fe85457bdc411a77e975b0d2bbcea",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/423077064/large.jpeg"
+    },
+    "phacochoerus-africanus/kruger-female.jpg": {
+      "bytes": 493015,
+      "sha256": "98b966e38d38890d1915ecbacbfaf91b42eeb56bd240b95671ac849879b8c950",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Common_Warthog_%28Phacochoerus_africanus%29_female_..._%2851680179952%29.jpg/1280px-Common_Warthog_%28Phacochoerus_africanus%29_female_..._%2851680179952%29.jpg"
+    },
+    "phacochoerus-africanus/kruger-male-grazing.jpg": {
+      "bytes": 404501,
+      "sha256": "9fb14b09f01b0d89220f901c5e83faa828b0b067904dae963e2bfe279edf3cd7",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Common_Warthog_%28Phacochoerus_africanus%29%2C_big_male_grazing_new_grass_along_the_road.jpg/1280px-Common_Warthog_%28Phacochoerus_africanus%29%2C_big_male_grazing_new_grass_along_the_road.jpg"
+    },
+    "phacochoerus-africanus/kruger-sounder.jpg": {
+      "bytes": 459137,
+      "sha256": "1e8c5e818bf97b413720c0a9debd9df8c0dfa426880a3780f67388b75312cd20",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Common_Warthogs_%28Phacochoerus_africanus%29%2C_adults_with_piglets.jpg/1280px-Common_Warthogs_%28Phacochoerus_africanus%29%2C_adults_with_piglets.jpg"
+    },
+    "phacochoerus-africanus/kruger-young-running.jpg": {
+      "bytes": 559891,
+      "sha256": "17c32bd191102201a82338ee37239282d7ebe98e16f8a54c1fec903ee17d72cf",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Common_Warthog_%28Phacochoerus_africanus%29_young_running_..._%2850847708118%29.jpg/1280px-Common_Warthog_%28Phacochoerus_africanus%29_young_running_..._%2850847708118%29.jpg"
+    },
+    "potamochoerus-larvatus/imfolozi-sow.jpg": {
+      "bytes": 374516,
+      "sha256": "46e0e3acd6aa909f487e167ae0bf3db14bb20fbf7a2f22f1e66587f8802c1654",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Bushpig_%28Potamochoerus_larvatus%29_big_sow_%2829415919673%29.jpg/1280px-Bushpig_%28Potamochoerus_larvatus%29_big_sow_%2829415919673%29.jpg"
+    },
+    "potamochoerus-larvatus/mapungubwe-drinking.jpg": {
+      "bytes": 368785,
+      "sha256": "cb9bf55686be2ed751c1e41e8ae761a2bad15a404e0d7ab9b7e32616f6d76c8d",
+      "contentType": "image/jpeg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Bushpig%2C_Potamochoerus_larvatus_-_having_a_sunset_drink_%286041235263%29.jpg"
+    },
+    "potamochoerus-larvatus/mapungubwe-pair.jpg": {
+      "bytes": 544436,
+      "sha256": "231cea343b60f8368d266ed4de34845e6f932036cea4153492c6a7ae76be3bd6",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/African_bush_pigs%2C_Mapungubwe_National_Park_%2835884241784%29.jpg/1280px-African_bush_pigs%2C_Mapungubwe_National_Park_%2835884241784%29.jpg"
+    },
+    "procavia-capensis/far-north-pair.jpeg": {
+      "bytes": 256082,
+      "sha256": "1890c17060673bce30e58745aa20ed3b2f8bbb8b39a3cc6be78a3ce98be539a6",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/350817799/large.jpeg"
+    },
+    "procavia-capensis/masorini-pair.jpg": {
+      "bytes": 1048475,
+      "sha256": "8db631eb67232dc449fc87c0dfd783bbd6e2170345af0c10eb0bebad277d775a",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/741119590/large.jpg"
+    },
+    "procavia-capensis/masorini-side.jpeg": {
+      "bytes": 312360,
+      "sha256": "2352d8eba2c467c2a9f9866874848bc9d99a7d9cfe0c9bcf9aecbac6db308ff5",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/134976125/large.jpeg"
+    },
+    "procavia-capensis/northern-kruger-portrait.jpg": {
+      "bytes": 696532,
+      "sha256": "76f76faf870564736e1d2e059a62d95377876dc878a491dbde07345eaebb78c3",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/448160757/large.jpg"
+    },
+    "pronolagus-crassicaudatus/ehlanzeni-rocky-slope.jpg": {
+      "bytes": 214189,
+      "sha256": "e9fc5f86ee2140a8ad95cf9c813fe37a191093bbf7e59895db3025413fa140d1",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/725100464/large.jpg"
+    },
+    "pronolagus-crassicaudatus/gert-sibande-night-side.jpg": {
+      "bytes": 290589,
+      "sha256": "e3f51a126a3b6e5b385eb87b3221ee2978ba6ab1f0aa0ed7bf6eb3a2ea312b78",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716049695/large.jpg"
+    },
+    "pronolagus-crassicaudatus/zululand-rocks-back.jpg": {
+      "bytes": 296425,
+      "sha256": "f09fca3675500711c1b60d9b0e1950658cf4c47c5640690dd262afb53eaa4601",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/671496203/large.jpg"
+    },
+    "proteles-cristatus/lion-and-rhino-den.jpg": {
+      "bytes": 389136,
+      "sha256": "137aab341fbb52aabe64869fb56dbe09aa8b2af766f951abfc0a4ee11b958e80",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Aardwolf%2C_Proteles_cristata%2C_at_Lion_and_Rhino_Reserve%2C_Gauteng%2C_South_Africa_%2847987215567%29.jpg/1280px-Aardwolf%2C_Proteles_cristata%2C_at_Lion_and_Rhino_Reserve%2C_Gauteng%2C_South_Africa_%2847987215567%29.jpg"
+    },
+    "proteles-cristatus/lion-and-rhino-pair.jpg": {
+      "bytes": 416887,
+      "sha256": "87c6d8ef47d7e059faff5e4e518969401c93f27db526f274db3f7bcc3769c5bb",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Aardwolf%2C_Proteles_cristata%2C_at_Lion_and_Rhino_Reserve%2C_Gauteng%2C_South_Africa_%2847987200178%29.jpg/1280px-Aardwolf%2C_Proteles_cristata%2C_at_Lion_and_Rhino_Reserve%2C_Gauteng%2C_South_Africa_%2847987200178%29.jpg"
+    },
+    "proteles-cristatus/mountain-zebra-side.jpg": {
+      "bytes": 374959,
+      "sha256": "3c2312230dea4fc65a789bc476c893acdb97cdf21f63beefd11842b3f2cd162d",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Aardwolf%2C_Mount_Zebra_National_Park%2C_South_Africa_1.jpg/1280px-Aardwolf%2C_Mount_Zebra_National_Park%2C_South_Africa_1.jpg"
+    },
+    "raphicerus-campestris/kruger-female-head.jpg": {
+      "bytes": 321796,
+      "sha256": "0fd1f5b2e405accad33617508ff3b61d383abcf0f700270fdd36e9729b87f372",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Steenbok_%28Raphicerus_campestris%29%2C_female_browsing.jpg/1280px-Steenbok_%28Raphicerus_campestris%29%2C_female_browsing.jpg"
+    },
+    "raphicerus-campestris/kruger-female-side.jpg": {
+      "bytes": 441697,
+      "sha256": "ad50bbecf7816d882099b85d02f7753f77aa77933cb96b9e7fe791d6c385cffd",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Steenbok_%28Raphicerus_campestris%29_female.jpg/1280px-Steenbok_%28Raphicerus_campestris%29_female.jpg"
+    },
+    "raphicerus-campestris/kruger-male-browsing.jpg": {
+      "bytes": 356385,
+      "sha256": "0ac791075db0f8687f3e616f408410cc7959bb1c77fb48cfc409e8cbfffa2bba",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Steenbok_%28Raphicerus_campestris%29%2C_male_browsing.jpg/1280px-Steenbok_%28Raphicerus_campestris%29%2C_male_browsing.jpg"
+    },
+    "raphicerus-campestris/kruger-male-head.jpg": {
+      "bytes": 252190,
+      "sha256": "e495dd75831d9322d0cd127ff48cfee0429ea1049d10e6e4d9fa66626ff6ea1b",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Steenbok_%28Raphicerus_campestris%29_male_%2817238347366%29.jpg/1280px-Steenbok_%28Raphicerus_campestris%29_male_%2817238347366%29.jpg"
+    },
+    "raphicerus-campestris/kruger-running.jpg": {
+      "bytes": 597619,
+      "sha256": "330f8dce8042802e1c3f1c34a6f035ef85f2dd98dc7a1567433c5aba1e1d49a8",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Steenboks_%28Raphicerus_campestris%29_running_away_..._%2851789625674%29.jpg/1280px-Steenboks_%28Raphicerus_campestris%29_running_away_..._%2851789625674%29.jpg"
+    },
+    "raphicerus-sharpei/kruger-female-back.jpg": {
+      "bytes": 422452,
+      "sha256": "b7831bcc13c5ff4cf8befc9212c1a21be46dcf7705f7e3f307b1c917f8304b5e",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_%2811802609134%29.jpg/1280px-Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_%2811802609134%29.jpg"
+    },
+    "raphicerus-sharpei/kruger-female-hidden.jpg": {
+      "bytes": 821519,
+      "sha256": "6b3b598b181f0b1659627c6f692761dc0a3c8fc381336e244d86c82f8a250c90",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_hidden_in_the_grass_..._%2850858111448%29.jpg/1280px-Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_hidden_in_the_grass_..._%2850858111448%29.jpg"
+    },
+    "raphicerus-sharpei/kruger-female-side.jpg": {
+      "bytes": 382841,
+      "sha256": "a83fe036209bfa2e6ec65be67768b8b69f23f540da38c2d386b6ebe118fa06d4",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_%2811712561733%29.jpg/1280px-Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_female_%2811712561733%29.jpg"
+    },
+    "raphicerus-sharpei/kruger-front.jpg": {
+      "bytes": 2330346,
+      "sha256": "c0a7955608fe1b1d7493a4675a04b7d3c638aafc15fde66f5b4e7ada4af22236",
+      "contentType": "image/png",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Sharpe_Grysbok.png/1280px-Sharpe_Grysbok.png"
+    },
+    "raphicerus-sharpei/kruger-male-side.jpg": {
+      "bytes": 318880,
+      "sha256": "75a8bdf8ae9c7583e2825e8849baff290392715b35b32406f486639dffe7944f",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_male_%2811838584075%29.jpg/1280px-Sharpe%27s_Grysbok_%28Raphicerus_sharpei%29_male_%2811838584075%29.jpg"
+    },
+    "redunca-arundinum/kruger-female.jpg": {
+      "bytes": 380200,
+      "sha256": "7a83c75893acebfaec6404a7378a508ad98413f7eb295431602adb637655c8fb",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Common_Reedbuck_%28Redunca_arundinum%29_female_%2811544963726%29.jpg/1280px-Common_Reedbuck_%28Redunca_arundinum%29_female_%2811544963726%29.jpg"
+    },
+    "redunca-arundinum/kruger-male-front.jpg": {
+      "bytes": 418540,
+      "sha256": "939cb58bf6321259b4f5391dba6699309b41295c123239ee42e95052d21c6868",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Common_Reedbuck_%28Redunca_arundinum%29%2C_Kruger_National_Park.jpg/1280px-Common_Reedbuck_%28Redunca_arundinum%29%2C_Kruger_National_Park.jpg"
+    },
+    "redunca-arundinum/kruger-male-side.jpg": {
+      "bytes": 388577,
+      "sha256": "5865f49bc3dab622230ce47f3d1e0cdaaacd7cae78d2ac937f2e89be9e5bae89",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Southern_Reedbuck_%28Redunca_arundinum%29_male_..._%2851680177777%29.jpg/1280px-Southern_Reedbuck_%28Redunca_arundinum%29_male_..._%2851680177777%29.jpg"
+    },
+    "redunca-arundinum/kruger-pair.jpg": {
+      "bytes": 337040,
+      "sha256": "228d972a90d06d90cf149d5a2ce3ab93618c56875906b0f1fa28193c68548073",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Common_Reedbuck_%28Redunca_arundinum%29_%286002253876%29.jpg/1280px-Common_Reedbuck_%28Redunca_arundinum%29_%286002253876%29.jpg"
+    },
+    "redunca-arundinum/kruger-young-male.jpg": {
+      "bytes": 546596,
+      "sha256": "7bbab215a7d20c73ef21d508aadec6fcf9b71abf4d7457006008ca6aea002ab4",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Day_79_Southern_Reedbuck_%28Redunca_arundinum%29_male_..._%2853386530771%29.jpg/1280px-Day_79_Southern_Reedbuck_%28Redunca_arundinum%29_male_..._%2853386530771%29.jpg"
+    },
+    "redunca-fulvorufula/cacadu-standing-side-female.jpg": {
+      "bytes": 104012,
+      "sha256": "1409614069976a16fbf21352c26f8b468e94617ea7a0c9951c1bb899bed9472b",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/742620401/large.jpg"
+    },
+    "redunca-fulvorufula/kruger-pretoriuskop-standing-side-female.jpg": {
+      "bytes": 619170,
+      "sha256": "f461316ddc995572e6e5dd51760f250849c18a53fc530fcbd15f8b623fdf3397",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/453599030/large.jpg"
+    },
+    "redunca-fulvorufula/sabie-standing-side-male.jpg": {
+      "bytes": 1151227,
+      "sha256": "18e18a7a8a6cd5077f2677ca09c0f23d2542396a025c3655024c3c0488d7b0a6",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/652764251/large.jpg"
+    },
+    "redunca-fulvorufula/umkhanyakude-standing-front-male.jpg": {
+      "bytes": 326356,
+      "sha256": "3758f5765ca45ed02587c942bfa2dbf597b75c825f9f0f82789a1f13ea88ffb2",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/754534199/large.jpg"
+    },
+    "rhinolophus-clivosus-perched-side-adult-oudtshoorn-1.jpg": {
+      "bytes": 536689,
+      "sha256": "aa62bb5911c0254736c3aef6ab219c9fd9b290c298a1f611822da42b280e51d1",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/607172508/large.jpg"
+    },
+    "rhinolophus-clivosus-perched-side-adult-oudtshoorn-2.jpg": {
+      "bytes": 762613,
+      "sha256": "fea9381856af843fd20a7e317dc1b3895aa469e012125701de0560ec23e612f2",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/607180267/large.jpg"
+    },
+    "rhinolophus-hildebrandtii/chimanimani-cave-roost.jpg": {
+      "bytes": 380639,
+      "sha256": "5fad1e66a66ab1de674e29a1283a6ae423fd99f6c273a99612dd07cdc8cba22b",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/265693461/large.jpg"
+    },
+    "rhinolophus-hildebrandtii/chimanimani-cave-trio.jpg": {
+      "bytes": 338115,
+      "sha256": "2f050b113e4634119f0d8d4cd0cfd131bda1962346749dafa824b4ab5101c350",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/265693481/large.jpg"
+    },
+    "rhynchogale-melleri/limpopo-west-of-kruger-night-front.jpg": {
+      "bytes": 520490,
+      "sha256": "894a7b5c6065c1292e8d688060c5f5a56ba1da0441ab3c4d925c11574a986979",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/221022977/large.jpeg"
+    },
+    "roost-thornybush-2023": {
+      "bytes": 196290,
+      "sha256": "a89618764304baf4e4c136f2011752a85a6ecad85d38a8d94aac813163e1e125",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/264038810/large.jpg"
+    },
+    "rousettus-aegyptiacus-perched-side": {
+      "bytes": 472981,
+      "sha256": "a161403b3eb7ac6b8068a033e6e9929cf3424ce32eec71d796f2c788c62fdb87",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/396055460/large.jpeg"
+    },
+    "rousettus-aegyptiacus-perched-side-colony": {
+      "bytes": 412484,
+      "sha256": "68bd80ea75479a4b7597c9e810b504d405706fd0ffb9e7ab5ec7f784b9d2f0f8",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/5478101/large.jpg"
+    },
+    "saccostomus-campestris/medike-burrow.jpg": {
+      "bytes": 182967,
+      "sha256": "72bbde9c26df7ebb0df1b1bf2110d152afcf647558d0c0a726516cf7df4fe344",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15534460/large.jpg"
+    },
+    "saccostomus-campestris/medike-side.jpg": {
+      "bytes": 146058,
+      "sha256": "bcd508804d00f8d015e63f0e95295e054ee65a4280982c3fdfe08f048e96dc9b",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15534458/large.jpg"
+    },
+    "smutsia-temminckii/kruger-back.jpg": {
+      "bytes": 442207,
+      "sha256": "a09420792323ca0a2cb25cb59587fee20a9ba119e8df324c33276e4f34eb28f7",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/66176158/large.jpg"
+    },
+    "smutsia-temminckii/kruger-side-close.jpg": {
+      "bytes": 239322,
+      "sha256": "08993b81fba82454615912db988d0f0edd1d3fc226cb3d6023525a6a3db57e85",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/30002308/large.jpeg"
+    },
+    "smutsia-temminckii/kruger-side.jpg": {
+      "bytes": 210618,
+      "sha256": "34ce1d5fe3c6d441d1949233e4565a9b74b9f73a3210d6f61655d8941e0f49c1",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/207950060/large.jpeg"
+    },
+    "smutsia-temminckii/kruger-walking.jpg": {
+      "bytes": 241654,
+      "sha256": "f78501bc539e3b41e4cc6d87e3c9e031f47499857f90a40311c3f845637ce1e5",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/687788208/large.jpg"
+    },
+    "suncus-lixa/vhembe-standing-side-2.jpg": {
+      "bytes": 135358,
+      "sha256": "36c40bc96eddc2a79b3cdbd2fb1a32ff6bc2007020597d8142444779e0fff3b8",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15535181/large.jpg"
+    },
+    "suncus-lixa/vhembe-standing-side.jpg": {
+      "bytes": 126481,
+      "sha256": "18b26277bafef4f48b8593a211b15aa1f05bd2d708b93425d65e5b41c2c5e9f9",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15535179/large.jpg"
+    },
+    "sylvicapra-grimmia/kruger-female-browsing.jpg": {
+      "bytes": 381422,
+      "sha256": "761ee9b1444cd1d47e559ed73a9d086db772e11a501da1b4b8ba2e40ce0a8ef6",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Common_Duiker_%28Sylvicapra_grimmia%29_femele_browsing_..._%2852957478048%29.jpg/1280px-Common_Duiker_%28Sylvicapra_grimmia%29_femele_browsing_..._%2852957478048%29.jpg"
+    },
+    "sylvicapra-grimmia/kruger-female-side.jpg": {
+      "bytes": 302808,
+      "sha256": "3204508aa1d1fa4c7454789ad809bec3c3aa8250795a9976e30e713abcb8b432",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Bush_Duiker_%28Sylvicapra_grimmia%29_female_%2817326060406%29.jpg/1280px-Bush_Duiker_%28Sylvicapra_grimmia%29_female_%2817326060406%29.jpg"
+    },
+    "sylvicapra-grimmia/kruger-male-back.jpg": {
+      "bytes": 652451,
+      "sha256": "8589c5280936a44e9d2452e46cdcde88e187d7835c76c5605d1a196d4ec3e4ac",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Day_1_Grey_Duiker_%28Sylvicapra_grimmia%29_male_..._%2853203344778%29.jpg/1280px-Day_1_Grey_Duiker_%28Sylvicapra_grimmia%29_male_..._%2853203344778%29.jpg"
+    },
+    "sylvicapra-grimmia/kruger-male-road.jpg": {
+      "bytes": 329376,
+      "sha256": "0c53fc35e5ab305b57449af0ece9a74e8d5ed86dce2bc7a8e346d39dcd40e1a1",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Common_Duiker_%28Sylvicapra_grimmia%29_male_crossing_the_road_..._%2853135907371%29.jpg/1280px-Common_Duiker_%28Sylvicapra_grimmia%29_male_crossing_the_road_..._%2853135907371%29.jpg"
+    },
+    "sylvicapra-grimmia/kruger-male-side.jpg": {
+      "bytes": 305922,
+      "sha256": "4bda332a49b4bf8fcba7a16c25a534de7b97835530f52c132cd68ffc71e3cc2c",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Common_Duiker_%28Sylvicapra_grimmia%29_%286011670419%29.jpg/1280px-Common_Duiker_%28Sylvicapra_grimmia%29_%286011670419%29.jpg"
+    },
+    "syncerus-caffer/kruger-bull-grazing.jpg": {
+      "bytes": 430194,
+      "sha256": "c433ac80ec8a4d2c52d2854a687f251eb3259990ceae74168191399fba131967",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Cape_Buffalo_%28Syncerus_caffer%29_bull_grazing_..._%2851142829505%29.jpg/1280px-Cape_Buffalo_%28Syncerus_caffer%29_bull_grazing_..._%2851142829505%29.jpg"
+    },
+    "syncerus-caffer/kruger-bull-head.jpg": {
+      "bytes": 340268,
+      "sha256": "813ad57f0a833a4fb69d8f802783dcac44f6559bd0d61049400441b23f758066",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/African_Buffalo_%28Syncerus_caffer%29_bull_..._%2850119409156%29.jpg/1280px-African_Buffalo_%28Syncerus_caffer%29_bull_..._%2850119409156%29.jpg"
+    },
+    "syncerus-caffer/kruger-calf.jpg": {
+      "bytes": 357230,
+      "sha256": "935e41c679c01c99cd200fc51e2d5508863ddcbded00f18c80d50baca8ebf516",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Day_11_Cape_Buffalo_%28Syncerus_caffer%29_calf_..._%2853226106161%29.jpg/1280px-Day_11_Cape_Buffalo_%28Syncerus_caffer%29_calf_..._%2853226106161%29.jpg"
+    },
+    "syncerus-caffer/kruger-cow-and-calf.jpg": {
+      "bytes": 388273,
+      "sha256": "53754001b4fd722931b383a33249fd7f527bf19fd07b5d6cf24e18179fac7cda",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Cape_Buffalo_%28Syncerus_caffer%29_cow_drinking_in_Levuhu_River_..._%2853021006347%29.jpg/1280px-Cape_Buffalo_%28Syncerus_caffer%29_cow_drinking_in_Levuhu_River_..._%2853021006347%29.jpg"
+    },
+    "syncerus-caffer/kruger-cow.jpg": {
+      "bytes": 530550,
+      "sha256": "0824a340d8a5cb1361957b78a8b0fa611956c58281acd89ffaadd893e5cc9816",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/African_Buffalo_%28Syncerus_caffer%29_cow_..._%2850118835268%29.jpg/1280px-African_Buffalo_%28Syncerus_caffer%29_cow_..._%2850118835268%29.jpg"
+    },
+    "syncerus-caffer/kruger-crossing.jpg": {
+      "bytes": 319742,
+      "sha256": "91d55431f523e9031e7b52db80993eb23af7ff8abed2685bea638f9c5cf0deda",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Day_27_Cape_buffaloes_%28Syncerus_caffer%29_bull%2C_calf_and_cow_crossing_..._%2853264927885%29.jpg/1280px-Day_27_Cape_buffaloes_%28Syncerus_caffer%29_bull%2C_calf_and_cow_crossing_..._%2853264927885%29.jpg"
+    },
+    "taphozous-mauritianus-perched-side": {
+      "bytes": 438318,
+      "sha256": "89d1c62108bb3069380a82f826104f4243e98090653ba1ec9c47f6773d1aa764",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/489602393/large.jpeg"
+    },
+    "thallomys-paedulcus/hoedspruit-thornbush.jpg": {
+      "bytes": 205900,
+      "sha256": "1456f987622a6f1a3ccc73e66142d0cd10d648e237ddf8906cfd560cb6dd40bb",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/299774302/large.jpg"
+    },
+    "thryonomys-swinderianus/oelsen-night-side.jpg": {
+      "bytes": 673915,
+      "sha256": "227fe43bcc7341319a9e20984e9228d43c2e1e9c1a130a8225fa1e28860a0d43",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/611060099/large.jpg"
+    },
+    "thryonomys-swinderianus/qgrobler-day-side.jpg": {
+      "bytes": 127315,
+      "sha256": "24d069aa975f8ec5eb17f256f29c0664b26ab55c80d85f974315784d2808184c",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15590001/large.jpg"
+    },
+    "thryonomys-swinderianus/tippett-night-back.jpg": {
+      "bytes": 69613,
+      "sha256": "740889efe3864c8cb1f659ce190563217d37de55c3743e2a13878caaa8f020d9",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716656550/large.jpg"
+    },
+    "tragelaphus-angasii/kruger-female-and-young.jpg": {
+      "bytes": 350511,
+      "sha256": "43f2bc3617f1ae4a82f1db47daafb8bf35044d59079c39d7167d6e4301b94f59",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Nyalas_%28Tragelaphus_angasii%29_female_and_young_..._%2852177436590%29.jpg/1280px-Nyalas_%28Tragelaphus_angasii%29_female_and_young_..._%2852177436590%29.jpg"
+    },
+    "tragelaphus-angasii/kruger-female-side.jpg": {
+      "bytes": 600505,
+      "sha256": "439fa8731f649ab37fc976f48d22417f0ce63b8def6f763cd457a48fb336202a",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Nyala_%28Tragelaphus_angasii%29_female_%2811732987934%29.jpg/1280px-Nyala_%28Tragelaphus_angasii%29_female_%2811732987934%29.jpg"
+    },
+    "tragelaphus-angasii/kruger-male-side.jpg": {
+      "bytes": 383836,
+      "sha256": "9c7d226ce8bfade212bb384a1f1faaf64082f8a23cf6b17350e70bd4b56a5bbf",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Nyala_%28tragelaphus_angasii%29%2C_male_grazing.jpg/1280px-Nyala_%28tragelaphus_angasii%29%2C_male_grazing.jpg"
+    },
+    "tragelaphus-angasii/kruger-young-male.jpg": {
+      "bytes": 372492,
+      "sha256": "0565a8da497f5441a6f79ed99a88614df797dcdfb2510f64f6a5bfac0bd93b87",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Nyala_%28Tragelaphus_angasii%29%2C_young_male_crossing_the_road.jpg/1280px-Nyala_%28Tragelaphus_angasii%29%2C_young_male_crossing_the_road.jpg"
+    },
+    "tragelaphus-angasii/kruger-young.jpg": {
+      "bytes": 241270,
+      "sha256": "7fad431ab30746f64975aaa156cef7d5cf16fbb2b6d2e31b73f48a475b7e4eed",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Young_Nyala_%28Tragelaphus_angasii%29_%2811733383806%29.jpg/1280px-Young_Nyala_%28Tragelaphus_angasii%29_%2811733383806%29.jpg"
+    },
+    "tragelaphus-oryx/kruger-female-and-calf.jpg": {
+      "bytes": 260530,
+      "sha256": "cee4d9bdbfce835655da8f36ff9f6b8408480d3870f5432b9544390dfcd579da",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/343406253/large.jpeg"
+    },
+    "tragelaphus-oryx/kruger-females-back.jpg": {
+      "bytes": 457796,
+      "sha256": "6c9ff6ee2857fcc2583c1c2f72498ad05b23e4209d8ed564b5bd8b3e5cacc541",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/165882996/large.jpeg"
+    },
+    "tragelaphus-oryx/kruger-females-front.jpg": {
+      "bytes": 422896,
+      "sha256": "127ae3ba025cc3bce2b87fe6105cb48e356d36990207a19a51875556d51ae7de",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/165882967/large.jpeg"
+    },
+    "tragelaphus-oryx/kruger-male-side.jpg": {
+      "bytes": 649195,
+      "sha256": "9f203ee3fc10e6846c1b8aff18ac27a4981837d536a564bc9679c392ccf47eb2",
+      "contentType": "image/jpeg",
+      "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/450313710/large.jpeg"
+    },
+    "tragelaphus-strepsiceros/kruger-female-side.jpg": {
+      "bytes": 640328,
+      "sha256": "f1c4123eb63252afeff33ac9c7c7636bac11d47a3224b7568b9d39fe526294d5",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Greater_Kudu_%28Tragelaphus_strepsiceros%29_female_browsing_..._%2851128205155%29.jpg/1280px-Greater_Kudu_%28Tragelaphus_strepsiceros%29_female_browsing_..._%2851128205155%29.jpg"
+    },
+    "tragelaphus-strepsiceros/kruger-females.jpg": {
+      "bytes": 339591,
+      "sha256": "ebe438fbf32e3501a7743683a9f9ef2c61cda810ce48281d85b2b13600458efe",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Greater_Kudus_%28Tragelaphus_strepsiceros%29%2C_females.jpg/1280px-Greater_Kudus_%28Tragelaphus_strepsiceros%29%2C_females.jpg"
+    },
+    "tragelaphus-strepsiceros/kruger-male-browsing.jpg": {
+      "bytes": 631902,
+      "sha256": "1af8907ef18af7bd4e13ee1dc79347630f95cc99140c98e5b1a3d0d9cdf1c229",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Greater_Kudu_%28Tragelaphus_strepsiceros%29_male.jpg/1280px-Greater_Kudu_%28Tragelaphus_strepsiceros%29_male.jpg"
+    },
+    "tragelaphus-strepsiceros/kruger-male-side.jpg": {
+      "bytes": 506157,
+      "sha256": "19bdf0313f5c9eb758c933bb1e4a47ebcd1154d58e57e7dba35efd4b33a85b07",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Greater_Kudu_%28Tragelaphus_strepsiceros%29%2C_male_browsing.jpg/1280px-Greater_Kudu_%28Tragelaphus_strepsiceros%29%2C_male_browsing.jpg"
+    },
+    "tragelaphus-strepsiceros/kruger-young-male.jpg": {
+      "bytes": 631700,
+      "sha256": "429a82adb589f6964d66cb5289e3d6a8ad4b0eddebee371c730462156daf60e8",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Greater_Kudu_%28Tragelaphus_strepsiceros%29_young_male_..._%2850843580818%29.jpg/1280px-Greater_Kudu_%28Tragelaphus_strepsiceros%29_young_male_..._%2850843580818%29.jpg"
+    },
+    "tragelaphus-sylvaticus/kruger-female-and-young.jpg": {
+      "bytes": 405889,
+      "sha256": "161d42b0210680261bdee7cbb9e56584f9625792447c9f9995a7af2da7a40bce",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Southern_Bushbucks_%28Tragelaphus_sylvaticus%29%2C_female_and_young_suckling_..._%2854047078204%29.jpg/1280px-Southern_Bushbucks_%28Tragelaphus_sylvaticus%29%2C_female_and_young_suckling_..._%2854047078204%29.jpg"
+    },
+    "tragelaphus-sylvaticus/kruger-female-front.jpg": {
+      "bytes": 402959,
+      "sha256": "1ff2c488302cecf63a7c0b07ed3f7b6ee7704c7070bf444ce7cee8be20eb05a0",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Southern_Bushbuck_%28Tragelaphus_sylvaticus%29_female_portrait_..._%2853014456014%29.jpg/1280px-Southern_Bushbuck_%28Tragelaphus_sylvaticus%29_female_portrait_..._%2853014456014%29.jpg"
+    },
+    "tragelaphus-sylvaticus/kruger-female-side.jpg": {
+      "bytes": 463765,
+      "sha256": "d518099ef70a9ea6e0619b03324c3106787a76b6c6df7fc3bbafdac91a3d448a",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Southern_Bushbuck_%28Tragelaphus_sylvaticus%29%2C_gravid_female_..._%2854045880322%29.jpg/1280px-Southern_Bushbuck_%28Tragelaphus_sylvaticus%29%2C_gravid_female_..._%2854045880322%29.jpg"
+    },
+    "tragelaphus-sylvaticus/kruger-male-side.jpg": {
+      "bytes": 359116,
+      "sha256": "83c6177e0e340cf792024b37c61fe3a6accd7cc6fa3fe27b94e22b351de6dee0",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Southern_Bushbuck_%28Tragelaphus_sylvaticus%29%2C_male_on_the_move.jpg/1280px-Southern_Bushbuck_%28Tragelaphus_sylvaticus%29%2C_male_on_the_move.jpg"
+    },
+    "tragelaphus-sylvaticus/kruger-young-male.jpg": {
+      "bytes": 395031,
+      "sha256": "dddb0abdb44e138f73f8f189abba034229fe843e96655e868c9c060d82fb814e",
+      "contentType": "image/jpeg",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Bushbuck_%28Tragelaphus_scriptus%29_young_male_grazing_..._%2850326488221%29.jpg/1280px-Bushbuck_%28Tragelaphus_scriptus%29_young_male_grazing_..._%2850326488221%29.jpg"
+    }
+  },
+  "audio": {
+    "inaturalist/1118727": {
+      "bytes": 92749,
+      "sha256": "f91ae8f4c1719ca3e26fc675beb475ba3f1e9f3c419e511ef81e27670a511eca",
+      "contentType": "audio/mp4",
+      "source": "https://static.inaturalist.org/sounds/1118727.m4a?1719967018"
+    },
+    "inaturalist/125798020": {
+      "bytes": 41027,
+      "sha256": "eeeba4da3b751b207046df92ee2aa3ee1e4f96ceccfaeb9cad29cd67d0f2af2b",
+      "contentType": "audio/mpeg",
+      "source": "https://static.inaturalist.org/sounds/496858.mp3"
+    },
+    "inaturalist/1601236": {
+      "bytes": 120421,
+      "sha256": "0f29bdb998f12dc787a5080ffd56f8ef177f90387c6b20ad47f1f564dac3cd37",
+      "contentType": "audio/mp4",
+      "source": "https://static.inaturalist.org/sounds/1601236.m4a?1754939566"
+    },
+    "inaturalist/2106250": {
+      "bytes": 349832,
+      "sha256": "9388a0925e358566bb24a83d8d52e9b2e86ed39b303d1c9432bb66f3304cd37d",
+      "contentType": "audio/mp4",
+      "source": "https://static.inaturalist.org/sounds/2106250.m4a?1785948187"
+    },
+    "inaturalist/2160413": {
+      "bytes": 130845,
+      "sha256": "42d2c5e078a85fa9c3003af86e99d37187507a40992cd6dd84bccc9d0b47e715",
+      "contentType": "audio/mp4",
+      "source": "https://static.inaturalist.org/sounds/2160413.m4a?1789525456"
+    },
+    "inaturalist/291259": {
+      "bytes": 726573,
+      "sha256": "09e4faf0c7cd355ca65eeebad223754892c5076aeefe378051efc298829cb7de",
+      "contentType": "audio/mpeg",
+      "source": "https://static.inaturalist.org/sounds/291259.mp3?1628888093"
+    },
+    "inaturalist/375228122": {
+      "bytes": 136615,
+      "sha256": "268f1f66d41767fbec107c7fc154cd937bd02217363cd6782696c50ffafbbe4e",
+      "contentType": "audio/mp4",
+      "source": "https://static.inaturalist.org/sounds/2042690.m4a?1782414361"
+    },
+    "inaturalist/390595752": {
+      "bytes": 29117,
+      "sha256": "2a27c3960736edc8c9f2af15c11b3431cfc0f02bc13e01c5e6146418474f2990",
+      "contentType": "audio/mp4",
+      "source": "https://static.inaturalist.org/sounds/2115804.m4a?1786550749"
+    },
+    "inaturalist/406360551": {
+      "bytes": 768552,
+      "sha256": "95f79ba6525bd28d20b88d8ec0c72cf2a85bc19ac3d6589f2d84c26d1d4774e8",
+      "contentType": "audio/mp4",
+      "source": "https://static.inaturalist.org/sounds/2187191.m4a"
+    },
+    "otolemur-crassicaudatus/kruger-skukuza.mp3": {
+      "bytes": 52811,
+      "sha256": "f7f08e8814749dd78e88eecec474d367578ddf40abbff94b074f7cb00a4704c4",
+      "contentType": "audio/mpeg",
+      "source": "https://static.inaturalist.org/sounds/496927.mp3"
+    },
+    "paraxerus-cepapi/agujaceratops-shingwedzi.wav": {
+      "bytes": 1512492,
+      "sha256": "c18073800c9e8d928846cc3b244579e2ba382eacf2b5f01e04f4fc04c1af02ff",
+      "contentType": "audio/wav",
+      "source": "https://static.inaturalist.org/sounds/539266.wav"
+    },
+    "xeno-canto/XC1148048": {
+      "bytes": 456044,
+      "sha256": "8ebe3afb11aa57c8732a3810f050e7f3bc74fb94d3d9e5d34d8e6180424c8fd5",
+      "contentType": "audio/mpeg",
+      "source": "https://xeno-canto.org/sounds/uploaded/YSGTQVRQZI/XC1148048-20260512_KNP_AKaramitsos_XA60_A025C131_2605121L_SLE_250HP_-3dB_WB.mp3"
+    }
+  }
+}

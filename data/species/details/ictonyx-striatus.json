@@ -230,7 +230,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "ictonyx-striatus/addo-front.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -246,7 +246,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "ictonyx-striatus/tutume-pair.jpg",
       "view": "herd",
       "age": "adult",

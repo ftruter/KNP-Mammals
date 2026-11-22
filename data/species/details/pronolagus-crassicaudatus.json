@@ -230,7 +230,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult Natal red rock rabbit sitting in grass at night, showing short ears, a grizzled grey-brown coat and rufous legs",
       "caption": "Research-grade iNaturalist observation, Gert Sibande District Municipality, Mpumalanga, 7 August 2026."
     },
@@ -246,7 +246,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult Natal red rock rabbit on boulders, showing a bright rufous rump and short ears",
       "caption": "Research-grade iNaturalist observation, Zululand District Municipality, KwaZulu-Natal, 2 June 2026."
     },
@@ -262,7 +262,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Natal red rock rabbit moving away over rocks in tall grassland, showing a rufous rump",
       "caption": "Research-grade iNaturalist observation, Ehlanzeni District Municipality, Mpumalanga, 13 June 2026."
     }

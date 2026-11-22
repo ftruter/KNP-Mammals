@@ -221,7 +221,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Serval standing on a road, showing the large ears, in Kruger National Park",
       "caption": "Adult, Kruger National Park."
     },
@@ -237,7 +237,7 @@
       "license": "CC BY-SA 3.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Serval walking in profile through short grass in Kruger National Park",
       "caption": "Adult, Kruger National Park."
     },
@@ -253,7 +253,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Serval seen from behind on a road in Kruger National Park, showing the large ears and short tail",
       "caption": "Adult, Kruger National Park."
     },
@@ -269,7 +269,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Serval moving through tall green grass in Kruger National Park",
       "caption": "Adult in tall grass, Kruger National Park."
     },
@@ -285,7 +285,7 @@
       "license": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Serval looking through tall stems on a sunset drive near Skukuza, Kruger National Park",
       "caption": "Adult, sunset drive near Skukuza, Kruger National Park."
     }

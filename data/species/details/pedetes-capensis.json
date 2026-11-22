@@ -189,7 +189,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "pedetes-capensis/goddard-night-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -205,7 +205,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "pedetes-capensis/correia-night-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -221,7 +221,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "pedetes-capensis/hanks-night-front.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -237,7 +237,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "pedetes-capensis/heliastes21-night-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -253,7 +253,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "pedetes-capensis/van-tonder-night-side.jpg",
       "view": "standing-side",
       "age": "adult",

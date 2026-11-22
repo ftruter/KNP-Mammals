@@ -283,7 +283,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Close-up of an adult white rhinoceros head, showing the wide square lip and two horns, in Kruger National Park",
       "caption": "Adult, showing the wide square lip, Kruger National Park, 14 February 2014."
     },
@@ -299,7 +299,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male white rhinoceros standing in profile in Kruger National Park, showing the nuchal hump and two horns",
       "caption": "Adult male, Kruger National Park, 3 February 2019."
     },
@@ -315,7 +315,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult white rhinoceros grazing with its head lowered in Kruger National Park",
       "caption": "Adult grazing, Kruger National Park, 17 May 2022."
     },
@@ -331,7 +331,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult white rhinoceros walking away through grass with a small calf at its side, Kruger National Park",
       "caption": "Adult with calf, Kruger National Park, 26 April 2024."
     },
@@ -347,7 +347,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Juvenile white rhinoceros lying in long grass in Kruger National Park, with short horns visible",
       "caption": "Juvenile lying in grass, Kruger National Park, 26 April 2024."
     }

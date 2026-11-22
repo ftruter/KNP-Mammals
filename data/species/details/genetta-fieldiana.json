@@ -209,7 +209,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "genetta-fieldiana/kruger-tree.jpg",
       "view": "perched-side",
       "age": "adult",
@@ -225,7 +225,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "genetta-fieldiana/kruger-tamboti-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -241,7 +241,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "genetta-fieldiana/kruger-maroela.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -257,7 +257,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "genetta-fieldiana/kruger-skukuza.jpg",
       "view": "running",
       "age": "adult",
@@ -273,7 +273,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "genetta-fieldiana/kruger-mopani.jpg",
       "view": "standing-side",
       "age": "adult",

@@ -226,7 +226,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult scrub hare sitting in profile, showing long ears, a pale eye-ring, a grizzled grey coat and white underparts",
       "caption": "Research-grade iNaturalist observation, Gomondwane Loop, Kruger National Park, 13 October 2024."
     },
@@ -242,7 +242,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult scrub hare crouched in grass in northern Kruger, showing a long ear and grizzled grey coat",
       "caption": "Research-grade iNaturalist observation, Kruger National Park (Mopani District), 3 June 2026."
     },
@@ -258,7 +258,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult scrub hare standing in profile in dry woodland on the Shongololo Loop",
       "caption": "Research-grade iNaturalist observation, Shongololo Loop, Kruger National Park, 1 September 2017."
     },
@@ -274,7 +274,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult scrub hare standing in open thornveld in southern Kruger",
       "caption": "Research-grade iNaturalist observation, Kruger National Park, Mpumalanga, 9 August 2026."
     },
@@ -290,7 +290,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult scrub hare seen at night in open grassland with scattered shrubs",
       "caption": "Research-grade iNaturalist observation, Kruger National Park (Mopani District), 19 August 2023."
     }

@@ -277,7 +277,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "An aardvark in side view at night on a gravel track in Kruger National Park, showing the long snout, large ears and tapering tail",
       "caption": "Research-grade iNaturalist observation, Kruger National Park, 2 December 2024."
     },
@@ -293,7 +293,7 @@
       "license": "CC0 1.0",
       "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "An aardvark in daylight in the Limpopo bushveld, showing the arched back, long ears and snout held to the red sand",
       "caption": "Research-grade iNaturalist observation, Bushveld, Limpopo, 25 June 2010."
     },
@@ -309,7 +309,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "An aardvark foraging in open shrubland at Spitskopvlakte, Western Cape",
       "caption": "Research-grade iNaturalist observation, Spitskopvlakte, Western Cape, 11 May 2011."
     },
@@ -325,7 +325,7 @@
       "license": "CC0 1.0",
       "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "An aardvark walking away through dry shrub, showing the long ears, arched back and pale tapering tail",
       "caption": "Research-grade iNaturalist observation, Western Cape, 19 July 2020."
     }

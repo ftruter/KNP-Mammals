@@ -203,7 +203,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "African wild cat standing in profile at night, showing the ringed tail and reddish ears",
       "caption": "Adult, Ehlanzeni District, in Kruger National Park."
     },
@@ -219,7 +219,7 @@
       "license": "CC0 1.0",
       "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "African wild cat sitting on a sandy track at night near Satara, Kruger National Park",
       "caption": "Adult, Satara, Kruger National Park."
     },
@@ -235,7 +235,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "African wild cat sitting at night near Satara Camp, Kruger National Park",
       "caption": "Adult, Satara Camp road, Kruger National Park."
     },
@@ -251,7 +251,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "African wild cat in dry grass in daylight in Kgalagadi Transfrontier Park",
       "caption": "Adult, Auob riverbed, Kgalagadi Transfrontier Park. Used for a clear daylight view; no comparably clear daylight Kruger photograph was selected."
     }

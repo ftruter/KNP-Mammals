@@ -230,7 +230,7 @@
             "license": "CC BY 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "Adult Lichtenstein's hartebeest in three-quarter side view in Kruger National Park, showing a red-brown coat, paler rump and S-shaped horns",
             "caption": "Adult, Mopani region, Kruger National Park, 6 November 2012."
         },
@@ -246,7 +246,7 @@
             "license": "CC BY-NC 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "Adult Lichtenstein's hartebeest walking in side view in southern Kruger National Park, showing the sloping back, long face and S-shaped horns",
             "caption": "Adult, southern Kruger National Park, 21 August 2008."
         },
@@ -262,7 +262,7 @@
             "license": "CC BY-NC 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "Head-on view of an adult Lichtenstein's hartebeest near Pretoriuskop, Kruger National Park, showing the long face and horns that form an incomplete O from the front",
             "caption": "Adult, near Pretoriuskop, Kruger National Park, 14 July 2025."
         },
@@ -278,7 +278,7 @@
             "license": "CC BY-NC 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "A small group of Lichtenstein's hartebeest standing in tall grass in southern Kruger National Park",
             "caption": "A small herd, southern Kruger National Park, 30 March 2022."
         }

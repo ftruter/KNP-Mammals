@@ -205,7 +205,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "mungos-mungo/letaba-h1-6-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -221,7 +221,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "mungos-mungo/letaba-h1-6-alert.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -237,7 +237,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "mungos-mungo/lower-sabie-h4-1-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -253,7 +253,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "mungos-mungo/nkuhlu-foraging.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -269,7 +269,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "mungos-mungo/crocodile-bridge-adult-and-young.jpg",
       "view": "standing-front",
       "age": "mixed",

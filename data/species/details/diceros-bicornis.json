@@ -304,7 +304,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult black rhinoceros browsing, showing the hooked upper lip and two horns, in Kruger National Park",
       "caption": "Adult browsing, showing the hooked lip, Kruger National Park, 20 December 2013."
     },
@@ -320,7 +320,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult black rhinoceros walking in profile in Kruger National Park, showing two horns and a relatively high head carriage",
       "caption": "Adult walking, Kruger National Park, 2 December 2014."
     },
@@ -336,7 +336,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult black rhinoceros lying on sand in Kruger National Park, showing the hooked lip, two horns, and oxpeckers on its back",
       "caption": "Adult lying down, showing the hooked lip, Kruger National Park, 16 February 2011."
     },
@@ -352,7 +352,7 @@
       "license": "CC0",
       "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two adult black rhinoceroses in grass in Kruger National Park, one browsing with its head down",
       "caption": "Two adults, one browsing, Kruger National Park, 2 May 2012."
     }

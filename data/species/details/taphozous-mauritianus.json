@@ -240,7 +240,7 @@
       "season": "any",
       "source": "https://www.inaturalist.org/observations/272146625",
       "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/489602393/large.jpeg",
-      "hosted": false,
+      "hosted": true,
       "author": "jandutoit",
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",

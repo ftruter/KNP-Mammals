@@ -299,7 +299,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Close side view of an adult Burchell's zebra in Kruger National Park, showing the striped face, rounded ear and erect mane",
       "caption": "Adult, Kruger National Park, July 2018."
     },
@@ -315,7 +315,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult Burchell's zebra grazing in side view in Kruger National Park, showing broad body stripes, shadow stripes on the rump and a dark tail tuft",
       "caption": "Adult grazing, Kruger National Park, July 2018."
     },
@@ -331,7 +331,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "An adult Burchell's zebra standing beside a smaller foal in Kruger National Park",
       "caption": "Mare and foal, H10 road south of Tshokwane, Kruger National Park, 24 November 2024."
     },
@@ -347,7 +347,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult Burchell's zebras drinking at a waterhole in Kruger National Park, showing the striped neck, erect mane and legs striped to the hooves",
       "caption": "Adults drinking, S110 road east of Berg-en-Dal, Kruger National Park, 4 December 2024."
     },
@@ -363,7 +363,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A small group of Burchell's zebras standing in tall green grass in Kruger National Park",
       "caption": "Small group, S114 road east of Afsaal, Kruger National Park, 9 April 2024."
     }

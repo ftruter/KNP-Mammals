@@ -330,7 +330,7 @@
           "license": "CC BY-NC-SA 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
           "aiGenerated": false,
-          "hosted": false,
+          "hosted": true,
           "quality": "A",
           "type": "call",
           "place": "Kruger Park, Ehlanzeni District Municipality, Mpumalanga",
@@ -353,7 +353,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult blue wildebeest standing front-on in Kruger National Park, showing the black face, beard and spreading horns",
       "caption": "Adult, H4-2 road north of Crocodile Bridge, Kruger National Park."
     },
@@ -369,7 +369,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult blue wildebeest in side view in Kruger National Park, showing the mane, brindle stripes and long black tail",
       "caption": "Adult walking, S126 road south of Satara, Kruger National Park."
     },
@@ -385,7 +385,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult blue wildebeest with two tawny calves in Kruger National Park",
       "caption": "Females and young, S1 road west of Skukuza, Kruger National Park, January 2019."
     },
@@ -401,7 +401,7 @@
       "license": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A tawny blue wildebeest calf suckling from an adult in Kruger National Park",
       "caption": "Research-grade iNaturalist observation, Old Main Road, Kruger National Park, 17 January 2021. The adult is annotated as a female."
     },
@@ -417,7 +417,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Two adult blue wildebeest grazing heads-down in Kruger National Park",
       "caption": "Adults grazing, H3 road south of Skukuza, Kruger National Park."
     },
@@ -433,7 +433,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Close view of an adult blue wildebeest drinking, showing the black beard and mane",
       "caption": "Adult drinking at Leeupan, H1-2 road south of Tshokwane, Kruger National Park."
     },
@@ -449,7 +449,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A herd of blue wildebeest running across open grassland in Kruger National Park",
       "caption": "Herd running, Tamboti Access Road, Kruger National Park."
     }

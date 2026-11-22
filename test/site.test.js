@@ -180,7 +180,7 @@ test('a researched species page has photographs, facts and credits', async () =>
   )
   assert.match(
     body,
-    /<img draggable="false" src="https:\/\/[^"]+" alt="[^"]+" loading="lazy">/,
+    /<img draggable="false" src="\/images\/[^"]+" alt="[^"]+" loading="lazy">/,
   )
   assert.equal(
     body.match(/<img /g).length - body.match(/loading="lazy"/g).length,

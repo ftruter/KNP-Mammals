@@ -170,7 +170,7 @@
             "license": "CC BY-NC 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "A Temminck's hairy bat hanging in foliage in the Vhembe District Municipality, Limpopo",
             "caption": "An adult hanging in foliage, Vhembe District Municipality, Limpopo, 18 October 2026."
         },
@@ -186,7 +186,7 @@
             "license": "CC BY-SA 4.0",
             "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
             "aiGenerated": false,
-            "hosted": false,
+            "hosted": true,
             "alt": "A group of Temminck's hairy bats roosting on a cave wall in the Langeberg Local Municipality, Western Cape",
             "caption": "A group roosting on a cave wall, Langeberg Local Municipality, Western Cape, 7 February 2025."
         }

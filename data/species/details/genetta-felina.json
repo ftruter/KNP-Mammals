@@ -211,7 +211,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "genetta-felina/kruger-tree.jpg",
       "view": "perched-side",
       "age": "adult",
@@ -227,7 +227,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "genetta-felina/beaufort-west-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -243,7 +243,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "genetta-felina/kai-garib-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -259,7 +259,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "genetta-felina/bushbuckridge-log.jpg",
       "view": "standing-side",
       "age": "adult",

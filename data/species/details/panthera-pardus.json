@@ -311,7 +311,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Leopard walking forwards through grass in Kruger National Park",
       "caption": "Adult, Kruger National Park."
     },
@@ -327,7 +327,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Leopard walking in profile through grass in Kruger National Park",
       "caption": "Adult, Kruger National Park."
     },
@@ -343,7 +343,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Male leopard lying in long grass in the N'wanetsi riverbed, Kruger National Park",
       "caption": "Adult male resting in the N'wanetsi riverbed, Kruger National Park."
     },
@@ -359,7 +359,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Female leopard lying on a tree branch in Kruger National Park",
       "caption": "Adult female in a tree, S114 road north of Malelane, Kruger National Park."
     },
@@ -375,7 +375,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Leopard drinking at a small pool in Kruger National Park",
       "caption": "Adult drinking, Kruger National Park."
     }

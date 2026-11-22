@@ -267,7 +267,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lycaon-pictus/kruger-side.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -283,7 +283,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lycaon-pictus/kruger-front.jpg",
       "view": "standing-front",
       "age": "adult",
@@ -299,7 +299,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lycaon-pictus/kruger-pack.jpg",
       "view": "herd",
       "age": "adult",
@@ -315,7 +315,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lycaon-pictus/kruger-sitting.jpg",
       "view": "standing-side",
       "age": "adult",
@@ -331,7 +331,7 @@
     {
       "season": "any",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "key": "lycaon-pictus/kruger-back.jpg",
       "view": "standing-back",
       "age": "adult",

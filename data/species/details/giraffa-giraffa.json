@@ -291,7 +291,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult giraffe standing in profile in Kruger National Park, showing the long neck, sloping back and dark patches",
       "caption": "Adult, Kruger National Park."
     },
@@ -307,7 +307,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult male giraffe walking away down a dirt road in Kruger National Park, looking back",
       "caption": "Adult male, H10 road north of Lower Sabie, Kruger National Park."
     },
@@ -323,7 +323,7 @@
       "license": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Young giraffe in Kruger National Park, with tousled hair on the ossicones and a shaggy mane",
       "caption": "Young animal, S28 road south of Lower Sabie, Kruger National Park."
     },
@@ -339,7 +339,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "A group of giraffes of mixed size, including a smaller young animal, on a road in Kruger National Park",
       "caption": "Group including young, S106 road east of Orpen, Kruger National Park."
     },
@@ -355,7 +355,7 @@
       "license": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Adult giraffe splay-legged and drinking at a pool in Kruger National Park",
       "caption": "Adult drinking, H1-2 road south of Tshokwane, Kruger National Park."
     }

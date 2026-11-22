@@ -233,7 +233,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Woodland dormouse in the fork of a lichen-covered tree, showing the grey-brown coat, rounded ears and dark eye-ring",
       "caption": "Research-grade iNaturalist observation, Bochum / My Darling, Limpopo, 5 November 2026."
     },
@@ -249,7 +249,7 @@
       "license": "CC BY-NC 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
       "aiGenerated": false,
-      "hosted": false,
+      "hosted": true,
       "alt": "Woodland dormouse crouched in leaf litter, showing grey-brown upperparts, white underparts, a dark eye-ring and a bushy tail",
       "caption": "Research-grade iNaturalist observation, Makhado (Louis Trichardt), Limpopo, 18 November 2024."
     }
