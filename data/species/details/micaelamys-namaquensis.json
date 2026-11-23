@@ -68,6 +68,21 @@
         }
     ],
     "habitat": "The 2016 EWT assessment says the species occupies a wide range of habitats as long as they contain patches of rocky ground. It prefers rocky koppies, outcrops and boulders, but even small rocky knolls, slopes of small stones, or grassy areas with scattered rocks can hold a population, and it is also encountered in woodlands and grasslands away from rocks. It is absent from agricultural monocultures, rockless grasslands, sodic areas and wetlands, and it is commensal with people. A habitat account written specifically for Kruger National Park was not found, and the 2016 assessment does not mention Kruger.",
+    "size": {
+        "headBodyLengthCm": {
+            "min": 8,
+            "max": 14.7
+        },
+        "tailCm": {
+            "min": 10.7,
+            "max": 19.7
+        },
+        "massKg": {
+            "min": 0.033,
+            "max": 0.089
+        },
+        "note": "One source claims a head-and-body length of 8–14.7 cm, a tail of 10.7–19.7 cm and a mass of 33–89 g (0.033–0.089 kg) for Micaelamys namaquensis. Those figures are a published range, not a mean. The 2016 regional assessment treats this name as a species complex; the figures are kept for the name as published and are not a measurement of one lineage. A more accurate figure may be available at this URL: https://ewt.org/wp-content/uploads/2022/11/34.-Namaqua-Rock-Mouse-Micaelamys-namaquensis_LC.pdf"
+    },
     "similar": [
         {
             "slug": "aethomys-chrysophilus",

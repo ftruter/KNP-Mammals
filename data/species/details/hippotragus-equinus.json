@@ -118,8 +118,17 @@
     "trend": "stable",
     "confidence": "medium",
     "asOf": 2024,
-    "notes": "One source claims a current Kruger total of 58 roan (35–41 mature individuals), after a 90% crash in the park's largest subpopulation between 1986 and 1993 and a reported total of 50 in 2012, and describes the Kruger subpopulation as having since stabilised. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf Regional Red List status is Vulnerable, with a declining national trend.",
+    "notes": "One source claims a 2024 Kruger total of 58 roan (35–41 mature individuals), after a 90% crash in the park's largest subpopulation between 1986 and 1993 and a reported total of 50 in 2012, and describes the Kruger subpopulation as having since stabilised. One source claims a 2023 Kruger range of 40–75, and describes the species as rare and slowly increasing. The later figure is stored as the estimate. The two figures are not averaged. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Regional Red List status is Vulnerable, with a declining national trend.",
     "previousEstimates": [
+      {
+        "estimate": {
+          "low": 40,
+          "high": 75
+        },
+        "unit": "individuals",
+        "asOf": 2023,
+        "notes": "Kruger range named for 2023. Not averaged with the 2024 total of 58."
+      },
       {
         "estimate": {
           "low": 50,
@@ -137,6 +146,13 @@
         "publisher": "SANParks Scientific Services",
         "year": 2025,
         "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range of 40–75."
       },
       {
         "title": "Roan Antelope",

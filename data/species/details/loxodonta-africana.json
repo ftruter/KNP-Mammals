@@ -107,15 +107,24 @@
   "habitat": "Uses a wide range of woodland, bushveld, grassland and riverine country. In South Africa it occurs in Lowveld bushveld and similar habitats, and major river systems are important for its distribution. In Kruger it is often seen in wooded savanna and along rivers and dry riverbeds, and it stays within reach of drinking water.",
   "population": {
     "estimate": {
-      "low": 26401,
+      "low": 27260,
       "high": 33198
     },
     "unit": "individuals",
     "trend": "increasing",
     "confidence": "medium",
     "asOf": 2024,
-    "notes": "One source claims a Kruger estimate of 31,324 elephants (Ferreira et al. 2024), of which 13,382 are inferred to be mature, and that surveys from 2020 to 2024 reported confidence intervals of 26,401–33,198, a fluctuating population of about 30,000. The same source reports that the national population, driven largely by Kruger, grew at about 5.5% a year from 1991 to 2020. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. An earlier figure of 17,086 elephants in Kruger in 2016, from the African Elephant Specialist Group, is kept here as a previous estimate. Regional Red List status is Least Concern, with a stable regional trend.",
+    "notes": "One source claims a 2024 Kruger population of 27,260–33,198 elephants, and describes the trend as increasing. One source claims a Kruger estimate of 31,324 elephants (Ferreira et al. 2024), of which 13,382 are inferred to be mature, and that surveys from 2020 to 2024 reported confidence intervals of 26,401–33,198, a fluctuating population of about 30,000. The two ranges are both kept and are not averaged. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. The same source reports that the national population, driven largely by Kruger, grew at about 5.5% a year from 1991 to 2020. An earlier figure of 17,086 elephants in Kruger in 2016, from the African Elephant Specialist Group, is kept here as a previous estimate. Regional Red List status is Least Concern, with a stable regional trend.",
     "previousEstimates": [
+      {
+        "estimate": {
+          "low": 26401,
+          "high": 33198
+        },
+        "unit": "individuals",
+        "asOf": 2024,
+        "notes": "Interval cited on the EWT African Savanna Elephant page for surveys from 2020 to 2024. Not averaged with the 2024 survey range of 27,260–33,198."
+      },
       {
         "estimate": {
           "low": 17086,
@@ -133,6 +142,13 @@
         "publisher": "SANParks Scientific Services",
         "year": 2025,
         "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2024 range."
       },
       {
         "title": "African Savanna Elephant",

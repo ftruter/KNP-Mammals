@@ -113,7 +113,12 @@
     }
   ],
   "habitat": "Most abundant in savanna riparian or riverine woodland, where fruiting trees and cover follow the watercourses. It also uses open woodland, savanna and coastal scrub, and is generally absent from desert and deep forest. It must drink daily and needs trees for food and cover. A Kruger-specific habitat account was not found; the species is a common resident of the park.",
-  "similar": [],
+  "similar": [
+    {
+      "slug": "papio-ursinus",
+      "note": "This monkey has a black face framed by a white fringe of hair, and adult males have a turquoise-blue scrotum. The chacma baboon is much larger, with a long downward-sloping muzzle, dark facial skin and a bent tail."
+    }
+  ],
   "population": {
     "estimate": {
       "low": null,
