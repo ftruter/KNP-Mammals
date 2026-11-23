@@ -470,7 +470,6 @@ test('a missing page still publishes a title, description, and format links', as
 test('routes that are not built yet are not found', async () => {
   const pending = [
     ['/credits', '#31'],
-    ['/search', '#32'],
     ['/sitemap', '#33'],
     ['/sitemap.xml', '#33'],
     ['/robots.txt', '#33'],
