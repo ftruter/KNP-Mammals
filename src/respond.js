@@ -48,11 +48,12 @@ export const pageResponse = ({
   path,
   origin,
   contentType,
+  search = '',
 }) => {
   const headers = baseHeaders(format, cache)
   if (contentType) headers.set('content-type', contentType)
   if (format === 'html' || format === 'md' || format === 'json') {
-    const alts = path && origin ? alternates(path) : null
+    const alts = path && origin ? alternates(path, search) : null
     const pageLinks = alts
       ? [
           `<${origin}${alts.html}>; rel="canonical"`,

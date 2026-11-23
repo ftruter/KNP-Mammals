@@ -12,11 +12,32 @@ export const ICON_PATHS = [
   '/icon-maskable-512.png',
 ]
 
-/** The three views of one page: HTML, Markdown and the stored JSON. */
-export const alternates = (pathname) =>
+export const SEARCH_PATH = '/search'
+export const SEARCH_MAX = 200
+
+/** Trims, collapses whitespace and caps a search query from the URL. */
+export const searchQuery = (raw) =>
+  String(raw ?? '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, SEARCH_MAX)
+    .trim()
+
+export const searchSuffix = (query) =>
+  query ? `?${new URLSearchParams({ q: query })}` : ''
+
+/**
+ * The three views of one page: HTML, Markdown and the stored JSON.
+ * `suffix` keeps a search query on the canonical and alternate links.
+ */
+export const alternates = (pathname, suffix = '') =>
   pathname === '/'
     ? { html: '/', md: '/.md', json: '/.json' }
-    : { html: pathname, md: `${pathname}.md`, json: `${pathname}.json` }
+    : {
+        html: `${pathname}${suffix}`,
+        md: `${pathname}.md${suffix}`,
+        json: `${pathname}.json${suffix}`,
+      }
 
 const splitFormat = (rawPath) => {
   for (const format of ['md', 'json']) {
@@ -130,6 +151,17 @@ export const parseUrl = (url) => {
   if (pathname === '/species')
     return { kind: 'species-list', format, pathname, key: 'index/species' }
   if (pathname === '/ask-ai') return { kind: 'ask-ai', format, pathname }
+  if (pathname === '/facts')
+    return { kind: 'facts', format, pathname, key: 'index/facts' }
+  if (pathname === '/credits')
+    return { kind: 'credits', format, pathname, key: 'index/credits' }
+  if (pathname === SEARCH_PATH)
+    return {
+      kind: 'search',
+      format,
+      pathname,
+      query: searchQuery(url.searchParams.get('q')),
+    }
 
   const [, section, slug, ...rest] = pathname.split('/')
   if (rest.length > 0 || !slug || !SLUG.test(slug))

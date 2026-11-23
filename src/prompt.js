@@ -27,7 +27,7 @@ export const ASK_AI_EXPECT = [
   'It answers from this guide first and links the pages it used. Where the guide has no answer, it says plainly that the answer is not from the guide.',
   'A missing fact stays null. The AI does not invent a number, a month, a measurement, a place, or an Afrikaans name.',
   'A population is a stored range with its year and its citation, or the guide has no figure.',
-  'It does not name a camp, a road, or a waterhole.',
+  'It gives a place only as precisely as the guide stores it. Rhinos and the pangolin are placed only as Kruger National Park.',
   'An AI can be wrong. Follow its links to check anything that matters.',
 ]
 
@@ -45,7 +45,7 @@ const promptText = (
 
 First open ${origin}/.md and follow what it says. It is an open field guide to Kruger's mammals.
 
-To look something up, use the full lists. Open ${origin}/species.md for every species, ${origin}/families.md for every family, and ${origin}/orders.md for every order. Then open the species, family or order pages they link to.
+To look something up, use the full lists. Open ${origin}/species.md for every species, ${origin}/families.md for every family, and ${origin}/orders.md for every order. Then open the species, family or order pages they link to. To find an animal by name, open ${origin}/search.md?q= followed by the name.
 
 Answer from the guide first and link the pages you used. If the guide does not cover something, say plainly which parts are not from the guide before you add anything else you know.
 
@@ -56,7 +56,7 @@ Follow these rules. They are the guide's rules:
 - Population figures are given only when estimate.low and estimate.high are stored, as a range with the year and the citation. Both null means no figure.
 - Do not copy or host SANParks or EWT PDFs. A citation may name the title and the URL.
 - Displayed media may be CC0, CC BY, CC BY-SA, CC BY-NC, or CC BY-NC-SA only. ND and all-rights-reserved files are not shown.
-- A Kruger caption does not name a camp, a road, or a waterhole. Black rhino, white rhino, and Temminck's pangolin captions name the place only as "Kruger National Park". Juliana's golden mole is placed only as "southwestern Kruger National Park".
+- A caption keeps the place stored with the photograph, as precisely as it was recorded (a camp, road or waterhole included). The exceptions: Black rhino, white rhino, and Temminck's pangolin captions name the place only as "Kruger National Park". Juliana's golden mole is placed only as "southwestern Kruger National Park".
 - Species documents nest the researched account under details. Empty details means the account is not published. gaps is the list of what was not found.
 
 If you cannot open web pages, tell me now so I can turn on web browsing.
@@ -76,7 +76,7 @@ A reader may have pasted the prompt from ${origin}${ASK_AI_PATH} and be asking y
 - A missing fact stays null. Do not infer a number, a month, a measurement, or a place.
 - Do not copy or host SANParks or EWT PDFs. A citation may name the title and the URL.
 - Displayed media may be CC0, CC BY, CC BY-SA, CC BY-NC, or CC BY-NC-SA only. ND and all-rights-reserved files are not shown.
-- Do not name a camp, a road, or a waterhole. Black rhino, white rhino, and Temminck's pangolin are placed only as "Kruger National Park". Juliana's golden mole is placed only as "southwestern Kruger National Park".
+- Give a place only as precisely as the guide stores it. Black rhino, white rhino, and Temminck's pangolin are placed only as "Kruger National Park". Juliana's golden mole is placed only as "southwestern Kruger National Park".
 - Empty details means the account is not published. gaps lists what was not found.
 - If the guide does not hold the answer, say plainly that it is not from this guide.
 - Link the pages you used.`

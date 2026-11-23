@@ -19,7 +19,7 @@ The list follows the 2011 SANParks checklist for the park. Species with no Kruge
 - Population figures are given only when estimate.low and estimate.high are stored, as a range with the year and the citation. Both null means no figure.
 - Do not copy or host SANParks or EWT PDFs. A citation may name the title and the URL.
 - Displayed media may be CC0, CC BY, CC BY-SA, CC BY-NC, or CC BY-NC-SA only. ND and all-rights-reserved files are not shown.
-- A Kruger caption does not name a camp, a road, or a waterhole. Black rhino, white rhino, and Temminck's pangolin captions name the place only as "Kruger National Park". Juliana's golden mole is placed only as "southwestern Kruger National Park".
+- A caption keeps the place stored with the photograph, as precisely as it was recorded (a camp, road or waterhole included). The exceptions: Black rhino, white rhino, and Temminck's pangolin captions name the place only as "Kruger National Park". Juliana's golden mole is placed only as "southwestern Kruger National Park".
 - Species documents nest the researched account under details. Empty details means the account is not published. gaps is the list of what was not found.
 
 ## URL scheme
@@ -40,6 +40,9 @@ The file extension selects the format.
 | ${origin}/species | Every species |
 | ${origin}/species/<slug> | One species. The slug is the scientific name in lower case, with hyphens |
 | ${origin}/ask-ai | A prompt a person pastes into their own chat AI. Also ${origin}/ask-ai.md and ${origin}/ask-ai.json, whose prompt field is the text. The page does not call a model |
+| ${origin}/facts | One row per species: size, mass, Kruger status, conservation status and population, as stored. Empty means not recorded |
+| ${origin}/credits | Data sources, taxonomy, and the credit and licence on every photograph, recording and cited source |
+| ${origin}/search?q=<name> | Finds species and families by stored English, Afrikaans or scientific name. Also ${origin}/search.md?q=<name> and ${origin}/search.json?q=<name> |
 | ${origin}/llms.txt | This file |
 | ${origin}/.well-known/ard.json | Agentic Resource Discovery manifest, [ARD v0.91](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md) |
 | ${origin}/.well-known/ai-catalog.json | Predecessor catalog. Same entries as the manifest |
@@ -60,7 +63,7 @@ Give a population figure only when details.population.estimate.low and details.p
 
 af is the stored Afrikaans name, or null. Do not invent one. For a species, a stored Afrikaans name comes from the 2011 checklist.
 
-images and calls carry author, license and source. Show a file only when its licence is one of the licences in the rules above. A caption on a Kruger photograph does not add a camp, a road or a waterhole, including for the four species named in the rules.
+images and calls carry author, license and source. Show a file only when its licence is one of the licences in the rules above. A caption gives the place as stored. Do not make it more precise than the stored text, and keep the four species named in the rules at the park-level place given there.
 
 ## Indexes
 
@@ -74,5 +77,6 @@ index/species, served at ${origin}/species.json, is a species array. Each row ha
 - [Orders, Markdown](${origin}/orders.md)
 - [Families, Markdown](${origin}/families.md)
 - [Species, Markdown](${origin}/species.md)
+- [Search by name, Markdown](${origin}/search.md?q=lion)
 - [Prompt for a reader's own chat AI, Markdown](${origin}/ask-ai.md)
 `

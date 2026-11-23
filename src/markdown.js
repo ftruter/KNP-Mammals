@@ -26,6 +26,12 @@ import {
   aiPrompt,
 } from './prompt.js'
 import {
+  FACTS_COLUMNS,
+  FACTS_INTRO,
+  coverageSentence,
+  factsTableRows,
+} from './facts.js'
+import {
   FAMILY_COLUMNS,
   FAMILY_SPECIES_COLUMNS,
   ORDER_COLUMNS,
@@ -53,6 +59,9 @@ ${ABOUT}
 - [Orders](/orders.md): ${doc.counts.orders}
 - [Families](/families.md): ${doc.counts.families}
 - [Species](/species.md): ${doc.counts.species}
+- [Facts](/facts.md): ${doc.counts.species}
+- [Credits](/credits.md)
+- [Search](/search.md): add \`?q=\` and a name, for example [/search.md?q=lion](/search.md?q=lion)
 
 Every page has a \`.md\` and a \`.json\` view at the same address.
 
@@ -126,6 +135,21 @@ export const speciesListMarkdown = (doc) => `# Species
 ${tableMarkdown({ columns: SPECIES_COLUMNS, rows: doc.species, empty: 'No species are listed.' })}
 
 The population is the approximate number in Kruger, where an estimate is recorded. ${SORT_NOTE}
+`
+
+export const factsMarkdown = (doc) => `# Facts
+
+${FACTS_INTRO}
+
+${coverageSentence(doc)}
+
+${tableMarkdown({
+  columns: FACTS_COLUMNS,
+  rows: factsTableRows(doc),
+  empty: 'No species are listed.',
+})}
+
+${SORT_NOTE}
 `
 
 export const familyMarkdown = (doc) => {
@@ -278,6 +302,198 @@ export const speciesMarkdown = (doc) => `# ${one(doc.en)}
 - Order: ${orderLink(doc)}
 
 ${doc.details ? publishedSpecies(doc, doc.details) : unpublishedSpecies(doc)}`
+
+const countPhrase = (count, singular, plural) =>
+  `${count} ${count === 1 ? singular : plural}`
+
+const imageCountPhrase = (images) => {
+  const ai = images.filter((image) => image?.aiGenerated === true).length
+  const photos = images.length - ai
+  const parts = []
+  if (photos) parts.push(countPhrase(photos, 'photograph', 'photographs'))
+  if (ai)
+    parts.push(
+      countPhrase(
+        ai,
+        'AI-generated illustration',
+        'AI-generated illustrations',
+      ),
+    )
+  return parts.length ? parts.join(' and ') : '0 photographs'
+}
+
+const mdLink = (url, label) => {
+  const href = safeHttpUrl(url)
+  return href ? `[${one(label)}](${href})` : one(label)
+}
+
+const mdLicence = (item, missing) => {
+  const name = typeof item?.licence === 'string' ? item.licence.trim() : ''
+  const href = safeHttpUrl(item?.licenceUrl)
+  if (!name && !href) return missing
+  return `Licence: ${href ? mdLink(href, name || 'Licence terms') : one(name)}.`
+}
+
+const mdSource = (value) => {
+  const text = typeof value === 'string' ? value.trim() : ''
+  const href = safeHttpUrl(text)
+  if (!text) return 'Source not recorded.'
+  if (!href) return `Source: ${one(text)}.`
+  return `Source: ${mdLink(href, href)}.`
+}
+
+const MD_CALL = {
+  call: 'Call',
+  alarm: 'Alarm',
+  contact: 'Contact',
+  other: 'Other',
+}
+
+const mdCreditLine = (item, kind) => {
+  const ai =
+    item?.aiGenerated === true
+      ? `${kind === 'recording' ? 'AI-generated recording' : 'AI-generated image'}. `
+      : ''
+  const author = item?.author
+    ? `Author: ${one(item.author)}. `
+    : 'Author not recorded. '
+  const callType =
+    typeof item?.callType === 'string' && item.callType.trim()
+      ? `${one(MD_CALL[item.callType.trim()] || item.callType.trim())}. `
+      : ''
+  const quality =
+    typeof item?.quality === 'string' && item.quality.trim()
+      ? ` Quality ${one(item.quality.trim())}.`
+      : ''
+  return `${callType}${ai}${author}${mdLicence(item, 'Licence not recorded.')} ${mdSource(item?.sourceUrl)}${quality}`
+}
+
+const mdCitation = (source) =>
+  [
+    mdLink(source?.url, source?.title || 'Untitled source'),
+    source?.publisher ? one(source.publisher) : '',
+    source?.year != null ? String(source.year) : '',
+  ]
+    .filter(Boolean)
+    .join('. ')
+
+const mdCreditList = (items, heading, kind) =>
+  !items.length
+    ? ''
+    : `#### ${heading}
+
+${items
+  .map(
+    (item) =>
+      `- ${kind === 'source' ? mdCitation(item) : mdCreditLine(item, kind)}`,
+  )
+  .join('\n')}`
+
+const mdDataSource = (source) => {
+  const links = listed(source?.links)
+    .map((link) =>
+      safeHttpUrl(link?.url) ? mdLink(link.url, link.label || link.url) : '',
+    )
+    .filter(Boolean)
+  const lines = [
+    `- ${mdLink(source?.url, source?.name || 'Untitled source')}`,
+    '',
+    `  ${one(source?.usedFor || '')}`,
+  ]
+  if (links.length) lines.push('', `  Also: ${links.join('. ')}.`)
+  lines.push('', `  ${mdLicence(source, 'Licence not recorded.')}`)
+  return lines.join('\n')
+}
+
+const mdSpeciesCredit = (group) =>
+  `### [${one(group.commonName || group.scientificName)}](/species/${group.slug}.md) (_${one(group.scientificName || '')}_)
+
+${mdCreditList(listed(group.images), 'Photographs', 'image')}
+${mdCreditList(listed(group.recordings), 'Recordings', 'recording')}
+${mdCreditList(listed(group.sources), 'Sources', 'source')}`
+
+const mdSite = (site) => {
+  if (!site) return ''
+  const handle = typeof site.maintainer === 'string' ? site.maintainer : ''
+  const maintainer = /^[A-Za-z0-9-]+$/.test(handle)
+    ? `[${handle}](https://github.com/${handle})`
+    : one(handle)
+  return `## This site
+
+The code is at ${mdLink(site.repository, site.repository || '')}. ${mdLicence(site, 'Licence not recorded.')}
+
+Built and maintained by ${maintainer}.
+
+${one(site.palette || '')}
+
+${one(site.affiliation || '')}`
+}
+
+export const creditsMarkdown = (doc) => {
+  const sources = listed(doc?.dataSources)
+  const groups = listed(doc?.species)
+  const images = groups.flatMap((group) => listed(group.images))
+  const recordings = groups.flatMap((group) => listed(group.recordings))
+  const note =
+    doc?.mediaNote ||
+    (groups.length ? '' : 'No photos or recordings have been added so far.')
+  return `# Credits
+
+Checklists and references used for the family and species lists, the taxonomy those names follow, and credit for every photograph, recording and cited source.
+
+This page lists ${imageCountPhrase(images)}, ${countPhrase(recordings.length, 'recording', 'recordings')}, and ${countPhrase(groups.length, 'species section', 'species sections')}.
+
+## Data sources
+
+${sources.length ? sources.map(mdDataSource).join('\n\n') : 'No data sources are recorded.'}
+
+## Taxonomy
+
+**${one(doc?.taxonomy?.authority || '')}.** ${one(doc?.taxonomy?.summary || '')}
+
+## Photographs and recordings and cited sources
+
+${note}
+
+${groups.map(mdSpeciesCredit).join('\n\n')}
+
+${mdSite(doc?.site)}
+`
+}
+
+const mdQuery = (query) => inlineText(query).replace(/[\\`*_[\]<>#|]/g, '\\$&')
+
+const searchHit = (result) => {
+  const path = new URL(result.pages.html).pathname
+  const title = one(result.englishName || result.scientificName)
+  const names = [
+    result.scientificName ? `*${one(result.scientificName)}*` : '',
+    result.afrikaansName ? one(result.afrikaansName) : '',
+  ]
+    .filter(Boolean)
+    .join(' · ')
+  const kind = result.kind === 'family' ? 'Family' : 'Species'
+  return `- ${kind}: [${title}](${path}.md)${names ? ` — ${names}` : ''}`
+}
+
+export const searchMarkdown = ({ query, found }) => {
+  const shown = mdQuery(query)
+  let body
+  if (!query) {
+    body =
+      'Add `?q=` to search by an English, Afrikaans or Latin name, or a family, for example [/search.md?q=lion](/search.md?q=lion).'
+  } else if (!found || found.total === 0) {
+    body = `## 0 results for “${shown}”\n\nNo mammal matched “${shown}”. Browse the [species](/species.md) and [families](/families.md).`
+  } else {
+    const more =
+      found.total > found.results.length
+        ? `\n\nShowing the first ${found.results.length}.`
+        : ''
+    const count = `${found.total} ${found.total === 1 ? 'result' : 'results'}`
+    body = `## ${count} for “${shown}”${more}\n\n${found.results.map(searchHit).join('\n')}`
+  }
+  return `# Search\n\n${body}\n`
+}
 
 export const notFoundMarkdown = () => `# Not found
 

@@ -113,10 +113,7 @@ test('llms.txt states the mammal rules and only real routes', async () => {
     assert.ok(body.includes(phrase), phrase)
   for (const absent of [
     '/identify/photo',
-    '/facts',
     '/mcp',
-    '/search',
-    '/credits',
     '/sitemap',
     '/vocab/colours',
     'microphone',
@@ -280,8 +277,8 @@ test('ask-ai prints one prompt and does not call a model', async () => {
   assert.match(prompt, /Kruger National Park/)
   assert.match(prompt, /not from the guide/)
   assert.match(prompt, /estimate\.low/)
-  assert.match(prompt, /waterhole/)
-  assert.doesNotMatch(prompt, /\/search/)
+  assert.match(prompt, /southwestern Kruger National Park/)
+  assert.match(prompt, /\/search\.md\?q=/)
   assert.doesNotMatch(prompt, /\/mcp/)
   assert.doesNotMatch(prompt, /(^|\s)\/[a-z]/m)
   for (const example of ASK_AI_EXAMPLES)
@@ -334,7 +331,6 @@ test('the home page, footer and head advertise the guide', async () => {
   assert.ok(markdown.includes(`${origin}/species.md`))
   assert.ok(markdown.includes(`${origin}/families.md`))
   assert.ok(markdown.includes(`${origin}/orders.md`))
-  assert.doesNotMatch(markdown, /\/search/)
   assert.doesNotMatch(markdown, /\/mcp/)
 })
 

@@ -57,13 +57,13 @@ The catalog has four entries, and only these:
 
 ## Prompt
 
-`/ask-ai` tells the reader's own chat AI to open the home page as Markdown and follow it, then to use `/species.md`, `/families.md` and `/orders.md`. Every URL in the prompt is absolute. The prompt repeats the guide's rules: a missing fact stays null, Afrikaans names are only those already stored, a population is a stored range with its year and citation, SANParks and EWT PDFs are cited and not copied, displayed media is CC0, CC BY, CC BY-SA, CC BY-NC or CC BY-NC-SA, and a caption does not name a camp, a road or a waterhole.
+`/ask-ai` tells the reader's own chat AI to open the home page as Markdown and follow it, then to use `/species.md`, `/families.md` and `/orders.md`. Every URL in the prompt is absolute. The prompt repeats the guide's rules: a missing fact stays null, Afrikaans names are only those already stored, a population is a stored range with its year and citation, SANParks and EWT PDFs are cited and not copied, displayed media is CC0, CC BY, CC BY-SA, CC BY-NC or CC BY-NC-SA, and a caption keeps the place as stored, except that rhinos and the pangolin are placed only as Kruger National Park and Juliana's golden mole only as southwestern Kruger National Park.
 
 The home Markdown has an "Answering questions from this guide" section with the same limits. Markdown bodies pass through `absoluteLinks`, so a root-relative link target is written out in full.
 
 The Copy button is rendered `hidden`. `bindCopy` in `src/client/app.js` shows it only when the clipboard can be written. With JavaScript off, the page says to select the text.
 
-The prompt does not mention `/search` or `/mcp`. Those routes are not served. Search is a separate piece of work. An MCP server needs its own yes and is not part of this batch.
+The prompt points at `/search.md?q=` for finding an animal by name (#32). It does not mention `/mcp`, which is not served. An MCP server needs its own yes and is not part of this batch.
 
 ## Not built here
 

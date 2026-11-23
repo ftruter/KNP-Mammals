@@ -343,8 +343,8 @@
     {
       "key": "diceros-bicornis/kruger-pair.jpg",
       "view": "herd",
-      "age": "adult",
-      "sex": "any",
+      "age": "mixed",
+      "sex": "mixed",
       "season": "any",
       "source": "https://www.inaturalist.org/observations/10837924",
       "fileUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/15192254/large.jpg",
@@ -353,8 +353,8 @@
       "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "aiGenerated": false,
       "hosted": true,
-      "alt": "Two adult black rhinoceroses in grass in Kruger National Park, one browsing with its head down",
-      "caption": "Two adults, one browsing, Kruger National Park, 2 May 2012."
+      "alt": "Adult black rhinoceros browsing in grass with a calf behind it, Kruger National Park",
+      "caption": "Adult with calf, the adult browsing, Kruger National Park, 2 May 2012."
     }
   ],
   "sources": [
