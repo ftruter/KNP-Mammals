@@ -44,6 +44,7 @@ ${ABOUT}
 - [Orders](/orders.md): ${doc.counts.orders}
 - [Families](/families.md): ${doc.counts.families}
 - [Species](/species.md): ${doc.counts.species}
+- [Search](/search.md): add \`?q=\` and a name, for example [/search.md?q=lion](/search.md?q=lion)
 
 Every page has a \`.md\` and a \`.json\` view at the same address.
 `
@@ -237,6 +238,40 @@ export const speciesMarkdown = (doc) => `# ${one(doc.en)}
 - Order: ${orderLink(doc)}
 
 ${doc.details ? publishedSpecies(doc, doc.details) : unpublishedSpecies(doc)}`
+
+const mdQuery = (query) => inlineText(query).replace(/[\\`*_[\]<>#|]/g, '\\$&')
+
+const searchHit = (result) => {
+  const path = new URL(result.pages.html).pathname
+  const title = one(result.englishName || result.scientificName)
+  const names = [
+    result.scientificName ? `*${one(result.scientificName)}*` : '',
+    result.afrikaansName ? one(result.afrikaansName) : '',
+  ]
+    .filter(Boolean)
+    .join(' · ')
+  const kind = result.kind === 'family' ? 'Family' : 'Species'
+  return `- ${kind}: [${title}](${path}.md)${names ? ` — ${names}` : ''}`
+}
+
+export const searchMarkdown = ({ query, found }) => {
+  const shown = mdQuery(query)
+  let body
+  if (!query) {
+    body =
+      'Add `?q=` to search by an English, Afrikaans or Latin name, or a family, for example [/search.md?q=lion](/search.md?q=lion).'
+  } else if (!found || found.total === 0) {
+    body = `## 0 results for “${shown}”\n\nNo mammal matched “${shown}”. Browse the [species](/species.md) and [families](/families.md).`
+  } else {
+    const more =
+      found.total > found.results.length
+        ? `\n\nShowing the first ${found.results.length}.`
+        : ''
+    const count = `${found.total} ${found.total === 1 ? 'result' : 'results'}`
+    body = `## ${count} for “${shown}”${more}\n\n${found.results.map(searchHit).join('\n')}`
+  }
+  return `# Search\n\n${body}\n`
+}
 
 export const notFoundMarkdown = () => `# Not found
 
