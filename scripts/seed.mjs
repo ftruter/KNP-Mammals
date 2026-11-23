@@ -16,6 +16,8 @@
  *                                        Its similar, predators and prey
  *                                        gain names and `listed`. Its Kruger
  *                                        estimate is copied to the list rows.
+ *                                        index/facts is one row per species
+ *                                        from the same details.
  *   the species list and those details → index/credits
  *
  * Only the `species` list is published. `candidates` and `excluded` stay in
@@ -28,6 +30,7 @@
 import { readdir, readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { buildFacts } from '../src/facts.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
@@ -440,6 +443,7 @@ export const deriveDocuments = ({ families, list, details = new Map() }) => {
     families: familyIndex,
   })
   documents.set('index/species', { species: speciesIndex })
+  documents.set('index/facts', buildFacts(speciesIndex, details))
   documents.set('index/credits', deriveCredits(list.species, details))
   return documents
 }

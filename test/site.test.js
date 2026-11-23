@@ -2,6 +2,7 @@ import assert from 'node:assert/strict'
 import { test } from 'node:test'
 import { collectEntries, mediaCredit } from '../scripts/seed.mjs'
 import { NO_STORE, PAGE_CACHE } from '../src/cache.js'
+import { coverageSentence, factsCoverage } from '../src/facts.js'
 import { escapeHtml, inlineText } from '../src/escape.js'
 import { parseUrl } from '../src/route.js'
 import { handleRequest } from '../src/worker.js'
@@ -90,6 +91,11 @@ test('routes map to KV keys and formats', () => {
   assert.equal(route('/families.md').kind, 'families')
   assert.equal(route('/app.js').kind, 'script')
   assert.equal(route('/species.json').key, 'index/species')
+  assert.equal(route('/facts').key, 'index/facts')
+  assert.equal(route('/facts.md').format, 'md')
+  assert.equal(route('/facts.json').key, 'index/facts')
+  assert.equal(route('/facts/').location, '/facts')
+  assert.equal(route('/vocab/colours').kind, 'not-found')
   assert.equal(route('/family/bovidae').key, 'family/bovidae')
   assert.equal(route('/orders').key, 'index/families')
   assert.equal(route('/order/carnivora.json').key, 'order/carnivora')
@@ -111,6 +117,11 @@ test('home links to the lists and has three formats', async () => {
   const body = await html.text()
   const index = JSON.parse(store.get('index/families'))
   assert.match(body, /<a href="\/families">Families<\/a> <span>39<\/span>/)
+  assert.match(body, /<a href="\/facts">Facts<\/a> <span>143<\/span>/)
+  assert.match(
+    body,
+    /<footer class="site-footer">[\s\S]*<a href="\/facts">Facts<\/a>/,
+  )
   assert.match(
     body,
     /<script type="module" defer src="\/app\.js\?v=[0-9a-f]+">/,
@@ -118,7 +129,9 @@ test('home links to the lists and has three formats', async () => {
 
   const md = await get('/.md')
   assert.match(md.headers.get('content-type'), /^text\/markdown/)
-  assert.match(await md.text(), /\(\/families\.md\)/)
+  const markdown = await md.text()
+  assert.match(markdown, /\(\/families\.md\)/)
+  assert.match(markdown, /\[Facts\]\(\/facts\.md\): 143/)
 
   const json = await get('/.json')
   assert.deepEqual(await json.json(), index)
@@ -577,6 +590,213 @@ test('pages are not stored while a KV read may be stale', async () => {
   assert.equal(later.headers.get('cache-control'), PAGE_CACHE)
 })
 
+const rowCells = (body, latin) => {
+  const row = body.match(new RegExp(`<tr data-latin="${latin}">(.*?)</tr>`))
+  assert.ok(row, latin)
+  return [...row[1].matchAll(/<t[hd][^>]*>(.*?)<\/t[hd]>/g)].map((cell) =>
+    cell[1].replace(/<[^>]+>/g, ''),
+  )
+}
+
+test('the facts table lists stored measurements and leaves gaps blank', async () => {
+  assert.equal((await get('/facts')).status, 200)
+  assert.equal((await get('/facts.md')).status, 200)
+  assert.equal((await get('/facts.json')).status, 200)
+  assert.equal((await get('/vocab/colours')).status, 404)
+
+  const doc = JSON.parse(store.get('index/facts'))
+  assert.equal(doc.kind, 'facts')
+  assert.equal(
+    doc.note,
+    'One row per species. null means this guide does not record the fact.',
+  )
+  assert.equal(doc.species.length, 143)
+  assert.deepEqual(factsCoverage(doc), {
+    species: 143,
+    status: 122,
+    shoulder: 36,
+    headBody: 73,
+    tail: 65,
+    length: 15,
+    mass: 99,
+    conservation: 143,
+    population: 21,
+    sized: 108,
+    unsized: 35,
+  })
+  assert.deepEqual(await (await get('/facts.json')).json(), doc)
+
+  const masses = doc.species.map((species) => species.massKg).filter(Boolean)
+  assert.equal(masses.filter((mass) => Number.isFinite(mass.min)).length, 72)
+  assert.equal(masses.filter((mass) => mass.male || mass.female).length, 27)
+
+  const wildebeest = doc.species.find(
+    (species) => species.slug === 'connochaetes-taurinus',
+  )
+  assert.equal(wildebeest.familyEn, 'Antelopes and buffaloes')
+  assert.equal(wildebeest.af, 'Blouwildebees')
+  assert.equal(wildebeest.status, 'resident')
+  assert.deepEqual(wildebeest.shoulderHeightCm, { min: 115, max: 145 })
+  assert.equal(wildebeest.lengthCm, null)
+  assert.deepEqual(wildebeest.massKg, {
+    male: { min: 165, max: 290 },
+    female: { min: 140, max: 260 },
+  })
+  assert.equal(wildebeest.conservationStatus.status, 'Least Concern')
+  assert.equal(wildebeest.conservationStatus.asOf, 2016)
+  assert.equal(
+    wildebeest.conservationStatus.scope,
+    'IUCN global, and the 2016 regional Red List for South Africa, Eswatini and Lesotho',
+  )
+  assert.equal(wildebeest.conservationStatus.sources, undefined)
+  assert.deepEqual(wildebeest.population, { low: 16700, high: 21948 })
+
+  const shrew = doc.species.find(
+    (species) => species.slug === 'crocidura-cyanea',
+  )
+  assert.equal(shrew.status, null)
+  assert.equal(shrew.shoulderHeightCm, null)
+  assert.equal(shrew.headBodyLengthCm, null)
+  assert.equal(shrew.tailCm, null)
+  assert.equal(shrew.lengthCm, null)
+  assert.equal(shrew.massKg, null)
+  assert.equal(shrew.population, null)
+
+  const bat = doc.species.find(
+    (species) => species.slug === 'miniopterus-natalensis',
+  )
+  assert.equal(bat.massKg, null)
+  assert.equal(bat.headBodyLengthCm, null)
+  assert.equal(bat.tailCm, null)
+
+  const body = await (await get('/facts')).text()
+  assert.match(
+    body,
+    /An em dash means this guide does not record the fact\. It does not mean zero\./,
+  )
+  assert.ok(body.includes(coverageSentence(doc)))
+  assert.equal(body.match(/<tr data-latin="/g).length, 143)
+  const nav = body.match(/<nav aria-label="Site">[\s\S]*?<\/nav>/)[0]
+  assert.ok(!nav.includes('/facts'))
+  assert.deepEqual(rowCells(body, 'Connochaetes taurinus'), [
+    'Blue wildebeest',
+    'Blouwildebees',
+    'Antelopes and buffaloes',
+    'Resident',
+    '115–145',
+    '170–240',
+    '60–100',
+    '—',
+    'males 165–290, females 140–260',
+    'Least Concern',
+    '16,700–21,948',
+  ])
+  assert.equal(
+    rowCells(body, 'Panthera pardus')[4],
+    'males 60–70, females 57–64',
+  )
+  assert.deepEqual(rowCells(body, 'Crocidura cyanea').slice(3, 9), [
+    '—',
+    '—',
+    '—',
+    '—',
+    '—',
+    '—',
+  ])
+  assert.equal(rowCells(body, 'Crocidura cyanea')[10], '—')
+  const batCells = rowCells(body, bat.scientificName)
+  assert.equal(batCells[8], '—')
+  assert.ok(!batCells.includes('0–0'))
+
+  const english = column(body, 0)
+  assert.deepEqual(
+    english,
+    english
+      .slice()
+      .sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' })),
+  )
+
+  for (const dir of ['asc', 'desc']) {
+    const sorted = await (await get(`/facts?sort=mass&dir=${dir}`)).text()
+    const massCells = column(sorted, 8)
+    const firstBlank = massCells.indexOf('—')
+    assert.ok(firstBlank > 0, dir)
+    assert.ok(
+      massCells.slice(firstBlank).every((cell) => cell === '—'),
+      dir,
+    )
+    assert.equal(
+      column(sorted, 0)[0],
+      dir === 'desc' ? 'Elephant' : 'Banana bat',
+    )
+    const mark = dir === 'desc' ? 'asc' : 'desc'
+    assert.match(
+      sorted,
+      new RegExp(
+        `aria-sort="${dir === 'desc' ? 'descending' : 'ascending'}"><a href="/facts\\?sort=mass&amp;dir=${mark}"`,
+      ),
+    )
+  }
+
+  const md = await (await get('/facts.md')).text()
+  assert.match(
+    md,
+    /\[Blue wildebeest\]\(\/species\/connochaetes-taurinus\.md\)/,
+  )
+  assert.match(md, /males 165–290, females 140–260/)
+  assert.match(
+    md,
+    /An em dash means this guide does not record the fact\. It does not mean zero\./,
+  )
+  assert.ok(md.includes(coverageSentence(doc)))
+})
+
+test('a hostile fact from KV is escaped', async () => {
+  const hostile = {
+    MAMMALS_KV: {
+      get: async () =>
+        JSON.stringify({
+          kind: 'facts',
+          note: 'n',
+          species: [
+            {
+              slug: 'x',
+              scientificName: 'A & b',
+              en: '<script>alert(1)</script>',
+              af: 'a<b',
+              familySlug: 'felidae',
+              familyEn: 'Cats & dogs',
+              status: '<img src=x onerror=alert(1)>',
+              shoulderHeightCm: null,
+              headBodyLengthCm: null,
+              tailCm: null,
+              lengthCm: null,
+              massKg: null,
+              conservationStatus: {
+                status: '<b>bad</b>',
+                scope: null,
+                asOf: null,
+              },
+              population: null,
+            },
+          ],
+        }),
+    },
+  }
+  const body = await (
+    await handleRequest(new Request(`${origin}/facts`), hostile)
+  ).text()
+  assert.ok(!body.includes('<script>alert'))
+  assert.ok(!body.includes('<img'))
+  assert.ok(!body.includes('<b>bad</b>'))
+  assert.match(body, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/)
+  assert.match(body, /&lt;img src=x onerror=alert\(1\)&gt;/)
+  assert.match(body, /&lt;b&gt;bad&lt;\/b&gt;/)
+  assert.match(body, /A &amp; b/)
+  assert.match(body, /Cats &amp; dogs/)
+  assert.match(body, /a&lt;b/)
+})
+
 test('published pages name themselves and their other formats', async () => {
   const family = JSON.parse(store.get('family/bovidae'))
   const order = JSON.parse(store.get('order/carnivora'))
@@ -635,7 +855,6 @@ test('routes that are not built yet are not found', async () => {
     ['/.well-known/ard.json', '#34'],
     ['/mcp/server-card', '#34'],
     ['/offline', '#38'],
-    ['/facts', '#39'],
     ['/identify/sound', '#40'],
     ['/identify/photo', '#40'],
   ]

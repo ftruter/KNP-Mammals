@@ -17,6 +17,12 @@ import {
   viewLabel,
 } from './labels.js'
 import {
+  FACTS_COLUMNS,
+  FACTS_INTRO,
+  coverageSentence,
+  factsTableRows,
+} from './facts.js'
+import {
   FAMILY_COLUMNS,
   FAMILY_SPECIES_COLUMNS,
   ORDER_COLUMNS,
@@ -44,6 +50,7 @@ ${ABOUT}
 - [Orders](/orders.md): ${doc.counts.orders}
 - [Families](/families.md): ${doc.counts.families}
 - [Species](/species.md): ${doc.counts.species}
+- [Facts](/facts.md): ${doc.counts.species}
 - [Credits](/credits.md)
 - [Search](/search.md): add \`?q=\` and a name, for example [/search.md?q=lion](/search.md?q=lion)
 
@@ -87,6 +94,21 @@ export const speciesListMarkdown = (doc) => `# Species
 ${tableMarkdown({ columns: SPECIES_COLUMNS, rows: doc.species, empty: 'No species are listed.' })}
 
 The population is the approximate number in Kruger, where an estimate is recorded. ${SORT_NOTE}
+`
+
+export const factsMarkdown = (doc) => `# Facts
+
+${FACTS_INTRO}
+
+${coverageSentence(doc)}
+
+${tableMarkdown({
+  columns: FACTS_COLUMNS,
+  rows: factsTableRows(doc),
+  empty: 'No species are listed.',
+})}
+
+${SORT_NOTE}
 `
 
 export const familyMarkdown = (doc) => {

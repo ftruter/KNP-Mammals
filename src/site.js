@@ -9,6 +9,7 @@ import { objectHttpResponse } from './objects.js'
 import { clientJs } from './client.js'
 import { iconFiles } from './icon.js'
 import {
+  factsPageHtml,
   creditsHtml,
   familiesHtml,
   familyHtml,
@@ -21,6 +22,7 @@ import {
   speciesListHtml,
 } from './html.js'
 import {
+  factsMarkdown,
   creditsMarkdown,
   familiesMarkdown,
   familyMarkdown,
@@ -51,6 +53,7 @@ const RENDERERS = {
   orders: { html: ordersHtml, md: ordersMarkdown },
   order: { html: orderHtml, md: orderMarkdown },
   'species-list': { html: speciesListHtml, md: speciesListMarkdown },
+  facts: { html: factsPageHtml, md: factsMarkdown },
   family: { html: familyHtml, md: familyMarkdown },
   species: { html: speciesHtml, md: speciesMarkdown },
 }

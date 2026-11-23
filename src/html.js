@@ -11,6 +11,12 @@ import {
   statusLabel,
   viewLabel,
 } from './labels.js'
+import {
+  FACTS_COLUMNS,
+  FACTS_INTRO,
+  coverageSentence,
+  factsTableRows,
+} from './facts.js'
 import { mediaSrc } from './media.js'
 import {
   FAMILY_COLUMNS,
@@ -126,7 +132,7 @@ ${main}
 <div class="wrap">
 <div class="footer-grid">
 <p>${SITE_NAME}</p>
-<p><a href="${BIRDS_URL}" title="Switch to our sister site">Birds</a> · <a href="/credits">Credits</a> · <a href="${escapeHtml(alts.md)}">Markdown</a> · <a href="${escapeHtml(alts.json)}">JSON</a></p>
+<p><a href="/facts">Facts</a> · <a href="${BIRDS_URL}" title="Switch to our sister site">Birds</a> · <a href="/credits">Credits</a> · <a href="${escapeHtml(alts.md)}">Markdown</a> · <a href="${escapeHtml(alts.json)}">JSON</a></p>
 </div>
 </div>
 </footer>
@@ -144,6 +150,7 @@ export const homeHtml = (doc, { origin }) => {
 <li><a href="/orders">Orders</a> <span>${counts.orders}</span></li>
 <li><a href="/families">Families</a> <span>${counts.families}</span></li>
 <li><a href="/species">Species</a> <span>${counts.species}</span></li>
+<li><a href="/facts">Facts</a> <span>${counts.species}</span></li>
 <li><a href="/credits">Credits</a></li>
 <li><a href="/search">Search</a></li>
 </ul>
@@ -212,6 +219,30 @@ ${tableHtml({
   columns: SPECIES_COLUMNS,
   rows: doc.species,
   path: '/species',
+  query: url,
+  empty: 'No species are listed.',
+})}
+`,
+  })
+
+export const factsPageHtml = (doc, { origin, url }) =>
+  layout({
+    title: `Facts · ${SHORT_NAME}`,
+    description:
+      'Size, mass, Kruger status and conservation status for each mammal in this guide.',
+    origin,
+    path: '/facts',
+    nav: '',
+    crumbs: crumbs([{ label: 'Facts', current: true }]),
+    main: `
+<h1>Facts</h1>
+<p>${escapeHtml(FACTS_INTRO)}</p>
+<p>${escapeHtml(coverageSentence(doc))}</p>
+${tableHtml({
+  caption: 'Facts',
+  columns: FACTS_COLUMNS,
+  rows: factsTableRows(doc),
+  path: '/facts',
   query: url,
   empty: 'No species are listed.',
 })}

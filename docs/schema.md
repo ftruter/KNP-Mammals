@@ -179,6 +179,12 @@ There is no `models` array. This site has no recogniser.
 
 A stub has the scientific name, English and Afrikaans names, the family slug, `sampleData: true`, empty `variants`, `viewNotes`, `calls` and `images`, and a `gaps` note that the details have not been published. `status` and `size` are omitted rather than invented. `population` may still carry a cited estimate.
 
+## Derived indexes
+
+These are not files under `data/`. `scripts/seed.mjs` builds them on each run and writes nothing back. Species documents are unchanged.
+
+`index/facts` is one row per listed species, served at `/facts`, `/facts.md` and `/facts.json`. Each row copies the English name, the stored Afrikaans name (`commonNames.af`), the family English name, `status`, the size ranges that have both bounds (`shoulderHeightCm`, `headBodyLengthCm`, `tailCm`, `lengthCm`, `massKg`, including a male and female split), `conservationStatus.status`, `conservationStatus.scope` and `conservationStatus.asOf`, and the Kruger individuals range already used on `/species`. A fact the details file does not record is `null`. It does not mean zero. Assessment text, sources and size notes stay on the species document.
+
 ## Search
 
 `/search` is a derived route. It reads the English, Afrikaans and Latin names already stored on `index/species` and `index/families`. It adds no species field.

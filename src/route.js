@@ -127,6 +127,8 @@ export const parseUrl = (url) => {
     return { kind: 'orders', format, pathname, key: 'index/families' }
   if (pathname === '/species')
     return { kind: 'species-list', format, pathname, key: 'index/species' }
+  if (pathname === '/facts')
+    return { kind: 'facts', format, pathname, key: 'index/facts' }
   if (pathname === '/credits')
     return { kind: 'credits', format, pathname, key: 'index/credits' }
   if (pathname === SEARCH_PATH)
