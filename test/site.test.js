@@ -351,7 +351,7 @@ test('the credits page lists sources, taxonomy and every file', async () => {
   assert.equal(doc.species.length, 143)
   assert.equal(
     doc.species.reduce((sum, group) => sum + group.sources.length, 0),
-    750,
+    753,
   )
   assert.equal(doc.mediaNote, null)
   assert.equal(doc.site.licence, null)
