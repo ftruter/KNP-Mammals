@@ -940,3 +940,34 @@ The orders overview describes Bovidae as wildsbok species plus buffalo. That phr
 | Leporidae | [Leporidae](https://af.wikipedia.org/wiki/Leporidae) is titled with the Latin name. The Wikidata label differs from that title | hase en konyne (lead phrase and Wikidata label). Not shortened into a group name |
 
 URLs opened for the nulls are on each family in `data/families.json`. Inclusion gaps were left in place.
+
+## Status pass (issue #43, 22 November 2026, Africa/Johannesburg)
+
+One pass over the 21 species that still had no `status`. The 2011 SANParks checklist was not used on its own. *Dasymys incomtus* was not remapped to *D. robertsii*, and *Cryptomys hottentotus* was not remapped to *C. natalensis*. No SANParks or EWT PDF was added to the repo. Species JSON does not record access failures.
+
+Filled (rule (c)):
+
+- Cape hare, *Lepus capensis*. `GET https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id=57560&quality_grade=research&captive=false&d1=2000-01-01&per_page=1&order=desc&order_by=observed_on` returned one row: observation 264080608, observed 4 March 2025 at Skukuza, not captive, research grade, community taxon *Lepus capensis*. An earlier *Lepus saxatilis* identification on that observation is not current. https://www.inaturalist.org/observations/264080608
+
+Left empty. The stop for each species is the first decisive result, within three lookups.
+
+- Cape serotine bat. The same iNaturalist query for taxon 1431030 returned 0. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/27.-Cape-Serotine-Bat-Neoromicia-capensis_LC.pdf says all provinces, not Kruger and not the Lowveld. Checklist only. Stop.
+- Rusty bat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/39.-Rusty-Bat-Pipistrellus-rusticus_LC.pdf names Limpopo, Mpumalanga, Gauteng, the North West, and the Great Limpopo Transfrontier Park. No Kruger and no Lowveld. The cited iNaturalist search was not repeated. Checklist only. Stop.
+- Reddish-grey musk shrew. The one new source, https://speciesstatus.sanbi.org/assessment/last-assessment/2266/, returned HTTP 403. The 2016 and 2025 EWT pages were not fetched again. Checklist only. Stop.
+- Swamp musk shrew. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/7.-Swamp-Musk-Shrew-Crocidura-mariquensis_NT.pdf still says no Kruger data are available and that the species presumably occurs there. Stop.
+- Oribi. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/18.-Oribi-Ourebia-ourebi_EN.pdf does not mention Kruger. Checklist only. Stop.
+- Suni. No later statement that the species persists in Kruger. The cited assessment still treats northeastern Kruger reports as anecdotal and records that the 1995 release was not found by 1998. Stop.
+- Grey rhebok. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/19.-Grey-Rhebok_Pelea-capreolus_NT.pdf mentions Kruger only in Kettlitz (1962), a Transvaal paper that excludes the park. Checklist only. Stop.
+- Botswana long-eared bat. https://ewt.org/project/botswana-long-eared-bat/ is *Laephotis* cf. *botswanae*, and the Kruger record on that page is of that clade. Stop.
+- Common molerat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/8.-Common-Mole-rats-Cryptomys-spp_LC.pdf still assigns Kruger to *C. natalensis*. Not remapped. Stop.
+- Water rat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/9.-African-Marsh-Rat-Dasymys-spp_VU.pdf still records *D. robertsii* in Kruger. Not remapped. Stop.
+- Lesser yellow house bat. https://ewt.org/project/lesser-yellow-house-bat/ is an assessment of *Scotophilus viridis*. Stop.
+- Hildebrandt's horseshoe bat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/43.-Cohens-Horseshoe-Bat-Rhinolophus-cohenae_VU.pdf still says *R. cohenae* was included within *R. hildebrandtii*. Stop.
+- Lander's horseshoe bat. https://ewt.org/project/peters-horseshoe-bat/ is *R. lobatus*, with pre-2000 records and no northern Kruger record in Brinkley et al. (2021). Not copied onto the 2011 name. Stop.
+- Swinny's horseshoe bat. https://ewt.org/project/swinnys-horseshoe-bat/ still limits *R. swinnyi* in the assessment region to KwaZulu-Natal and the Eastern Cape. Stop.
+- Schreibers' long-fingered bat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/21.-Natal-Long-fingered-Bat-Miniopterus-natalensis_LC.pdf does not name Kruger and describes seasonal migration of up to 260 km. Stop.
+- Temminck's hairy bat. https://ewt.org/project/temmincks-hairy-bat/ lists movement as Migratory and names the Great Limpopo Transfrontier Park, not Kruger. Stop.
+- Peak-saddle horseshoe bat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/40.-Peak-saddle-Horsehoe-Bat-Rhinolophus-blasii_NT.pdf still gives Pafuri and a partial-migration suggestion. Stop.
+- Commerson's leaf-nosed bat. https://ewt.org/project/striped-leaf-nosed-bat/ still lists movement as Full Migrant. Queried neither taxon. Stop.
+- Madagascar large free-tailed bat. https://ewt.org/project/malagasy-free-tailed-bat/ still says the species has not been recorded in recent times and does not give a year for the Pafuri record. Stop.
+- South African hedgehog. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/1.-South-African-Hedgehog-Atelerix-frontalis_NT.pdf still says they are not present in Kruger National Park. Stop.
