@@ -99,6 +99,7 @@ A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and r
 | `/facts` | `index/facts` | One row per listed species from the details files: size, mass, Kruger status, conservation status and the Kruger individuals range |
 | `/family/<slug>` | `family/<slug>` | `data/families.json` and its species |
 | `/species/<slug>` | `species/<slug>` | The species-list row, plus `data/species/details/<slug>.json` as `details` when that file exists |
+| `/manifest.webmanifest`, `/sw.js`, `/offline.json` | `index/offline` for the JSON | The installable app: the manifest, the service worker, and the pages and media a saved copy can keep. `/offline` and `/offline.md` are not pages |
 | `/sitemap` | `index/families`, `index/species` | Every published order, family, and species page, plus `/facts`, `/credits` and `/ask-ai`. `/search` is left out |
 | `/sitemap.xml` | `index/families`, `index/species` | One URL for each HTML page, dated from `DATA_PUBLISHED_AT` |
 | `/robots.txt` | (none) | An allow policy for crawlers, and the address of `/sitemap.xml` |
@@ -122,6 +123,8 @@ The tables on `/orders`, `/order/<slug>`, `/families`, `/species`, `/facts` and 
 `/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json` and `/ask-ai` are served. There is no MCP endpoint yet.
 
 `/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched. There is no sitemap or MCP endpoint yet.
+
+`index/offline` is derived when the KV payload is built and is not written under `data/`. It lists the HTML pages above, one lead photograph and one clip per species when `data/media/mirror.json` has a measured size for that file, and `iconic` (empty until a family ranking is chosen, so the family rows stay unavailable). The pack addresses are `/images/<key>` and `/audio/<key>`. Add a path to `GUIDE_PAGES` in `src/offline.js` when another HTML page should be saved with the guide.
 
 `candidates` and `excluded` are not published. `scripts/seed.mjs` derives the payload on every run and writes nothing back to `data/`. It adds names to the animals a details file points at (similar, predators, prey) and marks whether this guide lists them. It also builds `index/facts` from those details. It stops if a species names a family that is not in `data/families.json`, if a slug repeats, if a details file has no listed species, or if a photograph or recording has a licence outside CC0, CC BY, CC BY-SA, CC BY-NC and CC BY-NC-SA.
 

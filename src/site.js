@@ -7,7 +7,9 @@ import {
   kvCache,
 } from './cache.js'
 import { objectHttpResponse } from './objects.js'
-import { clientJs } from './client.js'
+import { clientJs, offlineJs, serviceWorkerJs } from './client.js'
+import { OFFLINE_KEY } from './offline.js'
+import { MANIFEST_TYPE, offlineManifest, webManifest } from './offline-app.js'
 import { iconFiles } from './icon.js'
 import {
   askAiHtml,
@@ -139,6 +141,21 @@ const renderObject = async (request, env, key) => {
 }
 
 /**
+ * /offline.json: pages and media an installed copy can keep. The lists come
+ * from KV. The shell addresses are this Worker's own. A missing document
+ * still answers, with the shell and empty media lists.
+ */
+const renderOffline = async (env) => {
+  const found = await readDocument(env.MAMMALS_KV, OFFLINE_KEY)
+  const version = env?.DATA_VERSION == null ? '' : String(env.DATA_VERSION)
+  return pageResponse({
+    body: jsonBody(offlineManifest(found?.data ?? null, version)),
+    format: 'json',
+    cache: kvCache(env, PAGE_CACHE),
+  })
+}
+
+/**
  * Search has no single KV document. It reads the two indexes inside
  * `loadSearchRecords`, so it must not fall through to the 404 below.
  */
@@ -187,6 +204,23 @@ export const renderRoute = async (request, env, route) => {
     return iconResponse(iconFiles[route.pathname], ASSET_CACHE)
   if (route.kind === 'script')
     return pageResponse({ body: clientJs, format: 'js', cache: ASSET_CACHE })
+  if (route.kind === 'offline-script')
+    return pageResponse({ body: offlineJs, format: 'js', cache: ASSET_CACHE })
+  if (route.kind === 'service-worker')
+    return pageResponse({
+      body: serviceWorkerJs,
+      format: 'js',
+      cache: ASSET_CACHE,
+      serviceWorker: true,
+    })
+  if (route.kind === 'web-manifest')
+    return pageResponse({
+      body: jsonBody(webManifest()),
+      format: 'html',
+      cache: ASSET_CACHE,
+      contentType: MANIFEST_TYPE,
+    })
+  if (route.kind === 'offline') return renderOffline(env)
   if (route.kind === 'image' || route.kind === 'audio')
     return renderObject(request, env, route.objectKey)
   if (route.kind === 'robots')

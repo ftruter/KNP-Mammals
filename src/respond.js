@@ -11,11 +11,19 @@ const SECURITY = {
 }
 
 /**
- * Photographs and recordings load from their sources over HTTPS until they
- * are copied to this site. The only script is this site's own /app.js.
+ * Photographs and recordings may still load from HTTPS sources. The scripts
+ * are this site's own. `manifest-src` loads the web app manifest.
+ * `connect-src` is the installed app reading /offline.json and saving files
+ * from this origin.
  */
 const PAGE_CSP =
-  "default-src 'none'; style-src 'self'; img-src 'self' https:; media-src 'self' https:; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; script-src 'self'"
+  "default-src 'none'; style-src 'self'; img-src 'self' https:; media-src 'self' https:; manifest-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; script-src 'self'"
+
+/**
+ * /sw.js only. A service worker is governed by the policy on its own
+ * response. It fetches pages and files, and only from this origin.
+ */
+export const SERVICE_WORKER_CSP = "default-src 'self'"
 
 const OBJECT_CSP =
   "default-src 'none'; style-src 'none'; script-src 'none'; sandbox"
@@ -48,10 +56,12 @@ export const pageResponse = ({
   path,
   origin,
   contentType,
+  serviceWorker = false,
   search = '',
 }) => {
   const headers = baseHeaders(format, cache)
   if (contentType) headers.set('content-type', contentType)
+  if (serviceWorker) headers.set('content-security-policy', SERVICE_WORKER_CSP)
   if (format === 'html' || format === 'md' || format === 'json') {
     const alts = path && origin ? alternates(path, search) : null
     const pageLinks = alts

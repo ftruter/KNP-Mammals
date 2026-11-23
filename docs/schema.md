@@ -179,6 +179,10 @@ There is no `models` array. This site has no recogniser.
 
 A stub has the scientific name, English and Afrikaans names, the family slug, `sampleData: true`, empty `variants`, `viewNotes`, `calls` and `images`, and a `gaps` note that the details have not been published. `status` and `size` are omitted rather than invented. `population` may still carry a cited estimate.
 
+## Derived offline index
+
+`index/offline` is built by `scripts/seed.mjs` for the installed app. It is not a species field and it is not stored under `data/`. It lists the HTML pages the app saves, `iconic` (empty until a family ranking is chosen), and at most one photograph and one recording per species. A file is listed only when `data/media/mirror.json` has a positive integer `bytes` for that file's current `fileUrl`. The pack address is the same-origin `/images/<key>` or `/audio/<key>`. Sizes are the measured mirror sizes. `/offline.json` is that document plus the shell files for the current deploy. `/offline` and `/offline.md` are not pages.
+
 ## Derived indexes
 
 These are not files under `data/`. `scripts/seed.mjs` builds them on each run and writes nothing back. Species documents are unchanged.

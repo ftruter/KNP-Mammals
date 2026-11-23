@@ -30,6 +30,7 @@
 import { readdir, readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { deriveOffline, OFFLINE_KEY } from '../src/offline.js'
 import { buildFacts } from '../src/facts.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
@@ -448,6 +449,24 @@ export const deriveDocuments = ({ families, list, details = new Map() }) => {
   return documents
 }
 
+/**
+ * What scripts/publish-media.mjs wrote: copied photographs and clips, with
+ * measured sizes. Null when the file has not been written. Nothing here is
+ * written back under data/.
+ */
+export const readMirror = async (dataDir = DEFAULT_DATA_DIR) => {
+  try {
+    return JSON.parse(
+      await readFile(path.join(dataDir, 'media', 'mirror.json'), 'utf8'),
+    )
+  } catch (error) {
+    if (error.code === 'ENOENT') return null
+    throw error
+  }
+}
+
+let reportedIconicGap = false
+
 /** KV entries, sorted by key, as wrangler's bulk put expects them. */
 export const collectEntries = async (dataDir = DEFAULT_DATA_DIR) => {
   const documents = deriveDocuments({
@@ -455,6 +474,28 @@ export const collectEntries = async (dataDir = DEFAULT_DATA_DIR) => {
     list: await readJson(path.join(dataDir, 'species-list.json')),
     details: await readDetails(dataDir),
   })
+  const species = []
+  const families = []
+  const orders = []
+  for (const [key, value] of documents) {
+    if (key.startsWith('species/')) species.push(value)
+    else if (key.startsWith('family/')) families.push(value)
+    else if (key.startsWith('order/')) orders.push(value)
+  }
+  const offline = deriveOffline(
+    species,
+    families,
+    orders,
+    await readMirror(dataDir),
+  )
+  // No family ranking is stored. Leave the gap visible rather than invent one.
+  if (offline.iconic.length === 0 && !reportedIconicGap) {
+    reportedIconicGap = true
+    console.warn(
+      'index/offline: iconic is []. Family image and clip rows stay unavailable until a ranking is chosen.',
+    )
+  }
+  documents.set(OFFLINE_KEY, offline)
   return [...documents]
     .map(([key, value]) => ({ key, value: JSON.stringify(value) }))
     .sort((a, b) => a.key.localeCompare(b.key))
