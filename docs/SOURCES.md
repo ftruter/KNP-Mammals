@@ -996,3 +996,16 @@ Method note: `docs/population-sources.md`. Species files stay free of access not
 - **Do not copy** the *Laephotis angolensis* account onto the Kruger file: the 2025 regional page treats South African animals as a distinct unnamed clade. Do not copy *Scotophilus viridis* measurements onto *S. borbonicus*.
 - **Eswatini means for *Mastomys natalensis*** (not a range): Mahlaba thesis, University of KwaZulu-Natal, Table 1 at Mlawula (males n=10, females n=12). Used only as a second figure in the size note, not as the stored bounds.
 - **Similar species** added only where a sentence already in this guide names another species that has a details file. Horseshoe comparisons follow the 2016 *Rhinolophus blasii* and *R. clivosus* assessments (Monadjem et al. 2010) and the Kingdon account already stored for *R. fumigatus*. No new comparison was written for a species the files already say was not named.
+
+## Issue 41 batch 1 (empty vespertilionids, first 8, 22 November 2026)
+
+One newer-record check each: iNaturalist `taxon_id` already on the file, place 113055, research grade, photo licences CC0, CC BY, CC BY-SA, CC BY-NC and CC BY-NC-SA, newest observation date first, 30 per page. Commons was not searched again; each species already has a logged Commons result. No photograph was added. `images` stays empty.
+
+- **Long-tailed serotine bat** (*Cnephaeus hottentotus*, taxon 1596136): six licensed records, all older than the earlier gap note (rest-camp, mist-net, and the rejected South African set).
+- **Damara woolly bat** (*Kerivoula argentata*, taxon 40456): still only the Cheringoma, Mozambique photograph already rejected as a handled or studio shot.
+- **Lesser woolly bat** (*Kerivoula lanosa*, taxon 40468): still only observation 346357189, the caught bat in Gert Sibande.
+- **Botswana long-eared bat** (*Laephotis angolensis*, taxon 40531): still only the handled bats at Wedza and Gorongosa.
+- **Cape serotine bat** (*Laephotis capensis*, taxon 1431030): 93 licensed records. The newest page is handled, grounded, dead, rescued, or at buildings. One rock-crevice frame (observation 335043115, Somerset East, Eastern Cape, 16 January 2026, CC BY-NC, Luke Goddard) was not added because it shows a roost; left for an owner decision.
+- **Rufous hairy bat** (*Myotis bocagii*, taxon 74698): still only the mist-netted bat at Afdis Ponds and the Chivero series.
+- **Welwitsch's hairy bat** (*Myotis welwitschii*, taxon 40336): the same five licensed records, including the dead bat carried by a southern ground hornbill in Kruger National Park and one record with positional accuracy of about 5.6 km.
+- **Anchieta's bat** (*Neoromicia anchieta*, taxon 1431023): no licensed research-grade photographs.
