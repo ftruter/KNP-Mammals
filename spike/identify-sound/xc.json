@@ -1,0 +1,3773 @@
+{
+  "method": "Public explore HTML at xeno-canto.org/explore. API v3 was not called because it requires a member key and this project has none. No audio was downloaded. ND recordings are counted separately and are not reusable.",
+  "terms": {
+    "url": "https://xeno-canto.org/about/terms",
+    "read": true,
+    "note": "The terms page says each recordist chooses a Creative Commons licence. BY-NC-ND is named as the most restrictive of the licences they describe."
+  },
+  "kruger": null,
+  "krugerGap": "xeno-canto has no place for Kruger National Park (iNaturalist place 69020). A country filter is not that park, so the Kruger count is null.",
+  "summary": {
+    "anywhere": {
+      "withNc": {
+        "speciesWithAny": 30,
+        "recordings": 112,
+        "counted": 143,
+        "nulls": 0
+      },
+      "withoutNc": {
+        "speciesWithAny": 0,
+        "recordings": 0,
+        "counted": 143,
+        "nulls": 0
+      },
+      "nd": {
+        "speciesWithAny": 31,
+        "recordings": 68,
+        "counted": 143,
+        "nulls": 0
+      }
+    },
+    "southAfrica": {
+      "withNc": {
+        "speciesWithAny": 13,
+        "recordings": 39,
+        "counted": 143,
+        "nulls": 0
+      },
+      "withoutNc": {
+        "speciesWithAny": 0,
+        "recordings": 0,
+        "counted": 143,
+        "nulls": 0
+      },
+      "nd": {
+        "speciesWithAny": 10,
+        "recordings": 11,
+        "counted": 143,
+        "nulls": 0
+      }
+    }
+  },
+  "species": [
+    {
+      "slug": "calcochloris-obtusirostris",
+      "scientificName": "Calcochloris obtusirostris",
+      "order": "Afrosoricida",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Calcochloris obtusirostris\"",
+        "southAfrica": "sp:\"Calcochloris obtusirostris\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "neamblysomus-julianae",
+      "scientificName": "Neamblysomus julianae",
+      "order": "Afrosoricida",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Neamblysomus julianae\"",
+        "southAfrica": "sp:\"Neamblysomus julianae\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "aepyceros-melampus",
+      "scientificName": "Aepyceros melampus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 6,
+        "parsedRows": 6,
+        "withNc": 5,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 5,
+        "parsedRows": 5,
+        "withNc": 4,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Aepyceros melampus\"",
+        "southAfrica": "sp:\"Aepyceros melampus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "alcelaphus-buselaphus-lichtensteinii",
+      "scientificName": "Alcelaphus buselaphus lichtensteinii",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "ssp:\"Alcelaphus buselaphus lichtensteinii\"",
+        "southAfrica": "ssp:\"Alcelaphus buselaphus lichtensteinii\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "cephalophorus-natalensis",
+      "scientificName": "Cephalophorus natalensis",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Cephalophorus natalensis\"",
+        "southAfrica": "sp:\"Cephalophorus natalensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "connochaetes-taurinus",
+      "scientificName": "Connochaetes taurinus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 3,
+        "parsedRows": 3,
+        "withNc": 3,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Connochaetes taurinus\"",
+        "southAfrica": "sp:\"Connochaetes taurinus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "damaliscus-lunatus",
+      "scientificName": "Damaliscus lunatus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Damaliscus lunatus\"",
+        "southAfrica": "sp:\"Damaliscus lunatus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "hippotragus-equinus",
+      "scientificName": "Hippotragus equinus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Hippotragus equinus\"",
+        "southAfrica": "sp:\"Hippotragus equinus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "hippotragus-niger",
+      "scientificName": "Hippotragus niger",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Hippotragus niger\"",
+        "southAfrica": "sp:\"Hippotragus niger\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "kobus-ellipsiprymnus",
+      "scientificName": "Kobus ellipsiprymnus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Kobus ellipsiprymnus\"",
+        "southAfrica": "sp:\"Kobus ellipsiprymnus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "nesotragus-moschatus",
+      "scientificName": "Nesotragus moschatus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Nesotragus moschatus\"",
+        "southAfrica": "sp:\"Nesotragus moschatus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "oreotragus-oreotragus",
+      "scientificName": "Oreotragus oreotragus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Oreotragus oreotragus\"",
+        "southAfrica": "sp:\"Oreotragus oreotragus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "ourebia-ourebi",
+      "scientificName": "Ourebia ourebi",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Ourebia ourebi\"",
+        "southAfrica": "sp:\"Ourebia ourebi\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "pelea-capreolus",
+      "scientificName": "Pelea capreolus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Pelea capreolus\"",
+        "southAfrica": "sp:\"Pelea capreolus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "raphicerus-campestris",
+      "scientificName": "Raphicerus campestris",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Raphicerus campestris\"",
+        "southAfrica": "sp:\"Raphicerus campestris\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "raphicerus-sharpei",
+      "scientificName": "Raphicerus sharpei",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Raphicerus sharpei\"",
+        "southAfrica": "sp:\"Raphicerus sharpei\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "redunca-arundinum",
+      "scientificName": "Redunca arundinum",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Redunca arundinum\"",
+        "southAfrica": "sp:\"Redunca arundinum\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "redunca-fulvorufula",
+      "scientificName": "Redunca fulvorufula",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Redunca fulvorufula\"",
+        "southAfrica": "sp:\"Redunca fulvorufula\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "sylvicapra-grimmia",
+      "scientificName": "Sylvicapra grimmia",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Sylvicapra grimmia\"",
+        "southAfrica": "sp:\"Sylvicapra grimmia\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "syncerus-caffer",
+      "scientificName": "Syncerus caffer",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 3,
+        "parsedRows": 3,
+        "withNc": 3,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Syncerus caffer\"",
+        "southAfrica": "sp:\"Syncerus caffer\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "tragelaphus-angasii",
+      "scientificName": "Tragelaphus angasii",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Tragelaphus angasii\"",
+        "southAfrica": "sp:\"Tragelaphus angasii\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "tragelaphus-oryx",
+      "scientificName": "Tragelaphus oryx",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Tragelaphus oryx\"",
+        "southAfrica": "sp:\"Tragelaphus oryx\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "tragelaphus-strepsiceros",
+      "scientificName": "Tragelaphus strepsiceros",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 2,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Tragelaphus strepsiceros\"",
+        "southAfrica": "sp:\"Tragelaphus strepsiceros\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "scientificName": "Tragelaphus sylvaticus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 2,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Tragelaphus sylvaticus\"",
+        "southAfrica": "sp:\"Tragelaphus sylvaticus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "giraffa-giraffa",
+      "scientificName": "Giraffa giraffa",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Giraffa giraffa\"",
+        "southAfrica": "sp:\"Giraffa giraffa\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "hippopotamus-amphibius",
+      "scientificName": "Hippopotamus amphibius",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 22,
+        "parsedRows": 22,
+        "withNc": 18,
+        "withoutNc": 0,
+        "nd": 4,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 11,
+        "parsedRows": 11,
+        "withNc": 11,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Hippopotamus amphibius\"",
+        "southAfrica": "sp:\"Hippopotamus amphibius\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "phacochoerus-africanus",
+      "scientificName": "Phacochoerus africanus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Phacochoerus africanus\"",
+        "southAfrica": "sp:\"Phacochoerus africanus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "potamochoerus-larvatus",
+      "scientificName": "Potamochoerus larvatus",
+      "order": "Artiodactyla",
+      "anywhere": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Potamochoerus larvatus\"",
+        "southAfrica": "sp:\"Potamochoerus larvatus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "lupulella-adusta",
+      "scientificName": "Lupulella adusta",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Lupulella adusta\"",
+        "southAfrica": "sp:\"Lupulella adusta\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "scientificName": "Lupulella mesomelas",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 3,
+        "parsedRows": 3,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Lupulella mesomelas\"",
+        "southAfrica": "sp:\"Lupulella mesomelas\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "lycaon-pictus",
+      "scientificName": "Lycaon pictus",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Lycaon pictus\"",
+        "southAfrica": "sp:\"Lycaon pictus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "otocyon-megalotis",
+      "scientificName": "Otocyon megalotis",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Otocyon megalotis\"",
+        "southAfrica": "sp:\"Otocyon megalotis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "scientificName": "Acinonyx jubatus",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Acinonyx jubatus\"",
+        "southAfrica": "sp:\"Acinonyx jubatus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "caracal-caracal",
+      "scientificName": "Caracal caracal",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Caracal caracal\"",
+        "southAfrica": "sp:\"Caracal caracal\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "felis-lybica",
+      "scientificName": "Felis lybica",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Felis lybica\"",
+        "southAfrica": "sp:\"Felis lybica\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "leptailurus-serval",
+      "scientificName": "Leptailurus serval",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Leptailurus serval\"",
+        "southAfrica": "sp:\"Leptailurus serval\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "panthera-leo",
+      "scientificName": "Panthera leo",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 14,
+        "parsedRows": 14,
+        "withNc": 9,
+        "withoutNc": 0,
+        "nd": 5,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Panthera leo\"",
+        "southAfrica": "sp:\"Panthera leo\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "panthera-pardus",
+      "scientificName": "Panthera pardus",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 8,
+        "parsedRows": 8,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 6,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 4,
+        "parsedRows": 4,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 2,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Panthera pardus\"",
+        "southAfrica": "sp:\"Panthera pardus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "atilax-paludinosus",
+      "scientificName": "Atilax paludinosus",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Atilax paludinosus\"",
+        "southAfrica": "sp:\"Atilax paludinosus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "helogale-parvula",
+      "scientificName": "Helogale parvula",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Helogale parvula\"",
+        "southAfrica": "sp:\"Helogale parvula\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "herpestes-ichneumon",
+      "scientificName": "Herpestes ichneumon",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 5,
+        "parsedRows": 5,
+        "withNc": 5,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Herpestes ichneumon\"",
+        "southAfrica": "sp:\"Herpestes ichneumon\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "herpestes-sanguineus",
+      "scientificName": "Herpestes sanguineus",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Herpestes sanguineus\"",
+        "southAfrica": "sp:\"Herpestes sanguineus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "ichneumia-albicauda",
+      "scientificName": "Ichneumia albicauda",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Ichneumia albicauda\"",
+        "southAfrica": "sp:\"Ichneumia albicauda\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "mungos-mungo",
+      "scientificName": "Mungos mungo",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Mungos mungo\"",
+        "southAfrica": "sp:\"Mungos mungo\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "paracynictis-selousi",
+      "scientificName": "Paracynictis selousi",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Paracynictis selousi\"",
+        "southAfrica": "sp:\"Paracynictis selousi\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "rhynchogale-melleri",
+      "scientificName": "Rhynchogale melleri",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Rhynchogale melleri\"",
+        "southAfrica": "sp:\"Rhynchogale melleri\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "scientificName": "Crocuta crocuta",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 9,
+        "parsedRows": 9,
+        "withNc": 7,
+        "withoutNc": 0,
+        "nd": 2,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 5,
+        "parsedRows": 5,
+        "withNc": 5,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Crocuta crocuta\"",
+        "southAfrica": "sp:\"Crocuta crocuta\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "parahyaena-brunnea",
+      "scientificName": "Parahyaena brunnea",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Parahyaena brunnea\"",
+        "southAfrica": "sp:\"Parahyaena brunnea\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "proteles-cristatus",
+      "scientificName": "Proteles cristatus",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Proteles cristatus\"",
+        "southAfrica": "sp:\"Proteles cristatus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "ictonyx-striatus",
+      "scientificName": "Ictonyx striatus",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Ictonyx striatus\"",
+        "southAfrica": "sp:\"Ictonyx striatus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "lutra-capensis",
+      "scientificName": "Lutra capensis",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Lutra capensis\"",
+        "southAfrica": "sp:\"Lutra capensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "mellivora-capensis",
+      "scientificName": "Mellivora capensis",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Mellivora capensis\"",
+        "southAfrica": "sp:\"Mellivora capensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "civettictis-civetta",
+      "scientificName": "Civettictis civetta",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Civettictis civetta\"",
+        "southAfrica": "sp:\"Civettictis civetta\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "genetta-felina",
+      "scientificName": "Genetta felina",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Genetta felina\"",
+        "southAfrica": "sp:\"Genetta felina\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "genetta-fieldiana",
+      "scientificName": "Genetta fieldiana",
+      "order": "Carnivora",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Genetta fieldiana\"",
+        "southAfrica": "sp:\"Genetta fieldiana\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "taphozous-mauritianus",
+      "scientificName": "Taphozous mauritianus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 4,
+        "parsedRows": 4,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 2,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Taphozous mauritianus\"",
+        "southAfrica": "sp:\"Taphozous mauritianus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "hipposideros-caffer",
+      "scientificName": "Hipposideros caffer",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 4,
+        "parsedRows": 4,
+        "withNc": 3,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Hipposideros caffer\"",
+        "southAfrica": "sp:\"Hipposideros caffer\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "hipposideros-commersoni",
+      "scientificName": "Hipposideros commersoni",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Hipposideros commersoni\"",
+        "southAfrica": "sp:\"Hipposideros commersoni\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "miniopterus-natalensis",
+      "scientificName": "Miniopterus natalensis",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 2,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Miniopterus natalensis\"",
+        "southAfrica": "sp:\"Miniopterus natalensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "mops-ansorgei",
+      "scientificName": "Mops ansorgei",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Mops ansorgei\"",
+        "southAfrica": "sp:\"Mops ansorgei\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "mops-condylurus",
+      "scientificName": "Mops condylurus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Mops condylurus\"",
+        "southAfrica": "sp:\"Mops condylurus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "mops-midas",
+      "scientificName": "Mops midas",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Mops midas\"",
+        "southAfrica": "sp:\"Mops midas\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "mops-pumilus",
+      "scientificName": "Mops pumilus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 11,
+        "parsedRows": 11,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 11,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Mops pumilus\"",
+        "southAfrica": "sp:\"Mops pumilus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "tadarida-aegyptiaca",
+      "scientificName": "Tadarida aegyptiaca",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Tadarida aegyptiaca\"",
+        "southAfrica": "sp:\"Tadarida aegyptiaca\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "tadarida-fulminans",
+      "scientificName": "Tadarida fulminans",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Tadarida fulminans\"",
+        "southAfrica": "sp:\"Tadarida fulminans\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "nycteris-thebaica",
+      "scientificName": "Nycteris thebaica",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 5,
+        "parsedRows": 5,
+        "withNc": 5,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Nycteris thebaica\"",
+        "southAfrica": "sp:\"Nycteris thebaica\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "nycteris-woodi",
+      "scientificName": "Nycteris woodi",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Nycteris woodi\"",
+        "southAfrica": "sp:\"Nycteris woodi\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "epomophorus-crypturus",
+      "scientificName": "Epomophorus crypturus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Epomophorus crypturus\"",
+        "southAfrica": "sp:\"Epomophorus crypturus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "epomophorus-wahlbergi",
+      "scientificName": "Epomophorus wahlbergi",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Epomophorus wahlbergi\"",
+        "southAfrica": "sp:\"Epomophorus wahlbergi\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "rousettus-aegyptiacus",
+      "scientificName": "Rousettus aegyptiacus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Rousettus aegyptiacus\"",
+        "southAfrica": "sp:\"Rousettus aegyptiacus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "rhinolophus-blasii",
+      "scientificName": "Rhinolophus blasii",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 9,
+        "parsedRows": 9,
+        "withNc": 9,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Rhinolophus blasii\"",
+        "southAfrica": "sp:\"Rhinolophus blasii\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "rhinolophus-clivosus",
+      "scientificName": "Rhinolophus clivosus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Rhinolophus clivosus\"",
+        "southAfrica": "sp:\"Rhinolophus clivosus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "rhinolophus-darlingi",
+      "scientificName": "Rhinolophus darlingi",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Rhinolophus darlingi\"",
+        "southAfrica": "sp:\"Rhinolophus darlingi\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "rhinolophus-fumigatus",
+      "scientificName": "Rhinolophus fumigatus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Rhinolophus fumigatus\"",
+        "southAfrica": "sp:\"Rhinolophus fumigatus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "rhinolophus-hildebrandtii",
+      "scientificName": "Rhinolophus hildebrandtii",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Rhinolophus hildebrandtii\"",
+        "southAfrica": "sp:\"Rhinolophus hildebrandtii\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "rhinolophus-landeri",
+      "scientificName": "Rhinolophus landeri",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 2,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Rhinolophus landeri\"",
+        "southAfrica": "sp:\"Rhinolophus landeri\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "rhinolophus-simulator",
+      "scientificName": "Rhinolophus simulator",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Rhinolophus simulator\"",
+        "southAfrica": "sp:\"Rhinolophus simulator\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "rhinolophus-swinnyi",
+      "scientificName": "Rhinolophus swinnyi",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Rhinolophus swinnyi\"",
+        "southAfrica": "sp:\"Rhinolophus swinnyi\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "afronycteris-nanus",
+      "scientificName": "Afronycteris nanus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 8,
+        "parsedRows": 8,
+        "withNc": 7,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Afronycteris nanus\"",
+        "southAfrica": "sp:\"Afronycteris nanus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "cnephaeus-hottentotus",
+      "scientificName": "Cnephaeus hottentotus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Cnephaeus hottentotus\"",
+        "southAfrica": "sp:\"Cnephaeus hottentotus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "glauconycteris-variegata",
+      "scientificName": "Glauconycteris variegata",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Glauconycteris variegata\"",
+        "southAfrica": "sp:\"Glauconycteris variegata\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "kerivoula-argentata",
+      "scientificName": "Kerivoula argentata",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Kerivoula argentata\"",
+        "southAfrica": "sp:\"Kerivoula argentata\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "kerivoula-lanosa",
+      "scientificName": "Kerivoula lanosa",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Kerivoula lanosa\"",
+        "southAfrica": "sp:\"Kerivoula lanosa\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "laephotis-angolensis",
+      "scientificName": "Laephotis angolensis",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Laephotis angolensis\"",
+        "southAfrica": "sp:\"Laephotis angolensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "laephotis-capensis",
+      "scientificName": "Laephotis capensis",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Laephotis capensis\"",
+        "southAfrica": "sp:\"Laephotis capensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "myotis-bocagii",
+      "scientificName": "Myotis bocagii",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Myotis bocagii\"",
+        "southAfrica": "sp:\"Myotis bocagii\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "myotis-tricolor",
+      "scientificName": "Myotis tricolor",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Myotis tricolor\"",
+        "southAfrica": "sp:\"Myotis tricolor\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "myotis-welwitschii",
+      "scientificName": "Myotis welwitschii",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Myotis welwitschii\"",
+        "southAfrica": "sp:\"Myotis welwitschii\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "neoromicia-anchieta",
+      "scientificName": "Neoromicia anchieta",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Neoromicia anchieta\"",
+        "southAfrica": "sp:\"Neoromicia anchieta\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "neoromicia-zuluensis",
+      "scientificName": "Neoromicia zuluensis",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Neoromicia zuluensis\"",
+        "southAfrica": "sp:\"Neoromicia zuluensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "nycticeinops-schlieffenii",
+      "scientificName": "Nycticeinops schlieffenii",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 2,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Nycticeinops schlieffenii\"",
+        "southAfrica": "sp:\"Nycticeinops schlieffenii\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "pipistrellus-hesperidus",
+      "scientificName": "Pipistrellus hesperidus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Pipistrellus hesperidus\"",
+        "southAfrica": "sp:\"Pipistrellus hesperidus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "pipistrellus-rusticus",
+      "scientificName": "Pipistrellus rusticus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Pipistrellus rusticus\"",
+        "southAfrica": "sp:\"Pipistrellus rusticus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "scotophilus-borbonicus",
+      "scientificName": "Scotophilus borbonicus",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Scotophilus borbonicus\"",
+        "southAfrica": "sp:\"Scotophilus borbonicus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "scotophilus-dinganii",
+      "scientificName": "Scotophilus dinganii",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Scotophilus dinganii\"",
+        "southAfrica": "sp:\"Scotophilus dinganii\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "vansonia-rueppellii",
+      "scientificName": "Vansonia rueppellii",
+      "order": "Chiroptera",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Vansonia rueppellii\"",
+        "southAfrica": "sp:\"Vansonia rueppellii\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "atelerix-frontalis",
+      "scientificName": "Atelerix frontalis",
+      "order": "Eulipotyphla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Atelerix frontalis\"",
+        "southAfrica": "sp:\"Atelerix frontalis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "crocidura-cyanea",
+      "scientificName": "Crocidura cyanea",
+      "order": "Eulipotyphla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Crocidura cyanea\"",
+        "southAfrica": "sp:\"Crocidura cyanea\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "crocidura-fuscomurina",
+      "scientificName": "Crocidura fuscomurina",
+      "order": "Eulipotyphla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Crocidura fuscomurina\"",
+        "southAfrica": "sp:\"Crocidura fuscomurina\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "crocidura-hirta",
+      "scientificName": "Crocidura hirta",
+      "order": "Eulipotyphla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Crocidura hirta\"",
+        "southAfrica": "sp:\"Crocidura hirta\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "crocidura-mariquensis",
+      "scientificName": "Crocidura mariquensis",
+      "order": "Eulipotyphla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Crocidura mariquensis\"",
+        "southAfrica": "sp:\"Crocidura mariquensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "crocidura-silacea",
+      "scientificName": "Crocidura silacea",
+      "order": "Eulipotyphla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Crocidura silacea\"",
+        "southAfrica": "sp:\"Crocidura silacea\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "suncus-lixa",
+      "scientificName": "Suncus lixa",
+      "order": "Eulipotyphla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Suncus lixa\"",
+        "southAfrica": "sp:\"Suncus lixa\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "heterohyrax-brucei",
+      "scientificName": "Heterohyrax brucei",
+      "order": "Hyracoidea",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Heterohyrax brucei\"",
+        "southAfrica": "sp:\"Heterohyrax brucei\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "procavia-capensis",
+      "scientificName": "Procavia capensis",
+      "order": "Hyracoidea",
+      "anywhere": {
+        "statedResults": 6,
+        "parsedRows": 6,
+        "withNc": 3,
+        "withoutNc": 0,
+        "nd": 3,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Procavia capensis\"",
+        "southAfrica": "sp:\"Procavia capensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "lepus-capensis",
+      "scientificName": "Lepus capensis",
+      "order": "Lagomorpha",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Lepus capensis\"",
+        "southAfrica": "sp:\"Lepus capensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "lepus-saxatilis",
+      "scientificName": "Lepus saxatilis",
+      "order": "Lagomorpha",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Lepus saxatilis\"",
+        "southAfrica": "sp:\"Lepus saxatilis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "pronolagus-crassicaudatus",
+      "scientificName": "Pronolagus crassicaudatus",
+      "order": "Lagomorpha",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Pronolagus crassicaudatus\"",
+        "southAfrica": "sp:\"Pronolagus crassicaudatus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "elephantulus-brachyrhynchus",
+      "scientificName": "Elephantulus brachyrhynchus",
+      "order": "Macroscelidea",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Elephantulus brachyrhynchus\"",
+        "southAfrica": "sp:\"Elephantulus brachyrhynchus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "elephantulus-myurus",
+      "scientificName": "Elephantulus myurus",
+      "order": "Macroscelidea",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Elephantulus myurus\"",
+        "southAfrica": "sp:\"Elephantulus myurus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "petrodromus-tetradactylus",
+      "scientificName": "Petrodromus tetradactylus",
+      "order": "Macroscelidea",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Petrodromus tetradactylus\"",
+        "southAfrica": "sp:\"Petrodromus tetradactylus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "equus-quagga",
+      "scientificName": "Equus quagga",
+      "order": "Perissodactyla",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Equus quagga\"",
+        "southAfrica": "sp:\"Equus quagga\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "ceratotherium-simum",
+      "scientificName": "Ceratotherium simum",
+      "order": "Perissodactyla",
+      "anywhere": {
+        "statedResults": 3,
+        "parsedRows": 3,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Ceratotherium simum\"",
+        "southAfrica": "sp:\"Ceratotherium simum\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "diceros-bicornis",
+      "scientificName": "Diceros bicornis",
+      "order": "Perissodactyla",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Diceros bicornis\"",
+        "southAfrica": "sp:\"Diceros bicornis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "smutsia-temminckii",
+      "scientificName": "Smutsia temminckii",
+      "order": "Pholidota",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Smutsia temminckii\"",
+        "southAfrica": "sp:\"Smutsia temminckii\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "chlorocebus-pygerythrus",
+      "scientificName": "Chlorocebus pygerythrus",
+      "order": "Primates",
+      "anywhere": {
+        "statedResults": 5,
+        "parsedRows": 5,
+        "withNc": 4,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Chlorocebus pygerythrus\"",
+        "southAfrica": "sp:\"Chlorocebus pygerythrus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "papio-ursinus",
+      "scientificName": "Papio ursinus",
+      "order": "Primates",
+      "anywhere": {
+        "statedResults": 9,
+        "parsedRows": 9,
+        "withNc": 6,
+        "withoutNc": 0,
+        "nd": 3,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 6,
+        "parsedRows": 6,
+        "withNc": 6,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Papio ursinus\"",
+        "southAfrica": "sp:\"Papio ursinus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "galago-moholi",
+      "scientificName": "Galago moholi",
+      "order": "Primates",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 2,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 1,
+        "parsedRows": 1,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Galago moholi\"",
+        "southAfrica": "sp:\"Galago moholi\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "otolemur-crassicaudatus",
+      "scientificName": "Otolemur crassicaudatus",
+      "order": "Primates",
+      "anywhere": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 1,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Otolemur crassicaudatus\"",
+        "southAfrica": "sp:\"Otolemur crassicaudatus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "loxodonta-africana",
+      "scientificName": "Loxodonta africana",
+      "order": "Proboscidea",
+      "anywhere": {
+        "statedResults": 4,
+        "parsedRows": 4,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 2,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 2,
+        "parsedRows": 2,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Loxodonta africana\"",
+        "southAfrica": "sp:\"Loxodonta africana\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "cryptomys-hottentotus",
+      "scientificName": "Cryptomys hottentotus",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Cryptomys hottentotus\"",
+        "southAfrica": "sp:\"Cryptomys hottentotus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "graphiurus-murinus",
+      "scientificName": "Graphiurus murinus",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Graphiurus murinus\"",
+        "southAfrica": "sp:\"Graphiurus murinus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "hystrix-africaeaustralis",
+      "scientificName": "Hystrix africaeaustralis",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Hystrix africaeaustralis\"",
+        "southAfrica": "sp:\"Hystrix africaeaustralis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "aethomys-chrysophilus",
+      "scientificName": "Aethomys chrysophilus",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Aethomys chrysophilus\"",
+        "southAfrica": "sp:\"Aethomys chrysophilus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "dasymys-incomtus",
+      "scientificName": "Dasymys incomtus",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Dasymys incomtus\"",
+        "southAfrica": "sp:\"Dasymys incomtus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "gerbilliscus-leucogaster",
+      "scientificName": "Gerbilliscus leucogaster",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Gerbilliscus leucogaster\"",
+        "southAfrica": "sp:\"Gerbilliscus leucogaster\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "grammomys-dolichurus",
+      "scientificName": "Grammomys dolichurus",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Grammomys dolichurus\"",
+        "southAfrica": "sp:\"Grammomys dolichurus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "lemniscomys-rosalia",
+      "scientificName": "Lemniscomys rosalia",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Lemniscomys rosalia\"",
+        "southAfrica": "sp:\"Lemniscomys rosalia\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "mastomys-coucha",
+      "scientificName": "Mastomys coucha",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Mastomys coucha\"",
+        "southAfrica": "sp:\"Mastomys coucha\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "mastomys-natalensis",
+      "scientificName": "Mastomys natalensis",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Mastomys natalensis\"",
+        "southAfrica": "sp:\"Mastomys natalensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "micaelamys-namaquensis",
+      "scientificName": "Micaelamys namaquensis",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Micaelamys namaquensis\"",
+        "southAfrica": "sp:\"Micaelamys namaquensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "mus-minutoides",
+      "scientificName": "Mus minutoides",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Mus minutoides\"",
+        "southAfrica": "sp:\"Mus minutoides\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "otomys-angoniensis",
+      "scientificName": "Otomys angoniensis",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Otomys angoniensis\"",
+        "southAfrica": "sp:\"Otomys angoniensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "thallomys-paedulcus",
+      "scientificName": "Thallomys paedulcus",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Thallomys paedulcus\"",
+        "southAfrica": "sp:\"Thallomys paedulcus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "cricetomys-ansorgei",
+      "scientificName": "Cricetomys ansorgei",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Cricetomys ansorgei\"",
+        "southAfrica": "sp:\"Cricetomys ansorgei\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "dendromus-melanotis",
+      "scientificName": "Dendromus melanotis",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Dendromus melanotis\"",
+        "southAfrica": "sp:\"Dendromus melanotis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "dendromus-mystacalis",
+      "scientificName": "Dendromus mystacalis",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Dendromus mystacalis\"",
+        "southAfrica": "sp:\"Dendromus mystacalis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "saccostomus-campestris",
+      "scientificName": "Saccostomus campestris",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Saccostomus campestris\"",
+        "southAfrica": "sp:\"Saccostomus campestris\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "steatomys-pratensis",
+      "scientificName": "Steatomys pratensis",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Steatomys pratensis\"",
+        "southAfrica": "sp:\"Steatomys pratensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "pedetes-capensis",
+      "scientificName": "Pedetes capensis",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Pedetes capensis\"",
+        "southAfrica": "sp:\"Pedetes capensis\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "paraxerus-cepapi",
+      "scientificName": "Paraxerus cepapi",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 5,
+        "parsedRows": 5,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 3,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 3,
+        "parsedRows": 3,
+        "withNc": 2,
+        "withoutNc": 0,
+        "nd": 1,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Paraxerus cepapi\"",
+        "southAfrica": "sp:\"Paraxerus cepapi\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "thryonomys-swinderianus",
+      "scientificName": "Thryonomys swinderianus",
+      "order": "Rodentia",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Thryonomys swinderianus\"",
+        "southAfrica": "sp:\"Thryonomys swinderianus\" cnt:\"South Africa\""
+      }
+    },
+    {
+      "slug": "orycteropus-afer",
+      "scientificName": "Orycteropus afer",
+      "order": "Tubulidentata",
+      "anywhere": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "southAfrica": {
+        "statedResults": 0,
+        "parsedRows": 0,
+        "withNc": 0,
+        "withoutNc": 0,
+        "nd": 0,
+        "complete": true
+      },
+      "kruger": null,
+      "queries": {
+        "anywhere": "sp:\"Orycteropus afer\"",
+        "southAfrica": "sp:\"Orycteropus afer\" cnt:\"South Africa\""
+      }
+    }
+  ],
+  "gaps": []
+}

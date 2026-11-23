@@ -1,0 +1,3767 @@
+{
+  "method": {
+    "qualityGrade": "research",
+    "captive": false,
+    "photos": true,
+    "photoLicenseWithNc": [
+      "cc0",
+      "cc-by",
+      "cc-by-sa",
+      "cc-by-nc",
+      "cc-by-nc-sa"
+    ],
+    "photoLicenseWithoutNc": [
+      "cc0",
+      "cc-by",
+      "cc-by-sa"
+    ],
+    "excluded": [
+      "cc-by-nd",
+      "cc-by-nc-nd",
+      "all-rights-reserved"
+    ],
+    "places": {
+      "kruger": {
+        "id": 69020,
+        "name": "Kruger National Park",
+        "displayName": "Kruger National Park, ZA"
+      },
+      "southAfrica": {
+        "id": 6986,
+        "name": "South Africa",
+        "displayName": "South Africa"
+      },
+      "anywhere": null
+    },
+    "restOfSouthAfrica": "southAfrica total minus kruger total, or null if that is negative",
+    "unit": "observations with at least one photo under the licence filter"
+  },
+  "summary": {
+    "all": {
+      "species": 143,
+      "withNc": {
+        "kruger": {
+          "median": 1.5,
+          "under20": 92,
+          "under50": 103,
+          "under150": 113,
+          "atLeast50": 39,
+          "atLeast150": 29,
+          "zero": 63,
+          "counted": 142,
+          "nulls": 1
+        },
+        "southAfrica": {
+          "median": 88.5,
+          "under20": 53,
+          "under50": 64,
+          "under150": 77,
+          "atLeast50": 78,
+          "atLeast150": 65,
+          "zero": 21,
+          "counted": 142,
+          "nulls": 1
+        },
+        "restOfSouthAfrica": {
+          "median": 78.5,
+          "under20": 55,
+          "under50": 67,
+          "under150": 81,
+          "atLeast50": 75,
+          "atLeast150": 61,
+          "zero": 22,
+          "counted": 142,
+          "nulls": 1
+        },
+        "anywhere": {
+          "median": 216.0,
+          "under20": 44,
+          "under50": 55,
+          "under150": 68,
+          "atLeast50": 87,
+          "atLeast150": 74,
+          "zero": 7,
+          "counted": 142,
+          "nulls": 1
+        }
+      },
+      "withoutNc": {
+        "kruger": {
+          "median": 0.0,
+          "under20": 111,
+          "under50": 117,
+          "under150": 126,
+          "atLeast50": 25,
+          "atLeast150": 16,
+          "zero": 76,
+          "counted": 142,
+          "nulls": 1
+        },
+        "southAfrica": {
+          "median": 15.5,
+          "under20": 76,
+          "under50": 90,
+          "under150": 110,
+          "atLeast50": 52,
+          "atLeast150": 32,
+          "zero": 37,
+          "counted": 142,
+          "nulls": 1
+        },
+        "restOfSouthAfrica": {
+          "median": 10.0,
+          "under20": 77,
+          "under50": 94,
+          "under150": 115,
+          "atLeast50": 48,
+          "atLeast150": 27,
+          "zero": 41,
+          "counted": 142,
+          "nulls": 1
+        },
+        "anywhere": {
+          "median": 39.0,
+          "under20": 67,
+          "under50": 75,
+          "under150": 96,
+          "atLeast50": 67,
+          "atLeast150": 46,
+          "zero": 30,
+          "counted": 142,
+          "nulls": 1
+        }
+      }
+    },
+    "bats": {
+      "species": 41,
+      "withNc": {
+        "kruger": {
+          "median": 0.0,
+          "under20": 39,
+          "under50": 39,
+          "under150": 40,
+          "atLeast50": 1,
+          "atLeast150": 0,
+          "zero": 32,
+          "counted": 40,
+          "nulls": 1
+        },
+        "southAfrica": {
+          "median": 1.0,
+          "under20": 33,
+          "under50": 36,
+          "under150": 38,
+          "atLeast50": 4,
+          "atLeast150": 2,
+          "zero": 19,
+          "counted": 40,
+          "nulls": 1
+        },
+        "restOfSouthAfrica": {
+          "median": 0.5,
+          "under20": 33,
+          "under50": 36,
+          "under150": 39,
+          "atLeast50": 4,
+          "atLeast150": 1,
+          "zero": 20,
+          "counted": 40,
+          "nulls": 1
+        },
+        "anywhere": {
+          "median": 10.5,
+          "under20": 28,
+          "under50": 32,
+          "under150": 36,
+          "atLeast50": 8,
+          "atLeast150": 4,
+          "zero": 6,
+          "counted": 40,
+          "nulls": 1
+        }
+      },
+      "withoutNc": {
+        "kruger": {
+          "median": 0.0,
+          "under20": 40,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 36,
+          "counted": 40,
+          "nulls": 1
+        },
+        "southAfrica": {
+          "median": 0.0,
+          "under20": 39,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 28,
+          "counted": 40,
+          "nulls": 1
+        },
+        "restOfSouthAfrica": {
+          "median": 0.0,
+          "under20": 39,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 29,
+          "counted": 40,
+          "nulls": 1
+        },
+        "anywhere": {
+          "median": 0.0,
+          "under20": 36,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 21,
+          "counted": 40,
+          "nulls": 1
+        }
+      }
+    },
+    "notBats": {
+      "species": 102,
+      "withNc": {
+        "kruger": {
+          "median": 14.5,
+          "under20": 53,
+          "under50": 64,
+          "under150": 73,
+          "atLeast50": 38,
+          "atLeast150": 29,
+          "zero": 31,
+          "counted": 102,
+          "nulls": 0
+        },
+        "southAfrica": {
+          "median": 328.5,
+          "under20": 20,
+          "under50": 28,
+          "under150": 39,
+          "atLeast50": 74,
+          "atLeast150": 63,
+          "zero": 2,
+          "counted": 102,
+          "nulls": 0
+        },
+        "restOfSouthAfrica": {
+          "median": 272.5,
+          "under20": 22,
+          "under50": 31,
+          "under150": 42,
+          "atLeast50": 71,
+          "atLeast150": 60,
+          "zero": 2,
+          "counted": 102,
+          "nulls": 0
+        },
+        "anywhere": {
+          "median": 794.5,
+          "under20": 16,
+          "under50": 23,
+          "under150": 32,
+          "atLeast50": 79,
+          "atLeast150": 70,
+          "zero": 1,
+          "counted": 102,
+          "nulls": 0
+        }
+      },
+      "withoutNc": {
+        "kruger": {
+          "median": 2.5,
+          "under20": 71,
+          "under50": 77,
+          "under150": 86,
+          "atLeast50": 25,
+          "atLeast150": 16,
+          "zero": 40,
+          "counted": 102,
+          "nulls": 0
+        },
+        "southAfrica": {
+          "median": 51.5,
+          "under20": 37,
+          "under50": 50,
+          "under150": 70,
+          "atLeast50": 52,
+          "atLeast150": 32,
+          "zero": 9,
+          "counted": 102,
+          "nulls": 0
+        },
+        "restOfSouthAfrica": {
+          "median": 44.0,
+          "under20": 38,
+          "under50": 54,
+          "under150": 75,
+          "atLeast50": 48,
+          "atLeast150": 27,
+          "zero": 12,
+          "counted": 102,
+          "nulls": 0
+        },
+        "anywhere": {
+          "median": 104.5,
+          "under20": 31,
+          "under50": 35,
+          "under150": 56,
+          "atLeast50": 67,
+          "atLeast150": 46,
+          "zero": 9,
+          "counted": 102,
+          "nulls": 0
+        }
+      }
+    }
+  },
+  "species": [
+    {
+      "slug": "calcochloris-obtusirostris",
+      "scientificName": "Calcochloris obtusirostris",
+      "en": "Yellow golden mole",
+      "af": "Geel gouemol",
+      "order": "Afrosoricida",
+      "family": "chrysochloridae",
+      "taxonId": 42519,
+      "inatName": "Calcochloris obtusirostris",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 5
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "neamblysomus-julianae",
+      "scientificName": "Neamblysomus julianae",
+      "en": "Juliana's golden mole",
+      "af": "Juliana se gouemol",
+      "order": "Afrosoricida",
+      "family": "chrysochloridae",
+      "taxonId": 42531,
+      "inatName": "Neamblysomus julianae",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 35,
+        "restOfSouthAfrica": 35,
+        "anywhere": 35
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 2,
+        "restOfSouthAfrica": 2,
+        "anywhere": 2
+      }
+    },
+    {
+      "slug": "aepyceros-melampus",
+      "scientificName": "Aepyceros melampus",
+      "en": "Impala",
+      "af": "Rooibok",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42278,
+      "inatName": "Aepyceros melampus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 2333,
+        "southAfrica": 6571,
+        "restOfSouthAfrica": 4238,
+        "anywhere": 14236
+      },
+      "withoutNc": {
+        "kruger": 481,
+        "southAfrica": 1211,
+        "restOfSouthAfrica": 730,
+        "anywhere": 2306
+      }
+    },
+    {
+      "slug": "alcelaphus-buselaphus-lichtensteinii",
+      "scientificName": "Alcelaphus buselaphus lichtensteinii",
+      "en": "Lichtenstein's hartebeest",
+      "af": "Lichtenstein se hartbees",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 132659,
+      "inatName": "Alcelaphus buselaphus lichtensteinii",
+      "inatRank": "subspecies",
+      "match": "same name",
+      "withNc": {
+        "kruger": 10,
+        "southAfrica": 11,
+        "restOfSouthAfrica": 1,
+        "anywhere": 140
+      },
+      "withoutNc": {
+        "kruger": 1,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 0,
+        "anywhere": 13
+      }
+    },
+    {
+      "slug": "cephalophorus-natalensis",
+      "scientificName": "Cephalophorus natalensis",
+      "en": "Red duiker",
+      "af": "Rooiduiker",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 1431002,
+      "inatName": "Cephalophorus natalensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 687,
+        "restOfSouthAfrica": 687,
+        "anywhere": 720
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 103,
+        "restOfSouthAfrica": 103,
+        "anywhere": 107
+      }
+    },
+    {
+      "slug": "connochaetes-taurinus",
+      "scientificName": "Connochaetes taurinus",
+      "en": "Blue wildebeest",
+      "af": "Blouwildebees",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42280,
+      "inatName": "Connochaetes taurinus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1269,
+        "southAfrica": 4415,
+        "restOfSouthAfrica": 3146,
+        "anywhere": 9888
+      },
+      "withoutNc": {
+        "kruger": 237,
+        "southAfrica": 732,
+        "restOfSouthAfrica": 495,
+        "anywhere": 1488
+      }
+    },
+    {
+      "slug": "damaliscus-lunatus",
+      "scientificName": "Damaliscus lunatus",
+      "en": "Tsessebe",
+      "af": "Tsessebe",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42276,
+      "inatName": "Damaliscus lunatus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 167,
+        "southAfrica": 589,
+        "restOfSouthAfrica": 422,
+        "anywhere": 3027
+      },
+      "withoutNc": {
+        "kruger": 26,
+        "southAfrica": 77,
+        "restOfSouthAfrica": 51,
+        "anywhere": 361
+      }
+    },
+    {
+      "slug": "hippotragus-equinus",
+      "scientificName": "Hippotragus equinus",
+      "en": "Roan",
+      "af": "Bastergemsbok",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42332,
+      "inatName": "Hippotragus equinus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 32,
+        "southAfrica": 232,
+        "restOfSouthAfrica": 200,
+        "anywhere": 1614
+      },
+      "withoutNc": {
+        "kruger": 6,
+        "southAfrica": 44,
+        "restOfSouthAfrica": 38,
+        "anywhere": 113
+      }
+    },
+    {
+      "slug": "hippotragus-niger",
+      "scientificName": "Hippotragus niger",
+      "en": "Sable",
+      "af": "Swartwitpens",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42334,
+      "inatName": "Hippotragus niger",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 111,
+        "southAfrica": 739,
+        "restOfSouthAfrica": 628,
+        "anywhere": 1447
+      },
+      "withoutNc": {
+        "kruger": 14,
+        "southAfrica": 101,
+        "restOfSouthAfrica": 87,
+        "anywhere": 193
+      }
+    },
+    {
+      "slug": "kobus-ellipsiprymnus",
+      "scientificName": "Kobus ellipsiprymnus",
+      "en": "Waterbuck",
+      "af": "Waterbok",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42328,
+      "inatName": "Kobus ellipsiprymnus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1462,
+        "southAfrica": 3567,
+        "restOfSouthAfrica": 2105,
+        "anywhere": 9078
+      },
+      "withoutNc": {
+        "kruger": 245,
+        "southAfrica": 511,
+        "restOfSouthAfrica": 266,
+        "anywhere": 1201
+      }
+    },
+    {
+      "slug": "nesotragus-moschatus",
+      "scientificName": "Nesotragus moschatus",
+      "en": "Suni",
+      "af": "Soenie",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 74770,
+      "inatName": "Nesotragus moschatus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 41,
+        "restOfSouthAfrica": 41,
+        "anywhere": 716
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 444
+      }
+    },
+    {
+      "slug": "oreotragus-oreotragus",
+      "scientificName": "Oreotragus oreotragus",
+      "en": "Klipspringer",
+      "af": "Klipspringer",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42384,
+      "inatName": "Oreotragus oreotragus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 403,
+        "southAfrica": 2500,
+        "restOfSouthAfrica": 2097,
+        "anywhere": 3214
+      },
+      "withoutNc": {
+        "kruger": 66,
+        "southAfrica": 468,
+        "restOfSouthAfrica": 402,
+        "anywhere": 561
+      }
+    },
+    {
+      "slug": "ourebia-ourebi",
+      "scientificName": "Ourebia ourebi",
+      "en": "Oribi",
+      "af": "Oorbietjie",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42380,
+      "inatName": "Ourebia ourebi",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 124,
+        "restOfSouthAfrica": 124,
+        "anywhere": 901
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 39,
+        "restOfSouthAfrica": 39,
+        "anywhere": 100
+      }
+    },
+    {
+      "slug": "pelea-capreolus",
+      "scientificName": "Pelea capreolus",
+      "en": "Grey rhebok",
+      "af": "Vaalribbok",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42336,
+      "inatName": "Pelea capreolus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 1023,
+        "restOfSouthAfrica": 1023,
+        "anywhere": 1058
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 197,
+        "restOfSouthAfrica": 197,
+        "anywhere": 205
+      }
+    },
+    {
+      "slug": "raphicerus-campestris",
+      "scientificName": "Raphicerus campestris",
+      "en": "Steenbok",
+      "af": "Steenbok",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42375,
+      "inatName": "Raphicerus campestris",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 946,
+        "southAfrica": 3055,
+        "restOfSouthAfrica": 2109,
+        "anywhere": 4219
+      },
+      "withoutNc": {
+        "kruger": 158,
+        "southAfrica": 508,
+        "restOfSouthAfrica": 350,
+        "anywhere": 687
+      }
+    },
+    {
+      "slug": "raphicerus-sharpei",
+      "scientificName": "Raphicerus sharpei",
+      "en": "Sharpe's grysbok",
+      "af": "Sharpe se grysbok",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42374,
+      "inatName": "Raphicerus sharpei",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 150,
+        "southAfrica": 197,
+        "restOfSouthAfrica": 47,
+        "anywhere": 258
+      },
+      "withoutNc": {
+        "kruger": 34,
+        "southAfrica": 40,
+        "restOfSouthAfrica": 6,
+        "anywhere": 45
+      }
+    },
+    {
+      "slug": "redunca-arundinum",
+      "scientificName": "Redunca arundinum",
+      "en": "Reedbuck",
+      "af": "Rietbok",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42305,
+      "inatName": "Redunca arundinum",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 39,
+        "southAfrica": 547,
+        "restOfSouthAfrica": 508,
+        "anywhere": 873
+      },
+      "withoutNc": {
+        "kruger": 9,
+        "southAfrica": 68,
+        "restOfSouthAfrica": 59,
+        "anywhere": 102
+      }
+    },
+    {
+      "slug": "redunca-fulvorufula",
+      "scientificName": "Redunca fulvorufula",
+      "en": "Mountain reedbuck",
+      "af": "Rooiribbok",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42306,
+      "inatName": "Redunca fulvorufula",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1,
+        "southAfrica": 417,
+        "restOfSouthAfrica": 416,
+        "anywhere": 438
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 71,
+        "restOfSouthAfrica": 71,
+        "anywhere": 73
+      }
+    },
+    {
+      "slug": "sylvicapra-grimmia",
+      "scientificName": "Sylvicapra grimmia",
+      "en": "Common duiker",
+      "af": "Gewone duiker",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42424,
+      "inatName": "Sylvicapra grimmia",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 250,
+        "southAfrica": 2503,
+        "restOfSouthAfrica": 2253,
+        "anywhere": 3352
+      },
+      "withoutNc": {
+        "kruger": 41,
+        "southAfrica": 461,
+        "restOfSouthAfrica": 420,
+        "anywhere": 544
+      }
+    },
+    {
+      "slug": "syncerus-caffer",
+      "scientificName": "Syncerus caffer",
+      "en": "Buffalo",
+      "af": "Buffel",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42405,
+      "inatName": "Syncerus caffer",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1768,
+        "southAfrica": 4661,
+        "restOfSouthAfrica": 2893,
+        "anywhere": 12100
+      },
+      "withoutNc": {
+        "kruger": 300,
+        "southAfrica": 815,
+        "restOfSouthAfrica": 515,
+        "anywhere": 1640
+      }
+    },
+    {
+      "slug": "tragelaphus-angasii",
+      "scientificName": "Tragelaphus angasii",
+      "en": "Nyala",
+      "af": "Njala",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42342,
+      "inatName": "Tragelaphus angasii",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 711,
+        "southAfrica": 3742,
+        "restOfSouthAfrica": 3031,
+        "anywhere": 4172
+      },
+      "withoutNc": {
+        "kruger": 116,
+        "southAfrica": 631,
+        "restOfSouthAfrica": 515,
+        "anywhere": 687
+      }
+    },
+    {
+      "slug": "tragelaphus-oryx",
+      "scientificName": "Tragelaphus oryx",
+      "en": "Eland",
+      "af": "Eland",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 75192,
+      "inatName": "Tragelaphus oryx",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 54,
+        "southAfrica": 3085,
+        "restOfSouthAfrica": 3031,
+        "anywhere": 5304
+      },
+      "withoutNc": {
+        "kruger": 9,
+        "southAfrica": 510,
+        "restOfSouthAfrica": 501,
+        "anywhere": 803
+      }
+    },
+    {
+      "slug": "tragelaphus-strepsiceros",
+      "scientificName": "Tragelaphus strepsiceros",
+      "en": "Kudu",
+      "af": "Koedoe",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 42339,
+      "inatName": "Tragelaphus strepsiceros",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1538,
+        "southAfrica": 6111,
+        "restOfSouthAfrica": 4573,
+        "anywhere": 9302
+      },
+      "withoutNc": {
+        "kruger": 287,
+        "southAfrica": 970,
+        "restOfSouthAfrica": 683,
+        "anywhere": 1416
+      }
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "scientificName": "Tragelaphus sylvaticus",
+      "en": "Bushbuck",
+      "af": "Bosbok",
+      "order": "Artiodactyla",
+      "family": "bovidae",
+      "taxonId": 1431867,
+      "inatName": "Tragelaphus sylvaticus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 776,
+        "southAfrica": 4076,
+        "restOfSouthAfrica": 3300,
+        "anywhere": 6088
+      },
+      "withoutNc": {
+        "kruger": 117,
+        "southAfrica": 611,
+        "restOfSouthAfrica": 494,
+        "anywhere": 912
+      }
+    },
+    {
+      "slug": "giraffa-giraffa",
+      "scientificName": "Giraffa giraffa",
+      "en": "Giraffe",
+      "af": "Kameelperd",
+      "order": "Artiodactyla",
+      "family": "giraffidae",
+      "taxonId": 1510571,
+      "inatName": "Giraffa giraffa",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 2514,
+        "southAfrica": 7552,
+        "restOfSouthAfrica": 5038,
+        "anywhere": 11205
+      },
+      "withoutNc": {
+        "kruger": 475,
+        "southAfrica": 1200,
+        "restOfSouthAfrica": 725,
+        "anywhere": 1694
+      }
+    },
+    {
+      "slug": "hippopotamus-amphibius",
+      "scientificName": "Hippopotamus amphibius",
+      "en": "Hippopotamus",
+      "af": "Seekoei",
+      "order": "Artiodactyla",
+      "family": "hippopotamidae",
+      "taxonId": 42149,
+      "inatName": "Hippopotamus amphibius",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1851,
+        "southAfrica": 4368,
+        "restOfSouthAfrica": 2517,
+        "anywhere": 12260
+      },
+      "withoutNc": {
+        "kruger": 323,
+        "southAfrica": 684,
+        "restOfSouthAfrica": 361,
+        "anywhere": 1710
+      }
+    },
+    {
+      "slug": "phacochoerus-africanus",
+      "scientificName": "Phacochoerus africanus",
+      "en": "Warthog",
+      "af": "Vlakvark",
+      "order": "Artiodactyla",
+      "family": "suidae",
+      "taxonId": 42122,
+      "inatName": "Phacochoerus africanus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1253,
+        "southAfrica": 5168,
+        "restOfSouthAfrica": 3915,
+        "anywhere": 12236
+      },
+      "withoutNc": {
+        "kruger": 215,
+        "southAfrica": 818,
+        "restOfSouthAfrica": 603,
+        "anywhere": 1713
+      }
+    },
+    {
+      "slug": "potamochoerus-larvatus",
+      "scientificName": "Potamochoerus larvatus",
+      "en": "Bushpig",
+      "af": "Bosvark",
+      "order": "Artiodactyla",
+      "family": "suidae",
+      "taxonId": 42138,
+      "inatName": "Potamochoerus larvatus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 2,
+        "southAfrica": 544,
+        "restOfSouthAfrica": 542,
+        "anywhere": 733
+      },
+      "withoutNc": {
+        "kruger": 2,
+        "southAfrica": 164,
+        "restOfSouthAfrica": 162,
+        "anywhere": 185
+      }
+    },
+    {
+      "slug": "lupulella-adusta",
+      "scientificName": "Lupulella adusta",
+      "en": "Side-striped jackal",
+      "af": "Witkwasjakkals",
+      "order": "Carnivora",
+      "family": "canidae",
+      "taxonId": 1210965,
+      "inatName": "Lupulella adusta",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 46,
+        "southAfrica": 183,
+        "restOfSouthAfrica": 137,
+        "anywhere": 846
+      },
+      "withoutNc": {
+        "kruger": 11,
+        "southAfrica": 18,
+        "restOfSouthAfrica": 7,
+        "anywhere": 65
+      }
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "scientificName": "Lupulella mesomelas",
+      "en": "Black-backed jackal",
+      "af": "Rooijakkals",
+      "order": "Carnivora",
+      "family": "canidae",
+      "taxonId": 1210966,
+      "inatName": "Lupulella mesomelas",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 413,
+        "southAfrica": 2364,
+        "restOfSouthAfrica": 1951,
+        "anywhere": 5814
+      },
+      "withoutNc": {
+        "kruger": 80,
+        "southAfrica": 361,
+        "restOfSouthAfrica": 281,
+        "anywhere": 838
+      }
+    },
+    {
+      "slug": "lycaon-pictus",
+      "scientificName": "Lycaon pictus",
+      "en": "Wild dog",
+      "af": "Wildehond",
+      "order": "Carnivora",
+      "family": "canidae",
+      "taxonId": 42093,
+      "inatName": "Lycaon pictus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 651,
+        "southAfrica": 1158,
+        "restOfSouthAfrica": 507,
+        "anywhere": 2036
+      },
+      "withoutNc": {
+        "kruger": 96,
+        "southAfrica": 153,
+        "restOfSouthAfrica": 57,
+        "anywhere": 248
+      }
+    },
+    {
+      "slug": "otocyon-megalotis",
+      "scientificName": "Otocyon megalotis",
+      "en": "Bat-eared fox",
+      "af": "Bakoorvos",
+      "order": "Carnivora",
+      "family": "canidae",
+      "taxonId": 42095,
+      "inatName": "Otocyon megalotis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 635,
+        "restOfSouthAfrica": 635,
+        "anywhere": 1289
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 102,
+        "restOfSouthAfrica": 102,
+        "anywhere": 184
+      }
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "scientificName": "Acinonyx jubatus",
+      "en": "Cheetah",
+      "af": "Jagluiperd",
+      "order": "Carnivora",
+      "family": "felidae",
+      "taxonId": 41955,
+      "inatName": "Acinonyx jubatus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 418,
+        "southAfrica": 1408,
+        "restOfSouthAfrica": 990,
+        "anywhere": 4270
+      },
+      "withoutNc": {
+        "kruger": 77,
+        "southAfrica": 202,
+        "restOfSouthAfrica": 125,
+        "anywhere": 500
+      }
+    },
+    {
+      "slug": "caracal-caracal",
+      "scientificName": "Caracal caracal",
+      "en": "Caracal",
+      "af": "Rooikat",
+      "order": "Carnivora",
+      "family": "felidae",
+      "taxonId": 42042,
+      "inatName": "Caracal caracal",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 10,
+        "southAfrica": 969,
+        "restOfSouthAfrica": 959,
+        "anywhere": 1264
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 143,
+        "restOfSouthAfrica": 143,
+        "anywhere": 164
+      }
+    },
+    {
+      "slug": "felis-lybica",
+      "scientificName": "Felis lybica",
+      "en": "African wild cat",
+      "af": "Vaalboskat",
+      "order": "Carnivora",
+      "family": "felidae",
+      "taxonId": 371414,
+      "inatName": "Felis lybica",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 92,
+        "southAfrica": 397,
+        "restOfSouthAfrica": 305,
+        "anywhere": 906
+      },
+      "withoutNc": {
+        "kruger": 8,
+        "southAfrica": 48,
+        "restOfSouthAfrica": 40,
+        "anywhere": 107
+      }
+    },
+    {
+      "slug": "leptailurus-serval",
+      "scientificName": "Leptailurus serval",
+      "en": "Serval",
+      "af": "Tierboskat",
+      "order": "Carnivora",
+      "family": "felidae",
+      "taxonId": 42025,
+      "inatName": "Leptailurus serval",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 22,
+        "southAfrica": 280,
+        "restOfSouthAfrica": 258,
+        "anywhere": 1107
+      },
+      "withoutNc": {
+        "kruger": 3,
+        "southAfrica": 24,
+        "restOfSouthAfrica": 21,
+        "anywhere": 98
+      }
+    },
+    {
+      "slug": "panthera-leo",
+      "scientificName": "Panthera leo",
+      "en": "Lion",
+      "af": "Leeu",
+      "order": "Carnivora",
+      "family": "felidae",
+      "taxonId": 41964,
+      "inatName": "Panthera leo",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1838,
+        "southAfrica": 4877,
+        "restOfSouthAfrica": 3039,
+        "anywhere": 15137
+      },
+      "withoutNc": {
+        "kruger": 307,
+        "southAfrica": 791,
+        "restOfSouthAfrica": 484,
+        "anywhere": 1924
+      }
+    },
+    {
+      "slug": "panthera-pardus",
+      "scientificName": "Panthera pardus",
+      "en": "Leopard",
+      "af": "Luiperd",
+      "order": "Carnivora",
+      "family": "felidae",
+      "taxonId": 41963,
+      "inatName": "Panthera pardus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1010,
+        "southAfrica": 2904,
+        "restOfSouthAfrica": 1894,
+        "anywhere": 7554
+      },
+      "withoutNc": {
+        "kruger": 165,
+        "southAfrica": 409,
+        "restOfSouthAfrica": 244,
+        "anywhere": 935
+      }
+    },
+    {
+      "slug": "atilax-paludinosus",
+      "scientificName": "Atilax paludinosus",
+      "en": "Water mongoose",
+      "af": "Kommetjiegatmuishond",
+      "order": "Carnivora",
+      "family": "herpestidae",
+      "taxonId": 41919,
+      "inatName": "Atilax paludinosus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 2,
+        "southAfrica": 882,
+        "restOfSouthAfrica": 880,
+        "anywhere": 1129
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 147,
+        "restOfSouthAfrica": 147,
+        "anywhere": 183
+      }
+    },
+    {
+      "slug": "helogale-parvula",
+      "scientificName": "Helogale parvula",
+      "en": "Dwarf mongoose",
+      "af": "Dwergmuishond",
+      "order": "Carnivora",
+      "family": "herpestidae",
+      "taxonId": 41906,
+      "inatName": "Helogale parvula",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 655,
+        "southAfrica": 1076,
+        "restOfSouthAfrica": 421,
+        "anywhere": 1960
+      },
+      "withoutNc": {
+        "kruger": 120,
+        "southAfrica": 165,
+        "restOfSouthAfrica": 45,
+        "anywhere": 288
+      }
+    },
+    {
+      "slug": "herpestes-ichneumon",
+      "scientificName": "Herpestes ichneumon",
+      "en": "Large grey mongoose",
+      "af": "Grootgrysmuishond",
+      "order": "Carnivora",
+      "family": "herpestidae",
+      "taxonId": 41900,
+      "inatName": "Herpestes ichneumon",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 162,
+        "restOfSouthAfrica": 162,
+        "anywhere": 1162
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 40,
+        "restOfSouthAfrica": 40,
+        "anywhere": 124
+      }
+    },
+    {
+      "slug": "herpestes-sanguineus",
+      "scientificName": "Herpestes sanguineus",
+      "en": "Slender mongoose",
+      "af": "Swartkwasmuishond",
+      "order": "Carnivora",
+      "family": "herpestidae",
+      "taxonId": 74414,
+      "inatName": "Herpestes sanguineus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 235,
+        "southAfrica": 791,
+        "restOfSouthAfrica": 556,
+        "anywhere": 1450
+      },
+      "withoutNc": {
+        "kruger": 48,
+        "southAfrica": 107,
+        "restOfSouthAfrica": 59,
+        "anywhere": 195
+      }
+    },
+    {
+      "slug": "ichneumia-albicauda",
+      "scientificName": "Ichneumia albicauda",
+      "en": "White-tailed mongoose",
+      "af": "Witstertmuishond",
+      "order": "Carnivora",
+      "family": "herpestidae",
+      "taxonId": 41939,
+      "inatName": "Ichneumia albicauda",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 16,
+        "southAfrica": 162,
+        "restOfSouthAfrica": 146,
+        "anywhere": 717
+      },
+      "withoutNc": {
+        "kruger": 1,
+        "southAfrica": 15,
+        "restOfSouthAfrica": 14,
+        "anywhere": 71
+      }
+    },
+    {
+      "slug": "mungos-mungo",
+      "scientificName": "Mungos mungo",
+      "en": "Banded mongoose",
+      "af": "Gebande muishond",
+      "order": "Carnivora",
+      "family": "herpestidae",
+      "taxonId": 41921,
+      "inatName": "Mungos mungo",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 115,
+        "southAfrica": 995,
+        "restOfSouthAfrica": 880,
+        "anywhere": 3263
+      },
+      "withoutNc": {
+        "kruger": 16,
+        "southAfrica": 116,
+        "restOfSouthAfrica": 100,
+        "anywhere": 376
+      }
+    },
+    {
+      "slug": "paracynictis-selousi",
+      "scientificName": "Paracynictis selousi",
+      "en": "Selous' mongoose",
+      "af": "Kleinwitstertmuishond",
+      "order": "Carnivora",
+      "family": "herpestidae",
+      "taxonId": 41937,
+      "inatName": "Paracynictis selousi",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 3,
+        "restOfSouthAfrica": 3,
+        "anywhere": 15
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 2
+      }
+    },
+    {
+      "slug": "rhynchogale-melleri",
+      "scientificName": "Rhynchogale melleri",
+      "en": "Meller's mongoose",
+      "af": "Meller se muishond",
+      "order": "Carnivora",
+      "family": "herpestidae",
+      "taxonId": 41941,
+      "inatName": "Rhynchogale melleri",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 25,
+        "restOfSouthAfrica": 25,
+        "anywhere": 30
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "scientificName": "Crocuta crocuta",
+      "en": "Spotted hyaena",
+      "af": "Gevlekte hiëna",
+      "order": "Carnivora",
+      "family": "hyaenidae",
+      "taxonId": 41886,
+      "inatName": "Crocuta crocuta",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1823,
+        "southAfrica": 2914,
+        "restOfSouthAfrica": 1091,
+        "anywhere": 7355
+      },
+      "withoutNc": {
+        "kruger": 300,
+        "southAfrica": 413,
+        "restOfSouthAfrica": 113,
+        "anywhere": 947
+      }
+    },
+    {
+      "slug": "parahyaena-brunnea",
+      "scientificName": "Parahyaena brunnea",
+      "en": "Brown hyaena",
+      "af": "Strandjut",
+      "order": "Carnivora",
+      "family": "hyaenidae",
+      "taxonId": 500648,
+      "inatName": "Parahyaena brunnea",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 390,
+        "restOfSouthAfrica": 390,
+        "anywhere": 647
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 59,
+        "restOfSouthAfrica": 59,
+        "anywhere": 84
+      }
+    },
+    {
+      "slug": "proteles-cristatus",
+      "scientificName": "Proteles cristatus",
+      "en": "Aardwolf",
+      "af": "Aardwolf",
+      "order": "Carnivora",
+      "family": "hyaenidae",
+      "taxonId": 1306005,
+      "inatName": "Proteles cristatus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 337,
+        "restOfSouthAfrica": 337,
+        "anywhere": 435
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 53,
+        "restOfSouthAfrica": 53,
+        "anywhere": 60
+      }
+    },
+    {
+      "slug": "ictonyx-striatus",
+      "scientificName": "Ictonyx striatus",
+      "en": "Striped polecat",
+      "af": "Stinkmuishond",
+      "order": "Carnivora",
+      "family": "mustelidae",
+      "taxonId": 41822,
+      "inatName": "Ictonyx striatus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 248,
+        "restOfSouthAfrica": 248,
+        "anywhere": 322
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 43,
+        "restOfSouthAfrica": 43,
+        "anywhere": 51
+      }
+    },
+    {
+      "slug": "lutra-capensis",
+      "scientificName": "Lutra capensis",
+      "en": "Cape clawless otter",
+      "af": "Groototter",
+      "order": "Carnivora",
+      "family": "mustelidae",
+      "taxonId": 1638841,
+      "inatName": "Lutra capensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 18,
+        "southAfrica": 862,
+        "restOfSouthAfrica": 844,
+        "anywhere": 947
+      },
+      "withoutNc": {
+        "kruger": 4,
+        "southAfrica": 171,
+        "restOfSouthAfrica": 167,
+        "anywhere": 178
+      }
+    },
+    {
+      "slug": "mellivora-capensis",
+      "scientificName": "Mellivora capensis",
+      "en": "Honey badger",
+      "af": "Ratel",
+      "order": "Carnivora",
+      "family": "mustelidae",
+      "taxonId": 41834,
+      "inatName": "Mellivora capensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 135,
+        "southAfrica": 540,
+        "restOfSouthAfrica": 405,
+        "anywhere": 984
+      },
+      "withoutNc": {
+        "kruger": 22,
+        "southAfrica": 80,
+        "restOfSouthAfrica": 58,
+        "anywhere": 117
+      }
+    },
+    {
+      "slug": "civettictis-civetta",
+      "scientificName": "Civettictis civetta",
+      "en": "African civet",
+      "af": "Afrikaanse siwet",
+      "order": "Carnivora",
+      "family": "viverridae",
+      "taxonId": 41627,
+      "inatName": "Civettictis civetta",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 59,
+        "southAfrica": 346,
+        "restOfSouthAfrica": 287,
+        "anywhere": 1072
+      },
+      "withoutNc": {
+        "kruger": 6,
+        "southAfrica": 33,
+        "restOfSouthAfrica": 27,
+        "anywhere": 100
+      }
+    },
+    {
+      "slug": "genetta-felina",
+      "scientificName": "Genetta felina",
+      "en": "Small-spotted genet",
+      "af": "Kleinkolmuskejaatkat",
+      "order": "Carnivora",
+      "family": "viverridae",
+      "taxonId": 925659,
+      "inatName": "Genetta felina",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 33,
+        "southAfrica": 335,
+        "restOfSouthAfrica": 302,
+        "anywhere": 452
+      },
+      "withoutNc": {
+        "kruger": 6,
+        "southAfrica": 54,
+        "restOfSouthAfrica": 48,
+        "anywhere": 71
+      }
+    },
+    {
+      "slug": "genetta-fieldiana",
+      "scientificName": "Genetta fieldiana",
+      "en": "Large-spotted genet",
+      "af": "Rooikolmuskejaatkat",
+      "order": "Carnivora",
+      "family": "viverridae",
+      "taxonId": 1643992,
+      "inatName": "Genetta fieldiana",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 129,
+        "southAfrica": 583,
+        "restOfSouthAfrica": 454,
+        "anywhere": 1491
+      },
+      "withoutNc": {
+        "kruger": 20,
+        "southAfrica": 67,
+        "restOfSouthAfrica": 47,
+        "anywhere": 345
+      }
+    },
+    {
+      "slug": "taphozous-mauritianus",
+      "scientificName": "Taphozous mauritianus",
+      "en": "Tomb bat",
+      "af": "Witlyfvlermuis",
+      "order": "Chiroptera",
+      "family": "emballonuridae",
+      "taxonId": 41380,
+      "inatName": "Taphozous mauritianus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 51,
+        "southAfrica": 172,
+        "restOfSouthAfrica": 121,
+        "anywhere": 436
+      },
+      "withoutNc": {
+        "kruger": 3,
+        "southAfrica": 17,
+        "restOfSouthAfrica": 14,
+        "anywhere": 35
+      }
+    },
+    {
+      "slug": "hipposideros-caffer",
+      "scientificName": "Hipposideros caffer",
+      "en": "Sundevall's leaf-nosed bat",
+      "af": "Sundevall se Bladneusvlermuis",
+      "order": "Chiroptera",
+      "family": "hipposideridae",
+      "taxonId": null,
+      "inatName": null,
+      "inatRank": null,
+      "match": null,
+      "withNc": {
+        "kruger": null,
+        "southAfrica": null,
+        "restOfSouthAfrica": null,
+        "anywhere": null
+      },
+      "withoutNc": {
+        "kruger": null,
+        "southAfrica": null,
+        "restOfSouthAfrica": null,
+        "anywhere": null
+      }
+    },
+    {
+      "slug": "hipposideros-commersoni",
+      "scientificName": "Hipposideros commersoni",
+      "en": "Commerson's leaf-nosed bat",
+      "af": "Commerson se bladneusvlermuis",
+      "order": "Chiroptera",
+      "family": "hipposideridae",
+      "taxonId": 851027,
+      "inatName": "Macronycteris commersonii",
+      "inatRank": "species",
+      "match": "iNaturalist synonym",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 49
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 7
+      }
+    },
+    {
+      "slug": "miniopterus-natalensis",
+      "scientificName": "Miniopterus natalensis",
+      "en": "Schreibers' long-fingered bat",
+      "af": "Schreibers se grotvlermuis",
+      "order": "Chiroptera",
+      "family": "miniopteridae",
+      "taxonId": 57530,
+      "inatName": "Miniopterus natalensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 13,
+        "restOfSouthAfrica": 13,
+        "anywhere": 24
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "mops-ansorgei",
+      "scientificName": "Mops ansorgei",
+      "en": "Ansorge's free-tailed bat",
+      "af": "Ansorge se losstertvlermuis",
+      "order": "Chiroptera",
+      "family": "molossidae",
+      "taxonId": 1430965,
+      "inatName": "Mops ansorgei",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 2
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "mops-condylurus",
+      "scientificName": "Mops condylurus",
+      "en": "Angola free-tailed bat",
+      "af": "Angola-losstertvlermuis",
+      "order": "Chiroptera",
+      "family": "molossidae",
+      "taxonId": 765544,
+      "inatName": "Mops condylurus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 11
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "mops-midas",
+      "scientificName": "Mops midas",
+      "en": "Midas free-tailed bat",
+      "af": "Midas se losstertvlermuis",
+      "order": "Chiroptera",
+      "family": "molossidae",
+      "taxonId": 765553,
+      "inatName": "Mops midas",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 2
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "mops-pumilus",
+      "scientificName": "Mops pumilus",
+      "en": "Little free-tailed bat",
+      "af": "Klein losstertvlermuis",
+      "order": "Chiroptera",
+      "family": "molossidae",
+      "taxonId": 1370990,
+      "inatName": "Mops pumilus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1,
+        "southAfrica": 14,
+        "restOfSouthAfrica": 13,
+        "anywhere": 31
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 3,
+        "restOfSouthAfrica": 3,
+        "anywhere": 3
+      }
+    },
+    {
+      "slug": "tadarida-aegyptiaca",
+      "scientificName": "Tadarida aegyptiaca",
+      "en": "Egyptian free-tailed bat",
+      "af": "Egiptiese losstertvlermuis",
+      "order": "Chiroptera",
+      "family": "molossidae",
+      "taxonId": 41300,
+      "inatName": "Tadarida aegyptiaca",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 40,
+        "restOfSouthAfrica": 40,
+        "anywhere": 55
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 9,
+        "restOfSouthAfrica": 9,
+        "anywhere": 13
+      }
+    },
+    {
+      "slug": "tadarida-fulminans",
+      "scientificName": "Tadarida fulminans",
+      "en": "Madagascar large free-tailed bat",
+      "af": "Madagaskarse grootlosstersvlermuis",
+      "order": "Chiroptera",
+      "family": "molossidae",
+      "taxonId": 41296,
+      "inatName": "Tadarida fulminans",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "nycteris-thebaica",
+      "scientificName": "Nycteris thebaica",
+      "en": "Common slit-faced bat",
+      "af": "Gewone spleetneusvlermuis",
+      "order": "Chiroptera",
+      "family": "nycteridae",
+      "taxonId": 41192,
+      "inatName": "Nycteris thebaica",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 11,
+        "southAfrica": 104,
+        "restOfSouthAfrica": 93,
+        "anywhere": 176
+      },
+      "withoutNc": {
+        "kruger": 5,
+        "southAfrica": 19,
+        "restOfSouthAfrica": 14,
+        "anywhere": 26
+      }
+    },
+    {
+      "slug": "nycteris-woodi",
+      "scientificName": "Nycteris woodi",
+      "en": "Wood's slit-faced bat",
+      "af": "Wood se spleetneusvlermuis",
+      "order": "Chiroptera",
+      "family": "nycteridae",
+      "taxonId": 41190,
+      "inatName": "Nycteris woodi",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 2
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "epomophorus-crypturus",
+      "scientificName": "Epomophorus crypturus",
+      "en": "Peters' epauletted fruit bat",
+      "af": "Peters se witkol-vrugtevlermuis",
+      "order": "Chiroptera",
+      "family": "pteropodidae",
+      "taxonId": 64485,
+      "inatName": "Epomophorus crypturus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 130
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 19
+      }
+    },
+    {
+      "slug": "epomophorus-wahlbergi",
+      "scientificName": "Epomophorus wahlbergi",
+      "en": "Wahlberg's epauletted fruit bat",
+      "af": "Wahlberg se witkolvrugtevlermuis",
+      "order": "Chiroptera",
+      "family": "pteropodidae",
+      "taxonId": 40811,
+      "inatName": "Epomophorus wahlbergi",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 238,
+        "restOfSouthAfrica": 238,
+        "anywhere": 260
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 40,
+        "restOfSouthAfrica": 40,
+        "anywhere": 43
+      }
+    },
+    {
+      "slug": "rousettus-aegyptiacus",
+      "scientificName": "Rousettus aegyptiacus",
+      "en": "Egyptian fruit bat",
+      "af": "Egiptiese vrugtevlermuis",
+      "order": "Chiroptera",
+      "family": "pteropodidae",
+      "taxonId": 75042,
+      "inatName": "Rousettus aegyptiacus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 40,
+        "restOfSouthAfrica": 40,
+        "anywhere": 376
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 6,
+        "restOfSouthAfrica": 6,
+        "anywhere": 43
+      }
+    },
+    {
+      "slug": "rhinolophus-blasii",
+      "scientificName": "Rhinolophus blasii",
+      "en": "Peak-saddle horseshoe bat",
+      "af": "Spitssaalneusvlermuis",
+      "order": "Chiroptera",
+      "family": "rhinolophidae",
+      "taxonId": 40673,
+      "inatName": "Rhinolophus blasii",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 19
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 3
+      }
+    },
+    {
+      "slug": "rhinolophus-clivosus",
+      "scientificName": "Rhinolophus clivosus",
+      "en": "Geoffroy's horseshoe bat",
+      "af": "Geoffroy se saalneusvlermuis",
+      "order": "Chiroptera",
+      "family": "rhinolophidae",
+      "taxonId": 320633,
+      "inatName": "Rhinolophus clivosus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 4,
+        "restOfSouthAfrica": 4,
+        "anywhere": 17
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "rhinolophus-darlingi",
+      "scientificName": "Rhinolophus darlingi",
+      "en": "Darling's horseshoe bat",
+      "af": "Darling se saalneusvlermuis",
+      "order": "Chiroptera",
+      "family": "rhinolophidae",
+      "taxonId": 338548,
+      "inatName": "Rhinolophus darlingi",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 0,
+        "anywhere": 2
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "rhinolophus-fumigatus",
+      "scientificName": "Rhinolophus fumigatus",
+      "en": "Rüppell's horseshoe bat",
+      "af": "Rüppell se saalneusvlermuis",
+      "order": "Chiroptera",
+      "family": "rhinolophidae",
+      "taxonId": 40684,
+      "inatName": "Rhinolophus fumigatus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 11
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "rhinolophus-hildebrandtii",
+      "scientificName": "Rhinolophus hildebrandtii",
+      "en": "Hildebrandt's horseshoe bat",
+      "af": "Hildebrandt se saalneusvlermuis",
+      "order": "Chiroptera",
+      "family": "rhinolophidae",
+      "taxonId": 183175,
+      "inatName": "Rhinolophus hildebrandtii",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 2,
+        "restOfSouthAfrica": 2,
+        "anywhere": 7
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "rhinolophus-landeri",
+      "scientificName": "Rhinolophus landeri",
+      "en": "Lander's horseshoe bat",
+      "af": "Lander se saalneusvlermuis",
+      "order": "Chiroptera",
+      "family": "rhinolophidae",
+      "taxonId": 40680,
+      "inatName": "Rhinolophus landeri",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 10
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "rhinolophus-simulator",
+      "scientificName": "Rhinolophus simulator",
+      "en": "Bushveld horseshoe bat",
+      "af": "Bosveldsaalneusvlermuis",
+      "order": "Chiroptera",
+      "family": "rhinolophidae",
+      "taxonId": 40693,
+      "inatName": "Rhinolophus simulator",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 4
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "rhinolophus-swinnyi",
+      "scientificName": "Rhinolophus swinnyi",
+      "en": "Swinny's horseshoe bat",
+      "af": "Swinny se saalneusvlermuis",
+      "order": "Chiroptera",
+      "family": "rhinolophidae",
+      "taxonId": 40670,
+      "inatName": "Rhinolophus swinnyi",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "afronycteris-nanus",
+      "scientificName": "Afronycteris nanus",
+      "en": "Banana bat",
+      "af": "Piesangvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 1431034,
+      "inatName": "Afronycteris nanus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1,
+        "southAfrica": 9,
+        "restOfSouthAfrica": 8,
+        "anywhere": 27
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "cnephaeus-hottentotus",
+      "scientificName": "Cnephaeus hottentotus",
+      "en": "Long-tailed serotine bat",
+      "af": "Langstertdakvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 1596136,
+      "inatName": "Cnephaeus hottentotus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1,
+        "southAfrica": 6,
+        "restOfSouthAfrica": 5,
+        "anywhere": 6
+      },
+      "withoutNc": {
+        "kruger": 1,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 0,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "glauconycteris-variegata",
+      "scientificName": "Glauconycteris variegata",
+      "en": "Butterfly bat",
+      "af": "Vlindervlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 57549,
+      "inatName": "Glauconycteris variegata",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 3,
+        "restOfSouthAfrica": 3,
+        "anywhere": 11
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "kerivoula-argentata",
+      "scientificName": "Kerivoula argentata",
+      "en": "Damara woolly bat",
+      "af": "Damara-wolhaarvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 40456,
+      "inatName": "Kerivoula argentata",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 4
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "kerivoula-lanosa",
+      "scientificName": "Kerivoula lanosa",
+      "en": "Lesser woolly bat",
+      "af": "Klein wolhaarvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 40468,
+      "inatName": "Kerivoula lanosa",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 1
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "laephotis-angolensis",
+      "scientificName": "Laephotis angolensis",
+      "en": "Botswana long-eared bat",
+      "af": "Botswana-langoorvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 40531,
+      "inatName": "Laephotis angolensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 2
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "laephotis-capensis",
+      "scientificName": "Laephotis capensis",
+      "en": "Cape serotine bat",
+      "af": "Kaapse Dakvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 1431030,
+      "inatName": "Laephotis capensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 91,
+        "restOfSouthAfrica": 91,
+        "anywhere": 93
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 16,
+        "restOfSouthAfrica": 16,
+        "anywhere": 17
+      }
+    },
+    {
+      "slug": "myotis-bocagii",
+      "scientificName": "Myotis bocagii",
+      "en": "Rufous hairy bat",
+      "af": "Rooi langhaarvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 74698,
+      "inatName": "Myotis bocagii",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 19
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "myotis-tricolor",
+      "scientificName": "Myotis tricolor",
+      "en": "Temminck's hairy bat",
+      "af": "Temminck se langhaarvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 40279,
+      "inatName": "Myotis tricolor",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 10,
+        "restOfSouthAfrica": 10,
+        "anywhere": 18
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 2,
+        "restOfSouthAfrica": 2,
+        "anywhere": 2
+      }
+    },
+    {
+      "slug": "myotis-welwitschii",
+      "scientificName": "Myotis welwitschii",
+      "en": "Welwitsch's hairy bat",
+      "af": "Welwitsch se langhaarvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 40336,
+      "inatName": "Myotis welwitschii",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1,
+        "southAfrica": 3,
+        "restOfSouthAfrica": 2,
+        "anywhere": 18
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "neoromicia-anchieta",
+      "scientificName": "Neoromicia anchieta",
+      "en": "Anchieta's bat",
+      "af": "Anchieta se vlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 1431023,
+      "inatName": "Neoromicia anchieta",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "neoromicia-zuluensis",
+      "scientificName": "Neoromicia zuluensis",
+      "en": "Somali serotine bat",
+      "af": "Somali-dakvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 765532,
+      "inatName": "Neoromicia zuluensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "nycticeinops-schlieffenii",
+      "scientificName": "Nycticeinops schlieffenii",
+      "en": "Schlieffen's bat",
+      "af": "Schlieffen se vlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 57550,
+      "inatName": "Nycticeinops schlieffenii",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 7
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "pipistrellus-hesperidus",
+      "scientificName": "Pipistrellus hesperidus",
+      "en": "African pipistrellus",
+      "af": "Kuhl se vlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 57536,
+      "inatName": "Pipistrellus hesperidus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 2,
+        "restOfSouthAfrica": 2,
+        "anywhere": 2
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "pipistrellus-rusticus",
+      "scientificName": "Pipistrellus rusticus",
+      "en": "Rusty bat",
+      "af": "Roeskleurvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 40361,
+      "inatName": "Pipistrellus rusticus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "scotophilus-borbonicus",
+      "scientificName": "Scotophilus borbonicus",
+      "en": "Lesser yellow house bat",
+      "af": "Klein geel dakvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 40441,
+      "inatName": "Scotophilus borbonicus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "scotophilus-dinganii",
+      "scientificName": "Scotophilus dinganii",
+      "en": "Yellow house bat",
+      "af": "Geel dakvlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 40436,
+      "inatName": "Scotophilus dinganii",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 4,
+        "southAfrica": 40,
+        "restOfSouthAfrica": 36,
+        "anywhere": 61
+      },
+      "withoutNc": {
+        "kruger": 2,
+        "southAfrica": 3,
+        "restOfSouthAfrica": 1,
+        "anywhere": 4
+      }
+    },
+    {
+      "slug": "vansonia-rueppellii",
+      "scientificName": "Vansonia rueppellii",
+      "en": "Rüppell's bat",
+      "af": "Rüppell se vlermuis",
+      "order": "Chiroptera",
+      "family": "vespertilionidae",
+      "taxonId": 1431041,
+      "inatName": "Vansonia rueppellii",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 5
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "atelerix-frontalis",
+      "scientificName": "Atelerix frontalis",
+      "en": "South African hedgehog",
+      "af": "Suid-Afrikaanse krimpvarkie",
+      "order": "Eulipotyphla",
+      "family": "erinaceidae",
+      "taxonId": 43056,
+      "inatName": "Atelerix frontalis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 84,
+        "restOfSouthAfrica": 84,
+        "anywhere": 104
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 4,
+        "restOfSouthAfrica": 4,
+        "anywhere": 5
+      }
+    },
+    {
+      "slug": "crocidura-cyanea",
+      "scientificName": "Crocidura cyanea",
+      "en": "Reddish-grey musk shrew",
+      "af": "Rooigrysskeerbek",
+      "order": "Eulipotyphla",
+      "family": "soricidae",
+      "taxonId": 46777,
+      "inatName": "Crocidura cyanea",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 21,
+        "restOfSouthAfrica": 21,
+        "anywhere": 21
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 2,
+        "restOfSouthAfrica": 2,
+        "anywhere": 2
+      }
+    },
+    {
+      "slug": "crocidura-fuscomurina",
+      "scientificName": "Crocidura fuscomurina",
+      "en": "Tiny musk shrew",
+      "af": "Dwergskeerbek",
+      "order": "Eulipotyphla",
+      "family": "soricidae",
+      "taxonId": 46592,
+      "inatName": "Crocidura fuscomurina",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 3,
+        "restOfSouthAfrica": 3,
+        "anywhere": 5
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "crocidura-hirta",
+      "scientificName": "Crocidura hirta",
+      "en": "Lesser red musk shrew",
+      "af": "Kleiner rooiskeerbek",
+      "order": "Eulipotyphla",
+      "family": "soricidae",
+      "taxonId": 46621,
+      "inatName": "Crocidura hirta",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 3
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "crocidura-mariquensis",
+      "scientificName": "Crocidura mariquensis",
+      "en": "Swamp musk shrew",
+      "af": "Vleiskeerbek",
+      "order": "Eulipotyphla",
+      "family": "soricidae",
+      "taxonId": 46612,
+      "inatName": "Crocidura mariquensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 1
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "crocidura-silacea",
+      "scientificName": "Crocidura silacea",
+      "en": "Peters' musk shrew",
+      "af": "Peters se skeerbek",
+      "order": "Eulipotyphla",
+      "family": "soricidae",
+      "taxonId": 46772,
+      "inatName": "Crocidura silacea",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "suncus-lixa",
+      "scientificName": "Suncus lixa",
+      "en": "Greater dwarf shrew",
+      "af": "Groter dwergskeerbek",
+      "order": "Eulipotyphla",
+      "family": "soricidae",
+      "taxonId": 1370725,
+      "inatName": "Suncus lixa",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 1
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "heterohyrax-brucei",
+      "scientificName": "Heterohyrax brucei",
+      "en": "Yellow-spotted rock dassie",
+      "af": "Geelkoldas",
+      "order": "Hyracoidea",
+      "family": "procaviidae",
+      "taxonId": 43088,
+      "inatName": "Heterohyrax brucei",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 26,
+        "southAfrica": 69,
+        "restOfSouthAfrica": 43,
+        "anywhere": 1227
+      },
+      "withoutNc": {
+        "kruger": 7,
+        "southAfrica": 18,
+        "restOfSouthAfrica": 11,
+        "anywhere": 174
+      }
+    },
+    {
+      "slug": "procavia-capensis",
+      "scientificName": "Procavia capensis",
+      "en": "Rock dassie",
+      "af": "Klipdas",
+      "order": "Hyracoidea",
+      "family": "procaviidae",
+      "taxonId": 43086,
+      "inatName": "Procavia capensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 38,
+        "southAfrica": 5027,
+        "restOfSouthAfrica": 4989,
+        "anywhere": 7307
+      },
+      "withoutNc": {
+        "kruger": 4,
+        "southAfrica": 932,
+        "restOfSouthAfrica": 928,
+        "anywhere": 1305
+      }
+    },
+    {
+      "slug": "lepus-capensis",
+      "scientificName": "Lepus capensis",
+      "en": "Cape hare",
+      "af": "Vlakhaas",
+      "order": "Lagomorpha",
+      "family": "leporidae",
+      "taxonId": 57560,
+      "inatName": "Lepus capensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 219,
+        "restOfSouthAfrica": 219,
+        "anywhere": 511
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 23,
+        "restOfSouthAfrica": 23,
+        "anywhere": 67
+      }
+    },
+    {
+      "slug": "lepus-saxatilis",
+      "scientificName": "Lepus saxatilis",
+      "en": "Scrub hare",
+      "af": "Kolhaas",
+      "order": "Lagomorpha",
+      "family": "leporidae",
+      "taxonId": 43125,
+      "inatName": "Lepus saxatilis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 84,
+        "southAfrica": 660,
+        "restOfSouthAfrica": 576,
+        "anywhere": 743
+      },
+      "withoutNc": {
+        "kruger": 10,
+        "southAfrica": 91,
+        "restOfSouthAfrica": 81,
+        "anywhere": 97
+      }
+    },
+    {
+      "slug": "pronolagus-crassicaudatus",
+      "scientificName": "Pronolagus crassicaudatus",
+      "en": "Natal red rock rabbit",
+      "af": "Natalse rooiklipkonyn",
+      "order": "Lagomorpha",
+      "family": "leporidae",
+      "taxonId": 43158,
+      "inatName": "Pronolagus crassicaudatus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 4,
+        "restOfSouthAfrica": 4,
+        "anywhere": 4
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "elephantulus-brachyrhynchus",
+      "scientificName": "Elephantulus brachyrhynchus",
+      "en": "Short-shouted elephant-shrew",
+      "af": "Kortneus klaasneus",
+      "order": "Macroscelidea",
+      "family": "macroscelididae",
+      "taxonId": 43211,
+      "inatName": "Elephantulus brachyrhynchus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1,
+        "southAfrica": 10,
+        "restOfSouthAfrica": 9,
+        "anywhere": 17
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "elephantulus-myurus",
+      "scientificName": "Elephantulus myurus",
+      "en": "Rock elephant-shrew",
+      "af": "Klipklaasneus",
+      "order": "Macroscelidea",
+      "family": "macroscelididae",
+      "taxonId": 43213,
+      "inatName": "Elephantulus myurus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 13,
+        "southAfrica": 86,
+        "restOfSouthAfrica": 73,
+        "anywhere": 115
+      },
+      "withoutNc": {
+        "kruger": 2,
+        "southAfrica": 10,
+        "restOfSouthAfrica": 8,
+        "anywhere": 14
+      }
+    },
+    {
+      "slug": "petrodromus-tetradactylus",
+      "scientificName": "Petrodromus tetradactylus",
+      "en": "Four-toed elephant-shrew",
+      "af": "Bosklaasneus",
+      "order": "Macroscelidea",
+      "family": "macroscelididae",
+      "taxonId": 43226,
+      "inatName": "Petrodromus tetradactylus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 12,
+        "southAfrica": 22,
+        "restOfSouthAfrica": 10,
+        "anywhere": 289
+      },
+      "withoutNc": {
+        "kruger": 2,
+        "southAfrica": 2,
+        "restOfSouthAfrica": 0,
+        "anywhere": 193
+      }
+    },
+    {
+      "slug": "equus-quagga",
+      "scientificName": "Equus quagga",
+      "en": "Burchell's zebra",
+      "af": "Bontsebra",
+      "order": "Perissodactyla",
+      "family": "equidae",
+      "taxonId": 43335,
+      "inatName": "Equus quagga",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1962,
+        "southAfrica": 8099,
+        "restOfSouthAfrica": 6137,
+        "anywhere": 17783
+      },
+      "withoutNc": {
+        "kruger": 382,
+        "southAfrica": 1340,
+        "restOfSouthAfrica": 958,
+        "anywhere": 2668
+      }
+    },
+    {
+      "slug": "ceratotherium-simum",
+      "scientificName": "Ceratotherium simum",
+      "en": "White rhinoceros",
+      "af": "Witrenoster",
+      "order": "Perissodactyla",
+      "family": "rhinocerotidae",
+      "taxonId": 43348,
+      "inatName": "Ceratotherium simum",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 652,
+        "southAfrica": 3364,
+        "restOfSouthAfrica": 2712,
+        "anywhere": 5456
+      },
+      "withoutNc": {
+        "kruger": 114,
+        "southAfrica": 438,
+        "restOfSouthAfrica": 324,
+        "anywhere": 685
+      }
+    },
+    {
+      "slug": "diceros-bicornis",
+      "scientificName": "Diceros bicornis",
+      "en": "Black rhinoceros",
+      "af": "Swartrenoster",
+      "order": "Perissodactyla",
+      "family": "rhinocerotidae",
+      "taxonId": 43350,
+      "inatName": "Diceros bicornis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 35,
+        "southAfrica": 265,
+        "restOfSouthAfrica": 230,
+        "anywhere": 2107
+      },
+      "withoutNc": {
+        "kruger": 10,
+        "southAfrica": 61,
+        "restOfSouthAfrica": 51,
+        "anywhere": 288
+      }
+    },
+    {
+      "slug": "smutsia-temminckii",
+      "scientificName": "Smutsia temminckii",
+      "en": "Pangolin",
+      "af": "Ietermagog",
+      "order": "Pholidota",
+      "family": "manidae",
+      "taxonId": 75083,
+      "inatName": "Smutsia temminckii",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 9,
+        "southAfrica": 77,
+        "restOfSouthAfrica": 68,
+        "anywhere": 192
+      },
+      "withoutNc": {
+        "kruger": 2,
+        "southAfrica": 10,
+        "restOfSouthAfrica": 8,
+        "anywhere": 17
+      }
+    },
+    {
+      "slug": "chlorocebus-pygerythrus",
+      "scientificName": "Chlorocebus pygerythrus",
+      "en": "Vervet monkey",
+      "af": "Blouaap",
+      "order": "Primates",
+      "family": "cercopithecidae",
+      "taxonId": 68137,
+      "inatName": "Chlorocebus pygerythrus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1043,
+        "southAfrica": 5840,
+        "restOfSouthAfrica": 4797,
+        "anywhere": 10352
+      },
+      "withoutNc": {
+        "kruger": 165,
+        "southAfrica": 923,
+        "restOfSouthAfrica": 758,
+        "anywhere": 1447
+      }
+    },
+    {
+      "slug": "papio-ursinus",
+      "scientificName": "Papio ursinus",
+      "en": "Chacma Baboon",
+      "af": "Kaapse bobbejaan",
+      "order": "Primates",
+      "family": "cercopithecidae",
+      "taxonId": 57556,
+      "inatName": "Papio ursinus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1220,
+        "southAfrica": 6910,
+        "restOfSouthAfrica": 5690,
+        "anywhere": 9087
+      },
+      "withoutNc": {
+        "kruger": 201,
+        "southAfrica": 1319,
+        "restOfSouthAfrica": 1118,
+        "anywhere": 1622
+      }
+    },
+    {
+      "slug": "galago-moholi",
+      "scientificName": "Galago moholi",
+      "en": "South African lesser bushbaby",
+      "af": "Nagapie",
+      "order": "Primates",
+      "family": "galagidae",
+      "taxonId": 43561,
+      "inatName": "Galago moholi",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 44,
+        "southAfrica": 241,
+        "restOfSouthAfrica": 197,
+        "anywhere": 352
+      },
+      "withoutNc": {
+        "kruger": 5,
+        "southAfrica": 32,
+        "restOfSouthAfrica": 27,
+        "anywhere": 44
+      }
+    },
+    {
+      "slug": "otolemur-crassicaudatus",
+      "scientificName": "Otolemur crassicaudatus",
+      "en": "Thick-tailed bushbaby",
+      "af": "Bosnagaap",
+      "order": "Primates",
+      "family": "galagidae",
+      "taxonId": 43567,
+      "inatName": "Otolemur crassicaudatus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 104,
+        "southAfrica": 322,
+        "restOfSouthAfrica": 218,
+        "anywhere": 426
+      },
+      "withoutNc": {
+        "kruger": 17,
+        "southAfrica": 50,
+        "restOfSouthAfrica": 33,
+        "anywhere": 61
+      }
+    },
+    {
+      "slug": "loxodonta-africana",
+      "scientificName": "Loxodonta africana",
+      "en": "Elephant",
+      "af": "Olifant",
+      "order": "Proboscidea",
+      "family": "elephantidae",
+      "taxonId": 43694,
+      "inatName": "Loxodonta africana",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 3733,
+        "southAfrica": 9260,
+        "restOfSouthAfrica": 5527,
+        "anywhere": 22455
+      },
+      "withoutNc": {
+        "kruger": 666,
+        "southAfrica": 1719,
+        "restOfSouthAfrica": 1053,
+        "anywhere": 3370
+      }
+    },
+    {
+      "slug": "cryptomys-hottentotus",
+      "scientificName": "Cryptomys hottentotus",
+      "en": "Common molerat",
+      "af": "Vaalmol",
+      "order": "Rodentia",
+      "family": "bathyergidae",
+      "taxonId": 43749,
+      "inatName": "Cryptomys hottentotus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 148,
+        "restOfSouthAfrica": 148,
+        "anywhere": 148
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 58,
+        "restOfSouthAfrica": 58,
+        "anywhere": 58
+      }
+    },
+    {
+      "slug": "graphiurus-murinus",
+      "scientificName": "Graphiurus murinus",
+      "en": "Woodland dormouse",
+      "af": "Boswaaierstertmuis",
+      "order": "Rodentia",
+      "family": "gliridae",
+      "taxonId": 45848,
+      "inatName": "Graphiurus murinus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 3,
+        "southAfrica": 69,
+        "restOfSouthAfrica": 66,
+        "anywhere": 107
+      },
+      "withoutNc": {
+        "kruger": 3,
+        "southAfrica": 11,
+        "restOfSouthAfrica": 8,
+        "anywhere": 13
+      }
+    },
+    {
+      "slug": "hystrix-africaeaustralis",
+      "scientificName": "Hystrix africaeaustralis",
+      "en": "Cape porcupine",
+      "af": "Kaapse ystervark",
+      "order": "Rodentia",
+      "family": "hystricidae",
+      "taxonId": 44173,
+      "inatName": "Hystrix africaeaustralis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 43,
+        "southAfrica": 3723,
+        "restOfSouthAfrica": 3680,
+        "anywhere": 4090
+      },
+      "withoutNc": {
+        "kruger": 8,
+        "southAfrica": 764,
+        "restOfSouthAfrica": 756,
+        "anywhere": 799
+      }
+    },
+    {
+      "slug": "aethomys-chrysophilus",
+      "scientificName": "Aethomys chrysophilus",
+      "en": "Red veld rat",
+      "af": "Afrikaanse bosrot",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 45573,
+      "inatName": "Aethomys chrysophilus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 3,
+        "restOfSouthAfrica": 3,
+        "anywhere": 12
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 2,
+        "restOfSouthAfrica": 2,
+        "anywhere": 6
+      }
+    },
+    {
+      "slug": "dasymys-incomtus",
+      "scientificName": "Dasymys incomtus",
+      "en": "Water rat",
+      "af": "Waterrot",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 45632,
+      "inatName": "Dasymys incomtus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 1
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "gerbilliscus-leucogaster",
+      "scientificName": "Gerbilliscus leucogaster",
+      "en": "Bushveld gerbil",
+      "af": "Bosveldse nagmuis",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 74367,
+      "inatName": "Gerbilliscus leucogaster",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 3,
+        "southAfrica": 12,
+        "restOfSouthAfrica": 9,
+        "anywhere": 28
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 3,
+        "restOfSouthAfrica": 3,
+        "anywhere": 6
+      }
+    },
+    {
+      "slug": "grammomys-dolichurus",
+      "scientificName": "Grammomys dolichurus",
+      "en": "Woodland mouse",
+      "af": "Woudmuis",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 45253,
+      "inatName": "Grammomys dolichurus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 6,
+        "southAfrica": 21,
+        "restOfSouthAfrica": 15,
+        "anywhere": 23
+      },
+      "withoutNc": {
+        "kruger": 2,
+        "southAfrica": 6,
+        "restOfSouthAfrica": 4,
+        "anywhere": 7
+      }
+    },
+    {
+      "slug": "lemniscomys-rosalia",
+      "scientificName": "Lemniscomys rosalia",
+      "en": "Single-striped mouse",
+      "af": "Eenstreepmuis",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 45500,
+      "inatName": "Lemniscomys rosalia",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 7,
+        "southAfrica": 52,
+        "restOfSouthAfrica": 45,
+        "anywhere": 69
+      },
+      "withoutNc": {
+        "kruger": 1,
+        "southAfrica": 4,
+        "restOfSouthAfrica": 3,
+        "anywhere": 6
+      }
+    },
+    {
+      "slug": "mastomys-coucha",
+      "scientificName": "Mastomys coucha",
+      "en": "Multimammate mouse",
+      "af": "Vaalveldmuis",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 45328,
+      "inatName": "Mastomys coucha",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 3,
+        "restOfSouthAfrica": 3,
+        "anywhere": 3
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 1
+      }
+    },
+    {
+      "slug": "mastomys-natalensis",
+      "scientificName": "Mastomys natalensis",
+      "en": "Natal multimammate mouse",
+      "af": "Natalse Vaalveldmuis",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 45326,
+      "inatName": "Mastomys natalensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 4,
+        "restOfSouthAfrica": 4,
+        "anywhere": 17
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 3,
+        "restOfSouthAfrica": 3,
+        "anywhere": 7
+      }
+    },
+    {
+      "slug": "micaelamys-namaquensis",
+      "scientificName": "Micaelamys namaquensis",
+      "en": "Namaqua rock mouse",
+      "af": "Namakwalandse Klipmuis",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 851046,
+      "inatName": "Micaelamys namaquensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 1,
+        "southAfrica": 55,
+        "restOfSouthAfrica": 54,
+        "anywhere": 72
+      },
+      "withoutNc": {
+        "kruger": 1,
+        "southAfrica": 15,
+        "restOfSouthAfrica": 14,
+        "anywhere": 17
+      }
+    },
+    {
+      "slug": "mus-minutoides",
+      "scientificName": "Mus minutoides",
+      "en": "Pygmy mouse",
+      "af": "Dwergmuis",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 44716,
+      "inatName": "Mus minutoides",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 4,
+        "southAfrica": 107,
+        "restOfSouthAfrica": 103,
+        "anywhere": 147
+      },
+      "withoutNc": {
+        "kruger": 1,
+        "southAfrica": 28,
+        "restOfSouthAfrica": 27,
+        "anywhere": 33
+      }
+    },
+    {
+      "slug": "otomys-angoniensis",
+      "scientificName": "Otomys angoniensis",
+      "en": "Angoni vlei rat",
+      "af": "Angoni-vleirot",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 45439,
+      "inatName": "Otomys angoniensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 5,
+        "restOfSouthAfrica": 5,
+        "anywhere": 6
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "thallomys-paedulcus",
+      "scientificName": "Thallomys paedulcus",
+      "en": "Tree rat",
+      "af": "Boomrot",
+      "order": "Rodentia",
+      "family": "muridae",
+      "taxonId": 45414,
+      "inatName": "Thallomys paedulcus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 8,
+        "southAfrica": 12,
+        "restOfSouthAfrica": 4,
+        "anywhere": 36
+      },
+      "withoutNc": {
+        "kruger": 1,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 0,
+        "anywhere": 3
+      }
+    },
+    {
+      "slug": "cricetomys-ansorgei",
+      "scientificName": "Cricetomys ansorgei",
+      "en": "Giant rat",
+      "af": "Reuse rot",
+      "order": "Rodentia",
+      "family": "nesomyidae",
+      "taxonId": 1453959,
+      "inatName": "Cricetomys ansorgei",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 5,
+        "southAfrica": 13,
+        "restOfSouthAfrica": 8,
+        "anywhere": 225
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 152
+      }
+    },
+    {
+      "slug": "dendromus-melanotis",
+      "scientificName": "Dendromus melanotis",
+      "en": "Grey climbing mouse",
+      "af": "Grysklimmuis",
+      "order": "Rodentia",
+      "family": "nesomyidae",
+      "taxonId": 44971,
+      "inatName": "Dendromus melanotis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 25,
+        "restOfSouthAfrica": 25,
+        "anywhere": 35
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 2,
+        "restOfSouthAfrica": 2,
+        "anywhere": 3
+      }
+    },
+    {
+      "slug": "dendromus-mystacalis",
+      "scientificName": "Dendromus mystacalis",
+      "en": "Chestnut climbing mouse",
+      "af": "Roeskleurklimmuis",
+      "order": "Rodentia",
+      "family": "nesomyidae",
+      "taxonId": 44976,
+      "inatName": "Dendromus mystacalis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 6
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "saccostomus-campestris",
+      "scientificName": "Saccostomus campestris",
+      "en": "Pouched mouse",
+      "af": "Wangsakmuis",
+      "order": "Rodentia",
+      "family": "nesomyidae",
+      "taxonId": 44509,
+      "inatName": "Saccostomus campestris",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 3,
+        "southAfrica": 26,
+        "restOfSouthAfrica": 23,
+        "anywhere": 51
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 5,
+        "restOfSouthAfrica": 5,
+        "anywhere": 11
+      }
+    },
+    {
+      "slug": "steatomys-pratensis",
+      "scientificName": "Steatomys pratensis",
+      "en": "Fat mouse",
+      "af": "Vetmuis",
+      "order": "Rodentia",
+      "family": "nesomyidae",
+      "taxonId": 44923,
+      "inatName": "Steatomys pratensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 0,
+        "southAfrica": 1,
+        "restOfSouthAfrica": 1,
+        "anywhere": 7
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 0,
+        "restOfSouthAfrica": 0,
+        "anywhere": 0
+      }
+    },
+    {
+      "slug": "pedetes-capensis",
+      "scientificName": "Pedetes capensis",
+      "en": "Springhaas",
+      "af": "Springhaas",
+      "order": "Rodentia",
+      "family": "pedetidae",
+      "taxonId": 45929,
+      "inatName": "Pedetes capensis",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 41,
+        "southAfrica": 202,
+        "restOfSouthAfrica": 161,
+        "anywhere": 281
+      },
+      "withoutNc": {
+        "kruger": 10,
+        "southAfrica": 36,
+        "restOfSouthAfrica": 26,
+        "anywhere": 52
+      }
+    },
+    {
+      "slug": "paraxerus-cepapi",
+      "scientificName": "Paraxerus cepapi",
+      "en": "Tree squirrel",
+      "af": "Boomeekhoring",
+      "order": "Rodentia",
+      "family": "sciuridae",
+      "taxonId": 46110,
+      "inatName": "Paraxerus cepapi",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 808,
+        "southAfrica": 1449,
+        "restOfSouthAfrica": 641,
+        "anywhere": 2612
+      },
+      "withoutNc": {
+        "kruger": 126,
+        "southAfrica": 211,
+        "restOfSouthAfrica": 85,
+        "anywhere": 387
+      }
+    },
+    {
+      "slug": "thryonomys-swinderianus",
+      "scientificName": "Thryonomys swinderianus",
+      "en": "Greater canerat",
+      "af": "Groot rietrot",
+      "order": "Rodentia",
+      "family": "thryonomyidae",
+      "taxonId": 46279,
+      "inatName": "Thryonomys swinderianus",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 13,
+        "southAfrica": 132,
+        "restOfSouthAfrica": 119,
+        "anywhere": 207
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 22,
+        "restOfSouthAfrica": 22,
+        "anywhere": 23
+      }
+    },
+    {
+      "slug": "orycteropus-afer",
+      "scientificName": "Orycteropus afer",
+      "en": "Aardvark",
+      "af": "Erdvark",
+      "order": "Tubulidentata",
+      "family": "orycteropodidae",
+      "taxonId": 47062,
+      "inatName": "Orycteropus afer",
+      "inatRank": "species",
+      "match": "same name",
+      "withNc": {
+        "kruger": 3,
+        "southAfrica": 664,
+        "restOfSouthAfrica": 661,
+        "anywhere": 1028
+      },
+      "withoutNc": {
+        "kruger": 0,
+        "southAfrica": 145,
+        "restOfSouthAfrica": 145,
+        "anywhere": 158
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "slug": "hipposideros-caffer",
+      "reason": "taxon id is null, so photo counts are null"
+    }
+  ],
+  "taxonGapCount": 2
+}

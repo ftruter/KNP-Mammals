@@ -1,0 +1,3075 @@
+{
+  "method": "Counts files already in data/species/details. AI-generated images are illustrations, not photographs. ND and all-rights-reserved are not displayable or playable.",
+  "species": 143,
+  "photographs": {
+    "species": 107,
+    "files": 381,
+    "openFiles": 265,
+    "ncFiles": 116,
+    "ndFiles": 0,
+    "unknownFiles": 0
+  },
+  "illustrations": 1,
+  "recordings": {
+    "species": 9,
+    "files": 12,
+    "openFiles": 1,
+    "ncFiles": 11,
+    "ndFiles": 0,
+    "unknownFiles": 0
+  },
+  "withoutPhotograph": [
+    "cnephaeus-hottentotus",
+    "crocidura-hirta",
+    "crocidura-mariquensis",
+    "crocidura-silacea",
+    "dasymys-incomtus",
+    "dendromus-mystacalis",
+    "kerivoula-argentata",
+    "kerivoula-lanosa",
+    "laephotis-angolensis",
+    "laephotis-capensis",
+    "mastomys-coucha",
+    "mops-ansorgei",
+    "mops-condylurus",
+    "mops-midas",
+    "mops-pumilus",
+    "myotis-bocagii",
+    "myotis-welwitschii",
+    "neamblysomus-julianae",
+    "neoromicia-anchieta",
+    "neoromicia-zuluensis",
+    "nycteris-woodi",
+    "nycticeinops-schlieffenii",
+    "pipistrellus-hesperidus",
+    "pipistrellus-rusticus",
+    "rhinolophus-blasii",
+    "rhinolophus-darlingi",
+    "rhinolophus-fumigatus",
+    "rhinolophus-landeri",
+    "rhinolophus-simulator",
+    "rhinolophus-swinnyi",
+    "scotophilus-borbonicus",
+    "scotophilus-dinganii",
+    "steatomys-pratensis",
+    "tadarida-aegyptiaca",
+    "tadarida-fulminans",
+    "vansonia-rueppellii"
+  ],
+  "withPlayableRecording": [
+    "chlorocebus-pygerythrus",
+    "connochaetes-taurinus",
+    "crocuta-crocuta",
+    "hippopotamus-amphibius",
+    "lupulella-mesomelas",
+    "otolemur-crassicaudatus",
+    "panthera-leo",
+    "papio-ursinus",
+    "paraxerus-cepapi"
+  ],
+  "rows": [
+    {
+      "slug": "acinonyx-jubatus",
+      "scientificName": "Acinonyx jubatus",
+      "photographs": {
+        "open": 4,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "aepyceros-melampus",
+      "scientificName": "Aepyceros melampus",
+      "photographs": {
+        "open": 7,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "aethomys-chrysophilus",
+      "scientificName": "Aethomys chrysophilus",
+      "photographs": {
+        "open": 1,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "afronycteris-nanus",
+      "scientificName": "Afronycteris nanus",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "alcelaphus-buselaphus-lichtensteinii",
+      "scientificName": "Alcelaphus buselaphus lichtensteinii",
+      "photographs": {
+        "open": 1,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "atelerix-frontalis",
+      "scientificName": "Atelerix frontalis",
+      "photographs": {
+        "open": 0,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "atilax-paludinosus",
+      "scientificName": "Atilax paludinosus",
+      "photographs": {
+        "open": 3,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "calcochloris-obtusirostris",
+      "scientificName": "Calcochloris obtusirostris",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "caracal-caracal",
+      "scientificName": "Caracal caracal",
+      "photographs": {
+        "open": 2,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "cephalophorus-natalensis",
+      "scientificName": "Cephalophorus natalensis",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "ceratotherium-simum",
+      "scientificName": "Ceratotherium simum",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "chlorocebus-pygerythrus",
+      "scientificName": "Chlorocebus pygerythrus",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": true
+    },
+    {
+      "slug": "civettictis-civetta",
+      "scientificName": "Civettictis civetta",
+      "photographs": {
+        "open": 2,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "cnephaeus-hottentotus",
+      "scientificName": "Cnephaeus hottentotus",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "connochaetes-taurinus",
+      "scientificName": "Connochaetes taurinus",
+      "photographs": {
+        "open": 7,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": true
+    },
+    {
+      "slug": "cricetomys-ansorgei",
+      "scientificName": "Cricetomys ansorgei",
+      "photographs": {
+        "open": 0,
+        "nc": 4,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "crocidura-cyanea",
+      "scientificName": "Crocidura cyanea",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "crocidura-fuscomurina",
+      "scientificName": "Crocidura fuscomurina",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "crocidura-hirta",
+      "scientificName": "Crocidura hirta",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "crocidura-mariquensis",
+      "scientificName": "Crocidura mariquensis",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "crocidura-silacea",
+      "scientificName": "Crocidura silacea",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "scientificName": "Crocuta crocuta",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": true
+    },
+    {
+      "slug": "cryptomys-hottentotus",
+      "scientificName": "Cryptomys hottentotus",
+      "photographs": {
+        "open": 1,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "damaliscus-lunatus",
+      "scientificName": "Damaliscus lunatus",
+      "photographs": {
+        "open": 7,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "dasymys-incomtus",
+      "scientificName": "Dasymys incomtus",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "dendromus-melanotis",
+      "scientificName": "Dendromus melanotis",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "dendromus-mystacalis",
+      "scientificName": "Dendromus mystacalis",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "diceros-bicornis",
+      "scientificName": "Diceros bicornis",
+      "photographs": {
+        "open": 4,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "elephantulus-brachyrhynchus",
+      "scientificName": "Elephantulus brachyrhynchus",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "elephantulus-myurus",
+      "scientificName": "Elephantulus myurus",
+      "photographs": {
+        "open": 1,
+        "nc": 4,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "epomophorus-crypturus",
+      "scientificName": "Epomophorus crypturus",
+      "photographs": {
+        "open": 1,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "epomophorus-wahlbergi",
+      "scientificName": "Epomophorus wahlbergi",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "equus-quagga",
+      "scientificName": "Equus quagga",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "felis-lybica",
+      "scientificName": "Felis lybica",
+      "photographs": {
+        "open": 4,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "galago-moholi",
+      "scientificName": "Galago moholi",
+      "photographs": {
+        "open": 1,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "genetta-felina",
+      "scientificName": "Genetta felina",
+      "photographs": {
+        "open": 4,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "genetta-fieldiana",
+      "scientificName": "Genetta fieldiana",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "gerbilliscus-leucogaster",
+      "scientificName": "Gerbilliscus leucogaster",
+      "photographs": {
+        "open": 1,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "giraffa-giraffa",
+      "scientificName": "Giraffa giraffa",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "glauconycteris-variegata",
+      "scientificName": "Glauconycteris variegata",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "grammomys-dolichurus",
+      "scientificName": "Grammomys dolichurus",
+      "photographs": {
+        "open": 1,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "graphiurus-murinus",
+      "scientificName": "Graphiurus murinus",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "helogale-parvula",
+      "scientificName": "Helogale parvula",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "herpestes-ichneumon",
+      "scientificName": "Herpestes ichneumon",
+      "photographs": {
+        "open": 1,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "herpestes-sanguineus",
+      "scientificName": "Herpestes sanguineus",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "heterohyrax-brucei",
+      "scientificName": "Heterohyrax brucei",
+      "photographs": {
+        "open": 1,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "hippopotamus-amphibius",
+      "scientificName": "Hippopotamus amphibius",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": true
+    },
+    {
+      "slug": "hipposideros-caffer",
+      "scientificName": "Hipposideros caffer",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "hipposideros-commersoni",
+      "scientificName": "Hipposideros commersoni",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "hippotragus-equinus",
+      "scientificName": "Hippotragus equinus",
+      "photographs": {
+        "open": 2,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "hippotragus-niger",
+      "scientificName": "Hippotragus niger",
+      "photographs": {
+        "open": 4,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "hystrix-africaeaustralis",
+      "scientificName": "Hystrix africaeaustralis",
+      "photographs": {
+        "open": 1,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "ichneumia-albicauda",
+      "scientificName": "Ichneumia albicauda",
+      "photographs": {
+        "open": 0,
+        "nc": 4,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "ictonyx-striatus",
+      "scientificName": "Ictonyx striatus",
+      "photographs": {
+        "open": 2,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "kerivoula-argentata",
+      "scientificName": "Kerivoula argentata",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "kerivoula-lanosa",
+      "scientificName": "Kerivoula lanosa",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "kobus-ellipsiprymnus",
+      "scientificName": "Kobus ellipsiprymnus",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "laephotis-angolensis",
+      "scientificName": "Laephotis angolensis",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "laephotis-capensis",
+      "scientificName": "Laephotis capensis",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "lemniscomys-rosalia",
+      "scientificName": "Lemniscomys rosalia",
+      "photographs": {
+        "open": 1,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "leptailurus-serval",
+      "scientificName": "Leptailurus serval",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "lepus-capensis",
+      "scientificName": "Lepus capensis",
+      "photographs": {
+        "open": 1,
+        "nc": 4,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "lepus-saxatilis",
+      "scientificName": "Lepus saxatilis",
+      "photographs": {
+        "open": 2,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "loxodonta-africana",
+      "scientificName": "Loxodonta africana",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "lupulella-adusta",
+      "scientificName": "Lupulella adusta",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "scientificName": "Lupulella mesomelas",
+      "photographs": {
+        "open": 3,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": true
+    },
+    {
+      "slug": "lutra-capensis",
+      "scientificName": "Lutra capensis",
+      "photographs": {
+        "open": 3,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "lycaon-pictus",
+      "scientificName": "Lycaon pictus",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "mastomys-coucha",
+      "scientificName": "Mastomys coucha",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "mastomys-natalensis",
+      "scientificName": "Mastomys natalensis",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "mellivora-capensis",
+      "scientificName": "Mellivora capensis",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "micaelamys-namaquensis",
+      "scientificName": "Micaelamys namaquensis",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "miniopterus-natalensis",
+      "scientificName": "Miniopterus natalensis",
+      "photographs": {
+        "open": 1,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "mops-ansorgei",
+      "scientificName": "Mops ansorgei",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "mops-condylurus",
+      "scientificName": "Mops condylurus",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "mops-midas",
+      "scientificName": "Mops midas",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "mops-pumilus",
+      "scientificName": "Mops pumilus",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "mungos-mungo",
+      "scientificName": "Mungos mungo",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "mus-minutoides",
+      "scientificName": "Mus minutoides",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "myotis-bocagii",
+      "scientificName": "Myotis bocagii",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "myotis-tricolor",
+      "scientificName": "Myotis tricolor",
+      "photographs": {
+        "open": 1,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "myotis-welwitschii",
+      "scientificName": "Myotis welwitschii",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "neamblysomus-julianae",
+      "scientificName": "Neamblysomus julianae",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 1
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "neoromicia-anchieta",
+      "scientificName": "Neoromicia anchieta",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "neoromicia-zuluensis",
+      "scientificName": "Neoromicia zuluensis",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "nesotragus-moschatus",
+      "scientificName": "Nesotragus moschatus",
+      "photographs": {
+        "open": 1,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "nycteris-thebaica",
+      "scientificName": "Nycteris thebaica",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "nycteris-woodi",
+      "scientificName": "Nycteris woodi",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "nycticeinops-schlieffenii",
+      "scientificName": "Nycticeinops schlieffenii",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "oreotragus-oreotragus",
+      "scientificName": "Oreotragus oreotragus",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "orycteropus-afer",
+      "scientificName": "Orycteropus afer",
+      "photographs": {
+        "open": 2,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "otocyon-megalotis",
+      "scientificName": "Otocyon megalotis",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "otolemur-crassicaudatus",
+      "scientificName": "Otolemur crassicaudatus",
+      "photographs": {
+        "open": 1,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": true
+    },
+    {
+      "slug": "otomys-angoniensis",
+      "scientificName": "Otomys angoniensis",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "ourebia-ourebi",
+      "scientificName": "Ourebia ourebi",
+      "photographs": {
+        "open": 2,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "panthera-leo",
+      "scientificName": "Panthera leo",
+      "photographs": {
+        "open": 6,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": true
+    },
+    {
+      "slug": "panthera-pardus",
+      "scientificName": "Panthera pardus",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "papio-ursinus",
+      "scientificName": "Papio ursinus",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": true
+    },
+    {
+      "slug": "paracynictis-selousi",
+      "scientificName": "Paracynictis selousi",
+      "photographs": {
+        "open": 2,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "parahyaena-brunnea",
+      "scientificName": "Parahyaena brunnea",
+      "photographs": {
+        "open": 3,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "paraxerus-cepapi",
+      "scientificName": "Paraxerus cepapi",
+      "photographs": {
+        "open": 0,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 1,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": true
+    },
+    {
+      "slug": "pedetes-capensis",
+      "scientificName": "Pedetes capensis",
+      "photographs": {
+        "open": 1,
+        "nc": 4,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "pelea-capreolus",
+      "scientificName": "Pelea capreolus",
+      "photographs": {
+        "open": 3,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "petrodromus-tetradactylus",
+      "scientificName": "Petrodromus tetradactylus",
+      "photographs": {
+        "open": 1,
+        "nc": 4,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "phacochoerus-africanus",
+      "scientificName": "Phacochoerus africanus",
+      "photographs": {
+        "open": 4,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "pipistrellus-hesperidus",
+      "scientificName": "Pipistrellus hesperidus",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "pipistrellus-rusticus",
+      "scientificName": "Pipistrellus rusticus",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "potamochoerus-larvatus",
+      "scientificName": "Potamochoerus larvatus",
+      "photographs": {
+        "open": 3,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "procavia-capensis",
+      "scientificName": "Procavia capensis",
+      "photographs": {
+        "open": 2,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "pronolagus-crassicaudatus",
+      "scientificName": "Pronolagus crassicaudatus",
+      "photographs": {
+        "open": 0,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "proteles-cristatus",
+      "scientificName": "Proteles cristatus",
+      "photographs": {
+        "open": 3,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "raphicerus-campestris",
+      "scientificName": "Raphicerus campestris",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "raphicerus-sharpei",
+      "scientificName": "Raphicerus sharpei",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "redunca-arundinum",
+      "scientificName": "Redunca arundinum",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "redunca-fulvorufula",
+      "scientificName": "Redunca fulvorufula",
+      "photographs": {
+        "open": 2,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "rhinolophus-blasii",
+      "scientificName": "Rhinolophus blasii",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "rhinolophus-clivosus",
+      "scientificName": "Rhinolophus clivosus",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "rhinolophus-darlingi",
+      "scientificName": "Rhinolophus darlingi",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "rhinolophus-fumigatus",
+      "scientificName": "Rhinolophus fumigatus",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "rhinolophus-hildebrandtii",
+      "scientificName": "Rhinolophus hildebrandtii",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "rhinolophus-landeri",
+      "scientificName": "Rhinolophus landeri",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "rhinolophus-simulator",
+      "scientificName": "Rhinolophus simulator",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "rhinolophus-swinnyi",
+      "scientificName": "Rhinolophus swinnyi",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "rhynchogale-melleri",
+      "scientificName": "Rhynchogale melleri",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "rousettus-aegyptiacus",
+      "scientificName": "Rousettus aegyptiacus",
+      "photographs": {
+        "open": 0,
+        "nc": 2,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "saccostomus-campestris",
+      "scientificName": "Saccostomus campestris",
+      "photographs": {
+        "open": 2,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "scotophilus-borbonicus",
+      "scientificName": "Scotophilus borbonicus",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "scotophilus-dinganii",
+      "scientificName": "Scotophilus dinganii",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "smutsia-temminckii",
+      "scientificName": "Smutsia temminckii",
+      "photographs": {
+        "open": 0,
+        "nc": 4,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "steatomys-pratensis",
+      "scientificName": "Steatomys pratensis",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "suncus-lixa",
+      "scientificName": "Suncus lixa",
+      "photographs": {
+        "open": 2,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "sylvicapra-grimmia",
+      "scientificName": "Sylvicapra grimmia",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "syncerus-caffer",
+      "scientificName": "Syncerus caffer",
+      "photographs": {
+        "open": 6,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "tadarida-aegyptiaca",
+      "scientificName": "Tadarida aegyptiaca",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "tadarida-fulminans",
+      "scientificName": "Tadarida fulminans",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    },
+    {
+      "slug": "taphozous-mauritianus",
+      "scientificName": "Taphozous mauritianus",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "thallomys-paedulcus",
+      "scientificName": "Thallomys paedulcus",
+      "photographs": {
+        "open": 0,
+        "nc": 1,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "thryonomys-swinderianus",
+      "scientificName": "Thryonomys swinderianus",
+      "photographs": {
+        "open": 0,
+        "nc": 3,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "tragelaphus-angasii",
+      "scientificName": "Tragelaphus angasii",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "tragelaphus-oryx",
+      "scientificName": "Tragelaphus oryx",
+      "photographs": {
+        "open": 4,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "tragelaphus-strepsiceros",
+      "scientificName": "Tragelaphus strepsiceros",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "scientificName": "Tragelaphus sylvaticus",
+      "photographs": {
+        "open": 5,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": true,
+      "playableRecording": false
+    },
+    {
+      "slug": "vansonia-rueppellii",
+      "scientificName": "Vansonia rueppellii",
+      "photographs": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0,
+        "illustration": 0
+      },
+      "recordings": {
+        "open": 0,
+        "nc": 0,
+        "nd": 0,
+        "reserved": 0,
+        "unknown": 0
+      },
+      "displayablePhotograph": false,
+      "playableRecording": false
+    }
+  ]
+}
