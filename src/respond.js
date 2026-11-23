@@ -46,10 +46,11 @@ export const pageResponse = ({
   cache,
   path,
   origin,
+  search = '',
 }) => {
   const headers = baseHeaders(format, cache)
   if (path && origin) {
-    const alts = alternates(path)
+    const alts = alternates(path, search)
     headers.set(
       'link',
       [

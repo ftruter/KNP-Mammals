@@ -2,15 +2,80 @@ import assert from 'node:assert/strict'
 import { test } from 'node:test'
 import { collectEntries, mediaCredit } from '../scripts/seed.mjs'
 import { NO_STORE, PAGE_CACHE } from '../src/cache.js'
+import { escapeHtml, inlineText } from '../src/escape.js'
 import { parseUrl } from '../src/route.js'
 import { handleRequest } from '../src/worker.js'
+import { fetchPage, loadStore, ORIGIN, workerEnv } from './helpers.js'
 
-const entries = await collectEntries()
-const store = new Map(entries.map(({ key, value }) => [key, value]))
-const env = { MAMMALS_KV: { get: async (key) => store.get(key) ?? null } }
-const origin = 'https://mammals.example'
-const get = (path, init) =>
-  handleRequest(new Request(`${origin}${path}`, init), env)
+const { records } = await loadStore()
+const store = new Map(Object.entries(records))
+const env = workerEnv(records)
+const origin = ORIGIN
+const get = (path, init) => fetchPage(path, env, init)
+
+const alternatesOf = (pathname) =>
+  pathname === '/'
+    ? { html: '/', md: '/.md', json: '/.json' }
+    : { html: pathname, md: `${pathname}.md`, json: `${pathname}.json` }
+
+const headValue = (html, pattern) => {
+  const found = html.match(pattern)
+  return found ? found[1] : ''
+}
+
+/**
+ * Title, description, canonical, and the Markdown and JSON alternates.
+ * A 200 page also sends those three in the Link header. A 404 puts them
+ * in the HTML head only.
+ */
+const assertSeo = async (pathname, { title, description, status = 200 }) => {
+  const response = await get(pathname)
+  assert.equal(response.status, status, pathname)
+  assert.match(response.headers.get('content-type'), /^text\/html/, pathname)
+  const html = await response.text()
+  const alts = alternatesOf(pathname)
+  assert.equal(
+    headValue(html, /<title>([^<]*)<\/title>/),
+    escapeHtml(title),
+    pathname,
+  )
+  assert.equal(
+    headValue(html, /<meta name="description" content="([^"]*)">/),
+    escapeHtml(description),
+    pathname,
+  )
+  assert.equal(
+    headValue(html, /<link rel="canonical" href="([^"]*)">/),
+    origin + alts.html,
+    pathname,
+  )
+  assert.equal(
+    headValue(
+      html,
+      /<link rel="alternate" type="text\/markdown" href="([^"]*)"/,
+    ),
+    alts.md,
+    pathname,
+  )
+  assert.equal(
+    headValue(
+      html,
+      /<link rel="alternate" type="application\/json" href="([^"]*)"/,
+    ),
+    alts.json,
+    pathname,
+  )
+  if (status !== 200) return
+  assert.equal(
+    response.headers.get('link'),
+    [
+      `<${origin}${alts.html}>; rel="canonical"`,
+      `<${origin}${alts.md}>; rel="alternate"; type="text/markdown"`,
+      `<${origin}${alts.json}>; rel="alternate"; type="application/json"`,
+    ].join(', '),
+    pathname,
+  )
+}
 
 test('routes map to KV keys and formats', () => {
   const route = (path) => parseUrl(new URL(`${origin}${path}`))
@@ -510,4 +575,76 @@ test('pages are not stored while a KV read may be stale', async () => {
   const old = { ...env, DATA_PUBLISHED_AT: String(Date.now() - 120_000) }
   const later = await handleRequest(new Request(`${origin}/`), old)
   assert.equal(later.headers.get('cache-control'), PAGE_CACHE)
+})
+
+test('published pages name themselves and their other formats', async () => {
+  const family = JSON.parse(store.get('family/bovidae'))
+  const order = JSON.parse(store.get('order/carnivora'))
+  const species = JSON.parse(store.get('species/connochaetes-taurinus'))
+  const familyWord = order.families.length === 1 ? 'family' : 'families'
+  await assertSeo('/', {
+    title: 'Mammals of Kruger National Park',
+    description:
+      'An open field guide to the mammals of Kruger National Park. For people and for AI agents.',
+  })
+  await assertSeo('/families', {
+    title: 'Families · KNP Mammals',
+    description: 'Mammal families in this field guide.',
+  })
+  await assertSeo('/orders', {
+    title: 'Orders · KNP Mammals',
+    description: 'Mammal orders in this field guide.',
+  })
+  await assertSeo('/species', {
+    title: 'Species · KNP Mammals',
+    description: 'Mammal species in this field guide.',
+  })
+  await assertSeo('/family/bovidae', {
+    title: `${family.en} · KNP Mammals`,
+    description: `${family.en} (${family.latin}) of Kruger National Park.`,
+  })
+  await assertSeo('/order/carnivora', {
+    title: `${order.latin} · KNP Mammals`,
+    description: `The order ${order.latin} in Kruger National Park: ${order.families.length} ${familyWord} and ${order.species.length} species.`,
+  })
+  await assertSeo(`/species/${species.slug}`, {
+    title: `${species.en} (${species.latin}) · KNP Mammals`,
+    description: inlineText(species.details?.summary || species.en),
+  })
+})
+
+test('a missing page still publishes a title, description, and format links', async () => {
+  await assertSeo('/species/no-such-animal', {
+    title: 'Not found · KNP Mammals',
+    description: 'That page is not published.',
+    status: 404,
+  })
+})
+
+// PLACEHOLDER. These routes are not built. Each assertion expects 404.
+// The pull request that adds the page should change that row to the real
+// response (and move the full checks into that feature's test file).
+// /images and /audio already exist; they are covered in test/media.test.js.
+test('routes that are not built yet are not found', async () => {
+  const pending = [
+    ['/sitemap', '#33'],
+    ['/sitemap.xml', '#33'],
+    ['/robots.txt', '#33'],
+    ['/llms.txt', '#34'],
+    ['/ask-ai', '#34'],
+    ['/.well-known/ard.json', '#34'],
+    ['/mcp/server-card', '#34'],
+    ['/offline', '#38'],
+    ['/facts', '#39'],
+    ['/identify/sound', '#40'],
+    ['/identify/photo', '#40'],
+  ]
+  for (const [pathname, issue] of pending) {
+    const response = await get(pathname)
+    assert.equal(
+      response.status,
+      404,
+      `${pathname} (${issue}) should stay 404 until that issue adds the route`,
+    )
+  }
 })

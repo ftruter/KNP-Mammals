@@ -178,3 +178,7 @@ There is no `models` array. This site has no recogniser.
 ## Unpublished species
 
 A stub has the scientific name, English and Afrikaans names, the family slug, `sampleData: true`, empty `variants`, `viewNotes`, `calls` and `images`, and a `gaps` note that the details have not been published. `status` and `size` are omitted rather than invented. `population` may still carry a cited estimate.
+
+## Search
+
+`/search` is a derived route. It reads the English, Afrikaans and Latin names already stored on `index/species` and `index/families`. It adds no species field.
