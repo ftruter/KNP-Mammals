@@ -99,6 +99,10 @@ A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and r
 | `/facts` | `index/facts` | One row per listed species from the details files: size, mass, Kruger status, conservation status and the Kruger individuals range |
 | `/family/<slug>` | `family/<slug>` | `data/families.json` and its species |
 | `/species/<slug>` | `species/<slug>` | The species-list row, plus `data/species/details/<slug>.json` as `details` when that file exists |
+| `/llms.txt` | none | Agent guide. It points at `/.json` for counts and does not repeat them |
+| `/.well-known/ard.json` | `index/families`, `index/species` | ARD manifest. A missing index is omitted |
+| `/.well-known/ai-catalog.json` | the same indexes | Predecessor catalog. The same entries. `host.documentationUrl` is `/llms.txt` |
+| `/ask-ai` | none | A prompt for a reader's own chat AI. Also `.md` and `.json`. The page does not call a model |
 | `/credits` | `index/credits` | Derived by `scripts/seed.mjs`: checklist sources, taxonomy, and every photograph, recording and cited source |
 | `/search` | `index/species` and `index/families` | English, Afrikaans and Latin names already on those indexes. The query is `?q=` |
 
@@ -109,6 +113,8 @@ Orders are not in the site navigation. They are reached from the home page, from
 The tables on `/orders`, `/order/<slug>`, `/families`, `/species`, `/facts` and `/family/<slug>` sort with `?sort=` and `dir=asc` or `dir=desc`. The server sorts, so the header links work with scripts off; `/app.js` sorts in place when scripts are on. The default is the first column, A to Z; an order page has two tables and both follow the same query. Latin breaks ties and empty values sort last.
 
 `/credits` lists the checklist sources, the taxonomy, and the credit on every photograph and recording. Species pages still show that credit beside each file. The page links SANParks and EWT PDFs and does not host them.
+
+`/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json` and `/ask-ai` are served. There is no sitemap or MCP endpoint yet.
 
 `/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched. There is no sitemap or MCP endpoint yet.
 

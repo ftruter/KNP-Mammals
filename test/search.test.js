@@ -285,8 +285,11 @@ test('the home page links to search and every html page has the header form', as
   assert.match(home, /<a href="\/search">Search<\/a>/)
   assert.doesNotMatch(home, /<meta name="robots" content="noindex">/)
   const md = await (await get('/.md')).text()
-  assert.match(md, /\[Search\]\(\/search\.md\)/)
-  assert.ok(md.indexOf('(/species.md)') < md.indexOf('(/search.md)'))
+  assert.match(md, /\[Search\]\(https:\/\/mammals\.example\/search\.md\)/)
+  assert.ok(
+    md.indexOf('/species.md)') < md.indexOf('/search.md)'),
+    'Search follows Species',
+  )
 
   for (const path of [
     '/',

@@ -104,6 +104,18 @@ export const parseUrl = (url) => {
     return { kind: 'icon', format: 'icon', pathname: rawPath }
   if (rawPath === SCRIPT_PATH)
     return { kind: 'script', format: 'js', pathname: rawPath }
+  const llmsPath =
+    rawPath.length > 1 && rawPath.endsWith('/') ? rawPath.slice(0, -1) : rawPath
+  if (llmsPath.toLowerCase() === '/llms.txt') {
+    return rawPath === '/llms.txt'
+      ? { kind: 'llms', format: 'html', pathname: '/llms.txt' }
+      : {
+          kind: 'redirect',
+          format: 'html',
+          pathname: '/llms.txt',
+          location: '/llms.txt' + url.search,
+        }
+  }
   if (rawPath.length > 1 && rawPath.endsWith('/')) {
     const pathname = rawPath.slice(0, -1)
     return {
@@ -111,6 +123,17 @@ export const parseUrl = (url) => {
       format: 'html',
       pathname,
       location: pathname + url.search,
+    }
+  }
+
+  if (
+    rawPath === '/.well-known/ard.json' ||
+    rawPath === '/.well-known/ai-catalog.json'
+  ) {
+    return {
+      kind: rawPath.endsWith('/ard.json') ? 'ard' : 'ai-catalog',
+      format: 'json',
+      pathname: rawPath,
     }
   }
 
@@ -127,6 +150,7 @@ export const parseUrl = (url) => {
     return { kind: 'orders', format, pathname, key: 'index/families' }
   if (pathname === '/species')
     return { kind: 'species-list', format, pathname, key: 'index/species' }
+  if (pathname === '/ask-ai') return { kind: 'ask-ai', format, pathname }
   if (pathname === '/facts')
     return { kind: 'facts', format, pathname, key: 'index/facts' }
   if (pathname === '/credits')

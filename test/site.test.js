@@ -73,6 +73,8 @@ const assertSeo = async (pathname, { title, description, status = 200 }) => {
       `<${origin}${alts.html}>; rel="canonical"`,
       `<${origin}${alts.md}>; rel="alternate"; type="text/markdown"`,
       `<${origin}${alts.json}>; rel="alternate"; type="application/json"`,
+      '</.well-known/ard.json>; rel="ard"; type="application/json"',
+      '</llms.txt>; rel="describedby"; type="text/plain"',
     ].join(', '),
     pathname,
   )
@@ -130,8 +132,11 @@ test('home links to the lists and has three formats', async () => {
   const md = await get('/.md')
   assert.match(md.headers.get('content-type'), /^text\/markdown/)
   const markdown = await md.text()
-  assert.match(markdown, /\(\/families\.md\)/)
-  assert.match(markdown, /\[Facts\]\(\/facts\.md\): 143/)
+  assert.match(markdown, /\(https:\/\/mammals\.example\/families\.md\)/)
+  assert.match(
+    markdown,
+    /\[Facts\]\(https:\/\/mammals\.example\/facts\.md\): 143/,
+  )
 
   const json = await get('/.json')
   assert.deepEqual(await json.json(), index)
@@ -210,7 +215,7 @@ test('orders have a list, a page each, and links from the other pages', async ()
     )
   assert.match(
     await (await get('/family/felidae.md')).text(),
-    /Order: \[Carnivora\]\(\/order\/carnivora\.md\)/,
+    /Order: \[Carnivora\]\(https:\/\/mammals\.example\/order\/carnivora\.md\)/,
   )
 })
 
@@ -415,7 +420,10 @@ test('the credits page lists sources, taxonomy and every file', async () => {
 
   const home = await (await get('/')).text()
   assert.match(home, /href="\/credits"/)
-  assert.match(await (await get('/.md')).text(), /\(\/credits\.md\)/)
+  assert.match(
+    await (await get('/.md')).text(),
+    /\(https:\/\/mammals\.example\/credits\.md\)/,
+  )
   const species = await (await get('/species/connochaetes-taurinus')).text()
   assert.match(species, /<details class="credit"/)
   assert.match(species, /href="\/credits"/)
@@ -741,7 +749,7 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
   const md = await (await get('/facts.md')).text()
   assert.match(
     md,
-    /\[Blue wildebeest\]\(\/species\/connochaetes-taurinus\.md\)/,
+    /\[Blue wildebeest\]\(https:\/\/mammals\.example\/species\/connochaetes-taurinus\.md\)/,
   )
   assert.match(md, /males 165–290, females 140–260/)
   assert.match(
@@ -850,9 +858,6 @@ test('routes that are not built yet are not found', async () => {
     ['/sitemap', '#33'],
     ['/sitemap.xml', '#33'],
     ['/robots.txt', '#33'],
-    ['/llms.txt', '#34'],
-    ['/ask-ai', '#34'],
-    ['/.well-known/ard.json', '#34'],
     ['/mcp/server-card', '#34'],
     ['/offline', '#38'],
     ['/identify/sound', '#40'],
