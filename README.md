@@ -16,7 +16,7 @@ The home page still says that some species are listed by name only. That sentenc
 
 ## Families
 
-[`data/families.json`](data/families.json) records 39 families in 14 orders. The table follows that file, grouped by order in the same sequence. English and Afrikaans names are copied as stored. A dash means `af` is null (22 of 39). Nulls are not filled in.
+[`data/families.json`](data/families.json) records 39 families in 14 orders. The table follows that file, grouped by order in the same sequence. English and Afrikaans names are copied as stored. A dash means `af` is null (16 of 39). Nulls are not filled in.
 
 | Order | Latin | English | Afrikaans |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ The home page still says that some species are listed by name only. That sentenc
 | Proboscidea | Elephantidae | Elephants | - |
 | Eulipotyphla | Erinaceidae | Hedgehogs | - |
 | Eulipotyphla | Soricidae | Shrews | skeerbekmuise |
-| Chiroptera | Emballonuridae | Sheath-tailed bats | - |
+| Chiroptera | Emballonuridae | Sheath-tailed bats | Skedestertvlermuise |
 | Chiroptera | Hipposideridae | Old World leaf-nosed bats | bladneusvlermuise |
 | Chiroptera | Miniopteridae | Bent-winged bats | - |
 | Chiroptera | Molossidae | Free-tailed bats | losstertvlermuis |
@@ -37,22 +37,22 @@ The home page still says that some species are listed by name only. That sentenc
 | Chiroptera | Vespertilionidae | Vesper bats | aandvlermuise |
 | Primates | Cercopithecidae | Monkeys and baboons | - |
 | Primates | Galagidae | Bushbabies | nagape |
-| Carnivora | Canidae | Dogs | - |
+| Carnivora | Canidae | Dogs | Hondagtiges |
 | Carnivora | Felidae | Cats | katfamilie |
 | Carnivora | Herpestidae | Mongooses | - |
 | Carnivora | Hyaenidae | Hyaenas | - |
 | Carnivora | Mustelidae | Badgers, otters and polecats | weselfamilie |
 | Carnivora | Viverridae | Civets and genets | - |
 | Pholidota | Manidae | Pangolins | - |
-| Perissodactyla | Equidae | Zebras | - |
+| Perissodactyla | Equidae | Zebras | Perdagtiges |
 | Perissodactyla | Rhinocerotidae | Rhinoceroses | - |
-| Artiodactyla | Bovidae | Antelopes and buffaloes | - |
+| Artiodactyla | Bovidae | Antelopes and buffaloes | Horingdraers |
 | Artiodactyla | Giraffidae | Giraffes | - |
-| Artiodactyla | Hippopotamidae | Hippopotamuses | - |
+| Artiodactyla | Hippopotamidae | Hippopotamuses | Seekoeie |
 | Artiodactyla | Suidae | Pigs | varke |
 | Rodentia | Bathyergidae | Mole-rats | - |
 | Rodentia | Gliridae | Dormice | waaiermuise |
-| Rodentia | Hystricidae | Porcupines | - |
+| Rodentia | Hystricidae | Porcupines | Ystervarke |
 | Rodentia | Muridae | Rats and mice | - |
 | Rodentia | Nesomyidae | Nesomyids | - |
 | Rodentia | Pedetidae | Springhares | - |
@@ -119,7 +119,7 @@ The tables on `/orders`, `/order/<slug>`, `/families`, `/species`, `/facts` and 
 
 `/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json` and `/ask-ai` are served. There is no MCP endpoint or identify tool yet.
 
-`/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched. There is no sitemap or MCP endpoint yet.
+`/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched. There is no MCP endpoint yet.
 
 `index/offline` is derived when the KV payload is built and is not written under `data/`. It lists the HTML pages above, one lead photograph and one clip per species when `data/media/mirror.json` has a measured size for that file, and `iconic` (empty until a family ranking is chosen, so the family rows stay unavailable). The pack addresses are `/images/<key>` and `/audio/<key>`. Add a path to `GUIDE_PAGES` in `src/offline.js` when another HTML page should be saved with the guide.
 
