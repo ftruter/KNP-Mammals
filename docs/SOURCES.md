@@ -890,6 +890,57 @@ Endangered, regional trend stable: Wild dog (IUCN global Endangered; the Kruger 
 - **Sharpe's grysbok:** EWT `/project/sharpes-grysbok/`, 2016 PDF `/wp-content/uploads/2022/11/24.-Sharpes-Grysbok-Raphicerus-sharpei_LC.pdf`; strong Kruger habitat text; regional total only (5,814–13,565 mature), Kruger trend only, so park estimate null. Afrikaans also Tropiese Grysbok; kept 2011 Sharpe se grysbok. Wikipedia `Sharpe's_grysbok`. ADW `Raphicerus_sharpei` is a full account. Commons `"Raphicerus sharpei Kruger"` is enough (DUPONT sets; skip same-minute pairs and crops); no iNat photo pass needed. iNat taxon 42374, 0 sounds. 320px Commons thumbs can return an error page; use 1280px with a Chrome UA and Commons Referer. Resident. The session used 28 calls.
 - **Mountain reedbuck:** EWT `/project/mountain-reedbuck/`, 2016 PDF (found by search) `/wp-content/uploads/2022/11/27.-Mountain-Reedbuck-Redunca-fulvorufula_EN.pdf`; EWT mentions Kruger (suspected 150 in 2009, citing Ferreira et al. 2013, no trend), used as a previous estimate. Afrikaans Rooiribbok (EWT, matches the 2011 list). Wikipedia is short; ADW `Redunca_fulvorufula` gave the whistle, gestation and predators (averages only, stale IUCN). Commons Kruger search: 0. iNat taxon 42306: 1 research-grade Kruger photo (Pretoriuskop, obs 253342211), 0 sounds; then place 6986. Only one Kruger record, so `status` omitted; flag in PR. The session used 20 calls.
 
+## Issue 45 — Afrikaans family names
+
+The 17 Afrikaans family names already in `data/families.json` were left as stored. Species Afrikaans names were not copied onto a family. This pass covered only the 22 families that were still `af: null`. Six now have a cited name. Sixteen stay null. Books (Skinner & Chimimba, Stuart, Apps / Smithers, Pienaar et al. 1987) and EWT or SANBI species assessments were not opened.
+
+### Rank
+
+1. **Afrikaans Wikipedia family article** (CC BY-SA 4.0). One Wikidata query supplied the Afrikaans label and the af.wikipedia sitelink for all 22 names. Where a sitelink exists, only the intro was read. The article title is stored when the lead applies that word to the Latin family. The article URL is the citation. A Wikidata label that differs from the title is not stored.
+2. **iNaturalist** `locale=af`, only when there is no Wikipedia family article, and only when Catalogue of Life gives the same single string. Cite the taxon URL.
+3. **GBIF vernacular names** attributed to Catalogue of Life, in that same pass. When Catalogue of Life lists two Afrikaans names, store neither.
+4. **Wikidata Afrikaans label.** Used to find the sitelink. Not stored when it differs from the Wikipedia title. A label with no sitelink and no second source stays unused.
+
+The 2011 SANParks checklist (Latin family headings) and Waterberg Soogdiere (English family headings) were not searched again.
+
+### Bovidae, the worked rule
+
+The orders overview describes Bovidae as wildsbok species plus buffalo. That phrase is not a family vernacular, and it was not stored. The family article [Horingdraers](https://af.wikipedia.org/wiki/Horingdraers) says the Horingdraers (Bovidae) are the family, so the stored name is **Horingdraers**, with the capital letter of the article title. The Wikidata Afrikaans label on [Q25497](https://www.wikidata.org/wiki/Q25497) is **Holhoringes**. That label differs from the title and was not stored. The article heading and the database label are not interchangeable. No further vernacular list was opened after the article heading was accepted.
+
+### Filled
+
+| Family | Stored name | Citation |
+| --- | --- | --- |
+| Canidae | Hondagtiges | <https://af.wikipedia.org/wiki/Hondagtiges> — lead: Hondagtiges (Canidae) is a family |
+| Bovidae | Horingdraers | <https://af.wikipedia.org/wiki/Horingdraers> — lead applies Horingdraers to Bovidae. Holhoringes was not stored |
+| Equidae | Perdagtiges | <https://af.wikipedia.org/wiki/Perdagtiges> — lead: Perdagtiges (Equidae) is a family. The Wikidata label is the Latin name Equidae and was not stored |
+| Hippopotamidae | Seekoeie | <https://af.wikipedia.org/wiki/Seekoeie> — title Seekoeie. The lead calls Hippopotamidae the seekoeifamilie and names the species seekoei separately. The same string is the Wikidata label, the iNaturalist `locale=af` preferred name, and the only Catalogue of Life Afrikaans vernacular |
+| Emballonuridae | Skedestertvlermuise | No af.wikipedia family article. iNaturalist taxon 41334 `locale=af` and the only Catalogue of Life Afrikaans vernacular on GBIF usage key 9615. Not the species name witlyfvlermuis |
+| Hystricidae | Ystervarke | No af.wikipedia family article. iNaturalist taxon 44167 `locale=af` and the only Catalogue of Life Afrikaans vernacular on GBIF usage key 9705. The species name ystervark was not stored |
+
+### Left null
+
+| Family | Why `af` stays null | Strings not stored |
+| --- | --- | --- |
+| Orycteropodidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | erdvark (species name) |
+| Elephantidae | Catalogue of Life lists two Afrikaans vernaculars | Olifant, Olifante (iNaturalist: Olifante). olifant not copied from the species |
+| Erinaceidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | krimpvarkie (species name) |
+| Miniopteridae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | aandvlermuise not copied from Vespertilionidae |
+| Cercopithecidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | — |
+| Herpestidae | [Muishond](https://af.wikipedia.org/wiki/Muishond) applies Muishonde to Herpestidae, then places Herpestes and Helogale in Viverridae and also uses muishond for Mustelidae | Muishond (title and Wikidata label), Muishonde (lead, iNaturalist, Catalogue of Life) |
+| Hyaenidae | [Hiëna](https://af.wikipedia.org/wiki/Hiëna) calls hiëna a family and does not name Hyaenidae. The other two sources use a different string | Hiëna (title and Wikidata label), Hiënas (iNaturalist and Catalogue of Life) |
+| Viverridae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name. The orders overview still lumps mongooses into this family | — |
+| Manidae | [Skubdier](https://af.wikipedia.org/wiki/Skubdier) applies Skubdiere and ietermagoë to the order Pholidota, not to Manidae | Skubdier, Skubdiere, ietermagoë. ietermagô not copied from the species |
+| Rhinocerotidae | [Renoster](https://af.wikipedia.org/wiki/Renoster) does not name Rhinocerotidae. Catalogue of Life lists two Afrikaans vernaculars | Renoster (title, Wikidata label, and one Catalogue of Life name), Renosters (iNaturalist and the other Catalogue of Life name) |
+| Giraffidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | kameelperd (species name) |
+| Bathyergidae | [Duinmol](https://af.wikipedia.org/wiki/Duinmol) does not name Bathyergidae, and the databases use a different word | Duinmol (title and Wikidata label), Blesmolle (iNaturalist and Catalogue of Life) |
+| Muridae | [Muridae](https://af.wikipedia.org/wiki/Muridae) is titled with the Latin name and gives no Afrikaans family vernacular | Muise (iNaturalist and Catalogue of Life). Not copied onto Nesomyidae |
+| Nesomyidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | Muridae names not copied onto this split |
+| Pedetidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | springhaas (species name) |
+| Leporidae | [Leporidae](https://af.wikipedia.org/wiki/Leporidae) is titled with the Latin name. The Wikidata label differs from that title | hase en konyne (lead phrase and Wikidata label). Not shortened into a group name |
+
+URLs opened for the nulls are on each family in `data/families.json`. Inclusion gaps were left in place.
+
 ## Status pass (issue #43, 22 November 2026, Africa/Johannesburg)
 
 One pass over the 21 species that still had no `status`. The 2011 SANParks checklist was not used on its own. *Dasymys incomtus* was not remapped to *D. robertsii*, and *Cryptomys hottentotus* was not remapped to *C. natalensis*. No SANParks or EWT PDF was added to the repo. Species JSON does not record access failures.
