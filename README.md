@@ -99,6 +99,9 @@ A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and r
 | `/facts` | `index/facts` | One row per listed species from the details files: size, mass, Kruger status, conservation status and the Kruger individuals range |
 | `/family/<slug>` | `family/<slug>` | `data/families.json` and its species |
 | `/species/<slug>` | `species/<slug>` | The species-list row, plus `data/species/details/<slug>.json` as `details` when that file exists |
+| `/sitemap` | `index/families`, `index/species` | Every published order, family, and species page, plus `/facts`, `/credits` and `/ask-ai`. `/search` is left out |
+| `/sitemap.xml` | `index/families`, `index/species` | One URL for each HTML page, dated from `DATA_PUBLISHED_AT` |
+| `/robots.txt` | (none) | An allow policy for crawlers, and the address of `/sitemap.xml` |
 | `/llms.txt` | none | Agent guide. It points at `/.json` for counts and does not repeat them |
 | `/.well-known/ard.json` | `index/families`, `index/species` | ARD manifest. A missing index is omitted |
 | `/.well-known/ai-catalog.json` | the same indexes | Predecessor catalog. The same entries. `host.documentationUrl` is `/llms.txt` |
@@ -114,7 +117,9 @@ The tables on `/orders`, `/order/<slug>`, `/families`, `/species`, `/facts` and 
 
 `/credits` lists the checklist sources, the taxonomy, and the credit on every photograph and recording. Species pages still show that credit beside each file. The page links SANParks and EWT PDFs and does not host them.
 
-`/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json` and `/ask-ai` are served. There is no sitemap or MCP endpoint yet.
+`/robots.txt` and `/sitemap.xml` are not HTML pages, so they have no `.md` or `.json` view. `/sitemap` has the usual three formats.
+
+`/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json` and `/ask-ai` are served. There is no MCP endpoint yet.
 
 `/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched. There is no sitemap or MCP endpoint yet.
 

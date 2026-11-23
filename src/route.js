@@ -150,6 +150,12 @@ export const parseUrl = (url) => {
     return { kind: 'orders', format, pathname, key: 'index/families' }
   if (pathname === '/species')
     return { kind: 'species-list', format, pathname, key: 'index/species' }
+  if (format === 'html' && pathname === '/robots.txt')
+    return { kind: 'robots', format: 'html', pathname: '/robots.txt' }
+  if (format === 'html' && pathname === '/sitemap.xml')
+    return { kind: 'sitemap', format: 'html', pathname: '/sitemap.xml' }
+  if (pathname === '/sitemap')
+    return { kind: 'sitemap-page', format, pathname: '/sitemap' }
   if (pathname === '/ask-ai') return { kind: 'ask-ai', format, pathname }
   if (pathname === '/facts')
     return { kind: 'facts', format, pathname, key: 'index/facts' }

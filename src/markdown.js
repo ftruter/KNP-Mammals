@@ -8,6 +8,7 @@ import {
   UNPUBLISHED_SPECIES,
   progressSentence,
 } from './html.js'
+import { SITEMAP_INTRO } from './sitemap.js'
 import {
   callTypeLabel,
   conservationLabel,
@@ -503,4 +504,25 @@ No page is published at this address.
 - [Orders](/orders.md)
 - [Families](/families.md)
 - [Species](/species.md)
+- [Sitemap](/sitemap.md)
+`
+
+const mdHref = (href) => (href === '/' ? '/.md' : `${href}.md`)
+
+const markdownItems = (items, depth) =>
+  items
+    .map((item) => {
+      const latin = item.latin ? ` (*${item.latin}*)` : ''
+      const line = `${'  '.repeat(depth)}- [${item.name}](${mdHref(item.href)})${latin}`
+      return item.children?.length
+        ? `${line}\n${markdownItems(item.children, depth + 1)}`
+        : line
+    })
+    .join('\n')
+
+export const renderSitemapMarkdown = (entries) => `# Sitemap
+
+${SITEMAP_INTRO} [Sitemap XML](/sitemap.xml) lists each HTML page once.
+
+${markdownItems(entries, 0)}
 `

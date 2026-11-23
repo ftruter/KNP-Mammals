@@ -855,9 +855,6 @@ test('a missing page still publishes a title, description, and format links', as
 // /images and /audio already exist; they are covered in test/media.test.js.
 test('routes that are not built yet are not found', async () => {
   const pending = [
-    ['/sitemap', '#33'],
-    ['/sitemap.xml', '#33'],
-    ['/robots.txt', '#33'],
     ['/mcp/server-card', '#34'],
     ['/offline', '#38'],
     ['/identify/sound', '#40'],

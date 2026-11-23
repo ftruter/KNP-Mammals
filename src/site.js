@@ -19,6 +19,7 @@ import {
   ordersHtml,
   homeHtml,
   notFoundHtml,
+  renderSitemapHtml,
   renderSearchHtml,
   speciesHtml,
   speciesListHtml,
@@ -34,6 +35,7 @@ import {
   ordersMarkdown,
   homeMarkdown,
   notFoundMarkdown,
+  renderSitemapMarkdown,
   searchMarkdown,
   speciesListMarkdown,
   speciesMarkdown,
@@ -52,6 +54,13 @@ import {
   plainResponse,
   redirectResponse,
 } from './respond.js'
+import {
+  buildSitemap,
+  robotsTxt,
+  sitemapEntries,
+  sitemapLastmod,
+  sitemapXml,
+} from './sitemap.js'
 import { alternates, searchSuffix } from './route.js'
 import { SEARCH_LIMIT, loadSearchRecords, searchRecords } from './search.js'
 import { readDocument } from './store.js'
@@ -83,6 +92,34 @@ const notFound = (route, origin, env) => {
     format,
     cache: kvCache(env, NOT_FOUND_CACHE),
     path: route.pathname,
+    origin,
+  })
+}
+
+const renderSitemap = async (env, route, origin) => {
+  const families = await readDocument(env.MAMMALS_KV, 'index/families')
+  const species = await readDocument(env.MAMMALS_KV, 'index/species')
+  const tree = buildSitemap(families?.data ?? null, species?.data ?? null)
+  if (route.kind === 'sitemap')
+    return pageResponse({
+      body: sitemapXml(origin, tree, sitemapLastmod(env.DATA_PUBLISHED_AT)),
+      format: 'html',
+      contentType: 'application/xml; charset=utf-8',
+      cache: kvCache(env, PAGE_CACHE),
+    })
+  const entries = sitemapEntries(tree)
+  const { format, pathname } = route
+  const body =
+    format === 'json'
+      ? jsonBody({ kind: 'sitemap', title: 'Sitemap', entries })
+      : format === 'md'
+        ? renderSitemapMarkdown(entries)
+        : renderSitemapHtml(entries, { origin })
+  return pageResponse({
+    body,
+    format,
+    cache: kvCache(env, PAGE_CACHE),
+    path: pathname,
     origin,
   })
 }
@@ -152,6 +189,15 @@ export const renderRoute = async (request, env, route) => {
     return pageResponse({ body: clientJs, format: 'js', cache: ASSET_CACHE })
   if (route.kind === 'image' || route.kind === 'audio')
     return renderObject(request, env, route.objectKey)
+  if (route.kind === 'robots')
+    return pageResponse({
+      body: robotsTxt(origin),
+      format: 'html',
+      contentType: 'text/plain; charset=utf-8',
+      cache: ASSET_CACHE,
+    })
+  if (route.kind === 'sitemap' || route.kind === 'sitemap-page')
+    return renderSitemap(env, route, origin)
   if (route.kind === 'llms')
     return pageResponse({
       body: llmsTxt(origin),
