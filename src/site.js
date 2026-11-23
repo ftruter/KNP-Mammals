@@ -10,23 +10,27 @@ import { clientJs } from './client.js'
 import { iconFiles } from './icon.js'
 import {
   factsPageHtml,
+  creditsHtml,
   familiesHtml,
   familyHtml,
   orderHtml,
   ordersHtml,
   homeHtml,
   notFoundHtml,
+  renderSearchHtml,
   speciesHtml,
   speciesListHtml,
 } from './html.js'
 import {
   factsMarkdown,
+  creditsMarkdown,
   familiesMarkdown,
   familyMarkdown,
   orderMarkdown,
   ordersMarkdown,
   homeMarkdown,
   notFoundMarkdown,
+  searchMarkdown,
   speciesListMarkdown,
   speciesMarkdown,
 } from './markdown.js'
@@ -37,11 +41,14 @@ import {
   plainResponse,
   redirectResponse,
 } from './respond.js'
+import { searchSuffix } from './route.js'
+import { SEARCH_LIMIT, loadSearchRecords, searchRecords } from './search.js'
 import { readDocument } from './store.js'
 import { css } from './style.js'
 
 const RENDERERS = {
   home: { html: homeHtml, md: homeMarkdown },
+  credits: { html: creditsHtml, md: creditsMarkdown },
   families: { html: familiesHtml, md: familiesMarkdown },
   orders: { html: ordersHtml, md: ordersMarkdown },
   order: { html: orderHtml, md: orderMarkdown },
@@ -81,6 +88,43 @@ const renderObject = async (request, env, key) => {
   })
 }
 
+/**
+ * Search has no single KV document. It reads the two indexes inside
+ * `loadSearchRecords`, so it must not fall through to the 404 below.
+ */
+const renderSearch = async (env, route, origin) => {
+  const query = route.query || ''
+  const found = query
+    ? searchRecords(
+        await loadSearchRecords(env.MAMMALS_KV),
+        query,
+        SEARCH_LIMIT,
+        origin,
+      )
+    : null
+  const { format, pathname } = route
+  const body =
+    format === 'json'
+      ? jsonBody({
+          kind: 'search',
+          query,
+          limit: SEARCH_LIMIT,
+          total: found?.total ?? 0,
+          results: found?.results ?? [],
+        })
+      : format === 'md'
+        ? searchMarkdown({ query, found })
+        : renderSearchHtml({ origin, query, found })
+  return pageResponse({
+    body,
+    format,
+    cache: kvCache(env, PAGE_CACHE),
+    path: pathname,
+    origin,
+    search: searchSuffix(query),
+  })
+}
+
 /** Renders one parsed route. The JSON view is the stored document. */
 export const renderRoute = async (request, env, route) => {
   const url = new URL(request.url)
@@ -95,6 +139,7 @@ export const renderRoute = async (request, env, route) => {
     return pageResponse({ body: clientJs, format: 'js', cache: ASSET_CACHE })
   if (route.kind === 'image' || route.kind === 'audio')
     return renderObject(request, env, route.objectKey)
+  if (route.kind === 'search') return renderSearch(env, route, origin)
 
   const renderer = RENDERERS[route.kind]
   const found = renderer ? await readDocument(env.MAMMALS_KV, route.key) : null

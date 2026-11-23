@@ -1,17 +1,82 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
-import { collectEntries } from '../scripts/seed.mjs'
+import { collectEntries, mediaCredit } from '../scripts/seed.mjs'
 import { NO_STORE, PAGE_CACHE } from '../src/cache.js'
 import { coverageSentence, factsCoverage } from '../src/facts.js'
+import { escapeHtml, inlineText } from '../src/escape.js'
 import { parseUrl } from '../src/route.js'
 import { handleRequest } from '../src/worker.js'
+import { fetchPage, loadStore, ORIGIN, workerEnv } from './helpers.js'
 
-const entries = await collectEntries()
-const store = new Map(entries.map(({ key, value }) => [key, value]))
-const env = { MAMMALS_KV: { get: async (key) => store.get(key) ?? null } }
-const origin = 'https://mammals.example'
-const get = (path, init) =>
-  handleRequest(new Request(`${origin}${path}`, init), env)
+const { records } = await loadStore()
+const store = new Map(Object.entries(records))
+const env = workerEnv(records)
+const origin = ORIGIN
+const get = (path, init) => fetchPage(path, env, init)
+
+const alternatesOf = (pathname) =>
+  pathname === '/'
+    ? { html: '/', md: '/.md', json: '/.json' }
+    : { html: pathname, md: `${pathname}.md`, json: `${pathname}.json` }
+
+const headValue = (html, pattern) => {
+  const found = html.match(pattern)
+  return found ? found[1] : ''
+}
+
+/**
+ * Title, description, canonical, and the Markdown and JSON alternates.
+ * A 200 page also sends those three in the Link header. A 404 puts them
+ * in the HTML head only.
+ */
+const assertSeo = async (pathname, { title, description, status = 200 }) => {
+  const response = await get(pathname)
+  assert.equal(response.status, status, pathname)
+  assert.match(response.headers.get('content-type'), /^text\/html/, pathname)
+  const html = await response.text()
+  const alts = alternatesOf(pathname)
+  assert.equal(
+    headValue(html, /<title>([^<]*)<\/title>/),
+    escapeHtml(title),
+    pathname,
+  )
+  assert.equal(
+    headValue(html, /<meta name="description" content="([^"]*)">/),
+    escapeHtml(description),
+    pathname,
+  )
+  assert.equal(
+    headValue(html, /<link rel="canonical" href="([^"]*)">/),
+    origin + alts.html,
+    pathname,
+  )
+  assert.equal(
+    headValue(
+      html,
+      /<link rel="alternate" type="text\/markdown" href="([^"]*)"/,
+    ),
+    alts.md,
+    pathname,
+  )
+  assert.equal(
+    headValue(
+      html,
+      /<link rel="alternate" type="application\/json" href="([^"]*)"/,
+    ),
+    alts.json,
+    pathname,
+  )
+  if (status !== 200) return
+  assert.equal(
+    response.headers.get('link'),
+    [
+      `<${origin}${alts.html}>; rel="canonical"`,
+      `<${origin}${alts.md}>; rel="alternate"; type="text/markdown"`,
+      `<${origin}${alts.json}>; rel="alternate"; type="application/json"`,
+    ].join(', '),
+    pathname,
+  )
+}
 
 test('routes map to KV keys and formats', () => {
   const route = (path) => parseUrl(new URL(`${origin}${path}`))
@@ -239,6 +304,163 @@ test("Juliana's golden mole shows the Imagined by Grok illustration", async () =
   assert.ok(md.includes(caption))
   assert.match(md, /Credit: Grok, CC0 1\.0/)
   assert.equal(md.includes('Photograph, not AI-generated.'), false)
+})
+
+const ALLOWED_MEDIA_LICENCE =
+  /^(?:CC0(?: \d+\.\d+)?|CC BY(?:-NC)?(?:-SA)?(?: \d+\.\d+)?)$/
+
+test('the credits page lists sources, taxonomy and every file', async () => {
+  const route = (path) => parseUrl(new URL(`${origin}${path}`))
+  assert.deepEqual(route('/credits'), {
+    kind: 'credits',
+    format: 'html',
+    pathname: '/credits',
+    key: 'index/credits',
+  })
+  assert.equal(route('/credits.md').format, 'md')
+  assert.equal(route('/credits.md').key, 'index/credits')
+  assert.equal(route('/credits.json').format, 'json')
+  assert.equal(route('/credits.json').key, 'index/credits')
+
+  const response = await get('/credits')
+  assert.equal(response.status, 200)
+  const body = await response.text()
+  const doc = JSON.parse(store.get('index/credits'))
+  const images = doc.species.flatMap((group) => group.images)
+  const recordings = doc.species.flatMap((group) => group.recordings)
+  const ai = images.filter((image) => image.aiGenerated === true).length
+  assert.equal(images.length - ai, 381)
+  assert.equal(ai, 1)
+  assert.equal(recordings.length, 12)
+  assert.equal(doc.species.length, 143)
+  assert.equal(
+    doc.species.reduce((sum, group) => sum + group.sources.length, 0),
+    747,
+  )
+  assert.equal(doc.mediaNote, null)
+  assert.equal(doc.site.licence, null)
+  assert.equal(doc.site.licenceUrl, null)
+  assert.equal(doc.models, undefined)
+  assert.match(body, /381 photographs and 1 AI-generated illustration/)
+  assert.match(body, /12 recordings/)
+  assert.match(body, /143 species sections/)
+  for (const name of [
+    'SANParks 2011 Kruger mammal checklist',
+    'iNaturalist, Kruger National Park, place 69020',
+    'Waterberg Bioquest, Soogdiere',
+    'Suider-Afrikaanse soogdiere en hul ordes',
+    '2016 SANBI / EWT Red List of Mammals',
+    'wildlife and trends over time',
+    'Wikimedia Commons, category Mammals of Kruger National Park',
+    'Galagidae',
+    'Nesomyidae',
+    'Miniopteridae',
+  ])
+    assert.ok(body.includes(name), name)
+  assert.match(body, /Bernard DUPONT/)
+  assert.match(body, /CC BY-SA 2\.0/)
+  assert.match(body, /Blue wildebeest/)
+  assert.match(body, /AI-generated image/)
+  assert.match(body, /Licence not recorded\./)
+  assert.equal(body.includes('Apache'), false)
+  assert.equal(
+    body.includes(
+      'Adult, H4-2 road north of Crocodile Bridge, Kruger National Park.',
+    ),
+    false,
+  )
+  assert.equal(
+    body.includes(
+      'Imagined by Grok. An illustration, not a photograph of a real animal.',
+    ),
+    false,
+  )
+  assert.equal(body.includes('kruger-skukuza.mp3'), false)
+  assert.equal(body.includes('agujaceratops-shingwedzi.wav'), false)
+  assert.match(body, /href="\/credits"/)
+  assert.equal(body.includes('aria-current="page">Families'), false)
+  assert.equal(body.includes('aria-current="page">Species'), false)
+
+  for (const item of [...images, ...recordings]) {
+    assert.match(item.licence, ALLOWED_MEDIA_LICENCE, item.key)
+    assert.equal(Object.hasOwn(item, 'caption'), false)
+  }
+  assert.ok(recordings.some((item) => item.licence === 'CC BY-NC'))
+  assert.ok(recordings.some((item) => item.key.endsWith('kruger-skukuza.mp3')))
+  const wildebeest = doc.species.find(
+    (group) => group.slug === 'connochaetes-taurinus',
+  )
+  assert.equal(wildebeest.images[0].author, 'Bernard DUPONT')
+  assert.equal(wildebeest.images[0].licence, 'CC BY-SA 2.0')
+  assert.equal(wildebeest.recordings[0].quality, 'A')
+  assert.equal(wildebeest.recordings[0].callType, 'call')
+
+  const names = doc.species.map((group) => group.scientificName)
+  assert.deepEqual(
+    names,
+    names.slice().sort((a, b) => a.localeCompare(b, 'en')),
+  )
+  assert.deepEqual(await (await get('/credits.json')).json(), doc)
+
+  const md = await (await get('/credits.md')).text()
+  assert.match(md, /## Photographs and recordings and cited sources/)
+  assert.equal(md.includes('kruger-skukuza.mp3'), false)
+  assert.equal(md.includes('agujaceratops-shingwedzi.wav'), false)
+  assert.equal(
+    md.includes(
+      'Adult, H4-2 road north of Crocodile Bridge, Kruger National Park.',
+    ),
+    false,
+  )
+
+  const home = await (await get('/')).text()
+  assert.match(home, /href="\/credits"/)
+  assert.match(await (await get('/.md')).text(), /\(\/credits\.md\)/)
+  const species = await (await get('/species/connochaetes-taurinus')).text()
+  assert.match(species, /<details class="credit"/)
+  assert.match(species, /href="\/credits"/)
+})
+
+test('a credits helper rejects an ND licence and does not invent an author', () => {
+  assert.throws(
+    () =>
+      mediaCredit(
+        {
+          key: 'nd.jpg',
+          author: 'A Person',
+          license: 'CC BY-ND 4.0',
+          source: 'https://example.org/nd',
+          hosted: false,
+        },
+        { slug: 'fake-species' },
+      ),
+    /CC BY-ND 4\.0/,
+  )
+  const credit = mediaCredit(
+    {
+      key: 'x.jpg',
+      license: 'CC BY 4.0',
+      source: 'https://example.org/a',
+      hosted: false,
+      aiGenerated: false,
+    },
+    { slug: 'fake-species' },
+  )
+  assert.equal(credit.author, null)
+  assert.equal(credit.licence, 'CC BY 4.0')
+  assert.equal(JSON.stringify(credit).includes('Author not recorded'), false)
+  assert.doesNotThrow(() =>
+    mediaCredit(
+      {
+        key: 'nc.jpg',
+        author: 'A Person',
+        license: 'CC BY-NC',
+        source: 'https://example.org/nc',
+        hosted: false,
+      },
+      { slug: 'fake-species' },
+    ),
+  )
 })
 
 test('a species with no account says so', async () => {
@@ -573,4 +795,75 @@ test('a hostile fact from KV is escaped', async () => {
   assert.match(body, /A &amp; b/)
   assert.match(body, /Cats &amp; dogs/)
   assert.match(body, /a&lt;b/)
+})
+
+test('published pages name themselves and their other formats', async () => {
+  const family = JSON.parse(store.get('family/bovidae'))
+  const order = JSON.parse(store.get('order/carnivora'))
+  const species = JSON.parse(store.get('species/connochaetes-taurinus'))
+  const familyWord = order.families.length === 1 ? 'family' : 'families'
+  await assertSeo('/', {
+    title: 'Mammals of Kruger National Park',
+    description:
+      'An open field guide to the mammals of Kruger National Park. For people and for AI agents.',
+  })
+  await assertSeo('/families', {
+    title: 'Families · KNP Mammals',
+    description: 'Mammal families in this field guide.',
+  })
+  await assertSeo('/orders', {
+    title: 'Orders · KNP Mammals',
+    description: 'Mammal orders in this field guide.',
+  })
+  await assertSeo('/species', {
+    title: 'Species · KNP Mammals',
+    description: 'Mammal species in this field guide.',
+  })
+  await assertSeo('/family/bovidae', {
+    title: `${family.en} · KNP Mammals`,
+    description: `${family.en} (${family.latin}) of Kruger National Park.`,
+  })
+  await assertSeo('/order/carnivora', {
+    title: `${order.latin} · KNP Mammals`,
+    description: `The order ${order.latin} in Kruger National Park: ${order.families.length} ${familyWord} and ${order.species.length} species.`,
+  })
+  await assertSeo(`/species/${species.slug}`, {
+    title: `${species.en} (${species.latin}) · KNP Mammals`,
+    description: inlineText(species.details?.summary || species.en),
+  })
+})
+
+test('a missing page still publishes a title, description, and format links', async () => {
+  await assertSeo('/species/no-such-animal', {
+    title: 'Not found · KNP Mammals',
+    description: 'That page is not published.',
+    status: 404,
+  })
+})
+
+// PLACEHOLDER. These routes are not built. Each assertion expects 404.
+// The pull request that adds the page should change that row to the real
+// response (and move the full checks into that feature's test file).
+// /images and /audio already exist; they are covered in test/media.test.js.
+test('routes that are not built yet are not found', async () => {
+  const pending = [
+    ['/sitemap', '#33'],
+    ['/sitemap.xml', '#33'],
+    ['/robots.txt', '#33'],
+    ['/llms.txt', '#34'],
+    ['/ask-ai', '#34'],
+    ['/.well-known/ard.json', '#34'],
+    ['/mcp/server-card', '#34'],
+    ['/offline', '#38'],
+    ['/identify/sound', '#40'],
+    ['/identify/photo', '#40'],
+  ]
+  for (const [pathname, issue] of pending) {
+    const response = await get(pathname)
+    assert.equal(
+      response.status,
+      404,
+      `${pathname} (${issue}) should stay 404 until that issue adds the route`,
+    )
+  }
 })
