@@ -351,7 +351,7 @@ test('the credits page lists sources, taxonomy and every file', async () => {
   assert.equal(doc.species.length, 143)
   assert.equal(
     doc.species.reduce((sum, group) => sum + group.sources.length, 0),
-    747,
+    750,
   )
   assert.equal(doc.mediaNote, null)
   assert.equal(doc.site.licence, null)
@@ -632,7 +632,7 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
   assert.equal(doc.species.length, 143)
   assert.deepEqual(factsCoverage(doc), {
     species: 143,
-    status: 122,
+    status: 123,
     shoulder: 36,
     headBody: 73,
     tail: 65,
