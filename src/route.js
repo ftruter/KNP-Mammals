@@ -12,11 +12,32 @@ export const ICON_PATHS = [
   '/icon-maskable-512.png',
 ]
 
-/** The three views of one page: HTML, Markdown and the stored JSON. */
-export const alternates = (pathname) =>
+export const SEARCH_PATH = '/search'
+export const SEARCH_MAX = 200
+
+/** Trims, collapses whitespace and caps a search query from the URL. */
+export const searchQuery = (raw) =>
+  String(raw ?? '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, SEARCH_MAX)
+    .trim()
+
+export const searchSuffix = (query) =>
+  query ? `?${new URLSearchParams({ q: query })}` : ''
+
+/**
+ * The three views of one page: HTML, Markdown and the stored JSON.
+ * `suffix` keeps a search query on the canonical and alternate links.
+ */
+export const alternates = (pathname, suffix = '') =>
   pathname === '/'
     ? { html: '/', md: '/.md', json: '/.json' }
-    : { html: pathname, md: `${pathname}.md`, json: `${pathname}.json` }
+    : {
+        html: `${pathname}${suffix}`,
+        md: `${pathname}.md${suffix}`,
+        json: `${pathname}.json${suffix}`,
+      }
 
 const splitFormat = (rawPath) => {
   for (const format of ['md', 'json']) {
@@ -83,6 +104,24 @@ export const parseUrl = (url) => {
     return { kind: 'icon', format: 'icon', pathname: rawPath }
   if (rawPath === SCRIPT_PATH)
     return { kind: 'script', format: 'js', pathname: rawPath }
+  if (rawPath === '/offline.js')
+    return { kind: 'offline-script', format: 'js', pathname: rawPath }
+  if (rawPath === '/sw.js')
+    return { kind: 'service-worker', format: 'js', pathname: rawPath }
+  if (rawPath === '/manifest.webmanifest')
+    return { kind: 'web-manifest', format: 'html', pathname: rawPath }
+  const llmsPath =
+    rawPath.length > 1 && rawPath.endsWith('/') ? rawPath.slice(0, -1) : rawPath
+  if (llmsPath.toLowerCase() === '/llms.txt') {
+    return rawPath === '/llms.txt'
+      ? { kind: 'llms', format: 'html', pathname: '/llms.txt' }
+      : {
+          kind: 'redirect',
+          format: 'html',
+          pathname: '/llms.txt',
+          location: '/llms.txt' + url.search,
+        }
+  }
   if (rawPath.length > 1 && rawPath.endsWith('/')) {
     const pathname = rawPath.slice(0, -1)
     return {
@@ -93,7 +132,23 @@ export const parseUrl = (url) => {
     }
   }
 
+  if (
+    rawPath === '/.well-known/ard.json' ||
+    rawPath === '/.well-known/ai-catalog.json'
+  ) {
+    return {
+      kind: rawPath.endsWith('/ard.json') ? 'ard' : 'ai-catalog',
+      format: 'json',
+      pathname: rawPath,
+    }
+  }
+
   const { format, pathname } = splitFormat(rawPath)
+  // The list of what an installed copy can keep. It has a JSON form only.
+  if (pathname === '/offline')
+    return format === 'json'
+      ? { kind: 'offline', format, pathname, key: 'index/offline' }
+      : notFound(format, pathname)
   if (format === 'html' && pathname.startsWith('/images/'))
     return objectRoute('image', pathname, 'images')
   if (format === 'html' && pathname.startsWith('/audio/'))
@@ -106,6 +161,24 @@ export const parseUrl = (url) => {
     return { kind: 'orders', format, pathname, key: 'index/families' }
   if (pathname === '/species')
     return { kind: 'species-list', format, pathname, key: 'index/species' }
+  if (format === 'html' && pathname === '/robots.txt')
+    return { kind: 'robots', format: 'html', pathname: '/robots.txt' }
+  if (format === 'html' && pathname === '/sitemap.xml')
+    return { kind: 'sitemap', format: 'html', pathname: '/sitemap.xml' }
+  if (pathname === '/sitemap')
+    return { kind: 'sitemap-page', format, pathname: '/sitemap' }
+  if (pathname === '/ask-ai') return { kind: 'ask-ai', format, pathname }
+  if (pathname === '/facts')
+    return { kind: 'facts', format, pathname, key: 'index/facts' }
+  if (pathname === '/credits')
+    return { kind: 'credits', format, pathname, key: 'index/credits' }
+  if (pathname === SEARCH_PATH)
+    return {
+      kind: 'search',
+      format,
+      pathname,
+      query: searchQuery(url.searchParams.get('q')),
+    }
 
   const [, section, slug, ...rest] = pathname.split('/')
   if (rest.length > 0 || !slug || !SLUG.test(slug))
