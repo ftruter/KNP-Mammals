@@ -89,7 +89,7 @@ pnpm run check
 - Do not close an issue from the implementing pull request while a real-device check is still open.
 - `docs/BRIEF.md` still tells a research session not to build the site until the owner says go. The Status paragraph in that file is the current state. Phase 5 has not started. Do not train a model from that file's phase 5 notes.
 - `docs/schema.md` still says family pages, indexes, credits and identify documents can follow the birds pattern when the site is built. The Worker is already live. This file does not rewrite `docs/schema.md`. Identify documents are still not specified there.
-- `scripts/publish-media.mjs` leaves object keys under `models/` and `offline/` in place. Those prefixes are not features of this site.
+- `scripts/publish-media.mjs` leaves object keys under `models/` and `offline/` in place. Those bucket prefixes are not the installable offline app, and this repo has no model store.
 - The birds README still has an "AI Models" section. Do not copy it. Those scripts are not in this `package.json`.
 
 ## Open decisions
