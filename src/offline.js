@@ -24,7 +24,16 @@ export const LARGE_DOWNLOAD_BYTES = 50 * 1048576
  * serve is left out, so a route that is still being built is not cached as
  * a 404.
  */
-export const GUIDE_PAGES = ['/', '/families', '/orders', '/species']
+export const GUIDE_PAGES = [
+  '/',
+  '/families',
+  '/orders',
+  '/species',
+  '/facts',
+  '/credits',
+  '/ask-ai',
+  '/sitemap',
+]
 
 const ASSET_KINDS = new Set([
   'not-found',

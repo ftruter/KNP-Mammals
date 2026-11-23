@@ -171,17 +171,21 @@ test('the saved pages and the four media rows come from the seed', async () => {
   assert.equal(species.species.length, 143)
   assert.equal(
     offline.pages.length,
-    4 +
+    8 +
       families.orders.length +
       families.families.length +
       species.species.length,
   )
-  assert.equal(offline.pages.length, 200)
-  assert.deepEqual(offline.pages.slice(0, 4), [
+  assert.equal(offline.pages.length, 204)
+  assert.deepEqual(offline.pages.slice(0, 8), [
     '/',
     '/families',
     '/orders',
     '/species',
+    '/facts',
+    '/credits',
+    '/ask-ai',
+    '/sitemap',
   ])
   assert.ok(offline.pages.includes('/order/carnivora'))
   assert.ok(offline.pages.includes('/species/connochaetes-taurinus'))
@@ -445,7 +449,7 @@ test('a file shared by a family row and a species row is stored once', () => {
 })
 
 test('an unserved guide path is left out of the saved pages', () => {
-  assert.deepEqual(selectGuidePages(['/', '/credits', '/ask-ai']), ['/'])
+  assert.deepEqual(selectGuidePages(['/', '/identify/photo', '/mcp']), ['/'])
 })
 
 test('a missing mirror file is an empty list, not a guessed size', async () => {

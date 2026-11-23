@@ -250,8 +250,14 @@ test('hosted media points at this site and an ND licence is not shown', async ()
       hostedEnv,
     )
   ).text()
-  assert.match(md, /\]\(\/images\/connochaetes-taurinus\/kruger-front\.jpg\)/)
-  assert.match(md, /\]\(\/audio\/xeno-canto\/XC1148048\)/)
+  assert.match(
+    md,
+    /\]\(https:\/\/mammals\.example\/images\/connochaetes-taurinus\/kruger-front\.jpg\)/,
+  )
+  assert.match(
+    md,
+    /\]\(https:\/\/mammals\.example\/audio\/xeno-canto\/XC1148048\)/,
+  )
   assert.match(md, /Saved on this site: yes/)
   assert.match(md, /Bernard DUPONT/)
   assert.match(md, /CC BY-SA 2\.0/)
