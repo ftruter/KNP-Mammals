@@ -1,12 +1,18 @@
 # Mammals of Kruger National Park
 
-An open field guide to the mammals found in Kruger National Park. It is a sister project to [KNP-birds](https://github.com/ftruter/KNP-birds), which is live at <https://birds.truter.world>. The future site is <https://mammals.truter.world>.
+An open field guide to the mammals found in Kruger National Park. It is a sister project to [KNP-birds](https://github.com/ftruter/KNP-birds), live at <https://birds.truter.world>. This guide is live at <https://mammals.truter.world>.
 
-Phase 1 records the family list and the ranked sources. Family records are in [`data/families.json`](data/families.json). Source notes are in [`docs/SOURCES.md`](docs/SOURCES.md).
+Family records are in [`data/families.json`](data/families.json). The species list is [`data/species-list.json`](data/species-list.json). Source notes are in [`docs/SOURCES.md`](docs/SOURCES.md). Field meanings are in [`docs/schema.md`](docs/schema.md). A handoff for the next session is [`STATE.md`](STATE.md).
 
 ## Status
 
-Phase 1 (families and sources) is done. Phase 2 (species per family) is next, pending the owner's go.
+`data/species-list.json` records 14 orders, 39 families and 143 species. Every listed species has a details file under `data/species/details/`, and each of those files has `sampleData: false`. The same list file holds 20 candidates and 4 excluded rows. Those rows are not published.
+
+Of the photographs stored on the details files, 381 have `hosted: true` and one does not. All 12 recordings have `hosted: true`. `data/media/mirror.json` records those 381 images and 12 recordings. `scripts/publish-media.mjs` plans 382 photographs, including the one that is not hosted, and the 12 recordings. The file with `hosted: false` is the Juliana's golden mole illustration, which the page loads from its `fileUrl`. Thirty-five listed species have an empty `images` array. A file without `hosted: true` loads from `fileUrl` when the licence allows it.
+
+Search, credits, facts, the sitemap, `robots.txt`, the agent-discovery files and the installable offline app are served (see the route table below). There is no MCP endpoint and no identify tool. `variants` are stored and are not shown.
+
+The home page still says that some species are listed by name only. That sentence is `progressSentence` in `src/html.js`. Every listed species already has a details file. This documentation does not change the sentence.
 
 ## Families
 
@@ -56,18 +62,7 @@ Phase 1 (families and sources) is done. Phase 2 (species per family) is next, pe
 
 ## Sources
 
-The ranked list, URLs, and the gaps log are in [`docs/SOURCES.md`](docs/SOURCES.md) (researched 12 November 2026). Short summary of access and licence notes from that file:
-
-1. **SANParks 2011 Wayback checklist PDF** — rank 1 for inclusion. The working copy is the 2 January 2011 Wayback capture: <https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf>. Live SANParks HTML and the live PDF URL returned HTTP 403 (the `http://` PDF URL returned 500). The 2011 PDF was HTTP 200 and is the official list used for Phase 1 inclusion. No licence statement was found on the PDF. Treat as SANParks all-rights-reserved. Cite and link; do not host or copy the PDF. The copy is dated 2011 and may lag the live list. Search snippets of the live checklist say “148 mammals”; the English Wikipedia park page and the German list say 147. No species total was published from the PDF.
-2. **iNaturalist API, place 69020** (“Kruger National Park, ZA”) — rank 2 for taxonomy, occurrence corroboration, and later photos. API v1 was HTTP 200. The HTML checklist (list 8810) returned HTTP 403. The list JSON and CSV URLs returned HTTP 401. Use is subject to iNaturalist terms. Observation photos carry per-file licences (CC BY, CC BY-NC, CC0, CC BY-SA, CC BY-NC-SA and others appeared in records). Display only CC0 / CC BY / CC BY-SA / CC BY-NC and SA variants; never ND or all-rights-reserved.
-3. **Waterberg Bioquest** — <https://waterberg-bioquest.co.za/soogdiere.html> was HTTP 200. Rank 3 for English family names. No licence or copyright statement was visible on the fetched page. Cite it; do not scrape images until a licence is confirmed. It is a Waterberg list, not a KNP inclusion list. Afrikaans names on that page are species names; the family headings are English and Latin.
-4. **Afrikaans Wikipedia** — *Suider-Afrikaanse soogdiere en hul ordes* was HTTP 200. Rank 4 for Afrikaans family names only. Licence: CC BY-SA 4.0. If a family vernacular is not clearly stated, `af` is null.
-5. **2016 EWT/SANBI Red List** — *Red List of Mammals of South Africa, Swaziland and Lesotho*. Rank 5 for later population and status work, not for family inclusion. The EWT landing page and the introduction PDF were HTTP 200 (59 pages). The SANBI species-status portal returned HTTP 403. No Creative Commons or other reuse licence was found in a text extract of the introduction. Treat the text as all-rights-reserved unless a later session finds a licence. Freely downloadable for reading and citation. Do not host the PDFs.
-6. **Wikimedia Commons** — category Mammals of Kruger National Park was HTTP 200. Rank 6 for later photographs. Licence is per file (CC0, CC BY, CC BY-SA and others). Same display rule as KNP-birds: no ND and no all-rights-reserved for displayed files.
-7. **Wikipedia (fallback)** — rank 7, fallback only, not for inclusion. The German list of KNP vertebrates was HTTP 200. Its mammal section is the most conspicuous species and is not complete for bats, rodents, or other small mammals. Licence stated for that list: CC BY-SA 4.0. The English park page was HTTP 200 and has a short mammal section, not a family list.
-8. **Skinner & Chimimba, *The Mammals of the Southern African Subregion*** — rank 8. The Cambridge Core page was HTTP 200 and paywalled (digital list price £274.00). Not read. Commercial Cambridge University Press publication; all-rights-reserved.
-9. **Stuart’s field guide to the mammals of southern Africa** — rank 9, unaccessed. Identified from search results only. No free legal full text was fetched. Licence was not read from a publisher page; expect all-rights-reserved. Not used for Phase 1 names.
-10. **xeno-canto, Macaulay Library, and MammalMAP** — ranks 10–12, unresolved. xeno-canto browse returned an Anubis challenge, API v2 is retired, and API v3 was not tested. Mammal coverage for Kruger was not verified, and the licence was not confirmed from a fetched terms page. The Macaulay Library homepage was HTTP 200, but the licensing page returned HTTP 404, so reuse terms were not confirmed. MammalMAP / ADU Virtual Museum was not usable in this research (expired TLS certificate); its licence was not confirmed.
+The ranked list, the URLs and the gaps log are in [`docs/SOURCES.md`](docs/SOURCES.md). Species-document fields are in [`docs/schema.md`](docs/schema.md).
 
 ## Taxonomic remaps
 
@@ -77,13 +72,15 @@ Three remaps are recorded, citing iNaturalist, instead of keeping the 2011 SANPa
 2. **Part of Muridae to Nesomyidae.** *Cricetomys*, *Saccostomus*, *Dendromus*, and *Steatomys*, printed under Muridae, are recorded as Nesomyidae.
 3. ***Miniopterus* to Miniopteridae.** *Miniopterus schreibersii*, printed under Vespertilionidae, is recorded as Miniopteridae.
 
-## Gaps
+## Rules
 
-- **22 of 39 Afrikaans family names are null.** The only cited family-vernacular source in this research was Afrikaans Wikipedia, plus two order or suborder vernaculars stored for a single family in that source (dassies for Procaviidae, vrugtevlermuise for Pteropodidae). Where a family vernacular is not clearly stated, `af` stays null.
-- **The live SANParks list returned HTTP 403**, so it could not be compared with the 2011 Wayback copy. Family inclusion is from that 2011 PDF.
-- **Rhinonycteridae / *Cloeotis percivali* was not added.** One research-grade iNaturalist observation of *Cloeotis percivali* is in place 69020. The species is not on the 2011 SANParks checklist, so the family was not added.
-- **Introduced house mouse and house/black rat are flagged.** The official list marks house mouse (*Mus musculus*) and house/black rat (*Rattus rattus*) with an asterisk under Muridae. They did not add extra families.
-- **Sound sources are unverified.** xeno-canto access is unresolved, and Macaulay Library reuse terms were not confirmed. Population estimates, photos, sounds, and per-species text are out of scope for Phase 1.
+- Never invent a fact. Leave the field null and record the gap.
+- Afrikaans names come only from a cited source. Sixteen of the 39 family `af` values are null. The table above shows those as a dash.
+- Displayed or hosted media may be CC0, CC BY, CC BY-SA, CC BY-NC or CC BY-NC-SA. ND and all-rights-reserved files are not displayed or hosted.
+- Cite SANParks and EWT PDFs. Do not host or copy them.
+- White rhinoceros, black rhinoceros and Temminck's ground pangolin captions include "Kruger National Park" and do not name a finer place. `test/media.test.js` checks that. [`docs/SOURCES.md`](docs/SOURCES.md) records that the white-rhino file titles name roads and gates, and that the place in those captions is "Kruger National Park".
+- The Juliana's golden mole account places that Kruger subpopulation in southwestern Kruger National Park. Its illustration caption is "Imagined by Grok. An illustration, not a photograph of a real animal." The caption does not name a place.
+- Other Kruger captions keep the place as recorded, camps, roads and waterholes included (owner decision: keep as much place detail as possible; do not generalise to "Kruger National Park").
 
 ## Site
 
@@ -120,7 +117,7 @@ The tables on `/orders`, `/order/<slug>`, `/families`, `/species`, `/facts` and 
 
 `/robots.txt` and `/sitemap.xml` are not HTML pages, so they have no `.md` or `.json` view. `/sitemap` has the usual three formats.
 
-`/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json` and `/ask-ai` are served. There is no MCP endpoint yet.
+`/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json` and `/ask-ai` are served. There is no MCP endpoint or identify tool yet.
 
 `/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched. There is no sitemap or MCP endpoint yet.
 
@@ -171,3 +168,7 @@ Workers Builds on `main` should use:
 KV is written first so the new version renders the data it advertises. Workers Caching (`[cache]` in `wrangler.toml`) includes the Worker version in its key, and `DATA_VERSION` is a Worker var, so a data-only deploy starts with an empty cache. For 70 seconds after `DATA_PUBLISHED_AT`, responses are `no-store`, because a KV read can return the previous value for up to 60 seconds.
 
 The Worker is bound to `mammals.truter.world` by the `[[routes]]` block in `wrangler.toml`.
+
+## Contributing
+
+Pull requests are welcome. Only [@ftruter](https://github.com/ftruter) approves and merges. Branch from the latest `main`. Do not stack pull requests. Every pull request links its issue (`Closes #N` when it finishes the issue, `Part of #N` for a batch), its title matches the issue title (with a suffix such as " (batch 1)" for a partial PR), and the issue gets a comment pointing to the pull request.
