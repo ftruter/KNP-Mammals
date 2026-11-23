@@ -634,19 +634,19 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
     species: 143,
     status: 123,
     shoulder: 36,
-    headBody: 73,
-    tail: 65,
+    headBody: 83,
+    tail: 74,
     length: 15,
-    mass: 99,
+    mass: 108,
     conservation: 143,
     population: 21,
-    sized: 108,
-    unsized: 35,
+    sized: 118,
+    unsized: 25,
   })
   assert.deepEqual(await (await get('/facts.json')).json(), doc)
 
   const masses = doc.species.map((species) => species.massKg).filter(Boolean)
-  assert.equal(masses.filter((mass) => Number.isFinite(mass.min)).length, 72)
+  assert.equal(masses.filter((mass) => Number.isFinite(mass.min)).length, 81)
   assert.equal(masses.filter((mass) => mass.male || mass.female).length, 27)
 
   const wildebeest = doc.species.find(
@@ -671,7 +671,7 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
   assert.deepEqual(wildebeest.population, { low: 16700, high: 21948 })
 
   const shrew = doc.species.find(
-    (species) => species.slug === 'crocidura-cyanea',
+    (species) => species.slug === 'rhinolophus-swinnyi',
   )
   assert.equal(shrew.status, null)
   assert.equal(shrew.shoulderHeightCm, null)
@@ -714,7 +714,7 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
     rowCells(body, 'Panthera pardus')[4],
     'males 60–70, females 57–64',
   )
-  assert.deepEqual(rowCells(body, 'Crocidura cyanea').slice(3, 9), [
+  assert.deepEqual(rowCells(body, 'Rhinolophus swinnyi').slice(3, 9), [
     '—',
     '—',
     '—',
@@ -722,7 +722,7 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
     '—',
     '—',
   ])
-  assert.equal(rowCells(body, 'Crocidura cyanea')[10], '—')
+  assert.equal(rowCells(body, 'Rhinolophus swinnyi')[10], '—')
   const batCells = rowCells(body, bat.scientificName)
   assert.equal(batCells[8], '—')
   assert.ok(!batCells.includes('0–0'))
