@@ -1,4 +1,5 @@
 import { NO_STORE } from './cache.js'
+import { ARD_LINK, linkHeader } from './head.js'
 import { alternates } from './route.js'
 
 const SECURITY = {
@@ -47,19 +48,20 @@ export const pageResponse = ({
   path,
   origin,
   contentType,
+  search = '',
 }) => {
   const headers = baseHeaders(format, cache)
   if (contentType) headers.set('content-type', contentType)
-  if (path && origin) {
-    const alts = alternates(path)
-    headers.set(
-      'link',
-      [
-        `<${origin}${alts.html}>; rel="canonical"`,
-        `<${origin}${alts.md}>; rel="alternate"; type="text/markdown"`,
-        `<${origin}${alts.json}>; rel="alternate"; type="application/json"`,
-      ].join(', '),
-    )
+  if (format === 'html' || format === 'md' || format === 'json') {
+    const alts = path && origin ? alternates(path, search) : null
+    const pageLinks = alts
+      ? [
+          `<${origin}${alts.html}>; rel="canonical"`,
+          `<${origin}${alts.md}>; rel="alternate"; type="text/markdown"`,
+          `<${origin}${alts.json}>; rel="alternate"; type="application/json"`,
+        ]
+      : []
+    headers.set('link', linkHeader(pageLinks))
   }
   return new Response(body, { status, headers })
 }
@@ -121,6 +123,7 @@ export const redirectResponse = (location, cache) => {
   const headers = baseHeaders('html', cache)
   headers.delete('content-type')
   headers.set('location', location)
+  headers.set('link', linkHeader())
   return new Response(null, { status: 301, headers })
 }
 
@@ -128,13 +131,14 @@ const plainError = (format, status, error, title, message) => {
   if (format === 'json') return jsonBody({ error, status, message })
   if (format === 'md') return `# ${title}\n\n${message}\n`
   return `<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>${title} · KNP Mammals</title></head>
+<html lang="en"><head><meta charset="utf-8">${ARD_LINK}<title>${title} · KNP Mammals</title></head>
 <body><h1>${title}</h1><p>${message}</p><p><a href="/">Home</a></p></body></html>\n`
 }
 
-export const methodNotAllowed = (format) => {
+export const methodNotAllowed = (format, _origin) => {
   const headers = baseHeaders(format, NO_STORE)
   headers.set('allow', 'GET, HEAD')
+  headers.set('link', linkHeader())
   return new Response(
     plainError(
       format,
@@ -147,8 +151,10 @@ export const methodNotAllowed = (format) => {
   )
 }
 
-export const serverError = (format) =>
-  new Response(
+export const serverError = (format, _origin) => {
+  const headers = baseHeaders(format, NO_STORE)
+  headers.set('link', linkHeader())
+  return new Response(
     plainError(
       format,
       500,
@@ -156,5 +162,6 @@ export const serverError = (format) =>
       'Something went wrong',
       'This page could not be rendered.',
     ),
-    { status: 500, headers: baseHeaders(format, NO_STORE) },
+    { status: 500, headers },
   )
+}

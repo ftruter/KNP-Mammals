@@ -97,6 +97,10 @@ const built = gapsDuring(() =>
 )
 const tree = built.result
 
+// Every non-asset response carries the discovery Link header (#34).
+const DISCOVERY_LINK =
+  '</.well-known/ard.json>; rel="ard"; type="application/json", </llms.txt>; rel="describedby"; type="text/plain"'
+
 test('orders sort by Latin, and families and species by English', () => {
   assert.deepEqual(
     tree.orders.map((order) => order.name),
@@ -183,7 +187,16 @@ test('a row with no slug and no names is omitted, and a duplicate href is once',
 test('sitemap paths follow the route list and list each page once', () => {
   assert.deepEqual(
     SITEMAP_ROUTES.map((route) => route.href),
-    ['/', '/sitemap', '/orders', '/families', '/species'],
+    [
+      '/',
+      '/sitemap',
+      '/orders',
+      '/families',
+      '/species',
+      '/facts',
+      '/credits',
+      '/ask-ai',
+    ],
   )
   assert.equal(
     SITEMAP_ROUTES.some((route) => route.href === '/search'),
@@ -209,11 +222,23 @@ test('sitemap paths follow the route list and list each page once', () => {
     '/family/nomenidae',
     '/family/vespertilionidae',
     '/species',
+    '/facts',
+    '/credits',
+    '/ask-ai',
   ])
   const entries = sitemapEntries(tree)
   assert.deepEqual(
     entries.map((entry) => entry.name),
-    ['Home', 'Sitemap', 'Orders', 'Families', 'Species'],
+    [
+      'Home',
+      'Sitemap',
+      'Orders',
+      'Families',
+      'Species',
+      'Facts',
+      'Credits',
+      'Ask your AI',
+    ],
   )
   assert.equal('latin' in entries[2].children[0], false)
   assert.equal(entries[2].children[0].children[0].children, undefined)
@@ -264,7 +289,7 @@ test('robots.txt allows crawlers and points at the sitemap', async () => {
   assert.equal(robots.status, 200)
   assert.equal(robots.headers.get('content-type'), 'text/plain; charset=utf-8')
   assert.equal(robots.headers.get('cache-control'), ASSET_CACHE)
-  assert.equal(robots.headers.get('link'), null)
+  assert.equal(robots.headers.get('link'), DISCOVERY_LINK)
   assert.equal(robots.headers.get('x-content-type-options'), 'nosniff')
   assert.equal(
     await robots.text(),
@@ -306,7 +331,7 @@ test('the xml sitemap lists each live HTML page once', async () => {
       'application/xml; charset=utf-8',
     )
     assert.equal(response.headers.get('cache-control'), PAGE_CACHE)
-    assert.equal(response.headers.get('link'), null)
+    assert.equal(response.headers.get('link'), DISCOVERY_LINK)
     xml = await response.text()
   } finally {
     console.error = original
@@ -342,6 +367,7 @@ test('the xml sitemap lists each live HTML page once', async () => {
   for (const row of species.species.slice().sort(byLabel)) {
     if (!seen.has(row.slug)) expected.push(`/species/${row.slug}`)
   }
+  expected.push('/facts', '/credits', '/ask-ai')
   assert.deepEqual(
     locs,
     expected.map((path) => origin + path),
@@ -364,11 +390,7 @@ test('the xml sitemap lists each live HTML page once', async () => {
     assert.equal(path.endsWith('.md'), false, path)
     assert.equal(path.endsWith('.json'), false, path)
     assert.equal(path.includes('/search'), false, path)
-    assert.equal(
-      ['/style.css', '/app.js', '/credits', '/facts', '/ask-ai'].includes(path),
-      false,
-      path,
-    )
+    assert.equal(['/style.css', '/app.js'].includes(path), false, path)
   }
   assert.equal((xml.match(/<lastmod>/g) || []).length, locs.length)
   assert.equal(
@@ -437,7 +459,16 @@ test('the html, markdown, and json sitemaps list the same pages', async () => {
   assert.equal(json.title, 'Sitemap')
   assert.deepEqual(
     json.entries.map((entry) => entry.name),
-    ['Home', 'Sitemap', 'Orders', 'Families', 'Species'],
+    [
+      'Home',
+      'Sitemap',
+      'Orders',
+      'Families',
+      'Species',
+      'Facts',
+      'Credits',
+      'Ask your AI',
+    ],
   )
   assert.equal(
     json.entries
@@ -494,6 +525,9 @@ test('a missing index is logged and the fixed urls are still served', async () =
       `${origin}/orders`,
       `${origin}/families`,
       `${origin}/species`,
+      `${origin}/facts`,
+      `${origin}/credits`,
+      `${origin}/ask-ai`,
     ])
   } finally {
     console.error = original

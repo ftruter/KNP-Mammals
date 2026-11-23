@@ -11,6 +11,9 @@ export const SITEMAP_ROUTES = [
   { name: 'Orders', href: '/orders', group: 'orders' },
   { name: 'Families', href: '/families', group: 'families' },
   { name: 'Species', href: '/species', group: 'species' },
+  { name: 'Facts', href: '/facts' },
+  { name: 'Credits', href: '/credits' },
+  { name: 'Ask your AI', href: '/ask-ai' },
 ]
 
 export const SITEMAP_INTRO =
