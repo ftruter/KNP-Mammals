@@ -890,6 +890,113 @@ Endangered, regional trend stable: Wild dog (IUCN global Endangered; the Kruger 
 - **Sharpe's grysbok:** EWT `/project/sharpes-grysbok/`, 2016 PDF `/wp-content/uploads/2022/11/24.-Sharpes-Grysbok-Raphicerus-sharpei_LC.pdf`; strong Kruger habitat text; regional total only (5,814–13,565 mature), Kruger trend only, so park estimate null. Afrikaans also Tropiese Grysbok; kept 2011 Sharpe se grysbok. Wikipedia `Sharpe's_grysbok`. ADW `Raphicerus_sharpei` is a full account. Commons `"Raphicerus sharpei Kruger"` is enough (DUPONT sets; skip same-minute pairs and crops); no iNat photo pass needed. iNat taxon 42374, 0 sounds. 320px Commons thumbs can return an error page; use 1280px with a Chrome UA and Commons Referer. Resident. The session used 28 calls.
 - **Mountain reedbuck:** EWT `/project/mountain-reedbuck/`, 2016 PDF (found by search) `/wp-content/uploads/2022/11/27.-Mountain-Reedbuck-Redunca-fulvorufula_EN.pdf`; EWT mentions Kruger (suspected 150 in 2009, citing Ferreira et al. 2013, no trend), used as a previous estimate. Afrikaans Rooiribbok (EWT, matches the 2011 list). Wikipedia is short; ADW `Redunca_fulvorufula` gave the whistle, gestation and predators (averages only, stale IUCN). Commons Kruger search: 0. iNat taxon 42306: 1 research-grade Kruger photo (Pretoriuskop, obs 253342211), 0 sounds; then place 6986. Only one Kruger record, so `status` omitted; flag in PR. The session used 20 calls.
 
+## Issue 45 — Afrikaans family names
+
+The 17 Afrikaans family names already in `data/families.json` were left as stored. Species Afrikaans names were not copied onto a family. This pass covered only the 22 families that were still `af: null`. Six now have a cited name. Sixteen stay null. Books (Skinner & Chimimba, Stuart, Apps / Smithers, Pienaar et al. 1987) and EWT or SANBI species assessments were not opened.
+
+### Rank
+
+1. **Afrikaans Wikipedia family article** (CC BY-SA 4.0). One Wikidata query supplied the Afrikaans label and the af.wikipedia sitelink for all 22 names. Where a sitelink exists, only the intro was read. The article title is stored when the lead applies that word to the Latin family. The article URL is the citation. A Wikidata label that differs from the title is not stored.
+2. **iNaturalist** `locale=af`, only when there is no Wikipedia family article, and only when Catalogue of Life gives the same single string. Cite the taxon URL.
+3. **GBIF vernacular names** attributed to Catalogue of Life, in that same pass. When Catalogue of Life lists two Afrikaans names, store neither.
+4. **Wikidata Afrikaans label.** Used to find the sitelink. Not stored when it differs from the Wikipedia title. A label with no sitelink and no second source stays unused.
+
+The 2011 SANParks checklist (Latin family headings) and Waterberg Soogdiere (English family headings) were not searched again.
+
+### Bovidae, the worked rule
+
+The orders overview describes Bovidae as wildsbok species plus buffalo. That phrase is not a family vernacular, and it was not stored. The family article [Horingdraers](https://af.wikipedia.org/wiki/Horingdraers) says the Horingdraers (Bovidae) are the family, so the stored name is **Horingdraers**, with the capital letter of the article title. The Wikidata Afrikaans label on [Q25497](https://www.wikidata.org/wiki/Q25497) is **Holhoringes**. That label differs from the title and was not stored. The article heading and the database label are not interchangeable. No further vernacular list was opened after the article heading was accepted.
+
+### Filled
+
+| Family | Stored name | Citation |
+| --- | --- | --- |
+| Canidae | Hondagtiges | <https://af.wikipedia.org/wiki/Hondagtiges> — lead: Hondagtiges (Canidae) is a family |
+| Bovidae | Horingdraers | <https://af.wikipedia.org/wiki/Horingdraers> — lead applies Horingdraers to Bovidae. Holhoringes was not stored |
+| Equidae | Perdagtiges | <https://af.wikipedia.org/wiki/Perdagtiges> — lead: Perdagtiges (Equidae) is a family. The Wikidata label is the Latin name Equidae and was not stored |
+| Hippopotamidae | Seekoeie | <https://af.wikipedia.org/wiki/Seekoeie> — title Seekoeie. The lead calls Hippopotamidae the seekoeifamilie and names the species seekoei separately. The same string is the Wikidata label, the iNaturalist `locale=af` preferred name, and the only Catalogue of Life Afrikaans vernacular |
+| Emballonuridae | Skedestertvlermuise | No af.wikipedia family article. iNaturalist taxon 41334 `locale=af` and the only Catalogue of Life Afrikaans vernacular on GBIF usage key 9615. Not the species name witlyfvlermuis |
+| Hystricidae | Ystervarke | No af.wikipedia family article. iNaturalist taxon 44167 `locale=af` and the only Catalogue of Life Afrikaans vernacular on GBIF usage key 9705. The species name ystervark was not stored |
+
+### Left null
+
+| Family | Why `af` stays null | Strings not stored |
+| --- | --- | --- |
+| Orycteropodidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | erdvark (species name) |
+| Elephantidae | Catalogue of Life lists two Afrikaans vernaculars | Olifant, Olifante (iNaturalist: Olifante). olifant not copied from the species |
+| Erinaceidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | krimpvarkie (species name) |
+| Miniopteridae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | aandvlermuise not copied from Vespertilionidae |
+| Cercopithecidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | — |
+| Herpestidae | [Muishond](https://af.wikipedia.org/wiki/Muishond) applies Muishonde to Herpestidae, then places Herpestes and Helogale in Viverridae and also uses muishond for Mustelidae | Muishond (title and Wikidata label), Muishonde (lead, iNaturalist, Catalogue of Life) |
+| Hyaenidae | [Hiëna](https://af.wikipedia.org/wiki/Hiëna) calls hiëna a family and does not name Hyaenidae. The other two sources use a different string | Hiëna (title and Wikidata label), Hiënas (iNaturalist and Catalogue of Life) |
+| Viverridae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name. The orders overview still lumps mongooses into this family | — |
+| Manidae | [Skubdier](https://af.wikipedia.org/wiki/Skubdier) applies Skubdiere and ietermagoë to the order Pholidota, not to Manidae | Skubdier, Skubdiere, ietermagoë. ietermagô not copied from the species |
+| Rhinocerotidae | [Renoster](https://af.wikipedia.org/wiki/Renoster) does not name Rhinocerotidae. Catalogue of Life lists two Afrikaans vernaculars | Renoster (title, Wikidata label, and one Catalogue of Life name), Renosters (iNaturalist and the other Catalogue of Life name) |
+| Giraffidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | kameelperd (species name) |
+| Bathyergidae | [Duinmol](https://af.wikipedia.org/wiki/Duinmol) does not name Bathyergidae, and the databases use a different word | Duinmol (title and Wikidata label), Blesmolle (iNaturalist and Catalogue of Life) |
+| Muridae | [Muridae](https://af.wikipedia.org/wiki/Muridae) is titled with the Latin name and gives no Afrikaans family vernacular | Muise (iNaturalist and Catalogue of Life). Not copied onto Nesomyidae |
+| Nesomyidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | Muridae names not copied onto this split |
+| Pedetidae | No label, no sitelink, no iNaturalist name, no Catalogue of Life name | springhaas (species name) |
+| Leporidae | [Leporidae](https://af.wikipedia.org/wiki/Leporidae) is titled with the Latin name. The Wikidata label differs from that title | hase en konyne (lead phrase and Wikidata label). Not shortened into a group name |
+
+URLs opened for the nulls are on each family in `data/families.json`. Inclusion gaps were left in place.
+
+## Status pass (issue #43, 22 November 2026, Africa/Johannesburg)
+
+One pass over the 21 species that still had no `status`. The 2011 SANParks checklist was not used on its own. *Dasymys incomtus* was not remapped to *D. robertsii*, and *Cryptomys hottentotus* was not remapped to *C. natalensis*. No SANParks or EWT PDF was added to the repo. Species JSON does not record access failures.
+
+Filled (rule (c)):
+
+- Cape hare, *Lepus capensis*. `GET https://api.inaturalist.org/v1/observations?place_id=69020&taxon_id=57560&quality_grade=research&captive=false&d1=2000-01-01&per_page=1&order=desc&order_by=observed_on` returned one row: observation 264080608, observed 4 March 2025 at Skukuza, not captive, research grade, community taxon *Lepus capensis*. An earlier *Lepus saxatilis* identification on that observation is not current. https://www.inaturalist.org/observations/264080608
+
+Left empty. The stop for each species is the first decisive result, within three lookups.
+
+- Cape serotine bat. The same iNaturalist query for taxon 1431030 returned 0. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/27.-Cape-Serotine-Bat-Neoromicia-capensis_LC.pdf says all provinces, not Kruger and not the Lowveld. Checklist only. Stop.
+- Rusty bat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/39.-Rusty-Bat-Pipistrellus-rusticus_LC.pdf names Limpopo, Mpumalanga, Gauteng, the North West, and the Great Limpopo Transfrontier Park. No Kruger and no Lowveld. The cited iNaturalist search was not repeated. Checklist only. Stop.
+- Reddish-grey musk shrew. The one new source, https://speciesstatus.sanbi.org/assessment/last-assessment/2266/, returned HTTP 403. The 2016 and 2025 EWT pages were not fetched again. Checklist only. Stop.
+- Swamp musk shrew. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/7.-Swamp-Musk-Shrew-Crocidura-mariquensis_NT.pdf still says no Kruger data are available and that the species presumably occurs there. Stop.
+- Oribi. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/18.-Oribi-Ourebia-ourebi_EN.pdf does not mention Kruger. Checklist only. Stop.
+- Suni. No later statement that the species persists in Kruger. The cited assessment still treats northeastern Kruger reports as anecdotal and records that the 1995 release was not found by 1998. Stop.
+- Grey rhebok. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/19.-Grey-Rhebok_Pelea-capreolus_NT.pdf mentions Kruger only in Kettlitz (1962), a Transvaal paper that excludes the park. Checklist only. Stop.
+- Botswana long-eared bat. https://ewt.org/project/botswana-long-eared-bat/ is *Laephotis* cf. *botswanae*, and the Kruger record on that page is of that clade. Stop.
+- Common molerat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/8.-Common-Mole-rats-Cryptomys-spp_LC.pdf still assigns Kruger to *C. natalensis*. Not remapped. Stop.
+- Water rat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/9.-African-Marsh-Rat-Dasymys-spp_VU.pdf still records *D. robertsii* in Kruger. Not remapped. Stop.
+- Lesser yellow house bat. https://ewt.org/project/lesser-yellow-house-bat/ is an assessment of *Scotophilus viridis*. Stop.
+- Hildebrandt's horseshoe bat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/43.-Cohens-Horseshoe-Bat-Rhinolophus-cohenae_VU.pdf still says *R. cohenae* was included within *R. hildebrandtii*. Stop.
+- Lander's horseshoe bat. https://ewt.org/project/peters-horseshoe-bat/ is *R. lobatus*, with pre-2000 records and no northern Kruger record in Brinkley et al. (2021). Not copied onto the 2011 name. Stop.
+- Swinny's horseshoe bat. https://ewt.org/project/swinnys-horseshoe-bat/ still limits *R. swinnyi* in the assessment region to KwaZulu-Natal and the Eastern Cape. Stop.
+- Schreibers' long-fingered bat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/21.-Natal-Long-fingered-Bat-Miniopterus-natalensis_LC.pdf does not name Kruger and describes seasonal migration of up to 260 km. Stop.
+- Temminck's hairy bat. https://ewt.org/project/temmincks-hairy-bat/ lists movement as Migratory and names the Great Limpopo Transfrontier Park, not Kruger. Stop.
+- Peak-saddle horseshoe bat. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/40.-Peak-saddle-Horsehoe-Bat-Rhinolophus-blasii_NT.pdf still gives Pafuri and a partial-migration suggestion. Stop.
+- Commerson's leaf-nosed bat. https://ewt.org/project/striped-leaf-nosed-bat/ still lists movement as Full Migrant. Queried neither taxon. Stop.
+- Madagascar large free-tailed bat. https://ewt.org/project/malagasy-free-tailed-bat/ still says the species has not been recorded in recent times and does not give a year for the Pafuri record. Stop.
+- South African hedgehog. The 2016 PDF https://ewt.org/wp-content/uploads/2022/11/1.-South-African-Hedgehog-Atelerix-frontalis_NT.pdf still says they are not present in Kruger National Park. Stop.
+
+## Population pass (issue #44)
+
+Method note: `docs/population-sources.md`. Species files stay free of access notes.
+
+- The official sheet is still `https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf` (SANParks Scientific Services, March 2025). One attempt this pass could not open it, the same block recorded in Phase 4. It was not stored, and it was not tried again. Because it was not read, no confidence was raised to `high`, and no unlabelled range was assigned to a species.
+- The working substitute, already used in Phase 4, is `https://visitthekrugerpark.com/wildlife/`. A figure taken from that page is not the official figure. Species notes use “One source claims…”, `confidence` stays `medium`, and they point at the official sheet URL. The PDF is cited and not hosted. EWT PDFs are cited and not hosted.
+- Plains zebra: the page still prints 45,918–57,276 for 2023, increasing. That range is now `estimate`. The 2012 range 29,161–43,450 stays in `previousEstimates`.
+- Elephant: the page prints 27,260–33,198 for 2024, increasing. That range is now `estimate`. The stored interval 26,401–33,198 (surveys 2020–2024 on the EWT page) moved to `previousEstimates`. The two ranges were not averaged. A reported figure of around 39,000 was not stored: the same page says it has not been published by SANParks.
+- Roan: the page prints 40–75 for 2023. The stored 2024 total of 58 is later, so it stays `estimate`. The 2023 range was added to `previousEstimates`. The two figures were not averaged.
+- These stored ranges already matched the page, so the files were not edited: impala 123,998–168,451; blue wildebeest 16,700–21,948; kudu 6,561–10,020; waterbuck 3,291–7,150; warthog 2,285–4,166; giraffe 10,345–14,554; hippo 5,889; buffalo 50,741–61,754; eland 226–294; tsessebe 208–287; sable 384–470. The page also says the 2024 buffalo trend is increasing. The buffalo file still has `trend: unknown` because the numeric range already matched.
+- White rhino and black rhino are absent from that page’s table. Their stored figures were left as they are. Pangolin was not reopened; the stored density was not turned into a total.
+- Lichtenstein’s hartebeest, common reedbuck, and mountain reedbuck stay null. The 2025 EWT pages still give no current Kruger census: reedbuck is a suspected 300 in 2009, with recent counts recording none (not stored as 0); mountain reedbuck is a suspected 150 in 2009. Lichtenstein’s 2025 page gives translocation totals and a regional “probably fewer than 50”, both refused. The 2016 PDF also says a suspected about 50 in Kruger in 2009 and, as a personal communication, perhaps one remaining in 2014. Neither was stored. Ferreira et al. 2013, *Animal abundances in Parks 2012/2013* (Scientific Services, SANParks, Skukuza), is an internal report; no free copy was found, so the estimate stays null.
+- Older figures already in `previousEstimates` (nyala about 3,000 in the greater Kruger in 2013, bushbuck about 500 in 2009, and the two suspected reedbuck figures) were not promoted to `estimate`.
+- The *Dasymys robertsii* and *Cryptomys natalensis* remap was left for the owner. No other null species were re-walked.
+
+## Size and similar species (issue 46)
+
+- **Wikipedia raw wikitext** for the stub articles (reddish-grey, lesser red, lesser grey-brown and tiny musk shrews; greater dwarf shrew; Namaqua rock rat; fat mouse; lesser yellow bat) has no measurement table. Do not repeat those pages for size.
+- **IUCN Red List website and API** did not return species narratives from this environment. Drop that source for this pass. Do not write the failure into species files.
+- **africanbats.org** returned a coming-soon page, not the African Chiroptera Report. Do not treat it as a measurement source until a real report URL loads.
+- **Open measurement accounts that did load:** Plazi taxonomic treatments on Zenodo, CC0, from Russell A. Mittermeier and Don E. Wilson (Handbook of the Mammals of the World species accounts). Each record's "Descriptive notes" gives a head-body, tail and weight range. Confirmed records: `10.5281/zenodo.6870399` (*Crocidura cyanea*), `6870444` (*C. hirta*), `6878352` (*C. silacea*), `6870385` (*C. fuscomurina*), `6870008` (*Suncus lixa*), `6868862` (*Mastomys coucha*), `6823924` (*M. natalensis*), `6835980` (*Micaelamys namaquensis*), `6795272` (*Gerbilliscus leucogaster*), `6600337` (*Steatomys pratensis*), `6403510` (*Laephotis angolensis*). Parent collection DOI `10.5281/zenodo.6870843`. Do not host the text.
+- **Do not copy** the *Laephotis angolensis* account onto the Kruger file: the 2025 regional page treats South African animals as a distinct unnamed clade. Do not copy *Scotophilus viridis* measurements onto *S. borbonicus*.
+- **Eswatini means for *Mastomys natalensis*** (not a range): Mahlaba thesis, University of KwaZulu-Natal, Table 1 at Mlawula (males n=10, females n=12). Used only as a second figure in the size note, not as the stored bounds.
+- **Similar species** added only where a sentence already in this guide names another species that has a details file. Horseshoe comparisons follow the 2016 *Rhinolophus blasii* and *R. clivosus* assessments (Monadjem et al. 2010) and the Kingdon account already stored for *R. fumigatus*. No new comparison was written for a species the files already say was not named.
+
 ## Issue 41 batch 1 (empty vespertilionids, first 8, 22 November 2026)
 
 One newer-record check each: iNaturalist `taxon_id` already on the file, place 113055, research grade, photo licences CC0, CC BY, CC BY-SA, CC BY-NC and CC BY-NC-SA, newest observation date first, 30 per page. Commons was not searched again; each species already has a logged Commons result. No photograph was added. `images` stays empty.
