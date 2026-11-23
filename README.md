@@ -98,6 +98,7 @@ A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and r
 | `/species` | `index/species` | `species` in `data/species-list.json`, with the Kruger estimate where a details file records one |
 | `/family/<slug>` | `family/<slug>` | `data/families.json` and its species |
 | `/species/<slug>` | `species/<slug>` | The species-list row, plus `data/species/details/<slug>.json` as `details` when that file exists |
+| `/credits` | `index/credits` | Derived by `scripts/seed.mjs`: checklist sources, taxonomy, and every photograph, recording and cited source |
 | `/search` | `index/species` and `index/families` | English, Afrikaans and Latin names already on those indexes. The query is `?q=` |
 
 A species with a details file gets a full account: a lead photograph, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls with recordings, more photographs and sources. A species without one says its details have not been published. Photographs and recordings that are saved on this site load from `/images/<key>` or `/audio/<key>`; otherwise they load from their sources (`fileUrl`). Each carries its credit and licence. CC BY-NC media is shown on a non-commercial site. The field marks in `variants` are not shown yet.
@@ -106,9 +107,11 @@ Orders are not in the site navigation. They are reached from the home page, from
 
 The tables on `/orders`, `/order/<slug>`, `/families`, `/species` and `/family/<slug>` sort with `?sort=` and `dir=asc` or `dir=desc`. The server sorts, so the header links work with scripts off; `/app.js` sorts in place when scripts are on. The default is the first column, A to Z; an order page has two tables and both follow the same query. Latin breaks ties and empty values sort last.
 
-`/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched. There is no sitemap, credits page or MCP endpoint yet.
+`/credits` lists the checklist sources, the taxonomy, and the credit on every photograph and recording. Species pages still show that credit beside each file. The page links SANParks and EWT PDFs and does not host them.
 
-`candidates` and `excluded` are not published. `scripts/seed.mjs` derives the payload on every run and writes nothing back to `data/`. It adds names to the animals a details file points at (similar, predators, prey) and marks whether this guide lists them. It stops if a species names a family that is not in `data/families.json`, if a slug repeats, or if a details file has no listed species.
+`/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched. There is no sitemap or MCP endpoint yet.
+
+`candidates` and `excluded` are not published. `scripts/seed.mjs` derives the payload on every run and writes nothing back to `data/`. It adds names to the animals a details file points at (similar, predators, prey) and marks whether this guide lists them. It stops if a species names a family that is not in `data/families.json`, if a slug repeats, if a details file has no listed species, or if a photograph or recording has a licence outside CC0, CC BY, CC BY-SA, CC BY-NC and CC BY-NC-SA.
 
 ```sh
 pnpm install

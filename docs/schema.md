@@ -1,6 +1,6 @@
 # Content schema (mammals)
 
-This is the Phase 4 schema for KNP-Mammals species documents. It is adapted from the KNP-birds schema at [`docs/schema.md`](https://github.com/ftruter/KNP-birds/blob/main/docs/schema.md) on `main`, using [`data/species/coracias-caudatus.json`](https://github.com/ftruter/KNP-birds/blob/main/data/species/coracias-caudatus.json) as the worked example. Field names from the birds schema are kept where they still fit. Mammal-only fields are listed under "Added for mammals". Family pages, indexes, credits and identify documents are not specified here yet; they can follow the birds pattern when the site is built.
+This is the Phase 4 schema for KNP-Mammals species documents. It is adapted from the KNP-birds schema at [`docs/schema.md`](https://github.com/ftruter/KNP-birds/blob/main/docs/schema.md) on `main`, using [`data/species/coracias-caudatus.json`](https://github.com/ftruter/KNP-birds/blob/main/data/species/coracias-caudatus.json) as the worked example. Field names from the birds schema are kept where they still fit. Mammal-only fields are listed under "Added for mammals". Family pages and the family, species and order indexes are served by the Worker. The credits index is specified below. Identify documents are not specified here yet.
 
 The first filled document is [`data/species/details/connochaetes-taurinus.json`](../data/species/details/connochaetes-taurinus.json). Phase 2 family files under `data/species/<family-slug>.json` and the combined `data/species-list.json` are unchanged in shape; details files do not replace them.
 
@@ -156,6 +156,24 @@ The page should render a range (`low–high`) with a readable unit, the trend, t
 ## Media licences
 
 Media licences are separate from the licence of the code. CC0, CC BY, CC BY-SA, CC BY-NC, and their SA variants may be shown. ND and all-rights-reserved items are not displayed or hosted. Record the author, licence, licence URL and source URL for every item.
+
+## Credits index
+
+`scripts/seed.mjs` derives `index/credits` on each run. It is not written under `data/`. `/credits` renders it as HTML and Markdown; `.json` is this document.
+
+| Field | Meaning |
+| --- | --- |
+| `kind` | `"credits"`. |
+| `dataSources` | The fixed checklist sources. `licence` and `licenceUrl` are null when no licence is stated for that source. A null licence means the licence was not found. It does not mean the text is reusable. |
+| `dataSources[].links` | Optional extra links. The SANParks row links the live checklist page as well as the 2011 Wayback PDF. SANParks and EWT PDFs are linked and not hosted. |
+| `taxonomy` | `authority` and `summary`. Names follow the 2011 SANParks checklist, with the three recorded family remaps. Afrikaans is not invented. |
+| `mediaNote` | Null while any image or recording is listed. The page keeps a sentence for a future run that has none. |
+| `species` | One group per species that has an image, a recording, or a titled source, sorted by scientific name. `commonName` is the English name already stored. |
+| `species[].images`, `species[].recordings` | `key`, `author`, `licence`, `licenceUrl`, `sourceUrl`, `aiGenerated`, `hosted`. Recordings also keep `quality` and `callType` when those are stored. Captions are not part of the credits document. The HTML and Markdown pages do not print `key`, because some keys name a camp, a road or a waterhole. |
+| `species[].sources` | `details.sources`, `population.sources` and `conservationStatus.sources`, deduped on exact title plus URL. A row needs a title. `publisher` and `year` are copied, or null. `note` is not copied. |
+| `site` | Repository, maintainer, palette and affiliation. `licence` and `licenceUrl` stay null until this repository states a code licence. |
+
+There is no `models` array. This site has no recogniser.
 
 ## Unpublished species
 
