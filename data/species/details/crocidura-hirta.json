@@ -90,6 +90,21 @@
     }
   ],
   "habitat": "The 2025 EWT assessment says the species is found in grassland, savanna, scrublands and compost heaps in gardens. In the eastern parts of its range it occurs mainly in moist habitats along streams and wetlands and needs cover in dense undergrowth, shrubs, disused rodent burrows, termitaria holes or beneath rocks (Skinner and Chimimba 2005). In North West it has been taken from vleis and dense bushveld with rank grass (Power 2014); in KwaZulu-Natal from grass clumps, reedbeds, fig-dominated forests, savanna woodland, tall grassland and fallow agricultural fields (Taylor 1998); and at Mkhuze and Phinda from woodland, floodplain grassland, Lebombo thicket and sand forest (Delcros et al. 2014; Rautenbach et al. 2014). In Eswatini it uses a wide range of vegetation from moist Middleveld grasslands to Acacia and broad-leaf savanna in the Lowveld, but is closely associated with tall, dense grass and is absent from Highveld sour grassland (Monadjem 1998). In the western part of the range, individuals occur in scrub bushes and riverine woodland where there is debris, and they probably rely on dew in the water-scarce Kalahari. The assessment, citing Dickman (1995) and Rautenbach et al. (2014), says they show a preference for dense vegetation, deep leaf litter and proximity to water. Citing Kern (1981), a Kruger National Park study, it also calls this the only shrew commonly recorded from the Lowveld.",
+  "size": {
+    "headBodyLengthCm": {
+      "min": 6.9,
+      "max": 9.6
+    },
+    "tailCm": {
+      "min": 3.9,
+      "max": 5.9
+    },
+    "massKg": {
+      "min": 0.008,
+      "max": 0.024
+    },
+    "note": "One source claims a head-and-body length of 6.9–9.6 cm, a tail of 3.9–5.9 cm and a mass of 8–24 g (0.008–0.024 kg). Those figures are a published range for Crocidura hirta, not a mean. A more accurate figure may be available at this URL: https://ewt.org/project/lesser-red-musk-shrew/"
+  },
   "similar": [
     {
       "slug": "crocidura-cyanea",

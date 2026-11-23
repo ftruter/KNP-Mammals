@@ -78,7 +78,21 @@
     }
   ],
   "habitat": "The 2025 EWT assessment says the species has generally been recorded from dry savannah and dry woodland, and has also been encountered in riverine forest, open dry scrub, open grassland, coastal lowland forest, Acacia woodland and suburban gardens (Rautenbach 1982; Wirminghaus and Nanni 1989; Baker and Meester 1991; Taylor 1998). It has been recorded from bushveld in the Rustenburg area of North West (Power 2014). At Mkhuze Game Reserve and Phinda Private Game Reserve in KwaZulu-Natal it was recently found to be most common in riverine woodland and floodplain grassland respectively (Rautenbach et al. 2014; Delcros et al. 2015). It has been collected from highveld sour grassland in Eswatini (Monadjem 1998). Within the assessment region the page places it in Mpumalanga, Limpopo, North West and KwaZulu-Natal, with a westward range extension into the Zeerust area of North West (Power 2014), and in Malolotja and Mlawula Nature Reserves in Eswatini (Monadjem 1998). Wikipedia, citing a brief IUCN-based account, gives the natural habitats as subtropical or tropical dry forests and dry savanna, and also notes presence in Kruger National Park. No Kruger-specific habitat account was found, though the 2025 EWT assessment lists the species from the park.",
-  "size": null,
+  "size": {
+    "headBodyLengthCm": {
+      "min": 5.2,
+      "max": 8.1
+    },
+    "tailCm": {
+      "min": 3.6,
+      "max": 5.1
+    },
+    "massKg": {
+      "min": 0.004,
+      "max": 0.009
+    },
+    "note": "One source claims a head-and-body length of 5.2–8.1 cm, a tail of 3.6–5.1 cm and a mass of 4–9 g (0.004–0.009 kg) for Suncus lixa. Those figures are a published range, not a mean. A more accurate figure may be available at this URL: https://ewt.org/project/greater-dwarf-shrew/"
+  },
   "similar": [],
   "variants": [],
   "viewNotes": [],

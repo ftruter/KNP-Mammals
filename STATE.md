@@ -39,6 +39,8 @@ The Worker is `src/worker.js`. `wrangler.toml` binds KV as `MAMMALS_KV` (namespa
 
 Family list, combined species list, and a details file for every listed species. The Worker serves HTML, `.md` and `.json` for the home page, orders, families and species. Tables sort with `?sort=` and `dir=`. Photo zoom works from the button, including with scripts off. Orders are not in the header navigation. They are linked from the home page, the Order column, and family and species pages.
 
+Site routes beyond the taxon pages are live: `/search` (names only, `noindex`), `/credits`, `/facts`, `/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json`, `/ask-ai`, `/robots.txt`, `/sitemap` and `/sitemap.xml`, and the installable offline app (`/manifest.webmanifest`, `/sw.js`, `/offline.js`, `/offline.json`). The offline app saves the HTML guide pages plus one measured lead photograph and clip per species from `data/media/mirror.json`.
+
 A published species page shows a lead image, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls, further photographs, gaps and sources. `variants` are stored and are not rendered.
 
 Hosted photographs and recordings load from `/images/<key>` and `/audio/<key>`. On this `main`: 381 photographs and 12 recordings have `hosted: true`, and `data/media/mirror.json` has the same two counts. `scripts/publish-media.mjs` plans 382 photographs (it includes the one that is not hosted) and 12 recordings. One image has `hosted: false` (Juliana's golden mole, "Imagined by Grok"). Thirty-five details files have an empty `images` array. ND licences are not shown.
@@ -47,7 +49,8 @@ Hosted photographs and recordings load from `/images/<key>` and `/audio/<key>`. 
 
 Not on this `main`, and not described here as shipped:
 
-- Search, a sitemap, a credits page, an MCP endpoint, and identify. `src/style.js` is a copy of the birds stylesheet and still contains rules for search, sitemap, identify and offline. Those classes are not routes in `src/route.js`.
+- An MCP endpoint (#34 batch 2, needs a second yes) and identify (#40; batch 1 is counts only). `src/style.js` is a copy of the birds stylesheet and still contains identify rules that no route uses.
+- A real-device install and offline check of the offline app (#38 stays open for it).
 - Recognisers. [`docs/BRIEF.md`](docs/BRIEF.md) phase 5 has not started. This repo has no model files.
 - Rendering `variants`.
 - The home-page sentence. `progressSentence` in `src/html.js` still says that some species are listed by name only, even though every listed species has a details file. HTML and Markdown both use that function. Changing it is code, and the wording is an open decision below.
@@ -60,12 +63,12 @@ A listed species with no details file still gets the unpublished page ("The deta
 
 Field meanings are in [`docs/schema.md`](docs/schema.md). `null` means the value was not found. Record the gap. Do not invent a fact, an Afrikaans name, a caption or a population figure.
 
-- Afrikaans names come only from a cited source. Twenty-two of 39 family `af` values are null.
+- Afrikaans names come only from a cited source. Sixteen of 39 family `af` values are null.
 - Displayed or hosted media may be CC0, CC BY, CC BY-SA, CC BY-NC or CC BY-NC-SA. No ND and no all-rights-reserved.
 - Cite SANParks and EWT PDFs. Do not host or copy them.
 - White rhinoceros, black rhinoceros and Temminck's ground pangolin captions include "Kruger National Park" and do not name a finer place. `test/media.test.js` checks those three files. The white-rhino note in [`docs/SOURCES.md`](docs/SOURCES.md) says the file titles name roads and gates, and the place in the caption is "Kruger National Park".
 - The Juliana's golden mole text places that Kruger subpopulation in southwestern Kruger National Park. The illustration caption does not name a place. It reads: "Imagined by Grok. An illustration, not a photograph of a real animal." The page marks it as an AI-generated image. Author Grok, licence CC0 1.0.
-- Other Kruger captions on `main` do name roads, camps and waterholes. This file does not turn that into a ban, and it does not list those places.
+- Other Kruger captions keep the place as recorded, camps, roads and waterholes included. Owner decision: keep as much place detail as possible and do not generalise to "Kruger National Park"; only the rhinos and the pangolin say "Kruger National Park", and Juliana's golden mole says "southwestern Kruger National Park".
 
 ## Checks
 
@@ -82,9 +85,10 @@ pnpm run check
 ## Gotchas
 
 - One pull request per batch, branched from the latest `main`. Do not stack branches. Only [@ftruter](https://github.com/ftruter) merges.
+- Every PR links its issue (`Closes #N` when the issue is finished, `Part of #N` for a batch), the PR title matches the issue title (plus a suffix such as " (batch 1)" for a partial PR), and the issue gets a comment pointing to the PR.
 - Do not close an issue from the implementing pull request while a real-device check is still open.
 - `docs/BRIEF.md` still tells a research session not to build the site until the owner says go. The Status paragraph in that file is the current state. Phase 5 has not started. Do not train a model from that file's phase 5 notes.
-- `docs/schema.md` still says family pages, indexes, credits and identify documents can follow the birds pattern when the site is built. The Worker is already live. This file does not rewrite `docs/schema.md`. Credits and identify documents are still not specified there.
+- `docs/schema.md` still says family pages, indexes, credits and identify documents can follow the birds pattern when the site is built. The Worker is already live. This file does not rewrite `docs/schema.md`. Identify documents are still not specified there.
 - `scripts/publish-media.mjs` leaves object keys under `models/` and `offline/` in place. Those prefixes are not features of this site.
 - The birds README still has an "AI Models" section. Do not copy it. Those scripts are not in this `package.json`.
 
@@ -95,5 +99,5 @@ Do not resolve these in a documentation or data edit unless the owner decides.
 1. Code licence. There is no `LICENSE` file, and `package.json` has no `license` field. The README names no licence. [`docs/BRIEF.md`](docs/BRIEF.md) says "Public domain for the eventual Cloudflare Worker: `mammals.truter.world`". This handoff does not treat that line as a choice of licence. Apache-2.0 was asked and is not confirmed. Do not invent a copyright holder.
 2. `.github/CODEOWNERS`. The issue asks for `* @ftruter`. This change does not add the file.
 3. Home-page wording when every listed species has a details file. The proposal was: "Every listed species has a full account." Partial coverage would keep the current "so far / the rest are listed by name" sentence. Not applied. It is a change to `src/html.js`.
-4. Whether captions other than rhino, pangolin and Juliana's golden mole should stop naming a camp, a road or a waterhole. Many captions on `main` do name them. Not decided, and not edited.
+4. Decided: captions keep place detail (see Data conventions). Whether recording `place` strings follow the same rule is open (#58).
 5. A JSON Schema and an ajv test over the data files. A later change, after data fills settle. Do not change a species fact to make a schema pass.

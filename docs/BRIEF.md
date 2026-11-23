@@ -15,6 +15,7 @@ Research the mammals of Kruger National Park (KNP) for an open field guide in th
 - Per item, make at most 3 lookups per fact, then record the gap and move on.
 - Write results to files under `/workspace/knp-mammals/` (later the repo). Don't carry transcripts between sessions; give each new session the brief, the pro-forma sample and the current `SOURCES.md` hints.
 - Never merge PRs; only @ftruter merges. One PR per batch, branched from latest `main`, never stacked. Ask before anything that costs money.
+- Every PR links its issue (`Closes #N` / `Part of #N`), the PR title matches the issue title (with a suffix such as " (batch 1)" for a partial PR), and the issue gets a comment pointing to the PR.
 - Do not close an identify or Live issue from the implementing PR while its "Done when" still needs real-device or tester checks; leave it open and list what testers must try. Pause rather than iterate on untested phone behaviour.
 - CI uses stand-ins and skips real-model tests when `.tflite` files are absent. Live camera or microphone modes need a recorded video or audio fixture; log it as a gap if there is none.
 - Media licences: CC0, CC BY, CC BY-SA, CC BY-NC (and their SA variants) only. Never ND or all-rights-reserved for displayed files. Record the author, licence and source URL for every item.

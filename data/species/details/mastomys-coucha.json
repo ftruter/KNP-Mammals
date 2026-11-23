@@ -81,6 +81,21 @@
         }
     ],
     "habitat": "The 2016 EWT assessment, citing Monadjem et al. (2015), restricts M. coucha to the grasslands and semi-arid savannahs of South Africa, Zimbabwe and Namibia, south of the Zambezi River, and describes a wide habitat tolerance in high-altitude, moderate-rainfall regions. It is often associated with human-dominated landscapes and is abundant in disturbed or recovering ground. Within South Africa it occurs widely in the central and northeastern interior, including Limpopo, Gauteng and most of Mpumalanga except the southern parts. Wikipedia adds open grassland, shrubland and semi-desert karoo, and lists Angola, Botswana, Lesotho, Mozambique, Namibia, South Africa and Zimbabwe; EWT treats presence in Botswana, Mozambique and Swaziland as uncertain, and that disagreement is recorded rather than averaged. In Kruger National Park, Kneidinger et al. (2014), as cited by EWT, recorded the species in relatively more high-altitude, low-rainfall areas at Roan Camp.",
+    "size": {
+        "headBodyLengthCm": {
+            "min": 8.2,
+            "max": 11.9
+        },
+        "tailCm": {
+            "min": 7,
+            "max": 10.7
+        },
+        "massKg": {
+            "min": 0.022,
+            "max": 0.04
+        },
+        "note": "One source claims a head-and-body length of 8.2–11.9 cm, a tail of 7–10.7 cm and a mass of 22–40 g (0.022–0.040 kg) for Mastomys coucha. Those figures are a published range for that species, not a combined Mastomys measurement and not a mean. A more accurate figure may be available at this URL: https://ewt.org/wp-content/uploads/2022/11/32.-Multimammate-Mouse-Mastomys-spp_LC.pdf"
+    },
     "similar": [
         {
             "slug": "mastomys-natalensis",

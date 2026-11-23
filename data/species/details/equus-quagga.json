@@ -114,14 +114,25 @@
   "similar": null,
   "population": {
     "estimate": {
-      "low": 29161,
-      "high": 43450
+      "low": 45918,
+      "high": 57276
     },
     "unit": "individuals",
     "trend": "increasing",
     "confidence": "medium",
-    "asOf": 2012,
-    "notes": "One source claims a 2012 Kruger estimate of 29,161–43,450 individuals, from distance sampling, making up the bulk of a South African National Parks total of 31,948–46,237 (2010–2012 counts, Ferreira et al. 2013). The same assessment gives 17,497–30,415 mature individuals in Kruger, records a migratory subpopulation in the park, and describes the regional trend as increasing. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf.",
+    "asOf": 2023,
+    "notes": "One source claims a 2023 Kruger population of 45,918–57,276 Burchell's zebra, and describes the trend as increasing. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. An earlier 2012 Kruger estimate of 29,161–43,450 individuals, from distance sampling, is kept here as a previous estimate. That assessment also gives a South African National Parks total of 31,948–46,237 (2010–2012 counts, Ferreira et al. 2013), 17,497–30,415 mature individuals in Kruger, a migratory subpopulation in the park, and an increasing regional trend.",
+    "previousEstimates": [
+      {
+        "estimate": {
+          "low": 29161,
+          "high": 43450
+        },
+        "unit": "individuals",
+        "asOf": 2012,
+        "notes": "Kruger only, from distance sampling, cited on the 2016 SANBI/EWT assessment (Ferreira et al. 2013). The same assessment gives 17,497–30,415 mature individuals in Kruger. Not averaged with the 2023 range."
+      }
+    ],
     "sources": [
       {
         "title": "Most recent counts of Kruger's wildlife and trends over time",
@@ -129,6 +140,13 @@
         "publisher": "SANParks Scientific Services",
         "year": 2025,
         "note": "A more accurate figure may be available here. Cited, not hosted."
+      },
+      {
+        "title": "Kruger Wildlife: Elephant, Lion, Leopard & 500+ Birds",
+        "url": "https://visitthekrugerpark.com/wildlife/",
+        "publisher": "Visit the Kruger Park",
+        "year": 2026,
+        "note": "Source of the 2023 range."
       },
       {
         "title": "A conservation assessment of Equus quagga",
