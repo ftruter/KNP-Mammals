@@ -98,16 +98,16 @@ Candidate sources were verified for access and licence, not assumed. URL pattern
   - Homepage: <https://xeno-canto.org/> — HTTP 200, but short HTML
   - Explore and terms pages returned HTTP 200 with an **Anubis** “Verifying visitor request...” challenge (~7 KB HTML), so search and terms were not actually readable
   - API v2 sample: `https://xeno-canto.org/api/2/recordings?query=cnt:south%20africa` — HTTP 404 JSON: “Xeno-canto API v2 is no longer available. Visit https://xeno-canto.org/explore/api for API v3 documentation.”
-- **Access:** Effectively blocked for browse; API v2 retired. KNP-birds already found that API v3 needs `XENO_CANTO_API_KEY`. Mammal coverage for Kruger was **not verified** with a successful data response in this session.
-- **Licence:** Not confirmed from a fetched terms page (challenge wall). KNP-birds recorded typical xeno-canto CC licences for *birds* (CC0, CC BY, BY-SA, BY-NC, and ND variants that may be linked only). Re-confirm for mammals when API v3 is available.
-- **Rank:** 10 as a later sound candidate, access unresolved.
+- **Access:** Browse pages still do not return a recording catalogue. API v2 is retired. API v3 returns recordings only with `XENO_CANTO_API_KEY`. That key is not set in this environment, and a request without it returns no recordings. Mammal coverage for Kruger is still not verified from the API.
+- **Licence:** Not read from a terms page. Take the author, grade, licence, and file URL from an API response when a key is available. Allowed licences for a stored clip are in [`docs/audio.md`](audio.md). ND is not stored.
+- **Rank:** 10 as a sound source when the API key is available. Not used to add a clip in issue 42 batch 0.
 
 ### 11. Macaulay Library (mammal sounds)
 
 - **URL checked:** <https://www.macaulaylibrary.org/> — HTTP 200
 - **Licence URL tried:** <https://www.macaulaylibrary.org/media-asset-licensing/> — **HTTP 404**. FAQ URL also 404.
-- **Access:** Homepage reachable. Reuse terms were **not confirmed** from a fetched page. Do not assume recordings are reusable in the field guide.
-- **Rank:** 11 as a later sound candidate, terms unresolved.
+- **Access:** Homepage reachable. The licensing URL above is still missing, as are the FAQ paths tried earlier. The page the site links, [Requesting and downloading media](https://support.ebird.org/en/support/solutions/articles/48001064551-requesting-and-downloading-media), does not name CC0, CC BY, CC BY-SA, CC BY-NC, or CC BY-NC-SA. It says media are requested from the archive, are not available for personal download unless they belong to the recordist, and that a licence agreement is required for some uses. Cornell's terms-of-use page could not be read. Macaulay Library is dropped.
+- **Rank:** Dropped for recordings. Not a per-species lookup.
 
 ### 12. MammalMAP / ADU Virtual Museum
 
@@ -157,8 +157,8 @@ Domestic or introduced species were included only where the official list alread
 - iNaturalist KNP mammal checklist 8810: **HTTP 403 / 401**. This list is described as derived from the SANParks PDF and updated by Jakob Fahr. It may contain taxonomic updates the 2011 PDF lacks. Unfinished: fetch or export that checklist when access allows.
 - SANBI species-status portal: **HTTP 403**.
 - MammalMAP / ADU: expired TLS certificate; vmus 404 even insecure; mammalmap host redirected to `api.birdmap.africa`. Unfinished.
-- xeno-canto: Anubis bot wall on browse; API v2 retired; API v3 not tested (needs a key). Mammal sound coverage for Kruger unfinished.
-- Macaulay Library reuse terms: licensing page **HTTP 404**; terms unfinished.
+- xeno-canto: browse pages still do not return a catalogue. API v3 needs a key, and none is set here, so no recording list was returned. Mammal sound coverage for Kruger is unfinished.
+- Macaulay Library: the media-request page linked from the site does not offer an allowed Creative Commons licence. Dropped. Not used for species recordings.
 - Waterberg Bioquest and EWT Red List text: no reusable licence found on the fetched pages/PDFs.
 - Skinner (paywalled, £274) and Stuart (commercial, unaccessed) were not read. Unfinished: Afrikaans family names and later species text from those books, only if a legal copy is available. Ask before spending money.
 
@@ -1009,3 +1009,18 @@ One newer-record check each: iNaturalist `taxon_id` already on the file, place 1
 - **Rufous hairy bat** (*Myotis bocagii*, taxon 74698): still only the mist-netted bat at Afdis Ponds and the Chivero series.
 - **Welwitsch's hairy bat** (*Myotis welwitschii*, taxon 40336): the same five licensed records, including the dead bat carried by a southern ground hornbill in Kruger National Park and one record with positional accuracy of about 5.6 km.
 - **Anchieta's bat** (*Neoromicia anchieta*, taxon 1431023): no licensed research-grade photographs.
+
+## Issue 42 batch 0 (recordings)
+
+Rules for later batches are in [`docs/audio.md`](audio.md). This batch rewrites four recording places and does not add a clip. `hosted` on those clips is unchanged. Species files do not record access problems.
+
+The stored place keeps the locality the iNaturalist observation gives, including a camp, road, or hide. Kruger is included because each observation is in place 69020.
+
+- **Spotted hyaena** (observation 226797723): the place line is "Skukuza, 1350, South Africa". Place is "Skukuza, 1350, Kruger National Park, South Africa". The note names Skukuza.
+- **Hippopotamus** (observation 375228122): the place line is "Lake Panic 2, Mpumalanga, ZA". The description says the audio was recorded from the Lake Panic Bird Hide. Place is "Lake Panic 2, Lake Panic Bird Hide, Kruger National Park, Mpumalanga, South Africa". The note names the hide.
+- **Black-backed jackal** (observation 400618839): the place line is "Satara Camp Road, Bushbuckridge, Mpumalanga, ZA". Place is "Satara Camp Road, Bushbuckridge, Mpumalanga, Kruger National Park, South Africa". The note does not repeat the road.
+- **Lion** (observation 91042075): the place line is "Mopani, Kruger National Park, ZA-NP, ZA". The description says the sound was heard during a sleepover in Sable Hide. Place id 9074 is named Limpopo. Place is "Sable Hide, Mopani, Kruger National Park, Limpopo, South Africa". The note names Sable Hide.
+
+xeno-canto was not used to add a file: `XENO_CANTO_API_KEY` is not set here, and a request without it returns no recordings. Browse pages still do not return a catalogue. Macaulay Library is dropped; the media-request page linked from the site does not name an allowed licence.
+
+White rhinoceros, black rhinoceros, and Temminck's pangolin are the only species whose recording place is "Kruger National Park" and nothing finer, and whose place and note do not cite an iNaturalist or xeno-canto observation. Juliana's golden mole keeps the full place the source gives.
