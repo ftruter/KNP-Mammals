@@ -894,13 +894,13 @@ Endangered, regional trend stable: Wild dog (IUCN global Endangered; the Kruger 
 
 Rules for later batches are in [`docs/audio.md`](audio.md). This batch rewrites four recording places and does not add a clip. `hosted` on those clips is unchanged. Species files do not record access problems.
 
-The stored place keeps the locality the iNaturalist observation gives, minus a camp, road, or hide. Kruger is included because each observation is in place 69020 and the previous place line already named the park.
+The stored place keeps the locality the iNaturalist observation gives, including a camp, road, or hide. Kruger is included because each observation is in place 69020.
 
-- **Spotted hyaena** (observation 226797723): the place line is "Skukuza, 1350, South Africa". Skukuza is a rest camp, so it is not stored, and the numeric token is not stored because the observation does not say what it measures. Place is now "Kruger National Park, South Africa". The note no longer names Skukuza.
-- **Hippopotamus** (observation 375228122): the place line is "Lake Panic 2, Mpumalanga, ZA". The description says the audio was recorded from the Lake Panic Bird Hide, so that site is not stored. Place is now "Kruger National Park, Mpumalanga, South Africa". The note still says the photographs are of the same animals.
-- **Black-backed jackal** (observation 400618839): the place line is "Satara Camp Road, Bushbuckridge, Mpumalanga, ZA". The camp road is not stored. Place is now "Kruger National Park, Bushbuckridge, Mpumalanga, South Africa". The note did not name the road and is unchanged.
-- **Lion** (observation 91042075): the place line is "Mopani, Kruger National Park, ZA-NP, ZA". The description says the sound was heard during a sleepover in Sable Hide, so the hide and the camp name Mopani are not stored. Place id 9074 is named Limpopo, which is the province in that place line. Place is now "Kruger National Park, Limpopo, South Africa". The note still says it was a sleepover.
+- **Spotted hyaena** (observation 226797723): the place line is "Skukuza, 1350, South Africa". Place is "Skukuza, 1350, Kruger National Park, South Africa". The note names Skukuza.
+- **Hippopotamus** (observation 375228122): the place line is "Lake Panic 2, Mpumalanga, ZA". The description says the audio was recorded from the Lake Panic Bird Hide. Place is "Lake Panic 2, Lake Panic Bird Hide, Kruger National Park, Mpumalanga, South Africa". The note names the hide.
+- **Black-backed jackal** (observation 400618839): the place line is "Satara Camp Road, Bushbuckridge, Mpumalanga, ZA". Place is "Satara Camp Road, Bushbuckridge, Mpumalanga, Kruger National Park, South Africa". The note does not repeat the road.
+- **Lion** (observation 91042075): the place line is "Mopani, Kruger National Park, ZA-NP, ZA". The description says the sound was heard during a sleepover in Sable Hide. Place id 9074 is named Limpopo. Place is "Sable Hide, Mopani, Kruger National Park, Limpopo, South Africa". The note names Sable Hide.
 
 xeno-canto was not used to add a file: `XENO_CANTO_API_KEY` is not set here, and a request without it returns no recordings. Browse pages still do not return a catalogue. Macaulay Library is dropped; the media-request page linked from the site does not name an allowed licence.
 
-White rhinoceros, black rhinoceros, and Temminck's pangolin use only "Kruger National Park". Juliana's golden mole uses only "southwestern Kruger National Park". Other recordings keep the place detail the source gives.
+White rhinoceros, black rhinoceros, and Temminck's pangolin are the only species whose recording place is "Kruger National Park" and nothing finer, and whose place and note do not cite an iNaturalist or xeno-canto observation. Juliana's golden mole keeps the full place the source gives.

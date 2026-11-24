@@ -6,24 +6,21 @@ import { licenceForbidsDerivatives } from '../src/labels.js'
 import { licenceAllowed } from '../scripts/publish-media.mjs'
 
 const detailsDir = path.join('data', 'species', 'details')
+const PARK = 'Kruger National Park'
 
-const EXACT_PLACE = new Map([
-  ['ceratotherium-simum.json', 'Kruger National Park'],
-  ['diceros-bicornis.json', 'Kruger National Park'],
-  ['smutsia-temminckii.json', 'Kruger National Park'],
-  ['neamblysomus-julianae.json', 'southwestern Kruger National Park'],
+const RESTRICTED = new Set([
+  'ceratotherium-simum.json',
+  'diceros-bicornis.json',
+  'smutsia-temminckii.json',
 ])
 
 const FACILITY =
   /\b(?:camps?|roads?|water[\s-]?holes?|hides?|picnic(?:\s+sites?)?|gates?|skukuza)\b/i
 
-const textOf = (value) => (typeof value === 'string' ? value : '')
+const OBSERVATION_REF =
+  /\b(?:inaturalist|xeno-?canto)\b|\bXC\d+\b|observations?\/\d+|\bobservation\s+\d+/i
 
-const facilityHit = (place, note) => {
-  const texts = [textOf(place), textOf(note)].filter((value) => value !== '')
-  if (!texts.some((value) => /kruger/i.test(value))) return ''
-  return texts.find((value) => FACILITY.test(value)) ?? ''
-}
+const textOf = (value) => (typeof value === 'string' ? value : '')
 
 const reserved = (license) =>
   typeof license === 'string' && /all[-\s]+rights[-\s]+reserved/i.test(license)
@@ -33,37 +30,55 @@ const recordingsOf = (doc) =>
     Array.isArray(call?.recordings) ? call.recordings : [],
   )
 
-test('recording checks reject a blocked licence and a Kruger facility name', () => {
+const restrictedProblem = (place, note) => {
+  const placeText = textOf(place)
+  const noteText = textOf(note)
+  if (placeText !== PARK) return placeText || '(missing place)'
+  const visible = `${placeText}\n${noteText}`
+  const ref = visible.match(OBSERVATION_REF)
+  if (ref) return ref[0]
+  const facility = noteText.match(FACILITY)
+  return facility ? facility[0] : ''
+}
+
+test('recording checks reject a blocked licence', () => {
   assert.equal(licenceAllowed('CC BY-NC'), true)
   assert.equal(licenceAllowed('CC BY-NC-SA 4.0'), true)
   assert.equal(licenceAllowed('CC BY-NC-ND 4.0'), false)
   assert.equal(licenceForbidsDerivatives('CC BY-NC-ND 4.0'), true)
   assert.equal(reserved('all rights reserved'), true)
   assert.equal(reserved('CC BY-NC 4.0'), false)
-  assert.match(facilityHit('Skukuza, Kruger National Park', ''), /Skukuza/i)
-  assert.match(
-    facilityHit('Satara Camp Road, Kruger National Park', ''),
-    /Camp/i,
-  )
-  assert.match(
-    facilityHit('Lake Panic Bird Hide, Kruger National Park', ''),
-    /Hide/i,
-  )
-  assert.match(
-    facilityHit(
-      'Kruger National Park',
-      'Field recording made during a sleepover at Sable Hide.',
-    ),
-    /Hide/i,
-  )
+})
+
+test('only rhino and pangolin recordings drop place detail and catalogue ids', () => {
+  assert.equal(RESTRICTED.has('neamblysomus-julianae.json'), false)
   assert.equal(
-    facilityHit(
-      'Kruger National Park, Bushbuckridge, Mpumalanga, South Africa',
-      'Field recording made early in the morning.',
+    restrictedProblem(
+      PARK,
+      'Field recording from Kruger National Park. The observation does not name the call type.',
     ),
     '',
   )
-  assert.equal(facilityHit('Limpopo, South Africa', 'beside a road'), '')
+  assert.match(
+    restrictedProblem('Skukuza, Kruger National Park', ''),
+    /Skukuza/,
+  )
+  assert.match(
+    restrictedProblem('Sable Hide, Mopani, Kruger National Park', ''),
+    /Sable Hide/,
+  )
+  assert.match(
+    restrictedProblem(
+      PARK,
+      'Field recording made from the Lake Panic Bird Hide.',
+    ),
+    /Hide/,
+  )
+  assert.match(
+    restrictedProblem(PARK, 'iNaturalist observation 91042075'),
+    /iNaturalist/,
+  )
+  assert.match(restrictedProblem(PARK, 'xeno-canto XC1148048'), /xeno-canto/)
 })
 
 test('stored recordings cite an allowed licence and a usable place', async () => {
@@ -73,7 +88,6 @@ test('stored recordings cite an allowed licence and a usable place', async () =>
   const problems = []
   for (const name of names) {
     const doc = JSON.parse(await readFile(path.join(detailsDir, name), 'utf8'))
-    const exact = EXACT_PLACE.get(name)
     for (const recording of recordingsOf(doc)) {
       const label = `${name} ${recording?.key ?? '(no key)'}`
       if (
@@ -92,10 +106,9 @@ test('stored recordings cite an allowed licence and a usable place', async () =>
         problems.push(`${label} is all-rights-reserved`)
       if (!licenceAllowed(recording?.license))
         problems.push(`${label} licence is not allowed`)
-      const hit = facilityHit(recording?.place, recording?.note)
-      if (hit) problems.push(`${label} names a facility: ${hit}`)
-      if (exact && recording?.place !== exact)
-        problems.push(`${label} place must be ${exact}`)
+      if (!RESTRICTED.has(name)) continue
+      const hit = restrictedProblem(recording?.place, recording?.note)
+      if (hit) problems.push(`${label} restricted place text: ${hit}`)
     }
   }
   assert.deepEqual(problems, [])

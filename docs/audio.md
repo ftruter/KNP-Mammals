@@ -22,11 +22,9 @@ When several files are in hand, use this order: a file the page can play, then g
 
 ## Place
 
-Keep as much place detail as the source gives. A clip from outside Kruger keeps its real place and is not labelled Kruger.
+Keep as much place detail as the source gives, including a camp, road, waterhole, hide, picnic site, or gate when the source names one. A clip from outside Kruger keeps its real place and is not labelled Kruger.
 
-`place` and `note` do not name a camp, road, waterhole, hide, picnic site, or gate.
-
-White rhinoceros, black rhinoceros, and Temminck's pangolin use only "Kruger National Park". Juliana's golden mole uses only "southwestern Kruger National Park".
+White rhinoceros, black rhinoceros, and Temminck's pangolin are the exception. The recording place is "Kruger National Park" and nothing finer, and the place and note do not cite an iNaturalist or xeno-canto observation. Juliana's golden mole keeps the full place the source gives.
 
 ## Left out
 
