@@ -82,6 +82,16 @@
     }
   ],
   "habitat": "The 2025 EWT assessment says the species occurs in mesic woodland savannahs where suitable day roosts are present (Cotterill and Happold 2013), and that in the southern part of its range it is particularly associated with broken, rocky terrain (Skinner and Chimimba 2005). Its IUCN habitat scheme on that page lists dry savanna, moist savanna, temperate grassland, caves and other subterranean habitats as suitable. Elevation is given as 416-1,414 m above sea level (Monadjem et al. 2024). In the Conservation section, the same assessment states that the species is present in many protected areas, including Kruger National Park; the Assessment Rationale also names Great Limpopo Transfrontier Park among protected areas of occurrence. Wikipedia, citing the 2017 IUCN assessment, gives the natural habitats as dry savanna, caves and other subterranean habitats.",
+  "similar": [
+    {
+      "slug": "rhinolophus-clivosus",
+      "note": "The 2016 EWT assessment of Geoffroy's horseshoe bat, citing Monadjem et al. (2010), says both species lack the minute first upper premolar, which separates them from other southern African horseshoe bats, and that Geoffroy's horseshoe bat is the larger of the two."
+    },
+    {
+      "slug": "rhinolophus-blasii",
+      "note": "The 2016 EWT assessment of the peak-saddle horseshoe bat, citing Monadjem et al. (2010), says that bat is similar in size and appearance to this species and is separated from it by a high-rising, sharply pointed connecting process and by the absence of axillary tufts of hair in the armpit."
+    }
+  ],
   "population": {
     "estimate": {
       "low": null,

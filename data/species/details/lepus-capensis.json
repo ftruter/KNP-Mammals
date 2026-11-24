@@ -9,6 +9,21 @@
   "family": "leporidae",
   "inatTaxonId": 57560,
   "sampleData": false,
+  "status": "resident",
+  "monthsPresent": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
   "conservationStatus": {
     "status": "Least Concern",
     "scope": "IUCN global, and the 2025 regional Red List for South Africa, Eswatini and Lesotho",
@@ -44,7 +59,7 @@
     },
     "note": "The 2025 EWT assessment gives size at maturity as 51 cm in males and 55 cm in females, and a maximum of 59 cm, without saying whether this is head-and-body length or total length. Animal Diversity Web gives a range length of 520–595 mm, which sits inside that span, and ear length of 12–14 cm. Animal Diversity Web also gives an unsexed mass of 4–5 kg, but that account mixes characters with the European brown hare, so mass is omitted rather than used. Shoulder height and a separate tail length were not found. Females are larger than males."
   },
-  "summary": "A long-eared hare of open, dry grassland. The coat is a fine light brown, reddish or sandy grey, and a white ring usually surrounds the eye. Females are larger than males. It is mainly nocturnal and usually solitary. It is on the 2011 SANParks Kruger checklist, but recent field records in the park are scarce and easily confused with the scrub hare, so its Kruger status is treated as uncertain.",
+  "summary": "A long-eared hare of open, dry grassland. The coat is a fine light brown, reddish or sandy grey, and a white ring usually surrounds the eye. Females are larger than males. It is mainly nocturnal and usually solitary. It is on the 2011 SANParks Kruger checklist. Resident status follows one research-grade record at Skukuza on 4 March 2025, whose community taxon is Lepus capensis. The 2025 regional range does not include the Lowveld and was not used for status.",
   "description": "A typical hare, with long hind legs built for leaping and running, large eyes, and long ears. A white ring usually surrounds the eye. The fine, soft coat varies from light brown to reddish to sandy grey. Animal Diversity Web describes ginger-brown upperparts with some black shading, a paler ginger wash on the breast and sides, white inner legs and belly, a reddish-grey nape, and black-tipped ears 12–14 cm long, but that account appears to mix characters with the European brown hare and is used with caution. Females are larger than males. In the field it is easily confused with the scrub hare (Lepus saxatilis); a published distinction is in the upper incisors, which is not a field character.",
   "habits": "Predominantly nocturnal, and only occasionally seen by day in overcast weather. Usually solitary, except when a female is in oestrus. In the Free State, home ranges of about 6.5 ha for males and 8.3 ha for females have been recorded; ranges may overlap at the edges and vary with habitat. It can live without standing water, taking moisture from its food.",
   "diet": {
@@ -285,17 +300,23 @@
       "url": "https://api.inaturalist.org/v1/taxa/57560",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "iNaturalist observation 264080608",
+      "url": "https://www.inaturalist.org/observations/264080608",
+      "publisher": "iNaturalist",
+      "year": 2025,
+      "note": "Research-grade observation in place 69020, observed on 4 March 2025 at Skukuza, not captive. The community taxon is Lepus capensis (taxon 57560). An earlier identification as Lepus saxatilis was replaced and is not current. Status is resident with months 1–12 under rule (c)."
     }
   ],
   "research": {
     "confidence": "low",
     "needsReview": true,
-    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Cape hare, Vlakhaas); the 2025 EWT page also gives Vlakhaas. The species is on that checklist, but the 2025 EWT range does not include Kruger or the Lowveld, and iNaturalist place 69020 has only one research-grade observation, taken at Skukuza rest camp, with no reusable licence. Identification confusion with the scrub hare makes park status uncertain, so status and monthsPresent are omitted. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Animal Diversity Web appears to mix characters with the European brown hare, so its mass figure and some habit details were not used.",
-    "researched": "15 November 2026, Africa/Johannesburg"
+    "note": "The English and Afrikaans names follow the 2011 SANParks checklist (Cape hare, Vlakhaas); the 2025 EWT page also gives Vlakhaas. The 2025 EWT range does not include Kruger or the Lowveld, so rule (b) does not apply, and the 2011 checklist was not used on its own. Status is resident with months 1–12 under rule (c): iNaturalist observation 264080608, observed on 4 March 2025 at Skukuza, is research-grade and not captive, and the community taxon is Lepus capensis. An earlier identification of that observation as the scrub hare was replaced and is not the current community identification. The photograph has no reusable licence and is not used as an image. No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf. Animal Diversity Web appears to mix characters with the European brown hare, so its mass figure and some habit details were not used.",
+    "researched": "15 November 2026, Africa/Johannesburg; status pass 22 November 2026, Africa/Johannesburg"
   },
   "gaps": [
     "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "Kruger presence is uncertain: the species is on the 2011 SANParks checklist, but the 2025 EWT range (Northern and Western Cape, western North West, Free State, western Lesotho, Eswatini, and marginally the north-western Eastern Cape and KwaZulu-Natal) does not include Kruger or the Lowveld. iNaturalist place 69020 has only one research-grade observation, taken at Skukuza rest camp, with no reusable licence, plus two non-research-grade records (one at Crocodile Bridge rest camp and one casual record on Gomondwane Road). Identification confusion with the scrub hare (Lepus saxatilis) adds to the uncertainty, so status and monthsPresent are omitted.",
     "No reusable Kruger photograph was found (0 licensed research-grade photographs in iNaturalist place 69020). The five photographs are research-grade records from South Africa outside Kruger. A rear-view thumbnail (observation 171254640) was not used.",
     "iNaturalist has 0 sound observations for Lepus capensis in place 69020. No sourced vocalisation description was found, so calls is empty.",
     "Shoulder height, tail length, and a mass figure that can be used with confidence for this species were not found. Animal Diversity Web gives 4–5 kg, but that account appears to mix characters with the European brown hare, so mass is omitted.",

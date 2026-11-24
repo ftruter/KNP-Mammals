@@ -81,6 +81,21 @@
         }
     ],
     "habitat": "The 2025 EWT assessment, citing Monadjem et al. (2015) and Venturi et al. (2004), gives M. natalensis a very wide distribution across the savannahs, grasslands and agricultural landscapes of sub-Saharan Africa, and, within the assessment region, places it predominantly in the wetter eastern regions east of the Drakensberg escarpment, or in the low-altitude, high-rainfall eastern coastal region, extending to northeastern South Africa. It is typically associated with agricultural fields and homes, but also occurs in natural savannahs and grasslands, and is a generalist that rapidly colonises areas after disturbance. In Kruger National Park, Kneidinger et al. (2014), as cited by EWT, recorded the species at Roan Camp, where it dominated wetter areas.",
+    "size": {
+        "headBodyLengthCm": {
+            "min": 7.6,
+            "max": 15.5
+        },
+        "tailCm": {
+            "min": 7,
+            "max": 17.4
+        },
+        "massKg": {
+            "min": 0.015,
+            "max": 0.098
+        },
+        "note": "One source claims a head-and-body length of 7.6–15.5 cm, a tail of 7–17.4 cm and a mass of 15–98 g (0.015–0.098 kg) for Mastomys natalensis. Those figures are a published range for that species, not a combined Mastomys measurement and not a mean. Another source claims mean head-and-body lengths of 8.44 cm in males and 8.39 cm in females, and mean masses of 23.6 g in males and 19.8 g in females, from one Eswatini sample; those are means, not a range, and are not averaged with the figures above. A more accurate figure may be available at this URL: https://ewt.org/project/natal-multimammate-mouse/"
+    },
     "similar": [
         {
             "slug": "mastomys-coucha",

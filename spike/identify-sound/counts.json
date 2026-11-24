@@ -1,0 +1,5348 @@
+{
+  "method": {
+    "qualityGrade": "research",
+    "captive": false,
+    "sounds": true,
+    "soundLicenseWithNc": [
+      "cc0",
+      "cc-by",
+      "cc-by-sa",
+      "cc-by-nc",
+      "cc-by-nc-sa"
+    ],
+    "soundLicenseWithoutNc": [
+      "cc0",
+      "cc-by",
+      "cc-by-sa"
+    ],
+    "ndLicense": [
+      "cc-by-nd",
+      "cc-by-nc-nd"
+    ],
+    "ndMeaning": "link only, not playback and not training material",
+    "places": {
+      "kruger": {
+        "id": 69020,
+        "name": "Kruger National Park",
+        "displayName": "Kruger National Park, ZA"
+      },
+      "southAfrica": {
+        "id": 6986,
+        "name": "South Africa",
+        "displayName": "South Africa"
+      },
+      "anywhere": null
+    },
+    "observations": "research-grade non-captive observations with at least one sound under the licence filter",
+    "clips": "sound files with an allowed licence code on those observations, or null when a page or a licence code was missing. South Africa clips were not paged.",
+    "clipPageCap": 3000
+  },
+  "summary": {
+    "all": {
+      "species": 143,
+      "withNc": {
+        "kruger": {
+          "median": 0.0,
+          "under20": 142,
+          "under50": 142,
+          "under150": 142,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 132,
+          "counted": 142,
+          "nulls": 1
+        },
+        "southAfrica": {
+          "median": 0.0,
+          "under20": 138,
+          "under50": 142,
+          "under150": 142,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 110,
+          "counted": 142,
+          "nulls": 1
+        },
+        "restOfSouthAfrica": {
+          "median": 0.0,
+          "under20": 140,
+          "under50": 142,
+          "under150": 142,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 114,
+          "counted": 142,
+          "nulls": 1
+        },
+        "anywhere": {
+          "median": 0.0,
+          "under20": 136,
+          "under50": 142,
+          "under150": 142,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 99,
+          "counted": 142,
+          "nulls": 1
+        }
+      },
+      "withoutNc": {
+        "kruger": {
+          "median": 0.0,
+          "under20": 142,
+          "under50": 142,
+          "under150": 142,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 139,
+          "counted": 142,
+          "nulls": 1
+        },
+        "southAfrica": {
+          "median": 0.0,
+          "under20": 142,
+          "under50": 142,
+          "under150": 142,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 131,
+          "counted": 142,
+          "nulls": 1
+        },
+        "restOfSouthAfrica": {
+          "median": 0.0,
+          "under20": 142,
+          "under50": 142,
+          "under150": 142,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 133,
+          "counted": 142,
+          "nulls": 1
+        },
+        "anywhere": {
+          "median": 0.0,
+          "under20": 142,
+          "under50": 142,
+          "under150": 142,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 121,
+          "counted": 142,
+          "nulls": 1
+        }
+      }
+    },
+    "bats": {
+      "species": 41,
+      "withNc": {
+        "kruger": {
+          "median": 0.0,
+          "under20": 40,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 38,
+          "counted": 40,
+          "nulls": 1
+        },
+        "southAfrica": {
+          "median": 0.0,
+          "under20": 39,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 34,
+          "counted": 40,
+          "nulls": 1
+        },
+        "restOfSouthAfrica": {
+          "median": 0.0,
+          "under20": 39,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 36,
+          "counted": 40,
+          "nulls": 1
+        },
+        "anywhere": {
+          "median": 0.0,
+          "under20": 39,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 30,
+          "counted": 40,
+          "nulls": 1
+        }
+      },
+      "withoutNc": {
+        "kruger": {
+          "median": 0.0,
+          "under20": 40,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 38,
+          "counted": 40,
+          "nulls": 1
+        },
+        "southAfrica": {
+          "median": 0.0,
+          "under20": 40,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 37,
+          "counted": 40,
+          "nulls": 1
+        },
+        "restOfSouthAfrica": {
+          "median": 0.0,
+          "under20": 40,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 39,
+          "counted": 40,
+          "nulls": 1
+        },
+        "anywhere": {
+          "median": 0.0,
+          "under20": 40,
+          "under50": 40,
+          "under150": 40,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 34,
+          "counted": 40,
+          "nulls": 1
+        }
+      }
+    },
+    "notBats": {
+      "species": 102,
+      "withNc": {
+        "kruger": {
+          "median": 0.0,
+          "under20": 102,
+          "under50": 102,
+          "under150": 102,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 94,
+          "counted": 102,
+          "nulls": 0
+        },
+        "southAfrica": {
+          "median": 0.0,
+          "under20": 99,
+          "under50": 102,
+          "under150": 102,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 76,
+          "counted": 102,
+          "nulls": 0
+        },
+        "restOfSouthAfrica": {
+          "median": 0.0,
+          "under20": 101,
+          "under50": 102,
+          "under150": 102,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 78,
+          "counted": 102,
+          "nulls": 0
+        },
+        "anywhere": {
+          "median": 0.0,
+          "under20": 97,
+          "under50": 102,
+          "under150": 102,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 69,
+          "counted": 102,
+          "nulls": 0
+        }
+      },
+      "withoutNc": {
+        "kruger": {
+          "median": 0.0,
+          "under20": 102,
+          "under50": 102,
+          "under150": 102,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 101,
+          "counted": 102,
+          "nulls": 0
+        },
+        "southAfrica": {
+          "median": 0.0,
+          "under20": 102,
+          "under50": 102,
+          "under150": 102,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 94,
+          "counted": 102,
+          "nulls": 0
+        },
+        "restOfSouthAfrica": {
+          "median": 0.0,
+          "under20": 102,
+          "under50": 102,
+          "under150": 102,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 94,
+          "counted": 102,
+          "nulls": 0
+        },
+        "anywhere": {
+          "median": 0.0,
+          "under20": 102,
+          "under50": 102,
+          "under150": 102,
+          "atLeast50": 0,
+          "atLeast150": 0,
+          "zero": 87,
+          "counted": 102,
+          "nulls": 0
+        }
+      }
+    }
+  },
+  "species": [
+    {
+      "slug": "calcochloris-obtusirostris",
+      "scientificName": "Calcochloris obtusirostris",
+      "order": "Afrosoricida",
+      "taxonId": 42519,
+      "inatName": "Calcochloris obtusirostris",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "neamblysomus-julianae",
+      "scientificName": "Neamblysomus julianae",
+      "order": "Afrosoricida",
+      "taxonId": 42531,
+      "inatName": "Neamblysomus julianae",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "aepyceros-melampus",
+      "scientificName": "Aepyceros melampus",
+      "order": "Artiodactyla",
+      "taxonId": 42278,
+      "inatName": "Aepyceros melampus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "alcelaphus-buselaphus-lichtensteinii",
+      "scientificName": "Alcelaphus buselaphus lichtensteinii",
+      "order": "Artiodactyla",
+      "taxonId": 132659,
+      "inatName": "Alcelaphus buselaphus lichtensteinii",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "cephalophorus-natalensis",
+      "scientificName": "Cephalophorus natalensis",
+      "order": "Artiodactyla",
+      "taxonId": 1431002,
+      "inatName": "Cephalophorus natalensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "connochaetes-taurinus",
+      "scientificName": "Connochaetes taurinus",
+      "order": "Artiodactyla",
+      "taxonId": 42280,
+      "inatName": "Connochaetes taurinus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 4
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 5
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "damaliscus-lunatus",
+      "scientificName": "Damaliscus lunatus",
+      "order": "Artiodactyla",
+      "taxonId": 42276,
+      "inatName": "Damaliscus lunatus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "hippotragus-equinus",
+      "scientificName": "Hippotragus equinus",
+      "order": "Artiodactyla",
+      "taxonId": 42332,
+      "inatName": "Hippotragus equinus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "hippotragus-niger",
+      "scientificName": "Hippotragus niger",
+      "order": "Artiodactyla",
+      "taxonId": 42334,
+      "inatName": "Hippotragus niger",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "kobus-ellipsiprymnus",
+      "scientificName": "Kobus ellipsiprymnus",
+      "order": "Artiodactyla",
+      "taxonId": 42328,
+      "inatName": "Kobus ellipsiprymnus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "nesotragus-moschatus",
+      "scientificName": "Nesotragus moschatus",
+      "order": "Artiodactyla",
+      "taxonId": 74770,
+      "inatName": "Nesotragus moschatus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "oreotragus-oreotragus",
+      "scientificName": "Oreotragus oreotragus",
+      "order": "Artiodactyla",
+      "taxonId": 42384,
+      "inatName": "Oreotragus oreotragus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 3,
+          "restOfSouthAfrica": 3,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 2,
+          "restOfSouthAfrica": 2,
+          "anywhere": 2
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "ourebia-ourebi",
+      "scientificName": "Ourebia ourebi",
+      "order": "Artiodactyla",
+      "taxonId": 42380,
+      "inatName": "Ourebia ourebi",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "pelea-capreolus",
+      "scientificName": "Pelea capreolus",
+      "order": "Artiodactyla",
+      "taxonId": 42336,
+      "inatName": "Pelea capreolus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "raphicerus-campestris",
+      "scientificName": "Raphicerus campestris",
+      "order": "Artiodactyla",
+      "taxonId": 42375,
+      "inatName": "Raphicerus campestris",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "raphicerus-sharpei",
+      "scientificName": "Raphicerus sharpei",
+      "order": "Artiodactyla",
+      "taxonId": 42374,
+      "inatName": "Raphicerus sharpei",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "redunca-arundinum",
+      "scientificName": "Redunca arundinum",
+      "order": "Artiodactyla",
+      "taxonId": 42305,
+      "inatName": "Redunca arundinum",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 2,
+          "restOfSouthAfrica": 2,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "redunca-fulvorufula",
+      "scientificName": "Redunca fulvorufula",
+      "order": "Artiodactyla",
+      "taxonId": 42306,
+      "inatName": "Redunca fulvorufula",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "sylvicapra-grimmia",
+      "scientificName": "Sylvicapra grimmia",
+      "order": "Artiodactyla",
+      "taxonId": 42424,
+      "inatName": "Sylvicapra grimmia",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "syncerus-caffer",
+      "scientificName": "Syncerus caffer",
+      "order": "Artiodactyla",
+      "taxonId": 42405,
+      "inatName": "Syncerus caffer",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "tragelaphus-angasii",
+      "scientificName": "Tragelaphus angasii",
+      "order": "Artiodactyla",
+      "taxonId": 42342,
+      "inatName": "Tragelaphus angasii",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "tragelaphus-oryx",
+      "scientificName": "Tragelaphus oryx",
+      "order": "Artiodactyla",
+      "taxonId": 75192,
+      "inatName": "Tragelaphus oryx",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "tragelaphus-strepsiceros",
+      "scientificName": "Tragelaphus strepsiceros",
+      "order": "Artiodactyla",
+      "taxonId": 42339,
+      "inatName": "Tragelaphus strepsiceros",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "scientificName": "Tragelaphus sylvaticus",
+      "order": "Artiodactyla",
+      "taxonId": 1431867,
+      "inatName": "Tragelaphus sylvaticus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "giraffa-giraffa",
+      "scientificName": "Giraffa giraffa",
+      "order": "Artiodactyla",
+      "taxonId": 1510571,
+      "inatName": "Giraffa giraffa",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "hippopotamus-amphibius",
+      "scientificName": "Hippopotamus amphibius",
+      "order": "Artiodactyla",
+      "taxonId": 42149,
+      "inatName": "Hippopotamus amphibius",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 0,
+          "anywhere": 8
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 8
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "phacochoerus-africanus",
+      "scientificName": "Phacochoerus africanus",
+      "order": "Artiodactyla",
+      "taxonId": 42122,
+      "inatName": "Phacochoerus africanus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "potamochoerus-larvatus",
+      "scientificName": "Potamochoerus larvatus",
+      "order": "Artiodactyla",
+      "taxonId": 42138,
+      "inatName": "Potamochoerus larvatus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "lupulella-adusta",
+      "scientificName": "Lupulella adusta",
+      "order": "Carnivora",
+      "taxonId": 1210965,
+      "inatName": "Lupulella adusta",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 4
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "scientificName": "Lupulella mesomelas",
+      "order": "Carnivora",
+      "taxonId": 1210966,
+      "inatName": "Lupulella mesomelas",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": 13,
+          "restOfSouthAfrica": 12,
+          "anywhere": 23
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 2
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 26
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "lycaon-pictus",
+      "scientificName": "Lycaon pictus",
+      "order": "Carnivora",
+      "taxonId": 42093,
+      "inatName": "Lycaon pictus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 2,
+          "restOfSouthAfrica": 2,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "otocyon-megalotis",
+      "scientificName": "Otocyon megalotis",
+      "order": "Carnivora",
+      "taxonId": 42095,
+      "inatName": "Otocyon megalotis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "acinonyx-jubatus",
+      "scientificName": "Acinonyx jubatus",
+      "order": "Carnivora",
+      "taxonId": 41955,
+      "inatName": "Acinonyx jubatus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "caracal-caracal",
+      "scientificName": "Caracal caracal",
+      "order": "Carnivora",
+      "taxonId": 42042,
+      "inatName": "Caracal caracal",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "felis-lybica",
+      "scientificName": "Felis lybica",
+      "order": "Carnivora",
+      "taxonId": 371414,
+      "inatName": "Felis lybica",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "leptailurus-serval",
+      "scientificName": "Leptailurus serval",
+      "order": "Carnivora",
+      "taxonId": 42025,
+      "inatName": "Leptailurus serval",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "panthera-leo",
+      "scientificName": "Panthera leo",
+      "order": "Carnivora",
+      "taxonId": 41964,
+      "inatName": "Panthera leo",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": 5,
+          "restOfSouthAfrica": 4,
+          "anywhere": 24
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 2,
+          "restOfSouthAfrica": 2,
+          "anywhere": 3
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 30
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 4
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "panthera-pardus",
+      "scientificName": "Panthera pardus",
+      "order": "Carnivora",
+      "taxonId": 41963,
+      "inatName": "Panthera pardus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "atilax-paludinosus",
+      "scientificName": "Atilax paludinosus",
+      "order": "Carnivora",
+      "taxonId": 41919,
+      "inatName": "Atilax paludinosus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "helogale-parvula",
+      "scientificName": "Helogale parvula",
+      "order": "Carnivora",
+      "taxonId": 41906,
+      "inatName": "Helogale parvula",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "herpestes-ichneumon",
+      "scientificName": "Herpestes ichneumon",
+      "order": "Carnivora",
+      "taxonId": 41900,
+      "inatName": "Herpestes ichneumon",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "herpestes-sanguineus",
+      "scientificName": "Herpestes sanguineus",
+      "order": "Carnivora",
+      "taxonId": 74414,
+      "inatName": "Herpestes sanguineus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "ichneumia-albicauda",
+      "scientificName": "Ichneumia albicauda",
+      "order": "Carnivora",
+      "taxonId": 41939,
+      "inatName": "Ichneumia albicauda",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 5
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "mungos-mungo",
+      "scientificName": "Mungos mungo",
+      "order": "Carnivora",
+      "taxonId": 41921,
+      "inatName": "Mungos mungo",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 3,
+          "restOfSouthAfrica": 3,
+          "anywhere": 5
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 2
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 6
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "paracynictis-selousi",
+      "scientificName": "Paracynictis selousi",
+      "order": "Carnivora",
+      "taxonId": 41937,
+      "inatName": "Paracynictis selousi",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "rhynchogale-melleri",
+      "scientificName": "Rhynchogale melleri",
+      "order": "Carnivora",
+      "taxonId": 41941,
+      "inatName": "Rhynchogale melleri",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "scientificName": "Crocuta crocuta",
+      "order": "Carnivora",
+      "taxonId": 41886,
+      "inatName": "Crocuta crocuta",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 10,
+          "southAfrica": 22,
+          "restOfSouthAfrica": 12,
+          "anywhere": 45
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 6
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 10,
+          "southAfrica": null,
+          "anywhere": 49
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 7
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "parahyaena-brunnea",
+      "scientificName": "Parahyaena brunnea",
+      "order": "Carnivora",
+      "taxonId": 500648,
+      "inatName": "Parahyaena brunnea",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "proteles-cristatus",
+      "scientificName": "Proteles cristatus",
+      "order": "Carnivora",
+      "taxonId": 1306005,
+      "inatName": "Proteles cristatus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "ictonyx-striatus",
+      "scientificName": "Ictonyx striatus",
+      "order": "Carnivora",
+      "taxonId": 41822,
+      "inatName": "Ictonyx striatus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "lutra-capensis",
+      "scientificName": "Lutra capensis",
+      "order": "Carnivora",
+      "taxonId": 1638841,
+      "inatName": "Lutra capensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "mellivora-capensis",
+      "scientificName": "Mellivora capensis",
+      "order": "Carnivora",
+      "taxonId": 41834,
+      "inatName": "Mellivora capensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "civettictis-civetta",
+      "scientificName": "Civettictis civetta",
+      "order": "Carnivora",
+      "taxonId": 41627,
+      "inatName": "Civettictis civetta",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "genetta-felina",
+      "scientificName": "Genetta felina",
+      "order": "Carnivora",
+      "taxonId": 925659,
+      "inatName": "Genetta felina",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "genetta-fieldiana",
+      "scientificName": "Genetta fieldiana",
+      "order": "Carnivora",
+      "taxonId": 1643992,
+      "inatName": "Genetta fieldiana",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "taphozous-mauritianus",
+      "scientificName": "Taphozous mauritianus",
+      "order": "Chiroptera",
+      "taxonId": 41380,
+      "inatName": "Taphozous mauritianus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "hipposideros-caffer",
+      "scientificName": "Hipposideros caffer",
+      "order": "Chiroptera",
+      "taxonId": null,
+      "inatName": null,
+      "match": null,
+      "observations": {
+        "withNc": {
+          "kruger": null,
+          "southAfrica": null,
+          "restOfSouthAfrica": null,
+          "anywhere": null
+        },
+        "withoutNc": {
+          "kruger": null,
+          "southAfrica": null,
+          "restOfSouthAfrica": null,
+          "anywhere": null
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": null,
+          "southAfrica": null,
+          "anywhere": null
+        },
+        "withoutNc": {
+          "kruger": null,
+          "southAfrica": null,
+          "anywhere": null
+        }
+      },
+      "ndObservationsAnywhere": null
+    },
+    {
+      "slug": "hipposideros-commersoni",
+      "scientificName": "Hipposideros commersoni",
+      "order": "Chiroptera",
+      "taxonId": 851027,
+      "inatName": "Macronycteris commersonii",
+      "match": "iNaturalist synonym",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "miniopterus-natalensis",
+      "scientificName": "Miniopterus natalensis",
+      "order": "Chiroptera",
+      "taxonId": 57530,
+      "inatName": "Miniopterus natalensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "mops-ansorgei",
+      "scientificName": "Mops ansorgei",
+      "order": "Chiroptera",
+      "taxonId": 1430965,
+      "inatName": "Mops ansorgei",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "mops-condylurus",
+      "scientificName": "Mops condylurus",
+      "order": "Chiroptera",
+      "taxonId": 765544,
+      "inatName": "Mops condylurus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "mops-midas",
+      "scientificName": "Mops midas",
+      "order": "Chiroptera",
+      "taxonId": 765553,
+      "inatName": "Mops midas",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "mops-pumilus",
+      "scientificName": "Mops pumilus",
+      "order": "Chiroptera",
+      "taxonId": 1370990,
+      "inatName": "Mops pumilus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "tadarida-aegyptiaca",
+      "scientificName": "Tadarida aegyptiaca",
+      "order": "Chiroptera",
+      "taxonId": 41300,
+      "inatName": "Tadarida aegyptiaca",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "tadarida-fulminans",
+      "scientificName": "Tadarida fulminans",
+      "order": "Chiroptera",
+      "taxonId": 41296,
+      "inatName": "Tadarida fulminans",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "nycteris-thebaica",
+      "scientificName": "Nycteris thebaica",
+      "order": "Chiroptera",
+      "taxonId": 41192,
+      "inatName": "Nycteris thebaica",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "nycteris-woodi",
+      "scientificName": "Nycteris woodi",
+      "order": "Chiroptera",
+      "taxonId": 41190,
+      "inatName": "Nycteris woodi",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "epomophorus-crypturus",
+      "scientificName": "Epomophorus crypturus",
+      "order": "Chiroptera",
+      "taxonId": 64485,
+      "inatName": "Epomophorus crypturus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "epomophorus-wahlbergi",
+      "scientificName": "Epomophorus wahlbergi",
+      "order": "Chiroptera",
+      "taxonId": 40811,
+      "inatName": "Epomophorus wahlbergi",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 25,
+          "restOfSouthAfrica": 25,
+          "anywhere": 26
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 6,
+          "restOfSouthAfrica": 6,
+          "anywhere": 6
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 27
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 7
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "rousettus-aegyptiacus",
+      "scientificName": "Rousettus aegyptiacus",
+      "order": "Chiroptera",
+      "taxonId": 75042,
+      "inatName": "Rousettus aegyptiacus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 9
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 9
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "rhinolophus-blasii",
+      "scientificName": "Rhinolophus blasii",
+      "order": "Chiroptera",
+      "taxonId": 40673,
+      "inatName": "Rhinolophus blasii",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "rhinolophus-clivosus",
+      "scientificName": "Rhinolophus clivosus",
+      "order": "Chiroptera",
+      "taxonId": 320633,
+      "inatName": "Rhinolophus clivosus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "rhinolophus-darlingi",
+      "scientificName": "Rhinolophus darlingi",
+      "order": "Chiroptera",
+      "taxonId": 338548,
+      "inatName": "Rhinolophus darlingi",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "rhinolophus-fumigatus",
+      "scientificName": "Rhinolophus fumigatus",
+      "order": "Chiroptera",
+      "taxonId": 40684,
+      "inatName": "Rhinolophus fumigatus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "rhinolophus-hildebrandtii",
+      "scientificName": "Rhinolophus hildebrandtii",
+      "order": "Chiroptera",
+      "taxonId": 183175,
+      "inatName": "Rhinolophus hildebrandtii",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "rhinolophus-landeri",
+      "scientificName": "Rhinolophus landeri",
+      "order": "Chiroptera",
+      "taxonId": 40680,
+      "inatName": "Rhinolophus landeri",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "rhinolophus-simulator",
+      "scientificName": "Rhinolophus simulator",
+      "order": "Chiroptera",
+      "taxonId": 40693,
+      "inatName": "Rhinolophus simulator",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "rhinolophus-swinnyi",
+      "scientificName": "Rhinolophus swinnyi",
+      "order": "Chiroptera",
+      "taxonId": 40670,
+      "inatName": "Rhinolophus swinnyi",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "afronycteris-nanus",
+      "scientificName": "Afronycteris nanus",
+      "order": "Chiroptera",
+      "taxonId": 1431034,
+      "inatName": "Afronycteris nanus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "cnephaeus-hottentotus",
+      "scientificName": "Cnephaeus hottentotus",
+      "order": "Chiroptera",
+      "taxonId": 1596136,
+      "inatName": "Cnephaeus hottentotus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 1,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 1
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "glauconycteris-variegata",
+      "scientificName": "Glauconycteris variegata",
+      "order": "Chiroptera",
+      "taxonId": 57549,
+      "inatName": "Glauconycteris variegata",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "kerivoula-argentata",
+      "scientificName": "Kerivoula argentata",
+      "order": "Chiroptera",
+      "taxonId": 40456,
+      "inatName": "Kerivoula argentata",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "kerivoula-lanosa",
+      "scientificName": "Kerivoula lanosa",
+      "order": "Chiroptera",
+      "taxonId": 40468,
+      "inatName": "Kerivoula lanosa",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "laephotis-angolensis",
+      "scientificName": "Laephotis angolensis",
+      "order": "Chiroptera",
+      "taxonId": 40531,
+      "inatName": "Laephotis angolensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "laephotis-capensis",
+      "scientificName": "Laephotis capensis",
+      "order": "Chiroptera",
+      "taxonId": 1431030,
+      "inatName": "Laephotis capensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "myotis-bocagii",
+      "scientificName": "Myotis bocagii",
+      "order": "Chiroptera",
+      "taxonId": 74698,
+      "inatName": "Myotis bocagii",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "myotis-tricolor",
+      "scientificName": "Myotis tricolor",
+      "order": "Chiroptera",
+      "taxonId": 40279,
+      "inatName": "Myotis tricolor",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "myotis-welwitschii",
+      "scientificName": "Myotis welwitschii",
+      "order": "Chiroptera",
+      "taxonId": 40336,
+      "inatName": "Myotis welwitschii",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "neoromicia-anchieta",
+      "scientificName": "Neoromicia anchieta",
+      "order": "Chiroptera",
+      "taxonId": 1431023,
+      "inatName": "Neoromicia anchieta",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "neoromicia-zuluensis",
+      "scientificName": "Neoromicia zuluensis",
+      "order": "Chiroptera",
+      "taxonId": 765532,
+      "inatName": "Neoromicia zuluensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "nycticeinops-schlieffenii",
+      "scientificName": "Nycticeinops schlieffenii",
+      "order": "Chiroptera",
+      "taxonId": 57550,
+      "inatName": "Nycticeinops schlieffenii",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "pipistrellus-hesperidus",
+      "scientificName": "Pipistrellus hesperidus",
+      "order": "Chiroptera",
+      "taxonId": 57536,
+      "inatName": "Pipistrellus hesperidus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "pipistrellus-rusticus",
+      "scientificName": "Pipistrellus rusticus",
+      "order": "Chiroptera",
+      "taxonId": 40361,
+      "inatName": "Pipistrellus rusticus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "scotophilus-borbonicus",
+      "scientificName": "Scotophilus borbonicus",
+      "order": "Chiroptera",
+      "taxonId": 40441,
+      "inatName": "Scotophilus borbonicus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "scotophilus-dinganii",
+      "scientificName": "Scotophilus dinganii",
+      "order": "Chiroptera",
+      "taxonId": 40436,
+      "inatName": "Scotophilus dinganii",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 1,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 1
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "vansonia-rueppellii",
+      "scientificName": "Vansonia rueppellii",
+      "order": "Chiroptera",
+      "taxonId": 1431041,
+      "inatName": "Vansonia rueppellii",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "atelerix-frontalis",
+      "scientificName": "Atelerix frontalis",
+      "order": "Eulipotyphla",
+      "taxonId": 43056,
+      "inatName": "Atelerix frontalis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "crocidura-cyanea",
+      "scientificName": "Crocidura cyanea",
+      "order": "Eulipotyphla",
+      "taxonId": 46777,
+      "inatName": "Crocidura cyanea",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "crocidura-fuscomurina",
+      "scientificName": "Crocidura fuscomurina",
+      "order": "Eulipotyphla",
+      "taxonId": 46592,
+      "inatName": "Crocidura fuscomurina",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "crocidura-hirta",
+      "scientificName": "Crocidura hirta",
+      "order": "Eulipotyphla",
+      "taxonId": 46621,
+      "inatName": "Crocidura hirta",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "crocidura-mariquensis",
+      "scientificName": "Crocidura mariquensis",
+      "order": "Eulipotyphla",
+      "taxonId": 46612,
+      "inatName": "Crocidura mariquensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "crocidura-silacea",
+      "scientificName": "Crocidura silacea",
+      "order": "Eulipotyphla",
+      "taxonId": 46772,
+      "inatName": "Crocidura silacea",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "suncus-lixa",
+      "scientificName": "Suncus lixa",
+      "order": "Eulipotyphla",
+      "taxonId": 1370725,
+      "inatName": "Suncus lixa",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "heterohyrax-brucei",
+      "scientificName": "Heterohyrax brucei",
+      "order": "Hyracoidea",
+      "taxonId": 43088,
+      "inatName": "Heterohyrax brucei",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 4
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 5
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "procavia-capensis",
+      "scientificName": "Procavia capensis",
+      "order": "Hyracoidea",
+      "taxonId": 43086,
+      "inatName": "Procavia capensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 5,
+          "restOfSouthAfrica": 5,
+          "anywhere": 7
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 2
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 8
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "lepus-capensis",
+      "scientificName": "Lepus capensis",
+      "order": "Lagomorpha",
+      "taxonId": 57560,
+      "inatName": "Lepus capensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "lepus-saxatilis",
+      "scientificName": "Lepus saxatilis",
+      "order": "Lagomorpha",
+      "taxonId": 43125,
+      "inatName": "Lepus saxatilis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "pronolagus-crassicaudatus",
+      "scientificName": "Pronolagus crassicaudatus",
+      "order": "Lagomorpha",
+      "taxonId": 43158,
+      "inatName": "Pronolagus crassicaudatus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "elephantulus-brachyrhynchus",
+      "scientificName": "Elephantulus brachyrhynchus",
+      "order": "Macroscelidea",
+      "taxonId": 43211,
+      "inatName": "Elephantulus brachyrhynchus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "elephantulus-myurus",
+      "scientificName": "Elephantulus myurus",
+      "order": "Macroscelidea",
+      "taxonId": 43213,
+      "inatName": "Elephantulus myurus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "petrodromus-tetradactylus",
+      "scientificName": "Petrodromus tetradactylus",
+      "order": "Macroscelidea",
+      "taxonId": 43226,
+      "inatName": "Petrodromus tetradactylus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "equus-quagga",
+      "scientificName": "Equus quagga",
+      "order": "Perissodactyla",
+      "taxonId": 43335,
+      "inatName": "Equus quagga",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "ceratotherium-simum",
+      "scientificName": "Ceratotherium simum",
+      "order": "Perissodactyla",
+      "taxonId": 43348,
+      "inatName": "Ceratotherium simum",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "diceros-bicornis",
+      "scientificName": "Diceros bicornis",
+      "order": "Perissodactyla",
+      "taxonId": 43350,
+      "inatName": "Diceros bicornis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "smutsia-temminckii",
+      "scientificName": "Smutsia temminckii",
+      "order": "Pholidota",
+      "taxonId": 75083,
+      "inatName": "Smutsia temminckii",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "chlorocebus-pygerythrus",
+      "scientificName": "Chlorocebus pygerythrus",
+      "order": "Primates",
+      "taxonId": 68137,
+      "inatName": "Chlorocebus pygerythrus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": 29,
+          "restOfSouthAfrica": 28,
+          "anywhere": 34
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 3,
+          "restOfSouthAfrica": 3,
+          "anywhere": 3
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 39
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 3
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "papio-ursinus",
+      "scientificName": "Papio ursinus",
+      "order": "Primates",
+      "taxonId": 57556,
+      "inatName": "Papio ursinus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": 20,
+          "restOfSouthAfrica": 19,
+          "anywhere": 28
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 3,
+          "restOfSouthAfrica": 3,
+          "anywhere": 4
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 31
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 4
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "galago-moholi",
+      "scientificName": "Galago moholi",
+      "order": "Primates",
+      "taxonId": 43561,
+      "inatName": "Galago moholi",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 2
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "otolemur-crassicaudatus",
+      "scientificName": "Otolemur crassicaudatus",
+      "order": "Primates",
+      "taxonId": 43567,
+      "inatName": "Otolemur crassicaudatus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 0,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 3
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "loxodonta-africana",
+      "scientificName": "Loxodonta africana",
+      "order": "Proboscidea",
+      "taxonId": 43694,
+      "inatName": "Loxodonta africana",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 4,
+          "restOfSouthAfrica": 4,
+          "anywhere": 13
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 1
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 20
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        }
+      },
+      "ndObservationsAnywhere": 1
+    },
+    {
+      "slug": "cryptomys-hottentotus",
+      "scientificName": "Cryptomys hottentotus",
+      "order": "Rodentia",
+      "taxonId": 43749,
+      "inatName": "Cryptomys hottentotus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "graphiurus-murinus",
+      "scientificName": "Graphiurus murinus",
+      "order": "Rodentia",
+      "taxonId": 45848,
+      "inatName": "Graphiurus murinus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "hystrix-africaeaustralis",
+      "scientificName": "Hystrix africaeaustralis",
+      "order": "Rodentia",
+      "taxonId": 44173,
+      "inatName": "Hystrix africaeaustralis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 1,
+          "restOfSouthAfrica": 1,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 1
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "aethomys-chrysophilus",
+      "scientificName": "Aethomys chrysophilus",
+      "order": "Rodentia",
+      "taxonId": 45573,
+      "inatName": "Aethomys chrysophilus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "dasymys-incomtus",
+      "scientificName": "Dasymys incomtus",
+      "order": "Rodentia",
+      "taxonId": 45632,
+      "inatName": "Dasymys incomtus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "gerbilliscus-leucogaster",
+      "scientificName": "Gerbilliscus leucogaster",
+      "order": "Rodentia",
+      "taxonId": 74367,
+      "inatName": "Gerbilliscus leucogaster",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "grammomys-dolichurus",
+      "scientificName": "Grammomys dolichurus",
+      "order": "Rodentia",
+      "taxonId": 45253,
+      "inatName": "Grammomys dolichurus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "lemniscomys-rosalia",
+      "scientificName": "Lemniscomys rosalia",
+      "order": "Rodentia",
+      "taxonId": 45500,
+      "inatName": "Lemniscomys rosalia",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "mastomys-coucha",
+      "scientificName": "Mastomys coucha",
+      "order": "Rodentia",
+      "taxonId": 45328,
+      "inatName": "Mastomys coucha",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "mastomys-natalensis",
+      "scientificName": "Mastomys natalensis",
+      "order": "Rodentia",
+      "taxonId": 45326,
+      "inatName": "Mastomys natalensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "micaelamys-namaquensis",
+      "scientificName": "Micaelamys namaquensis",
+      "order": "Rodentia",
+      "taxonId": 851046,
+      "inatName": "Micaelamys namaquensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "mus-minutoides",
+      "scientificName": "Mus minutoides",
+      "order": "Rodentia",
+      "taxonId": 44716,
+      "inatName": "Mus minutoides",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "otomys-angoniensis",
+      "scientificName": "Otomys angoniensis",
+      "order": "Rodentia",
+      "taxonId": 45439,
+      "inatName": "Otomys angoniensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "thallomys-paedulcus",
+      "scientificName": "Thallomys paedulcus",
+      "order": "Rodentia",
+      "taxonId": 45414,
+      "inatName": "Thallomys paedulcus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "cricetomys-ansorgei",
+      "scientificName": "Cricetomys ansorgei",
+      "order": "Rodentia",
+      "taxonId": 1453959,
+      "inatName": "Cricetomys ansorgei",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "dendromus-melanotis",
+      "scientificName": "Dendromus melanotis",
+      "order": "Rodentia",
+      "taxonId": 44971,
+      "inatName": "Dendromus melanotis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "dendromus-mystacalis",
+      "scientificName": "Dendromus mystacalis",
+      "order": "Rodentia",
+      "taxonId": 44976,
+      "inatName": "Dendromus mystacalis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "saccostomus-campestris",
+      "scientificName": "Saccostomus campestris",
+      "order": "Rodentia",
+      "taxonId": 44509,
+      "inatName": "Saccostomus campestris",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "steatomys-pratensis",
+      "scientificName": "Steatomys pratensis",
+      "order": "Rodentia",
+      "taxonId": 44923,
+      "inatName": "Steatomys pratensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "pedetes-capensis",
+      "scientificName": "Pedetes capensis",
+      "order": "Rodentia",
+      "taxonId": 45929,
+      "inatName": "Pedetes capensis",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "paraxerus-cepapi",
+      "scientificName": "Paraxerus cepapi",
+      "order": "Rodentia",
+      "taxonId": 46110,
+      "inatName": "Paraxerus cepapi",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": 9,
+          "restOfSouthAfrica": 8,
+          "anywhere": 15
+        },
+        "withoutNc": {
+          "kruger": 1,
+          "southAfrica": 2,
+          "restOfSouthAfrica": 1,
+          "anywhere": 2
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 16
+        },
+        "withoutNc": {
+          "kruger": 1,
+          "southAfrica": null,
+          "anywhere": 2
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "thryonomys-swinderianus",
+      "scientificName": "Thryonomys swinderianus",
+      "order": "Rodentia",
+      "taxonId": 46279,
+      "inatName": "Thryonomys swinderianus",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    },
+    {
+      "slug": "orycteropus-afer",
+      "scientificName": "Orycteropus afer",
+      "order": "Tubulidentata",
+      "taxonId": 47062,
+      "inatName": "Orycteropus afer",
+      "match": "same name",
+      "observations": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": 0,
+          "restOfSouthAfrica": 0,
+          "anywhere": 0
+        }
+      },
+      "clips": {
+        "withNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        },
+        "withoutNc": {
+          "kruger": 0,
+          "southAfrica": null,
+          "anywhere": 0
+        }
+      },
+      "ndObservationsAnywhere": 0
+    }
+  ],
+  "gaps": [
+    {
+      "slug": "hipposideros-caffer",
+      "reason": "taxon id is null, so sound counts are null"
+    }
+  ],
+  "xenoCanto": {
+    "reusableClips": null,
+    "reason": "Counted separately from the public explore pages. See xc.json. API v3 was not called."
+  },
+  "macaulayLibrary": {
+    "reusableClips": null,
+    "reason": "Reuse terms were not readable. https://www.macaulaylibrary.org/media-asset-licensing/ returned 404. https://birds.cornell.edu/home/terms-of-use/ returned 403. The about page does not state a licence."
+  }
+}

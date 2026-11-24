@@ -51,7 +51,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. Wikidata https://www.wikidata.org/wiki/Q2895685 has no Afrikaans label and no af.wikipedia sitelink. iNaturalist locale=af has no preferred name (https://api.inaturalist.org/v1/taxa/47060?locale=af). Catalogue of Life via GBIF has no Afrikaans vernacular (https://api.gbif.org/v1/species/9470/vernacularNames). The species name erdvark was not copied onto the family.",
       "af.wikipedia names the species (erdvark) but not a family vernacular."
     ]
   },
@@ -89,7 +89,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one."
+      "No Afrikaans family name stored. Wikidata https://www.wikidata.org/wiki/Q2372824 has no Afrikaans label and no af.wikipedia sitelink. iNaturalist locale=af preferred name is Olifante (https://api.inaturalist.org/v1/taxa/43692?locale=af). Catalogue of Life via GBIF lists two Afrikaans vernaculars, Olifant and Olifante (https://api.gbif.org/v1/species/9427/vernacularNames), so neither was stored. The species name olifant was not copied onto the family."
     ]
   },
   {
@@ -107,7 +107,7 @@
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
       "SANParks listed this family under the outdated order Insectivora. Order used here is from iNaturalist taxonomy (place 69020) and af.wikipedia.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. Wikidata https://www.wikidata.org/wiki/Q28257 has no Afrikaans label and no af.wikipedia sitelink. iNaturalist locale=af has no preferred name (https://api.inaturalist.org/v1/taxa/43011?locale=af). Catalogue of Life via GBIF has no Afrikaans vernacular (https://api.gbif.org/v1/species/5722/vernacularNames). The species name krimpvarkie was not copied onto the family.",
       "No iNaturalist observations of this family in place 69020 in the taxonomy pull; inclusion is the official checklist only."
     ]
   },
@@ -133,18 +133,20 @@
     "slug": "emballonuridae",
     "latin": "Emballonuridae",
     "en": "Sheath-tailed bats",
-    "af": null,
+    "af": "Skedestertvlermuise",
     "order": "Chiroptera",
     "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Microchiroptera: Emballonuridae, with Taphozous mauritianus. iNaturalist place 69020 has research-grade observations of that species. English heading from Waterberg Bioquest and iNaturalist.",
     "sources": [
       "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
       "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
       "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
-      "https://waterberg-bioquest.co.za/soogdiere.html"
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://api.inaturalist.org/v1/taxa/41334?locale=af",
+      "https://api.gbif.org/v1/species/9615/vernacularNames"
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one."
+      "No af.wikipedia family article. Skedestertvlermuise is the iNaturalist locale=af preferred name and the only Catalogue of Life Afrikaans vernacular on GBIF. It is not the species name witlyfvlermuis."
     ]
   },
   {
@@ -180,7 +182,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. Wikidata https://www.wikidata.org/wiki/Q20722175 has no Afrikaans label and no af.wikipedia sitelink. iNaturalist locale=af has no preferred name (https://api.inaturalist.org/v1/taxa/155314?locale=af). Catalogue of Life via GBIF has no Afrikaans vernacular (https://api.gbif.org/v1/species/7456382/vernacularNames). Aandvlermuise was not copied from Vespertilionidae onto this split.",
       "Taxonomic remap: SANParks Vespertilionidae (Miniopterus schreibersii) to Miniopteridae, following iNaturalist. Research-grade species-level observations were not present in the species-counts pull."
     ]
   },
@@ -292,7 +294,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. Wikidata https://www.wikidata.org/wiki/Q182968 has no Afrikaans label and no af.wikipedia sitelink. iNaturalist locale=af has no preferred name (https://api.inaturalist.org/v1/taxa/43443?locale=af). Catalogue of Life via GBIF has no Afrikaans vernacular (https://api.gbif.org/v1/species/9622/vernacularNames).",
       "Samango / Cercopithecus mitis is on the official checklist; it did not appear in the research-grade species-counts pull for place 69020."
     ]
   },
@@ -319,18 +321,18 @@
     "slug": "canidae",
     "latin": "Canidae",
     "en": "Dogs",
-    "af": null,
+    "af": "Hondagtiges",
     "order": "Carnivora",
     "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Carnivora: Canidae, with bat-eared fox, wild dog, and side-striped and black-backed jackals. iNaturalist place 69020 has research-grade observations of those wild species. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Canids').",
     "sources": [
       "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
       "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
       "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
-      "https://waterberg-bioquest.co.za/soogdiere.html"
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Hondagtiges"
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
       "iNaturalist also has research-grade observations of Canis familiaris (domestic dog) in the place; that species is not on the official SANParks checklist. Flagged as domestic/introduced and not used as inclusion evidence."
     ]
   },
@@ -368,8 +370,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
-      "af.wikipedia does not treat Herpestidae as a separate family (mongooses are still under Viverridae there)."
+      "No Afrikaans family name stored. The af.wikipedia article https://af.wikipedia.org/wiki/Muishond is titled Muishond. The lead applies Muishonde to Herpestidae, then places Herpestes and Helogale in Viverridae and also uses muishond for Mustelidae. That older placement was rejected. The Wikidata Afrikaans label on https://www.wikidata.org/wiki/Q80479 is Muishond. iNaturalist locale=af and Catalogue of Life both give Muishonde (https://api.inaturalist.org/v1/taxa/41893?locale=af, https://api.gbif.org/v1/species/9678/vernacularNames). That string was not stored."
     ]
   },
   {
@@ -387,8 +388,8 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
-      "af.wikipedia still splits aardwolf as Protelidae; SANParks and iNaturalist place Proteles in Hyaenidae, so Protelidae is not listed separately. Brown hyaena and aardwolf are on the official checklist but were thin or absent in the research-grade species-counts pull."
+      "No Afrikaans family name stored. The af.wikipedia article https://af.wikipedia.org/wiki/Hiëna is titled Hiëna. The lead calls hiëna a family and does not name Hyaenidae. The Wikidata Afrikaans label on https://www.wikidata.org/wiki/Q42046 is Hiëna. iNaturalist locale=af and Catalogue of Life both give Hiënas (https://api.inaturalist.org/v1/taxa/41884?locale=af, https://api.gbif.org/v1/species/5306/vernacularNames). Hiëna and Hiënas disagree, so neither was stored.",
+      "The orders overview still splits aardwolf as Protelidae. The family article includes aardwolf among four species and does not name Hyaenidae, so no family vernacular was stored from it. SANParks and iNaturalist place Proteles in Hyaenidae, and Protelidae is not listed separately. Brown hyaena and aardwolf are on the official checklist but were thin or absent in the research-grade species-counts pull."
     ]
   },
   {
@@ -425,7 +426,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. Wikidata https://www.wikidata.org/wiki/Q185864 has no Afrikaans label and no af.wikipedia sitelink. iNaturalist locale=af has no preferred name (https://api.inaturalist.org/v1/taxa/41574?locale=af). Catalogue of Life via GBIF has no Afrikaans vernacular (https://api.gbif.org/v1/species/5312/vernacularNames).",
       "af.wikipedia still lumps mongooses into Viverridae (outdated) and does not give a usable family vernacular for the modern scope of Viverridae."
     ]
   },
@@ -444,26 +445,26 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
-      "af.wikipedia names the species (ietermagô) but not a family vernacular."
+      "No Afrikaans family name stored. The af.wikipedia sitelink https://af.wikipedia.org/wiki/Skubdier is titled Skubdier. The lead applies Skubdiere, and also ietermagoë, to the order Pholidota, not to the family Manidae. The Wikidata Afrikaans label on https://www.wikidata.org/wiki/Q9027425 is Skubdier. iNaturalist locale=af has no preferred name (https://api.inaturalist.org/v1/taxa/43358?locale=af). Catalogue of Life via GBIF has no Afrikaans vernacular (https://api.gbif.org/v1/species/5480/vernacularNames). The species name ietermagô was not copied onto the family."
     ]
   },
   {
     "slug": "equidae",
     "latin": "Equidae",
     "en": "Zebras",
-    "af": null,
+    "af": "Perdagtiges",
     "order": "Perissodactyla",
     "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Equidae, with Burchell's zebra. iNaturalist place 69020 has many research-grade observations of Equus quagga. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Equines').",
     "sources": [
       "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
       "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
       "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
-      "https://waterberg-bioquest.co.za/soogdiere.html"
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Perdagtiges"
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one."
+      "The Wikidata Afrikaans label on https://www.wikidata.org/wiki/Q165115 is the Latin name Equidae, which differs from the article title Perdagtiges and was not stored. The article lead applies Perdagtiges to Equidae."
     ]
   },
   {
@@ -481,26 +482,26 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one."
+      "No Afrikaans family name stored. The af.wikipedia article https://af.wikipedia.org/wiki/Renoster is titled Renoster. The lead does not name Rhinocerotidae and does not call renoster a family. The Wikidata Afrikaans label on https://www.wikidata.org/wiki/Q34718 is renoster. Catalogue of Life via GBIF lists two Afrikaans vernaculars, Renoster and Renosters (https://api.gbif.org/v1/species/9415/vernacularNames). iNaturalist locale=af preferred name is Renosters (https://api.inaturalist.org/v1/taxa/43341?locale=af). Two Catalogue of Life strings, so neither was stored."
     ]
   },
   {
     "slug": "bovidae",
     "latin": "Bovidae",
     "en": "Antelopes and buffaloes",
-    "af": null,
+    "af": "Horingdraers",
     "order": "Artiodactyla",
     "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Bovidae, with a long list of antelope plus African buffalo. iNaturalist place 69020 has many research-grade observations in this family. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Bovids').",
     "sources": [
       "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
       "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
       "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
-      "https://waterberg-bioquest.co.za/soogdiere.html"
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Horingdraers"
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
-      "af.wikipedia describes the family as wildsbok species plus buffalo, which is not a single family vernacular, so af was left null. Grey rhebok, oribi, suni, red duiker and Lichtenstein's hartebeest are on the official checklist; several were absent or thinly represented in the research-grade species-counts pull."
+      "The orders overview describes this family as wildsbok species plus buffalo, which is not a single family vernacular, so that phrase was not stored. The family article https://af.wikipedia.org/wiki/Horingdraers is titled Horingdraers, and the lead applies that name to Bovidae. The Wikidata Afrikaans label on https://www.wikidata.org/wiki/Q25497 is Holhoringes, which differs from the article title and was not stored. Grey rhebok, oribi, suni, red duiker and Lichtenstein's hartebeest are on the official checklist; several were absent or thinly represented in the research-grade species-counts pull."
     ]
   },
   {
@@ -518,7 +519,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. Wikidata https://www.wikidata.org/wiki/Q186154 has no Afrikaans label and no af.wikipedia sitelink. iNaturalist locale=af has no preferred name (https://api.inaturalist.org/v1/taxa/42153?locale=af). Catalogue of Life via GBIF has no Afrikaans vernacular (https://api.gbif.org/v1/species/5299/vernacularNames). The species name kameelperd was not copied onto the family.",
       "af.wikipedia names the species (kameelperd) but not a family vernacular."
     ]
   },
@@ -526,19 +527,21 @@
     "slug": "hippopotamidae",
     "latin": "Hippopotamidae",
     "en": "Hippopotamuses",
-    "af": null,
+    "af": "Seekoeie",
     "order": "Artiodactyla",
     "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Hippopotamidae, with Hippopotamus amphibius. iNaturalist place 69020 has many research-grade observations of that species. English heading from Waterberg Bioquest and iNaturalist.",
     "sources": [
       "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
       "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
       "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
-      "https://waterberg-bioquest.co.za/soogdiere.html"
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://af.wikipedia.org/wiki/Seekoeie",
+      "https://api.inaturalist.org/v1/taxa/42146?locale=af",
+      "https://api.gbif.org/v1/species/5300/vernacularNames"
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
-      "af.wikipedia names the species (seekoei) but not a family vernacular."
+      "The species name seekoei was not copied onto the family. The family article https://af.wikipedia.org/wiki/Seekoeie is titled Seekoeie. The lead calls Hippopotamidae the seekoeifamilie and names the seekoei and the dwergseekoei as species. Seekoeie is also the Wikidata Afrikaans label, the iNaturalist locale=af preferred name (https://api.inaturalist.org/v1/taxa/42146?locale=af), and the only Catalogue of Life Afrikaans vernacular on GBIF (https://api.gbif.org/v1/species/5300/vernacularNames)."
     ]
   },
   {
@@ -574,7 +577,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. The af.wikipedia sitelink https://af.wikipedia.org/wiki/Duinmol is titled Duinmol. The lead does not name Bathyergidae. The Wikidata Afrikaans label on https://www.wikidata.org/wiki/Q750383 is Duinmol. iNaturalist locale=af and Catalogue of Life both give Blesmolle (https://api.inaturalist.org/v1/taxa/43744?locale=af, https://api.gbif.org/v1/species/5492/vernacularNames). Duinmol and Blesmolle disagree, so neither was stored.",
       "af.wikipedia wording for this family ('mol(rot)te') was too unclear to store as a vernacular. Species-level name in iNaturalist differs from the SANParks heading; remap deferred to the species phase."
     ]
   },
@@ -600,19 +603,20 @@
     "slug": "hystricidae",
     "latin": "Hystricidae",
     "en": "Porcupines",
-    "af": null,
+    "af": "Ystervarke",
     "order": "Rodentia",
     "inclusionEvidence": "On the SANParks KNP checklist (Wayback 2011) as Hystricidae, with Hystrix africaeaustralis. iNaturalist place 69020 has research-grade observations of that species. English heading from Waterberg Bioquest (iNaturalist preferred name is 'Old World porcupines').",
     "sources": [
       "https://web.archive.org/web/20110102164614/http://www.sanparks.org/parks/kruger/conservation/scientific/ff/mammal_checklist.pdf",
       "https://api.inaturalist.org/v1/observations/taxonomy?place_id=69020&iconic_taxa=Mammalia",
       "https://api.inaturalist.org/v1/observations/species_counts?place_id=69020&iconic_taxa=Mammalia&per_page=200&quality_grade=research",
-      "https://waterberg-bioquest.co.za/soogdiere.html"
+      "https://waterberg-bioquest.co.za/soogdiere.html",
+      "https://api.inaturalist.org/v1/taxa/44167?locale=af",
+      "https://api.gbif.org/v1/species/9705/vernacularNames"
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
-      "af.wikipedia names the species (ystervark) but not a family vernacular."
+      "The species name ystervark was not copied onto the family. There is no af.wikipedia family article. Ystervarke is the iNaturalist locale=af preferred name (https://api.inaturalist.org/v1/taxa/44167?locale=af) and the only Catalogue of Life Afrikaans vernacular on GBIF (https://api.gbif.org/v1/species/9705/vernacularNames)."
     ]
   },
   {
@@ -630,7 +634,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. The af.wikipedia article https://af.wikipedia.org/wiki/Muridae is titled with the Latin name and gives no Afrikaans family vernacular. iNaturalist locale=af and Catalogue of Life both give Muise (https://api.inaturalist.org/v1/taxa/44185?locale=af, https://api.gbif.org/v1/species/5510/vernacularNames). Muise was not stored: a Wikipedia family article exists, and Muise does not name the rats in this family. That parent name was not copied onto Nesomyidae.",
       "Introduced/domestic species flagged on the official list with an asterisk: house mouse (Mus musculus) and house/black rat (Rattus rattus). af.wikipedia lumps Cricetidae and Muridae as 'rotte, muise en nagmuise', which is not a clean family vernacular. Some SANParks genera have since been renamed (e.g. Tatera to Gerbilliscus, Aethomys namaquensis to Micaelamys); remaps deferred to the species phase."
     ]
   },
@@ -649,7 +653,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. Wikidata https://www.wikidata.org/wiki/Q133021 has no Afrikaans label and no af.wikipedia sitelink. iNaturalist locale=af has no preferred name (https://api.inaturalist.org/v1/taxa/71382?locale=af). Catalogue of Life via GBIF has no Afrikaans vernacular (https://api.gbif.org/v1/species/3240581/vernacularNames). Names used for Muridae were not copied onto this split.",
       "Taxonomic remap: part of SANParks Muridae to Nesomyidae, following iNaturalist. English name is the iNaturalist preferred common name ('Nesomyids'), which is technical; no better cited English family heading was found. SANParks used Cricetomys gambianus; iNaturalist uses C. ansorgei for the KNP records."
     ]
   },
@@ -668,7 +672,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. Wikidata https://www.wikidata.org/wiki/Q577376 has no Afrikaans label and no af.wikipedia sitelink. iNaturalist locale=af has no preferred name (https://api.inaturalist.org/v1/taxa/45927?locale=af). Catalogue of Life via GBIF has no Afrikaans vernacular (https://api.gbif.org/v1/species/5514/vernacularNames). The species name springhaas was not copied onto the family.",
       "af.wikipedia names the species (springhaas) but not a family vernacular."
     ]
   },
@@ -724,7 +728,7 @@
     ],
     "gaps": [
       "Inclusion follows the 2011 Wayback copy of the SANParks checklist; the live SANParks checklist HTML returned HTTP 403 in this environment.",
-      "No Afrikaans family-level name found in the cited sources. Waterberg Bioquest family headings are English only. Leave af null rather than invent one.",
+      "No Afrikaans family name stored. The af.wikipedia article https://af.wikipedia.org/wiki/Leporidae is titled with the Latin name. The lead uses the phrase hase en konyne for this family. The Wikidata Afrikaans label on https://www.wikidata.org/wiki/Q25900 is hase en konyne, which differs from the article title, so the label was not stored and the phrase was not shortened into a group name. iNaturalist locale=af has no preferred name (https://api.inaturalist.org/v1/taxa/43095?locale=af). Catalogue of Life via GBIF has no Afrikaans vernacular (https://api.gbif.org/v1/species/9379/vernacularNames).",
       "Natal red rock rabbit is on the official checklist; it did not appear in the research-grade species-counts pull. iNaturalist also returned Lepus microtis (African savanna hare), which is not a heading on the 2011 SANParks list; species-level reconciliation is deferred."
     ]
   }

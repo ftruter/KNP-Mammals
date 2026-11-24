@@ -71,7 +71,12 @@
     }
   ],
   "habitat": "The 2025 EWT assessment, citing Monadjem et al. (2020), says that in southern Africa the species is associated with low-lying riverine habitats or wetlands within a savannah or woodland matrix, and is also recorded from tropical moist forest and from rivers and streams bordered by forest. Within the assessment region it is restricted to the eastern lowveld, with records from Limpopo, Mpumalanga, KwaZulu-Natal and the Eastern Cape, and it is confirmed from Eswatini. Elevation limits are given as 7–3,497 m above sea level (Monadjem et al. 2024). Protected areas named on the page include the Great Limpopo Transfrontier Park, Greater Mapungubwe Transfrontier Conservation Area, Tzaneen Dam, iSimangaliso Wetland Park, and Oribi Gorge and Umtamvuna Nature Reserves. The page does not name Kruger National Park.",
-  "similar": [],
+  "similar": [
+    {
+      "slug": "myotis-tricolor",
+      "note": "Wikipedia describes Temminck's hairy bat as very similar in appearance to this bat, and describes this bat as the more diminutive of the two."
+    }
+  ],
   "population": {
     "estimate": {
       "low": null,
@@ -133,6 +138,7 @@
     "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
     "No licensable photograph of a live wild animal: none in Kruger (place 69020) or South Africa (place 6986); southern Africa (place 113055) had only a handled and measured series from Chivero and a mist-netted bat at Afdis Ponds; Wikimedia Commons had only a museum specimen, a range map and a PDF under the Latin name, and no usable photograph under the English names.",
     "Gestation, size at birth, pup appearance and southern African roost sites were not published in the sources used.",
-    "No sourced field comparison with similar Myotis species was published on the pages used."
+    "No sourced field comparison with similar Myotis species was published on the pages used.",
+    "Place 113055 still returns only the mist-netted bat at Afdis Ponds and the Chivero series already rejected. No licensed field photograph found yet."
   ]
 }

@@ -1,0 +1,459 @@
+{
+  "method": "Exact scientific name, then an iNaturalist accepted name from taxa.json. Checklist remaps in synonyms.json were not applied. No model weights were downloaded.",
+  "species": 143,
+  "models": [
+    {
+      "id": "birdnet-plus-v3-global-12k",
+      "title": "BirdNET+ V3.0 Global 12K",
+      "claimUrl": "https://zenodo.org/records/24362980",
+      "labelUrl": "https://zenodo.org/api/records/24362980/files/BirdNET+_V3.0_Global_12K_Labels.csv/content",
+      "licenceUrl": "https://zenodo.org/api/records/24362980/files/MODEL_LICENSE.txt/content",
+      "labelFormat": "csv",
+      "acceptableUseUrl": "https://zenodo.org/api/records/24362980/files/ACCEPTABLE_USE.txt/content",
+      "of": 143,
+      "acceptableUse": "# BirdNET V3.0 Acceptable Use Policy\n\n## Purpose\n\nBirdNET is an open scientific project developed to support biodiversity research, wildlife conservation, environmental education, and citizen science.\n\nThis policy applies to the BirdNET V3.0 models — the trained model weights and any converted or quantized versions of them, such as TensorFlow/LiteRT, TorchScript, ONNX, and Core ML exports. It applies in the same way to the BirdNET+ Geomodel distributed with this project, which predicts where and when species occur, and to its converted versions.\n\nWe encourage broad adoption of the BirdNET V3.0 models for lawful and responsible purposes that contribute to the understanding and protection of nature.\n\n## Responsible Use\n\nUsers should:\n\n- Comply with all applicable laws and regulations.\n- Respect privacy and local recording regulations, including where autonomous recording units are deployed.\n- Use BirdNET predictions responsibly, recognizing that model outputs are probabilistic and may contain false positives or false negatives.\n- Verify observations where appropriate before making scientific, conservation, or management decisions.\n- Consider the potential ecological impact of publishing sensitive species locations.\n- Account for the additional accuracy tradeoffs introduced by reduced-precision (FP16, INT8) versions of the models when interpreting results.\n\n## Unacceptable Uses\n\nBirdNET should not be used to facilitate activities that harm wildlife, ecosystems, or people.\n\nExamples include, but are not limited to:\n\n- Assisting or facilitating poaching or the illegal capture, trade, harassment, or exploitation of wildlife.\n- Intentionally locating endangered or sensitive species for harmful purposes.\n- Supporting activities that violate conservation laws or protected-area regulations.\n- Using BirdNET as part of weapons systems, military targeting, or military surveillance intended to cause harm.\n- Using BirdNET-based devices or applications for covert surveillance of people.\n- Knowingly using BirdNET in ways that violate applicable laws or regulations.\n\n## Scientific Integrity\n\nUsers are encouraged to:\n\n- Cite BirdNET in scientific publications.\n- Report suspected model errors or biases.\n- Share improvements and contribute back to the project whenever possible.\n- Clearly distinguish model predictions from verified biological observations.\n- Report the model version and precision used, so results remain reproducible.\n\n## Branding\n\nForks, derivative applications, or redistributed versions should not use the name \"BirdNET\", \"BirdNET+\", \"BirdNET V3.0\", associated package names, or official project branding in a manner that could reasonably imply endorsement by the original project or its maintainers.\n\nPlease choose a distinct name and branding for derivative applications unless explicit written permission has been granted.\n\n## Feedback\n\nWe welcome reports of misuse, security concerns, or ethical issues.\n\nContact:\n\nccb-birdnet@cornell.edu\n",
+      "sampleRateNote": ".4:</strong><br>- Variable-length input instead of fixed 3-second segments<br>- 32 kHz audio input instead of 48 kHz<br>- Improved architecture and training procedure",
+      "matched": 18,
+      "labelCount": 11711,
+      "taxonGroups": {
+        "Aves": 9788,
+        "Insecta": 802,
+        "Amphibia": 649,
+        "Mammalia": 419,
+        "Reptilia": 15,
+        "Actinopterygii": 35,
+        "Arachnida": 1,
+        "Anthropogenic": 14,
+        "Geophony": 1,
+        "Music": 1
+      },
+      "species": [
+        {
+          "slug": "aepyceros-melampus",
+          "label": "Aepyceros melampus",
+          "how": "scientific name"
+        },
+        {
+          "slug": "chlorocebus-pygerythrus",
+          "label": "Chlorocebus pygerythrus",
+          "how": "scientific name"
+        },
+        {
+          "slug": "connochaetes-taurinus",
+          "label": "Connochaetes taurinus",
+          "how": "scientific name"
+        },
+        {
+          "slug": "crocuta-crocuta",
+          "label": "Crocuta crocuta",
+          "how": "scientific name"
+        },
+        {
+          "slug": "epomophorus-wahlbergi",
+          "label": "Epomophorus wahlbergi",
+          "how": "scientific name"
+        },
+        {
+          "slug": "equus-quagga",
+          "label": "Equus quagga",
+          "how": "scientific name"
+        },
+        {
+          "slug": "helogale-parvula",
+          "label": "Helogale parvula",
+          "how": "scientific name"
+        },
+        {
+          "slug": "hippopotamus-amphibius",
+          "label": "Hippopotamus amphibius",
+          "how": "scientific name"
+        },
+        {
+          "slug": "loxodonta-africana",
+          "label": "Loxodonta africana",
+          "how": "scientific name"
+        },
+        {
+          "slug": "lupulella-mesomelas",
+          "label": "Lupulella mesomelas",
+          "how": "scientific name"
+        },
+        {
+          "slug": "mungos-mungo",
+          "label": "Mungos mungo",
+          "how": "scientific name"
+        },
+        {
+          "slug": "otolemur-crassicaudatus",
+          "label": "Otolemur crassicaudatus",
+          "how": "scientific name"
+        },
+        {
+          "slug": "panthera-leo",
+          "label": "Panthera leo",
+          "how": "scientific name"
+        },
+        {
+          "slug": "papio-ursinus",
+          "label": "Papio ursinus",
+          "how": "scientific name"
+        },
+        {
+          "slug": "paraxerus-cepapi",
+          "label": "Paraxerus cepapi",
+          "how": "scientific name"
+        },
+        {
+          "slug": "procavia-capensis",
+          "label": "Procavia capensis",
+          "how": "scientific name"
+        },
+        {
+          "slug": "rousettus-aegyptiacus",
+          "label": "Rousettus aegyptiacus",
+          "how": "scientific name"
+        },
+        {
+          "slug": "syncerus-caffer",
+          "label": "Syncerus caffer",
+          "how": "scientific name"
+        }
+      ],
+      "ambiguousLabels": [],
+      "licenceLine": "# Apache License 2.0 — Model Weights Copyright (c) 2026 The BirdNET Team This license covers the trained model weigh",
+      "claimFetched": true
+    },
+    {
+      "id": "birdnet-v2.4",
+      "title": "BirdNET V2.4 global 6K",
+      "claimUrl": "https://raw.githubusercontent.com/birdnet-team/BirdNET-Analyzer/v2.4.0/README.md",
+      "labelUrl": "https://raw.githubusercontent.com/birdnet-team/BirdNET-Analyzer/v2.4.0/birdnet_analyzer/labels/V2.4/BirdNET_GLOBAL_6K_V2.4_Labels_en_uk.txt",
+      "licenceUrl": "https://raw.githubusercontent.com/birdnet-team/BirdNET-Analyzer/v2.4.0/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": null,
+      "matched": 0,
+      "labelCount": 6514,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "icensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). Please ensure you review and adhere to the s",
+      "claimFetched": true
+    },
+    {
+      "id": "bsg-bat-v0.21",
+      "title": "BSG-BAT v0.21",
+      "claimUrl": "https://huggingface.co/tphakala/BSG-BAT/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BSG-BAT/raw/main/bsgbat_labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BSG-BAT/raw/main/README.md",
+      "labelFormat": "lines",
+      "of": 143,
+      "sampleRateNote": "a standalone end-to-end CNN. It takes a precomputed log-mel spectrogram of true 384 kHz ultrasonic audio and outputs per-species logits directly. There is no BirdNET b",
+      "matched": 0,
+      "labelCount": 21,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - echolocation - wildlife - pytorch - au",
+      "claimFetched": true
+    },
+    {
+      "id": "batdetect2-uk-same-onnx",
+      "title": "BatDetect2 UK same, ONNX conversion",
+      "claimUrl": "https://huggingface.co/legojoey17/batdetect2-uk-same-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/legojoey17/batdetect2-uk-same-onnx/raw/main/labels.json",
+      "licenceUrl": "https://huggingface.co/legojoey17/batdetect2-uk-same-onnx/raw/main/README.md",
+      "labelFormat": "json",
+      "of": 143,
+      "sampleRateNote": null,
+      "matched": null,
+      "labelCount": 0,
+      "taxonGroups": null,
+      "licenceLine": "--- license: cc-by-nc-4.0 library_name: onnxruntime tags: - onnx - onnxruntime - bioacoustics - bats - audio-classification -"
+    },
+    {
+      "id": "battybirdnet-bavaria-256khz",
+      "title": "BattyBirdNET-Bavaria-256kHz",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-Bavaria-256kHz_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 0,
+      "labelCount": 22,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "battybirdnet-bavaria-256khz-high",
+      "title": "BattyBirdNET-Bavaria-256kHz-high",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-Bavaria-256kHz-high_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 0,
+      "labelCount": 22,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "battybirdnet-eu-256khz",
+      "title": "BattyBirdNET-EU-256kHz",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-EU-256kHz_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 1,
+      "labelCount": 28,
+      "taxonGroups": null,
+      "species": [
+        {
+          "slug": "rhinolophus-blasii",
+          "label": "Rhinolophus blasii",
+          "how": "scientific name"
+        }
+      ],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "battybirdnet-scotland-256khz",
+      "title": "BattyBirdNET-Scotland-256kHz",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-Scotland-256kHz_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 0,
+      "labelCount": 9,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "battybirdnet-southwales-256khz",
+      "title": "BattyBirdNET-SouthWales-256kHz",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-SouthWales-256kHz_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 0,
+      "labelCount": 28,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "battybirdnet-sweden-256khz",
+      "title": "BattyBirdNET-Sweden-256kHz",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-Sweden-256kHz_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 0,
+      "labelCount": 17,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "battybirdnet-uk-256khz",
+      "title": "BattyBirdNET-UK-256kHz",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-UK-256kHz_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 0,
+      "labelCount": 14,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "battybirdnet-usa-256khz",
+      "title": "BattyBirdNET-USA-256kHz",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-USA-256kHz_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 0,
+      "labelCount": 32,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "battybirdnet-usa-east-256khz",
+      "title": "BattyBirdNET-USA-EAST-256kHz",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-USA-EAST-256kHz_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 0,
+      "labelCount": 16,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "battybirdnet-usa-east-256khz-high",
+      "title": "BattyBirdNET-USA-EAST-256kHz-high",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-USA-EAST-256kHz-high_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 0,
+      "labelCount": 16,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "battybirdnet-usa-west-256khz",
+      "title": "BattyBirdNET-USA-WEST-256kHz",
+      "claimUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/resolve/main/labels/BattyBirdNET-USA-WEST-256kHz_Labels.txt",
+      "licenceUrl": "https://huggingface.co/tphakala/BattyBirdNET-onnx/raw/main/README.md",
+      "labelFormat": "underscore",
+      "of": 143,
+      "sampleRateNote": "s repo) maps embeddings to bat species The \"slow-down trick\": bat recordings at 256 kHz are fed directly to BirdNET without resampling. BirdNET's spectrogram pipeline",
+      "matched": 0,
+      "labelCount": 22,
+      "taxonGroups": null,
+      "species": [],
+      "ambiguousLabels": [],
+      "licenceLine": "--- license: cc-by-nc-sa-4.0 language: - en tags: - onnx - bioacoustics - bat-detection - birdnet - echolocation - wildlife data",
+      "claimFetched": true
+    },
+    {
+      "id": "echo-edge-bat-classifier-331",
+      "title": "Echo-Edge-Bat-Classifier-331",
+      "claimUrl": "https://huggingface.co/SOTAagi2030/Echo-Edge-Bat-Classifier-331/raw/main/README.md",
+      "labelUrl": null,
+      "licenceUrl": "https://huggingface.co/SOTAagi2030/Echo-Edge-Bat-Classifier-331/raw/main/README.md",
+      "labelFormat": null,
+      "of": 143,
+      "sampleRateNote": null,
+      "matched": null,
+      "labelCount": null,
+      "licenceLine": null
+    },
+    {
+      "id": "beats-bean-bats",
+      "title": "BEATs BEAN bats",
+      "claimUrl": "https://huggingface.co/espnet/BEATs-BEAN.Bats/raw/main/README.md",
+      "labelUrl": null,
+      "licenceUrl": "https://huggingface.co/espnet/BEATs-BEAN.Bats/raw/main/README.md",
+      "labelFormat": null,
+      "of": 143,
+      "sampleRateNote": null,
+      "matched": null,
+      "labelCount": null,
+      "licenceLine": "--- tags: - espnet - audio - classification language: en datasets: - bean license: cc-by-4.0 pipeline_tag: audio-classification --- ## ESPnet2 CLS model ### `espnet/BEATs-BEAN.Bats` This model"
+    },
+    {
+      "id": "openbeats-large-i3-bats",
+      "title": "OpenBEATS Large i3 bats",
+      "claimUrl": "https://huggingface.co/espnet/OpenBEATS-Large-i3-bats/raw/main/README.md",
+      "labelUrl": null,
+      "licenceUrl": "https://huggingface.co/espnet/OpenBEATS-Large-i3-bats/raw/main/README.md",
+      "labelFormat": null,
+      "of": 143,
+      "sampleRateNote": null,
+      "matched": null,
+      "labelCount": null,
+      "licenceLine": "--- tags: - espnet - audio - classification datasets: - beans license: cc-by-4.0 pipeline_tag: audio-classification --- ## ESPnet2 CLS model ### `espnet/OpenBEATS-Large-i3-bats` Th"
+    },
+    {
+      "id": "batai-mobilenet-onnx",
+      "title": "BatAI MobileNet ONNX",
+      "claimUrl": "https://huggingface.co/legojoey17/batai-mobilenet-onnx/raw/main/README.md",
+      "labelUrl": null,
+      "licenceUrl": "https://huggingface.co/legojoey17/batai-mobilenet-onnx/raw/main/README.md",
+      "labelFormat": null,
+      "of": 143,
+      "sampleRateNote": null,
+      "matched": null,
+      "labelCount": null,
+      "licenceLine": "are recorded in `golden/manifest.json`. ## Licence and attribution This mirror is distributed under Apache License 2.0, matching the upstream repository. The upstream `LICENSE` and `NOTICE` files are copied here un"
+    },
+    {
+      "id": "naturelm-audio",
+      "title": "NatureLM-audio",
+      "claimUrl": "https://projects.earthspecies.org/naturelm-audio/1.0/datasets.html",
+      "labelUrl": null,
+      "licenceUrl": "https://projects.earthspecies.org/naturelm-audio/1.0/datasets.html",
+      "labelFormat": null,
+      "of": 143,
+      "sampleRateNote": "<tbody> <tr> <td><code>audio</code></td> <td>Raw audio (FLAC/WAV, resampled to 16 kHz)</td> </tr> <tr> <td><code>instruction</code></td> <td>Natural language task pr",
+      "matched": null,
+      "labelCount": null,
+      "licenceLine": ".0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d=\"M439.6 236.1 244"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "batdetect2-uk-same-onnx",
+      "reason": "label file has no scientific names, so the overlap is null"
+    },
+    {
+      "id": "echo-edge-bat-classifier-331",
+      "reason": "no label file URL. Overlap is null."
+    },
+    {
+      "id": "beats-bean-bats",
+      "reason": "no label file URL. Overlap is null."
+    },
+    {
+      "id": "openbeats-large-i3-bats",
+      "reason": "no label file URL. Overlap is null."
+    },
+    {
+      "id": "batai-mobilenet-onnx",
+      "reason": "no label file URL. Overlap is null."
+    },
+    {
+      "id": "naturelm-audio",
+      "reason": "no label file URL. Overlap is null."
+    }
+  ]
+}

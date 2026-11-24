@@ -1,0 +1,409 @@
+{
+  "inatSynonyms": [
+    {
+      "slug": "hipposideros-commersoni",
+      "scientificName": "Hipposideros commersoni",
+      "inatName": "Macronycteris commersonii",
+      "source": "iNaturalist taxa search matched_term",
+      "usedForMatching": true
+    }
+  ],
+  "checklistRemapsNotUsed": [
+    {
+      "slug": "calcochloris-obtusirostris",
+      "from": "Calcochloris obtrusirostris",
+      "to": "Calcochloris obtusirostris",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Calcochloris%20obtrusirostris&all_names=true",
+      "note": "The 2011 checklist prints the name as Calcochloris obtrusirostris. An iNaturalist taxa search for that spelling returned 0 results. A search for Calcochloris obtusirostris matches species Calcochloris obtusirostris (taxon 42519, preferred_common_name Yellow Golden Mole), which lists Chrysochloris obtusirostris as an invalid scientific name. The stored latin value is the iNaturalist spelling. This is treated as a typographic typo on the PDF (obtrusirostris vs obtusirostris), not as a taxonomic split.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "alcelaphus-buselaphus-lichtensteinii",
+      "from": "Sigmoceros lichtensteinii",
+      "to": "Alcelaphus buselaphus lichtensteinii",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Sigmoceros%20lichtensteinii&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches species Alcelaphus buselaphus (taxon 42418), which lists Sigmoceros lichtensteinii as an invalid scientific name. The Kruger taxon is stored as the iNaturalist subspecies Alcelaphus buselaphus lichtensteinii (taxon 132659; preferred_common_name Lichtenstein's Hartebeest). That subspecies record also lists Alcelaphus lichtensteinii as an invalid scientific name. The research-grade count is the subspecies total (16), not the species-level total of 19, which includes 3 research-grade observations of A. b. caama.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "cephalophorus-natalensis",
+      "from": "Cephalophus natalensis",
+      "to": "Cephalophorus natalensis",
+      "source": "https://api.inaturalist.org/v1/taxa?id=1431002&all_names=true",
+      "note": "iNaturalist taxon 1431002 lists Cephalophus natalensis as an invalid scientific name of Cephalophorus natalensis.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "nesotragus-moschatus",
+      "from": "Neotragus moschatus",
+      "to": "Nesotragus moschatus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Neotragus%20moschatus&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Nesotragus moschatus (taxon 74770, preferred_common_name Suni), which lists Neotragus moschatus as an invalid scientific name.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "tragelaphus-oryx",
+      "from": "Taurotragus oryx",
+      "to": "Tragelaphus oryx",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Taurotragus%20oryx&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Tragelaphus oryx (taxon 75192), which lists Taurotragus oryx as an invalid scientific name. The place taxonomy tree also has Taurotragus as a subgenus (id 1431370) under Tragelaphus.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "tragelaphus-sylvaticus",
+      "from": "Tragelaphus scriptus",
+      "to": "Tragelaphus sylvaticus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Tragelaphus%20scriptus&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Tragelaphus scriptus (taxon 42341) as an active species, preferred_common_name Northern Bushbuck. The 2011 combination Tragelaphus scriptus sylvaticus is listed as an invalid scientific name of Tragelaphus sylvaticus (taxon 1431867, preferred_common_name Southern Bushbuck). Place 69020 research-grade bushbuck observations are identified as T. sylvaticus (978); T. scriptus does not appear in the place Bovidae taxonomy tree.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "giraffa-giraffa",
+      "from": "Giraffa camelopardalis",
+      "to": "Giraffa giraffa",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Giraffa%20camelopardalis&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Giraffa camelopardalis (taxon 42157) as an active species, preferred_common_name Northern Giraffe. The 2011 combination Giraffa camelopardalis giraffa is listed as an invalid scientific name of Giraffa giraffa giraffa (taxon 1510582, preferred_common_name South African Giraffe). Place 69020 research-grade giraffe observations are identified as Giraffa giraffa (taxon 1510571, preferred_common_name Southern Giraffe, 3245); G. camelopardalis does not appear in the place Giraffidae taxonomy tree. The included taxon is stored at species rank, matching the 2011 checklist rank.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "phacochoerus-africanus",
+      "from": "Phacochoerus aethiopicus",
+      "to": "Phacochoerus africanus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Phacochoerus%20aethiopicus&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Phacochoerus aethiopicus (taxon 42123) as an active species, preferred_common_name Desert Warthog. The 2011 combination Phacochoerus aethiopicus africanus is listed as an invalid scientific name of Phacochoerus africanus (taxon 42122, preferred_common_name Common Warthog). Place 69020 research-grade warthog observations are identified as P. africanus (1556); P. aethiopicus does not appear in the place Suidae taxonomy tree.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "potamochoerus-larvatus",
+      "from": "Potamochoerus porcus",
+      "to": "Potamochoerus larvatus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Potamochoerus%20porcus&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches only Potamochoerus porcus (taxon 42139, preferred_common_name Red River Hog), which remains an active species. Place 69020 research-grade bushpig observations are identified as Potamochoerus larvatus (taxon 42138, preferred_common_name Bushpig, 3); P. porcus does not appear in the place Suidae taxonomy tree. iNaturalist does not list Potamochoerus porcus, or a trinomial such as Potamochoerus porcus larvatus, as a scientific name of P. larvatus (a search for Potamochoerus porcus larvatus returned 0 results; the P. larvatus name list has no invalid scientific names). The Kruger taxon is stored as P. larvatus because that is the iNaturalist species whose preferred common name is Bushpig and which has the Kruger records.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "lupulella-adusta",
+      "from": "Canis adustus",
+      "to": "Lupulella adusta",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Canis%20adustus&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Lupulella adusta (taxon 1210965, preferred_common_name Side-striped Jackal), which lists Canis adustus as an invalid scientific name.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "lupulella-mesomelas",
+      "from": "Canis mesomelas",
+      "to": "Lupulella mesomelas",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Canis%20mesomelas&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Lupulella mesomelas (taxon 1210966, preferred_common_name Black-backed Jackal), which lists Canis mesomelas as an invalid scientific name.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "felis-lybica",
+      "from": "Felis silvestris",
+      "to": "Felis lybica",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Felis%20silvestris&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Felis silvestris (taxon 922459) as an active species, preferred_common_name European Wildcat. The 2011 checklist already prints (=F. lybica) under Felis silvestris. Place 69020 research-grade African wild-cat observations are identified as Felis lybica (taxon 371414, preferred_common_name African Wildcat, 123); F. silvestris does not appear in the place Felidae taxonomy tree. The F. lybica species name list does not include Felis silvestris, or the trinomial Felis silvestris lybica, as a scientific name (its invalid scientific names are Felis lybicus, Felis ocreata, Felis cafra and Felis haussa). The trinomial Felis silvestris cafra is listed as an invalid scientific name of the subspecies Felis lybica cafra (taxon 922462, preferred_common_name Southern African Wildcat), which has 67 observations of any grade in the place tree. The Kruger taxon is stored as the species Felis lybica because that is the iNaturalist species whose preferred common name is African Wildcat, which has the Kruger records, and which the 2011 list already synonymises as F. lybica.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "herpestes-sanguineus",
+      "from": "Galerella sanguinea",
+      "to": "Herpestes sanguineus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Galerella%20sanguinea&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Herpestes sanguineus (taxon 74414, preferred_common_name Common Slender Mongoose), which lists Galerella sanguinea as an invalid scientific name.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "parahyaena-brunnea",
+      "from": "Hyaena brunnea",
+      "to": "Parahyaena brunnea",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Hyaena%20brunnea&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Parahyaena brunnea (taxon 500648, preferred_common_name Brown Hyaena), which lists Hyaena brunnea as an invalid scientific name.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "proteles-cristatus",
+      "from": "Proteles cristatus cristatus",
+      "to": "Proteles cristatus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Proteles%20cristatus%20cristatus&all_names=true",
+      "note": "The 2011 checklist already lists this animal as the subspecies Proteles cristatus cristatus. An iNaturalist taxa search for that trinomial matches the species Proteles cristatus (taxon 1306005, preferred_common_name Southern Aardwolf), which lists Proteles cristatus cristatus as an invalid scientific name. The former sister subspecies is now the species Proteles septentrionalis (taxon 1431008, preferred_common_name Eastern Aardwolf), which lists Proteles cristatus septentrionalis as an invalid scientific name and has 0 research-grade observations in place 69020. The 2011 subspecies is no longer an active iNaturalist taxon, so the Kruger taxon is stored as the species that now carries that trinomial as an invalid name.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "lutra-capensis",
+      "from": "Aonyx capensis",
+      "to": "Lutra capensis",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Aonyx%20capensis&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Lutra capensis (taxon 1638841, preferred_common_name African Clawless Otter), which lists Aonyx capensis as an invalid scientific name. The search also matches the Congo Clawless Otter Lutra congica via the trinomial Aonyx capensis congicus; L. congica does not appear in the place Mustelidae taxonomy tree. The Kruger taxon is stored as the species Lutra capensis because the 2011 list used the species name Aonyx capensis. The research-grade count is the species total (26), which includes 18 research-grade observations of subspecies Lutra capensis capensis.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "genetta-felina",
+      "from": "Genetta genetta",
+      "to": "Genetta felina",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Genetta%20genetta&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Genetta genetta (taxon 925661) as an active species, preferred_common_name Northern Small-spotted Genet, with Small-spotted Genet as a listed English name. The combination Genetta genetta felina is listed as an invalid scientific name of Genetta felina (taxon 925659, preferred_common_name Southern Small-spotted Genet). Place 69020 research-grade small-spotted genet observations are identified as G. felina (41). G. genetta appears in the place Viverridae taxonomy tree with 1 observation of any grade and 0 research-grade, and is listed under candidates.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "genetta-fieldiana",
+      "from": "Genetta tigrina",
+      "to": "Genetta fieldiana",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Genetta%20tigrina&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches only Genetta tigrina (taxon 41595, preferred_common_name Cape Genet), which remains an active species and lists South African Large-spotted Genet and Cape Large-spotted Genet among its English names. Place 69020 research-grade large-spotted genet observations are identified as Genetta fieldiana (taxon 1643992, preferred_common_name Rusty-spotted Genet, 188), which lists Large-spotted Genet as an English name and Genetta maculata as an invalid scientific name. G. tigrina appears in the place Viverridae taxonomy tree with 1 observation of any grade and 0 research-grade, and is listed under candidates. iNaturalist does not list Genetta tigrina, or a trinomial such as Genetta tigrina fieldiana, as a scientific name of G. fieldiana (a search for Genetta tigrina does not return G. fieldiana). The Kruger taxon is stored as G. fieldiana because that is the iNaturalist species that has the Kruger records and that lists Large-spotted Genet as an English name.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "miniopterus-natalensis",
+      "from": "Miniopterus schreibersii",
+      "to": "Miniopterus natalensis",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Miniopterus%20schreibersii&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches Miniopterus schreibersii (taxon 57534, preferred_common_name Schreibers' Long-fingered Bat), which remains an active species. The same search also matches Miniopterus natalensis (taxon 57530, preferred_common_name Natal Long-fingered Bat) via the term Miniopterus schreibersii natalensis. Place 69020 observations in this family are identified as M. natalensis (2 of any grade, 0 research-grade); M. schreibersii does not appear in the place Miniopteridae taxonomy tree (0 research-grade). M. natalensis lists Miniopterus schreibersii natalensis as an invalid scientific name, but not the binomial Miniopterus schreibersii itself. The Kruger taxon is stored as M. natalensis because that is the iNaturalist species which has the Kruger records.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "mops-ansorgei",
+      "from": "Chaerephon ansorgei",
+      "to": "Mops ansorgei",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Chaerephon%20ansorgei&all_names=true",
+      "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Mops ansorgei (taxon 1430965), which lists Chaerephon ansorgei and the printed synonym Tadarida ansorgei as invalid scientific names.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "mops-condylurus",
+      "from": "Mops condylus",
+      "to": "Mops condylurus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Tadarida%20condylura&all_names=true",
+      "note": "An iNaturalist taxa search for the exact 2011 spelling Mops condylus returned 0 results. A search for the printed synonym Tadarida condylura matches Mops condylurus (taxon 765544), which lists Tadarida condylura as an invalid scientific name, but not the 2011 spelling Mops condylus. This is treated as a spelling correction of the 2011 combination, supported by the printed synonym, not as a species-level guess.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "mops-pumilus",
+      "from": "Chaerephon pumila",
+      "to": "Mops pumilus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Tadarida%20pumila&all_names=true",
+      "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the exact 2011 spelling Chaerephon pumila returned 0 results. A search for the printed synonym Tadarida pumila matches Mops pumilus (taxon 1370990), which lists Tadarida pumila and Chaerephon pumilus as invalid scientific names, but not the 2011 spelling Chaerephon pumila.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "tadarida-aegyptiaca",
+      "from": "Tadarida aegyptiaca aegyptiaca",
+      "to": "Tadarida aegyptiaca",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Tadarida%20aegyptiaca%20aegyptiaca&all_names=true",
+      "note": "The 2011 checklist already lists this animal as the subspecies Tadarida aegyptiaca aegyptiaca. An iNaturalist taxa search for that trinomial returns only the species Tadarida aegyptiaca (taxon 41300, preferred_common_name Egyptian Free-tailed Bat). No subspecies taxon for T. a. aegyptiaca was present in that search or on the species record. The stored taxon is therefore the species, and the research-grade count is the species total.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "epomophorus-crypturus",
+      "from": "Epomophorus gambianus",
+      "to": "Epomophorus crypturus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Epomophorus%20gambianus&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches Epomophorus gambianus (taxon 40812, preferred_common_name Gambian Epauletted Fruit Bat), which remains an active species. The same search also matches Epomophorus crypturus (taxon 64485, preferred_common_name Peters's Epauletted Fruit Bat) via the term Epomophorus gambianus crypturus. The 2011 checklist already prints the synonym (=E. crypturus crypturus) and the English name Peters' epauletted fruit bat. Place 69020 has 1 observation of any grade identified as E. crypturus (0 research-grade); E. gambianus does not appear in the place Pteropodidae taxonomy tree (0 research-grade). E. crypturus lists Epomophorus gambianus crypturus as an invalid scientific name, but not the binomial Epomophorus gambianus itself. The Kruger taxon is stored as E. crypturus because that is the iNaturalist species whose preferred common name is Peters's Epauletted Fruit Bat and which has the Kruger record.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "afronycteris-nanus",
+      "from": "Neoromicia nanus",
+      "to": "Afronycteris nanus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Neoromicia%20nanus&all_names=true",
+      "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Afronycteris nanus (taxon 1431034), which lists Neoromicia nanus, the printed synonym Pipistrellus nanus, Vespertilio nanus, and Neoromicia nana as invalid scientific names.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "cnephaeus-hottentotus",
+      "from": "Eptesicus hottentotus",
+      "to": "Cnephaeus hottentotus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Eptesicus%20hottentotus&all_names=true",
+      "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Cnephaeus hottentotus (taxon 1596136), which lists Eptesicus hottentotus as an invalid scientific name.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "glauconycteris-variegata",
+      "from": "Glauconycteris variegatus",
+      "to": "Glauconycteris variegata",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Chalinolobus%20variegatus&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 spelling Glauconycteris variegatus returned 0 results. A search for the printed synonym Chalinolobus variegatus matches Glauconycteris variegata (taxon 57549), which lists Chalinolobus variegatus as an invalid scientific name, but not the 2011 spelling Glauconycteris variegatus. This is a gender agreement correction supported by the printed synonym, not a split.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "laephotis-angolensis",
+      "from": "Laephotis botswanae",
+      "to": "Laephotis angolensis",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Laephotis%20botswanae&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Laephotis angolensis (taxon 40531), which lists Laephotis botswanae as an invalid scientific name. This is a lump into L. angolensis, not a split. No subspecies taxon carrying the epithet botswanae was present.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "laephotis-capensis",
+      "from": "Neoromicia capensis",
+      "to": "Laephotis capensis",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Neoromicia%20capensis&all_names=true",
+      "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Laephotis capensis (taxon 1431030), which lists Neoromicia capensis and the printed synonym Eptesicus capensis as invalid scientific names.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "laephotis-capensis",
+      "from": "Eptesicus melckorum",
+      "to": "Laephotis capensis",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Eptesicus%20melckorum&all_names=true",
+      "note": "The 2011 checklist also lists Eptesicus melckorum (Melck's serotine bat / Melck se dakvlermuis) as a separate species. An iNaturalist taxa search for that name matches Laephotis capensis (taxon 1431030), which lists Eptesicus melckorum, Pipistrellus melckorum, and Neoromicia melckorum as invalid scientific names, and lists Melck's house bat as an English name. It is recorded here as a remap of the already-included Cape serotine and is not given a second species row.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "myotis-bocagii",
+      "from": "Myotis bocagei",
+      "to": "Myotis bocagii",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Myotis%20bocagei&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Myotis bocagii (taxon 74698), which lists Myotis bocagei as an invalid scientific name. This is a spelling correction, not a split.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "neoromicia-anchieta",
+      "from": "Pipistrellus anchietai",
+      "to": "Neoromicia anchieta",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Pipistrellus%20anchietai&all_names=true",
+      "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Neoromicia anchieta (taxon 1431023), which lists Pipistrellus anchietai, Pipistrellus anchietae, and Hypsugo anchietae as invalid scientific names.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "neoromicia-zuluensis",
+      "from": "Eptesicus somalicus zuluensis",
+      "to": "Neoromicia zuluensis",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Eptesicus%20zuluensis&all_names=true",
+      "note": "The 2011 checklist already lists this animal as the subspecies Eptesicus somalicus zuluensis, with the synonym (=Eptesicus zuluensis). An iNaturalist taxa search for the trinomial Eptesicus somalicus zuluensis returned 0 results. A search for the printed synonym Eptesicus zuluensis matches species Neoromicia zuluensis (taxon 765532, preferred_common_name Zulu serotine), which lists Eptesicus zuluensis and Pipistrellus zuluensis as invalid scientific names, but not the 2011 trinomial. Following the batch 2 elevation pattern, the stored taxon is the species that now carries the printed synonym, not a defunct subspecies and not Neoromicia somalica.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "nycticeinops-schlieffenii",
+      "from": "Nycticeinops schlieffeni",
+      "to": "Nycticeinops schlieffenii",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Nycticeinops%20schlieffeni&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Nycticeinops schlieffenii (taxon 57550), which lists Nycticeinops schlieffeni and Nycticeius schlieffeni as invalid scientific names. A search for the printed synonym spelling Nycticeius schlieffenii (two i's) returned 0 results. This is a spelling correction, not a split.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "vansonia-rueppellii",
+      "from": "Pipistrellus rueppellii",
+      "to": "Vansonia rueppellii",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Pipistrellus%20rueppellii&all_names=true",
+      "note": "This is a genus transfer, not a split. An iNaturalist taxa search for the 2011 name matches Vansonia rueppellii (taxon 1431041), which lists Pipistrellus rueppellii and Pipistrellus rueppelli as invalid scientific names.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "suncus-lixa",
+      "from": "Suncus lixus",
+      "to": "Suncus lixa",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Suncus%20lixus&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Suncus lixa (taxon 1370725, preferred_common_name Greater Dwarf Shrew), which lists Suncus lixus as an invalid scientific name. This is a spelling remap of the epithet, not a split: Suncus lixus is not kept as a different active species.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "equus-quagga",
+      "from": "Equus burchelli",
+      "to": "Equus quagga",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Equus%20burchelli&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches species Equus quagga (taxon 43335, preferred_common_name Plains Zebra), which lists Equus burchelli and Equus burchellii as invalid scientific names. The Kruger taxon is stored as the iNaturalist subspecies Equus quagga burchellii (taxon 447362; preferred_common_name Burchell's Zebra), because that is the taxon whose preferred common name is Burchell's Zebra. That subspecies record lists Equus burchellii (two i's) as an invalid scientific name, but not the 2011 spelling Equus burchelli (one i). The research-grade count is the subspecies total (1), not the species-level total of 2430, which includes 1802 research-grade observations of E. q. chapmani and many observations identified only to species.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "diceros-bicornis",
+      "from": "Diceros bicornis minor",
+      "to": "Diceros bicornis",
+      "source": "https://api.inaturalist.org/v1/observations?taxon_id=43350&place_id=69020&quality_grade=research&per_page=0",
+      "note": "Owner decision 13 Nov 2026: species level. Stored as Diceros bicornis (iNaturalist taxon 43350). The research-grade count is the species total in place 69020 (41), fetched 13 Nov 2026.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "smutsia-temminckii",
+      "from": "Manis temminckii",
+      "to": "Smutsia temminckii",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Manis%20temminckii&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Smutsia temminckii (taxon 75083, preferred_common_name Temminck's Ground Pangolin), which lists Manis temminckii and Manis temmincki as invalid scientific names. This is a genus transfer, not a split: Manis temminckii is not kept as a different active species.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "chlorocebus-pygerythrus",
+      "from": "Chlorocebus aethiops",
+      "to": "Chlorocebus pygerythrus",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Chlorocebus%20aethiops&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. An iNaturalist taxa search for the 2011 name matches Chlorocebus aethiops (taxon 43523, preferred_common_name Grivet Monkey), which remains an active species and lists Cercopithecus aethiops (the synonym printed on the 2011 checklist) as an invalid scientific name. Place 69020 research-grade vervet observations are identified as Chlorocebus pygerythrus (taxon 68137, preferred_common_name Vervet Monkey, 1360); C. aethiops does not appear in the place Cercopithecidae taxonomy tree (0 research-grade observations). iNaturalist does not list Chlorocebus aethiops, or a trinomial such as Chlorocebus aethiops pygerythrus, as a scientific name of C. pygerythrus (searches for Chlorocebus aethiops pygerythrus and Cercopithecus aethiops pygerythrus returned 0 results; the C. pygerythrus name list has only Cercopithecus pygerythrus as an invalid scientific name). The Kruger taxon is stored as C. pygerythrus because that is the iNaturalist species whose preferred common name is Vervet Monkey and which has the Kruger records.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "hystrix-africaeaustralis",
+      "from": "Hystris africaeaustralis",
+      "to": "Hystrix africaeaustralis",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Hystris%20africaeaustralis&all_names=true",
+      "note": "The 2011 checklist prints the name as Hystris africaeaustralis. An iNaturalist taxa search for that spelling returned 0 results. A search for Hystrix africaeaustralis matches species Hystrix africaeaustralis (taxon 44173, preferred_common_name Cape Porcupine). The stored latin value is the iNaturalist spelling. This is treated as a typographic typo on the PDF (Hystris vs Hystrix), not as a taxonomic split.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "gerbilliscus-leucogaster",
+      "from": "Tatera leucogaster",
+      "to": "Gerbilliscus leucogaster",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Tatera%20leucogaster&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Gerbilliscus leucogaster (taxon 74367), which lists Tatera leucogaster as an invalid scientific name. This is a genus transfer, not a split: Tatera leucogaster is not kept as a different active species.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "micaelamys-namaquensis",
+      "from": "Aethomys namaquensis",
+      "to": "Micaelamys namaquensis",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Aethomys%20namaquensis&all_names=true",
+      "note": "An iNaturalist taxa search for the 2011 name matches Micaelamys namaquensis (taxon 851046), which lists Aethomys namaquensis as an invalid scientific name. This is a genus transfer, not a split: Aethomys namaquensis is not kept as a different active species.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    },
+    {
+      "slug": "cricetomys-ansorgei",
+      "from": "Cricetomys gambianus",
+      "to": "Cricetomys ansorgei",
+      "source": "https://api.inaturalist.org/v1/taxa?q=Cricetomys%20gambianus&all_names=true",
+      "note": "This is a recorded split, not a simple synonym. iNaturalist still treats Cricetomys gambianus (taxon 44512) as an active species, preferred_common_name Northern Giant Pouched Rat. The combination Cricetomys gambianus ansorgei is listed as an invalid scientific name of Cricetomys ansorgei (taxon 1453959, preferred_common_name Southern Giant Pouched Rat). Place 69020 research-grade giant rat observations are identified as C. ansorgei (6); C. gambianus does not appear in the place Nesomyidae taxonomy tree (observation total_results is 0 research-grade and 0 of any grade). The C. gambianus name list also includes Cricetomys ansorgei as an invalid scientific name; that conflicting synonym was not treated as making the two taxa the same, because both remain active species and Kruger records are identified as C. ansorgei.",
+      "usedForMatching": false,
+      "reason": "Checklist remap. Not applied, because it was not re-checked against each model's taxonomy."
+    }
+  ]
+}

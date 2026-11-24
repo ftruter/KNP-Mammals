@@ -93,7 +93,12 @@
     }
   ],
   "habitat": "The 2025 EWT assessment, citing Monadjem et al. (2020), describes the species as generally restricted to the Savannah Biome, in lowland and woodland regions, and as recorded from hot, low-lying river valleys and permanent water bodies in northeastern South Africa. It is frequently associated with large rivers and swamps (Smithers 1983; Dunlop 1999). Within the assessment region it has been recorded from the Mopane Bioregion, Lowveld and Central Bushveld, and from northeastern South Africa through Kruger National Park. Wikipedia, citing Dunlop (1999), likewise places it in dry and moist savanna, woodlands and hot deserts, with more southern animals also known to live around large rivers or swamps. A more detailed Kruger-specific habitat account was not given in the sources used, beyond the definite occurrence in the park.",
-  "similar": [],
+  "similar": [
+    {
+      "slug": "mops-condylurus",
+      "note": "The 2016 EWT assessment of the Angola free-tailed bat, citing Monadjem et al. (2010), says this species is far larger, with a forearm longer than 52 mm."
+    }
+  ],
   "population": {
     "estimate": {
       "low": null,
