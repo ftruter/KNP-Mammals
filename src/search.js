@@ -1,3 +1,6 @@
+import { creditModel } from './credit.js'
+import { NO_OBSERVATION_REFS, viewLabel } from './labels.js'
+import { mediaSrc } from './media.js'
 import { readDocument } from './store.js'
 
 /** How many hits a search page shows. Callers can pass a smaller limit. */
@@ -91,44 +94,107 @@ const contentTokens = (query) => {
 
 const rows = (doc, key) => (Array.isArray(doc?.[key]) ? doc[key] : [])
 
-const recordFromRow = (kind, row) => {
+/**
+ * Sample media for one result, keyed by the result object `searchRecords`
+ * returns. It is not a field of that object: the JSON and Markdown search
+ * pages, and the MCP tool, stay name and text. The HTML page reads it back
+ * with `searchSample`.
+ *
+ * The addresses are the ones the species page loads (`mediaSrc`). The
+ * installed app saves a copy of those same files, so a card shows and plays
+ * the saved copy when there is one. Offline search in the service worker is
+ * built from the name lists, which have no media, and does not use this.
+ */
+const resultSamples = new WeakMap()
+
+const NO_SAMPLE = { image: null, call: null }
+
+export const searchSample = (result) => resultSamples.get(result) ?? NO_SAMPLE
+
+/** The photograph and call of one species, ready to draw. Either may be null. */
+const sampleView = (stored, record) => {
+  const shownImage = stored?.image ? mediaSrc(stored.image, 'images') : null
+  const shownCall = stored?.call ? mediaSrc(stored.call, 'audio') : null
+  const catalogue = !NO_OBSERVATION_REFS.has(record.slug)
+  return {
+    image: shownImage
+      ? {
+          src: shownImage.src,
+          alt:
+            textOrNull(stored.image.alt) ||
+            `${record.en || record.scientificName}: ${viewLabel(stored.image.view)}`,
+          ai: stored.image.aiGenerated === true,
+          credit: creditModel(stored.image, 'image', shownImage),
+        }
+      : null,
+    call: shownCall
+      ? {
+          src: shownCall.src,
+          type: textOrNull(stored.call.type),
+          ai: stored.call.aiGenerated === true,
+          credit: creditModel(stored.call, 'recording', shownCall, {
+            catalogue,
+          }),
+        }
+      : null,
+  }
+}
+
+const recordFromRow = (kind, row, samples) => {
   const slug = typeof row?.slug === 'string' ? row.slug : ''
   if (!slug) return null
-  return {
+  const record = {
     kind,
     slug,
     scientificName: textOrNull(row?.latin) ?? '',
     en: textOrNull(row?.en) ?? '',
     af: textOrNull(row?.af),
   }
+  record.sample =
+    kind === 'species' ? sampleView(samples?.[slug], record) : NO_SAMPLE
+  return record
 }
 
 /**
  * Species and family records from the two index documents. Only the stored
  * names are kept. Orders, notes, captions and account text are left out.
  */
-export const recordsFromIndexes = (speciesIndex, familiesIndex) =>
+export const recordsFromIndexes = (
+  speciesIndex,
+  familiesIndex,
+  samplesIndex = null,
+) =>
   [
     ...rows(speciesIndex, 'species').map((row) =>
-      recordFromRow('species', row),
+      recordFromRow('species', row, samplesIndex?.samples),
     ),
     ...rows(familiesIndex, 'families').map((row) =>
-      recordFromRow('family', row),
+      recordFromRow('family', row, null),
     ),
   ].filter(Boolean)
 
-/** Reads `index/species` and `index/families`. Two KV reads, no further fan-out. */
-export const loadSearchRecords = async (kv) => {
+/**
+ * Reads `index/species` and `index/families`, and `index/search-samples` when
+ * `samples` is true (the HTML page draws a photograph and a call, the text
+ * outputs do not). Three KV reads at most, no further fan-out. The samples
+ * are optional: a missing or unreadable one leaves the cards as names.
+ */
+export const loadSearchRecords = async (kv, { samples = false } = {}) => {
   if (!kv || typeof kv.get !== 'function') {
     const error = new Error('MAMMALS_KV binding is missing')
     error.code = 'NO_BINDING'
     throw error
   }
-  const [speciesIndex, familiesIndex] = await Promise.all([
+  const [speciesIndex, familiesIndex, sampleDoc] = await Promise.all([
     readDocument(kv, 'index/species'),
     readDocument(kv, 'index/families'),
+    samples ? readDocument(kv, 'index/search-samples').catch(() => null) : null,
   ])
-  return recordsFromIndexes(speciesIndex?.data, familiesIndex?.data)
+  return recordsFromIndexes(
+    speciesIndex?.data,
+    familiesIndex?.data,
+    sampleDoc?.data,
+  )
 }
 
 const nameFields = (record) =>
@@ -189,13 +255,17 @@ export const searchRecords = (records, rawQuery, limit, origin) => {
         sensitivity: 'base',
       }),
   )
-  const results = ranked.slice(0, limit).map(({ record }) => ({
-    kind: record.kind,
-    scientificName: record.scientificName,
-    englishName: record.en,
-    afrikaansName: record.af,
-    pages: pagesFor(origin, record),
-  }))
+  const results = ranked.slice(0, limit).map(({ record }) => {
+    const result = {
+      kind: record.kind,
+      scientificName: record.scientificName,
+      englishName: record.en,
+      afrikaansName: record.af,
+      pages: pagesFor(origin, record),
+    }
+    resultSamples.set(result, record.sample ?? NO_SAMPLE)
+    return result
+  })
   return { total: ranked.length, results }
 }
 

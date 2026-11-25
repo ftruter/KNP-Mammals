@@ -105,7 +105,7 @@ A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and r
 | `/.well-known/ai-catalog.json` | the same indexes | Predecessor catalog. The same entries. `host.documentationUrl` is `/llms.txt` |
 | `/ask-ai` | none | A prompt for a reader's own chat AI. Also `.md` and `.json`. The page does not call a model |
 | `/credits` | `index/credits` | Derived by `scripts/seed.mjs`: checklist sources, taxonomy, and every photograph, recording and cited source |
-| `/search` | `index/species` and `index/families` | English, Afrikaans and Latin names already on those indexes. The query is `?q=` |
+| `/search` | `index/species` and `index/families` (and `index/search-samples` for the HTML page) | English, Afrikaans and Latin names already on those indexes. The query is `?q=`. The HTML page also draws a photograph and a playable call for a species |
 
 A species with a details file gets a full account: a lead photograph, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls with recordings, more photographs and sources. A species without one says its details have not been published. Photographs and recordings that are saved on this site load from `/images/<key>` or `/audio/<key>`; otherwise they load from their sources (`fileUrl`). Each carries its credit and licence. CC BY-NC media is shown on a non-commercial site. The field marks in `variants` are not shown yet.
 
@@ -120,6 +120,8 @@ The tables on `/orders`, `/order/<slug>`, `/families`, `/species`, `/facts` and 
 `/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json` and `/ask-ai` are served, and so are `POST /mcp` and `/mcp/server-card` (see below). There is no identify tool yet.
 
 `/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched.
+
+Each species result shows one photograph, with its credit, and one large play and stop button for its best recording. These are the files the species page shows and the installed app saves. `index/search-samples` holds the choice, so the page does not open every species file. A species with no photograph shows a note in the picture's place, and a family is names only. `/search.md`, `/search.json` and the MCP tool stay text.
 
 `POST /mcp` is a public read-only MCP server (streamable HTTP, no sign-in). It has one tool, `search`, with the same ranking as `/search`: `query` (up to 200 characters) and `limit` (1 to 25, default 10). Results hold the kind, the three stored names and the page URLs, and nothing else, so no place, photograph, recording or observation reference leaves through it. `GET /mcp/server-card` is the server card (`application/mcp-server-card+json`), and the ARD manifest lists it. Only `mammals.truter.world`, `localhost`, `127.0.0.1` and `[::1]` are accepted as host or browser origin. It needs `compatibility_flags = ["nodejs_compat"]` and three npm packages (`agents`, `@modelcontextprotocol/server`, `zod`). It uses no Durable Object, OAuth, model service or extra binding.
 

@@ -164,7 +164,9 @@ const renderSearch = async (env, route, origin) => {
   const query = route.query || ''
   const found = query
     ? searchRecords(
-        await loadSearchRecords(env.MAMMALS_KV),
+        await loadSearchRecords(env.MAMMALS_KV, {
+          samples: route.format === 'html',
+        }),
         query,
         SEARCH_LIMIT,
         origin,
