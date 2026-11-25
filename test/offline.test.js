@@ -13,6 +13,7 @@ import {
 } from '../src/offline.js'
 import { autoCacheUrls, offlineManifest } from '../src/offline-app.js'
 import { SERVICE_WORKER_CSP } from '../src/respond.js'
+import { NO_OBSERVATION_REFS } from '../src/labels.js'
 import { parseUrl } from '../src/route.js'
 import { handleRequest } from '../src/worker.js'
 
@@ -247,7 +248,8 @@ test('the saved pages and the four media rows come from the seed', async () => {
   for (const item of [...offline.images, ...offline.clips]) {
     assert.match(item.url, /^\/(images|audio)\//)
     assert.equal(item.url.includes('/offline/'), false)
-    assert.match(item.alias, /^https:\/\//)
+    if (item.alias) assert.match(item.alias, /^https:\/\//)
+    else assert.equal(NO_OBSERVATION_REFS.has(item.slug), true)
     assert.equal(Number.isInteger(item.bytes) && item.bytes > 0, true)
   }
   const byId = Object.fromEntries(

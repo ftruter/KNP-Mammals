@@ -8,6 +8,8 @@ import { escapeHtml, inlineText, safeHttpUrl } from './escape.js'
 import { visibleText, visitorDetails } from './visible.js'
 import {
   NO_OBSERVATION_REFS,
+  isObservationRef,
+  withoutObservationRefs,
   callTypeLabel,
   catalogueNumber,
   conservationLabel,
@@ -448,22 +450,21 @@ ${list
 const sentence = (text) => `${String(text).replace(/\.$/, '')}.`
 
 const plateHtml = (doc, image, lead = false) => {
-  const shown = mediaSrc(image, 'images')
+  const item = withoutObservationRefs(doc.slug, image)
+  const shown = mediaSrc(item, 'images')
   const src = shown?.src || ''
-  const detail = [viewLabel(image?.view), image?.caption]
+  const detail = [viewLabel(item?.view), item?.caption]
     .filter(Boolean)
     .map((part) => escapeHtml(sentence(part)))
     .join(' ')
   const caption = [
-    image?.aiGenerated
-      ? '<span class="ai-label">AI-generated image</span>'
-      : '',
+    item?.aiGenerated ? '<span class="ai-label">AI-generated image</span>' : '',
     detail,
-    creditHtml(creditModel(image, 'image', shown), src),
+    creditHtml(creditModel(item, 'image', shown), src),
   ]
     .filter(Boolean)
     .join(' ')
-  const alt = image?.alt || `${doc.en}: ${viewLabel(image?.view)}`
+  const alt = item?.alt || `${doc.en}: ${viewLabel(item?.view)}`
   return src
     ? `<figure class="plate">
 <button type="button" class="zoom" aria-pressed="false" aria-label="Zoom photograph">
@@ -508,9 +509,10 @@ ${PLAY_ICON}${STOP_ICON}<span class="call-play-label" data-play="${escapeHtml(la
 }
 
 const recordingHtml = (recording, { label, name, slug }) => {
-  const shown = mediaSrc(recording, 'audio')
+  const item = withoutObservationRefs(slug, recording)
+  const shown = mediaSrc(item, 'audio')
   const src = shown?.src || ''
-  const model = creditModel(recording, 'recording', shown, {
+  const model = creditModel(item, 'recording', shown, {
     catalogue: !NO_OBSERVATION_REFS.has(slug),
   })
   return `<div class="recording">${src ? playerHtml(src, label, name) : ''}${creditHtml(model, src)}</div>`
@@ -862,7 +864,11 @@ const creditLine = (item, kind, slug = '') => {
   const catalogue = number
     ? ` xeno-canto catalogue number: ${escapeHtml(number)}.`
     : ''
-  return `${callType}${ai}${author}${licencePhrase(item, 'Licence not recorded.')} ${sourcePhrase(item?.sourceUrl)}${catalogue}`
+  const sourceUrl =
+    NO_OBSERVATION_REFS.has(slug) && isObservationRef(item?.sourceUrl)
+      ? ''
+      : item?.sourceUrl
+  return `${callType}${ai}${author}${licencePhrase(item, 'Licence not recorded.')} ${sourcePhrase(sourceUrl)}${catalogue}`
 }
 
 const citationHtml = (source) => {
