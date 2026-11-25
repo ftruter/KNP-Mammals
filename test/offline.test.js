@@ -205,7 +205,7 @@ test('the saved pages and the four media rows come from the seed', async () => {
   assert.equal((await get('/offline')).status, 404)
   assert.equal((await get('/offline.md')).status, 404)
 
-  assert.equal(offline.images.length, 107)
+  assert.equal(offline.images.length, 108)
   assert.equal(offline.clips.length, 9)
   const wildebeest = offline.images.find(
     (item) => item.slug === 'connochaetes-taurinus',
@@ -228,7 +228,7 @@ test('the saved pages and the four media rows come from the seed', async () => {
   )
   assert.equal(byId['family-images'].files.length, 0)
   assert.equal(byId['family-clips'].files.length, 0)
-  assert.equal(byId['species-images'].files.length, 107)
+  assert.equal(byId['species-images'].files.length, 108)
   assert.equal(byId['species-clips'].files.length, 9)
   const options = client.resolveOptions(manifest, true)
   const familyImages = options.find((option) => option.id === 'family-images')

@@ -1363,6 +1363,12 @@
       "contentType": "image/jpeg",
       "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/752375014/large.jpg"
     },
+    "neamblysomus-julianae/imagined-by-grok.jpg": {
+      "bytes": 957180,
+      "sha256": "93fd36bb2c6f1b354692863990a900a96862f04f5b47559ce5e5d8475711f07a",
+      "contentType": "image/jpeg",
+      "source": "https://raw.githubusercontent.com/ftruter/KNP-Mammals/main/media/images/neamblysomus-julianae/imagined-by-grok.jpg"
+    },
     "nesotragus-moschatus/northern-kzn-standing-side-female.jpg": {
       "bytes": 121614,
       "sha256": "4abb08ba8011e9075e47c7b4b2af6ce5dece54ee0082c864a6d8785e34a75e97",

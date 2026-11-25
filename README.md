@@ -8,7 +8,7 @@ Family records are in [`data/families.json`](data/families.json). The species li
 
 `data/species-list.json` records 14 orders, 39 families and 143 species. Every listed species has a details file under `data/species/details/`, and each of those files has `sampleData: false`. The same list file holds 20 candidates and 4 excluded rows. Those rows are not published.
 
-Of the photographs stored on the details files, 381 have `hosted: true` and one does not. All 12 recordings have `hosted: true`. `data/media/mirror.json` records those 381 images and 12 recordings. `scripts/publish-media.mjs` plans 382 photographs, including the one that is not hosted, and the 12 recordings. The file with `hosted: false` is the Juliana's golden mole illustration, which the page loads from its `fileUrl`. Thirty-five listed species have an empty `images` array. A file without `hosted: true` loads from `fileUrl` when the licence allows it.
+Every photograph stored on the details files (382) and all 12 recordings have `hosted: true`. `data/media/mirror.json` records those 382 images and 12 recordings, including the Juliana's golden mole illustration. `scripts/publish-media.mjs` plans the same 382 photographs and 12 recordings. Thirty-five listed species have an empty `images` array. A file without `hosted: true` loads from `fileUrl` when the licence allows it.
 
 Search, credits, facts, the sitemap, `robots.txt`, the agent-discovery files and the installable offline app are served (see the route table below). There is no MCP endpoint and no identify tool. `variants` are stored and are not shown.
 

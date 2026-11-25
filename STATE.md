@@ -30,7 +30,7 @@ The Worker is `src/worker.js`. `wrangler.toml` binds KV as `MAMMALS_KV` (namespa
 - `data/species-list.json` — `species`, `candidates`, `excluded`.
 - `data/species/details/<slug>.json` — the account. `scripts/seed.mjs` merges it onto `species/<slug>` as `details` when the file exists, and writes nothing back to `data/`.
 - `data/media/mirror.json` — record of files copied into the bucket. Do not edit it by hand.
-- `media/images/neamblysomus-julianae/imagined-by-grok.jpg` — the one illustration stored in the repo. Its details entry has `hosted: false`, so the page loads `fileUrl`.
+- `media/images/neamblysomus-julianae/imagined-by-grok.jpg` — the one illustration stored in the repo. It is also in the site bucket, and its details entry has `hosted: true`, so the page loads `/images/neamblysomus-julianae/imagined-by-grok.jpg`.
 - `docs/schema.md`, `docs/SOURCES.md`, `docs/BRIEF.md`.
 
 `researched` on a list row means a details file exists.
@@ -43,7 +43,7 @@ Site routes beyond the taxon pages are live: `/search` (names only, `noindex`), 
 
 A published species page shows a lead image, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls, further photographs, gaps and sources. `variants` are stored and are not rendered.
 
-Hosted photographs and recordings load from `/images/<key>` and `/audio/<key>`. On this `main`: 381 photographs and 12 recordings have `hosted: true`, and `data/media/mirror.json` has the same two counts. `scripts/publish-media.mjs` plans 382 photographs (it includes the one that is not hosted) and 12 recordings. One image has `hosted: false` (Juliana's golden mole, "Imagined by Grok"). Thirty-five details files have an empty `images` array. ND licences are not shown.
+Hosted photographs and recordings load from `/images/<key>` and `/audio/<key>`. On this `main`: 382 photographs and 12 recordings have `hosted: true`, and `data/media/mirror.json` has the same two counts. `scripts/publish-media.mjs` plans the same 382 photographs and 12 recordings. Thirty-five details files have an empty `images` array. ND licences are not shown.
 
 ## What's left
 
