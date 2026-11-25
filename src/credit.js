@@ -1,4 +1,5 @@
 import { escapeHtml, safeHttpUrl } from './escape.js'
+import { catalogueNumber } from './labels.js'
 
 /**
  * The credit shown beside a photograph or a recording: a closed disclosure
@@ -126,10 +127,12 @@ const text = (value) => (typeof value === 'string' ? value.trim() : '')
  * The credit for one photograph or recording.
  *
  * `shown` says how the page loads the file: `{ src, onSite }`, or nothing
- * when the page does not show it. Returns `{ summary, lines }`: each line is a list of strings and
- * `{ text, href }` links, in the order the disclosure prints them.
+ * when the page does not show it. A recording's xeno-canto catalogue number
+ * is shown unless `catalogue` is false (rhino and pangolin). The quality
+ * grade is never shown. Returns `{ summary, lines }`: each line is a list of
+ * strings and `{ text, href }` links, in the order the disclosure prints them.
  */
-export const creditModel = (item, kind, shown) => {
+export const creditModel = (item, kind, shown, { catalogue = true } = {}) => {
   const author = text(item?.author)
   const source = safeHttpUrl(item?.source)
   const licence = text(item?.license)
@@ -162,15 +165,12 @@ export const creditModel = (item, kind, shown) => {
 
   if (kind === 'recording') {
     if (text(item?.modified)) lines.push([`Changes: ${text(item.modified)}.`])
-    const key = text(item?.key)
-    const grade = /^[A-E]$/.test(item?.quality || '')
-      ? `Quality ${item.quality}`
-      : ''
-    if (key || grade)
+    const number = catalogue ? catalogueNumber(item?.key) : ''
+    if (number)
       lines.push([
-        key ? 'Recording ' : '',
-        key && shown?.onSite ? { text: key, href: shown.src } : key,
-        key && grade ? `. ${grade}.` : grade ? `${grade}.` : '.',
+        'xeno-canto catalogue number: ',
+        source ? { text: number, href: source } : number,
+        '.',
       ])
   } else if (!item?.aiGenerated) lines.push(['Photograph, not AI-generated.'])
 

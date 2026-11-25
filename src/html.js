@@ -6,10 +6,13 @@ import { OFFLINE_PATH } from './offline.js'
 import { creditHtml, creditModel } from './credit.js'
 import { escapeHtml, inlineText, safeHttpUrl } from './escape.js'
 import {
+  NO_OBSERVATION_REFS,
   callTypeLabel,
+  catalogueNumber,
   conservationLabel,
   monthsLabel,
   populationModel,
+  readerCallText,
   sizeFacts,
   statusLabel,
   viewLabel,
@@ -439,19 +442,82 @@ const plateHtml = (doc, image, lead = false) => {
 </figure>`
 }
 
-const recordingHtml = (recording) => {
-  const shown = mediaSrc(recording, 'audio')
-  const src = shown?.src || ''
-  return `<div class="recording">${src ? `<audio controls preload="none" src="${escapeHtml(src)}"></audio>` : ''}${creditHtml(creditModel(recording, 'recording', shown), src)}</div>`
+const PLAY_ICON =
+  '<svg class="call-play-glyph call-play-glyph-play" viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 5.2v13.6L19 12z"/></svg>'
+
+const STOP_ICON =
+  '<svg class="call-play-glyph call-play-glyph-stop" viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" focusable="false"><rect fill="currentColor" x="6" y="6" width="12" height="12" rx="1.5"/></svg>'
+
+/** "Play call", "Play alarm", and "Play call 2 of 3" when a call has several clips. */
+export const playLabel = (type, place = 0, of = 1) => {
+  const known = callTypeLabel(type)
+  const word = known === 'Other' ? 'call' : known.toLowerCase()
+  return `Play ${word}${of > 1 ? ` ${place + 1} of ${of}` : ''}`
 }
 
-const callsHtml = (calls) =>
-  calls.length === 0
+/**
+ * One large play and stop control for a clip. The button stays hidden until
+ * the page script connects it; with the script off, the browser's own audio
+ * control is what a reader gets. preload="none" keeps the file from being
+ * fetched until someone plays it.
+ */
+export const playerHtml = (src, label, name = '') => {
+  const stop = label.replace(/^Play/, 'Stop')
+  return `<div class="call-player">
+<button type="button" class="call-play" hidden aria-pressed="false">
+${PLAY_ICON}${STOP_ICON}<span class="call-play-label" data-play="${escapeHtml(label)}" data-stop="${escapeHtml(stop)}">${escapeHtml(label)}</span>${name ? `<span class="visually-hidden">, ${escapeHtml(name)}</span>` : ''}
+<span class="call-play-meter" aria-hidden="true"><span class="call-play-meter-bar"></span></span>
+</button>
+<audio controls preload="none" src="${escapeHtml(src)}"></audio>
+<p class="call-play-status" role="status"></p>
+</div>`
+}
+
+const recordingHtml = (recording, { label, name, slug }) => {
+  const shown = mediaSrc(recording, 'audio')
+  const src = shown?.src || ''
+  const model = creditModel(recording, 'recording', shown, {
+    catalogue: !NO_OBSERVATION_REFS.has(slug),
+  })
+  return `<div class="recording">${src ? playerHtml(src, label, name) : ''}${creditHtml(model, src)}</div>`
+}
+
+/** True when a call has text a reader should see, or a clip to play. */
+const callShown = (call) =>
+  readerCallText(call?.description) !== '' ||
+  listed(call?.recordings).length > 0
+
+const callsHtml = (calls, doc) => {
+  const shown = calls.filter(callShown)
+  return shown.length === 0
     ? ''
-    : `<h2>Calls</h2>
+    : `<h2 id="calls">Calls</h2>
 <ul class="call-list">
-${calls.map((call) => `<li><span class="call-type">${escapeHtml(callTypeLabel(call?.type))}</span> ${escapeHtml(call?.description || '')}${listed(call?.recordings).map(recordingHtml).join('')}</li>`).join('\n')}
+${shown
+  .map((call) => {
+    const text = readerCallText(call?.description)
+    const clips = listed(call?.recordings)
+    return `<li class="call-item"><p class="call-copy"><span class="call-type">${escapeHtml(callTypeLabel(call?.type))}</span>${text ? ` ${escapeHtml(text)}` : ''}</p>${clips
+      .map((clip, place) =>
+        recordingHtml(clip, {
+          label: playLabel(call?.type, place, clips.length),
+          name: doc.en,
+          slug: doc.slug,
+        }),
+      )
+      .join('')}</li>`
+  })
+  .join('\n')}
 </ul>`
+}
+
+/** A way to the calls from the top of the page, when a clip can play. */
+const hearCallHtml = (details) =>
+  listed(details?.calls).some((call) =>
+    listed(call?.recordings).some((clip) => mediaSrc(clip, 'audio')),
+  )
+    ? '<p class="hear-call"><a href="#calls">Hear its call</a></p>'
+    : ''
 
 const animalHtml = (item) => {
   const label = escapeHtml(item?.en || item?.latin || item?.slug || 'Unnamed')
@@ -576,7 +642,7 @@ ${section('Habits', details.habits)}
 ${section('Diet', details.diet?.summary)}
 ${section('Young', details.young)}
 ${predators || prey ? `<h2>Predators and prey</h2>\n${predators}\n${prey}` : ''}
-${callsHtml(listed(details.calls))}
+${callsHtml(listed(details.calls), doc)}
 ${
   images.length > 1
     ? `<h2>More photographs</h2>
@@ -649,6 +715,7 @@ export const speciesHtml = (doc, { origin }) => {
 <h1>${escapeHtml(doc.en)}</h1>
 <p class="latin">${escapeHtml(doc.latin)}</p>
 ${doc.af ? `<p class="afrikaans">${escapeHtml(doc.af)}</p>` : ''}
+${hearCallHtml(details)}
 </div>
 ${details ? publishedSpeciesHtml(doc, details) : `<p>${UNPUBLISHED_SPECIES}</p>\n${evidenceHtml(doc)}`}`
   return layout({
@@ -741,7 +808,7 @@ const sourcePhrase = (value) => {
   return `Source: <a href="${escapeHtml(href)}">${escapeHtml(href)}</a>.`
 }
 
-const creditLine = (item, kind) => {
+const creditLine = (item, kind, slug = '') => {
   const ai =
     item?.aiGenerated === true
       ? `<span class="ai-label">${kind === 'recording' ? 'AI-generated recording' : 'AI-generated image'}</span>. `
@@ -753,11 +820,14 @@ const creditLine = (item, kind) => {
     typeof item?.callType === 'string' && item.callType.trim()
       ? `${escapeHtml(CREDIT_CALL[item.callType.trim()] || item.callType.trim())}. `
       : ''
-  const quality =
-    typeof item?.quality === 'string' && item.quality.trim()
-      ? ` Quality ${escapeHtml(item.quality.trim())}.`
+  const number =
+    kind === 'recording' && !NO_OBSERVATION_REFS.has(slug)
+      ? catalogueNumber(item?.key)
       : ''
-  return `${callType}${ai}${author}${licencePhrase(item, 'Licence not recorded.')} ${sourcePhrase(item?.sourceUrl)}${quality}`
+  const catalogue = number
+    ? ` xeno-canto catalogue number: ${escapeHtml(number)}.`
+    : ''
+  return `${callType}${ai}${author}${licencePhrase(item, 'Licence not recorded.')} ${sourcePhrase(item?.sourceUrl)}${catalogue}`
 }
 
 const citationHtml = (source) => {
@@ -777,7 +847,7 @@ const CREDIT_HEADING = {
   source: 'Sources',
 }
 
-const creditList = (items, kind) =>
+const creditList = (items, kind, slug = '') =>
   !items.length
     ? ''
     : `<h4>${CREDIT_HEADING[kind]}</h4>
@@ -785,7 +855,7 @@ const creditList = (items, kind) =>
 ${items
   .map(
     (item) =>
-      `<li>${kind === 'source' ? citationHtml(item) : creditLine(item, kind)}</li>`,
+      `<li>${kind === 'source' ? citationHtml(item) : creditLine(item, kind, slug)}</li>`,
   )
   .join('\n')}
 </ul>`
@@ -813,8 +883,8 @@ ${also}
 
 const speciesCreditHtml = (group) => `<section>
 <h3><a href="/species/${escapeHtml(group.slug)}">${escapeHtml(group.commonName || group.scientificName)}</a> <em>${escapeHtml(group.scientificName || '')}</em></h3>
-${creditList(listed(group.images), 'image')}
-${creditList(listed(group.recordings), 'recording')}
+${creditList(listed(group.images), 'image', group.slug)}
+${creditList(listed(group.recordings), 'recording', group.slug)}
 ${creditList(listed(group.sources), 'source')}
 </section>`
 

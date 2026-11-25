@@ -31,3 +31,11 @@ White rhinoceros, black rhinoceros, and Temminck's pangolin are the exception. T
 In-hand, dead, or handled animals. Spectrogram images. For bats, rest-camp, roof, and building recordings. A file identified only to a lumped parent. Time-expanded, pitch-shifted, denoised, or ultrasonic files. A sourced sentence may still describe an ultrasonic call.
 
 Macaulay Library is not a lookup. Freesound, YouTube, Skinner, and Stuart are out of this work.
+
+## How a call is shown
+
+Each recording has one large play and stop button, and the call's type. Several clips on one call read "Play call 1 of 3" and so on. Only one clip plays at a time. Without script the browser's own audio control is shown instead.
+
+The page shows what a visitor needs to know about the sound. It does not show file names, recording grades, or notes about what the sources did not say. `readerCallText` in `src/labels.js` removes those sentences from a call's `description` when the page, the Markdown or the MCP text is built. The stored text stays as written. A call with no visible text and no clip is left out, and so is its heading.
+
+The credit under each clip shows its xeno-canto catalogue number (the part of `key` after `xeno-canto/`) and never the grade. The rhinoceroses and the pangolin do not show it.
