@@ -45,7 +45,7 @@ const promptText = (
 
 First open ${origin}/.md and follow what it says. It is an open field guide to Kruger's mammals.
 
-To look something up, use the full lists. Open ${origin}/species.md for every species, ${origin}/families.md for every family, and ${origin}/orders.md for every order. Then open the species, family or order pages they link to. To find an animal by name, open ${origin}/search.md?q= followed by the name.
+To look something up, use the full lists. Open ${origin}/species.md for every species, ${origin}/families.md for every family, and ${origin}/orders.md for every order. Then open the species, family or order pages they link to. To find an animal by name, open ${origin}/search.md?q= followed by the name. If your app can add a connector (an MCP server), ${origin}/mcp is a public read-only one with a single search tool that finds species by name. The pages above work without it.
 
 Answer from the guide first and link the pages you used. If the guide does not cover something, say plainly which parts are not from the guide before you add anything else you know.
 
@@ -79,4 +79,5 @@ A reader may have pasted the prompt from ${origin}${ASK_AI_PATH} and be asking y
 - Give a place only as precisely as the guide stores it. Black rhino, white rhino, and Temminck's pangolin are placed only as "Kruger National Park". Juliana's golden mole is placed only as "southwestern Kruger National Park".
 - Empty details means the account is not published. gaps lists what was not found.
 - If the guide does not hold the answer, say plainly that it is not from this guide.
+- If you can use a connector, ${origin}/mcp is a public read-only MCP server with one search tool. It returns names and page URLs only. Open the page for the account.
 - Link the pages you used.`

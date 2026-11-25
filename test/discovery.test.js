@@ -113,7 +113,6 @@ test('llms.txt states the mammal rules and only real routes', async () => {
     assert.ok(body.includes(phrase), phrase)
   for (const absent of [
     '/identify/photo',
-    '/mcp',
     '/sitemap',
     '/vocab/colours',
     'microphone',
@@ -166,6 +165,7 @@ test('ARD and the predecessor catalog share entries from the indexes', async () 
       'urn:air:mammals.truter.world:guide:families',
       'urn:air:mammals.truter.world:guide:orders',
       'urn:air:mammals.truter.world:guide:species',
+      'urn:air:mammals.truter.world:mcp:field-guide',
     ],
   )
   const families = JSON.parse(store.get('index/families'))
@@ -217,7 +217,11 @@ test('ARD and the predecessor catalog share entries from the indexes', async () 
   }
   const storedHome = await (await get('/.json')).json()
   assert.deepEqual(storedHome, families)
-  assert.doesNotMatch(JSON.stringify(ard), /\/mcp/)
+  const card = ard.entries.at(-1)
+  assert.equal(card.identifier, 'urn:air:mammals.truter.world:mcp:field-guide')
+  assert.equal(card.type, 'application/mcp-server-card+json')
+  assert.equal(card.url, `${origin}/mcp/server-card`)
+  assert.equal(JSON.stringify(ard).includes(`${origin}/mcp"`), false)
   assert.doesNotMatch(JSON.stringify(ard), /\/search/)
 })
 
@@ -238,18 +242,25 @@ test('a missing index is omitted and not replaced with a made-up count', async (
     ).json()
     assert.deepEqual(
       ard.entries.map((item) => item.identifier),
-      ['urn:air:mammals.truter.world:guide:species'],
+      [
+        'urn:air:mammals.truter.world:guide:species',
+        'urn:air:mammals.truter.world:mcp:field-guide',
+      ],
     )
     assert.equal(JSON.stringify(ard).includes('39 families'), false)
     assert.ok(errors.some((line) => line.includes('index/families')))
 
     const neither = { MAMMALS_KV: { get: async () => null } }
     const empty = await (await get('/.well-known/ard.json', {}, neither)).json()
-    assert.deepEqual(empty.entries, [])
+    // The server card is a fixed document, so its entry needs no index.
+    assert.deepEqual(
+      empty.entries.map((item) => item.identifier),
+      ['urn:air:mammals.truter.world:mcp:field-guide'],
+    )
     const catalog = await (
       await get('/.well-known/ai-catalog.json', {}, neither)
     ).json()
-    assert.deepEqual(catalog.entries, [])
+    assert.deepEqual(catalog.entries, empty.entries)
     assert.equal(catalog.specVersion, '1.0')
     assert.ok(errors.some((line) => line.includes('index/species')))
   } finally {
@@ -279,7 +290,7 @@ test('ask-ai prints one prompt and does not call a model', async () => {
   assert.match(prompt, /estimate\.low/)
   assert.match(prompt, /southwestern Kruger National Park/)
   assert.match(prompt, /\/search\.md\?q=/)
-  assert.doesNotMatch(prompt, /\/mcp/)
+  assert.ok(prompt.includes(`${origin}/mcp`))
   assert.doesNotMatch(prompt, /(^|\s)\/[a-z]/m)
   for (const example of ASK_AI_EXAMPLES)
     assert.equal(/camp|road|waterhole/i.test(example), false, example)
@@ -306,6 +317,7 @@ test('ask-ai prints one prompt and does not call a model', async () => {
   assert.match(html, /data-copy-manual>Select all of the text/)
   assert.match(html, /<a href="\/ask-ai" aria-current="page">Ask your AI<\/a>/)
   assert.equal((await get('/ask-ai', { method: 'POST' })).status, 405)
+  // The MCP transport is served by the Worker entry point, not handleRequest.
   assert.equal((await get('/mcp', { method: 'POST' })).status, 405)
 
   const local = 'http://localhost:8787'
@@ -331,7 +343,7 @@ test('the home page, footer and head advertise the guide', async () => {
   assert.ok(markdown.includes(`${origin}/species.md`))
   assert.ok(markdown.includes(`${origin}/families.md`))
   assert.ok(markdown.includes(`${origin}/orders.md`))
-  assert.doesNotMatch(markdown, /\/mcp/)
+  assert.ok(markdown.includes(`${origin}/mcp`))
 })
 
 test('markdown links are absolute', async () => {

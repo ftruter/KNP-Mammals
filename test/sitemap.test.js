@@ -99,7 +99,7 @@ const tree = built.result
 
 // Every non-asset response carries the discovery Link header (#34).
 const DISCOVERY_LINK =
-  '</.well-known/ard.json>; rel="ard"; type="application/json", </llms.txt>; rel="describedby"; type="text/plain"'
+  '</.well-known/ard.json>; rel="ard"; type="application/json", </llms.txt>; rel="describedby"; type="text/plain", </mcp/server-card>; rel="https://mammals.truter.world/rel/mcp-server-card"; type="application/mcp-server-card+json"'
 
 test('orders sort by Latin, and families and species by English', () => {
   assert.deepEqual(

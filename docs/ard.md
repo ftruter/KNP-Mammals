@@ -1,6 +1,6 @@
 # Agent discovery
 
-The live site publishes [Agentic Resource Discovery (ARD) v0.91](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md). The entry schema this Worker is checked against is [`test/fixtures/ard-entry.schema.json`](../test/fixtures/ard-entry.schema.json), the ARD v0.91 entry schema. This note records how this Worker applies that spec. It does not add a search page, a sitemap, credits, identify, or an MCP server.
+The live site publishes [Agentic Resource Discovery (ARD) v0.91](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md). The entry schema this Worker is checked against is [`test/fixtures/ard-entry.schema.json`](../test/fixtures/ard-entry.schema.json), the ARD v0.91 entry schema. This note records how this Worker applies that spec. The MCP server card is listed too (see below).
 
 ## Routes
 
@@ -28,7 +28,7 @@ The header always ends with:
 </.well-known/ard.json>; rel="ard"; type="application/json", </llms.txt>; rel="describedby"; type="text/plain"
 ```
 
-`rel="ard"` is the relation ARD v0.91 defines for the manifest. `rel="describedby"` is the registered relation (RFC 6892) for `llms.txt`. There is no `rel="ai-catalog"` link. There is no `Agentmap` line, and this site has no `robots.txt` to put one on. `robots.txt` is out of scope. There is no MCP card relation: an MCP server is not served.
+`rel="ard"` is the relation ARD v0.91 defines for the manifest. `rel="describedby"` is the registered relation (RFC 6892) for `llms.txt`. There is no `rel="ai-catalog"` link. There is no `Agentmap` line, and this site has no `robots.txt` to put one on. `robots.txt` is out of scope. The MCP server card has no registered relation, so the `Link` header names it with the extension URI `https://mammals.truter.world/rel/mcp-server-card` (RFC 8288). The site does not serve a document at that URI.
 
 The targets are root-relative, so they follow the host that served the response. The header does not change `Cache-Control` or the content security policy.
 
@@ -63,8 +63,8 @@ The home Markdown has an "Answering questions from this guide" section with the 
 
 The Copy button is rendered `hidden`. `bindCopy` in `src/client/app.js` shows it only when the clipboard can be written. With JavaScript off, the page says to select the text.
 
-The prompt points at `/search.md?q=` for finding an animal by name (#32). It does not mention `/mcp`, which is not served. An MCP server needs its own yes and is not part of this batch.
+The prompt points at `/search.md?q=` for finding an animal by name (#32). It also names `/mcp`, the public read-only MCP server (#34 batch 2), and says the pages work without it.
 
 ## Not built here
 
-No MCP endpoint, no server card, no `robots.txt`, no sitemap, no credits page, and no identify flow. Batch 2 in the plan for issue 34 is that MCP server, and it starts only after a separate yes.
+No identify flow. The MCP server (`POST /mcp`, one `search` tool) and its card (`GET /mcp/server-card`) are batch 2 of issue 34. The ARD entry for the card has `type: application/mcp-server-card+json` and its `url` is the card, not the transport.
