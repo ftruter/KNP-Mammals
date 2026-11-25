@@ -159,6 +159,8 @@ test('the saved pages and the four media rows come from the seed', async () => {
   assert.deepEqual(
     manifest.categories.map((category) => category.label),
     [
+      'Photo recognition model',
+      'Sound recognition model',
       'Images for families (one image for each of up to three species)',
       'Images for species (one image each)',
       'Sound clips for families (one clip for each of up to three species)',
@@ -175,13 +177,13 @@ test('the saved pages and the four media rows come from the seed', async () => {
   assert.equal(species.species.length, 143)
   assert.equal(
     offline.pages.length,
-    8 +
+    11 +
       families.orders.length +
       families.families.length +
       species.species.length,
   )
-  assert.equal(offline.pages.length, 204)
-  assert.deepEqual(offline.pages.slice(0, 8), [
+  assert.equal(offline.pages.length, 207)
+  assert.deepEqual(offline.pages.slice(0, 11), [
     '/',
     '/families',
     '/orders',
@@ -190,6 +192,9 @@ test('the saved pages and the four media rows come from the seed', async () => {
     '/credits',
     '/ask-ai',
     '/sitemap',
+    '/identify',
+    '/identify/photo',
+    '/identify/sound',
   ])
   assert.ok(offline.pages.includes('/order/carnivora'))
   assert.ok(offline.pages.includes('/species/connochaetes-taurinus'))
@@ -276,13 +281,16 @@ test('a missing offline document still serves the shell', async () => {
   )
   assert.equal(response.status, 200)
   const manifest = await response.json()
-  assert.equal(manifest.files.length, 0)
+  // Only the recognisers, which do not depend on the document.
+  assert.ok(manifest.files.every((file) => file.url.startsWith('/models/')))
   assert.deepEqual(manifest.pages, ['/'])
   assert.deepEqual(manifest.data, ['/.json'])
   assert.ok(autoCacheUrls(manifest).includes('/.json'))
   assert.ok(manifest.shell.includes('/manifest.webmanifest'))
   assert.ok(
-    manifest.categories.every((category) => category.files.length === 0),
+    manifest.categories
+      .filter((category) => !category.id.endsWith('-model'))
+      .every((category) => category.files.length === 0),
   )
 })
 
@@ -305,7 +313,9 @@ test('a mirror file is optional, and a measured copy uses the hosted address', a
   assert.deepEqual(empty.iconic, [])
   const manifest = offlineManifest(empty)
   assert.ok(
-    manifest.categories.every((category) => category.files.length === 0),
+    manifest.categories
+      .filter((category) => !category.id.endsWith('-model'))
+      .every((category) => category.files.length === 0),
   )
 
   const lion = {
@@ -473,9 +483,9 @@ test('a file shared by a family row and a species row is stored once', () => {
 })
 
 test('an unserved guide path is left out of the saved pages', () => {
-  assert.deepEqual(selectGuidePages(['/', '/identify/photo', '/mcp']), ['/'])
+  assert.deepEqual(selectGuidePages(['/', '/identify/live', '/mcp']), ['/'])
   assert.deepEqual(
-    selectGuideData(['/', '/identify/photo', '/mcp', '/offline']),
+    selectGuideData(['/', '/identify/live', '/mcp', '/offline']),
     ['/.json'],
   )
 })

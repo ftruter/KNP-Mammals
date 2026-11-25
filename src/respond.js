@@ -20,6 +20,20 @@ const PAGE_CSP =
   "default-src 'none'; style-src 'self'; img-src 'self' https:; media-src 'self' https:; manifest-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; script-src 'self'"
 
 /**
+ * /identify/photo and /identify/sound only. The recogniser is WebAssembly in
+ * a Web Worker. The worker script is sent with the same policy, because a
+ * worker is governed by the policy on its own response, not the page's. It
+ * fetches its model under `connect-src`. Photos are drawn on a canvas, so
+ * `img-src` need not allow `blob:`. PAGE_CSP ends with script-src, so the
+ * first addition extends that directive.
+ */
+export const IDENTIFY_CSP = `${PAGE_CSP} 'wasm-unsafe-eval'; worker-src 'self'`
+
+/** /identify/sound only: it records from the microphone. */
+export const MICROPHONE_PERMISSIONS =
+  'camera=(), microphone=(self), geolocation=()'
+
+/**
  * /sw.js only. A service worker is governed by the policy on its own
  * response. It fetches pages and files, and only from this origin.
  */
@@ -57,11 +71,15 @@ export const pageResponse = ({
   origin,
   contentType,
   serviceWorker = false,
+  identify = false,
+  microphone = false,
   search = '',
 }) => {
   const headers = baseHeaders(format, cache)
   if (contentType) headers.set('content-type', contentType)
   if (serviceWorker) headers.set('content-security-policy', SERVICE_WORKER_CSP)
+  else if (identify) headers.set('content-security-policy', IDENTIFY_CSP)
+  if (microphone) headers.set('permissions-policy', MICROPHONE_PERMISSIONS)
   if (format === 'html' || format === 'md' || format === 'json') {
     const alts = path && origin ? alternates(path, search) : null
     const pageLinks = alts
@@ -101,10 +119,14 @@ export const objectResponse = ({
   disposition,
   range = null,
   ranges = false,
+  script = false,
 }) => {
   const headers = new Headers(SECURITY)
   headers.set('content-type', contentType)
+  // A script fetched by importScripts() or import() runs under its caller's
+  // policy. `sandbox` here would only matter if the file were opened as a page.
   headers.set('content-security-policy', OBJECT_CSP)
+  if (script) headers.set('cross-origin-resource-policy', 'same-origin')
   headers.set('cache-control', cache)
   headers.set('access-control-allow-origin', '*')
   if (etag) headers.set('etag', etag)

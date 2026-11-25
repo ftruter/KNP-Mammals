@@ -43,15 +43,17 @@ Site routes beyond the taxon pages are live: `/search` (matches names only, `noi
 
 A published species page shows a lead image, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls, further photographs, gaps and sources. A section or note that is empty, or that only has curator gap wording such as "not found in the sources used here", is omitted from HTML and Markdown. The stored JSON and the "Not yet recorded" list keep those gaps. `variants` are stored and are not rendered.
 
+Identify (#40): `/identify`, `/identify/photo` and `/identify/sound` run two recognisers in the browser with LiteRT.js 2.6.0 in a worker (`src/client/identify-worker.js`). Nothing is uploaded. The model files are in R2 under `models/knp-mammals-photo-1/`, `models/knp-mammals-sound-1/` and `models/litert-2.6.0/`, served from `/models/<key>` for the keys in `MODEL_KEYS` (`src/identify.js`) only. The numbers, training credits and lists are in `data/identify/`; `scripts/seed.mjs` builds `index/identify` and the recognisers section of `/credits` from them. The photo model is MobileNetV4 int8 (85 species, softmax inside). The sound model is a BirdNET V2.4 head, fp16, batch fixed at 1 (LiteRT.js does not take a dynamic batch); it gives raw scores and the page applies the sigmoid, with "likely" and "possible" at the sigmoid of 0.5 and 0.25, the cut-offs used in testing. Bats are left out; `deriveIdentify` stops the build if one is added. Cards for the two rhinos and the pangolin carry no observation link or file address. The offline panel offers each model as a choice and treats a model already cached on first use as saved. `scripts/publish-models.mjs` uploads the model files with wrangler; changing a file means a new version folder, because `/models/` is served as immutable.
+
 Hosted photographs and recordings load from `/images/<key>` and `/audio/<key>`. On this `main`: 382 photographs and 12 recordings have `hosted: true`, and `data/media/mirror.json` has the same two counts. `scripts/publish-media.mjs` plans the same 382 photographs and 12 recordings. Thirty-five details files have an empty `images` array. ND licences are not shown.
 
 ## What's left
 
 Not on this `main`, and not described here as shipped:
 
-- An MCP endpoint (#34 batch 2, needs a second yes) and identify (#40; batch 1 is counts only). `src/style.js` is a copy of the birds stylesheet and still contains identify rules that no route uses.
+- An MCP endpoint (#34 batch 2, needs a second yes).
+- A phone check of `/identify/photo` and `/identify/sound`, online and installed with no signal (#40 stays open for it).
 - A real-device install and offline check of the offline app (#38 stays open for it). That check should include searching with no signal and the back-to-search link, which are tested only against a stand-in for the browser.
-- Recognisers. [`docs/BRIEF.md`](docs/BRIEF.md) phase 5 has not started. This repo has no model files.
 - Rendering `variants`.
 - The home-page sentence. `progressSentence` in `src/html.js` still says that some species are listed by name only, even though every listed species has a details file. HTML and Markdown both use that function. Changing it is code, and the wording is an open decision below.
 - A machine-readable content schema and an ajv check. Later, after data fills settle. Not this change.
@@ -89,7 +91,7 @@ pnpm run check
 - Do not close an issue from the implementing pull request while a real-device check is still open.
 - `docs/BRIEF.md` still tells a research session not to build the site until the owner says go. The Status paragraph in that file is the current state. Phase 5 has not started. Do not train a model from that file's phase 5 notes.
 - `docs/schema.md` still says family pages, indexes, credits and identify documents can follow the birds pattern when the site is built. The Worker is already live. This file does not rewrite `docs/schema.md`. Identify documents are still not specified there.
-- `scripts/publish-media.mjs` leaves object keys under `models/` and `offline/` in place. Those bucket prefixes are not the installable offline app, and this repo has no model store.
+- `scripts/publish-media.mjs` leaves object keys under `models/` and `offline/` in place. `models/` holds the recognisers (see Identify above).
 - The birds README still has an "AI Models" section. Do not copy it. Those scripts are not in this `package.json`.
 
 ## Open decisions

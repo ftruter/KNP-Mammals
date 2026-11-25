@@ -196,6 +196,9 @@ test('sitemap paths follow the route list and list each page once', () => {
       '/facts',
       '/credits',
       '/ask-ai',
+      '/identify',
+      '/identify/photo',
+      '/identify/sound',
     ],
   )
   assert.equal(
@@ -225,6 +228,9 @@ test('sitemap paths follow the route list and list each page once', () => {
     '/facts',
     '/credits',
     '/ask-ai',
+    '/identify',
+    '/identify/photo',
+    '/identify/sound',
   ])
   const entries = sitemapEntries(tree)
   assert.deepEqual(
@@ -238,6 +244,9 @@ test('sitemap paths follow the route list and list each page once', () => {
       'Facts',
       'Credits',
       'Ask your AI',
+      'Identify',
+      'Identify by photo',
+      'Identify by sound',
     ],
   )
   assert.equal('latin' in entries[2].children[0], false)
@@ -367,7 +376,14 @@ test('the xml sitemap lists each live HTML page once', async () => {
   for (const row of species.species.slice().sort(byLabel)) {
     if (!seen.has(row.slug)) expected.push(`/species/${row.slug}`)
   }
-  expected.push('/facts', '/credits', '/ask-ai')
+  expected.push(
+    '/facts',
+    '/credits',
+    '/ask-ai',
+    '/identify',
+    '/identify/photo',
+    '/identify/sound',
+  )
   assert.deepEqual(
     locs,
     expected.map((path) => origin + path),
@@ -468,6 +484,9 @@ test('the html, markdown, and json sitemaps list the same pages', async () => {
       'Facts',
       'Credits',
       'Ask your AI',
+      'Identify',
+      'Identify by photo',
+      'Identify by sound',
     ],
   )
   assert.equal(
@@ -528,6 +547,9 @@ test('a missing index is logged and the fixed urls are still served', async () =
       `${origin}/facts`,
       `${origin}/credits`,
       `${origin}/ask-ai`,
+      `${origin}/identify`,
+      `${origin}/identify/photo`,
+      `${origin}/identify/sound`,
     ])
   } finally {
     console.error = original

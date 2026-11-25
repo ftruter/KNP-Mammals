@@ -7,8 +7,24 @@ import {
   REDIRECT_CACHE,
   kvCache,
 } from './cache.js'
-import { objectHttpResponse } from './objects.js'
-import { clientJs, offlineJs, serviceWorkerJs } from './client.js'
+import { modelHttpResponse, objectHttpResponse } from './objects.js'
+import {
+  clientJs,
+  identifyScripts,
+  offlineJs,
+  serviceWorkerJs,
+} from './client.js'
+import {
+  identifyJson,
+  identifyMarkdown,
+  identifyPhotoJson,
+  identifyPhotoMarkdown,
+  identifySoundJson,
+  identifySoundMarkdown,
+  renderIdentifyHtml,
+  renderIdentifyPhotoHtml,
+  renderIdentifySoundHtml,
+} from './identify-page.js'
 import { OFFLINE_KEY } from './offline.js'
 import { MANIFEST_TYPE, offlineManifest, webManifest } from './offline-app.js'
 import { iconFiles } from './icon.js'
@@ -79,6 +95,62 @@ const RENDERERS = {
   facts: { html: factsPageHtml, md: factsMarkdown },
   family: { html: familyHtml, md: familyMarkdown },
   species: { html: speciesHtml, md: speciesMarkdown },
+}
+
+/** The three identify pages: their HTML, Markdown and JSON, from `index/identify`. */
+const IDENTIFY_PAGES = {
+  identify: {
+    html: renderIdentifyHtml,
+    md: identifyMarkdown,
+    json: identifyJson,
+  },
+  'identify-photo': {
+    html: renderIdentifyPhotoHtml,
+    md: identifyPhotoMarkdown,
+    json: identifyPhotoJson,
+  },
+  'identify-sound': {
+    html: renderIdentifySoundHtml,
+    md: identifySoundMarkdown,
+    json: identifySoundJson,
+    microphone: true,
+  },
+}
+
+const renderIdentify = async (env, route, origin) => {
+  const page = IDENTIFY_PAGES[route.kind]
+  const found = await readDocument(env.MAMMALS_KV, route.key)
+  if (!found) return notFound(route, origin, env)
+  const { format, pathname } = route
+  const body =
+    format === 'json'
+      ? jsonBody(page.json(found.data))
+      : format === 'md'
+        ? absoluteLinks(page.md(found.data), origin)
+        : page.html(found.data, { origin })
+  return pageResponse({
+    body,
+    format,
+    cache: kvCache(env, PAGE_CACHE),
+    path: pathname,
+    origin,
+    identify: format === 'html' && route.kind !== 'identify',
+    microphone: format === 'html' && Boolean(page.microphone),
+  })
+}
+
+const renderModel = async (request, env, key) => {
+  const response = await modelHttpResponse(
+    env?.IMAGES,
+    key,
+    request.headers.get('range'),
+  )
+  if (response) return response
+  return plainResponse({
+    body: 'Not found\n',
+    status: 404,
+    cache: NOT_FOUND_CACHE,
+  })
 }
 
 const notFound = (route, origin, env) => {
@@ -207,6 +279,16 @@ export const renderRoute = async (request, env, route) => {
     return iconResponse(iconFiles[route.pathname], ASSET_CACHE)
   if (route.kind === 'script')
     return pageResponse({ body: clientJs, format: 'js', cache: ASSET_CACHE })
+  if (route.kind === 'identify-script')
+    return pageResponse({
+      body: identifyScripts[route.pathname],
+      format: 'js',
+      cache: ASSET_CACHE,
+      // A worker runs under the policy on its own response.
+      identify: route.pathname === '/identify-worker.js',
+    })
+  if (route.kind === 'model') return renderModel(request, env, route.objectKey)
+  if (IDENTIFY_PAGES[route.kind]) return renderIdentify(env, route, origin)
   if (route.kind === 'offline-script')
     return pageResponse({ body: offlineJs, format: 'js', cache: ASSET_CACHE })
   if (route.kind === 'service-worker')

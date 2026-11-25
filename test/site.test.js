@@ -379,7 +379,8 @@ test('the credits page lists sources, taxonomy and every file', async () => {
   assert.match(body, /Blue wildebeest/)
   assert.match(body, /AI-generated image/)
   assert.match(body, /Licence not recorded\./)
-  assert.equal(body.includes('Apache'), false)
+  // Software licences appear only where the recognisers are credited.
+  assert.equal(body.split('id="recognisers"')[0].includes('Apache'), false)
   assert.equal(
     body.includes(
       'Adult, H4-2 road north of Crocodile Bridge, Kruger National Park.',
@@ -867,11 +868,7 @@ test('a missing page still publishes a title, description, and format links', as
 // response (and move the full checks into that feature's test file).
 // /images and /audio already exist; they are covered in test/media.test.js.
 test('routes that are not built yet are not found', async () => {
-  const pending = [
-    ['/offline', '#38'],
-    ['/identify/sound', '#40'],
-    ['/identify/photo', '#40'],
-  ]
+  const pending = [['/offline', '#38']]
   for (const [pathname, issue] of pending) {
     const response = await get(pathname)
     assert.equal(
