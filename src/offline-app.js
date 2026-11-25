@@ -4,6 +4,7 @@ import {
   LARGE_DOWNLOAD_BYTES,
   MEDIA_CACHE,
   WEB_MANIFEST_PATH,
+  selectGuideData,
 } from './offline.js'
 import { palette } from './style.js'
 
@@ -86,9 +87,24 @@ const shellFiles = () => [
 ]
 
 /**
+ * Files an installed copy always saves: the manifest, the shell, every
+ * HTML page, and that page's JSON document. Photographs and clips stay
+ * behind the ticked options.
+ */
+export const autoCacheUrls = (manifest) => [
+  '/offline.json',
+  ...(manifest?.shell ?? []),
+  ...(manifest?.pages ?? []),
+  ...(manifest?.data ?? []),
+]
+
+/**
  * What /offline.json serves. Every file is listed once. A file shared by
  * the family row and the species row is stored once. `signature` changes
  * when a row's files change, which is how the panel offers an update.
+ * `data` is the JSON document for each page in `pages`. Those files are
+ * small and are always saved with the guide, as the name lists are on
+ * the birds site, so a species page can open with no signal.
  */
 export const offlineManifest = (doc, version = '') => {
   const files = []
@@ -127,14 +143,18 @@ export const offlineManifest = (doc, version = '') => {
   }
   const shell = shellFiles()
   const pages = Array.isArray(doc?.pages) ? doc.pages : ['/']
+  const data = selectGuideData(pages)
   return {
     kind: 'offline',
     version: clientVersion(
-      [version, ...shell, ...pages, JSON.stringify(doc ?? null)].join('\n'),
+      [version, ...shell, ...pages, ...data, JSON.stringify(doc ?? null)].join(
+        '\n',
+      ),
     ),
     largeBytes: LARGE_DOWNLOAD_BYTES,
     shell,
     pages,
+    data,
     files,
     categories: CATEGORIES.map((category) => {
       const indexes = members[category.id]

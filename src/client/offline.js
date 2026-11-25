@@ -750,17 +750,22 @@ const boot = async () => {
 }
 
 /**
- * Saves the pages, styles and scripts the guide needs, so families and
- * species can be browsed with no signal. They are small, so there is no
- * option for them. A new version is saved beside the old one and replaces
- * it only when it is complete.
+ * Saves the pages, styles, scripts and JSON documents the guide needs, so
+ * families and species can be browsed with no signal. They are small, so
+ * there is no option for them. A new version is saved beside the old one
+ * and replaces it only when it is complete.
  */
 const savePages = async (manifest, note, connection) => {
   const tell = (text) => {
     if (note) note.textContent = text
   }
   const name = PAGES_PREFIX + manifest.version
-  const list = ['/offline.json', ...manifest.shell, ...manifest.pages]
+  const list = [
+    '/offline.json',
+    ...manifest.shell,
+    ...manifest.pages,
+    ...(manifest.data ?? []),
+  ]
   const names = (await window.caches.keys()).filter((key) =>
     key.startsWith(PAGES_PREFIX),
   )
