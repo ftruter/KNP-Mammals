@@ -41,7 +41,7 @@ Family list, combined species list, and a details file for every listed species.
 
 Site routes beyond the taxon pages are live: `/search` (matches names only, `noindex`; the HTML page shows a photograph and a play button for a species that has them), `/credits`, `/facts`, `/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json`, `/ask-ai`, `/robots.txt`, `/sitemap` and `/sitemap.xml`, and the installable offline app (`/manifest.webmanifest`, `/sw.js`, `/offline.js`, `/offline.json`). The offline app always saves the HTML guide pages and their JSON documents; one measured lead photograph and clip per species from `data/media/mirror.json` are saved when those options are ticked.
 
-A published species page shows a lead image, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls, further photographs, gaps and sources. `variants` are stored and are not rendered.
+A published species page shows a lead image, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls, further photographs, gaps and sources. A section or note that is empty, or that only has curator gap wording such as "not found in the sources used here", is omitted from HTML and Markdown. The stored JSON and the "Not yet recorded" list keep those gaps. `variants` are stored and are not rendered.
 
 Hosted photographs and recordings load from `/images/<key>` and `/audio/<key>`. On this `main`: 382 photographs and 12 recordings have `hosted: true`, and `data/media/mirror.json` has the same two counts. `scripts/publish-media.mjs` plans the same 382 photographs and 12 recordings. Thirty-five details files have an empty `images` array. ND licences are not shown.
 

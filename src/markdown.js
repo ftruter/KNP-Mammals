@@ -1,4 +1,5 @@
 import { inlineText, safeHttpUrl } from './escape.js'
+import { visitorDetails } from './visible.js'
 import { siteOrigin } from './head.js'
 import { mediaSrc } from './media.js'
 import {
@@ -234,6 +235,7 @@ const callLine = (call, slug = '') => {
 }
 
 const publishedSpecies = (doc, details) => {
+  details = visitorDetails(details)
   const population = populationModel(details.population)
   const facts = [
     ['Status', statusLabel(details.status)],
