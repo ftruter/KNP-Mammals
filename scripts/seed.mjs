@@ -19,6 +19,8 @@
  *                                        index/facts is one row per species
  *                                        from the same details.
  *   the species list and those details → index/credits
+ *                                        index/search-samples is the photograph
+ *                                        and call a search card shows
  *
  * Only the `species` list is published. `candidates` and `excluded` stay in
  * the repository. A species whose family is not in families.json, a
@@ -32,6 +34,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { deriveOffline, OFFLINE_KEY } from '../src/offline.js'
 import { buildFacts } from '../src/facts.js'
+import { buildSearchSamples } from '../src/search-samples.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
@@ -444,6 +447,7 @@ export const deriveDocuments = ({ families, list, details = new Map() }) => {
   documents.set('index/species', { species: speciesIndex })
   documents.set('index/facts', buildFacts(speciesIndex, details))
   documents.set('index/credits', deriveCredits(list.species, details))
+  documents.set('index/search-samples', buildSearchSamples(details))
   return documents
 }
 

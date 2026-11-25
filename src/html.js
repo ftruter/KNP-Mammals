@@ -43,6 +43,7 @@ import {
   aiPrompt,
 } from './prompt.js'
 import { SEARCH_MAX, alternates, searchSuffix } from './route.js'
+import { searchSample } from './search.js'
 import { SITEMAP_INTRO } from './sitemap.js'
 
 export const SITE_NAME = 'Mammals of Kruger National Park'
@@ -939,16 +940,46 @@ ${siteHtml(doc?.site)}`
   })
 }
 
+/**
+ * The sample photograph of a species result. With no file, or once a file
+ * fails to load, a plain note holds the picture's place so the cards keep
+ * one shape. The page script switches to the note when the image fails.
+ */
+const searchPhotoHtml = (image) => {
+  const ai = image?.ai
+    ? '<span class="ai-label">AI-generated image</span> '
+    : ''
+  const credit = image
+    ? `<figcaption>${ai}${creditHtml(image.credit, image.src)}</figcaption>`
+    : ''
+  return `<figure class="search-photo${image ? '' : ' is-missing'}">
+${image ? `<img draggable="false" src="${escapeHtml(image.src)}" alt="${escapeHtml(image.alt)}" loading="lazy" decoding="async">` : ''}
+<p class="search-photo-missing">${image ? 'Photograph unavailable.' : 'No photograph yet.'}</p>
+${credit}
+</figure>`
+}
+
+/** The sample call: the same large play and stop control the species page uses. */
+const searchCallHtml = (result, call) => {
+  if (!call) return ''
+  const name = result.englishName || result.scientificName
+  const ai = call.ai
+    ? '<span class="ai-label">AI-generated recording</span> '
+    : ''
+  return `<div class="search-call">${playerHtml(call.src, playLabel(call.type), name)}${ai}${creditHtml(call.credit, call.src)}</div>`
+}
+
 const resultHtml = (result) => {
   const path = new URL(result.pages.html).pathname
   const afrikaans = result.afrikaansName
     ? ` · <span class="afrikaans">${escapeHtml(result.afrikaansName)}</span>`
     : ''
+  const sample = result.kind === 'species' ? searchSample(result) : null
   return `<li class="search-result">
-<p class="kicker">${result.kind === 'family' ? 'Family' : 'Species'}</p>
+${sample ? searchPhotoHtml(sample.image) : ''}<p class="kicker">${result.kind === 'family' ? 'Family' : 'Species'}</p>
 <h3><a href="${escapeHtml(path)}">${escapeHtml(result.englishName || result.scientificName)}</a></h3>
 <p class="search-names"><span class="latin">${escapeHtml(result.scientificName)}</span>${afrikaans}</p>
-</li>`
+${sample ? searchCallHtml(result, sample.call) : ''}</li>`
 }
 
 export const renderSearchHtml = ({ origin, query, found }) => {

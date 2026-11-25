@@ -355,8 +355,21 @@ const bindCalls = () => {
   }
 }
 
+// A search photograph that fails to load gives way to the note under it.
+const bindSearchPhotos = () => {
+  for (const photo of document.querySelectorAll('.search-photo')) {
+    const img = photo.querySelector('img')
+    if (!img) continue
+    img.addEventListener('error', () => photo.classList.add('is-missing'))
+    img.addEventListener('load', () => photo.classList.remove('is-missing'))
+    if (img.complete && img.naturalWidth === 0)
+      photo.classList.add('is-missing')
+  }
+}
+
 bindTables()
 bindZoom()
+bindSearchPhotos()
 bindSearch()
 bindCopy()
 bindTargets()

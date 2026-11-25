@@ -386,17 +386,67 @@ p { text-wrap: pretty; }
   margin: var(--gap) 0 0;
   padding: 0;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--gap);
-  max-inline-size: 75ch;
+  align-items: stretch;
+}
+
+/* One column on a phone, including the home-screen app. Two, then three, once the page itself is wide enough, not the device. */
+@container wrap (min-width: 44rem) {
+  .search-results { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@container wrap (min-width: 68rem) {
+  .search-results { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
 .search-result {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-half);
+  min-inline-size: 0;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
   padding: var(--gap);
 }
+
+/* The photograph leads the card and reaches its edges, in a 3:2 box so the list does not jump when pictures arrive. */
+.search-photo {
+  margin: calc(var(--gap) * -1) calc(var(--gap) * -1) 0;
+  padding: 0;
+  background: var(--plate-bg);
+}
+.search-photo img {
+  display: block;
+  inline-size: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.search-photo-missing {
+  display: none;
+  margin: 0;
+  padding: var(--gap);
+  aspect-ratio: 3 / 2;
+  place-content: center;
+  text-align: center;
+  font-family: var(--sans);
+  font-size: var(--fs-sm);
+  color: var(--muted);
+}
+.search-photo.is-missing img { display: none; }
+.search-photo.is-missing .search-photo-missing { display: grid; }
+.search-photo figcaption {
+  margin: 0;
+  padding: var(--gap-half) var(--gap);
+  background: var(--surface);
+  font-size: var(--fs-xs);
+}
+.search-call { display: grid; gap: var(--gap-half); margin-block-start: auto; padding-block-start: var(--gap-half); }
+.search-call .call-player { max-inline-size: none; }
+.search-call .call-play { min-block-size: 3.5rem; font-size: 1.1rem; }
 
 .search-result .kicker { margin: 0; }
 .search-result h3 { margin: 0; font-family: var(--sans); }
