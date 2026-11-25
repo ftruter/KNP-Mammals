@@ -1,3 +1,5 @@
+import { visibleText } from './visible.js'
+
 /** Plain-text labels for stored values. A missing value gives ''. */
 
 const number = new Intl.NumberFormat('en')
@@ -136,10 +138,14 @@ export const readerCallText = (value) => {
     .replaceAll(/\s+/g, ' ')
     .trim()
   if (!text) return ''
-  return text
-    .split(/(?<=[.!?])\s+/)
-    .filter((sentence) => !CURATOR_SENTENCE.some((rule) => rule.test(sentence)))
-    .join(' ')
+  return visibleText(
+    text
+      .split(/(?<=[.!?])\s+/)
+      .filter(
+        (sentence) => !CURATOR_SENTENCE.some((rule) => rule.test(sentence)),
+      )
+      .join(' '),
+  )
 }
 
 /** "Least Concern (IUCN global, 2016)". */

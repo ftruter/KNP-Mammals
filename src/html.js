@@ -5,6 +5,7 @@ import { INSTALL_LINKS } from './offline-app.js'
 import { OFFLINE_PATH } from './offline.js'
 import { creditHtml, creditModel } from './credit.js'
 import { escapeHtml, inlineText, safeHttpUrl } from './escape.js'
+import { visibleText, visitorDetails } from './visible.js'
 import {
   NO_OBSERVATION_REFS,
   callTypeLabel,
@@ -625,6 +626,7 @@ ${[
 </dl>`
 
 const publishedSpeciesHtml = (doc, details) => {
+  details = visitorDetails(details)
   const images = listed(details.images)
   const predators = animalsHtml('Predators', listed(details.predators))
   const prey = animalsHtml('Prey', listed(details.prey))
@@ -721,7 +723,7 @@ ${hearCallHtml(details)}
 ${details ? publishedSpeciesHtml(doc, details) : `<p>${UNPUBLISHED_SPECIES}</p>\n${evidenceHtml(doc)}`}`
   return layout({
     title: `${doc.en} (${doc.latin}) · ${SHORT_NAME}`,
-    description: inlineText(details?.summary || doc.en),
+    description: inlineText(visibleText(details?.summary) || doc.en),
     origin,
     path: `/species/${doc.slug}`,
     nav: 'species',
