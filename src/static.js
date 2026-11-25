@@ -43,11 +43,13 @@ The file extension selects the format.
 | ${origin}/facts | One row per species: size, mass, Kruger status, conservation status and population, as stored. Empty means not recorded |
 | ${origin}/credits | Data sources, taxonomy, and the credit and licence on every photograph, recording and cited source |
 | ${origin}/search?q=<name> | Finds species and families by stored English, Afrikaans or scientific name. Also ${origin}/search.md?q=<name> and ${origin}/search.json?q=<name> |
+| ${origin}/mcp | Public read-only MCP server (streamable HTTP, POST only). One tool, search. See "MCP server" below |
+| ${origin}/mcp/server-card | The MCP server card (application/mcp-server-card+json) |
 | ${origin}/llms.txt | This file |
 | ${origin}/.well-known/ard.json | Agentic Resource Discovery manifest, [ARD v0.91](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md) |
 | ${origin}/.well-known/ai-catalog.json | Predecessor catalog. Same entries as the manifest |
 
-HTML pages link their Markdown and JSON alternates with link rel="alternate" and in the footer. Responses other than icons, CSS, JavaScript, and image or audio bytes also send an HTTP Link header. It points at ${origin}/.well-known/ard.json (rel="ard") and this file (rel="describedby"). Page responses add rel="canonical" and the Markdown and JSON alternates to the same header. There is no rel="ai-catalog" link. A missing page returns 404.
+HTML pages link their Markdown and JSON alternates with link rel="alternate" and in the footer. Responses other than icons, CSS, JavaScript, and image or audio bytes also send an HTTP Link header. It points at ${origin}/.well-known/ard.json (rel="ard"), this file (rel="describedby") and ${origin}/mcp/server-card. The card relation is the extension URI https://mammals.truter.world/rel/mcp-server-card, because ARD and the MCP server-card draft define none. Page responses add rel="canonical" and the Markdown and JSON alternates to the same header. There is no rel="ai-catalog" link. A missing page returns 404.
 
 ## Counts
 
@@ -70,6 +72,12 @@ images and calls carry author, license and source. Show a file only when its lic
 index/families, served at ${origin}/.json, ${origin}/families.json and ${origin}/orders.json, is one stored object. It has counts, an orders array and a families array. It does not list individual species. Each order has slug, latin, familyCount and speciesCount. Each family has slug, latin, en, af (or null), order, orderSlug and speciesCount.
 
 index/species, served at ${origin}/species.json, is a species array. Each row has slug, latin, en, af (or null), family, familyEn, familySlug, order, orderSlug, population (a low and high range, or null) and researched (true when a details account is published). The rows are an array, not a map keyed by scientific name.
+
+## MCP server
+
+An AI app that supports connectors can add ${origin}/mcp (streamable HTTP). It is public, read-only and needs no sign-in. It has one tool, search. The server card is ${origin}/mcp/server-card.
+
+search takes query (text, at most 200 characters) and an optional limit (a whole number from 1 to 25, default 10). It matches the stored scientific, English and Afrikaans names of species and families, the same ranking as ${origin}/search. Each result has kind, scientificName, englishName, afrikaansName (or null) and the HTML, Markdown and JSON page URLs. It returns no place, photograph, recording or observation reference, and it does not guess a missing fact. Read the species page for the published account, and follow the rules above.
 
 ## Start here
 

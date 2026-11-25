@@ -1,3 +1,4 @@
+import { bindMcpRequest, MCP_PATH, mcpHandler } from './mcp.js'
 import { parseUrl } from './route.js'
 import { methodNotAllowed, serverError } from './respond.js'
 import { renderRoute } from './site.js'
@@ -24,5 +25,12 @@ export const handleRequest = async (request, env) => {
 }
 
 export default {
-  fetch: handleRequest,
+  async fetch(request, env, ctx) {
+    // The MCP transport takes POST, so it is handled before the GET/HEAD check.
+    if (new URL(request.url).pathname === MCP_PATH) {
+      bindMcpRequest(request, env)
+      return mcpHandler(request, env, ctx)
+    }
+    return handleRequest(request, env)
+  },
 }

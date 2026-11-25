@@ -143,6 +143,9 @@ export const parseUrl = (url) => {
     }
   }
 
+  if (rawPath === '/mcp/server-card')
+    return { kind: 'server-card', format: 'json', pathname: rawPath }
+
   const { format, pathname } = splitFormat(rawPath)
   // The list of what an installed copy can keep. It has a JSON form only.
   if (pathname === '/offline')

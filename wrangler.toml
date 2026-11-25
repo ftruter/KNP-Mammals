@@ -3,6 +3,8 @@ name = "knp-mammals"
 main = "src/worker.js"
 account_id = "fd74641e5d61594bd1580237979194aa"
 compatibility_date = "2026-10-30"
+# agents/mcp/server imports node:async_hooks. The Agents SDK documents this flag.
+compatibility_flags = ["nodejs_compat"]
 
 # The browser script is imported as text so esbuild does not rewrite it.
 [[rules]]

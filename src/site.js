@@ -1,4 +1,5 @@
 import { discoveryDocuments } from './ard.js'
+import { CARD_MEDIA_TYPE, serverCard } from './mcp.js'
 import {
   ASSET_CACHE,
   NOT_FOUND_CACHE,
@@ -238,6 +239,13 @@ export const renderRoute = async (request, env, route) => {
       format: 'html',
       contentType: 'text/plain; charset=utf-8',
       cache: ASSET_CACHE,
+    })
+  if (route.kind === 'server-card')
+    return pageResponse({
+      body: jsonBody(serverCard(origin)),
+      format: 'json',
+      cache: ASSET_CACHE,
+      contentType: `${CARD_MEDIA_TYPE}; charset=utf-8`,
     })
   if (route.kind === 'ard' || route.kind === 'ai-catalog')
     return renderDiscovery(env, origin, route.kind)

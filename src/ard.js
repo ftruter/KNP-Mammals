@@ -7,6 +7,8 @@
  * the request origin. An index that is missing is omitted, and the miss
  * is logged. A count is never filled in by hand.
  */
+import { SERVER_CARD_PATH } from './mcp.js'
+
 const CONTEXT = 'https://agenticresourcediscovery.org/context/v1'
 const PUBLISHER = 'mammals.truter.world'
 
@@ -195,6 +197,29 @@ const speciesEntry = (origin, doc) => {
   })
 }
 
+const searchEntry = (origin, doc) => {
+  const species = asArray(doc?.species)
+  const named = species?.find(storedName)
+  const asked = named?.latin || named?.en
+  return entry({
+    identifier: 'mcp:field-guide',
+    displayName: 'KNP Mammals search',
+    type: 'application/mcp-server-card+json',
+    url: `${origin}${SERVER_CARD_PATH}`,
+    description:
+      'MCP server card for a public read-only search of Kruger mammal records by scientific, English or Afrikaans name. The card names the streamable HTTP endpoint. It is not itself the transport.',
+    capabilities: ['search'],
+    representativeQueries: [
+      'Which Kruger mammals are in the cat family?',
+      asked
+        ? `Find the Kruger record for ${asked}`
+        : 'Find a Kruger mammal by its scientific name',
+      'Search Kruger mammals by Afrikaans name',
+    ],
+    tags: ['kruger', 'mammals', 'search', 'mcp'],
+  })
+}
+
 const document = (value) =>
   value && typeof value === 'object' && !Array.isArray(value) ? value : null
 
@@ -211,6 +236,7 @@ export const discoveryDocuments = ({ origin, familiesIndex, speciesIndex }) => {
   } else logMissing('index/families')
   if (species) entries.push(speciesEntry(origin, species))
   else logMissing('index/species')
+  entries.push(searchEntry(origin, species))
   return {
     ard: { entries },
     catalog: {

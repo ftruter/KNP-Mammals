@@ -10,7 +10,7 @@ Family records are in [`data/families.json`](data/families.json). The species li
 
 Every photograph stored on the details files (382) and all 12 recordings have `hosted: true`. `data/media/mirror.json` records those 382 images and 12 recordings, including the Juliana's golden mole illustration. `scripts/publish-media.mjs` plans the same 382 photographs and 12 recordings. Thirty-five listed species have an empty `images` array. A file without `hosted: true` loads from `fileUrl` when the licence allows it.
 
-Search, credits, facts, the sitemap, `robots.txt`, the agent-discovery files and the installable offline app are served (see the route table below). There is no MCP endpoint and no identify tool. `variants` are stored and are not shown.
+Search, credits, facts, the sitemap, `robots.txt`, the agent-discovery files and the installable offline app are served (see the route table below). A public read-only MCP endpoint (`/mcp`) is served. There is no identify tool. `variants` are stored and are not shown.
 
 The home page still says that some species are listed by name only. That sentence is `progressSentence` in `src/html.js`. Every listed species already has a details file. This documentation does not change the sentence.
 
@@ -117,9 +117,11 @@ The tables on `/orders`, `/order/<slug>`, `/families`, `/species`, `/facts` and 
 
 `/robots.txt` and `/sitemap.xml` are not HTML pages, so they have no `.md` or `.json` view. `/sitemap` has the usual three formats.
 
-`/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json` and `/ask-ai` are served. There is no MCP endpoint or identify tool yet.
+`/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json` and `/ask-ai` are served, and so are `POST /mcp` and `/mcp/server-card` (see below). There is no identify tool yet.
 
-`/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched. There is no MCP endpoint yet.
+`/search` finds a species or a family by its stored English name, Afrikaans name or scientific name. The same page is `/search.md` and `/search.json`. A blank query explains what can be searched. The header search box is on every HTML page, and the form is a normal GET, so it works with scripts off. Orders are not searched.
+
+`POST /mcp` is a public read-only MCP server (streamable HTTP, no sign-in). It has one tool, `search`, with the same ranking as `/search`: `query` (up to 200 characters) and `limit` (1 to 25, default 10). Results hold the kind, the three stored names and the page URLs, and nothing else, so no place, photograph, recording or observation reference leaves through it. `GET /mcp/server-card` is the server card (`application/mcp-server-card+json`), and the ARD manifest lists it. Only `mammals.truter.world`, `localhost`, `127.0.0.1` and `[::1]` are accepted as host or browser origin. It needs `compatibility_flags = ["nodejs_compat"]` and three npm packages (`agents`, `@modelcontextprotocol/server`, `zod`). It uses no Durable Object, OAuth, model service or extra binding.
 
 `index/offline` is derived when the KV payload is built and is not written under `data/`. It lists the HTML pages above, one lead photograph and one clip per species when `data/media/mirror.json` has a measured size for that file, and `iconic` (empty until a family ranking is chosen, so the family rows stay unavailable). The pack addresses are `/images/<key>` and `/audio/<key>`. Add a path to `GUIDE_PAGES` in `src/offline.js` when another HTML page should be saved with the guide.
 

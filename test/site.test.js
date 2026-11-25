@@ -75,6 +75,7 @@ const assertSeo = async (pathname, { title, description, status = 200 }) => {
       `<${origin}${alts.json}>; rel="alternate"; type="application/json"`,
       '</.well-known/ard.json>; rel="ard"; type="application/json"',
       '</llms.txt>; rel="describedby"; type="text/plain"',
+      '</mcp/server-card>; rel="https://mammals.truter.world/rel/mcp-server-card"; type="application/mcp-server-card+json"',
     ].join(', '),
     pathname,
   )
@@ -866,7 +867,6 @@ test('a missing page still publishes a title, description, and format links', as
 // /images and /audio already exist; they are covered in test/media.test.js.
 test('routes that are not built yet are not found', async () => {
   const pending = [
-    ['/mcp/server-card', '#34'],
     ['/offline', '#38'],
     ['/identify/sound', '#40'],
     ['/identify/photo', '#40'],
