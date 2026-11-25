@@ -1,4 +1,21 @@
-import { clientSrc, clientVersion, offlineSrc, styleSrc } from './client.js'
+import {
+  clientSrc,
+  clientVersion,
+  identifySrc,
+  offlineSrc,
+  styleSrc,
+} from './client.js'
+import {
+  PHOTO_CACHE,
+  PHOTO_MODEL,
+  RUNTIME,
+  RUNTIME_CACHE,
+  SOUND_CACHE,
+  SOUND_MODEL,
+  photoBase,
+  runtimeBase,
+  soundBase,
+} from './identify.js'
 import { APP_NAME, iconVersion } from './icon.js'
 import {
   LARGE_DOWNLOAD_BYTES,
@@ -9,8 +26,8 @@ import {
 import { palette } from './style.js'
 
 // The installable web app: the web app manifest, the tags that point at
-// it, and the document the download panel reads. No photo or sound model.
-// Those wait for a recogniser.
+// it, and the document the download panel reads, with the two recognisers
+// as options beside the photographs and clips.
 
 export const THEME_COLOUR = palette.light.headerBg
 export const MANIFEST_TYPE = 'application/manifest+json; charset=utf-8'
@@ -57,7 +74,25 @@ export const INSTALL_LINKS = `<link rel="manifest" href="${WEB_MANIFEST_PATH}">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">`
 
+/**
+ * LiteRT.js loads one wasm build: `relaxed-simd` where the browser has
+ * relaxed SIMD, `baseline` elsewhere. The panel downloads the one this
+ * browser will use, and both recognisers share it.
+ */
+const runtimeFiles = () =>
+  RUNTIME.files.map((item) => ({
+    url: runtimeBase + item.file,
+    bytes: item.bytes,
+    cache: RUNTIME_CACHE,
+    ...(item.sha256 ? { sha256: item.sha256 } : {}),
+    ...(item.file.startsWith('litert_wasm_')
+      ? { when: item.file.includes('_compat_') ? 'baseline' : 'relaxed-simd' }
+      : {}),
+  }))
+
 const CATEGORIES = [
+  { id: 'photo-model', label: 'Photo recognition model' },
+  { id: 'sound-model', label: 'Sound recognition model' },
   {
     id: 'family-images',
     label: 'Images for families (one image for each of up to three species)',
@@ -77,6 +112,10 @@ const shellFiles = () => [
   styleSrc,
   clientSrc,
   offlineSrc,
+  identifySrc('/identify-photo.js'),
+  identifySrc('/identify-sound.js'),
+  identifySrc('/identify-worker.js'),
+  identifySrc('/identify-capture.js'),
   WEB_MANIFEST_PATH,
   `/favicon.ico?v=${iconVersion}`,
   `/favicon.svg?v=${iconVersion}`,
@@ -135,7 +174,22 @@ export const offlineManifest = (doc, version = '') => {
   const iconic = new Set(Array.isArray(doc?.iconic) ? doc.iconic : [])
   const images = Array.isArray(doc?.images) ? doc.images : []
   const clips = Array.isArray(doc?.clips) ? doc.clips : []
+  const model = (version, base, cache) =>
+    add({
+      url: base + version.file,
+      bytes: version.bytes,
+      cache,
+      sha256: version.sha256,
+    })
   const members = {
+    'photo-model': [
+      model(PHOTO_MODEL, photoBase, PHOTO_CACHE),
+      ...runtimeFiles().map(add),
+    ],
+    'sound-model': [
+      model(SOUND_MODEL, soundBase, SOUND_CACHE),
+      ...runtimeFiles().map(add),
+    ],
     'family-images': media(images.filter((item) => iconic.has(item.slug))),
     'species-images': media(images),
     'family-clips': media(clips.filter((item) => iconic.has(item.slug))),
@@ -160,6 +214,9 @@ export const offlineManifest = (doc, version = '') => {
       const indexes = members[category.id]
       return {
         ...category,
+        // The model itself: when the identify page has already saved it,
+        // the option offers to finish the set.
+        ...(category.id.endsWith('-model') ? { key: indexes[0] } : {}),
         files: indexes,
         signature: clientVersion(
           indexes

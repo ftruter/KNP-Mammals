@@ -1,0 +1,93 @@
+{
+ "version": "knp-mammals-sound-1-birdnet-v2.4-norm-fp16",
+ "file": "knp-mammals-sound-norm-fp16.tflite",
+ "bytes": 13693856,
+ "sha256": "7c738e4f72b50e13cc3de8e9944cfeb5a29d8d49c247149a5bf518a58a8f1fdc",
+ "sampleRate": 48000,
+ "window": 144000,
+ "input": "3 seconds of mono audio at 48 kHz (144,000 samples)",
+ "output": "a raw score (logit) for each species; the page turns it into a score from 0 to 1 with a sigmoid",
+ "preprocessing": "Each 3-second window has its mean removed and is scaled so that its loudest sample is 0.9, with at most +40 dB of gain (faint-call normalisation). The page does the same before the recogniser runs.",
+ "base": {
+  "name": "BirdNET GLOBAL 6K V2.4",
+  "authors": "Stefan Kahl, Connor M. Wood, Maximilian Eibl and Holger Klinck",
+  "licence": "CC BY-NC-SA 4.0",
+  "url": "https://github.com/birdnet-team/BirdNET-Analyzer",
+  "citation": "Kahl, S., Wood, C. M., Eibl, M., & Klinck, H. (2021). BirdNET: A deep learning solution for avian diversity monitoring. Ecological Informatics 61, 101236."
+ },
+ "training": {
+  "clips": 230,
+  "method": "BirdNET V2.4 is kept as it is; a new two-layer classifier on its embeddings was trained with BirdNET-Analyzer, with a background class for noise alone.",
+  "augmentation": "Training copies were mixed with wind (recorded and synthetic), crowd chatter, bush ambience and people sounds at -5 to 20 dB, and some were made faint. Night recordings got one and a half times as many copies."
+ },
+ "licence": "CC BY-NC-SA 4.0",
+ "labels": [
+  "chlorocebus-pygerythrus",
+  "connochaetes-taurinus",
+  "crocuta-crocuta",
+  "hippopotamus-amphibius",
+  "loxodonta-africana",
+  "lupulella-mesomelas",
+  "panthera-leo",
+  "papio-ursinus",
+  "paraxerus-cepapi",
+  "procavia-capensis"
+ ],
+ "thresholds": {
+  "likely": 0.6225,
+  "possible": 0.5622,
+  "note": "These are the sigmoid of raw scores 0.5 and 0.25, the cut-offs used in testing."
+ },
+ "test": {
+  "clips": 58,
+  "conditions": {
+   "clean": {
+    "top1": 0.8276,
+    "top3": 0.9828
+   },
+   "wind 10 dB": {
+    "top1": 0.7759,
+    "top3": 0.9483
+   },
+   "wind 5 dB": {
+    "top1": 0.7759,
+    "top3": 0.9138
+   },
+   "wind 0 dB": {
+    "top1": 0.7931,
+    "top3": 0.8793
+   },
+   "chatter 10 dB": {
+    "top1": 0.8276,
+    "top3": 0.9483
+   },
+   "chatter 5 dB": {
+    "top1": 0.7586,
+    "top3": 0.9483
+   },
+   "chatter 0 dB": {
+    "top1": 0.7241,
+    "top3": 0.8966
+   },
+   "wind+chatter 5 dB": {
+    "top1": 0.7414,
+    "top3": 0.8621
+   },
+   "ambience 5 dB": {
+    "top1": 0.8621,
+    "top3": 0.8966
+   },
+   "faint 10 dB": {
+    "top1": 0.8103,
+    "top3": 0.9828
+   }
+  },
+  "top1MeanOverSpeciesClean": 0.7574,
+  "noiseOnly": {
+   "segments": 400,
+   "falseAlarmLikely": 0.0425,
+   "falseAlarmPossible": 0.05
+  },
+  "note": "58 held-out clips from 10 species, clean and mixed with noise that was never used in training. A clip's score is its best 3-second window. Few clips a species, so one clip moves a species' score a lot."
+ }
+}

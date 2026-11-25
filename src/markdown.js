@@ -447,6 +447,47 @@ ${one(site.palette || '')}
 ${one(site.affiliation || '')}`
 }
 
+const mdLicences = (licences) =>
+  Object.entries(licences ?? {})
+    .map(([name, n]) => `${n} ${name.toUpperCase().replace(/^CC-/, 'CC ')}`)
+    .join(', ')
+
+const mdRecognisers = (rec) => {
+  if (!rec) return ''
+  const lines = []
+  if (rec.photos?.count)
+    lines.push(
+      `- Photo recogniser: trained on ${rec.photos.count} photos of ${rec.photos.species} species by ${rec.photos.photographers} photographers on iNaturalist (${mdLicences(rec.photos.licences)}).${rec.photos.list ? ` [Every photo, its photographer and its licence](${rec.photos.list}).` : ''}`,
+    )
+  if (rec.sounds?.count)
+    lines.push(
+      `- Sound recogniser: trained on ${rec.sounds.count} recordings of ${rec.sounds.species} species by ${rec.sounds.recordists} recordists on iNaturalist and xeno-canto (${mdLicences(rec.sounds.licences)}).${rec.sounds.list ? ` [Every recording, its recordist and its licence](${rec.sounds.list}).` : ''}`,
+    )
+  for (const item of listed(rec.noise))
+    lines.push(
+      `- [${one(item.name)}](${item.url}), ${one(item.authors)} (${item.year}). ${one(item.licence)}. ${one(item.usedFor)}.`,
+    )
+  for (const model of listed(rec.models))
+    if (model.base?.name)
+      lines.push(
+        `- [${one(model.name)}](${model.page}.md) built on [${one(model.base.name)}](${model.base.url})${model.base.authors ? ` by ${one(model.base.authors)}` : ''} (${one(model.base.licence)}). Licence: [${model.licenceFile}](${model.licenceFile}).`,
+      )
+  if (rec.runtime?.name)
+    lines.push(
+      `- Both run in the browser with [${one(rec.runtime.name)} ${rec.runtime.version}](${rec.runtime.url}) (${one(rec.runtime.licence)}).`,
+    )
+  return `## Recognisers
+
+Thank you to every photographer and recordist whose work trained the photo and sound recognisers. The recognisers are released under ${rec.licence?.name ?? 'a licence that is not recorded'}.
+
+${lines.join('\n')}
+
+${rec.note ? one(rec.note) : ''}
+
+${rec.bats ? one(rec.bats) : ''}
+`
+}
+
 export const creditsMarkdown = (doc) => {
   const sources = listed(doc?.dataSources)
   const groups = listed(doc?.species)
@@ -475,6 +516,7 @@ ${note}
 
 ${groups.map(mdSpeciesCredit).join('\n\n')}
 
+${mdRecognisers(doc?.recognisers)}
 ${mdSite(doc?.site)}
 `
 }

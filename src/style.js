@@ -1356,6 +1356,7 @@ audio {
 .identify h2 { margin-block: 0 var(--gap-half); }
 .identify p { max-inline-size: 75ch; }
 .identify-status { margin: 0 0 var(--gap-half); font-family: var(--sans); font-weight: 600; min-block-size: 1.5em; }
+.identify-status:empty { min-block-size: 0; margin: 0; }
 .identify-progress { inline-size: 100%; block-size: 0.9rem; }
 .identify-timing { font-family: var(--sans); }
 
@@ -1422,6 +1423,19 @@ audio {
 .identify-body h3 { margin: 0; font-family: var(--sans); }
 .identify-body p { margin: 0; }
 .identify-verdict strong { text-decoration: underline; text-underline-offset: 0.2em; }
+.identify-big { min-block-size: 4.5rem; min-inline-size: min(100%, 16rem); padding: var(--gap) var(--gap-2); font-size: var(--fs-xl); }
+.identify-big.is-recording { background: var(--bg); color: var(--brand); }
+.identify-pick { display: inline-flex; align-items: center; justify-content: center; }
+.identify-pick:focus-within { outline: 3px solid var(--focus); outline-offset: 3px; }
+.identify-quiet.identify-button { background: transparent; color: var(--brand); }
+.identify-plate { margin: 0; inline-size: 10rem; max-inline-size: 40vw; }
+.identify-plate img { display: block; inline-size: 100%; block-size: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
+.identify-plate figcaption { font-size: var(--fs-xs); }
+.identify-noplate { font-family: var(--sans); color: var(--muted); }
+.identify-preview { margin: var(--gap) 0 0; }
+.identify-canvas { display: block; max-inline-size: 100%; block-size: auto; cursor: crosshair; border-radius: var(--radius); }
+.identify-zoom { display: flex; flex-wrap: wrap; gap: var(--gap-half); align-items: center; font-family: var(--sans); }
+.identify-zoom input { flex: 1; min-inline-size: 8rem; max-inline-size: 22rem; }
 .identify-call audio { display: block; inline-size: 100%; max-inline-size: 22rem; margin-block-start: var(--gap-half); }
 
 /* The crop step fills the screen. The script sets data-controls to put the

@@ -304,11 +304,20 @@ const stopAudio = (audio) => {
   }
 }
 
-const bindCalls = () => {
-  const players = [...document.querySelectorAll('.call-player')]
+const boundCalls = []
+
+/**
+ * Connects the play controls under `scope`. The identify pages add result
+ * cards after the page has loaded and send `knp-cards` from the list, so
+ * their calls get the same control. A player is connected once.
+ */
+const bindCalls = (scope = document) => {
+  const players = [...scope.querySelectorAll('.call-player')]
   if (!players.length) return
-  const bound = []
+  const bound = boundCalls
   for (const player of players) {
+    if (player.dataset.bound) continue
+    player.dataset.bound = 'true'
     const button = player.querySelector('.call-play')
     const audio = player.querySelector('audio')
     const label = player.querySelector('.call-play-label')
@@ -437,5 +446,8 @@ bindSearch()
 bindCopy()
 bindTargets()
 bindCalls()
+document.addEventListener('knp-cards', (event) =>
+  bindCalls(event.target instanceof Element ? event.target : document),
+)
 bindSearchReturn()
 showCurrentNav()

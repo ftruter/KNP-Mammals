@@ -1,4 +1,5 @@
-import { OBJECT_CACHE } from './cache.js'
+import { MODEL_CACHE, OBJECT_CACHE } from './cache.js'
+import { MODEL_KEYS } from './identify.js'
 import { objectResponse } from './respond.js'
 
 const TYPE_EXT = {
@@ -47,6 +48,39 @@ export const objectHttpResponse = async (bucket, key, rangeHeader = null) => {
     etag: object.httpEtag || '',
     size: object.size,
     disposition,
+    ranges: true,
+    range: part ? sentRange(part, wanted) : null,
+  })
+}
+
+const MODEL_EXT = {
+  tflite: 'application/octet-stream',
+  wasm: 'application/wasm',
+  js: 'text/javascript; charset=utf-8',
+  mjs: 'text/javascript; charset=utf-8',
+  json: 'application/json; charset=utf-8',
+  md: 'text/markdown; charset=utf-8',
+}
+
+/**
+ * A recogniser file from `models/<version>/`. Only the files src/identify.js
+ * lists are served, each with the type its name gives.
+ */
+export const modelHttpResponse = async (bucket, key, rangeHeader = null) => {
+  if (!MODEL_KEYS.has(key)) return null
+  const type = MODEL_EXT[key.split('.').pop()?.toLowerCase() ?? '']
+  if (!type) return null
+  const wanted = parseRange(rangeHeader)
+  const part = wanted ? await openPart(bucket, key, wanted) : null
+  const object = part ?? (await openObject(bucket, key))
+  if (!object || !object.body) return null
+  return objectResponse({
+    body: object.body,
+    contentType: type,
+    cache: MODEL_CACHE,
+    etag: object.httpEtag || '',
+    size: object.size,
+    script: type.startsWith('text/javascript'),
     ranges: true,
     range: part ? sentRange(part, wanted) : null,
   })

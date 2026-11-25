@@ -111,8 +111,9 @@ test('llms.txt states the mammal rules and only real routes', async () => {
     `${origin}/.json`,
   ])
     assert.ok(body.includes(phrase), phrase)
+  assert.ok(body.includes(`${origin}/identify/photo`))
+  assert.ok(body.includes(`${origin}/identify/sound`))
   for (const absent of [
-    '/identify/photo',
     '/sitemap',
     '/vocab/colours',
     'microphone',

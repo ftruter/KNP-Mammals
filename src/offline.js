@@ -5,7 +5,7 @@ import { alternates, objectPublicPath, parseUrl } from './route.js'
 // What an installed copy can keep on the device, with the size of every
 // file. scripts/seed.mjs imports this module, so it must not import the
 // browser scripts. src/offline-app.js does that. The photograph and clip
-// choice lives here: mammals has no src/identify.js.
+// choice lives here. The recognisers' files are listed in src/identify.js.
 
 export const WEB_MANIFEST_PATH = '/manifest.webmanifest'
 export const SERVICE_WORKER_PATH = '/sw.js'
@@ -33,6 +33,9 @@ export const GUIDE_PAGES = [
   '/credits',
   '/ask-ai',
   '/sitemap',
+  '/identify',
+  '/identify/photo',
+  '/identify/sound',
 ]
 
 const ASSET_KINDS = new Set([
@@ -47,6 +50,8 @@ const ASSET_KINDS = new Set([
   'service-worker',
   'web-manifest',
   'offline',
+  'model',
+  'identify-script',
 ])
 
 /** True when `pathname` is an HTML page this Worker serves. */
