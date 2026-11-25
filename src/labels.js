@@ -107,6 +107,72 @@ export const NO_OBSERVATION_REFS = new Set([
   'smutsia-temminckii',
 ])
 
+/**
+ * An iNaturalist or xeno-canto observation address: the observation page,
+ * a photo file that points back at one, or a xeno-canto recording page.
+ * Taxon pages, place pages and Wikimedia addresses are left alone.
+ */
+const OBSERVATION_REF =
+  /inaturalist\.org\/(?:observations|photos)(?:\/|$)|inaturalist-open-data\.s3\.amazonaws\.com|(?:www\.)?static\.inaturalist\.org|xeno-canto\.org\/(?:XC)?\d+/i
+
+const OBSERVATION_FIELDS = [
+  'source',
+  'sourceUrl',
+  'fileUrl',
+  'observation',
+  'observation_id',
+  'observationId',
+]
+
+export const isObservationRef = (value) =>
+  typeof value === 'string' && OBSERVATION_REF.test(value)
+
+/**
+ * For the rhinos and the pangolin, drop observation addresses and ids from
+ * a photograph or recording, and keep the author and the licence. Other
+ * species are returned as they are. Wikimedia and licence URLs stay.
+ */
+export const withoutObservationRefs = (slug, item) => {
+  if (!item || !NO_OBSERVATION_REFS.has(slug)) return item
+  const out = { ...item }
+  for (const field of OBSERVATION_FIELDS) {
+    if (
+      field in out &&
+      (field.toLowerCase().startsWith('observation') ||
+        isObservationRef(out[field]))
+    )
+      delete out[field]
+  }
+  if (
+    typeof out.key === 'string' &&
+    /^(?:xeno-canto|inaturalist)\//i.test(out.key) &&
+    out.hosted !== true
+  )
+    delete out.key
+  return out
+}
+
+/** Details as a visitor may see them: media for the three species is cleaned. */
+export const publicDetails = (slug, details) => {
+  if (!details || !NO_OBSERVATION_REFS.has(slug)) return details
+  const images = Array.isArray(details.images)
+    ? details.images.map((item) => withoutObservationRefs(slug, item))
+    : details.images
+  const calls = Array.isArray(details.calls)
+    ? details.calls.map((call) =>
+        Array.isArray(call?.recordings)
+          ? {
+              ...call,
+              recordings: call.recordings.map((item) =>
+                withoutObservationRefs(slug, item),
+              ),
+            }
+          : call,
+      )
+    : details.calls
+  return { ...details, images, calls }
+}
+
 /** `xeno-canto/XC1148048` gives `XC1148048`. Anything else gives ''. */
 export const catalogueNumber = (key) => {
   const match = /^xeno-canto\/(XC\d+)$/.exec(typeof key === 'string' ? key : '')

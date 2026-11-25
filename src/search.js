@@ -1,5 +1,9 @@
 import { creditModel } from './credit.js'
-import { NO_OBSERVATION_REFS, viewLabel } from './labels.js'
+import {
+  NO_OBSERVATION_REFS,
+  viewLabel,
+  withoutObservationRefs,
+} from './labels.js'
 import { mediaSrc } from './media.js'
 import { readDocument } from './store.js'
 
@@ -113,26 +117,28 @@ export const searchSample = (result) => resultSamples.get(result) ?? NO_SAMPLE
 
 /** The photograph and call of one species, ready to draw. Either may be null. */
 const sampleView = (stored, record) => {
-  const shownImage = stored?.image ? mediaSrc(stored.image, 'images') : null
-  const shownCall = stored?.call ? mediaSrc(stored.call, 'audio') : null
+  const image = withoutObservationRefs(record.slug, stored?.image)
+  const call = withoutObservationRefs(record.slug, stored?.call)
+  const shownImage = image ? mediaSrc(image, 'images') : null
+  const shownCall = call ? mediaSrc(call, 'audio') : null
   const catalogue = !NO_OBSERVATION_REFS.has(record.slug)
   return {
     image: shownImage
       ? {
           src: shownImage.src,
           alt:
-            textOrNull(stored.image.alt) ||
-            `${record.en || record.scientificName}: ${viewLabel(stored.image.view)}`,
-          ai: stored.image.aiGenerated === true,
-          credit: creditModel(stored.image, 'image', shownImage),
+            textOrNull(image.alt) ||
+            `${record.en || record.scientificName}: ${viewLabel(image.view)}`,
+          ai: image.aiGenerated === true,
+          credit: creditModel(image, 'image', shownImage),
         }
       : null,
     call: shownCall
       ? {
           src: shownCall.src,
-          type: textOrNull(stored.call.type),
-          ai: stored.call.aiGenerated === true,
-          credit: creditModel(stored.call, 'recording', shownCall, {
+          type: textOrNull(call.type),
+          ai: call.aiGenerated === true,
+          credit: creditModel(call, 'recording', shownCall, {
             catalogue,
           }),
         }

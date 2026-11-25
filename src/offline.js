@@ -1,5 +1,9 @@
 import { safeHttpUrl } from './escape.js'
-import { licenceForbidsDerivatives } from './labels.js'
+import {
+  NO_OBSERVATION_REFS,
+  isObservationRef,
+  licenceForbidsDerivatives,
+} from './labels.js'
 import { alternates, objectPublicPath, parseUrl } from './route.js'
 
 // What an installed copy can keep on the device, with the size of every
@@ -141,9 +145,8 @@ const httpsFile = (item) => {
  */
 export const displayImage = (species) => {
   for (const image of imagesOf(species)) {
-    const upstream = httpsFile(image)
-    const url = upstream ? objectPublicPath('images', image.key) : ''
-    if (upstream && url) return { item: image, url, upstream }
+    const chosen = hostedCopy('images', image)
+    if (chosen) return chosen
   }
   return null
 }
@@ -156,12 +159,10 @@ export const bestRecording = (species) => {
   let best = null
   for (const call of callsOf(species)) {
     for (const recording of list(call?.recordings)) {
-      const upstream = httpsFile(recording)
-      const url = upstream ? objectPublicPath('audio', recording.key) : ''
-      if (!upstream || !url) continue
+      const chosen = hostedCopy('audio', recording)
+      if (!chosen) continue
       const rank = QUALITY_RANK[recording.quality] ?? 0
-      if (!best || rank > best.rank)
-        best = { rank, item: recording, url, upstream }
+      if (!best || rank > best.rank) best = { rank, ...chosen }
     }
   }
   return best
@@ -174,12 +175,27 @@ export const bestRecording = (species) => {
  * positive integer, or `source` is no longer this file's `fileUrl`. A
  * hosted file is that same-origin object, not a second copy under `offline/`.
  */
-const measured = (mirror, group, chosen) => {
+const hostedCopy = (group, item) => {
+  if (licenceForbidsDerivatives(item?.license)) return null
+  const url = objectPublicPath(group, item?.key)
+  if (!url) return null
+  const upstream = httpsFile(item)
+  if (item?.hosted === true) return { item, url, upstream }
+  return upstream ? { item, url, upstream } : null
+}
+
+const measured = (mirror, group, chosen, slug) => {
   if (!chosen) return null
   const entry = mirror?.[group]?.[chosen.item.key]
-  if (!entry || entry.source !== chosen.upstream) return null
+  if (!entry) return null
+  if (chosen.upstream && entry.source !== chosen.upstream) return null
   if (!Number.isInteger(entry.bytes) || entry.bytes <= 0) return null
-  return { url: chosen.url, bytes: entry.bytes, alias: chosen.upstream }
+  const raw = chosen.upstream || entry.source
+  const alias =
+    raw && !(NO_OBSERVATION_REFS.has(slug) && isObservationRef(raw))
+      ? raw
+      : null
+  return { url: chosen.url, bytes: entry.bytes, ...(alias ? { alias } : {}) }
 }
 
 const pagePaths = (docs, section) =>
@@ -205,9 +221,14 @@ export const deriveOffline = (
   const clips = []
   for (const species of list(speciesDocs)) {
     if (typeof species?.slug !== 'string') continue
-    const image = measured(mirror, 'images', displayImage(species))
+    const image = measured(
+      mirror,
+      'images',
+      displayImage(species),
+      species.slug,
+    )
     if (image) images.push({ slug: species.slug, ...image })
-    const clip = measured(mirror, 'audio', bestRecording(species))
+    const clip = measured(mirror, 'audio', bestRecording(species), species.slug)
     if (clip) clips.push({ slug: species.slug, ...clip })
   }
   const bySlug = (a, b) => a.slug.localeCompare(b.slug)

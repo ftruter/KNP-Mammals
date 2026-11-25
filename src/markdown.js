@@ -12,6 +12,7 @@ import {
 import { SITEMAP_INTRO } from './sitemap.js'
 import {
   NO_OBSERVATION_REFS,
+  isObservationRef,
   callTypeLabel,
   catalogueNumber,
   conservationLabel,
@@ -204,7 +205,7 @@ const creditBits = (item, shown, slug = '') => {
     item?.author ? one(item.author) : 'author not recorded',
     item?.license ? one(item.license) : 'licence not recorded',
   ].join(', ')
-  const source = safeHttpUrl(item?.source)
+  const source = NO_OBSERVATION_REFS.has(slug) ? '' : safeHttpUrl(item?.source)
   const number = NO_OBSERVATION_REFS.has(slug) ? '' : catalogueNumber(item?.key)
   return [
     `Credit: ${credit}`,
@@ -216,12 +217,12 @@ const creditBits = (item, shown, slug = '') => {
     .join('. ')
 }
 
-const imageLine = (image) => {
+const imageLine = (image, slug = '') => {
   const what = [viewLabel(image?.view), image?.caption]
     .filter(Boolean)
     .map(one)
     .join('. ')
-  const credit = creditBits(image, mediaSrc(image, 'images'))
+  const credit = creditBits(image, mediaSrc(image, 'images'), slug)
   return [what, credit].filter(Boolean).join('. ')
 }
 
@@ -283,7 +284,12 @@ const publishedSpecies = (doc, details) => {
       ),
     ),
     section('Similar species', bullets(listed(details.similar).map(animal))),
-    section('Photographs', bullets(listed(details.images).map(imageLine))),
+    section(
+      'Photographs',
+      bullets(
+        listed(details.images).map((image) => imageLine(image, doc.slug)),
+      ),
+    ),
     section('Not yet recorded', bullets(listed(details.gaps).map(one))),
     section('Sources', bullets(listed(details.sources).map(sourceLine))),
   ]
@@ -383,7 +389,11 @@ const mdCreditLine = (item, kind, slug = '') => {
       ? catalogueNumber(item?.key)
       : ''
   const catalogue = number ? ` xeno-canto catalogue number: ${number}.` : ''
-  return `${callType}${ai}${author}${mdLicence(item, 'Licence not recorded.')} ${mdSource(item?.sourceUrl)}${catalogue}`
+  const sourceUrl =
+    NO_OBSERVATION_REFS.has(slug) && isObservationRef(item?.sourceUrl)
+      ? ''
+      : item?.sourceUrl
+  return `${callType}${ai}${author}${mdLicence(item, 'Licence not recorded.')} ${mdSource(sourceUrl)}${catalogue}`
 }
 
 const mdCitation = (source) =>

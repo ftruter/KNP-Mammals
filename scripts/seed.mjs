@@ -36,6 +36,11 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { deriveOffline, OFFLINE_KEY } from '../src/offline.js'
 import { buildFacts } from '../src/facts.js'
+import {
+  NO_OBSERVATION_REFS,
+  isObservationRef,
+  publicDetails,
+} from '../src/labels.js'
 import { buildSearchSamples } from '../src/search-samples.js'
 import {
   IDENTIFY_KEY,
@@ -137,11 +142,14 @@ export const mediaCredit = (item, { slug = '', callType = null } = {}) => {
   const key = textOrNull(item?.key)
   const author = textOrNull(item?.author)
   const licence = textOrNull(item?.license ?? item?.licence)
-  const sourceUrl = textOrNull(item?.source ?? item?.sourceUrl)
+  const rawSource = textOrNull(item?.source ?? item?.sourceUrl)
+  const hideSource =
+    NO_OBSERVATION_REFS.has(slug) && (!rawSource || isObservationRef(rawSource))
+  const sourceUrl = hideSource ? null : rawSource
   const missing = [
     author ? '' : 'author',
     licence ? '' : 'licence',
-    sourceUrl ? '' : 'source',
+    sourceUrl || hideSource ? '' : 'source',
   ].filter(Boolean)
   if (missing.length)
     console.error(
@@ -382,6 +390,10 @@ export const deriveDocuments = ({
       )
   }
 
+  const published = new Map(
+    [...details].map(([slug, detail]) => [slug, publicDetails(slug, detail)]),
+  )
+
   const documents = new Map()
   const speciesIndex = []
   for (const species of list.species) {
@@ -390,7 +402,7 @@ export const deriveDocuments = ({
       throw new Error(
         `${species.slug} names family ${species.familySlug}, which is not in families.json`,
       )
-    const detail = details.get(species.slug)
+    const detail = published.get(species.slug)
     const row = {
       ...names(species),
       population: listPopulation(detail),
@@ -457,15 +469,15 @@ export const deriveDocuments = ({
     families: familyIndex,
   })
   documents.set('index/species', { species: speciesIndex })
-  documents.set('index/facts', buildFacts(speciesIndex, details))
-  documents.set('index/credits', deriveCredits(list.species, details))
-  documents.set('index/search-samples', buildSearchSamples(details))
+  documents.set('index/facts', buildFacts(speciesIndex, published))
+  documents.set('index/credits', deriveCredits(list.species, published))
+  documents.set('index/search-samples', buildSearchSamples(published))
   if (identify) {
     const doc = deriveIdentify({
       ...identify,
       speciesBySlug,
       familyBySlug,
-      details,
+      details: published,
     })
     documents.set(IDENTIFY_KEY, doc)
     documents.get('index/credits').recognisers = recognisersCredit(doc)

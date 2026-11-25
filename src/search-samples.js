@@ -1,3 +1,4 @@
+import { withoutObservationRefs } from './labels.js'
 import { bestRecording, displayImage } from './offline.js'
 
 /**
@@ -40,14 +41,14 @@ const callTypeOf = (details, recording) => {
 }
 
 /** One species' sample, or null when it has neither a photograph nor a clip. */
-export const sampleFor = (details) => {
+export const sampleFor = (details, slug = details?.slug) => {
   const image = displayImage(details)
   const clip = bestRecording(details)
   if (!image && !clip) return null
   const sample = {}
-  if (image) sample.image = pick(image.item)
+  if (image) sample.image = withoutObservationRefs(slug, pick(image.item))
   if (clip) {
-    sample.call = pick(clip.item)
+    sample.call = withoutObservationRefs(slug, pick(clip.item))
     const type = callTypeOf(details, clip.item)
     if (type) sample.call.type = type
   }
@@ -59,7 +60,7 @@ export const sampleFor = (details) => {
 export const buildSearchSamples = (details) => {
   const samples = {}
   for (const slug of [...details.keys()].sort()) {
-    const sample = sampleFor(details.get(slug))
+    const sample = sampleFor(details.get(slug), slug)
     if (sample) samples[slug] = sample
   }
   return { samples }
