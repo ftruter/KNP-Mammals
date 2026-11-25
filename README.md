@@ -18,47 +18,47 @@ The home page still says that some species are listed by name only. That sentenc
 
 [`data/families.json`](data/families.json) records 39 families in 14 orders. The table follows that file, grouped by order in the same sequence. English and Afrikaans names are copied as stored. A dash means `af` is null (16 of 39). Nulls are not filled in.
 
-| Order          | Latin            | English                      | Afrikaans            |
-| -------------- | ---------------- | ---------------------------- | -------------------- |
-| Afrosoricida   | Chrysochloridae  | Golden moles                 | gouemolle            |
-| Macroscelidea  | Macroscelididae  | Elephant shrews              | klaasneuse           |
-| Tubulidentata  | Orycteropodidae  | Aardvarks                    | -                    |
-| Hyracoidea     | Procaviidae      | Dassies or hyraxes           | dassies              |
-| Proboscidea    | Elephantidae     | Elephants                    | -                    |
-| Eulipotyphla   | Erinaceidae      | Hedgehogs                    | -                    |
-| Eulipotyphla   | Soricidae        | Shrews                       | skeerbekmuise        |
-| Chiroptera     | Emballonuridae   | Sheath-tailed bats           | Skedestertvlermuise  |
-| Chiroptera     | Hipposideridae   | Old World leaf-nosed bats    | bladneusvlermuise    |
-| Chiroptera     | Miniopteridae    | Bent-winged bats             | -                    |
-| Chiroptera     | Molossidae       | Free-tailed bats             | losstertvlermuis     |
-| Chiroptera     | Nycteridae       | Slit-faced bats              | spleetgesigvlermuise |
-| Chiroptera     | Pteropodidae     | Fruit bats                   | vrugtevlermuise      |
-| Chiroptera     | Rhinolophidae    | Horseshoe bats               | perdeskoenvlermuise  |
-| Chiroptera     | Vespertilionidae | Vesper bats                  | aandvlermuise        |
-| Primates       | Cercopithecidae  | Monkeys and baboons          | -                    |
-| Primates       | Galagidae        | Bushbabies                   | nagape               |
-| Carnivora      | Canidae          | Dogs                         | Hondagtiges          |
-| Carnivora      | Felidae          | Cats                         | katfamilie           |
-| Carnivora      | Herpestidae      | Mongooses                    | -                    |
-| Carnivora      | Hyaenidae        | Hyaenas                      | -                    |
-| Carnivora      | Mustelidae       | Badgers, otters and polecats | weselfamilie         |
-| Carnivora      | Viverridae       | Civets and genets            | -                    |
-| Pholidota      | Manidae          | Pangolins                    | -                    |
-| Perissodactyla | Equidae          | Zebras                       | Perdagtiges          |
-| Perissodactyla | Rhinocerotidae   | Rhinoceroses                 | -                    |
-| Artiodactyla   | Bovidae          | Antelopes and buffaloes      | Horingdraers         |
-| Artiodactyla   | Giraffidae       | Giraffes                     | -                    |
-| Artiodactyla   | Hippopotamidae   | Hippopotamuses               | Seekoeie             |
-| Artiodactyla   | Suidae           | Pigs                         | varke                |
-| Rodentia       | Bathyergidae     | Mole-rats                    | -                    |
-| Rodentia       | Gliridae         | Dormice                      | waaiermuise          |
-| Rodentia       | Hystricidae      | Porcupines                   | Ystervarke           |
-| Rodentia       | Muridae          | Rats and mice                | -                    |
-| Rodentia       | Nesomyidae       | Nesomyids                    | -                    |
-| Rodentia       | Pedetidae        | Springhares                  | -                    |
-| Rodentia       | Sciuridae        | Squirrels                    | eekhorings           |
-| Rodentia       | Thryonomyidae    | Cane rats                    | rietrotte            |
-| Lagomorpha     | Leporidae        | Hares and rabbits            | -                    |
+| Order | Latin | English | Afrikaans |
+| --- | --- | --- | --- |
+| Afrosoricida | Chrysochloridae | Golden moles | gouemolle |
+| Macroscelidea | Macroscelididae | Elephant shrews | klaasneuse |
+| Tubulidentata | Orycteropodidae | Aardvarks | - |
+| Hyracoidea | Procaviidae | Dassies or hyraxes | dassies |
+| Proboscidea | Elephantidae | Elephants | - |
+| Eulipotyphla | Erinaceidae | Hedgehogs | - |
+| Eulipotyphla | Soricidae | Shrews | skeerbekmuise |
+| Chiroptera | Emballonuridae | Sheath-tailed bats | Skedestertvlermuise |
+| Chiroptera | Hipposideridae | Old World leaf-nosed bats | bladneusvlermuise |
+| Chiroptera | Miniopteridae | Bent-winged bats | - |
+| Chiroptera | Molossidae | Free-tailed bats | losstertvlermuis |
+| Chiroptera | Nycteridae | Slit-faced bats | spleetgesigvlermuise |
+| Chiroptera | Pteropodidae | Fruit bats | vrugtevlermuise |
+| Chiroptera | Rhinolophidae | Horseshoe bats | perdeskoenvlermuise |
+| Chiroptera | Vespertilionidae | Vesper bats | aandvlermuise |
+| Primates | Cercopithecidae | Monkeys and baboons | - |
+| Primates | Galagidae | Bushbabies | nagape |
+| Carnivora | Canidae | Dogs | Hondagtiges |
+| Carnivora | Felidae | Cats | katfamilie |
+| Carnivora | Herpestidae | Mongooses | - |
+| Carnivora | Hyaenidae | Hyaenas | - |
+| Carnivora | Mustelidae | Badgers, otters and polecats | weselfamilie |
+| Carnivora | Viverridae | Civets and genets | - |
+| Pholidota | Manidae | Pangolins | - |
+| Perissodactyla | Equidae | Zebras | Perdagtiges |
+| Perissodactyla | Rhinocerotidae | Rhinoceroses | - |
+| Artiodactyla | Bovidae | Antelopes and buffaloes | Horingdraers |
+| Artiodactyla | Giraffidae | Giraffes | - |
+| Artiodactyla | Hippopotamidae | Hippopotamuses | Seekoeie |
+| Artiodactyla | Suidae | Pigs | varke |
+| Rodentia | Bathyergidae | Mole-rats | - |
+| Rodentia | Gliridae | Dormice | waaiermuise |
+| Rodentia | Hystricidae | Porcupines | Ystervarke |
+| Rodentia | Muridae | Rats and mice | - |
+| Rodentia | Nesomyidae | Nesomyids | - |
+| Rodentia | Pedetidae | Springhares | - |
+| Rodentia | Sciuridae | Squirrels | eekhorings |
+| Rodentia | Thryonomyidae | Cane rats | rietrotte |
+| Lagomorpha | Leporidae | Hares and rabbits | - |
 
 ## Sources
 
@@ -68,9 +68,9 @@ The ranked list, the URLs and the gaps log are in [`docs/SOURCES.md`](docs/SOURC
 
 Three remaps are recorded, citing iNaturalist, instead of keeping the 2011 SANParks family headings:
 
-1. **Lorisidae to Galagidae.** SANParks listed only _Galago moholi_ and _Otolemur crassicaudatus_ under Lorisidae. Those species are recorded as Galagidae. True lorises are not listed, and Lorisidae is not kept as a KNP family.
-2. **Part of Muridae to Nesomyidae.** _Cricetomys_, _Saccostomus_, _Dendromus_, and _Steatomys_, printed under Muridae, are recorded as Nesomyidae.
-3. **_Miniopterus_ to Miniopteridae.** _Miniopterus schreibersii_, printed under Vespertilionidae, is recorded as Miniopteridae.
+1. **Lorisidae to Galagidae.** SANParks listed only *Galago moholi* and *Otolemur crassicaudatus* under Lorisidae. Those species are recorded as Galagidae. True lorises are not listed, and Lorisidae is not kept as a KNP family.
+2. **Part of Muridae to Nesomyidae.** *Cricetomys*, *Saccostomus*, *Dendromus*, and *Steatomys*, printed under Muridae, are recorded as Nesomyidae.
+3. ***Miniopterus* to Miniopteridae.** *Miniopterus schreibersii*, printed under Vespertilionidae, is recorded as Miniopteridae.
 
 ## Rules
 
@@ -86,26 +86,26 @@ Three remaps are recorded, citing iNaturalist, instead of keeping the 2011 SANPa
 
 A Cloudflare Worker (`src/worker.js`) reads JSON documents from Workers KV and renders each page as HTML, Markdown (`.md`) or the stored JSON (`.json`). The design is that of KNP-birds: `src/style.js`, `src/client/app.js`, `src/sort.js` and `src/credit.js` are copies of its files, and the page markup uses the same class names. When the birds design changes, copy those files again.
 
-| Page                                               | KV key                                                                              | Built from                                                                                                                                               |
-| -------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `/`                                                | `index/families`                                                                    | Counts of species, families, orders and full accounts                                                                                                    |
-| `/orders`                                          | `index/families`                                                                    | The `order` of each family, with family and species counts                                                                                               |
-| `/order/<slug>`                                    | `order/<slug>`                                                                      | The families and species of one order. The slug is the Latin name in lower case                                                                          |
-| `/families`                                        | `index/families`                                                                    | `data/families.json`, with species counts                                                                                                                |
-| `/species`                                         | `index/species`                                                                     | `species` in `data/species-list.json`, with the Kruger estimate where a details file records one                                                         |
-| `/facts`                                           | `index/facts`                                                                       | One row per listed species from the details files: size, mass, Kruger status, conservation status and the Kruger individuals range                       |
-| `/family/<slug>`                                   | `family/<slug>`                                                                     | `data/families.json` and its species                                                                                                                     |
-| `/species/<slug>`                                  | `species/<slug>`                                                                    | The species-list row, plus `data/species/details/<slug>.json` as `details` when that file exists                                                         |
-| `/manifest.webmanifest`, `/sw.js`, `/offline.json` | `index/offline` for the JSON                                                        | The installable app: the manifest, the service worker, and the pages and media a saved copy can keep. `/offline` and `/offline.md` are not pages         |
-| `/sitemap`                                         | `index/families`, `index/species`                                                   | Every published order, family, and species page, plus `/facts`, `/credits` and `/ask-ai`. `/search` is left out                                          |
-| `/sitemap.xml`                                     | `index/families`, `index/species`                                                   | One URL for each HTML page, dated from `DATA_PUBLISHED_AT`                                                                                               |
-| `/robots.txt`                                      | (none)                                                                              | An allow policy for crawlers, and the address of `/sitemap.xml`                                                                                          |
-| `/llms.txt`                                        | none                                                                                | Agent guide. It points at `/.json` for counts and does not repeat them                                                                                   |
-| `/.well-known/ard.json`                            | `index/families`, `index/species`                                                   | ARD manifest. A missing index is omitted                                                                                                                 |
-| `/.well-known/ai-catalog.json`                     | the same indexes                                                                    | Predecessor catalog. The same entries. `host.documentationUrl` is `/llms.txt`                                                                            |
-| `/ask-ai`                                          | none                                                                                | A prompt for a reader's own chat AI. Also `.md` and `.json`. The page does not call a model                                                              |
-| `/credits`                                         | `index/credits`                                                                     | Derived by `scripts/seed.mjs`: checklist sources, taxonomy, and every photograph, recording and cited source                                             |
-| `/search`                                          | `index/species` and `index/families` (and `index/search-samples` for the HTML page) | English, Afrikaans and Latin names already on those indexes. The query is `?q=`. The HTML page also draws a photograph and a playable call for a species |
+| Page | KV key | Built from |
+| --- | --- | --- |
+| `/` | `index/families` | Counts of species, families, orders and full accounts |
+| `/orders` | `index/families` | The `order` of each family, with family and species counts |
+| `/order/<slug>` | `order/<slug>` | The families and species of one order. The slug is the Latin name in lower case |
+| `/families` | `index/families` | `data/families.json`, with species counts |
+| `/species` | `index/species` | `species` in `data/species-list.json`, with the Kruger estimate where a details file records one |
+| `/facts` | `index/facts` | One row per listed species from the details files: size, mass, Kruger status, conservation status and the Kruger individuals range |
+| `/family/<slug>` | `family/<slug>` | `data/families.json` and its species |
+| `/species/<slug>` | `species/<slug>` | The species-list row, plus `data/species/details/<slug>.json` as `details` when that file exists |
+| `/manifest.webmanifest`, `/sw.js`, `/offline.json` | `index/offline` for the JSON | The installable app: the manifest, the service worker, and the pages and media a saved copy can keep. `/offline` and `/offline.md` are not pages |
+| `/sitemap` | `index/families`, `index/species` | Every published order, family, and species page, plus `/facts`, `/credits` and `/ask-ai`. `/search` is left out |
+| `/sitemap.xml` | `index/families`, `index/species` | One URL for each HTML page, dated from `DATA_PUBLISHED_AT` |
+| `/robots.txt` | (none) | An allow policy for crawlers, and the address of `/sitemap.xml` |
+| `/llms.txt` | none | Agent guide. It points at `/.json` for counts and does not repeat them |
+| `/.well-known/ard.json` | `index/families`, `index/species` | ARD manifest. A missing index is omitted |
+| `/.well-known/ai-catalog.json` | the same indexes | Predecessor catalog. The same entries. `host.documentationUrl` is `/llms.txt` |
+| `/ask-ai` | none | A prompt for a reader's own chat AI. Also `.md` and `.json`. The page does not call a model |
+| `/credits` | `index/credits` | Derived by `scripts/seed.mjs`: checklist sources, taxonomy, and every photograph, recording and cited source |
+| `/search` | `index/species` and `index/families` (and `index/search-samples` for the HTML page) | English, Afrikaans and Latin names already on those indexes. The query is `?q=`. The HTML page also draws a photograph and a playable call for a species |
 
 A species with a details file gets a full account: a lead photograph, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls with recordings, more photographs and sources. A species without one says its details have not been published. Photographs and recordings that are saved on this site load from `/images/<key>` or `/audio/<key>`; otherwise they load from their sources (`fileUrl`). Each carries its credit and licence. CC BY-NC media is shown on a non-commercial site. The field marks in `variants` are not shown yet.
 
