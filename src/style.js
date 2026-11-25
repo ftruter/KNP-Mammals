@@ -1020,7 +1020,85 @@ audio {
 
 .hex { font-family: var(--mono); font-size: var(--fs-xs); color: var(--muted); }
 
-.call-list { padding-inline-start: var(--gap); }
+.call-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--gap-2);
+}
+.call-item { display: grid; gap: var(--gap-half); margin: 0; }
+.call-copy { margin: 0; }
+.hear-call { margin: var(--gap-half) 0 0; font-family: var(--sans); font-weight: 600; }
+
+/* Play and stop are one large control. The button is hidden until the script connects it; the audio element is the control when the script is off. */
+.call-player { position: relative; max-inline-size: 28rem; }
+.call-play {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  inline-size: 100%;
+  min-block-size: 4.25rem;
+  padding: 0.7rem 1.25rem;
+  overflow: hidden;
+  border: 3px solid var(--brand);
+  border-radius: var(--radius-pill);
+  background: var(--brand);
+  color: var(--bg);
+  font: 700 1.2rem var(--sans);
+  line-height: 1.2;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+.call-play[hidden] { display: none; }
+.call-play-glyph { display: block; flex: none; }
+.call-play-glyph-stop { display: none; }
+.call-player.is-playing .call-play-glyph-play { display: none; }
+.call-player.is-playing .call-play-glyph-stop { display: block; }
+.call-play-meter {
+  display: none;
+  position: absolute;
+  inset-inline: 0.9rem;
+  inset-block-end: 0.45rem;
+  block-size: 0.35rem;
+  border-radius: var(--radius-pill);
+  background: rgb(0 0 0 / 0.18);
+}
+.call-player.is-playing .call-play-meter { display: block; }
+.call-play-meter-bar {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  border-radius: inherit;
+  background: currentColor;
+  opacity: 0.7;
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+.call-play-status {
+  margin: var(--gap-half) 0 0;
+  font-family: var(--sans);
+  font-weight: 700;
+  color: var(--accent);
+}
+.call-play-status:empty { display: none; }
+.call-player.is-ready > audio {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+@media (forced-colors: active) {
+  .call-play { border-color: ButtonText; background: ButtonFace; color: ButtonText; }
+}
 .call-type { font-family: var(--sans); font-weight: 600; color: var(--label); }
 
 .site-footer {

@@ -409,7 +409,8 @@ test('the credits page lists sources, taxonomy and every file', async () => {
   )
   assert.equal(wildebeest.images[0].author, 'Bernard DUPONT')
   assert.equal(wildebeest.images[0].licence, 'CC BY-SA 2.0')
-  assert.equal(wildebeest.recordings[0].quality, 'A')
+  assert.equal(wildebeest.recordings[0].quality, undefined)
+  assert.equal(wildebeest.recordings[0].key, 'xeno-canto/XC1148048')
   assert.equal(wildebeest.recordings[0].callType, 'call')
 
   const names = doc.species.map((group) => group.scientificName)

@@ -132,7 +132,7 @@ Prefer research-grade iNaturalist photographs from Kruger (`place_id` 69020) and
 }
 ```
 
-`type` is `call`, `alarm`, `contact`, `other`, or a short sourced term (`song` remains valid if a source uses it). `description` is one short sentence or two. A recording has a `key`, plus the same attribution as an image: `source`, `author`, `license`, optional `licenceUrl`, optional `fileUrl`, and `hosted: false` until the file is in the bucket. `quality` is the xeno-canto grade (`A` best, then `B`, `C`, `D`, `E`) when the recording is from xeno-canto. `aiGenerated` is optional. Credit is collected from each recording, not from the call object.
+`type` is `call`, `alarm`, `contact`, `other`, or a short sourced term (`song` remains valid if a source uses it). `description` is one short sentence or two. A recording has a `key`, plus the same attribution as an image: `source`, `author`, `license`, optional `licenceUrl`, optional `fileUrl`, and `hosted: false` until the file is in the bucket. `quality` is the xeno-canto grade (`A` best, then `B`, `C`, `D`, `E`) when the recording is from xeno-canto. It is only used to pick the best clip for the offline app and is never shown to a visitor. `aiGenerated` is optional. Credit is collected from each recording, not from the call object.
 
 Try xeno-canto and the Macaulay Library. If no licensable recording is found, leave `recordings` empty and record the gap. iNaturalist sounds may be used when the licence allows. ND recordings are linked, not played.
 
@@ -169,7 +169,7 @@ Media licences are separate from the licence of the code. CC0, CC BY, CC BY-SA, 
 | `taxonomy` | `authority` and `summary`. Names follow the 2011 SANParks checklist, with the three recorded family remaps. Afrikaans is not invented. |
 | `mediaNote` | Null while any image or recording is listed. The page keeps a sentence for a future run that has none. |
 | `species` | One group per species that has an image, a recording, or a titled source, sorted by scientific name. `commonName` is the English name already stored. |
-| `species[].images`, `species[].recordings` | `key`, `author`, `licence`, `licenceUrl`, `sourceUrl`, `aiGenerated`, `hosted`. Recordings also keep `quality` and `callType` when those are stored. Captions are not part of the credits document. The HTML and Markdown pages do not print `key`, because some keys name a camp, a road or a waterhole. |
+| `species[].images`, `species[].recordings` | `key`, `author`, `licence`, `licenceUrl`, `sourceUrl`, `aiGenerated`, `hosted`. Recordings also keep `callType` when it is stored. The grade is not in the credits document. Captions are not part of the credits document. The HTML and Markdown pages do not print `key`, because some keys name a camp, a road or a waterhole. The one exception is a xeno-canto recording, whose key `xeno-canto/XC…` is printed as its catalogue number ("xeno-canto catalogue number: XC…"), except for the three species that hide observation references (white and black rhinoceros and Temminck's pangolin). |
 | `species[].sources` | `details.sources`, `population.sources` and `conservationStatus.sources`, deduped on exact title plus URL. A row needs a title. `publisher` and `year` are copied, or null. `note` is not copied. |
 | `site` | Repository, maintainer, palette and affiliation. `licence` and `licenceUrl` stay null until this repository states a code licence. |
 

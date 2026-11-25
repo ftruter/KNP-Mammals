@@ -156,8 +156,6 @@ export const mediaCredit = (item, { slug = '', callType = null } = {}) => {
     hosted:
       item?.hosted === true ? true : item?.hosted === false ? false : null,
   }
-  const quality = textOrNull(item?.quality)
-  if (quality) credit.quality = quality
   const storedCall = textOrNull(callType)
   if (storedCall) credit.callType = storedCall
   return credit

@@ -10,10 +10,13 @@ import {
 } from './html.js'
 import { SITEMAP_INTRO } from './sitemap.js'
 import {
+  NO_OBSERVATION_REFS,
   callTypeLabel,
+  catalogueNumber,
   conservationLabel,
   monthsLabel,
   populationModel,
+  readerCallText,
   sizeFacts,
   statusLabel,
   viewLabel,
@@ -195,15 +198,17 @@ const filePhrase = (shown) => {
   return `[File](${shown.src}). ${where}`
 }
 
-const creditBits = (item, shown) => {
+const creditBits = (item, shown, slug = '') => {
   const credit = [
     item?.author ? one(item.author) : 'author not recorded',
     item?.license ? one(item.license) : 'licence not recorded',
   ].join(', ')
   const source = safeHttpUrl(item?.source)
+  const number = NO_OBSERVATION_REFS.has(slug) ? '' : catalogueNumber(item?.key)
   return [
     `Credit: ${credit}`,
     source ? `[Source](${source})` : '',
+    number ? `xeno-canto catalogue number: ${number}` : '',
     filePhrase(shown),
   ]
     .filter(Boolean)
@@ -219,11 +224,13 @@ const imageLine = (image) => {
   return [what, credit].filter(Boolean).join('. ')
 }
 
-const callLine = (call) => {
+const callLine = (call, slug = '') => {
+  const text = one(readerCallText(call?.description))
   const files = listed(call?.recordings).map((recording) =>
-    creditBits(recording, mediaSrc(recording, 'audio')),
+    creditBits(recording, mediaSrc(recording, 'audio'), slug),
   )
-  return `**${callTypeLabel(call?.type)}.** ${one(call?.description || '')}${files.length ? ` ${files.join(' ')}` : ''}`
+  if (!text && files.length === 0) return ''
+  return `**${callTypeLabel(call?.type)}.**${text ? ` ${text}` : ''}${files.length ? ` ${files.join(' ')}` : ''}`
 }
 
 const publishedSpecies = (doc, details) => {
@@ -265,7 +272,14 @@ const publishedSpecies = (doc, details) => {
     section('Young', one(details.young || '')),
     section('Predators', bullets(predators)),
     section('Prey', bullets(prey)),
-    section('Calls', bullets(listed(details.calls).map(callLine))),
+    section(
+      'Calls',
+      bullets(
+        listed(details.calls)
+          .map((call) => callLine(call, doc.slug))
+          .filter(Boolean),
+      ),
+    ),
     section('Similar species', bullets(listed(details.similar).map(animal))),
     section('Photographs', bullets(listed(details.images).map(imageLine))),
     section('Not yet recorded', bullets(listed(details.gaps).map(one))),
@@ -350,7 +364,7 @@ const MD_CALL = {
   other: 'Other',
 }
 
-const mdCreditLine = (item, kind) => {
+const mdCreditLine = (item, kind, slug = '') => {
   const ai =
     item?.aiGenerated === true
       ? `${kind === 'recording' ? 'AI-generated recording' : 'AI-generated image'}. `
@@ -362,11 +376,12 @@ const mdCreditLine = (item, kind) => {
     typeof item?.callType === 'string' && item.callType.trim()
       ? `${one(MD_CALL[item.callType.trim()] || item.callType.trim())}. `
       : ''
-  const quality =
-    typeof item?.quality === 'string' && item.quality.trim()
-      ? ` Quality ${one(item.quality.trim())}.`
+  const number =
+    kind === 'recording' && !NO_OBSERVATION_REFS.has(slug)
+      ? catalogueNumber(item?.key)
       : ''
-  return `${callType}${ai}${author}${mdLicence(item, 'Licence not recorded.')} ${mdSource(item?.sourceUrl)}${quality}`
+  const catalogue = number ? ` xeno-canto catalogue number: ${number}.` : ''
+  return `${callType}${ai}${author}${mdLicence(item, 'Licence not recorded.')} ${mdSource(item?.sourceUrl)}${catalogue}`
 }
 
 const mdCitation = (source) =>
@@ -378,7 +393,7 @@ const mdCitation = (source) =>
     .filter(Boolean)
     .join('. ')
 
-const mdCreditList = (items, heading, kind) =>
+const mdCreditList = (items, heading, kind, slug = '') =>
   !items.length
     ? ''
     : `#### ${heading}
@@ -386,7 +401,7 @@ const mdCreditList = (items, heading, kind) =>
 ${items
   .map(
     (item) =>
-      `- ${kind === 'source' ? mdCitation(item) : mdCreditLine(item, kind)}`,
+      `- ${kind === 'source' ? mdCitation(item) : mdCreditLine(item, kind, slug)}`,
   )
   .join('\n')}`
 
@@ -409,8 +424,8 @@ const mdDataSource = (source) => {
 const mdSpeciesCredit = (group) =>
   `### [${one(group.commonName || group.scientificName)}](/species/${group.slug}.md) (_${one(group.scientificName || '')}_)
 
-${mdCreditList(listed(group.images), 'Photographs', 'image')}
-${mdCreditList(listed(group.recordings), 'Recordings', 'recording')}
+${mdCreditList(listed(group.images), 'Photographs', 'image', group.slug)}
+${mdCreditList(listed(group.recordings), 'Recordings', 'recording', group.slug)}
 ${mdCreditList(listed(group.sources), 'Sources', 'source')}`
 
 const mdSite = (site) => {

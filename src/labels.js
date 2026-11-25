@@ -94,6 +94,54 @@ const CALL_TYPE = {
 
 export const callTypeLabel = (type) => CALL_TYPE[type] || 'Call'
 
+/**
+ * Species whose recordings are shown without an observation or catalogue
+ * number: black and white rhinoceros and Temminck's pangolin (the location
+ * rule). Every other species keeps its xeno-canto catalogue number.
+ */
+export const NO_OBSERVATION_REFS = new Set([
+  'ceratotherium-simum',
+  'diceros-bicornis',
+  'smutsia-temminckii',
+])
+
+/** `xeno-canto/XC1148048` gives `XC1148048`. Anything else gives ''. */
+export const catalogueNumber = (key) => {
+  const match = /^xeno-canto\/(XC\d+)$/.exec(typeof key === 'string' ? key : '')
+  return match ? match[1] : ''
+}
+
+/**
+ * Sentences in a call description that are about how the text or the
+ * recording was put together, not about the voice: what the sources did not
+ * say, which recording was attached, what the recordist did not label, a
+ * grade, or a file name. They stay in the stored data and its gaps list.
+ */
+const CURATOR_SENTENCE = [
+  /\bsources? (?:used|consulted)\b/i,
+  /\bin this session\b|\bfor this file\b/i,
+  /\b(?:recordings?|recordist|iNaturalist|xeno-canto)\b/i,
+  /\bobservations? (?:does|do) not\b/i,
+  /\bgrade [A-E]\b|\bfile ?names?\b|\bdate ?stamps?\b|\.(?:mp3|wav|m4a|ogg)\b/i,
+]
+
+/** A trailing clause that only says the sources gave nothing more. */
+const CURATOR_CLAUSE =
+  /,\s*(?:with)?out (?:a |any )?(?:further|more) description in the sources? (?:used|consulted)/i
+
+/** Call text for a reader: the voice, without notes about the research. */
+export const readerCallText = (value) => {
+  const text = String(value ?? '')
+    .replace(CURATOR_CLAUSE, '')
+    .replaceAll(/\s+/g, ' ')
+    .trim()
+  if (!text) return ''
+  return text
+    .split(/(?<=[.!?])\s+/)
+    .filter((sentence) => !CURATOR_SENTENCE.some((rule) => rule.test(sentence)))
+    .join(' ')
+}
+
 /** "Least Concern (IUCN global, 2016)". */
 export const conservationLabel = (status) => {
   if (typeof status?.status !== 'string' || !status.status) return ''
