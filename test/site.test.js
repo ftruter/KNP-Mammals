@@ -304,7 +304,7 @@ test("Juliana's golden mole shows the Imagined by Grok illustration", async () =
   assert.ok(body.includes(caption))
   assert.match(
     body,
-    /src="https:\/\/raw\.githubusercontent\.com\/ftruter\/KNP-Mammals\/main\/media\/images\/neamblysomus-julianae\/imagined-by-grok\.jpg"/,
+    /src="\/images\/neamblysomus-julianae\/imagined-by-grok\.jpg"/,
   )
   const credit = body.match(/<details class="credit"[\s\S]*?<\/details>/)?.[0]
   assert.ok(credit)
