@@ -448,6 +448,11 @@ p { text-wrap: pretty; }
 .search-call .call-player { max-inline-size: none; }
 .search-call .call-play { min-block-size: 3.5rem; font-size: 1.1rem; }
 
+/* The way back to the last search, shown only in the installed app. */
+.search-return { margin: 0 0 var(--gap-half); font-family: var(--sans); font-size: var(--fs-sm); }
+.search-return a { display: inline-flex; align-items: center; min-block-size: 2.75rem; font-weight: 600; }
+.search-offline-note { font-family: var(--sans); font-size: var(--fs-sm); color: var(--muted); }
+
 .search-result .kicker { margin: 0; }
 .search-result h3 { margin: 0; font-family: var(--sans); }
 .search-names { margin: 0; }
