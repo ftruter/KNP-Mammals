@@ -6,8 +6,12 @@ import { test } from 'node:test'
 import { fileURLToPath } from 'node:url'
 import { collectEntries, readMirror } from '../scripts/seed.mjs'
 import { LARGE_DOWNLOAD_BYTES, OFFLINE_KEY } from '../src/offline.js'
-import { deriveOffline, selectGuidePages } from '../src/offline.js'
-import { offlineManifest } from '../src/offline-app.js'
+import {
+  deriveOffline,
+  selectGuideData,
+  selectGuidePages,
+} from '../src/offline.js'
+import { autoCacheUrls, offlineManifest } from '../src/offline-app.js'
 import { SERVICE_WORKER_CSP } from '../src/respond.js'
 import { parseUrl } from '../src/route.js'
 import { handleRequest } from '../src/worker.js'
@@ -200,8 +204,26 @@ test('the saved pages and the four media rows come from the seed', async () => {
   assert.deepEqual(familyPages, familyPages.slice().sort())
   assert.deepEqual(speciesPages, speciesPages.slice().sort())
   assert.equal(manifest.pages.length, offline.pages.length)
-  for (const url of [...manifest.shell, '/'])
-    assert.equal((await get(url)).status, 200, url)
+  assert.equal(manifest.data.length, manifest.pages.length)
+  assert.deepEqual(manifest.data, selectGuideData(manifest.pages))
+  assert.ok(manifest.data.includes('/.json'))
+  assert.ok(manifest.data.includes('/species.json'))
+  assert.ok(manifest.data.includes('/families.json'))
+  assert.ok(manifest.data.includes('/species/connochaetes-taurinus.json'))
+  assert.equal(
+    manifest.data.includes('/offline.json'),
+    false,
+    'the offline list is saved separately, not as page data',
+  )
+  const saved = autoCacheUrls(manifest)
+  assert.deepEqual(saved, [
+    '/offline.json',
+    ...manifest.shell,
+    ...manifest.pages,
+    ...manifest.data,
+  ])
+  assert.match(source, /manifest\.data \?\? \[\]/)
+  for (const url of saved) assert.equal((await get(url)).status, 200, url)
   assert.equal((await get('/offline')).status, 404)
   assert.equal((await get('/offline.md')).status, 404)
 
@@ -256,6 +278,8 @@ test('a missing offline document still serves the shell', async () => {
   const manifest = await response.json()
   assert.equal(manifest.files.length, 0)
   assert.deepEqual(manifest.pages, ['/'])
+  assert.deepEqual(manifest.data, ['/.json'])
+  assert.ok(autoCacheUrls(manifest).includes('/.json'))
   assert.ok(manifest.shell.includes('/manifest.webmanifest'))
   assert.ok(
     manifest.categories.every((category) => category.files.length === 0),
@@ -450,6 +474,56 @@ test('a file shared by a family row and a species row is stored once', () => {
 
 test('an unserved guide path is left out of the saved pages', () => {
   assert.deepEqual(selectGuidePages(['/', '/identify/photo', '/mcp']), ['/'])
+  assert.deepEqual(
+    selectGuideData(['/', '/identify/photo', '/mcp', '/offline']),
+    ['/.json'],
+  )
+})
+
+test('an installed copy can open a species page from the saved pack with no network', async () => {
+  const manifest = await (await get('/offline.json')).json()
+  const saved = autoCacheUrls(manifest)
+  assert.ok(saved.includes('/species/panthera-leo'))
+  assert.ok(saved.includes('/species/panthera-leo.json'))
+  assert.ok(saved.includes('/species.json'))
+  assert.ok(saved.includes('/families.json'))
+  assert.equal(
+    manifest.categories.some((category) => category.id === 'species-json'),
+    false,
+  )
+
+  const needed = [
+    '/species/panthera-leo',
+    '/species/panthera-leo.json',
+    '/species.json',
+    '/families.json',
+  ]
+  const cache = new Map()
+  for (const url of needed) {
+    const response = await get(url)
+    assert.equal(response.status, 200, url)
+    cache.set(url, {
+      status: response.status,
+      type: response.headers.get('content-type'),
+      body: await response.text(),
+    })
+  }
+
+  const offlineGet = (url) => cache.get(url) ?? null
+  const page = offlineGet('/species/panthera-leo')
+  assert.ok(page, 'the species HTML was saved with the guide')
+  assert.match(page.type, /^text\/html/)
+  assert.match(page.body, /<h1>Lion<\/h1>/)
+  assert.match(page.body, /Panthera leo/)
+  assert.doesNotMatch(page.body, /<h1>Not found<\/h1>/)
+
+  const file = offlineGet('/species/panthera-leo.json')
+  assert.ok(file, 'the species JSON was saved with the guide')
+  assert.match(file.type, /^application\/json/)
+  const doc = JSON.parse(file.body)
+  assert.equal(doc.slug, 'panthera-leo')
+  assert.equal(doc.en ?? doc.commonNames?.en, 'Lion')
+  assert.equal(offlineGet('/species/does-not-exist'), null)
 })
 
 test('a missing mirror file is an empty list, not a guessed size', async () => {

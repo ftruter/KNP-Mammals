@@ -39,7 +39,7 @@ The Worker is `src/worker.js`. `wrangler.toml` binds KV as `MAMMALS_KV` (namespa
 
 Family list, combined species list, and a details file for every listed species. The Worker serves HTML, `.md` and `.json` for the home page, orders, families and species. Tables sort with `?sort=` and `dir=`. Photo zoom works from the button, including with scripts off. Orders are not in the header navigation. They are linked from the home page, the Order column, and family and species pages.
 
-Site routes beyond the taxon pages are live: `/search` (names only, `noindex`), `/credits`, `/facts`, `/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json`, `/ask-ai`, `/robots.txt`, `/sitemap` and `/sitemap.xml`, and the installable offline app (`/manifest.webmanifest`, `/sw.js`, `/offline.js`, `/offline.json`). The offline app saves the HTML guide pages plus one measured lead photograph and clip per species from `data/media/mirror.json`.
+Site routes beyond the taxon pages are live: `/search` (names only, `noindex`), `/credits`, `/facts`, `/llms.txt`, `/.well-known/ard.json`, `/.well-known/ai-catalog.json`, `/ask-ai`, `/robots.txt`, `/sitemap` and `/sitemap.xml`, and the installable offline app (`/manifest.webmanifest`, `/sw.js`, `/offline.js`, `/offline.json`). The offline app always saves the HTML guide pages and their JSON documents; one measured lead photograph and clip per species from `data/media/mirror.json` are saved when those options are ticked.
 
 A published species page shows a lead image, facts, description, what to look for, similar species, habits, diet, young, predators and prey, calls, further photographs, gaps and sources. `variants` are stored and are not rendered.
 

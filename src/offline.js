@@ -1,6 +1,6 @@
 import { safeHttpUrl } from './escape.js'
 import { licenceForbidsDerivatives } from './labels.js'
-import { objectPublicPath, parseUrl } from './route.js'
+import { alternates, objectPublicPath, parseUrl } from './route.js'
 
 // What an installed copy can keep on the device, with the size of every
 // file. scripts/seed.mjs imports this module, so it must not import the
@@ -58,6 +58,37 @@ export const guidePageServed = (pathname) => {
     return false
   }
   return route.format === 'html' && !ASSET_KINDS.has(route.kind)
+}
+
+/** The JSON document for an HTML page: `/` is `/.json`, others append `.json`. */
+export const jsonPathFor = (pathname) => alternates(pathname).json
+
+/** True when `pathname` is a JSON page this Worker serves, not an asset. */
+export const guideDataServed = (pathname) => {
+  let route
+  try {
+    route = parseUrl(new URL(pathname, 'https://mammals.truter.world'))
+  } catch {
+    return false
+  }
+  return route.format === 'json' && !ASSET_KINDS.has(route.kind)
+}
+
+/**
+ * JSON documents saved with the guide, in page order, each path once.
+ * They are small, so there is no download option for them. Unserved
+ * paths are left out, as with HTML pages, so a 404 is not cached.
+ */
+export const selectGuideData = (pages = []) => {
+  const paths = []
+  const seen = new Set()
+  for (const page of pages) {
+    const json = jsonPathFor(page)
+    if (!json || seen.has(json) || !guideDataServed(json)) continue
+    seen.add(json)
+    paths.push(json)
+  }
+  return paths
 }
 
 let reportedSkipped = false
