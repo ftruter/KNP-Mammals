@@ -367,6 +367,69 @@ const bindSearchPhotos = () => {
   }
 }
 
+// An installed app has no back button, so every page but the search itself
+// carries a link back to the last search. The query is kept on the device and
+// the link is made here, so it is on pages saved for offline use too. With no
+// signal the service worker answers /search from the saved name lists.
+const SEARCH_MAX = 200
+const LAST_SEARCH = 'knp-mammals-last-search'
+
+// Same trimming as searchQuery in route.js. This script cannot import it.
+const searchQuery = (raw) =>
+  String(raw ?? '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, SEARCH_MAX)
+    .trim()
+
+const installedApp = () =>
+  window.matchMedia('(display-mode: standalone)').matches ||
+  window.navigator?.standalone === true
+
+const rememberedSearch = () => {
+  try {
+    return searchQuery(window.localStorage.getItem(LAST_SEARCH))
+  } catch {
+    return ''
+  }
+}
+
+const bindSearchReturn = () => {
+  const onSearch = String(window.location.pathname ?? '') === '/search'
+  if (onSearch) {
+    const query = searchQuery(
+      new URLSearchParams(window.location.search || '').get('q'),
+    )
+    if (!query) return
+    try {
+      window.localStorage.setItem(LAST_SEARCH, query)
+    } catch {
+      // Private browsing: there is no last search to come back to.
+    }
+    return
+  }
+  if (!installedApp() || document.querySelector('[data-search-return]')) return
+  const query = rememberedSearch()
+  const item = document.createElement('p')
+  item.className = 'search-return'
+  item.setAttribute('data-search-return', '')
+  const link = document.createElement('a')
+  link.setAttribute(
+    'href',
+    query
+      ? '/search?' + new URLSearchParams({ q: query }).toString()
+      : '/search',
+  )
+  link.textContent = query
+    ? '\u2190 Back to search results for \u201c' + query + '\u201d'
+    : '\u2190 Search'
+  item.append(link)
+  const crumbs = document.querySelector('nav[aria-label="Breadcrumb"]')
+  const wrap = document.querySelector('main .wrap')
+  if (crumbs) crumbs.after(item)
+  else if (wrap) wrap.prepend(item)
+}
+
 bindTables()
 bindZoom()
 bindSearchPhotos()
@@ -374,4 +437,5 @@ bindSearch()
 bindCopy()
 bindTargets()
 bindCalls()
+bindSearchReturn()
 showCurrentNav()

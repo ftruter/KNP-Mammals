@@ -50,7 +50,7 @@ Hosted photographs and recordings load from `/images/<key>` and `/audio/<key>`. 
 Not on this `main`, and not described here as shipped:
 
 - An MCP endpoint (#34 batch 2, needs a second yes) and identify (#40; batch 1 is counts only). `src/style.js` is a copy of the birds stylesheet and still contains identify rules that no route uses.
-- A real-device install and offline check of the offline app (#38 stays open for it).
+- A real-device install and offline check of the offline app (#38 stays open for it). That check should include searching with no signal and the back-to-search link, which are tested only against a stand-in for the browser.
 - Recognisers. [`docs/BRIEF.md`](docs/BRIEF.md) phase 5 has not started. This repo has no model files.
 - Rendering `variants`.
 - The home-page sentence. `progressSentence` in `src/html.js` still says that some species are listed by name only, even though every listed species has a details file. HTML and Markdown both use that function. Changing it is code, and the wording is an open decision below.
