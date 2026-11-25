@@ -40,6 +40,8 @@ The file extension selects the format.
 | ${origin}/species | Every species |
 | ${origin}/species/<slug> | One species. The slug is the scientific name in lower case, with hyphens |
 | ${origin}/ask-ai | A prompt a person pastes into their own chat AI. Also ${origin}/ask-ai.md and ${origin}/ask-ai.json, whose prompt field is the text. The page does not call a model |
+| ${origin}/identify/photo | For people: a photo recogniser that runs in the browser (WebAssembly). An agent cannot run it. Its .md and .json say how it works, how well it tested, and which species it knows |
+| ${origin}/identify/sound | For people: a call recogniser that runs in the browser. Also .md and .json, as for the photo page |
 | ${origin}/facts | One row per species: size, mass, Kruger status, conservation status and population, as stored. Empty means not recorded |
 | ${origin}/credits | Data sources, taxonomy, and the credit and licence on every photograph, recording and cited source |
 | ${origin}/search?q=<name> | Finds species and families by stored English, Afrikaans or scientific name. Also ${origin}/search.md?q=<name> and ${origin}/search.json?q=<name> |

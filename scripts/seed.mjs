@@ -21,6 +21,8 @@
  *   the species list and those details → index/credits
  *                                        index/search-samples is the photograph
  *                                        and call a search card shows
+ *   data/identify/*.json               → index/identify, for the photo and
+ *                                        sound recognisers
  *
  * Only the `species` list is published. `candidates` and `excluded` stay in
  * the repository. A species whose family is not in families.json, a
@@ -35,6 +37,11 @@ import { fileURLToPath } from 'node:url'
 import { deriveOffline, OFFLINE_KEY } from '../src/offline.js'
 import { buildFacts } from '../src/facts.js'
 import { buildSearchSamples } from '../src/search-samples.js'
+import {
+  IDENTIFY_KEY,
+  deriveIdentify,
+  recognisersCredit,
+} from '../src/identify.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
@@ -338,7 +345,12 @@ export const deriveCredits = (speciesList, details) => {
 }
 
 /** Builds every KV document from the parsed data files. */
-export const deriveDocuments = ({ families, list, details = new Map() }) => {
+export const deriveDocuments = ({
+  families,
+  list,
+  details = new Map(),
+  identify = null,
+}) => {
   if (!Array.isArray(families)) throw new Error('families.json is not a list')
   if (!Array.isArray(list?.species))
     throw new Error('species-list.json has no species list')
@@ -448,7 +460,35 @@ export const deriveDocuments = ({ families, list, details = new Map() }) => {
   documents.set('index/facts', buildFacts(speciesIndex, details))
   documents.set('index/credits', deriveCredits(list.species, details))
   documents.set('index/search-samples', buildSearchSamples(details))
+  if (identify) {
+    const doc = deriveIdentify({
+      ...identify,
+      speciesBySlug,
+      familyBySlug,
+      details,
+    })
+    documents.set(IDENTIFY_KEY, doc)
+    documents.get('index/credits').recognisers = recognisersCredit(doc)
+  }
   return documents
+}
+
+/**
+ * data/identify/: the two recognisers' descriptions and the training
+ * credits. Null when the folder is not there, as in the test fixtures.
+ */
+export const readIdentify = async (dataDir = DEFAULT_DATA_DIR) => {
+  const dir = path.join(dataDir, 'identify')
+  try {
+    return {
+      photoModel: await readJson(path.join(dir, 'photo-model.json')),
+      soundModel: await readJson(path.join(dir, 'sound-model.json')),
+      credits: await readJson(path.join(dir, 'training-credits.json')),
+    }
+  } catch (error) {
+    if (error.code === 'ENOENT') return null
+    throw error
+  }
 }
 
 /**
@@ -475,6 +515,7 @@ export const collectEntries = async (dataDir = DEFAULT_DATA_DIR) => {
     families: await readJson(path.join(dataDir, 'families.json')),
     list: await readJson(path.join(dataDir, 'species-list.json')),
     details: await readDetails(dataDir),
+    identify: await readIdentify(dataDir),
   })
   const species = []
   const families = []

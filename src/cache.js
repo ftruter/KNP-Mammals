@@ -6,6 +6,8 @@ export const ASSET_CACHE =
   'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400'
 export const OBJECT_CACHE =
   'public, max-age=604800, s-maxage=2592000, stale-while-revalidate=86400'
+/** A recogniser file. Its address names its version, so it never changes. */
+export const MODEL_CACHE = 'public, max-age=31536000, immutable'
 export const REDIRECT_CACHE = 'public, max-age=3600, s-maxage=86400'
 export const NO_STORE = 'no-store'
 

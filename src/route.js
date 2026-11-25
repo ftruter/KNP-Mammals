@@ -12,6 +12,18 @@ export const ICON_PATHS = [
   '/icon-maskable-512.png',
 ]
 
+/**
+ * Browser scripts for /identify/photo and /identify/sound: one for each page,
+ * the Web Worker both pages run the recogniser in, and the sound page's
+ * audio worklet.
+ */
+export const IDENTIFY_SCRIPTS = [
+  '/identify-photo.js',
+  '/identify-sound.js',
+  '/identify-worker.js',
+  '/identify-capture.js',
+]
+
 export const SEARCH_PATH = '/search'
 export const SEARCH_MAX = 200
 
@@ -108,6 +120,16 @@ export const parseUrl = (url) => {
     return { kind: 'offline-script', format: 'js', pathname: rawPath }
   if (rawPath === '/sw.js')
     return { kind: 'service-worker', format: 'js', pathname: rawPath }
+  if (IDENTIFY_SCRIPTS.includes(rawPath))
+    return { kind: 'identify-script', format: 'js', pathname: rawPath }
+  // A recogniser file. Its name may end in .json or .md, so it is matched
+  // before the format is split off.
+  if (rawPath.startsWith('/models/')) {
+    const key = safeObjectKey(rawPath.slice(1))
+    return key
+      ? { kind: 'model', format: 'html', pathname: rawPath, objectKey: key }
+      : notFound('html', rawPath)
+  }
   if (rawPath === '/manifest.webmanifest')
     return { kind: 'web-manifest', format: 'html', pathname: rawPath }
   const llmsPath =
@@ -171,6 +193,12 @@ export const parseUrl = (url) => {
   if (pathname === '/sitemap')
     return { kind: 'sitemap-page', format, pathname: '/sitemap' }
   if (pathname === '/ask-ai') return { kind: 'ask-ai', format, pathname }
+  if (pathname === '/identify')
+    return { kind: 'identify', format, pathname, key: 'index/identify' }
+  if (pathname === '/identify/photo')
+    return { kind: 'identify-photo', format, pathname, key: 'index/identify' }
+  if (pathname === '/identify/sound')
+    return { kind: 'identify-sound', format, pathname, key: 'index/identify' }
   if (pathname === '/facts')
     return { kind: 'facts', format, pathname, key: 'index/facts' }
   if (pathname === '/credits')

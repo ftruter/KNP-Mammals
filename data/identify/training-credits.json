@@ -1,0 +1,53 @@
+{
+ "photos": {
+  "count": 29563,
+  "species": 85,
+  "photographers": 5148,
+  "source": "iNaturalist",
+  "sourceUrl": "https://www.inaturalist.org",
+  "licences": {
+   "cc-by": 2828,
+   "cc-by-nc": 24251,
+   "cc-by-nc-sa": 387,
+   "cc-by-sa": 1470,
+   "cc0": 627
+  },
+  "list": "data/identify/photo-training.csv.gz"
+ },
+ "sounds": {
+  "count": 288,
+  "species": 10,
+  "recordists": 120,
+  "bySource": {
+   "inaturalist": 232,
+   "xeno-canto": 56
+  },
+  "licences": {
+   "cc-by": 21,
+   "cc-by-nc": 198,
+   "cc-by-nc-sa": 63,
+   "cc-by-sa": 1,
+   "cc0": 5
+  },
+  "list": "data/identify/sound-training.csv.gz"
+ },
+ "noise": [
+  {
+   "name": "ESC-50: Dataset for Environmental Sound Classification",
+   "authors": "Karol J. Piczak",
+   "year": 2015,
+   "licence": "CC BY-NC 3.0",
+   "url": "https://github.com/karolpiczak/ESC-50",
+   "usedFor": "Wind, rain, engine, insect, bird and people sounds mixed into training copies; fold 5 kept apart for the noise test"
+  },
+  {
+   "name": "LibriSpeech ASR corpus (dev-clean)",
+   "authors": "Vassil Panayotov, Guoguo Chen, Daniel Povey and Sanjeev Khudanpur",
+   "year": 2015,
+   "licence": "CC BY 4.0",
+   "url": "https://www.openslr.org/12",
+   "usedFor": "Overlapping speech for crowd chatter; a fifth of the speakers kept apart for the noise test"
+  }
+ ],
+ "note": "For black rhinoceros, white rhinoceros and Temminck's ground pangolin the lists give no observation number and no place."
+}

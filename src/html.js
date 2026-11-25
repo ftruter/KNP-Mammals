@@ -73,6 +73,8 @@ export const progressSentence = (counts) =>
   `The list has ${counts.species} species in ${counts.families} families and ${counts.orders} orders. ${counts.researched} of the species have a full account so far; the rest are listed by name.`
 
 const NAV = [
+  ['identify-photo', '/identify/photo', 'Identify by photo'],
+  ['identify-sound', '/identify/sound', 'Identify by sound'],
   ['families', '/families', 'Families'],
   ['species', '/species', 'Species'],
   ['ask-ai', '/ask-ai', 'Ask your AI'],
@@ -122,6 +124,7 @@ export const layout = ({
   main,
   searchQuery = '',
   noindex = false,
+  scripts = [],
 }) => {
   const alts = alternates(path, searchSuffix(searchQuery))
   const onSitemap = path === '/sitemap' ? ' aria-current="page"' : ''
@@ -142,7 +145,7 @@ ${INSTALL_LINKS}
 <link rel="stylesheet" href="${styleSrc}">
 <script type="module" defer src="${clientSrc}"></script>
 <script type="module" defer src="${offlineSrc}"></script>
-</head>
+${scripts.map((src) => `<script type="module" defer src="${escapeHtml(src)}"></script>\n`).join('')}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
@@ -178,10 +181,39 @@ ${main}
 `
 }
 
+const CAMERA_ICON =
+  '<svg class="home-action-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="40" height="40"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 8.5A1.5 1.5 0 0 1 4.5 7h2.3a1 1 0 0 0 .8-.4l1-1.4a1.5 1.5 0 0 1 1.2-.6h4.4a1.5 1.5 0 0 1 1.2.6l1 1.4a1 1 0 0 0 .8.4h2.3A1.5 1.5 0 0 1 21 8.5v9a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5ZM15.75 12.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"/></svg>'
+
+const MICROPHONE_ICON =
+  '<svg class="home-action-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="40" height="40"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3.5a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0v-5a3 3 0 0 1 3-3ZM5.75 11.25a6.25 6.25 0 0 0 12.5 0M12 17.5v3M8.75 20.5h6.5"/></svg>'
+
+/** The two recognisers, first on the home page. */
+export const HOME_IDENTIFY = [
+  {
+    href: '/identify/photo',
+    name: 'Identify by photo',
+    description:
+      'Take or open a photo of a mammal and see the closest matches.',
+    icon: CAMERA_ICON,
+  },
+  {
+    href: '/identify/sound',
+    name: 'Identify by sound',
+    description: 'Record a call and hear which mammal it may be.',
+    icon: MICROPHONE_ICON,
+  },
+]
+
+const identifyActionHtml = (action) =>
+  `<li><a class="home-action" href="${action.href}">${action.icon}<span class="home-action-copy"><span class="home-action-title">${escapeHtml(action.name)}</span><span class="home-action-text">${escapeHtml(action.description)}</span></span></a></li>`
+
 export const homeHtml = (doc, { origin }) => {
   const { counts } = doc
   const main = `
 <h1>${SITE_NAME}</h1>
+<ul class="home-actions">
+${HOME_IDENTIFY.map(identifyActionHtml).join('\n')}
+</ul>
 <nav aria-label="Browse the guide">
 <ul class="browse-links">
 <li><a href="/orders">Orders</a> <span>${counts.orders}</span></li>
@@ -908,6 +940,66 @@ ${site.palette ? `<p>${escapeHtml(site.palette)}</p>` : ''}
 ${site.affiliation ? `<p>${escapeHtml(site.affiliation)}</p>` : ''}`
 }
 
+const licenceCounts = (licences) =>
+  Object.entries(licences ?? {})
+    .map(
+      ([name, n]) =>
+        `${n.toLocaleString('en-GB')} ${name.toUpperCase().replace(/^CC-/, 'CC ')}`,
+    )
+    .join(', ')
+
+const linkTo = (url, label) => {
+  const href = safeHttpUrl(url)
+  return href
+    ? `<a href="${escapeHtml(href)}">${escapeHtml(label)}</a>`
+    : escapeHtml(label)
+}
+
+/** The recognisers: training data, noise, base models and licence. Left out when there are none. */
+export const recognisersHtml = (rec) => {
+  if (!rec) return ''
+  const items = []
+  if (rec.photos?.count)
+    items.push(
+      `<li>Photo recogniser: trained on ${rec.photos.count.toLocaleString('en-GB')} photos of ${rec.photos.species} species by ${rec.photos.photographers.toLocaleString('en-GB')} photographers on ${linkTo(rec.photos.sourceUrl, rec.photos.source || 'iNaturalist')} (${escapeHtml(licenceCounts(rec.photos.licences))}). ${rec.photos.list ? `${linkTo(rec.photos.list, 'Every photo, its photographer and its licence')}.` : ''}</li>`,
+    )
+  if (rec.sounds?.count)
+    items.push(
+      `<li>Sound recogniser: trained on ${rec.sounds.count.toLocaleString('en-GB')} recordings of ${rec.sounds.species} species by ${rec.sounds.recordists.toLocaleString('en-GB')} recordists on iNaturalist and xeno-canto (${escapeHtml(licenceCounts(rec.sounds.licences))}). ${rec.sounds.list ? `${linkTo(rec.sounds.list, 'Every recording, its recordist and its licence')}.` : ''}</li>`,
+    )
+  for (const item of listed(rec.noise))
+    items.push(
+      `<li>${linkTo(item.url, item.name)}, ${escapeHtml(item.authors)} (${escapeHtml(String(item.year))}). ${escapeHtml(item.licence)}. ${escapeHtml(item.usedFor)}.</li>`,
+    )
+  for (const model of listed(rec.models))
+    if (model.base?.name)
+      items.push(
+        `<li><a href="${escapeHtml(model.page)}">${escapeHtml(model.name)}</a> built on ${linkTo(model.base.url, model.base.name)}${model.base.authors ? ` by ${escapeHtml(model.base.authors)}` : ''} (${escapeHtml(model.base.licence)}).</li>`,
+      )
+  if (rec.runtime?.name)
+    items.push(
+      `<li>Both run in the browser with ${linkTo(rec.runtime.url, `${rec.runtime.name} ${rec.runtime.version}`)} (${escapeHtml(rec.runtime.licence)}).</li>`,
+    )
+  const licence = rec.licence?.name
+    ? `<p>The recognisers are released under ${linkTo(rec.licence.url, rec.licence.name)}. ${listed(
+        rec.models,
+      )
+        .map(
+          (model) =>
+            `<a href="${escapeHtml(model.licenceFile)}">${escapeHtml(model.name)} licence</a>`,
+        )
+        .join(' · ')}</p>`
+    : ''
+  return `<h2 id="recognisers">Recognisers</h2>
+<p>Thank you to every photographer and recordist whose work trained the photo and sound recognisers.</p>
+<ul>
+${items.join('\n')}
+</ul>
+${licence}
+${rec.note ? `<p>${escapeHtml(rec.note)}</p>` : ''}
+${rec.bats ? `<p>${escapeHtml(rec.bats)}</p>` : ''}`
+}
+
 export const creditsHtml = (doc, { origin }) => {
   const sources = listed(doc?.dataSources)
   const groups = listed(doc?.species)
@@ -929,6 +1021,7 @@ ${sources.length ? `<ol>\n${sources.map(dataSourceHtml).join('\n')}\n</ol>` : '<
 <h2>Photographs and recordings and cited sources</h2>
 ${note}
 ${groups.map(speciesCreditHtml).join('\n')}
+${recognisersHtml(doc?.recognisers)}
 ${siteHtml(doc?.site)}`
   return layout({
     title: `Credits · ${SHORT_NAME}`,
