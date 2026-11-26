@@ -84,6 +84,7 @@ Candidate sources were verified for access and licence, not assumed. URL pattern
 - **Licence:** Commercial CUP publication; rights and permissions via Cambridge. All-rights-reserved. Do not scrape or quote at length. Ask the owner before any purchase.
 - **Good for:** Later authoritative text, if a legal copy is available. The 1990 Skinner & Smithers edition is already cited on the SANParks checklist.
 - **Rank:** 8 (important, but unpaid and unaccessed here).
+- **Use so far (first gap-filling pass):** The owner supplied a copy of the 3rd edition (2005, 847 pages) for private reading. It was used only to fill fields that were null or logged as gaps in `data/species/details/<slug>.json`: size ranges, named mark colours, young, calls, diet and Kruger-specific statements. Each filled fact is written in our own words, with the printed page number in that species' `sources` entry (book pages, not PDF pages). The book text is not hosted or stored in this repository. Nothing that already had a sourced value was overwritten; where the book differs, the existing value stays and the difference is logged in `docs/skinner-chimimba-pass.md`. Ranges are taken only where the book prints a minimum and maximum, not from means. Table samples (for example Zimbabwe, Botswana, the former Transvaal) are combined and named in `size.note`. Page numbers should be checked against the owner's own legal copy before the data is treated as final.
 
 ### 9. Stuart’s field guide to the mammals of southern Africa
 
