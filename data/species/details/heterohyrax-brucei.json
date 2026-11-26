@@ -181,7 +181,7 @@
           "pattern": "thick, coarse fur, greyer in drier country and darker reddish-brown in wetter country; a dorsal gland about 1.5 cm long on the lower back is surrounded by erectile hairs and usually shows as a yellow spot, sometimes reddish-ochre to dirty white, and the mark is variable across the range"
         },
         "underparts": {
-          "colour": null,
+          "colour": "white or off-white; the belly can be pale yellow or dirty white in the darker, high-rainfall form",
           "pattern": null
         },
         "legs": {
@@ -300,6 +300,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/43088",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (pp. 46-47). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -312,7 +319,7 @@
     "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "Shoulder height was not found. Tail length was not published; sources disagree on whether the tail is absent or only rudimentary.",
     "A Kruger-specific birth-month range was not found. Published peak birth months are for Kenya, Zimbabwe and the Serengeti.",
-    "Underpart colour and iris colour were not given in the sources used, so those marks are null. Skinner & Chimimba and Stuart's field guide were not available as standalone accounts, except for the eye and face contrast quoted in the 2016 regional assessment.",
+    "Iris colour was not given in the sources used, so that mark is null. Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry.",
     "iNaturalist has 0 sound observations for Heterohyrax brucei in place 69020. The alarm description is taken from Wikipedia and Animal Diversity Web; recordings is empty.",
     "Only three of the six shortlisted Kruger photographs were used. From that shortlist, a distant silhouette on a kopje (observation 44642401), a distant animal on a boulder (observation 385281143), and a skull (observation 302568528) were not used. Camp shots near Punda Maria, records within about 2 km of the Pafuri picnic site, records with accuracy worse than about 1 km, and Dead-annotated records were excluded before shortlisting."
   ]

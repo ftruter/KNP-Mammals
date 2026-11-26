@@ -31,7 +31,15 @@
         ]
     },
     "size": {
-        "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length as 2.91 ± 0.11 cm in females and 2.87 ± 0.11 cm in males, and maximum forearm length as 3.12 cm in females and 2.99 cm in males. It notes slight sexual dimorphism, with females slightly heavier than males, but publishes no mass figures. Wikipedia, citing Branch and Stuart (2007), gives an average mass of 3.5 g (0.0035 kg) and remarks that the species is perhaps Africa's smallest bat. No head-and-body length, total length, tail length, wingspan or mass range was published on the pages used."
+        "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length as 2.91 ± 0.11 cm in females and 2.87 ± 0.11 cm in males, and maximum forearm length as 3.12 cm in females and 2.99 cm in males. It notes slight sexual dimorphism, with females slightly heavier than males, but publishes no mass figures. Wikipedia, citing Branch and Stuart (2007), gives an average mass of 3.5 g (0.0035 kg) and remarks that the species is perhaps Africa's smallest bat. No head-and-body length, total length, tail length, wingspan or mass range was published on the pages used. Skinner and Chimimba (2005, p. 301) give, in Table 179.1 (all samples combined): tail 2.5–3.4 cm; mass 0.0031–0.0049 kg.",
+        "tailCm": {
+            "min": 2.5,
+            "max": 3.4
+        },
+        "massKg": {
+            "min": 0.0031,
+            "max": 0.0049
+        }
     },
     "summary": "A very small insect-eating vesper bat of savanna woodland, usually near water, with bicoloured fur that has rusty-tinged tips and pale rusty-grey bases. It is a clutter-edge forager that takes beetles, flies and moths. Daytime roosts are poorly known, but it has been found in tree crevices and hollows, under the bark of dead Vachellia trees, and in the roof spaces of old buildings. The 2025 regional assessment rates it Least Concern. That page does not mention Kruger National Park; it lists occurrence in the Great Limpopo Transfrontier Park and gives the movement pattern as unknown.",
     "description": "The 2025 EWT assessment, citing Monadjem et al. (2020), says the species can sometimes be distinguished from other similarly sized pipistrelles in the field by its bicoloured fur, which has rusty-tinged tips and pale rusty-grey bases, and that males are readily identifiable from other pipistrelle-like bats by their distinctive penile morphology (Fasel et al. 2020). The English checklist name is Rusty bat, and the Afrikaans checklist name is Roeskleurvlermuis; those list forms are kept here. The 2025 EWT assessment uses Rusty Bat as its title and also lists Rusty Pipistrelle, Rusty Pipistrelle Bat and Rustic Pipistrelle, with the Afrikaans name Roeskleurvlermuis. Wikipedia's title, and iNaturalist's preferred English name, is Rusty pipistrelle. The species was described as Scotophilus rusticus Tomes, 1861; the current combination is Pipistrellus rusticus. The assessment also lists Pipistrellus marrensis Thomas and Hinton, 1923 and Eptesicops rusticus Roberts, 1926 as synonyms. It notes that two subspecies have been recognised (Simmons 2005), P. r. marrensis from Senegal to Ethiopia and Kenya and the slightly larger P. r. rusticus in southern Africa, but that the validity of these subspecies is uncertain, and that recent molecular work (Torrent et al. 2025) suggests southern African individuals are more closely related to Pipistrellus cf. hesperidus from Senegal than to Kenyan P. hesperidus. Those taxonomic points are flagged, not used to remap the checklist name. The 2025 assessment, citing Monadjem et al. (2020), gives mean forearm length as 2.91 cm in females and 2.87 cm in males. Wikipedia, citing Branch and Stuart (2007), gives an average mass of 3.5 g and remarks that the species is perhaps Africa's smallest bat.",
@@ -114,8 +122,8 @@
                     "pattern": "bicoloured fur"
                 },
                 "underparts": {
-                    "colour": null,
-                    "pattern": null
+                    "colour": "a shade lighter than the upperparts, tinged with grey",
+                    "pattern": "each hair black at the base with a broad rusty tip"
                 },
                 "legs": {
                     "colour": null
@@ -173,6 +181,13 @@
             "publisher": "SANBI and Endangered Wildlife Trust",
             "year": 2016,
             "note": "Within the assessment region the species occurs in Limpopo, Mpumalanga, Gauteng and the North West. Protected areas named include the Great Limpopo Transfrontier Park. The assessment does not name Kruger National Park or the Lowveld, so rules (a) and (b) are not met. Cited only; the PDF is not hosted in this repo."
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 301, Table 179.1), marks (p. 301). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {
@@ -187,7 +202,7 @@
         "No sourced echolocation or social-call description. No iNaturalist sound was found in Kruger (place 69020).",
         "No licensable photograph was found in Kruger (place 69020), in South Africa (place 6986), or in southern Africa (place 113055). Wikimedia Commons has only File:Pipistrellus rusticus.jpg, a white-background portrait from Mamba et al. (2024), which was not used; a search under the English name Rusty pipistrelle found no further photographs.",
         "Pup appearance was not published in the sources used.",
-        "Ear, face, underparts, wing, leg and tail colours were not described on the pages used, beyond bicoloured fur with rusty-tinged tips and pale rusty-grey bases.",
+        "Ear, face, wing, leg and tail colours were not described on the pages used, beyond bicoloured fur with rusty-tinged tips and pale rusty-grey bases.",
         "No named similar species; the 2025 assessment only notes that the species can be difficult to distinguish in the field from other similarly sized pipistrelles."
     ]
 }

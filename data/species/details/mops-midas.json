@@ -51,14 +51,14 @@
       "max": null
     },
     "tailCm": {
-      "min": null,
-      "max": null
+      "min": 4.0,
+      "max": 5.8
     },
     "massKg": {
-      "min": null,
-      "max": null
+      "min": 0.041,
+      "max": 0.0523
     },
-    "note": "The lengths and adult masses published in the sources used are not entered as head-and-body, tail or mass ranges. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 6.15 cm in females and 6.38 cm in males; those figures are not entered as headBodyLengthCm. The same assessment, citing Skinner and Chimimba (2005), gives the mass of a single young at birth as 9.6–10.0 g, which is a neonatal mass and is not entered as adult massKg. Wikipedia, citing Dunlop (1999), says the species is heavier than other bats of the same family because of its larger feet, thumbs and tail, but gives no measurements. No shoulder height was published in the sources used."
+    "note": "The lengths and adult masses published in the sources used are not entered as head-and-body, tail or mass ranges. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 6.15 cm in females and 6.38 cm in males; those figures are not entered as headBodyLengthCm. The same assessment, citing Skinner and Chimimba (2005), gives the mass of a single young at birth as 9.6–10.0 g, which is a neonatal mass and is not entered as adult massKg. Wikipedia, citing Dunlop (1999), says the species is heavier than other bats of the same family because of its larger feet, thumbs and tail, but gives no measurements. No shoulder height was published in the sources used. Skinner and Chimimba (2005, p. 281, Table 163.1) give, for all samples combined: tail 4–5.8 cm; mass 0.041–0.0523 kg."
   },
   "summary": "A large free-tailed bat of hot, low-lying savanna and woodland, often near rivers and permanent water, with dark brown fur speckled with white and paler on the front half of the body, and broad ears joined by a hairy membrane across the forehead. It roosts by day in complete darkness, including in trees, under bridges and in roofs, forages in open air usually high above the ground, and is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List (2017).",
   "description": "A free-tailed bat of the family Molossidae. Wikipedia, citing Dunlop (1999), describes broad ears connected by a hairy membrane across the forehead, dark brown fur with white specks and paler on the front half of the body, and less hair on the neck, thighs and legs; it also describes the species as heavier than other members of the family, with larger feet, thumbs and tail. The same page, citing Ratrimomanarivo et al., says African savanna animals have dark and red colour phases, whereas the Malagasy population is entirely dark. The 2025 EWT assessment does not describe pelage colour. The English name in species-list.json is Midas free-tailed bat. The 2025 EWT assessment uses Midas Free-tailed Bat as the lead English name, and also lists Midas Mops Bat, Midas Bat, Midas Groove-cheeked Bat and Sundevall's Free-tailed Bat; the species-list form is kept. The Afrikaans name in species-list.json is Midas se losstertvlermuis, which matches the 2025 EWT assessment (Midas se Losstertvlermuis). The file keeps the species-list.json name Mops midas and does not remap it. Synonyms listed in the 2025 assessment include Dysopes midas, Mops midas ssp. miarensi, Mops unicolor and Tadarida midas. The assessment treats the African continental population as the subspecies M. midas midas and the Madagascan population as M. midas miarensis, while noting that genetic work has not validated those subspecies and that further research is needed.",
@@ -153,8 +153,8 @@
           "pattern": "white specks; paler on the front half of the body; less hair on the neck, thighs and legs. African animals are described as having dark and red colour phases; the Malagasy population is described as entirely dark. Sexes are not described as differing in colour in the sources used"
         },
         "underparts": {
-          "colour": null,
-          "pattern": null
+          "colour": "lighter and more tawny than the upperparts",
+          "pattern": "hairs from the chest to the belly tipped with white, most noticeably on the flanks"
         },
         "legs": {
           "colour": null
@@ -212,6 +212,13 @@
       "publisher": "Wikimedia Commons",
       "year": 2026,
       "note": "A file search for Mops midas, and a further search for the synonym Tadarida midas, found no photograph of this species. Hits included a museum skin of Mops condylurus and unrelated documents, none of which was used."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 281, Table 163.1), marks (p. 281). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -226,7 +233,7 @@
     "species-list.json, the 2025 EWT assessment and Wikipedia use Mops midas. Synonyms in the 2025 assessment include Dysopes midas, Tadarida midas, Mops unicolor and Mops midas ssp. miarensi. The file keeps the species-list.json name and does not remap it. The 2025 assessment notes that the named subspecies have not been validated genetically and that the southern and northern African populations may be isolated; those questions are flagged and are not resolved here.",
     "The Afrikaans name in species-list.json is Midas se losstertvlermuis, which matches the 2025 EWT assessment (Midas se Losstertvlermuis). The species-list form is kept.",
     "The English name in species-list.json is Midas free-tailed bat. The 2025 EWT assessment uses Midas Free-tailed Bat as the lead name and also lists Midas Mops Bat, Midas Bat, Midas Groove-cheeked Bat and Sundevall's Free-tailed Bat; iNaturalist's preferred common name for taxon 765553 is Midas Free-tailed Bat. The species-list form is kept.",
-    "Head-and-body length, tail length, adult mass, shoulder height, underpart colour, ear colour, iris colour, muzzle colour, leg colour, tail colour and tail shape were not given unambiguously in the sources used, so those marks or bounds are null. Mean forearm lengths (6.15 cm in females and 6.38 cm in males) and neonatal mass (9.6–10.0 g) are recorded in the size note but are not entered as head-and-body length or adult mass.",
+    "Head-and-body length, shoulder height, ear colour, iris colour, muzzle colour, leg colour, tail colour and tail shape were not given unambiguously in the sources used, so those marks or bounds are null. Mean forearm lengths (6.15 cm in females and 6.38 cm in males) and neonatal mass (9.6–10.0 g) are recorded in the size note but are not entered as head-and-body length or adult mass.",
     "The 2025 EWT assessment, citing Aldridge and Rautenbach (1987), says the species flies usually at heights of above 40 m. Wikipedia, citing Smithers and Skinner, says it prefers open airspace at up to 40 m. The two wordings are recorded and are not averaged.",
     "The 2025 EWT assessment gives a southern African parturition period of December–March (Monadjem et al. 2020). Wikipedia, citing Smithers and Skinner, gives births in February–March after pregnancies found in December and January. Both accounts are kept.",
     "No species-level identification comparison with other free-tailed bats in this guide was given in the 2025 EWT assessment or on Wikipedia, beyond the qualitative statement that this species is heavier, with larger feet, thumbs and tail, than other members of the family. The similar list is therefore empty.",

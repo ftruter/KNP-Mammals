@@ -61,7 +61,11 @@
             "min": 0.03,
             "max": 0.03
         },
-        "note": "The 2016 EWT assessment does not publish body measurements; it gives only a skull length under 31 mm as a character that, on average, distinguishes this species from Grammomys cometes and Grammomys ibeanus. Wikipedia, citing Stuart's Field Guide to Mammals of Southern Africa (2007), gives a total length of 27 cm and a mass of 30 g (0.030 kg). Those are single figures, not ranges, and the length is a total length rather than a head-and-body and tail split. Animal Diversity Web is a classification stub and does not publish measurements."
+        "note": "The 2016 EWT assessment does not publish body measurements; it gives only a skull length under 31 mm as a character that, on average, distinguishes this species from Grammomys cometes and Grammomys ibeanus. Wikipedia, citing Stuart's Field Guide to Mammals of Southern Africa (2007), gives a total length of 27 cm and a mass of 30 g (0.030 kg). Those are single figures, not ranges, and the length is a total length rather than a head-and-body and tail split. Animal Diversity Web is a classification stub and does not publish measurements. Skinner and Chimimba (2005, p. 139) give, in Table 73.1 (all samples combined): tail 14–19.8 cm.",
+        "tailCm": {
+            "min": 14.0,
+            "max": 19.8
+        }
     },
     "summary": "A small, nocturnal, typically arboreal mouse of forest, woodland and thick vegetation in eastern southern Africa, with a long tail used for balance and a lengthened fifth digit on each hindfoot. It builds a spherical nest of grass and leaves above the ground, and is present in Kruger National Park.",
     "description": "The woodland mouse, also called the woodland thicket rat, is a small arboreal murid. The 2016 EWT assessment, citing Happold, describes it as a highly agile climber, with a long tail for balance and a lengthened fifth digit on each hindfoot. On average it is smaller than Grammomys cometes and Grammomys ibeanus (skull length under 31 mm) and lacks the white patch behind the ear that those species have; EWT, citing Skinner and Chimimba and Happold, notes that the characters used to separate the three are otherwise unreliable where they occur together, and that they are easily confused. Wikipedia, citing Stuart (2007), gives a total length of 27 cm and a mass of 30 g. A sourced description of coat colour was not found in the accounts used. The sexes are not described as differently marked. EWT treats the taxon as a species complex.",
@@ -146,11 +150,11 @@
                     "shape": null
                 },
                 "upperparts": {
-                    "colour": null,
-                    "pattern": null
+                    "colour": "varies with region: tawny-reddish in eastern Zimbabwe, dark slate with a grey tinge and some red on the rump in Limpopo Province",
+                    "pattern": "each hair dark grey at the base; the colour comes from the hair tips"
                 },
                 "underparts": {
-                    "colour": null,
+                    "colour": "pure white, sharply set off from the upperparts",
                     "pattern": null
                 },
                 "legs": {
@@ -224,6 +228,13 @@
             "url": "https://api.inaturalist.org/v1/taxa/45253",
             "publisher": "iNaturalist",
             "year": 2026
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 139, Table 73.1), marks (p. 138). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {
@@ -239,7 +250,7 @@
         "iNaturalist has 0 sound observations for Grammomys dolichurus in place 69020. No sourced description of the calls was found.",
         "Grammomys dolichurus is treated as a species complex. The 2016 EWT assessment notes that northern populations may correspond to G. surdaster, and that G. dolichurus is easily confused with G. cometes and G. ibeanus. Wikipedia lists older combinations in Thamnomys among the synonyms. This file follows species-list.json (Grammomys dolichurus) and does not remap Kruger records. G. cometes is not in the Kruger species list. EWT records the species as present in Kruger National Park.",
         "A 2025 EWT project page was not found in the one site search. The 2025 regional status is taken as Least Concern because the 2025 Mammal Red List fact sheet does not list a status change for this species.",
-        "Skinner and Chimimba and Stuart's field guide were not available as books. Animal Diversity Web is a classification stub and has no measurements or natural-history account.",
+        "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Animal Diversity Web is a classification stub and has no measurements or natural-history account.",
         "No Kruger-specific breeding, diet or activity study was found. Litter size and gestation were not given in the sources used. The only diet figures are from a Karkloof Forest sample, not from Kruger. No wild predator species was named."
     ]
 }

@@ -56,7 +56,7 @@
     "description": "The 2025 EWT assessment, like the combined 2016 assessment of this species and the multimammate mouse, gives the namesake mark as a large number of mammae, between eight and 12 pairs from the sternum to the inguinal region. It states that the two species are cryptic and cannot be distinguished by appearance, cranio-dental features, or a multivariate analysis, and are separated only by chromosome number (2n = 32 in M. natalensis; 2n = 36 in M. coucha) and molecular markers. Coat colour, ear shape and other external marks were not described in the sources used. The sexes are not described as differently marked, apart from the mammae.",
     "habits": "Both Mastomys species are described in the 2025 and 2016 EWT assessments as terrestrial and nocturnal. M. natalensis is typically associated with agricultural fields and homes, but also occurs in natural savannahs and grasslands. It tolerates disturbance well, can be abundant in Aristida and disturbed grasslands, and rapidly colonises areas after fire, overgrazing or cultivation. It is a prolific, opportunistic breeder, and population eruptions often occur under favourable conditions. In Roan Camp, Kruger National Park, Kneidinger et al. (2014), as cited by EWT, found that M. natalensis dominated in wetter areas, whereas M. coucha was found in relatively more high-altitude, low-rainfall areas. A more detailed Kruger-specific activity study was not found.",
     "diet": {
-        "summary": "The 2025 EWT assessment, citing Monadjem et al. (2015), describes both Mastomys species as having a diet that varies from granivorous to omnivorous, sometimes including arthropods and carrion. At Umvoti Vlei Conservancy, KwaZulu-Natal, Fuller and Perrin (2001), as cited by EWT, found that M. natalensis preferred green plant foods, and that its diet changed from predominantly plant material in summer to mainly seeds in winter. A diet study confined to Kruger was not found.",
+        "summary": "The 2025 EWT assessment, citing Monadjem et al. (2015), describes both Mastomys species as having a diet that varies from granivorous to omnivorous, sometimes including arthropods and carrion. At Umvoti Vlei Conservancy, KwaZulu-Natal, Fuller and Perrin (2001), as cited by EWT, found that M. natalensis preferred green plant foods, and that its diet changed from predominantly plant material in summer to mainly seeds in winter. In Kruger during a period of high rainfall, stomachs (n 12) held about 63% seeds, 32% plant matter and 5% insects (Skinner and Chimimba 2005, p. 150, citing Watson 1987).",
         "items": [
             "green plant foods",
             "seeds",
@@ -234,6 +234,13 @@
             "url": "https://api.inaturalist.org/v1/taxa/45326",
             "publisher": "iNaturalist",
             "year": 2026
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: diet (p. 150). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {
@@ -247,9 +254,9 @@
         "No licensable photograph from Kruger suitable for display was found. iNaturalist has 0 research-grade observations of Mastomys natalensis in place 69020 with an allowed photo licence. A South Africa (place 6986) search returned four licensed research-grade records identified as M. natalensis: one wild animal in the Waterberg District Municipality, Limpopo, is used, with the caveat that M. natalensis and M. coucha cannot be distinguished by appearance; one at KwaDukuza, KwaZulu-Natal, shows an animal being held; and two at Ukulinga Research Farm, KwaZulu-Natal, are of animals caught at night.",
         "iNaturalist has 0 sound observations for Mastomys natalensis in place 69020. No sourced description of the calls was found.",
         "M. natalensis and M. coucha are cryptic sibling species, told apart mainly by chromosome number (2n = 32 versus 2n = 36) and molecular markers, not by appearance. This file follows species-list.json (Mastomys natalensis) and does not attempt to re-identify Kruger records. The 2025 and 2016 EWT assessments, citing Kneidinger et al. (2014), record both species at Roan Camp, Kruger National Park.",
-        "Skinner and Chimimba and Stuart's field guide were not available as books. The 2025 and 2016 EWT assessments and Wikipedia do not publish measurements, and Animal Diversity Web has only a classification page, so size is omitted.",
+        "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. The 2025 and 2016 EWT assessments and Wikipedia do not publish measurements, and Animal Diversity Web has only a classification page, so size is omitted.",
         "Coat colour, ear colour and shape, eye colour, tail colour and shape, leg colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null.",
         "iNaturalist has 0 research-grade observations of this taxon in place 69020, although the species is on the 2011 SANParks checklist and the 2016 and 2025 EWT assessments record it in Kruger. Kruger presence follows those sources.",
-        "No Kruger-specific breeding or diet study was found. Litter size and the figure of up to 24 foetuses are given by EWT for both Mastomys species together. The summer–winter diet shift is from Umvoti Vlei, KwaZulu-Natal, not Kruger."
+        "No Kruger-specific breeding study was found. Litter size and the figure of up to 24 foetuses are given by EWT for both Mastomys species together. The summer–winter diet shift is from Umvoti Vlei, KwaZulu-Natal, not Kruger."
     ]
 }

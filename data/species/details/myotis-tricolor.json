@@ -31,7 +31,19 @@
         ]
     },
     "size": {
-        "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives only means: forearm length 5.04 ± 0.18 cm and total length 10.60 ± 0.56 cm in females, and forearm length 4.96 ± 0.15 cm and total length 10.40 ± 0.62 cm in males. Wikipedia quotes an average mass of 13.9 g and a forelimb length of 49.5 mm. No head-and-body length, tail length, shoulder height or mass range was published on the pages used."
+        "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives only means: forearm length 5.04 ± 0.18 cm and total length 10.60 ± 0.56 cm in females, and forearm length 4.96 ± 0.15 cm and total length 10.40 ± 0.62 cm in males. Wikipedia quotes an average mass of 13.9 g and a forelimb length of 49.5 mm. No head-and-body length, tail length, shoulder height or mass range was published on the pages used. Skinner and Chimimba (2005, p. 312) give, in Table 189.1 (all samples combined): head-and-body length 5.1–6.5 cm; tail 3.4–5.6 cm; mass 0.008–0.015 kg.",
+        "headBodyLengthCm": {
+            "min": 5.1,
+            "max": 6.5
+        },
+        "tailCm": {
+            "min": 3.4,
+            "max": 5.6
+        },
+        "massKg": {
+            "min": 0.008,
+            "max": 0.015
+        }
     },
     "summary": "A medium-sized insect-eating vesper bat with orangey to rufous fur, each hair dark at the base and coppery-red towards the tip. It roosts by day in moist caves and mine shafts, forages along the clutter edge, and in the assessment region migrates between summer maternity caves and winter hibernation caves. The 2025 regional assessment rates it Least Concern. That page does not mention Kruger National Park, and it lists the movement pattern as migratory.",
     "description": "Wikipedia describes a diminutive bat, very similar in appearance to the even more diminutive rufous mouse-eared bat, with orangey to rufous fur on the back, slightly paler underparts, and long, erect, soft fur. Each hair is dark at its base and coppery-red towards the tips. The wings are relatively broad and dark brown, contrasting with the bright body fur. The face is plain, with no nose-leaf, and the moderately large brown ears have a long narrow tragus. The English checklist name is Temminck's hairy bat; Wikipedia's title is Cape hairy bat, and it also lists Temminck's mouse-eared bat, Cape myotis, three-coloured bat and other English names. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length as 5.04 cm in females and 4.96 cm in males, and mean total length as 10.60 cm in females and 10.40 cm in males. Wikipedia quotes an average mass of 13.9 g and a forelimb length of 49.5 mm. The assessment notes that the species was originally described in 1832 as Vespertilio tricolor, with type locality Cape Town, and lists Eptesicus loveni as a synonym.",
@@ -205,6 +217,13 @@
             "publisher": "Wikipedia",
             "year": 2026,
             "note": "The title Myotis tricolor redirects here. Source of the appearance account (orangey to rufous fur, paler underparts, hair dark at the base and coppery-red towards the tips, dark brown wings, plain face, brown ears with a long narrow tragus), the average mass and forelimb figures, the comparison with the rufous mouse-eared bat, and the KwaZulu-Natal breeding remarks (mating in May, sperm storage, births in November and December, six weeks of suckling). Lists several English names, including Cape hairy bat and Temminck's hairy bat. Cites the 2017 IUCN Least Concern assessment (Monadjem and Jacobs)."
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 312, Table 189.1). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {

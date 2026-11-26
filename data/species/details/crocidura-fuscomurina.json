@@ -86,7 +86,11 @@
       "min": 0.002,
       "max": 0.005
     },
-    "note": "One source claims a head-and-body length of 4.8–7.5 cm and a mass of 2–5 g (0.002–0.005 kg) for Crocidura fuscomurina. Those figures are a published range, not a mean. A tail length was printed in the same account, but the digits were not a clear minimum and maximum, so tail bounds are left unset. A more accurate figure may be available at this URL: https://ewt.org/project/tiny-musk-shrew/"
+    "note": "One source claims a head-and-body length of 4.8–7.5 cm and a mass of 2–5 g (0.002–0.005 kg) for Crocidura fuscomurina. Those figures are a published range, not a mean. A tail length was printed in the same account, but the digits were not a clear minimum and maximum, so tail bounds are left unset. A more accurate figure may be available at this URL: https://ewt.org/project/tiny-musk-shrew/ Skinner and Chimimba (2005, p. 244) give, in Table 139.1 (all samples combined): tail 3.6–4.9 cm.",
+    "tailCm": {
+      "min": 3.6,
+      "max": 4.9
+    }
   },
   "similar": [],
   "variants": [],
@@ -165,6 +169,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "A stub. Redirect from Crocidura fuscomurina. Used for the IUCN global citation only. This file keeps the 2011 checklist English name Tiny musk shrew."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 244, Table 139.1), young (pp. 244-245). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -177,9 +188,10 @@
     "No iNaturalist observations of any grade in Kruger (place 69020). One research-grade photograph from the Okavango Delta, Botswana (place 113055) is used. The three licensed research-grade photographs from place 6986 were not used: one from Ladybrand was annotated dead and had been found by a dog; the Sekhukhune, Limpopo, set showed a handled animal in a glove or plastic bag; and the Nkangala, Mpumalanga, photograph showed an animal laid out on a pale surface. A Windhoek record in place 113055 was annotated dead. Wikimedia Commons had only a range map and a copy of the rejected Sekhukhune photograph.",
     "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
     "No Kruger census or SANParks park-wide population figure.",
-    "Head-and-body length, tail length, mass, and pelage colours were not published in the sources consulted, so size is omitted and variants are empty. Coat colour was not inferred from the English name Bicolored Musk Shrew.",
-    "Litter size, gestation, age at sexual maturity and the appearance of the young were not found.",
+    "Head-and-body length, mass and pelage colours were not published in the sources consulted, so size is omitted and variants are empty. Coat colour was not inferred from the English name Bicolored Musk Shrew.",
+    "Gestation and age at sexual maturity were not found.",
     "No external field marks were found that separate this species from Crocidura cyanea, C. hirta, C. mariquensis, C. silacea or Suncus lixa, so similar is left empty.",
     "The 2025 EWT assessment says the taxonomic status of Lowveld subpopulations in Limpopo and Mpumalanga needs revision, as they might comprise a different species (R. Hutterer unpubl. data); this file keeps Crocidura fuscomurina from species-list.json and does not remap records."
-  ]
+  ],
+  "young": "Breeding takes place in the warm, wet season, from November to April. Skinner and Chimimba (2005, pp. 244–245) give a mean litter of 3.4 (range 2–5, n 8) and a birth mass of 0.25–1 g. In captive young the snout is bulbous at birth and looks like the adult's by day 13; the skin of the back is grey on day 1, with a few short whitish hairs, and by day 7 the upperparts have short greyish-brown hair and the underparts whitish hair. The pelage resembles the adult's by day 10. The eyes are closed at birth, slits appear on day 4 and the eyes open on day 12. Young explore from day 17 and start eating solid food by day 19. They follow the mother in a caravan, each biting the base of the tail or the rump of the one in front, until about day 19; in a Kruger litter the young rode on the mother's back instead."
 }

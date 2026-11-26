@@ -46,7 +46,15 @@
     ]
   },
   "size": {
-    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm lengths of 5.37 ± 0.19 cm in females and 5.36 ± 0.20 cm in males, and lists maximum sizes in the same forearm fields of 5.72 cm (female) and 5.80 cm (male). Wikipedia quotes an average total body length of 130 mm, a forearm length of 50–58 mm, and an average mass of 23 g. No head-and-body length, tail length, shoulder height or mass range was published on the pages used. The EWT assessment also lists size at birth as 2.0 cm, without stating which measurement that is."
+    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm lengths of 5.37 ± 0.19 cm in females and 5.36 ± 0.20 cm in males, and lists maximum sizes in the same forearm fields of 5.72 cm (female) and 5.80 cm (male). Wikipedia quotes an average total body length of 130 mm, a forearm length of 50–58 mm, and an average mass of 23 g. No head-and-body length, tail length, shoulder height or mass range was published on the pages used. The EWT assessment also lists size at birth as 2.0 cm, without stating which measurement that is. Skinner and Chimimba (2005, p. 320) give, in Table 197.1 (all samples combined): tail 3.8–6.1 cm; mass 0.0145–0.042 kg.",
+    "tailCm": {
+      "min": 3.8,
+      "max": 6.1
+    },
+    "massKg": {
+      "min": 0.0145,
+      "max": 0.042
+    }
   },
   "summary": "A medium-sized vesper bat with light brown upperparts, a yellow belly, and a short, broad, dog-like snout. It roosts by day in hollow trees and in roofs, and forages after dark along clutter edges, mainly for beetles. It is a year-round resident in Kruger, and also uses buildings and suburban roosts.",
   "description": "A medium-sized house bat with a short, broad, dog-like snout and clearly visible eyes. Wikipedia describes the upperparts as light brown and the belly as yellow, the wings as olive, grey or red, and the interfemoral membrane as brown and translucent. The 2025 EWT assessment does not add a separate colour account. Ear, iris and leg colours were not described on the pages used.",
@@ -176,6 +184,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "The title Scotophilus dinganii redirects here. Source of the appearance account (light brown upperparts, yellow belly, short broad dog-like snout, visible eyes, wings olive, grey or red, brown translucent interfemoral membrane), average total body length 130 mm, forearm 50–58 mm, average mass 23 g, tree-hollow and roof roosts, colonies rarely of more than 12, roost-site faithfulness, emergence after dark and a roughly two-hour feeding bout, the comparison with the Cape serotine bat, diet details beyond beetles, and the breeding remarks (mating in the austral autumn; twins in late November or early December; weaning within weeks). Lists several English names, including African yellow bat, African yellow house bat, yellow-bellied house bat and Dingan's Bat. Cites the 2017 IUCN Least Concern assessment (Monadjem and Griffin)."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 320, Table 197.1). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

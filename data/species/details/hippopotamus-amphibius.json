@@ -71,7 +71,11 @@
       "min": 1300,
       "max": 3200
     },
-    "note": "Shoulder height and tail length follow Wikipedia, which also splits shoulder height as 140–165 cm in males and 130–145 cm in females, and gives a typical head-and-body length of 3.3–3.45 m and a total length including the tail of 2.90–5.05 m. Mass 1,300–3,200 kg follows Animal Diversity Web. Wikipedia instead gives mean adult weights of about 1,480 kg in bulls and 1,365 kg in cows, with exceptionally large males reaching 2,660 kg; those means are not entered as ranges. No Kruger-specific measurements were found."
+    "note": "Shoulder height and tail length follow Wikipedia, which also splits shoulder height as 140–165 cm in males and 130–145 cm in females, and gives a typical head-and-body length of 3.3–3.45 m and a total length including the tail of 2.90–5.05 m. Mass 1,300–3,200 kg follows Animal Diversity Web. Wikipedia instead gives mean adult weights of about 1,480 kg in bulls and 1,365 kg in cows, with exceptionally large males reaching 2,660 kg; those means are not entered as ranges. No Kruger-specific measurements were found. Skinner and Chimimba (2005, p. 556) give, in Table 279.1 (all samples combined): head-and-body length 25.9–35 cm.",
+    "headBodyLengthCm": {
+      "min": 25.9,
+      "max": 35.0
+    }
   },
   "summary": "A huge, barrel-shaped, almost hairless mammal of rivers and dams. The eyes, ears and nostrils sit high on the head, so the animal can lie almost submerged with only those parts showing. The skin is purplish-grey or bluish-black, pinker around the eyes, ears and underside. Kruger holds a year-round population concentrated on the perennial rivers.",
   "description": "Adults are among the heaviest land mammals. The body is barrel-shaped, with short legs and a short tail, and the mouth can open very widely, showing long lower canines and incisors used in fighting. The skin is very thick and nearly hairless, purplish-grey or blue-black on the upperparts and brownish-pink on the underside and around the eyes and ears. A red-orange secretion, sometimes called 'blood sweat', acts as a sunscreen and antibiotic. Males and females are hard to tell apart in the field; cows and young bulls in particular look similar. Calves are much smaller and often stay close to the cow, sometimes on her back in deep water.",
@@ -418,6 +422,13 @@
       "publisher": "Visit the Kruger Park",
       "year": 2026,
       "note": "Source of the 2023 range or count, where given."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 556, Table 279.1). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -430,6 +441,6 @@
     "2023 count is from sources that cite SANParks figures. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "No Kruger-specific calving-month range was found. General accounts give a gestation of about eight months, with births peaking in the wet season.",
     "Iris colour was not given in the sources used, so that mark is null.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web."
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web."
   ]
 }

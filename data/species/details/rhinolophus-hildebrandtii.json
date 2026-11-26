@@ -42,7 +42,15 @@
       "min": null,
       "max": null
     },
-    "note": "Wikipedia is a short stub and does not publish forearm length, mass, head-and-body length, tail length, wingspan or shoulder height. Animal Diversity Web has no species account and no measurements. No EWT 2025 assessment page or 2016 assessment PDF exists under this scientific name, so no life-history size fields were available from that source."
+    "note": "Wikipedia is a short stub and does not publish forearm length, mass, head-and-body length, tail length, wingspan or shoulder height. Animal Diversity Web has no species account and no measurements. No EWT 2025 assessment page or 2016 assessment PDF exists under this scientific name, so no life-history size fields were available from that source. Skinner and Chimimba (2005, p. 336) give, in Table 212.1 (all samples combined): tail 3.1–4.4 cm; mass 0.02–0.034 kg.",
+    "tailCm": {
+      "min": 3.1,
+      "max": 4.4
+    },
+    "massKg": {
+      "min": 0.02,
+      "max": 0.034
+    }
   },
   "summary": "A horseshoe bat of the family Rhinolophidae found in Africa. Wikipedia gives its natural habitats as savanna, caves and other subterranean habitats, and cites a global IUCN listing of Least Concern (2017). The 2011 Kruger checklist uses this scientific name, but the taxon was split after 2011, and the 2016 and 2025 regional assessments for South Africa, Eswatini and Lesotho do not list Rhinolophus hildebrandtii, assessing split taxa instead. This account keeps the checklist names and does not remap the Kruger animals. No sourced description of pelage, nose-leaf or size was found in the sources used.",
   "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia gives the authority as Peters, 1878, which matches the species-list name Rhinolophus hildebrandtii, and describes the species as found in Africa, but it does not describe pelage colour, ear shape, nose-leaf or dental characters, or any measurements. Animal Diversity Web has only a classification page, with no species account. No EWT 2025 project page or 2016 PDF under this scientific name was found to search for a description. Colour, dental and nose-leaf characters are therefore not described here and are not taken from related horseshoe bats. The 2016 EWT assessments of Rhinolophus cohenae and Rhinolophus smithersi state that those species were formerly included in Rhinolophus hildebrandtii (also spelled R. hildebrandti in those texts) and were recognised as distinct in a 2012 revision of the complex (Taylor et al. 2012). This file keeps the species-list.json names and does not remap the Kruger animals.",
@@ -102,11 +110,11 @@
           "shape": null
         },
         "upperparts": {
-          "colour": null,
-          "pattern": null
+          "colour": "greyish-brown",
+          "pattern": "plain: the hair is a single colour, long and soft"
         },
         "underparts": {
-          "colour": null,
+          "colour": "the same colour as the upperparts or very slightly lighter",
           "pattern": null
         },
         "legs": {
@@ -120,7 +128,14 @@
     }
   ],
   "viewNotes": [],
-  "calls": [],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "other",
+      "description": "Echolocation calls have a long (about 30 ms), narrow-band constant-frequency part that dominates the call, followed by a frequency-modulated sweep.",
+      "recordings": []
+    }
+  ],
   "images": [
     {
       "key": "rhinolophus-hildebrandtii/chimanimani-cave-trio.jpg",
@@ -217,6 +232,13 @@
       "publisher": "iNaturalist",
       "year": 2019,
       "note": "Research-grade photographs by Bart Wursten of wild Hildebrandt's horseshoe bats roosting on a cave wall in Chimanimani National Park, Mozambique, 25 November 2019. Licence CC BY-NC."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 336, Table 212.1), marks (p. 336), young (p. 337), calls (p. 337). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -230,13 +252,14 @@
     "The 2016 EWT assessments of Rhinolophus cohenae and Rhinolophus smithersi state that those species were formerly included in Rhinolophus hildebrandtii / R. hildebrandti and were recognised as distinct in a 2012 revision of the complex (Taylor et al. 2012). The 2025 regional summary lists those split taxa and does not list R. hildebrandtii. This file keeps the species-list.json names and does not remap the Kruger animals. iNaturalist treats several of the split names as unaccepted for taxon 183175.",
     "No Kruger census or SANParks population figure was found, and the 2016 and 2025 regional lists provide no figure under this name. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "The Afrikaans name in species-list.json is Hildebrandt se saalneusvlermuis. No EWT 2025 or 2016 assessment under this scientific name was available to cite as an independent source of that name. The species-list form is kept. The English name matches Wikipedia.",
-    "iNaturalist place 69020 (Kruger) returned 1 sound observation for taxon 183175, which was not research-grade, so it was not used. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
+    "iNaturalist place 69020 (Kruger) returned 1 sound observation for taxon 183175, which was not research-grade, so it was not used. No echolocation frequency or audible social-call description was given in the sources used.",
     "Two licensed photographs were kept from iNaturalist observation 153805909, of wild adults roosting on a cave wall in Chimanimani National Park, Mozambique (place 113055, CC BY-NC). Place 69020 still has 0 licensed research-grade photographs. The two place 6986 observations already rejected (building roost at an abandoned farm house in Bela Bela, Limpopo; handled bat at Wet Tiger River Cave, Ehlanzeni, Mpumalanga) reappeared in the place 113055 results and were not used. Wikimedia Commons searches under Rhinolophus hildebrandtii and Hildebrandt's horseshoe bat found only museum skulls, skins, a range map and unrelated PDFs, so no Commons photograph was kept.",
-    "Head-and-body length, tail length, shoulder height, forearm length, mass and wingspan were not published in the sources used, so those numeric fields are null. Wikipedia is a stub and publishes no measurements. Animal Diversity Web has no species account. There is no EWT assessment under this name to quote life-history size fields from.",
-    "No sourced pelage, ear, eye, muzzle, leg, tail, dental or nose-leaf characters were given in the sources used, so all marks are null. Those characters were not taken from related horseshoe-bat accounts.",
+    "Head-and-body length, shoulder height and wingspan were not found. Tail length and mass come from Skinner and Chimimba (2005). Wikipedia is a stub and publishes no measurements, and Animal Diversity Web has no species account.",
+    "Skinner and Chimimba (2005) give only the upperpart and underpart colours. Ear, eye, muzzle, leg, dental and nose-leaf characters were not found, so those marks are null.",
     "No sourced comparison characters for other horseshoe bats in this guide were given in the sources used, so similar is omitted.",
-    "Diet, guild, prey, predators, breeding and young were not described in the sources used, so those fields are omitted or, where the schema expects a list that would wrongly imply a negative finding, left out. predators is omitted rather than entered as an empty list.",
+    "Diet, guild, prey and predators were not described in the sources used, so those fields are omitted or, where the schema expects a list that would wrongly imply a negative finding, left out. predators is omitted rather than entered as an empty list.",
     "Animal Diversity Web has only a classification page for this species, with no species account, so it was not used for facts.",
     "Regional conservation status under this scientific name is unknown in the 2016 and 2025 EWT/SANBI lists, which do not include it. Only the global IUCN Least Concern listing cited by Wikipedia (Monadjem and Jacobs 2017) is entered."
-  ]
+  ],
+  "young": "Skinner and Chimimba (2005, p. 337) describe the species as monoestrous. In Zimbabwe mating is in early July, implantation in late July to early August and birth in late October and early November. Gestation is 90–106 days and lactation can last more than three months. Females tend to give birth to a single naked young, although one was found with two foetuses, and the young are reportedly left in the day roost while the females forage."
 }

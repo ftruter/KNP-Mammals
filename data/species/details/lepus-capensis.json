@@ -57,7 +57,15 @@
       "min": 51,
       "max": 59
     },
-    "note": "The 2025 EWT assessment gives size at maturity as 51 cm in males and 55 cm in females, and a maximum of 59 cm, without saying whether this is head-and-body length or total length. Animal Diversity Web gives a range length of 520–595 mm, which sits inside that span, and ear length of 12–14 cm. Animal Diversity Web also gives an unsexed mass of 4–5 kg, but that account mixes characters with the European brown hare, so mass is omitted rather than used. Shoulder height and a separate tail length were not found. Females are larger than males."
+    "note": "The 2025 EWT assessment gives size at maturity as 51 cm in males and 55 cm in females, and a maximum of 59 cm, without saying whether this is head-and-body length or total length. Animal Diversity Web gives a range length of 520–595 mm, which sits inside that span, and ear length of 12–14 cm. Animal Diversity Web also gives an unsexed mass of 4–5 kg, but that account mixes characters with the European brown hare, so mass is omitted rather than used. Shoulder height and a separate tail length were not found. Females are larger than males. Skinner and Chimimba (2005, p. 67) give, in Table 33.1 (all samples combined): tail 6.7–14.5 cm; mass 1.2–3 kg.",
+    "tailCm": {
+      "min": 6.7,
+      "max": 14.5
+    },
+    "massKg": {
+      "min": 1.2,
+      "max": 3.0
+    }
   },
   "summary": "A long-eared hare of open, dry grassland. The coat is a fine light brown, reddish or sandy grey, and a white ring usually surrounds the eye. Females are larger than males. It is mainly nocturnal and usually solitary. It is on the 2011 SANParks Kruger checklist. Resident status follows one research-grade record at Skukuza on 4 March 2025, whose community taxon is Lepus capensis. The 2025 regional range does not include the Lowveld and was not used for status.",
   "description": "A typical hare, with long hind legs built for leaping and running, large eyes, and long ears. A white ring usually surrounds the eye. The fine, soft coat varies from light brown to reddish to sandy grey. Animal Diversity Web describes ginger-brown upperparts with some black shading, a paler ginger wash on the breast and sides, white inner legs and belly, a reddish-grey nape, and black-tipped ears 12–14 cm long, but that account appears to mix characters with the European brown hare and is used with caution. Females are larger than males. In the field it is easily confused with the scrub hare (Lepus saxatilis); a published distinction is in the upper incisors, which is not a field character.",
@@ -185,7 +193,14 @@
       "note": "Long ears, a usually white eye-ring, and a fine coat that runs from light brown to reddish or sandy grey."
     }
   ],
-  "calls": [],
+  "calls": [
+    {
+      "sex": "any",
+      "type": "alarm",
+      "description": "Mostly silent. A high-pitched scream is given when the hare is handled or caught in a trap, and a barely audible grunt has also been noted.",
+      "recordings": []
+    }
+  ],
   "images": [
     {
       "key": "lepus-capensis/karoo-np-side.jpg",
@@ -307,6 +322,13 @@
       "publisher": "iNaturalist",
       "year": 2025,
       "note": "Research-grade observation in place 69020, observed on 4 March 2025 at Skukuza, not captive. The community taxon is Lepus capensis (taxon 57560). An earlier identification as Lepus saxatilis was replaced and is not current. Status is resident with months 1–12 under rule (c)."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 67, Table 33.1), calls (p. 68). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -319,10 +341,10 @@
     "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "No reusable Kruger photograph was found (0 licensed research-grade photographs in iNaturalist place 69020). The five photographs are research-grade records from South Africa outside Kruger. A rear-view thumbnail (observation 171254640) was not used.",
     "iNaturalist has 0 sound observations for Lepus capensis in place 69020. No sourced vocalisation description was found, so calls is empty.",
-    "Shoulder height, tail length, and a mass figure that can be used with confidence for this species were not found. Animal Diversity Web gives 4–5 kg, but that account appears to mix characters with the European brown hare, so mass is omitted.",
+    "Shoulder height and a mass figure that can be used with confidence for this species were not found. Animal Diversity Web gives 4–5 kg, but that account appears to mix characters with the European brown hare, so mass is omitted.",
     "The 2025 EWT length figures (51–59 cm) do not say whether they are head-and-body or total length.",
     "A Kruger-specific habitat account and a Kruger-specific birth-month range were not found. Southern African accounts give most births between July and December.",
     "Field marks that reliably separate Cape and scrub hares in a photograph, other than the upper incisors (Robinson 1986, cited in the 2016 assessment), were not found in the sources used.",
-    "Iris colour, ear colour as a named value, face, muzzle and tail colour were not given clearly in the sources used, so those marks are null. Skinner & Chimimba and Stuart's field guide were not available."
+    "Iris colour, ear colour as a named value, face, muzzle and tail colour were not given clearly in the sources used, so those marks are null. Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry."
   ]
 }

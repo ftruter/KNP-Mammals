@@ -57,7 +57,11 @@
             "min": 0.08,
             "max": 0.17
         },
-        "note": "Wikipedia, citing Kwiecinski and Griffiths (1999), gives an adult mass of 80-170 g, an average total body length of 15 cm, an average wingspan of about 60 cm, and a forearm length of 81-102 mm. Animal Diversity Web, citing the same work and Grzimek (2003), also gives a mass of 80-170 g and a wingspan close to 60 cm, and splits total body length as 14-19.2 cm in males and 12.1-16.7 cm in females, with forearm length 85-101.9 mm in males and 88.1-99 mm in females. The 2025 EWT assessment does not give mass or wingspan, but gives mean forearm length at maturity as 9.26 cm in females and 9.20 cm in males (Monadjem et al. 2020). Those forearm accounts are recorded as a disagreement rather than averaged. No shoulder height, head-and-body length or tail length was published as such in the sources used, so the total-length figures are not entered as head-and-body length. Wingspan and forearm figures are given in this note only. Males are described as typically larger than females."
+        "note": "Wikipedia, citing Kwiecinski and Griffiths (1999), gives an adult mass of 80-170 g, an average total body length of 15 cm, an average wingspan of about 60 cm, and a forearm length of 81-102 mm. Animal Diversity Web, citing the same work and Grzimek (2003), also gives a mass of 80-170 g and a wingspan close to 60 cm, and splits total body length as 14-19.2 cm in males and 12.1-16.7 cm in females, with forearm length 85-101.9 mm in males and 88.1-99 mm in females. The 2025 EWT assessment does not give mass or wingspan, but gives mean forearm length at maturity as 9.26 cm in females and 9.20 cm in males (Monadjem et al. 2020). Those forearm accounts are recorded as a disagreement rather than averaged. No shoulder height, head-and-body length or tail length was published as such in the sources used, so the total-length figures are not entered as head-and-body length. Wingspan and forearm figures are given in this note only. Males are described as typically larger than females. Skinner and Chimimba (2005, p. 267) give, in Table 154.1 (all samples combined): tail 1.5\u20132.4 cm.",
+        "tailCm": {
+            "min": 1.5,
+            "max": 2.4
+        }
     },
     "summary": "A medium-sized African fruit bat, dark brown to grey-brown above and paler below, often with a yellowish or orange-tinged collar, that roosts in caves, sometimes in thousands, and finds its way in the dark with tongue-click echolocation. It is recorded from Kruger National Park, feeds on soft fruit, flowers and occasionally leaves or beetles, and is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List.",
     "description": "A medium-sized fruit bat. Wikipedia, citing Kwiecinski and Griffiths (1999), describes relatively short, soft fur, dark brown to grey-brown on the back, pale brown underparts, a yellowish-brown collar around the neck, and wings darker brown than the body, with the wing membranes attaching at the first toe; males and females are similar in colour, but males are larger and can be told by a large scrotum and prominent stiff hairs around the throat. Animal Diversity Web, citing the same work, describes dorsal pelage from dark brown to medium grey, ventral pelage several shades lighter, a collar of pale yellow or orange fur often seen around the neck, no colour difference between the sexes, well-developed stiff throat hairs in males, short fur covering the head almost to the end of the muzzle except for slightly longer fur on the forehead, ears about as long as the muzzle with blunt tips and darker than the back, large eyes adapted for twilight and night vision, dark brown wing membranes with short fur extending to the proximal half of the forearm, claws on the first and second digits, and five clawed toes on each hind limb. The two collar-colour accounts (yellowish-brown; pale yellow or orange) are both recorded rather than reconciled. Wikipedia adds that the species is well adapted to seeing in low light and has a highly developed sense of smell, and gives a dental formula of 2.1.3.2 / 2.1.3.3 (34 teeth).",
@@ -174,7 +178,7 @@
                 },
                 "underparts": {
                     "colour": "pale brown, several shades lighter than the back, with a yellowish-brown or pale yellow to orange neck collar",
-                    "pattern": null
+                    "pattern": "smoke-grey, with a pale buffy or yellowish fur collar around the throat and neck"
                 },
                 "legs": {
                     "colour": null
@@ -326,6 +330,13 @@
             "url": "https://api.inaturalist.org/v1/taxa/75042",
             "publisher": "iNaturalist",
             "year": 2026
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 267, Table 154.1), marks (p. 267). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {

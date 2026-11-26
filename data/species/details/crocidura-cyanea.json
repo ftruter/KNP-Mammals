@@ -91,7 +91,11 @@
         "max": 5.5
       }
     },
-    "note": "One source claims a head-and-body length of 6.7–9.3 cm in males and 6.8–8.9 cm in females, and a tail of 4.2–6.9 cm in males and 3.3–5.5 cm in females. Those figures are published ranges, split by sex. No mass was given. A more accurate figure may be available at this URL: https://ewt.org/project/reddish-grey-musk-shrew/"
+    "note": "One source claims a head-and-body length of 6.7–9.3 cm in males and 6.8–8.9 cm in females, and a tail of 4.2–6.9 cm in males and 3.3–5.5 cm in females. Those figures are published ranges, split by sex. No mass was given. A more accurate figure may be available at this URL: https://ewt.org/project/reddish-grey-musk-shrew/ Skinner and Chimimba (2005, p. 246) give, in Table 141.1 (all samples combined): mass 0.005–0.011 kg.",
+    "massKg": {
+      "min": 0.005,
+      "max": 0.011
+    }
   },
   "similar": [
     {
@@ -175,6 +179,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "A stub. Redirect from Crocidura cyanea. Used for the IUCN global citation and a broad range list only. This file keeps the 2011 checklist English name Reddish-grey musk shrew."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 246, Table 141.1), young (p. 247). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -188,9 +199,10 @@
     "No iNaturalist observations of any grade in Kruger (place 69020). One wild South African photograph from ZF Mgcawu District Municipality was used; other licensed research-grade photographs from place 6986 showed trapped, boxed, handled, dead, cat-killed, indoor or rescued animals and were not used.",
     "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
     "No Kruger census or SANParks park-wide population figure.",
-    "Head-and-body length, tail length, mass, and pelage colours were not published in the sources consulted, so size and variants are omitted or left empty.",
-    "Litter size, gestation, age at sexual maturity and the appearance of the young were not found.",
+    "Head-and-body length, tail length and pelage colours were not published in the sources consulted, so size and variants are omitted or left empty.",
+    "Gestation, age at sexual maturity and the appearance of the young were not found.",
     "No external field marks were found that separate this species from Crocidura hirta, C. fuscomurina, C. mariquensis or Suncus lixa; only the cranial and dental contrast with C. silacea was sourced.",
     "The 2025 EWT assessment says further research is needed to resolve this species complex, and that C. cyanea and C. silacea have often been misidentified in museum records; this file keeps Crocidura cyanea from species-list.json and does not remap records."
-  ]
+  ],
+  "young": "Skinner and Chimimba (2005, p. 247) list pregnant females from Namibia (November to January, four to six foetuses), western Zimbabwe (March, two), the former Transvaal (December, two), Lesotho (October, five) and the Free State (September, three each). In KwaZulu-Natal the mean was 3.3 foetuses (range 2–4). They conclude that the young are born in the warm, wet summer months."
 }

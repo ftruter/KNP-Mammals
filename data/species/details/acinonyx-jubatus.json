@@ -81,7 +81,7 @@
     ],
     "guild": "carnivore"
   },
-  "young": "Gestation is nearly three months. A litter of up to six to eight cubs is born, though three or four is more common, in thick cover. The eyes open at 4–11 days, and cubs walk by two weeks. The dark mantle of long hair on the back of small cubs is distinctive. Females may conceive again 17–20 months after a successful litter, or sooner if a whole litter is lost. Cubs and kills are often taken by lions, leopards and spotted hyaenas.",
+  "young": "Gestation is nearly three months. A litter of up to six to eight cubs is born, though three or four is more common, in thick cover. The eyes open at 4–11 days, and cubs walk by two weeks. The dark mantle of long hair on the back of small cubs is distinctive. Females may conceive again 17–20 months after a successful litter, or sooner if a whole litter is lost. Cubs and kills are often taken by lions, leopards and spotted hyaenas. Skinner and Chimimba (2005, p. 384) say wild cheetahs are not restricted to a breeding season, so young are born at any time of the year; gestation lasts 90–98 days.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -391,6 +391,13 @@
       "publisher": "Visit the Kruger Park",
       "year": 2026,
       "note": "Secondary source quoting SANParks surveys or estimates."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 384). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

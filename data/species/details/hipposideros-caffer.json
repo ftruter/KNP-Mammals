@@ -54,7 +54,11 @@
       "min": 0.008,
       "max": 0.01
     },
-    "note": "Wikipedia, citing Wright (2009), gives a head-and-body length of 8-9 cm, a wingspan of 20-29 cm, and an adult mass of 8-10 g. No tail length, forearm length or shoulder height was published in the sources used. The 2016 EWT assessment does not give mass or length. Animal Diversity Web is a classification stub for this species and has no measurements."
+    "note": "Wikipedia, citing Wright (2009), gives a head-and-body length of 8-9 cm, a wingspan of 20-29 cm, and an adult mass of 8-10 g. No tail length, forearm length or shoulder height was published in the sources used. The 2016 EWT assessment does not give mass or length. Animal Diversity Web is a classification stub for this species and has no measurements. Skinner and Chimimba (2005, p. 349) give, in Table 223.1 (all samples combined): tail 2.3–3.7 cm.",
+    "tailCm": {
+      "min": 2.3,
+      "max": 3.7
+    }
   },
   "summary": "A medium-sized insect-eating leaf-nosed bat with long fur that may be grey or bright golden-orange, paler below, and brown wings. It hunts moths and other insects along cluttered edges, roosts in caves, rock fissures, hollow trees, mines and culverts, and is listed as Least Concern in the 2016 regional assessment and on the global IUCN Red List (2020).",
   "description": "A leaf-nosed bat of the family Hipposideridae. Wikipedia, citing Wright (2009), describes a medium-sized bat with long fur that may be either grey or a bright golden-orange, generally paler on the underside, and brown wings; adults weigh 8-10 g, with a head-and-body length of 8-9 cm and a wingspan of 20-29 cm. The ears are large and rounded, with a well-developed antitragus. The nose-leaf is horseshoe-shaped, with a distinctive small projection on either side and an additional serrated ridge of skin behind the main leaf. Both sexes have an extra pair of teats in the pubic region; these are vestigial in males and can be as long as 4 cm in some females, but are never functional, and may give the young something to hold on to. Wikipedia notes that the species is very similar in appearance to Noack's roundleaf bat (Hipposideros ruber), that the two have in the past been treated as the same species, and that together they may represent a species group containing cryptic species or subspecies that have yet to be distinguished. The 2016 EWT assessment likewise treats Hipposideros caffer as a species complex (Kock et al. 2008), assigns southern African populations to the nominate lineage H. c. caffer (Vallo et al. 2008), and notes that molecular work is still needed to resolve the taxonomy. Noack's roundleaf bat is not in this guide.",
@@ -163,7 +167,7 @@
           "pattern": "long fur that may be either grey or bright golden-orange; wings brown. Colour morphs, not a patterned coat. Sexes not described as differing in colour"
         },
         "underparts": {
-          "colour": null,
+          "colour": "similar to the upperparts but usually a little lighter",
           "pattern": "generally paler than the upperparts; a specific ventral colour was not given"
         },
         "legs": {
@@ -252,6 +256,13 @@
       "publisher": "iNaturalist",
       "year": 2026,
       "note": "Used to set status resident and monthsPresent 1-12 under owner rule (c). The query returned 13 research-grade records inside place 69020, with observed dates from 2012 to 2025 in the ten records returned; none was captive or obviously mis-placed. Camp and picnic-site localities were accepted for residency but not used as photographs."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 349, Table 223.1), marks (p. 349). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -270,7 +281,7 @@
     "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40761. The echolocation description is taken from Wikipedia (Fenton 1986). No audible social-call description was given in the sources used.",
     "No licensed Kruger photograph was kept: the place 69020 records were at rest camps (including Lower Sabie), a picnic-site cluster, or a bathroom at a rest area along a river, and the place 6986 thumbnails were building roosts or an indeterminate Hluhluwe surface. This gap-fill pass added a place 113055 licensed research-grade query and a Commons search, and kept one southern African cave-wall photograph from Arnhem Cave, Namibia (iNaturalist observation 9200458, CC BY-NC). Thumbnails dropped on this pass were a Mkhuze hide beam, an Umkhanyakude wooden ceiling, and a Commons Usakos photograph of a bat in a cloth bag; Commons otherwise returned museum skins.",
     "Animal Diversity Web is a classification stub for Hipposideros caffer and supplied no measurements, appearance, ecology or predators.",
-    "Tail length, forearm length, shoulder height, ear colour, iris colour, muzzle colour, leg colour, tail colour and a specific ventral colour were not given in the sources used, so those marks are null. Underparts are described only as generally paler than the upperparts.",
+    "Forearm length, shoulder height, ear colour, iris colour, muzzle colour, leg colour and tail colour were not given in the sources used, so those marks are null. Underparts are described only as generally paler than the upperparts.",
     "Breeding accounts disagree on the delay mechanism: the 2016 EWT assessment describes retarded embryonic development after implantation, with a KwaZulu-Natal gestation of about 220 days, while Wikipedia, citing Wright (2009), describes delayed implantation in some populations and a gestation of three to four months. No Kruger-specific breeding study was found.",
     "No sourced field comparison with Hipposideros commersoni (the other leaf-nosed bat in this guide) was found, so a similar-species entry was omitted. Wikipedia compares the species with Noack's roundleaf bat (Hipposideros ruber), which is not in this guide.",
     "No named species-level mammal predators were given. Wikipedia lists bat hawks only at group level."

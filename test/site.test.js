@@ -352,7 +352,7 @@ test('the credits page lists sources, taxonomy and every file', async () => {
   assert.equal(doc.species.length, 143)
   assert.equal(
     doc.species.reduce((sum, group) => sum + group.sources.length, 0),
-    753,
+    861,
   )
   assert.equal(doc.mediaNote, null)
   assert.equal(doc.site.licence, null)
@@ -636,21 +636,21 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
   assert.deepEqual(factsCoverage(doc), {
     species: 143,
     status: 123,
-    shoulder: 36,
-    headBody: 83,
-    tail: 74,
+    shoulder: 39,
+    headBody: 91,
+    tail: 123,
     length: 15,
-    mass: 108,
+    mass: 136,
     conservation: 143,
     population: 21,
-    sized: 118,
-    unsized: 25,
+    sized: 139,
+    unsized: 4,
   })
   assert.deepEqual(await (await get('/facts.json')).json(), doc)
 
   const masses = doc.species.map((species) => species.massKg).filter(Boolean)
-  assert.equal(masses.filter((mass) => Number.isFinite(mass.min)).length, 81)
-  assert.equal(masses.filter((mass) => mass.male || mass.female).length, 27)
+  assert.equal(masses.filter((mass) => Number.isFinite(mass.min)).length, 104)
+  assert.equal(masses.filter((mass) => mass.male || mass.female).length, 32)
 
   const wildebeest = doc.species.find(
     (species) => species.slug === 'connochaetes-taurinus',
@@ -674,7 +674,7 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
   assert.deepEqual(wildebeest.population, { low: 16700, high: 21948 })
 
   const shrew = doc.species.find(
-    (species) => species.slug === 'rhinolophus-swinnyi',
+    (species) => species.slug === 'scotophilus-borbonicus',
   )
   assert.equal(shrew.status, null)
   assert.equal(shrew.shoulderHeightCm, null)
@@ -684,9 +684,7 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
   assert.equal(shrew.massKg, null)
   assert.equal(shrew.population, null)
 
-  const bat = doc.species.find(
-    (species) => species.slug === 'miniopterus-natalensis',
-  )
+  const bat = doc.species.find((species) => species.slug === 'kerivoula-lanosa')
   assert.equal(bat.massKg, null)
   assert.equal(bat.headBodyLengthCm, null)
   assert.equal(bat.tailCm, null)
@@ -717,7 +715,7 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
     rowCells(body, 'Panthera pardus')[4],
     'males 60–70, females 57–64',
   )
-  assert.deepEqual(rowCells(body, 'Rhinolophus swinnyi').slice(3, 9), [
+  assert.deepEqual(rowCells(body, 'Scotophilus borbonicus').slice(3, 9), [
     '—',
     '—',
     '—',
@@ -725,7 +723,7 @@ test('the facts table lists stored measurements and leaves gaps blank', async ()
     '—',
     '—',
   ])
-  assert.equal(rowCells(body, 'Rhinolophus swinnyi')[10], '—')
+  assert.equal(rowCells(body, 'Scotophilus borbonicus')[10], '—')
   const batCells = rowCells(body, bat.scientificName)
   assert.equal(batCells[8], '—')
   assert.ok(!batCells.includes('0–0'))

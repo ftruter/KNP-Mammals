@@ -86,7 +86,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A single calf is born after a gestation of seven to eight months; twins are rare. In equatorial regions breeding can occur year-round, with births peaking in the rainy season. The female isolates herself to give birth. Calves are weaned at about eight months, then join groups of similar age. A newborn typically weighs about 13.6 kg. Exact calving months for Kruger were not found in the sources used here.",
+  "young": "A single calf is born after a gestation of seven to eight months; twins are rare. In equatorial regions breeding can occur year-round, with births peaking in the rainy season. The female isolates herself to give birth. Calves are weaned at about eight months, then join groups of similar age. A newborn typically weighs about 13.6 kg. Exact calving months for Kruger were not found in the sources used here. Skinner and Chimimba (2005, p. 682) say waterbuck breed throughout the year, but births peaked in Kruger in October and again in February–March (citing Pienaar 1963 and Fairall 1968); they give a gestation of 280 days.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -189,7 +189,7 @@
             "brown",
             "cream inside"
           ],
-          "shape": null
+          "shape": "short and rounded, with irregular patches of long white hair inside"
         },
         "eye": {
           "iris": null,
@@ -219,7 +219,7 @@
           "colour": "dark"
         },
         "tail": {
-          "colour": null,
+          "colour": "same colour as the upperparts, ending in a tuft of long dark hair",
           "shape": "22–45 cm"
         }
       }
@@ -238,7 +238,7 @@
             "brown",
             "cream inside"
           ],
-          "shape": null
+          "shape": "short and rounded, with irregular patches of long white hair inside"
         },
         "eye": {
           "iris": null,
@@ -268,7 +268,7 @@
           "colour": "dark"
         },
         "tail": {
-          "colour": null,
+          "colour": "same colour as the upperparts, ending in a tuft of long dark hair",
           "shape": null
         }
       }
@@ -478,6 +478,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/42328",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 681), young (p. 682). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -488,9 +495,8 @@
   },
   "gaps": [
     "2023 population range is from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "No Kruger-specific calving-month range was found.",
     "Iris colour, a named mane, and a named underpart colour were not given in the sources used, so those marks are null.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No licensable sound recording was included from xeno-canto or iNaturalist."
   ]
 }

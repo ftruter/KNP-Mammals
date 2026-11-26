@@ -62,7 +62,7 @@
     ],
     "guild": "insectivore"
   },
-  "young": null,
+  "young": "In KwaZulu-Natal a lactating female was collected in August (Skinner and Chimimba 2005, p. 239).",
   "predators": [
     {
       "slug": null,
@@ -179,6 +179,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "A stub. Redirect from Suncus lixa. Used for the IUCN global citation (Cassola 2017, as Suncus lixus) and a brief habitat note. The speciesbox uses Suncus lixa. This file keeps the 2011 checklist English name Greater dwarf shrew, and the remapped latin Suncus lixa from species-list.json."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 239). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -192,7 +199,7 @@
     "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
     "No Kruger census or SANParks park-wide population figure.",
     "Head-and-body length, tail length, mass, and pelage colours were not published in the sources consulted, so size is omitted and variants are empty. Coat colour and relative size were not inferred from the English name Greater dwarf shrew.",
-    "Litter size, gestation, age at sexual maturity, daily activity and the appearance of the young were not found. The 2025 EWT life-history fields are unspecified.",
+    "Litter size, gestation, age at sexual maturity, daily activity and the appearance of the young were not found. The 2025 EWT life-history fields are unspecified. The only breeding record in Skinner and Chimimba (2005) is a lactating female taken in KwaZulu-Natal in August.",
     "No external field marks were found that separate this species from the Crocidura shrews in this guide, or from other Suncus species, so similar is left empty.",
     "The 2025 EWT assessment uses Suncus lixus and treats the taxon as a possible species complex (S. l. lixus and S. l. gratulus); this file keeps Suncus lixa from species-list.json and does not remap records.",
     "Animal Diversity Web has no account under Suncus lixa."

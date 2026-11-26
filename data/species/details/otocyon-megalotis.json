@@ -83,7 +83,7 @@
     ],
     "guild": "insectivore"
   },
-  "young": "Pups emerge from the den at about 17 days, are weaned at about 15 weeks, and are fully grown at about five to six months. A Kruger-specific birth-month range was not found.",
+  "young": "Pups emerge from the den at about 17 days, are weaned at about 15 weeks, and are fully grown at about five to six months. A Kruger-specific birth-month range was not found. Skinner and Chimimba (2005, p. 474) say births are strongly seasonal, in October to early December in the south-western Kalahari and in October and November in Botswana; they give an average of five foetuses (range 4–6) and weaning at about 10 weeks. The same book notes the species was first recorded in Kruger in June 1969.",
   "predators": [
     {
       "slug": "lupulella-mesomelas",
@@ -315,6 +315,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 474). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

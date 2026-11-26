@@ -67,7 +67,11 @@
         "max": 1.6
       }
     },
-    "note": "Head-and-body length follows the 2025 EWT assessment, which cites Monadjem et al. (2015) for a size at maturity of 34.7 cm and a maximum of 41.3 cm (sexes combined); those two figures are stored as the range and are not a typical min–max compiled from many specimens. Wikipedia gives a nose-to-tail-tip length of about 70–80 cm, and adult masses of 1.5–2.0 kg in males and 1.2–1.6 kg in females, with males larger than females. No separate tail length or shoulder height was given for C. ansorgei. Animal Diversity Web has no species account for C. ansorgei, only a classification page; its 2004 account of C. gambianus, the name under which this species was formerly included, gives an Africa-wide total length of 645–910 mm, a mass of 1–1.47 kg, and little sexual dimorphism. Those figures are not attributed to C. ansorgei or to southern Africa and are recorded rather than used as the stored ranges."
+    "note": "Head-and-body length follows the 2025 EWT assessment, which cites Monadjem et al. (2015) for a size at maturity of 34.7 cm and a maximum of 41.3 cm (sexes combined); those two figures are stored as the range and are not a typical min–max compiled from many specimens. Wikipedia gives a nose-to-tail-tip length of about 70–80 cm, and adult masses of 1.5–2.0 kg in males and 1.2–1.6 kg in females, with males larger than females. No separate tail length or shoulder height was given for C. ansorgei. Animal Diversity Web has no species account for C. ansorgei, only a classification page; its 2004 account of C. gambianus, the name under which this species was formerly included, gives an Africa-wide total length of 645–910 mm, a mass of 1–1.47 kg, and little sexual dimorphism. Those figures are not attributed to C. ansorgei or to southern Africa and are recorded rather than used as the stored ranges. Skinner and Chimimba (2005, p. 192) give, in Table 111.1 (all samples combined): tail 36.7–46.1 cm.",
+    "tailCm": {
+      "min": 36.7,
+      "max": 46.1
+    }
   },
   "summary": "A large African pouched rat with dark brown to reddish upperparts, a pale belly, oversized cheek pouches, and a long tail that is brown at the base and white on the last third. In Kruger it is a resident of the far north, recorded around Punda Maria and Pafuri, and is primarily nocturnal.",
   "description": "The giant rat is the largest rat in the southern African subregion and the only Cricetomys in the assessment region. It was formerly included in C. gambianus and was later raised to species rank; it cannot be told from other Cricetomys on external characters alone, but no other member of the genus occurs in South Africa. Adults have dark brown to reddish fur on the back and a pale belly. The long tail is bi-coloured, brown with white on the distal third, a character used in the 2016 regional assessment. The pouches for which the genus is named are oversized cheek pouches, used to carry food and nesting material back to the burrow. Wikipedia says males are typically heavier than females, and gives a nose-to-tail-tip length of about 70–80 cm.",
@@ -287,6 +291,13 @@
       "publisher": "Animal Diversity Web",
       "year": 2004,
       "note": "Account by Michael S. Joo, last updated 2004. Written under C. gambianus, the name under which C. ansorgei was formerly included. There is no full ADW species account for C. ansorgei, only a classification page. Measurements and some habits on the gambianus account follow Africa-wide or West African sources and are not all attributed to C. ansorgei or to southern Africa; those figures are noted rather than used as the stored ranges."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 192, Table 111.1). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

@@ -174,6 +174,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "A stub. Redirect from Crocidura hirta. Used for the IUCN global citation and a broad range list only. This file keeps the 2011 checklist English name Lesser red musk shrew."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 252). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -188,9 +195,10 @@
     "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
     "No Kruger census or SANParks park-wide population figure.",
     "Head-and-body length, tail length, mass, and pelage colours were not published in the sources consulted, so size and variants are omitted or left empty.",
-    "Litter size, gestation, age at sexual maturity and the appearance of the young were not found, beyond the 2025 EWT assessment stating that the species gives birth to live young.",
+    "Age at sexual maturity and the appearance of the young were not found, beyond the 2025 EWT assessment stating that the species gives birth to live young.",
     "No external field marks were found that separate this species from Crocidura mariquensis, C. silacea, Suncus lixa or Suncus varilla; only overlap and pellet-mandible confusion with C. cyanea, and co-occurrence with C. fuscomurina at Mkhuze and Phinda, were sourced.",
     "The 2025 EWT assessment treats the taxon as needing further taxonomic research (including the two southern African forms it writes as C. c. hirta and C. h. deserti, and cryptic diversity reported by Dianat et al. 2023); this file keeps Crocidura hirta from species-list.json and does not remap records.",
     "The 2011 SANParks checklist Afrikaans name Kleiner rooiskeerbek is kept; the 2025 EWT page gives Klein Rooiskeerbek."
-  ]
+  ],
+  "young": "Gravid females have been recorded in Botswana (November and April), Zimbabwe (September to February) and the former Transvaal (November to May), so the young are probably born in the warm, wet months between about September and May. Average litters were 3.6 in Botswana (range 3–4), 3.8 in the former Transvaal (range 2–5) and 3.4 in captivity (range 1–9). The gestation is 18 days, and a female can have two litters in one breeding season. Captive young weighed about 1 g at birth and reached adult mass between day 40 and day 50 (Skinner and Chimimba 2005, p. 252)."
 }

@@ -74,7 +74,15 @@
         "max": 70
       }
     },
-    "note": "Shoulder height 66–100 cm follows Wikipedia. Boars can reach 150 kg, although 60–80 kg is described as more common; sows are given as 45–70 kg. The male range entered here is 60–150 kg, with the more common 60–80 kg recorded in this note. Head-and-body and tail lengths were not found as published ranges."
+    "note": "Shoulder height 66–100 cm follows Wikipedia. Boars can reach 150 kg, although 60–80 kg is described as more common; sows are given as 45–70 kg. The male range entered here is 60–150 kg, with the more common 60–80 kg recorded in this note. Head-and-body and tail lengths were not found as published ranges. Skinner and Chimimba (2005, p. 548) give, in Table 277.1 (all samples combined): tail 30.5–43.2 cm; head-and-body length 109–154 cm.",
+    "tailCm": {
+      "min": 30.5,
+      "max": 43.2
+    },
+    "headBodyLengthCm": {
+      "min": 109.0,
+      "max": 154.0
+    }
   },
   "summary": "A thick-coated wild pig of dense cover, with pointed, tasselled ears and a contrasting face mask. Southern animals are dark reddish, sometimes almost black, with a paler mane. It is mainly nocturnal, and it runs with the tail held down. It occurs in Kruger but is not often seen in daylight.",
   "description": "Adults stand 66–100 cm at the shoulder. The coat in southern populations is dark reddish, sometimes almost black, and it darkens with age. A paler, often whitish dorsal mane or crest may bristle when the animal is agitated. The head has a contrasting face mask of dark and pale markings, or may be almost whitish, and the ears are pointed and tasselled with long hair. The tusks are fairly short and inconspicuous compared with a warthog's. Old boars develop two warts on the snout. Piglets are born with pale yellowish longitudinal stripes on a dark brown background; the stripes soon fade and the coat becomes reddish brown, with a black-and-white dorsal crest.",
@@ -186,7 +194,7 @@
           "pattern": "a thick coat, darker with age, in southern animals"
         },
         "underparts": {
-          "colour": null,
+          "colour": "black or dark brown, like the lower face",
           "pattern": null
         },
         "legs": {
@@ -347,6 +355,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 548, Table 277.1), marks (p. 548). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -358,9 +373,9 @@
   "gaps": [
     "No recent Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "No live Kruger photograph with a reusable licence was found. The only research-grade Kruger observations with a reusable licence show skulls. Live photographs from Hluhluwe-iMfolozi Park and Mapungubwe National Park are used instead, and the captions say where they were taken.",
-    "Head-and-body length, tail length, iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "Iris colour was not given in the sources used, so that mark is null.",
     "No Kruger-specific farrowing-month range was found.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No reusable Kruger recording found."
   ]
 }

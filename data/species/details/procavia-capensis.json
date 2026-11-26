@@ -183,7 +183,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "conspicuous off-white or buffy patches of hair behind and at the base of the ears",
           "shape": "short and rounded"
         },
         "eye": {
@@ -209,7 +209,7 @@
         },
         "underparts": {
           "colour": "paler cream",
-          "pattern": null
+          "pattern": "plain: the hair lacks the banding of the upperparts; paler than the upperparts, with longer hair"
         },
         "legs": {
           "colour": "short; a separate leg colour was not given; moist pads on the soles"
@@ -342,6 +342,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/43086",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 42). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

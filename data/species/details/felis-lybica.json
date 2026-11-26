@@ -50,7 +50,15 @@
       "min": 3,
       "max": 5
     },
-    "note": "Wikipedia gives mass of 3.2–4.5 kg for both sexes of African wildcat, rounded here to 3–5 kg. Head-and-body and tail lengths on that page are from northern African and Yemeni skins, not from southern Africa, and are not entered as Kruger-relevant ranges (males in North Africa 47–59.7 cm with tails of 26.7–36.8 cm; females 40.6–55.8 cm with tails of 24.1–33.7 cm). Animal Diversity Web has no account at Felis lybica; its Felis silvestris account gives averages for the old African subspecies F. s. libyca (about 4 kg in females and 5 kg in males) and a broad body length of 500–750 mm that includes European wildcats. Southern African measurements were not found in this session."
+    "note": "Wikipedia gives mass of 3.2–4.5 kg for both sexes of African wildcat, rounded here to 3–5 kg. Head-and-body and tail lengths on that page are from northern African and Yemeni skins, not from southern Africa, and are not entered as Kruger-relevant ranges (males in North Africa 47–59.7 cm with tails of 26.7–36.8 cm; females 40.6–55.8 cm with tails of 24.1–33.7 cm). Animal Diversity Web has no account at Felis lybica; its Felis silvestris account gives averages for the old African subspecies F. s. libyca (about 4 kg in females and 5 kg in males) and a broad body length of 500–750 mm that includes European wildcats. Southern African measurements were not found in this session. Skinner and Chimimba (2005, p. 402, Table 234.1, two samples combined) give a head-and-body length of 46–66.5 cm (males 54.5–66.5, females 46–62) and a tail of 25–37.5 cm (males 27.5–37.5, females 25–37). These are for the African wild cat of southern Africa, not Kruger alone.",
+    "headBodyLengthCm": {
+      "min": 46,
+      "max": 66.5
+    },
+    "tailCm": {
+      "min": 25,
+      "max": 37.5
+    }
   },
   "summary": "A small, sandy-grey cat, close in size to a domestic cat, with faint vertical stripes, a ringed tail with a black tip, and a reddish back to the ears. It hybridises with domestic cats, and hybridisation has been found at higher levels in Kruger than in the Kgalagadi.",
   "description": "The fur is light sandy grey, sometimes with a pale yellow or reddish wash, and almost whitish on the belly and throat. The ears have small tufts and are reddish to grey, with long pale hairs in the ear. Dark ochre to black lines run across the face and throat. The forelegs have two dark rings, the hind legs are striped, and a dark stripe runs along the back, with paler flanks on which faint vertical stripes often break into spots. The tail has two or three rings toward a black tip. The undersides of the feet are dark brown to black. It is easily confused with a striped domestic cat, especially where the two have hybridised.",
@@ -67,7 +75,7 @@
     ],
     "guild": "carnivore"
   },
-  "young": "Gestation is 56–60 days. In Botswana, births are mostly in the warm wet season, with one to three kittens (occasionally up to five) in a den in dense grass, a burrow or a hollow tree. The kittens open their eyes at about 10–14 days, are mobile at about one month, start to learn hunting at about three months, and become independent at about six months. No Kruger-specific birth-month range was found.",
+  "young": "Gestation is 56–60 days. In Botswana, births are mostly in the warm wet season, with one to three kittens (occasionally up to five) in a den in dense grass, a burrow or a hollow tree. The kittens open their eyes at about 10–14 days, are mobile at about one month, start to learn hunting at about three months, and become independent at about six months. No Kruger-specific birth-month range was found. Skinner and Chimimba (2005, p. 405) say young are born in summer, from September to March, with occasional records outside that period.",
   "predators": [],
   "prey": [],
   "habitat": "A broad range of habitats with some cover, from dry savanna and shrubland to grassland and the edges of woodland. In Kruger it is often recorded near rest camps as well as in the veld, which is also where contact with domestic or feral cats is most likely.",
@@ -282,6 +290,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 402, Table 234.1), young (p. 405). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -292,7 +307,7 @@
   },
   "gaps": [
     "No Kruger population figure was found.",
-    "No southern African head-and-body or tail length range was found; published lengths were from North Africa and Yemen.",
+    "No shoulder height range was found.",
     "No Kruger-specific birth-month range was found. A Botswana account gives births mainly in the warm wet season.",
     "Iris colour was not found in the sources consulted.",
     "A general description of the calls was not found in this session.",

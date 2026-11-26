@@ -54,7 +54,11 @@
             "min": 0.0037,
             "max": 0.005
         },
-        "note": "Wikipedia, citing Johnston (2006), gives a head-and-body length of 4–5 cm, a mass of 3.7–5 g, and a proportionately long tail of approximately 3 cm; that approximate tail figure is not entered as a range. The 2025 EWT assessment gives only means and maxima, not head-and-body or mass ranges: mean forearm length 3.11 ± 0.12 cm and mean total length 7.94 ± 0.58 cm in females, mean forearm length 3.13 ± 0.11 cm and mean total length 7.58 ± 0.34 cm in males, and maximum forearm length 3.30 cm in females and 3.36 cm in males. No shoulder height was published on the pages used."
+        "note": "Wikipedia, citing Johnston (2006), gives a head-and-body length of 4–5 cm, a mass of 3.7–5 g, and a proportionately long tail of approximately 3 cm; that approximate tail figure is not entered as a range. The 2025 EWT assessment gives only means and maxima, not head-and-body or mass ranges: mean forearm length 3.11 ± 0.12 cm and mean total length 7.94 ± 0.58 cm in females, mean forearm length 3.13 ± 0.11 cm and mean total length 7.58 ± 0.34 cm in males, and maximum forearm length 3.30 cm in females and 3.36 cm in males. No shoulder height was published on the pages used. Skinner and Chimimba (2005, p. 323) give, in Table 200.1 (all samples combined): tail 2–3.5 cm.",
+        "tailCm": {
+            "min": 2.0,
+            "max": 3.5
+        }
     },
     "summary": "A very small insect-eating vesper bat, brown above with pale grey or white underparts, a short sparsely haired snout and rounded ears. It roosts by day in tree hollows, rock crevices and sometimes buildings, and forages along the clutter edge. The 2025 regional assessment rates it Least Concern. That page does not mention Kruger National Park; it lists occurrence in the Great Limpopo Transfrontier Park, and it lists the movement pattern as unknown.",
     "description": "Wikipedia describes an unusually small bat, measuring 4–5 cm in head-and-body length and weighing 3.7–5 g, with a proportionately long tail of about 3 cm. Coat colour varies across the range; in general the fur is brown, with pale grey or white underparts. The skull is broad and flattened, the snout short, wide and sparsely haired, and the ears rounded, with a blunt, convex tragus. A prominent calcar extends about halfway along the border of the tail membrane. Wikipedia notes a resemblance to the evening bats of North America, distinguished most readily by the shorter snout and by the shape of the baculum. The English checklist name is Schlieffen's bat; Wikipedia's title is Schlieffen's serotine, and it also lists Schlieffen's twilight bat. The 2025 EWT assessment, which does not describe colour or ear shape, gives mean forearm length as 3.11 cm in females and 3.13 cm in males, mean total length as 7.94 cm in females and 7.58 cm in males, and maximum forearm length as 3.30 cm in females and 3.36 cm in males. It notes that the species was originally listed under Nycticeius and later placed in Nycticeinops, and it lists several synonyms, including Nycticeius schlieffeni.",
@@ -189,6 +193,13 @@
             "publisher": "Wikipedia",
             "year": 2026,
             "note": "The title Nycticeius schlieffeni redirects here. There is no article at Nycticeinops schlieffenii (two i's). Source of the appearance account (brown fur, pale grey or white underparts, short sparsely haired snout, rounded ears with a blunt convex tragus, prominent calcar, tail about 3 cm), the 4–5 cm head-and-body length, 3.7–5 g mass, the comparison with North American evening bats, echolocation (39–47 kHz, narrow band with steep frequency modulation), foraging over fresh water, the generally solitary roosting remark, delayed fertilisation, and a typical litter of three. Lists the English names Schlieffen's serotine, Schlieffen's bat and Schlieffen's twilight bat. Cites the 2017 IUCN Least Concern assessment (Monadjem, Cotterill, Taylor and Jacobs) and, citing Hill and Harrison (1987) and Ruedas (1990), treats the species as the only member of Nycticeinops."
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 323, Table 200.1). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {

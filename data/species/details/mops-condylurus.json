@@ -51,14 +51,14 @@
       "max": null
     },
     "tailCm": {
-      "min": null,
-      "max": null
+      "min": 3.8,
+      "max": 5.5
     },
     "massKg": {
-      "min": null,
-      "max": null
+      "min": 0.016,
+      "max": 0.028
     },
-    "note": "The lengths and masses published in the sources used are not entered as head-and-body, tail or mass ranges. The 2016 EWT assessment gives no mass, head-and-body length, tail length, forearm length or wingspan for this species; the only forearm figure on that page is for Mops midas (forearm length greater than 52 mm), which is used only as a comparison. Wikipedia, citing Smith (1833), gives a total length from nose to tip of tail of approximately 4.5 in (11 cm), which is a total length from the original description and is not entered as headBodyLengthCm. No shoulder height was published in the sources used."
+    "note": "The lengths and masses published in the sources used are not entered as head-and-body, tail or mass ranges. The 2016 EWT assessment gives no mass, head-and-body length, tail length, forearm length or wingspan for this species; the only forearm figure on that page is for Mops midas (forearm length greater than 52 mm), which is used only as a comparison. Wikipedia, citing Smith (1833), gives a total length from nose to tip of tail of approximately 4.5 in (11 cm), which is a total length from the original description and is not entered as headBodyLengthCm. No shoulder height was published in the sources used. Skinner and Chimimba (2005, p. 282, Table 164.1) give, for all samples combined: tail 3.8–5.5 cm; mass 0.016–0.028 kg."
   },
   "summary": "A free-tailed bat of moist and dry savanna, and sometimes of woodland edges, with short, silky brown fur, black ears and blackish-brown wings, wrinkled lips, and a tail of which about half extends beyond the uropatagium. It roosts in rock crevices, caves and tree hollows, and also in roofs, bridge joints and mine shafts, forages in the open air, and is listed as Least Concern in the 2016 regional assessment and on the global IUCN Red List (2017).",
   "description": "A free-tailed bat of the family Molossidae. Wikipedia, citing Smith (1833), describes short, silky fur that is brown, black ears, blackish-brown wings, wrinkled lips, and a tail of which half extends beyond the uropatagium. The 2016 EWT assessment, citing Skinner and Chimimba (2005), notes marked variability in pelage colour and size even within a single locality, and recognises no subspecies. The same assessment, citing Monadjem et al. (2010), says a sparse-haired band across the shoulders separates Mops from Tadarida and most Chaerephon species. The English name in species-list.json is Angola free-tailed bat. The 2016 EWT assessment and Wikipedia use Angolan Free-tailed Bat as the lead English name; the assessment also lists Angolan Mops Bat, Knob-tailed Mops Bat and Knob-tailed Nyctinome. The species-list form is kept. The file keeps the species-list.json name Mops condylurus and does not remap it. Synonyms listed in the 2016 assessment include Nyctinomus condylurus and Tadarida condylura.",
@@ -156,7 +156,7 @@
           "pattern": "short, silky fur; pelage colour is described as variable even within a single locality. A sparse-haired band across the shoulders is a genus character used to separate Mops from Tadarida and most Chaerephon species. Sexes are not described as differing in colour in the sources used"
         },
         "underparts": {
-          "colour": null,
+          "colour": "much lighter than the upperparts: whitish, with a tawny throat and a grey or grey-brown upper chest",
           "pattern": null
         },
         "legs": {
@@ -208,6 +208,13 @@
       "publisher": "iNaturalist",
       "year": 2026,
       "note": "Taxon 765544, preferred common name Angolan Free-tailed Bat. Used to confirm the current name and to search place 69020 (Kruger) and place 6986 (South Africa) for licensed photographs and sounds."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 282, Table 164.1), marks (p. 282). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -223,7 +230,7 @@
     "species-list.json, the 2016 EWT assessment and Wikipedia use Mops condylurus. Synonyms in the 2016 assessment include Tadarida condylura and Nyctinomus condylurus, and several other historical names. The file keeps the species-list.json name and does not remap it. species-list.json records a spelling correction from the 2011 checklist form Mops condylus.",
     "The Afrikaans name in species-list.json is Angola-losstertvlermuis. The 2016 EWT assessment lists Angola-losstertylermuis and Angolese losstertvlermuis. The species-list form is kept.",
     "The English name in species-list.json is Angola free-tailed bat. The 2016 EWT assessment and Wikipedia use Angolan Free-tailed Bat as the lead name; the assessment also lists Angolan Mops Bat, Knob-tailed Mops Bat and Knob-tailed Nyctinome, and iNaturalist's preferred common name for taxon 765544 is Angolan Free-tailed Bat. The species-list form is kept.",
-    "Head-and-body length, tail length, mass, shoulder height, forearm length, underpart colour, ear shape, iris colour, muzzle colour, leg colour and tail colour were not given unambiguously in the sources used, so those marks or bounds are null. Wikipedia's total length of about 11 cm (Smith 1833) is recorded in the size note but is not a head-and-body measurement.",
+    "Head-and-body length, shoulder height, forearm length, ear shape, iris colour, muzzle colour, leg colour and tail colour were not given unambiguously in the sources used, so those marks or bounds are null. Wikipedia's total length of about 11 cm (Smith 1833) is recorded in the size note but is not a head-and-body measurement.",
     "The opening identification paragraph of the 2016 EWT PDF is only partly recovered in the extract used; the comparisons with Chaerephon ansorgei and Mops midas, and the sparse-haired shoulder band, were recovered and are used. No further colour or measurement detail from that paragraph is assumed.",
     "Wikipedia's country list, citing the 2017 IUCN account, includes Namibia. The 2016 EWT assessment, citing ACR (2015), says the species has not been recorded from Namibia. The difference is noted and is not resolved here; it does not affect the Kruger record.",
     "No specific predators were named in the sources used.",

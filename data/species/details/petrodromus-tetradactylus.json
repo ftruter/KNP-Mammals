@@ -179,7 +179,7 @@
           "pattern": "soft, rather long fur, sometimes with a wide dark stripe on the back, following Animal Diversity Web and Wikipedia"
         },
         "underparts": {
-          "colour": null,
+          "colour": "white along the middle, tinged buffy in some animals",
           "pattern": null
         },
         "legs": {
@@ -330,6 +330,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/43226",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 24). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -341,7 +348,7 @@
   "gaps": [
     "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "Shoulder height was not found. Animal Diversity Web's figure of 3–4 cm is ground clearance, not shoulder height. The 2025 assessment's size at maturity (35.5 cm in females, 35 cm in males) does not say what was measured.",
-    "Underparts colour and iris colour were not given in the sources used, so those marks are null.",
+    "Iris colour was not given in the sources used, so that mark is null.",
     "A Kruger-specific birth-month range was not found. Published breeding is described as year-round when habitat and food allow.",
     "Animal Diversity Web treats gestation, weaning and age at maturity as unknown for this species and gives only ranges for other elephant-shrews; Wikipedia gives figures as if they apply to this species. Those accounts are not reconciled.",
     "Predators were named only as broad groups (snakes, raptors, small carnivores), with no wild species.",

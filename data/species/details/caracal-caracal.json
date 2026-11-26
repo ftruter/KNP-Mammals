@@ -93,7 +93,7 @@
     ],
     "guild": "carnivore"
   },
-  "young": "Juveniles have shorter ear tufts and blue-tinted eyes. No Kruger-specific birth-month range, litter size or gestation figure was entered from the sources consulted in this session.",
+  "young": "Juveniles have shorter ear tufts and blue-tinted eyes. No Kruger-specific birth-month range, litter size or gestation figure was entered from the sources consulted in this session. Skinner and Chimimba (2005, p. 401) say litters are recorded in every month, with births peaking from October to February; the mean gestation is 79 days (range 78–81) and litters average about 2.2 young (range 1–3).",
   "predators": [
     {
       "slug": "panthera-pardus",
@@ -179,7 +179,7 @@
         },
         "head": {
           "face": "black marks on the whisker pads and around and above the eyes, and a faint dark line down the centre of the head and nose",
-          "muzzle": null,
+          "muzzle": "white hair around the mouth and on the chin",
           "beard": null
         },
         "mane": {
@@ -201,7 +201,7 @@
           "colour": null
         },
         "tail": {
-          "colour": null,
+          "colour": "tip often dark, with a higher mix of black hairs",
           "shape": "short, 18–34 cm"
         }
       }
@@ -349,6 +349,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 397-398), young (p. 401). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -360,7 +367,7 @@
   "gaps": [
     "No Kruger population figure was found.",
     "No published shoulder-height range was found.",
-    "No Kruger-specific birth-month range, and no sourced gestation or litter-size figures, were found in this session.",
+    "No Kruger-specific birth-month range was found.",
     "Sources disagree on head-and-body length (62–91 cm unsexed versus longer sexed ranges).",
     "No reusable Kruger recording found."
   ]

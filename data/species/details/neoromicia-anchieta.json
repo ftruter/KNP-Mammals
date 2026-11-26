@@ -54,7 +54,11 @@
       "min": 3.2,
       "max": 3.2
     },
-    "note": "Wikipedia, citing Seabra (1900), gives single figures, not ranges: head-and-body length 40 mm, tail 32 mm, ear 11 mm and forearm 35 mm. Those values are entered here as identical min and max bounds. No mass or shoulder height was published on the pages used."
+    "note": "Wikipedia, citing Seabra (1900), gives single figures, not ranges: head-and-body length 40 mm, tail 32 mm, ear 11 mm and forearm 35 mm. Those values are entered here as identical min and max bounds. No mass or shoulder height was published on the pages used. Skinner and Chimimba (2005, p. 299) give, in Table 177.1 (all samples combined): mass 0.0031–0.0057 kg.",
+    "massKg": {
+      "min": 0.0031,
+      "max": 0.0057
+    }
   },
   "summary": "A small insect-eating vesper bat of savanna and woodland, often found near water. The 2016 regional assessment rates it Least Concern and lists it as present in Kruger National Park. That assessment, which uses the name Hypsugo anchietae, does not describe a seasonal or migratory pattern, so the Kruger animals are treated as year-round residents. Fur colour and roost sites were not described on the pages used.",
   "description": "A small vesper bat. Wikipedia, citing the 1900 description, gives a head-and-body length of 40 mm, a tail of 32 mm, an ear of 11 mm and a forearm of 35 mm. No coat colour, ear shape or other field marks were published on the 2016 regional assessment or the Wikipedia page used here. This file keeps the checklist name Neoromicia anchieta. The 2016 assessment treats the species as Hypsugo anchietae and states that the correct spelling of the epithet is anchietae, not anchieta or anchietai. Wikipedia places it in Neoromicia as N. anchietae, formerly in Pipistrellus, and says phylogenetic evidence supports that genus transfer.",
@@ -127,11 +131,11 @@
           "shape": null
         },
         "upperparts": {
-          "colour": null,
-          "pattern": null
+          "colour": "light brown",
+          "pattern": "each hair dark brown to nearly black at the base with a broad light-brown tip"
         },
         "underparts": {
-          "colour": null,
+          "colour": "lighter than the back: hairs black at the base with off-white or cream tips",
           "pattern": null
         },
         "legs": {
@@ -169,6 +173,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "The title Neoromicia anchieta redirects here. Source of the 1900 description measurements (head-and-body 40 mm, tail 32 mm, ear 11 mm, forearm 35 mm), the range in savanna, riparian, coastal and scrub forest and Bushveld habitats, often near open water, the IUCN Least Concern citation (Monadjem et al. 2017, as Pipistrellus anchietae), and the taxonomic account placing the species in Neoromicia as N. anchietae, formerly Pipistrellus and also listed as Hypsugo anchietae."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 299, Table 177.1), marks (p. 299). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

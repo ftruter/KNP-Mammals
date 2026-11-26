@@ -57,7 +57,11 @@
       "min": 9,
       "max": 11
     },
-    "note": "The 2025 EWT assessment gives size at maturity as 9-11 cm for both females and males, but does not say whether this is head-and-body length or total length. No shoulder height, head-and-body length, tail length or mass was published in the sources used."
+    "note": "The 2025 EWT assessment gives size at maturity as 9-11 cm for both females and males, but does not say whether this is head-and-body length or total length. No shoulder height, head-and-body length, tail length or mass was published in the sources used. Skinner and Chimimba (2005, p. 13, Table 11.1) give a mass of 15–37 g (males 25–33 g, females 15–37 g).",
+    "massKg": {
+      "min": 0.015,
+      "max": 0.037
+    }
   },
   "summary": "A small, strictly fossorial golden mole of light sandy soils on the Mozambique sand plain and adjacent Lowveld, recorded from the Nyadu Sandveld in the north-eastern corner of Kruger National Park. The 2016 EWT assessment says it is the only golden mole with orange-yellow underfur, which is greyish in other species. It is predominantly insectivorous, nests among tree roots, and is listed as Near Threatened in the regional assessment and Least Concern globally.",
   "description": "A small golden mole. The 2016 EWT assessment says this is the only golden mole with orange-yellow underfur, which is greyish in other species, and that this underfur is the source of the English name. The 2025 EWT assessment gives size at maturity as 9-11 cm in both sexes, without saying which measurement that is. No sourced description of the upperparts, face, limbs or tail was found in the sources used, and coat colour is not inferred from the English name beyond the underfur statement. The sexes are not described as differently marked. Three subspecies are recognised and are said to intergrade in size, with only subtle morphological differences between them; Kruger records belong to Calcochloris obtusirostris obtusirostris.",
@@ -140,8 +144,8 @@
           "ring": null
         },
         "head": {
-          "face": null,
-          "muzzle": null,
+          "face": "sides of the face yellow",
+          "muzzle": "broad yellow or buffy band across the top of the snout",
           "beard": null
         },
         "mane": {
@@ -149,7 +153,7 @@
           "shape": null
         },
         "upperparts": {
-          "colour": null,
+          "colour": "glossy reddish-brown to bright golden-yellow, depending on locality and time since moulting",
           "pattern": null
         },
         "underparts": {
@@ -175,7 +179,14 @@
       "note": "A small fossorial golden mole whose distinctive mark, if the animal is seen on the surface, is orange-yellow underfur; the underfur is greyish in other golden moles."
     }
   ],
-  "calls": [],
+  "calls": [
+    {
+      "description": "Skinner and Chimimba (2005, p. 13) say a handled animal gives a high-pitched series of squeaks.",
+      "recordings": [],
+      "sex": "any",
+      "type": "call"
+    }
+  ],
   "images": [
     {
       "key": "calcochloris-obtusirostris/bazaruto-surface.jpg",
@@ -220,6 +231,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/42519",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 13, Table 11.1), marks (p. 13), calls (p. 13). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -231,9 +249,8 @@
   "gaps": [
     "No Kruger census or SANParks population figure was found. The 2025 regional assessment gives the regional trend as unknown and says estimates of population size or densities are unknown. A comment that the species is locally common on the coastal plains of Mozambique and northern KwaZulu-Natal is not a park-wide count. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "No licensable photograph in Kruger (place 69020; 0 observations). One southern African photograph from outside the park is used (Bazaruto National Park, Mozambique). Other licensed iNaturalist photographs in southern Africa (place 113055) were of subsurface runs or of animals in the hand, and were not used. The one licensed research-grade record in South Africa (place 6986) is from a picnic site in Tembe Elephant Park and shows subsurface runs in sand, not the animal.",
-    "iNaturalist has 0 sound observations for Calcochloris obtusirostris in place 69020. No sourced description of the calls was found.",
-    "Animal Diversity Web has only a classification page for this species and no natural-history account. Skinner and Chimimba and Stuart's field guide were not available as books. Size is entered only as the 2025 EWT size at maturity of 9-11 cm, without a statement of which measurement that is. No mass, shoulder height, head-and-body length or tail length was published in the sources used.",
-    "Iris colour, ear shape, upperpart colour, leg colour, tail shape and a sexed size split were not given in the sources used, so those marks are null. Coat colour is not inferred from the English name beyond the 2016 EWT statement on orange-yellow underfur.",
+    "Animal Diversity Web has only a classification page for this species and no natural-history account. Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size is entered only as the 2025 EWT size at maturity of 9-11 cm, without a statement of which measurement that is. No mass, shoulder height, head-and-body length or tail length was published in the sources used.",
+    "Iris colour, ear shape, leg colour, tail shape and a sexed size split were not given in the sources used, so those marks are null. Coat colour is not inferred from the English name beyond the 2016 EWT statement on orange-yellow underfur.",
     "No predators were named in the sources used.",
     "No Kruger-specific breeding study was found. Gestation, size at birth and the appearance of the young were not given.",
     "Three subspecies are recognised (C. o. obtusirostris, C. o. chrysillus and C. o. limpopoensis). This file follows species-list.json at species rank and assigns Kruger records to C. o. obtusirostris as stated by EWT, without attempting a further split."

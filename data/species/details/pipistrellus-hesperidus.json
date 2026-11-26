@@ -46,7 +46,15 @@
         ]
     },
     "size": {
-        "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length as 3.24 ± 0.13 cm and 3.29 ± 0.11 cm (the two means are printed under the Age at Maturity: Male and Size at Maturity: Female labels) and a maximum forearm length of 3.50 cm in both males and females. It also states, citing Monadjem et al. (2010), that there is sexual dimorphism, with females on average slightly heavier than males, but it does not publish a mass, head-and-body length, tail length or shoulder height."
+        "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length as 3.24 ± 0.13 cm and 3.29 ± 0.11 cm (the two means are printed under the Age at Maturity: Male and Size at Maturity: Female labels) and a maximum forearm length of 3.50 cm in both males and females. It also states, citing Monadjem et al. (2010), that there is sexual dimorphism, with females on average slightly heavier than males, but it does not publish a mass, head-and-body length, tail length or shoulder height. Skinner and Chimimba (2005, p. 300) give, in Table 178.1 (all samples combined): tail 2.5–3.7 cm; mass 0.0051–0.0066 kg.",
+        "tailCm": {
+            "min": 2.5,
+            "max": 3.7
+        },
+        "massKg": {
+            "min": 0.0051,
+            "max": 0.0066
+        }
     },
     "summary": "A small insect-eating vesper bat, formerly treated within Kuhl's pipistrelle (Pipistrellus kuhlii). It forages along the clutter edge and has been recorded roosting in narrow cracks in rocks and under the loose bark of dead trees. The 2025 regional assessment rates it Least Concern. It is treated as resident in Kruger National Park: the SANBI Red List assessment describes it as widely distributed along the eastern half of South Africa, including Mpumalanga and Limpopo, and the 2025 assessment lists the Pafuri region and the Great Limpopo Transfrontier Park.",
     "description": "The English checklist name is African pipistrellus; the 2025 EWT assessment and Wikipedia use Dusky Pipistrelle (the assessment also lists African Pipistrelle and Kuhl's Pipistrelle). The Afrikaans checklist name is Kuhl se vlermuis, which the assessment also lists, together with Kuhlvlermuis. No coat, ear or facial characters were published on the pages used, and none are carried over from P. kuhlii. The 2025 assessment, citing Monadjem et al. (2020), gives mean forearm length as 3.24 ± 0.13 cm and 3.29 ± 0.11 cm, and a maximum forearm length of 3.50 cm in both sexes, and, citing Monadjem et al. (2010), notes that females are on average slightly heavier than males. It was previously included in Pipistrellus kuhlii and later treated as a distinct species on morphological and karyotype evidence (Kock 2001; Kearney et al. 2002). The assessment, citing Koubínová et al. (2013) and Monadjem et al. (2021), states that chromosomal and molecular data suggest a species complex, and that three of the listed African subspecies may require elevation to species level.",
@@ -148,6 +156,13 @@
             "publisher": "Wikipedia",
             "year": 2026,
             "note": "The title Pipistrellus hesperidus redirects here. A short stub; it gives the English name Dusky pipistrelle, cites the 2016 IUCN Least Concern assessment (Piraccini), and describes the species as a small pipistrelle found in Madagascar. It does not describe appearance, size, or the mainland African range given by the 2025 EWT assessment."
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 300, Table 178.1). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {

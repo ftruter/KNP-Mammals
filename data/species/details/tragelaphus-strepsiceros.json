@@ -83,7 +83,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A single calf is the rule, occasionally two, after a gestation of about 240 days (eight months). Calving is described as generally starting between February and March (late austral summer), when the grass is high; that is a general southern-African account, not a Kruger census of birth months. The female leaves the group to give birth, and the newborn is hidden in vegetation for about four to five weeks.",
+  "young": "A single calf is the rule, occasionally two, after a gestation of about 240 days (eight months). Calving is described as generally starting between February and March (late austral summer), when the grass is high; that is a general southern-African account, not a Kruger census of birth months. The female leaves the group to give birth, and the newborn is hidden in vegetation for about four to five weeks. Skinner and Chimimba (2005, p. 629) give the mating period in Kruger as April to June (citing Owen-Smith 1984).",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -192,12 +192,12 @@
         },
         "head": {
           "face": "often darker than the body, with a small white chevron between the eyes",
-          "muzzle": null,
+          "muzzle": "V-shaped white band, its arms starting just in front of the eyes and crossing the muzzle",
           "beard": "a beard along the throat"
         },
         "mane": {
-          "colour": null,
-          "shape": null
+          "colour": "white-tipped hairs",
+          "shape": "upstanding crest from the back of the head to beyond the shoulders, continuing as a short white or dark brown crest towards the base of the tail"
         },
         "upperparts": {
           "colour": [
@@ -212,10 +212,10 @@
           "pattern": null
         },
         "legs": {
-          "colour": null
+          "colour": "lower legs paler than the body, with a broad dark brown or black band just above the hooves"
         },
         "tail": {
-          "colour": null,
+          "colour": "blackish or slightly browner than the body above with a black tip, pure white underneath",
           "shape": "30–55 cm"
         }
       }
@@ -239,12 +239,12 @@
         },
         "head": {
           "face": "with a small white chevron between the eyes; no beard or the bull's nose markings",
-          "muzzle": null,
+          "muzzle": "V-shaped white band, its arms starting just in front of the eyes and crossing the muzzle",
           "beard": null
         },
         "mane": {
-          "colour": null,
-          "shape": null
+          "colour": "white-tipped hairs",
+          "shape": "upstanding crest from the back of the head to beyond the shoulders, continuing as a short white or dark brown crest towards the base of the tail"
         },
         "upperparts": {
           "colour": [
@@ -259,10 +259,10 @@
           "pattern": null
         },
         "legs": {
-          "colour": null
+          "colour": "lower legs paler than the body, with a broad dark brown or black band just above the hooves"
         },
         "tail": {
-          "colour": null,
+          "colour": "blackish or slightly browner than the body above with a black tip, pure white underneath",
           "shape": null
         }
       }
@@ -465,6 +465,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/42339",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (pp. 626-627), young (p. 629). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -476,9 +483,9 @@
   "gaps": [
     "2023 population range is from one source. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "No licensable photograph of a small kudu calf was selected; only a young male with growing horns is included.",
-    "Iris colour, ear colour, a named mane, underpart colour and leg colour were not given as named values in the sources used, so those marks are null.",
+    "Iris colour, ear colour, a named mane and underpart colour were not given as named values in the sources used, so those marks are null.",
     "Calving is described as generally starting in February–March in a southern-African account; a Kruger-specific month range was not found.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No licensable sound recording was included from xeno-canto or iNaturalist."
   ]
 }

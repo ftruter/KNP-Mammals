@@ -189,10 +189,10 @@
           "pattern": "Animal Diversity Web describes the sides of the face and the tail as paler in females and darker in males"
         },
         "legs": {
-          "colour": null
+          "colour": "darker than the body; the limb hair is thick and dark"
         },
         "tail": {
-          "colour": null,
+          "colour": "lighter than the body, usually off-white or buffy-white",
           "shape": "thick at the base and tapering toward the tip; up to about 70 cm; hair short"
         }
       }
@@ -369,6 +369,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/47062",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 35). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -383,9 +390,9 @@
     "A Wikimedia Commons search for Kruger photographs returned only documents, not photographs, so images were taken from iNaturalist.",
     "Only two research-grade, open-licence Kruger observations had usable accuracy; their night-road photographs appear to show the same scene, so only one was used. A third Kruger observation was dropped because its accuracy was about 2 km. Three further photographs from elsewhere in South Africa fill other views.",
     "iNaturalist has 0 sound observations for Orycteropus afer in place 69020.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, habits, diet, young, predators and calls were taken from Wikipedia, Animal Diversity Web and the 2016 regional assessment.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, habits, diet, young, predators and calls were taken from Wikipedia, Animal Diversity Web and the 2016 regional assessment.",
     "No Kruger-specific habitat account or calving-month range beyond the general South African May–July birth season was found.",
-    "Iris colour, ear colour, a sexed size split that both sources agree on, underpart colour as a named value, and tail colour were not given consistently, so those marks are null.",
+    "Iris colour, ear colour, a sexed size split that both sources agree on and underpart colour as a named value were not given consistently, so those marks are null.",
     "No source named a lookalike in this guide, so similar is empty. The pangolin shares a diet but is not treated as a visual lookalike.",
     "Age at first breeding disagrees: about two years (Wikipedia, Animal Diversity Web) versus unlikely before three years in the wild (2016 regional assessment)."
   ]

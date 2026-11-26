@@ -87,7 +87,7 @@
     ],
     "guild": "omnivore"
   },
-  "young": "There is no short breeding season; births occur through the year. A female usually has a single infant, on average every 1.5 to 2 years. The natal coat is black and is replaced by adult-like fur at around 6 months. An infant is wholly dependent on its mother for the first few months and typically reaches independence at about one year. Animal Diversity Web says gestation is probably similar to that of other Papio species (about 175–180 days); a chacma-specific gestation and a newborn mass were not given in the sources used here. Females and males reach sexual maturity around 5 years, but males usually do not breed successfully until they are large enough to challenge other males, at around 7 to 10 years. Orphaned infants may be adopted by other members of the troop.",
+  "young": "There is no short breeding season; births occur through the year. A female usually has a single infant, on average every 1.5 to 2 years. The natal coat is black and is replaced by adult-like fur at around 6 months. An infant is wholly dependent on its mother for the first few months and typically reaches independence at about one year. Animal Diversity Web says gestation is probably similar to that of other Papio species (about 175–180 days); a chacma-specific gestation and a newborn mass were not given in the sources used here. Females and males reach sexual maturity around 5 years, but males usually do not breed successfully until they are large enough to challenge other males, at around 7 to 10 years. Orphaned infants may be adopted by other members of the troop. Skinner and Chimimba (2005, p. 221) give a gestation of about six months, a single young at a birth at any time of year, and an inter-birth interval of about 18.5 months in a fast-growing population (shortest observed eight months).",
   "predators": [
     {
       "slug": "panthera-pardus",
@@ -225,7 +225,7 @@
           "colour": "black hands and feet in the typical Cape form; grey, matching the limbs, in the grey-footed form"
         },
         "tail": {
-          "colour": null,
+          "colour": "dark brown from base to tip",
           "shape": "long and characteristically bent; 45–84 cm"
         }
       }
@@ -458,6 +458,13 @@
       "url": "https://www.inaturalist.org/observations/406360551",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 218-219), young (p. 221). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -468,10 +475,10 @@
   },
   "gaps": [
     "No sourced Kruger population figure was found. The 2025 regional assessment says there has been no overall census in the assessment region. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young, predators and call types were taken from Wikipedia, Animal Diversity Web and the 2025 EWT assessment.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young, predators and call types were taken from Wikipedia, Animal Diversity Web and the 2025 EWT assessment.",
     "No shoulder height was found. Tail-length maxima disagree (Wikipedia 84 cm; Animal Diversity Web 71.1 cm).",
-    "A chacma-specific gestation and a newborn mass were not given; Animal Diversity Web only infers gestation from other Papio species.",
-    "Iris colour, ear colour and a named tail colour were not given in the text sources used, so those marks are null.",
+    "A chacma-specific newborn mass was not given.",
+    "Iris colour and ear colour were not given in the text sources used, so those marks are null.",
     "A detailed Kruger-specific habitat account was not found.",
     "iNaturalist has 2 sound observations for Papio ursinus in place 69020. One research-grade, openly licensed Kruger recording is used; the recordist did not label the call type. The other observation is not research-grade and was made at a rest camp, so it was not used."
   ]

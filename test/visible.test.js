@@ -152,7 +152,7 @@ test('visitor details do not change the stored object or the gap list', () => {
 })
 
 test('an empty or placeholder Young section is omitted, and mixed content stays', async () => {
-  const shrew = loadSpecies('crocidura-cyanea')
+  const shrew = loadSpecies('crocidura-silacea')
   assert.equal(shrew.details.young, undefined)
   const shrewHtml = speciesHtml(shrew, { origin: ORIGIN })
   const shrewMd = speciesMarkdown(shrew)

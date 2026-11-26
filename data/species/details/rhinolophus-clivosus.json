@@ -54,7 +54,11 @@
       "min": 0.01,
       "max": 0.025
     },
-    "note": "Wikipedia, citing Bernard and Happold in Kingdon et al. (2013), describes the species as medium-sized for an African horseshoe bat, with a forearm length of 42-59 mm and a mass of 10-25 g. The 2016 EWT assessment does not give mass or length, but says R. clivosus is larger than R. darlingi (Monadjem et al. 2010). Animal Diversity Web has no species account and no measurements. No tail length, head-and-body length or shoulder height was published in the sources used."
+    "note": "Wikipedia, citing Bernard and Happold in Kingdon et al. (2013), describes the species as medium-sized for an African horseshoe bat, with a forearm length of 42-59 mm and a mass of 10-25 g. The 2016 EWT assessment does not give mass or length, but says R. clivosus is larger than R. darlingi (Monadjem et al. 2010). Animal Diversity Web has no species account and no measurements. No tail length, head-and-body length or shoulder height was published in the sources used. Skinner and Chimimba (2005, p. 339) give, in Table 214.1 (all samples combined): tail 2–4 cm.",
+    "tailCm": {
+      "min": 2.0,
+      "max": 4.0
+    }
   },
   "summary": "A medium-sized insect-eating horseshoe bat with a high, rounded connecting process on the nose-leaf. Like Darling's horseshoe bat, it lacks a minute first upper premolar in the toothrow, and it is the larger of those two species. It roosts in caves, rock crevices, disused mines, hollow baobabs and buildings, sometimes in colonies of thousands, hunts moths and beetles as a clutter forager, and is listed as Least Concern both in the 2016 regional assessment and on the global IUCN Red List. The 2016 regional assessment records it from Kruger National Park.",
   "description": "A horseshoe bat of the family Rhinolophidae. The 2016 EWT assessment treats the taxon as a species complex and, citing Monadjem et al. (2010), says a useful character for separating Rhinolophus clivosus and R. darlingi from all other southern African Rhinolophus species is the absence of the minute first upper premolar in the toothrow, and that R. clivosus is larger than R. darlingi. A caption to a photograph in that assessment (Ara Monadjem) describes a high and rounded connecting process. Wikipedia, citing Bernard and Happold in Kingdon et al. (2013), gives a forearm length of 42-59 mm and a mass of 10-25 g, and describes the species as medium-sized for an African horseshoe bat. No sourced description of pelage colour was given in the text sources used; the 2016 assessment notes that pelage colour varies among lineages as part of the evidence that more than one species may be involved. Wikipedia gives the authority as Cretzschmar, 1828, which matches the 2016 EWT assessment; the holotype was collected in Mohila, Saudi Arabia. The 2016 assessment, citing Stoffberg et al. (2012), describes five distinct groups within South Africa (a Western Cape clade, a Knysna region clade, a Northern Cape clade, a predominantly KwaZulu-Natal/Mpumalanga mixed group, and a Mpumalanga/Limpopo clade). This file keeps the species-list.json names and does not remap the Kruger animals to a clade or another species.",
@@ -143,11 +147,11 @@
           "shape": null
         },
         "upperparts": {
-          "colour": null,
+          "colour": "greyish or reddish-brown, the hairs pale buff with brown tips",
           "pattern": "The 2016 EWT assessment notes variability in pelage colour among lineages, but does not itself give a colour for the species. Wikipedia and Animal Diversity Web also give no pelage colour. Sexes are not described as differing in colour in the sources used"
         },
         "underparts": {
-          "colour": null,
+          "colour": "paler, a uniform pale greyish-brown",
           "pattern": null
         },
         "legs": {
@@ -245,6 +249,13 @@
       "publisher": "iNaturalist",
       "year": 2026,
       "note": "Research-grade photographs by Elena Reljic of a cave roost in Oudtshoorn Local Municipality, Western Cape (CC BY-NC). Used for the two images in this file."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 339, Table 214.1), marks (p. 339). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -261,8 +272,8 @@
     "The 2016 assessment lists Kruger National Park among protected areas of occurrence, and also describes the species as generally temperate and absent from hot low-lying areas in its northerly range (Taylor 2000; Monadjem et al. 2010). Those statements are recorded rather than reconciled.",
     "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 320633. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
     "No licensed Kruger photograph was available. iNaturalist place 69020 returned 0 observations with the allowed licences for taxon 320633. One place 6986 query then returned four licensed observations: two were dropped from metadata (a handled bat with forearm and mass measurements in the Bo-Karoo, and a mist-netted series from De Hoop that was taken back to a lodging); three thumbnails from the remaining two observations were viewed on one contact sheet; a spectrogram from Ruiters 4 was dropped; two cave-roost photographs from Oudtshoorn Local Municipality, Western Cape (observation 334336064, Elena Reljic, CC BY-NC), were kept.",
-    "Head-and-body length, tail length, shoulder height and wingspan were not published in the sources used, so those numeric fields are null. Mass and forearm length are taken from Wikipedia (Kingdon et al. 2013).",
-    "Ear colour, iris colour, muzzle colour, underpart colour, leg colour, tail colour and pelage colour were not given in the text sources used, so those marks are null. The 2016 assessment notes that pelage colour varies among lineages but does not assign a colour to the species.",
+    "Head-and-body length, shoulder height and wingspan were not published in the sources used, so those numeric fields are null. Mass and forearm length are taken from Wikipedia (Kingdon et al. 2013).",
+    "Ear colour, iris colour, muzzle colour, leg colour, tail colour and pelage colour were not given in the text sources used, so those marks are null. The 2016 assessment notes that pelage colour varies among lineages but does not assign a colour to the species.",
     "No Kruger-specific breeding study was found. Breeding details are taken from Wikipedia, citing Kingdon et al. (2013).",
     "No species-specific, documented predators were given in the sources used, so the predators list is empty.",
     "Animal Diversity Web has only a classification page for this species, with no species account, so it was not used for facts.",

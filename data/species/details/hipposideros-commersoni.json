@@ -48,7 +48,11 @@
         "max": null
       }
     },
-    "note": "The 2016 EWT assessment, citing Monadjem et al. (2010), says females weigh approximately 80 g, while a male in peak condition can weigh more than 200 g; the male figure is therefore a lower bound for animals in peak condition, not a published maximum, and max is left null. The 2025 EWT page gives forearm length at maturity as 9.59 cm ±0.23 in females and 10.25 cm ±0.25 in males (Cotterill and Ferguson 1999); those figures are recorded here because the schema has no forearm field. No head-and-body length, tail length, wingspan or shoulder height was given in the 2016 or 2025 EWT assessments. Animal Diversity Web, in an older account of the unsplit Hipposideros commersoni, gives a mass of 40-180 g, a length of 110-145 mm and a wingspan of 540-560 mm; those figures predate the split and are not entered as measurements of the Kruger animals."
+    "note": "The 2016 EWT assessment, citing Monadjem et al. (2010), says females weigh approximately 80 g, while a male in peak condition can weigh more than 200 g; the male figure is therefore a lower bound for animals in peak condition, not a published maximum, and max is left null. The 2025 EWT page gives forearm length at maturity as 9.59 cm ±0.23 in females and 10.25 cm ±0.25 in males (Cotterill and Ferguson 1999); those figures are recorded here because the schema has no forearm field. No head-and-body length, tail length, wingspan or shoulder height was given in the 2016 or 2025 EWT assessments. Animal Diversity Web, in an older account of the unsplit Hipposideros commersoni, gives a mass of 40-180 g, a length of 110-145 mm and a wingspan of 540-560 mm; those figures predate the split and are not entered as measurements of the Kruger animals. Skinner and Chimimba (2005, p. 347) give, in Table 222.1 (all samples combined): tail 3.1–4.5 cm.",
+    "tailCm": {
+      "min": 3.1,
+      "max": 4.5
+    }
   },
   "summary": "A very large insect-eating leaf-nosed bat of savannah and woodland, including mopane. In the assessment region it is known from northern Kruger at Pafuri and from the Greater Kruger at Thornybush Game Reserve. It is a clutter-edge forager that takes mainly beetles, roosts in caves, trees and sometimes under eaves, and is listed as Near Threatened in the 2025 regional assessment and on the global IUCN Red List (2020).",
   "description": "A large leaf-nosed bat of the family Hipposideridae. This file follows species-list.json in treating the Kruger animal as Hipposideros commersoni (English Commerson's leaf-nosed bat; Afrikaans Commerson se bladneusvlermuis) and does not remap the names. The 2016 and 2025 EWT assessments assign the southern African and Kruger animals formerly included under that name to the striped leaf-nosed bat, now Macronycteris vittata (2016: Hipposideros vittatus). They treat true H. commersoni / Macronycteris commersoni as endemic to Madagascar. Wikipedia's Hipposideros commersoni page redirects to that Madagascar species and was not used for Kruger ecology. The 2016 assessment, citing Monadjem et al. (2010), notes sexual dimorphism: besides differences in colouring, females weigh about 80 g, and a male in peak condition can weigh more than 200 g. Neither the 2016 nor the 2025 assessment describes those colour differences or the coat, so no pelage colours are entered as marks. The 2025 page gives forearm length at maturity as 9.59 cm ±0.23 in females and 10.25 cm ±0.25 in males (Cotterill and Ferguson 1999). Animal Diversity Web, in an older account of the unsplit H. commersoni, describes an elaborate nose-leaf, falcate ears rounded near the tip, a large sagittal crest that is more prominent in males, and pelage from pale-grey to reddish-grey with tawny underparts; that account predates the split and is not used to fill the marks.",
@@ -144,15 +148,15 @@
           "shape": null
         },
         "upperparts": {
-          "colour": null,
+          "colour": "pale fawn in breeding males, lighter on the head and neck, which are cream",
           "pattern": null
         },
         "underparts": {
-          "colour": null,
+          "colour": "light tawny, with white hair on the flanks",
           "pattern": null
         },
         "legs": {
-          "colour": null
+          "colour": "lower hind limbs and feet black"
         },
         "tail": {
           "colour": null,
@@ -245,6 +249,13 @@
       "publisher": "iNaturalist",
       "year": 2026,
       "note": "The active iNaturalist taxon for the striped leaf-nosed bat, which is the name EWT now uses for the southern African and Kruger animals formerly included under Hipposideros commersoni. Used for the photograph search. iNaturalist treats Hipposideros commersoni as an invalid name of Macronycteris commersonii (taxon 851027), the Madagascar endemic."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 347, Table 222.1), marks (p. 347). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -260,8 +271,8 @@
     "The English name in species-list.json is Commerson's leaf-nosed bat (2011 checklist form). EWT, Wikipedia and iNaturalist prefer striped leaf-nosed bat; EWT also lists Commerson's Leafnosed Bat, Commerson's Rhinolph, Commerson's Roundleaf Bat and Giant Leaf-nosed Bat. The species-list form is kept.",
     "The Afrikaans name in species-list.json is Commerson se bladneusvlermuis (2011 checklist form). The 2016 and 2025 EWT assessments list English names only and do not publish an Afrikaans name. The species-list form is kept.",
     "iNaturalist place 69020 (Kruger) returned 0 observations, including 0 sound observations, for both Macronycteris vittata (taxon 851017) and Macronycteris commersonii (taxon 851027). No echolocation-frequency or social-call description was given in the 2016 or 2025 EWT assessments or on the Wikipedia pages used.",
-    "Coat, ear, face, underparts, leg and tail colours, and any striped pattern suggested by the English name, were not described in the 2016 or 2025 EWT assessments or on the Wikipedia striped leaf-nosed bat page, so those marks are null. The 2016 assessment mentions sexual differences in colouring without describing them. Animal Diversity Web colours belong to an older unsplit H. commersoni account and were not entered as marks.",
-    "Head-and-body length, tail length, wingspan and shoulder height were not given in the 2016 or 2025 EWT assessments. Forearm lengths from the 2025 page are recorded only in the size note.",
+    "Coat, ear, face, tail colours and any striped pattern suggested by the English name were not described in the 2016 or 2025 EWT assessments or on the Wikipedia striped leaf-nosed bat page, so those marks are null. The 2016 assessment mentions sexual differences in colouring without describing them. Animal Diversity Web colours belong to an older unsplit H. commersoni account and were not entered as marks.",
+    "Head-and-body length, wingspan and shoulder height were not given in the 2016 or 2025 EWT assessments. Forearm lengths from the 2025 page are recorded only in the size note.",
     "Litter size, pup appearance, gestation length and weaning were not given in the 2016 or 2025 EWT assessments. No Kruger-specific breeding study was found.",
     "No named predators were given in the 2016 or 2025 EWT assessments or on the Wikipedia striped leaf-nosed bat page. Animal Diversity Web lists bat hawks for the unsplit H. commersoni; that was not entered as a fact about the post-split southern African taxon.",
     "Place 69020 had no licensed photographs. One place 6986 query returned a single licensed research-grade observation, a foliage roost at Thornybush Game Reserve, Limpopo (observation 152915814); one of its two nearly identical photographs was kept. The caption gives that reserve, which is outside Kruger National Park."

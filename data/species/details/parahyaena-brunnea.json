@@ -141,7 +141,7 @@
         },
         "head": {
           "face": null,
-          "muzzle": null,
+          "muzzle": "broad, black and naked, with a black nose pad",
           "beard": null
         },
         "mane": {
@@ -156,7 +156,7 @@
           "pattern": "long, shaggy coat"
         },
         "underparts": {
-          "colour": null,
+          "colour": "light: tawny-white or dirty white",
           "pattern": null
         },
         "legs": {
@@ -305,6 +305,13 @@
       "url": "https://ewt.org/project/brown-hyaena/",
       "publisher": "Endangered Wildlife Trust",
       "year": 2025
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 366). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

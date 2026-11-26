@@ -53,7 +53,25 @@
     ]
   },
   "size": {
-    "note": "Only typical or maximum values were published, so range fields are omitted. Wikipedia (citing wildlife-safari and WAZA compilations) gives a body length of up to 100 cm, a typical shoulder height of 43 cm, and an average mass of 14 kg. Horns are about 6 cm in both sexes, sometimes smaller in females, with a longest recorded length of 11 cm."
+    "note": "Only typical or maximum values were published, so range fields are omitted. Wikipedia (citing wildlife-safari and WAZA compilations) gives a body length of up to 100 cm, a typical shoulder height of 43 cm, and an average mass of 14 kg. Horns are about 6 cm in both sexes, sometimes smaller in females, with a longest recorded length of 11 cm. Skinner and Chimimba (2005, p. 671, Table 338.1) give shoulder height of 38–48 cm (males 38–48, females 38.5–45), tail of 7–12.5 cm (males 7–11.5, females 8.5–12.5) and mass of 9.8–12.6 kg in males and 10.3–13.2 kg in females. The book gives total length including the tail (81–95 cm) rather than head-and-body length, so that range is left empty.",
+    "shoulderHeightCm": {
+      "min": 38,
+      "max": 48
+    },
+    "tailCm": {
+      "min": 7,
+      "max": 12.5
+    },
+    "massKg": {
+      "male": {
+        "min": 9.8,
+        "max": 12.6
+      },
+      "female": {
+        "min": 10.3,
+        "max": 13.2
+      }
+    }
   },
   "summary": "A small, rich reddish-brown forest antelope with a hunched back, a forehead tuft, and short straight horns in both sexes. One source says it occurs in Kruger, but no park population figure was found, and no licensable Kruger photograph or recording was found.",
   "description": "A small duiker, rich reddish-brown above, with typically paler underparts. The hairs on the chin, throat and the insides of the ears are commonly white. A tuft of reddish-brown and black hair grows between the horns, and the tail has a white tip. Both sexes have short, straight horns about 6 cm long, sometimes smaller in females; the horns have coarse rings and longitudinal striations at the base and are smooth towards the tips. The back is hunched, with the front legs shorter than the hind legs. It is smaller than the common duiker, and more reddish.",
@@ -144,7 +162,7 @@
         },
         "ears": {
           "colour": "inners commonly white",
-          "shape": null
+          "shape": "short and rounded"
         },
         "eye": {
           "iris": null,
@@ -303,6 +321,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 671, Table 338.1), marks (p. 671). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -313,13 +338,13 @@
   },
   "gaps": [
     "No Kruger population figure was found. Regional totals and iSimangaliso counts are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "Shoulder height, head-and-body length and mass were published only as typical or maximum values, so those range fields are omitted.",
+    "Head-and-body length was not published separately for this animal; the book gives total length including the tail.",
     "Sources disagree on territoriality (territorial and scent-marking versus not territorial, with overlapping home ranges) and on gestation (about eight months versus approximately 210 days); both accounts are recorded.",
     "No licensable Kruger photograph was found. Wikimedia Commons had no Kruger photographs. iNaturalist has 0 research-grade observations with photos in place 69020; two casual Kruger-area records could not be used (one is all-rights-reserved, one has no photograph). The five photographs used are from KwaZulu-Natal.",
     "iNaturalist has 0 sound observations for Cephalophorus natalensis in place 69020. No reusable Kruger recording was found.",
     "Iris colour, a named leg colour, and a sexed size split were not given in the sources used, so those marks are null.",
     "No Kruger-specific birth-month range was found. General accounts say a single calf may be born at any time of year.",
     "Animal Diversity Web has no species account under Cephalophus natalensis, only a classification page.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young, calls and predators were taken from Wikipedia and the EWT assessment."
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young, calls and predators were taken from Wikipedia and the EWT assessment."
   ]
 }

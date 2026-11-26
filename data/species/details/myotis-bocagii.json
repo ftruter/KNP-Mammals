@@ -46,7 +46,15 @@
     ]
   },
   "size": {
-    "note": "The 2025 EWT assessment gives only mean forearm lengths: 4.04 cm (female) and 3.91 cm (male). No head-and-body length, tail length, shoulder height or mass range was published on the pages used."
+    "note": "The 2025 EWT assessment gives only mean forearm lengths: 4.04 cm (female) and 3.91 cm (male). No head-and-body length, tail length, shoulder height or mass range was published on the pages used. Skinner and Chimimba (2005, p. 313) give, in Table 190.1 (all samples combined): tail 3.4–4.4 cm; mass 0.006–0.0105 kg.",
+    "tailCm": {
+      "min": 3.4,
+      "max": 4.4
+    },
+    "massKg": {
+      "min": 0.006,
+      "max": 0.0105
+    }
   },
   "summary": "A small insect-eating vesper bat of low-lying riverine and wetland habitats in the eastern lowveld. It forages low over open water and at the edge of vegetation, taking caddisflies, moths, beetles, bugs and flies. The regional assessment rates it Least Concern. Appearance was not described in the sources used.",
   "description": "The 2025 EWT assessment and the Wikipedia stub do not describe the coat, ears, wings or other field marks. The English checklist name is Rufous hairy bat; Wikipedia uses rufous mouse-eared bat. The assessment treats bocagei as an incorrect subsequent spelling of bocagii, and recognises two subspecies, with the nominate form in southern Africa and M. b. cupreolus in West Africa. Mean forearm length is given as 4.04 cm in females and 3.91 cm in males.",
@@ -97,7 +105,51 @@
       }
     ]
   },
-  "variants": [],
+  "variants": [
+    {
+      "age": "adult",
+      "sex": "any",
+      "season": "any",
+      "marks": {
+        "horns": {
+          "colour": null,
+          "shape": null
+        },
+        "ears": {
+          "colour": "almost black",
+          "shape": "inner margins strongly convex, outer edges strongly concave, tips broad and rounded, so the ear looks like a blunt sickle; the tragus is long with a rounded tip"
+        },
+        "eye": {
+          "iris": null,
+          "ring": null
+        },
+        "head": {
+          "face": null,
+          "muzzle": null,
+          "beard": null
+        },
+        "mane": {
+          "colour": null,
+          "shape": null
+        },
+        "upperparts": {
+          "colour": "coppery-red",
+          "pattern": "each hair narrowly black at the base with a broad coppery-red tip"
+        },
+        "underparts": {
+          "colour": "off-white washed with coppery-red, lighter than the upperparts",
+          "pattern": null
+        },
+        "legs": {
+          "colour": null
+        },
+        "tail": {
+          "colour": null,
+          "shape": null
+        }
+      }
+    }
+  ],
   "viewNotes": [
     {
       "view": "flight-side",
@@ -123,6 +175,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "A short stub. The title Myotis bocagii redirects here. Lists range countries, dry and moist savanna habitats, and the 2017 IUCN Least Concern assessment (Monadjem and Jacobs). No size or appearance account."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 313, Table 190.1), marks (p. 313). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

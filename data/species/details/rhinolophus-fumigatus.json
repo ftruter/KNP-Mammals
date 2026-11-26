@@ -50,7 +50,15 @@
       "min": null,
       "max": null
     },
-    "note": "Wikipedia, citing Kingdon et al. (2013), describes the species as a small microbat, although fairly large for an African species, and gives a horseshoe width of about 10 mm; it does not publish forearm length, mass, head-and-body length, tail length or shoulder height. The 2025 EWT assessment marks its life-history size fields, including maximum size, as not specified. Animal Diversity Web has no species account and no measurements."
+    "note": "Wikipedia, citing Kingdon et al. (2013), describes the species as a small microbat, although fairly large for an African species, and gives a horseshoe width of about 10 mm; it does not publish forearm length, mass, head-and-body length, tail length or shoulder height. The 2025 EWT assessment marks its life-history size fields, including maximum size, as not specified. Animal Diversity Web has no species account and no measurements. Skinner and Chimimba (2005, p. 338) give, in Table 213.1 (all samples combined): tail 3.1–3.5 cm; mass 0.0124–0.02 kg.",
+    "tailCm": {
+      "min": 3.1,
+      "max": 3.5
+    },
+    "massKg": {
+      "min": 0.0124,
+      "max": 0.02
+    }
   },
   "summary": "A fairly large African horseshoe bat with grey to greyish-brown fur on the back, slightly paler underparts, a sub-triangular nose-leaf lancet and a horseshoe about 10 mm wide. It favours savannah woodland and dry forest where it can roost in caves, mine adits, rock cavities, hollow baobabs and road culverts, and it hunts beetles and moths as a clutter forager. The 2025 regional assessment lists it as Least Concern, with a stable trend and no change from 2016, and records subpopulations in the northern parts of Kruger National Park.",
   "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia, citing Kingdon et al. (2013), describes it as a small microbat, although fairly large for an African species; the upper parts have grey to greyish-brown fur, each hair with a pale greyish-brown or greyish-fawn shaft and a blackish tip; the underparts are slightly paler than the dorsal pelage; the ears are small; the nose-leaf has a sub-triangular lancet with slightly concave sides and a rounded tip; the horseshoe is about 10 mm wide and approximately covers the muzzle; and the wing membranes are dark brown to dark grey. The 2025 EWT assessment does not itself describe pelage colour or nose-leaf shape, and its life-history size fields are marked not specified. Wikipedia gives the authority as Rüppell, 1842, which matches the 2025 EWT assessment. That assessment treats the taxon as a species complex: six subspecies have been listed, more than one species may have been included under Rhinolophus fumigatus, and as many as four species may be involved; only R. f. aethiops Peters, 1869 is known from the assessment region, and the isolated eastern and western southern African populations differ in size, pelage colour and genetics and may prove to be distinct species. This file keeps the species-list.json names and does not remap the Kruger animals.",
@@ -146,7 +154,7 @@
           "pattern": "Wikipedia, citing Kingdon et al. (2013), describes grey to greyish-brown fur, each hair with a pale greyish-brown or greyish-fawn shaft and a blackish tip. The 2025 EWT assessment gives no pelage colour, though it notes that isolated eastern and western southern African populations differ in size and pelage colour. Sexes are not described as differing in colour in the sources used"
         },
         "underparts": {
-          "colour": null,
+          "colour": "light grey, with lighter hair tips on the chest and belly",
           "pattern": "Wikipedia, citing Kingdon et al. (2013), describes the underparts as slightly paler than the dorsal pelage, without a separate colour name"
         },
         "legs": {
@@ -204,6 +212,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/40684",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 338, Table 213.1), marks (p. 338). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -218,7 +233,7 @@
     "The Afrikaans name in species-list.json, Rüppell se saalneusvlermuis, matches the Afrikaans name in the 2025 EWT assessment (Rüppell se Saalneusvlermuis). The species-list form is kept. The English name matches the assessment.",
     "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40684. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
     "No licensed photograph was kept. iNaturalist place 69020 returned 0 licensed research-grade observations for taxon 40684. One place 6986 query (per_page 30, same licence and research-grade filters) also returned 0. This pass, place 113055 (southern Africa, same filters) also returned 0. A Wikimedia Commons search for Rhinolophus fumigatus, and a further search under the English name Rüppell's horseshoe bat, found one live-animal photograph from near the Limpopo River, Limpopo Province (CC BY 3.0 US, Susan Ellis, Bugwood.org), which was not kept because checkered cloth is visible at the edge of the frame, consistent with a handled or draped animal; the other Commons hits were museum skins, skulls or a range map.",
-    "Head-and-body length, tail length, shoulder height, forearm length, mass and wingspan were not published in the sources used, so those numeric fields are null. Wikipedia (Kingdon et al. 2013) gives only a qualitative size and a horseshoe width of about 10 mm. The 2025 EWT assessment marks its life-history size fields as not specified.",
+    "Head-and-body length, shoulder height, forearm length and wingspan were not published in the sources used, so those numeric fields are null. Wikipedia (Kingdon et al. 2013) gives only a qualitative size and a horseshoe width of about 10 mm. The 2025 EWT assessment marks its life-history size fields as not specified.",
     "Ear colour, iris colour, muzzle colour, leg colour and tail colour were not given in the sources used, so those marks are null. Pelage colour, ear size, nose-leaf shape and wing-membrane colour are taken only from Wikipedia (Kingdon et al. 2013). Underparts are described there only as slightly paler than the back, so no separate underpart colour name is entered.",
     "No sourced comparison characters for other horseshoe bats in this guide were given in the fumigatus sources used, so similar is omitted. Wikipedia (Kingdon et al. 2013) says the only other species with which it is likely to be confused are the eloquent horseshoe bat (Rhinolophus eloquens) and Hildebrandt's horseshoe bat (Rhinolophus hildebrandtii), both slightly larger; those comparisons are recorded here rather than entered as similar items.",
     "No Kruger-specific breeding study was found. Beyond the Smithers (1983) southern African record of females pregnant with a single foetus in September and October, and a suggested birth season of October to December, breeding details including live birth are marked not specified in the 2025 EWT assessment.",

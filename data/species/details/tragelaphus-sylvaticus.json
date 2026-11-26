@@ -84,8 +84,39 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A detailed account of gestation length and calving months for this species was not found in the sources used here. Young animals resemble the female in coat and, in males, later grow short horns. A suckling calf in the Kruger photographs already shows the white spots of the adult coat. Exact calving months for Kruger were not found.",
-  "predators": [],
+  "young": "A detailed account of gestation length and calving months for this species was not found in the sources used here. Young animals resemble the female in coat and, in males, later grow short horns. A suckling calf in the Kruger photographs already shows the white spots of the adult coat. Exact calving months for Kruger were not found. Skinner and Chimimba (2005, p. 635) say young may be born at any time of the year, give a gestation of 180 days, and a single young weighing 2.5–4.5 kg.",
+  "predators": [
+    {
+      "slug": "panthera-pardus",
+      "en": "Leopard",
+      "note": "Named in Skinner and Chimimba (2005) as a predator of adult bushbuck."
+    },
+    {
+      "slug": "panthera-leo",
+      "en": "Lion",
+      "note": "Named in Skinner and Chimimba (2005) as a predator of adult bushbuck."
+    },
+    {
+      "slug": "crocuta-crocuta",
+      "en": "Spotted hyaena",
+      "note": "Named in Skinner and Chimimba (2005) as a predator of adult bushbuck."
+    },
+    {
+      "slug": "lycaon-pictus",
+      "en": "Wild dog",
+      "note": "Named in Skinner and Chimimba (2005) as a predator of adult bushbuck."
+    },
+    {
+      "slug": "caracal-caracal",
+      "en": "Caracal",
+      "note": "Named in Skinner and Chimimba (2005) as a predator of lambs."
+    },
+    {
+      "slug": null,
+      "en": "Rock python (Python sebae)",
+      "note": "Named in Skinner and Chimimba (2005) as a predator of lambs. Not a mammal in this guide."
+    }
+  ],
   "prey": [],
   "habitat": "A wide range of cover, including woodland, bushveld, thickets and forest edge. In Kruger it is typically seen in riverine thickets and around camps.",
   "similar": [
@@ -317,6 +348,12 @@
       "type": "call",
       "description": "A detailed description of the call was not found in the sources used here.",
       "recordings": []
+    },
+    {
+      "description": "Skinner and Chimimba (2005) say both sexes give a loud, hoarse bark as a warning, the male's louder and harsher than the female's, and that they grunt to keep contact in dense bush.",
+      "recordings": [],
+      "sex": "any",
+      "type": "call"
     }
   ],
   "images": [
@@ -427,6 +464,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 635), predators (p. 635), calls (p. 634-635). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -438,11 +482,9 @@
   "gaps": [
     "No recent Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "Shoulder height was published only as 'around 90 cm', so shoulderHeightCm is omitted.",
-    "A sourced description of the bushbuck's call was not found, so the call entry is a placeholder without a recording.",
-    "Gestation length and a Kruger-specific calving-month range were not found in the sources used.",
+    "A Kruger-specific calving-month range was not found.",
     "Head-and-body length, tail length, iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits and young were taken from Wikipedia and Animal Diversity Web.",
-    "No reusable Kruger recording found.",
-    "A named list of predators was not found in the sources used, so predators is an empty list."
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits and young were taken from Wikipedia and Animal Diversity Web.",
+    "No reusable Kruger recording found."
   ]
 }

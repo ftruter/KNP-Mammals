@@ -200,7 +200,7 @@
           "shape": "straight, smooth and parallel, 7–19 cm (9–19 cm in one compilation)"
         },
         "ears": {
-          "colour": null,
+          "colour": "back like the upperparts or slightly darker, with black fringes on the central parts",
           "shape": "large, with finger-like marks on the inside"
         },
         "eye": {
@@ -232,7 +232,7 @@
           "colour": "rufous, with white inner limbs"
         },
         "tail": {
-          "colour": null,
+          "colour": "top the same colour as the upperparts, white underneath",
           "shape": "very short, 4–6 cm, not usually obvious"
         }
       }
@@ -247,7 +247,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "back like the upperparts or slightly darker, with black fringes on the central parts",
           "shape": "large, with finger-like marks on the inside"
         },
         "eye": {
@@ -279,7 +279,7 @@
           "colour": "rufous, with white inner limbs"
         },
         "tail": {
-          "colour": null,
+          "colour": "top the same colour as the upperparts, white underneath",
           "shape": "very short, 4–6 cm, not usually obvious"
         }
       }
@@ -430,6 +430,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 698). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -443,7 +450,7 @@
     "A sourced description of the call was not found, so the call entry is a placeholder without a recording.",
     "Iris colour was not given in the sources used, so that mark is null.",
     "Kruger-specific birth months, beyond the general southern-African peak in November and December, were not found.",
-    "Skinner & Chimimba and Stuart's field guide were not available, though Animal Diversity Web cites them for some measurements. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No reusable Kruger recording found."
   ]
 }

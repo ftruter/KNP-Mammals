@@ -48,7 +48,11 @@
       "min": 0.041,
       "max": 0.098
     },
-    "note": "Animal Diversity Web, citing Skinner and Smithers (1990), gives a length range of 202–290 mm (average 260 mm) and a mass range of 41–98 g (average 60 g), and states that the tail is sparsely haired and slightly longer than the body. The 2025 regional assessment gives size at maturity as 26.3 cm for both sexes, without saying whether that is total length or another measurement. Those length figures are close, but the measurement is not named the same way, so they are not averaged; lengthCm stores the Animal Diversity Web range. Head-and-body length and tail length are left unset because no numeric values were given for those parts separately. Shoulder height was not found."
+    "note": "Animal Diversity Web, citing Skinner and Smithers (1990), gives a length range of 202–290 mm (average 260 mm) and a mass range of 41–98 g (average 60 g), and states that the tail is sparsely haired and slightly longer than the body. The 2025 regional assessment gives size at maturity as 26.3 cm for both sexes, without saying whether that is total length or another measurement. Those length figures are close, but the measurement is not named the same way, so they are not averaged; lengthCm stores the Animal Diversity Web range. Head-and-body length and tail length are left unset because no numeric values were given for those parts separately. Shoulder height was not found. Skinner and Chimimba (2005, p. 32) give, in Table 25.1 (all samples combined): tail 10.1–15.6 cm.",
+    "tailCm": {
+      "min": 10.1,
+      "max": 15.6
+    }
   },
   "summary": "A small sengi of rocky outcrops and koppies, with a long mobile snout, a white eye-ring and a sparsely haired tail slightly longer than the body. It is listed on the 2011 SANParks Kruger checklist, named by the 2025 regional assessment as occurring in Kruger National Park, and treated here as a year-round resident of the park.",
   "description": "A small, soft-furred sengi of rocky ground. Animal Diversity Web, citing Skinner and Smithers, gives a length of 202–290 mm (average 260 mm) and a mass of 41–98 g (average 60 g), and describes a long, slender, trunk-like snout that can be used to forage and test the air. The same account gives the upperparts as brownish grey and the underparts as pale grey, with brown ears and eyes and a white ring around the eye. The tail is sparsely haired and slightly longer than the body, with glands visible at the base of the tail and near the anus. Animal Diversity Web states that the extremities are white on the dorsal side and lack hair on the ventral side, and also that black extremities distinguish this species from other Elephantulus; those two statements are recorded here and are not reconciled. The 2025 regional assessment gives size at maturity as 26.3 cm in both sexes. The sexes are not described as differing in coat.",
@@ -163,7 +167,7 @@
         },
         "underparts": {
           "colour": "pale grey",
-          "pattern": null
+          "pattern": "white, with the slate-grey hair bases showing through"
         },
         "legs": {
           "colour": "Animal Diversity Web states that the extremities are white on the dorsal side and lack hair on the ventral side, and also that black extremities distinguish this species from other Elephantulus; those statements are not reconciled here"
@@ -307,6 +311,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/43213",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 32, Table 25.1), marks (p. 32). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

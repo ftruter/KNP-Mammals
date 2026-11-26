@@ -83,7 +83,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A single calf is born after a gestation of nine months. After about 24 hours the cow and calf join a group with other calves; the young stay in a nursery group while the mother returns to the female herd, and leave the nursery at about two years. Exact calving months for Kruger were not found.",
+  "young": "A single calf is born after a gestation of nine months. After about 24 hours the cow and calf join a group with other calves; the young stay in a nursery group while the mother returns to the female herd, and leave the nursery at about two years. Exact calving months for Kruger were not found. Skinner and Chimimba (2005, p. 641) say eland breed throughout the year, with a calving peak from August to December in summer-rainfall areas; a mean inter-calving interval of about 373 days is quoted, helped by a post-partum oestrus.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -422,6 +422,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/75192",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 641). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -437,7 +444,7 @@
     "Iris colour, ear colour, a named underpart colour and a named leg colour were not given in the sources used, so those marks are null.",
     "No Kruger-specific calving-month range was found.",
     "Wikipedia gives more than one mass range for each sex; both are recorded in the size note.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No licensable sound recording was included from xeno-canto or iNaturalist."
   ]
 }

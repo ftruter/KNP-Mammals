@@ -54,7 +54,11 @@
       "min": 0.002,
       "max": 0.004
     },
-    "note": "Wikipedia, citing Lausen and Barclay (2005), gives a total length of about 7-8 cm, about half of which consists of the tail, and an adult mass of 2-4 g, with females slightly larger than males. Those total-length figures are entered as lengthCm; separate head-and-body and tail lengths were not published in the sources used, so those fields are omitted rather than split by guesswork. The 2025 EWT assessment, citing Monadjem et al. (2020b), gives mean forearm length at maturity as 3.11 ± 0.17 cm in females and 2.98 ± 0.17 cm in males, and a maximum forearm length of 3.40 cm in both sexes. Neonates weigh about 1 g (Van Cakenberghe and Happold 2013, cited on the 2025 EWT page). No shoulder height was published."
+    "note": "Wikipedia, citing Lausen and Barclay (2005), gives a total length of about 7-8 cm, about half of which consists of the tail, and an adult mass of 2-4 g, with females slightly larger than males. Those total-length figures are entered as lengthCm; separate head-and-body and tail lengths were not published in the sources used, so those fields are omitted rather than split by guesswork. The 2025 EWT assessment, citing Monadjem et al. (2020b), gives mean forearm length at maturity as 3.11 ± 0.17 cm in females and 2.98 ± 0.17 cm in males, and a maximum forearm length of 3.40 cm in both sexes. Neonates weigh about 1 g (Van Cakenberghe and Happold 2013, cited on the 2025 EWT page). No shoulder height was published. Skinner and Chimimba (2005, p. 305) give, in Table 183.1 (all samples combined): tail 2.3–3.8 cm.",
+    "tailCm": {
+      "min": 2.3,
+      "max": 3.8
+    }
   },
   "summary": "A very small vesper bat that roosts upright in furled banana, Strelitzia and similar leaves, using thickened thumb and hind-foot pads. The fur is dark with golden or reddish-brown tips, paler on the underparts. It is an insectivorous clutter-edge forager of well-wooded places, often near water, and also uses gardens and urban green space. The 2025 regional Red List rates it Least Concern.",
   "description": "A diminutive vesper bat (Vespertilionidae). Wikipedia, citing Lausen and Barclay (2005), describes it as unusually small, with a total length of about 7-8 cm, about half of that the tail, and an adult mass of only 2-4 g; females are slightly larger than males. The fur is dark with golden or reddish-brown tips, fading to greyish or near-white tips on the underparts. The wings are brown, sometimes with a narrow white border on the hind margin. The ears are triangular, with a tragus described as hatchet-shaped. The thumbs bear an unusual pad of ridged, hairy skin; the 2025 EWT assessment also notes thickened thumb and hind-foot pads that are thought to help the bat roost upright inside a furled leaf. Most, though not all, individuals have a relatively large, visible gland of unknown function on each side of the tail (Lausen and Barclay 2005, cited on Wikipedia). This file keeps the checklist names Afronycteris nanus and Banana bat. The species was formerly placed in Pipistrellus and then Neoromicia; Monadjem et al. (2020a), cited on the 2025 EWT page, moved it to the genus Afronycteris. The 2025 assessment, citing the Mammal Diversity Database (2025), treats nanus as a noun, so the epithet does not change with the genus. Evidence suggests A. nanus is a species complex (Koubínová et al. 2013; Taylor et al. 2022), but no split is applied here.",
@@ -263,6 +267,13 @@
       "publisher": "iNaturalist",
       "year": 2024,
       "note": "Research-grade observation in Kruger (place 69020): a palm-frond roost at Letaba rest camp. Used as additional post-2000 evidence of presence (rule c). Not used as a photograph, because it is a rest-camp roost."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 305, Table 183.1). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

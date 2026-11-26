@@ -46,7 +46,15 @@
     ]
   },
   "size": {
-    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 5.10 ± 0.16 cm in females and 4.88 ± 0.16 cm in males, and a maximum forearm length of 5.30 cm in females and 5.20 cm in males. Head-and-body length, tail length, total length and mass were not published in the sources used, so those fields are omitted. No shoulder height was published."
+    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 5.10 ± 0.16 cm in females and 4.88 ± 0.16 cm in males, and a maximum forearm length of 5.30 cm in females and 5.20 cm in males. Head-and-body length, tail length, total length and mass were not published in the sources used, so those fields are omitted. No shoulder height was published. Skinner and Chimimba (2005, p. 318) give, in Table 195.1 (all samples combined): tail 4.4–5.2 cm; mass 0.0108–0.02 kg.",
+    "tailCm": {
+      "min": 4.4,
+      "max": 5.2
+    },
+    "massKg": {
+      "min": 0.0108,
+      "max": 0.02
+    }
   },
   "summary": "A medium-sized southern African vesper bat that roosts in small groups in caves, mines and rock crevices, usually in mountainous or broken rocky country near water. It is an insectivorous clutter-edge forager, feeding mainly on beetles. The 2025 regional Red List rates it Least Concern and records it from Kruger National Park. This file keeps the checklist names Cnephaeus hottentotus and Long-tailed serotine bat; the species was formerly placed in Eptesicus.",
   "description": "A vesper bat (Vespertilionidae). The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 5.10 ± 0.16 cm in females and 4.88 ± 0.16 cm in males, with maxima of 5.30 cm and 5.20 cm respectively. No sourced account of fur colour, ear shape or other external marks was found in the sources used, so those details are left unstated. This file keeps the checklist names Cnephaeus hottentotus and Long-tailed serotine bat. Following Cláudio et al. (2023), cited on the 2025 EWT page, Old World taxa formerly placed in Eptesicus are now referred to Cnephaeus; the assessment therefore treats Eptesicus hottentotus as Cnephaeus hottentotus (the page also spells the genus Cnaephaeus once). Earlier work, cited there, treats it as the only member of the genus in southern Africa (Kearney et al. 2002). Three subspecies have previously been recognised in the region (Monadjem et al. 2020); the assessment says further molecular studies are required. No split is applied here.",
@@ -111,7 +119,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "dark brown",
           "shape": null
         },
         "eye": {
@@ -132,8 +140,8 @@
           "pattern": null
         },
         "underparts": {
-          "colour": null,
-          "pattern": null
+          "colour": "lighter and distinctly greyer than the upperparts",
+          "pattern": "uneven: the dark hair bases show through"
         },
         "legs": {
           "colour": null
@@ -177,6 +185,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "A short stub. Used for the 2017 IUCN global Least Concern listing of Eptesicus hottentotus and a brief habitat list. The title Cnephaeus hottentotus redirects here. The page still uses the older combination Eptesicus hottentotus and the English name long-tailed house bat."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 318, Table 195.1), marks (p. 318). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

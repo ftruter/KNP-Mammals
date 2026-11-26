@@ -35,7 +35,15 @@
       "min": null,
       "max": null
     },
-    "note": "Wikipedia, citing Skinner and Chimimba (2005), describes the species as small, with an average total length of 70 mm, an average mass of 7.6 g and a skull length of 17.5 mm; it does not separate head-and-body length from tail length, and it does not publish a range, shoulder height, forearm length or wingspan. Those figures are recorded here rather than entered as structured bounds, because total length is not a head-and-body measurement and the mass is an average, not a range. The 2025 EWT assessment marks its life-history size fields, including maximum size, as not specified. Animal Diversity Web has no species account and no measurements."
+    "note": "Wikipedia, citing Skinner and Chimimba (2005), describes the species as small, with an average total length of 70 mm, an average mass of 7.6 g and a skull length of 17.5 mm; it does not separate head-and-body length from tail length, and it does not publish a range, shoulder height, forearm length or wingspan. Those figures are recorded here rather than entered as structured bounds, because total length is not a head-and-body measurement and the mass is an average, not a range. The 2025 EWT assessment marks its life-history size fields, including maximum size, as not specified. Animal Diversity Web has no species account and no measurements. Skinner and Chimimba (2005, p. 345) give, in Table 221.1 (all samples combined): tail 1.9–2.4 cm; mass 0.0074–0.0077 kg.",
+    "tailCm": {
+      "min": 1.9,
+      "max": 2.4
+    },
+    "massKg": {
+      "min": 0.0074,
+      "max": 0.0077
+    }
   },
   "summary": "A small African horseshoe bat with grey to brown fur on the back, paler pale-brown to off-white underparts, short pointed ears, and light brown to light grey wings. The 2025 regional assessment lists it as Vulnerable, with a declining trend and no change from 2016, and, after a post-2011 split of northeastern populations as Rhinolophus rhodesiae, records it only from KwaZulu-Natal and the Eastern Cape. It roosts in caves, mines and similar shelter and forages as a clutter-feeding insectivore, mainly on moths, in temperate Afromontane forest and wooded habitat.",
   "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia, citing Skinner and Chimimba (2005), describes it as a small bat with an average total length of 70 mm and an average mass of 7.6 g; the back is grey to brown and white at the bottom; the underparts are significantly lighter, pale brown to off-white; the ears are short and pointed; and the wings and interfemoral membrane are light brown to light grey. The same source gives a skull length of 17.5 mm and notes a horseshoe-shaped nose-leaf with a lancet and a sella, without published measurements of horseshoe width. The 2025 EWT assessment does not itself describe pelage colour or nose-leaf shape, and its life-history size fields are marked not specified. Wikipedia and the 2025 EWT assessment give the authority as Gough, 1908. The 2025 assessment, citing Taylor et al. (2018), Demos et al. (2019) and Taylor et al. (2024), treats northeastern populations formerly grouped with this species as a separate species, Rhinolophus rhodesiae, and states that within the assessment region Rhinolophus swinnyi has been found only in KwaZulu-Natal and Eastern Cape provinces and is endemic to the assessment region. Species delimitations in the genus are not fully resolved. This file keeps the species-list.json names and does not remap the 2011 checklist animal.",
@@ -104,7 +112,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "pale grey or pale brown",
           "shape": "Wikipedia, citing Skinner and Chimimba (2005), describes the ears as short and pointed. The 2025 EWT assessment gives no ear description"
         },
         "eye": {
@@ -196,6 +204,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/40670",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 345, Table 221.1), marks (p. 346). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -211,8 +226,8 @@
     "The Afrikaans name in species-list.json, Swinny se saalneusvlermuis, matches the Afrikaans name in the 2025 EWT assessment (Swinny se Saalneusvlermuis). The species-list form is kept. The English name matches the assessment.",
     "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40670. Wikipedia (Stoffberg 2007) gives an average echolocation frequency of 106.7 kHz, entered under calls with no recordings. No audible social-call description was given in the sources used.",
     "No licensed photograph was kept. iNaturalist place 69020 returned 0 licensed research-grade observations for taxon 40670. One place 6986 query (per_page 30, same licence and research-grade filters) also returned 0. A further place 113055 (southern Africa) query with the same filters also returned 0. Wikimedia Commons searches under Rhinolophus swinnyi and Swinny's horseshoe bat returned only a range map and two journal PDFs, with no photograph of a live animal.",
-    "Head-and-body length, tail length, shoulder height, forearm length, wingspan and a mass range were not published in the sources used, so those numeric fields are null. Wikipedia (Skinner and Chimimba 2005) gives only an average total length of 70 mm, an average mass of 7.6 g and a skull length of 17.5 mm. The 2025 EWT assessment marks its life-history size fields as not specified.",
-    "Ear colour, iris colour, muzzle colour and leg colour were not given in the sources used, so those marks are null. Pelage colour, ear shape, nose-leaf parts and wing-membrane colour are taken only from Wikipedia (Skinner and Chimimba 2005; Stoffberg 2007). No horseshoe width was published. The phrase white at the bottom is kept as given for the back and was not interpreted further.",
+    "Head-and-body length, shoulder height, forearm length, wingspan and a mass range were not published in the sources used, so those numeric fields are null. Wikipedia (Skinner and Chimimba 2005) gives only an average total length of 70 mm, an average mass of 7.6 g and a skull length of 17.5 mm. The 2025 EWT assessment marks its life-history size fields as not specified.",
+    "Iris colour, muzzle colour and leg colour were not given in the sources used, so those marks are null. Pelage colour, ear shape, nose-leaf parts and wing-membrane colour are taken only from Wikipedia (Skinner and Chimimba 2005; Stoffberg 2007). No horseshoe width was published. The phrase white at the bottom is kept as given for the back and was not interpreted further.",
     "No sourced comparison characters that distinguish this species from other horseshoe bats in this guide were given in the sources used, so similar is omitted. Wikipedia notes that R. denti and R. simulator have very similar body structure, size, morphology and echolocation calls; those comparisons are recorded here rather than entered as similar items.",
     "No Kruger-specific breeding study was found. Beyond the Monadjem et al. (2020) record, cited in the 2025 EWT assessment, that females give birth to a single live young, breeding timing including gestation is marked unknown or not specified.",
     "No species-specific, documented predators were given in the sources used, so the predators list is empty.",

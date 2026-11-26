@@ -46,7 +46,15 @@
     ]
   },
   "size": {
-    "note": "The 2025 EWT assessment gives female size at maturity, from Durban Natural Science Museum records, as a forearm length of 3.70 cm and a total length of 9.10 cm. Citing Monadjem et al. (2020), it also gives a combined mean forearm length of 3.77 ± 0.15 cm, a mean total length of 9.4 ± 0.68 cm, and maxima of 4.03 cm (forearm) and 10.10 cm (total length). The same page, citing Monadjem et al. (2020), says the species weighs 7 g and is the heavier of the two African Kerivoula species. Those means, maxima and the single mass figure are not entered as min–max bounds. Wikipedia, citing Apps (2000), gives a length of 8.3–10 cm, a mass of 6–9 g, and an average wingspan of 25 cm; the same article's introduction also says these bats typically weigh about 10 g, which is recorded here rather than reconciled. No separate head-and-body length, tail length or shoulder height was published in the sources used, so those fields are omitted."
+    "note": "The 2025 EWT assessment gives female size at maturity, from Durban Natural Science Museum records, as a forearm length of 3.70 cm and a total length of 9.10 cm. Citing Monadjem et al. (2020), it also gives a combined mean forearm length of 3.77 ± 0.15 cm, a mean total length of 9.4 ± 0.68 cm, and maxima of 4.03 cm (forearm) and 10.10 cm (total length). The same page, citing Monadjem et al. (2020), says the species weighs 7 g and is the heavier of the two African Kerivoula species. Those means, maxima and the single mass figure are not entered as min–max bounds. Wikipedia, citing Apps (2000), gives a length of 8.3–10 cm, a mass of 6–9 g, and an average wingspan of 25 cm; the same article's introduction also says these bats typically weigh about 10 g, which is recorded here rather than reconciled. No separate head-and-body length, tail length or shoulder height was published in the sources used, so those fields are omitted. Skinner and Chimimba (2005, p. 326) give, in Table 204.1 (all samples combined): tail 4.2–5 cm; mass 0.006–0.009 kg.",
+    "tailCm": {
+      "min": 4.2,
+      "max": 5.0
+    },
+    "massKg": {
+      "min": 0.006,
+      "max": 0.009
+    }
   },
   "summary": "A small southern African woolly bat with long, dense fur, typically rich brown mixed with grizzled silver above and grey or whitish below, and a fringe of hair on the outer edge of the interfemoral membrane. It is a clutter-foraging insectivore that roosts in deserted weaver nests, foliage and similar sites, usually in small clusters. The 2025 regional Red List rates it Near Threatened and records it from riverine forest at Pafuri in Kruger National Park. This file keeps the checklist names Kerivoula argentata and Damara woolly bat.",
   "description": "A vesper bat (Vespertilionidae, subfamily Kerivoulinae). The 2025 EWT assessment, citing Monadjem et al. (2020), describes a small species with long, dense fur, a mean forearm length of 3.77 ± 0.15 cm and a mean total length of 9.4 ± 0.68 cm, a mass of 7 g, and the heavier of the two African Kerivoula species. Wikipedia, citing Apps (2000), describes a rich brown coat mixed with grizzled silver above and grey or whitish hair underneath; the same article's introduction also calls the back reddish brown and the abdomen white. The ears are proportionally large with rounded tips. A fringe of hair on the outer edge of the interfemoral membrane is described as distinctive of this species. Wikipedia also gives a length of 8.3–10 cm, a mass of 6–9 g (the introduction says about 10 g) and an average wingspan of 25 cm. This file keeps the checklist names Kerivoula argentata and Damara woolly bat. The 2025 EWT page lists the synonyms nidicola (J. Kirk, 1865) and zuluensis A. Roberts, 1924, and notes three subspecies listed by Meester et al. (1986): K. a. argentata, K. a. nidicola and K. a. zuluensis. Owing to the limited number of specimens, their validity cannot currently be determined (Monadjem et al. 2020). No split is applied here.",
@@ -135,7 +143,7 @@
             "whitish",
             "white"
           ],
-          "pattern": null
+          "pattern": "greyish-brown, lighter towards the anus and on the sides of the belly"
         },
         "legs": {
           "colour": null
@@ -186,6 +194,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "Appearance, length, mass and wingspan, the interfemoral hair fringe, roosts in abandoned weaver and scarlet-chested sunbird nests, colony size, and echolocation, citing Apps (2000), Stuart and Stuart (2007), Monadjem et al., and Fullard and Thomas (1981). The title Kerivoula argentata redirects here. The page uses the English name Damara woolly bat."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 326, Table 204.1), marks (p. 325). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

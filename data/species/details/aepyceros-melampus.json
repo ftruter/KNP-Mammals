@@ -83,7 +83,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A single calf is born after a gestation of six to seven months, usually around midday, after the female has left the herd. The newborn is hidden in cover for the first few weeks, then joins a nursery group in its mother's herd. Calves are suckled for four to six months. The mother–calf bond is described as weak and breaks after weaning; young males are later forced out of the female herd. Exact calving months for Kruger were not found in the sources used here.",
+  "young": "A single calf is born after a gestation of six to seven months, usually around midday, after the female has left the herd. The newborn is hidden in cover for the first few weeks, then joins a nursery group in its mother's herd. Calves are suckled for four to six months. The mother–calf bond is described as weak and breaks after weaning; young males are later forced out of the female herd. In Kruger the rut peaks in May (Skinner and Chimimba 2005, p. 705, citing Fairall 1972); exact calving months for Kruger were not found.",
   "predators": [
     {
       "slug": "acinonyx-jubatus",
@@ -492,6 +492,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/42278",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 705). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -504,9 +511,9 @@
     "2023 population range is from secondary sources. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "The two sources that quote the 2023 range disagree on the Kruger trend (stable over 10 years, or increasing).",
     "Head-and-body length and tail length were published only as typical values (about 130 cm and 30 cm), not as ranges.",
-    "No Kruger-specific calving-month range was found. General accounts give birth after a six-to-seven-month gestation, following a rut toward the end of the wet season.",
+    "No Kruger-specific calving-month range was found. General accounts give birth after a six-to-seven-month gestation, following a rut toward the end of the wet season; Skinner and Chimimba (2005) put the Kruger rut peak in May.",
     "Iris colour and a named mane were not given in the sources used, so those marks are null.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No licensable sound recording was included from xeno-canto or iNaturalist."
   ]
 }

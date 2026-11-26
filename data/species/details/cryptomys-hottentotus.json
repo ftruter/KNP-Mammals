@@ -139,7 +139,7 @@
           "pattern": "evenly coloured"
         },
         "underparts": {
-          "colour": null,
+          "colour": "lighter than the upperparts",
           "pattern": null
         },
         "legs": {
@@ -224,6 +224,13 @@
       "publisher": "iNaturalist",
       "year": null,
       "note": "Taxon 43749; preferred English name Common Molerat; Afrikaans name Vaalmol is listed. Used for photograph and sound checks in places 69020, 6986 and 113055. Two live-animal photographs from Western Cape records in place 113055 were kept."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 84). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -238,7 +245,7 @@
     "Two licensable photographs of live animals were added from research-grade iNaturalist observations in place 113055 (southern Africa): an adult on sandy ground at Mossel Bay, Western Cape (CC BY-NC), and an adult at a burrow in the Bitou Local Municipality, Western Cape (CC BY). iNaturalist still had no licensed live-animal photographs in Kruger (place 69020). An earlier South Africa (place 6986) shortlist had only mounds and a container shot.",
     "iNaturalist has 0 sound observations for Cryptomys hottentotus in place 69020. No sourced description of a vocalisation was found; Animal Diversity Web lists only tactile and chemical communication. The calls array is empty.",
     "No 2025 EWT project page for this species was located. Conservation status is taken from the 2016 regional assessment and from the IUCN listing cited by Wikipedia.",
-    "Skinner and Chimimba and Stuart's field guide were not available as books. Lengths and mass are from Wikipedia and Animal Diversity Web, which may reflect a lumped concept.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Lengths and mass are from Wikipedia and Animal Diversity Web, which may reflect a lumped concept.",
     "Iris colour, ear and underpart colours, a sexed size split, and shoulder height were not given in the sources used, so those marks are null. No call recordings were found."
   ]
 }

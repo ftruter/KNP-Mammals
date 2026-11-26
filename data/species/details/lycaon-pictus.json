@@ -82,7 +82,7 @@
     ],
     "guild": "carnivore"
   },
-  "young": "In southern Africa, breeding is usually between April and July. Gestation is 69–73 days. Litters are large, commonly of about 6–16 pups, with an average of about 10. Pups are born in a den, and the pack helps to feed and guard them. Only the dominant female typically breeds.",
+  "young": "In southern Africa, breeding is usually between April and July. Gestation is 69–73 days. Litters are large, commonly of about 6–16 pups, with an average of about 10. Pups are born in a den, and the pack helps to feed and guard them. Only the dominant female typically breeds. Skinner and Chimimba (2005, p. 479) say wild dogs in Kruger breed seasonally, with pups born between April and September and a peak in the dry season from late May to early July (citing Reich 1981 and Maddock 1989).",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -200,7 +200,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "dark, often fringed with black, with tufts of white hair at the lower inner edges",
           "shape": "large and rounded"
         },
         "eye": {
@@ -209,7 +209,7 @@
         },
         "head": {
           "face": "short, broad muzzle",
-          "muzzle": null,
+          "muzzle": "short, broad, black or dark brown with short hair",
           "beard": null
         },
         "mane": {
@@ -377,6 +377,13 @@
       "publisher": "Visit the Kruger Park",
       "year": 2026,
       "note": "Secondary source quoting SANParks surveys or estimates."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 475), young (p. 479). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -388,8 +395,7 @@
   "gaps": [
     "The 2024 estimate is of adults and yearlings in Greater Kruger, not of mature animals in Kruger National Park alone. A calculated mature subset of about 90 is recorded in the notes.",
     "Sources disagree on the recent total (about 250 in 2022 versus 399 adults and yearlings in 2024).",
-    "No Kruger-specific birth-month range was found beyond the general southern African breeding season of April to July.",
-    "Iris colour, ear colour and underpart colour were not given as named values in the sources used, so those marks are null.",
+    "Iris colour and underpart colour were not given as named values in the sources used, so those marks are null.",
     "No reusable Kruger recording found."
   ]
 }

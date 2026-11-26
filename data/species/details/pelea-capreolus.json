@@ -142,7 +142,7 @@
           "shape": "straight or slightly bent forward, upright, sharp, and ringed at the base; published lengths 15–25 cm in one compilation and 20–25 cm in another"
         },
         "ears": {
-          "colour": null,
+          "colour": "covered with white hair inside",
           "shape": "extremely long, pointed and erect; no bare patch below the ear"
         },
         "eye": {
@@ -188,7 +188,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "covered with white hair inside",
           "shape": "extremely long, pointed and erect; no bare patch below the ear"
         },
         "eye": {
@@ -369,6 +369,13 @@
       "url": "https://www.inaturalist.org/taxa/42336",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 687). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -384,8 +391,8 @@
     "No shoulder height or tail length was found. The 1.15–1.25 m length figure is not stated as head-and-body versus total length.",
     "No licensable Kruger photograph was found. A Commons search for Pelea capreolus in Kruger returned 0 hits. iNaturalist has 0 observations with photos in place 69020. The five photographs used are from the Western Cape.",
     "iNaturalist has 0 sound observations for Pelea capreolus in place 69020. No reusable Kruger recording was found. Call types are limited to the alarm grunt and male snorting described in compiled accounts.",
-    "Iris colour, ear colour, horn colour, a sourced tail shape, and a sourced mane were not given in the sources used, so those marks are null. Calf coat marks were not found, so no calf variant was added.",
+    "Iris colour, horn colour, a sourced tail shape and a sourced mane were not given in the sources used, so those marks are null. Calf coat marks were not found, so no calf variant was added.",
     "No Kruger-specific habitat account or birth-month range was found.",
-    "Skinner & Chimimba and Stuart's field guide were not available as direct reads. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
   ]
 }

@@ -57,7 +57,11 @@
       "min": 2.0,
       "max": 3.0
     },
-    "note": "Wikipedia, citing Skinner and Smithers (1990), gives an overall length of about 80 cm, a mass of 2–3 kg, and a tail slightly less than half the overall length. The 80 cm figure and the tail description are typical values, not published ranges, so lengthCm, headBodyLengthCm and tailCm are omitted. Shoulder height was not published in the sources used."
+    "note": "Wikipedia, citing Skinner and Smithers (1990), gives an overall length of about 80 cm, a mass of 2–3 kg, and a tail slightly less than half the overall length. The 80 cm figure and the tail description are typical values, not published ranges, so lengthCm, headBodyLengthCm and tailCm are omitted. Shoulder height was not published in the sources used. Skinner and Chimimba (2005, p. 452) give, in Table 251.1 (all samples combined): tail 30–41.2 cm.",
+    "tailCm": {
+      "min": 30.0,
+      "max": 41.2
+    }
   },
   "summary": "A medium to large, solitary, nocturnal mongoose of open savannah woodland and grassland, often near termite mounds. The coat is light to dark brown and coarsely grizzled, with darker lower limbs and a paler underside. The long tail is usually dark brown to black, but may also be brown or white. It feeds mainly on termites, and also takes other invertebrates, small vertebrates and, occasionally, wild fruit.",
   "description": "Meller's mongoose is a medium to large mongoose with a light to dark brown, coarsely grizzled coat. The lower parts of the limbs are darker than the upperparts, and the underparts are generally lighter. The tail is long and variable in colour: it may be black, brown or white, though dark brown to black is the most usual. The 2016 EWT assessment notes that predominantly brown, black or white tail hairs may occur within any one population, and that the densely furred, swollen upper lip and set-back nostrils may be adaptations to feeding on termites. Wikipedia says it may be confused with the white-tailed mongoose, but is smaller and blacker overall. No sourced difference in coat pattern between the sexes was found; females have two pairs of abdominal mammae.",
@@ -268,6 +272,13 @@
       "publisher": "South African National Biodiversity Institute and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Used for the swollen upper lip and variable tail-hair note, Kruger habitat from low-lying granitic soils to mountainous areas, and the 2016 regional status. Cited, not hosted."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 452, Table 251.1). Page numbers are the printed book pages. Cited, not hosted."
     }
   ]
 }

@@ -64,7 +64,7 @@
   },
   "habits": "Nocturnal and mainly terrestrial, though it climbs trees occasionally. It digs burrows in soil where grass cover is good, and builds cup-like nests in burrows, rock niches or crevices, the bases of trees and termite mounds. In the wild it appears territorial and reacts aggressively to others of its own species. Densities are generally low and vary with the seasons, peaking in the hot-wet or early cool-dry season and falling in the late hot-dry season; those density figures are from studies outside Kruger (Linzey and Kesner 1997 and later summaries) and are not a park count.",
   "diet": {
-    "summary": "Omnivorous, but typically relies more on plant than animal foods. Wikipedia, citing Linzey and Chimimba (2008), lists seeds, fruit, green leaves and starchy roots. No Kruger-specific diet study was found, and no animal prey was named.",
+    "summary": "Omnivorous, but typically relies more on plant than animal foods. Wikipedia, citing Linzey and Chimimba (2008), lists seeds, fruit, green leaves and starchy roots. In the Kruger wet season, 11 stomachs held about 21% insects, 32% plant matter and 47% seeds (Skinner and Chimimba 2005, p. 160, citing Watson 1987). No animal prey species was named.",
     "items": [
       "seeds",
       "fruit",
@@ -227,6 +227,13 @@
       "url": "https://www.inaturalist.org/observations/37224117",
       "publisher": "iNaturalist",
       "year": 2019
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: diet (p. 160). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -240,7 +247,7 @@
     "iNaturalist has 0 sound observations for Aethomys chrysophilus in place 69020. No sourced description of the calls was found.",
     "Aethomys chrysophilus is cryptic with A. ineptus (Tete veld rat), historically separable mainly by chromosomes and sperm. The 2025 EWT assessment treats A. ineptus as a younger synonym but still describes the Kruger range as north of the Olifants River and notes two genetic subpopulations in the assessment region. This file follows species-list.json (A. chrysophilus) and does not remap records. A. ineptus is not a separate slug in species-list.json.",
     "The 2025 EWT page does not publish an Afrikaans name. Afrikaanse bosrot is taken from species-list.json, which records the 2011 official checklist name.",
-    "Skinner and Chimimba and Stuart's field guide were not available as books. Length and mass are from Wikipedia, citing Linzey and Chimimba (2008), only, and may be Africa-wide or historically lumped. Animal Diversity Web has no account body.",
-    "No Kruger-specific diet, habitat or breeding study was found, and no predator species was named. Iris colour, ear colour, leg colour, tail colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null."
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Length and mass are from Wikipedia, citing Linzey and Chimimba (2008), only, and may be Africa-wide or historically lumped. Animal Diversity Web has no account body.",
+    "No Kruger-specific habitat or breeding study was found, and no predator species was named. Iris colour, ear colour, leg colour, tail colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null."
   ]
 }

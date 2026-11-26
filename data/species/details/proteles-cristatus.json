@@ -123,7 +123,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "black behind, white in front",
           "shape": "large, similar in form to those of a striped hyaena"
         },
         "eye": {
@@ -250,6 +250,13 @@
       "url": "https://ewt.org/project/aardwolf/",
       "publisher": "Endangered Wildlife Trust",
       "year": 2025
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 360). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

@@ -139,7 +139,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "dark with a white patch at the front of the base",
           "shape": null
         },
         "eye": {
@@ -170,7 +170,7 @@
           "colour": null
         },
         "tail": {
-          "colour": null,
+          "colour": "dark above, lighter below",
           "shape": "long, prehensile"
         }
       }
@@ -275,6 +275,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "A stub. Redirect from Dendromus melanotis. Used for the IUCN global citation and a broad range list only."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 200). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -288,7 +295,7 @@
     "No Kruger census or SANParks park-wide population figure.",
     "No Kruger-specific habitat or activity study.",
     "Age at sexual maturity was not found.",
-    "Iris, ear, leg and tail colours, and ear shape, were not described in the sources consulted.",
+    "Iris, leg and ear shape were not described in the sources consulted.",
     "The 2025 EWT assessment treats the taxon as Poemys melanotis sensu lato, a species complex; this file keeps Dendromus melanotis from species-list.json and does not remap Kruger records. Which cryptic species the Kruger animals belong to is unresolved."
   ]
 }

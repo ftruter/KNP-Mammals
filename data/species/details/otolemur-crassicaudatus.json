@@ -145,7 +145,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "naked inside, dark greyish on the outside",
           "shape": "very large and independently movable; may be furled or unfurled"
         },
         "eye": {
@@ -345,6 +345,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/43567",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 211). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -356,7 +363,7 @@
   "gaps": [
     "No Kruger population estimate was found. Regional status is assumed stable and one source gives densities of 72 to 125 animals per km² in ideal situations, but these are not park counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "The 2016 SANBI/EWT Red List PDF was not retrieved. Regional Near Threatened status, the uplisting from Least Concern, and the assumed-stable trend are taken from the 2025 EWT species page and the 2025 Red List fact sheet.",
-    "Skinner & Chimimba and Stuart's field guide were not available.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry.",
     "No shoulder-height measurement was found, so that size field is omitted.",
     "Iris colour, a named ear colour, and a beard were not given in the sources used, so those marks are null.",
     "No young or sexed adult variant beyond a single adult of either sex: newborn coat colour was not described in enough detail for a marks block.",

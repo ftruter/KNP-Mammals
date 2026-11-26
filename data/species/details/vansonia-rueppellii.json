@@ -121,8 +121,8 @@
                     "shape": null
                 },
                 "ears": {
-                    "colour": null,
-                    "shape": null
+                    "colour": "dark, contrasting with the upperparts",
+                    "shape": "rather triangular with broadly rounded tips"
                 },
                 "eye": {
                     "iris": null,
@@ -139,7 +139,7 @@
                 },
                 "upperparts": {
                     "colour": "darkened",
-                    "pattern": null
+                    "pattern": "hairs darker at the base, with a lighter terminal part"
                 },
                 "underparts": {
                     "colour": "pure white",
@@ -187,6 +187,13 @@
             "publisher": "Wikipedia",
             "year": 2026,
             "note": "The title Vansonia rueppellii redirects here. Source of the English name Rüppell's pipistrelle, the statement that the species is the only member of Vansonia and was formerly classified in Pipistrellus, the size figures (10 cm long, tail 3.8 cm, forearm no more than 3.4 cm, mass 7 g), habitat types (dry and moist savanna, dry shrubland, and hot deserts), and a note that it is not unusual to find them in crevices, rocks and buildings. Cites the 2017 IUCN Least Concern assessment (Monadjem, Aulagnier, Jacobs, Palmeirim, Taylor and Cotterill), assessed as Pipistrellus rueppellii."
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 302). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {
@@ -201,7 +208,7 @@
         "No licensable photograph in Kruger (place 69020) or South Africa (place 6986); images are left empty.",
         "Gap-fill pass: no licensed research-grade iNaturalist photograph in southern Africa (place 113055); Wikimedia Commons under Vansonia rueppellii and Pipistrellus rueppellii had only an 1826 illustration, museum skulls and a historical print.",
         "Pup appearance, litter size and other life-history figures were not published in the sources used.",
-        "Ear, eye, face, muzzle, leg and tail colours were not described on the pages used.",
+        "Eye, face, muzzle, leg and tail colours were not described on the pages used.",
         "Roosting habits in southern Africa, including Kruger, are not known.",
         "No named predators were given on the pages used."
     ]

@@ -54,7 +54,11 @@
       "min": 0.006,
       "max": 0.013
     },
-    "note": "Wikipedia, citing Cotterill and Happold in Kingdon et al. (2013), describes the species as medium-sized for an African horseshoe bat, with a forearm length of 42-51 mm and a mass of 6-13 g. The 2025 EWT assessment does not give mass, forearm length, tail length, head-and-body length or shoulder height; its life-history size fields are all marked not specified. Animal Diversity Web has no species account and no measurements."
+    "note": "Wikipedia, citing Cotterill and Happold in Kingdon et al. (2013), describes the species as medium-sized for an African horseshoe bat, with a forearm length of 42-51 mm and a mass of 6-13 g. The 2025 EWT assessment does not give mass, forearm length, tail length, head-and-body length or shoulder height; its life-history size fields are all marked not specified. Animal Diversity Web has no species account and no measurements. Skinner and Chimimba (2005, p. 340) give, in Table 215.1 (all samples combined): tail 2.1–3.6 cm.",
+    "tailCm": {
+      "min": 2.1,
+      "max": 3.6
+    }
   },
   "summary": "A medium-sized insect-eating horseshoe bat with soft, fluffy fur that is grey or greyish-brown on the back and pale grey on the belly. It roosts in caves, cavities among boulders, mine adits, culverts, large hollow trees and disused buildings, usually in small groups but sometimes in colonies of about a hundred, and hunts moths and beetles as a clutter forager. The 2025 regional assessment lists it as Least Concern, with a stable trend and no change from 2016, and records it from Kruger National Park.",
   "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia, citing Cotterill and Happold in Kingdon et al. (2013), describes it as medium-sized for an African horseshoe bat, with soft, fluffy fur, a grey or greyish-brown back and a pale grey belly, a forearm length of 42-51 mm and a mass of 6-13 g. The 2025 EWT assessment does not itself describe pelage colour or nose-leaf shape. Wikipedia gives the authority as K. Andersen, 1905, which matches the 2025 EWT assessment; the holotype was collected at Mazowe, Zimbabwe, by James ffolliott Darling, the eponym of the specific name. The 2025 assessment treats the present concept as new following the split of Rhinolophus damarensis: Jacobs et al. (2013) found R. darlingi sensu lato to be polyphyletic, with western arid populations (Angola, Namibia and northwestern South Africa) belonging to R. damarensis, and central and eastern southern African populations to R. darlingi (the assessment also writes R. darlingii in that sentence). This file keeps the species-list.json names and does not remap the Kruger animals.",
@@ -130,7 +134,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "translucent light brown",
           "shape": null
         },
         "eye": {
@@ -212,6 +216,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/338548",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 340, Table 215.1), marks (p. 340). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -229,8 +240,8 @@
     "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 338548. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
     "No licensed photograph was kept. iNaturalist place 69020 returned one licensed research-grade observation (354001, John Kinghorn, CC BY-NC), whose description places the roost at Olifants Rest Camp; it was dropped from metadata as a rest-camp shot and was not viewed. One place 6986 query (per_page 30) returned only that same observation. Zero photos is recorded.",
     "This gap-fill pass: iNaturalist place 113055 (southern Africa) returned only the already-dropped rest-camp roost (354001) and a handled bat from Wedza, Zimbabwe (302108935, wing-punch DNA and measurements in the description), dropped from metadata and not viewed. Wikimedia Commons searches for Rhinolophus darlingi and for Darling's horseshoe bat returned a range map and historic manuals, but no photograph of a live animal. Images remains empty.",
-    "Head-and-body length, tail length, shoulder height and wingspan were not published in the sources used, so those numeric fields are null. Mass and forearm length are taken from Wikipedia (Kingdon et al. 2013). The 2025 EWT assessment does not show those measurements.",
-    "Ear colour, iris colour, muzzle colour, leg colour, tail colour and nose-leaf shape were not given in the sources used, so those marks are null. Pelage colour is taken only from Wikipedia (Kingdon et al. 2013).",
+    "Head-and-body length, shoulder height and wingspan were not published in the sources used, so those numeric fields are null. Mass and forearm length are taken from Wikipedia (Kingdon et al. 2013). The 2025 EWT assessment does not show those measurements.",
+    "Iris colour, muzzle colour, leg colour, tail colour and nose-leaf shape were not given in the sources used, so those marks are null. Pelage colour is taken only from Wikipedia (Kingdon et al. 2013).",
     "No sourced comparison characters for other horseshoe bats in this guide were given in the darlingi sources used, so similar is omitted.",
     "No Kruger-specific breeding study was found. Beyond live birth, breeding details were not specified in the 2025 EWT assessment, and Wikipedia has no breeding account.",
     "No species-specific, documented predators were given in the sources used, so the predators list is empty.",
