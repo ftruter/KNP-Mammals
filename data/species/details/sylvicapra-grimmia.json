@@ -63,7 +63,11 @@
       "min": 12,
       "max": 25
     },
-    "note": "Mass 12–25 kg follows both Wikipedia and Animal Diversity Web; females are generally larger and heavier than males. Shoulder height was published only as typical values (about 50 cm on Wikipedia, an average of 60 cm on Animal Diversity Web), and head-and-body length only as an average of 100 cm, so those range fields are omitted. Male horns are given as up to 11 cm on Wikipedia and 7–18 cm, heavily grooved at the base, on Animal Diversity Web; both figures are kept in this note. Ears are 9.5–14.5 cm."
+    "note": "Mass 12–25 kg follows both Wikipedia and Animal Diversity Web; females are generally larger and heavier than males. Shoulder height was published only as typical values (about 50 cm on Wikipedia, an average of 60 cm on Animal Diversity Web), and head-and-body length only as an average of 100 cm, so those range fields are omitted. Male horns are given as up to 11 cm on Wikipedia and 7–18 cm, heavily grooved at the base, on Animal Diversity Web; both figures are kept in this note. Ears are 9.5–14.5 cm. Skinner and Chimimba (2005, p. 673, Table 339.1) give a tail of 10.5–19.5 cm (males 10.5–16, females 12.2–19.5). The book gives total length including the tail rather than head-and-body length, and gives no shoulder height.",
+    "tailCm": {
+      "min": 10.5,
+      "max": 19.5
+    }
   },
   "summary": "A small, grey-brown antelope of cover, with a slightly hunched back and a black-tipped tail. Only males usually have short, straight, spike-like horns. It is widespread in Kruger, but no park population figure was found.",
   "description": "Colour varies widely across the species' range, from grey to light brown; Kruger animals in the photographs are grey-brown with a rufous tinge on the face and a dark blaze on the muzzle. Females are generally larger than males. Only males usually have horns, which are short, straight spikes, heavily grooved at the base; females occasionally have stunted horns. The ears are fairly large. The tail has a dark upper surface and shows a white underside when raised. Underparts are paler.",
@@ -78,7 +82,7 @@
     ],
     "guild": "omnivore"
   },
-  "young": "Breeding is year-round. A single fawn is usual, after a gestation given as 6–7.5 months on Wikipedia, or 4–7 months (4.1–5.67 months in one table) on Animal Diversity Web; both figures are kept here. The cow gives birth in thick cover. Young reach adult size in about six months. Exact birth months for Kruger were not found.",
+  "young": "Breeding is year-round. A single fawn is usual, after a gestation given as 6–7.5 months on Wikipedia, or 4–7 months (4.1–5.67 months in one table) on Animal Diversity Web; both figures are kept here. The cow gives birth in thick cover. Young reach adult size in about six months. Exact birth months for Kruger were not found. Skinner and Chimimba (2005, p. 675) say lambs are born in every month of the year, with no firm evidence of a rainy-season peak; they give a gestation of about 191 days and a birth mass of about 1.35–1.9 kg, and the female leaves the hidden lamb after suckling it.",
   "predators": [],
   "prey": [],
   "habitat": "Any habitat with enough cover to hide in, including savanna, woodland and the edges of settlements. In Kruger it is widespread along roads and in bush, and it is not confined to dense forest.",
@@ -201,7 +205,7 @@
         },
         "head": {
           "face": "grey-brown with a rufous tinge on the face",
-          "muzzle": null,
+          "muzzle": "black band along the top of the muzzle, from the forehead to the nostrils or only near the nostrils",
           "beard": null
         },
         "mane": {
@@ -259,7 +263,7 @@
     {
       "sex": "any",
       "type": "call",
-      "description": "A detailed description of the call was not found in the sources used here.",
+      "description": "A detailed description of the call was not found in the sources used here. Skinner and Chimimba (2005, p. 674) call it usually quiet, with a nasal snort as the alarm call; it screams loudly when caught in a snare.",
       "recordings": []
     }
   ],
@@ -370,6 +374,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 673, Table 339.1), marks (p. 673), young (p. 675), calls (p. 674). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -380,13 +391,12 @@
   },
   "gaps": [
     "No Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "Shoulder height and head-and-body length were published only as typical or average values, so those range fields are omitted.",
+    "Shoulder height and head-and-body length were not published as ranges; the book gives total length including the tail.",
     "Gestation length disagrees between sources (6–7.5 months versus 4–7 months).",
-    "A sourced description of the call was not found, so the call entry is a placeholder without a recording.",
     "A named list of predators was not found in the sources used, so predators is an empty list.",
     "Iris colour was not given in the sources used, so that mark is null.",
     "No Kruger-specific birth-month range was found.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits and young were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits and young were taken from Wikipedia and Animal Diversity Web.",
     "No reusable Kruger recording found."
   ]
 }

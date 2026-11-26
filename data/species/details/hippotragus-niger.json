@@ -65,7 +65,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A single calf is born after a gestation of about nine months, with births coinciding with the rainy season in the general account. The newborn is sandy or light tan and lies hidden for at least ten days while the mother nurses it. The coat darkens as the animal grows. Exact calving months for Kruger were not found.",
+  "young": "A single calf is born after a gestation of about nine months, with births coinciding with the rainy season in the general account. The newborn is sandy or light tan and lies hidden for at least ten days while the mother nurses it. The coat darkens as the animal grows. Exact calving months for Kruger were not found. Skinner and Chimimba (2005, p. 665) give a mean gestation of 266 days, first calving at about three years old, and March births in Zimbabwe; the mean birth mass of male calves was about 19 kg.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -143,8 +143,8 @@
           "shape": "long, ringed scimitars arching backward, 81–165 cm"
         },
         "ears": {
-          "colour": null,
-          "shape": null
+          "colour": "fringed with white hairs, rufous at the back",
+          "shape": "narrow and pointed"
         },
         "eye": {
           "iris": null,
@@ -189,8 +189,8 @@
           "shape": "ringed scimitars arching backward, 61–102 cm, slighter than in the male"
         },
         "ears": {
-          "colour": null,
-          "shape": null
+          "colour": "fringed with white hairs, rufous at the back",
+          "shape": "narrow and pointed"
         },
         "eye": {
           "iris": null,
@@ -224,7 +224,7 @@
         },
         "tail": {
           "colour": null,
-          "shape": null
+          "shape": "fringed and tufted at the tip with long black hair reaching the hocks"
         }
       }
     },
@@ -410,6 +410,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/42334",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 663), young (p. 665). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -424,9 +431,9 @@
     "No close photograph of a sandy newborn calf was found in the Kruger set used; the 'young' photograph shows an older juvenile already darkening.",
     "A sourced description of the call was not found, so the call entry is a placeholder without a recording.",
     "A global IUCN status was not taken from a checked page in this session.",
-    "Iris colour, ear colour and a named leg colour for the adult male were not given in the sources used, so those marks are null.",
+    "Iris colour and a named leg colour for the adult male were not given in the sources used, so those marks are null.",
     "No Kruger-specific calving-month range was found. General accounts give birth after about nine months, coinciding with the rains.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No licensable sound recording was included from xeno-canto or iNaturalist."
   ]
 }

@@ -65,7 +65,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A single calf is born each year after a gestation of seven months. Calves reach sexual maturity in two to three and a half years. In the Kruger photographs, young are paler tawny than the adults and lack the dark face and limb colour. The rut in the general account starts in mid-February; exact calving months for Kruger were not found.",
+  "young": "A single calf is born each year after a gestation of seven months. Calves reach sexual maturity in two to three and a half years. In the Kruger photographs, young are paler tawny than the adults and lack the dark face and limb colour. The rut in the general account starts in mid-February; exact calving months for Kruger were not found. Skinner and Chimimba (2005, p. 659) say most calves are born in October, with births possible from August to January, and give a single calf with a birth mass of 10–12 kg (northern Botswana); the mothers do not hide the calves, which soon form small nursery herds.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -138,7 +138,7 @@
           "shape": "ringed and lyrate; about 40 cm in males and 37 cm in females"
         },
         "ears": {
-          "colour": null,
+          "colour": "back of the ears yellowish-white",
           "shape": null
         },
         "eye": {
@@ -147,7 +147,7 @@
         },
         "head": {
           "face": "black on the front of the face",
-          "muzzle": null,
+          "muzzle": "dark, almost black, over the top of the head and muzzle",
           "beard": null
         },
         "mane": {
@@ -415,6 +415,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/42276",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 658), young (p. 659). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -428,9 +435,9 @@
     "No published mass range was found, only averages of 137 kg (males) and 120 kg (females).",
     "The 1.5–2.3 m length figure is not stated as head-and-body versus total length.",
     "No Kruger-specific calving-month range or daily activity timetable was found.",
-    "Iris colour, ear colour and a named mane were not given in the sources used, so those marks are null.",
+    "Iris colour and a named mane were not given in the sources used, so those marks are null.",
     "Predators listed are those named for tsessebe in the sources used (lion, leopard and hyaena); a fuller predator list may exist.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No licensable sound recording was included from xeno-canto or iNaturalist."
   ]
 }

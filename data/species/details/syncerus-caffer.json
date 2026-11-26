@@ -182,7 +182,7 @@
         },
         "ears": {
           "colour": null,
-          "shape": null
+          "shape": "large, tipped with a fringe of hair"
         },
         "eye": {
           "iris": null,
@@ -231,7 +231,7 @@
         },
         "ears": {
           "colour": null,
-          "shape": null
+          "shape": "large, tipped with a fringe of hair"
         },
         "eye": {
           "iris": null,
@@ -494,6 +494,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/42405",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 622). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -508,7 +515,7 @@
     "A published minimum mass for females was not found; only a maximum of 500 kg.",
     "Tail length, iris colour, ear colour and a named mane were not given in the sources used, so those marks are null.",
     "The only iNaturalist sound observation in Kruger (place 69020) is not under a reusable licence, so no recording is included.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No licensable sound recording was included from xeno-canto or iNaturalist."
   ]
 }

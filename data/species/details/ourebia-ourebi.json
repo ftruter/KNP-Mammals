@@ -66,7 +66,7 @@
         ],
         "guild": "herbivore"
     },
-    "young": "A single calf is born after a gestation of six to seven months. In southern Africa, births are described as peaking from November to December in one compilation; another gives a breeding peak in October and November and says mating can occur year-round. Mating may also peak in the rainy season (August to September). The newborn is kept in concealment for nearly a month, and the mother returns to suckle it. Weaning is at four to five months. One account says both sexes mature at 10\u201314 months; another gives about 10 months for females and 14 months for males. Those disagreements are recorded and are not averaged. A Kruger-specific birth-month range was not found.",
+    "young": "A single calf is born after a gestation of six to seven months. In southern Africa, births are described as peaking from November to December in one compilation; another gives a breeding peak in October and November and says mating can occur year-round. Mating may also peak in the rainy season (August to September). The newborn is kept in concealment for nearly a month, and the mother returns to suckle it. Weaning is at four to five months. One account says both sexes mature at 10\u201314 months; another gives about 10 months for females and 14 months for males. Those disagreements are recorded and are not averaged. A Kruger-specific birth-month range was not found. Skinner and Chimimba (2005, p. 698) record mating in April\u2013June in the KwaZulu-Natal Drakensberg and in May in Mpumalanga, so most lambs arrive in the warm, wet months from October to December; they give a gestation of about 210 days and a single young that the female hides in grass.",
     "predators": [
         {
             "slug": "panthera-pardus",
@@ -183,7 +183,7 @@
                 },
                 "head": {
                     "face": "chin and throat white; a white line of fur over each eye; prominent preorbital glands appearing as vertical folds on the side of the face",
-                    "muzzle": null,
+                    "muzzle": "a white blaze on either side of the nostrils",
                     "beard": null
                 },
                 "mane": {
@@ -232,7 +232,7 @@
                 },
                 "head": {
                     "face": "chin and throat white; a white line of fur over each eye; prominent preorbital glands appearing as vertical folds on the side of the face",
-                    "muzzle": null,
+                    "muzzle": "a white blaze on either side of the nostrils",
                     "beard": null
                 },
                 "mane": {
@@ -392,6 +392,13 @@
             "url": "https://www.inaturalist.org/taxa/42380",
             "publisher": "iNaturalist",
             "year": 2026
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 696), young (p. 698). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {
@@ -409,6 +416,6 @@
         "iNaturalist has 0 sound observations for Ourebia ourebi in place 69020. No reusable Kruger recording was found. Call types are limited to the alarm whistle described in compiled accounts.",
         "Iris colour, ear colour, horn colour, a named leg ground colour, and a sourced mane were not given in the sources used, so those marks are null. Calf coat marks were not found, so no calf variant was added.",
         "No Kruger-specific habitat account or birth-month range was found.",
-        "Skinner & Chimimba and Stuart's field guide were not available as direct reads. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
+        "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
     ]
 }

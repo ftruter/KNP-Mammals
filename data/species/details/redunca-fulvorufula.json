@@ -40,7 +40,21 @@
     ]
   },
   "size": {
-    "note": "No published min–max ranges for shoulder height, head-and-body length, tail or mass were found, so those structured bounds are omitted. Sources disagree on shoulder height and are not averaged: one compilation gives about 70 cm for an adult male, another gives an average of 75 cm. Mass is given only as a typical value of around 30 kg in both accounts. Male horn length is given as around 15.2 cm in one compilation. Females are described as smaller than males."
+    "note": "No published min–max ranges for shoulder height, head-and-body length, tail or mass were found, so those structured bounds are omitted. Sources disagree on shoulder height and are not averaged: one compilation gives about 70 cm for an adult male, another gives an average of 75 cm. Mass is given only as a typical value of around 30 kg in both accounts. Male horn length is given as around 15.2 cm in one compilation. Females are described as smaller than males. Skinner and Chimimba (2005, p. 678, Table 341.1, two samples combined) give a tail of 12.6–20.2 cm and a mass of 22.0–37.0 kg in males and 14.5–35.0 kg in females. The book gives total length including the tail (119–143 cm) rather than head-and-body length or shoulder height, so those ranges are left empty.",
+    "tailCm": {
+      "min": 12.6,
+      "max": 20.2
+    },
+    "massKg": {
+      "male": {
+        "min": 22.0,
+        "max": 37.0
+      },
+      "female": {
+        "min": 14.5,
+        "max": 35.0
+      }
+    }
   },
   "summary": "A medium-sized antelope with a grey coat, a reddish-brown head and shoulders, white underparts and a dark scent patch beneath each ear. Only males have short, forward-curving horns. It lives on rocky, grass-covered hillsides, and is listed as Endangered in the region.",
   "description": "A medium-sized antelope with a grey or greyish-brown body, a reddish-brown (rufous) head, neck and shoulders, and white underparts. Both sexes have a dark scent patch beneath the ears. The tail is bushy, with a white underside. Only males have horns: short, ridged and curving forwards, given as around 15.2 cm in one compilation. Females are smaller than males. Sources disagree on shoulder height and are not averaged: one compilation gives about 70 cm for an adult male, another gives an average of 75 cm. Mass is given only as a typical value of around 30 kg.",
@@ -54,7 +68,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A seasonal breeder in some accounts, with birth peaks in October–December in the eastern Free State, though the species is also reported to breed throughout the year. Peak breeding activity has been placed in summer and autumn, with lambing during the summer rains. Gestation is normally about eight months (also given as 7.87–8.37 months). A single lamb is typical, and the young are hidden for a time after birth. Females may first come into oestrus at 9–12 months, but most do so at 12–24 months, and most breed for the first time in their second year. Males produce viable sperm at about one year. Lambing intervals are given as 9–14 months. A Kruger-specific birth-month range was not found, and no calf coat description was found.",
+  "young": "A seasonal breeder in some accounts, with birth peaks in October–December in the eastern Free State, though the species is also reported to breed throughout the year. Peak breeding activity has been placed in summer and autumn, with lambing during the summer rains. Gestation is normally about eight months (also given as 7.87–8.37 months). A single lamb is typical, and the young are hidden for a time after birth. Females may first come into oestrus at 9–12 months, but most do so at 12–24 months, and most breed for the first time in their second year. Males produce viable sperm at about one year. Lambing intervals are given as 9–14 months. A Kruger-specific birth-month range was not found, and no calf coat description was found. Skinner and Chimimba (2005, p. 680) say mountain reedbuck breed throughout the year, with births peaking from October to January in the Ohrigstad and Loskop Dam nature reserves (Mpumalanga) and in November in the Karoo; a female may calve again after 12–14 months.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -360,6 +374,13 @@
       "publisher": "iNaturalist",
       "year": 2026,
       "note": "One research-grade observation in place 69020, dated 5 October 2024, not marked captive. Status is resident with months 1–12 under the 15 Nov 2026 owner rule (c)."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 678, Table 341.1), young (p. 680). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -371,11 +392,11 @@
   "gaps": [
     "No current Kruger population figure was found. One source claims a suspected 150 individuals in Kruger in 2009, with no long-term Kruger trend. Regional protected-area totals (2,585 in 2008 to 577 in 2023, or 1,918 to 574 in a smaller sample) are not a park census. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "Status is resident with months 1–12 under the 15 Nov 2026 owner rule (a): the 2025 EWT assessment names Kruger National Park as a locality (suspected 150 individuals in 2009); and rule (c): one research-grade iNaturalist observation in place 69020 dated 5 October 2024, not marked captive. No source describes a migrant or seasonal pattern.",
-    "No published min–max ranges were found for shoulder height, head-and-body length, tail or mass. Sources disagree on shoulder height (about 70 cm for an adult male versus an average of 75 cm) and on group size (mostly up to 3, even up to 8, versus six or fewer); both accounts are recorded and are not averaged. Mass is given only as a typical value of around 30 kg.",
+    "Shoulder height and head-and-body length were not published as ranges; the book gives total length including the tail.",
     "A Commons search for Redunca fulvorufula in Kruger returned 0 hits. iNaturalist has 1 research-grade photograph in place 69020, used here. The other three photographs are from Cacadu in the Eastern Cape, Sabie in Mpumalanga, and uMkhanyakude District in KwaZulu-Natal.",
     "iNaturalist has 0 sound observations for Redunca fulvorufula in place 69020. No reusable Kruger recording was found. Call types are limited to the shrill whistle described in a compiled account.",
     "Iris colour, ear colour, horn colour, muzzle, leg colour and a sourced mane were not given in the sources used, so those marks are null. Female horns are null (females are hornless). Calf coat marks were not found, so no calf variant was added.",
     "No Kruger-specific habitat account or birth-month range was found.",
-    "Skinner & Chimimba and Stuart's field guide were not available as direct reads. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young, calls and predators were taken from Wikipedia, Animal Diversity Web and the EWT assessment."
   ]
 }

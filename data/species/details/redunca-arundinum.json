@@ -67,7 +67,21 @@
       "min": 134,
       "max": 167
     },
-    "note": "Shoulder height 80–90 cm and head-and-body length 134–167 cm follow Wikipedia, which also gives an average shoulder height of 85 cm. Mass was published only as typical values (an average of 58 kg, or 68 kg in males and 48 kg in females), so massKg is omitted. Male horns are about 35–45 cm, forward-curving, with a pale rubbery band at the base. Tail length was not found as a published range."
+    "note": "Shoulder height 80–90 cm and head-and-body length 134–167 cm follow Wikipedia, which also gives an average shoulder height of 85 cm. Mass was published only as typical values (an average of 58 kg, or 68 kg in males and 48 kg in females), so massKg is omitted. Male horns are about 35–45 cm, forward-curving, with a pale rubbery band at the base. Tail length was not found as a published range. Skinner and Chimimba (2005, p. 676, Table 340.1) give a tail of 20–30 cm (males 21.5–30, females 20–30) and a mass of 42.7–68.2 kg in males and 31.8–50.9 kg in females.",
+    "tailCm": {
+      "min": 20,
+      "max": 30
+    },
+    "massKg": {
+      "male": {
+        "min": 42.7,
+        "max": 68.2
+      },
+      "female": {
+        "min": 31.8,
+        "max": 50.9
+      }
+    }
   },
   "summary": "A medium-sized antelope of tall grass and reed beds near water. The coat is light to greyish-brown, paler on the neck and chest, with white underparts, whitish rings around the eyes, and distinctive dark lines down the front of the forelegs and lower hindlegs. Only males have forward-curving horns. It is present in Kruger, but no current park count was found.",
   "description": "The southern reedbuck is the largest Redunca. The coat is silky, almost woolly, and ranges from light to greyish-brown, often paler on the neck and chest. Underparts, lips and chin are white, and the tail is short, bushy and white underneath. There are distinctive dark lines down the front of each foreleg and of the lower hindlegs, and whitish rings around the eyes. A small, black, bare glandular patch sits at the base of each ear. Females are hornless. Males have forward-curving horns about 35–45 cm long, with a distinct band of pale, rubbery tissue at the base.",
@@ -80,7 +94,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A single young is usual, after a gestation of seven to eight months. The lamb is hidden in dense, tall grass and is visited by the cow to nurse. Young leave the parents at about two years, males sometimes later. Exact calving months for Kruger were not found.",
+  "young": "A single young is usual, after a gestation of seven to eight months. The lamb is hidden in dense, tall grass and is visited by the cow to nurse. Young leave the parents at about two years, males sometimes later. Exact calving months for Kruger were not found. Skinner and Chimimba (2005, p. 678) say lambs may be born in any month, with a peak from December to May in Kruger (citing Jungius 1970); they give a gestation of about 225 days and a birth weight of 4.5 kg, and the lamb hides alone while the female visits it once a day.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -183,7 +197,7 @@
           "shape": "forward-curving, about 35–45 cm, with a pale rubbery band at the base"
         },
         "ears": {
-          "colour": null,
+          "colour": "outsides sparsely haired, with dark skin showing through",
           "shape": "a small black bare glandular patch at the base of each ear"
         },
         "eye": {
@@ -229,7 +243,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "outsides sparsely haired, with dark skin showing through",
           "shape": "a small black bare glandular patch at the base of each ear"
         },
         "eye": {
@@ -411,6 +425,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 676, Table 340.1), marks (p. 675-676), young (p. 678). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -421,11 +442,9 @@
   },
   "gaps": [
     "No current Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "Mass was published only as typical or average values, so massKg is omitted.",
-    "Tail length and iris colour were not given in the sources used, so those marks are null.",
-    "No Kruger-specific calving-month range was found. General accounts give a gestation of seven to eight months.",
+    "Iris colour was not given in the sources used, so that mark is null.",
     "No licensable sound recording was included; the alarm whistle is described from text sources only.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No reusable Kruger recording found."
   ]
 }

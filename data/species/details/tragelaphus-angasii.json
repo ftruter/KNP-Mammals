@@ -63,7 +63,11 @@
         "max": 68
       }
     },
-    "note": "Wikipedia gives head-and-body length as 135–195 cm. Males stand over one metre at the shoulder (Animal Diversity Web) and up to about 110 cm if that 'over one metre' is taken with the commonly cited male height; females are up to 90 cm (Wikipedia) or slightly less than a metre (ADW). The overall shoulder-height bounds used here are 90–110 cm, with this caveat. Mass follows Wikipedia and ADW: males 98–125 kg, females 55–68 kg. Male horns are 60–83 cm (Wikipedia) or up to 80 cm (ADW), with one or two twists and yellow tips. A calf weighs about 5 kg."
+    "note": "Wikipedia gives head-and-body length as 135–195 cm. Males stand over one metre at the shoulder (Animal Diversity Web) and up to about 110 cm if that 'over one metre' is taken with the commonly cited male height; females are up to 90 cm (Wikipedia) or slightly less than a metre (ADW). The overall shoulder-height bounds used here are 90–110 cm, with this caveat. Mass follows Wikipedia and ADW: males 98–125 kg, females 55–68 kg. Male horns are 60–83 cm (Wikipedia) or up to 80 cm (ADW), with one or two twists and yellow tips. A calf weighs about 5 kg. Skinner and Chimimba (2005, p. 630, Table 324.1) give a tail of 34.2–47 cm (males 37–47, females 34.2–39.9).",
+    "tailCm": {
+      "min": 34.2,
+      "max": 47
+    }
   },
   "summary": "A mid-sized, spiral-horned antelope of riverine thicket, with the strongest sexual dimorphism of its group. Males are dark and shaggy, with a dorsal crest, yellow lower legs and horns; females and young are bright rufous with many close white stripes. In Kruger it is a resident of southern and far-northern riverine bush.",
   "description": "Sexual dimorphism is marked. Adult males are dark brown to slate-grey, often with a bluish tinge; the coat is shaggy, with a white dorsal crest, a throat fringe, and yellow-tawny lower legs. Body stripes are faint or absent in older males. Only males have horns, 60–83 cm, with one or two twists and yellow tips. Females and juveniles are rusty or rufous brown, with ten or more clear white vertical stripes and other white marks on the face, throat, flanks and thighs; they are hornless. Both sexes have a white chevron between the eyes. It should not be confused with the mountain nyala of Ethiopia.",
@@ -77,7 +81,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A single calf, weighing about 5 kg, is born after a gestation of seven months, usually in cover such as a thicket. The calf is hidden for up to 18 days and is nursed at intervals. It stays with the mother until the next calf is born, when males in rut may drive it away. Exact calving months for Kruger were not found.",
+  "young": "A single calf, weighing about 5 kg, is born after a gestation of seven months, usually in cover such as a thicket. The calf is hidden for up to 18 days and is nursed at intervals. It stays with the mother until the next calf is born, when males in rut may drive it away. Exact calving months for Kruger were not found. Skinner and Chimimba (2005, p. 632) say nyala in Mozambique and KwaZulu-Natal breed throughout the year, with a main calving peak from about August to December and a smaller one around May.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -173,7 +177,7 @@
           "shape": "spiral with one or two twists, 60–83 cm"
         },
         "ears": {
-          "colour": null,
+          "colour": "back of the ear bases white",
           "shape": null
         },
         "eye": {
@@ -182,7 +186,7 @@
         },
         "head": {
           "face": "dark, with a white chevron between the eyes",
-          "muzzle": null,
+          "muzzle": "white chevron across the top of the muzzle, its arms starting in front of the eyes",
           "beard": "a throat fringe"
         },
         "mane": {
@@ -199,7 +203,7 @@
         },
         "underparts": {
           "colour": null,
-          "pattern": null
+          "pattern": "white band across the upper chest"
         },
         "legs": {
           "colour": "yellow-tawny on the lower legs"
@@ -220,7 +224,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "back of the ear bases white",
           "shape": null
         },
         "eye": {
@@ -229,7 +233,7 @@
         },
         "head": {
           "face": "rufous, with a white chevron between the eyes and other white facial marks",
-          "muzzle": null,
+          "muzzle": "white chevron across the top of the muzzle, its arms starting in front of the eyes",
           "beard": null
         },
         "mane": {
@@ -245,10 +249,10 @@
         },
         "underparts": {
           "colour": null,
-          "pattern": null
+          "pattern": "white band across the upper chest"
         },
         "legs": {
-          "colour": null
+          "colour": "lower legs pale, almost white, with the backs of the pasterns black"
         },
         "tail": {
           "colour": null,
@@ -291,7 +295,7 @@
         },
         "underparts": {
           "colour": null,
-          "pattern": null
+          "pattern": "white band across the upper chest"
         },
         "legs": {
           "colour": null
@@ -337,7 +341,7 @@
     {
       "sex": "any",
       "type": "call",
-      "description": "A detailed description of the call was not found in the sources used here.",
+      "description": "A detailed description of the call was not found in the sources used here. Skinner and Chimimba (2005, p. 632) describe nyala as usually silent; the alarm call is a deep bark, a stressed or separated calf bleats, and a female in oestrus or tending a calf makes a soft, throaty clicking sound.",
       "recordings": []
     }
   ],
@@ -461,6 +465,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/42342",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 630, Table 324.1), marks (p. 630), young (p. 632), calls (p. 632). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -471,11 +482,10 @@
   },
   "gaps": [
     "No recent Kruger population figure was found. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "A sourced description of the nyala's call was not found, so the call entry is a placeholder without a recording.",
     "Shoulder-height figures are pieced together from 'over one metre' (males), 'up to 90 cm' or 'slightly less than a metre' (females).",
-    "Tail length, iris colour, ear colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "Iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
     "No Kruger-specific calving-month range was found.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No licensable sound recording was included from xeno-canto or iNaturalist."
   ]
 }

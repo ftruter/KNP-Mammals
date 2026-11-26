@@ -82,7 +82,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A single calf is born after a gestation of 260 to 281 days. Sources describe breeding as possible throughout the year, with no distinct season. The female leaves the herd about one or two weeks before giving birth and hides the newborn for about four or five weeks, returning to it at dusk, until the calf is strong enough to join the herd. Young animals are much lighter and reddish-brown. Exact calving months for Kruger were not found.",
+  "young": "A single calf is born after a gestation of 260 to 281 days. Sources describe breeding as possible throughout the year, with no distinct season. The female leaves the herd about one or two weeks before giving birth and hides the newborn for about four or five weeks, returning to it at dusk, until the calf is strong enough to join the herd. Young animals are much lighter and reddish-brown. Exact calving months for Kruger were not found. Skinner and Chimimba (2005, p. 662) describe roan as aseasonal breeders, but in Limpopo Province most calves are born from January to March, peaking in February; they give a gestation of 276–287 days and a mean calving interval of 317 days.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -507,6 +507,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/42332",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 662). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -523,6 +530,6 @@
     "No photograph of a hidden newborn calf was included; the juvenile photograph shows an older youngster with developing horns.",
     "Iris colour was not given in the sources used, so that mark is null.",
     "No Kruger-specific calving-month range was found. General accounts say breeding can occur throughout the year.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web."
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web."
   ]
 }
