@@ -77,7 +77,7 @@
     ],
     "guild": "insectivore"
   },
-  "young": "The 2025 EWT assessment lists the species as aseasonally polyoestrous, states that it gives birth to live young, and gives a litter size of 2. Animal Diversity Web says reproduction is aseasonal but more frequent in the rainy season, with a litter of 1-2 young that are born naked and altricial and are weaned by the mother in bare nesting chambers linked to the tunnel network, after which the young are forced from the burrow. Wikipedia says usually two young are born, sometimes one, in a grass-lined cavity in the ground. The accounts disagree on whether the nest chamber is bare or grass-lined; both are recorded. Gestation, size at birth, and a Kruger-specific breeding study were not found.",
+  "young": "The 2025 EWT assessment lists the species as aseasonally polyoestrous, states that it gives birth to live young, and gives a litter size of 2. Animal Diversity Web says reproduction is aseasonal but more frequent in the rainy season, with a litter of 1-2 young that are born naked and altricial and are weaned by the mother in bare nesting chambers linked to the tunnel network, after which the young are forced from the burrow. Wikipedia says usually two young are born, sometimes one, in a grass-lined cavity in the ground. The accounts disagree on whether the nest chamber is bare or grass-lined; both are recorded. Gestation, size at birth, and a Kruger-specific breeding study were not found. Skinner and Chimimba (2005, p. 16) report breeding animals caught in July, August and November, suggesting breeding is not seasonal and happens at a low rate through the year.",
   "predators": [
     {
       "slug": null,
@@ -176,11 +176,11 @@
           "pattern": "dense fur; Wikipedia describes a shiny golden coat, Animal Diversity Web a light brown coat becoming lighter on the flanks; both accounts are recorded"
         },
         "underparts": {
-          "colour": null,
+          "colour": "fawn (browner in animals from Numbi Gate, Kruger)",
           "pattern": null
         },
         "legs": {
-          "colour": null
+          "colour": "upper parts of the forelimbs off-white; tops of the hind feet with short off-white bristles"
         },
         "tail": {
           "colour": null,
@@ -250,6 +250,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/42531",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 15), young (p. 16). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -263,7 +270,7 @@
     "No licensable photograph of a live wild animal with a named locality was found that was suitable for display. iNaturalist place 69020 (Kruger) has 0 observations. Licensed research-grade records in place 6986 and place 113055 (35 in total, including page 2 of the place 6986 query) were subsurface runs in sandy soil in the City of Tshwane, or showed a handled or in-hand animal. A Wikimedia Commons search under Neamblysomus julianae found those same run photographs and a CC BY 4.0 photograph of a live animal on sand by Craig R. Jackson, published as Figure 3.C (Top) in Wilson and Primack (2019); the figure caption and file page do not name a locality, so the photograph was not used. The page shows an AI-generated illustration until a suitable photograph is found.",
     "iNaturalist has 0 sound observations for Neamblysomus julianae in place 69020. No sourced description of the calls was found in the assessments used. Animal Diversity Web says little is known about communication in this species and mentions high-pitched chirrups only in closely related species.",
     "The 2025 EWT size at maturity of 9-11 cm does not state which measurement that is. Animal Diversity Web gives an average length of 100 mm. No shoulder height, head-and-body length or tail length was published as such. Mass is given as 21-46 g by Animal Diversity Web and as 21-75 g by Wikipedia citing Kingdon et al. (2013); the disagreement is recorded rather than averaged.",
-    "Iris colour, underpart colour, leg colour, tail shape and a quantified sexed size split were not given in the sources used, so those marks are null. Coat colour is entered as both light brown (Animal Diversity Web) and golden (Wikipedia) rather than inferred from the English name alone.",
+    "Iris colour, tail shape and a quantified sexed size split were not given in the sources used, so those marks are null. Coat colour is entered as both light brown (Animal Diversity Web) and golden (Wikipedia) rather than inferred from the English name alone.",
     "No Kruger-specific activity or breeding study was found. Gestation and size at birth were not given. Wikipedia and Animal Diversity Web disagree on whether the nest chamber is grass-lined or bare.",
     "The 2025 EWT assessment and earlier work flag consistent differences and genetic partitioning between the Kruger National Park subpopulation and the other two, and say more Kruger specimens are needed to clarify whether more than one taxon is involved. This file keeps the species-list.json name and does not split the species."
   ]

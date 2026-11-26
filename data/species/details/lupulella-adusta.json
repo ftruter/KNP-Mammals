@@ -83,7 +83,7 @@
     ],
     "guild": "omnivore"
   },
-  "young": "In southern Africa, breeding is usually between June and November. Gestation is 57–70 days. Litters are of 3–6 young.",
+  "young": "In southern Africa, breeding is usually between June and November. Gestation is 57–70 days. Litters are of 3–6 young. Skinner and Chimimba (2005, p. 486) say females have their litters just before or during the summer months, about August to January, with a mean litter of 5.4 pups (range 4–6) and a gestation of 57–60 days; the young are born in holes, often disused aardvark burrows.",
   "predators": [
     {
       "slug": "panthera-pardus",
@@ -179,7 +179,7 @@
           "pattern": null
         },
         "legs": {
-          "colour": null
+          "colour": "paler than the body, often tinged rufous; hind feet plain buffy-white"
         },
         "tail": {
           "colour": "white at the tip",
@@ -208,7 +208,7 @@
     {
       "sex": "any",
       "type": "call",
-      "description": "A general field description of the calls was not found in the sources consulted for this file.",
+      "description": "A general field description of the calls was not found in the sources consulted for this file. Skinner and Chimimba (2005, p. 486) describe the vocalisation as a series of melancholy yaps.",
       "recordings": []
     }
   ],
@@ -320,6 +320,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 484), young (p. 486), calls (p. 486). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -330,7 +337,6 @@
   },
   "gaps": [
     "No Kruger population figure was found.",
-    "A general field description of the calls was not found in the sources consulted.",
     "No Kruger-specific birth-month range was found beyond a general southern African breeding season of June to November.",
     "Iris colour, ear colour and underpart colour were not given as named values in the sources used, so those marks are null.",
     "Sources disagree on mass (6.5–14 kg versus 7–12 kg).",

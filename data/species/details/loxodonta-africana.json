@@ -83,7 +83,7 @@
     ],
     "guild": "herbivore"
   },
-  "young": "A single calf is usual, with twins rare, after a gestation of about 22 months, the longest of any mammal. Newborns weigh about 90–120 kg (captive births have been given as 100–120 kg) and can stand within about half an hour of birth. They have no tusks at birth, only temporary premaxillary incisors that are replaced at about a year, and softer, lighter reddish or brown hair. Other cows in the family help to guard and care for the calf. Sources disagree on weaning: one account says calves take only milk for the first three months, then feed more independently, while cows may lactate for about 4.8 years; another says they are weaned at four months but may still drink milk for up to three years. Birth intervals in other southern African parks have been estimated at about four to five years. A Kruger-specific calving season was not found; one compilation says mating occurs in the rainy season, while another describes year-round breeding.",
+  "young": "A single calf is usual, with twins rare, after a gestation of about 22 months, the longest of any mammal. Newborns weigh about 90–120 kg (captive births have been given as 100–120 kg) and can stand within about half an hour of birth. They have no tusks at birth, only temporary premaxillary incisors that are replaced at about a year, and softer, lighter reddish or brown hair. Other cows in the family help to guard and care for the calf. Sources disagree on weaning: one account says calves take only milk for the first three months, then feed more independently, while cows may lactate for about 4.8 years; another says they are weaned at four months but may still drink milk for up to three years. Birth intervals in other southern African parks have been estimated at about four to five years. A Kruger-specific calving season was not found; one compilation says mating occurs in the rainy season, while another describes year-round breeding. Skinner and Chimimba (2005, p. 58) say that in the subregion conceptions are concentrated in the wet summer months, though some occur in every month; they give a gestation of about two years.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -181,7 +181,7 @@
           "shape": "large, pointed and triangular, large enough to cover the shoulder (cited to about 2 × 1.5 m); used in heat loss"
         },
         "eye": {
-          "iris": null,
+          "iris": "green or hazel",
           "ring": null
         },
         "head": {
@@ -418,6 +418,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/43694",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 52), young (p. 58). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -429,9 +436,9 @@
   "gaps": [
     "Kruger population figures are from the EWT 2025 page (citing Ferreira et al. 2024 and later survey intervals), not from the SANParks trends PDF itself. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "iNaturalist has 1 sound observation for Loxodonta africana in place 69020, but the recording is all-rights-reserved and is not displayed.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young, calls and predators were taken from Wikipedia (citing Larramendi, Estes and others) and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young, calls and predators were taken from Wikipedia (citing Larramendi, Estes and others) and Animal Diversity Web.",
     "Head-and-body length and tail length were not published as distinct measures in the sources used, so those size fields are omitted.",
-    "Iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
+    "A named underpart colour was not given in the sources used, so that mark is null.",
     "No Kruger-specific calving-month range was found. Wikipedia, citing southern African studies, says mating occurs in the rainy season; Animal Diversity Web describes year-round breeding. Weaning and lactation figures also disagree between those two sources."
   ]
 }

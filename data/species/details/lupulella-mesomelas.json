@@ -64,7 +64,11 @@
       "min": 6,
       "max": 13
     },
-    "note": "Shoulder height (38–48 cm), head-and-body length (67.3–81.2 cm, rounded here to 67–81 cm) and mass (6–13 kg) follow Wikipedia (citing Kingdon 2013 for mass). Animal Diversity Web gives a lower mass range of 5–10 kg, an average shoulder height of about 38 cm (not entered as a range), and only a loose total length of nearly a metre. The Wikipedia ranges are entered; the ADW disagreement is noted. No published tail-length range was found."
+    "note": "Shoulder height (38–48 cm), head-and-body length (67.3–81.2 cm, rounded here to 67–81 cm) and mass (6–13 kg) follow Wikipedia (citing Kingdon 2013 for mass). Animal Diversity Web gives a lower mass range of 5–10 kg, an average shoulder height of about 38 cm (not entered as a range), and only a loose total length of nearly a metre. The Wikipedia ranges are entered; the ADW disagreement is noted. No published tail-length range was found. Skinner and Chimimba (2005, p. 487, Table 260.1, two samples combined) give a tail of 25–39.5 cm.",
+    "tailCm": {
+      "min": 25,
+      "max": 39.5
+    }
   },
   "summary": "A medium-sized jackal with reddish flanks and legs, a sharply defined black-and-silver saddle, and a black-tipped tail. It is widespread and often seen by day in Kruger, including along roads and near kills.",
   "description": "The black-backed jackal has a slender body, a pointed muzzle and fairly large pointed ears. The back is a distinct saddle of black mixed with silver hair, set against reddish to tawny flanks and legs. The tail is bushy and black at the tip. Sexes are similar in colour.",
@@ -82,7 +86,7 @@
     ],
     "guild": "omnivore"
   },
-  "young": "In southern Africa, mating is usually between May and August. Gestation is about 60 days. Litters average about four pups, of which often only one to three survive. Older offspring may help at the den.",
+  "young": "In southern Africa, mating is usually between May and August. Gestation is about 60 days. Litters average about four pups, of which often only one to three survive. Older offspring may help at the den. Skinner and Chimimba (2005, p. 490) give a gestation of about 60 days and, for Kruger, births from August to October (citing Fairall 1968).",
   "predators": [
     {
       "slug": "panthera-pardus",
@@ -164,7 +168,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "deep russet red",
           "shape": "pointed, fairly large"
         },
         "eye": {
@@ -173,7 +177,7 @@
         },
         "head": {
           "face": "pointed muzzle",
-          "muzzle": null,
+          "muzzle": "deep russet, darker on top of the muzzle",
           "beard": null
         },
         "mane": {
@@ -190,7 +194,7 @@
           "pattern": "sharply defined black-and-silver saddle on the back, with reddish to tawny flanks"
         },
         "underparts": {
-          "colour": null,
+          "colour": "white, or tinged rusty",
           "pattern": null
         },
         "legs": {
@@ -310,6 +314,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 487, Table 260.1), marks (p. 486-487), young (p. 490). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -320,9 +331,8 @@
   },
   "gaps": [
     "No Kruger population figure was found.",
-    "No published tail-length range was found.",
-    "No Kruger-specific birth-month range was found beyond a general southern African mating season of May to August.",
-    "Iris colour, ear colour and underpart colour were not given as named values in the sources used, so those marks are null.",
+    "Head-and-body length and tail are recorded; no further tail gap remains.",
+    "Iris colour was not given as named values in the sources used, so that mark is null.",
     "Sources disagree on mass (6–13 kg versus 5–10 kg)."
   ]
 }

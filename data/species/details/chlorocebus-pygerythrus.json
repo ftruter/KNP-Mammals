@@ -60,7 +60,11 @@
         "max": 5.3
       }
     },
-    "note": "Head-and-body length and sexed mass follow the ranges compiled on Wikipedia, citing Skinner and Smithers 1990 and Napier 1981: adult males 42–60 cm (average 49 cm) and 3.9–8.0 kg (average 5.5 kg); adult females 30–49.5 cm (average 42.6 cm) and 3.4–5.3 kg (average 4.1 kg). The lead of the same article rounds body length to about 40 cm in females and about 50 cm in males. No shoulder height was found. Animal Diversity Web, which files the animal under the older lumped name Chlorocebus aethiops, gives an unsexed mass of 3–5 kg, a head-and-body length of 400–600 mm, and a tail of 300–500 mm; those coarser figures are not used here, because they belong to the lumped taxon."
+    "note": "Head-and-body length and sexed mass follow the ranges compiled on Wikipedia, citing Skinner and Smithers 1990 and Napier 1981: adult males 42–60 cm (average 49 cm) and 3.9–8.0 kg (average 5.5 kg); adult females 30–49.5 cm (average 42.6 cm) and 3.4–5.3 kg (average 4.1 kg). The lead of the same article rounds body length to about 40 cm in females and about 50 cm in males. No shoulder height was found. Animal Diversity Web, which files the animal under the older lumped name Chlorocebus aethiops, gives an unsexed mass of 3–5 kg, a head-and-body length of 400–600 mm, and a tail of 300–500 mm; those coarser figures are not used here, because they belong to the lumped taxon. Skinner and Chimimba (2005, p. 225, Table 129.1) give a tail of 48.5–75 cm (males 60–75, females 48.5–65.3).",
+    "tailCm": {
+      "min": 48.5,
+      "max": 75
+    }
   },
   "summary": "A small, grizzled-grey monkey with a black face framed by a white fringe of hair. Males are larger than females and have a turquoise-blue scrotum. Troops are multi-male and multi-female, often of a few dozen animals. It lives in savanna and riverine woodland and must drink daily. The diet is mostly fruit, leaves, flowers and seeds, with some insects and small vertebrates. Distinct alarm calls warn of different predators. A common year-round resident of Kruger.",
   "description": "The vervet is a medium-small Old World monkey of the family Cercopithecidae. Adult hair is mostly grizzled-grey. The face is black, with a white fringe of hair. The species is sexually dimorphic: males are heavier and longer in the body than females, and may be recognised by a turquoise-blue scrotum. Head-and-body length is about 42–60 cm in males and 30–49.5 cm in females. The form in South Africa, including Kruger, is treated as Chlorocebus pygerythrus; it was formerly lumped with the grivet under Cercopithecus or Chlorocebus aethiops. Sources describe some regional variation in coat and foot colour in southern Africa, but those former subspecies are no longer recognised.",
@@ -175,14 +179,14 @@
         },
         "upperparts": {
           "colour": "grizzled-grey",
-          "pattern": null
+          "pattern": "grizzled; each long hair banded black and pale yellow or white"
         },
         "underparts": {
           "colour": null,
           "pattern": null
         },
         "legs": {
-          "colour": null
+          "colour": "greyish on the outer sides, finely banded black and pale yellow"
         },
         "tail": {
           "colour": null,
@@ -341,6 +345,13 @@
       "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
       "year": 1999,
       "note": "Filed under the older lumped name. Used only for the diurnal, arboreal and terrestrial behaviour tags. Measurements from this account were not used."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 225, Table 129.1), marks (p. 224). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -351,12 +362,12 @@
   },
   "gaps": [
     "No sourced Kruger population estimate. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
-    "No shoulder height, and no tail length from a source that treats Chlorocebus pygerythrus as a distinct species. Animal Diversity Web gives a tail of 300–500 mm under the older lumped name Chlorocebus aethiops; that figure was not used.",
+    "No shoulder height was found.",
     "Iris colour, ear colour, underparts colour and tail colour were not described in the text sources used here.",
     "Infant coat colour was not described in the text sources used here.",
     "No source used here contrasted the vervet with the chacma baboon, so similar is empty.",
     "The 2016 regional Red List PDF was not located from the EWT search; the 2025 assessment (Least Concern, no change from 2016) is cited instead.",
-    "Skinner and Chimimba, and Stuart's field guide, were not available as standalone texts.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry.",
     "The iNaturalist place 69020 recording (observation 125798020, CC BY-NC) does not identify the call type. A second Kruger sound observation is all-rights-reserved and was not used.",
     "Animal Diversity Web has no account at /accounts/Chlorocebus_pygerythrus/ (classification only) and none at Cercopithecus_aethiops."
   ]
