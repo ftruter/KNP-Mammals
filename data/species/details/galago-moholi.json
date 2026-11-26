@@ -78,7 +78,7 @@
     ],
     "guild": "insectivorous and gummivorous"
   },
-  "young": "Females may breed twice in a southern African summer, with births in October to early November and again in late January to early February, after a gestation of about 121 to 124 days. The first litter is usually a single young; later litters are often twins, and litters of one to three are reported. Newborns weigh about 10 g, are furred and have their eyes open. The mother parks infants in tree forks or vegetation while she forages, and carries them by the scruff of the neck for the first 50 days or so. Weaning is at about 93 days, though young may start to catch insects from about four weeks. Exact birth months for Kruger were not found beyond this southern African pattern.",
+  "young": "Females may breed twice in a southern African summer, with births in October to early November and again in late January to early February, after a gestation of about 121 to 124 days. The first litter is usually a single young; later litters are often twins, and litters of one to three are reported. Newborns weigh about 10 g, are furred and have their eyes open. The mother parks infants in tree forks or vegetation while she forages, and carries them by the scruff of the neck for the first 50 days or so. Weaning is at about 93 days, though young may start to catch insects from about four weeks. Exact birth months for Kruger were not found beyond this southern African pattern. Skinner and Chimimba (2005, p. 215) give a gestation of about 124–129 days, an average of 1.8 foetuses (range 1–2) and a birth mass of about 9.3–9.6 g.",
   "predators": [
     {
       "slug": null,
@@ -336,6 +336,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/43561",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 215). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -348,7 +355,7 @@
     "No Kruger population estimate was found. Density figures and a regional total of more than 10,000 mature individuals are not park counts. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "iNaturalist has 0 sound observations for Galago moholi in place 69020. No openly licensed Kruger recording was added.",
     "The 2016 SANBI/EWT Red List PDF was not retrieved. Regional Least Concern status and the statement that it is unchanged from 2016 are taken from the 2025 EWT species page.",
-    "Skinner & Chimimba and Stuart's field guide were not available.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry.",
     "No shoulder-height measurement was found, so that size field is omitted.",
     "No young or sexed adult variant beyond a single adult of either sex: newborn coat colour, other than being furred, was not described in enough detail for a marks block.",
     "Iris colour is sourced as orange; a named ear colour other than grey, and a beard, were not given as separate values beyond the marks entered.",

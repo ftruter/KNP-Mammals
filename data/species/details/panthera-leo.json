@@ -99,7 +99,7 @@
     ],
     "guild": "carnivore"
   },
-  "young": "Gestation is about 110 days. The female gives birth to a litter of one to four cubs in a secluded den, often a thicket, reed-bed or cave, away from the pride, and moves the cubs several times a month. Cubs are born blind, weigh 1.2–2.1 kg, open their eyes at about seven days, and walk at around three weeks. The mother usually brings them into the pride at six to eight weeks. Pride lionesses often breed in step and may suckle one another's cubs. Weaning is at six or seven months. Incoming males may kill cubs that are not their own.",
+  "young": "Gestation is about 110 days. The female gives birth to a litter of one to four cubs in a secluded den, often a thicket, reed-bed or cave, away from the pride, and moves the cubs several times a month. Cubs are born blind, weigh 1.2–2.1 kg, open their eyes at about seven days, and walk at around three weeks. The mother usually brings them into the pride at six to eight weeks. Pride lionesses often breed in step and may suckle one another's cubs. Weaning is at six or seven months. Incoming males may kill cubs that are not their own. Skinner and Chimimba (2005, p. 396) cite a mean age at first conception of 48 months for Kruger lionesses (Funston and Mills 1997), and say a lioness usually produces a litter every two years.",
   "predators": [],
   "prey": [
     {
@@ -201,7 +201,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "backs of the rounded ears black, contrasting sharply with the body",
           "shape": "round"
         },
         "eye": {
@@ -254,7 +254,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "backs of the rounded ears black, contrasting sharply with the body",
           "shape": "round"
         },
         "eye": {
@@ -525,6 +525,13 @@
       "publisher": "Journal of Zoology",
       "year": 1980,
       "note": "Smuts GL, Robinson GA, Whyte IJ. Cited via the Wikipedia size table for southern African mass."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 390), young (p. 396). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

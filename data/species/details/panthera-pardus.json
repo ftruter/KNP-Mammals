@@ -96,7 +96,7 @@
     ],
     "guild": "carnivore"
   },
-  "young": "Cubs become independent at 10–18 months. The interval between successfully raised litters is usually 16–24 months, and can be as short as 11 months if a litter is lost. Juveniles have woolly, dark-looking fur. Infanticide accounts for more than half of juvenile deaths in some protected-area studies. No Kruger-specific birth-month range was found.",
+  "young": "Cubs become independent at 10–18 months. The interval between successfully raised litters is usually 16–24 months, and can be as short as 11 months if a litter is lost. Juveniles have woolly, dark-looking fur. Infanticide accounts for more than half of juvenile deaths in some protected-area studies. No Kruger-specific birth-month range was found. Skinner and Chimimba (2005, p. 390) say leopards show no clear breeding season, but in Kruger births peaked together with the births of impala, the main prey (Bailey 1993); on average about 28% of Kruger females produced cubs each year.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -418,6 +418,13 @@
       "publisher": "Visit the Kruger Park",
       "year": 2026,
       "note": "Secondary source quoting SANParks surveys or estimates."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 390). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
