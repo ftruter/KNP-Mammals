@@ -145,7 +145,7 @@
                     "shape": null
                 },
                 "ears": {
-                    "colour": null,
+                    "colour": "dark brown",
                     "shape": null
                 },
                 "eye": {
@@ -153,8 +153,8 @@
                     "ring": null
                 },
                 "head": {
-                    "face": null,
-                    "muzzle": null,
+                    "face": "a white mark above and behind each eye",
+                    "muzzle": "sides of the muzzle white",
                     "beard": null
                 },
                 "mane": {
@@ -162,18 +162,18 @@
                     "shape": null
                 },
                 "upperparts": {
-                    "colour": null,
+                    "colour": "reddish-brown to orange-buff",
                     "pattern": null
                 },
                 "underparts": {
-                    "colour": null,
+                    "colour": "pure white",
                     "pattern": null
                 },
                 "legs": {
-                    "colour": null
+                    "colour": "white hands and feet"
                 },
                 "tail": {
-                    "colour": null,
+                    "colour": "a distinct dark band along the upper surface",
                     "shape": "long, with a black dorsal line along its length"
                 }
             }
@@ -256,6 +256,13 @@
             "url": "https://api.inaturalist.org/v1/taxa/74367",
             "publisher": "iNaturalist",
             "year": 2026
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 186). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {
@@ -272,6 +279,6 @@
         "No published description of the coat, ears, eyes, legs or other marks, beyond the long tail with a black dorsal line, was found in the sources used. Those marks are null.",
         "Older lists used Tatera leucogaster. This file follows species-list.json (Gerbilliscus leucogaster), a genus transfer rather than a split. The 2025 EWT assessment notes three mitochondrial clades in the assessment region (McDonough et al. 2015) and lists taxonomic resolution of Gerbilliscus as a research priority; Kruger records are not remapped.",
         "Wikipedia, citing Perrin and Swanepoel (1987), gives breeding from September to April and a mean litter of four to five; the EWT assessments, citing the same paper, say only that breeding is seasonal with summer rainfall and that litter size is large but variable. Those disagreements are recorded rather than averaged. Gestation and a description of the young were not found.",
-        "Skinner and Chimimba and Stuart's field guide were not available as books."
+        "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry."
     ]
 }

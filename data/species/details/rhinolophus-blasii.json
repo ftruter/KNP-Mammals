@@ -39,7 +39,11 @@
       "min": 0.007,
       "max": 0.013
     },
-    "note": "Wikipedia, citing Happold in Kingdon et al. (2013), gives a forearm length of 43-48 mm and a mass of 7-13 g, and describes the species as small for an African horseshoe bat. Animal Diversity Web gives a low mass of 10 g and an average mass of 12-15 g, a length of 44-56 mm (average 46.5-54 mm; whether this is head-and-body or forearm length is not stated), and an average wingspan of 280 mm. Those ADW mass figures do not match the Kingdon range used for massKg, so they are recorded here rather than in the numeric fields. The 2016 EWT assessment does not give mass or length. No tail length, head-and-body length or shoulder height was clearly published in the sources used."
+    "note": "Wikipedia, citing Happold in Kingdon et al. (2013), gives a forearm length of 43-48 mm and a mass of 7-13 g, and describes the species as small for an African horseshoe bat. Animal Diversity Web gives a low mass of 10 g and an average mass of 12-15 g, a length of 44-56 mm (average 46.5-54 mm; whether this is head-and-body or forearm length is not stated), and an average wingspan of 280 mm. Those ADW mass figures do not match the Kingdon range used for massKg, so they are recorded here rather than in the numeric fields. The 2016 EWT assessment does not give mass or length. No tail length, head-and-body length or shoulder height was clearly published in the sources used. Skinner and Chimimba (2005, p. 342) give, in Table 217.1 (all samples combined): tail 2.1–3 cm.",
+    "tailCm": {
+      "min": 2.1,
+      "max": 3.0
+    }
   },
   "summary": "A small insect-eating horseshoe bat with a high-rising, sharply pointed connecting process on the nose-leaf and no axillary tufts in the armpit. It roosts in small groups in small caves, mine adits and boulder piles, hunts moths and other insects by hawking and gleaning in cluttered savannah woodland, and is listed as Near Threatened in the 2016 regional assessment and as Least Concern on the global IUCN Red List (2016). In Kruger it is recorded from the Pafuri region.",
   "description": "A horseshoe bat of the family Rhinolophidae. The 2016 EWT assessment, citing Monadjem et al. (2010), says the complicated nose-leaf with a vertical connecting process distinguishes Rhinolophus from all other southern African bats, and that this species is similar in size and appearance to the Bushveld, Lander's and Darling's horseshoe bats (Rhinolophus simulator, R. landeri and R. darlingi) but can be separated from those by its high-rising, sharply pointed connecting process and the absence of axillary tufts of hair in the armpit. Animal Diversity Web describes a medium-sized horseshoe bat with medium-sized ears and short, broad wings; long fur that is normally light brown with hints of grey, lilac and cream; and a broad horseshoe-shaped nose-leaf that covers only part of the muzzle. It also describes the skull as gracile, notes sexual dimorphism with the female the larger sex, and gives dentition as 1-1-2-3 / 2-1-3-3. Wikipedia, citing Happold in Kingdon et al. (2013), gives a forearm length of 43-48 mm and a mass of 7-13 g. The 2016 EWT assessment says the taxonomic status of the putative southern African subspecies Rhinolophus blasii empusa needs to be resolved; this file keeps the species-list.json names and does not remap the Kruger animals. Wikipedia gives the authority as Peters, 1866; the 2016 EWT assessment gives Peters 1867.",
@@ -132,7 +136,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "translucent light brown",
           "shape": "medium-sized, in the Animal Diversity Web account; no further sourced shape or colour was given"
         },
         "eye": {
@@ -155,7 +159,7 @@
           "pattern": "long fur normally light brown with hints of grey, lilac and cream, from Animal Diversity Web. Wikipedia and the 2016 EWT assessment do not describe pelage colour. Sexes are not described as differing in colour; Animal Diversity Web says the female is larger"
         },
         "underparts": {
-          "colour": null,
+          "colour": "lighter than the back: white in some animals, creamy in others",
           "pattern": null
         },
         "legs": {
@@ -220,6 +224,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/40673",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 342, Table 217.1), marks (p. 342). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -239,7 +250,7 @@
     "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40673. The echolocation description is taken from Animal Diversity Web. No audible social-call description was given in the sources used.",
     "No photograph was used. iNaturalist places 69020 (Kruger) and 6986 earlier returned 0 observations with the allowed licences for taxon 40673. A later place 113055 (southern Africa) query also returned 0 licensed research-grade observations. Wikimedia Commons searches under Rhinolophus blasii and Blasius's horseshoe bat found only museum skins and skulls, a range map, a head close-up from Morocco, and a CC BY 4.0 photograph from Gjirokastër, Albania; none is a live wild animal in southern Africa, so no thumbnails were viewed.",
     "Head-and-body length, tail length and shoulder height were not clearly published in the sources used, so those numeric fields are null. Animal Diversity Web gives a length of 44-56 mm without stating whether that is head-and-body or forearm length. Mass figures disagree: Wikipedia (Kingdon et al. 2013) 7-13 g, used for massKg, versus Animal Diversity Web's low of 10 g and average of 12-15 g. Elevational range also disagrees: sea level to 1,200 m in the 2016 EWT assessment, versus 0-2,215 m in Wikipedia citing IUCN (2016).",
-    "Ear colour, iris colour, muzzle colour, underpart colour, leg colour and tail colour were not given in the sources used, so those marks are null. Pelage colour is taken only from Animal Diversity Web.",
+    "Iris colour, muzzle colour, leg colour and tail colour were not given in the sources used, so those marks are null. Pelage colour is taken only from Animal Diversity Web.",
     "No Kruger-specific breeding study was found. Animal Diversity Web's nursery size of up to 200 females conflicts with the assessment-region day-roost groups of no more than three or four in the 2016 EWT assessment, and may describe populations outside the region.",
     "No species-specific, documented predators were given. Wikipedia lists snakes, owls and sometimes other bats, citing Animal Diversity Web, but that ADW account says no specific predation information was obtained and only assumes those groups. The predators list is therefore empty.",
     "Animal Diversity Web describes hibernation in colder seasons; the 2016 regional assessment does not mention hibernation, and that ADW account is not treated as a Kruger fact."

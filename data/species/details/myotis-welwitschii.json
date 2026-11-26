@@ -50,7 +50,15 @@
             "min": 10.5,
             "max": 12.7
         },
-        "note": "The 2025 EWT assessment lists total body length as 10.5–12.7 cm, and, citing Monadjem et al. (2020), gives only means for the other figures: forearm length 5.60 ± 0.22 cm and total length 11.60 ± 0.74 cm. Wikipedia, citing Ratcliffe (2002), says the species measures about 12 cm in length and weighs 12 to 17 g. No head-and-body length, tail length, shoulder height or mass range in kilograms was published on the pages used."
+        "note": "The 2025 EWT assessment lists total body length as 10.5–12.7 cm, and, citing Monadjem et al. (2020), gives only means for the other figures: forearm length 5.60 ± 0.22 cm and total length 11.60 ± 0.74 cm. Wikipedia, citing Ratcliffe (2002), says the species measures about 12 cm in length and weighs 12 to 17 g. No head-and-body length, tail length, shoulder height or mass range in kilograms was published on the pages used. Skinner and Chimimba (2005, p. 311) give, in Table 188.1 (all samples combined): tail 5.2–6.3 cm; mass 0.012–0.0165 kg.",
+        "tailCm": {
+            "min": 5.2,
+            "max": 6.3
+        },
+        "massKg": {
+            "min": 0.012,
+            "max": 0.0165
+        }
     },
     "summary": "A relatively large insect-eating vesper bat with chestnut-brown fur, off-white underparts, and distinctive reddish wing membranes marked with irregular dark brown to black spots. It mainly inhabits open woodland and savannah, usually roosts alone in trees, bushes, buildings or caves, and forages along the clutter edge. The 2025 regional assessment rates it Least Concern. That page does not mention Kruger National Park, and it lists the movement pattern as unknown.",
     "description": "Wikipedia, citing Ratcliffe (2002), describes a relatively large member of its genus, about 12 cm in length and weighing 12 to 17 g, with a chestnut-brown body, off-white underparts, a pinkish face, a moderately long snout, and large, round, coppery-red ears. The wing membranes are reddish with irregular dark brown to black spots. The English checklist name is Welwitsch's hairy bat; Wikipedia's title is Welwitsch's bat, and it also lists Welwitsch's mouse-eared bat and Welwitsch's myotis. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length as 5.60 cm and mean total length as 11.60 cm, and lists total body length as 10.5–12.7 cm. The species was described in 1866 as Myotis welwitschii (Gray). The assessment lists Scotophilus welwetschii, venustus, and the incorrect subsequent spelling welwitschi as synonyms, and states that the species is monotypic, with no recognised subspecies.",
@@ -124,7 +132,7 @@
                 },
                 "upperparts": {
                     "colour": "chestnut brown",
-                    "pattern": null
+                    "pattern": "the top of the head and neck tend to be paler than the rest of the body"
                 },
                 "underparts": {
                     "colour": "off-white",
@@ -179,6 +187,13 @@
             "publisher": "iNaturalist",
             "year": 2026,
             "note": "One research-grade observation, 30 May 2014 (observation 2096771), of a dead bat being carried by a southern ground hornbill at a point inside Kruger National Park; not marked captive and not obviously misplaced. Used to set status to resident and monthsPresent to 1–12 under the 15 Nov 2026 rule (c). The 2025 EWT assessment lists movement patterns as unknown, not as migrant or seasonal."
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 311, Table 188.1), marks (p. 311). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {

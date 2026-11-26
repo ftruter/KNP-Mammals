@@ -144,7 +144,7 @@
                     "shape": null
                 },
                 "upperparts": {
-                    "colour": null,
+                    "colour": "reddish-brown to yellowish-brown, with many black-tipped hairs in some parts of the range",
                     "pattern": "pelage colour varies greatly over the range; less reddish and less heavily built than the red veld rat"
                 },
                 "underparts": {
@@ -236,6 +236,13 @@
             "publisher": "iNaturalist",
             "year": 2026,
             "note": "One research-grade observation in place 69020, dated 15 October 2015, not marked captive. Status is resident with months 1–12 under the 15 Nov 2026 owner rule (c)."
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 162), young (p. 162). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "gaps": [
@@ -243,16 +250,17 @@
         "No licensable natural Kruger photograph suitable for display was found. The only research-grade iNaturalist record with an allowed licence in place 69020, at Masorini, shows an animal in a glass container and was dropped. A South Africa (place 6986) search supplied one wild photograph from Mapungubwe National Park, Limpopo. A Vhembe District photograph was dropped because of a visible watermark; a Mopani District photograph showed an animal in a metal live-trap; and a Waterberg photograph showed an animal on a plastic sheet.",
         "iNaturalist has 0 sound observations for Micaelamys namaquensis in place 69020. No sourced description of the calls was found.",
         "No published measurements (head-and-body length, tail length, mass or shoulder height) were found in the 2016 EWT assessment or on Wikipedia. Animal Diversity Web is a classification stub only. The size object is omitted.",
-        "Named colours for the upperparts, ears, eyes, legs and tail were not given in the accounts used, so those marks are null. Underparts and relative tail length are taken from the 2016 EWT comparison with Grant’s rock mouse. Appearance of the young, gestation and litter size were not found.",
+        "Named colours for the ears, eyes, legs and tail were not given in the accounts used, so those marks are null. Underparts and relative tail length are taken from the 2016 EWT comparison with Grant’s rock mouse. Appearance of the young, gestation and litter size were not found.",
         "No wild predator species was named.",
         "The taxon is treated as a species complex. The 2016 EWT assessment, citing Russo et al. (2010) and Chimimba (2001), notes at least eight mitochondrial lineages and earlier recognition of four morphometric subspecies, against as many as 16 subspecies in older treatments, and says further research may require reassessment. Older lists used Aethomys namaquensis; EWT and iNaturalist treat that as a synonym after a genus transfer, not a split. This file follows species-list.json (Micaelamys namaquensis) and does not remap Kruger records.",
         "A 2025 EWT project page was not found in the one site search. Conservation status follows the 2016 regional assessment.",
-        "Skinner and Chimimba and Stuart's field guide were not available as books. Wikipedia is a stub. Animal Diversity Web has only a classification page. No Kruger-specific habitat, diet or activity study was found."
+        "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Wikipedia is a stub. Animal Diversity Web has only a classification page. No Kruger-specific habitat, diet or activity study was found."
     ],
     "research": {
         "confidence": "medium",
         "needsReview": true,
         "note": "This file follows species-list.json in treating the Kruger animal as Micaelamys namaquensis (Namaqua rock mouse, the 2011 SANParks checklist name; Afrikaans Namakwalandse Klipmuis, as given in the 2016 EWT assessment). EWT uses Namaqua Rock Mouse and also lists Golden Rat; iNaturalist (taxon 851046) uses Namaqua Rock Rat as the preferred English name, and Wikipedia titles the page Namaqua rock rat. Older lists used Aethomys namaquensis; that is a genus transfer, not a split. The 2016 EWT assessment treats the taxon as a species complex (at least eight mitochondrial lineages) and does not mention Kruger. Status is resident with months 1–12 under the 15 Nov 2026 owner rule (a): the 2011 SANParks checklist records the species in Kruger National Park; and rule (c): a research-grade iNaturalist search in place 69020 returned one observation dated 15 October 2015, not marked captive. No source describes a migrant or seasonal pattern. Rule (b) does not apply: the 2016 assessment does not describe the range as covering the Lowveld of Mpumalanga or Limpopo in clear terms. A 2025 EWT project page was not found. No published measurements were found. The one photograph is from Mapungubwe National Park, Limpopo, not Kruger.",
         "researched": "16 November 2026, Africa/Johannesburg"
-    }
+    },
+    "young": "Skinner and Chimimba (2005, p. 162) report gravid females in Botswana from September to May, peaking in March and April, with no signs of breeding from June to August. The mean number of foetuses was 3.1 (range 2–7) in Botswana, 3.6 (range 1–5) in Zimbabwe and 3.3 (range 1–5) in the former Transvaal. In the winter-rainfall part of the Cape, four pregnant females trapped in September each gave birth to four altricial pups."
 }

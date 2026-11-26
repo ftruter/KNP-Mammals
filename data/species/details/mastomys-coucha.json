@@ -56,7 +56,7 @@
     "description": "The 2016 EWT assessment, which treats this species together with the Natal multimammate mouse, gives the namesake mark as a large number of mammae, between eight and 12 pairs from the sternum to the inguinal region. It states that the two species are cryptic and cannot be distinguished by appearance, cranio-dental features, or a multivariate analysis, and are separated only by chromosome number (2n = 36 in M. coucha; 2n = 32 in M. natalensis) and molecular markers. Wikipedia agrees that they cannot be distinguished by superficial appearance, and adds that closer analysis has found anatomical differences in cranial, dental and phallic morphology, and physiological differences in haemoglobin pattern and pheromones. Coat colour, ear shape and other external marks were not described in the sources used. The sexes are not described as differently marked, apart from the mammae.",
     "habits": "Both species are described in the 2016 EWT assessment as terrestrial and nocturnal. M. coucha has a wide habitat tolerance in high-altitude, moderate-rainfall regions, is often associated with human-dominated landscapes, and is regularly found inside and around human dwellings. It is abundant in disturbed ground and in areas recovering from a natural disturbance, and may remain during and directly after a fire. It is a prolific, opportunistic breeder, and population eruptions often occur under favourable conditions. In Roan Camp, Kruger National Park, Kneidinger et al. (2014), as cited by EWT, found M. coucha in relatively more high-altitude, low-rainfall areas, whereas M. natalensis dominated in wetter areas. A more detailed Kruger-specific activity study was not found.",
     "diet": {
-        "summary": "The 2016 EWT assessment, citing Monadjem et al. (2015), describes both Mastomys species as having a diet that varies from granivorous to omnivorous, sometimes including arthropods and carrion. Wikipedia describes M. coucha as an opportunist omnivore whose diet consists of a variety of plant and animal resources, including cannibalism when under severe resource limitation. A diet study confined to Kruger was not found. Diet details given by EWT for M. natalensis at Umvoti Vlei are not applied here.",
+        "summary": "The 2016 EWT assessment, citing Monadjem et al. (2015), describes both Mastomys species as having a diet that varies from granivorous to omnivorous, sometimes including arthropods and carrion. Wikipedia describes M. coucha as an opportunist omnivore whose diet consists of a variety of plant and animal resources, including cannibalism when under severe resource limitation. In Kruger, stomachs held about 69% seeds, 29% insects and 2% plant matter during a drought (n 12) and about 79% seeds, 18% insects and 3% plant matter after high rainfall (n 10) (Skinner and Chimimba 2005, p. 152, citing Watson 1987); the book notes the sample may include M. natalensis. Diet details given by EWT for M. natalensis at Umvoti Vlei are not applied here.",
         "items": [
             "seeds",
             "plant foods",
@@ -210,6 +210,13 @@
             "url": "https://api.inaturalist.org/v1/taxa/45328",
             "publisher": "iNaturalist",
             "year": 2026
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: diet (p. 152). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {
@@ -225,7 +232,7 @@
         "iNaturalist has 0 sound observations for Mastomys coucha in place 69020. No sourced description of the calls was found.",
         "M. coucha and M. natalensis are cryptic sibling species, told apart mainly by chromosome number (2n = 36 versus 2n = 32) and molecular markers, not by appearance. This file follows species-list.json (Mastomys coucha) and does not attempt to re-identify Kruger records. The 2016 EWT assessment, citing Kneidinger et al. (2014), records both species at Roan Camp, Kruger National Park.",
         "A 2025 EWT project page was not found in the one site search. The 2025 EWT Mammal Red List fact sheet does not list a status change for this species, so conservation status and much of the natural-history text follow the 2016 assessment.",
-        "Skinner and Chimimba and Stuart's field guide were not available as books. The 2016 EWT assessment and Wikipedia do not publish measurements, and Animal Diversity Web has only a classification page, so size is omitted.",
+        "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. The 2016 EWT assessment and Wikipedia do not publish measurements, and Animal Diversity Web has only a classification page, so size is omitted.",
         "Coat colour, ear colour and shape, eye colour, tail colour and shape, leg colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null.",
         "iNaturalist has 0 observations of any grade for this taxon in place 69020, although the species is on the 2011 SANParks checklist and the 2016 EWT assessment records it in Kruger. Kruger presence follows those sources.",
         "No Kruger-specific breeding study or measured gestation length was found. Litter size and the figure of up to 24 foetuses are given by EWT for both Mastomys species together."

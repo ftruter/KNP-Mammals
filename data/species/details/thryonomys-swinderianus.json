@@ -164,7 +164,7 @@
           "colour": null
         },
         "tail": {
-          "colour": null,
+          "colour": "brown above and buffy-white below",
           "shape": "short, relatively sparsely haired compared with the body"
         }
       }
@@ -270,6 +270,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo. Afrikaans names Grootrietrot and Rietrot. The stored Afrikaans name is Groot rietrot, as printed on the 2011 SANParks checklist."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 94). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -283,7 +290,7 @@
     "No 2025 EWT project page was found; regional status is taken from the 2016 assessment.",
     "Sources disagree on head-and-body length, tail length, mass, litter size and social grouping; Animal Diversity Web's wider measurements are not attributed to southern Africa. Those disagreements are recorded rather than averaged.",
     "A shoulder height was not given, so that field is omitted.",
-    "Iris colour, ear colour, muzzle colour, leg colour and tail colour were not given in the sources used, so those marks are null.",
+    "Iris colour, ear colour, muzzle colour and leg colour were not given in the sources used, so those marks are null.",
     "No reusable Kruger sound recording was found.",
     "No source named a confusable Kruger species that is in this guide, so similar is empty.",
     "The predators listed are from the 2016 regional assessment, not a Kruger-specific list.",

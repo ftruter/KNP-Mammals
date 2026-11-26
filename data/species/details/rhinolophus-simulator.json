@@ -50,7 +50,15 @@
       "min": null,
       "max": null
     },
-    "note": "Neither the 2016 EWT assessment nor Wikipedia publishes forearm length, mass, head-and-body length, tail length, shoulder height or wingspan. Animal Diversity Web has no species account and no measurements."
+    "note": "Neither the 2016 EWT assessment nor Wikipedia publishes forearm length, mass, head-and-body length, tail length, shoulder height or wingspan. Animal Diversity Web has no species account and no measurements. Skinner and Chimimba (2005, p. 344) give, in Table 219.1 (all samples combined): tail 2.1–3.2 cm; mass 0.005–0.012 kg.",
+    "tailCm": {
+      "min": 2.1,
+      "max": 3.2
+    },
+    "massKg": {
+      "min": 0.005,
+      "max": 0.012
+    }
   },
   "summary": "A horseshoe bat of moist savannah, riparian forest and wooded drainage lines, also recorded in bushveld beside rivers, savannah woodland, montane habitats and coastal mosaics. It roosts in caves and mine adits, sometimes in colonies of up to 300, and also singly or in smaller groups in rocky outcrops, caverns and road culverts, and it hunts moths and other soft-bodied insects as a slow, acrobatic clutter forager. The 2016 regional assessment lists it as Least Concern, with a stable trend and no change from 2004, and records it as present in Kruger National Park.",
   "description": "A horseshoe bat of the family Rhinolophidae. Wikipedia and the 2016 EWT assessment give the authority as K. Andersen, 1904, which matches. Neither source describes pelage colour, ear shape or colour, nose-leaf shape, or wing-membrane colour, so those marks are not entered. The 2016 assessment treats the taxon as a species, with two subspecies tentatively recognised: Rhinolophus simulator simulator, from eastern Africa, extending from Ethiopia to KwaZulu-Natal, South Africa; and R. s. alticolus, from Guinea, Liberia, Nigeria and Cameroon (Cotterill and Happold 2013). It notes that future research may confirm that R. s. alticolus is a distinct species, and lists Rhinolophus bembanicus Senna, 1914 as a probable synonym (Monadjem et al. 2010). This file keeps the species-list.json names and does not remap the Kruger animals, which fall in the range of R. s. simulator.",
@@ -157,11 +165,11 @@
           "shape": null
         },
         "upperparts": {
-          "colour": null,
+          "colour": "dark brown, the hairs lighter brown towards the base",
           "pattern": null
         },
         "underparts": {
-          "colour": null,
+          "colour": "greyish-white, tinged with brown on the flanks",
           "pattern": null
         },
         "legs": {
@@ -219,6 +227,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/40693",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 344, Table 219.1), marks (p. 343). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -233,7 +248,7 @@
     "The Afrikaans name in species-list.json, Bosveldsaalneusvlermuis, matches the Afrikaans name in the 2016 EWT assessment. The species-list form is kept. The English name matches the assessment (Bushveld Horseshoe Bat), and the species-list capitalisation (Bushveld horseshoe bat) is kept.",
     "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 40693. No echolocation frequencies or audible social-call description were given in the sources used, so calls is empty.",
     "No licensed photograph was kept. iNaturalist places 69020 and 6986 (earlier pass) and place 113055 (southern Africa, this pass) each returned 0 licensed research-grade observations for taxon 40693 (photo licence filter, per_page 30). A Wikimedia Commons search for Rhinolophus simulator, and a further search under the English name Bushveld horseshoe bat, found a range map, PDFs, and one photograph (File:Rhinolophus simulator.jpg, CC BY 4.0). That photograph is a close-up of the head on a plain dark background, with unknown author, unknown date and no stated locality, and was not kept.",
-    "Head-and-body length, tail length, shoulder height, forearm length, mass and wingspan were not published in the sources used, so those numeric fields are null. The 2016 EWT assessment and the Wikipedia stub give no measurements.",
+    "Head-and-body length, shoulder height, forearm length and wingspan were not published in the sources used, so those numeric fields are null. The 2016 EWT assessment and the Wikipedia stub give no measurements.",
     "Pelage colour, ear colour and shape, iris colour, muzzle colour, nose-leaf shape, leg colour, tail colour and wing-membrane colour were not given in the sources used, so those marks are null. Colour, dental and nose-leaf characters were not carried over from another horseshoe bat.",
     "No Kruger-specific breeding study was found. Breeding details in the file are from the 2016 assessment's southern African and KwaZulu-Natal records (Wingate 1983; Skinner and Chimimba 2005; Rautenbach 1997).",
     "No species-specific, documented predators were given in the sources used, so the predators list is empty.",

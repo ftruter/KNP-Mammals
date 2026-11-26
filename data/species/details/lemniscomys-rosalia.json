@@ -61,7 +61,11 @@
       "min": 0.06,
       "max": 0.06
     },
-    "note": "The 2025 and 2016 EWT assessments do not publish body measurements (the 2025 life-history fields are unspecified). Wikipedia, citing Stuart's Field Guide to Mammals of Southern Africa (2007), gives a total length of 27 cm and a mass of 60 g (0.06 kg). Those are single figures, not ranges, and the length is a total length rather than a head-and-body measurement, so it is entered as lengthCm. A head-and-body and tail split, a sexed size split and shoulder height were not found."
+    "note": "The 2025 and 2016 EWT assessments do not publish body measurements (the 2025 life-history fields are unspecified). Wikipedia, citing Stuart's Field Guide to Mammals of Southern Africa (2007), gives a total length of 27 cm and a mass of 60 g (0.06 kg). Those are single figures, not ranges, and the length is a total length rather than a head-and-body measurement, so it is entered as lengthCm. A head-and-body and tail split, a sexed size split and shoulder height were not found. Skinner and Chimimba (2005, p. 129) give, in Table 64.1 (all samples combined): tail 7–16.5 cm.",
+    "tailCm": {
+      "min": 7.0,
+      "max": 16.5
+    }
   },
   "summary": "A small terrestrial mouse of tall, dense grass in savanna, including Kruger National Park. It is mainly crepuscular but may be active by day, and it lives in burrows under matted grass. A Kruger study found a diet of seeds and herbage with a little insect material. The 2025 regional Red List lists it as Least Concern.",
   "description": "A small, terrestrial African grass mouse of the family Muridae. Wikipedia, citing Stuart (2007), gives a total length of 27 cm and a mass of 60 g. No sourced description of the coat, ears, eyes or other marks was found in the accounts used for this file, so those marks are left null.",
@@ -238,6 +242,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/45500",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 129, Table 64.1). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -251,7 +262,7 @@
     "iNaturalist has 0 sound observations for Lemniscomys rosalia in place 69020. No sourced description of the calls was found.",
     "No sourced description of coat colour, ear colour, iris colour or a head-and-body and tail split was found in the accounts used, so those marks and size fields are null. Length and mass are single figures from Wikipedia citing Stuart (2007), not ranges.",
     "Van der Straeten et al. (2008), cited in the 2025 EWT assessment, noted that L. rosalia may represent a complex of species, and Castiglia et al. (2002) chromosomal data may indicate at least two species. Only the subspecies L. r. spinalis is listed for the assessment region. This file follows species-list.json (Lemniscomys rosalia) and does not remap Kruger records. EWT records the species as present in Kruger National Park.",
-    "Skinner and Chimimba and Stuart's field guide were not available as books. Animal Diversity Web is a classification stub and has no measurements or natural-history account.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Animal Diversity Web is a classification stub and has no measurements or natural-history account.",
     "Appearance of the young, gestation and a Kruger-specific breeding study were not found. Litter size and breeding months are from Wikipedia citing Stuart (2007) only."
   ]
 }

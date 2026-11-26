@@ -121,7 +121,7 @@
           "pattern": "frosted; whitish tips scattered throughout the fur. The 2025 EWT assessment, citing Cotterill (2013), says the frosted pelage provides camouflage when roosting, and that the woolly texture may add insulation when animals roost in foliage"
         },
         "underparts": {
-          "colour": null,
+          "colour": "white on the chest and belly, or a lighter shade of buff",
           "pattern": null
         },
         "legs": {
@@ -166,6 +166,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "Appearance (dark greyish brown fur with whitish tips), roosts in abandoned nests of the speckle-fronted weaver, the scarlet-chested sunbird and other birds, and typical group size of one to three bats per nest, citing Oschadleus (2008). The title Kerivoula lanosa redirects here. The page uses the English name lesser woolly bat, and cites the 2017 IUCN Least Concern assessment."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 327). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

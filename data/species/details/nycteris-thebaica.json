@@ -165,7 +165,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "light brown",
           "shape": "enormous, longer than the head, with a very small tragus"
         },
         "eye": {
@@ -182,11 +182,18 @@
           "shape": null
         },
         "upperparts": {
-          "colour": ["dusky brown", "reddish brown", "grey"],
+          "colour": [
+            "dusky brown",
+            "reddish brown",
+            "grey"
+          ],
           "pattern": "long silky fur; Wikipedia gives dusky to reddish brown, Animal Diversity Web gives grey to light red to murky brown, and both describe the fur as lighter than in other nycterids. Sexes not described as differing in colour"
         },
         "underparts": {
-          "colour": ["white", "whitish grey"],
+          "colour": [
+            "white",
+            "whitish grey"
+          ],
           "pattern": "white to whitish grey or light grey; not otherwise patterned"
         },
         "legs": {
@@ -274,6 +281,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/41192",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 332). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -290,7 +304,7 @@
     "Animal Diversity Web describes the species as migratory but gives little information. The 2016 EWT assessment does not describe a migrant or seasonal movement pattern and lists seasonal behaviour and movement patterns as a research priority. Status is set to resident on the strength of the definite Kruger record in that assessment; the ADW migration claim was not used to omit status.",
     "The 2016 EWT assessment does not recognise subspecies in southern Africa, treating east-west size and colour differences as a cline. Wikipedia lists six subspecies. The file keeps the species-list.json names and does not assign Kruger animals to a subspecies.",
     "Wikipedia gives the authority year as 1818; the 2016 EWT assessment gives 1813 (E. Geoffroy Saint-Hilaire). The discrepancy is recorded and not reconciled.",
-    "Head-and-body length, forearm length, shoulder height, ear colour, iris colour, muzzle colour, leg colour and tail colour were not given unambiguously in the sources used, so those marks or bounds are null. Animal Diversity Web's total body length of 83-168 mm was not entered as head-and-body length.",
+    "Head-and-body length, forearm length, shoulder height, iris colour, muzzle colour, leg colour and tail colour were not given unambiguously in the sources used, so those marks or bounds are null. Animal Diversity Web's total body length of 83-168 mm was not entered as head-and-body length.",
     "iNaturalist place 69020 (Kruger) returned 0 sound observations for taxon 41192. Echolocation and tonal-call descriptions are taken from Wikipedia and Animal Diversity Web. No licensable recording was found.",
     "Mass and wingspan disagree between sources: Wikipedia (Gray et al. 1999) gives 6.5-9.7 g typical, females to 11.5 g, and a wingspan of 283 mm; Animal Diversity Web gives 6.5-16 g and 270-307 mm. The wider mass range is stored, and both accounts are quoted in the size note.",
     "No sourced field comparison with Nycteris woodi (the other slit-faced bat in this guide) was found, so a similar-species entry was omitted. Wikipedia and Animal Diversity Web say only that this species has lighter fur than other nycterids.",

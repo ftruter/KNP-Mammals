@@ -163,7 +163,7 @@
           "pattern": "overlapping keratin scales"
         },
         "underparts": {
-          "colour": null,
+          "colour": "black or dark grey bare skin",
           "pattern": "unscaled, with sparse fur"
         },
         "legs": {
@@ -347,6 +347,13 @@
       "publisher": "SANParks Scientific Services",
       "year": 2025,
       "note": "Cited, not hosted."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 353). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -358,7 +365,7 @@
   "gaps": [
     "No Kruger head count was found. One source claims a density of 24 individuals / 100 km² (12 reproductively active individuals / 100 km²) in the greater Kruger National Park. A more accurate figure may be available at this URL: https://www.sanparks.org/wp-content/uploads/2025/03/KNP-wildlife-trends.pdf",
     "iNaturalist has 0 sound observations for Smutsia temminckii in place 69020. No licensable recording was entered.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, some habits and young figures were taken from Animal Diversity Web and Wikipedia as well as the EWT assessment.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, some habits and young figures were taken from Animal Diversity Web and Wikipedia as well as the EWT assessment.",
     "No shoulder-height figure, no sexed mass or length split, and no iris, ear or underpart colour as a named value were found, so those marks are null.",
     "No front-on or defensive rolled-ball photograph was in the shortlisted Kruger set. One otherwise useful South African photograph was dropped because of a watermark.",
     "Animal Diversity Web still lists a global IUCN status of Least Concern, which is out of date relative to the 2019 IUCN and 2025 regional assessments (Vulnerable)."

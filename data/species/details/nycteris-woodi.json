@@ -53,7 +53,11 @@
     ]
   },
   "size": {
-    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length of 4.08 ± 0.13 cm and mean total length of 10.20 ± 0.52 cm in females, and mean forearm length of 3.93 ± 0.07 cm and mean total length of 9.61 ± 0.58 cm in males, with maximum forearm length of 4.25 cm in females and 4.06 cm in males. Those total-length figures are not entered as head-and-body length, because the account does not say whether the tail is included. Mass, shoulder height, head-and-body length and tail length were not published in the sources used. The 2016 EWT assessment does not give measurements. Animal Diversity Web is a classification stub for this taxon and adds none. Wikipedia is a stub and adds none."
+    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length of 4.08 ± 0.13 cm and mean total length of 10.20 ± 0.52 cm in females, and mean forearm length of 3.93 ± 0.07 cm and mean total length of 9.61 ± 0.58 cm in males, with maximum forearm length of 4.25 cm in females and 4.06 cm in males. Those total-length figures are not entered as head-and-body length, because the account does not say whether the tail is included. Mass, shoulder height, head-and-body length and tail length were not published in the sources used. The 2016 EWT assessment does not give measurements. Animal Diversity Web is a classification stub for this taxon and adds none. Wikipedia is a stub and adds none. Skinner and Chimimba (2005, p. 331) give, in Table 208.1 (all samples combined): tail 4.1–4.9 cm.",
+    "tailCm": {
+      "min": 4.1,
+      "max": 4.9
+    }
   },
   "summary": "A little-known insect-eating slit-faced bat of semi-arid and moist woodland savannah, including mopane woodland in the far north of Kruger. It roosts in hollow baobabs and sausage trees, sandstone caves, rock fissures, mine adits and buildings, forages in clutter on moths, beetles and flies, and is listed as Near Threatened in the 2025 regional assessment and as Least Concern on the global IUCN Red List (2017).",
   "description": "A slit-faced bat of the family Nycteridae. The 2025 EWT assessment, citing Monadjem et al. (2020), describes short, broad wings that allow manoeuvrable flight, and gives mean forearm lengths of about 4.1 cm in females and 3.9 cm in males, with mean total lengths of about 10.2 cm and 9.6 cm respectively. The same assessment, and the 2016 assessment before it, call it a whispering echolocating bat that is difficult to monitor acoustically and that avoids mist nets. Pelage colour, the form of the facial slit, ear shape and other coat marks were not described in the sources used, so those details are not filled in here. The English name in species-list.json is Wood's slit-faced bat, which matches the lead English name on the 2025 and 2016 EWT assessments; those assessments also list Wood's Long-eared Bat. The species-list form is kept.",
@@ -136,11 +140,11 @@
           "shape": null
         },
         "upperparts": {
-          "colour": null,
+          "colour": "dark brown, the hairs grey towards the base",
           "pattern": null
         },
         "underparts": {
-          "colour": null,
+          "colour": "whitish tinged with grey",
           "pattern": null
         },
         "legs": {
@@ -212,6 +216,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/41190",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 331, Table 208.1), marks (p. 331). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -227,7 +238,7 @@
     "The English name in species-list.json is Wood's slit-faced bat, which matches the lead EWT English name. The 2025 and 2016 assessments also list Wood's Long-eared Bat. The species-list form is kept.",
     "Historically two subspecies were recognised (N. w. sabensis / sabiensis and N. w. woodi); the 2025 and 2016 assessments no longer distinguish them, and they do not include N. parisii. The 2016 synonym line uses Nycteris sabiensis Roberts 1946, while the taxonomic note uses sabensis; the 2025 synonym line uses Nycteris woodi Roberts, 1946 ssp. sabiensis. The file keeps the species-list.json names and does not assign Kruger animals to a subspecies.",
     "Pelage colour, facial-slit form, ear shape, iris colour and other coat marks were not described in the sources used. Those marks are left null and were not copied from Nycteris thebaica. No sourced field comparison with N. thebaica was found, so a similar-species entry was omitted.",
-    "Mass, shoulder height, head-and-body length and tail length were not published in the sources used. The 2025 page gives sex-specific mean forearm and total lengths, and maximum forearm lengths, after Monadjem et al. (2020); the total-length figures were not entered as head-and-body length.",
+    "Mass, shoulder height and head-and-body length were not published in the sources used. The 2025 page gives sex-specific mean forearm and total lengths, and maximum forearm lengths, after Monadjem et al. (2020); the total-length figures were not entered as head-and-body length.",
     "Elevation figures disagree: the 2016 assessment, citing Meester et al. (1986), says the species is typically restricted to below 1,000 m (type specimen 1,250 m); the 2025 assessment gives 49-1,417 m (Monadjem et al. 2024). Both are quoted in the habitat text.",
     "Colony-size figures differ slightly between sources used on the 2025 page: up to 40-50 individuals (Cotterill 2013; Monadjem et al. 2020) and mixed-sex colonies of up to 50 (Cotterill 2013). The 2016 assessment gave up to 40 (Monadjem et al. 2010). All are quoted.",
     "The 2025 assessment states there are no predation records. No predator list was entered.",

@@ -46,7 +46,15 @@
     ]
   },
   "size": {
-    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 4.42 ± 0.11 cm in females and 4.37 ± 0.14 cm in males, and mean total length in females as 10.40 ± 0.74 cm. The male mean total length on that page is incomplete and is not entered. Wikipedia, citing Rambaldini (2010), gives an average total length of 10 cm, a tail of 4.7 cm, a mass of around 11 g, and an average wingspan of 32 cm in females and 31 cm in males, with females slightly larger than males. Those compiled averages are not entered as min–max bounds. No separate head-and-body length or shoulder height was published in the sources used, so those fields are omitted."
+    "note": "The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 4.42 ± 0.11 cm in females and 4.37 ± 0.14 cm in males, and mean total length in females as 10.40 ± 0.74 cm. The male mean total length on that page is incomplete and is not entered. Wikipedia, citing Rambaldini (2010), gives an average total length of 10 cm, a tail of 4.7 cm, a mass of around 11 g, and an average wingspan of 32 cm in females and 31 cm in males, with females slightly larger than males. Those compiled averages are not entered as min–max bounds. No separate head-and-body length or shoulder height was published in the sources used, so those fields are omitted. Skinner and Chimimba (2005, p. 314) give, in Table 191.1 (all samples combined): tail 4.5–5 cm; mass 0.012–0.014 kg.",
+    "tailCm": {
+      "min": 4.5,
+      "max": 5.0
+    },
+    "massKg": {
+      "min": 0.012,
+      "max": 0.014
+    }
   },
   "summary": "A small southern African vesper bat with long, usually yellowish or light grey fur and a distinctive net of dark veins on the wing membranes, from which it takes the name butterfly bat. It roosts in foliage, usually in small groups, and is a clutter-edge insectivore that feeds mainly on moths. The 2025 regional Red List rates it Least Concern and records it from Kruger National Park. This file keeps the checklist names Glauconycteris variegata and Butterfly bat.",
   "description": "A vesper bat (Vespertilionidae). Wikipedia, citing Rambaldini (2010), describes relatively small animals averaging 10 cm in total length, with a 4.7 cm tail and a mass of around 11 g; females are slightly larger than males, with an average wingspan of 32 cm against 31 cm in males. The 2025 EWT assessment, citing Monadjem et al. (2020), gives mean forearm length at maturity as 4.42 ± 0.11 cm in females and 4.37 ± 0.14 cm in males, and mean total length in females as 10.40 ± 0.74 cm. The fur is long and silky and highly variable in colour, usually yellowish or light grey, without the bold body patterns of some related species; the underside is white or very pale grey, and the fur on the face and ears is brown. The wing membranes have a sparse covering of hair and a distinctive reticulated pattern of dark veins. The head is domed, with a short snout and a deep groove between the nostrils; the lower lip is large and padded, and the ears are relatively short, with a small tragus. This file keeps the checklist names Glauconycteris variegata and Butterfly bat. The 2025 EWT page lists the synonyms Chalinolobus variegatus and Scotophilus variegatus, and notes two subspecies whose validity remains uncertain (Happold 2013): G. v. phalaena in Sudan and Somalia, and G. v. variegata through the rest of the range, including the assessment region. Glauconycteris machadoi is sometimes treated as a melanistic subspecies of G. variegata (Monadjem et al. 2020), but is considered a distinct species by Happold (2013). No split is applied here.",
@@ -129,7 +137,7 @@
             "white",
             "very pale grey"
           ],
-          "pattern": null
+          "pattern": "throat washed with grey; the rest off-white or washed with pale grey"
         },
         "legs": {
           "colour": null
@@ -206,6 +214,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "Appearance, average total length, tail length, mass and wingspan, roosting posture, foraging flight speed, and some reproductive details, citing Rambaldini (2010), Obrist et al. (1989) and Fenton et al. (1977). The title Glauconycteris variegata redirects here. The page uses the English name variegated butterfly bat, also listing leaf-winged bat and butterfly bat."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 314, Table 191.1), marks (p. 314). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

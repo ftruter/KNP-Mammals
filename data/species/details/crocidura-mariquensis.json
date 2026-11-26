@@ -49,7 +49,7 @@
     ],
     "guild": "insectivore"
   },
-  "young": "Wikipedia, citing Kingdon et al. (2013), says breeding mostly takes place in the wet season, with litters averaging three to four young. The appearance of the young was not described in the sources consulted. The 2025 EWT assessment leaves life-history fields, including litter size and gestation, unspecified.",
+  "young": "Wikipedia, citing Kingdon et al. (2013), says breeding mostly takes place in the wet season, with litters averaging three to four young. The appearance of the young was not described in the sources consulted. The 2025 EWT assessment leaves life-history fields, including litter size and gestation, unspecified. Skinner and Chimimba (2005, p. 243) say breeding seems to last much of the year: in north-eastern Botswana gravid females were taken in every month from August to December and from February to April, but none from May to July. The mean was 3.3 foetuses per female (range 2–5, n 22) in Botswana, 4.2 (range 2–7) in the former Transvaal and 3.25 (range 2–4, n 4) in KwaZulu-Natal.",
   "predators": [
     {
       "slug": null,
@@ -89,7 +89,11 @@
       "min": 6,
       "max": 6
     },
-    "note": "Wikipedia, citing Kingdon et al. (2013), gives a head-and-body length of about 80 mm and a tail of around 60 mm, with males slightly larger than females, and describes the tail as about 70% of the head-and-body length. The 2025 EWT assessment does not publish measurements. Mass and shoulder height were not found."
+    "note": "Wikipedia, citing Kingdon et al. (2013), gives a head-and-body length of about 80 mm and a tail of around 60 mm, with males slightly larger than females, and describes the tail as about 70% of the head-and-body length. The 2025 EWT assessment does not publish measurements. Mass and shoulder height were not found. Skinner and Chimimba (2005, p. 242) give, in Table 138.1 (all samples combined): mass 0.004–0.02 kg.",
+    "massKg": {
+      "min": 0.004,
+      "max": 0.02
+    }
   },
   "variants": [
     {
@@ -202,6 +206,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "Redirect from Crocidura mariquensis. Used for the IUCN global citation, a description of size and pelage, habits, diet in captivity, litter size and avian predators, following Kingdon et al. (2013). This file keeps the 2011 checklist English name Swamp musk shrew; the page also mentions the generic name musk shrew."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 242, Table 138.1), young (p. 243). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -216,7 +227,7 @@
     "No usable wild photograph from iNaturalist southern Africa (place 113055): the only licensed research-grade observation was the same Steve Tshwete, Mpumalanga, record of a dead animal already rejected. A Wikimedia Commons search under Crocidura mariquensis and under Swamp musk shrew found only a range map and texts, not a photograph of a live animal.",
     "No iNaturalist sound recordings in Kruger (place 69020); vocalisations were not described in the sources consulted.",
     "No Kruger census or SANParks park-wide population figure.",
-    "Mass and shoulder height were not published in the sources consulted. Head-and-body length and tail length are single approximate figures from Wikipedia, citing Kingdon et al. (2013), not ranges.",
+    "Shoulder height was not published in the sources consulted. Head-and-body length and tail length are single approximate figures from Wikipedia, citing Kingdon et al. (2013), not ranges.",
     "Gestation, age at sexual maturity and the appearance of the young were not found, beyond Wikipedia, citing Kingdon et al. (2013), stating that breeding is mostly in the wet season and that litters average three to four young. The 2025 EWT life-history fields are unspecified.",
     "No external field marks were found that separate this species from other Crocidura or Suncus species in this guide, so similar is omitted.",
     "The 2025 EWT assessment treats the taxon as a possible species complex (C. m. mariquensis, C. m. shortridgei, and a morphometrically distinct KwaZulu-Natal population); this file keeps Crocidura mariquensis from species-list.json and does not remap records."

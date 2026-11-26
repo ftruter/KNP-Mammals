@@ -79,7 +79,7 @@
     ],
     "guild": "carnivore"
   },
-  "young": "Gestation averages about 110 days (about four months). The average litter is two cubs, with three reported occasionally; Animal Diversity Web also gives a range of one to four, usually twins. Cubs are born with their eyes open and with a soft, dark brown coat, and they may attack one another shortly after birth. Females give birth through a narrow clitoris (the pseudo-penis), which ruptures during birth and may take weeks to heal. Males take no part in raising the young. Cubs are weaned at about 14–18 months. Mating is described as aseasonal. No Kruger-specific birth-month range was found.",
+  "young": "Gestation averages about 110 days (about four months). The average litter is two cubs, with three reported occasionally; Animal Diversity Web also gives a range of one to four, usually twins. Cubs are born with their eyes open and with a soft, dark brown coat, and they may attack one another shortly after birth. Females give birth through a narrow clitoris (the pseudo-penis), which ruptures during birth and may take weeks to heal. Males take no part in raising the young. Cubs are weaned at about 14–18 months. Mating is described as aseasonal. In the subregion young are born throughout the year with a peak in late summer, and in Kruger the average gap between litters was found to be about 16–19 months (Skinner and Chimimba 2005, pp. 376–377). A Kruger-specific birth-month range was not found.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -441,6 +441,13 @@
       "url": "https://ewt.org/project/spotted-hyaena/",
       "publisher": "Endangered Wildlife Trust",
       "year": 2025
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (pp. 376-377). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -453,7 +460,7 @@
     "No park-wide Kruger count later than 2015 was found.",
     "No Kruger-specific mass range was found; entered mass is from Serengeti, with heavier Zambia averages noted.",
     "Wikipedia did not publish a tail-length range; the 30–36 cm range is from Animal Diversity Web only.",
-    "No Kruger-specific birth-month range was found. Mating is described as aseasonal.",
+    "No Kruger-specific birth-month range was found. Skinner and Chimimba (2005) say only that births in the subregion occur all year with a late-summer peak.",
     "Iris colour was not found in the sources consulted.",
     "The Kruger sound recordings do not name the call type."
   ]

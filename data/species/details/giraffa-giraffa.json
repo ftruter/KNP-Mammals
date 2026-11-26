@@ -56,7 +56,21 @@
       "min": 76,
       "max": 101
     },
-    "note": "Total standing height, rather than shoulder height, is the usual published measurement. Wikipedia gives 4.3–5.7 m for males, with females shorter. Animal Diversity Web (under the older combination Giraffa camelopardalis) gives bulls 5.7 m in total height and 3.3 m at the shoulder, with a neck of 2.4 m, and says cows are 0.7–1 m shorter than bulls. Tail length is 80–100 cm on Wikipedia and 76–101 cm on Animal Diversity Web. Mass was published only as averages (1,192 kg for males and 828 kg for females on Wikipedia) or as upper bounds (bulls up to 1,930 kg and cows up to 1,180 kg on Animal Diversity Web), so massKg is omitted. Newborns are 1.7–2 m tall (Wikipedia) or 2 m at the shoulder and 50–55 kg (Animal Diversity Web). Ossicones may reach 13.5 cm. No sexed shoulder-height range was found."
+    "note": "Total standing height, rather than shoulder height, is the usual published measurement. Wikipedia gives 4.3–5.7 m for males, with females shorter. Animal Diversity Web (under the older combination Giraffa camelopardalis) gives bulls 5.7 m in total height and 3.3 m at the shoulder, with a neck of 2.4 m, and says cows are 0.7–1 m shorter than bulls. Tail length is 80–100 cm on Wikipedia and 76–101 cm on Animal Diversity Web. Mass was published only as averages (1,192 kg for males and 828 kg for females on Wikipedia) or as upper bounds (bulls up to 1,930 kg and cows up to 1,180 kg on Animal Diversity Web), so massKg is omitted. Newborns are 1.7–2 m tall (Wikipedia) or 2 m at the shoulder and 50–55 kg (Animal Diversity Web). Ossicones may reach 13.5 cm. No sexed shoulder-height range was found. Skinner and Chimimba (2005, p. 617, Table 321.1) give shoulder height of 203–349 cm (two samples: northern Botswana and the former Transvaal, males 256–349, females 203–301) and, for the former Transvaal sample (adults older than eight years), a mass of 973–1,395 kg in males and 703–950 kg in females. The book's tail range (75–150 cm) is wider than the range stored above; the stored range was not changed.",
+    "shoulderHeightCm": {
+      "min": 203.2,
+      "max": 349
+    },
+    "massKg": {
+      "male": {
+        "min": 973,
+        "max": 1395
+      },
+      "female": {
+        "min": 703,
+        "max": 950
+      }
+    }
   },
   "summary": "The tallest land mammal, with a very long neck, long legs, and a coat of dark, somewhat rounded patches on a tawny ground, running down the legs and getting smaller. Both sexes have skin-covered ossicones. Kruger holds a large, year-round population of the southern giraffe.",
   "description": "The South African form of the southern giraffe, the one in Kruger, has dark, somewhat rounded patches with some fine projections on a tawny background. The spots extend down the legs and become smaller. Bulls are taller than cows, and their ossicones are thicker, with the hair often worn smooth; cows have thinner, tufted ossicones. The median lump on the forehead is less developed in this form than in some others. A short erect mane runs along the neck, and the long tail ends in a dark tuft. Each animal's patch pattern is unique. The tongue is long, dark and prehensile.",
@@ -153,7 +167,7 @@
       "season": "any",
       "marks": {
         "horns": {
-          "colour": null,
+          "colour": "tops covered with black hair",
           "shape": "skin-covered ossicones; thinner and tufted in females, thicker and often worn smooth in males"
         },
         "ears": {
@@ -399,6 +413,13 @@
       "publisher": "Visit the Kruger Park",
       "year": 2026,
       "note": "Source of the 2023 range or count, where given."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 617, Table 321.1), marks (p. 616). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -414,7 +435,7 @@
     "No Kruger-specific calving-month range was found.",
     "A species-level IUCN global assessment for Giraffa giraffa was not found in the sources used.",
     "Iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No reusable Kruger recording found."
   ]
 }

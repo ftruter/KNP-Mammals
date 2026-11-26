@@ -143,11 +143,11 @@
           "shape": null
         },
         "upperparts": {
-          "colour": null,
+          "colour": "buffy-brown or grey-brown",
           "pattern": null
         },
         "underparts": {
-          "colour": null,
+          "colour": "lighter than the upperparts",
           "pattern": null
         },
         "legs": {
@@ -219,6 +219,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/40680",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 341). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

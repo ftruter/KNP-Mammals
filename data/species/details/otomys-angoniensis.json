@@ -57,7 +57,15 @@
             "min": 0.025,
             "max": 0.215
         },
-        "note": "The 2016 and 2025 EWT assessments do not publish body measurements. Figures are from Animal Diversity Web, citing Bronner and Meester (1988): range mass 25-215 g (0.025-0.215 kg). That range is wide and may be an Africa-wide account that includes both young and adults. Head-and-body length, tail length and shoulder height were not given in the sources used. Animal Diversity Web does not split mass by sex."
+        "note": "The 2016 and 2025 EWT assessments do not publish body measurements. Figures are from Animal Diversity Web, citing Bronner and Meester (1988): range mass 25-215 g (0.025-0.215 kg). That range is wide and may be an Africa-wide account that includes both young and adults. Head-and-body length, tail length and shoulder height were not given in the sources used. Animal Diversity Web does not split mass by sex. Skinner and Chimimba (2005, p. 170) give, in Table 96.1 (all samples combined): tail 4.3–15 cm; head-and-body length 11.3–27.9 cm.",
+        "tailCm": {
+            "min": 4.3,
+            "max": 15.0
+        },
+        "headBodyLengthCm": {
+            "min": 11.3,
+            "max": 27.9
+        }
     },
     "summary": "A medium to large murid of well-watered savanna grassland, seasonally flooded grassland and wetlands, usually found near water. The coat is long and soft, reddish brown to grey, and the throat is often buff. The ears are large, and the animal makes distinctive trails through dense grass. It is mainly diurnal, usually solitary, and is present in Kruger National Park.",
     "description": "Animal Diversity Web, citing Bronner and Meester (1988), describes the Angoni vlei rat as medium to large compared with other murids, with long, soft reddish-brown to grey fur and a throat that is often buff. The same account says the ears are large, and that the name Otomys comes from the Greek for ear and mouse. The sexes are not described as differently marked. This description may be an Africa-wide account. The 2016 and 2025 EWT assessments do not publish a pelage description.",
@@ -125,7 +133,7 @@
                 },
                 "eye": {
                     "iris": null,
-                    "ring": null
+                    "ring": "buffy-yellow patches around the eyes"
                 },
                 "head": {
                     "face": null,
@@ -141,14 +149,14 @@
                     "pattern": "long, soft fur"
                 },
                 "underparts": {
-                    "colour": null,
+                    "colour": "dull dark grey",
                     "pattern": "throat often buff"
                 },
                 "legs": {
                     "colour": null
                 },
                 "tail": {
-                    "colour": null,
+                    "colour": "dark above, buffy-white below",
                     "shape": null
                 }
             }
@@ -237,6 +245,13 @@
             "url": "https://api.inaturalist.org/v1/taxa/45439",
             "publisher": "iNaturalist",
             "year": 2026
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 170, Table 96.1), marks (p. 170). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {
@@ -250,10 +265,10 @@
         "No licensable natural Kruger photograph suitable for display was found. A research-grade iNaturalist search in place 69020 with the licence filter returned 0 observations. A South Africa (place 6986) search returned 5 research-grade licensed observations: 3 were dead animals (Sedibeng, a garden kill by a domestic cat in Centurion, and a road-killed animal at Upper Treur, Mpumalanga) and were dropped. Two wild photographs were kept: one from Golden Gate Highlands National Park, Free State, and one from Buffelskloof Nature Reserve, Mpumalanga.",
         "iNaturalist has 0 sound observations for Otomys angoniensis in place 69020. No sourced description of the calls was found.",
         "The 2025 EWT assessment notes that East and southern African Otomys angoniensis may be distinct species, that O. a. maximus is provisionally included, and that three subspecies are recognised. This file follows species-list.json (Otomys angoniensis) and does not attempt to re-identify Kruger records. EWT records the species as present in Kruger National Park.",
-        "Skinner and Chimimba and Stuart's field guide were not available as books. The 2016 and 2025 EWT pages do not publish body measurements. Mass is from Animal Diversity Web only and may be Africa-wide. Head-and-body length, tail length and shoulder height were not found.",
+        "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. The 2016 and 2025 EWT pages do not publish body measurements. Mass is from Animal Diversity Web only and may be Africa-wide. Shoulder height was not found.",
         "No Kruger-specific breeding study was found. Animal Diversity Web's age at first breeding (around 4 months) disagrees with the 2025 EWT figures (5 weeks for females and 8 weeks for males, citing Phillips et al. 1997); those disagreements are recorded rather than averaged.",
         "Animal Diversity Web describes mainly coastal or montane habitat, including desert records, which disagrees with the EWT account of well-watered savanna grassland and wetlands generally below 1,000 m; the disagreement is recorded rather than averaged.",
         "This is the only Otomys species in the Kruger list, so no similar-species contrast with another vlei rat in this guide was written.",
-        "Iris colour, ear colour, face and muzzle colour, underpart colour besides the throat, leg colour, tail colour and shape, and a sexed size split were not given in the sources used, so those marks are null."
+        "Iris colour, ear colour, face, muzzle colour, underpart colour besides the throat, leg colour, shape and a sexed size split were not given in the sources used, so those marks are null."
     ]
 }

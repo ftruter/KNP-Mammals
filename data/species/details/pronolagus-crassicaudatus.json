@@ -65,7 +65,11 @@
       "min": 2.4,
       "max": 3
     },
-    "note": "A compiled Wikipedia account (citing Happold 2013, Kingdon 2015 and Schütze 2002) gives length 46–56 cm, tail 3.5–11 cm, ears 7.5–8.5 cm, and mass 2.4–3 kg. It does not say whether the 46–56 cm figure is head-and-body or total length. The 2025 EWT assessment gives a maximum size of 50–67 cm, also without saying whether this is head-and-body or total length, and gives no mass. Shoulder height was not found. It is described as the largest Pronolagus species."
+    "note": "A compiled Wikipedia account (citing Happold 2013, Kingdon 2015 and Schütze 2002) gives length 46–56 cm, tail 3.5–11 cm, ears 7.5–8.5 cm, and mass 2.4–3 kg. It does not say whether the 46–56 cm figure is head-and-body or total length. The 2025 EWT assessment gives a maximum size of 50–67 cm, also without saying whether this is head-and-body or total length, and gives no mass. Shoulder height was not found. It is described as the largest Pronolagus species. Skinner and Chimimba (2005, p. 73) give, in Table 37.1 (all samples combined): head-and-body length 46–56 cm.",
+    "headBodyLengthCm": {
+      "min": 46.0,
+      "max": 56.0
+    }
   },
   "summary": "A short-eared, rabbit-like hare of rocky slopes, with a grizzled grey-brown coat that becomes bright rufous on the rump, limbs and tail. It is the largest of the red rock hares, lives in small colonies, and is nocturnal, sheltering in rock crevices or dense grass by day. The 2011 SANParks checklist includes it in Kruger, but later range accounts and the lack of iNaturalist records in the park leave its presence there uncertain.",
   "description": "The largest of the red rock hares, rabbit-like, with short ears 7.5–8.5 cm long that are sparsely furred, grey on the inner surface and whitish grey on the outer surface. The head is slightly grizzled greyish brown, with grey or greyish-white lower cheeks and chin, and a greyish-white band running along the jaw edge to the nape patch. The dorsal pelage is grizzled brown flecked with black; the dense fur is thick and rougher than in other rock hares. The rump is bright reddish brown, the flanks paler, and the feet, forelimbs and hindlimbs dull to rufous-brown. Accounts of the underparts differ: one compiled description gives pale reddish brown underparts with uneven white patches and streaks, and greyish underparts grizzled with rufous in another passage of the same source, while the 2025 EWT assessment describes typically greyish pelage becoming rufous on the rump and limbs. The tail is bright rufous above and below, and lighter in tone than in other members of the genus. A brown to grey nuchal patch is present.",
@@ -307,6 +311,13 @@
       "publisher": "SANParks",
       "year": 2011,
       "note": "Source of the English and Afrikaans names used here (Natal red rock rabbit, Natalse rooiklipkonyn) and of official inclusion. Used for resident status under rule (a)."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 73, Table 37.1). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -323,6 +334,6 @@
     "Shoulder height was not found. The Wikipedia length of 46–56 cm and the 2025 EWT maximum size of 50–67 cm do not say whether they are head-and-body or total length.",
     "A Kruger-specific habitat account, home-range figure and birth-month range were not found.",
     "Longevity is given as two to three years in the 2025 EWT assessment and as up to five years in a compiled account; both are recorded rather than averaged.",
-    "Iris colour, muzzle colour, and a single agreed colour for the underparts were not given clearly in the sources used. Animal Diversity Web has no species account. Skinner & Chimimba and Stuart's field guide were not available."
+    "Iris colour, muzzle colour, and a single agreed colour for the underparts were not given clearly in the sources used. Animal Diversity Web has no species account. Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry."
   ]
 }

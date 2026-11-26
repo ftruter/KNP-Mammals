@@ -200,7 +200,7 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
+          "colour": "patches of long white hair inside the ears",
           "shape": null
         },
         "eye": {
@@ -237,7 +237,7 @@
           ]
         },
         "tail": {
-          "colour": null,
+          "colour": "blackish terminal tuft",
           "shape": "long, ending in a tuft; held upright when running"
         }
       }
@@ -477,6 +477,13 @@
       "publisher": "Visit the Kruger Park",
       "year": 2026,
       "note": "Source of the 2023 range or count, where given."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 552). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -490,7 +497,7 @@
     "A sourced description of the warthog's call was not found, so the call entry is a placeholder without a recording.",
     "Tail length, iris colour and a named underpart colour were not given in the sources used, so those marks are null.",
     "No Kruger-specific farrowing-month range was found. General accounts give birth near the start of the rainy season, after a gestation of five to six months.",
-    "Skinner & Chimimba and Stuart's field guide were not available. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
+    "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. Size, diet, habits, young and predators were taken from Wikipedia and Animal Diversity Web.",
     "No reusable Kruger recording found."
   ]
 }

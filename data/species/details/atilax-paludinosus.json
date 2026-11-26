@@ -50,7 +50,15 @@
       "min": 2.5,
       "max": 4.1
     },
-    "note": "Animal Diversity Web gives an adult mass range of 2.5–4.1 kg and does not publish head-and-body or tail lengths. Wikipedia does not give that mass range: it states that adults range from 2.56 to 2.95 kg, that females measure 48.72 cm and males 51.38 cm in head-to-body length, and that the tail is 32.18–34.11 cm. Those Wikipedia figures are unusually precise and sit beside sexed head-and-body values that read as single measurements rather than a published min–max range, so they are not entered as structured bounds. Shoulder height was not published in the sources used. The two sources' mass figures are not reconciled here beyond entering Animal Diversity Web's range."
+    "note": "Animal Diversity Web gives an adult mass range of 2.5–4.1 kg and does not publish head-and-body or tail lengths. Wikipedia does not give that mass range: it states that adults range from 2.56 to 2.95 kg, that females measure 48.72 cm and males 51.38 cm in head-to-body length, and that the tail is 32.18–34.11 cm. Those Wikipedia figures are unusually precise and sit beside sexed head-and-body values that read as single measurements rather than a published min–max range, so they are not entered as structured bounds. Shoulder height was not published in the sources used. The two sources' mass figures are not reconciled here beyond entering Animal Diversity Web's range. Skinner and Chimimba (2005, p. 459, Table 253.1, two samples) give a head-and-body length of 46.5–64 cm (males 47.1–64, females 46.5–57; second sample) and a tail of 31–41 cm (both samples combined). Their mass ranges (2.0–4.1 kg across the samples) overlap the range stored above.",
+    "headBodyLengthCm": {
+      "min": 46.5,
+      "max": 64
+    },
+    "tailCm": {
+      "min": 31,
+      "max": 41
+    }
   },
   "summary": "A medium-sized, mainly nocturnal mongoose of rivers, marshes and other freshwater wetlands, usually seen alone. The coat is dark reddish brown to black and shaggy, with paler guard hairs; the muzzle is short, the ears are short and round, and each foot has five flexible, clawed, unwebbed toes. It forages along shorelines, mostly for crabs and frogs, and also takes small vertebrates, insects, carrion and some fruit.",
   "description": "The water mongoose, also widely called the marsh mongoose, is a medium-sized, dark, shaggy herpestid and the only living member of the genus Atilax. Wikipedia describes the fur as dark reddish brown to black with white and fawn-coloured guard hairs; the hair is shorter behind the neck and on the front of the back, and longer on the hind legs and the tail. The muzzle is short, with a fawn-coloured mouth, short whiskers and a naked rhinarium; the ears are short and round. Each foot has five flexible digits with curved claws and no webbing, and the soles are naked. Animal Diversity Web similarly calls it a dark-brown, specialised mongoose, with thick, shaggy fur on the neck, body and tail, and short, sleek fur on the hands and feet, and notes sensitive hands used to feel for prey. Females have two nipples. No sourced difference in coat pattern between the sexes was found. The 2011 SANParks checklist name Water mongoose is stored here; the EWT assessment lists both Water Mongoose and Marsh Mongoose as English names, and Kommetjiegatmuishond as the Afrikaans name.",
@@ -73,7 +81,7 @@
     ],
     "guild": "omnivore"
   },
-  "young": "In the assessment region, the EWT assessment says mating takes place between August and February, and that females give birth to two or three young after a gestation of 73–74 days (it also lists gestation as 74 days and a mean litter size of 2.5). Wikipedia gives a wider gestation of 69–80 days and the same litter size of two to three, and describes the young as fully furred at birth; the eyes open between the 9th and 14th day, the pupils are bluish at first and change to brown at three weeks, the ear canal opens between the 17th and 28th day, and weaning begins from about day 30 and is complete by two months. Animal Diversity Web disagrees on season and some timings: it says the species breeds twice a year, once in the middle of the dry season and once in the rains, gives a litter of up to three (average two), an average gestation of 76 days, weaning in a few months, and an average male age at sexual maturity of 255 days. The female prepares a nest of dry grass in a hole, or, if no hole is available in swampy ground, a nest of reeds, grass and sticks; a second adult sometimes accompanies the family. A Kruger-specific birth-month range was not found. Sources also disagree on longevity in captivity (17 years on the EWT life-history table and on Animal Diversity Web, versus up to 19 years cited by the EWT assessment from Nowak 1999).",
+  "young": "In the assessment region, the EWT assessment says mating takes place between August and February, and that females give birth to two or three young after a gestation of 73–74 days (it also lists gestation as 74 days and a mean litter size of 2.5). Wikipedia gives a wider gestation of 69–80 days and the same litter size of two to three, and describes the young as fully furred at birth; the eyes open between the 9th and 14th day, the pupils are bluish at first and change to brown at three weeks, the ear canal opens between the 17th and 28th day, and weaning begins from about day 30 and is complete by two months. Animal Diversity Web disagrees on season and some timings: it says the species breeds twice a year, once in the middle of the dry season and once in the rains, gives a litter of up to three (average two), an average gestation of 76 days, weaning in a few months, and an average male age at sexual maturity of 255 days. The female prepares a nest of dry grass in a hole, or, if no hole is available in swampy ground, a nest of reeds, grass and sticks; a second adult sometimes accompanies the family. A Kruger-specific birth-month range was not found. Sources also disagree on longevity in captivity (17 years on the EWT life-history table and on Animal Diversity Web, versus up to 19 years cited by the EWT assessment from Nowak 1999). Skinner and Chimimba (2005, pp. 461–462) say litters are born from August to December in the wild, with a gestation of about 74 days (range 69–80), a mean litter of 2.5 (range 2–3) and a mean birth mass of about 108 g (range 78–123 g).",
   "predators": [
     {
       "slug": "lupulella-mesomelas",
@@ -169,7 +177,7 @@
           "pattern": "shaggy dark fur with white and fawn guard hairs; hair shorter behind the neck and on the front of the back, longer on the hind legs and tail"
         },
         "underparts": {
-          "colour": null,
+          "colour": "follows the upperparts: dark, or russet in russet animals, with short greyish-brown underfur showing through the sparse guard hairs",
           "pattern": null
         },
         "legs": {
@@ -286,6 +294,13 @@
       "publisher": "Endangered Wildlife Trust",
       "year": 2025,
       "note": "2025 regional Red List assessment. Lists Kommetjiegatmuishond as the Afrikaans name. No 2016 PDF link was present on the page."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 459, Table 253.1), marks (p. 458), young (pp. 461-462). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -300,7 +315,7 @@
     "Wikipedia's sexed head-to-body figures (48.72 cm in females and 51.38 cm in males) and tail span (32.18–34.11 cm) were not entered as structured ranges, because they read as single measurements rather than a published min–max; Animal Diversity Web does not give length ranges.",
     "Sources disagree on mass (Animal Diversity Web 2.5–4.1 kg versus Wikipedia 2.56–2.95 kg), gestation (73–74 days or 74 days versus 69–80 days versus an average of 76 days), breeding season (mating from August to February in the assessment region versus twice a year, in the mid dry season and in the rains), and captive longevity (17 versus up to 19 years).",
     "A Kruger-specific birth-month range was not found.",
-    "Iris colour, underpart colour and leg colour were not given in the sources used, so those marks are null.",
+    "Iris colour and leg colour were not given in the sources used, so those marks are null.",
     "A description of the young's coat colour, beyond being fully furred at birth, was not found, so no young variant was added.",
     "No reusable Kruger recording found.",
     "No usable Kruger photograph was found: the Commons Kruger search returned no hits, and the allowed-licence iNaturalist records in place 69020 were footprints or a watermarked predation photograph."

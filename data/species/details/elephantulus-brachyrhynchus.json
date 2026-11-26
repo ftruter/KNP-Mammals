@@ -61,7 +61,11 @@
       "min": 0.04,
       "max": 0.06
     },
-    "note": "Wikipedia, citing Smithers (1983), gives an average length of 21 cm from head to tail and an average mass of 1.41–2.11 oz (40–60 g). The 2025 regional assessment gives size at maturity as 21 cm for both sexes, without saying whether that is total length or another measurement. Animal Diversity Web, also citing Smithers (1983), gives an average body length of 21 cm and a tail length of approximately the same, with a mass range of 40–60 g. The length figures therefore disagree on whether 21 cm includes the tail, and should not be averaged; lengthCm stores the 21 cm figure as an average, not a range, following Wikipedia's head-to-tail wording and the 2025 assessment's size at maturity. Head-and-body length and tail length are left unset because of that disagreement. Shoulder height was not found."
+    "note": "Wikipedia, citing Smithers (1983), gives an average length of 21 cm from head to tail and an average mass of 1.41–2.11 oz (40–60 g). The 2025 regional assessment gives size at maturity as 21 cm for both sexes, without saying whether that is total length or another measurement. Animal Diversity Web, also citing Smithers (1983), gives an average body length of 21 cm and a tail length of approximately the same, with a mass range of 40–60 g. The length figures therefore disagree on whether 21 cm includes the tail, and should not be averaged; lengthCm stores the 21 cm figure as an average, not a range, following Wikipedia's head-to-tail wording and the 2025 assessment's size at maturity. Head-and-body length and tail length are left unset because of that disagreement. Shoulder height was not found. Skinner and Chimimba (2005, p. 28) give, in Table 22.1 (all samples combined): tail 8.5–11.2 cm.",
+    "tailCm": {
+      "min": 8.5,
+      "max": 11.2
+    }
   },
   "summary": "A small sengi of dense grass and scrub, with a shorter, slightly tapered snout than other elephant-shrews, a pale eye-ring and yellowish patches behind the ears. It is listed on the 2011 SANParks Kruger checklist and is treated here as a year-round resident of the park.",
   "description": "A small, soft-furred sengi. Wikipedia, citing Smithers, gives an average length of 21 cm from head to tail and a mass of 40–60 g. The 2025 regional assessment gives size at maturity as 21 cm in both sexes. Animal Diversity Web, also citing Smithers, gives an average body length of 21 cm and a tail of about the same length; those length figures disagree and are not averaged here. The snout is long and narrow, as in other sengis, but shorter and slightly tapered. Animal Diversity Web, citing Smithers, describes the coat as reddish-yellow to yellowish-brown or grey, with a faint white eye-ring and hairless soles on the hind feet. Wikipedia adds white, buffy or off-white rings around the eyes and upper lip, and brownish-yellow patches behind the ears. The sexes are not described as differing in coat.",
@@ -179,14 +183,14 @@
           "pattern": "soft fur; colour varies with locality, following Animal Diversity Web citing Smithers"
         },
         "underparts": {
-          "colour": null,
+          "colour": "white",
           "pattern": null
         },
         "legs": {
           "colour": "soles of the hind feet lack hair, following Animal Diversity Web citing Smithers; a separate leg colour was not given"
         },
         "tail": {
-          "colour": null,
+          "colour": "deep brown above in darker animals to yellowish-grey in lighter ones; paler below",
           "shape": null
         }
       }
@@ -275,6 +279,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/43211",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 28, Table 22.1), marks (p. 28). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -288,7 +299,7 @@
     "The 2025 EWT page does not name Kruger National Park. Resident status is based on the 2011 SANParks Kruger checklist and two research-grade iNaturalist records in place 69020, both with positional accuracy coarser than 1 km (observations 65846810 and 45100214).",
     "Shoulder height was not found. Head-and-body length and tail length were left unset because Wikipedia and Animal Diversity Web, both citing Smithers, disagree on whether the 21 cm figure includes the tail.",
     "A Kruger-specific birth-month range was not found. Published breeding is described as year-round, with fewer conceptions in cool periods.",
-    "Iris colour and underparts colour were not given in the sources used, so those marks are null. Predators were named only as broad groups (birds of prey, big cats, snakes), with no species.",
+    "Iris colour was not given in the sources used, so that mark is null. Predators were named only as broad groups (birds of prey, big cats, snakes), with no species.",
     "A species-specific comparison with the four-toed elephant-shrew (Petrodromus tetradactylus) was not found beyond this species' shorter, slightly tapered snout relative to other sengis.",
     "iNaturalist has 0 sound observations for Elephantulus brachyrhynchus in place 69020. Footdrumming is described from Animal Diversity Web and Wikipedia; recordings is empty.",
     "No usable Kruger photograph was found. The two research-grade Kruger observations were excluded: 65846810 has accuracy of about 14 km, and 45100214 has accuracy of 5 km and CC BY-NC-ND photographs. Two South Africa photographs were used, both from Vhembe District Municipality on 24 February 2026 (observations 340029359 and 340029340, CC BY-NC, Vaughan Jessnitz). A Nylsvley observation (203733959) was a trap or bag shot, a Three Rondavels observation (67845600) was taken through a fence, and a Mopani record (413756595) was too poor to use."

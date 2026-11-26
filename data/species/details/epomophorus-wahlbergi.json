@@ -57,7 +57,11 @@
       "min": 0.054,
       "max": 0.125
     },
-    "note": "Wikipedia, citing Bergmans (1988) and Happold, Happold and Hill (1987), gives an adult mass of 54-125 g, and wingspans of 510-600 mm in males and 456-540 mm in females. Animal Diversity Web gives a mass of 40-120 g and a male wingspan of about 508 mm, and also a total body length of 125-250 mm; those figures are recorded as a disagreement rather than averaged, and the 54-125 g range is entered here. The 2025 EWT assessment does not give mass or wingspan, but gives mean forearm length at maturity as 8.12 cm in females and 8.51 cm in males (Monadjem et al. 2020). No shoulder height, head-and-body length or tail length was published as such in the sources used, so the wide Animal Diversity Web total-length range is not entered as head-and-body length."
+    "note": "Wikipedia, citing Bergmans (1988) and Happold, Happold and Hill (1987), gives an adult mass of 54-125 g, and wingspans of 510-600 mm in males and 456-540 mm in females. Animal Diversity Web gives a mass of 40-120 g and a male wingspan of about 508 mm, and also a total body length of 125-250 mm; those figures are recorded as a disagreement rather than averaged, and the 54-125 g range is entered here. The 2025 EWT assessment does not give mass or wingspan, but gives mean forearm length at maturity as 8.12 cm in females and 8.51 cm in males (Monadjem et al. 2020). No shoulder height, head-and-body length or tail length was published as such in the sources used, so the wide Animal Diversity Web total-length range is not entered as head-and-body length. Skinner and Chimimba (2005, p. 260) give, in Table 149.1 (all samples combined): head-and-body length 10.3–18 cm.",
+    "headBodyLengthCm": {
+      "min": 10.3,
+      "max": 18.0
+    }
   },
   "summary": "A medium-sized African fruit bat of woodland, riparian forest and wooded gardens, brown to tawny, with white hair patches at the base of the ears and, in males, erectable white shoulder epaulettes. In Kruger National Park it specialises on the fruits of sycamore fig, roosts in tree foliage, and may fly more than 13 km in a night between roost and feeding sites. It is listed as Least Concern in the 2025 regional assessment and on the global IUCN Red List.",
   "description": "A medium-sized epauletted fruit bat. Wikipedia describes the coat as brown to tawny, with white hair patches at the base of the ears, and says males are typically darker than females, have erectable epaulettes of hair around large scent glands, and have air sacs on the neck that may increase the volume of courtship calls; scent glands also lie near the white ear patches in both sexes. Animal Diversity Web describes the colour as grayish brown, russet or tawny, a dog-like face, large eyes, simple oval ears that form an unbroken ring and lack a tragus, no nose-leaf, a short tail that projects from a very narrow uropatagium, clawed first and second digits, and large flat cheek teeth. Wikipedia likewise notes large eyes, simple oval ears without a tragus, a simple nose, and highly folded, expansible lips, and says the wings are broad compared with other bats. The two colour accounts are both recorded rather than reconciled. Adult Epomophorus wahlbergi is distinguished from sympatric E. crypturus by a single post-dental palatal ridge and a broader muzzle (Taylor and Monadjem 2008, cited in the EWT assessments). Wikipedia, citing Hayman and Hill (1971), says species of Epomophorus can be distinguished from other megabats by their white epaulettes.",
@@ -160,7 +164,7 @@
           "pattern": "Wikipedia describes the coat as brown to tawny, Animal Diversity Web as grayish brown, russet or tawny; both accounts are recorded. Wikipedia says males are typically darker than females"
         },
         "underparts": {
-          "colour": null,
+          "colour": "pale buffy-brown",
           "pattern": null
         },
         "legs": {
@@ -316,6 +320,13 @@
       "url": "https://api.inaturalist.org/v1/taxa/40811",
       "publisher": "iNaturalist",
       "year": 2026
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 260, Table 149.1), marks (p. 259). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -329,7 +340,7 @@
     "iNaturalist place 69020 (Kruger) returned 0 licensed research-grade photograph observations and 0 sound observations for taxon 40811. The two photographs used are wild foliage roosts from uMkhanyakude District Municipality, KwaZulu-Natal (place 6986). Two other licensed South Africa photographs that were viewed showed bats under thatch and were not used.",
     "No licensable sound recording from Kruger was found. Courtship-call and possible tongue-click descriptions are taken from Wikipedia, Animal Diversity Web and the 2025 EWT assessment (Adams and Snode 2015).",
     "Mass is given as 54-125 g by Wikipedia and as 40-120 g by Animal Diversity Web; the disagreement is recorded rather than averaged. No shoulder height, head-and-body length or quantified tail length was published as such. Animal Diversity Web's total body length of 125-250 mm is noted but not entered as head-and-body length. Forearm means from the 2025 assessment and wingspans from Wikipedia are given in the size note only.",
-    "Iris colour, underpart colour, leg colour and a quantified sexed mass split were not given in the sources used, so those marks are null. Coat colour is entered as both brown to tawny (Wikipedia) and grayish brown, russet or tawny (Animal Diversity Web).",
+    "Iris colour, leg colour and a quantified sexed mass split were not given in the sources used, so those marks are null. Coat colour is entered as both brown to tawny (Wikipedia) and grayish brown, russet or tawny (Animal Diversity Web).",
     "Birth season is given as mainly November, occasionally July (2025 EWT assessment); as February to March and October to December (Wikipedia); and as around the end of February and the beginning of September (Animal Diversity Web). Those accounts are recorded as a disagreement. Size at birth was not given. No Kruger-specific breeding study was found.",
     "No named natural predators were given in the sources used.",
     "The Afrikaans name in species-list.json is Wahlberg se witkolvrugtevlermuis (2011 checklist form). Both the 2016 and 2025 EWT assessments give Wahlberg se Vrugtevlermuis. The species-list form is kept."

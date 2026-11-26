@@ -141,13 +141,13 @@
                 },
                 "underparts": {
                     "colour": "white",
-                    "pattern": null
+                    "pattern": "each hair slate-grey at the base with a broad off-white or buffy-white tip"
                 },
                 "legs": {
                     "colour": null
                 },
                 "tail": {
-                    "colour": null,
+                    "colour": "dark above, slightly paler below",
                     "shape": "long and hairless, similar in length to the head and body"
                 }
             }
@@ -196,6 +196,13 @@
             "url": "https://api.inaturalist.org/v1/taxa/45632",
             "publisher": "iNaturalist",
             "year": 2026
+        },
+        {
+            "title": "The Mammals of the Southern African Subregion, 3rd edition",
+            "url": "https://doi.org/10.1017/CBO9781107340992",
+            "publisher": "Cambridge University Press",
+            "year": 2005,
+            "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 135). Page numbers are the printed book pages. Cited, not hosted."
         }
     ],
     "research": {
@@ -211,9 +218,9 @@
         "This pass found no licensable live-animal photograph: iNaturalist place 113055 (southern Africa) had 0 observations of taxon 45632 with an allowed photo licence, and Wikimedia Commons searches for Dasymys incomtus and African marsh rat found only a museum skin and distribution maps.",
         "iNaturalist has 0 sound observations for Dasymys incomtus in place 69020. No sourced description of the calls was found.",
         "A 2025 EWT project page was not found in the one site search. The 2025 fact sheet uplists D. incomtus to Vulnerable as an endemic, without mentioning D. robertsii. Conservation status for the named taxon follows that fact sheet and the 2016 split assessment.",
-        "Skinner and Chimimba and Stuart's field guide were not available as books. The 2016 EWT page does not publish measurements. Length and mass are from Animal Diversity Web only and may follow a broader, Africa-wide species concept.",
+        "Stuart's field guide was not available. Skinner and Chimimba (2005) was used for the fields named in its source entry. The 2016 EWT page does not publish measurements. Length and mass are from Animal Diversity Web only and may follow a broader, Africa-wide species concept.",
         "No named predator of this species was given in the sources used.",
-        "Iris colour, ear colour, leg colour, tail colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null.",
+        "Iris colour, ear colour, leg colour, a sexed size split and shoulder height were not given in the sources used, so those marks are null.",
         "A Kruger-specific habitat or breeding study for D. incomtus was not found."
     ]
 }

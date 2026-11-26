@@ -136,8 +136,8 @@
           "shape": null
         },
         "ears": {
-          "colour": null,
-          "shape": null
+          "colour": "a white patch at the base of the outer margin",
+          "shape": "large"
         },
         "eye": {
           "iris": null,
@@ -145,7 +145,7 @@
         },
         "head": {
           "face": null,
-          "muzzle": null,
+          "muzzle": "sharp-pointed",
           "beard": null
         },
         "mane": {
@@ -167,7 +167,7 @@
           "colour": null
         },
         "tail": {
-          "colour": null,
+          "colour": "above like the upperparts (chestnut); lighter below",
           "shape": "long, prehensile"
         }
       }
@@ -239,6 +239,13 @@
       "publisher": "Wikipedia",
       "year": 2026,
       "note": "A stub. Redirect from Dendromus mystacalis. Used for the IUCN global citation and a broad range list only."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: marks (p. 203). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -254,7 +261,7 @@
     "No Kruger census or SANParks park-wide population figure.",
     "No Kruger-specific habitat or activity study.",
     "Age at sexual maturity and gestation period were not found.",
-    "Iris, ear, leg and tail colours, and ear shape, were not described in the sources consulted.",
+    "Iris and leg were not described in the sources consulted.",
     "The 2025 EWT assessment treats the taxon as Dendromus mystacalis sensu lato, a species complex; true D. mystacalis sensu stricto may be restricted to the Ethiopian Highlands, and which lineage the Kruger animals belong to is unresolved. This file keeps Dendromus mystacalis from species-list.json and does not remap Kruger records."
   ]
 }

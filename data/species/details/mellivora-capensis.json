@@ -94,7 +94,7 @@
     ],
     "guild": "carnivore"
   },
-  "young": "There is no fixed breeding season. Gestation is thought to last 50–70 days, and a litter is usually of one or two cubs, born blind and hairless in a den. The black-and-white coat begins to appear at about three to five weeks, and cubs follow the mother on foraging trips from about eight to twelve weeks. The young stay with her for about 12–16 months. In the Kalahari, mating occurs year-round and is slightly more frequent in the hot dry season (September to December). A Kruger-specific birth-month range was not found.",
+  "young": "There is no fixed breeding season. Gestation is thought to last 50–70 days, and a litter is usually of one or two cubs, born blind and hairless in a den. The black-and-white coat begins to appear at about three to five weeks, and cubs follow the mother on foraging trips from about eight to twelve weeks. The young stay with her for about 12–16 months. In the Kalahari, mating occurs year-round and is slightly more frequent in the hot dry season (September to December). In Kruger, matings have been recorded in February, June and December (Skinner and Chimimba 2005, p. 504, citing Fairall 1968), which fits breeding at any time of year. A Kruger-specific birth-month range was not found.",
   "predators": [
     {
       "slug": "panthera-leo",
@@ -355,6 +355,13 @@
       "publisher": "SANBI and Endangered Wildlife Trust",
       "year": 2016,
       "note": "Cited only; the PDF is not hosted in this repo."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: young (p. 504). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {

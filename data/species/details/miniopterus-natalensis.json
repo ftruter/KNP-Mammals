@@ -29,14 +29,14 @@
       "max": null
     },
     "tailCm": {
-      "min": null,
-      "max": null
+      "min": 4.0,
+      "max": 6.0
     },
     "massKg": {
-      "min": null,
-      "max": null
+      "min": 0.006,
+      "max": 0.0163
     },
-    "note": "The 2016 EWT assessment, the Wikipedia article and the Animal Diversity Web classification page do not give mass, head-and-body length, tail length, forearm length, shoulder height or wingspan figures. Those bounds are left null. The assessment describes high wing loading and aspect ratio (Norberg and Rayner 1987; Jacobs 1999; Schoeman and Jacobs 2003, 2008; Miller-Butterworth et al. 2005) without publishing the measurements."
+    "note": "The 2016 EWT assessment, the Wikipedia article and the Animal Diversity Web classification page do not give mass, head-and-body length, tail length, forearm length, shoulder height or wingspan figures. Those bounds are left null. The assessment describes high wing loading and aspect ratio (Norberg and Rayner 1987; Jacobs 1999; Schoeman and Jacobs 2003, 2008; Miller-Butterworth et al. 2005) without publishing the measurements. Skinner and Chimimba (2005, p. 296, Table 176.1) give, for all samples combined: tail 4–6 cm; mass 0.006–0.0163 kg."
   },
   "summary": "A cave-roosting long-fingered bat of the family Miniopteridae, recognised in the field by the elongated fingers typical of the genus. It is a clutter-edge forager that takes aerial insects, migrates seasonally between cooler winter hibernacula and summer maternity roosts, and is listed as Least Concern in the 2016 regional assessment and on the global IUCN Red List. Fur colour and body measurements were not given in the sources used.",
   "description": "A long-fingered bat of the family Miniopteridae. This file follows species-list.json in treating the Kruger taxon as Miniopterus natalensis, with the English name Schreibers' long-fingered bat and the Afrikaans name Schreibers se grotvlermuis, and does not remap those names. The 2011 SANParks checklist used the 2011 name Miniopterus schreibersii; the current Kruger taxon is stored as M. natalensis following a recorded split. The 2016 EWT assessment, citing Miller-Butterworth et al. (2005) and Appleton et al. (2004), says M. natalensis was previously included as a subspecies of M. schreibersii, from which it is genetically distinct, and that M. schreibersii is now restricted to North Africa and Europe, with M. natalensis occurring in sub-Saharan Africa. The assessment treats the currently recognised M. natalensis as probably a complex of at least three morphologically similar species, notes that the West African form villiersi may be distinct, and says ongoing molecular research may reveal cryptic species within the assessment region. Wikipedia likewise titles the species Natal long-fingered bat and places it in Miniopteridae, while Animal Diversity Web is a classification stub that still lists the family as Vespertilionidae and the subfamily as Miniopterinae. The 2016 EWT assessment's English names are Natal Long-fingered Bat and Natal Clinging Bat; it does not give an Afrikaans name. A photo caption in that assessment describes the species as displaying the long \"fingers\" typical of the genus. Fur colour, ear shape and other markings were not described in the text sources used, and are not carried over from related Miniopterus species.",
@@ -130,11 +130,11 @@
           "shape": null
         },
         "upperparts": {
-          "colour": null,
+          "colour": "very dark brown to slaty-black",
           "pattern": "Fur colour was not described in the 2016 EWT assessment, Wikipedia or Animal Diversity Web, and is not inferred from related species. A photo caption in the 2016 assessment notes the long fingers typical of the genus."
         },
         "underparts": {
-          "colour": null,
+          "colour": "slightly lighter than the upperparts, especially towards the lower belly",
           "pattern": null
         },
         "legs": {
@@ -233,6 +233,13 @@
       "publisher": "iNaturalist",
       "year": 2026,
       "note": "Taxon 57530, preferred common name Natal Long-fingered Bat. Licensed photographs from places 69020 and 6986, and the place 69020 sounds check, were taken from the observations API."
+    },
+    {
+      "title": "The Mammals of the Southern African Subregion, 3rd edition",
+      "url": "https://doi.org/10.1017/CBO9781107340992",
+      "publisher": "Cambridge University Press",
+      "year": 2005,
+      "note": "Skinner and Chimimba. Used to fill gaps only: size (p. 296, Table 176.1), marks (p. 295). Page numbers are the printed book pages. Cited, not hosted."
     }
   ],
   "research": {
@@ -249,7 +256,7 @@
     "The Afrikaans name in species-list.json is Schreibers se grotvlermuis. The 2016 EWT assessment lists only English common names and does not give an Afrikaans name. The species-list form is kept.",
     "The 2016 EWT assessment treats Miniopterus natalensis as a species complex of at least three morphologically similar species, previously a subspecies of M. schreibersii. The file keeps the species-list.json names and does not assign Kruger animals to a cryptic form.",
     "Animal Diversity Web still places the species in Vespertilionidae (subfamily Miniopterinae). The 2016 EWT assessment, Wikipedia and species-list.json place it in Miniopteridae. The species-list family is kept.",
-    "Head-and-body length, tail length, mass, forearm length, shoulder height, wingspan, fur colour, ear shape, iris colour and tail shape were not given in the 2016 EWT assessment, Wikipedia or Animal Diversity Web, so those marks and bounds are null. Colour and markings were not carried over from related Miniopterus species.",
+    "Head-and-body length, forearm length, shoulder height, wingspan, fur colour, ear shape, iris colour and tail shape were not given in the 2016 EWT assessment, Wikipedia or Animal Diversity Web, so those marks and bounds are null. Colour and markings were not carried over from related Miniopterus species.",
     "Gestation length, birth season, birth mass and lactation were not given in the sources used. The 2016 assessment states only that each female gives birth to a single young at a maternity roost.",
     "No sourced field comparison with Miniopterus fraterculus (the other long-fingered bat in the regional assessments) was found in the sources used for this species, so a similar-species entry was omitted.",
     "iNaturalist place 69020 returned one sound observation (observation 57379381), which was not used because it is identified as needs ID and was taken at rest-camp coordinates. No echolocation or tonal-call description was found in the 2016 EWT assessment, Wikipedia or Animal Diversity Web.",
